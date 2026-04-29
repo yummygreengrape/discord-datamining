@@ -2,6 +2,16 @@
     "build_hash": "c253ffbeac4eb787ee0f638f1042b7e152c035c8",
     "experiments": [
         {
+            "id": "2026-99_fake_test_experiment",
+            "kind": "user",
+            "treatments": [
+                "Control",
+                "Treatment 1"
+            ],
+            "status": "deleted",
+            "timestamp": "2026-04-29T20:19:25.518831+00:00"
+        },
+        {
             "id": "2026-04_voice_invite_suggestion_placement",
             "kind": "guild",
             "treatments": [
