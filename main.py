@@ -88,17 +88,53 @@ def main():
     prev_exps = set(previous_state.get("experiments", []))
     curr_exps = set(current_data["experiments"])
     new_exps = sorted(list(curr_exps - prev_exps))
+    del_exps = sorted(list(prev_exps - curr_exps))
     
     prev_apis = set(previous_state.get("api_endpoints", []))
     curr_apis = set(current_data["api_endpoints"])
     new_apis = sorted(list(curr_apis - prev_apis))
+    del_apis = sorted(list(prev_apis - curr_apis))
+    
+    now_iso = datetime.now(timezone.utc).isoformat()
     
     changes = {
         "build_hash": current_data["build_hash"],
         "new_experiments": new_exps,
+        "deleted_experiments": del_exps,
         "new_api_endpoints": new_apis,
-        "timestamp": datetime.now(timezone.utc).isoformat()
+        "deleted_api_endpoints": del_apis,
+        "timestamp": now_iso
     }
+    
+    # 누적 기록 관리 (history.json)
+    history_file = os.path.join(data_dir, "history.json")
+    history_data = {"experiments": [], "api_endpoints": []}
+    if os.path.exists(history_file):
+        with open(history_file, 'r', encoding='utf-8') as f:
+            try:
+                history_data = json.load(f)
+            except:
+                pass
+
+    # 최초 실행 시 모든 항목을 'added'로 기록
+    if not previous_state:
+        for exp in curr_exps:
+            history_data["experiments"].append({"id": exp, "status": "added", "timestamp": now_iso})
+        for api in curr_apis:
+            history_data["api_endpoints"].append({"id": api, "status": "added", "timestamp": now_iso})
+    else:
+        for exp in new_exps:
+            history_data["experiments"].append({"id": exp, "status": "added", "timestamp": now_iso})
+        for exp in del_exps:
+            history_data["experiments"].append({"id": exp, "status": "deleted", "timestamp": now_iso})
+            
+        for api in new_apis:
+            history_data["api_endpoints"].append({"id": api, "status": "added", "timestamp": now_iso})
+        for api in del_apis:
+            history_data["api_endpoints"].append({"id": api, "status": "deleted", "timestamp": now_iso})
+
+    with open(history_file, 'w', encoding='utf-8') as f:
+        json.dump(history_data, f, ensure_ascii=False, indent=4)
     
     with open(state_file, 'w', encoding='utf-8') as f:
         json.dump(current_data, f, ensure_ascii=False, indent=4)

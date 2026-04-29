@@ -23,8 +23,10 @@
         "2026-04_voice_call_trigger_point",
         "2026-04_voice_invite_suggestion_placement"
     ],
+    "deleted_experiments": [],
     "new_api_endpoints": [
         "/api/v2/help_center/en-us/articles.json?label_names=featured"
     ],
-    "timestamp": "2026-04-29T12:30:34.754114+00:00"
+    "deleted_api_endpoints": [],
+    "timestamp": "2026-04-29T13:16:28.710055+00:00"
 }

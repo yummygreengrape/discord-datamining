@@ -1,0 +1,116 @@
+{
+    "experiments": [
+        {
+            "id": "2026-03_guild_official_messages",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2026-02_past_vc_activity_messages",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2026-04_voice_invite_suggestion_placement",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2025-08_portkey_enabled",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2026-02_hangout_window",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2025-09_hotwheels_nvidia_boost",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2022-07_voice_in_threads",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2025-12_voice_channel_hoisting",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2026-03_file_upload_250_mb_powerup",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2026-03_game_server_pricing",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2026-04_voice_call_trigger_point",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2024-06_rtc_pacer__simulcast",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2026-04_server_theme",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2025-06_native_intents",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2024-12_guild_voice_channel_ringing",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2022-03_block_russian_purchases",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2025-04_report_to_mod",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2026-03_voice_badge",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2024-10_block_user_feedback",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2026-04_topical_navigation_aa",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        },
+        {
+            "id": "2025-07_age_verification_feedback",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        }
+    ],
+    "api_endpoints": [
+        {
+            "id": "/api/v2/help_center/en-us/articles.json?label_names=featured",
+            "status": "added",
+            "timestamp": "2026-04-29T13:16:28.710055+00:00"
+        }
+    ]
+}
