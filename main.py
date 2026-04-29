@@ -34,11 +34,11 @@ def fetch_canary_data():
             m = re.search(r'\.([0-9a-f]+)\.css', css_urls[0])
             if m: build_hash = m.group(1)
     
-    experiments = set()
-    api_endpoints = set()
+    experiments = {}
+    api_endpoints = {}
 
-    exp_pattern = re.compile(r'id:"([0-9]{4}-[0-9]{2}_[^"\s]+)"')
-    api_pattern = re.compile(r'"(/api/v[0-9]+/[^"]*?)"')
+    endpoint_pattern = re.compile(r'([A-Z_]+[A-Z0-9_]*)\s*:\s*(?:(?:[a-zA-Z_$][a-zA-Z_$0-9]*)=>|(?:\([^)]*\))\s*=>)?\s*`([^`]+)`')
+    string_endpoint_pattern = re.compile(r'([A-Z_]+[A-Z0-9_]*)\s*:\s*"(/api/[^"]+)"')
 
     for js_url in js_files:
         if "sentry" in js_url or "wasm" in js_url:
@@ -48,21 +48,48 @@ def fetch_canary_data():
         except:
             continue
             
-        # Extract experiments
-        for match in exp_pattern.findall(content):
-            experiments.add(match)
+        # Extract endpoints from backticks with param replacements
+        for name, url_template in endpoint_pattern.findall(content):
+            if name in ['type']: continue
+            url_str = re.sub(r'\$\{[^}]+\}', ':param', url_template)
+            api_endpoints[name] = url_str
+
+        # Extract endpoints from simple strings
+        for name, url_str in string_endpoint_pattern.findall(content):
+            if name not in api_endpoints:
+                api_endpoints[name] = url_str
+
+        # Extract apex experiments
+        for match in re.finditer(r'id:"([0-9]{4}-[0-9]{2}_[^"\s]+)"', content):
+            exp_id = match.group(1)
+            start = max(0, match.start() - 100)
+            end = min(len(content), match.end() + 300)
+            chunk = content[start:end]
             
-        # Extract APIs
-        for match in api_pattern.findall(content):
-            api_endpoints.add(match)
+            kind_match = re.search(r'kind:"([^"]+)"', chunk)
+            kind = kind_match.group(1) if kind_match else "unknown"
+            
+            treat_match = re.search(r'treatments:\[(.*?)\]', chunk)
+            treatments = []
+            if treat_match:
+                treatments_raw = treat_match.group(1)
+                for t_label in re.findall(r'label:"([^"]+)"', treatments_raw):
+                    treatments.append(t_label)
+            
+            experiments[exp_id] = {
+                "id": exp_id,
+                "kind": kind,
+                "treatments": treatments
+            }
             
     return {
         "build_hash": build_hash,
-        "experiments": sorted(list(experiments)),
-        "api_endpoints": sorted(list(api_endpoints)),
+        "experiments": experiments,
+        "api_endpoints": api_endpoints,
         "js_files": js_files,
         "css_files": css_urls
     }
+
 
 def main():
     data_dir = "data"
@@ -85,15 +112,39 @@ def main():
         print("Failed to fetch data")
         return
 
-    prev_exps = set(previous_state.get("experiments", []))
-    curr_exps = set(current_data["experiments"])
-    new_exps = sorted(list(curr_exps - prev_exps))
-    del_exps = sorted(list(prev_exps - curr_exps))
+    prev_exps_raw = previous_state.get("experiments", {})
+    if isinstance(prev_exps_raw, list):
+        prev_exps = set(prev_exps_raw)
+        prev_exps_dict = {k: {"id": k, "kind": "unknown", "treatments": []} for k in prev_exps_raw}
+    else:
+        prev_exps = set(prev_exps_raw.keys())
+        prev_exps_dict = prev_exps_raw
+
+    curr_exps_dict = current_data["experiments"]
+    curr_exps = set(curr_exps_dict.keys())
     
-    prev_apis = set(previous_state.get("api_endpoints", []))
-    curr_apis = set(current_data["api_endpoints"])
-    new_apis = sorted(list(curr_apis - prev_apis))
-    del_apis = sorted(list(prev_apis - curr_apis))
+    new_exps_keys = sorted(list(curr_exps - prev_exps))
+    del_exps_keys = sorted(list(prev_exps - curr_exps))
+    
+    new_exps = [curr_exps_dict[k] for k in new_exps_keys]
+    del_exps = [prev_exps_dict[k] for k in del_exps_keys]
+    
+    prev_apis_raw = previous_state.get("api_endpoints", {})
+    if isinstance(prev_apis_raw, list):
+        prev_apis = set(prev_apis_raw)
+        prev_apis_dict = {k: "unknown" for k in prev_apis_raw}
+    else:
+        prev_apis = set(prev_apis_raw.keys())
+        prev_apis_dict = prev_apis_raw
+
+    curr_apis_dict = current_data["api_endpoints"]
+    curr_apis = set(curr_apis_dict.keys())
+    
+    new_apis_keys = sorted(list(curr_apis - prev_apis))
+    del_apis_keys = sorted(list(prev_apis - curr_apis))
+    
+    new_apis = [{"name": k, "url": curr_apis_dict[k]} for k in new_apis_keys]
+    del_apis = [{"name": k, "url": prev_apis_dict[k]} for k in del_apis_keys]
     
     now_iso = datetime.now(timezone.utc).isoformat()
     
@@ -118,20 +169,20 @@ def main():
 
     # 최초 실행 시 모든 항목을 'added'로 기록
     if not previous_state:
-        for exp in curr_exps:
-            history_data["experiments"].append({"id": exp, "status": "added", "timestamp": now_iso})
-        for api in curr_apis:
-            history_data["api_endpoints"].append({"id": api, "status": "added", "timestamp": now_iso})
+        for k, v in curr_exps_dict.items():
+            history_data["experiments"].append({"id": k, "kind": v["kind"], "treatments": v["treatments"], "status": "added", "timestamp": now_iso})
+        for k, v in curr_apis_dict.items():
+            history_data["api_endpoints"].append({"name": k, "url": v, "status": "added", "timestamp": now_iso})
     else:
-        for exp in new_exps:
-            history_data["experiments"].append({"id": exp, "status": "added", "timestamp": now_iso})
-        for exp in del_exps:
-            history_data["experiments"].append({"id": exp, "status": "deleted", "timestamp": now_iso})
+        for item in new_exps:
+            history_data["experiments"].append({"id": item["id"], "kind": item["kind"], "treatments": item["treatments"], "status": "added", "timestamp": now_iso})
+        for item in del_exps:
+            history_data["experiments"].append({"id": item["id"], "kind": item["kind"], "treatments": item["treatments"], "status": "deleted", "timestamp": now_iso})
             
-        for api in new_apis:
-            history_data["api_endpoints"].append({"id": api, "status": "added", "timestamp": now_iso})
-        for api in del_apis:
-            history_data["api_endpoints"].append({"id": api, "status": "deleted", "timestamp": now_iso})
+        for item in new_apis:
+            history_data["api_endpoints"].append({"name": item["name"], "url": item["url"], "status": "added", "timestamp": now_iso})
+        for item in del_apis:
+            history_data["api_endpoints"].append({"name": item["name"], "url": item["url"], "status": "deleted", "timestamp": now_iso})
 
     with open(history_file, 'w', encoding='utf-8') as f:
         json.dump(history_data, f, ensure_ascii=False, indent=4)

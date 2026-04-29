@@ -1,23 +1,146 @@
-[
-    "2022-03_block_russian_purchases",
-    "2022-07_voice_in_threads",
-    "2024-06_rtc_pacer__simulcast",
-    "2024-10_block_user_feedback",
-    "2024-12_guild_voice_channel_ringing",
-    "2025-04_report_to_mod",
-    "2025-06_native_intents",
-    "2025-07_age_verification_feedback",
-    "2025-08_portkey_enabled",
-    "2025-09_hotwheels_nvidia_boost",
-    "2025-12_voice_channel_hoisting",
-    "2026-02_hangout_window",
-    "2026-02_past_vc_activity_messages",
-    "2026-03_file_upload_250_mb_powerup",
-    "2026-03_game_server_pricing",
-    "2026-03_guild_official_messages",
-    "2026-03_voice_badge",
-    "2026-04_server_theme",
-    "2026-04_topical_navigation_aa",
-    "2026-04_voice_call_trigger_point",
-    "2026-04_voice_invite_suggestion_placement"
-]
+{
+    "2024-06_rtc_pacer__simulcast": {
+        "id": "2024-06_rtc_pacer__simulcast",
+        "kind": "user",
+        "treatments": []
+    },
+    "2026-03_voice_badge": {
+        "id": "2026-03_voice_badge",
+        "kind": "guild",
+        "treatments": [
+            "Control",
+            "Show voice badges"
+        ]
+    },
+    "2025-12_voice_channel_hoisting": {
+        "id": "2025-12_voice_channel_hoisting",
+        "kind": "guild",
+        "treatments": []
+    },
+    "2026-04_topical_navigation_aa": {
+        "id": "2026-04_topical_navigation_aa",
+        "kind": "guild",
+        "treatments": [
+            "Treatment"
+        ]
+    },
+    "2026-04_voice_call_trigger_point": {
+        "id": "2026-04_voice_call_trigger_point",
+        "kind": "guild",
+        "treatments": [
+            "Treatment"
+        ]
+    },
+    "2025-04_report_to_mod": {
+        "id": "2025-04_report_to_mod",
+        "kind": "guild",
+        "treatments": [
+            "report to moderator triggering"
+        ]
+    },
+    "2026-03_guild_official_messages": {
+        "id": "2026-03_guild_official_messages",
+        "kind": "guild",
+        "treatments": [
+            "Enable official messages"
+        ]
+    },
+    "2025-06_native_intents": {
+        "id": "2025-06_native_intents",
+        "kind": "user",
+        "treatments": []
+    },
+    "2025-08_portkey_enabled": {
+        "id": "2025-08_portkey_enabled",
+        "kind": "guild",
+        "treatments": [
+            "Enable GameServer"
+        ]
+    },
+    "2026-03_file_upload_250_mb_powerup": {
+        "id": "2026-03_file_upload_250_mb_powerup",
+        "kind": "guild",
+        "treatments": [
+            "Enable File Upload 250MB Powerup"
+        ]
+    },
+    "2026-04_server_theme": {
+        "id": "2026-04_server_theme",
+        "kind": "guild",
+        "treatments": [
+            "Enable Server Theme"
+        ]
+    },
+    "2024-10_block_user_feedback": {
+        "id": "2024-10_block_user_feedback",
+        "kind": "user",
+        "treatments": [
+            "Enable Block User Feedback Survey"
+        ]
+    },
+    "2025-07_age_verification_feedback": {
+        "id": "2025-07_age_verification_feedback",
+        "kind": "user",
+        "treatments": [
+            "Enable Age Verification Feedback Survey"
+        ]
+    },
+    "2026-02_past_vc_activity_messages": {
+        "id": "2026-02_past_vc_activity_messages",
+        "kind": "guild",
+        "treatments": [
+            "Show past VC activity messages in system channel"
+        ]
+    },
+    "2026-04_voice_invite_suggestion_placement": {
+        "id": "2026-04_voice_invite_suggestion_placement",
+        "kind": "guild",
+        "treatments": [
+            "Control (Top Placement)",
+            "Treatment (Bottom Placement)"
+        ]
+    },
+    "2024-12_guild_voice_channel_ringing": {
+        "id": "2024-12_guild_voice_channel_ringing",
+        "kind": "guild",
+        "treatments": [
+            "Allow users to ring each other in Guild Voice Channels"
+        ]
+    },
+    "2022-03_block_russian_purchases": {
+        "id": "2022-03_block_russian_purchases",
+        "kind": "user",
+        "treatments": [
+            "Payments Blocked"
+        ]
+    },
+    "2025-09_hotwheels_nvidia_boost": {
+        "id": "2025-09_hotwheels_nvidia_boost",
+        "kind": "user",
+        "treatments": [
+            "ML model V3 - Nvidia small boost",
+            "ML model V3 - Nvidia big boost"
+        ]
+    },
+    "2026-02_hangout_window": {
+        "id": "2026-02_hangout_window",
+        "kind": "guild",
+        "treatments": [
+            "Enable Hangout Window"
+        ]
+    },
+    "2026-03_game_server_pricing": {
+        "id": "2026-03_game_server_pricing",
+        "kind": "guild",
+        "treatments": [
+            "Enable Game Server Pricing"
+        ]
+    },
+    "2022-07_voice_in_threads": {
+        "id": "2022-07_voice_in_threads",
+        "kind": "guild",
+        "treatments": [
+            "On"
+        ]
+    }
+}
