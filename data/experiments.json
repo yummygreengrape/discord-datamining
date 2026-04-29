@@ -28,54 +28,6 @@
             "Automod Mention Raid Limit"
         ]
     },
-    "2022-03_block_russian_purchases": {
-        "id": "2022-03_block_russian_purchases",
-        "kind": "user",
-        "treatments": [
-            "Payments Blocked"
-        ]
-    },
-    "2025-09_hotwheels_nvidia_boost": {
-        "id": "2025-09_hotwheels_nvidia_boost",
-        "kind": "user",
-        "treatments": [
-            "ML model V3 - Nvidia small boost",
-            "ML model V3 - Nvidia big boost"
-        ]
-    },
-    "2026-02_hangout_window": {
-        "id": "2026-02_hangout_window",
-        "kind": "guild",
-        "treatments": [
-            "Enable Hangout Window"
-        ]
-    },
-    "2026-03_game_server_pricing": {
-        "id": "2026-03_game_server_pricing",
-        "kind": "guild",
-        "treatments": [
-            "Enable Game Server Pricing"
-        ]
-    },
-    "2021-02_staff_qc_debugging": {
-        "id": "2021-02_staff_qc_debugging",
-        "kind": "user",
-        "treatments": [
-            "Show scores in QS results"
-        ]
-    },
-    "2022-07_voice_in_threads": {
-        "id": "2022-07_voice_in_threads",
-        "kind": "guild",
-        "treatments": [
-            "On"
-        ]
-    },
-    "2025-04_ignore_user_feedback": {
-        "id": "2025-04_ignore_user_feedback",
-        "kind": "user",
-        "treatments": []
-    },
     "2024-06_rtc_pacer__simulcast": {
         "id": "2024-06_rtc_pacer__simulcast",
         "kind": "user",
@@ -167,6 +119,54 @@
         "kind": "guild",
         "treatments": [
             "Show past VC activity messages in system channel"
+        ]
+    },
+    "2025-04_ignore_user_feedback": {
+        "id": "2025-04_ignore_user_feedback",
+        "kind": "user",
+        "treatments": []
+    },
+    "2022-03_block_russian_purchases": {
+        "id": "2022-03_block_russian_purchases",
+        "kind": "user",
+        "treatments": [
+            "Payments Blocked"
+        ]
+    },
+    "2025-09_hotwheels_nvidia_boost": {
+        "id": "2025-09_hotwheels_nvidia_boost",
+        "kind": "user",
+        "treatments": [
+            "ML model V3 - Nvidia small boost",
+            "ML model V3 - Nvidia big boost"
+        ]
+    },
+    "2026-02_hangout_window": {
+        "id": "2026-02_hangout_window",
+        "kind": "guild",
+        "treatments": [
+            "Enable Hangout Window"
+        ]
+    },
+    "2026-03_game_server_pricing": {
+        "id": "2026-03_game_server_pricing",
+        "kind": "guild",
+        "treatments": [
+            "Enable Game Server Pricing"
+        ]
+    },
+    "2021-02_staff_qc_debugging": {
+        "id": "2021-02_staff_qc_debugging",
+        "kind": "user",
+        "treatments": [
+            "Show scores in QS results"
+        ]
+    },
+    "2022-07_voice_in_threads": {
+        "id": "2022-07_voice_in_threads",
+        "kind": "guild",
+        "treatments": [
+            "On"
         ]
     }
 }
