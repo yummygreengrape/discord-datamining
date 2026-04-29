@@ -1,5 +1,5 @@
 {
-    "build_hash": "48d5af99330b1b50d3aa9b2267379dc84121c850",
+    "build_hash": "2060d054a3df19a9160117102a0080c197ebea8b",
     "experiments": [
         {
             "id": "2026-04_voice_invite_suggestion_placement",
@@ -31959,6 +31959,40 @@
             "treatments": [],
             "status": "added",
             "timestamp": "2015-01-01T00:00:00+00:00"
+        },
+        {
+            "id": "2021-02_staff_qc_debugging",
+            "kind": "user",
+            "treatments": [
+                "Show scores in QS results"
+            ],
+            "status": "added",
+            "timestamp": "2026-04-29T21:20:22.058389+00:00"
+        },
+        {
+            "id": "2022-12_mention_raid_limit",
+            "kind": "guild",
+            "treatments": [
+                "Automod Mention Raid Limit"
+            ],
+            "status": "added",
+            "timestamp": "2026-04-29T21:20:22.058389+00:00"
+        },
+        {
+            "id": "2025-04_ignore_user_feedback",
+            "kind": "user",
+            "treatments": [],
+            "status": "added",
+            "timestamp": "2026-04-29T21:20:22.058389+00:00"
+        },
+        {
+            "id": "2026-01_voice_channel_duration_mobile",
+            "kind": "guild",
+            "treatments": [
+                "Display the duration next to the Voice Channel"
+            ],
+            "status": "added",
+            "timestamp": "2026-04-29T21:20:22.058389+00:00"
         }
     ],
     "api_endpoints": [
@@ -35609,6 +35643,12 @@
             "url": "https://:param/hc/en-us/articles/360024871991",
             "status": "added",
             "timestamp": "2026-04-29T14:56:51.618230+00:00"
+        },
+        {
+            "name": "EMBED",
+            "url": "https://embed.music.apple.com/:param?theme=:param&i=:param",
+            "status": "added",
+            "timestamp": "2026-04-29T21:20:22.058389+00:00"
         }
     ],
     "strings": [

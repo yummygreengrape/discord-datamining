@@ -1,8 +1,40 @@
 {
-    "build_hash": "48d5af99330b1b50d3aa9b2267379dc84121c850",
-    "new_experiments": [],
+    "build_hash": "2060d054a3df19a9160117102a0080c197ebea8b",
+    "new_experiments": [
+        {
+            "id": "2021-02_staff_qc_debugging",
+            "kind": "user",
+            "treatments": [
+                "Show scores in QS results"
+            ]
+        },
+        {
+            "id": "2022-12_mention_raid_limit",
+            "kind": "guild",
+            "treatments": [
+                "Automod Mention Raid Limit"
+            ]
+        },
+        {
+            "id": "2025-04_ignore_user_feedback",
+            "kind": "user",
+            "treatments": []
+        },
+        {
+            "id": "2026-01_voice_channel_duration_mobile",
+            "kind": "guild",
+            "treatments": [
+                "Display the duration next to the Voice Channel"
+            ]
+        }
+    ],
     "deleted_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "EMBED",
+            "url": "https://embed.music.apple.com/:param?theme=:param&i=:param"
+        }
+    ],
     "deleted_api_endpoints": [],
     "string_changes": {
         "ko": {
@@ -16,5 +48,5 @@
             "deleted": {}
         }
     },
-    "timestamp": "2026-04-29T21:08:02.181570+00:00"
+    "timestamp": "2026-04-29T21:20:22.058389+00:00"
 }
