@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .env
 .venv/
+main.py
+Dockerfile
+docker-compose.yml
+run_datamining.command
+requirements.txt
