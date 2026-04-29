@@ -1,9 +1,26 @@
 {
-    "build_hash": "fb3a842b294aea2435f9d117253d1765c11ac2e9",
+    "build_hash": "aca4a480151d620c17caaf12a80edb55d62a042a",
     "new_experiments": [],
     "deleted_experiments": [],
     "new_api_endpoints": [],
-    "deleted_api_endpoints": [],
+    "deleted_api_endpoints": [
+        {
+            "name": "GUILD_FEED_FEATURE_ITEM",
+            "url": "/guilds/:param/guild-feed/feature"
+        },
+        {
+            "name": "GUILD_FEED_MARK_SEEN",
+            "url": "/guilds/:param/guild-feed/mark-seen"
+        },
+        {
+            "name": "GUILD_FEED_MESSAGE_REMOVE",
+            "url": "/channels/:param/messages/:param/hide-guild-feed"
+        },
+        {
+            "name": "GUILD_FEED_MESSAGE_SET_PREFERENCE",
+            "url": "/guilds/:param/guild-feed/preference"
+        }
+    ],
     "string_changes": {
         "ko": {
             "added": {},
@@ -16,5 +33,5 @@
             "deleted": {}
         }
     },
-    "timestamp": "2026-04-29T22:31:55.433187+00:00"
+    "timestamp": "2026-04-29T22:44:14.324845+00:00"
 }
