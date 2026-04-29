@@ -1,6 +1,4 @@
 {
-    "EMBED": "https://embed.music.apple.com/:param?theme=:param&i=:param",
-    "ERROR": "**non-serializable** (:param)",
     "URL": ":param:param",
     "APP_WITH_INVITE_AND_GUILD_ONBOARDING": "/app/invite-with-guild-onboarding/:param",
     "APP_WITH_GIFT_CODE": "/app/gifts/:param",
@@ -603,5 +601,7 @@
     "HYPESQUAD_ONLINE": ":param/settings/hypesquad-online",
     "BROWSE_NITRO_TITLES": ":param/store/browse?type=nitro",
     "SKU_DETAILS": ":param/store/skus/:param${null!=t?",
-    "REPORT": ":param/report"
+    "REPORT": ":param/report",
+    "EMBED": "https://embed.music.apple.com/:param?theme=:param&i=:param",
+    "ERROR": "**non-serializable** (:param)"
 }

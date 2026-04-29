@@ -1,5 +1,5 @@
 {
-    "build_hash": "2d15c5fcc70f4749009aad02ec4cacd923bf3561",
+    "build_hash": "1c515381d534bdd017a8af58a6bdf3f1b6393261",
     "experiments": {
         "2026-01_voice_channel_duration_mobile": {
             "id": "2026-01_voice_channel_duration_mobile",
@@ -101,13 +101,6 @@
                 "Show past VC activity messages in system channel"
             ]
         },
-        "2022-12_mention_raid_limit": {
-            "id": "2022-12_mention_raid_limit",
-            "kind": "guild",
-            "treatments": [
-                "Automod Mention Raid Limit"
-            ]
-        },
         "2022-03_block_russian_purchases": {
             "id": "2022-03_block_russian_purchases",
             "kind": "user",
@@ -151,10 +144,12 @@
                 "On"
             ]
         },
-        "2025-04_ignore_user_feedback": {
-            "id": "2025-04_ignore_user_feedback",
-            "kind": "user",
-            "treatments": []
+        "2022-12_mention_raid_limit": {
+            "id": "2022-12_mention_raid_limit",
+            "kind": "guild",
+            "treatments": [
+                "Automod Mention Raid Limit"
+            ]
         },
         "2026-04_voice_invite_suggestion_placement": {
             "id": "2026-04_voice_invite_suggestion_placement",
@@ -170,11 +165,14 @@
             "treatments": [
                 "Allow users to ring each other in Guild Voice Channels"
             ]
+        },
+        "2025-04_ignore_user_feedback": {
+            "id": "2025-04_ignore_user_feedback",
+            "kind": "user",
+            "treatments": []
         }
     },
     "api_endpoints": {
-        "EMBED": "https://embed.music.apple.com/:param?theme=:param&i=:param",
-        "ERROR": "**non-serializable** (:param)",
         "URL": ":param:param",
         "APP_WITH_INVITE_AND_GUILD_ONBOARDING": "/app/invite-with-guild-onboarding/:param",
         "APP_WITH_GIFT_CODE": "/app/gifts/:param",
@@ -777,7 +775,9 @@
         "HYPESQUAD_ONLINE": ":param/settings/hypesquad-online",
         "BROWSE_NITRO_TITLES": ":param/store/browse?type=nitro",
         "SKU_DETAILS": ":param/store/skus/:param${null!=t?",
-        "REPORT": ":param/report"
+        "REPORT": ":param/report",
+        "EMBED": "https://embed.music.apple.com/:param?theme=:param&i=:param",
+        "ERROR": "**non-serializable** (:param)"
     },
     "strings": {
         "ko": {},
