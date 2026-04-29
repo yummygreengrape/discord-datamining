@@ -1,8 +1,20 @@
 {
-    "build_hash": "1c9ce69dc0160dd94ca6c49dfadf69ffab419159",
+    "build_hash": "3f47e4518e5c914b8290779f4becac39300ff0ed",
     "new_experiments": [],
     "deleted_experiments": [],
     "new_api_endpoints": [],
     "deleted_api_endpoints": [],
-    "timestamp": "2026-04-29T18:56:05.984054+00:00"
+    "string_changes": {
+        "ko": {
+            "added": {},
+            "modified": {},
+            "deleted": {}
+        },
+        "en": {
+            "added": {},
+            "modified": {},
+            "deleted": {}
+        }
+    },
+    "timestamp": "2026-04-29T19:01:38.882877+00:00"
 }
