@@ -6,13 +6,6 @@
             "Display the duration next to the Voice Channel"
         ]
     },
-    "2022-12_mention_raid_limit": {
-        "id": "2022-12_mention_raid_limit",
-        "kind": "guild",
-        "treatments": [
-            "Automod Mention Raid Limit"
-        ]
-    },
     "2024-06_rtc_pacer__simulcast": {
         "id": "2024-06_rtc_pacer__simulcast",
         "kind": "user",
@@ -104,6 +97,13 @@
         "kind": "guild",
         "treatments": [
             "Show past VC activity messages in system channel"
+        ]
+    },
+    "2022-12_mention_raid_limit": {
+        "id": "2022-12_mention_raid_limit",
+        "kind": "guild",
+        "treatments": [
+            "Automod Mention Raid Limit"
         ]
     },
     "2022-03_block_russian_purchases": {
