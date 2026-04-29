@@ -1,21 +1,6 @@
 {
-    "build_hash": "3f47e4518e5c914b8290779f4becac39300ff0ed",
+    "build_hash": "c253ffbeac4eb787ee0f638f1042b7e152c035c8",
     "experiments": {
-        "2026-04_voice_invite_suggestion_placement": {
-            "id": "2026-04_voice_invite_suggestion_placement",
-            "kind": "guild",
-            "treatments": [
-                "Control (Top Placement)",
-                "Treatment (Bottom Placement)"
-            ]
-        },
-        "2024-12_guild_voice_channel_ringing": {
-            "id": "2024-12_guild_voice_channel_ringing",
-            "kind": "guild",
-            "treatments": [
-                "Allow users to ring each other in Guild Voice Channels"
-            ]
-        },
         "2024-06_rtc_pacer__simulcast": {
             "id": "2024-06_rtc_pacer__simulcast",
             "kind": "user",
@@ -144,10 +129,24 @@
             "treatments": [
                 "On"
             ]
+        },
+        "2026-04_voice_invite_suggestion_placement": {
+            "id": "2026-04_voice_invite_suggestion_placement",
+            "kind": "guild",
+            "treatments": [
+                "Control (Top Placement)",
+                "Treatment (Bottom Placement)"
+            ]
+        },
+        "2024-12_guild_voice_channel_ringing": {
+            "id": "2024-12_guild_voice_channel_ringing",
+            "kind": "guild",
+            "treatments": [
+                "Allow users to ring each other in Guild Voice Channels"
+            ]
         }
     },
     "api_endpoints": {
-        "ERROR": "**non-serializable** (:param)",
         "URL": ":param:param",
         "APP_WITH_INVITE_AND_GUILD_ONBOARDING": "/app/invite-with-guild-onboarding/:param",
         "APP_WITH_GIFT_CODE": "/app/gifts/:param",
@@ -220,6 +219,7 @@
         "LISTBOX_EMPTY_STATE_WITH_QUERY": "No results for â:paramâ",
         "STEP_INDICATOR": "Step :param of :param",
         "PERCENT_COMPLETE": ":param percent complete",
+        "ERROR": "**non-serializable** (:param)",
         "WELCOME": ":param/welcome/",
         "ME": ":param/channels/@me",
         "CONNECTION": ":param/connections/:param",
