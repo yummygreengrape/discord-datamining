@@ -199,7 +199,7 @@ def main():
                 "timestamp": now_iso
             }
 
-            history_data = {"experiments": [], "api_endpoints": [], "strings": []}
+            history_data = {"build_hash": build_hash, "experiments": [], "api_endpoints": [], "strings": []}
             if os.path.exists(history_file):
                 with open(history_file, 'r', encoding='utf-8') as f:
                     try:
