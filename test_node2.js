@@ -1,0 +1,25 @@
+const fs = require('fs');
+const https = require('https');
+
+https.get('https://canary.discord.com/assets/84804.2e015603f5d8ff86.js', (res) => {
+    let data = '';
+    res.on('data', chunk => data += chunk);
+    res.on('end', () => {
+        let en_strings = {};
+        let ko_strings = {};
+        const matches = [...data.matchAll(/JSON\.parse\('({.*?})'\)/g)];
+        for (let i = 0; i < matches.length; i++) {
+            try {
+                const str = eval("'" + matches[i][1] + "'");
+                const obj = JSON.parse(str);
+                if (obj.COMMON_OPEN_DISCORD === 'Open Discord') {
+                    Object.assign(en_strings, obj);
+                } else if (obj.COMMON_OPEN_DISCORD === 'Discord 열기') {
+                    Object.assign(ko_strings, obj);
+                }
+            } catch(e) {}
+        }
+        console.log("English:", Object.keys(en_strings).length);
+        console.log("Korean:", Object.keys(ko_strings).length);
+    });
+});

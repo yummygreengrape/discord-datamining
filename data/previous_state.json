@@ -756,6 +756,10 @@
         "PRESS_INQUIRIES": "mailto:press@:param",
         "PARTNER_CODE_OF_CONDUCT": "https://:param/hc/en-us/articles/360024871991"
     },
+    "strings": {
+        "ko": {},
+        "en": {}
+    },
     "js_files": [
         "https://canary.discord.com/assets/54890.6322ee09920ea508.js",
         "https://canary.discord.com/assets/70004.ce3a129976d57d7e.js",
