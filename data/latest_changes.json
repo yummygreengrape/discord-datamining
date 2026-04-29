@@ -1,18 +1,7 @@
 {
-    "build_hash": "fake-build-hash-for-testing",
+    "build_hash": "c253ffbeac4eb787ee0f638f1042b7e152c035c8",
     "new_experiments": [],
-    "deleted_experiments": [
-        {
-            "id": "2026-99_fake_test_experiment",
-            "kind": "user",
-            "treatments": [
-                "Control",
-                "Treatment 1"
-            ],
-            "status": "deleted",
-            "timestamp": "2026-04-29T20:19:25.518831+00:00"
-        }
-    ],
+    "deleted_experiments": [],
     "new_api_endpoints": [],
     "deleted_api_endpoints": [],
     "string_changes": {
