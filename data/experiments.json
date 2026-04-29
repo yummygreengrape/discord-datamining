@@ -99,13 +99,6 @@
             "Show past VC activity messages in system channel"
         ]
     },
-    "2022-12_mention_raid_limit": {
-        "id": "2022-12_mention_raid_limit",
-        "kind": "guild",
-        "treatments": [
-            "Automod Mention Raid Limit"
-        ]
-    },
     "2022-03_block_russian_purchases": {
         "id": "2022-03_block_russian_purchases",
         "kind": "user",
@@ -149,10 +142,12 @@
             "On"
         ]
     },
-    "2025-04_ignore_user_feedback": {
-        "id": "2025-04_ignore_user_feedback",
-        "kind": "user",
-        "treatments": []
+    "2022-12_mention_raid_limit": {
+        "id": "2022-12_mention_raid_limit",
+        "kind": "guild",
+        "treatments": [
+            "Automod Mention Raid Limit"
+        ]
     },
     "2026-04_voice_invite_suggestion_placement": {
         "id": "2026-04_voice_invite_suggestion_placement",
@@ -168,5 +163,10 @@
         "treatments": [
             "Allow users to ring each other in Guild Voice Channels"
         ]
+    },
+    "2025-04_ignore_user_feedback": {
+        "id": "2025-04_ignore_user_feedback",
+        "kind": "user",
+        "treatments": []
     }
 }
