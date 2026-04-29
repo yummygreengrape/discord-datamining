@@ -1,19 +1,4 @@
 {
-    "2026-04_voice_invite_suggestion_placement": {
-        "id": "2026-04_voice_invite_suggestion_placement",
-        "kind": "guild",
-        "treatments": [
-            "Control (Top Placement)",
-            "Treatment (Bottom Placement)"
-        ]
-    },
-    "2024-12_guild_voice_channel_ringing": {
-        "id": "2024-12_guild_voice_channel_ringing",
-        "kind": "guild",
-        "treatments": [
-            "Allow users to ring each other in Guild Voice Channels"
-        ]
-    },
     "2024-06_rtc_pacer__simulcast": {
         "id": "2024-06_rtc_pacer__simulcast",
         "kind": "user",
@@ -105,6 +90,21 @@
         "kind": "guild",
         "treatments": [
             "Show past VC activity messages in system channel"
+        ]
+    },
+    "2026-04_voice_invite_suggestion_placement": {
+        "id": "2026-04_voice_invite_suggestion_placement",
+        "kind": "guild",
+        "treatments": [
+            "Control (Top Placement)",
+            "Treatment (Bottom Placement)"
+        ]
+    },
+    "2024-12_guild_voice_channel_ringing": {
+        "id": "2024-12_guild_voice_channel_ringing",
+        "kind": "guild",
+        "treatments": [
+            "Allow users to ring each other in Guild Voice Channels"
         ]
     },
     "2022-03_block_russian_purchases": {
