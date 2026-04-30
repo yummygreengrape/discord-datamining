@@ -1,6 +1,13 @@
 {
     "api_endpoints": [
         {
+            "name": "BILLING_STANDALONE_CHECKOUT_PAGE",
+            "old_url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=i?",
+            "status": "modified",
+            "timestamp": "2026-04-30T17:58:03.659661+00:00",
+            "url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=r?"
+        },
+        {
             "name": "SETTINGS",
             "old_url": ":param/settings/:param${t?",
             "status": "modified",
@@ -4363,7 +4370,7 @@
             "url": "/guilds/:param/guild-feed/preference"
         }
     ],
-    "build_hash": "2d91a46d04bdb0a2161fe63f65330c1e26f154f6",
+    "build_hash": "e1d55620794a78350abd6ee933e8f47a02de7a8d",
     "experiments": [
         {
             "id": "2026-04-wetf-parser",
@@ -38175,6 +38182,14 @@
         }
     ],
     "strings": [
+        {
+            "key": "GUILD_BOOSTING_PINK_REFRESH",
+            "lang": "en",
+            "old_value": "#ff4cd2",
+            "status": "modified",
+            "timestamp": "2026-04-30T17:58:03.659661+00:00",
+            "value": "currentColor"
+        },
         {
             "key": "GUILD_BOOSTING_PINK_REFRESH",
             "lang": "en",
