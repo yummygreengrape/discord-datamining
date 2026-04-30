@@ -1,44 +1,8 @@
 {
-    "build_hash": "23c8c266b21b64d4acb7097a0c28f74b13d69e48",
+    "build_hash": "9355f35eaed28f8bca992d23a210b6b9314a41dc",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
-    "modified_api_endpoints": [
-        {
-            "name": "CHANGELOGS",
-            "old_url": "/settings/changelogs${null!=e?",
-            "url": ":param/settings/changelogs"
-        },
-        {
-            "name": "GUILD_MEMBER_VERIFICATION",
-            "old_url": "/member-verification/:param",
-            "url": "/guilds/:param/member-verification"
-        },
-        {
-            "name": "GUILD_TEMPLATE",
-            "old_url": "/template/:param",
-            "url": "/guilds/:param/templates/:param"
-        },
-        {
-            "name": "INVITE",
-            "old_url": "/invite/:param",
-            "url": "/invites/:param"
-        },
-        {
-            "name": "QUEST_PREVIEW",
-            "old_url": "/quest-preview/:param",
-            "url": "/quests/:param/preview"
-        },
-        {
-            "name": "QUEST_PREVIEW_TOOL_2",
-            "old_url": "/quest-home?tab=preview_tool&quest_id=:param",
-            "url": ":param/quest-preview/:param"
-        },
-        {
-            "name": "SETTINGS",
-            "old_url": "/settings/:param${null!=t?",
-            "url": ":param/settings/:param${t?"
-        }
-    ],
+    "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiments": [],
@@ -46,48 +10,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "ACCOUNT_STANDING": {
-                    "new_value": "Account Standing",
-                    "old_value": "/account-standing"
-                },
-                "APPLICATION_DIRECTORY_SEARCH": {
-                    "new_value": "/application-directory-static/search",
-                    "old_value": "/application-directory/search"
-                },
-                "AUTHORIZE_IP": {
-                    "new_value": "/auth/authorize-ip",
-                    "old_value": "/authorize-ip"
-                },
-                "AUTHORIZE_PAYMENT": {
-                    "new_value": "/billing/verify-purchase-request",
-                    "old_value": "/authorize-payment"
-                },
-                "BILLING_PAYMENTS": {
-                    "new_value": "/users/@me/billing/payments",
-                    "old_value": "/billing/payments"
-                },
-                "COLLECTIBLES_SHOP": {
-                    "new_value": "Shop",
-                    "old_value": "/shop"
-                },
-                "DISABLE_EMAIL_NOTIFICATIONS": {
-                    "new_value": "/users/disable-email-notifications",
-                    "old_value": "/disable-email-notifications"
-                },
-                "DISABLE_SERVER_HIGHLIGHT_NOTIFICATIONS": {
-                    "new_value": "/users/disable-server-highlight-notifications",
-                    "old_value": "/disable-server-highlight-notifications"
-                },
-                "FAMILY_CENTER": {
-                    "new_value": "Family Center",
-                    "old_value": "/family-center"
-                },
-                "GUILD_DISCOVERY": {
-                    "new_value": "/discoverable-guilds",
-                    "old_value": "/guild-discovery"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -95,5 +18,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-04-30T15:26:14.564855+00:00"
+    "timestamp": "2026-04-30T15:38:33.196871+00:00"
 }
