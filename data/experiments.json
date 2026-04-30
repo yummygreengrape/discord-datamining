@@ -1282,6 +1282,13 @@
             "Variation 1"
         ]
     },
+    "2026-04-desktop-tti-early-update-check": {
+        "id": "2026-04-desktop-tti-early-update-check",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
     "2026-04-desktop-tti-v8-cache": {
         "id": "2026-04-desktop-tti-v8-cache",
         "kind": "user",

@@ -1,11 +1,19 @@
 {
-    "build_hash": "c9e4d9c9d431388e19f73c9603c45014d7a6cf9e",
+    "build_hash": "6693d4c08466f49c2a254ed3709d6b817d239f3d",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "id": "2026-04-desktop-tti-early-update-check",
+            "kind": "user",
+            "treatments": [
+                "Variation 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -18,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-04-30T19:23:33.520938+00:00"
+    "timestamp": "2026-04-30T19:35:46.537481+00:00"
 }
