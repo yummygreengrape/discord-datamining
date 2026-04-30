@@ -1,6 +1,13 @@
 {
-    "build_hash": "a7b26e2ba8d02d8c368516275a6e5186aade1d96",
+    "build_hash": "4c0fc8158ec097726560c00ac86981d046017911",
     "experiments": {
+        "2026-01_voice_channel_duration_mobile": {
+            "id": "2026-01_voice_channel_duration_mobile",
+            "kind": "guild",
+            "treatments": [
+                "Display the duration next to the Voice Channel"
+            ]
+        },
         "2024-06_rtc_pacer__simulcast": {
             "id": "2024-06_rtc_pacer__simulcast",
             "kind": "user",
@@ -94,6 +101,11 @@
                 "Show past VC activity messages in system channel"
             ]
         },
+        "2025-04_ignore_user_feedback": {
+            "id": "2025-04_ignore_user_feedback",
+            "kind": "user",
+            "treatments": []
+        },
         "2022-12_mention_raid_limit": {
             "id": "2022-12_mention_raid_limit",
             "kind": "guild",
@@ -158,18 +170,6 @@
             "treatments": [
                 "Allow users to ring each other in Guild Voice Channels"
             ]
-        },
-        "2025-04_ignore_user_feedback": {
-            "id": "2025-04_ignore_user_feedback",
-            "kind": "user",
-            "treatments": []
-        },
-        "2026-01_voice_channel_duration_mobile": {
-            "id": "2026-01_voice_channel_duration_mobile",
-            "kind": "guild",
-            "treatments": [
-                "Display the duration next to the Voice Channel"
-            ]
         }
     },
     "api_endpoints": {
@@ -182,11 +182,11 @@
         "APPLICATION_STORE_LISTING_APPLICATION": "/store/applications/:param${null!=t?",
         "BILLING_PROMOTION_REDEMPTION": "/billing/promotions/:param",
         "BILLING_PROMOTION_DIRECT_FULFILLMENT_REDEMPTION": "/billing/partner-promotions/:param/:param",
-        "INVITE": "/invite/:param",
+        "INVITE": "/invites/:param",
         "INVITE_LOGIN": "/invite/:param/login",
         "INVITE_REGISTER": "/invite/:param/register",
         "INVITE_PROXY": "/invite-proxy/:param",
-        "GUILD_TEMPLATE": "/template/:param",
+        "GUILD_TEMPLATE": "/guilds/:param/templates/:param",
         "GUILD_TEMPLATE_LOGIN": "/template/:param/login",
         "GIFT_CODE": "/gifts/:param",
         "GIFT_CODE_LOGIN": "/gifts/:param/login",
@@ -196,15 +196,15 @@
         "CONNECTIONS_ERROR": "/connections/:param/error",
         "CONNECTIONS": "/connections/:param",
         "CONNECTIONS_AUTHORIZE_CONTINUE": "/connections/:param/authorize-continue",
-        "SETTINGS": "/settings/:param${null!=t?",
-        "CHANGELOGS": "/settings/changelogs${null!=e?",
+        "SETTINGS": ":param/settings/:param${t?",
+        "CHANGELOGS": ":param/settings/changelogs",
         "USERS": "/users/:param",
         "USER_GUILD_NOTIFICATION_SETTINGS": "/guilds/:param/notification-settings",
         "GLOBAL_DISCOVERY_APPS_CATEGORY": "/discovery/applications/categories/:param",
         "GLOBAL_DISCOVERY_APPS_PROFILE": "/discovery/applications/:param",
         "GLOBAL_DISCOVERY_APPS_PROFILE_SECTION": "/discovery/applications/:param/:param",
         "GLOBAL_DISCOVERY_APPS_PROFILE_STORE_SKU": "/discovery/applications/:param/:param/:param",
-        "GUILD_MEMBER_VERIFICATION": "/member-verification/:param",
+        "GUILD_MEMBER_VERIFICATION": "/guilds/:param/member-verification",
         "GUILD_MEMBER_VERIFICATION_FOR_HUB": "/member-verification-for-hub/:param${null!=t?",
         "UPCOMING_STAGES": "/guild-stages/:param${null!=t?",
         "BILLING_MANAGE_SUBSCRIPTION_WITH_DEEP_LINK": "/billing/premium/manage?deep_link_type=:param${null!=t?",
@@ -231,8 +231,8 @@
         "ACCOUNT_REVERT": "/wasntme/:param",
         "POWERUP_STORE": "/channels/:param/boosts",
         "CONFERENCE_MODE_VOICE": "/conference-mode/voice/:param/:param",
-        "QUEST_PREVIEW": "/quest-preview/:param",
-        "QUEST_PREVIEW_TOOL_2": "/quest-home?tab=preview_tool&quest_id=:param",
+        "QUEST_PREVIEW": "/quests/:param/preview",
+        "QUEST_PREVIEW_TOOL_2": ":param/quest-preview/:param",
         "PROFILE": ":param/me",
         "NOTIFICATIONS_PLAYER": ":param/me/notifications/player",
         "PLAYER": ":param/me/player",
@@ -245,8 +245,22 @@
         "LISTBOX_EMPTY_STATE_WITH_QUERY": "No results for â:paramâ",
         "STEP_INDICATOR": "Step :param of :param",
         "PERCENT_COMPLETE": ":param percent complete",
+        "WELCOME": ":param/welcome/",
+        "ME": ":param/channels/@me",
+        "CONNECTION": ":param/connections/:param",
+        "LOGIN": ":param/login",
+        "LOGIN_WITH_REDIRECT": ":param/login?redirect_to=:param",
+        "REGISTER": ":param/register",
+        "REGISTER_WITH_REDIRECT": ":param/register?redirect_to=:param",
+        "CREATE_GUILD": ":param/guilds/create",
+        "VANITY_INVITE": ":param/:param",
+        "HYPESQUAD_ONLINE": ":param/settings/hypesquad-online",
+        "BROWSE_NITRO_TITLES": ":param/store/browse?type=nitro",
+        "SKU_DETAILS": ":param/store/skus/:param${null!=t?",
+        "MESSAGE": "/channels/:param/:param/:param",
+        "CHANNEL": "/channels/:param/:param",
+        "REPORT": ":param/report",
         "ERROR": "**non-serializable** (:param)",
-        "EMBED": "https://embed.music.apple.com/:param?theme=:param&i=:param",
         "USER": "/users/:param",
         "USER_RELATIONSHIP": "/users/@me/relationships/:param",
         "USER_GAME_RELATIONSHIP": "/users/@me/game-relationships/:param/:param",
@@ -339,7 +353,6 @@
         "GUILD_BASIC": "/guilds/:param/basic",
         "GUILD_PINCODE": "/guilds/:param/pincode",
         "GUILD_DELETE": "/guilds/:param/delete",
-        "CHANNEL": "/channels/:param/:param",
         "THREAD_MEMBER_SETTINGS": "/channels/:param/thread-members/@me/settings",
         "ALL_ARCHIVED_THREADS": "/channels/:param/threads/archived/:param",
         "MY_ARCHIVED_THREADS": "/channels/:param/users/@me/threads/archived/private",
@@ -356,7 +369,6 @@
         "MESSAGES": "/channels/:param/messages",
         "MESSAGES_GREET": "/channels/:param/greet",
         "MESSAGES_ANNOUNCEMENT": "/channels/:param/messages/announcement",
-        "MESSAGE": "/channels/:param/:param/:param",
         "MESSAGE_ACK": "/channels/:param/messages/:param/ack",
         "MESSAGE_CREATE_ATTACHMENT_UPLOAD": "/channels/:param/attachments",
         "UPDATE_VOICE_CHANNEL_STATUS": "/channels/:param/voice-status",
@@ -396,7 +408,6 @@
         "CONNECTIONS_AUTHORIZE": "/connections/:param/authorize",
         "CONNECTIONS_SESSION_HANDOFF": "/connections/:param/callback/session-handoff",
         "CONNECTIONS_CALLBACK": "/connections/:param/callback",
-        "CONNECTION": ":param/connections/:param",
         "CONNECTION_REFRESH": "/users/@me/connections/:param/:param/refresh",
         "CONNECTION_ACCESS_TOKEN": "/users/@me/connections/:param/:param/access-token",
         "CONNECTIONS_LINK_DISPATCH_AUTH_CALLBACK": "/connections/:param/link-dispatch-auth-callback",
@@ -766,18 +777,7 @@
         "BASE_URL": "https://:param",
         "PRESS_INQUIRIES": "mailto:press@:param",
         "PARTNER_CODE_OF_CONDUCT": "https://:param/hc/en-us/articles/360024871991",
-        "WELCOME": ":param/welcome/",
-        "ME": ":param/channels/@me",
-        "LOGIN": ":param/login",
-        "LOGIN_WITH_REDIRECT": ":param/login?redirect_to=:param",
-        "REGISTER": ":param/register",
-        "REGISTER_WITH_REDIRECT": ":param/register?redirect_to=:param",
-        "CREATE_GUILD": ":param/guilds/create",
-        "VANITY_INVITE": ":param/:param",
-        "HYPESQUAD_ONLINE": ":param/settings/hypesquad-online",
-        "BROWSE_NITRO_TITLES": ":param/store/browse?type=nitro",
-        "SKU_DETAILS": ":param/store/skus/:param${null!=t?",
-        "REPORT": ":param/report"
+        "EMBED": "https://embed.music.apple.com/:param?theme=:param&i=:param"
     },
     "strings": {
         "ko": {},
