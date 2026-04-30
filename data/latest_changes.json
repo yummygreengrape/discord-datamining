@@ -1,8 +1,29 @@
 {
-    "build_hash": "e4e27e64eddca5c77f60e7dff360754f19423ce5",
+    "build_hash": "c5980461cab3be5489936d21cf10bdf8a8c57606",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
-    "modified_api_endpoints": [],
+    "modified_api_endpoints": [
+        {
+            "name": "BILLING_STANDALONE_CHECKOUT_PAGE",
+            "old_url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=n?",
+            "url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=i?"
+        },
+        {
+            "name": "CHANGELOGS",
+            "old_url": "/settings/changelogs${null!=e?",
+            "url": ":param/settings/changelogs"
+        },
+        {
+            "name": "QUEST_PREVIEW_TOOL_2",
+            "old_url": "/quest-home?tab=preview_tool&quest_id=:param",
+            "url": ":param/quest-preview/:param"
+        },
+        {
+            "name": "SETTINGS",
+            "old_url": "/settings/:param${null!=t?",
+            "url": ":param/settings/:param${t?"
+        }
+    ],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiments": [],
@@ -18,5 +39,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-04-30T22:32:38.757968+00:00"
+    "timestamp": "2026-04-30T22:44:25.070078+00:00"
 }
