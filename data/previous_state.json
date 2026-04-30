@@ -73,7 +73,7 @@
         "BILLING_PROMOTION_DIRECT_FULFILLMENT_REDEMPTION": "/billing/partner-promotions/:param/:param",
         "BILLING_PROMOTION_REDEMPTION": "/billing/promotions/:param",
         "BILLING_STANDALONE_CHECKOUT_LOGIN_HANDOFF": ":param/billing/premium/subscribe/login-handoff?handoff_key=:param&handoff_token=:param&destination=:param",
-        "BILLING_STANDALONE_CHECKOUT_PAGE": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=i?",
+        "BILLING_STANDALONE_CHECKOUT_PAGE": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=r?",
         "BILLING_STANDALONE_GUILD_BOOST_CHECKOUT_PAGE": "/billing/guild-subscriptions/purchase?guild_id=:param${null!=t?",
         "BILLING_STRIPE_PAYMENT_INTENTS": "/users/@me/billing/stripe/payment-intents/payments/:param",
         "BILLING_STRIPE_PAYMENT_INTENTS_VIA_ID": "/users/@me/billing/stripe/payment-intents/:param",
@@ -606,7 +606,7 @@
         "WELCOME": ":param/welcome/",
         "_SUBSCRIPTION_REWARD_ELIGIBILITY": "/users/@me/billing/subscriptions/:param/reward-eligibility"
     },
-    "build_hash": "17a8de70190a76d03fcb654eea6925af2af135a0",
+    "build_hash": "d3213cd5b32b0c34577e8540136d7c3737a91865",
     "css_files": [
         "/assets/52706.8359e484f05597fe.css",
         "/assets/68176.3cce067e4a22005d.css",
