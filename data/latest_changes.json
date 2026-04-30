@@ -1,9 +1,7 @@
 {
     "build_hash": "704dce6baf757323e05b2b6470545e02e65733a7",
-    "new_experiments": [],
-    "deleted_experiments": [],
-    "new_api_endpoints": [],
     "deleted_api_endpoints": [],
+    "deleted_experiments": [],
     "modified_api_endpoints": [
         {
             "name": "BILLING_STANDALONE_CHECKOUT_PAGE",
@@ -38,28 +36,30 @@
             "url": ":param/settings/:param${t?"
         }
     ],
+    "new_api_endpoints": [],
+    "new_experiments": [],
     "string_changes": {
-        "ko": {
-            "added": {},
-            "modified": {},
-            "deleted": {}
-        },
         "en": {
             "added": {},
+            "deleted": {},
             "modified": {
-                "BILLING_PAYMENTS": "/users/@me/billing/payments",
-                "DISABLE_EMAIL_NOTIFICATIONS": "/users/disable-email-notifications",
-                "DISABLE_SERVER_HIGHLIGHT_NOTIFICATIONS": "/users/disable-server-highlight-notifications",
+                "ACCOUNT_STANDING": "Account Standing",
+                "APPLICATION_DIRECTORY_SEARCH": "/application-directory-static/search",
                 "AUTHORIZE_IP": "/auth/authorize-ip",
                 "AUTHORIZE_PAYMENT": "/billing/verify-purchase-request",
-                "GUILD_DISCOVERY": "/discoverable-guilds",
-                "APPLICATION_DIRECTORY_SEARCH": "/application-directory-static/search",
-                "FAMILY_CENTER": "Family Center",
+                "BILLING_PAYMENTS": "/users/@me/billing/payments",
                 "COLLECTIBLES_SHOP": "Shop",
-                "ACCOUNT_STANDING": "Account Standing",
-                "GUILD_BOOSTING_PINK_REFRESH": "currentColor"
-            },
-            "deleted": {}
+                "DISABLE_EMAIL_NOTIFICATIONS": "/users/disable-email-notifications",
+                "DISABLE_SERVER_HIGHLIGHT_NOTIFICATIONS": "/users/disable-server-highlight-notifications",
+                "FAMILY_CENTER": "Family Center",
+                "GUILD_BOOSTING_PINK_REFRESH": "currentColor",
+                "GUILD_DISCOVERY": "/discoverable-guilds"
+            }
+        },
+        "ko": {
+            "added": {},
+            "deleted": {},
+            "modified": {}
         }
     },
     "timestamp": "2026-04-30T02:08:54.422549+00:00"
