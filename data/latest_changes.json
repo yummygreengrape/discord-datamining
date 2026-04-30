@@ -1,39 +1,11 @@
 {
-    "build_hash": "704dce6baf757323e05b2b6470545e02e65733a7",
+    "build_hash": "0cc7dc7fa72acfb478fe8ed9d358a1ed44a6f865",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "modified_api_endpoints": [
         {
             "name": "BILLING_STANDALONE_CHECKOUT_PAGE",
-            "url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=i?"
-        },
-        {
-            "name": "CHANGELOGS",
-            "url": ":param/settings/changelogs"
-        },
-        {
-            "name": "GUILD_MEMBER_VERIFICATION",
-            "url": "/guilds/:param/member-verification"
-        },
-        {
-            "name": "GUILD_TEMPLATE",
-            "url": "/guilds/:param/templates/:param"
-        },
-        {
-            "name": "INVITE",
-            "url": "/invites/:param"
-        },
-        {
-            "name": "QUEST_PREVIEW",
-            "url": "/quests/:param/preview"
-        },
-        {
-            "name": "QUEST_PREVIEW_TOOL_2",
-            "url": ":param/quest-preview/:param"
-        },
-        {
-            "name": "SETTINGS",
-            "url": ":param/settings/:param${t?"
+            "url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=r?"
         }
     ],
     "new_api_endpoints": [],
@@ -43,17 +15,7 @@
             "added": {},
             "deleted": {},
             "modified": {
-                "ACCOUNT_STANDING": "Account Standing",
-                "APPLICATION_DIRECTORY_SEARCH": "/application-directory-static/search",
-                "AUTHORIZE_IP": "/auth/authorize-ip",
-                "AUTHORIZE_PAYMENT": "/billing/verify-purchase-request",
-                "BILLING_PAYMENTS": "/users/@me/billing/payments",
-                "COLLECTIBLES_SHOP": "Shop",
-                "DISABLE_EMAIL_NOTIFICATIONS": "/users/disable-email-notifications",
-                "DISABLE_SERVER_HIGHLIGHT_NOTIFICATIONS": "/users/disable-server-highlight-notifications",
-                "FAMILY_CENTER": "Family Center",
-                "GUILD_BOOSTING_PINK_REFRESH": "currentColor",
-                "GUILD_DISCOVERY": "/discoverable-guilds"
+                "GUILD_BOOSTING_PINK_REFRESH": "#ff4cd2"
             }
         },
         "ko": {
@@ -62,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-04-30T02:08:54.422549+00:00"
+    "timestamp": "2026-04-30T02:19:20.355381+00:00"
 }
