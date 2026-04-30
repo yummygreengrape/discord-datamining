@@ -4482,7 +4482,7 @@
             "url": "/guilds/:param/guild-feed/preference"
         }
     ],
-    "build_hash": "075b580b6f5da5e6ffffe175a9ffafd06af995b2",
+    "build_hash": "3aafddc7d9386cda91c6ad9801d309b214cfd8d7",
     "experiments": [
         {
             "id": "2026-04-wetf-parser",

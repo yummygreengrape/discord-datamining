@@ -1,14 +1,8 @@
 {
-    "build_hash": "075b580b6f5da5e6ffffe175a9ffafd06af995b2",
+    "build_hash": "3aafddc7d9386cda91c6ad9801d309b214cfd8d7",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
-    "modified_api_endpoints": [
-        {
-            "name": "BILLING_STANDALONE_CHECKOUT_PAGE",
-            "old_url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=i?",
-            "url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=r?"
-        }
-    ],
+    "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiments": [],
@@ -16,12 +10,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "GUILD_BOOSTING_PINK_REFRESH": {
-                    "new_value": "currentColor",
-                    "old_value": "#ff4cd2"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -29,5 +18,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-04-30T18:34:42.299980+00:00"
+    "timestamp": "2026-04-30T18:46:55.101996+00:00"
 }
