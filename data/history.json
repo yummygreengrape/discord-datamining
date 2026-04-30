@@ -4265,7 +4265,7 @@
             "url": "/guilds/:param/guild-feed/preference"
         }
     ],
-    "build_hash": "fc3bcb463bb631769f4358ffe229a5effb426a63",
+    "build_hash": "952bc07ca03da1a6c026edeb89f363b9154f16f6",
     "experiments": [
         {
             "id": "2026-04-wetf-parser",
