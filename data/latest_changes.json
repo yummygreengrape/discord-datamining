@@ -52,16 +52,46 @@
             "added": {},
             "deleted": {},
             "modified": {
-                "ACCOUNT_STANDING": "/account-standing",
-                "APPLICATION_DIRECTORY_SEARCH": "/application-directory/search",
-                "AUTHORIZE_IP": "/authorize-ip",
-                "AUTHORIZE_PAYMENT": "/authorize-payment",
-                "BILLING_PAYMENTS": "/billing/payments",
-                "COLLECTIBLES_SHOP": "/shop",
-                "DISABLE_EMAIL_NOTIFICATIONS": "/disable-email-notifications",
-                "DISABLE_SERVER_HIGHLIGHT_NOTIFICATIONS": "/disable-server-highlight-notifications",
-                "FAMILY_CENTER": "/family-center",
-                "GUILD_DISCOVERY": "/guild-discovery"
+                "ACCOUNT_STANDING": {
+                    "new_value": "/account-standing",
+                    "old_value": "Account Standing"
+                },
+                "APPLICATION_DIRECTORY_SEARCH": {
+                    "new_value": "/application-directory/search",
+                    "old_value": "/application-directory-static/search"
+                },
+                "AUTHORIZE_IP": {
+                    "new_value": "/authorize-ip",
+                    "old_value": "/auth/authorize-ip"
+                },
+                "AUTHORIZE_PAYMENT": {
+                    "new_value": "/authorize-payment",
+                    "old_value": "/billing/verify-purchase-request"
+                },
+                "BILLING_PAYMENTS": {
+                    "new_value": "/billing/payments",
+                    "old_value": "/users/@me/billing/payments"
+                },
+                "COLLECTIBLES_SHOP": {
+                    "new_value": "/shop",
+                    "old_value": "Shop"
+                },
+                "DISABLE_EMAIL_NOTIFICATIONS": {
+                    "new_value": "/disable-email-notifications",
+                    "old_value": "/users/disable-email-notifications"
+                },
+                "DISABLE_SERVER_HIGHLIGHT_NOTIFICATIONS": {
+                    "new_value": "/disable-server-highlight-notifications",
+                    "old_value": "/users/disable-server-highlight-notifications"
+                },
+                "FAMILY_CENTER": {
+                    "new_value": "/family-center",
+                    "old_value": "Family Center"
+                },
+                "GUILD_DISCOVERY": {
+                    "new_value": "/guild-discovery",
+                    "old_value": "/discoverable-guilds"
+                }
             }
         },
         "ko": {
