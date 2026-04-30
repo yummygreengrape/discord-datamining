@@ -1,11 +1,4 @@
 {
-    "2026-01_voice_channel_duration_mobile": {
-        "id": "2026-01_voice_channel_duration_mobile",
-        "kind": "guild",
-        "treatments": [
-            "Display the duration next to the Voice Channel"
-        ]
-    },
     "2024-06_rtc_pacer__simulcast": {
         "id": "2024-06_rtc_pacer__simulcast",
         "kind": "user",
@@ -99,16 +92,11 @@
             "Show past VC activity messages in system channel"
         ]
     },
-    "2025-04_ignore_user_feedback": {
-        "id": "2025-04_ignore_user_feedback",
-        "kind": "user",
-        "treatments": []
-    },
-    "2022-12_mention_raid_limit": {
-        "id": "2022-12_mention_raid_limit",
+    "2026-01_voice_channel_duration_mobile": {
+        "id": "2026-01_voice_channel_duration_mobile",
         "kind": "guild",
         "treatments": [
-            "Automod Mention Raid Limit"
+            "Display the duration next to the Voice Channel"
         ]
     },
     "2022-03_block_russian_purchases": {
@@ -152,6 +140,18 @@
         "kind": "guild",
         "treatments": [
             "On"
+        ]
+    },
+    "2025-04_ignore_user_feedback": {
+        "id": "2025-04_ignore_user_feedback",
+        "kind": "user",
+        "treatments": []
+    },
+    "2022-12_mention_raid_limit": {
+        "id": "2022-12_mention_raid_limit",
+        "kind": "guild",
+        "treatments": [
+            "Automod Mention Raid Limit"
         ]
     },
     "2026-04_voice_invite_suggestion_placement": {
