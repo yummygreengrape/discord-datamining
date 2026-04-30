@@ -1,37 +1,41 @@
 {
-    "build_hash": "c828c2052c695cfea739569f22c4ab810f7e8082",
+    "build_hash": "704dce6baf757323e05b2b6470545e02e65733a7",
     "new_experiments": [],
     "deleted_experiments": [],
     "new_api_endpoints": [],
     "deleted_api_endpoints": [],
     "modified_api_endpoints": [
         {
+            "name": "BILLING_STANDALONE_CHECKOUT_PAGE",
+            "url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=i?"
+        },
+        {
             "name": "CHANGELOGS",
-            "url": "/settings/changelogs${null!=e?"
+            "url": ":param/settings/changelogs"
         },
         {
             "name": "GUILD_MEMBER_VERIFICATION",
-            "url": "/member-verification/:param"
+            "url": "/guilds/:param/member-verification"
         },
         {
             "name": "GUILD_TEMPLATE",
-            "url": "/template/:param"
+            "url": "/guilds/:param/templates/:param"
         },
         {
             "name": "INVITE",
-            "url": "/invite/:param"
+            "url": "/invites/:param"
         },
         {
             "name": "QUEST_PREVIEW",
-            "url": "/quest-preview/:param"
+            "url": "/quests/:param/preview"
         },
         {
             "name": "QUEST_PREVIEW_TOOL_2",
-            "url": "/quest-home?tab=preview_tool&quest_id=:param"
+            "url": ":param/quest-preview/:param"
         },
         {
             "name": "SETTINGS",
-            "url": "/settings/:param${null!=t?"
+            "url": ":param/settings/:param${t?"
         }
     ],
     "string_changes": {
@@ -43,19 +47,20 @@
         "en": {
             "added": {},
             "modified": {
-                "COLLECTIBLES_SHOP": "/shop",
-                "AUTHORIZE_IP": "/authorize-ip",
-                "AUTHORIZE_PAYMENT": "/authorize-payment",
-                "DISABLE_EMAIL_NOTIFICATIONS": "/disable-email-notifications",
-                "DISABLE_SERVER_HIGHLIGHT_NOTIFICATIONS": "/disable-server-highlight-notifications",
-                "BILLING_PAYMENTS": "/billing/payments",
-                "GUILD_DISCOVERY": "/guild-discovery",
-                "APPLICATION_DIRECTORY_SEARCH": "/application-directory/search",
-                "ACCOUNT_STANDING": "/account-standing",
-                "FAMILY_CENTER": "/family-center"
+                "BILLING_PAYMENTS": "/users/@me/billing/payments",
+                "DISABLE_EMAIL_NOTIFICATIONS": "/users/disable-email-notifications",
+                "DISABLE_SERVER_HIGHLIGHT_NOTIFICATIONS": "/users/disable-server-highlight-notifications",
+                "AUTHORIZE_IP": "/auth/authorize-ip",
+                "AUTHORIZE_PAYMENT": "/billing/verify-purchase-request",
+                "GUILD_DISCOVERY": "/discoverable-guilds",
+                "APPLICATION_DIRECTORY_SEARCH": "/application-directory-static/search",
+                "FAMILY_CENTER": "Family Center",
+                "COLLECTIBLES_SHOP": "Shop",
+                "ACCOUNT_STANDING": "Account Standing",
+                "GUILD_BOOSTING_PINK_REFRESH": "currentColor"
             },
             "deleted": {}
         }
     },
-    "timestamp": "2026-04-30T01:56:23.798736+00:00"
+    "timestamp": "2026-04-30T02:08:54.422549+00:00"
 }
