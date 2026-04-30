@@ -1,6 +1,12 @@
 {
     "api_endpoints": [
         {
+            "name": "BILLING_STANDALONE_CHECKOUT_PAGE",
+            "status": "modified",
+            "timestamp": "2026-04-30T02:19:20.355381+00:00",
+            "url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=r?"
+        },
+        {
             "name": "SETTINGS",
             "status": "modified",
             "timestamp": "2026-04-30T02:08:54.422549+00:00",
@@ -3769,7 +3775,7 @@
             "url": "/guilds/:param/guild-feed/preference"
         }
     ],
-    "build_hash": "704dce6baf757323e05b2b6470545e02e65733a7",
+    "build_hash": "0cc7dc7fa72acfb478fe8ed9d358a1ed44a6f865",
     "experiments": [
         {
             "id": "2026-04-wetf-parser",
@@ -37581,6 +37587,13 @@
         }
     ],
     "strings": [
+        {
+            "key": "GUILD_BOOSTING_PINK_REFRESH",
+            "lang": "en",
+            "status": "modified",
+            "timestamp": "2026-04-30T02:19:20.355381+00:00",
+            "value": "#ff4cd2"
+        },
         {
             "key": "GUILD_BOOSTING_PINK_REFRESH",
             "lang": "en",
