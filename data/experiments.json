@@ -1,35 +1,331 @@
 {
-    "2025-10-gif-providers-multi-treatment": {
-        "id": "2025-10-gif-providers-multi-treatment",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-01-voice-dares-v0": {
-        "id": "2026-01-voice-dares-v0",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-04-server-boost-copy-1440p": {
-        "id": "2026-04-server-boost-copy-1440p",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-04-trial-continuation-discount": {
-        "id": "2026-04-trial-continuation-discount",
-        "kind": "user",
-        "treatments": []
-    },
     "2025-10-friend-request-alerts-v2": {
         "id": "2025-10-friend-request-alerts-v2",
         "kind": "user",
         "treatments": [
             "Variation 1"
+        ]
+    },
+    "2026-03-wishlisting-nitro": {
+        "id": "2026-03-wishlisting-nitro",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2025-09-video-qoe-metrics-tracking": {
+        "id": "2025-09-video-qoe-metrics-tracking",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-01-bug-reporter": {
+        "id": "2026-01-bug-reporter",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-01-now-playing-api-call-experiment": {
+        "id": "2026-01-now-playing-api-call-experiment",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-04-logitech-ss-marketing": {
+        "id": "2026-04-logitech-ss-marketing",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-04-croissant-reheat": {
+        "id": "2026-04-croissant-reheat",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-04-premium-group-announcement": {
+        "id": "2026-04-premium-group-announcement",
+        "kind": "user",
+        "treatments": []
+    },
+    "2026-03-premium-group-popover": {
+        "id": "2026-03-premium-group-popover",
+        "kind": "user",
+        "treatments": []
+    },
+    "2026-04-safety-flows": {
+        "id": "2026-04-safety-flows",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-03-play-with-xbox-game-pass": {
+        "id": "2026-03-play-with-xbox-game-pass",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2025-09-server-nsfw-level": {
+        "id": "2025-09-server-nsfw-level",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-02-client-heartbeat-skipped": {
+        "id": "2026-02-client-heartbeat-skipped",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-04-riot-social-sdk-migration": {
+        "id": "2026-04-riot-social-sdk-migration",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2022-03_block_russian_purchases": {
+        "id": "2022-03_block_russian_purchases",
+        "kind": "user",
+        "treatments": [
+            "Payments Blocked"
+        ]
+    },
+    "2026-03-block-purchases": {
+        "id": "2026-03-block-purchases",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-03-clips-experiment": {
+        "id": "2026-03-clips-experiment",
+        "kind": "user",
+        "treatments": []
+    },
+    "2026-04-clips-reminder-sidebar": {
+        "id": "2026-04-clips-reminder-sidebar",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-03-shop-bundle-card-static-preview": {
+        "id": "2026-03-shop-bundle-card-static-preview",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-04-profile-frames-ea-marketing": {
+        "id": "2026-04-profile-frames-ea-marketing",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-03-content-inventory-memberlist-and-ranker": {
+        "id": "2026-03-content-inventory-memberlist-and-ranker",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2025-09_hotwheels_nvidia_boost": {
+        "id": "2025-09_hotwheels_nvidia_boost",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2025-04-desktop-refresh-fast-follows": {
+        "id": "2025-04-desktop-refresh-fast-follows",
+        "kind": "user",
+        "treatments": []
+    },
+    "2026-01-cms-layouts": {
+        "id": "2026-01-cms-layouts",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-02-friends-list": {
+        "id": "2026-02-friends-list",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-03-churro": {
+        "id": "2026-03-churro",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-02_hangout_window": {
+        "id": "2026-02_hangout_window",
+        "kind": "guild",
+        "treatments": []
+    },
+    "2026-04-icymi-staff-only": {
+        "id": "2026-04-icymi-staff-only",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-03-icymi-staff-debugging-utility": {
+        "id": "2026-03-icymi-staff-debugging-utility",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-03-icymi-desktop": {
+        "id": "2026-03-icymi-desktop",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-03-icymi-sunset-banner": {
+        "id": "2026-03-icymi-sunset-banner",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-04-desktop-notification-center": {
+        "id": "2026-04-desktop-notification-center",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-04-game-account-linking-post-game-close": {
+        "id": "2026-04-game-account-linking-post-game-close",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-02-join-game-community-cta": {
+        "id": "2026-02-join-game-community-cta",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2025-11-rtc-panel-entry-point-new-copy": {
+        "id": "2025-11-rtc-panel-entry-point-new-copy",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-02-gsh-game-detection-upsell": {
+        "id": "2026-02-gsh-game-detection-upsell",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-03-bogo-promotion-marketing-materials-v2": {
+        "id": "2026-03-bogo-promotion-marketing-materials-v2",
+        "kind": "user",
+        "treatments": []
+    },
+    "2026-03-bogo-promotion-gate-v2": {
+        "id": "2026-03-bogo-promotion-gate-v2",
+        "kind": "user",
+        "treatments": []
+    },
+    "2026-03_game_server_pricing": {
+        "id": "2026-03_game_server_pricing",
+        "kind": "guild",
+        "treatments": [
+            "Enable Game Server Pricing"
+        ]
+    },
+    "2026-02-game-server-tab-always-on": {
+        "id": "2026-02-game-server-tab-always-on",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-04-gift-promotion-reminder": {
+        "id": "2026-04-gift-promotion-reminder",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-02-boost-to-unlock-coachmark": {
+        "id": "2026-02-boost-to-unlock-coachmark",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-02-expiring-powerup-coachmark": {
+        "id": "2026-02-expiring-powerup-coachmark",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-03-soundmoji-rendering": {
+        "id": "2026-03-soundmoji-rendering",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2025-12-nitro-s-rewards": {
+        "id": "2025-12-nitro-s-rewards",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-03-nitro-s-rewards-v2-test": {
+        "id": "2026-03-nitro-s-rewards-v2-test",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2021-02_staff_qc_debugging": {
+        "id": "2021-02_staff_qc_debugging",
+        "kind": "user",
+        "treatments": [
+            "Show scores in QS results"
+        ]
+    },
+    "2025-05-search-results-feedback": {
+        "id": "2025-05-search-results-feedback",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2022-07_voice_in_threads": {
+        "id": "2022-07_voice_in_threads",
+        "kind": "guild",
+        "treatments": [
+            "On"
         ]
     },
     "2026-03-croissant": {
@@ -53,120 +349,50 @@
             "Variation 0"
         ]
     },
-    "2026-03-wishlisting-nitro": {
-        "id": "2026-03-wishlisting-nitro",
+    "2025-10-gif-providers-multi-treatment": {
+        "id": "2025-10-gif-providers-multi-treatment",
         "kind": "user",
         "treatments": [
             "Variation 0"
         ]
     },
-    "2026-04-clips-primary-entry-point": {
-        "id": "2026-04-clips-primary-entry-point",
+    "2026-02-silp-in-app-redesign": {
+        "id": "2026-02-silp-in-app-redesign",
         "kind": "user",
         "treatments": [
             "Variation 1"
         ]
     },
-    "2026-04-rtc-voice-details-refresh": {
-        "id": "2026-04-rtc-voice-details-refresh",
+    "2026-03-silp-in-app-redesign-profile": {
+        "id": "2026-03-silp-in-app-redesign-profile",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-03-collectibles-profile-frames": {
+        "id": "2026-03-collectibles-profile-frames",
         "kind": "user",
         "treatments": [
             "Variation 0"
         ]
     },
-    "2026-02-gdm-all-reaction-notifications": {
-        "id": "2026-02-gdm-all-reaction-notifications",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-03-application-widget-v2-renderer": {
-        "id": "2026-03-application-widget-v2-renderer",
+    "2026-04-user-profile-performance-analytics": {
+        "id": "2026-04-user-profile-performance-analytics",
         "kind": "user",
         "treatments": [
             "Variation 0"
         ]
     },
-    "2025-12-active-timestamp-styling": {
-        "id": "2025-12-active-timestamp-styling",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-02-sticker-padding": {
-        "id": "2026-02-sticker-padding",
+    "2026-03-game-profiles-mobile": {
+        "id": "2026-03-game-profiles-mobile",
         "kind": "user",
         "treatments": [
             "Variation 1"
         ]
     },
-    "2026-03-kaomoji-picker": {
-        "id": "2026-03-kaomoji-picker",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-02-voice-channel-link-click": {
-        "id": "2026-02-voice-channel-link-click",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-03-image-load-metrics": {
-        "id": "2026-03-image-load-metrics",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-02-lazy-load-all-images": {
-        "id": "2026-02-lazy-load-all-images",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-03-media-play-metrics": {
-        "id": "2026-03-media-play-metrics",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-02-gifting-modal-redesign": {
-        "id": "2026-02-gifting-modal-redesign",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-02-non-dm-gifting-modal-redesign": {
-        "id": "2026-02-non-dm-gifting-modal-redesign",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-04-mobile-quest-external-link": {
-        "id": "2026-04-mobile-quest-external-link",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-03-soundboard-default-reordering": {
-        "id": "2026-03-soundboard-default-reordering",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2025-09-threads-also-send-to-channel": {
-        "id": "2025-09-threads-also-send-to-channel",
+    "2025-12-quest-cta-refactor-rollout": {
+        "id": "2025-12-quest-cta-refactor-rollout",
         "kind": "user",
         "treatments": [
             "Variation 1"
@@ -177,15 +403,76 @@
         "kind": "guild",
         "treatments": []
     },
-    "2026-03-age-verification-google-wallet": {
-        "id": "2026-03-age-verification-google-wallet",
+    "2026-03-arborium-highlight": {
+        "id": "2026-03-arborium-highlight",
         "kind": "user",
         "treatments": [
             "Variation 1"
         ]
     },
-    "2025-04_ignore_user_feedback": {
-        "id": "2025-04_ignore_user_feedback",
+    "2026-03-private-profiles-strict": {
+        "id": "2026-03-private-profiles-strict",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-02-private-profiles": {
+        "id": "2026-02-private-profiles",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-04-server-boost-copy-1440p": {
+        "id": "2026-04-server-boost-copy-1440p",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2022-12_mention_raid_limit": {
+        "id": "2022-12_mention_raid_limit",
+        "kind": "guild",
+        "treatments": [
+            "Automod Mention Raid Limit"
+        ]
+    },
+    "2026-02-gdm-all-reaction-notifications": {
+        "id": "2026-02-gdm-all-reaction-notifications",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-04-trial-continuation-discount": {
+        "id": "2026-04-trial-continuation-discount",
+        "kind": "user",
+        "treatments": []
+    },
+    "2025-11-mana-context-menu": {
+        "id": "2025-11-mana-context-menu",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-04-profile-frame-gifting": {
+        "id": "2026-04-profile-frame-gifting",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-04-storefront-pricing": {
+        "id": "2026-04-storefront-pricing",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-04-premium-group-roadblock": {
+        "id": "2026-04-premium-group-roadblock",
         "kind": "user",
         "treatments": []
     },
@@ -203,43 +490,20 @@
             "Variation 0"
         ]
     },
-    "2025-11-mana-context-menu": {
-        "id": "2025-11-mana-context-menu",
+    "2025-04_ignore_user_feedback": {
+        "id": "2025-04_ignore_user_feedback",
+        "kind": "user",
+        "treatments": []
+    },
+    "2026-02-pubsub-bulk-ban-users": {
+        "id": "2026-02-pubsub-bulk-ban-users",
         "kind": "user",
         "treatments": [
             "Variation 1"
         ]
     },
-    "2026-03-collectibles-profile-frames": {
-        "id": "2026-03-collectibles-profile-frames",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-03-game-profiles-mobile": {
-        "id": "2026-03-game-profiles-mobile",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-03-soundboard-sound-preview": {
-        "id": "2026-03-soundboard-sound-preview",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-04-add-to-dm-updates": {
-        "id": "2026-04-add-to-dm-updates",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-02-longer-group-dm-invites": {
-        "id": "2026-02-longer-group-dm-invites",
+    "2026-01-voice-dares-v0": {
+        "id": "2026-01-voice-dares-v0",
         "kind": "user",
         "treatments": [
             "Variation 1"
@@ -1059,6 +1323,146 @@
             "Variation 1"
         ]
     },
+    "2026-02-referral-reminder-dc": {
+        "id": "2026-02-referral-reminder-dc",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-02-android-app-upsell-banner": {
+        "id": "2026-02-android-app-upsell-banner",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-03-age-verification-google-wallet": {
+        "id": "2026-03-age-verification-google-wallet",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-04-collectibles-profile-frames-purchase": {
+        "id": "2026-04-collectibles-profile-frames-purchase",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-03-application-widget-v2-renderer": {
+        "id": "2026-03-application-widget-v2-renderer",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2025-12-active-timestamp-styling": {
+        "id": "2025-12-active-timestamp-styling",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-02-sticker-padding": {
+        "id": "2026-02-sticker-padding",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-03-kaomoji-picker": {
+        "id": "2026-03-kaomoji-picker",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-02-voice-channel-link-click": {
+        "id": "2026-02-voice-channel-link-click",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-03-image-load-metrics": {
+        "id": "2026-03-image-load-metrics",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-02-lazy-load-all-images": {
+        "id": "2026-02-lazy-load-all-images",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-03-media-play-metrics": {
+        "id": "2026-03-media-play-metrics",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-02-gifting-modal-redesign": {
+        "id": "2026-02-gifting-modal-redesign",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-02-non-dm-gifting-modal-redesign": {
+        "id": "2026-02-non-dm-gifting-modal-redesign",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-04-mobile-quest-external-link": {
+        "id": "2026-04-mobile-quest-external-link",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-03-soundboard-default-reordering": {
+        "id": "2026-03-soundboard-default-reordering",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2025-09-threads-also-send-to-channel": {
+        "id": "2025-09-threads-also-send-to-channel",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-04-clips-primary-entry-point": {
+        "id": "2026-04-clips-primary-entry-point",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
+    "2026-04-rtc-voice-details-refresh": {
+        "id": "2026-04-rtc-voice-details-refresh",
+        "kind": "user",
+        "treatments": [
+            "Variation 0"
+        ]
+    },
+    "2026-03-wysiwyg-user-profile-editing": {
+        "id": "2026-03-wysiwyg-user-profile-editing",
+        "kind": "user",
+        "treatments": [
+            "Variation 1"
+        ]
+    },
     "2025-11-auto-open-tiv": {
         "id": "2025-11-auto-open-tiv",
         "kind": "user",
@@ -1080,55 +1484,6 @@
         "id": "2024-12_guild_voice_channel_ringing",
         "kind": "guild",
         "treatments": []
-    },
-    "2025-12-quest-cta-refactor-rollout": {
-        "id": "2025-12-quest-cta-refactor-rollout",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-03-arborium-highlight": {
-        "id": "2026-03-arborium-highlight",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-04-user-profile-performance-analytics": {
-        "id": "2026-04-user-profile-performance-analytics",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-02-silp-in-app-redesign": {
-        "id": "2026-02-silp-in-app-redesign",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-03-silp-in-app-redesign-profile": {
-        "id": "2026-03-silp-in-app-redesign-profile",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-02-referral-reminder-dc": {
-        "id": "2026-02-referral-reminder-dc",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-02-android-app-upsell-banner": {
-        "id": "2026-02-android-app-upsell-banner",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
     },
     "2025-10-payment-elements-launch": {
         "id": "2025-10-payment-elements-launch",
@@ -1158,11 +1513,11 @@
             "Variation 0"
         ]
     },
-    "2026-04-collectibles-profile-frames-purchase": {
-        "id": "2026-04-collectibles-profile-frames-purchase",
+    "2026-03-soundboard-sound-preview": {
+        "id": "2026-03-soundboard-sound-preview",
         "kind": "user",
         "treatments": [
-            "Variation 0"
+            "Variation 1"
         ]
     },
     "2025-12-social-layer-storefront-activity-card-entrypoints-user-experiment": {
@@ -1172,338 +1527,18 @@
             "Variation 0"
         ]
     },
-    "2026-01-bug-reporter": {
-        "id": "2026-01-bug-reporter",
+    "2026-04-add-to-dm-updates": {
+        "id": "2026-04-add-to-dm-updates",
         "kind": "user",
         "treatments": [
             "Variation 1"
         ]
     },
-    "2026-01-now-playing-api-call-experiment": {
-        "id": "2026-01-now-playing-api-call-experiment",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-04-logitech-ss-marketing": {
-        "id": "2026-04-logitech-ss-marketing",
+    "2026-02-longer-group-dm-invites": {
+        "id": "2026-02-longer-group-dm-invites",
         "kind": "user",
         "treatments": [
             "Variation 1"
-        ]
-    },
-    "2026-04-croissant-reheat": {
-        "id": "2026-04-croissant-reheat",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-04-premium-group-announcement": {
-        "id": "2026-04-premium-group-announcement",
-        "kind": "user",
-        "treatments": []
-    },
-    "2026-03-premium-group-popover": {
-        "id": "2026-03-premium-group-popover",
-        "kind": "user",
-        "treatments": []
-    },
-    "2026-04-safety-flows": {
-        "id": "2026-04-safety-flows",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-03-play-with-xbox-game-pass": {
-        "id": "2026-03-play-with-xbox-game-pass",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2025-09-server-nsfw-level": {
-        "id": "2025-09-server-nsfw-level",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-02-client-heartbeat-skipped": {
-        "id": "2026-02-client-heartbeat-skipped",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-04-riot-social-sdk-migration": {
-        "id": "2026-04-riot-social-sdk-migration",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2022-03_block_russian_purchases": {
-        "id": "2022-03_block_russian_purchases",
-        "kind": "user",
-        "treatments": [
-            "Payments Blocked"
-        ]
-    },
-    "2026-03-block-purchases": {
-        "id": "2026-03-block-purchases",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-03-clips-experiment": {
-        "id": "2026-03-clips-experiment",
-        "kind": "user",
-        "treatments": []
-    },
-    "2026-04-clips-reminder-sidebar": {
-        "id": "2026-04-clips-reminder-sidebar",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-03-shop-bundle-card-static-preview": {
-        "id": "2026-03-shop-bundle-card-static-preview",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-04-profile-frames-ea-marketing": {
-        "id": "2026-04-profile-frames-ea-marketing",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-03-content-inventory-memberlist-and-ranker": {
-        "id": "2026-03-content-inventory-memberlist-and-ranker",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2025-09_hotwheels_nvidia_boost": {
-        "id": "2025-09_hotwheels_nvidia_boost",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2025-04-desktop-refresh-fast-follows": {
-        "id": "2025-04-desktop-refresh-fast-follows",
-        "kind": "user",
-        "treatments": []
-    },
-    "2026-01-cms-layouts": {
-        "id": "2026-01-cms-layouts",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-02-friends-list": {
-        "id": "2026-02-friends-list",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-03-churro": {
-        "id": "2026-03-churro",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-02_hangout_window": {
-        "id": "2026-02_hangout_window",
-        "kind": "guild",
-        "treatments": []
-    },
-    "2026-04-icymi-staff-only": {
-        "id": "2026-04-icymi-staff-only",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-03-icymi-staff-debugging-utility": {
-        "id": "2026-03-icymi-staff-debugging-utility",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-03-icymi-desktop": {
-        "id": "2026-03-icymi-desktop",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-03-icymi-sunset-banner": {
-        "id": "2026-03-icymi-sunset-banner",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-04-desktop-notification-center": {
-        "id": "2026-04-desktop-notification-center",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-04-game-account-linking-post-game-close": {
-        "id": "2026-04-game-account-linking-post-game-close",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-02-join-game-community-cta": {
-        "id": "2026-02-join-game-community-cta",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2025-11-rtc-panel-entry-point-new-copy": {
-        "id": "2025-11-rtc-panel-entry-point-new-copy",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-02-gsh-game-detection-upsell": {
-        "id": "2026-02-gsh-game-detection-upsell",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-03-bogo-promotion-marketing-materials-v2": {
-        "id": "2026-03-bogo-promotion-marketing-materials-v2",
-        "kind": "user",
-        "treatments": []
-    },
-    "2026-03-bogo-promotion-gate-v2": {
-        "id": "2026-03-bogo-promotion-gate-v2",
-        "kind": "user",
-        "treatments": []
-    },
-    "2026-03_game_server_pricing": {
-        "id": "2026-03_game_server_pricing",
-        "kind": "guild",
-        "treatments": [
-            "Enable Game Server Pricing"
-        ]
-    },
-    "2026-02-game-server-tab-always-on": {
-        "id": "2026-02-game-server-tab-always-on",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-04-gift-promotion-reminder": {
-        "id": "2026-04-gift-promotion-reminder",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-02-boost-to-unlock-coachmark": {
-        "id": "2026-02-boost-to-unlock-coachmark",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-02-expiring-powerup-coachmark": {
-        "id": "2026-02-expiring-powerup-coachmark",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-03-soundmoji-rendering": {
-        "id": "2026-03-soundmoji-rendering",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2025-12-nitro-s-rewards": {
-        "id": "2025-12-nitro-s-rewards",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-03-nitro-s-rewards-v2-test": {
-        "id": "2026-03-nitro-s-rewards-v2-test",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2021-02_staff_qc_debugging": {
-        "id": "2021-02_staff_qc_debugging",
-        "kind": "user",
-        "treatments": [
-            "Show scores in QS results"
-        ]
-    },
-    "2025-05-search-results-feedback": {
-        "id": "2025-05-search-results-feedback",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2022-07_voice_in_threads": {
-        "id": "2022-07_voice_in_threads",
-        "kind": "guild",
-        "treatments": [
-            "On"
-        ]
-    },
-    "2026-04-premium-group-roadblock": {
-        "id": "2026-04-premium-group-roadblock",
-        "kind": "user",
-        "treatments": []
-    },
-    "2022-12_mention_raid_limit": {
-        "id": "2022-12_mention_raid_limit",
-        "kind": "guild",
-        "treatments": [
-            "Automod Mention Raid Limit"
-        ]
-    },
-    "2026-02-pubsub-bulk-ban-users": {
-        "id": "2026-02-pubsub-bulk-ban-users",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2025-09-video-qoe-metrics-tracking": {
-        "id": "2025-09-video-qoe-metrics-tracking",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
         ]
     },
     "2026-02-channel-wave-button": {
@@ -1515,41 +1550,6 @@
     },
     "2025-12-social-layer-storefront-wishlist-user-account-popout": {
         "id": "2025-12-social-layer-storefront-wishlist-user-account-popout",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-03-wysiwyg-user-profile-editing": {
-        "id": "2026-03-wysiwyg-user-profile-editing",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
-    "2026-03-private-profiles-strict": {
-        "id": "2026-03-private-profiles-strict",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-02-private-profiles": {
-        "id": "2026-02-private-profiles",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-04-profile-frame-gifting": {
-        "id": "2026-04-profile-frame-gifting",
-        "kind": "user",
-        "treatments": [
-            "Variation 0"
-        ]
-    },
-    "2026-04-storefront-pricing": {
-        "id": "2026-04-storefront-pricing",
         "kind": "user",
         "treatments": [
             "Variation 0"
