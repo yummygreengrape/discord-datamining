@@ -476,13 +476,6 @@
             "Variation 1"
         ]
     },
-    "2026-01-user-offer-notice-timing-v2-xp": {
-        "id": "2026-01-user-offer-notice-timing-v2-xp",
-        "kind": "user",
-        "treatments": [
-            "Variation 1"
-        ]
-    },
     "2026-01-voice-dares-v0": {
         "id": "2026-01-voice-dares-v0",
         "kind": "user",

@@ -1,24 +1,106 @@
 {
-    "build_hash": "6693d4c08466f49c2a254ed3709d6b817d239f3d",
+    "build_hash": "6904c5f79553915be89b62542d231f3197e3bb8c",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
-    "modified_api_endpoints": [],
-    "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiments": [
+    "deleted_experiments": [
         {
-            "id": "2026-04-desktop-tti-early-update-check",
+            "id": "2026-01-user-offer-notice-timing-v2-xp",
             "kind": "user",
             "treatments": [
                 "Variation 1"
             ]
         }
     ],
+    "modified_api_endpoints": [
+        {
+            "name": "BILLING_STANDALONE_CHECKOUT_PAGE",
+            "old_url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=r?",
+            "url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=i?"
+        },
+        {
+            "name": "CHANGELOGS",
+            "old_url": "/settings/changelogs${null!=e?",
+            "url": ":param/settings/changelogs"
+        },
+        {
+            "name": "GUILD_MEMBER_VERIFICATION",
+            "old_url": "/member-verification/:param",
+            "url": "/guilds/:param/member-verification"
+        },
+        {
+            "name": "GUILD_TEMPLATE",
+            "old_url": "/template/:param",
+            "url": "/guilds/:param/templates/:param"
+        },
+        {
+            "name": "INVITE",
+            "old_url": "/invite/:param",
+            "url": "/invites/:param"
+        },
+        {
+            "name": "QUEST_PREVIEW",
+            "old_url": "/quest-preview/:param",
+            "url": "/quests/:param/preview"
+        },
+        {
+            "name": "QUEST_PREVIEW_TOOL_2",
+            "old_url": "/quest-home?tab=preview_tool&quest_id=:param",
+            "url": ":param/quest-preview/:param"
+        },
+        {
+            "name": "SETTINGS",
+            "old_url": "/settings/:param${null!=t?",
+            "url": ":param/settings/:param${t?"
+        }
+    ],
+    "modified_experiments": [],
+    "new_api_endpoints": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "ACCOUNT_STANDING": {
+                    "new_value": "Account Standing",
+                    "old_value": "/account-standing"
+                },
+                "APPLICATION_DIRECTORY_SEARCH": {
+                    "new_value": "/application-directory-static/search",
+                    "old_value": "/application-directory/search"
+                },
+                "AUTHORIZE_IP": {
+                    "new_value": "/auth/authorize-ip",
+                    "old_value": "/authorize-ip"
+                },
+                "AUTHORIZE_PAYMENT": {
+                    "new_value": "/billing/verify-purchase-request",
+                    "old_value": "/authorize-payment"
+                },
+                "BILLING_PAYMENTS": {
+                    "new_value": "/users/@me/billing/payments",
+                    "old_value": "/billing/payments"
+                },
+                "COLLECTIBLES_SHOP": {
+                    "new_value": "Shop",
+                    "old_value": "/shop"
+                },
+                "DISABLE_EMAIL_NOTIFICATIONS": {
+                    "new_value": "/users/disable-email-notifications",
+                    "old_value": "/disable-email-notifications"
+                },
+                "DISABLE_SERVER_HIGHLIGHT_NOTIFICATIONS": {
+                    "new_value": "/users/disable-server-highlight-notifications",
+                    "old_value": "/disable-server-highlight-notifications"
+                },
+                "FAMILY_CENTER": {
+                    "new_value": "Family Center",
+                    "old_value": "/family-center"
+                },
+                "GUILD_DISCOVERY": {
+                    "new_value": "/discoverable-guilds",
+                    "old_value": "/guild-discovery"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -26,5 +108,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-04-30T19:35:46.537481+00:00"
+    "timestamp": "2026-04-30T19:48:04.402578+00:00"
 }
