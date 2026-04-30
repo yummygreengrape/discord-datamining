@@ -1,6 +1,55 @@
 {
     "api_endpoints": [
         {
+            "name": "SETTINGS",
+            "old_url": "/settings/:param${null!=t?",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "url": ":param/settings/:param${t?"
+        },
+        {
+            "name": "QUEST_PREVIEW_TOOL_2",
+            "old_url": "/quest-home?tab=preview_tool&quest_id=:param",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "url": ":param/quest-preview/:param"
+        },
+        {
+            "name": "QUEST_PREVIEW",
+            "old_url": "/quest-preview/:param",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "url": "/quests/:param/preview"
+        },
+        {
+            "name": "INVITE",
+            "old_url": "/invite/:param",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "url": "/invites/:param"
+        },
+        {
+            "name": "GUILD_TEMPLATE",
+            "old_url": "/template/:param",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "url": "/guilds/:param/templates/:param"
+        },
+        {
+            "name": "GUILD_MEMBER_VERIFICATION",
+            "old_url": "/member-verification/:param",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "url": "/guilds/:param/member-verification"
+        },
+        {
+            "name": "CHANGELOGS",
+            "old_url": "/settings/changelogs${null!=e?",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "url": ":param/settings/changelogs"
+        },
+        {
             "name": "BILLING_STANDALONE_CHECKOUT_PAGE",
             "old_url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=i?",
             "status": "modified",
@@ -4370,7 +4419,7 @@
             "url": "/guilds/:param/guild-feed/preference"
         }
     ],
-    "build_hash": "e1d55620794a78350abd6ee933e8f47a02de7a8d",
+    "build_hash": "e62eab3447068f417fa3730d77d40a0227d8ffeb",
     "experiments": [
         {
             "id": "2026-04-wetf-parser",
@@ -38182,6 +38231,94 @@
         }
     ],
     "strings": [
+        {
+            "key": "ACCOUNT_STANDING",
+            "lang": "en",
+            "old_value": "/account-standing",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "value": "Account Standing"
+        },
+        {
+            "key": "COLLECTIBLES_SHOP",
+            "lang": "en",
+            "old_value": "/shop",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "value": "Shop"
+        },
+        {
+            "key": "FAMILY_CENTER",
+            "lang": "en",
+            "old_value": "/family-center",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "value": "Family Center"
+        },
+        {
+            "key": "APPLICATION_DIRECTORY_SEARCH",
+            "lang": "en",
+            "old_value": "/application-directory/search",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "value": "/application-directory-static/search"
+        },
+        {
+            "key": "GUILD_DISCOVERY",
+            "lang": "en",
+            "old_value": "/guild-discovery",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "value": "/discoverable-guilds"
+        },
+        {
+            "key": "AUTHORIZE_PAYMENT",
+            "lang": "en",
+            "old_value": "/authorize-payment",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "value": "/billing/verify-purchase-request"
+        },
+        {
+            "key": "AUTHORIZE_IP",
+            "lang": "en",
+            "old_value": "/authorize-ip",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "value": "/auth/authorize-ip"
+        },
+        {
+            "key": "DISABLE_SERVER_HIGHLIGHT_NOTIFICATIONS",
+            "lang": "en",
+            "old_value": "/disable-server-highlight-notifications",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "value": "/users/disable-server-highlight-notifications"
+        },
+        {
+            "key": "DISABLE_EMAIL_NOTIFICATIONS",
+            "lang": "en",
+            "old_value": "/disable-email-notifications",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "value": "/users/disable-email-notifications"
+        },
+        {
+            "key": "BILLING_PAYMENTS",
+            "lang": "en",
+            "old_value": "/billing/payments",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "value": "/users/@me/billing/payments"
+        },
+        {
+            "key": "GUILD_BOOSTING_PINK_REFRESH",
+            "lang": "en",
+            "old_value": "currentColor",
+            "status": "modified",
+            "timestamp": "2026-04-30T18:10:16.905664+00:00",
+            "value": "#ff4cd2"
+        },
         {
             "key": "GUILD_BOOSTING_PINK_REFRESH",
             "lang": "en",
