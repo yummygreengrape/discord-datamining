@@ -606,7 +606,7 @@
         "WELCOME": ":param/welcome/",
         "_SUBSCRIPTION_REWARD_ELIGIBILITY": "/users/@me/billing/subscriptions/:param/reward-eligibility"
     },
-    "build_hash": "8ccbfd8dd5ec0f2a4397d1f1bee884f33eb4538f",
+    "build_hash": "dc828772029ec7b25d93220fd6475be244465b81",
     "css_files": [
         "/assets/52706.8359e484f05597fe.css",
         "/assets/68176.3cce067e4a22005d.css",
