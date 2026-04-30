@@ -606,7 +606,7 @@
         "WELCOME": ":param/welcome/",
         "_SUBSCRIPTION_REWARD_ELIGIBILITY": "/users/@me/billing/subscriptions/:param/reward-eligibility"
     },
-    "build_hash": "c9e4d9c9d431388e19f73c9603c45014d7a6cf9e",
+    "build_hash": "6693d4c08466f49c2a254ed3709d6b817d239f3d",
     "css_files": [
         "/assets/52706.8359e484f05597fe.css",
         "/assets/68176.3cce067e4a22005d.css",
@@ -4211,6 +4211,13 @@
         },
         "2026-04-desktop-tti-dnstcp-warmup": {
             "id": "2026-04-desktop-tti-dnstcp-warmup",
+            "kind": "user",
+            "treatments": [
+                "Variation 1"
+            ]
+        },
+        "2026-04-desktop-tti-early-update-check": {
+            "id": "2026-04-desktop-tti-early-update-check",
             "kind": "user",
             "treatments": [
                 "Variation 1"
