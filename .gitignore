@@ -8,3 +8,4 @@ Dockerfile
 docker-compose.yml
 run_datamining.command
 requirements.txt
+*.py
