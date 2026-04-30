@@ -606,7 +606,7 @@
         "WELCOME": ":param/welcome/",
         "_SUBSCRIPTION_REWARD_ELIGIBILITY": "/users/@me/billing/subscriptions/:param/reward-eligibility"
     },
-    "build_hash": "8e6db3bae3873a09042afd696a14ed23f7f34358",
+    "build_hash": "a1bbca219d50d86bf33a8e3296edc73c76456a79",
     "css_files": [
         "/assets/52706.8359e484f05597fe.css",
         "/assets/68176.3cce067e4a22005d.css",
@@ -1443,7 +1443,7 @@
         "GUILD_BOOSTING_BLUE": "#3e70dd",
         "GUILD_BOOSTING_BLUE_FOR_GRADIENTS": "#3442d9",
         "GUILD_BOOSTING_PINK": "#ff73fa",
-        "GUILD_BOOSTING_PINK_REFRESH": "#ff4cd2",
+        "GUILD_BOOSTING_PINK_REFRESH": "currentColor",
         "GUILD_BOOSTING_PURPLE": "#b377f3",
         "GUILD_BOOSTING_PURPLE_FOR_GRADIENTS": "#9b44f7",
         "GUILD_CREATE": "/guilds/create",

@@ -4636,7 +4636,7 @@
             "url": "/guilds/:param/guild-feed/preference"
         }
     ],
-    "build_hash": "8e6db3bae3873a09042afd696a14ed23f7f34358",
+    "build_hash": "a1bbca219d50d86bf33a8e3296edc73c76456a79",
     "experiments": [
         {
             "id": "2026-01-user-offer-notice-timing-v2-xp",
@@ -38466,6 +38466,14 @@
         }
     ],
     "strings": [
+        {
+            "key": "GUILD_BOOSTING_PINK_REFRESH",
+            "lang": "en",
+            "old_value": "#ff4cd2",
+            "status": "modified",
+            "timestamp": "2026-04-30T21:34:37.600557+00:00",
+            "value": "currentColor"
+        },
         {
             "key": "GUILD_BOOSTING_PINK_REFRESH",
             "lang": "en",
