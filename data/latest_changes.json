@@ -1,42 +1,47 @@
 {
-    "build_hash": "e62eab3447068f417fa3730d77d40a0227d8ffeb",
+    "build_hash": "19dac80564d0e5128f6aa88ba457a9d5494c5c00",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "modified_api_endpoints": [
         {
+            "name": "BILLING_STANDALONE_CHECKOUT_PAGE",
+            "old_url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=r?",
+            "url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=i?"
+        },
+        {
             "name": "CHANGELOGS",
-            "old_url": "/settings/changelogs${null!=e?",
-            "url": ":param/settings/changelogs"
+            "old_url": ":param/settings/changelogs",
+            "url": "/settings/changelogs${null!=e?"
         },
         {
             "name": "GUILD_MEMBER_VERIFICATION",
-            "old_url": "/member-verification/:param",
-            "url": "/guilds/:param/member-verification"
+            "old_url": "/guilds/:param/member-verification",
+            "url": "/member-verification/:param"
         },
         {
             "name": "GUILD_TEMPLATE",
-            "old_url": "/template/:param",
-            "url": "/guilds/:param/templates/:param"
+            "old_url": "/guilds/:param/templates/:param",
+            "url": "/template/:param"
         },
         {
             "name": "INVITE",
-            "old_url": "/invite/:param",
-            "url": "/invites/:param"
+            "old_url": "/invites/:param",
+            "url": "/invite/:param"
         },
         {
             "name": "QUEST_PREVIEW",
-            "old_url": "/quest-preview/:param",
-            "url": "/quests/:param/preview"
+            "old_url": "/quests/:param/preview",
+            "url": "/quest-preview/:param"
         },
         {
             "name": "QUEST_PREVIEW_TOOL_2",
-            "old_url": "/quest-home?tab=preview_tool&quest_id=:param",
-            "url": ":param/quest-preview/:param"
+            "old_url": ":param/quest-preview/:param",
+            "url": "/quest-home?tab=preview_tool&quest_id=:param"
         },
         {
             "name": "SETTINGS",
-            "old_url": "/settings/:param${null!=t?",
-            "url": ":param/settings/:param${t?"
+            "old_url": ":param/settings/:param${t?",
+            "url": "/settings/:param${null!=t?"
         }
     ],
     "modified_experiments": [],
@@ -48,48 +53,44 @@
             "deleted": {},
             "modified": {
                 "ACCOUNT_STANDING": {
-                    "new_value": "Account Standing",
-                    "old_value": "/account-standing"
+                    "new_value": "/account-standing",
+                    "old_value": "Account Standing"
                 },
                 "APPLICATION_DIRECTORY_SEARCH": {
-                    "new_value": "/application-directory-static/search",
-                    "old_value": "/application-directory/search"
+                    "new_value": "/application-directory/search",
+                    "old_value": "/application-directory-static/search"
                 },
                 "AUTHORIZE_IP": {
-                    "new_value": "/auth/authorize-ip",
-                    "old_value": "/authorize-ip"
+                    "new_value": "/authorize-ip",
+                    "old_value": "/auth/authorize-ip"
                 },
                 "AUTHORIZE_PAYMENT": {
-                    "new_value": "/billing/verify-purchase-request",
-                    "old_value": "/authorize-payment"
+                    "new_value": "/authorize-payment",
+                    "old_value": "/billing/verify-purchase-request"
                 },
                 "BILLING_PAYMENTS": {
-                    "new_value": "/users/@me/billing/payments",
-                    "old_value": "/billing/payments"
+                    "new_value": "/billing/payments",
+                    "old_value": "/users/@me/billing/payments"
                 },
                 "COLLECTIBLES_SHOP": {
-                    "new_value": "Shop",
-                    "old_value": "/shop"
+                    "new_value": "/shop",
+                    "old_value": "Shop"
                 },
                 "DISABLE_EMAIL_NOTIFICATIONS": {
-                    "new_value": "/users/disable-email-notifications",
-                    "old_value": "/disable-email-notifications"
+                    "new_value": "/disable-email-notifications",
+                    "old_value": "/users/disable-email-notifications"
                 },
                 "DISABLE_SERVER_HIGHLIGHT_NOTIFICATIONS": {
-                    "new_value": "/users/disable-server-highlight-notifications",
-                    "old_value": "/disable-server-highlight-notifications"
+                    "new_value": "/disable-server-highlight-notifications",
+                    "old_value": "/users/disable-server-highlight-notifications"
                 },
                 "FAMILY_CENTER": {
-                    "new_value": "Family Center",
-                    "old_value": "/family-center"
-                },
-                "GUILD_BOOSTING_PINK_REFRESH": {
-                    "new_value": "#ff4cd2",
-                    "old_value": "currentColor"
+                    "new_value": "/family-center",
+                    "old_value": "Family Center"
                 },
                 "GUILD_DISCOVERY": {
-                    "new_value": "/discoverable-guilds",
-                    "old_value": "/guild-discovery"
+                    "new_value": "/guild-discovery",
+                    "old_value": "/discoverable-guilds"
                 }
             }
         },
@@ -99,5 +100,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-04-30T18:10:16.905664+00:00"
+    "timestamp": "2026-04-30T18:22:29.262269+00:00"
 }
