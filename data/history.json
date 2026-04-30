@@ -1,6 +1,34 @@
 {
     "api_endpoints": [
         {
+            "name": "SETTINGS",
+            "old_url": "/settings/:param${null!=t?",
+            "status": "modified",
+            "timestamp": "2026-04-30T22:44:25.070078+00:00",
+            "url": ":param/settings/:param${t?"
+        },
+        {
+            "name": "QUEST_PREVIEW_TOOL_2",
+            "old_url": "/quest-home?tab=preview_tool&quest_id=:param",
+            "status": "modified",
+            "timestamp": "2026-04-30T22:44:25.070078+00:00",
+            "url": ":param/quest-preview/:param"
+        },
+        {
+            "name": "CHANGELOGS",
+            "old_url": "/settings/changelogs${null!=e?",
+            "status": "modified",
+            "timestamp": "2026-04-30T22:44:25.070078+00:00",
+            "url": ":param/settings/changelogs"
+        },
+        {
+            "name": "BILLING_STANDALONE_CHECKOUT_PAGE",
+            "old_url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=n?",
+            "status": "modified",
+            "timestamp": "2026-04-30T22:44:25.070078+00:00",
+            "url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=i?"
+        },
+        {
             "name": "BILLING_STANDALONE_CHECKOUT_PAGE",
             "old_url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=r?",
             "status": "modified",
@@ -4699,7 +4727,7 @@
             "url": "/guilds/:param/guild-feed/preference"
         }
     ],
-    "build_hash": "e4e27e64eddca5c77f60e7dff360754f19423ce5",
+    "build_hash": "c5980461cab3be5489936d21cf10bdf8a8c57606",
     "experiments": [
         {
             "id": "2026-01-user-offer-notice-timing-v2-xp",
