@@ -73,7 +73,7 @@
         "BILLING_PROMOTION_DIRECT_FULFILLMENT_REDEMPTION": "/billing/partner-promotions/:param/:param",
         "BILLING_PROMOTION_REDEMPTION": "/billing/promotions/:param",
         "BILLING_STANDALONE_CHECKOUT_LOGIN_HANDOFF": ":param/billing/premium/subscribe/login-handoff?handoff_key=:param&handoff_token=:param&destination=:param",
-        "BILLING_STANDALONE_CHECKOUT_PAGE": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=r?",
+        "BILLING_STANDALONE_CHECKOUT_PAGE": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=i?",
         "BILLING_STANDALONE_GUILD_BOOST_CHECKOUT_PAGE": "/billing/guild-subscriptions/purchase?guild_id=:param${null!=t?",
         "BILLING_STRIPE_PAYMENT_INTENTS": "/users/@me/billing/stripe/payment-intents/payments/:param",
         "BILLING_STRIPE_PAYMENT_INTENTS_VIA_ID": "/users/@me/billing/stripe/payment-intents/:param",
@@ -606,7 +606,7 @@
         "WELCOME": ":param/welcome/",
         "_SUBSCRIPTION_REWARD_ELIGIBILITY": "/users/@me/billing/subscriptions/:param/reward-eligibility"
     },
-    "build_hash": "3f3e0631fecce6330deb340d3a31d726c2468f7f",
+    "build_hash": "b27620f598948383b55da2a5db539edc6b7023ea",
     "css_files": [
         "/assets/52706.8359e484f05597fe.css",
         "/assets/68176.3cce067e4a22005d.css",
@@ -1443,7 +1443,7 @@
         "GUILD_BOOSTING_BLUE": "#3e70dd",
         "GUILD_BOOSTING_BLUE_FOR_GRADIENTS": "#3442d9",
         "GUILD_BOOSTING_PINK": "#ff73fa",
-        "GUILD_BOOSTING_PINK_REFRESH": "currentColor",
+        "GUILD_BOOSTING_PINK_REFRESH": "#ff4cd2",
         "GUILD_BOOSTING_PURPLE": "#b377f3",
         "GUILD_BOOSTING_PURPLE_FOR_GRADIENTS": "#9b44f7",
         "GUILD_CREATE": "/guilds/create",
