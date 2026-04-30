@@ -1,13 +1,6 @@
 {
-    "build_hash": "1c515381d534bdd017a8af58a6bdf3f1b6393261",
+    "build_hash": "a7b26e2ba8d02d8c368516275a6e5186aade1d96",
     "experiments": {
-        "2026-01_voice_channel_duration_mobile": {
-            "id": "2026-01_voice_channel_duration_mobile",
-            "kind": "guild",
-            "treatments": [
-                "Display the duration next to the Voice Channel"
-            ]
-        },
         "2024-06_rtc_pacer__simulcast": {
             "id": "2024-06_rtc_pacer__simulcast",
             "kind": "user",
@@ -101,6 +94,13 @@
                 "Show past VC activity messages in system channel"
             ]
         },
+        "2022-12_mention_raid_limit": {
+            "id": "2022-12_mention_raid_limit",
+            "kind": "guild",
+            "treatments": [
+                "Automod Mention Raid Limit"
+            ]
+        },
         "2022-03_block_russian_purchases": {
             "id": "2022-03_block_russian_purchases",
             "kind": "user",
@@ -144,13 +144,6 @@
                 "On"
             ]
         },
-        "2022-12_mention_raid_limit": {
-            "id": "2022-12_mention_raid_limit",
-            "kind": "guild",
-            "treatments": [
-                "Automod Mention Raid Limit"
-            ]
-        },
         "2026-04_voice_invite_suggestion_placement": {
             "id": "2026-04_voice_invite_suggestion_placement",
             "kind": "guild",
@@ -170,6 +163,13 @@
             "id": "2025-04_ignore_user_feedback",
             "kind": "user",
             "treatments": []
+        },
+        "2026-01_voice_channel_duration_mobile": {
+            "id": "2026-01_voice_channel_duration_mobile",
+            "kind": "guild",
+            "treatments": [
+                "Display the duration next to the Voice Channel"
+            ]
         }
     },
     "api_endpoints": {
@@ -245,6 +245,8 @@
         "LISTBOX_EMPTY_STATE_WITH_QUERY": "No results for â:paramâ",
         "STEP_INDICATOR": "Step :param of :param",
         "PERCENT_COMPLETE": ":param percent complete",
+        "ERROR": "**non-serializable** (:param)",
+        "EMBED": "https://embed.music.apple.com/:param?theme=:param&i=:param",
         "USER": "/users/:param",
         "USER_RELATIONSHIP": "/users/@me/relationships/:param",
         "USER_GAME_RELATIONSHIP": "/users/@me/game-relationships/:param/:param",
@@ -775,9 +777,7 @@
         "HYPESQUAD_ONLINE": ":param/settings/hypesquad-online",
         "BROWSE_NITRO_TITLES": ":param/store/browse?type=nitro",
         "SKU_DETAILS": ":param/store/skus/:param${null!=t?",
-        "REPORT": ":param/report",
-        "EMBED": "https://embed.music.apple.com/:param?theme=:param&i=:param",
-        "ERROR": "**non-serializable** (:param)"
+        "REPORT": ":param/report"
     },
     "strings": {
         "ko": {},

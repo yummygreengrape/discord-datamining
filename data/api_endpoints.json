@@ -71,6 +71,8 @@
     "LISTBOX_EMPTY_STATE_WITH_QUERY": "No results for â:paramâ",
     "STEP_INDICATOR": "Step :param of :param",
     "PERCENT_COMPLETE": ":param percent complete",
+    "ERROR": "**non-serializable** (:param)",
+    "EMBED": "https://embed.music.apple.com/:param?theme=:param&i=:param",
     "USER": "/users/:param",
     "USER_RELATIONSHIP": "/users/@me/relationships/:param",
     "USER_GAME_RELATIONSHIP": "/users/@me/game-relationships/:param/:param",
@@ -601,7 +603,5 @@
     "HYPESQUAD_ONLINE": ":param/settings/hypesquad-online",
     "BROWSE_NITRO_TITLES": ":param/store/browse?type=nitro",
     "SKU_DETAILS": ":param/store/skus/:param${null!=t?",
-    "REPORT": ":param/report",
-    "EMBED": "https://embed.music.apple.com/:param?theme=:param&i=:param",
-    "ERROR": "**non-serializable** (:param)"
+    "REPORT": ":param/report"
 }
