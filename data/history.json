@@ -2449,7 +2449,7 @@
             "url": "/guilds/:param/guild-feed/preference"
         }
     ],
-    "build_hash": "d6c01582e27f91f3d78c57af4a14175c8d31263e",
+    "build_hash": "c3fb2819baf383c0d4037df11846dae879251dd8",
     "experiments": [
         {
             "id": "2026-04-user-settings-redesign-4c",
