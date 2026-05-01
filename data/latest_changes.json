@@ -2,7 +2,7 @@
     "build_hash": "c3fb2819baf383c0d4037df11846dae879251dd8",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
-    "extractor_version": 2,
+    "extractor_version": 3,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
@@ -11,7 +11,32 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "JUMP_BAR_VIEWING_REPLY": {
+                    "new_value": "You Are Viewing a Reply.",
+                    "old_value": "You are viewing a reply."
+                },
+                "JUMP_TO_ORIGINAL_MESSAGE": {
+                    "new_value": "Jump To Original Message",
+                    "old_value": "Jump to original message"
+                },
+                "MESSAGES_FAILED_TO_LOAD": {
+                    "new_value": "Messages Failed To Load",
+                    "old_value": "Messages failed to load"
+                },
+                "SUMMARIES_NO_SUMMARIES": {
+                    "new_value": "No Summaries",
+                    "old_value": "No summaries"
+                },
+                "SUMMARIES_VIEW_ALL": {
+                    "new_value": "View All Summaries",
+                    "old_value": "View all summaries"
+                },
+                "YOURE_VIEWING_OLDER_MESSAGES": {
+                    "new_value": "You're Viewing Older Messages",
+                    "old_value": "You're viewing older messages"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +44,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-01T03:21:28.617217+00:00"
+    "timestamp": "2026-05-01T06:32:59.051375+00:00"
 }
