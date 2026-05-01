@@ -1,5 +1,5 @@
 {
-    "build_hash": "76212a2a07c882c8c65d2b030adda156999387f0",
+    "build_hash": "625d5fbdcd221bc12cddf9999e513811cfe2b629",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 4,
@@ -9,17 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "E6ghtw": "You're unlocking Early Access to buy Frames in the Shop",
-                "GaTAYM": "You may be sharing activity from {count, plural, one {# game} other {# games}} you play{nameCount, plural, =0 {} one {, including **{game1}**} other {, including **{game1}** and **{game2}**}}. Restrict sharing on a game-by-game basis.",
-                "NRI6vt": "If you need a copy of your personal data from your account's entire history, you can get it here. [Learn more]({article}) about how getting a copy of your data works.",
-                "QDAriI": "How Discord Uses My Data",
-                "VLMG1+": "You recently requested a copy of your data. You can request again on {date}.",
-                "bTwjaz": "Voice End-to-end Encryption",
-                "hIbRso": "Staff accounts cannot request data harvests.",
-                "qfFFos": "Request my data",
-                "rBqJDq": "You must verify your email to request your data. You can do so in $[Account Settings](settingsLink)."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -29,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-01T21:27:02.374410+00:00"
+    "timestamp": "2026-05-01T21:47:26.936276+00:00"
 }
