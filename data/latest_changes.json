@@ -1,5 +1,5 @@
 {
-    "build_hash": "2cb4e08d6171dc98dca00b4827222c8a5b107756",
+    "build_hash": "a2589d26b666f8ed9400f395cf5ecfb81b6ecd82",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 4,
@@ -9,9 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "E6ghtw": "You're unlocking Early Access to buy Frames in the Shop"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -21,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-01T18:32:54.281077+00:00"
+    "timestamp": "2026-05-01T18:43:13.028421+00:00"
 }
