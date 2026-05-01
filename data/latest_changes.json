@@ -1,5 +1,5 @@
 {
-    "build_hash": "7b2082aa7bad0bd99246c85d16b80bfae7590c91",
+    "build_hash": "9c18670a9672b770854c7ee5e7c16294c788a890",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 4,
@@ -9,16 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "GaTAYM": "You may be sharing activity from {count} you play{nameCount}. Restrict sharing on a game-by-game basis.",
-                "NRI6vt": "If you need a copy of your personal data from your account's entire history, you can get it here. [Learn more]({article}) about how getting a copy of your data works.",
-                "QDAriI": "How Discord Uses My Data",
-                "VLMG1+": "You recently requested a copy of your data. You can request again on {date}.",
-                "bTwjaz": "Voice End-to-end Encryption",
-                "hIbRso": "Staff accounts cannot request data harvests.",
-                "qfFFos": "Request my data",
-                "rBqJDq": "You must verify your email to request your data. You can do so in Account Settings."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -28,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-01T19:44:41.404798+00:00"
+    "timestamp": "2026-05-01T20:35:28.868204+00:00"
 }
