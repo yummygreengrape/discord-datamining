@@ -660,7 +660,7 @@
         "XBOX_PIN": "/connections/xbox/pin",
         "_SUBSCRIPTION_REWARD_ELIGIBILITY": "/users/@me/billing/subscriptions/:param/reward-eligibility"
     },
-    "build_hash": "c78df9ef6e203150e220e1cb39adb2f9e8bcae9a",
+    "build_hash": "9b71fe478acbf4d01fcf228ecb8a334776a8a621",
     "css_files": [
         "/assets/52706.8359e484f05597fe.css",
         "/assets/68176.3cce067e4a22005d.css",
@@ -2208,7 +2208,6 @@
         "2026-04-desktop-tti-early-update-check": {
             "id": "2026-04-desktop-tti-early-update-check",
             "kind": "user",
-            "timestamp": "2026-05-01T14:19:37Z",
             "treatments": [
                 "Variant 1"
             ]

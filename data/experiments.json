@@ -1278,7 +1278,6 @@
     "2026-04-desktop-tti-early-update-check": {
         "id": "2026-04-desktop-tti-early-update-check",
         "kind": "user",
-        "timestamp": "2026-05-01T14:19:37Z",
         "treatments": [
             "Variant 1"
         ]
