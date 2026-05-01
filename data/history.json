@@ -2452,6 +2452,106 @@
     "build_hash": "d6c01582e27f91f3d78c57af4a14175c8d31263e",
     "experiments": [
         {
+            "id": "2026-04-user-settings-redesign-4c",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-04-30T22:30:14Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-inappropriate-conversations-default-on",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-04-30T22:10:23Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-03-new-gifting-entrypoints",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-04-30T22:10:23Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-slayer-storefront-platform-support-copy",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-04-30T22:10:23Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-inappropriate-conversations-default-on",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-04-30T22:06:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-03-new-gifting-entrypoints",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-04-30T22:06:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-slayer-storefront-platform-support-copy",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-04-30T22:06:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-inappropriate-conversations-default-on",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-04-30T21:59:38Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-03-new-gifting-entrypoints",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-04-30T21:59:38Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-slayer-storefront-platform-support-copy",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-04-30T21:59:38Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
             "id": "2026-01-user-offer-notice-timing-v2-xp",
             "kind": "user",
             "status": "deleted",
@@ -4637,13 +4737,6 @@
             "treatments": []
         },
         {
-            "id": "2026-04-inappropriate-conversations-default-on",
-            "kind": "apex_user",
-            "status": "added",
-            "timestamp": "2026-04-01T00:24:00+00:00",
-            "treatments": []
-        },
-        {
             "id": "2026-04-in-app-notification-redesign",
             "kind": "apex_user",
             "status": "added",
@@ -5147,13 +5240,6 @@
             "kind": "apex_user",
             "status": "added",
             "timestamp": "2026-03-01T01:14:00+00:00",
-            "treatments": []
-        },
-        {
-            "id": "2026-03-new-gifting-entrypoints",
-            "kind": "apex_user",
-            "status": "added",
-            "timestamp": "2026-03-01T01:13:00+00:00",
             "treatments": []
         },
         {
@@ -36279,6 +36365,64 @@
         }
     ],
     "strings": [
+        {
+            "key": "TlVwqn",
+            "lang": "en",
+            "new_value": "$[{user}](userHook) was here",
+            "old_value": "$[{user}](userHook)$[ was here](labelHook)",
+            "status": "modified",
+            "timestamp": "2026-04-30T22:40:24Z",
+            "value": "$[{user}](userHook) was here"
+        },
+        {
+            "key": "069nVT",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-04-30T22:30:14Z",
+            "value": "Custom Keybinds"
+        },
+        {
+            "key": "T4LZVL",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-04-30T22:30:14Z",
+            "value": "Keybinds are custom keyboard shortcuts that let you perform specific actions in Discord without needing to click through menus. While you're on this page, keybinds are disabled."
+        },
+        {
+            "key": "+XZgmA",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-04-30T22:30:14Z",
+            "value": "System Helper"
+        },
+        {
+            "key": "cg6ltt",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-04-30T22:30:14Z",
+            "value": "General"
+        },
+        {
+            "key": "VJ/qKo",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-04-30T22:30:14Z",
+            "value": "System"
+        },
+        {
+            "key": "H8idcP",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-04-30T21:59:38Z",
+            "value": "Apply Server Theme?"
+        },
+        {
+            "key": "0LL6FX",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-04-30T21:59:38Z",
+            "value": "This will update the look of the server for all members. The theme adapts to their light or dark mode."
+        },
         {
             "key": "SERVER_RULES",
             "lang": "en",
