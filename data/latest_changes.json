@@ -1,27 +1,27 @@
 {
-    "build_hash": "3c6898a3b0f703652cfae3ec5dd240f43e47cbff",
+    "build_hash": "b83c221fc4438730bb928096a00d902a5e18a814",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "modified_api_endpoints": [
         {
             "name": "BILLING_STANDALONE_CHECKOUT_PAGE",
-            "old_url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=n?",
-            "url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=i?"
+            "old_url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=i?",
+            "url": "/billing/premium/subscribe?plan_id=:param&gift=:param&load_id=:param${null!=n?"
         },
         {
             "name": "CHANGELOGS",
-            "old_url": "/settings/changelogs${null!=e?",
-            "url": ":param/settings/changelogs"
+            "old_url": ":param/settings/changelogs",
+            "url": "/settings/changelogs${null!=e?"
         },
         {
             "name": "QUEST_PREVIEW_TOOL_2",
-            "old_url": "/quest-home?tab=preview_tool&quest_id=:param",
-            "url": ":param/quest-preview/:param"
+            "old_url": ":param/quest-preview/:param",
+            "url": "/quest-home?tab=preview_tool&quest_id=:param"
         },
         {
             "name": "SETTINGS",
-            "old_url": "/settings/:param${null!=t?",
-            "url": ":param/settings/:param${t?"
+            "old_url": ":param/settings/:param${t?",
+            "url": "/settings/:param${null!=t?"
         }
     ],
     "modified_experiments": [],
@@ -39,5 +39,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-01T00:40:15.898872+00:00"
+    "timestamp": "2026-05-01T00:52:01.183600+00:00"
 }
