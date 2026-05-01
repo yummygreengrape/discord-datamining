@@ -1,65 +1,12 @@
 {
-    "build_hash": "f27d6c04008969e94ecd7f1687b6e820cfd838c6",
+    "build_hash": "3310581fa3c3f08b0d49a52ad526e3e5c62cea61",
     "deleted_api_endpoints": [],
     "deleted_experiments": [
         {
-            "id": "2026-04-desktop-tti-early-update-check",
+            "id": "2026-01-user-offer-notice-timing-v2-xp",
             "kind": "user",
-            "timestamp": "2026-05-01T15:56:20Z",
+            "timestamp": "2026-05-01T16:14:29Z",
             "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "id": "2026-04-slayer-storefront-platform-support-copy",
-            "kind": "user",
-            "timestamp": "2026-05-01T15:56:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "id": "2026-04-slayer-storefront-learn-more-link",
-            "kind": "user",
-            "timestamp": "2026-05-01T15:56:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "id": "2026-04-user-settings-redesign-4c",
-            "kind": "user",
-            "timestamp": "2026-05-01T15:56:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "id": "2026-04-social-proof-negative",
-            "kind": "user",
-            "timestamp": "2026-05-01T15:56:20Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "id": "2026-03-new-gifting-entrypoints",
-            "kind": "user",
-            "timestamp": "2026-05-01T15:56:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "id": "2026-04-inappropriate-conversations-default-on",
-            "kind": "user",
-            "timestamp": "2026-05-01T15:56:20Z",
-            "treatments": [
-                "Variant 0",
                 "Variant 1"
             ]
         }
@@ -70,10 +17,63 @@
     "new_api_endpoints": [],
     "new_experiments": [
         {
-            "id": "2026-01-user-offer-notice-timing-v2-xp",
+            "id": "2026-04-desktop-tti-early-update-check",
             "kind": "user",
-            "timestamp": "2026-05-01T15:56:20Z",
+            "timestamp": "2026-05-01T16:14:29Z",
             "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-slayer-storefront-platform-support-copy",
+            "kind": "user",
+            "timestamp": "2026-05-01T16:14:29Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-slayer-storefront-learn-more-link",
+            "kind": "user",
+            "timestamp": "2026-05-01T16:14:29Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-user-settings-redesign-4c",
+            "kind": "user",
+            "timestamp": "2026-05-01T16:14:29Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-social-proof-negative",
+            "kind": "user",
+            "timestamp": "2026-05-01T16:14:29Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-03-new-gifting-entrypoints",
+            "kind": "user",
+            "timestamp": "2026-05-01T16:14:29Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-inappropriate-conversations-default-on",
+            "kind": "user",
+            "timestamp": "2026-05-01T16:14:29Z",
+            "treatments": [
+                "Variant 0",
                 "Variant 1"
             ]
         }
@@ -81,33 +81,6 @@
     "string_changes": {
         "en": {
             "added": {
-                "0xs2sA": "Collect and use this bonus Avatar Decoration with an active Nitro subscription.",
-                "1Ng1ci": "Launch Quest",
-                "2rVh2j": "Save Wumpus. Earn Orbs.",
-                "3rpSiP": "Play",
-                "7OPz+z": "Gear up with an exclusive Nameplate",
-                "E0XZQW": "Gear up with a limited-edition Nameplate",
-                "I8cv0h": "Explore what's new",
-                "JXidUB": "Head back to the ship to conquer Nightmare mode!",
-                "JY1i0u": "Collect and use this bonus Nameplate with an active Nitro subscription.",
-                "JtAKwp": "Collect and use this bonus Profile Effect with an active Nitro subscription.",
-                "PforLU": "Nitro Control",
-                "PyQY5+": "Get a limited-edition Nameplate when you upgrade by {date, date, MMMM d}. Yours to use with Nitro. [Terms apply]({helpCenterLink}).",
-                "QBfwzW": "Play Quest Again",
-                "Ri/ZGz": "Get an exclusive Nameplate when you join Nitro by {date, date, MMMM d}. Yours to use with Nitro. [Terms apply]({helpCenterLink}).",
-                "S4okiP": "Mission complete. Play again?",
-                "SsJkmZ": "Complete 3 rounds of Nitro Control to claim 150 Orbs!",
-                "SvqMnV": "Get a limited-edition Nameplate when you join by {date, date, MMMM d}. Yours to use with Nitro. [Terms apply]({helpCenterLink}).",
-                "TWMNp4": "Collect and use this bonus Profile Frame with an active Nitro subscription.",
-                "VghrI/": "Complete 3 rounds of Nitro Control to earn 150 Orbs",
-                "j/4UAS": "Get Nitro",
-                "lvidGa": "Save Wumpus. Earn Orbs.",
-                "pVkPgD": "Unlock a world of perks with Nitro",
-                "u29fVK": "Open Nitro Home",
-                "vxubVL": "Subscribe to Nitro and take your Discord experience to the next level.",
-                "wC4J6d": "Head over to Nitro Home to stay updated on the latest Nitro news."
-            },
-            "deleted": {
                 "++F+ha": "You're all set!",
                 "++JLL0": "People were toxic or inappropriate",
                 "+/3TkD": "Unlinked channel from applicationHookHook",
@@ -25859,34 +25832,65 @@
                 "zzyLEK": "Send up to {maxFileSize} with [{nitroTierName}]({onClick})",
                 "zzz": "comicgood nightsleepZZZ"
             },
+            "deleted": {
+                "0xs2sA": "Collect and use this bonus Avatar Decoration with an active Nitro subscription.",
+                "1Ng1ci": "Launch Quest",
+                "2rVh2j": "Save Wumpus. Earn Orbs.",
+                "3rpSiP": "Play",
+                "7OPz+z": "Gear up with an exclusive Nameplate",
+                "E0XZQW": "Gear up with a limited-edition Nameplate",
+                "I8cv0h": "Explore what's new",
+                "JXidUB": "Head back to the ship to conquer Nightmare mode!",
+                "JY1i0u": "Collect and use this bonus Nameplate with an active Nitro subscription.",
+                "JtAKwp": "Collect and use this bonus Profile Effect with an active Nitro subscription.",
+                "PforLU": "Nitro Control",
+                "PyQY5+": "Get a limited-edition Nameplate when you upgrade by {date, date, MMMM d}. Yours to use with Nitro. [Terms apply]({helpCenterLink}).",
+                "QBfwzW": "Play Quest Again",
+                "Ri/ZGz": "Get an exclusive Nameplate when you join Nitro by {date, date, MMMM d}. Yours to use with Nitro. [Terms apply]({helpCenterLink}).",
+                "S4okiP": "Mission complete. Play again?",
+                "SsJkmZ": "Complete 3 rounds of Nitro Control to claim 150 Orbs!",
+                "SvqMnV": "Get a limited-edition Nameplate when you join by {date, date, MMMM d}. Yours to use with Nitro. [Terms apply]({helpCenterLink}).",
+                "TWMNp4": "Collect and use this bonus Profile Frame with an active Nitro subscription.",
+                "VghrI/": "Complete 3 rounds of Nitro Control to earn 150 Orbs",
+                "j/4UAS": "Get Nitro",
+                "lvidGa": "Save Wumpus. Earn Orbs.",
+                "pVkPgD": "Unlock a world of perks with Nitro",
+                "u29fVK": "Open Nitro Home",
+                "vxubVL": "Subscribe to Nitro and take your Discord experience to the next level.",
+                "wC4J6d": "Head over to Nitro Home to stay updated on the latest Nitro news."
+            },
             "modified": {
                 "JUMP_BAR_VIEWING_REPLY": {
-                    "new_value": "You are viewing a reply.",
-                    "old_value": "You Are Viewing a Reply."
+                    "new_value": "You Are Viewing a Reply.",
+                    "old_value": "You are viewing a reply."
                 },
                 "JUMP_TO_ORIGINAL_MESSAGE": {
-                    "new_value": "Jump to original message",
-                    "old_value": "Jump To Original Message"
+                    "new_value": "Jump To Original Message",
+                    "old_value": "Jump to original message"
                 },
                 "MESSAGES_FAILED_TO_LOAD": {
-                    "new_value": "Messages failed to load",
-                    "old_value": "Messages Failed To Load"
+                    "new_value": "Messages Failed To Load",
+                    "old_value": "Messages failed to load"
                 },
                 "SUMMARIES_NO_SUMMARIES": {
-                    "new_value": "No summaries",
-                    "old_value": "No Summaries"
+                    "new_value": "No Summaries",
+                    "old_value": "No summaries"
                 },
                 "SUMMARIES_VIEW_ALL": {
-                    "new_value": "View all summaries",
-                    "old_value": "View All Summaries"
+                    "new_value": "View All Summaries",
+                    "old_value": "View all summaries"
                 },
                 "TlVwqn": {
-                    "new_value": "$[{user}](userHook)$[ was here](labelHook)",
-                    "old_value": "$[{user}](userHook) was here"
+                    "new_value": "$[{user}](userHook) was here",
+                    "old_value": "$[{user}](userHook)$[ was here](labelHook)"
                 },
                 "YOURE_VIEWING_OLDER_MESSAGES": {
-                    "new_value": "You're viewing older messages",
-                    "old_value": "You're Viewing Older Messages"
+                    "new_value": "You're Viewing Older Messages",
+                    "old_value": "You're viewing older messages"
+                },
+                "m": {
+                    "new_value": "circlecircled MM",
+                    "old_value": "rn"
                 }
             }
         },
@@ -25896,5 +25900,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-01T15:58:39.298829+00:00"
+    "timestamp": "2026-05-01T16:19:27.063649+00:00"
 }
