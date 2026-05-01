@@ -476,6 +476,14 @@
             "Variant 1"
         ]
     },
+    "2026-01-user-offer-notice-timing-v2-xp": {
+        "id": "2026-01-user-offer-notice-timing-v2-xp",
+        "kind": "user",
+        "timestamp": "2026-05-01T12:40:48Z",
+        "treatments": [
+            "Variant 1"
+        ]
+    },
     "2026-01-voice-dares-v0": {
         "id": "2026-01-voice-dares-v0",
         "kind": "user",
@@ -1270,13 +1278,6 @@
     },
     "2026-04-desktop-tti-dnstcp-warmup": {
         "id": "2026-04-desktop-tti-dnstcp-warmup",
-        "kind": "user",
-        "treatments": [
-            "Variant 1"
-        ]
-    },
-    "2026-04-desktop-tti-early-update-check": {
-        "id": "2026-04-desktop-tti-early-update-check",
         "kind": "user",
         "treatments": [
             "Variant 1"

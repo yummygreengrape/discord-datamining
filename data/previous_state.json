@@ -660,7 +660,7 @@
         "XBOX_PIN": "/connections/xbox/pin",
         "_SUBSCRIPTION_REWARD_ELIGIBILITY": "/users/@me/billing/subscriptions/:param/reward-eligibility"
     },
-    "build_hash": "0a1bab8b2ca55e86490d672e73df387edab564d6",
+    "build_hash": "d9c860a7b0a23e62629d5064fbda898f0d1c0b6b",
     "css_files": [
         "/assets/52706.8359e484f05597fe.css",
         "/assets/68176.3cce067e4a22005d.css",
@@ -1402,6 +1402,14 @@
         "2026-01-unified-checkout-ui": {
             "id": "2026-01-unified-checkout-ui",
             "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        "2026-01-user-offer-notice-timing-v2-xp": {
+            "id": "2026-01-user-offer-notice-timing-v2-xp",
+            "kind": "user",
+            "timestamp": "2026-05-01T12:40:48Z",
             "treatments": [
                 "Variant 1"
             ]
@@ -2200,13 +2208,6 @@
         },
         "2026-04-desktop-tti-dnstcp-warmup": {
             "id": "2026-04-desktop-tti-dnstcp-warmup",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        "2026-04-desktop-tti-early-update-check": {
-            "id": "2026-04-desktop-tti-early-update-check",
             "kind": "user",
             "treatments": [
                 "Variant 1"
