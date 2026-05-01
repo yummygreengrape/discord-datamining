@@ -660,7 +660,7 @@
         "XBOX_PIN": "/connections/xbox/pin",
         "_SUBSCRIPTION_REWARD_ELIGIBILITY": "/users/@me/billing/subscriptions/:param/reward-eligibility"
     },
-    "build_hash": "8384f397b0972c017fc1297d66fea3bd46c8c6d9",
+    "build_hash": "0a1bab8b2ca55e86490d672e73df387edab564d6",
     "css_files": [
         "/assets/52706.8359e484f05597fe.css",
         "/assets/68176.3cce067e4a22005d.css",
