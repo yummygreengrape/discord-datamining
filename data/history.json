@@ -4923,7 +4923,7 @@
             "url": "/guilds/:param/guild-feed/preference"
         }
     ],
-    "build_hash": "c233a51fefed81f0a85eb1462c9ff011b94e22cd",
+    "build_hash": "d6c01582e27f91f3d78c57af4a14175c8d31263e",
     "experiments": [
         {
             "id": "2026-01-user-offer-notice-timing-v2-xp",
