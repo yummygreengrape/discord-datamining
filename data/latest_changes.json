@@ -1,5 +1,5 @@
 {
-    "build_hash": "e0e515401a86d7c115848a09256fc2fd21079430",
+    "build_hash": "dd76b634152954fbca31950b81a85f407a14d54a",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 4,
@@ -9,9 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "hFWVZQ": "Speaking indicators"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -21,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-01T18:02:00.657437+00:00"
+    "timestamp": "2026-05-01T18:12:18.507229+00:00"
 }
