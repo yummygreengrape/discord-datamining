@@ -2449,8 +2449,85 @@
             "url": "/guilds/:param/guild-feed/preference"
         }
     ],
-    "build_hash": "0a1bab8b2ca55e86490d672e73df387edab564d6",
+    "build_hash": "d9c860a7b0a23e62629d5064fbda898f0d1c0b6b",
     "experiments": [
+        {
+            "id": "2026-04-inappropriate-conversations-default-on",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-03-new-gifting-entrypoints",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-social-proof-negative",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-user-settings-redesign-4c",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-slayer-storefront-learn-more-link",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-slayer-storefront-platform-support-copy",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-04-desktop-tti-early-update-check",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "id": "2026-01-user-offer-notice-timing-v2-xp",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
         {
             "id": "2026-04-wetf-parser",
             "kind": "user",
@@ -38835,6 +38912,538 @@
         }
     ],
     "strings": [
+        {
+            "key": "069nVT",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Custom Keybinds"
+        },
+        {
+            "key": "T4LZVL",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Keybinds are custom keyboard shortcuts that let you perform specific actions in Discord without needing to click through menus. While you're on this page, keybinds are disabled."
+        },
+        {
+            "key": "Lb7lu9",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Reset Profile Effect"
+        },
+        {
+            "key": "2u5yu0",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Reset Avatar Decoration"
+        },
+        {
+            "key": "zUOlT6",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Remove Profile Effect"
+        },
+        {
+            "key": "9rx5GO",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Remove Avatar Decoration"
+        },
+        {
+            "key": "+XZgmA",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "System Helper"
+        },
+        {
+            "key": "cg6ltt",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "General"
+        },
+        {
+            "key": "VJ/qKo",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "System"
+        },
+        {
+            "key": "Lhpq2P",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "This Quest Has Ended"
+        },
+        {
+            "key": "H0vjGc",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Refresh Quests"
+        },
+        {
+            "key": "6XS10x",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Dismiss"
+        },
+        {
+            "key": "iyF4WB",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "You just missed this one. Refresh to see the latest."
+        },
+        {
+            "key": "DDpHZG",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Watch. Earn Orbs. Get Rewards."
+        },
+        {
+            "key": "aC3Dwj",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Complete quick video Bounties to collect Orbs and spend them in the Shop."
+        },
+        {
+            "key": "IvmZVF",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Available with Nitro"
+        },
+        {
+            "key": "FQHRUK",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "View Quests"
+        },
+        {
+            "key": "wTVyFK",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "View Orb Shop"
+        },
+        {
+            "key": "LEgsyS",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "View Nitro"
+        },
+        {
+            "key": "hdouKj",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "View Gifting"
+        },
+        {
+            "key": "HKJcgE",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "View Boosting"
+        },
+        {
+            "key": "SuO1X2",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Earn this badge by subscribing to Nitro. Tier up automatically as your subscription grows."
+        },
+        {
+            "key": "sTx/5z",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Rare"
+        },
+        {
+            "key": "vqc1ol",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Mythic"
+        },
+        {
+            "key": "4QZPNa",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Legendary"
+        },
+        {
+            "key": "RD8RiN",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Epic"
+        },
+        {
+            "key": "L0K5ci",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Common"
+        },
+        {
+            "key": "G+gbgO",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Earn this badge by completing your first quest."
+        },
+        {
+            "key": "tN6Sgx",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Earn this badge by purchasing the Orb badge in the Orb shop."
+        },
+        {
+            "key": "dDDCvU",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Not earned yet"
+        },
+        {
+            "key": "PECB/R",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Earn this badge by gifting Nitro to friends."
+        },
+        {
+            "key": "SNIb0t",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Earned"
+        },
+        {
+            "key": "gV7733",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Earn this badge by boosting any server. Higher boost levels unlock fancier badges."
+        },
+        {
+            "key": "6V13dx",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Badge rarity"
+        },
+        {
+            "key": "fO4b1C",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Connect your {applicationName} and Discord accounts to accept this purchase. {platforms_info}"
+        },
+        {
+            "key": "3ah/a2",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "**Buying an item from the {applicationName} Game Shop means you’re buying a limited license to use this item in the listed game.** This purchase is non-refundable. This item will be delivered by the developer directly in-game. {platforms_info}"
+        },
+        {
+            "key": "Q0dHYO",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Account link required for redemption. {platforms_info}"
+        },
+        {
+            "key": "yqAKVO",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Account connected to {applicationName}. Claim your gift below. {platforms_info}"
+        },
+        {
+            "key": "vyAtfo",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Connect your {applicationName} and Discord accounts to accept this gift. {platforms_info}"
+        },
+        {
+            "key": "5h8p5P",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "{count, plural, one {{platforms} is not supported.} other {{platforms} are not supported.}}"
+        },
+        {
+            "key": "H8idcP",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Apply Server Theme?"
+        },
+        {
+            "key": "0LL6FX",
+            "lang": "en",
+            "status": "deleted",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "This will update the look of the server for all members. The theme adapts to their light or dark mode."
+        },
+        {
+            "key": "YOURE_VIEWING_OLDER_MESSAGES",
+            "lang": "en",
+            "new_value": "You're viewing older messages",
+            "old_value": "You're Viewing Older Messages",
+            "status": "modified",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "You're viewing older messages"
+        },
+        {
+            "key": "TlVwqn",
+            "lang": "en",
+            "new_value": "$[{user}](userHook)$[ was here](labelHook)",
+            "old_value": "$[{user}](userHook) was here",
+            "status": "modified",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "$[{user}](userHook)$[ was here](labelHook)"
+        },
+        {
+            "key": "SUMMARIES_VIEW_ALL",
+            "lang": "en",
+            "new_value": "View all summaries",
+            "old_value": "View All Summaries",
+            "status": "modified",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "View all summaries"
+        },
+        {
+            "key": "SUMMARIES_NO_SUMMARIES",
+            "lang": "en",
+            "new_value": "No summaries",
+            "old_value": "No Summaries",
+            "status": "modified",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "No summaries"
+        },
+        {
+            "key": "MESSAGES_FAILED_TO_LOAD",
+            "lang": "en",
+            "new_value": "Messages failed to load",
+            "old_value": "Messages Failed To Load",
+            "status": "modified",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Messages failed to load"
+        },
+        {
+            "key": "JUMP_TO_ORIGINAL_MESSAGE",
+            "lang": "en",
+            "new_value": "Jump to original message",
+            "old_value": "Jump To Original Message",
+            "status": "modified",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Jump to original message"
+        },
+        {
+            "key": "JUMP_BAR_VIEWING_REPLY",
+            "lang": "en",
+            "new_value": "You are viewing a reply.",
+            "old_value": "You Are Viewing a Reply.",
+            "status": "modified",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "You are viewing a reply."
+        },
+        {
+            "key": "TWMNp4",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Collect and use this bonus Profile Frame with an active Nitro subscription."
+        },
+        {
+            "key": "JtAKwp",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Collect and use this bonus Profile Effect with an active Nitro subscription."
+        },
+        {
+            "key": "JY1i0u",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Collect and use this bonus Nameplate with an active Nitro subscription."
+        },
+        {
+            "key": "0xs2sA",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Collect and use this bonus Avatar Decoration with an active Nitro subscription."
+        },
+        {
+            "key": "2rVh2j",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Save Wumpus. Earn Orbs."
+        },
+        {
+            "key": "SsJkmZ",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Complete 3 rounds of Nitro Control to claim 150 Orbs!"
+        },
+        {
+            "key": "I8cv0h",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Explore what's new"
+        },
+        {
+            "key": "pVkPgD",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Unlock a world of perks with Nitro"
+        },
+        {
+            "key": "E0XZQW",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Gear up with a limited-edition Nameplate"
+        },
+        {
+            "key": "wC4J6d",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Head over to Nitro Home to stay updated on the latest Nitro news."
+        },
+        {
+            "key": "vxubVL",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Subscribe to Nitro and take your Discord experience to the next level."
+        },
+        {
+            "key": "Ri/ZGz",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Get an exclusive Nameplate when you join Nitro by {date, date, MMMM d}. Yours to use with Nitro. [Terms apply]({helpCenterLink})."
+        },
+        {
+            "key": "u29fVK",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Open Nitro Home"
+        },
+        {
+            "key": "j/4UAS",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Get Nitro"
+        },
+        {
+            "key": "PforLU",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Nitro Control"
+        },
+        {
+            "key": "3rpSiP",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Play"
+        },
+        {
+            "key": "S4okiP",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Mission complete. Play again?"
+        },
+        {
+            "key": "lvidGa",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Save Wumpus. Earn Orbs."
+        },
+        {
+            "key": "JXidUB",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Head back to the ship to conquer Nightmare mode!"
+        },
+        {
+            "key": "VghrI/",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Complete 3 rounds of Nitro Control to earn 150 Orbs"
+        },
+        {
+            "key": "QBfwzW",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Play Quest Again"
+        },
+        {
+            "key": "1Ng1ci",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Launch Quest"
+        },
+        {
+            "key": "7OPz+z",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Gear up with an exclusive Nameplate"
+        },
+        {
+            "key": "PyQY5+",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Get a limited-edition Nameplate when you upgrade by {date, date, MMMM d}. Yours to use with Nitro. [Terms apply]({helpCenterLink})."
+        },
+        {
+            "key": "SvqMnV",
+            "lang": "en",
+            "status": "added",
+            "timestamp": "2026-05-01T12:40:48Z",
+            "value": "Get a limited-edition Nameplate when you join by {date, date, MMMM d}. Yours to use with Nitro. [Terms apply]({helpCenterLink})."
+        },
         {
             "key": "JUMP_BAR_VIEWING_REPLY",
             "lang": "en",
