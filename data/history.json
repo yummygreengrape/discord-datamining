@@ -4811,7 +4811,7 @@
             "url": "/guilds/:param/guild-feed/preference"
         }
     ],
-    "build_hash": "37b1fb6b564f884280d4ac879b33289025994eae",
+    "build_hash": "f82971a1e8e0955c093c66b079f76348a43321f1",
     "experiments": [
         {
             "id": "2026-01-user-offer-notice-timing-v2-xp",
