@@ -1,5 +1,5 @@
 {
-    "build_hash": "4bffd5f0f804f3e1f82364e9c471ad01f3660b29",
+    "build_hash": "c6249812dbe5a5a246bbf060220fda356ec09dac",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 4,
@@ -9,7 +9,14 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "I8u5xw": "Reminders are not paused",
+                "MRFqzg": "Pause Clip Reminders",
+                "QtW1Nc": "Resume Reminders",
+                "S0H8in": "Reminder Pausing",
+                "iJ0azr": "Reminders paused until {time}",
+                "rzjeqY": "Pause reminders for"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-02T01:00:51.411639+00:00"
+    "timestamp": "2026-05-02T02:11:47.600348+00:00"
 }
