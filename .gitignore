@@ -1,6 +1,7 @@
 canary/
 __pycache__/
 *.pyc
+.DS_Store
 .env
 .venv/
 main.py
@@ -9,3 +10,13 @@ docker-compose.yml
 run_datamining.command
 requirements.txt
 *.py
+data/api_endpoints.json
+data/en_strings_net.json
+data/en_strings_test.json
+data/english_strings.json
+data/english_strings_extracted.json
+data/experiments.json
+data/history.json
+data/korean_strings.json
+data/message.txt
+data/previous_state.json
