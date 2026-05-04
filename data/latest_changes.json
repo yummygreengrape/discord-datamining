@@ -1,32 +1,10 @@
 {
-    "build_hash": "a13dddda89a758ca1bac1cf898385baaaf0055fc",
+    "build_hash": "4e3f37407022f9e0c7a6dfb7461a119f4bd941f3",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "id": "2026-03-game-detection-collect-executable-fingerprint",
-            "kind": "user",
-            "treatments": [
-                "Variant 0"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 8,
     "modified_api_endpoints": [],
-    "modified_experiments": [
-        {
-            "id": "2026-05-ignore-user-feedback",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0"
-            ],
-            "status": "modified",
-            "treatments": [
-                "Variant 0"
-            ]
-        }
-    ],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiments": [],
     "string_changes": {
@@ -41,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-04T17:30:15.642631+00:00"
+    "timestamp": "2026-05-04T17:40:32.040906+00:00"
 }
