@@ -1,13 +1,7 @@
 {
-    "build_hash": "5f610c5b1634506f753217d01c49bf24b076b7bd",
+    "build_hash": "aee5fe33d62148226d982a800d44aecaad97c950",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "id": "2026-01_voice_channel_duration_mobile",
-            "kind": "guild",
-            "treatments": []
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 8,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -15,9 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "mn0IdX": "Your orbs are on their way! We hit a small snag but we're on it. Check back soon."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-04T21:04:18.270622+00:00"
+    "timestamp": "2026-05-04T21:14:36.064056+00:00"
 }
