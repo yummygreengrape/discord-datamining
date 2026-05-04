@@ -1,18 +1,7 @@
 {
-    "build_hash": "339b1c9bc1d7e5416e79986c2c1e36507124c002",
+    "build_hash": "f58d993f7b7565d06a314416809b532bacb8f4b4",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-app-store-bottom-sheet-overlay",
-            "kind": "user",
-            "timestamp": "2026-05-04T22:19:52Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 8,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -30,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-04T22:26:00.887605+00:00"
+    "timestamp": "2026-05-04T22:36:17.097287+00:00"
 }
