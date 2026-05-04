@@ -1,30 +1,26 @@
 {
-    "build_hash": "8bf784328114641a81aa0e79ed911bd5f4c0b41a",
+    "build_hash": "b85185c14879bb62449a4b2e2000d937c8b3b58c",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
     "modified_api_endpoints": [],
-    "modified_experiments": [
+    "modified_experiments": [],
+    "new_api_endpoints": [],
+    "new_experiments": [
         {
-            "id": "2026-02-longer-group-dm-invites",
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-one-day-fractional-nitro",
             "kind": "user",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "status": "modified",
+            "timestamp": "2026-05-04T18:29:04Z",
             "treatments": [
-                "Variant 0"
+                "Variant 1"
             ]
         }
     ],
-    "new_api_endpoints": [],
-    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "IIOxgV": "Create New Group DM"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -34,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-04T17:50:48.268851+00:00"
+    "timestamp": "2026-05-04T18:31:23.722059+00:00"
 }
