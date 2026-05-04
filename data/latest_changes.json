@@ -1,5 +1,5 @@
 {
-    "build_hash": "05f5860670f7b5cbd650ad5159bea05be07d57d9",
+    "build_hash": "cb9b754b35b9d8b0cdfad5ff1f55fc891795af7d",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
@@ -9,15 +9,86 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "PIraiZ": "Can I redeem a gift card from another country?"
+            },
+            "deleted": {
+                "y3o34l": "Enter the 16-digit code on the back of your gift card."
+            },
+            "modified": {
+                "7b9puF": {
+                    "new_value": "All the perks, all the power. The best way to supercharge your world on Discord.",
+                    "old_value": "Our most popular plan that unlocks access to all available Nitro perks."
+                },
+                "82CE26": {
+                    "new_value": "Redeem Your Gift Card",
+                    "old_value": "Redeem a Gift Card"
+                },
+                "8rqNE6": {
+                    "new_value": "By clicking 'Redeem', you agree to the [Gift Cards Terms]({giftCardTermsURL}) and [Wallet Terms]({walletTermsURL}).",
+                    "old_value": "By clicking 'Redeem', you agree to the [Paid Services Terms.]({paidURL})"
+                },
+                "9UMFby": {
+                    "new_value": "Get Even More on Your Desktop App",
+                    "old_value": "Get Even More on Desktop and Web"
+                },
+                "AVkXTR": {
+                    "new_value": "Where can I see my gift card balance?",
+                    "old_value": "Where does my balance go after I redeem?"
+                },
+                "C0WGeL": {
+                    "new_value": "Questions about Discord gift cards? We've got answers.",
+                    "old_value": "Questions about Discord gift cards? Check out our frequently asked questions."
+                },
+                "CYN8Nr": {
+                    "new_value": "Where can I buy Discord gift cards?",
+                    "old_value": "Can I pay the rest with another payment method?"
+                },
+                "Dn79lT": {
+                    "new_value": "What can I use my balance for?",
+                    "old_value": "Can I use this gift card on mobile and desktop?"
+                },
+                "JXDjmi": {
+                    "new_value": "Spend it wisely. Or don't.",
+                    "old_value": "{currency} {price} has been added to your account!"
+                },
+                "NDHsuq": {
+                    "new_value": "Follow along in the video, or check out our FAQ below.",
+                    "old_value": "Get step-by-step instructions in this video, or check out how to redeem your code."
+                },
+                "P+t4+Y": {
+                    "new_value": "How do I use a Discord gift card?",
+                    "old_value": "Where do I find my gift card code?"
+                },
+                "WRvkEp": {
+                    "new_value": "Supercharge your chats with some of Nitro's most loved perks.",
+                    "old_value": "A selection of the most-loved Nitro perks that help you better express yourself."
+                },
+                "mVVHjf": {
+                    "new_value": "Open Discord",
+                    "old_value": "Open Web App"
+                },
+                "n78IhX": {
+                    "new_value": "Open Discord on desktop to use your balance on Server Boosts, Shop items, and more.",
+                    "old_value": "Open Discord on desktop or web to use your balance on Server Boosts, Shop items, and more."
+                },
+                "ogzpk5": {
+                    "new_value": "Yes, this is where the magic happens.",
+                    "old_value": "Enter your code below to add credits to your account and unlock the best of Discord."
+                },
+                "zpSSe0": {
+                    "new_value": "Spend Your Balance",
+                    "old_value": "Spend Your Credits"
+                }
+            }
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "y3o34l": "기프트 카드 뒷면의 16자리 코드를 입력하세요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-05-04T20:23:22.108478+00:00"
+    "timestamp": "2026-05-04T20:33:38.273290+00:00"
 }
