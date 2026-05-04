@@ -1,7 +1,18 @@
 {
-    "build_hash": "f58d993f7b7565d06a314416809b532bacb8f4b4",
+    "build_hash": "bdca4868efcfe7d9ba5bb2fed06b33e9f0ed59b9",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-past-due-guild-boost-cancellation",
+            "kind": "user",
+            "timestamp": "2026-05-04T22:37:00Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 8,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -19,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-04T22:36:17.097287+00:00"
+    "timestamp": "2026-05-04T22:46:33.220806+00:00"
 }
