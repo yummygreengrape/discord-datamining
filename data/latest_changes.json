@@ -1,5 +1,5 @@
 {
-    "build_hash": "2dc3c7e3bbb8f074c0f3e294c1ae71f9502857bf",
+    "build_hash": "b16991c94f6e93de0eeb208e1b0ad1980442c66f",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
@@ -9,9 +9,16 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "7PdsMK": "A starter edition of Xbox Game Pass is now yours with Nitro. Let’s play."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "9t2CzW": {
+                    "new_value": "Earn Rewards with Xbox just by playing",
+                    "old_value": "Earn Xbox Rewards just by playing"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-04T21:55:22.076213+00:00"
+    "timestamp": "2026-05-04T22:15:44.210123+00:00"
 }
