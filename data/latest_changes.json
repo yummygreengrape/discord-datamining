@@ -1,15 +1,30 @@
 {
-    "build_hash": "4e3f37407022f9e0c7a6dfb7461a119f4bd941f3",
+    "build_hash": "8bf784328114641a81aa0e79ed911bd5f4c0b41a",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
     "modified_api_endpoints": [],
-    "modified_experiments": [],
+    "modified_experiments": [
+        {
+            "id": "2026-02-longer-group-dm-invites",
+            "kind": "user",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "status": "modified",
+            "treatments": [
+                "Variant 0"
+            ]
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "IIOxgV": "Create New Group DM"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-04T17:40:32.040906+00:00"
+    "timestamp": "2026-05-04T17:50:48.268851+00:00"
 }
