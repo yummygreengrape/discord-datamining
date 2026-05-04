@@ -1,23 +1,12 @@
 {
-    "build_hash": "b85185c14879bb62449a4b2e2000d937c8b3b58c",
+    "build_hash": "7c46cbb7c558d7c7fe7d5ed6fe7e741b1482db04",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-one-day-fractional-nitro",
-            "kind": "user",
-            "timestamp": "2026-05-04T18:29:04Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -30,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-04T18:31:23.722059+00:00"
+    "timestamp": "2026-05-04T18:51:46.944011+00:00"
 }
