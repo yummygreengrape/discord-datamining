@@ -1,5 +1,5 @@
 {
-    "build_hash": "21b4b7f51e8158bdf1b11cf76b919cd9110609c4",
+    "build_hash": "964f132868e77f4afc8db6141f158a32971227c3",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
@@ -9,9 +9,21 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "jdcrDs": "Linked Roles for **League of Legends** and **Riot** will be deprecated starting on {date}. Please migrate your linked roles in settings. **This will no longer be maintained moving forward.**",
+                "kb0maj": "Linked Roles for **League of Legends** and **Riot** will be deprecated starting on {date}. Please update your linked roles in settings."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "/Xhh40": {
+                    "new_value": "Linked Roles for **League of Legends** and **Riot** will be deprecated starting on June 12, 2026. Please update your linked roles in settings.",
+                    "old_value": "Linked Roles for **League of Legends** and **Riot** will be deprecated starting on June 12th, 2026. Please update your linked roles in settings."
+                },
+                "sbMMtk": {
+                    "new_value": "Linked Roles for **League of Legends** and **Riot** will be deprecated starting on June 12, 2026. Please migrate your linked roles in settings. **This will no longer be maintained moving forward.**",
+                    "old_value": "Linked Roles for **League of Legends** and **Riot** will be deprecated starting on June 12th, 2026. Please migrate your linked roles in settings. **This will no longer be maintained moving forward.**"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-04T22:56:50.055406+00:00"
+    "timestamp": "2026-05-04T23:07:06.235422+00:00"
 }
