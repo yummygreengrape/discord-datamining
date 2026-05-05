@@ -1,30 +1,34 @@
 {
-    "build_hash": "c52ec8bb50b891d5fdf181ada20762eda2597dbf",
+    "build_hash": "1e68cf865d015d5acd9afd8e086c1a6b71cdbe81",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-desktop-tti-update-backoff",
+            "kind": "user",
+            "timestamp": "2026-05-05T21:23:59Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "DELETE_ACCOUNT_TRANSFER_OWNERSHIP": "You Own Servers!",
-                "I5UrbV": "You Own Servers!",
-                "UNGZDI": "You Own Teams!"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "I5UrbV": "서버를 소유하고 있어요!",
-                "UNGZDI": "사용자님의 팀은요?!"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-05-05T21:17:53.293683+00:00"
+    "timestamp": "2026-05-05T21:28:08.628216+00:00"
 }
