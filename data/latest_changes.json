@@ -1,34 +1,31 @@
 {
-    "build_hash": "95435cd0a3d0642873fc5f6cbbf36530b1e83f92",
+    "build_hash": "b5f33f90d6502229052b507794541e410b310b03",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "id": "2024-10_block_user_feedback",
-            "kind": "user",
-            "treatments": [
-                "Enable Block User Feedback Survey"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 8,
     "modified_api_endpoints": [],
-    "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiments": [
+    "modified_experiments": [
         {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
             "id": "2026-05-block-user-feedback",
             "kind": "user",
-            "timestamp": "2026-05-05T14:17:24Z",
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0"
+            ],
+            "status": "modified",
             "treatments": [
                 "Variant 0"
             ]
         }
     ],
+    "new_api_endpoints": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "UVl5Hz": "Preview personalized messages on incoming friend requests"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -38,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-05T14:18:57.428364+00:00"
+    "timestamp": "2026-05-05T14:49:25.866695+00:00"
 }
