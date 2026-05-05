@@ -1,5 +1,5 @@
 {
-    "build_hash": "d047c3d98327e9b94e943cd20b7b90843c26ab60",
+    "build_hash": "0b78025dd9764c96a8b02c23c51fa2ce6617b2f9",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
@@ -9,25 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "E/sVK7": "ZIP/Postal Code",
-                "XI9zkY": "Enter ZIP/postal code"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "3Ujv7z": {
-                    "new_value": "Code",
-                    "old_value": "Gift Code"
-                },
-                "D5lKY1": {
-                    "new_value": "{price} was added to your account",
-                    "old_value": "Gift card successfully redeemed!"
-                },
-                "f3YCs1": {
-                    "new_value": "Treat yourself to Nitro, or explore the Shop to\nfind something you love.",
-                    "old_value": "{price} credit has been added to your account.\nSpend it now and level up your experience.\n\nNot sure what to get?\nLearn more about what you can spend your credits on [here]({link}).\n\n"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -35,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-05T19:04:19.253152+00:00"
+    "timestamp": "2026-05-05T19:14:39.707818+00:00"
 }
