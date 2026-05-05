@@ -1,24 +1,12 @@
 {
-    "build_hash": "75d79255943bba3acd5aaaa5592534cad04c7f72",
+    "build_hash": "761ec8f402a0b042278b9fc23c3dda1b5b177208",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-clips-v3-runtime",
-            "kind": "user",
-            "timestamp": "2026-05-05T00:16:44Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -31,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-05T08:44:54.450332+00:00"
+    "timestamp": "2026-05-05T09:05:17.018035+00:00"
 }
