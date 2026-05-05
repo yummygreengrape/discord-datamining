@@ -1,5 +1,5 @@
 {
-    "build_hash": "4c561d78eec45aca1bfe0104e27b64893ab8f057",
+    "build_hash": "ec5e6508b7d437c9540b1293f100b85adaa66823",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
@@ -9,9 +9,38 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "E/sVK7": "ZIP/Postal Code",
+                "XI9zkY": "Enter ZIP/postal code",
+                "ccWIdu": "Your balance must cover the total due"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "3Ujv7z": {
+                    "new_value": "Code",
+                    "old_value": "Gift Code"
+                },
+                "66Wi6B": {
+                    "new_value": "{price} added to your account",
+                    "old_value": "{price} added to Available Credits"
+                },
+                "9Nb9Bz": {
+                    "new_value": "{amount} available",
+                    "old_value": "Applying remaining {amount}"
+                },
+                "D5lKY1": {
+                    "new_value": "{price} was added to your account",
+                    "old_value": "Gift card successfully redeemed!"
+                },
+                "f3YCs1": {
+                    "new_value": "Treat yourself to Nitro, or explore the Shop to\nfind something you love.",
+                    "old_value": "{price} credit has been added to your account.\nSpend it now and level up your experience.\n\nNot sure what to get?\nLearn more about what you can spend your credits on [here]({link}).\n\n"
+                },
+                "febr+T": {
+                    "new_value": "Gift card balance",
+                    "old_value": "Available Credits"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +48,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-05T19:55:56.018565+00:00"
+    "timestamp": "2026-05-05T20:06:20.278283+00:00"
 }
