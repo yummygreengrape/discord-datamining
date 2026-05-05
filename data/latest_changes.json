@@ -1,5 +1,5 @@
 {
-    "build_hash": "3a9909f94e67555e53474f302393eb0a5a484f59",
+    "build_hash": "88cc98aba43fc01fb15355997969bdfdb6c7fcae",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
@@ -9,9 +9,24 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "ccWIdu": "Your balance must cover the total due"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "66Wi6B": {
+                    "new_value": "{price} added to your account",
+                    "old_value": "{price} added to Available Credits"
+                },
+                "9Nb9Bz": {
+                    "new_value": "{amount} available",
+                    "old_value": "Applying remaining {amount}"
+                },
+                "febr+T": {
+                    "new_value": "Gift card balance",
+                    "old_value": "Available Credits"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-05T18:43:47.881046+00:00"
+    "timestamp": "2026-05-05T18:54:04.782412+00:00"
 }
