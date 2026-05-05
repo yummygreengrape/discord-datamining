@@ -1,31 +1,15 @@
 {
-    "build_hash": "b5f33f90d6502229052b507794541e410b310b03",
+    "build_hash": "2030fb5f89987508104f134dfbd2976896553eb4",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
     "modified_api_endpoints": [],
-    "modified_experiments": [
-        {
-            "id": "2026-05-block-user-feedback",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0"
-            ],
-            "status": "modified",
-            "treatments": [
-                "Variant 0"
-            ]
-        }
-    ],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "UVl5Hz": "Preview personalized messages on incoming friend requests"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -35,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-05T14:49:25.866695+00:00"
+    "timestamp": "2026-05-05T15:19:53.762653+00:00"
 }
