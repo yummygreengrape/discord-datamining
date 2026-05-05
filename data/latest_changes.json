@@ -1,15 +1,6 @@
 {
-    "build_hash": "727a86b109991b07ddb935a6ec7e8031f70925ca",
-    "deleted_api_endpoints": [
-        {
-            "name": "GUILD_JOIN_REQUEST_ID",
-            "url": "/guilds/:param/requests/id/:param"
-        },
-        {
-            "name": "GUILD_MEMBER_JOIN_REQUEST_COOLDOWN",
-            "url": "/guilds/:param/requests/@me/cooldown"
-        }
-    ],
+    "build_hash": "da36d95f311afb771d25b9062c77ae8b8fb8ac2b",
+    "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
     "modified_api_endpoints": [],
@@ -18,21 +9,15 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Z2L8V2": "Reviewed"
-            },
-            "deleted": {
-                "A0f0P7": "{days} until you can reapply"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "A0f0P7": "{days}일 뒤 다시 지원할 수 있어요"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-05-05T23:40:46.215019+00:00"
+    "timestamp": "2026-05-05T23:51:02.269851+00:00"
 }
