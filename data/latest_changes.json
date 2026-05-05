@@ -1,12 +1,31 @@
 {
-    "build_hash": "cf3cebc8e25819402581756ef77d9f7a677fc22f",
+    "build_hash": "95435cd0a3d0642873fc5f6cbbf36530b1e83f92",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "id": "2024-10_block_user_feedback",
+            "kind": "user",
+            "treatments": [
+                "Enable Block User Feedback Survey"
+            ]
+        }
+    ],
     "extractor_version": 8,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-block-user-feedback",
+            "kind": "user",
+            "timestamp": "2026-05-05T14:17:24Z",
+            "treatments": [
+                "Variant 0"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -19,5 +38,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-05T13:48:28.790674+00:00"
+    "timestamp": "2026-05-05T14:18:57.428364+00:00"
 }
