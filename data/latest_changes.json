@@ -1,5 +1,5 @@
 {
-    "build_hash": "4e240a249b0853ad37f798ad9b875795aa381720",
+    "build_hash": "b9e8d49826af0bf5bf8f069516ee79374044f428",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
@@ -10,14 +10,19 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "CHANNEL_SLOWMODE_DESC_IMMUNE": "Slowmode is enabled, but you are immune. Amazing!",
+                "SSzXvQ": "Slowmode is enabled, but you are immune. Amazing!"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "SSzXvQ": "슬로우 모드가 활성화됐지만 당신은 영향을 받지 않아요. 굉장하네요!"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-05-05T23:10:09.900841+00:00"
+    "timestamp": "2026-05-05T23:30:30.884156+00:00"
 }
