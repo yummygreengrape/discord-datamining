@@ -1,5 +1,5 @@
 {
-    "build_hash": "e2079d0f40cc9026da6eda79d1f5fe5041d14f80",
+    "build_hash": "61773c585c2ab8eec1b6f348259e524eb5e832dd",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
@@ -9,7 +9,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0MB2C6": "Celebrate Your Gifting Milestones in Style",
+                "k9sNVH": "Your badge will evolve as you gift."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-05T20:57:22.310680+00:00"
+    "timestamp": "2026-05-05T21:07:37.421954+00:00"
 }
