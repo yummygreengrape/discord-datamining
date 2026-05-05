@@ -1,24 +1,10 @@
 {
-    "build_hash": "7774e5dfd9d1620510d8fc2620804ea4bd8e7b3a",
+    "build_hash": "924da25335d0b02601807e7baa79fd80169f3c65",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 8,
     "modified_api_endpoints": [],
-    "modified_experiments": [
-        {
-            "id": "2026-04-desktop-tti-update-backoff",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiments": [],
     "string_changes": {
@@ -33,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-05T21:38:23.452941+00:00"
+    "timestamp": "2026-05-05T21:48:38.582047+00:00"
 }
