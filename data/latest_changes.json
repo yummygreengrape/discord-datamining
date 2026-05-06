@@ -2,11 +2,23 @@
     "build_hash": "5c2decc473ce11e5aab448c670b9a9e074eb4e93",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
-    "extractor_version": 9,
+    "extractor_version": 10,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "id": "2026-04_application_identity_linked_roles",
+            "title": "Application Identity Linked Roles",
+            "kind": "guild",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable Application Identity Linked Roles"
+            ],
+            "experiment_source": "reference_comment",
+            "timestamp": "2026-05-06T15:21:25Z"
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {
