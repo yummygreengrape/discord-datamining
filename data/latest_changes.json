@@ -1,18 +1,7 @@
 {
-    "build_hash": "e616d4141591d5b59518c73d972d41346aef5b67",
+    "build_hash": "741c121e10355103e5f31e0f0e9e8c31e1acbdbd",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-official-messages-rendering",
-            "kind": "user",
-            "timestamp": "2026-05-06T19:08:17Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 10,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -30,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-06T19:09:34.401183+00:00"
+    "timestamp": "2026-05-06T19:19:54.384984+00:00"
 }
