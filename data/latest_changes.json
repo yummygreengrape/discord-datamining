@@ -1,7 +1,19 @@
 {
-    "build_hash": "d2076de0c0d19e9c451ee58fca5cf3175d2f0f17",
+    "build_hash": "df67e2c1fe832a4d3292a455b15273b34d524808",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-receiver-invite-embed-refresh",
+            "kind": "user",
+            "timestamp": "2026-05-06T20:24:54Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 10,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -11,7 +23,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "wM2WTM": {
+                    "new_value": "No one is currently in voice",
+                    "old_value": "No one is here yet"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-06T20:21:51.448685+00:00"
+    "timestamp": "2026-05-06T20:32:11.754125+00:00"
 }
