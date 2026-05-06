@@ -1,5 +1,5 @@
 {
-    "build_hash": "65f80ad57fa8e1bfd4f7cca3aa2055a74851e33d",
+    "build_hash": "e891109d0f709dc001cee340049e95aa3d2422e3",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "nIG+xx": "Launch Game to Join"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-06T18:28:05.553146+00:00"
+    "timestamp": "2026-05-06T18:38:29.921204+00:00"
 }
