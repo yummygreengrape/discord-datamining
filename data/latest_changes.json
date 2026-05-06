@@ -1,7 +1,18 @@
 {
-    "build_hash": "464deecd3c012117426c25197e2bbf176cde6714",
+    "build_hash": "db10544700a09ff08422a3a9728b6db85e86b50d",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-09-dcf-overlay-lock-bypass",
+            "kind": "user",
+            "timestamp": "2026-05-06T16:59:08Z",
+            "treatments": [
+                "Variant 0"
+            ]
+        }
+    ],
     "extractor_version": 10,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -19,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-06T16:55:33.447024+00:00"
+    "timestamp": "2026-05-06T17:05:53.966820+00:00"
 }
