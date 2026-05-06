@@ -1,5 +1,5 @@
 {
-    "build_hash": "7e8ae249a70bcf5c5e083a2de467100a917e68ab",
+    "build_hash": "5c2decc473ce11e5aab448c670b9a9e074eb4e93",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 9,
@@ -9,9 +9,71 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+oaRw3": "Using your connected account:",
+                "+z5dYe": "Link your account through the game to continue",
+                "4l1DWw": "Update your profile on Discord with your application activity.",
+                "6Ge2LG": "Get Role",
+                "8psEFX": "Once connected, you'll be brought back here to complete authorization. Your {platformName} password is never shared with {applicationName} or Discord.",
+                "Dkd7sE": "Your linked {platformName} account · {platformName} ID {connectedAccountId}",
+                "HbivnU": "You must have the **{roleName}** role before you can send messages in this server.",
+                "JGuDTr": "Connect Account",
+                "MZbCuG": "You must have the **{roleName}** role before you can speak in this server.",
+                "aJRE/Q": "To authorize {applicationName}, you need to connect your {platformName} account to Discord first:",
+                "xdHk1z": "Linked to {applicationName}",
+                "y3ZnnU": "Claimed Games"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "3Ywek3": {
+                    "new_value": "The developer of {application}'s privacy policy and terms of service apply to this application. Discord's [Privacy Policy]({discordPrivacyPolicyURL}) applies to data it receives.",
+                    "old_value": "The developer of {application}'s privacy policy and terms of service apply to this application."
+                },
+                "8LemYv": {
+                    "new_value": "{application}'s privacy policy and terms of service apply to all games. Discord's [Privacy Policy]({discordPrivacyPolicyURL}) applies to data it receives.",
+                    "old_value": "{application}'s privacy policy and terms of service apply to all games."
+                },
+                "OAUTH2_DETAILS_PRIVACY_POLICY": {
+                    "new_value": "The developer of {application}'s privacy policy and terms of service apply to this application. Discord's [Privacy Policy]({discordPrivacyPolicyURL}) applies to data it receives.",
+                    "old_value": "The developer of {application}'s privacy policy and terms of service apply to this application."
+                },
+                "OAUTH2_DETAILS_PRIVACY_POLICY_WITH_LINKS": {
+                    "new_value": "The developer of {application}'s [privacy policy]({privacyPolicyURL}) and [terms of service]({termsOfServiceURL}) apply to this application. Discord's [Privacy Policy]({discordPrivacyPolicyURL}) applies to data it receives.",
+                    "old_value": "The developer of {application}'s [privacy policy]({privacyPolicyURL}) and [terms of service]({termsOfServiceURL}) apply to this application."
+                },
+                "OAUTH2_DETAILS_PRIVACY_POLICY_WITH_PRIVACY_POLICY_LINK": {
+                    "new_value": "The developer of {application}'s [privacy policy]({privacyPolicyURL}) and terms of service apply to this application. Discord's [Privacy Policy]({discordPrivacyPolicyURL}) applies to data it receives.",
+                    "old_value": "The developer of {application}'s [privacy policy]({privacyPolicyURL}) and terms of service apply to this application."
+                },
+                "OAUTH2_DETAILS_PRIVACY_POLICY_WITH_TERMS_OF_SERVICE_LINK": {
+                    "new_value": "The developer of {application}'s privacy policy and [terms of service]({termsOfServiceURL}) apply to this application. Discord's [Privacy Policy]({discordPrivacyPolicyURL}) applies to data it receives.",
+                    "old_value": "The developer of {application}'s privacy policy and [terms of service]({termsOfServiceURL}) apply to this application."
+                },
+                "TBvmM2": {
+                    "new_value": "The developer of {application}'s [privacy policy]({privacyPolicyURL}) and terms of service apply to this application. Discord's [Privacy Policy]({discordPrivacyPolicyURL}) applies to data it receives.",
+                    "old_value": "The developer of {application}'s [privacy policy]({privacyPolicyURL}) and terms of service apply to this application."
+                },
+                "nBLOp5": {
+                    "new_value": "{application}'s privacy policy and [terms of service]({termsOfServiceURL}) apply to all games. Discord's [Privacy Policy]({discordPrivacyPolicyURL}) applies to data it receives.",
+                    "old_value": "{application}'s privacy policy and [terms of service]({termsOfServiceURL}) apply to all games."
+                },
+                "pYVSah": {
+                    "new_value": "{application}'s [privacy policy]({privacyPolicyURL}) and terms of service apply to all games. Discord's [Privacy Policy]({discordPrivacyPolicyURL}) applies to data it receives.",
+                    "old_value": "{application}'s [privacy policy]({privacyPolicyURL}) and terms of service apply to all games."
+                },
+                "q0T/Q1": {
+                    "new_value": "The developer of {application}'s privacy policy and [terms of service]({termsOfServiceURL}) apply to this application. Discord's [Privacy Policy]({discordPrivacyPolicyURL}) applies to data it receives.",
+                    "old_value": "The developer of {application}'s privacy policy and [terms of service]({termsOfServiceURL}) apply to this application."
+                },
+                "rxlyKL": {
+                    "new_value": "The developer of {application}'s [privacy policy]({privacyPolicyURL}) and [terms of service]({termsOfServiceURL}) apply to this application. Discord's [Privacy Policy]({discordPrivacyPolicyURL}) applies to data it receives.",
+                    "old_value": "The developer of {application}'s [privacy policy]({privacyPolicyURL}) and [terms of service]({termsOfServiceURL}) apply to this application."
+                },
+                "yVfotv": {
+                    "new_value": "{application}'s [privacy policy]({privacyPolicyURL}) and [terms of service]({termsOfServiceURL}) apply to all games. Discord's [Privacy Policy]({discordPrivacyPolicyURL}) applies to data it receives.",
+                    "old_value": "{application}'s [privacy policy]({privacyPolicyURL}) and [terms of service]({termsOfServiceURL}) apply to all games."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +81,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-06T13:35:04.791767+00:00"
+    "timestamp": "2026-05-06T15:26:39.544584+00:00"
 }
