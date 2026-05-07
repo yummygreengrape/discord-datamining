@@ -1,5 +1,5 @@
 {
-    "build_hash": "189fedbbc4ea1df8218ccc2dfd91fda32da2ba24",
+    "build_hash": "65aa33d60622cd84f4cdbaef749432957e9f2b78",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -10,17 +10,9 @@
     "string_changes": {
         "en": {
             "added": {
-                "/rBQud": "Srsly, you are the gift",
-                "DDQMlx": "Your community is lucky to have you! You provide and give all the goodies. Keep the generosity up. We see you.",
-                "Ka5s+Q": "1 gift away!",
-                "KjdBPz": "You are 1 gift away!",
-                "YUVulq": "Gift from the Shop",
-                "bwyQt8": "{tierName} Badge",
-                "oqDrEM": "You're so close to the next badge tier. Keep the generosity going!",
-                "roVAey": "Your Gifting Badge",
-                "sa/cfM": "View on profile",
-                "uBuJE5": "You've unlocked the",
-                "vQDoIh": "View Gifting Badge"
+                "WaSgzk": "Set default thread slowmode to **{newValue, plural, one {# second} other {# seconds}}**",
+                "lj+A4u": "Disabled default thread slowmode",
+                "tOJ8h7": "Changed default thread slowmode to **{newValue, plural, one {# second} other {# seconds}}**"
             },
             "deleted": {},
             "modified": {}
@@ -31,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-07T18:25:37.268657+00:00"
+    "timestamp": "2026-05-07T18:35:58.206441+00:00"
 }
