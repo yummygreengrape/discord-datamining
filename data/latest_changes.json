@@ -1,32 +1,42 @@
 {
-    "build_hash": "ba7baf1735cdfd916cf1a7468fd1dbadcfe4fb6c",
+    "build_hash": "a5a55d9f11666414fd42b0c5b60bd5dfa17430f6",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
-    "modified_api_endpoints": [],
-    "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiments": [
+    "modified_api_endpoints": [
         {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
+            "name": "ENDPOINT_QUESTS_PREVIEW",
+            "old_url": "/quests/:param/preview",
+            "status": "modified",
+            "url": "/quests/preview"
+        }
+    ],
+    "modified_experiments": [
+        {
             "id": "2026-05-quest-home-new-layout",
             "kind": "user",
-            "timestamp": "2026-05-07T23:37:08Z",
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0"
+            ],
+            "status": "modified",
             "treatments": [
                 "Variant 0"
             ]
         }
     ],
+    "new_api_endpoints": [
+        {
+            "name": "QUESTS_CREATIVE_PREVIEW",
+            "status": "added",
+            "url": "/quests/preview"
+        }
+    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0Uc94A": "Orb Quests",
-                "CHJy6z": "In Progress",
-                "PRg3qh": "Ending Soon",
-                "ih/OtS": "Featured Quests",
-                "u9Ug++": "Discovered"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -36,5 +46,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-07T23:44:42.878751+00:00"
+    "timestamp": "2026-05-07T23:55:06.108013+00:00"
 }
