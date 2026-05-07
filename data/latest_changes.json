@@ -1,5 +1,5 @@
 {
-    "build_hash": "d8b9f57003ca7dc8ad376d7d8679249c6b70a9bd",
+    "build_hash": "a1ade83a6aeade833223e46141d238c17b8d90ca",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -11,7 +11,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "L9B+ZZ": {
+                    "new_value": "Nitro Basic & Credits not eligible",
+                    "old_value": "Nitro Basic & credits not eligible"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-07T08:44:56.632597+00:00"
+    "timestamp": "2026-05-07T09:15:41.233770+00:00"
 }
