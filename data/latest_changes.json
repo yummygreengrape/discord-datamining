@@ -1,5 +1,5 @@
 {
-    "build_hash": "2fe081fb277dac38cbbad70535935f8fb2d7a69d",
+    "build_hash": "2b27ae35557c2dd38f06c01aa493d87ac31c7586",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -9,10 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "gUqXQN": "Confirm your age on another device",
-                "yBHwMy": "This step isn’t supported on VR. Complete it on another device and we’ll update your experience here automatically."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-07T18:04:56.135392+00:00"
+    "timestamp": "2026-05-07T18:15:16.772805+00:00"
 }
