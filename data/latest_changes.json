@@ -1,29 +1,32 @@
 {
-    "build_hash": "b6ec4e5a14975e94262364a5c0a841ecac930e24",
+    "build_hash": "ba7baf1735cdfd916cf1a7468fd1dbadcfe4fb6c",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
     "modified_api_endpoints": [],
-    "modified_experiments": [
+    "modified_experiments": [],
+    "new_api_endpoints": [],
+    "new_experiments": [
         {
-            "id": "2026-05-av1-bitrate-tuning",
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-new-layout",
             "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "status": "modified",
+            "timestamp": "2026-05-07T23:37:08Z",
             "treatments": [
-                "Variant 1"
+                "Variant 0"
             ]
         }
     ],
-    "new_api_endpoints": [],
-    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0Uc94A": "Orb Quests",
+                "CHJy6z": "In Progress",
+                "PRg3qh": "Ending Soon",
+                "ih/OtS": "Featured Quests",
+                "u9Ug++": "Discovered"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -33,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-07T23:24:12.365914+00:00"
+    "timestamp": "2026-05-07T23:44:42.878751+00:00"
 }
