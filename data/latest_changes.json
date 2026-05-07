@@ -1,5 +1,5 @@
 {
-    "build_hash": "2b27ae35557c2dd38f06c01aa493d87ac31c7586",
+    "build_hash": "189fedbbc4ea1df8218ccc2dfd91fda32da2ba24",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -9,7 +9,19 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/rBQud": "Srsly, you are the gift",
+                "DDQMlx": "Your community is lucky to have you! You provide and give all the goodies. Keep the generosity up. We see you.",
+                "Ka5s+Q": "1 gift away!",
+                "KjdBPz": "You are 1 gift away!",
+                "YUVulq": "Gift from the Shop",
+                "bwyQt8": "{tierName} Badge",
+                "oqDrEM": "You're so close to the next badge tier. Keep the generosity going!",
+                "roVAey": "Your Gifting Badge",
+                "sa/cfM": "View on profile",
+                "uBuJE5": "You've unlocked the",
+                "vQDoIh": "View Gifting Badge"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-07T18:15:16.772805+00:00"
+    "timestamp": "2026-05-07T18:25:37.268657+00:00"
 }
