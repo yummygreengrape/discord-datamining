@@ -1,12 +1,23 @@
 {
-    "build_hash": "14c1426aba9ad863f482bbfc83e1cbe84bf2676e",
+    "build_hash": "83b39a49e85240fa4fde227553cd6285f54a6fb9",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-av1-bitrate-tuning",
+            "kind": "user",
+            "timestamp": "2026-05-07T22:59:51Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -19,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-07T22:53:21.487556+00:00"
+    "timestamp": "2026-05-07T23:03:42.446232+00:00"
 }
