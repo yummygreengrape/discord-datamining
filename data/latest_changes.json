@@ -1,5 +1,5 @@
 {
-    "build_hash": "65aa33d60622cd84f4cdbaef749432957e9f2b78",
+    "build_hash": "66fcaf71e0e8f734d4cfdc3d47b6a46c6f531601",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -9,11 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "WaSgzk": "Set default thread slowmode to **{newValue, plural, one {# second} other {# seconds}}**",
-                "lj+A4u": "Disabled default thread slowmode",
-                "tOJ8h7": "Changed default thread slowmode to **{newValue, plural, one {# second} other {# seconds}}**"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-07T18:35:58.206441+00:00"
+    "timestamp": "2026-05-07T18:46:18.508205+00:00"
 }
