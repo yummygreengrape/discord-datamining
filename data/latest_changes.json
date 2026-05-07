@@ -1,5 +1,5 @@
 {
-    "build_hash": "ac3e50979d2106e675a86b34129fa4538256b610",
+    "build_hash": "9108560f63243508bd14874e1e7e31e8dbe19950",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -9,7 +9,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Qn21R6": "Try clips on Discord",
+                "eFDg0b": "Fresh updates just landed in clips. Still in Nitro Early Access, with more changes on the way!"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-07T22:22:31.077136+00:00"
+    "timestamp": "2026-05-07T22:32:52.533644+00:00"
 }
