@@ -1,24 +1,10 @@
 {
-    "build_hash": "9b6cdce47ce008915ffab620d6b1a0dfc56d526d",
+    "build_hash": "a7c06e7afffac673c35660256f9359672b82fc47",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
     "modified_api_endpoints": [],
-    "modified_experiments": [
-        {
-            "id": "2026-03-friend-request-message",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiments": [],
     "string_changes": {
@@ -33,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-07T14:40:21.077171+00:00"
+    "timestamp": "2026-05-07T14:50:43.312343+00:00"
 }
