@@ -1,5 +1,5 @@
 {
-    "build_hash": "b4528b975bccdd7c20174815397a3e1f7d94d7d0",
+    "build_hash": "448955c8a068fc546a641f28a5717f2cb9a1db5e",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -11,16 +11,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "4K56sP": {
-                    "new_value": "Works with any PC game.",
-                    "old_value": "Discord Clips works with any PC game."
-                },
-                "m2GEpP": {
-                    "new_value": "Capture and share your best gaming moments, all in one place.",
-                    "old_value": "All your gaming moments in one place"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -28,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-08T20:26:00.162116+00:00"
+    "timestamp": "2026-05-08T20:36:21.369710+00:00"
 }
