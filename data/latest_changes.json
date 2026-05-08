@@ -1,12 +1,23 @@
 {
-    "build_hash": "5c5315338e66a756c5d17e588475008edab98738",
+    "build_hash": "f12fbe8364bebd8a730ea8361420997eedbd5866",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-rtc-connection-functional",
+            "kind": "user",
+            "timestamp": "2026-05-08T00:08:25Z",
+            "treatments": [
+                "Variant 0"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -19,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-08T00:05:27.451429+00:00"
+    "timestamp": "2026-05-08T00:15:49.303340+00:00"
 }
