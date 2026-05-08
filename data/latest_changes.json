@@ -1,7 +1,34 @@
 {
-    "build_hash": "8af2ac5f2d2f0b08d39255dc24cd7386966a7b82",
+    "build_hash": "aa400568d238080ca2f4c3879e6091df65b78ee4",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-01-now-playing-api-call-experiment",
+            "kind": "user",
+            "timestamp": "2026-05-08T21:39:27Z",
+            "treatments": [
+                "Variant 0"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-12-earned-impression-api-call-experiment",
+            "kind": "user",
+            "timestamp": "2026-05-08T21:39:27Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6"
+            ]
+        }
+    ],
     "extractor_version": 10,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -19,5 +46,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-08T21:38:12.522354+00:00"
+    "timestamp": "2026-05-08T21:48:33.079901+00:00"
 }
