@@ -1,38 +1,11 @@
 {
-    "build_hash": "a5a55d9f11666414fd42b0c5b60bd5dfa17430f6",
+    "build_hash": "5c5315338e66a756c5d17e588475008edab98738",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
-    "modified_api_endpoints": [
-        {
-            "name": "ENDPOINT_QUESTS_PREVIEW",
-            "old_url": "/quests/:param/preview",
-            "status": "modified",
-            "url": "/quests/preview"
-        }
-    ],
-    "modified_experiments": [
-        {
-            "id": "2026-05-quest-home-new-layout",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0"
-            ],
-            "status": "modified",
-            "treatments": [
-                "Variant 0"
-            ]
-        }
-    ],
-    "new_api_endpoints": [
-        {
-            "name": "QUESTS_CREATIVE_PREVIEW",
-            "status": "added",
-            "url": "/quests/preview"
-        }
-    ],
+    "modified_api_endpoints": [],
+    "modified_experiments": [],
+    "new_api_endpoints": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
@@ -46,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-07T23:55:06.108013+00:00"
+    "timestamp": "2026-05-08T00:05:27.451429+00:00"
 }
