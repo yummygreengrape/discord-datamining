@@ -1,5 +1,5 @@
 {
-    "build_hash": "5f852668972f31545f2f10ae13fa390cfff0c6f4",
+    "build_hash": "0498fb0959ca9b2b0c499c69672615c9e645cc8f",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -9,11 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "QVbF3l": "Control who can send you friend requests and how they appear.",
-                "RYh/pW": "Show personalized messages on incoming friend requests. If you accept, the message will still appear in your DMs.",
-                "jK+wdr": "Show personalized messages"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-08T19:44:49.142116+00:00"
+    "timestamp": "2026-05-08T19:55:10.602060+00:00"
 }
