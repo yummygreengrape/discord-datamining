@@ -1,34 +1,7 @@
 {
-    "build_hash": "aa400568d238080ca2f4c3879e6091df65b78ee4",
+    "build_hash": "e9796968be9dbae7b0387f173e289191c5b4deb2",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-01-now-playing-api-call-experiment",
-            "kind": "user",
-            "timestamp": "2026-05-08T21:39:27Z",
-            "treatments": [
-                "Variant 0"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-12-earned-impression-api-call-experiment",
-            "kind": "user",
-            "timestamp": "2026-05-08T21:39:27Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5",
-                "Variant 6"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 10,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -36,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "8JZmmF": "Get Game on Xbox Game Pass"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -46,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-08T21:48:33.079901+00:00"
+    "timestamp": "2026-05-08T22:08:59.264821+00:00"
 }
