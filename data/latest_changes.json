@@ -1,5 +1,5 @@
 {
-    "build_hash": "1ca2f3556aeab6a5f699ecf42df8f60b7d1e6f40",
+    "build_hash": "7d02edb5389f9780e3c6196d8fa4af86818efee8",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -9,9 +9,21 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "IquUXd": "You accepted usernameHookHook{username}'s friend request with: bHook{note}",
+                "ZOZy2q": "usernameHookHook{username} accepted your friend request with: bHook{note}"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "IPk+su": {
+                    "new_value": "You accepted [{username}]({usernameOnClick})'s friend request with: bHook{note}",
+                    "old_value": "You accepted [{username}]({usernameOnClick})'s friend request with: {note}"
+                },
+                "oMEXZ3": {
+                    "new_value": "[{username}]({usernameOnClick}) accepted your friend request with: bHook{note}",
+                    "old_value": "[{username}]({usernameOnClick}) accepted your friend request with: {note}"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-11T13:35:36.403379+00:00"
+    "timestamp": "2026-05-11T13:46:01.158703+00:00"
 }
