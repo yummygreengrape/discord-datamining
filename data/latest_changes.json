@@ -1,5 +1,5 @@
 {
-    "build_hash": "801b2e7f18cdfa16bf4329e349a52404155cb0ba",
+    "build_hash": "b3f5839f5c2ff0181a8d865301bc656e8eeb81ae",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -10,31 +10,9 @@
     "string_changes": {
         "en": {
             "added": {
-                "4qWUAO": "Messages",
-                "9EDo+/": "Gaming",
-                "Glhokn": "{platformName} (Legacy)",
-                "Iy9grw": "Voice & Live Activity",
-                "T+79Eo": "Other",
-                "UzRF+8": "Social",
-                "n0Wp6j": "Missed Messages",
-                "q5M7HV": "Other",
-                "vcrTV5": "Friend Activity",
-                "wv4QHR": "Reaction Notifications",
-                "zRKbpz": "Server"
+                "NEzEws": "Display Name Style"
             },
-            "deleted": {
-                "40TIqW": "Event notifications",
-                "4n388K": "Stage notifications",
-                "HibKoy": "Forum notifications",
-                "IUH/Oe": "Incoming calls",
-                "MOjygY": "Polls",
-                "NGdNZb": "Direct messages",
-                "NxgGZA": "Friend requests",
-                "S5cB9e": "Real-time",
-                "VeBD1N": "Voice connected",
-                "kIrLfg": "Other server notifications",
-                "zJlwvV": "Discord system messages"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -43,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-11T22:20:38.312050+00:00"
+    "timestamp": "2026-05-11T22:31:00.013404+00:00"
 }
