@@ -1,5 +1,5 @@
 {
-    "build_hash": "e47424a2b923ad830b13e89d4c051933ff2a1163",
+    "build_hash": "becd20390cb4a10e5befded6c10b1760b155d0db",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "ZhunuI": "Group changes saved"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-10T03:00:46.623906+00:00"
+    "timestamp": "2026-05-11T09:02:01.568943+00:00"
 }
