@@ -1,5 +1,5 @@
 {
-    "build_hash": "f0e7d30e40983d9bdcaabafad050c1714e21b56b",
+    "build_hash": "dae21f79ed2725b496ca3db56bc32f30747f833c",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -11,7 +11,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "ahKIJO": {
+                    "new_value": "Parental Controls",
+                    "old_value": "Teen Account Settings"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-11T22:51:42.922981+00:00"
+    "timestamp": "2026-05-11T23:02:04.178540+00:00"
 }
