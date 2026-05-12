@@ -1,5 +1,5 @@
 {
-    "build_hash": "7260dd34995377f53ccf2af687402f4c8ef7e29c",
+    "build_hash": "41edcb79c56f3f331da7c0dc845d6e406a917443",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -9,9 +9,53 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "4Yp0mI": "This badge evolves the more you gift. Refunds and fraud flags may adjust your progress.",
+                "BB+Dar": "See more",
+                "SIHRfH": "{giftsRemaining, plural, one {# gift} other {# gifts}} away from {nextTier}!",
+                "ace9E2": "See less",
+                "sFokBp": "The Gifting Badge"
+            },
+            "deleted": {
+                "+8iQOI": "{giftsRemaining, plural, one {# gift} other {# gifts}} away from {nextTier}!",
+                "/GCMRc": "See Less",
+                "hHKjHF": "Your badge progresses as you gift. Exceptions include when a gift is refunded or when fraud is detected.",
+                "zT09iH": "See More"
+            },
+            "modified": {
+                "0MB2C6": {
+                    "new_value": "Gifting Badge",
+                    "old_value": "Celebrate Your Gifting Milestones in Style"
+                },
+                "3EQnkg": {
+                    "new_value": "Treat your friends, and yourself. Send a gift and earn a profile badge that evolves the more you give.",
+                    "old_value": "There's a new gifting badge in town. Unlock your generosity and new levels as you gift."
+                },
+                "KjdBPz": {
+                    "new_value": "Unlock the {nextTier} badge",
+                    "old_value": "You are 1 gift away!"
+                },
+                "Q2RQka": {
+                    "new_value": "Gift a friend, get a badge",
+                    "old_value": "New evolving gifting badge"
+                },
+                "QxRA6w": {
+                    "new_value": "Oh hey, generous. You've sent {giftCount, plural, one {# gift} other {# gifts}}, earning you a profile badge that evolves the more you give.",
+                    "old_value": "There's a new gifting badge in town. And you've got this one because you've gifted. You're so generous!"
+                },
+                "a+jfuy": {
+                    "new_value": "You got the {tierName} badge",
+                    "old_value": "You've got the {tierName} badge"
+                },
+                "k9sNVH": {
+                    "new_value": "Send a gift to earn a profile badge that evolves as you give.",
+                    "old_value": "Your badge will evolve as you gift."
+                },
+                "oqDrEM": {
+                    "new_value": "Send one more gift to unlock the coveted next level in your gifting streak.",
+                    "old_value": "You're so close to the next badge tier. Keep the generosity going!"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +63,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-12T21:48:27.462359+00:00"
+    "timestamp": "2026-05-12T21:58:48.318451+00:00"
 }
