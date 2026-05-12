@@ -1,37 +1,37 @@
 {
-    "build_hash": "bdae1f11d7a3cd55932557ee63d2b1d4bccdf476",
+    "build_hash": "522ce640b7800a69b5f5da854c47804c31c89a34",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
     "modified_api_endpoints": [],
-    "modified_experiments": [
-        {
-            "id": "2026-05-frictionless-gdms",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "7w2iq7": "Search your friends or people from your servers.",
+                "FFxUQ0": "Add to Group DM",
+                "FIHggl": "Add friends or server members to group DMs.",
+                "PWkO7+": "Add to DM",
+                "barkEr": "{number, plural, one {You can add 1 more person.} other {You can add # more people.}}",
+                "dTqtcN": "Or, send an invite link",
+                "l6Rj+t": "Can't find them? Try sending an invite link.",
+                "t9mhPt": "Group DMs can have up to {number} members.",
+                "xHuK72": "Non-friends in mutual servers will need to accept your invite before joining."
+            },
+            "deleted": {
+                "J6sMqT": "No search results found."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "J6sMqT": "검색 결과가 없어요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-05-12T18:12:40.813064+00:00"
+    "timestamp": "2026-05-12T18:23:01.736544+00:00"
 }
