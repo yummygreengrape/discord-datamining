@@ -1,23 +1,26 @@
 {
-    "build_hash": "ca7be9473c19401c1e3a1f6ffd064531bbc972c9",
+    "build_hash": "bdae1f11d7a3cd55932557ee63d2b1d4bccdf476",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
     "modified_api_endpoints": [],
-    "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiments": [
+    "modified_experiments": [
         {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
             "id": "2026-05-frictionless-gdms",
             "kind": "user",
-            "timestamp": "2026-05-12T17:58:33Z",
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "status": "modified",
             "treatments": [
                 "Variant 1"
             ]
         }
     ],
+    "new_api_endpoints": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -30,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-12T18:02:19.890612+00:00"
+    "timestamp": "2026-05-12T18:12:40.813064+00:00"
 }
