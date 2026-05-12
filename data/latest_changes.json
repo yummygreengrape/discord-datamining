@@ -1,5 +1,5 @@
 {
-    "build_hash": "e8c6a1a2bbd3cd1bf749c84cb3ae5533eda0fc55",
+    "build_hash": "20f22e33bf957b6ac47cf558159100d068f67343",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "OPUqI3": "Meta Quest"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-12T15:48:56.044178+00:00"
+    "timestamp": "2026-05-12T16:19:31.918326+00:00"
 }
