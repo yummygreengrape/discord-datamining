@@ -1,5 +1,5 @@
 {
-    "build_hash": "1375d802b3e9f92e8a048c515c4a9a49f6a807eb",
+    "build_hash": "c877d238335315e6faac97619d30bc84418dabf6",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -9,10 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "7MKLU1": "A system issue in a recent Android update may prevent viewers from hearing your stream. A workaround is available.",
-                "OorFv3": "Dismiss screenshare audio warning"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-12T21:17:34.129833+00:00"
+    "timestamp": "2026-05-12T21:38:05.727871+00:00"
 }
