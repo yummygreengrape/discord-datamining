@@ -1,18 +1,7 @@
 {
-    "build_hash": "7e2007bd6a623826ee9c6d0573bb5be57b78c011",
+    "build_hash": "ca7be9473c19401c1e3a1f6ffd064531bbc972c9",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-frictionless-gdms",
-            "kind": "user",
-            "timestamp": "2026-05-12T17:46:28Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 10,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -23,7 +12,7 @@
             "experiment_type": "apex",
             "id": "2026-05-frictionless-gdms",
             "kind": "user",
-            "timestamp": "2026-05-12T17:44:26Z",
+            "timestamp": "2026-05-12T17:58:33Z",
             "treatments": [
                 "Variant 1"
             ]
@@ -41,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-12T17:51:59.775788+00:00"
+    "timestamp": "2026-05-12T18:02:19.890612+00:00"
 }
