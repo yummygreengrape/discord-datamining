@@ -1,7 +1,18 @@
 {
-    "build_hash": "d3f0066220e36e8bf6089bd7e82f83e63fea418e",
+    "build_hash": "da248edc954a758ca8b93d44fd28b8b8f2dff18d",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "id": "2025-07_age_verification_feedback",
+            "kind": "user",
+            "timestamp": "2026-05-12T23:42:19Z",
+            "title": "Age Verification Feedback Experiment",
+            "treatments": [
+                "Enable Age Verification Feedback Survey"
+            ]
+        }
+    ],
     "extractor_version": 10,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -9,15 +20,54 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "6QVlxw": "Send {count, plural, one {# more gift} other {# more gifts}} to unlock the next badge, {nextTierName}.",
+                "DLeboq": "You've unlocked the $[{tierName} Badge](gradientHook)",
+                "bGKjmg": "Got It!",
+                "g86YiI": "Send a gift"
+            },
+            "deleted": {
+                "4djgO/": "Thanks for the feedback!",
+                "8JFGXc": "I tried to go through the steps, but it didn’t work",
+                "Dl4A+U": "I didn’t have the right documents with me",
+                "KZw6kn": "What isn't working well?",
+                "Q5cQ46": "Describe your issue",
+                "RPb8Zk": "Your feedback helps us improve Discord safety features.",
+                "RqoA4v": "How was your age verification experience?",
+                "YUVulq": "Gift from the Shop",
+                "ZsnNgz": "I’m concerned about sharing personal information",
+                "bC0QVX": "The instructions were confusing",
+                "cDP3b4": "Feedback submitted",
+                "eSP1F9": "I changed my mind about seeing this content",
+                "ep5SQp": "Something else",
+                "kkKhVJ": "This takes too much time",
+                "maxf2S": "I wasn’t sure why this was necessary",
+                "uBuJE5": "You've unlocked the",
+                "zApKaR": "Would you like to tell us more?"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "4djgO/": "피드백 주셔서 감사합니다!",
+                "8JFGXc": "단계를 거치려고 했지만 제대로 되지 않았어요",
+                "Dl4A+U": "제게 필요한 문서가 없었어요",
+                "KZw6kn": "뭐가 잘 안되고 있나요?",
+                "Q5cQ46": "문제 설명하기",
+                "RPb8Zk": "여러분의 피드백은 Discord 안전 기능을 개선하는 데 도움이 돼요.",
+                "RqoA4v": "나이 인증 과정은 어땠나요?",
+                "ZsnNgz": "개인 정보를 공유하는 게 걱정돼요",
+                "bC0QVX": "지침이 혼란스러웠어요",
+                "cDP3b4": "피드백 전송됨",
+                "eSP1F9": "이 콘텐츠를 보는 것에 관해 생각이 바뀌었어요",
+                "ep5SQp": "다른 이유",
+                "kkKhVJ": "시간이 너무 많이 걸려요",
+                "maxf2S": "이게 왜 필요한지 이해가 되지 않았어요",
+                "zApKaR": "더 자세히 말씀해 주시겠어요?"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-05-12T23:41:26.191236+00:00"
+    "timestamp": "2026-05-12T23:51:55.736182+00:00"
 }
