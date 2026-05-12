@@ -1,5 +1,5 @@
 {
-    "build_hash": "c2d6916089786e7cda323a68bd98d84e170720fe",
+    "build_hash": "533a59c5180493fa899d8c500534512816244bfc",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -9,9 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "DZnomS": "Send a Gift"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -21,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-12T20:16:11.780735+00:00"
+    "timestamp": "2026-05-12T20:56:52.606200+00:00"
 }
