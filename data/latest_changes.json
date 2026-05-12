@@ -1,5 +1,5 @@
 {
-    "build_hash": "730ab07e1ca060f0b491f48e57c018c13b6a6225",
+    "build_hash": "50b63914997a4955bcffd4a20c499212f838c474",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "EqUw7K": "Drop a hint. When friends gift you Nitro, a credit will be applied toward your next payment."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-12T19:03:57.457582+00:00"
+    "timestamp": "2026-05-12T19:14:18.417780+00:00"
 }
