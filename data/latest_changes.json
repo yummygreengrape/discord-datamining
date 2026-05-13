@@ -1,42 +1,15 @@
 {
-    "build_hash": "2d94dbfba858a2a05c5542d2c7ad78f922632fe7",
+    "build_hash": "988f09b30e723c0b5abaef610824543aa6427105",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "id": "2026-04_voice_channel_list_invite_embed",
-            "kind": "guild",
-            "timestamp": "2026-05-13T19:55:41Z",
-            "title": "Voice Channel List Invite Embed",
-            "treatments": [
-                "Control",
-                "Treatment 1: Enable channel-list-style voice invite embed"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "id": "2026-05_voice_channel_list_invite_embed",
-            "kind": "guild",
-            "timestamp": "2026-05-13T19:55:41Z",
-            "title": "Voice Channel List Invite Embed",
-            "treatments": [
-                "Control",
-                "Treatment 1: Enable channel-list-style voice invite embed"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "hSXjlI": "1 boost expired.",
-                "vct4l8": "boost expiring {date, date, M/d}."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -46,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-13T19:55:44.330154+00:00"
+    "timestamp": "2026-05-13T20:06:04.493150+00:00"
 }
