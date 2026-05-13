@@ -1,20 +1,12 @@
 {
-    "build_hash": "26f0533e6e7f49e3a2eab6a323705a2f9cccab44",
+    "build_hash": "b70029a57067f89a686ff9f663724a3660782968",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 10,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "id": "2026-05-server-theme-user",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -27,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-13T13:22:33.131523+00:00"
+    "timestamp": "2026-05-13T14:03:17.307518+00:00"
 }
