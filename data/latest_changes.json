@@ -1,19 +1,7 @@
 {
-    "build_hash": "98ad5113aa514fc4eeed458b2135a98149cf1d86",
+    "build_hash": "66192b171adb1f01b0cced599ec9f72968454231",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-slayer-storefront-learn-more-link",
-            "kind": "user",
-            "timestamp": "2026-05-13T14:56:14Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -31,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-13T14:56:57.998360+00:00"
+    "timestamp": "2026-05-13T15:17:26.513939+00:00"
 }
