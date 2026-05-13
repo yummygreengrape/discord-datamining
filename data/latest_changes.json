@@ -1,54 +1,12 @@
 {
-    "build_hash": "5d4a6b98e1af11c0e91535774b310c44658f5608",
+    "build_hash": "09489523dd2fe630ff87f4199be52870be0fc446",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-valorant-social-sdk",
-            "kind": "user",
-            "timestamp": "2026-05-13T22:39:58Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
-    "modified_experiments": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-04-valorant-social-sdk",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "status": "modified",
-            "treatments": []
-        }
-    ],
+    "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-valorant-social-sdk-all-regions",
-            "kind": "user",
-            "treatments": []
-        },
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-valorant-social-sdk-us--canada",
-            "kind": "user",
-            "treatments": []
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -61,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-13T22:40:47.304137+00:00"
+    "timestamp": "2026-05-13T23:01:15.188286+00:00"
 }
