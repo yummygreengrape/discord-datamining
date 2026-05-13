@@ -1,7 +1,19 @@
 {
-    "build_hash": "0b8aff42584c03c23d5c9b1ae2db6a90bb5e1538",
+    "build_hash": "d259971b88a7e70f420d573ab91ae694d5b70f9f",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-12-video-stats-for-nerds",
+            "kind": "user",
+            "timestamp": "2026-05-13T18:21:57Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -19,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-13T18:13:10.582743+00:00"
+    "timestamp": "2026-05-13T18:23:31.879842+00:00"
 }
