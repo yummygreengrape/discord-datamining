@@ -1,5 +1,5 @@
 {
-    "build_hash": "e3a24094d977dde6a34810805c7b9c2c5de82a93",
+    "build_hash": "cbcb13e62d1303a1162f74769f2c158b8a76e1eb",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,9 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "e2t1G5": "Country/Region: {country}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -21,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-13T21:07:41.809494+00:00"
+    "timestamp": "2026-05-13T21:18:01.859738+00:00"
 }
