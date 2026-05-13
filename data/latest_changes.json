@@ -1,12 +1,24 @@
 {
-    "build_hash": "aeefae85b512fd08a738eef89c7097de60b0124d",
+    "build_hash": "4e413c04b3394ec5fe0ab2f72387fbfdf41a2651",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-expiring-boosts",
+            "kind": "user",
+            "timestamp": "2026-05-13T14:46:09Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -19,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-13T14:36:11.548700+00:00"
+    "timestamp": "2026-05-13T14:46:34.596110+00:00"
 }
