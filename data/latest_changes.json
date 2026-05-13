@@ -1,46 +1,12 @@
 {
-    "build_hash": "1bc7275ba1b1f47dbbcad9d41cb5744ea7e8e3a2",
+    "build_hash": "3218fe4fee792032a1e3eb5759afa27f72443718",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-riot-social-sdk-migration",
-            "kind": "user",
-            "timestamp": "2026-05-13T00:56:48Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 10,
     "modified_api_endpoints": [],
-    "modified_experiments": [
-        {
-            "id": "2026-04-riot-social-sdk-migration",
-            "kind": "user",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0"
-            ],
-            "status": "modified",
-            "treatments": []
-        }
-    ],
+    "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "id": "2026-05-riot-social-sdk-migration-all-regions",
-            "kind": "user",
-            "treatments": []
-        },
-        {
-            "id": "2026-05-riot-social-sdk-migration-us--canada",
-            "kind": "user",
-            "treatments": []
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -53,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-13T01:03:01.195058+00:00"
+    "timestamp": "2026-05-13T01:33:37.009170+00:00"
 }
