@@ -1,7 +1,19 @@
 {
-    "build_hash": "c9b70a37fd7cffba5a4470036617be3660b04ee2",
+    "build_hash": "f7f37dc8e0bdda9f56e1d0a7389c84829b32c149",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-valorant-social-sdk",
+            "kind": "user",
+            "timestamp": "2026-05-13T22:39:58Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -19,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-13T23:22:02.274552+00:00"
+    "timestamp": "2026-05-13T23:32:30.231583+00:00"
 }
