@@ -1,30 +1,12 @@
 {
-    "build_hash": "2f4b310a59fc90cc16b7ed8bd3446d167b576c3e",
+    "build_hash": "88e75604e3609b2d77cce29945264bb141dfd197",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "CHANNELS_GAME_SHOP_PREFIX",
-            "status": "added",
-            "url": "/channels/:param/game-shop"
-        }
-    ],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-slayer-storefront-shop-shim",
-            "kind": "user",
-            "timestamp": "2026-05-13T18:33:02Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_api_endpoints": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -37,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-13T18:33:52.963419+00:00"
+    "timestamp": "2026-05-13T18:44:12.799330+00:00"
 }
