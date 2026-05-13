@@ -1,5 +1,5 @@
 {
-    "build_hash": "5ec199c090147b89f582517eed38d878141684ff",
+    "build_hash": "45120e2554a390af120b20182477b6620c884d72",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,8 +10,9 @@
     "string_changes": {
         "en": {
             "added": {
-                "3TVY/R": "Rewards",
-                "y10TI2": "Search Quests"
+                "1PGqLv": "See historical activity for an active voice channel. This includes who was in the channel and what games they were playing.",
+                "M2JyKo": "Show Voice History in this server",
+                "pHoDJ5": "Voice History"
             },
             "deleted": {},
             "modified": {}
@@ -22,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-13T17:11:15.675869+00:00"
+    "timestamp": "2026-05-13T17:21:37.965430+00:00"
 }
