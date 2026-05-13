@@ -1,7 +1,31 @@
 {
-    "build_hash": "988f09b30e723c0b5abaef610824543aa6427105",
+    "build_hash": "33884998d45838672edc4700d09a688b9a2433ea",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-soundboard-default-reordering",
+            "kind": "user",
+            "timestamp": "2026-05-13T20:29:55Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-soundboard-sound-preview",
+            "kind": "user",
+            "timestamp": "2026-05-13T20:29:55Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -10,14 +34,18 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "eku049": "Use sounds from **{serverName}**. Only with Nitro."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "eku049": "bHook{serverName}의 음향을 사용하세요. Nitro 구독 시에만 가능해요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-05-13T20:06:04.493150+00:00"
+    "timestamp": "2026-05-13T20:36:38.078515+00:00"
 }
