@@ -1,18 +1,7 @@
 {
-    "build_hash": "efa73eef8052532c9ddb850fd0a4d6eee18c2854",
+    "build_hash": "1452c2fefaa69945370ff1086e1ed99787b6e10e",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-save-voice-message-menu-item",
-            "kind": "user",
-            "timestamp": "2026-05-13T20:47:05Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -20,9 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "e2t1G5": "Country/Region: {country}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -32,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-13T21:59:38.457522+00:00"
+    "timestamp": "2026-05-13T22:20:06.588499+00:00"
 }
