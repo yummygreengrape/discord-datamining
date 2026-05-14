@@ -1,15 +1,14 @@
 {
-    "build_hash": "c9825debcad47785419cf3801896fb1fa2db801a",
+    "build_hash": "00853dafc9f759514d7587eef62359d87f8dbee7",
     "deleted_api_endpoints": [],
     "deleted_experiments": [
         {
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-04-premium-group-roadblock",
+            "id": "2026-03-join-voice-context-menu",
             "kind": "user",
-            "timestamp": "2026-05-14T23:02:03Z",
+            "timestamp": "2026-05-14T23:15:09Z",
             "treatments": [
-                "Variant 0",
                 "Variant 1"
             ]
         }
@@ -31,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T23:09:43.060998+00:00"
+    "timestamp": "2026-05-14T23:20:06.029873+00:00"
 }
