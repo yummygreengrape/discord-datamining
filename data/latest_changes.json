@@ -1,5 +1,5 @@
 {
-    "build_hash": "54fc5fcf4b95c95ebe6dad337697ecf89ab34e0a",
+    "build_hash": "326b4ab86c759cc924c478246c69634f23e6f391",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -11,7 +11,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "3kMstB": {
+                    "new_value": "Your saved payment methods don't match your current Country/Region. Adding a new one will update your Country/Region.",
+                    "old_value": "Your saved payment methods don't match your current Country/Region. Adding a new one will update your Country/Region. [Learn more]({learnMoreUrl})."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T19:33:04.034919+00:00"
+    "timestamp": "2026-05-14T19:43:27.668744+00:00"
 }
