@@ -1,14 +1,15 @@
 {
-    "build_hash": "6cfe04205ca6351c27a4964d31c33b13b7f7ed30",
+    "build_hash": "1b0f869cc0ae252513b7ac5e02cd0d39c9c5b549",
     "deleted_api_endpoints": [],
     "deleted_experiments": [
         {
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-01-contextless-frames-mobile",
+            "id": "2026-05-slayer-storefront-shop-shim",
             "kind": "user",
-            "timestamp": "2026-05-14T18:49:57Z",
+            "timestamp": "2026-05-14T18:59:03Z",
             "treatments": [
+                "Variant 0",
                 "Variant 1"
             ]
         }
@@ -17,7 +18,19 @@
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-slayer-storefront-shop-shim",
+            "kind": "user",
+            "timestamp": "2026-05-14T18:57:01Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -30,5 +43,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T18:51:37.561765+00:00"
+    "timestamp": "2026-05-14T19:01:59.825001+00:00"
 }
