@@ -1,17 +1,26 @@
 {
-    "build_hash": "c16bb81dd91b040c9bbbe2ef3a941529c0e8db87",
+    "build_hash": "44436b052478da7900f6893f8a9fba34c994030b",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-expiring-boosts",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "JEiq/c": "Tenure badge"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -21,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T15:16:33.571729+00:00"
+    "timestamp": "2026-05-14T15:26:56.194740+00:00"
 }
