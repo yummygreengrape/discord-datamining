@@ -1,5 +1,5 @@
 {
-    "build_hash": "bd8d2858f774e968c7a128fd776e3c45a79ed83e",
+    "build_hash": "8c5d87fd38109f8357dbaca1beffae1daec1f113",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,15 +10,10 @@
     "string_changes": {
         "en": {
             "added": {
-                "rSe9ra": "Dismiss notice"
+                "GqvDkk": "You don't have any transaction history."
             },
             "deleted": {},
-            "modified": {
-                "gBIG/N": {
-                    "new_value": "You can customize styles, display name, pronouns, and bio for each server.",
-                    "old_value": "You can customize profile styles, display name, pronouns, and bio for each per-server profile"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -26,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T22:07:48.688215+00:00"
+    "timestamp": "2026-05-14T22:18:11.100443+00:00"
 }
