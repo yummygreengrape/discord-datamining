@@ -1,7 +1,18 @@
 {
-    "build_hash": "60b313e2cd3f7ba7759714bda4a1560a783a38e1",
+    "build_hash": "6cfe04205ca6351c27a4964d31c33b13b7f7ed30",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-01-contextless-frames-mobile",
+            "kind": "user",
+            "timestamp": "2026-05-14T18:49:57Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -19,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T18:31:10.839701+00:00"
+    "timestamp": "2026-05-14T18:51:37.561765+00:00"
 }
