@@ -1,12 +1,23 @@
 {
-    "build_hash": "5306b90cdc983d42494387f54a6a5237a92df39e",
+    "build_hash": "2350e2bb6ebd09044856388a993af5c39069069c",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-crepe",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -19,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T00:34:48.071993+00:00"
+    "timestamp": "2026-05-14T00:45:12.695445+00:00"
 }
