@@ -1,12 +1,37 @@
 {
-    "build_hash": "18d054da2298e3059e3d21f118cdeaa6d39f3083",
+    "build_hash": "c86dbe2177749b5e854c4605e392a904104fc95a",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-slayer-storefront-shop-tab",
+            "kind": "user",
+            "timestamp": "2026-05-14T21:30:17Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-social-layer-storefront-game-shops-dropdown",
+            "kind": "user",
+            "timestamp": "2026-05-14T21:30:17Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -19,5 +44,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T21:26:21.600666+00:00"
+    "timestamp": "2026-05-14T21:36:42.052779+00:00"
 }
