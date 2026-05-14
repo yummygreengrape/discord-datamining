@@ -1,7 +1,19 @@
 {
-    "build_hash": "25805228237cc636dda8c4d976ea849bc38a3b2e",
+    "build_hash": "c9825debcad47785419cf3801896fb1fa2db801a",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-premium-group-roadblock",
+            "kind": "user",
+            "timestamp": "2026-05-14T23:02:03Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -19,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T22:59:21.117627+00:00"
+    "timestamp": "2026-05-14T23:09:43.060998+00:00"
 }
