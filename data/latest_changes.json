@@ -1,5 +1,5 @@
 {
-    "build_hash": "fcc2799a60beb49b06f2bf5d3f1c5af8e74335bc",
+    "build_hash": "d6f58d26590a5326cf06bf565b54279491525b58",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,18 +9,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "xZtncm": "Actions for {username}"
+            },
             "deleted": {},
-            "modified": {
-                "EMOJI_FAVORITE_TOOLTIP": {
-                    "new_value": "Hold {key} and click to add to favorites",
-                    "old_value": "{key}+Click to ⭐"
-                },
-                "glqNsf": {
-                    "new_value": "Hold {key} and click to add to favorites",
-                    "old_value": "{key}+Click to ⭐"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -28,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T06:17:57.543917+00:00"
+    "timestamp": "2026-05-14T06:38:27.428271+00:00"
 }
