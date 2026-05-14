@@ -1,43 +1,22 @@
 {
-    "build_hash": "aa389fafee762c729864cefe5ba2ba530ff9cc1d",
+    "build_hash": "bd8d2858f774e968c7a128fd776e3c45a79ed83e",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-clips-timeline",
-            "kind": "user",
-            "timestamp": "2026-05-14T21:52:29Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "rSe9ra": "Dismiss notice"
+            },
             "deleted": {},
             "modified": {
-                "0YzU//": {
-                    "new_value": "Available to Unlock",
-                    "old_value": "Available to earn"
-                },
-                "62xU4E": {
-                    "new_value": "Discover badges you can unlock and show off the ones you've got.",
-                    "old_value": "Discover badges you can earn and show off the ones you've got."
-                },
-                "dDDCvU": {
-                    "new_value": "You haven't unlocked this yet",
-                    "old_value": "Not earned yet"
-                },
-                "sl2irJ": {
-                    "new_value": "Your Badges",
-                    "old_value": "Badges"
+                "gBIG/N": {
+                    "new_value": "You can customize styles, display name, pronouns, and bio for each server.",
+                    "old_value": "You can customize profile styles, display name, pronouns, and bio for each per-server profile"
                 }
             }
         },
@@ -47,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T21:57:25.762378+00:00"
+    "timestamp": "2026-05-14T22:07:48.688215+00:00"
 }
