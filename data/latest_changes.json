@@ -1,5 +1,5 @@
 {
-    "build_hash": "f749d144196952fd118f4a7edaa29f4e71a72067",
+    "build_hash": "e528a1902d8ae253b578799a49638e57f4eff832",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,7 +10,9 @@
     "string_changes": {
         "en": {
             "added": {
-                "5lPjGj": "Dismiss voice channel preview"
+                "CAgr1w": "Quest Actions",
+                "Lo0dCa": "{mentionCount, plural, one {# mention} other {# mentions}}, {channelName} (group message)",
+                "TO8LYt": "{mentionCount, plural, one {# mention} other {# mentions}}, {channelName} (direct message)"
             },
             "deleted": {},
             "modified": {}
@@ -21,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T00:55:37.142873+00:00"
+    "timestamp": "2026-05-14T01:20:42.823543+00:00"
 }
