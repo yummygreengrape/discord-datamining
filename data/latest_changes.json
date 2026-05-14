@@ -1,18 +1,7 @@
 {
-    "build_hash": "00853dafc9f759514d7587eef62359d87f8dbee7",
+    "build_hash": "b4806637033519bd20314820da6cb27a14fd3343",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-join-voice-context-menu",
-            "kind": "user",
-            "timestamp": "2026-05-14T23:15:09Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -30,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T23:20:06.029873+00:00"
+    "timestamp": "2026-05-14T23:30:28.221468+00:00"
 }
