@@ -1,5 +1,5 @@
 {
-    "build_hash": "45b03fe82c79512196161e2391484e5dd78c17d7",
+    "build_hash": "f830bd2a5391db1c13249b1bcc9f815da54e664d",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "SzYj9v": "QR code to log in with the Discord mobile app"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T03:30:41.167181+00:00"
+    "timestamp": "2026-05-14T03:40:53.303542+00:00"
 }
