@@ -1,5 +1,5 @@
 {
-    "build_hash": "ddef244cff0dd2d91dff71bf1a5c6f84928ca9df",
+    "build_hash": "6db85e824908bb895aec6e2eb9244c1675b1efcc",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,8 +10,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "UQ53sj": "{emojiName}, status emoji",
-                "XFIqyk": "Color {hex}"
+                "JQtsGh": "call duration {duration}"
             },
             "deleted": {},
             "modified": {}
@@ -22,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T06:58:58.224138+00:00"
+    "timestamp": "2026-05-14T07:19:28.153529+00:00"
 }
