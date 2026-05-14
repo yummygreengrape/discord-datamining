@@ -1,40 +1,17 @@
 {
-    "build_hash": "ad98e6865f9c3318b4e3024a44c321e4925e81c2",
+    "build_hash": "a6d55dbe43f08f1e4baa3ba82f7b153b713a222e",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "id": "2026-05_game_invites_channel",
-            "kind": "guild",
-            "timestamp": "2026-05-13T23:49:35Z",
-            "title": "Game Invites Channel",
-            "treatments": [
-                "Control",
-                "Treatment 1: Enable game invites channel"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "DxwBMf": "Create a space to invite others.",
-                "U4lDOC": "{title}, {description}",
-                "h/GwWL": "Game Invites",
-                "nSzqkg": "{emojiName} emoji, {title}, {description}",
-                "rBPpAN": "{emojiName} emoji, {title}"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "YKst58": {
-                    "new_value": "Add your POV",
-                    "old_value": "Share your POV"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -42,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-13T23:53:15.721110+00:00"
+    "timestamp": "2026-05-14T00:03:41.361409+00:00"
 }
