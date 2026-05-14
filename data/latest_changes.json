@@ -1,5 +1,5 @@
 {
-    "build_hash": "2948372ff7acd4e8c396b8db1c52938269e4a20d",
+    "build_hash": "77c46072ded3ebcf0c323a7bd66c4bbef1af2446",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,7 +10,9 @@
     "string_changes": {
         "en": {
             "added": {
-                "IyCzIF": "Tutorial tip"
+                "DaELnU": "not completed",
+                "FXFkPg": "{title}, {status}",
+                "g62IJl": "completed"
             },
             "deleted": {},
             "modified": {}
@@ -21,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T07:29:50.225666+00:00"
+    "timestamp": "2026-05-14T07:40:12.753202+00:00"
 }
