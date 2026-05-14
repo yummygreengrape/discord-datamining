@@ -1,7 +1,19 @@
 {
-    "build_hash": "a16874f8ee1887378b393f559b8dc4a19d32008b",
+    "build_hash": "c6879a7d5dc70ef4334d6158cf1ccd2d4a2653c2",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-nitro-s-rewards-v2-test",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -19,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T17:09:08.332449+00:00"
+    "timestamp": "2026-05-14T17:59:59.853890+00:00"
 }
