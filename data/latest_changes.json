@@ -1,5 +1,5 @@
 {
-    "build_hash": "82e907c6cebeb9fd985f0ba178a8e54d0f6c5e11",
+    "build_hash": "db5d3a8abd17d671c31b191d98716989310e3274",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "IKBvFl": "Example showing a profile card with your avatar, username, and a status bubble displaying: {placeholder}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T05:01:39.514510+00:00"
+    "timestamp": "2026-05-14T06:02:37.613372+00:00"
 }
