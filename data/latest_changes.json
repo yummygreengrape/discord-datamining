@@ -1,42 +1,34 @@
 {
-    "build_hash": "c86dbe2177749b5e854c4605e392a904104fc95a",
+    "build_hash": "582006e8fcbe7194b8c932f6dae99614a1fe4adc",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-slayer-storefront-shop-tab",
-            "kind": "user",
-            "timestamp": "2026-05-14T21:30:17Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-social-layer-storefront-game-shops-dropdown",
-            "kind": "user",
-            "timestamp": "2026-05-14T21:30:17Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "0YzU//": {
+                    "new_value": "Available to Unlock",
+                    "old_value": "Available to earn"
+                },
+                "62xU4E": {
+                    "new_value": "Discover badges you can unlock and show off the ones you've got.",
+                    "old_value": "Discover badges you can earn and show off the ones you've got."
+                },
+                "dDDCvU": {
+                    "new_value": "You haven't unlocked this yet",
+                    "old_value": "Not earned yet"
+                },
+                "sl2irJ": {
+                    "new_value": "Your Badges",
+                    "old_value": "Badges"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -44,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T21:36:42.052779+00:00"
+    "timestamp": "2026-05-14T21:47:03.740736+00:00"
 }
