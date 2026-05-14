@@ -1,5 +1,5 @@
 {
-    "build_hash": "118cbf397f4f97782e1079d7c63a033565210775",
+    "build_hash": "e2fffe96840f463b6e8fe8a2252a2affcf83571a",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,9 +9,25 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "6pQebO": "You accepted [{username}]({usernameOnClick})'s friend request. They said: [{note}]({formattedNote})",
+                "bNrwDM": "[{username}]({usernameOnClick}) accepted your friend request. You said: [{note}]({formattedNote})",
+                "mxnceg": "Username is required"
+            },
+            "deleted": {
+                "IPk+su": "You accepted [{username}]({usernameOnClick})'s friend request with: **{note}**",
+                "oMEXZ3": "[{username}]({usernameOnClick}) accepted your friend request with: **{note}**"
+            },
+            "modified": {
+                "IquUXd": {
+                    "new_value": "You accepted $[{username}](usernameHook)'s friend request. They said: **{note}**",
+                    "old_value": "You accepted $[{username}](usernameHook)'s friend request with: **{note}**"
+                },
+                "ZOZy2q": {
+                    "new_value": "$[{username}](usernameHook) accepted your friend request. You said: **{note}**",
+                    "old_value": "$[{username}](usernameHook) accepted your friend request with: **{note}**"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T14:15:00.664923+00:00"
+    "timestamp": "2026-05-14T14:25:24.973867+00:00"
 }
