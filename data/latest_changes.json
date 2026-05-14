@@ -1,5 +1,5 @@
 {
-    "build_hash": "8c5d87fd38109f8357dbaca1beffae1daec1f113",
+    "build_hash": "52fdc555ffe288257e34dda5a407687ed31a0653",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,9 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "GqvDkk": "You don't have any transaction history."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -21,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T22:18:11.100443+00:00"
+    "timestamp": "2026-05-14T22:28:32.842345+00:00"
 }
