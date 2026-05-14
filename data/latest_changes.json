@@ -1,7 +1,25 @@
 {
-    "build_hash": "77c46072ded3ebcf0c323a7bd66c4bbef1af2446",
-    "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "build_hash": "3d7bfa3d69b963eee8a59de7651a635038d622db",
+    "deleted_api_endpoints": [
+        {
+            "name": "CHANNELS_GAME_SHOP_PREFIX",
+            "status": "deleted",
+            "url": "/channels/:param/game-shop"
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-slayer-storefront-shop-shim",
+            "kind": "user",
+            "timestamp": "2026-05-14T09:24:51Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -9,11 +27,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "DaELnU": "not completed",
-                "FXFkPg": "{title}, {status}",
-                "g62IJl": "completed"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T07:40:12.753202+00:00"
+    "timestamp": "2026-05-14T09:30:33.407662+00:00"
 }
