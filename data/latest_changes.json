@@ -1,5 +1,5 @@
 {
-    "build_hash": "011499431e40adf23748db9453ff40e0dc0978b4",
+    "build_hash": "c16bb81dd91b040c9bbbe2ef3a941529c0e8db87",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "JEiq/c": "Tenure badge"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T14:35:48.752679+00:00"
+    "timestamp": "2026-05-14T15:16:33.571729+00:00"
 }
