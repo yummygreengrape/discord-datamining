@@ -1,5 +1,5 @@
 {
-    "build_hash": "7236d3974ec2707174aede9438117333922ddce5",
+    "build_hash": "b3b9c139a974629745ba6ec79a4e784e3b490685",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,7 +10,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "2SfnMp": "Select emoji skin tone, {skinTone}"
+                "I+eHql": "{count, plural, =0 {No permissions found} one {# permission found} other {# permissions found}}"
             },
             "deleted": {},
             "modified": {}
@@ -21,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-15T23:44:04.883817+00:00"
+    "timestamp": "2026-05-15T23:54:26.928505+00:00"
 }
