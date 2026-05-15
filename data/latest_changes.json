@@ -1,5 +1,5 @@
 {
-    "build_hash": "dddd2ba404ba91c8c9ca82a9d575dac2fb420653",
+    "build_hash": "7236d3974ec2707174aede9438117333922ddce5",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,7 +10,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "Ac5fm1": "Available in Shop"
+                "2SfnMp": "Select emoji skin tone, {skinTone}"
             },
             "deleted": {},
             "modified": {}
@@ -21,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-15T23:33:41.916966+00:00"
+    "timestamp": "2026-05-15T23:44:04.883817+00:00"
 }
