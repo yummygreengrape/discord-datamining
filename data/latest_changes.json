@@ -1,29 +1,16 @@
 {
-    "build_hash": "7166f6e7a5d4b6b62daa6669b82c21d80bf902c4",
+    "build_hash": "bb76838bf677d25d49845a64de7d2276d47ca3b8",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-disable-camera-simulcast",
-            "kind": "user",
-            "timestamp": "2026-05-15T22:40:35Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {
-                "FgLb9n": "New in $[{channelName}](channelHook) and {count, plural, one {# other channel} other {# other channels}}",
-                "OqlmU6": "New in $[{channelName}](channelHook)",
-                "V8YlF7": "Edit Clip"
+                "Gd4bTU": "Remove notification override for {name}"
             },
             "deleted": {},
             "modified": {}
@@ -34,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-15T23:12:57.857556+00:00"
+    "timestamp": "2026-05-15T23:23:19.762596+00:00"
 }
