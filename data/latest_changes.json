@@ -1,5 +1,5 @@
 {
-    "build_hash": "7702a489e6ff127abac1484de0c14451c96e2882",
+    "build_hash": "f62184045345ffc286b4de425dd4cdb7846c18da",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,7 +10,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "d/+YKd": "{questName} quest banner"
+                "Gj8Jqn": "Quest progress: {percent}%",
+                "HP8LNG": "Featured products"
             },
             "deleted": {},
             "modified": {}
@@ -21,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-15T05:09:32.212500+00:00"
+    "timestamp": "2026-05-15T06:00:25.036013+00:00"
 }
