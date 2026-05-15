@@ -1,5 +1,5 @@
 {
-    "build_hash": "a4128b1ff210cea49f352463c5d622b13450f4b8",
+    "build_hash": "dedbedf78cbb77413e85d136595fcbc6e353959a",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "VSlyAn": "Dismiss Events"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-14T23:51:11.683878+00:00"
+    "timestamp": "2026-05-15T00:11:41.620648+00:00"
 }
