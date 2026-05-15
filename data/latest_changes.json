@@ -1,5 +1,5 @@
 {
-    "build_hash": "0df7902405fee8846e3714281075ce2d424a0f70",
+    "build_hash": "20b944852fff5cf9c13f6e586b5e825926d26844",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "TummoQ": "Receive a notification reminder 15 minutes before Downtime starts.",
+                "z9h8Ym": "Screen Downtime will start"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-15T00:32:28.119461+00:00"
+    "timestamp": "2026-05-15T00:42:50.545973+00:00"
 }
