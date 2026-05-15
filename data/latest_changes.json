@@ -1,5 +1,5 @@
 {
-    "build_hash": "6c4903435f0c795fc0a1dbfdfb1916a1768342aa",
+    "build_hash": "5a12ff811c724cb2fe878c32ff7b55f26123e96b",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,18 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0aEh2a": "Unlocked on {date, date, short}",
+                "EnLvee": "You've maxed out this badge. Sit back, relax, and enjoy the view from the top.",
+                "GIKMDU": "Subscribe to Nitro to unlock this badge.",
+                "W87dHj": "This badge is already yours. Sit back and admire, or keep the momentum going and unlock more badges.",
+                "crwYbF": "Unlock more tiers the longer you have Nitro",
+                "lgHZbF": "Go to Orbs Exclusives in the Shop and unlock this badge for {count, plural, one {# orb} other {# orbs}}.",
+                "nPrx97": "6+ years",
+                "phQ9wg": "Stay subscribed to Nitro to level up this badge.",
+                "phYZe+": "Rarity",
+                "uHtDcT": "Not unlocked yet"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-15T15:09:15.629132+00:00"
+    "timestamp": "2026-05-15T15:29:45.315762+00:00"
 }
