@@ -1,5 +1,5 @@
 {
-    "build_hash": "6679d1de16ab753f2743be4902777e375e5a85a2",
+    "build_hash": "2a2086efb5b7328cc933ab02f84c25b68bf9e01e",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,10 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "02VBaY": "Wumpus mascot representing the Nitro Basic plan",
-                "XP8vWR": "Wumpus mascot representing the Nitro plan"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-15T06:10:47.986781+00:00"
+    "timestamp": "2026-05-15T07:42:09.990460+00:00"
 }
