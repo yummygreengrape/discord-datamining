@@ -1,5 +1,5 @@
 {
-    "build_hash": "5ceeffcba82cdd49b5d67a46ea4510fea80366f2",
+    "build_hash": "4276c072b0dbe8db4f01d02e290fa6c6c6a2eb56",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "frSHlf": "Take me to {destination}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-15T04:48:46.590328+00:00"
+    "timestamp": "2026-05-15T04:59:08.897761+00:00"
 }
