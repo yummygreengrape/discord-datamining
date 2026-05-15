@@ -1,23 +1,12 @@
 {
-    "build_hash": "68b687a81e71b7db93c9111482693bdd94cdc8c2",
+    "build_hash": "a050ac0c6bbbed6551dde3098857b637987b9616",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-disable-camera-simulcast",
-            "kind": "user",
-            "timestamp": "2026-05-15T22:40:35Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -30,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-15T22:41:40.478548+00:00"
+    "timestamp": "2026-05-15T22:52:04.747526+00:00"
 }
