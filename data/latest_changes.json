@@ -1,5 +1,5 @@
 {
-    "build_hash": "36e2b4b61c37f9985500e53aa47da28bc09a772b",
+    "build_hash": "2e32d5274255bd37cda9aafa415c075c30e44e6d",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,29 +9,15 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Qn47Ud": "Show Styles",
-                "l/A351": "Hide Styles"
-            },
-            "deleted": {
-                "N8XQDE": "Open editing panel",
-                "X6NklS": "Close editing panel"
-            },
-            "modified": {
-                "L+ch00": {
-                    "new_value": "Profile styles panel",
-                    "old_value": "Profile editing panel"
-                }
-            }
+            "added": {},
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "N8XQDE": "수정 패널 열기",
-                "X6NklS": "편집 패널 닫기"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-05-15T19:25:22.841218+00:00"
+    "timestamp": "2026-05-15T19:35:45.352181+00:00"
 }
