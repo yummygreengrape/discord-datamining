@@ -1,5 +1,5 @@
 {
-    "build_hash": "bb76838bf677d25d49845a64de7d2276d47ca3b8",
+    "build_hash": "dddd2ba404ba91c8c9ca82a9d575dac2fb420653",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,7 +10,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "Gd4bTU": "Remove notification override for {name}"
+                "Ac5fm1": "Available in Shop"
             },
             "deleted": {},
             "modified": {}
@@ -21,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-15T23:23:19.762596+00:00"
+    "timestamp": "2026-05-15T23:33:41.916966+00:00"
 }
