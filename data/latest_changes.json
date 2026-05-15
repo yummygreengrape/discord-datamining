@@ -1,5 +1,5 @@
 {
-    "build_hash": "58df5c7f278fb1a94615d5407e5a1b058d17e28c",
+    "build_hash": "03980fa337e2c00f6b6a3f1195169e10ab51b8d7",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,12 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "3oPQOG": "Only @mentions for {channelName}",
+                "BvQ24S": "Nothing for {channelName}",
+                "TjtVTh": "All messages for {channelName}",
+                "UovZPr": "Mute {channelName}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-15T22:10:34.448141+00:00"
+    "timestamp": "2026-05-15T22:21:00.597952+00:00"
 }
