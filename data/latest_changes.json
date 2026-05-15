@@ -1,5 +1,5 @@
 {
-    "build_hash": "5a2345bf4c7d2ff27a3c922a31dc6213ad38b6dd",
+    "build_hash": "de12226c3ab89aa1169b38d85880c359700f8afd",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,9 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Vfbar/": "Profile Effect & Frames"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -21,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-15T18:23:29.260331+00:00"
+    "timestamp": "2026-05-15T18:33:50.716615+00:00"
 }
