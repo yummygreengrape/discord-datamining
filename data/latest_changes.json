@@ -1,5 +1,5 @@
 {
-    "build_hash": "8821fde3574c313c48f1563e33bf9db856fa606c",
+    "build_hash": "47c88009dcfb1f08a8f9a184700a0daf16929ed0",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,15 +9,53 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "7cmcJI": "Turn heads in every server, every DM, every time someone sees your profile.",
+                "NZe65e": "Available now for Nitro subscribers. Get Nitro. Get Frames. Never look mid again.",
+                "RlBdFl": "Frames are decorative borders that wrap around your profile and make the whole look pop.",
+                "W3MtdV": "New in the Shop:\nProfile Frames",
+                "azn85l": "Turn heads whenever someone sees your profile or slides into your DMs.",
+                "in6xhQ": "Nitro subs get them first. No pressure. (Some pressure.)",
+                "oSP2mU": "You're in!",
+                "wEIT/w": "Nitro members get early access and save up to 20% on every Frame. Perks, right?",
+                "y/uSeV": "Nitro Early Access",
+                "zOtryQ": "Complete Your Look"
+            },
+            "deleted": {
+                "+bjgSs": "A new way to stand out, Frames are decorative borders for your profile new in the Discord Shop.",
+                "L4n9Yt": "Frames are in Early Access. Be the first to grab yours before everyone else.",
+                "fWKc6Q": "The final piece is here. Check out brand new Frames in the Shop.",
+                "jTr73/": "Complete Your Look",
+                "mxLBpg": "New in Shop:\nProfile Frames",
+                "o2XCyN": "Turn heads in every server, every DM, every time someone sees your profile.",
+                "oSiQEt": "New Release",
+                "ssAHoO": "Introducing Frames.\nComplete your look.",
+                "zwMF7A": "Nitro members don't wait."
+            },
+            "modified": {
+                "4a7pVU": {
+                    "new_value": "Nitro subscribers get them first. No pressure. (Some pressure.)",
+                    "old_value": "Frames are in Nitro early access for now. No pressure. (Some pressure.)"
+                },
+                "MkVbBY": {
+                    "new_value": "Turn heads whenever someone sees your profile or slides into your DMs.",
+                    "old_value": "Turn heads in every server, every DM, every time someone sees your profile."
+                },
+                "vRCvqo": {
+                    "new_value": "New in Shop: Profile Frames",
+                    "old_value": "New in the Shop: Profile Frames"
+                }
+            }
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "jTr73/": "스타일의 완성",
+                "o2XCyN": "서버, DM 등 프로필이 표시되는 모든 공간에서 시선을 사로잡으세요.",
+                "oSiQEt": "신규 출시"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-05-15T17:52:37.244463+00:00"
+    "timestamp": "2026-05-15T18:13:06.605509+00:00"
 }
