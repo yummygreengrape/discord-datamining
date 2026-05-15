@@ -1,5 +1,5 @@
 {
-    "build_hash": "4276c072b0dbe8db4f01d02e290fa6c6c6a2eb56",
+    "build_hash": "7702a489e6ff127abac1484de0c14451c96e2882",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,7 +10,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "frSHlf": "Take me to {destination}"
+                "d/+YKd": "{questName} quest banner"
             },
             "deleted": {},
             "modified": {}
@@ -21,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-15T04:59:08.897761+00:00"
+    "timestamp": "2026-05-15T05:09:32.212500+00:00"
 }
