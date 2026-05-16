@@ -1,5 +1,5 @@
 {
-    "build_hash": "08a1be7cc84f2a08d0329d3cbef0cd118e4437f9",
+    "build_hash": "fb813472033a89598b88cf4e799554e2df27d3bd",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,11 +10,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "63uDvE": "Strikethrough",
-                "PdIYwI": "Underline",
-                "XI2CUr": "Bold",
-                "a96YKu": "Italic",
-                "iBerkZ": "Code"
+                "KgPfJx": "{permissionName}, {action}"
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-16T00:14:55.510723+00:00"
+    "timestamp": "2026-05-16T00:25:17.370161+00:00"
 }
