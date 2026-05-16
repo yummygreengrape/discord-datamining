@@ -1,5 +1,5 @@
 {
-    "build_hash": "ac150b9de08c577d5c02565bce89c3021b653097",
+    "build_hash": "39ce5b4d538b3578f0de1c6a2d56e71d56c120be",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,8 +9,18 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "NY21Ii": "You unlocked this badge tier on {date}",
+                "VaSz3l": "This badge is no longer available, but others are waiting. View your badges and see what else you can unlock.",
+                "jY5xAL": "You've maxed out this badge. Sit back, relax, and enjoy the view from the top.",
+                "m++6Ll": "This badge is no longer available to others, but it's safe in your collection. Sit back and admire, or go after your next badge."
+            },
+            "deleted": {
+                "EnLvee": "You've maxed out this badge. Sit back, relax, and enjoy the view from the top.",
+                "GIKMDU": "Subscribe to Nitro to unlock this badge.",
+                "lgHZbF": "Go to Orbs Exclusives in the Shop and unlock this badge for {count, plural, one {# orb} other {# orbs}}.",
+                "phQ9wg": "Stay subscribed to Nitro to level up this badge."
+            },
             "modified": {}
         },
         "ko": {
@@ -19,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-16T02:38:01.689812+00:00"
+    "timestamp": "2026-05-16T02:58:37.992062+00:00"
 }
