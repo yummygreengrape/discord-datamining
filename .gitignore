@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .env
+AGENTS.md
 .venv/
 main.py
 Dockerfile
