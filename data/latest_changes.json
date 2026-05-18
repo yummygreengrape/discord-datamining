@@ -1,5 +1,5 @@
 {
-    "build_hash": "32a8c9ca040d85da57a5ea797578b928ce892b5f",
+    "build_hash": "8d605040f1254e5d25c2cfa28d883c6a515a83dc",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,15 +9,24 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "+SUW8y": "Norwegian Krone",
+                "TPV/a1": "Chilean Peso",
+                "dYiAdi": "Russian Ruble",
+                "efDdLA": "Canadian Dollar"
+            },
+            "deleted": {
+                "BK/Van": "Chilean Peso"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "BK/Van": "칠레 페소"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-05-18T15:39:35.840383+00:00"
+    "timestamp": "2026-05-18T16:00:08.764804+00:00"
 }
