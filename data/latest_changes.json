@@ -1,5 +1,5 @@
 {
-    "build_hash": "26dbae6aadaa326b7e6ccd99a862a8b628586192",
+    "build_hash": "d40918ec9c8bc19c4c69e9ee8677a0ddc375d9ac",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,11 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "B99UMJ": "This invite contains age-restricted content and will not be displayed in spaces that aren't marked as age-restricted.",
-                "GhU4yl": "This invite contains age-restricted content and will not be displayed.",
-                "Sq/E1I": "This invite has expired"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-18T16:20:40.360225+00:00"
+    "timestamp": "2026-05-18T16:41:08.675165+00:00"
 }
