@@ -1,16 +1,72 @@
 {
-    "build_hash": "fccb8ea5e79faa7a4142fe8bac22583aa3ed983f",
+    "build_hash": "348e64f2ff852d961589a82521c41d4249dcbba1",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "id": "2025-04_report_to_mod",
+            "kind": "guild",
+            "timestamp": "2026-05-18T17:50:48Z",
+            "title": "Report to moderator",
+            "treatments": [
+                "Control",
+                "Treatment 1: report to moderator triggering"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-new-gifting-entrypoints",
+            "kind": "user",
+            "timestamp": "2026-05-18T17:50:48Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-user-settings-redesign-4d",
+            "kind": "user",
+            "timestamp": "2026-05-18T17:50:48Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "+SUW8y": "Norwegian Krone",
+                "B99UMJ": "This invite contains age-restricted content and will not be displayed in spaces that aren't marked as age-restricted.",
+                "GhU4yl": "This invite contains age-restricted content and will not be displayed.",
+                "JIZSqz": "Selecting closes settings and opens a theme preview.",
+                "Kt2QDh": "Orbs balance: Try Orbs",
+                "NY21Ii": "You unlocked this badge tier on {date}",
+                "Sq/E1I": "This invite has expired",
+                "TPV/a1": "Chilean Peso",
+                "VaSz3l": "This badge is no longer available, but others are waiting. View your badges and see what else you can unlock.",
+                "cKwv4k": "Orbs balance: Loading",
+                "dYiAdi": "Russian Ruble",
+                "efDdLA": "Canadian Dollar",
+                "jY5xAL": "You've maxed out this badge. Sit back, relax, and enjoy the view from the top.",
+                "m++6Ll": "This badge is no longer available to others, but it's safe in your collection. Sit back and admire, or go after your next badge."
+            },
+            "deleted": {
+                "CLR_NAME": "Chilean Peso",
+                "EnLvee": "You've maxed out this badge. Sit back, relax, and enjoy the view from the top.",
+                "GIKMDU": "Subscribe to Nitro to unlock this badge.",
+                "lgHZbF": "Go to Orbs Exclusives in the Shop and unlock this badge for {count, plural, one {# orb} other {# orbs}}.",
+                "phQ9wg": "Stay subscribed to Nitro to level up this badge."
+            },
             "modified": {}
         },
         "ko": {
@@ -19,5 +75,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-18T17:43:35.715918+00:00"
+    "timestamp": "2026-05-18T17:54:08.577364+00:00"
 }
