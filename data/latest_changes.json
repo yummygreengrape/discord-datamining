@@ -1,7 +1,19 @@
 {
-    "build_hash": "68aea0acfaea86b3df321e548749c933b40a9d75",
+    "build_hash": "26b399c3b29f5e025bdebcaa67e7bfa2eff904a2",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-wishlisting-everywhere",
+            "kind": "user",
+            "timestamp": "2026-05-18T18:44:14Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -19,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-18T18:35:16.872642+00:00"
+    "timestamp": "2026-05-18T18:45:37.080633+00:00"
 }
