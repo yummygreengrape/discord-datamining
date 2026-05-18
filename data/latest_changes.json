@@ -1,5 +1,5 @@
 {
-    "build_hash": "cfaafbcff36b18efe3dfe234d6020ba5fce38317",
+    "build_hash": "4a1a6587fa7850881610c5cbd5474571cd5d1bdd",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,10 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Kt2QDh": "Orbs balance: Try Orbs",
-                "cKwv4k": "Orbs balance: Loading"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-18T16:51:37.060877+00:00"
+    "timestamp": "2026-05-18T17:02:02.848802+00:00"
 }
