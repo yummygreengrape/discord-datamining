@@ -1,5 +1,5 @@
 {
-    "build_hash": "8d605040f1254e5d25c2cfa28d883c6a515a83dc",
+    "build_hash": "26dbae6aadaa326b7e6ccd99a862a8b628586192",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,23 +10,18 @@
     "string_changes": {
         "en": {
             "added": {
-                "+SUW8y": "Norwegian Krone",
-                "TPV/a1": "Chilean Peso",
-                "dYiAdi": "Russian Ruble",
-                "efDdLA": "Canadian Dollar"
+                "B99UMJ": "This invite contains age-restricted content and will not be displayed in spaces that aren't marked as age-restricted.",
+                "GhU4yl": "This invite contains age-restricted content and will not be displayed.",
+                "Sq/E1I": "This invite has expired"
             },
-            "deleted": {
-                "BK/Van": "Chilean Peso"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "BK/Van": "칠레 페소"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-05-18T16:00:08.764804+00:00"
+    "timestamp": "2026-05-18T16:20:40.360225+00:00"
 }
