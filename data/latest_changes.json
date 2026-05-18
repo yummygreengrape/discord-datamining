@@ -1,5 +1,5 @@
 {
-    "build_hash": "1abf3bb02b5cdd22fb49268cf972aa558bc159a3",
+    "build_hash": "6aee1d37bc9a38dd0a43660559c27e63c1a67013",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,9 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "sTFApF": "Unlocked"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -21,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-18T19:57:16.076967+00:00"
+    "timestamp": "2026-05-18T20:17:41.999057+00:00"
 }
