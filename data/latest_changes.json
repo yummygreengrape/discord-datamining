@@ -1,5 +1,5 @@
 {
-    "build_hash": "4d010f0ecdb2a2efea6592ec885d10c3f15c11fa",
+    "build_hash": "3431c2ec765512a0588c8eb0c54da06da646652d",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,17 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+ADjaQ": "Upgrade",
+                "/AUOfc": "Jump In",
+                "4zROKG": "Claim your Xbox Game Pass now",
+                "Q15RXC": "Unlock Xbox Game Pass with Nitro",
+                "dHQQvk": "Get Nitro and jump into 50+ PC and console games with Xbox Game Pass. [Terms and eligibility rules apply]({helpCenterLink}).",
+                "qI5XnY": "Get Nitro",
+                "tK8A/8": "You'll need to lower the number of Boosts to use your gift card balance.",
+                "v9AaV4": "Nitro now comes with Xbox Game Pass. Jump into 50+ PC and console games at no extra cost. [Terms and eligibility rules apply]({helpCenterLink}).",
+                "zUjL+R": "Upgrade to Nitro and jump into 50+ PC and console games with Xbox Game Pass. [Terms and eligibility rules apply]({helpCenterLink})."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-18T22:10:33.386564+00:00"
+    "timestamp": "2026-05-18T22:21:02.189353+00:00"
 }
