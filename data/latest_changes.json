@@ -1,18 +1,7 @@
 {
-    "build_hash": "0c53a83661a391ffeddc790838f2994ecd5a26fd",
+    "build_hash": "fccb8ea5e79faa7a4142fe8bac22583aa3ed983f",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "self_extraction",
-            "id": "2025-04_report_to_mod",
-            "kind": "guild",
-            "title": "Report to moderator",
-            "treatments": [
-                "Control",
-                "Treatment 1: report to moderator triggering"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -30,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-18T17:33:15.756180+00:00"
+    "timestamp": "2026-05-18T17:43:35.715918+00:00"
 }
