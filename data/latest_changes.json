@@ -1,5 +1,5 @@
 {
-    "build_hash": "6aee1d37bc9a38dd0a43660559c27e63c1a67013",
+    "build_hash": "8f356d2fc7ee243c8d76903478e4be2828e846ec",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,33 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "02smVH": "Want more from every Quest? Nitro members get 1.2x Orbs on Quests, a monthly Orbs drop, and so much more. [Terms apply]({helpCenterLink}).",
+                "1cHvxU": "Off-topic",
+                "C3suOL": "What was the problem?",
+                "CFfUkp": "Unlock more Orbs with Nitro",
+                "HLYa5G": "Close",
+                "HcSKAh": "Not useful",
+                "Lp/NZo": "Select all that apply",
+                "NUVZB6": "Hard to use",
+                "OSgZpc": "Other",
+                "QP/6xR": "You’re winning more Orbs with Nitro",
+                "TNS24d": "Check Out Nitro Perks",
+                "ZAJcv4": "Missing messages",
+                "boNboC": "Send feedback",
+                "dRzDTy": "Inappropriate",
+                "kAFQd3": "Too old",
+                "o+pmGy": "Show conversation",
+                "omVRS3": "Misleading title",
+                "pDD8E1": "Hide conversation",
+                "qQ/xHO": "Tell us more",
+                "sBwxOY": "Liked",
+                "tbhdqW": "Disliked",
+                "wb6DmY": "Too cluttered",
+                "xZzxfK": "Optional",
+                "xrEgG0": "Thanks for your feedback!",
+                "zPnFYf": "Your 1.2x Orbs Multiplier just kicked in. There’s more to explore in Nitro. Head to your Nitro Home to see what’s new. [Terms apply]({helpCenterLink})."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +45,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-18T20:17:41.999057+00:00"
+    "timestamp": "2026-05-18T20:38:08.662454+00:00"
 }
