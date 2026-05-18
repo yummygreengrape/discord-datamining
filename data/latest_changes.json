@@ -1,5 +1,5 @@
 {
-    "build_hash": "207721c57945ded5dce973e8170ed965acb289ea",
+    "build_hash": "903ddfb6f9d21bea7a2196297258e97c691f0ed7",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "JIZSqz": "Selecting closes settings and opens a theme preview."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-18T13:55:55.098342+00:00"
+    "timestamp": "2026-05-18T14:16:28.562884+00:00"
 }
