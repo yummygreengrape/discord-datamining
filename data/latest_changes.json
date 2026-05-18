@@ -1,15 +1,28 @@
 {
-    "build_hash": "6b4aa607f5f1d060b00df6037c3359292cc1cbe6",
+    "build_hash": "c21e2887f94fcedeec13c145950e7840bfb2974c",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-app-store-overlay-feature-gate",
+            "kind": "user",
+            "timestamp": "2026-05-18T23:05:16Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "VxdWWH": "No Server Tag"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +32,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-18T23:02:27.427887+00:00"
+    "timestamp": "2026-05-18T23:12:58.098502+00:00"
 }
