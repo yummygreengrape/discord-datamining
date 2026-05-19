@@ -1,7 +1,19 @@
 {
-    "build_hash": "c4d018c5e92746a4cde32ce40b8895e57a2af502",
+    "build_hash": "c63778d583b7aa86285882d85f5f00f4b286c539",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-03-quests-premium-rewards-holdout",
+            "kind": "user",
+            "timestamp": "2026-05-19T19:33:48Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -9,34 +21,15 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "UxV/3+": "Flag to Mod Icon"
-            },
-            "deleted": {
-                "Ajhp03": "Learn how to make the best use of forums to create a more engaging community.",
-                "DYFSCf": "Read Guide",
-                "FORUM_HELPER_CARD_ALT_TEXT": "Forum Channel Icon",
-                "FORUM_HELPER_CARD_BODY": "Learn how to make the best use of forums to create a more engaging community.",
-                "FORUM_HELPER_CARD_NOTICE": "Only moderators can see this",
-                "FORUM_HELPER_CARD_PRIMARY": "Read Guide",
-                "FORUM_HELPER_CARD_TITLE": "New to Forum Channels? Check out our guide!",
-                "JtSpD0": "New to Forum Channels? Check out our guide!",
-                "gAlJzV": "Forum Channel Icon",
-                "t2GkVR": "Only moderators can see this"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "Ajhp03": "포럼을 최대한 활용해 더 활발한 커뮤니티를 만드는 법을 확인하세요.",
-                "DYFSCf": "가이드 읽기",
-                "JtSpD0": "포럼 채널에 처음이신가요? 포럼 가이드를 확인하세요!",
-                "gAlJzV": "포럼 채널 아이콘",
-                "t2GkVR": "이건 운영자만 볼 수 있어요"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-05-19T19:05:08.982962+00:00"
+    "timestamp": "2026-05-19T19:35:44.201602+00:00"
 }
