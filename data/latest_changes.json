@@ -1,19 +1,7 @@
 {
-    "build_hash": "c63778d583b7aa86285882d85f5f00f4b286c539",
+    "build_hash": "39429683e8dcf9fdfe524275b3a588b98d3d51f3",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-03-quests-premium-rewards-holdout",
-            "kind": "user",
-            "timestamp": "2026-05-19T19:33:48Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -31,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-19T19:35:44.201602+00:00"
+    "timestamp": "2026-05-19T19:46:05.483019+00:00"
 }
