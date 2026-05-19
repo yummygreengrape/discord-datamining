@@ -1,5 +1,5 @@
 {
-    "build_hash": "e7b5fdcd269858dc5c4b4112da839375e0b5fa8a",
+    "build_hash": "b5e0944542688811fdb8fa65f33b0c241eb01fe0",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,13 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "FWe6CP": "Gifts I Purchased",
+                "QvIFi0": "Redeem Gift",
+                "YzjdWJ": "My Gifts",
+                "epHMtp": "That’s exciting! Enter it below.",
+                "hVEn/j": "Received a code for Nitro or a game?"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-19T16:40:56.059870+00:00"
+    "timestamp": "2026-05-19T17:01:33.154604+00:00"
 }
