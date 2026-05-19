@@ -1,5 +1,5 @@
 {
-    "build_hash": "a106f35bffcbdb475f8352f3c66837db5688b9fc",
+    "build_hash": "c07cb44436b240dc16c48abc6ac5476286dc89e9",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -11,12 +11,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "W87dHj": {
-                    "new_value": "This badge is already yours. Keep the momentum going and unlock even more.",
-                    "old_value": "This badge is already yours. Sit back and admire, or keep the momentum going and unlock more badges."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -24,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-19T00:24:38.920940+00:00"
+    "timestamp": "2026-05-19T00:34:59.572675+00:00"
 }
