@@ -1,5 +1,5 @@
 {
-    "build_hash": "c277547a918710123955021ff3c0a9190f8ceb88",
+    "build_hash": "8db7a4502c698834bc5f456ce0704192a41907a9",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,10 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "N6cvS+": "By clicking \"{buyButtonLabel}\", you agree to the [Paid Service Terms]({paidServiceTermURL}). **Buying an item from the {applicationName} Game Shop means you’re buying a limited license to use this item in the listed game.** This purchase is non-refundable. This item will be delivered by the developer directly in-game. {platforms_info}",
-                "Ufm9XX": "By clicking \"{buyButtonLabel}\", you agree to the [Paid Service Terms]({paidServiceTermURL}). **Buying an item from the {applicationName} Game Shop means you’re buying a limited license to use this item in the listed game.** This purchase is non-refundable. This item will be delivered by the developer directly in-game."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-19T18:23:37.675134+00:00"
+    "timestamp": "2026-05-19T18:34:01.449468+00:00"
 }
