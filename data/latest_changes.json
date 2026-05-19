@@ -1,5 +1,5 @@
 {
-    "build_hash": "ddd8558d5ef3307f75a550564b77c64f87128117",
+    "build_hash": "c0aa55051e2042965bad1a67b28fa20d5526c01d",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,19 +10,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "A11Y_ANNOUNCEMENT_AVATAR_CHANGED": "Your avatar has been updated",
-                "NstziV": "Your avatar has been updated"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "NstziV": "아바타 업데이트 완료"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-05-19T22:41:29.398032+00:00"
+    "timestamp": "2026-05-19T22:51:51.167740+00:00"
 }
