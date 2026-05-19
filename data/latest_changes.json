@@ -1,5 +1,5 @@
 {
-    "build_hash": "045d8a5deb58d3d160ba58e3c75bba9563fab470",
+    "build_hash": "2252aea85b227d943a7943a4ea1a715d94a152aa",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -11,12 +11,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "7cmcJI": {
-                    "new_value": "Turn heads whenever someone sees your profile or slides into your DMs.",
-                    "old_value": "Turn heads in every server, every DM, every time someone sees your profile."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -24,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-19T14:37:25.330293+00:00"
+    "timestamp": "2026-05-19T14:57:51.767862+00:00"
 }
