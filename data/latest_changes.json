@@ -1,23 +1,64 @@
 {
-    "build_hash": "9940f55a5736960ea2cd84c29942057908a644a9",
+    "build_hash": "c2bbfbef7f39f93190c1a793c71dd0cd52a0f46c",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
-    "modified_api_endpoints": [],
+    "modified_api_endpoints": [
+        {
+            "name": "ENDPOINT_USERS_BADGES",
+            "old_url": "/users/@me/badges",
+            "status": "modified",
+            "url": "/users/:param/badges"
+        },
+        {
+            "name": "USER_BADGE",
+            "old_url": "/users/@me/badges/:param",
+            "status": "modified",
+            "url": "/users/:param/badges/:param"
+        },
+        {
+            "name": "USER_BADGES",
+            "old_url": "/users/@me/badges",
+            "status": "modified",
+            "url": "/users/:param/badges"
+        }
+    ],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "75s2Rq": "See what {username}'s unlocked and find your next badge.",
+                "9GNsge": "View {username}'s badge",
+                "BCjSZy": "{username}'s Badges",
+                "EIcwoe": "{username}'s Badges",
+                "EcHzWI": "Listening on {platform}",
+                "Eo5Cnp": "{username}'s badge",
+                "X6ziWN": "New",
+                "Zq6s9k": "Ready to Claim",
+                "ikpHeS": "Competing on {platform}",
+                "uOGFB6": "Complete",
+                "yxEAGH": "View yours",
+                "zX/gnV": "Expired"
+            },
+            "deleted": {
+                "6V13dx": "Badge rarity",
+                "SNIb0t": "Earned",
+                "dDDCvU": "You haven't unlocked this yet",
+                "gV7733": "Earn this badge by boosting any server. Higher boost levels unlock fancier badges."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "6V13dx": "배지 희귀도",
+                "SNIb0t": "획득 완료",
+                "gV7733": "서버를 부스트하면 이 배지를 획득할 수 있어요. 부스트 레벨이 높을수록 더 멋진 배지가 잠금 해제돼요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-05-19T21:39:29.263610+00:00"
+    "timestamp": "2026-05-19T21:49:54.177944+00:00"
 }
