@@ -1,7 +1,17 @@
 {
-    "build_hash": "50915f603cf5236fb8d2a3866f95d977a3933cd9",
+    "build_hash": "bf4e31be54c23b6a0eed2d9981e8a5901202de72",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-icymi-sunset-banner",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -10,7 +20,10 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "2w6lIi": "ICYMI will no longer be available after April 13th, 2026.",
+                "SqqG4C": "Learn more"
+            },
             "modified": {}
         },
         "ko": {
@@ -19,5 +32,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-19T20:58:04.285313+00:00"
+    "timestamp": "2026-05-19T21:08:24.792279+00:00"
 }
