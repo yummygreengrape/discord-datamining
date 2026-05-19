@@ -1,33 +1,22 @@
 {
-    "build_hash": "78ced054b6675ba8bd0714f79cfc37d18bbacd69",
+    "build_hash": "a106f35bffcbdb475f8352f3c66837db5688b9fc",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-spatial-audio-for-voice",
-            "kind": "user",
-            "timestamp": "2026-05-19T00:10:42Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "KDh9Z0": "Spatial Audio",
-                "RX3dTX": "Spatial Audio On",
-                "UGmjMQ": "Spatial Audio is not supported by this client",
-                "nqknZL": "Spatial Audio Off"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "W87dHj": {
+                    "new_value": "This badge is already yours. Keep the momentum going and unlock even more.",
+                    "old_value": "This badge is already yours. Sit back and admire, or keep the momentum going and unlock more badges."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -35,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-19T00:14:18.143027+00:00"
+    "timestamp": "2026-05-19T00:24:38.920940+00:00"
 }
