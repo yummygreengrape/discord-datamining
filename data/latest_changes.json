@@ -1,5 +1,5 @@
 {
-    "build_hash": "6ed221a03c410f85a589f89a834d0365791d58c1",
+    "build_hash": "7f16000004fa8c2f4d67248891bd9c8aa72c8018",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,26 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+V6oLI": "Move down",
-                "08U1Sa": "Move up into folder {folderName}",
-                "6lLC/B": "Move down into folder {folderName}",
-                "YhxCkM": "Move below folder {folderName}",
-                "ejhw4S": "Move out of folder, below {folderName}",
-                "gBM0Vf": "Move above folder {folderName}",
-                "vnfRJG": "Move out of folder, above {folderName}",
-                "yiH+Tx": "Move up"
-            },
-            "deleted": {
-                "R/Pmdb": "You've done a lot of Quests today! Come back later to do more!",
-                "tkFdZr": "Come back later to do more!"
-            },
-            "modified": {
-                "7cmcJI": {
-                    "new_value": "Turn heads whenever someone sees your profile or slides into your DMs.",
-                    "old_value": "Turn heads in every server, every DM, every time someone sees your profile."
-                }
-            }
+            "added": {},
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -36,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-19T15:59:46.256091+00:00"
+    "timestamp": "2026-05-19T16:10:08.920281+00:00"
 }
