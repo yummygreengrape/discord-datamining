@@ -1,12 +1,24 @@
 {
-    "build_hash": "372e8d60ba9020f7d5f6f531ded93ed8c899595e",
+    "build_hash": "4ed009d1088923e5d72bcae177396a1bdd155098",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-tile-redesign",
+            "kind": "user",
+            "timestamp": "2026-05-19T18:47:27Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -19,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-19T18:44:26.016957+00:00"
+    "timestamp": "2026-05-19T18:54:46.579083+00:00"
 }
