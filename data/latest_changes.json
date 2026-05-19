@@ -1,15 +1,31 @@
 {
-    "build_hash": "84195359b8c479bae04f235948100d9ba8cdb921",
+    "build_hash": "78ced054b6675ba8bd0714f79cfc37d18bbacd69",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-spatial-audio-for-voice",
+            "kind": "user",
+            "timestamp": "2026-05-19T00:10:42Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "KDh9Z0": "Spatial Audio",
+                "RX3dTX": "Spatial Audio On",
+                "UGmjMQ": "Spatial Audio is not supported by this client",
+                "nqknZL": "Spatial Audio Off"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-19T00:03:56.928934+00:00"
+    "timestamp": "2026-05-19T00:14:18.143027+00:00"
 }
