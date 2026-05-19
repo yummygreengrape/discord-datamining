@@ -1,5 +1,5 @@
 {
-    "build_hash": "12bc4c74d985a2b4d0f6cc473dcc03da0ab7a9c9",
+    "build_hash": "157df80894e59b2babbc7e24138334f3b67a7f39",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,9 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0+xfd9": "{giftsRemaining, plural, one {# gift} other {# gifts}} away from the {nextTier} Badge!"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -21,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-19T22:10:23.983970+00:00"
+    "timestamp": "2026-05-19T22:20:47.447762+00:00"
 }
