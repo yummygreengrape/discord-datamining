@@ -1,15 +1,28 @@
 {
-    "build_hash": "23e559f7f15f9d807c0b6a2069248f0666950318",
+    "build_hash": "3d0b3043dba6d520cf2435daa64411b0d989217a",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-dm-header-activity",
+            "kind": "user",
+            "timestamp": "2026-05-19T23:06:35Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "BKf0MM": "View Details"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +32,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-19T23:02:11.531199+00:00"
+    "timestamp": "2026-05-19T23:12:33.385083+00:00"
 }
