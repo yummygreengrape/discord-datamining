@@ -1,7 +1,18 @@
 {
-    "build_hash": "02b445080bc67637885761d4ce071f43e0b1be52",
+    "build_hash": "1ab4e761cb93984f52a310a754828cc0d684bd65",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-rust-bs-patch",
+            "kind": "user",
+            "timestamp": "2026-05-20T17:38:20Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -9,22 +20,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "2SiYln": "Allows Discord to use information, such as who you talk to and what games you play, to personalize Discord for you. [Learn more]({helpdeskArticle})",
-                "FNqmmX": "Allow Discord to use and process my information to understand and improve Discord’s services. [Learn more]({helpdeskArticle})",
-                "dszICC": "Discord needs to store and process some data in order to provide you the basic Discord service, such as your messages, what servers you’re in and your Direct Messages. By using Discord, you allow Discord to provide this basic service. You can stop this by [Disabling]({onClickDisable}) or [Deleting]({onClickDelete}) your account.",
-                "kyo3dJ": "Allows your voice to be included when someone in the same voice channel uses Clips.",
-                "md5l4/": "Allows Discord to personalize Sponsored Content, like Quests, using data Discord receives from advertisers and third-party data providers. If you opt out, you may still see Quests, but they won’t be personalized using data from third parties. [Learn more]({helpdeskArticle})",
-                "vyYgWp": "You haven't added any custom keybinds yet.",
-                "w4fvxe": "Allows Discord to personalize Sponsored Content, like Quests, using your Discord activity, such as the games you play. If you opt out you may still see Quests, but they won’t be personalized."
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "GqvDkk": {
-                    "new_value": "You haven't made any transactions yet.",
-                    "old_value": "You don't have any transaction history."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -32,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-20T17:32:38.246936+00:00"
+    "timestamp": "2026-05-20T17:42:59.879140+00:00"
 }
