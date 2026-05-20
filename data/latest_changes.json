@@ -1,5 +1,5 @@
 {
-    "build_hash": "46f986666503630e1e397f7828ca606c237fb53a",
+    "build_hash": "d7d2bd3683816294d0d2d60709c3b804d24e5203",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,11 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "1Zw6xL": "Get a new [SteelSeries](https://steelseries.com/) discount code every month with Nitro. Eligible on a purchase of $20 or more. No blackout periods. Sale items included.",
-                "KWdCO0": "Get a new [SteelSeries](https://steelseries.com/) discount code every month with Nitro.",
-                "vblnHk": "Note: {partnerName} discounts are ending at the end of the month. [Learn more]({helpdeskArticle})."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-20T18:24:08.691884+00:00"
+    "timestamp": "2026-05-20T18:34:31.158815+00:00"
 }
