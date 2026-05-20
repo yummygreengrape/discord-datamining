@@ -1,5 +1,5 @@
 {
-    "build_hash": "a5dcaf34aefc6b07814931868c46568b09da8a08",
+    "build_hash": "0e33533e85086a76cc34bb00f2c723f1db2bb991",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "WZ4cXA": "All Gifting Badges",
+                "XTX3OO": "Give {count, plural, one {# gift} other {# gifts}} to unlock the {nextTier} badge next!",
+                "k8MmO8": "You've unlocked the {tierName} badge"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-20T23:42:02.783657+00:00"
+    "timestamp": "2026-05-20T23:52:24.935396+00:00"
 }
