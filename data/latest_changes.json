@@ -1,5 +1,5 @@
 {
-    "build_hash": "fc790a02fdd2fb3d6b45c8a9a64c7e3d78471c46",
+    "build_hash": "3f7c3f82d5c2e0f68aa581359749bea1cd758bfb",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,31 +9,15 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "6LHsjg": "Boosting",
-                "BTxm69": "Get Nitro",
-                "xGjjkd": "Nitro Home"
-            },
-            "deleted": {
-                "FQHRUK": "View Quests",
-                "HKJcgE": "View Boosting",
-                "LEgsyS": "View Nitro",
-                "hdouKj": "View Gifting",
-                "wTVyFK": "View Orb Shop"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "FQHRUK": "퀘스트 보기",
-                "HKJcgE": "부스트 보기",
-                "LEgsyS": "Discord Nitro 보기",
-                "hdouKj": "선물 보기",
-                "wTVyFK": "Orbs 상점 보기"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-05-20T14:28:41.041237+00:00"
+    "timestamp": "2026-05-20T15:29:51.693339+00:00"
 }
