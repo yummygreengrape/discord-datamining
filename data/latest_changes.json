@@ -1,5 +1,5 @@
 {
-    "build_hash": "00833879b648d2ff6caff869adc1ffd9cdec3b72",
+    "build_hash": "0c96f42048aef653f235ed9f1235200bce0556ac",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "K0dyhm": "Claim your monthly discount codes on top-tier gaming gear. Only with Nitro.",
+                "YfTxzY": "Get exclusive discounts on top-tier gaming gear each month. Only with Nitro.",
+                "nt2xCC": "Upgrade your setup for less"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-20T18:55:13.013777+00:00"
+    "timestamp": "2026-05-20T19:25:45.088640+00:00"
 }
