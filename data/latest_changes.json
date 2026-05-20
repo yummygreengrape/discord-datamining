@@ -1,39 +1,15 @@
 {
-    "build_hash": "3d4b3346e89b998d1189732f33ead89a1ad3af6a",
+    "build_hash": "467626ebed1ac440a1797ac0994514ef6b51457d",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-calculated-annual-discount-percent",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-screenshare-picker-wgc",
-            "kind": "user",
-            "timestamp": "2026-05-20T21:45:21Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "3wsYeI": "One-time Gift",
-                "7sYIBL": "Gifting a year saves you {savingsPercent, number}%. Nice move!",
-                "Mi5BH/": "{percentOff, number}% OFF"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -43,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-20T21:49:35.332903+00:00"
+    "timestamp": "2026-05-20T22:20:09.302832+00:00"
 }
