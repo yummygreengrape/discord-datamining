@@ -1,5 +1,5 @@
 {
-    "build_hash": "48070a00830f68897a49f86ed2e982cd0ae19fea",
+    "build_hash": "afb9fbc6f191b8efc3fbe32cb5376a635f5468ba",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,18 +10,25 @@
     "string_changes": {
         "en": {
             "added": {
-                "/Gmn3f": "Legacy Badge",
-                "KyTwIh": "{username}'s Progress",
-                "vFekBs": "This badge is no longer available, but others are waiting. [View your badges]({onViewBadges}) to see what you can unlock."
+                "7r0Rqd": "$[orbAmount](orbAmountHook) Orbs",
+                "XKk1gp": "Waiting for network…",
+                "j8lYE2": "Back online",
+                "zPerw8": "No connection."
             },
-            "deleted": {},
+            "deleted": {
+                "s+IpiQ": "You are offline.",
+                "xi7E7F": "Connecting to Discord..."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "s+IpiQ": "오프라인이에요.",
+                "xi7E7F": "Discord 연결 중..."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-05-20T21:18:29.020754+00:00"
+    "timestamp": "2026-05-20T21:28:52.154454+00:00"
 }
