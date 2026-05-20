@@ -1,5 +1,5 @@
 {
-    "build_hash": "456daccbdfb63b9139df9aef8d00514b79cc1b18",
+    "build_hash": "a5dcaf34aefc6b07814931868c46568b09da8a08",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,12 +9,8 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "PbxI/x": "Toggle in-app notification expanded"
-            },
-            "deleted": {
-                "NY21Ii": "You unlocked this badge tier on {date}"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -23,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-20T23:31:38.960002+00:00"
+    "timestamp": "2026-05-20T23:42:02.783657+00:00"
 }
