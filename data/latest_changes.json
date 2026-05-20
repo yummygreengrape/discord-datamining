@@ -1,5 +1,5 @@
 {
-    "build_hash": "0925609bbed35400a4edbf9fcf1f6825ef3ce94a",
+    "build_hash": "89d41983f0c1af1dd60d09c3006da5b0617a1d21",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0zoRaK": "Filtered by: {text}. Swipe left to select the filter."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-20T13:37:24.028972+00:00"
+    "timestamp": "2026-05-20T13:47:49.149399+00:00"
 }
