@@ -1,5 +1,5 @@
 {
-    "build_hash": "afb9fbc6f191b8efc3fbe32cb5376a635f5468ba",
+    "build_hash": "a2c421b7a0e8c61c7eed4ad5b43ae5a31c993ef2",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,26 +9,24 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "7r0Rqd": "$[orbAmount](orbAmountHook) Orbs",
-                "XKk1gp": "Waiting for network…",
-                "j8lYE2": "Back online",
-                "zPerw8": "No connection."
-            },
-            "deleted": {
-                "s+IpiQ": "You are offline.",
-                "xi7E7F": "Connecting to Discord..."
-            },
-            "modified": {}
+            "added": {},
+            "deleted": {},
+            "modified": {
+                "AfrvRD": {
+                    "new_value": "Shop All",
+                    "old_value": "Shop the whole Shop"
+                },
+                "COLLECTIBLES_SHOP_FEED_END_OF_SCROLL_BUTTON": {
+                    "new_value": "Shop All",
+                    "old_value": "Shop the whole Shop"
+                }
+            }
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "s+IpiQ": "오프라인이에요.",
-                "xi7E7F": "Discord 연결 중..."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-05-20T21:28:52.154454+00:00"
+    "timestamp": "2026-05-20T21:39:13.958612+00:00"
 }
