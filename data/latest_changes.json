@@ -1,23 +1,51 @@
 {
-    "build_hash": "ecaec78d5767fd6aa95879ea5f033a27b1df8d03",
+    "build_hash": "44f218f2f9660d160604a0fd26776a98afb9825c",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-dm-header-activity",
+            "kind": "user",
+            "timestamp": "2026-05-19T23:06:35Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "BKf0MM": "View Details",
+                "Sw/4fg": "Topics"
+            },
+            "deleted": {
+                "A11Y_ANNOUNCEMENT_AVATAR_CHANGED": "Your avatar has been updated"
+            },
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "+ADjaQ": "업그레이드",
+                "/AUOfc": "지금 시작하기",
+                "4zROKG": "지금 Xbox Game Pass를 받으세요",
+                "CFfUkp": "Nitro로 더 많은 Orbs 잠금 해제",
+                "EqUw7K": "살짝 알려주세요. 친구가 Nitro를 선물하면 다음 결제 시 크레딧이 적용돼요.",
+                "TNS24d": "Nitro 특전 확인하기",
+                "X6ziWN": "신규",
+                "qI5XnY": "Nitro 구독하기",
+                "sTFApF": "잠금 해제됨",
+                "uOGFB6": "완료",
+                "zX/gnV": "만료됨"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-05-20T00:23:56.131417+00:00"
+    "timestamp": "2026-05-20T00:44:32.553041+00:00"
 }
