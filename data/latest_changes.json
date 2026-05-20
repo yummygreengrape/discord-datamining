@@ -1,5 +1,5 @@
 {
-    "build_hash": "d35c186ccdca8019d5c98ebdebdddedcefa81ef7",
+    "build_hash": "f3fed7cd26e906ba01ab25edc1e7cf46f9b00c3f",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,9 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "bg+LTO": "Change Server Icon, replace {filename}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -21,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-20T11:15:08.655582+00:00"
+    "timestamp": "2026-05-20T12:46:30.733914+00:00"
 }
