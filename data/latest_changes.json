@@ -1,5 +1,5 @@
 {
-    "build_hash": "03ebe082215595aff66ea084802d60fcbba5cb9d",
+    "build_hash": "ac52980cfeaa34a7eacaa2ee2af9aa4b93835551",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -11,7 +11,20 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "62xU4E": {
+                    "new_value": "Browse your badges and discover new ones you can unlock.",
+                    "old_value": "Discover badges you can unlock and show off the ones you've got."
+                },
+                "75s2Rq": {
+                    "new_value": "Explore their badges, or view your badges to find out what you can unlock next.",
+                    "old_value": "See what {username}'s unlocked and find your next badge."
+                },
+                "EIcwoe": {
+                    "new_value": "{username}'s badges",
+                    "old_value": "{username}'s Badges"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +32,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-21T16:48:22.284596+00:00"
+    "timestamp": "2026-05-21T16:58:43.254966+00:00"
 }
