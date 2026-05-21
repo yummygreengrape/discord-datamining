@@ -1,5 +1,5 @@
 {
-    "build_hash": "a5fc669ea26ecaedb4427b3a6b8e9fc764644cc5",
+    "build_hash": "bdbb23d5adeaa39d18e8e4ef0d319e25f26a4273",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,17 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "C2kQR8": "Replay",
+                "P1uOM8": "Play Arena",
+                "PMVy7M": "Rewatch",
+                "RPSnmI": "Repeat Mission",
+                "SHZo2x": "View Connection",
+                "U0sDwa": "Launch Mission",
+                "U7cCLU": "Play",
+                "V5Qt9D": "Play Instantly",
+                "kfks9Y": "Watch"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-21T22:07:32.307540+00:00"
+    "timestamp": "2026-05-21T22:38:07.824376+00:00"
 }
