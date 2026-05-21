@@ -1,5 +1,5 @@
 {
-    "build_hash": "21fa384a8aa3dcf0c474af3dbd517e2e2aa1fe8e",
+    "build_hash": "1bfd9eed3056460dffa162c618c34b71256e225f",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,16 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "5pkmHa": "Keybinds are disabled while this page is visible."
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "T4LZVL": {
-                    "new_value": "Keybinds are custom keyboard shortcuts that let you perform specific actions in Discord without needing to click through menus.",
-                    "old_value": "Keybinds are custom keyboard shortcuts that let you perform specific actions in Discord without needing to click through menus. While you're on this page, keybinds are disabled."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -26,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-21T17:19:26.801953+00:00"
+    "timestamp": "2026-05-21T17:29:48.629534+00:00"
 }
