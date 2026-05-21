@@ -1,5 +1,5 @@
 {
-    "build_hash": "5833bd8992470119f907c2603719bab102ce6c62",
+    "build_hash": "ee30bcbfbb26c8197c62490ec0666e2096719a7b",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,18 +9,8 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "2+opCy": "You're Connected!",
-                "6FOKAX": "{objective} to unlock **{questReward}** for {duration} and keep it for longer with Nitro!",
-                "8066TK": "{objective} to unlock **{questReward}**. Keep it with Nitro!",
-                "IACEB/": "{objective} to unlock **{questReward}** for {duration}.",
-                "NdXW5c": "{objective} to unlock **{questReward}** for {duration}. Keep it with Nitro!",
-                "QA20X3": "View Connection",
-                "thO6iA": "{objective} and win **{questReward}**."
-            },
-            "deleted": {
-                "wEDusB": "Check Progress"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -29,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-21T19:43:24.141499+00:00"
+    "timestamp": "2026-05-21T20:03:51.848488+00:00"
 }
