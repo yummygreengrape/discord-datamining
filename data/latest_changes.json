@@ -1,5 +1,5 @@
 {
-    "build_hash": "0f272394080163901f246f1a1c6333e284c7c06e",
+    "build_hash": "a5fc669ea26ecaedb4427b3a6b8e9fc764644cc5",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,10 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "EQmTl+": "{regularPrice}/year after {numYears}",
-                "ofweWu": "Your first {numYears} of Nitro Yearly {numYears} {discountedPrice}. Pay {regularPrice} a year after the discount ends"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-21T21:57:10.240916+00:00"
+    "timestamp": "2026-05-21T22:07:32.307540+00:00"
 }
