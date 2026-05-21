@@ -1,7 +1,24 @@
 {
-    "build_hash": "be08af89974531719efb0201f440620cf50b7e88",
+    "build_hash": "05b23ed3b9504f116f76896bb99dc4714296481c",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-mobile-quest-external-link",
+            "kind": "user",
+            "timestamp": "2026-05-21T21:29:45Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -10,14 +27,24 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "6fpk4L": "Watch",
+                "GNsKiW": "Watch ({remainTime} left)",
+                "QUESTS_VIDEO_WATCH_RESUME_WITH_TIME_CTA": "Resume ({remainTime} left)",
+                "QUESTS_VIDEO_WATCH_WITH_TIME_CTA": "Watch ({remainTime} left)",
+                "c59/Tp": "Resume ({remainTime} left)"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "6fpk4L": "보기",
+                "GNsKiW": "시청({remainTime} 남음)",
+                "c59/Tp": "계속 보기({remainTime} 남음)"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-05-21T21:26:02.173280+00:00"
+    "timestamp": "2026-05-21T21:36:24.813790+00:00"
 }
