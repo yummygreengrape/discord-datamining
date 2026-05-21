@@ -1,7 +1,29 @@
 {
-    "build_hash": "df325795f0a7551fc531d1fb7824b68609d8c382",
-    "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "build_hash": "801ce371cac5707bab78884b33cb4539da72083a",
+    "deleted_api_endpoints": [
+        {
+            "name": "ENDPOINT_QUESTS_PLACEMENT_ALPHA",
+            "status": "deleted",
+            "url": "/quests/placement-alpha"
+        },
+        {
+            "name": "QUEST_PLACEMENT",
+            "status": "deleted",
+            "url": "/quests/placement-alpha"
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-get-decision-hero-ads",
+            "kind": "user",
+            "timestamp": "2026-05-21T19:27:44Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -19,5 +41,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-21T18:52:18.482215+00:00"
+    "timestamp": "2026-05-21T19:33:02.357703+00:00"
 }
