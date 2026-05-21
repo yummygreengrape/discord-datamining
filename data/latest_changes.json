@@ -1,5 +1,5 @@
 {
-    "build_hash": "c63dabad802504a7ff82cac1fc8ecd0bdc92e251",
+    "build_hash": "b059923d25811e67a95cf61d30f21d9e87cac1b5",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,7 +10,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "JFY17v": "Streamer mode enabled"
+                "Fbo88g": "Fullscreen chat"
             },
             "deleted": {},
             "modified": {}
@@ -21,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-21T14:25:43.516020+00:00"
+    "timestamp": "2026-05-21T14:36:06.229566+00:00"
 }
