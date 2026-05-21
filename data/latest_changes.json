@@ -1,29 +1,7 @@
 {
-    "build_hash": "801ce371cac5707bab78884b33cb4539da72083a",
-    "deleted_api_endpoints": [
-        {
-            "name": "ENDPOINT_QUESTS_PLACEMENT_ALPHA",
-            "status": "deleted",
-            "url": "/quests/placement-alpha"
-        },
-        {
-            "name": "QUEST_PLACEMENT",
-            "status": "deleted",
-            "url": "/quests/placement-alpha"
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-get-decision-hero-ads",
-            "kind": "user",
-            "timestamp": "2026-05-21T19:27:44Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "build_hash": "5833bd8992470119f907c2603719bab102ce6c62",
+    "deleted_api_endpoints": [],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -31,8 +9,18 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "2+opCy": "You're Connected!",
+                "6FOKAX": "{objective} to unlock **{questReward}** for {duration} and keep it for longer with Nitro!",
+                "8066TK": "{objective} to unlock **{questReward}**. Keep it with Nitro!",
+                "IACEB/": "{objective} to unlock **{questReward}** for {duration}.",
+                "NdXW5c": "{objective} to unlock **{questReward}** for {duration}. Keep it with Nitro!",
+                "QA20X3": "View Connection",
+                "thO6iA": "{objective} and win **{questReward}**."
+            },
+            "deleted": {
+                "wEDusB": "Check Progress"
+            },
             "modified": {}
         },
         "ko": {
@@ -41,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-21T19:33:02.357703+00:00"
+    "timestamp": "2026-05-21T19:43:24.141499+00:00"
 }
