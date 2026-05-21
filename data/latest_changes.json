@@ -1,5 +1,5 @@
 {
-    "build_hash": "b059923d25811e67a95cf61d30f21d9e87cac1b5",
+    "build_hash": "ce71bd1d2883bf6ac2214a31768e4fea4e8324e3",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,9 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Fbo88g": "Fullscreen chat"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -21,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-21T14:36:06.229566+00:00"
+    "timestamp": "2026-05-21T15:47:12.605094+00:00"
 }
