@@ -1,5 +1,5 @@
 {
-    "build_hash": "e2f96a8c1ca8b1338a50fb0ac158803b1782cb74",
+    "build_hash": "e5241f770879ec2f42c510729c5110638decba7f",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,7 +10,9 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "7r0Rqd": "$[orbAmount](orbAmountHook) Orbs"
+            },
             "modified": {}
         },
         "ko": {
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T18:01:29.298156+00:00"
+    "timestamp": "2026-05-22T18:11:51.896447+00:00"
 }
