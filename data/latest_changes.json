@@ -1,15 +1,28 @@
 {
-    "build_hash": "0a1522db4d3da1837865b542a983ab3e721b628b",
+    "build_hash": "7e1b7d0a2c8205983f74591ae921a739b59efcaa",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_USERS_CHANNELS_GROUP_DM_SHELL",
+            "status": "added",
+            "url": "/users/@me/channels/group-dm-shell"
+        },
+        {
+            "name": "USER_GROUP_DM_SHELL",
+            "status": "added",
+            "url": "/users/@me/channels/group-dm-shell"
+        }
+    ],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "gztrTs": "{inviteCount}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +32,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T19:24:20.369296+00:00"
+    "timestamp": "2026-05-22T19:34:52.144304+00:00"
 }
