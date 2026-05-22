@@ -1,7 +1,19 @@
 {
-    "build_hash": "1f99289d07329410a7bf7b127a9565f10822e18d",
+    "build_hash": "20af6f9738681a5fec9bb29688855b1756034db4",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-12-game-profiles-v2",
+            "kind": "user",
+            "timestamp": "2026-05-22T17:20:53Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -19,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T17:20:03.622249+00:00"
+    "timestamp": "2026-05-22T17:30:25.571267+00:00"
 }
