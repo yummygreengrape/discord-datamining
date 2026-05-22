@@ -1,5 +1,5 @@
 {
-    "build_hash": "9d720a32ba3d00d86d9ede99160a17994212ffb1",
+    "build_hash": "d4e81c09ae5e1dfd4b14d8de5f785d30109d0a1f",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/071J7": "Receive a notification when a Guardian creates, removes, or changes a schedule.",
+                "onrAy7": "Screen Downtime schedule is updated"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T22:00:01.107397+00:00"
+    "timestamp": "2026-05-22T22:10:23.610512+00:00"
 }
