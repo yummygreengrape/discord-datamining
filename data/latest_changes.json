@@ -1,5 +1,5 @@
 {
-    "build_hash": "1f1b1551316922a3afbc2af4e2d9a904a1e58105",
+    "build_hash": "503317cacd01d0ec54470208d65411505a6cb883",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "UdSuwf": "This purchase requires your subscription payment method."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T07:29:28.318153+00:00"
+    "timestamp": "2026-05-22T09:41:18.713576+00:00"
 }
