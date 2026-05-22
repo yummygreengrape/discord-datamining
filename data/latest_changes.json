@@ -1,5 +1,5 @@
 {
-    "build_hash": "c8dc0db02dcf84a5bc99ee53939fe445e55e336a",
+    "build_hash": "1b6db2c95dd7e3686c91ed561b27363fab244a98",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,12 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "TGK5M0": "Thumbs down",
-                "XaJ3qC": "Collapse",
-                "pU5Dut": "Expand",
-                "vjJjMc": "Thumbs up"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T02:03:35.390953+00:00"
+    "timestamp": "2026-05-22T02:13:58.871398+00:00"
 }
