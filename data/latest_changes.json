@@ -1,45 +1,15 @@
 {
-    "build_hash": "17233aa016d2982b826dfd7f803f73926ab6884f",
+    "build_hash": "ce6d7b6ea39527487d230a11efe4f7a598604f58",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-clips-reminder-sidebar",
-            "kind": "user",
-            "timestamp": "2026-05-22T21:11:52Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-clips-quickbar",
-            "kind": "user",
-            "timestamp": "2026-05-22T21:11:52Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "49uRjt": "{clips, plural, one {# Clip} other {# Clips}} · {highlights, plural, one {# Auto Clip} other {# Auto Clips}}",
-                "9CE7R5": "Dismiss clips reminder",
-                "ESZwQX": "$[{keybind}](keybindHook) to clip",
-                "JeTeAF": "Recent {count, plural, one {Clip} other {Clips}}",
-                "Pcrpjt": "Review them",
-                "wxGoM3": "{clips, plural, one {# Clip} other {# Clips}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -49,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T21:18:35.943184+00:00"
+    "timestamp": "2026-05-22T21:28:57.478758+00:00"
 }
