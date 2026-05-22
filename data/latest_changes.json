@@ -1,5 +1,5 @@
 {
-    "build_hash": "a777ca76752f0bafb7c1f316c0952cd3692530af",
+    "build_hash": "96ef1fda6211da3fb968ca2a3724541024a7dbee",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,21 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "8qui3M": "The developer manages the game and server and may carry over moderation actions between them.",
-                "pyRNXJ": "Enable additional features in the {applicationName} server and Discord, such as sharing your game activity and sending game invites."
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "1zioRF": {
-                    "new_value": "Update your profile on Discord with your application activity",
-                    "old_value": "Update your profile on Discord with your application activity."
-                },
-                "4l1DWw": {
-                    "new_value": "Update your profile on Discord with your application activity",
-                    "old_value": "Update your profile on Discord with your application activity."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -31,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T20:47:31.586030+00:00"
+    "timestamp": "2026-05-22T20:57:52.750626+00:00"
 }
