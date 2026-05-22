@@ -1,5 +1,5 @@
 {
-    "build_hash": "4e72980233770aa882cb458cf6bd1e212f0be61f",
+    "build_hash": "f82aff28bc4ad5ccec5378802a710639acf602d2",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,8 +10,9 @@
     "string_changes": {
         "en": {
             "added": {
-                "psHnw8": "Status emoji: not set",
-                "urEr+I": "Status emoji: {currentValue}"
+                "I1h8uD": "Discover your Autoclips",
+                "QJ7i8Z": "With {username}",
+                "efLpNC": "Your highlights and best moments"
             },
             "deleted": {},
             "modified": {}
@@ -22,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T22:31:07.612630+00:00"
+    "timestamp": "2026-05-22T22:41:29.234818+00:00"
 }
