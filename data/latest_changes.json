@@ -1,5 +1,5 @@
 {
-    "build_hash": "3a88ceacf2cea6b7e4b872d90f5788aa78b260bd",
+    "build_hash": "20e99eea4db8e1853e4623f259014792806560b6",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,10 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "jLCRyj": "In-app message sounds",
-                "wls+Ax": "Play a sound when an in-app message notification appears."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T12:33:51.605431+00:00"
+    "timestamp": "2026-05-22T13:44:59.660509+00:00"
 }
