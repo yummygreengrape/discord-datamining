@@ -1,5 +1,5 @@
 {
-    "build_hash": "404741e3a816cc2a6b2f8dd3fe6f17355740acee",
+    "build_hash": "419d9f6178073cde99753dc87b3afcacf9643564",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,28 +10,16 @@
     "string_changes": {
         "en": {
             "added": {
-                "wEDusB": "Check Progress"
+                "LFHDVw": "Post Voice Chat"
             },
-            "deleted": {
-                "2+opCy": "You're Connected!",
-                "6FOKAX": "{objective} to unlock **{questReward}** for {duration} and keep it for longer with Nitro!",
-                "8066TK": "{objective} to unlock **{questReward}**. Keep it with Nitro!",
-                "CALL_USER_PROMPT": "Enjoy this moment.  Then jump in when you're ready.",
-                "IACEB/": "{objective} to unlock **{questReward}** for {duration}.",
-                "Jz3oqA": "Enjoy this moment.  Then jump in when you're ready.",
-                "NdXW5c": "{objective} to unlock **{questReward}** for {duration}. Keep it with Nitro!",
-                "QA20X3": "View Connection",
-                "thO6iA": "{objective} and win **{questReward}**."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "Jz3oqA": "이 순간을 즐기세요. 그리고 준비가 완료되면 참가하세요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T00:00:36.244567+00:00"
+    "timestamp": "2026-05-22T00:31:13.062086+00:00"
 }
