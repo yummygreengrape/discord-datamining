@@ -1,24 +1,12 @@
 {
-    "build_hash": "50540673726b576ecf2103da7c6f217905e32784",
+    "build_hash": "f6f11c8c9cfb0adfddfeb81d0d7356d84b454612",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-multi-button-play-cta",
-            "kind": "user",
-            "timestamp": "2026-05-22T13:51:16Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -31,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T13:55:22.385675+00:00"
+    "timestamp": "2026-05-22T14:05:44.880871+00:00"
 }
