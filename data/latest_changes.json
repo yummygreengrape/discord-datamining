@@ -1,5 +1,5 @@
 {
-    "build_hash": "9b5f87ee9d1324224baffe56d6116cafe4fe65c0",
+    "build_hash": "e674c33b7bed5f2de4a179abf07151d79fb93abf",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,9 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "LY+igv": "Watch video Bounties in a single session to earn up to 100 Orbs each. Look at the top left timer to learn when you've earned the rewards!"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -21,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T04:46:47.197740+00:00"
+    "timestamp": "2026-05-22T04:57:10.080929+00:00"
 }
