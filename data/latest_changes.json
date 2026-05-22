@@ -1,19 +1,26 @@
 {
-    "build_hash": "f82aff28bc4ad5ccec5378802a710639acf602d2",
+    "build_hash": "e29436c7edb9efe2fa9412a055531dc96a278a59",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-dns-surprise-me-weighted-randomizer",
+            "kind": "user",
+            "timestamp": "2026-05-22T22:45:40Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "I1h8uD": "Discover your Autoclips",
-                "QJ7i8Z": "With {username}",
-                "efLpNC": "Your highlights and best moments"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T22:41:29.234818+00:00"
+    "timestamp": "2026-05-22T22:51:50.416979+00:00"
 }
