@@ -1,17 +1,51 @@
 {
-    "build_hash": "d4e81c09ae5e1dfd4b14d8de5f785d30109d0a1f",
+    "build_hash": "266d1a4964c64b6a00e7d11a16e2cf08077f30e6",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-user-settings-redesign-4b",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-04-user-settings-redesign-4c",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-user-settings-redesign-4d",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {
-                "/071J7": "Receive a notification when a Guardian creates, removes, or changes a schedule.",
-                "onrAy7": "Screen Downtime schedule is updated"
+                "AioIGb": "{count, plural, one {# connection} other {# connections}}",
+                "G9JfLg": "These include third-party services you've given permission to access your Discord account. You can review what each app can do and revoke access anytime.",
+                "U22vw6": "These are accounts from other platforms. Connecting them here can unlock new features on Discord, like the ability to share what you're currently listening to, get paid safely and securely, and more.",
+                "lrVuZO": "Connected Apps",
+                "t+aGse": "Add a new connection"
             },
             "deleted": {},
             "modified": {}
@@ -22,5 +56,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T22:10:23.610512+00:00"
+    "timestamp": "2026-05-22T22:20:46.222594+00:00"
 }
