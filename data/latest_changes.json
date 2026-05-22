@@ -1,5 +1,5 @@
 {
-    "build_hash": "cc433f5d3c560b8347d7fa121896a6d13a0ebd39",
+    "build_hash": "e88eebb19992b532c8b088ed1689a103a3b134e2",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,43 +9,15 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "5qtVhX": "Join as $[](usernameHook)",
-                "BRSnEj": "Server Preview · Join to message & react",
-                "ExUb5O": "Server preview",
-                "JS8qVx": "Preview",
-                "KNhFgD": "Server Preview",
-                "fTtTTp": "When you join you can message, react, and pick which channels notify you. Leave anytime.",
-                "iZFfTN": "Join to Chat",
-                "us0bE8": "Join for full access"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "/Gmn3f": "레거시 배지",
-                "/mEbGf": "설명",
-                "1Zw6xL": "Nitro를 구독하면 매달 새로운 SteelSeries 할인 코드를 받을 수 있어요. $20 이상 구매 시 적용 가능하며, 블랙아웃 기간이 없으며, 할인 품목도 포함돼요.",
-                "6LHsjg": "부스팅",
-                "9GNsge": "{username} 님의 배지 보기",
-                "BCjSZy": "{username} 님의 배지",
-                "C2kQR8": "다시 플레이",
-                "EIcwoe": "{username} 님의 배지",
-                "Eo5Cnp": "{username} 님의 배지",
-                "K0dyhm": "최고급 게이밍 장비의 월간 할인 코드를 받으세요. 오직 Nitro 구독 시에만 가능해요.",
-                "KWdCO0": "Nitro를 구독하면 매달 새로운 SteelSeries 할인 코드를 받을 수 있어요.",
-                "KyTwIh": "{username} 님의 진행 상황",
-                "U7cCLU": "게임 시작",
-                "YfTxzY": "매달 최고급 게이밍 장비에 대한 독점 할인을 받아보세요. 오직 Nitro 구독 시에만 가능해요.",
-                "kfks9Y": "보기",
-                "vFekBs": "이 배지는 더 이상 이용할 수 없지만, 다른 배지들이 기다리고 있어요. [내 배지 보기]({onViewBadges})를 통해 어떤 배지를 잠금 해제할 수 있는지 확인해 보세요.",
-                "vblnHk": "참고: {partnerName} 할인은 이번 달 말에 종료돼요. [자세히 알아보기]({helpdeskArticle}).",
-                "yxEAGH": "내 것 보기"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T23:22:39.380753+00:00"
+    "timestamp": "2026-05-22T23:33:02.932571+00:00"
 }
