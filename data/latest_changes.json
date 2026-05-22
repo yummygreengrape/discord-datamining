@@ -1,33 +1,12 @@
 {
-    "build_hash": "95c0c463cdbf5d9e3d7f7b7c4add904e86e88941",
+    "build_hash": "c844eb367e6e4a18303aa7cccafd417b3f0ffd28",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-kontrolfreek-deprecated-ff",
-            "kind": "user",
-            "timestamp": "2026-05-22T16:33:26Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-steelseries-higher-discount-ff",
-            "kind": "user",
-            "timestamp": "2026-05-22T16:33:26Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -40,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T16:38:32.702613+00:00"
+    "timestamp": "2026-05-22T16:48:55.224415+00:00"
 }
