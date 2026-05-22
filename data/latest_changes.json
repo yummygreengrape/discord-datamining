@@ -1,5 +1,5 @@
 {
-    "build_hash": "ffdd438c0bd4271f6c62726a52d44f05c4c8821f",
+    "build_hash": "f9dead2b0cf60dd2e3cfddc3400929264fc65b68",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,47 +10,7 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "+pgFbW": "Hang tight!",
-                "4PWzD7": "In-Game Account",
-                "8a7IrV": "Connection entrypoint URL registered",
-                "9cfXek": "Something went wrong",
-                "9iLeL2": "URL configured as {url}",
-                "AGLx00": "Connected game flow:",
-                "C45G4B": "Connected Discord account in {gameTitle}",
-                "CM8LUl": "Web",
-                "JkyCIO": "Keep your quest going!",
-                "K3ObrU": "Web flow:",
-                "KgYvrZ": "How to Connect",
-                "KoK4J9": "Devtools: {appName}",
-                "OEkrCx": "This flow will be used",
-                "PFxxJa": "If your game is running and it can't connect to Discord, try viewing your game's logs to debug",
-                "S94dzs": "RegisterAuthorizeRequestCallback called and working correctly",
-                "T0zC77": "Connect Now",
-                "Uk4lV5": "Quest completion can take up to 36 hours to confirm. [Learn more]({onLearnMore}) about how this works.",
-                "X8hBDz": "You're connected! Head back to [{gameTitle}]({onClickGameTitle}) and keep your quest going.",
-                "Z1T4zl": "To continue your quest, connect your Discord account using one of the options below.",
-                "aTULMB": "Auth callback not detected. If you called the function and are still seeing this, check logs for details",
-                "cCvdJy": "Open Game Profile",
-                "dc9w4N": "Play Quest Requirements",
-                "dp0CUb": "Connect Account",
-                "eg0mNa": "Cannot link because no valid linking flows are available",
-                "kxF9br": "SDK connected via RPC",
-                "mAdqf7": "Connect your Discord Account",
-                "nP1hFd": "{objective} to unlock {rewardName}",
-                "nYQyEg": "We hit an error loading this Quest. Refresh your Discord client and try again.",
-                "no+FQS": "The first available linking flow will be used, starting at the top",
-                "okJIPY": "Choose how to connect",
-                "s9r2a1": "Get Connected!",
-                "tkIymA": "Unlink",
-                "uG6teD": "Account Successfully Linked",
-                "vDLUD3": "Launch [{gameTitle}]({onClickGameTitle}) and use the button below to learn how to get connected",
-                "vR0zs6": "Account Linking",
-                "w0pN4R": "Link account",
-                "wEDusB": "Check Progress",
-                "yKwZc2": "Manage account linking",
-                "yqSr9m": "Use the button below to get connected."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -59,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T00:41:35.727042+00:00"
+    "timestamp": "2026-05-22T01:02:06.069861+00:00"
 }
