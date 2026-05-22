@@ -1,5 +1,5 @@
 {
-    "build_hash": "a3ad32514598106ab6b402422a38851b2a3c012e",
+    "build_hash": "46dbe4460eb3401b2d95e29743f48918ab09fb2a",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,14 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/mEbGf": "Description",
+                "G91SYQ": "You can start a call that others can join",
+                "SU/IAE": "Add more detail about your game session",
+                "Xd2NFi": "Voice Chat",
+                "tOsHsu": "Create post",
+                "yoIAe/": "Add tags for vibes and what you’re looking for"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T18:32:35.619536+00:00"
+    "timestamp": "2026-05-22T18:42:57.374919+00:00"
 }
