@@ -1,5 +1,5 @@
 {
-    "build_hash": "002b9eadeea44ec7cde29ec8e38d0ac7d72feb28",
+    "build_hash": "a3ad32514598106ab6b402422a38851b2a3c012e",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,22 +10,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "VaSz3l": "This badge is no longer available, but others are waiting. View your badges and see what else you can unlock.",
-                "W87dHj": "This badge is already yours. Keep the momentum going and unlock even more.",
-                "m++6Ll": "This badge is no longer available to others, but it's safe in your collection. Sit back and admire, or go after your next badge."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "VaSz3l": "이 배지는 더 이상 획득할 수 없지만, 다른 배지들이 기다리고 있어요. 보유한 배지를 확인하고, 또한 어떤 배지를 잠금 해제할 수 있는지 알아보세요.",
-                "W87dHj": "이 배지는 이미 보유하고 있어요 기세를 몰아 더 많은 배지를 잠금 해제해 보세요.",
-                "m++6Ll": "이 배지는 이제 다른 사람들은 얻을 수 없지만, 회원님의 수집품에는 안전하게 보관되어 있어요. 마음 편히 감상하시거나 다음 배지를 노려보세요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-05-22T18:22:12.823573+00:00"
+    "timestamp": "2026-05-22T18:32:35.619536+00:00"
 }
