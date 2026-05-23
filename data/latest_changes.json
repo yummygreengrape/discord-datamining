@@ -1,5 +1,5 @@
 {
-    "build_hash": "0fb5f2f7a5e628e5d4c0a68baae7fb856bf0afab",
+    "build_hash": "a2b8f2a798e65c535f2725fffc424dbde20f77e8",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,19 +9,14 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0w8SvT": "{percent}% Off {premiumGroupProductName}",
-                "4b2ByP": "Then {regularPrice}/month",
-                "7j70dP": "Save {percent}% on {premiumGroupProductName}",
-                "GEwdVw": "{percent}% Off",
-                "WkQY/4": "Nitro for you and {totalSeats}, {price} for {discountInterval}",
-                "X2x0MF": "Actions available",
-                "bRYgjH": "BETA · Your files are too powerful",
-                "rCpGVA": "{discountedPrice}/month for {discountInterval}",
-                "t3TzwQ": "Your {percent}% discount will end {discountEndDate}. After that you’ll be charged {regularPrice}/month."
-            },
+            "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "ZPB6+J": {
+                    "new_value": "Describe yourself in three emoji",
+                    "old_value": "Describe yourself in three emojis"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -29,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-23T01:16:22.644833+00:00"
+    "timestamp": "2026-05-23T01:26:44.671996+00:00"
 }
