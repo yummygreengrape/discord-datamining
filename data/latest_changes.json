@@ -1,20 +1,31 @@
 {
-    "build_hash": "a2b8f2a798e65c535f2725fffc424dbde20f77e8",
+    "build_hash": "32d12408d8f42f4a8f74b7d5e0f9e0b339d5f627",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-auto-clips-review",
+            "kind": "user",
+            "timestamp": "2026-05-23T01:35:09Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
             "deleted": {},
             "modified": {
-                "ZPB6+J": {
-                    "new_value": "Describe yourself in three emoji",
-                    "old_value": "Describe yourself in three emojis"
+                "F3qiJr": {
+                    "new_value": "Invite to Voice. Press to dismiss",
+                    "old_value": "Voice Invite Suggestions, press to dismiss"
                 }
             }
         },
@@ -24,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-23T01:26:44.671996+00:00"
+    "timestamp": "2026-05-23T01:37:05.890914+00:00"
 }
