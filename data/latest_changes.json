@@ -1,12 +1,25 @@
 {
-    "build_hash": "0cc670a33d6f093d945e312c2eb801606738cd77",
+    "build_hash": "b1cd37f868c0438ccebeb6249e26c34200d3f309",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-slayer-storefront-exclusive-expressive-flair",
+            "kind": "user",
+            "timestamp": "2026-05-26T15:00:13Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -19,5 +32,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-26T14:23:49.216353+00:00"
+    "timestamp": "2026-05-26T15:04:29.798934+00:00"
 }
