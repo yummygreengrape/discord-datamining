@@ -1,5 +1,5 @@
 {
-    "build_hash": "c9eda5b616d35c0e0e7a9e4b59ea69745efec9b5",
+    "build_hash": "33016bf2050a40ebb3d38051e5e330bdc20193e4",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,10 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0s2ICk": "Add a \"{noMicTagName}\" tag to this channel to enable this toggle",
-                "FiKFKs": "This tag can be reordered but not edited."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-26T21:36:05.857239+00:00"
+    "timestamp": "2026-05-26T21:56:34.672263+00:00"
 }
