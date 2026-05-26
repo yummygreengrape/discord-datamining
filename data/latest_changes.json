@@ -1,7 +1,20 @@
 {
-    "build_hash": "b3ae79eec4e37fd2c9015e78019d6faf9a7300f2",
+    "build_hash": "1ed79b719087e0afdbc871324ef1d77e01b9cd1d",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "id": "2026-02_voice_channel_history_hover",
+            "kind": "guild",
+            "timestamp": "2026-05-26T16:50:04Z",
+            "title": "Voice Channel History",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable history popout hover behavior",
+                "Treatment 2: Enable history popout hover behavior without ghost user"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -19,5 +32,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-26T16:47:03.892401+00:00"
+    "timestamp": "2026-05-26T16:57:25.911810+00:00"
 }
