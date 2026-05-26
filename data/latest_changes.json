@@ -1,15 +1,39 @@
 {
-    "build_hash": "83932fbafdfc174df90643fcec64bd117b10401f",
+    "build_hash": "5f6e894cda6fb313abf47fc349b87dda2c20187e",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-clips-scrub-preview-frontend",
+            "kind": "user",
+            "timestamp": "2026-05-26T20:42:01Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-remove-expired-quests",
+            "kind": "user",
+            "timestamp": "2026-05-26T20:38:59Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "5ABf1w": "Quest no longer available"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +43,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-26T20:34:00.758692+00:00"
+    "timestamp": "2026-05-26T20:44:22.007092+00:00"
 }
