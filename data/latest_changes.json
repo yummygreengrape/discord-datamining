@@ -1,20 +1,7 @@
 {
-    "build_hash": "1ed79b719087e0afdbc871324ef1d77e01b9cd1d",
+    "build_hash": "29093ef52cf4475df1feb137bc22e31b95aeb318",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "id": "2026-02_voice_channel_history_hover",
-            "kind": "guild",
-            "timestamp": "2026-05-26T16:50:04Z",
-            "title": "Voice Channel History",
-            "treatments": [
-                "Control",
-                "Treatment 1: Enable history popout hover behavior",
-                "Treatment 2: Enable history popout hover behavior without ghost user"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -22,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "iRntUl": "Couldn't send invites, please try again."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -32,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-26T16:57:25.911810+00:00"
+    "timestamp": "2026-05-26T17:17:50.428516+00:00"
 }
