@@ -1,5 +1,5 @@
 {
-    "build_hash": "87e0c1c397c53805f066e1c042b42de102d6929d",
+    "build_hash": "a5f004d955eeb47cba94dc89c39c605ff760a1ae",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -11,40 +11,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "2yLvkS": {
-                    "new_value": "Take a video selfie",
-                    "old_value": "Video selfie via k-ID"
-                },
-                "HxS3oQ": {
-                    "new_value": "We use age groups to determine access to certain experiences. It takes 3 minutes on average.",
-                    "old_value": "Choose a method to confirm you’re an adult. Once confirmed, you can access age-restricted content and settings."
-                },
-                "RpMIT0": {
-                    "new_value": "We use age groups to determine access to certain experiences. [Learn more]({handleOnHelpUrlHook})",
-                    "old_value": "Choose a method to confirm you’re an adult. Once confirmed, you can access age-restricted content and settings. [Learn more]({handleOnHelpUrlHook})."
-                },
-                "Y9sLpR": {
-                    "new_value": "Use Google Wallet",
-                    "old_value": "Google Wallet ID Pass"
-                },
-                "ZdmRwW": {
-                    "new_value": "You’ll need a driver’s license, passport, or other ID. Then a photo selfie to confirm it’s you.",
-                    "old_value": "Scan your ID and take a selfie to confirm it’s you. Both are deleted right after confirmation and never linked to your account."
-                },
-                "dah4bF": {
-                    "new_value": "Verify your age using a digital ID stored in Google Wallet.",
-                    "old_value": "Use an ID Pass based on your passport info. Your ID details stay in Google Wallet."
-                },
-                "eJmat5": {
-                    "new_value": "Usually fastest and totally automatic. All you need is a camera.",
-                    "old_value": "Estimate your age with a video selfie. Video stays on-device, no biometric data is shared."
-                },
-                "xYXsr6": {
-                    "new_value": "Confirm age group",
-                    "old_value": "Confirm your age"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -52,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-26T22:27:23.727521+00:00"
+    "timestamp": "2026-05-26T22:37:45.203953+00:00"
 }
