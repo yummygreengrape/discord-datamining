@@ -1,5 +1,5 @@
 {
-    "build_hash": "9e2172db5124823405f4270ed60aa9fd87d6c067",
+    "build_hash": "393353d040eb614dac8ade967505fffc00346fd5",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "//DXrW": "Invite non-friends to groups",
+                "AVPtNF": "Search to find specific server members. They’ll need to accept your invite before they join the group DM."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-26T22:58:27.090284+00:00"
+    "timestamp": "2026-05-26T23:08:48.043995+00:00"
 }
