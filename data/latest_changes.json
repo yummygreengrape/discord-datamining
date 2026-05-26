@@ -1,24 +1,27 @@
 {
-    "build_hash": "efeff9ed46fe283519bbdc76738be6c4805200cb",
+    "build_hash": "228a6dbef3025591fdb891749529d493b0ea8098",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
-    "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiments": [
+    "modified_experiments": [
         {
-            "experiment_source": "reference_comment",
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
             "id": "2026-05-nitro-tab-discount-expressive-badge",
             "kind": "user",
-            "timestamp": "2026-05-26T19:05:13Z",
-            "treatments": [
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
                 "Variant 0",
                 "Variant 1"
-            ]
+            ],
+            "status": "modified",
+            "treatments": []
         }
     ],
+    "new_api_endpoints": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -31,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-26T19:11:42.873339+00:00"
+    "timestamp": "2026-05-26T19:22:04.043585+00:00"
 }
