@@ -1,23 +1,12 @@
 {
-    "build_hash": "a78971037b71f9d50466df0ce1236a1e0e7023c4",
+    "build_hash": "e33cb7fd5b9b3e3da10fb90ce9b4c06a684e67d1",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-quest-primary-cta-white-desktop",
-            "kind": "user",
-            "timestamp": "2026-05-26T17:34:27Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -30,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-26T17:38:36.180442+00:00"
+    "timestamp": "2026-05-26T17:48:56.143204+00:00"
 }
