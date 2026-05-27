@@ -1,24 +1,12 @@
 {
-    "build_hash": "ae9e5bfb07f5cc05056738d83a2ecf2f25b5fdd8",
+    "build_hash": "ce0ae738c9d9ae81eec99f6839df970c60518029",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-badge-discovery-milestone-2",
-            "kind": "user",
-            "timestamp": "2026-05-27T21:00:11Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -31,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-27T21:06:32.542703+00:00"
+    "timestamp": "2026-05-27T21:16:54.155378+00:00"
 }
