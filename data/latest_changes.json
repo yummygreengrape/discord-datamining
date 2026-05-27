@@ -1,7 +1,18 @@
 {
-    "build_hash": "d7ed8bb047ea8142bd230474f2321ec433870fbc",
+    "build_hash": "ccbaa5a609ea08a73f5539d4c18882060f58c445",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-user-settings-redesign-4b",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -10,14 +21,68 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "+JkHPw": "Edit Username",
+                "83CPLj": "Log Out {count}",
+                "8aDa1t": "Protect your Discord account with an extra layer of security. Once configured, you'll be required\nto enter your password and complete one additional step in order to sign in.",
+                "EPVq00": "Authenticator App",
+                "FfltIN": "Hide",
+                "FsmBy4": "Multi-Factor Authentication enabled",
+                "GfqHPn": "Backup Codes",
+                "JAIM/m": "My Account",
+                "MwuUf/": "Account Standing",
+                "PXVoEO": "Your current phone number is: {phoneNumber}.",
+                "RANhlE": "User Actions",
+                "TIh3Yj": "Disabling your account means you can recover it at any time after taking this action.",
+                "Ulqq6K": "Change Phone Number?",
+                "WuyBbL": "Please check your email and follow the instructions to verify your account.",
+                "YpEWSn": "User Settings",
+                "ZKsIks": "Account Removal",
+                "bQwxib": "Configuring an authenticator app is a good way to add an extra layer of security to your Discord account to make sure that only you have the ability to log in.",
+                "czsGA8": "No longer need your account?",
+                "ep5kjK": "You haven't added a display name yet.",
+                "fspJ4H": "Add your phone as a backup MFA method in case you lose access to your authenticator app or backup codes.",
+                "llArAg": "Reveal",
+                "mMEmRO": "Log out of selected devices",
+                "oP5zGA": "Click here to change your email",
+                "pKSjEj": "Password and Authentication",
+                "xZtncm": "Actions for {username}",
+                "y2+5EN": "This removes the ability to login with an authentication code through SMS. Are you sure you want to remove this?"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "+JkHPw": "사용자명 수정하기",
+                "83CPLj": "기기 {count}개에서 로그아웃하기",
+                "8aDa1t": "Discord 계정을 보호하기 위해 다단계 인증을 활성화할 수 있어요. 이 기능을 사용하면, 로그인 시 비밀번호를 입력하고\n한 가지 추가 인증 단계를 거쳐야 해요.",
+                "EPVq00": "인증 앱",
+                "FfltIN": "숨기기",
+                "FsmBy4": "다단계 인증 활성화됨",
+                "GfqHPn": "복구 코드",
+                "JAIM/m": "내 계정",
+                "MwuUf/": "계정 상태",
+                "PXVoEO": "현재 등록된 전화번호: {phoneNumber}.",
+                "RANhlE": "사용자 활동",
+                "TIh3Yj": "계정을 비활성화하면 언제든 복구할 수 있어요.",
+                "Ulqq6K": "전화번호를 변경하고 싶으신가요?",
+                "WuyBbL": "계정을 인증하려면 이메일에 있는 설명을 따라주세요.",
+                "YpEWSn": "사용자 설정",
+                "ZKsIks": "계정 제거",
+                "bQwxib": "인증 앱을 설정하는 것은 내 Discord 계정에 본인 이외의 다른 사람이 로그인하는 것을 막아 보안 수준을 한 단계 끌어올리는 방법입니다.",
+                "czsGA8": "더 이상 계정이 필요하지 않나요?",
+                "ep5kjK": "아직 별명을 추가하지 않았어요.",
+                "fspJ4H": "인증 앱에 대한 액세스 권한을 잃거나 복구 코드를 잊어버릴 때를 대비해 예비용 다단계 인증 방법으로 전화번호를 추가하세요.",
+                "llArAg": "보이기",
+                "mMEmRO": "선택한 기기에서 로그아웃하기",
+                "oP5zGA": "여기를 클릭해서 이메일 변경하기",
+                "pKSjEj": "비밀번호와 인증",
+                "xZtncm": "{username}에 대한 작업",
+                "y2+5EN": "SMS 인증 코드로 더 이상 로그인할 수 없게 돼요. 정말 삭제하시겠어요?"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-05-27T17:08:26.934612+00:00"
+    "timestamp": "2026-05-27T17:19:03.347009+00:00"
 }
