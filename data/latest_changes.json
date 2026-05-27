@@ -1,5 +1,5 @@
 {
-    "build_hash": "cac96a6d286796a08f675cd94537a7c8ce551034",
+    "build_hash": "50a465b77011d82243f7d00f3664940f25951b02",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,12 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "TCFNZ/": "{discountedPrice} your first year",
-                "aUTlph": "Then {regularPrice}/year.",
-                "mYNXed": "{percent, number}% Off Yearly",
-                "v5WSns": "{percent, number}% off"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-27T18:21:11.538388+00:00"
+    "timestamp": "2026-05-27T18:41:40.476306+00:00"
 }
