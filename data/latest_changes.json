@@ -1,19 +1,7 @@
 {
-    "build_hash": "3249b993da4c1c07d605229f1701354f44409dde",
+    "build_hash": "b10b769f45c9b70b25c280550213d382fa993b58",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-profile-message-cta",
-            "kind": "user",
-            "timestamp": "2026-05-27T17:22:14Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -31,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-27T17:29:25.673696+00:00"
+    "timestamp": "2026-05-27T17:39:50.942750+00:00"
 }
