@@ -1,5 +1,5 @@
 {
-    "build_hash": "4a0a7a56808082fcd3cc6c6ba93b5deccce7c755",
+    "build_hash": "cac96a6d286796a08f675cd94537a7c8ce551034",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,7 +10,10 @@
     "string_changes": {
         "en": {
             "added": {
-                "zHeo07": "What's New media"
+                "TCFNZ/": "{discountedPrice} your first year",
+                "aUTlph": "Then {regularPrice}/year.",
+                "mYNXed": "{percent, number}% Off Yearly",
+                "v5WSns": "{percent, number}% off"
             },
             "deleted": {},
             "modified": {}
@@ -21,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-27T18:10:47.383689+00:00"
+    "timestamp": "2026-05-27T18:21:11.538388+00:00"
 }
