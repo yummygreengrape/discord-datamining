@@ -1,12 +1,24 @@
 {
-    "build_hash": "4273d7f7e8f8ca8fb737a976edfb0daa460741d7",
+    "build_hash": "eb8412e5dde3e243ad2726ee2a806871d683e1ee",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-slayer-storefront-hide-leaderboard",
+            "kind": "user",
+            "timestamp": "2026-05-27T23:41:39Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -19,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-27T23:31:34.423518+00:00"
+    "timestamp": "2026-05-27T23:41:56.388307+00:00"
 }
