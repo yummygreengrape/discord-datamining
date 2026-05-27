@@ -1,30 +1,7 @@
 {
-    "build_hash": "0eb46069c0e15d2558b6b176cf8e45767714755e",
+    "build_hash": "4a0a7a56808082fcd3cc6c6ba93b5deccce7c755",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-user-settings-redesign-4b",
-            "kind": "user",
-            "timestamp": "2026-05-27T17:15:08Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-profile-message-cta",
-            "kind": "user",
-            "timestamp": "2026-05-27T17:22:14Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -32,35 +9,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "AUTH_SESSIONS_OTHERS_LOG_OUT_SELECTED_ACTION": "Log Out {count, plural, one {# Device} other {# Devices}}",
-                "AUTH_SESSIONS_OTHERS_LOG_OUT_SELECTED_TITLE": "Log out of selected devices",
-                "CHANGE_EMAIL": "Click here to change your email",
-                "CHANGE_PHONE_NUMBER": "Change Phone Number?",
-                "MFA_SMS_AUTH_CURRENT_PHONE": "Your current phone number is: {phoneNumber}.",
-                "MFA_SMS_AUTH_SALES_PITCH": "Add your phone as a backup MFA method in case you lose access to your authenticator app or backup codes.",
-                "MFA_SMS_CONFIRM_REMOVE_BODY": "This removes the ability to login with an authentication code through SMS. Are you sure you want to remove this?",
-                "MFA_SMS_PHONE_NUMBER_HIDE": "Hide",
-                "MFA_SMS_PHONE_NUMBER_REVEAL": "Reveal",
-                "NOTICE_UNVERIFIED_ACCOUNT": "Please check your email and follow the instructions to verify your account.",
-                "PRIVACY_AND_SAFETY_TAB_TITLE_SETTINGS": "User Settings",
-                "PRIVACY_AND_SAFETY_TAB_TITLE_SUPPORT": "Account Standing",
-                "TWO_FA": "Authenticator App",
-                "TWO_FA_BACKUP_CODES_LABEL": "Backup Codes",
-                "TWO_FA_DESCRIPTION": "Configuring an authenticator app is a good way to add an extra layer of security to your Discord account to make sure that only you have the ability to log in.",
-                "TWO_FA_ENABLED": "Multi-Factor Authentication enabled",
-                "TWO_FA_SALES_PITCH": "Protect your Discord account with an extra layer of security. Once configured, you'll be required\nto enter your password and complete one additional step in order to sign in.",
-                "USER_MORE_ACTIONS_MENU_LABEL": "User Actions",
-                "USER_SETTINGS_ACCOUNT_CHANGE_USERNAME_TITLE": "Edit Username",
-                "USER_SETTINGS_ACCOUNT_PASSWORD_AND_AUTHENTICATION": "Password and Authentication",
-                "USER_SETTINGS_ACCOUNT_REMOVAL_DESCRIPTION": "Disabling your account means you can recover it at any time after taking this action.",
-                "USER_SETTINGS_ACCOUNT_REMOVAL_DESCRIPTION_UNCLAIMED": "No longer need your account?",
-                "USER_SETTINGS_ACCOUNT_REMOVAL_SECTION": "Account Removal",
-                "USER_SETTINGS_MY_ACCOUNT": "My Account",
-                "USER_SETTINGS_NO_DISPLAYNAME_PLACEHOLDER": "You haven't added a display name yet.",
-                "xZtncm": "Actions for {username}"
+            "added": {
+                "zHeo07": "What's New media"
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -69,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-27T17:50:21.087152+00:00"
+    "timestamp": "2026-05-27T18:10:47.383689+00:00"
 }
