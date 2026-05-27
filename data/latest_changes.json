@@ -1,17 +1,27 @@
 {
-    "build_hash": "3c6d61516ba1b8ba9805b6a5f211de84205af9a2",
+    "build_hash": "0b4ea3296f3d35fc0dd948ee67de9ea6cf54e56a",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-ios-video-stabilization",
+            "kind": "user",
+            "timestamp": "2026-05-27T00:44:57Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "gndWN7": "Open Discord on desktop to purchase."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -21,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-27T00:41:08.340366+00:00"
+    "timestamp": "2026-05-27T00:51:30.780099+00:00"
 }
