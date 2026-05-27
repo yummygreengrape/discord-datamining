@@ -1,18 +1,27 @@
 {
-    "build_hash": "03aadc9aef069007ac38cd0f5213c7a8d06f31c1",
+    "build_hash": "ae9e5bfb07f5cc05056738d83a2ecf2f25b5fdd8",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-badge-discovery-milestone-2",
+            "kind": "user",
+            "timestamp": "2026-05-27T21:00:11Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "3cglst": "Nitro members get first dibs on Frames. [Learn more]({articleURL}).",
-                "9wfL34": "Buy Early with Nitro"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-27T20:56:09.789809+00:00"
+    "timestamp": "2026-05-27T21:06:32.542703+00:00"
 }
