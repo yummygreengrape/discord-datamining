@@ -1,5 +1,5 @@
 {
-    "build_hash": "323b555795a5e158bf2db63933f7690ad20c743d",
+    "build_hash": "11f41e59dbfd69892838b401980d26c3bee5c248",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,12 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "347DBb": "In-game event",
-                "QwW8zd": "Create Post",
-                "bTC23D": "LOL",
-                "vTTkFF": "Shared moment"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-27T19:44:10.133113+00:00"
+    "timestamp": "2026-05-27T20:25:02.525851+00:00"
 }
