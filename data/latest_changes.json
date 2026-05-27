@@ -1,5 +1,5 @@
 {
-    "build_hash": "46ea884723a6357a29d04514f7d35220609c3393",
+    "build_hash": "03aadc9aef069007ac38cd0f5213c7a8d06f31c1",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "3cglst": "Nitro members get first dibs on Frames. [Learn more]({articleURL}).",
+                "9wfL34": "Buy Early with Nitro"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-27T20:45:46.883201+00:00"
+    "timestamp": "2026-05-27T20:56:09.789809+00:00"
 }
