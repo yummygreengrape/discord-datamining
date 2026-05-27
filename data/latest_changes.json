@@ -1,5 +1,5 @@
 {
-    "build_hash": "7448dad6a11b09289a0bf420821fd9b26b450533",
+    "build_hash": "4273d7f7e8f8ca8fb737a976edfb0daa460741d7",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,10 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "EBSaL4": "Link Account",
-                "UHF2Zn": "Link your account so players can see your squad's open spots and request to join!"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-27T23:21:12.065579+00:00"
+    "timestamp": "2026-05-27T23:31:34.423518+00:00"
 }
