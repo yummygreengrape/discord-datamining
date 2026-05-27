@@ -1,5 +1,5 @@
 {
-    "build_hash": "e23573c02dddb379cdee6529cb0d6b53aa3b9db4",
+    "build_hash": "9e783c5750de00cf9770b914513ef8b590120f65",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,16 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "5V7eBH": "Downtime created",
+                "8OlpoY": "Your guardian changed your Downtime schedule.",
+                "ERTn+E": "{days} from {startTime} – {endTime}",
+                "Nm6hZV": "Downtime updated",
+                "OxveI8": "{days} from {startTime} – {endTime} the next day",
+                "iefrVg": "Downtime enabled",
+                "jR6uOs": "Downtime removed",
+                "k+s9cM": "Downtime disabled"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-27T09:50:11.787836+00:00"
+    "timestamp": "2026-05-27T11:41:46.825912+00:00"
 }
