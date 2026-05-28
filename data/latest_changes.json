@@ -1,18 +1,7 @@
 {
-    "build_hash": "2df7fac71041688d76ee92eec81b7f4ab29344a3",
+    "build_hash": "a8c2c52e87d865fe925e48feb49e33a3f8ffd4d2",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-logitech-ss-marketing",
-            "kind": "user",
-            "timestamp": "2026-05-28T19:51:47Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -21,10 +10,11 @@
         {
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-05-logitech-ss-reheat-ff",
+            "id": "2026-05-gdop-v2-upsell",
             "kind": "user",
-            "timestamp": "2026-05-28T19:51:47Z",
+            "timestamp": "2026-05-28T21:27:33Z",
             "treatments": [
+                "Variant 0",
                 "Variant 1"
             ]
         }
@@ -32,12 +22,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "6nRCFl": "You may {also, select, true {also } other {}}be sharing activity from {count, plural, one {# game} other {# games}} you play{nameCount, plural, =0 {} one {, including **{game1}**} other {, including **{game1}** and **{game2}**}}. Restrict sharing on a game-by-game basis.",
-                "Mf0720": "Looking for per-server controls? Navigate to the server, select the dropdown menu next to the server name, then select $[**Privacy Settings**](privacySettingsHook). From there, you can toggle on or off Activity Joining for just that server.",
-                "OYYY6q": "Control who sees activity information from games and connected apps I use.",
-                "WmsPis": "What Activity I Share",
-                "uGDpgH": "Some games allow users to join the game you're playing when viewing your activity.",
-                "ymulT+": "Who I Share Activity With"
+                "9hfy3A": "Share your rank, achievements, and stats on your profile",
+                "HMWL9c": "Show off your game stats"
             },
             "deleted": {},
             "modified": {}
@@ -48,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-28T21:22:29.121973+00:00"
+    "timestamp": "2026-05-28T21:32:52.797593+00:00"
 }
