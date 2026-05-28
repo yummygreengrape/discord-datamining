@@ -1,5 +1,5 @@
 {
-    "build_hash": "bb57df00dbb05a873dccadb7e068fcc547e52028",
+    "build_hash": "172585e1d2177bd92b58f9f51b4c42934a86ae99",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,15 +10,10 @@
     "string_changes": {
         "en": {
             "added": {
-                "AXiE0i": "Set per-server pronouns"
+                "6x49+U": "{tabName} tab added"
             },
             "deleted": {},
-            "modified": {
-                "YcDKr8": {
-                    "new_value": "Set a per-server nickname",
-                    "old_value": "Add server nickname"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -26,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-28T18:36:18.300568+00:00"
+    "timestamp": "2026-05-28T18:46:41.114995+00:00"
 }
