@@ -1,49 +1,16 @@
 {
-    "build_hash": "6f52aae99e7cd6d9a0c9e604ea9be128acb4b49c",
+    "build_hash": "6d84c0deed48129308fa2e1e1084fb7466a8326e",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-logitech-ss-marketing",
-            "kind": "user",
-            "timestamp": "2026-05-28T19:51:47Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-logitech-ss-reheat-ff",
-            "kind": "user",
-            "timestamp": "2026-05-28T19:51:47Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "6nRCFl": "You may {also, select, true {also } other {}}be sharing activity from {count, plural, one {# game} other {# games}} you play{nameCount, plural, =0 {} one {, including **{game1}**} other {, including **{game1}** and **{game2}**}}. Restrict sharing on a game-by-game basis.",
-                "HUDkvK": "Spatial Audio Options",
-                "Mf0720": "Looking for per-server controls? Navigate to the server, select the dropdown menu next to the server name, then select $[**Privacy Settings**](privacySettingsHook). From there, you can toggle on or off Activity Joining for just that server.",
-                "OYYY6q": "Control who sees activity information from games and connected apps I use.",
-                "WmsPis": "What Activity I Share",
-                "kYv9DM": "Fields marked $[nitroIcon](nitroIconHook) are exclusive to Nitro.",
-                "uGDpgH": "Some games allow users to join the game you're playing when viewing your activity.",
-                "ymulT+": "Who I Share Activity With"
-            },
-            "deleted": {
-                "lGiQKa": "Spatial audio options"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -52,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-28T20:09:55.309801+00:00"
+    "timestamp": "2026-05-28T20:20:18.134782+00:00"
 }
