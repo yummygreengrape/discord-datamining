@@ -1,42 +1,15 @@
 {
-    "build_hash": "fd169183b45a75be3ff866c7a96954baad187773",
+    "build_hash": "ad43dd1197f85d4ee3bb27ac6ad206e9c18e34e8",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-04-logitech-ss-marketing",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-logitech-ss-reheat-ff",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "6nRCFl": "You may {also, select, true {also } other {}}be sharing activity from {count, plural, one {# game} other {# games}} you play{nameCount, plural, =0 {} one {, including **{game1}**} other {, including **{game1}** and **{game2}**}}. Restrict sharing on a game-by-game basis.",
-                "Mf0720": "Looking for per-server controls? Navigate to the server, select the dropdown menu next to the server name, then select $[**Privacy Settings**](privacySettingsHook). From there, you can toggle on or off Activity Joining for just that server.",
-                "OYYY6q": "Control who sees activity information from games and connected apps I use.",
-                "WmsPis": "What Activity I Share",
-                "uGDpgH": "Some games allow users to join the game you're playing when viewing your activity.",
-                "ymulT+": "Who I Share Activity With"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -46,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-28T19:48:55.469771+00:00"
+    "timestamp": "2026-05-28T19:59:24.618514+00:00"
 }
