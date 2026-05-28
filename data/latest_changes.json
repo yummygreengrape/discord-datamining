@@ -1,5 +1,5 @@
 {
-    "build_hash": "aebb5c3d54118635ea06527bad0e563bbabf8f6c",
+    "build_hash": "607fd68aa64accdec6eb3566e8af97343f0f7de9",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "SGBDnu": "You're in Early",
+                "cMgegQ": "Frames are profile borders that complete your look. Nitro members get early access. Find yours in the Shop."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-28T17:54:42.073604+00:00"
+    "timestamp": "2026-05-28T18:05:07.026870+00:00"
 }
