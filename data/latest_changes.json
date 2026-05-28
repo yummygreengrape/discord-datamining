@@ -1,23 +1,12 @@
 {
-    "build_hash": "32b139cb5b358eff1e6ddc798cb8006ea217ad31",
+    "build_hash": "36dfdd75954713854e5c25ffbb5e99b5660ccd2f",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-gifting-badge",
-            "kind": "user",
-            "timestamp": "2026-05-28T15:46:30Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -30,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-28T15:51:24.312497+00:00"
+    "timestamp": "2026-05-28T16:11:55.988401+00:00"
 }
