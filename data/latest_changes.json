@@ -1,5 +1,5 @@
 {
-    "build_hash": "6932399e5da270553479e4679136dfcbd9affbcd",
+    "build_hash": "740b60dc754309f30b14613294e4c3331c863176",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,41 +9,8 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/GM1bA": "Room Size (m²)",
-                "/ZoKQI": "Spread",
-                "9qCMXb": "Spatial Audio is not supported by this client",
-                "CMFya4": "Placement Mode",
-                "EOmtMO": "Arc Angle",
-                "EWQJcc": "Spatial Audio",
-                "FCvOS0": "Spatial Blend",
-                "FbPuig": "Arc Angle in degrees",
-                "Go69Wz": "Line placement",
-                "HlbWSY": "Reset to Defaults",
-                "LDP0hu": "Spacing in meters",
-                "LGDPhA": "[FOR INTERNAL USE ONLY] Enable spatial audio",
-                "Q5EMQe": "Columns",
-                "U9PON6": "Manual placement",
-                "Wmv386": "Manual",
-                "chrbRg": "You",
-                "dYyo3h": "Open spatial audio settings",
-                "fxMbmH": "Grid placement",
-                "g8+1Gb": "Arc placement",
-                "gtmo6U": "Enable spatial audio",
-                "i4BAoc": "Distance",
-                "jZlI6g": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "k21Ys4": "Arc",
-                "l5XHLy": "Room Size in square meters",
-                "lGiQKa": "Spatial audio options",
-                "lxrCwG": "Spacing (m)",
-                "nVAKlB": "Grid",
-                "p/J17q": "Enabled",
-                "xwwX9a": "Line"
-            },
-            "deleted": {
-                "KDh9Z0": "Spatial Audio",
-                "UGmjMQ": "Spatial Audio is not supported by this client"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -52,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-28T01:14:49.050495+00:00"
+    "timestamp": "2026-05-28T01:25:13.162369+00:00"
 }
