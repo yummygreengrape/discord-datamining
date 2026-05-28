@@ -1,5 +1,5 @@
 {
-    "build_hash": "f3be5cfd99a1894bb3a73fc87b51548857e6520f",
+    "build_hash": "685347cb95652416bb4d97a7dc9096dd4bf004e4",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,8 +9,13 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "HUDkvK": "Spatial Audio Options",
+                "kYv9DM": "Fields marked $[nitroIcon](nitroIconHook) are exclusive to Nitro."
+            },
+            "deleted": {
+                "lGiQKa": "Spatial audio options"
+            },
             "modified": {}
         },
         "ko": {
@@ -19,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-28T19:07:28.194981+00:00"
+    "timestamp": "2026-05-28T19:17:50.388582+00:00"
 }
