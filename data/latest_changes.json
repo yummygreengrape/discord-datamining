@@ -1,5 +1,5 @@
 {
-    "build_hash": "4d20bd95c4964a6cf2821954ff0b17d3a9f4fa20",
+    "build_hash": "95cfdfe7596b87c539ed9acd7cf3a33b7bb4df71",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,27 +10,8 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "/mEbGf": "Description",
-                "0s2ICk": "Add a \"{noMicTagName}\" tag to this channel to enable this toggle",
-                "DxwBMf": "Create a space to invite others.",
-                "EBSaL4": "Link Account",
-                "G91SYQ": "You can start a call that others can join",
-                "LFHDVw": "Post Voice Chat",
-                "QwW8zd": "Create Post",
-                "SU/IAE": "Add more detail about your game session",
-                "UHF2Zn": "Link your account so players can see your squad's open spots and request to join!",
-                "Xd2NFi": "Voice Chat",
-                "h/GwWL": "Game Invites",
-                "tOsHsu": "Create post",
-                "yoIAe/": "Add tags for vibes and what you’re looking for"
-            },
-            "modified": {
-                "q5M7HV": {
-                    "new_value": "Miscellaneous",
-                    "old_value": "Other"
-                }
-            }
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -38,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-28T23:05:55.546421+00:00"
+    "timestamp": "2026-05-28T23:16:17.954052+00:00"
 }
