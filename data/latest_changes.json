@@ -1,5 +1,5 @@
 {
-    "build_hash": "22aa47417412d3776d4c4469782935f1a24e3b54",
+    "build_hash": "822a31e355c861d885b811060c5bd6247c5cdc00",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,10 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Q9zFy9": "This server has its own theme",
-                "XLpBLj": "You can view the server's theme while you're here, or prioritize your own theme by default."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-28T00:12:49.694449+00:00"
+    "timestamp": "2026-05-28T00:23:11.749057+00:00"
 }
