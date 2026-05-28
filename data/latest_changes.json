@@ -1,5 +1,5 @@
 {
-    "build_hash": "eec0fb7c867d8ae150491b32a72d004e26abf195",
+    "build_hash": "a6b3770d6e910ecbbea5a763cdbac06c63494b3d",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "8DfADq": "Remove Profile Frame",
+                "A0pzWn": "Reset Profile Frame"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-28T14:39:43.728505+00:00"
+    "timestamp": "2026-05-28T14:50:06.782777+00:00"
 }
