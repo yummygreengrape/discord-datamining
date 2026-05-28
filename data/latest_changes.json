@@ -1,15 +1,30 @@
 {
-    "build_hash": "5522c25104e9522d448f1c9ff935a637992b972c",
+    "build_hash": "178161e85b484efbe4a13375e4c9c2e072fd1c53",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-gdop-v2-upsell",
+            "kind": "user",
+            "timestamp": "2026-05-28T21:27:33Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "9hfy3A": "Share your rank, achievements, and stats on your profile",
+                "HMWL9c": "Show off your game stats"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-28T22:14:11.525353+00:00"
+    "timestamp": "2026-05-28T22:24:41.721201+00:00"
 }
