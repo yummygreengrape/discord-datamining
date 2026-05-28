@@ -1,29 +1,24 @@
 {
-    "build_hash": "822656a612ff247a85d74a9dfae7d34fb8c2e02c",
+    "build_hash": "bb57df00dbb05a873dccadb7e068fcc547e52028",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-bounty-stale-refresh-quest-home",
-            "kind": "user",
-            "timestamp": "2026-05-28T18:16:50Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "AXiE0i": "Set per-server pronouns"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "YcDKr8": {
+                    "new_value": "Set a per-server nickname",
+                    "old_value": "Add server nickname"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -31,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-28T18:25:55.404364+00:00"
+    "timestamp": "2026-05-28T18:36:18.300568+00:00"
 }
