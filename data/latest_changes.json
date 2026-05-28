@@ -1,30 +1,7 @@
 {
-    "build_hash": "88b0f7f55b925030d8a9d80ed63f82e3e078209f",
+    "build_hash": "c8491064c1740a26dfaa119b6422fcc3cadbbbd2",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-storefront-rust-launch",
-            "kind": "user",
-            "timestamp": "2026-05-28T14:04:41Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-slayer-storefront-pdp-redesign",
-            "kind": "user",
-            "timestamp": "2026-05-28T14:08:44Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -33,17 +10,7 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "2FKQ2n": "Buy it on Discord.",
-                "5aC9+e": "Treat your squad",
-                "7mIXs6": "New wipe, new gear. Save 20% off through May 21st.",
-                "C+RsW7": "Save 20%, Only on Discord.",
-                "IraH2Q": "{discountOfferAmount}% Off",
-                "JN38wW": "Get it in Rust.",
-                "RMafGC": "Give Rust items to friends right from Discord. No wrapping required.",
-                "WBMEcr": "Visit the Rust Shop",
-                "me6trO": "Shop for Rust items on Discord and equip them instantly in game."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -52,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-28T14:08:48.997061+00:00"
+    "timestamp": "2026-05-28T14:19:13.074735+00:00"
 }
