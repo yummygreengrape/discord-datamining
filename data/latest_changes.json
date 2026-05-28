@@ -1,17 +1,27 @@
 {
-    "build_hash": "91ed948301b877adc0749f629925f6fa3e725ab2",
+    "build_hash": "822656a612ff247a85d74a9dfae7d34fb8c2e02c",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-bounty-stale-refresh-quest-home",
+            "kind": "user",
+            "timestamp": "2026-05-28T18:16:50Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "xIWGxu": "{count, plural, =0 {No results found} one {# result found} other {# results found}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -21,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-28T18:15:29.982174+00:00"
+    "timestamp": "2026-05-28T18:25:55.404364+00:00"
 }
