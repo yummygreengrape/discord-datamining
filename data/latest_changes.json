@@ -1,5 +1,5 @@
 {
-    "build_hash": "b920ea13a88be489fcbc7802f8b10cd2807140d9",
+    "build_hash": "5aabbd264823b7d1224afe1f552f5411a9a5fdb2",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,7 +10,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "r8BzFT": "View {gameTitle} promotional content"
+                "bK5N8u": "Quest filters reset. Showing all quests."
             },
             "deleted": {},
             "modified": {}
@@ -21,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T03:34:59.245432+00:00"
+    "timestamp": "2026-05-29T03:55:30.284837+00:00"
 }
