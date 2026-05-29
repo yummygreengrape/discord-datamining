@@ -1,5 +1,5 @@
 {
-    "build_hash": "62c497fb82a02f5d25993d23b3a24eeac2152152",
+    "build_hash": "2299e39e4ac7476c5fa00ef1aa1822c1c81c7328",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,13 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "LPOzxB": "This app contains age-restricted content and will not be displayed.",
+                "NIZyKq": "This app contains age-restricted content and will not be displayed in spaces that aren't marked as age-restricted.",
+                "O9MiXY": "Nitro marketing sections",
+                "TfxqUO": "Payment progress",
+                "bZBN64": "Application"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T01:52:08.423239+00:00"
+    "timestamp": "2026-05-29T03:13:36.273408+00:00"
 }
