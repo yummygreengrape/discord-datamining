@@ -1,5 +1,5 @@
 {
-    "build_hash": "355ff1f6ba4f6dd77b270331f2ac22bd3c7ba2e2",
+    "build_hash": "c7b0bea9974a84da63504dec17168cad195202b6",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "LPOzxB": "This app contains age-restricted content and will not be displayed.",
+                "NIZyKq": "This app contains age-restricted content and will not be displayed in spaces that aren't marked as age-restricted.",
+                "bZBN64": "Application"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T00:39:15.380731+00:00"
+    "timestamp": "2026-05-29T00:49:37.776821+00:00"
 }
