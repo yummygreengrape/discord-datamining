@@ -1,5 +1,5 @@
 {
-    "build_hash": "0d27f7a4dec1a203cf7c266cf4e5b67619082cdb",
+    "build_hash": "45fa13254ffd3947e75f1650a55537b536a211f0",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,22 +9,15 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "VMvz3m": "Manage Boosts",
-                "xFVZeU": "Boost a server"
-            },
-            "deleted": {
-                "6LHsjg": "Boosting"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "6LHsjg": "부스팅"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T14:15:08.850495+00:00"
+    "timestamp": "2026-05-29T14:55:53.835985+00:00"
 }
