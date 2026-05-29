@@ -1,33 +1,24 @@
 {
-    "build_hash": "be40e3b4c0c6628baad6f02d2fd9995beadd4135",
+    "build_hash": "20ed2b900d362bcb0b678b7844b8b4f043e06b9c",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_GUILDS_THEME",
-            "status": "added",
-            "url": "/guilds/:param/theme"
-        },
-        {
-            "name": "GUILD_THEME",
-            "status": "added",
-            "url": "/guilds/:param/theme"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "vznMVa": "[Link your account]({onClick}) so players can see your squad's open spots!"
-            },
+            "added": {},
             "deleted": {},
             "modified": {
-                "Vfbar/": {
-                    "new_value": "Profile Effect & Frame",
-                    "old_value": "Profile Effect & Frames"
+                "3PujdE": {
+                    "new_value": "Go beyond name and pronouns. Give each server unique banners, themes, decorations, and more with [Nitro]({onClick})",
+                    "old_value": "You can change your display name & pronouns per server. Unlock the ability to customize even more of your per-server profiles with [Nitro]({onClick})"
+                },
+                "bO0TOe": {
+                    "new_value": "Customize more with Nitro",
+                    "old_value": "Customize your name and pronouns now. Change even more with Nitro"
                 }
             }
         },
@@ -37,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T20:46:01.750553+00:00"
+    "timestamp": "2026-05-29T20:56:24.691442+00:00"
 }
