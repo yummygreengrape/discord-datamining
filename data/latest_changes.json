@@ -1,5 +1,5 @@
 {
-    "build_hash": "8209eff3098b79204b67791638e6fc611f448f67",
+    "build_hash": "043a1a42bf2bb23c47f0526a713747d33342a2dc",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "vznMVa": "[Link your account]({onClick}) so players can see your squad's open spots!"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T20:04:17.121758+00:00"
+    "timestamp": "2026-05-29T20:14:39.260014+00:00"
 }
