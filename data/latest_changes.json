@@ -1,86 +1,17 @@
 {
-    "build_hash": "3cfeb4953b1124e02707aeea84c784c363619d5c",
+    "build_hash": "502dfaed73efff0322de1bc6ce1b390d72eadd78",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-clips-gallery-home",
-            "kind": "user",
-            "timestamp": "2026-05-29T21:12:28Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+pgFbW": "Hang tight!",
-                "2+opCy": "You're Connected!",
-                "4FUWIL": "Get {percent, number}% Off Nitro Yearly",
-                "4PWzD7": "In-Game Account",
-                "6FOKAX": "{objective} to unlock **{questReward}** for {duration} and keep it for longer with Nitro!",
-                "8066TK": "{objective} to unlock **{questReward}**. Keep it with Nitro!",
-                "8a7IrV": "Connection entrypoint URL registered",
-                "9cfXek": "Something went wrong",
-                "9iLeL2": "URL configured as {url}",
-                "AGLx00": "Connected game flow:",
-                "C45G4B": "Connected Discord account in {gameTitle}",
-                "CM8LUl": "Web",
-                "HespNQ": "Search clips",
-                "IACEB/": "{objective} to unlock **{questReward}** for {duration}.",
-                "JkyCIO": "Keep your quest going!",
-                "K3ObrU": "Web flow:",
-                "KgYvrZ": "How to Connect",
-                "KoK4J9": "Devtools: {appName}",
-                "NdXW5c": "{objective} to unlock **{questReward}** for {duration}. Keep it with Nitro!",
-                "OEkrCx": "This flow will be used",
-                "PFxxJa": "If your game is running and it can't connect to Discord, try viewing your game's logs to debug",
-                "QA20X3": "View Connection",
-                "S94dzs": "RegisterAuthorizeRequestCallback called and working correctly",
-                "T0zC77": "Connect Now",
-                "Uk4lV5": "Quest completion can take up to 36 hours to confirm. [Learn more]({onLearnMore}) about how this works.",
-                "X8hBDz": "You're connected! Head back to [{gameTitle}]({onClickGameTitle}) and keep your quest going.",
-                "XTzCoo": "{discountedPrice} your first year.",
-                "Z1T4zl": "To continue your quest, connect your Discord account using one of the options below.",
-                "aTULMB": "Auth callback not detected. If you called the function and are still seeing this, check logs for details",
-                "cCvdJy": "Open Game Profile",
-                "dc9w4N": "Play Quest Requirements",
-                "dp0CUb": "Connect Account",
-                "eg0mNa": "Cannot link because no valid linking flows are available",
-                "kxF9br": "SDK connected via RPC",
-                "mAdqf7": "Connect your Discord Account",
-                "nP1hFd": "{objective} to unlock {rewardName}",
-                "nYQyEg": "We hit an error loading this Quest. Refresh your Discord client and try again.",
-                "no+FQS": "The first available linking flow will be used, starting at the top",
-                "okJIPY": "Choose how to connect",
-                "s9r2a1": "Get Connected!",
-                "thO6iA": "{objective} and win **{questReward}**.",
-                "tkIymA": "Unlink",
-                "uG6teD": "Account Successfully Linked",
-                "vDLUD3": "Launch [{gameTitle}]({onClickGameTitle}) and use the button below to learn how to get connected",
-                "vR0zs6": "Account Linking",
-                "w0pN4R": "Link account",
-                "yKwZc2": "Manage account linking",
-                "yqSr9m": "Use the button below to get connected."
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "3PujdE": {
-                    "new_value": "Go beyond name and pronouns. Give each server unique banners, themes, decorations, and more with [Nitro]({onClick})",
-                    "old_value": "You can change your display name & pronouns per server. Unlock the ability to customize even more of your per-server profiles with [Nitro]({onClick})"
-                },
-                "bO0TOe": {
-                    "new_value": "Customize more with Nitro",
-                    "old_value": "Customize your name and pronouns now. Change even more with Nitro"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -88,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T21:38:07.123707+00:00"
+    "timestamp": "2026-05-29T21:48:28.554024+00:00"
 }
