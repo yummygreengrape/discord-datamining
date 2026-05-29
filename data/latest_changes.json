@@ -1,18 +1,7 @@
 {
-    "build_hash": "a0d9a3a9a0a41df12cea0380e3112bada0095dbe",
+    "build_hash": "57d97dcb612bcdb155c003837b1b2203e85065e6",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-friend-request-wave",
-            "kind": "user",
-            "timestamp": "2026-05-29T17:27:32Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -30,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T17:29:30.137925+00:00"
+    "timestamp": "2026-05-29T17:39:52.113643+00:00"
 }
