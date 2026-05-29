@@ -1,5 +1,5 @@
 {
-    "build_hash": "7cbb2b543a4194d2f8db697e824a1242b4238b99",
+    "build_hash": "11e81cd8fbdaaafc369c1e98b7cf40d736b8155a",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,25 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+eE7zX": "This Year",
-                "4NlpHD": "Before {date}",
-                "96vZuU": "After",
-                "9pwQ/F": "{after} – {before}",
-                "BbeVTG": "Show less",
-                "GL51/b": "Before",
-                "Nwj9v0": "Last Year",
-                "Ona/4s": "Show all ({count})",
-                "PtV/Ti": "Yesterday",
-                "ikNKf1": "Auto Clips",
-                "k1FkTL": "After {date}",
-                "s8OcXI": "Clipped with",
-                "tv9apA": "Custom range",
-                "upqksT": "Date",
-                "xfmv7I": "Last 3 Days",
-                "y6qE8s": "Custom",
-                "yOAWWM": "Today"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -37,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T22:29:57.092084+00:00"
+    "timestamp": "2026-05-29T22:40:19.026846+00:00"
 }
