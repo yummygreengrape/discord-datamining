@@ -1,26 +1,51 @@
 {
-    "build_hash": "20ed2b900d362bcb0b678b7844b8b4f043e06b9c",
+    "build_hash": "7eafe6e3c4f8d4b06160aea6b5805b3c6d5a9c8f",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
-    "modified_experiments": [],
+    "modified_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-quest-home-bounties",
+            "kind": "user",
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7",
+                "Variant 8",
+                "Variant 9",
+                "Variant 10",
+                "Variant 11",
+                "Variant 12",
+                "Variant 13",
+                "Variant 14",
+                "Variant 15",
+                "Variant 16"
+            ]
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "4FUWIL": "Get {percent, number}% Off Nitro Yearly",
+                "XTzCoo": "{discountedPrice} your first year."
+            },
             "deleted": {},
-            "modified": {
-                "3PujdE": {
-                    "new_value": "Go beyond name and pronouns. Give each server unique banners, themes, decorations, and more with [Nitro]({onClick})",
-                    "old_value": "You can change your display name & pronouns per server. Unlock the ability to customize even more of your per-server profiles with [Nitro]({onClick})"
-                },
-                "bO0TOe": {
-                    "new_value": "Customize more with Nitro",
-                    "old_value": "Customize your name and pronouns now. Change even more with Nitro"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -28,5 +53,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T20:56:24.691442+00:00"
+    "timestamp": "2026-05-29T21:06:48.538673+00:00"
 }
