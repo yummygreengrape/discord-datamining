@@ -1,5 +1,5 @@
 {
-    "build_hash": "d019d9b76f52654910a5d6dbcdc8f4228816de2d",
+    "build_hash": "6b47ebd773c5de3950aff73cc7baac9842162514",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,12 +9,22 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "JL1QSg": "Removed {username} from group",
-                "iyKU50": "Added {username} to group"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "c/rcUu": {
+                    "new_value": "This item is not redeemable with Orbs.",
+                    "old_value": "This item is not redeemable with Orbs"
+                },
+                "keFvXM": {
+                    "new_value": "Not enough Orbs.",
+                    "old_value": "Not enough Orbs"
+                },
+                "m371Mx": {
+                    "new_value": "Item already owned.",
+                    "old_value": "Item already owned"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +32,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T00:07:57.009788+00:00"
+    "timestamp": "2026-05-29T00:18:19.513989+00:00"
 }
