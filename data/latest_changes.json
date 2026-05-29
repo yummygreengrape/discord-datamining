@@ -1,28 +1,15 @@
 {
-    "build_hash": "547b42d1474d9c6f202b8ca2e5726620e321747e",
+    "build_hash": "5270af69c6246776f82dcdeb1d4943382e6f11cf",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-clips-gallery-home",
-            "kind": "user",
-            "timestamp": "2026-05-29T21:12:28Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "HespNQ": "Search clips"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -32,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T21:17:11.606614+00:00"
+    "timestamp": "2026-05-29T21:27:37.214416+00:00"
 }
