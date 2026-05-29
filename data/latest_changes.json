@@ -1,5 +1,5 @@
 {
-    "build_hash": "20069dab4a4f01bfd4f0b4886516bc37cc824f76",
+    "build_hash": "b920ea13a88be489fcbc7802f8b10cd2807140d9",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "r8BzFT": "View {gameTitle} promotional content"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T03:24:12.082271+00:00"
+    "timestamp": "2026-05-29T03:34:59.245432+00:00"
 }
