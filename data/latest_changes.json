@@ -1,5 +1,5 @@
 {
-    "build_hash": "8b7596cbe6e5f2683ba76d5f4532f543b4765590",
+    "build_hash": "251f85056d9a71e422dadbbac8e5238a5068b50a",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "K0e7M9": "Retry video",
+                "R3aFPe": "Play video",
+                "fTMEUi": "Pause video"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T04:05:53.089161+00:00"
+    "timestamp": "2026-05-29T04:16:15.903270+00:00"
 }
