@@ -1,5 +1,5 @@
 {
-    "build_hash": "7e6e0411da4d797b7dac2b5b7027561168cf9526",
+    "build_hash": "d033b8a32ed3b00e3c8180a5a905154a1344fe23",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "GXmn57": "Preview in Discord"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T05:37:46.864845+00:00"
+    "timestamp": "2026-05-29T06:18:33.799708+00:00"
 }
