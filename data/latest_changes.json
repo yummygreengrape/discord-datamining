@@ -1,5 +1,5 @@
 {
-    "build_hash": "88ac4124ad0711d8a0a0a1eeefb990c10a960313",
+    "build_hash": "f36bdb844c48c24f286bb63e41d7c87b790c18c4",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -11,12 +11,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "Vfbar/": {
-                    "new_value": "Profile Effect & Frame",
-                    "old_value": "Profile Effect & Frames"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -24,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T20:25:00.662188+00:00"
+    "timestamp": "2026-05-29T20:35:32.587615+00:00"
 }
