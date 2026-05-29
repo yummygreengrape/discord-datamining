@@ -1,5 +1,5 @@
 {
-    "build_hash": "6b47ebd773c5de3950aff73cc7baac9842162514",
+    "build_hash": "0617529a8d46ca96c910fc0e90506d4a120c61e3",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -11,20 +11,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "c/rcUu": {
-                    "new_value": "This item is not redeemable with Orbs.",
-                    "old_value": "This item is not redeemable with Orbs"
-                },
-                "keFvXM": {
-                    "new_value": "Not enough Orbs.",
-                    "old_value": "Not enough Orbs"
-                },
-                "m371Mx": {
-                    "new_value": "Item already owned.",
-                    "old_value": "Item already owned"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -32,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T00:18:19.513989+00:00"
+    "timestamp": "2026-05-29T00:28:42.708148+00:00"
 }
