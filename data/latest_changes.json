@@ -1,17 +1,35 @@
 {
-    "build_hash": "f36bdb844c48c24f286bb63e41d7c87b790c18c4",
+    "build_hash": "be40e3b4c0c6628baad6f02d2fd9995beadd4135",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_GUILDS_THEME",
+            "status": "added",
+            "url": "/guilds/:param/theme"
+        },
+        {
+            "name": "GUILD_THEME",
+            "status": "added",
+            "url": "/guilds/:param/theme"
+        }
+    ],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "vznMVa": "[Link your account]({onClick}) so players can see your squad's open spots!"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "Vfbar/": {
+                    "new_value": "Profile Effect & Frame",
+                    "old_value": "Profile Effect & Frames"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T20:35:32.587615+00:00"
+    "timestamp": "2026-05-29T20:46:01.750553+00:00"
 }
