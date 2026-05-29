@@ -1,17 +1,7 @@
 {
-    "build_hash": "1d8da393cfcdab296c5b8fa82a74986a01cb084f",
+    "build_hash": "f3ee7e64c6ac1749b4f186be337de9365ce7cb22",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2025-10-payment-elements-launch",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -29,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-29T18:41:37.489412+00:00"
+    "timestamp": "2026-05-29T18:51:58.948099+00:00"
 }
