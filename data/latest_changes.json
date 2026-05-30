@@ -1,5 +1,5 @@
 {
-    "build_hash": "d41911045230cb251909bf4d49bdfd4d0a0fcf0f",
+    "build_hash": "9c0dafd6f3ea78821ace951b7f1719136fe9a3b0",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,11 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "7r7op8": "Trying to reorder a pinned channel?",
-                "H8ZQbo": "Unpin Channel",
-                "K82phZ": "Unpin this channel before reordering. Pinning is only for you, but channel order applies to everyone."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-05-30T00:44:03.292203+00:00"
+    "timestamp": "2026-05-30T00:54:25.715342+00:00"
 }
