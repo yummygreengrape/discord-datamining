@@ -1,5 +1,5 @@
 {
-    "build_hash": "14999848941211722a989e2a57e04bb6db17a41a",
+    "build_hash": "0cac31a309d128dda53cd3c23ccb3c9cb7cc71ab",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,35 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+Bi7xh": "Manage your games in Connections",
-                "+Iryf3": "Ignore & Block",
-                "+sXN3T": "Discord can filter out some messages that contain spam. These messages go to your Spam inbox.",
-                "+w5yKk": "Filter all spam",
-                "0ryspy": "Read and respond to DMs directly from game chats.",
-                "3upKU8": "Content Filters",
-                "5gxWrt": "Friend Request Permissions",
-                "BoCjTy": "[Learn more]({learnMoreUrl})",
-                "Cz07t8": "Messaging Permissions",
-                "FEXKsv": "Don't filter spam",
-                "I0oqyF": "Don't filter messages",
-                "IVRPMX": "Don't show any DMs",
-                "Qwuoic": "Spam Filters",
-                "RLRoEy": "Filter messages that come from server members I may not know",
-                "RyvebU": "Messaging in Connected Games",
-                "W8JtfT": "Allow friends from games to send direct messages and invites",
-                "Y5GYcX": "Direct Message (DM) Permissions",
-                "a99KKy": "Let friends from connected games send DMs and invite me to play games, even when the game we play isn't open.",
-                "gP9AzZ": "When I receive message requests...",
-                "gvC6q7": "Allow access to age-restricted commands from apps in DMs",
-                "hOXd45": "Show/hide media in chat, spoiler content",
-                "ihVNdf": "These are settings for games{nameCount} that use Discord to power their social experiences.",
-                "puwSkY": "Automatically filter suspected spam messages",
-                "t6i/jW": "Access age-restricted servers (18+) on iOS devices, after joining them on desktop.",
-                "wTdS6S": "Allow Friend Requests from...",
-                "yAPg6r": "Filter messages from non-friends (Recommended)",
-                "zirUC1": "Allows people 18+ to access commands marked as age-restricted in DMs. Applies to all apps."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -47,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-01T17:14:12.197012+00:00"
+    "timestamp": "2026-06-01T17:24:34.234638+00:00"
 }
