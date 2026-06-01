@@ -1,5 +1,5 @@
 {
-    "build_hash": "096c11fc6790a314ae33ff378200bee213e3c3aa",
+    "build_hash": "8d109b368c2b1b453878defb5343d18e315efdb2",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -11,12 +11,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "jTbTAF": {
-                    "new_value": "**{username}** asked for someone to stream **{game}**.",
-                    "old_value": "**{username}** wants to watch you play **{game}**."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -24,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-01T17:45:02.957758+00:00"
+    "timestamp": "2026-06-01T17:55:24.517141+00:00"
 }
