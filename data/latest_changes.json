@@ -1,5 +1,5 @@
 {
-    "build_hash": "06d9d30c9fc04e2b60504ce6ef3caf3b9dfdf241",
+    "build_hash": "ae71f7917935126c50829d49a5c4c40e99891689",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "mv/nIa": "+{count, plural, one {# more option} other {# more options}}",
+                "t0FTsH": "{createdAt, date, long} · {expiryLabel}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-01T19:59:05.220059+00:00"
+    "timestamp": "2026-06-01T20:19:35.587190+00:00"
 }
