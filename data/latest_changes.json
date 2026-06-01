@@ -1,5 +1,5 @@
 {
-    "build_hash": "6e9c901d80245b0cff1b81aa286778c751b7146a",
+    "build_hash": "43129b6fd3c99eaac2c3aeffdde88dbc778bd6f8",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,18 +10,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "Ra3/93": "Glow"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "Ra3/93": "글로우"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-06-01T21:42:49.758700+00:00"
+    "timestamp": "2026-06-01T21:53:11.064033+00:00"
 }
