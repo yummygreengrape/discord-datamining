@@ -1,23 +1,12 @@
 {
-    "build_hash": "ea84486916cb73b7e23536796122b8294a13c12e",
+    "build_hash": "ab6f957179889e2fc3418977a09be7e9a0e36c2a",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-mana-type-consolidation",
-            "kind": "user",
-            "timestamp": "2026-06-01T20:55:30Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -30,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-01T21:01:20.821394+00:00"
+    "timestamp": "2026-06-01T21:11:42.177751+00:00"
 }
