@@ -1,5 +1,5 @@
 {
-    "build_hash": "de4307967e6cbd04ebd6ed4d8b42f54ded89b79f",
+    "build_hash": "7ef38ee1f16949eac9e4f6bc2c769cc9a2de0c4b",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,13 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0cTvRG": "Open Quests Home",
-                "5WS9pL": "Unlock more tiers by upgrading to Nitro.",
-                "VPu695": "Locked",
-                "qkwSSp": "Upgrade to Nitro to level up this badge.",
-                "uKFeS1": "Upgrade"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-01T19:07:25.917231+00:00"
+    "timestamp": "2026-06-01T19:17:48.664229+00:00"
 }
