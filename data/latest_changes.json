@@ -1,12 +1,22 @@
 {
-    "build_hash": "b33b9000b0708264e11ea0a77a88991d2bb63d24",
+    "build_hash": "57433e0276bf9759a517ce8e6098ff3bdbd6d0c9",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-clips-gallery-home",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -19,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-01T14:41:24.085132+00:00"
+    "timestamp": "2026-06-01T15:42:19.673672+00:00"
 }
