@@ -1,5 +1,5 @@
 {
-    "build_hash": "1e4d14400435e8bb69b19f22c0cfa69c00a8708a",
+    "build_hash": "3479caa98548ff08c2ded8bf8358a055e8184a85",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,9 +9,21 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "1yrXb4": "Come back anytime when you and your crew are ready.",
+                "QnXCe6": "Get Nitro for as low as {pricePerPerson} per person each month.",
+                "YmpvRT": "{premiumGroupProductName} lives here",
+                "ZhPpOu": "Save {percent}% on Nitro Yearly",
+                "luFmt7": "Save on Nitro with your crew",
+                "vmvhN5": "Get Nitro for as low as {pricePerPerson} per person each month. One plan for you and {totalMember} friends."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "VZ8Tvh": {
+                    "new_value": "{regularPrice}/year after your first year",
+                    "old_value": "{regularPrice}/year after first year"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -19,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-01T21:22:02.858055+00:00"
+    "timestamp": "2026-06-01T21:32:24.648243+00:00"
 }
