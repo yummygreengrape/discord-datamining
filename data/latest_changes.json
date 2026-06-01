@@ -1,19 +1,7 @@
 {
-    "build_hash": "c0ff4569ea2677b21e1726aeaa3349776c67ea99",
+    "build_hash": "7741dca41cc3f21e3ddfcb8cb9b4ca3158473202",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-social-layer-storefront-vc-gifting-panel",
-            "kind": "user",
-            "timestamp": "2026-06-01T22:37:25Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -31,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-01T22:44:54.762291+00:00"
+    "timestamp": "2026-06-01T22:55:17.146479+00:00"
 }
