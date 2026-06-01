@@ -1,24 +1,12 @@
 {
-    "build_hash": "1e04d3e6cda758bbdd166cee652dbcabe527c427",
+    "build_hash": "23a8707ae2754d8c258a72a1e515fbaf72677bde",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-post-call-survey-assets",
-            "kind": "user",
-            "timestamp": "2026-06-01T23:28:47Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -31,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-01T23:36:02.860267+00:00"
+    "timestamp": "2026-06-01T23:46:25.565070+00:00"
 }
