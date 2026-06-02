@@ -1,18 +1,7 @@
 {
-    "build_hash": "8cc20b1a20850c6b18a2cdd95ecdaa7a8eefde80",
+    "build_hash": "259551a929deb66f949ea0e2ccbe8987685b5ffd",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-linux-vulkan-capture",
-            "kind": "user",
-            "timestamp": "2026-06-02T00:11:07Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -30,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-02T00:17:33.488613+00:00"
+    "timestamp": "2026-06-02T00:38:03.985681+00:00"
 }
