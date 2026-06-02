@@ -1,5 +1,5 @@
 {
-    "build_hash": "b919436cdc7d21452f791c449dc680fefc37b1d4",
+    "build_hash": "64f956c389211f9befe3e0c97d8e722b43c71ad2",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,7 +9,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+v/1Dk": "Go to Shop"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +21,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-02T17:57:06.549031+00:00"
+    "timestamp": "2026-06-02T18:07:28.998543+00:00"
 }
