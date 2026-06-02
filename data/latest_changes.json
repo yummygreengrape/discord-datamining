@@ -1,25 +1,38 @@
 {
-    "build_hash": "61700e8e00a1be913751bd284f68102467c1dacb",
+    "build_hash": "661a1ff1f3a9c13115298d611aaacb87cffa49df",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-game-mentions-v2",
+            "kind": "user",
+            "timestamp": "2026-06-02T20:57:59Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {
-                "3yHM5i": "Filter messages from server members I may not know",
-                "6DqAp0": "Server members can only send you friend requests from servers where you also allow Direct Messages.",
-                "982I7+": "Filter messages from hub members I may not know"
+                "Hf9fuS": "Game Actions",
+                "yPJ9xr": "Tell this server a bit about yourself"
             },
-            "deleted": {
-                "I0oqyF": "Don't filter messages",
-                "RLRoEy": "Filter messages that come from server members I may not know",
-                "gP9AzZ": "When I receive message requests..."
-            },
-            "modified": {}
+            "deleted": {},
+            "modified": {
+                "1kR88y": {
+                    "new_value": "Mention a game",
+                    "old_value": "Notify users who played a specific game in the last 60 days"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -27,5 +40,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-02T20:53:51.987979+00:00"
+    "timestamp": "2026-06-02T21:04:14.586361+00:00"
 }
