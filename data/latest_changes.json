@@ -1,17 +1,41 @@
 {
-    "build_hash": "5be81fc588553e1d168ecbcab1ef088c32dd5a5a",
+    "build_hash": "9e027a6cefe887ce452dfef1982b161f216f871f",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-12-active-timestamp-styling",
+            "kind": "user",
+            "timestamp": "2026-06-02T23:02:57Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiments": [
         {
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-dont-badge-muted-vcs",
+            "kind": "user",
+            "timestamp": "2026-06-02T22:27:39Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
             "id": "2026-05-dice-roll-slash-command",
             "kind": "user",
+            "timestamp": "2026-06-02T22:40:48Z",
             "treatments": [
                 "Variant 1"
             ]
@@ -20,11 +44,12 @@
     "string_changes": {
         "en": {
             "added": {
+                "3Xph0/": "Not set",
                 "iSbJTZ": "Number of dice to roll (1-{max})",
                 "pV214H": "Number of sides on the die",
                 "reVgOh": "Roll dice (PRE-ALPHA TESTING)",
-                "tmSbYW": "I rolled {count} D{sides} and got bHook{total}!",
-                "uV5JaG": "Roll {count} D{sides}",
+                "tmSbYW": "I rolled {count, plural, one {a} other {#}} D{sides} and got **{total}**!",
+                "uV5JaG": "Roll {count, plural, one {a} other {#}} D{sides}",
                 "x/FIRX": "Rolling...",
                 "xU4pF1": "You rolled {total}!"
             },
@@ -37,5 +62,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-02T22:46:30.779312+00:00"
+    "timestamp": "2026-06-02T23:07:13.854598+00:00"
 }
