@@ -1,12 +1,24 @@
 {
-    "build_hash": "3e138d2dd6925f4008c86517931c9531e4350b60",
+    "build_hash": "cebd1750e8f9b6d6531018873a3a19157d3e0004",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-dont-badge-muted-vcs",
+            "kind": "user",
+            "timestamp": "2026-06-02T22:27:39Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -19,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-02T21:35:06.818789+00:00"
+    "timestamp": "2026-06-02T22:36:04.888686+00:00"
 }
