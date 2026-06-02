@@ -1,11 +1,28 @@
 {
-    "build_hash": "b4c7304a97fe2421d6b610291ede6d7af7cfa374",
-    "deleted_api_endpoints": [],
+    "build_hash": "fde8de329169b71eda8dacf1337661ad27b9da8b",
+    "deleted_api_endpoints": [
+        {
+            "name": "CHANNEL_CONVERSATION",
+            "status": "deleted",
+            "url": "/channels/:param/conversations/:param"
+        }
+    ],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "CHANNEL_CONVERSATION_MESSAGES",
+            "status": "added",
+            "url": "/channels/:param/conversations/:param/messages"
+        },
+        {
+            "name": "ENDPOINT_CHANNELS_CONVERSATIONS_MESSAGES",
+            "status": "added",
+            "url": "/channels/:param/conversations/:param/messages"
+        }
+    ],
     "new_experiments": [],
     "string_changes": {
         "en": {
@@ -19,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-02T18:49:11.218479+00:00"
+    "timestamp": "2026-06-02T18:59:33.472745+00:00"
 }
