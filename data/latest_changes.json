@@ -1,15 +1,52 @@
 {
-    "build_hash": "d49258fc7711c2dca3ecee653732df103a61e501",
+    "build_hash": "48223fdff061df5dca0a82320d95cfb69057c05e",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
-    "modified_experiments": [],
+    "modified_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-new-layout",
+            "kind": "user",
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+Q+bU1": "{amount} left",
+                "1fHSu2": "Monthly spending limit",
+                "2WKfG1": "Spending controls changed",
+                "DjSv82": "Unlimited",
+                "FUu2b0": "Spending blocked",
+                "IFguF2": "Manage how much your teen can spend on Discord each month. Does not apply to subscriptions.",
+                "IWdrfp": "Renews on {date}.",
+                "JZDGJ8": "Disable spending limit",
+                "Q2msVQ": "Spent",
+                "Tk6x4X": "{amount} spent this month. This will block spending until {date}.",
+                "UjTvrz": "Reaction sent!",
+                "YEnpaj": "Off",
+                "gMeekL": "Spending limit",
+                "kGFuGn": "Blocked",
+                "oBkFiL": "Change spending limit",
+                "pfAlRY": "{amount} spent this month.",
+                "xMRO6A": "Set a spending limit"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -19,5 +56,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-02T16:34:30.008002+00:00"
+    "timestamp": "2026-06-02T16:55:08.084395+00:00"
 }
