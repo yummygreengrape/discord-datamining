@@ -1,12 +1,45 @@
 {
-    "build_hash": "1a3a76e3f7c47f6a184ed610e5f5dff15de48a74",
+    "build_hash": "2bffaab737ecb53121bf91eebdbe29819ac9f5c4",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-add-to-dm-updates",
+            "kind": "user",
+            "timestamp": "2026-06-02T23:33:13Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-add-to-dm-customize",
+            "kind": "user",
+            "timestamp": "2026-06-02T23:33:13Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-add-to-dm-title",
+            "kind": "user",
+            "timestamp": "2026-06-02T23:33:13Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -19,5 +52,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-02T23:27:44.557164+00:00"
+    "timestamp": "2026-06-02T23:38:07.217907+00:00"
 }
