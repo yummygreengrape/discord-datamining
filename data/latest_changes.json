@@ -1,5 +1,5 @@
 {
-    "build_hash": "ee8db02401448d23d6169237ca4db2d2d63e5f39",
+    "build_hash": "bee637b24cbb69a2f40d7f42f0edbdb91d511a1f",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,7 +10,9 @@
     "string_changes": {
         "en": {
             "added": {
-                "+v/1Dk": "Go to Shop"
+                "3tVpo8": "You have {days, plural, one {# day} other {# days}} left to get {discountPercentage} off Nitro Yearly",
+                "CAxpzK": "You have {minutes, plural, one {# minute} other {# minutes}} left to get {discountPercentage} off Nitro Yearly",
+                "TXUGPd": "You have {hours, plural, one {# hour} other {# hours}} left to get {discountPercentage} off Nitro Yearly"
             },
             "deleted": {},
             "modified": {}
@@ -21,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-02T18:17:52.905607+00:00"
+    "timestamp": "2026-06-02T18:28:16.808000+00:00"
 }
