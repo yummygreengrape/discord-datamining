@@ -1,7 +1,26 @@
 {
-    "build_hash": "6773b0b8fdb4cb612d04432851a0d63202f1cfac",
+    "build_hash": "48618fd17d3a3976f7787217a7d52760e21936ef",
     "deleted_api_endpoints": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2025-12-orb-redemption-thru-orders",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-orders-dual-write",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
@@ -19,5 +38,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-02T20:12:28.084566+00:00"
+    "timestamp": "2026-06-02T20:22:58.337471+00:00"
 }
