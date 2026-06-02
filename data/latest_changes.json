@@ -1,5 +1,5 @@
 {
-    "build_hash": "7f75670a5a14cb1405d2ec5bf7689bb3af2e504c",
+    "build_hash": "339a3175ee4b5bffcb8b422795dff3a4b4020ddc",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -9,9 +9,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "2BmwgV": "Your purchase is taking longer than expected to process, and will be available shortly."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -21,5 +19,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-02T17:26:14.817315+00:00"
+    "timestamp": "2026-06-02T17:46:45.028994+00:00"
 }
