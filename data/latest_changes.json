@@ -1,5 +1,5 @@
 {
-    "build_hash": "cebd1750e8f9b6d6531018873a3a19157d3e0004",
+    "build_hash": "5be81fc588553e1d168ecbcab1ef088c32dd5a5a",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -8,20 +8,26 @@
     "new_api_endpoints": [],
     "new_experiments": [
         {
-            "experiment_source": "reference_comment",
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
-            "id": "2026-06-dont-badge-muted-vcs",
+            "id": "2026-05-dice-roll-slash-command",
             "kind": "user",
-            "timestamp": "2026-06-02T22:27:39Z",
             "treatments": [
-                "Variant 0",
                 "Variant 1"
             ]
         }
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "iSbJTZ": "Number of dice to roll (1-{max})",
+                "pV214H": "Number of sides on the die",
+                "reVgOh": "Roll dice (PRE-ALPHA TESTING)",
+                "tmSbYW": "I rolled {count} D{sides} and got bHook{total}!",
+                "uV5JaG": "Roll {count} D{sides}",
+                "x/FIRX": "Rolling...",
+                "xU4pF1": "You rolled {total}!"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -31,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-02T22:36:04.888686+00:00"
+    "timestamp": "2026-06-02T22:46:30.779312+00:00"
 }
