@@ -1,5 +1,5 @@
 {
-    "build_hash": "b1b8187ab0755abf928e11995cd5682351d661bb",
+    "build_hash": "06be67583f5769f166395629234a2d40fdbdc129",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,34 +13,37 @@
             "analysis": {
                 "config_notes": [
                     {
-                        "key": "enableRedesign",
-                        "note": "variant별로 달라지는 실험 설정값입니다."
+                        "key": "enabled",
+                        "note": "기능 활성화 여부를 나누는 기본 토글입니다."
                     }
                 ],
-                "focus_area": "클립",
-                "importance": "medium",
-                "summary": "Clips 생성/탐색/미리보기 경험을 조정하는 프론트엔드 실험입니다.",
+                "enabled_variants": [
+                    "1"
+                ],
+                "focus_area": "Desktop Tti Http",
+                "importance": "low",
+                "summary": "실험 config 값 기준으로 기능 활성화와 variant별 파라미터를 나누어 테스트합니다.",
                 "variant_count": 1,
-                "why_it_matters": "게임/음성 콘텐츠를 다시 소비하게 만드는 홈/미리보기 흐름과 연결됩니다."
+                "why_it_matters": "처리군 이름만으로는 알 수 없는 실제 기능 값이 포함되어 있습니다."
             },
             "config_keys": [
-                "enableRedesign"
+                "enabled"
             ],
             "default_config": {
-                "enableRedesign": false
+                "enabled": false
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-06-clips-settings-redesign",
+            "id": "2026-06-desktop-tti-http-cdt",
             "kind": "user",
             "status": "added",
-            "timestamp": "2026-06-03T20:40:53Z",
+            "timestamp": "2026-06-03T20:57:00Z",
             "treatments": [
                 "Variant 1"
             ],
             "variations": {
                 "1": {
-                    "enableRedesign": true
+                    "enabled": true
                 }
             }
         }
@@ -50,53 +53,43 @@
             "analysis": {
                 "config_notes": [
                     {
-                        "key": "enableRedesign",
-                        "note": "variant별로 달라지는 실험 설정값입니다."
+                        "key": "enabled",
+                        "note": "기능 활성화 여부를 나누는 기본 토글입니다."
                     }
                 ],
-                "focus_area": "클립",
-                "importance": "medium",
-                "summary": "Clips 생성/탐색/미리보기 경험을 조정하는 프론트엔드 실험입니다.",
+                "enabled_variants": [
+                    "1"
+                ],
+                "focus_area": "Desktop Tti Http",
+                "importance": "low",
+                "summary": "실험 config 값 기준으로 기능 활성화와 variant별 파라미터를 나누어 테스트합니다.",
                 "variant_count": 1,
-                "why_it_matters": "게임/음성 콘텐츠를 다시 소비하게 만드는 홈/미리보기 흐름과 연결됩니다."
+                "why_it_matters": "처리군 이름만으로는 알 수 없는 실제 기능 값이 포함되어 있습니다."
             },
             "config_keys": [
-                "enableRedesign"
+                "enabled"
             ],
             "default_config": {
-                "enableRedesign": false
+                "enabled": false
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-06-clips-settings-redesign",
+            "id": "2026-06-desktop-tti-http-cdt",
             "kind": "user",
-            "timestamp": "2026-06-03T20:40:53Z",
+            "timestamp": "2026-06-03T20:57:00Z",
             "treatments": [
                 "Variant 1"
             ],
             "variations": {
                 "1": {
-                    "enableRedesign": true
+                    "enabled": true
                 }
             }
         }
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "0Q+pdZ": "Storage",
-                "Kyk1Tp": "Reset to default",
-                "MJ/VsO": "Detects moments worth clipping during your session. Runs entirely on your device.",
-                "TGwzMe": "Capture Settings",
-                "UCzGcQ": "Detects moments worth clipping during your session. Runs entirely on your device. [Learn more]({learnMoreLink})",
-                "XWkJoi": "Autoclipping",
-                "bUtubv": "Edit keybind",
-                "dh7g+S": "Clip any fun or amazing gaming moments by saving them directly to your computer. [Learn more]({learnMoreLink})",
-                "j29uJx": "Enable Autoclipping",
-                "qGgW4M": "Enable Clipping",
-                "wUpqua": "Requires Clipping enabled.",
-                "yQAN6B": "Edit Location"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -106,5 +99,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-03T20:47:16.586590+00:00"
+    "timestamp": "2026-06-03T20:57:39.361073+00:00"
 }
