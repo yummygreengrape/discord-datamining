@@ -1,23 +1,8 @@
 {
-    "build_hash": "981a9341556549dea09df0223e4b9aca04d9d81c",
+    "build_hash": "333c318f82113ee67fb06cd55a223d114885b7a8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-storefront-pricing",
-            "kind": "user",
-            "timestamp": "2026-06-03T21:29:16Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 13,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -27,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "FwjZzr": "Your **{percent, number}% discount will end {discountEndDate, date, short}**. After that you’ll be charged {regularPrice}/month.",
-                "wWp/+6": "{inviteCount, plural, =1 {Couldn't send an invite to {username1}} =2 {Couldn't send invites to {username1} and {username2}} other {Couldn't send invites to {username1}, {username2}, and {remaining, plural, one {# other} other {# others}}}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -40,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-03T22:20:57.136495+00:00"
+    "timestamp": "2026-06-03T22:41:26.039470+00:00"
 }
