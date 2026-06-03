@@ -1,121 +1,8 @@
 {
-    "build_hash": "36c87e8c56edabd63bdc70134f68d0530d8c3261",
+    "build_hash": "1efce5d2f1e2b1ffbe99c8f375710748b800cb81",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "기능 활성화 여부를 나누는 기본 토글입니다."
-                    }
-                ],
-                "enabled_variants": [
-                    "1",
-                    "2",
-                    "3",
-                    "4"
-                ],
-                "focus_area": "Storefront Pricing",
-                "importance": "low",
-                "summary": "실험 config 값 기준으로 기능 활성화와 variant별 파라미터를 나누어 테스트합니다.",
-                "variant_count": 5,
-                "why_it_matters": "처리군 이름만으로는 알 수 없는 실제 기능 값이 포함되어 있습니다."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-04-storefront-pricing",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                },
-                "2": {
-                    "enabled": true
-                },
-                "3": {
-                    "enabled": true
-                },
-                "4": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "기능 활성화 여부를 나누는 기본 토글입니다."
-                    }
-                ],
-                "enabled_variants": [
-                    "1",
-                    "2",
-                    "3",
-                    "4"
-                ],
-                "focus_area": "Storefront Pricing",
-                "importance": "low",
-                "summary": "실험 config 값 기준으로 기능 활성화와 variant별 파라미터를 나누어 테스트합니다.",
-                "variant_count": 5,
-                "why_it_matters": "처리군 이름만으로는 알 수 없는 실제 기능 값이 포함되어 있습니다."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-04-storefront-pricing",
-            "kind": "user",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                },
-                "2": {
-                    "enabled": true
-                },
-                "3": {
-                    "enabled": true
-                },
-                "4": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 13,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -125,11 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "ADD_FRIENDS_TO_DM": "Add Friends to DM",
-                "MEMBER_LIST": "Member List",
-                "NEW_GROUP_DM": "New Group DM"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -139,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-03T21:28:47.920681+00:00"
+    "timestamp": "2026-06-03T21:39:10.082113+00:00"
 }
