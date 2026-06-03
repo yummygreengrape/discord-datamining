@@ -1,5 +1,5 @@
 {
-    "build_hash": "e66d37d8e7b31290029f7491b91b2e1c5c7f67dd",
+    "build_hash": "bd6588f4da87fe86395ac5e56e6731d65e234354",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,13 +9,21 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-orbs-purchase-upsell-banner",
+            "kind": "user",
+            "timestamp": "2026-06-03T23:05:04Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "+W59o5": "We were unable to load your Widgets. Please try again later.",
-                "QR+vBP": "Loading profile"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-03T22:51:46.946093+00:00"
+    "timestamp": "2026-06-03T23:12:16.269422+00:00"
 }
