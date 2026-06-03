@@ -1,5 +1,5 @@
 {
-    "build_hash": "bd6588f4da87fe86395ac5e56e6731d65e234354",
+    "build_hash": "41dd5ed4ce550611caba8f30d95ef10ab4b3c156",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,18 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-orbs-purchase-upsell-banner",
-            "kind": "user",
-            "timestamp": "2026-06-03T23:05:04Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -33,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-03T23:12:16.269422+00:00"
+    "timestamp": "2026-06-03T23:32:46.727112+00:00"
 }
