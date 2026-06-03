@@ -1,16 +1,28 @@
 {
-    "build_hash": "246af955f159ac9300356b9b3cca4381e0312653",
+    "build_hash": "ba614fffde1e4b4b01da6f39aecf0979bf2597b0",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
     "modified_api_endpoints": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-mobile-lurker-server-preview",
+            "kind": "user",
+            "timestamp": "2026-06-03T08:46:37Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {
-                "gCay1w": "See all"
+                "I1yHxc": "You previewed this server, join so you can come back easily."
             },
             "deleted": {},
             "modified": {}
@@ -21,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-03T03:33:21.670435+00:00"
+    "timestamp": "2026-06-03T08:47:25.591444+00:00"
 }
