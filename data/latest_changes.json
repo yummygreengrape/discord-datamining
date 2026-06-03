@@ -1,5 +1,5 @@
 {
-    "build_hash": "d0a37004fb01902399f987991ecaa132bb168833",
+    "build_hash": "8d4f46507c9de57161e6ed14cc833fd74587dc61",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,107 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "discountCTAEnabled",
-                        "note": "variant별로 달라지는 실험 설정값입니다."
-                    },
-                    {
-                        "key": "enabled",
-                        "note": "기능 활성화 여부를 나누는 기본 토글입니다."
-                    }
-                ],
-                "enabled_variants": [
-                    "2"
-                ],
-                "focus_area": "Android Two Week",
-                "importance": "low",
-                "summary": "실험 config 값 기준으로 기능 활성화와 variant별 파라미터를 나누어 테스트합니다.",
-                "variant_count": 2,
-                "why_it_matters": "처리군 이름만으로는 알 수 없는 실제 기능 값이 포함되어 있습니다."
-            },
-            "config_keys": [
-                "discountCTAEnabled",
-                "enabled"
-            ],
-            "default_config": {
-                "discountCTAEnabled": false,
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-android-two-week-trials",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "discountCTAEnabled": true,
-                    "enabled": false
-                },
-                "2": {
-                    "discountCTAEnabled": true,
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "discountCTAEnabled",
-                        "note": "variant별로 달라지는 실험 설정값입니다."
-                    },
-                    {
-                        "key": "enabled",
-                        "note": "기능 활성화 여부를 나누는 기본 토글입니다."
-                    }
-                ],
-                "enabled_variants": [
-                    "2"
-                ],
-                "focus_area": "Android Two Week",
-                "importance": "low",
-                "summary": "실험 config 값 기준으로 기능 활성화와 variant별 파라미터를 나누어 테스트합니다.",
-                "variant_count": 2,
-                "why_it_matters": "처리군 이름만으로는 알 수 없는 실제 기능 값이 포함되어 있습니다."
-            },
-            "config_keys": [
-                "discountCTAEnabled",
-                "enabled"
-            ],
-            "default_config": {
-                "discountCTAEnabled": false,
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-android-two-week-trials",
-            "kind": "user",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "discountCTAEnabled": true,
-                    "enabled": false
-                },
-                "2": {
-                    "discountCTAEnabled": true,
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -121,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-03T17:00:08.546902+00:00"
+    "timestamp": "2026-06-03T17:20:40.004526+00:00"
 }
