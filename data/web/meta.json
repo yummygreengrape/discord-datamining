@@ -1,1 +1,1 @@
-{"build_hash":"d0a689fb640eea8578f400e071076d255b9ed04e","counts":{"apis":424,"experiments":4294,"experiments_by_type":{"apex":1069},"strings":{"en":25600,"ko":23920}},"generated_at":"2026-06-03T12:30:37.622196+00:00","schema_version":4}
+{"build_hash":"d0a689fb640eea8578f400e071076d255b9ed04e","counts":{"apis":424,"experiment_details":411,"experiments":4294,"experiments_by_type":{"apex":1069},"strings":{"en":25600,"ko":23920}},"generated_at":"2026-06-03T12:50:15.302927+00:00","schema_version":5}

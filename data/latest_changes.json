@@ -1,11 +1,14 @@
 {
     "build_hash": "d0a689fb640eea8578f400e071076d255b9ed04e",
     "deleted_api_endpoints": [],
+    "deleted_experiment_details": [],
     "deleted_experiments": [],
-    "extractor_version": 11,
+    "extractor_version": 13,
     "modified_api_endpoints": [],
+    "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
+    "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
@@ -19,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-03T12:30:37.622196+00:00"
+    "timestamp": "2026-06-03T12:50:15.302927+00:00"
 }
