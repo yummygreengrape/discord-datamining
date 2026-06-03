@@ -1,5 +1,5 @@
 {
-    "build_hash": "0968683865c8e1b34ac71111857a11d81b49c7f9",
+    "build_hash": "a6093bd871730439d9086f883888637a4b1ce1dd",
     "deleted_api_endpoints": [],
     "deleted_experiments": [],
     "extractor_version": 11,
@@ -10,25 +10,21 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
-            "modified": {}
-        },
-        "ko": {
-            "added": {
-                "+v/1Dk": "상점으로 가기",
-                "DjSv82": "무제한",
-                "Q2msVQ": "소비",
-                "YEnpaj": "끄기",
-                "kGFuGn": "차단 목록"
+            "deleted": {
+                "jZlI6g": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },
-            "deleted": {},
             "modified": {
-                "QVbF3l": {
-                    "new_value": "친구 요청을 보낼 수 있는 사용자, 그리고 이 사용자가 표시되는 방식을 관리해요.",
-                    "old_value": "친구 요청을 보낼 수 있는 사용자, 그리고 이 사용자가 표시되는 방식을 관리하세요."
+                "LGDPhA": {
+                    "new_value": "[FOR INTERNAL USE ONLY] Enable spatial audio - Stay tuned",
+                    "old_value": "[FOR INTERNAL USE ONLY] Enable spatial audio"
                 }
             }
+        },
+        "ko": {
+            "added": {},
+            "deleted": {},
+            "modified": {}
         }
     },
-    "timestamp": "2026-06-03T00:50:27.550097+00:00"
+    "timestamp": "2026-06-03T01:00:49.195193+00:00"
 }
