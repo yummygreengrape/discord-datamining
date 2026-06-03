@@ -1,5 +1,5 @@
 {
-    "build_hash": "824d30261dbd63c4dcbd9fe6e8da1cf555430411",
+    "build_hash": "442fbcc65420340611bc7c1c8b8c00abcaf3d26c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "v9oC0p": "You already own one or more items in this bundle.",
-                "z2oQtA": "Your {percent, number}% discount will end on your next renewal date, {renewalDate, date, medium}. After that, you'll be charged **{regularPrice}** + applicable taxes, unless cancelled."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-03T19:14:46.984188+00:00"
+    "timestamp": "2026-06-03T19:25:08.905050+00:00"
 }
