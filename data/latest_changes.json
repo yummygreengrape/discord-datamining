@@ -1,5 +1,5 @@
 {
-    "build_hash": "1efce5d2f1e2b1ffbe99c8f375710748b800cb81",
+    "build_hash": "61fc8885ce93f2ffb3843b47f32e05b995e558fa",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -19,8 +19,13 @@
         "ko": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "PF1aT5": {
+                    "new_value": "Logitech G {discountPercentage}% 할인",
+                    "old_value": "Logitech G {discountPercent}% 할인"
+                }
+            }
         }
     },
-    "timestamp": "2026-06-03T21:39:10.082113+00:00"
+    "timestamp": "2026-06-03T21:49:32.921216+00:00"
 }
