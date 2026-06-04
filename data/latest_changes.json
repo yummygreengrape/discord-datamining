@@ -1,5 +1,5 @@
 {
-    "build_hash": "5a3581cf92106ec4c2042b54e4937ef495099ebf",
+    "build_hash": "d1b0bb2fd173942f54334f0f0a202f7491eaab62",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,7 +7,18 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_PARTNER_SDK_APPLICATIONS_STOREFRONT_SKUS_ELIGIBILITY",
+            "status": "added",
+            "url": "/partner-sdk/applications/:param/storefront/skus/:param/eligibility"
+        },
+        {
+            "name": "SOCIAL_LAYER_APPLICATION_STOREFRONT_SKU_ELIGIBILITY_FOR_APPLICATION_ID",
+            "status": "added",
+            "url": "/partner-sdk/applications/:param/storefront/skus/:param/eligibility"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-04T17:51:54.732028+00:00"
+    "timestamp": "2026-06-04T18:02:17.310562+00:00"
 }
