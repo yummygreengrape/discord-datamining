@@ -1,9 +1,9 @@
 {
-    "build_hash": "982bf4f9ef40b36906bced65f157ebaabe28e622",
+    "build_hash": "a82ed8897a6b1da573adb28b7d30a05fedf48748",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
-    "extractor_version": 13,
+    "extractor_version": 15,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
@@ -22,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-04T02:37:33.921223+00:00"
+    "timestamp": "2026-06-04T07:32:15.293680+00:00"
 }
