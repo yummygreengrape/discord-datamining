@@ -1,149 +1,8 @@
 {
-    "build_hash": "03cddb48cb73ddec589e65576165f43b44e0ec50",
+    "build_hash": "5a3581cf92106ec4c2042b54e4937ef495099ebf",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_effects": [
-                    "기본 상태에서는 관련 흐름이 꺼져 있습니다.",
-                    "비교안 0에서는 관련 흐름이 꺼져 있습니다.",
-                    "비교안 1에서는 관련 흐름이 켜집니다."
-                ],
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "기능 활성화 여부를 나누는 기본 토글입니다."
-                    }
-                ],
-                "detailed_summary": "Discord 클라이언트에서 Shop Bundle Card 관련 화면이나 사용자 흐름을 조정하는 실험으로 보입니다. 현재 청크에서는 정확한 UI 사용처가 제한적으로만 확인되어, 실제 화면 경로가 확인되기 전까지는 조심스러운 해석으로 봐야 합니다. 기본 상태에서는 관련 흐름이 꺼져 있습니다. 비교안 0에서는 관련 흐름이 꺼져 있습니다. 비교안 1에서는 관련 흐름이 켜집니다.",
-                "enabled_variants": [
-                    "1"
-                ],
-                "focus_area": "Shop Bundle Card",
-                "importance": "high",
-                "summary": "Discord 클라이언트에서 Shop Bundle Card 관련 화면이나 사용자 흐름을 조정하는 실험으로 보입니다.",
-                "variant_count": 2,
-                "why_it_matters": "현재 청크에서는 정확한 UI 사용처가 제한적으로만 확인되어, 실제 화면 경로가 확인되기 전까지는 조심스러운 해석으로 봐야 합니다."
-            },
-            "analysis_en": {
-                "config_effects": [
-                    "By default, the related flow stays off.",
-                    "In comparison group 0, the related flow stays off.",
-                    "In comparison group 1, the related flow is enabled."
-                ],
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "Basic toggle that separates whether the feature is enabled."
-                    }
-                ],
-                "detailed_summary": "An experiment that appears to adjust the Shop Bundle Card user flow or screen behavior in the Discord client. The client chunks do not yet show enough surrounding code to describe the exact UI, so this should be treated as a cautious interpretation until a concrete usage path is confirmed. By default, the related flow stays off. In comparison group 0, the related flow stays off. In comparison group 1, the related flow is enabled.",
-                "enabled_variants": [
-                    "1"
-                ],
-                "focus_area": "Shop Bundle Card",
-                "importance": "high",
-                "summary": "An experiment that appears to adjust the Shop Bundle Card user flow or screen behavior in the Discord client.",
-                "variant_count": 2,
-                "why_it_matters": "The client chunks do not yet show enough surrounding code to describe the exact UI, so this should be treated as a cautious interpretation until a concrete usage path is confirmed."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-shop-bundle-card-static-preview",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-06-04T17:39:26Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "analysis": {
-                "config_effects": [
-                    "기본 상태에서는 관련 흐름이 꺼져 있습니다.",
-                    "비교안 0에서는 관련 흐름이 꺼져 있습니다.",
-                    "비교안 1에서는 관련 흐름이 켜집니다."
-                ],
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "기능 활성화 여부를 나누는 기본 토글입니다."
-                    }
-                ],
-                "detailed_summary": "Discord 클라이언트에서 Shop Bundle Card 관련 화면이나 사용자 흐름을 조정하는 실험으로 보입니다. 현재 청크에서는 정확한 UI 사용처가 제한적으로만 확인되어, 실제 화면 경로가 확인되기 전까지는 조심스러운 해석으로 봐야 합니다. 기본 상태에서는 관련 흐름이 꺼져 있습니다. 비교안 0에서는 관련 흐름이 꺼져 있습니다. 비교안 1에서는 관련 흐름이 켜집니다.",
-                "enabled_variants": [
-                    "1"
-                ],
-                "focus_area": "Shop Bundle Card",
-                "importance": "high",
-                "summary": "Discord 클라이언트에서 Shop Bundle Card 관련 화면이나 사용자 흐름을 조정하는 실험으로 보입니다.",
-                "variant_count": 2,
-                "why_it_matters": "현재 청크에서는 정확한 UI 사용처가 제한적으로만 확인되어, 실제 화면 경로가 확인되기 전까지는 조심스러운 해석으로 봐야 합니다."
-            },
-            "analysis_en": {
-                "config_effects": [
-                    "By default, the related flow stays off.",
-                    "In comparison group 0, the related flow stays off.",
-                    "In comparison group 1, the related flow is enabled."
-                ],
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "Basic toggle that separates whether the feature is enabled."
-                    }
-                ],
-                "detailed_summary": "An experiment that appears to adjust the Shop Bundle Card user flow or screen behavior in the Discord client. The client chunks do not yet show enough surrounding code to describe the exact UI, so this should be treated as a cautious interpretation until a concrete usage path is confirmed. By default, the related flow stays off. In comparison group 0, the related flow stays off. In comparison group 1, the related flow is enabled.",
-                "enabled_variants": [
-                    "1"
-                ],
-                "focus_area": "Shop Bundle Card",
-                "importance": "high",
-                "summary": "An experiment that appears to adjust the Shop Bundle Card user flow or screen behavior in the Discord client.",
-                "variant_count": 2,
-                "why_it_matters": "The client chunks do not yet show enough surrounding code to describe the exact UI, so this should be treated as a cautious interpretation until a concrete usage path is confirmed."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-shop-bundle-card-static-preview",
-            "kind": "user",
-            "timestamp": "2026-06-04T17:39:26Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 19,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -153,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "A+qfZ+": "By clicking '{purchaseButtonText}', you are signing up for a recurring subscription. You'll be charged {totalDue} today, and {trialOrDiscountPrice} for {trialDuration}. When your trial ends on {trialOrDiscountEndDate, date, long}, you'll be charged {fullRenewalPrice} plus applicable taxes every {interval} until you cancel. Prices subject to change. We'll send you a reminder before your trial ends. Cancel anytime in your Settings. Paid Services Terms apply. Have questions? Contact us or see our [Subscriptions FAQ]({subscriptionsFaqUrl})."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -165,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-04T17:41:32.293087+00:00"
+    "timestamp": "2026-06-04T17:51:54.732028+00:00"
 }
