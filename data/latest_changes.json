@@ -1,5 +1,5 @@
 {
-    "build_hash": "23f5ca0e90393c8716261d07653af4e6c7945183",
+    "build_hash": "b4339b45d81d2bbba4d5cbcbeb0b39cad0ab7dd6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "X8hBDz": {
+                    "new_value": "Head back to [{gameTitle}]({onClickGameTitle}) and keep your quest going.",
+                    "old_value": "You're connected! Head back to [{gameTitle}]({onClickGameTitle}) and keep your quest going."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-04T14:27:22.432126+00:00"
+    "timestamp": "2026-06-04T14:58:00.362372+00:00"
 }
