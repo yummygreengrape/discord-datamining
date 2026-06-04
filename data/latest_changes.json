@@ -1,5 +1,5 @@
 {
-    "build_hash": "4c9683fa0944b6114fb34ea1d0cee9cd62585d08",
+    "build_hash": "ae852455be3e247ce23d4fcd91de39407ea1c71a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "7vWJmY": "Woohoo! Let’s celebrate our Friendship Anniversary!",
-                "l2pj6b": "[Control who can see your profile info]({helpdeskArticle}) — like your bio and connected accounts. Activity is shared with friends and the servers you've selected in your [Content & Social settings]({onClick})."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-04T22:49:30.092062+00:00"
+    "timestamp": "2026-06-04T23:20:06.975626+00:00"
 }
