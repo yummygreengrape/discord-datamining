@@ -1,0 +1,14 @@
+.git/
+.gitignore
+.env
+.env.*
+AGENTS.md
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+canary/
+data/
+node_modules/
+npm-debug.log*
