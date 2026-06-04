@@ -1,5 +1,5 @@
 {
-    "build_hash": "88e36e3a69a71e618797ac1c7623e21270164f53",
+    "build_hash": "6120fc241ff9c97cb0a238a0e57159e1c59720e9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,89 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "showDeviceFormFactorIndicators",
+                        "note": "variant별로 달라지는 실험 설정값입니다."
+                    }
+                ],
+                "focus_area": "Device Form Factor",
+                "importance": "low",
+                "summary": "실험 config 값 기준으로 기능 활성화와 variant별 파라미터를 나누어 테스트합니다.",
+                "variant_count": 1,
+                "why_it_matters": "처리군 이름만으로는 알 수 없는 실제 기능 값이 포함되어 있습니다."
+            },
+            "config_keys": [
+                "showDeviceFormFactorIndicators"
+            ],
+            "default_config": {
+                "showDeviceFormFactorIndicators": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-device-form-factor-indicators",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-04T00:20:37Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "showDeviceFormFactorIndicators": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "showDeviceFormFactorIndicators",
+                        "note": "variant별로 달라지는 실험 설정값입니다."
+                    }
+                ],
+                "focus_area": "Device Form Factor",
+                "importance": "low",
+                "summary": "실험 config 값 기준으로 기능 활성화와 variant별 파라미터를 나누어 테스트합니다.",
+                "variant_count": 1,
+                "why_it_matters": "처리군 이름만으로는 알 수 없는 실제 기능 값이 포함되어 있습니다."
+            },
+            "config_keys": [
+                "showDeviceFormFactorIndicators"
+            ],
+            "default_config": {
+                "showDeviceFormFactorIndicators": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-device-form-factor-indicators",
+            "kind": "user",
+            "timestamp": "2026-06-04T00:20:37Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "showDeviceFormFactorIndicators": true
+                }
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-orbs-shop-upsell-banner",
+            "kind": "user",
+            "timestamp": "2026-06-04T00:20:37Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +103,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-04T00:03:39.496691+00:00"
+    "timestamp": "2026-06-04T00:24:09.946766+00:00"
 }
