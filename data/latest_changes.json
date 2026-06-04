@@ -1,5 +1,5 @@
 {
-    "build_hash": "54283e256447184287fa84498c1abc555f203567",
+    "build_hash": "2a90e87f0d5bc46935f95e1fa09818160cc72731",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,125 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "analysis": {
-                "config_effects": [
-                    "기본 상태에서는 값은 mix입니다.",
-                    "비교안 1에서는 값은 auto입니다."
-                ],
-                "config_notes": [
-                    {
-                        "key": "echoReferenceMode",
-                        "note": "variant별로 달라지는 실험 설정값입니다."
-                    }
-                ],
-                "detailed_summary": "Discord 클라이언트에서 Systemwide Echo Cancellation 관련 화면이나 사용자 흐름을 조정하는 실험으로 보입니다. 현재 청크에서는 정확한 UI 사용처가 제한적으로만 확인되어, 실제 화면 경로가 확인되기 전까지는 조심스러운 해석으로 봐야 합니다. 기본 상태에서는 값은 mix입니다. 비교안 1에서는 값은 auto입니다.",
-                "focus_area": "Systemwide Echo Cancellation",
-                "importance": "medium",
-                "summary": "Discord 클라이언트에서 Systemwide Echo Cancellation 관련 화면이나 사용자 흐름을 조정하는 실험으로 보입니다.",
-                "variant_count": 1,
-                "why_it_matters": "현재 청크에서는 정확한 UI 사용처가 제한적으로만 확인되어, 실제 화면 경로가 확인되기 전까지는 조심스러운 해석으로 봐야 합니다."
-            },
-            "analysis_en": {
-                "config_effects": [
-                    "By default, the value is mix.",
-                    "In comparison group 1, the value is auto."
-                ],
-                "config_notes": [
-                    {
-                        "key": "echoReferenceMode",
-                        "note": "Variant-specific experiment setting value."
-                    }
-                ],
-                "detailed_summary": "An experiment that appears to adjust the Systemwide Echo Cancellation user flow or screen behavior in the Discord client. The client chunks do not yet show enough surrounding code to describe the exact UI, so this should be treated as a cautious interpretation until a concrete usage path is confirmed. By default, the value is mix. In comparison group 1, the value is auto.",
-                "focus_area": "Systemwide Echo Cancellation",
-                "importance": "medium",
-                "summary": "An experiment that appears to adjust the Systemwide Echo Cancellation user flow or screen behavior in the Discord client.",
-                "variant_count": 1,
-                "why_it_matters": "The client chunks do not yet show enough surrounding code to describe the exact UI, so this should be treated as a cautious interpretation until a concrete usage path is confirmed."
-            },
-            "config_keys": [
-                "echoReferenceMode"
-            ],
-            "default_config": {
-                "echoReferenceMode": "mix"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-systemwide-echo-cancellation-for-people-who-refuse-to-wear-headphones",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-06-04T16:03:44Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "echoReferenceMode": "auto"
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "analysis": {
-                "config_effects": [
-                    "기본 상태에서는 값은 mix입니다.",
-                    "비교안 1에서는 값은 auto입니다."
-                ],
-                "config_notes": [
-                    {
-                        "key": "echoReferenceMode",
-                        "note": "variant별로 달라지는 실험 설정값입니다."
-                    }
-                ],
-                "detailed_summary": "Discord 클라이언트에서 Systemwide Echo Cancellation 관련 화면이나 사용자 흐름을 조정하는 실험으로 보입니다. 현재 청크에서는 정확한 UI 사용처가 제한적으로만 확인되어, 실제 화면 경로가 확인되기 전까지는 조심스러운 해석으로 봐야 합니다. 기본 상태에서는 값은 mix입니다. 비교안 1에서는 값은 auto입니다.",
-                "focus_area": "Systemwide Echo Cancellation",
-                "importance": "medium",
-                "summary": "Discord 클라이언트에서 Systemwide Echo Cancellation 관련 화면이나 사용자 흐름을 조정하는 실험으로 보입니다.",
-                "variant_count": 1,
-                "why_it_matters": "현재 청크에서는 정확한 UI 사용처가 제한적으로만 확인되어, 실제 화면 경로가 확인되기 전까지는 조심스러운 해석으로 봐야 합니다."
-            },
-            "analysis_en": {
-                "config_effects": [
-                    "By default, the value is mix.",
-                    "In comparison group 1, the value is auto."
-                ],
-                "config_notes": [
-                    {
-                        "key": "echoReferenceMode",
-                        "note": "Variant-specific experiment setting value."
-                    }
-                ],
-                "detailed_summary": "An experiment that appears to adjust the Systemwide Echo Cancellation user flow or screen behavior in the Discord client. The client chunks do not yet show enough surrounding code to describe the exact UI, so this should be treated as a cautious interpretation until a concrete usage path is confirmed. By default, the value is mix. In comparison group 1, the value is auto.",
-                "focus_area": "Systemwide Echo Cancellation",
-                "importance": "medium",
-                "summary": "An experiment that appears to adjust the Systemwide Echo Cancellation user flow or screen behavior in the Discord client.",
-                "variant_count": 1,
-                "why_it_matters": "The client chunks do not yet show enough surrounding code to describe the exact UI, so this should be treated as a cautious interpretation until a concrete usage path is confirmed."
-            },
-            "config_keys": [
-                "echoReferenceMode"
-            ],
-            "default_config": {
-                "echoReferenceMode": "mix"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-systemwide-echo-cancellation-for-people-who-refuse-to-wear-headphones",
-            "kind": "user",
-            "timestamp": "2026-06-04T16:03:44Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "echoReferenceMode": "auto"
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -139,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-04T16:09:10.406297+00:00"
+    "timestamp": "2026-06-04T16:19:33.273003+00:00"
 }
