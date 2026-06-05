@@ -1,5 +1,5 @@
 {
-    "build_hash": "7e5c76c81a9a1e9bb0f44026c3ef7097bf0e4c98",
+    "build_hash": "66d2873c1d030fac33cc43042d4ce3524f2b2304",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,10 +9,26 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-reward-claim",
+            "kind": "user",
+            "timestamp": "2026-06-05T21:39:08Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "YkXGyY": "Buy for {priceString}",
+                "ayzGjQ": "1 Month {premiumGroupProductName}",
+                "mo1Huz": "Pending nameplate",
+                "s9kNKK": "Current nameplate"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +38,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-05T21:50:24.608185+00:00"
+    "timestamp": "2026-06-05T22:00:55.129352+00:00"
 }
