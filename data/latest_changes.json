@@ -1,5 +1,5 @@
 {
-    "build_hash": "90fd75d4805356beae59c6c558bc5bc0e925144e",
+    "build_hash": "846eb042fb523e8d650d0a72eb7f253acd910ac3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,125 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "analysis": {
+                "config_effects": [
+                    "기본 상태에서는 이 선택지가 꺼져 있습니다.",
+                    "비교안 1에서는 이 선택지가 켜집니다."
+                ],
+                "config_notes": [
+                    {
+                        "key": "enableSteamTimeline",
+                        "note": "variant별로 달라지는 실험 설정값입니다."
+                    }
+                ],
+                "detailed_summary": "Discord 클라이언트에서 Magic Scoring 관련 화면이나 사용자 흐름을 조정하는 실험으로 보입니다. 현재 청크에서는 정확한 UI 사용처가 제한적으로만 확인되어, 실제 화면 경로가 확인되기 전까지는 조심스러운 해석으로 봐야 합니다. 기본 상태에서는 이 선택지가 꺼져 있습니다. 비교안 1에서는 이 선택지가 켜집니다.",
+                "focus_area": "Magic Scoring",
+                "importance": "medium",
+                "summary": "Discord 클라이언트에서 Magic Scoring 관련 화면이나 사용자 흐름을 조정하는 실험으로 보입니다.",
+                "variant_count": 1,
+                "why_it_matters": "현재 청크에서는 정확한 UI 사용처가 제한적으로만 확인되어, 실제 화면 경로가 확인되기 전까지는 조심스러운 해석으로 봐야 합니다."
+            },
+            "analysis_en": {
+                "config_effects": [
+                    "By default, this option is turned off.",
+                    "In comparison group 1, this option is turned on."
+                ],
+                "config_notes": [
+                    {
+                        "key": "enableSteamTimeline",
+                        "note": "Variant-specific experiment setting value."
+                    }
+                ],
+                "detailed_summary": "An experiment that appears to adjust the Magic Scoring user flow or screen behavior in the Discord client. The client chunks do not yet show enough surrounding code to describe the exact UI, so this should be treated as a cautious interpretation until a concrete usage path is confirmed. By default, this option is turned off. In comparison group 1, this option is turned on.",
+                "focus_area": "Magic Scoring",
+                "importance": "medium",
+                "summary": "An experiment that appears to adjust the Magic Scoring user flow or screen behavior in the Discord client.",
+                "variant_count": 1,
+                "why_it_matters": "The client chunks do not yet show enough surrounding code to describe the exact UI, so this should be treated as a cautious interpretation until a concrete usage path is confirmed."
+            },
+            "config_keys": [
+                "enableSteamTimeline"
+            ],
+            "default_config": {
+                "enableSteamTimeline": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-magic-scoring",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-05T15:35:26Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableSteamTimeline": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "analysis": {
+                "config_effects": [
+                    "기본 상태에서는 이 선택지가 꺼져 있습니다.",
+                    "비교안 1에서는 이 선택지가 켜집니다."
+                ],
+                "config_notes": [
+                    {
+                        "key": "enableSteamTimeline",
+                        "note": "variant별로 달라지는 실험 설정값입니다."
+                    }
+                ],
+                "detailed_summary": "Discord 클라이언트에서 Magic Scoring 관련 화면이나 사용자 흐름을 조정하는 실험으로 보입니다. 현재 청크에서는 정확한 UI 사용처가 제한적으로만 확인되어, 실제 화면 경로가 확인되기 전까지는 조심스러운 해석으로 봐야 합니다. 기본 상태에서는 이 선택지가 꺼져 있습니다. 비교안 1에서는 이 선택지가 켜집니다.",
+                "focus_area": "Magic Scoring",
+                "importance": "medium",
+                "summary": "Discord 클라이언트에서 Magic Scoring 관련 화면이나 사용자 흐름을 조정하는 실험으로 보입니다.",
+                "variant_count": 1,
+                "why_it_matters": "현재 청크에서는 정확한 UI 사용처가 제한적으로만 확인되어, 실제 화면 경로가 확인되기 전까지는 조심스러운 해석으로 봐야 합니다."
+            },
+            "analysis_en": {
+                "config_effects": [
+                    "By default, this option is turned off.",
+                    "In comparison group 1, this option is turned on."
+                ],
+                "config_notes": [
+                    {
+                        "key": "enableSteamTimeline",
+                        "note": "Variant-specific experiment setting value."
+                    }
+                ],
+                "detailed_summary": "An experiment that appears to adjust the Magic Scoring user flow or screen behavior in the Discord client. The client chunks do not yet show enough surrounding code to describe the exact UI, so this should be treated as a cautious interpretation until a concrete usage path is confirmed. By default, this option is turned off. In comparison group 1, this option is turned on.",
+                "focus_area": "Magic Scoring",
+                "importance": "medium",
+                "summary": "An experiment that appears to adjust the Magic Scoring user flow or screen behavior in the Discord client.",
+                "variant_count": 1,
+                "why_it_matters": "The client chunks do not yet show enough surrounding code to describe the exact UI, so this should be treated as a cautious interpretation until a concrete usage path is confirmed."
+            },
+            "config_keys": [
+                "enableSteamTimeline"
+            ],
+            "default_config": {
+                "enableSteamTimeline": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-magic-scoring",
+            "kind": "user",
+            "timestamp": "2026-06-05T15:35:26Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableSteamTimeline": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +139,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-05T15:28:33.749287+00:00"
+    "timestamp": "2026-06-05T15:38:58.429553+00:00"
 }
