@@ -1,5 +1,5 @@
 {
-    "build_hash": "d573ea868826904bc3335e4796a08c909d7d813d",
+    "build_hash": "a84cbb1931782354fc0c0e314b90a9b5584b34ba",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,12 +9,33 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-application-widget-v2-add-tweak",
+            "kind": "user",
+            "timestamp": "2026-06-04T23:55:11Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "9TX4UT": {
+                    "new_value": "Link your account to show off your game stats",
+                    "old_value": "Connect your account to show off your game stats"
+                },
+                "RNWFOQ": {
+                    "new_value": "[Link your account]({onConnect}) to show off your game stats",
+                    "old_value": "[Connect your account]({onConnect}) to show off your game stats"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +43,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-04T23:51:14.674318+00:00"
+    "timestamp": "2026-06-05T00:01:39.570810+00:00"
 }
