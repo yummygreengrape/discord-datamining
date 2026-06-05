@@ -1,5 +1,5 @@
 {
-    "build_hash": "ccf7375f46336ce168cb29db23013433c7b7340e",
+    "build_hash": "a45844064c4503efdbcacf66318bf3657f8064f1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,12 +9,48 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-application-widget-v2-add-tweak",
+            "kind": "user",
+            "timestamp": "2026-06-04T23:55:11Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+YIqQM": "{count, plural, one {# clip} other {# clips}}",
+                "0QCBug": "{time} ago",
+                "D7HSLJ": "Manual clips",
+                "RQtkop": "More Clips",
+                "eRrt7X": "{count, plural, one {# autoclip} other {# autoclips}}",
+                "kIqbb/": "Type",
+                "lscwjQ": "All clips",
+                "pqk9U0": "View More",
+                "xrOIkz": "Autoclips",
+                "zfTWDE": "Recent Clips"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "9TX4UT": {
+                    "new_value": "Link your account to show off your game stats",
+                    "old_value": "Connect your account to show off your game stats"
+                },
+                "RNWFOQ": {
+                    "new_value": "[Link your account]({onConnect}) to show off your game stats",
+                    "old_value": "[Connect your account]({onConnect}) to show off your game stats"
+                },
+                "ikNKf1": {
+                    "new_value": "Autoclips",
+                    "old_value": "Auto Clips"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +58,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-05T00:43:09.889666+00:00"
+    "timestamp": "2026-06-05T01:03:46.387152+00:00"
 }
