@@ -1,5 +1,5 @@
 {
-    "build_hash": "7012116c04f0bf251c9a39345ff999cd310cc277",
+    "build_hash": "721d726b05f675244542730fc619f745c47c782b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "2rwMjL": "{count, plural, one {# new clip} other {# new clips}}",
-                "K77yQe": "Current decoration",
-                "SZPJG4": "Pending decoration"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-05T16:40:31.708613+00:00"
+    "timestamp": "2026-06-05T16:50:57.231839+00:00"
 }
