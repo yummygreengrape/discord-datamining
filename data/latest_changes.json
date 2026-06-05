@@ -1,10 +1,28 @@
 {
-    "build_hash": "f339b426756333461b2608f3f6cfefd74a5506de",
-    "deleted_api_endpoints": [],
+    "build_hash": "7a4c7e7ef3af40679e1352a4fa095c50cd32ed92",
+    "deleted_api_endpoints": [
+        {
+            "name": "ENDPOINT_PARTNER_SDK_GUILDS_APPLICATION_STOREFRONT_SKUS_ELIGIBILITY",
+            "status": "deleted",
+            "url": "/partner-sdk/guilds/:param/application-storefront/skus/:param/eligibility"
+        },
+        {
+            "name": "SOCIAL_LAYER_APPLICATION_STOREFRONT_SKU_ELIGIBILITY_FOR_APPLICATION_ID",
+            "status": "deleted",
+            "url": "/partner-sdk/applications/:param/storefront/skus/:param/eligibility"
+        }
+    ],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 19,
-    "modified_api_endpoints": [],
+    "modified_api_endpoints": [
+        {
+            "name": "SOCIAL_LAYER_APPLICATION_STOREFRONT_SKU_ELIGIBILITY",
+            "old_url": "/partner-sdk/guilds/:param/application-storefront/skus/:param/eligibility",
+            "status": "modified",
+            "url": "/partner-sdk/applications/:param/storefront/skus/:param/eligibility"
+        }
+    ],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
@@ -14,7 +32,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "h/GwWL": {
+                    "new_value": "LFG",
+                    "old_value": "Game Invites"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +45,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-05T18:13:33.592396+00:00"
+    "timestamp": "2026-06-05T18:23:57.025797+00:00"
 }
