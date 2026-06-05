@@ -1,5 +1,5 @@
 {
-    "build_hash": "c60aec8af7a2d7c0679a9cba7fe5b862c383acad",
+    "build_hash": "0cf2ce2647b13ee624aba32014f865e3635776f1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,14 +8,140 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "analysis": {
+                "config_effects": [
+                    "기본 상태에서는 관련 흐름이 꺼져 있습니다.",
+                    "비교안 1에서는 관련 흐름이 켜집니다."
+                ],
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "기능 활성화 여부를 나누는 기본 토글입니다."
+                    }
+                ],
+                "detailed_summary": "Quest Home 레이아웃과 보상/바운티 플로우를 조정하는 실험입니다. 타이머, 반복, 보상량 같은 값이 있어 단순 노출보다 보상 UX 최적화 성격이 큽니다. 기본 상태에서는 관련 흐름이 꺼져 있습니다. 비교안 1에서는 관련 흐름이 켜집니다.",
+                "enabled_variants": [
+                    "1"
+                ],
+                "focus_area": "Quest Home",
+                "importance": "high",
+                "summary": "Quest Home 레이아웃과 보상/바운티 플로우를 조정하는 실험입니다.",
+                "variant_count": 1,
+                "why_it_matters": "타이머, 반복, 보상량 같은 값이 있어 단순 노출보다 보상 UX 최적화 성격이 큽니다."
+            },
+            "analysis_en": {
+                "config_effects": [
+                    "By default, the related flow stays off.",
+                    "In comparison group 1, the related flow is enabled."
+                ],
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "Basic toggle that separates whether the feature is enabled."
+                    }
+                ],
+                "detailed_summary": "An experiment adjusting Quest Home layout and reward/bounty flows. Timer, loop, and reward amount values make this more like reward UX optimization than simple exposure. By default, the related flow stays off. In comparison group 1, the related flow is enabled.",
+                "enabled_variants": [
+                    "1"
+                ],
+                "focus_area": "Quest Home",
+                "importance": "high",
+                "summary": "An experiment adjusting Quest Home layout and reward/bounty flows.",
+                "variant_count": 1,
+                "why_it_matters": "Timer, loop, and reward amount values make this more like reward UX optimization than simple exposure."
+            },
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-reward-claim",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-05T21:39:08Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "analysis": {
+                "config_effects": [
+                    "기본 상태에서는 관련 흐름이 꺼져 있습니다.",
+                    "비교안 1에서는 관련 흐름이 켜집니다."
+                ],
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "기능 활성화 여부를 나누는 기본 토글입니다."
+                    }
+                ],
+                "detailed_summary": "Quest Home 레이아웃과 보상/바운티 플로우를 조정하는 실험입니다. 타이머, 반복, 보상량 같은 값이 있어 단순 노출보다 보상 UX 최적화 성격이 큽니다. 기본 상태에서는 관련 흐름이 꺼져 있습니다. 비교안 1에서는 관련 흐름이 켜집니다.",
+                "enabled_variants": [
+                    "1"
+                ],
+                "focus_area": "Quest Home",
+                "importance": "high",
+                "summary": "Quest Home 레이아웃과 보상/바운티 플로우를 조정하는 실험입니다.",
+                "variant_count": 1,
+                "why_it_matters": "타이머, 반복, 보상량 같은 값이 있어 단순 노출보다 보상 UX 최적화 성격이 큽니다."
+            },
+            "analysis_en": {
+                "config_effects": [
+                    "By default, the related flow stays off.",
+                    "In comparison group 1, the related flow is enabled."
+                ],
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "Basic toggle that separates whether the feature is enabled."
+                    }
+                ],
+                "detailed_summary": "An experiment adjusting Quest Home layout and reward/bounty flows. Timer, loop, and reward amount values make this more like reward UX optimization than simple exposure. By default, the related flow stays off. In comparison group 1, the related flow is enabled.",
+                "enabled_variants": [
+                    "1"
+                ],
+                "focus_area": "Quest Home",
+                "importance": "high",
+                "summary": "An experiment adjusting Quest Home layout and reward/bounty flows.",
+                "variant_count": 1,
+                "why_it_matters": "Timer, loop, and reward amount values make this more like reward UX optimization than simple exposure."
+            },
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-reward-claim",
+            "kind": "user",
+            "timestamp": "2026-06-05T21:39:08Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "mo1Huz": "Pending nameplate",
-                "s9kNKK": "Current nameplate"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +151,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-05T21:29:34.760166+00:00"
+    "timestamp": "2026-06-05T21:39:57.367222+00:00"
 }
