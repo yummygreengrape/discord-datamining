@@ -1,5 +1,5 @@
 {
-    "build_hash": "03d54e1866efbeb392f50e2206ced8437a6b58e8",
+    "build_hash": "c71f723664bec599e4d69794f4d31ce17258db53",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,10 +13,25 @@
     "string_changes": {
         "en": {
             "added": {
-                "ayzGjQ": "1 Month {premiumGroupProductName}"
+                "+Du7ua": "Current profile effect",
+                "1M4m8w": "Pending profile effect",
+                "6goWcz": "Allow friends to receive a push notification when you update your profile.",
+                "F3llsQ": "Share when I update my profile",
+                "ULUspo": "Gifts received",
+                "ayzGjQ": "1 Month {premiumGroupProductName}",
+                "gAG45y": "Unclaimed since {date}",
+                "kDyllq": "Claimed {date}",
+                "mojZZz": "Gifts Received — {count, number}",
+                "nH8vlc": "All gifts received in the last week, including unclaimed.",
+                "o44n/1": "{price} from {username}"
             },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "h/GwWL": {
+                    "new_value": "LFG",
+                    "old_value": "Game Invites"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -24,5 +39,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-05T21:08:40.169823+00:00"
+    "timestamp": "2026-06-05T21:19:11.296596+00:00"
 }
