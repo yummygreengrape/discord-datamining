@@ -1,5 +1,5 @@
 {
-    "build_hash": "a45844064c4503efdbcacf66318bf3657f8064f1",
+    "build_hash": "4591aae0f9f9bd101e70c98df18defdd77821f13",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,54 +9,173 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-application-widget-v2-add-tweak",
-            "kind": "user",
-            "timestamp": "2026-06-04T23:55:11Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+YIqQM": "{count, plural, one {# clip} other {# clips}}",
-                "0QCBug": "{time} ago",
-                "D7HSLJ": "Manual clips",
-                "RQtkop": "More Clips",
-                "eRrt7X": "{count, plural, one {# autoclip} other {# autoclips}}",
-                "kIqbb/": "Type",
-                "lscwjQ": "All clips",
-                "pqk9U0": "View More",
-                "xrOIkz": "Autoclips",
-                "zfTWDE": "Recent Clips"
-            },
-            "deleted": {},
-            "modified": {
-                "9TX4UT": {
-                    "new_value": "Link your account to show off your game stats",
-                    "old_value": "Connect your account to show off your game stats"
-                },
-                "RNWFOQ": {
-                    "new_value": "[Link your account]({onConnect}) to show off your game stats",
-                    "old_value": "[Connect your account]({onConnect}) to show off your game stats"
-                },
-                "ikNKf1": {
-                    "new_value": "Autoclips",
-                    "old_value": "Auto Clips"
-                }
-            }
-        },
-        "ko": {
             "added": {},
             "deleted": {},
             "modified": {}
+        },
+        "ko": {
+            "added": {
+                "+Iryf3": "무시 및 차단",
+                "+eE7zX": "올해",
+                "+pgFbW": "잠깐만요!",
+                "+sXN3T": "Discord는 스팸이 포함된 일부 메시지를 필터링할 수 있습니다. 이 메시지는 스팸 받은 편지함으로 이동합니다.",
+                "+w5yKk": "모든 스팸 필터링",
+                "0Q+pdZ": "저장공간",
+                "0cTvRG": "퀘스트 홈 열기",
+                "0ryspy": "게임 채팅에서 바로 DM을 읽고 답장하세요.",
+                "1tUCAO": "번들에는 아이템 {count}개가 들어있어요",
+                "1yrXb4": "크루와 함께 준비가 되면 언제든지 다시 방문하세요.",
+                "2+opCy": "연결됐어요!",
+                "347DBb": "게임 내 이벤트",
+                "3NdvMK": "이전 번들 아이템",
+                "3RT0Iu": "이미 이 아이템을 구매하신 것 같아요.",
+                "3upKU8": "콘텐츠 필터",
+                "4FUWIL": "Nitro 연간 구독 {percent}% 할인 받기",
+                "4PWzD7": "게임 내 계정",
+                "5WS9pL": "Nitro로 업그레이드하여 더 많은 티어를 잠금 해제하세요.",
+                "5gxWrt": "친구 요청 권한",
+                "6FOKAX": "{objective}하여 bHook{questReward}을(를) {duration} 동안 잠금 해제하세요. Nitro 구독으로 더 오래 유지할 수 있어요!",
+                "6e1ir2": "모바일 앱의 업데이트된 비주얼 디자인을 켜고 끌 수 있어요.",
+                "6nRCFl": "{also}{count}개 게임의 활동을 공유할 수 있어요. {nameCount} 등의 게임이 포함될 수 있어요. 게임별로 공유 범위를 제한할 수 있어요.",
+                "6x49+U": "{tabName} 탭 추가 완료",
+                "7r7op8": "고정된 채널의 순서를 변경하려고 하시나요?",
+                "8066TK": "{objective}하여 bHook{questReward}을(를) 잠금 해제하세요. Nitro 구독으로 유지할 수 있어요!",
+                "9hfy3A": "프로필에 랭크, 업적 및 통계를 공유하세요",
+                "9pwQ/F": "{after} – {before}",
+                "A0FVCV": "온라인 상태가 되면 공유하기",
+                "AXiE0i": "서버별 대명사 설정",
+                "C45G4B": "{gameTitle}에 Discord 계정 연결",
+                "Cz07t8": "메시징 권한",
+                "DfSSdL": "bHook{connectionName} 연결이 bHook{applicationName} 애플리케이션으로 마이그레이션돼요. 계정을 다시 연결해서 모든 프로필 연결을 유지하세요(orbsIconHookHookorbs {orbCount} Orbs도 받을 수 있어요!).",
+                "FEXKsv": "스팸 필터링하지 않음",
+                "GXmn57": "Discord에서 미리 보기",
+                "HMWL9c": "내 게임 통계 자랑하기",
+                "HespNQ": "클립 검색",
+                "IACEB/": "{objective}하여 bHook{questReward}을(를) {duration} 동안 잠금 해제하세요.",
+                "IVRPMX": "DM을 표시하지 않음",
+                "JL1QSg": "그룹에서 {username} 님 제거 완료",
+                "JkyCIO": "퀘스트를 계속 진행해요!",
+                "K0e7M9": "영상 다시 시도",
+                "K82phZ": "순서를 변경하기 전에 이 채널의 고정을 해제하세요. 고정은 나에게만 적용되지만 채널 순서는 모든 사람에게 적용돼요.",
+                "KgYvrZ": "연결 방법",
+                "Kyk1Tp": "기본값으로 재설정",
+                "LPOzxB": "이 앱에는 연령 제한 콘텐츠가 포함되어 있으므로 표시되지 않습니다.",
+                "Mf0720": "서버별 제어 기능을 찾고 계신가요? 서버로 이동하여 서버 이름 옆의 드롭다운 메뉴를 선택한 다음 privacySettingsHookHookbHook개인정보 보호 설정을 선택하세요. 해당 서버에 대해서만 활동 참여를 켜거나 끌 수 있습니다.",
+                "NB5DFD": "그룹 메시지에 초대",
+                "NIZyKq": "이 앱에는 연령 제한 콘텐츠가 포함되어 있으며, 연령 제한이 표시되지 않은 공간에는 표시되지 않습니다.",
+                "NdXW5c": "{objective}하여 bHook{questReward}을(를) {duration} 동안 잠금 해제하세요. Nitro 구독으로 유지할 수 있어요!",
+                "Nwj9v0": "작년",
+                "O9MiXY": "Nitro 마케팅 섹션",
+                "OYYY6q": "내가 사용하는 게임 및 연결된 앱의 활동 정보를 볼 수 있는 사람을 설정해요.",
+                "Q9zFy9": "이 서버에는 고유한 테마가 있습니다",
+                "QnXCe6": "1인당 월 최저 {pricePerPerson}에 Nitro를 이용해 보세요.",
+                "Qwuoic": "스팸 필터",
+                "R3aFPe": "영상 플레이",
+                "RYIeOX": "다음 번들 아이템",
+                "RfkLDs": "새 코드 발급까지 남은 시간:",
+                "RyvebU": "연결된 게임에서 메시지 보내기",
+                "T0zC77": "지금 연결하기",
+                "TCFNZ/": "첫해 {discountedPrice}",
+                "TfxqUO": "결제 진행 상황",
+                "Uk4lV5": "퀘스트 완료가 확인되기까지 최대 36시간이 걸릴 수 있습니다. 작동 방식에 대해 [자세히 알아보세요]({onLearnMore}).",
+                "VPu695": "잠김",
+                "W8JtfT": "게임 내 친구가 다이렉트 메시지와 초대를 보낼 수 있도록 허용",
+                "WmsPis": "공유할 활동",
+                "XLpBLj": "여기에 있는 동안 서버 테마를 보거나 기본적으로 내 테마를 우선 사용할 수도 있어요.",
+                "XTzCoo": "첫해 가격 {discountedPrice}.",
+                "Y5GYcX": "다이렉트 메시지(DM) 권한",
+                "YmpvRT": "{premiumGroupProductName}이(가) 여기 있어요",
+                "Z1T4zl": "퀘스트를 계속하려면 아래 옵션 중 하나를 사용하여 Discord 계정을 연결하세요.",
+                "ZhPpOu": "Nitro 연정액 {percent}% 할인",
+                "a99KKy": "플레이하는 게임이 열려 있지 않을 때도 연결된 게임의 친구가 DM을 보내고 게임에 초대할 수 있도록 허용해요.",
+                "aUTlph": "이후 연 {regularPrice}.",
+                "bK5N8u": "퀘스트 필터가 초기화되었어요. 모든 퀘스트를 표시해요.",
+                "bTC23D": "ㅋㅋㅋ",
+                "dc9w4N": "플레이 퀘스트 요구 조건",
+                "fTMEUi": "영상 일시 정지",
+                "gvC6q7": "DM에서 앱의 연령 제한 명령어 액세스 허용",
+                "hOXd45": "채팅의 미디어, 스포일러 콘텐츠 표시/숨기기",
+                "ihVNdf": "이 설정은 Discord를 활용하여 소셜 경험을 제공하는 {nameCount}}}으로 준비했어요.",
+                "iyKU50": "그룹에 {username} 님 추가 완료",
+                "j6hZyM": "프로필 테두리를 기본값으로 초기화해요",
+                "kIqbb/": "종류",
+                "kYv9DM": "nitroIconHookHooknitroIcon으로 표시된 필드는 Discord Nitro 전용이에요.",
+                "luFmt7": "동료들과 함께 Nitro 요금을 절약하세요",
+                "mAdqf7": "Discord 계정 연결",
+                "mYNXed": "연간 구독 {percent}% 할인",
+                "nP1hFd": "{objective}하여 {rewardName} 잠금 해제",
+                "nYQyEg": "이 퀘스트를 로드하는 중 오류가 발생했습니다. Discord 클라이언트를 새로 고친 다음 다시 시도해 주세요.",
+                "okJIPY": "연결 방법 선택",
+                "pqk9U0": "더 보기",
+                "puwSkY": "의심되는 스팸 메시지 자동 필터링",
+                "qGgW4M": "클립 기능 활성화",
+                "qkwSSp": "Nitro로 업그레이드하여 이 배지의 레벨을 올리세요.",
+                "r8BzFT": "{gameTitle} 행사 콘텐츠 보기",
+                "s3amTp": "신규 모바일 디자인",
+                "s8OcXI": "함께 클립된 사용자",
+                "s9r2a1": "연결하세요!",
+                "t6i/jW": "데스크톱에서 연령 제한 서버(18세 이상)에 참가한 후 iOS 기기에서 해당 서버에 액세스하세요.",
+                "thO6iA": "{objective}하고 bHook{questReward}을(를) 획득하세요.",
+                "tv9apA": "사용자 지정 기간",
+                "uGDpgH": "일부 게임에서는 다른 사용자가 내 활동을 볼 때 내가 플레이 중인 게임에 참여할 수 있도록 허용합니다.",
+                "v5WSns": "{percent}% 할인",
+                "vDLUD3": "[{gameTitle}]({onClickGameTitle})을(를) 실행하고 아래 버튼을 눌러 연결하는 방법을 알아보세요",
+                "vHX6RG": "내가 온라인 상태가 될 때 친구가 푸시 알림을 받을 수 있도록 허용합니다.",
+                "vTTkFF": "공유된 순간",
+                "vmvhN5": "1인당 월 최저 {pricePerPerson}에 Nitro를 이용해 보세요. 나와 친구 {totalMember}명을 위한 단일 플랜이에요.",
+                "wTdS6S": "다음에 대한 친구 요청 허용...",
+                "xIWGxu": "{count}",
+                "xfmv7I": "최근 3일",
+                "yAPg6r": "친구가 아닌 사용자의 메시지 필터링(권장)",
+                "yPJ9xr": "이 서버에 자신을 소개하세요",
+                "ymulT+": "활동을 공유할 대상",
+                "yqSr9m": "아래 버튼을 눌러 연결하세요.",
+                "zHeo07": "새로운 소식 미디어",
+                "zirUC1": "만 18세 이상 사용자가 DM에서 연령 제한으로 분류되는 명령어에 액세스할 수 있게 돼요. 모든 앱에 적용돼요."
+            },
+            "deleted": {},
+            "modified": {
+                "3PujdE": {
+                    "new_value": "이름과 대명사를 넘어서세요. [Nitro]({onClick})로 각 서버에 고유한 배너, 테마, 장식 등을 추가해 보세요",
+                    "old_value": "서버별로 표시 이름과 대명사를 변경할 수 있습니다. [Nitro]({onClick})를 통해 서버별 프로필을 더욱 다채롭게 맞춤 설정할 수 있는 기능을 잠금 해제해 보세요."
+                },
+                "7cmcJI": {
+                    "new_value": "프로필을 보러 오거나 DM을 보내러 온 상대의 시선을 사로잡으세요.",
+                    "old_value": "서버, DM 등 프로필이 표시되는 모든 공간에서 시선을 사로잡으세요."
+                },
+                "96vZuU": {
+                    "new_value": "이전",
+                    "old_value": "이후"
+                },
+                "GL51/b": {
+                    "new_value": "이후",
+                    "old_value": "이전"
+                },
+                "VZ8Tvh": {
+                    "new_value": "첫해 {regularPrice}, 이후 연 {regularPrice}",
+                    "old_value": "첫해 이후 매년 {regularPrice}"
+                },
+                "YcDKr8": {
+                    "new_value": "서버별 별명 설정",
+                    "old_value": "서버 별명 추가"
+                },
+                "bO0TOe": {
+                    "new_value": "Nitro로 더 많은 것을 마음껏 설정해 보기",
+                    "old_value": "지금 이름과 대명사를 맞춤 설정해 보세요. Nitro를 사용하면 더 많은 항목을 변경할 수 있어요."
+                },
+                "c/rcUu": {
+                    "new_value": "이 아이템은 Orbs로는 받을 수 없어요",
+                    "old_value": "이 아이템은 Orbs로는 받을 수 없습니다"
+                },
+                "m371Mx": {
+                    "new_value": "이미 보유 중인 아이템이에요",
+                    "old_value": "이미 보유 중인 아이템입니다"
+                }
+            }
         }
     },
-    "timestamp": "2026-06-05T01:03:46.387152+00:00"
+    "timestamp": "2026-06-05T01:54:40.081621+00:00"
 }
