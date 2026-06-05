@@ -1,5 +1,5 @@
 {
-    "build_hash": "fe078020017a2282b2451a984e260ea1f6c0987a",
+    "build_hash": "0c9a592cc71a83f91f2d14bc2e0d36bc70fc16d1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "OvBwPV": "No storefront available",
+                "Sy7D+/": "This shop doesn't have any items yet. Check back later!"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-05T14:06:01.247295+00:00"
+    "timestamp": "2026-06-05T14:36:45.748814+00:00"
 }
