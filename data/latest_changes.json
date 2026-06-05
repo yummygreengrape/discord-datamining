@@ -1,5 +1,5 @@
 {
-    "build_hash": "3d0ce10d01fbca08bb001050b67d33d76d2a734b",
+    "build_hash": "be7d8810ceb605aa48fad90a69701b48ac04afb3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,25 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+YIqQM": "{count, plural, one {# clip} other {# clips}}",
+                "0QCBug": "{time} ago",
+                "D7HSLJ": "Manual clips",
+                "RQtkop": "More Clips",
+                "eRrt7X": "{count, plural, one {# autoclip} other {# autoclips}}",
+                "kIqbb/": "Type",
+                "lscwjQ": "All clips",
+                "pqk9U0": "View More",
+                "xrOIkz": "Autoclips",
+                "zfTWDE": "Recent Clips"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "ikNKf1": {
+                    "new_value": "Autoclips",
+                    "old_value": "Auto Clips"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +38,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-05T00:22:13.228787+00:00"
+    "timestamp": "2026-06-05T00:32:36.464463+00:00"
 }
