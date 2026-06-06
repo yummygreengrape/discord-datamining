@@ -1,4 +1,14 @@
 {
+    "analysis_backfill": {
+        "analysis_source": "codex_weekly_interpretation",
+        "generated_at": "2026-06-06T04:39:48.943087Z",
+        "particle_replacements": 2,
+        "polished_analysis_fields": 194,
+        "polished_generic_entries_at": "2026-06-06T04:41:45.250415Z",
+        "polished_particles_at": "2026-06-06T04:42:33.414664Z",
+        "raw_detail_entries_backfilled": 442,
+        "scope": "all history experiment entries with raw experiment detail fields"
+    },
     "build_hash": "34fd8a659995480be30bc8121e823d704e9befec",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
