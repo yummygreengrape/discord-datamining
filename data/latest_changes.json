@@ -1,13 +1,26 @@
 {
     "analysis_backfill": {
         "analysis_source": "codex_weekly_interpretation",
-        "generated_at": "2026-06-06T04:39:48.943087Z",
-        "particle_replacements": 2,
-        "polished_analysis_fields": 194,
-        "polished_generic_entries_at": "2026-06-06T04:41:45.250415Z",
-        "polished_particles_at": "2026-06-06T04:42:33.414664Z",
-        "raw_detail_entries_backfilled": 442,
-        "scope": "all history experiment entries with raw experiment detail fields"
+        "generated_at": "2026-06-06T05:06:17.601Z",
+        "scope": "weekly evidence-backed cleanup after legacy generic backfill",
+        "removed_legacy_generic_entries": 442,
+        "evidence_backed_experiment_ids": [
+            "2026-05-clips-gallery-home",
+            "2026-05-device-form-factor-indicators",
+            "2026-05-dice-roll-slash-command",
+            "2026-05-game-mentions-v2",
+            "2026-05-mobile-lurker-server-preview",
+            "2026-05-nitro-home-header",
+            "2026-05-use-ad-analytics-interface",
+            "2026-06-add-to-dm-customize",
+            "2026-06-add-to-dm-title",
+            "2026-06-clips-settings-redesign",
+            "2026-06-desktop-tti-http-cdt",
+            "2026-06-dont-badge-muted-vcs",
+            "2026-06-magic-scoring",
+            "2026-06-systemwide-echo-cancellation-for-people-who-refuse-to-wear-headphones"
+        ],
+        "evidence_basis": "local canary Discord client JS chunks"
     },
     "build_hash": "34fd8a659995480be30bc8121e823d704e9befec",
     "deleted_api_endpoints": [],
