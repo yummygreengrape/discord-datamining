@@ -1,5 +1,5 @@
 {
-    "build_hash": "7a9257515ea2ab51f443605abcb1e560052803ec",
+    "build_hash": "a6cfa9c3295b35fdc31e79484dbd642e1b8b9f24",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "4nc7+E": "**{activeQuantity}x** {activeQuantity, plural, one {Server Boost} other {Server Boosts}} - **{rate}** ({pendingQuantity, plural, one {# pending cancellation} other {# pending cancellations}})",
+                "BmaudS": "**{activeQuantity}x** {activeQuantity, plural, one {Server Boost} other {Server Boosts}} - **{rate}** + applicable taxes ({pendingQuantity, plural, one {# pending cancellation} other {# pending cancellations}})",
+                "krRy+d": "**{activeQuantity}x** {activeQuantity, plural, one {Server Boost} other {Server Boosts}} ({pendingQuantity, plural, one {# pending cancellation} other {# pending cancellations}})"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-08T15:54:01.897281+00:00"
+    "timestamp": "2026-06-08T16:14:31.933259+00:00"
 }
