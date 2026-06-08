@@ -1,5 +1,5 @@
 {
-    "build_hash": "d67b911bd804caae404d883a988e9264dbe81190",
+    "build_hash": "9173c47f3d9a1c4321b85be5707f8ae388378936",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,12 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "50J7mj": "Get Orbs monthly with Nitro",
-                "7igrTt": "Get {monthlyOrbsAmount} Orbs every month to spend on new looks in the Shop. Only with Nitro.",
-                "NU5ZId": "{monthlyOrbsAmount} Orbs to get new looks in the Shop, every month.",
-                "xPfigP": "Want some Orbs back?"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-08T21:34:30.125022+00:00"
+    "timestamp": "2026-06-08T21:44:53.821720+00:00"
 }
