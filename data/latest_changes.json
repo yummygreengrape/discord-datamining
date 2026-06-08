@@ -1,5 +1,5 @@
 {
-    "build_hash": "5e28126df6ff0f1397ae00896b33775196710f68",
+    "build_hash": "34cdeac64d857ddd68b57bd5fa3a6b0782f4c932",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "2kAxKM": "Current profile frame loading",
+                "yFeGB5": "Pending profile frame loading"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-08T22:46:52.804174+00:00"
+    "timestamp": "2026-06-08T22:57:15.705303+00:00"
 }
