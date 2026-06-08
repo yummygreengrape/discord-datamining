@@ -1,5 +1,5 @@
 {
-    "build_hash": "ca454560f3cbc4ce2e4c4e5567ea3b4a151c027d",
+    "build_hash": "8863231bbfeb1ea5d0e1e39a43dd0968e2e31e7f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,20 +7,76 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
+    "new_api_endpoints": [],
+    "new_experiment_details": [
         {
-            "name": "ENDPOINT_BILLING_ORDERS_ENTITLEMENTS",
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-private-profiles-strict-gb",
+            "kind": "user",
             "status": "added",
-            "url": "/billing/orders/:param/entitlements"
-        },
-        {
-            "name": "ORDER_ENTITLEMENTS",
-            "status": "added",
-            "url": "/billing/orders/:param/entitlements"
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                },
+                "3": {
+                    "enabled": true
+                }
+            }
         }
     ],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-private-profiles-strict-gb",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                },
+                "3": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -33,5 +89,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-08T21:13:44.775504+00:00"
+    "timestamp": "2026-06-08T21:24:08.021713+00:00"
 }
