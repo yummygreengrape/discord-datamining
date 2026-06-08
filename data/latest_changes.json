@@ -1,12 +1,170 @@
 {
-    "build_hash": "9ea6f2f9845c9b720643a54af64c3496625e6cbd",
+    "build_hash": "bcdc694ad9e8aa88690edf55532d4f3eab32edd0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "ctaOnHover",
+                "useLargeFeaturedTiles",
+                "useNewLayoutWithSearch",
+                "useNewTile"
+            ],
+            "default_config": {
+                "ctaOnHover": false,
+                "useLargeFeaturedTiles": false,
+                "useNewLayoutWithSearch": false,
+                "useNewTile": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-tile-redesign",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": false,
+                    "useNewTile": false
+                },
+                "1": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": false
+                },
+                "2": {
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "3": {
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "4": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "ctaOnHover",
+                "useLargeFeaturedTiles",
+                "useNewLayoutWithSearch",
+                "useNewTile"
+            ],
+            "default_config": {
+                "ctaOnHover": false,
+                "useLargeFeaturedTiles": false,
+                "useNewLayoutWithSearch": false,
+                "useNewTile": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-tile-redesign",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": false,
+                    "useNewTile": false
+                },
+                "1": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": false
+                },
+                "2": {
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "3": {
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "4": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -22,5 +180,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-08T23:49:25.644461+00:00"
+    "timestamp": "2026-06-08T23:59:47.707824+00:00"
 }
