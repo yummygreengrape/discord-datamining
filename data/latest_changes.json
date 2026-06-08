@@ -1,5 +1,5 @@
 {
-    "build_hash": "cef3398cd22650c05d4bb51dc44ab43ad4b19321",
+    "build_hash": "47dceb54069ffcfb8e2e8a9b6793a56cf738ce24",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,22 +9,14 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-notify-friends-on-profile-update",
-            "kind": "user",
-            "timestamp": "2026-06-08T20:24:30Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "d6Rrn6": "Bounty recap",
+                "x0Ffz3": "Check back as more bounties are dropped to you for more Orb rewards.",
+                "xk4BxD": "Back to Bounties"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -34,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-08T20:32:06.945919+00:00"
+    "timestamp": "2026-06-08T20:42:34.606612+00:00"
 }
