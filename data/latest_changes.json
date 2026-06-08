@@ -1,5 +1,5 @@
 {
-    "build_hash": "76679c8c7d27f70a945a7b8c8fd3b4f58624635e",
+    "build_hash": "ca454560f3cbc4ce2e4c4e5567ea3b4a151c027d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,7 +7,18 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_BILLING_ORDERS_ENTITLEMENTS",
+            "status": "added",
+            "url": "/billing/orders/:param/entitlements"
+        },
+        {
+            "name": "ORDER_ENTITLEMENTS",
+            "status": "added",
+            "url": "/billing/orders/:param/entitlements"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-08T21:03:21.657683+00:00"
+    "timestamp": "2026-06-08T21:13:44.775504+00:00"
 }
