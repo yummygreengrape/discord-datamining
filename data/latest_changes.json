@@ -1,5 +1,5 @@
 {
-    "build_hash": "8863231bbfeb1ea5d0e1e39a43dd0968e2e31e7f",
+    "build_hash": "d67b911bd804caae404d883a988e9264dbe81190",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,78 +8,16 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-private-profiles-strict-gb",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                },
-                "2": {
-                    "enabled": true
-                },
-                "3": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-private-profiles-strict-gb",
-            "kind": "user",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                },
-                "2": {
-                    "enabled": true
-                },
-                "3": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "50J7mj": "Get Orbs monthly with Nitro",
+                "7igrTt": "Get {monthlyOrbsAmount} Orbs every month to spend on new looks in the Shop. Only with Nitro.",
+                "NU5ZId": "{monthlyOrbsAmount} Orbs to get new looks in the Shop, every month.",
+                "xPfigP": "Want some Orbs back?"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -89,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-08T21:24:08.021713+00:00"
+    "timestamp": "2026-06-08T21:34:30.125022+00:00"
 }
