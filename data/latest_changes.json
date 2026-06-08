@@ -1,61 +1,8 @@
 {
-    "build_hash": "d22ad21d65ae431348359031547b5fec714f3b6b",
+    "build_hash": "3059631a7ce4fb224913d7aa93d44243ed1e4102",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-rtc-voice-details-refresh",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-06-08T17:29:08Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-rtc-voice-details-refresh",
-            "kind": "user",
-            "timestamp": "2026-06-08T17:29:08Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -75,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-08T17:36:31.211010+00:00"
+    "timestamp": "2026-06-08T18:07:19.734094+00:00"
 }
