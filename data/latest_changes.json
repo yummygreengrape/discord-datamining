@@ -1,5 +1,5 @@
 {
-    "build_hash": "726973955d683ef31239443d213857cc005f56a6",
+    "build_hash": "cef3398cd22650c05d4bb51dc44ab43ad4b19321",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-notify-friends-on-profile-update",
+            "kind": "user",
+            "timestamp": "2026-06-08T20:24:30Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-08T20:21:44.418018+00:00"
+    "timestamp": "2026-06-08T20:32:06.945919+00:00"
 }
