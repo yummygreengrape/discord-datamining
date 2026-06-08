@@ -1,5 +1,5 @@
 {
-    "build_hash": "e8a89854b544d00f508faed05c5180be8b00213c",
+    "build_hash": "c3ad05eae499f5eb5fc833e6714c82fb5ea27b9f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,46 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "A2XnI4": "{fontName} font, {effectName}, {colors}",
-                "keN7ib": "Current banner image",
-                "l/iJSJ": "Pending banner image"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "+Du7ua": {
-                    "new_value": "Current profile effect loading",
-                    "old_value": "Current profile effect"
-                },
-                "1M4m8w": {
-                    "new_value": "Pending profile effect loading",
-                    "old_value": "Pending profile effect"
-                },
-                "FquTfm": {
-                    "new_value": "Theme Primary Color: {colorLabel}",
-                    "old_value": "Primary color: {colorLabel}"
-                },
-                "K77yQe": {
-                    "new_value": "Current decoration loading",
-                    "old_value": "Current decoration"
-                },
-                "SZPJG4": {
-                    "new_value": "Pending decoration loading",
-                    "old_value": "Pending decoration"
-                },
-                "mo1Huz": {
-                    "new_value": "Pending nameplate loading",
-                    "old_value": "Pending nameplate"
-                },
-                "s9kNKK": {
-                    "new_value": "Current nameplate loading",
-                    "old_value": "Current nameplate"
-                },
-                "xOnm4z": {
-                    "new_value": "Theme Accent Color: {colorLabel}",
-                    "old_value": "Accent color: {colorLabel}"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -59,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-08T23:28:24.862303+00:00"
+    "timestamp": "2026-06-08T23:39:02.252534+00:00"
 }
