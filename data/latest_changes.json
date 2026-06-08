@@ -1,20 +1,8 @@
 {
-    "build_hash": "71c99d638fb50b60037c7e75ea38336659c55a75",
+    "build_hash": "d5507ce0cae4dec8d44de7f8844944cd6075da41",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-rtc-voice-details-refresh",
-            "kind": "user",
-            "timestamp": "2026-06-08T17:29:08Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -24,11 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "4nc7+E": "**{activeQuantity}x** {activeQuantity, plural, one {Server Boost} other {Server Boosts}} - **{rate}** ({pendingQuantity, plural, one {# pending cancellation} other {# pending cancellations}})",
-                "BmaudS": "**{activeQuantity}x** {activeQuantity, plural, one {Server Boost} other {Server Boosts}} - **{rate}** + applicable taxes ({pendingQuantity, plural, one {# pending cancellation} other {# pending cancellations}})",
-                "krRy+d": "**{activeQuantity}x** {activeQuantity, plural, one {Server Boost} other {Server Boosts}} ({pendingQuantity, plural, one {# pending cancellation} other {# pending cancellations}})"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -38,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-08T18:17:50.281774+00:00"
+    "timestamp": "2026-06-08T18:28:11.343324+00:00"
 }
