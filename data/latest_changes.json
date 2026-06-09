@@ -1,8 +1,79 @@
 {
-    "build_hash": "eac8cc553c0590bfa8d980512ec34353929136d8",
+    "build_hash": "5f7771ed957768224b764c1805547b5fffb897fe",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "topBarButton",
+                "userStatusMenu"
+            ],
+            "default_config": {
+                "topBarButton": false,
+                "userStatusMenu": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-clips-primary-entry-point",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-06-09T22:41:06Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "1": {
+                    "topBarButton": true,
+                    "userStatusMenu": false
+                },
+                "2": {
+                    "topBarButton": false,
+                    "userStatusMenu": true
+                },
+                "3": {
+                    "topBarButton": true,
+                    "userStatusMenu": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "topBarButton",
+                "userStatusMenu"
+            ],
+            "default_config": {
+                "topBarButton": false,
+                "userStatusMenu": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-clips-primary-entry-point",
+            "kind": "user",
+            "timestamp": "2026-06-09T22:41:06Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "1": {
+                    "topBarButton": true,
+                    "userStatusMenu": false
+                },
+                "2": {
+                    "topBarButton": false,
+                    "userStatusMenu": true
+                },
+                "3": {
+                    "topBarButton": true,
+                    "userStatusMenu": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,15 +83,30 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "0vGRCS": "You're connected! Play [{gameTitle}]({onClickGameTitle}) for {targetMinutes, number} minutes to unlock {rewardNameWithArticle}.",
+                "20NLWC": "Connection Failure",
+                "5ZilMg": "Connect Accounts",
+                "93tEDn": "Connection",
+                "Fo68kU": "This is a Desktop only Play Quest. Play {gameTitle} with your Desktop Client open to track progress.",
+                "Gcmjy/": "Get Started",
+                "TWSB/5": "Select a platform",
+                "XhlPqF": "Select a connection",
+                "qQmNEy": "To continue your quest, connect your Discord account and start playing.",
+                "sI+PPN": "Select account to get started"
+            },
+            "deleted": {
+                "QA20X3": "View Connection"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "QA20X3": "연결 보기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-06-09T22:39:34.985645+00:00"
+    "timestamp": "2026-06-09T22:49:58.383092+00:00"
 }
