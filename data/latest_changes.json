@@ -1,5 +1,5 @@
 {
-    "build_hash": "489321335dcd9365481c1f088b4e29ffd9e0a3ed",
+    "build_hash": "894bc35b7db4740ebc4b0935f4f3175b253d7a02",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,21 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "V3DI1E": "You'll need to use the desktop or web app to make a purchase with your gift card balance.",
-                "YZePWx": "I understand"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "Q9zFy9": {
-                    "new_value": "This server has its own look",
-                    "old_value": "This server has its own theme"
-                },
-                "XLpBLj": {
-                    "new_value": "An admin picked a custom theme for this server. You can use it while you're here, or use your own theme. You can always change this in Settings.",
-                    "old_value": "You can view the server's theme while you're here, or prioritize your own theme by default."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -34,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-09T21:16:13.482847+00:00"
+    "timestamp": "2026-06-09T21:26:37.380437+00:00"
 }
