@@ -1,5 +1,5 @@
 {
-    "build_hash": "ea26974273e60dc1e4fa7e805d2e3ca4d5ba810e",
+    "build_hash": "5520c31096d90d252763402d1773065377cdd382",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -17,10 +17,32 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "3cglst": "Nitro 멤버는 프로필 테두리를 다른 사람들보다 일찍 만나볼 수 있어요. [자세히 알아보기]({articleURL})",
+                "8DfADq": "프로필 테두리 제거",
+                "9wfL34": "Nitro로 미리 구매하세요",
+                "A0pzWn": "프로필 테두리 초기화",
+                "EcaRWt": "선택 사항 {value}",
+                "SGBDnu": "일찍 오셨네요",
+                "cMgegQ": "테두리는 나만의 스타일을 완성하는 프로필 장식입니다. Nitro 멤버는 얼리 액세스로 미리 구매할 수 있어요. 상점에서 내게 꼭 맞는 테두리를 찾아보세요.",
+                "z2oQtA": "{percent}% 할인은 다음 갱신 날짜인 {renewalDate}에 종료돼요. 이후에는 취소하지 않으면 bHook{regularPrice}에 추가로 해당 세금이 합산된 금액이 청구돼요."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "7cmcJI": {
+                    "new_value": "시선을 사로잡는 나만의 프로필을 만들어보세요. 내 프로필은 소중하니까요.",
+                    "old_value": "프로필을 보러 오거나 DM을 보내러 온 상대의 시선을 사로잡으세요."
+                },
+                "MkVbBY": {
+                    "new_value": "시선을 사로잡는 나만의 프로필을 만들어보세요. 내 프로필은 소중하니까요.",
+                    "old_value": "프로필을 보러 오거나 DM을 보내러 온 상대의 시선을 사로잡으세요."
+                },
+                "azn85l": {
+                    "new_value": "시선을 사로잡는 나만의 프로필을 만들어보세요. 내 프로필은 소중하니까요.",
+                    "old_value": "프로필을 보러 오거나 DM을 보내러 온 상대의 시선을 사로잡으세요."
+                }
+            }
         }
     },
-    "timestamp": "2026-06-09T20:24:19.440480+00:00"
+    "timestamp": "2026-06-09T20:34:41.454198+00:00"
 }
