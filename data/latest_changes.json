@@ -1,5 +1,5 @@
 {
-    "build_hash": "323ff0aa6aa3393e80ff7d0071e51db3dcc30f50",
+    "build_hash": "59c3e2f361d49fd4f47dd3909d5230210566a779",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,22 +13,15 @@
     "string_changes": {
         "en": {
             "added": {
-                "QXQ/Sm": "{priceRate} after **{intervalCount, plural, one {# month} other {# months}}**",
-                "V3DI1E": "You'll need to use the desktop or web app to make a purchase with your gift card balance.",
-                "WPNjGe": "{count, plural, one {# Orb earned} other {# Orbs earned}}",
-                "YZePWx": "I understand"
+                "BSPpd4": "Show live squad info and open spots.",
+                "NQechc": "Get in the game with the right squad",
+                "XZapWG": "[Link your account]({onClick}) to show live squad info and open spots.",
+                "b77nl3": "Chat and hop on voice with your team, all from inside the post.",
+                "nJzi8D": "Be the first to create a game session with {numTags, plural, one {this tag} other {these tags}}",
+                "y5Bork": "Browse open lobbies or post your own. Filter by vibe, mode, and playstyle."
             },
             "deleted": {},
-            "modified": {
-                "Q9zFy9": {
-                    "new_value": "This server has its own look",
-                    "old_value": "This server has its own theme"
-                },
-                "XLpBLj": {
-                    "new_value": "An admin picked a custom theme for this server. You can use it while you're here, or use your own theme. You can always change this in Settings.",
-                    "old_value": "You can view the server's theme while you're here, or prioritize your own theme by default."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -36,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-09T22:18:47.365475+00:00"
+    "timestamp": "2026-06-09T22:29:12.865418+00:00"
 }
