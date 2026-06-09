@@ -1,108 +1,8 @@
 {
-    "build_hash": "16fe7f448d55b92998e84d9d0961288b67f039f2",
+    "build_hash": "489321335dcd9365481c1f088b4e29ffd9e0a3ed",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "variation"
-            ],
-            "default_config": {
-                "enabled": false,
-                "variation": 0
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-01-unified-checkout-ui",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-06-09T21:05:13Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "variation": 1
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled",
-                "variation"
-            ],
-            "default_config": {
-                "enabled": false,
-                "variation": 0
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-unified-checkout-ui-premium-flows",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-06-09T21:05:13Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "variation": 1
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "variation"
-            ],
-            "default_config": {
-                "enabled": false,
-                "variation": 0
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-01-unified-checkout-ui",
-            "kind": "user",
-            "timestamp": "2026-06-09T21:05:13Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "variation": 1
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled",
-                "variation"
-            ],
-            "default_config": {
-                "enabled": false,
-                "variation": 0
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-unified-checkout-ui-premium-flows",
-            "kind": "user",
-            "timestamp": "2026-06-09T21:05:13Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "variation": 1
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -112,9 +12,21 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "V3DI1E": "You'll need to use the desktop or web app to make a purchase with your gift card balance.",
+                "YZePWx": "I understand"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "Q9zFy9": {
+                    "new_value": "This server has its own look",
+                    "old_value": "This server has its own theme"
+                },
+                "XLpBLj": {
+                    "new_value": "An admin picked a custom theme for this server. You can use it while you're here, or use your own theme. You can always change this in Settings.",
+                    "old_value": "You can view the server's theme while you're here, or prioritize your own theme by default."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -122,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-09T21:05:50.034541+00:00"
+    "timestamp": "2026-06-09T21:16:13.482847+00:00"
 }
