@@ -1,5 +1,5 @@
 {
-    "build_hash": "b121eb4d5d029d7062aa9cd384eaa775cc0ee723",
+    "build_hash": "4dd8379432a4765cf4e81ab74d2b910e16049f80",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "QXQ/Sm": "{priceRate} after **{intervalCount, plural, one {# month} other {# months}}**"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-09T21:36:59.498803+00:00"
+    "timestamp": "2026-06-09T21:47:25.055375+00:00"
 }
