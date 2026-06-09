@@ -1,5 +1,5 @@
 {
-    "build_hash": "737a67142e73354ce1c44188980b6d165754fdd5",
+    "build_hash": "d00c0331aca5a525a6a38e05a0992c052cdb1666",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Ur/4dI": "Invite server members to Group DMs"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-09T16:27:34.377809+00:00"
+    "timestamp": "2026-06-09T17:18:29.979202+00:00"
 }
