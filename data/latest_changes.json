@@ -1,5 +1,5 @@
 {
-    "build_hash": "90728cd417bccb3090ce715f66e6557b1ef89219",
+    "build_hash": "323ff0aa6aa3393e80ff7d0071e51db3dcc30f50",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,10 +13,22 @@
     "string_changes": {
         "en": {
             "added": {
-                "WPNjGe": "{count}"
+                "QXQ/Sm": "{priceRate} after **{intervalCount, plural, one {# month} other {# months}}**",
+                "V3DI1E": "You'll need to use the desktop or web app to make a purchase with your gift card balance.",
+                "WPNjGe": "{count, plural, one {# Orb earned} other {# Orbs earned}}",
+                "YZePWx": "I understand"
             },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "Q9zFy9": {
+                    "new_value": "This server has its own look",
+                    "old_value": "This server has its own theme"
+                },
+                "XLpBLj": {
+                    "new_value": "An admin picked a custom theme for this server. You can use it while you're here, or use your own theme. You can always change this in Settings.",
+                    "old_value": "You can view the server's theme while you're here, or prioritize your own theme by default."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -24,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-09T22:08:17.315086+00:00"
+    "timestamp": "2026-06-09T22:18:47.365475+00:00"
 }
