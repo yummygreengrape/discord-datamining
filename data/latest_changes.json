@@ -1,53 +1,8 @@
 {
-    "build_hash": "f9bdad2eb450fd4bc39f65f084a87da82e24ba22",
+    "build_hash": "6f2e98c47c2a7b8e9ad169ff57e396e9169bca56",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-notify-friends-on-come-online",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-06-09T18:29:55Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-notify-friends-on-come-online",
-            "kind": "user",
-            "timestamp": "2026-06-09T18:29:55Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -67,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-09T18:30:53.500322+00:00"
+    "timestamp": "2026-06-09T18:41:13.763486+00:00"
 }
