@@ -1,5 +1,5 @@
 {
-    "build_hash": "984dcbf674c4d54a8458ba10659aa4a02e757c63",
+    "build_hash": "321dae753d54ec5f332b9cee6594a2d4caf45073",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-desktop-tti-splash-asset",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-09T17:38:28Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-desktop-tti-splash-asset",
+            "kind": "user",
+            "timestamp": "2026-06-09T17:38:28Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-09T17:28:52.675315+00:00"
+    "timestamp": "2026-06-09T17:39:16.056911+00:00"
 }
