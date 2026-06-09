@@ -1,5 +1,5 @@
 {
-    "build_hash": "59c3e2f361d49fd4f47dd3909d5230210566a779",
+    "build_hash": "eac8cc553c0590bfa8d980512ec34353929136d8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,14 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "BSPpd4": "Show live squad info and open spots.",
-                "NQechc": "Get in the game with the right squad",
-                "XZapWG": "[Link your account]({onClick}) to show live squad info and open spots.",
-                "b77nl3": "Chat and hop on voice with your team, all from inside the post.",
-                "nJzi8D": "Be the first to create a game session with {numTags, plural, one {this tag} other {these tags}}",
-                "y5Bork": "Browse open lobbies or post your own. Filter by vibe, mode, and playstyle."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -29,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-09T22:29:12.865418+00:00"
+    "timestamp": "2026-06-09T22:39:34.985645+00:00"
 }
