@@ -1,5 +1,5 @@
 {
-    "build_hash": "d2e5bf0c233079d8f5784370b2a154fcbe36e266",
+    "build_hash": "670b66a6009932a87b9e3797e2705dbf1d43b94e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,19 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-remove-wishlist-dm-sidebar-side-copy",
-            "kind": "user",
-            "timestamp": "2026-06-10T15:05:19Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -34,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-10T15:05:49.184703+00:00"
+    "timestamp": "2026-06-10T15:46:41.035386+00:00"
 }
