@@ -1,19 +1,8 @@
 {
-    "build_hash": "f9228cb2b310043c782156f09ae0e42332ff2a99",
+    "build_hash": "95076b6be4906a0884202de0ec7ed679b64a1586",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-social-proof-negative",
-            "kind": "user",
-            "timestamp": "2026-06-10T22:40:26Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -24,26 +13,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "08Usu/": "{name1} and {name2} also play this game",
-                "FURqTU": "{name} also plays this game",
-                "NTYHag": "{name1}, {name2}, and {name3} also play this game",
-                "i/5oAn": "{name1}, {name2}, {name3}, and {numPeople, plural, one {# other also play this game} other {# others also play this game}}",
-                "ujhJdG": "{numFriends, plural, one {# person you know also plays this game} other {# people you know also play this game}}"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "08Usu/": "{name1} 님과 {name2} 님도 이 게임을 플레이해요",
-                "FURqTU": "{name} 님도 이 게임을 플레이해요",
-                "NTYHag": "{name1} 님, {name2} 님, {name3} 님도 이 게임을 플레이해요",
-                "i/5oAn": "{name1} 님, {name2} 님, {name3} 님 외 {numPeople}명도 이 게임을 플레이해요",
-                "ujhJdG": "아는 사람 {numFriends}명이 이 게임을 플레이하고 있어요"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-06-10T22:41:12.549317+00:00"
+    "timestamp": "2026-06-10T22:51:35.096658+00:00"
 }
