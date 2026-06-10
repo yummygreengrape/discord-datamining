@@ -1,8 +1,99 @@
 {
-    "build_hash": "fd965ac44532c60949bb44d75cb2bebda9229ee2",
+    "build_hash": "b0a7602478166caa9c42abb48e538b3e93a965c2",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "autoNavigateChannel",
+                "autoOpenTIV",
+                "collectAnalytics"
+            ],
+            "default_config": {
+                "autoNavigateChannel": false,
+                "autoOpenTIV": false,
+                "collectAnalytics": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2025-11-auto-open-tiv",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "autoNavigateChannel": false,
+                    "autoOpenTIV": false,
+                    "collectAnalytics": true
+                },
+                "1": {
+                    "autoNavigateChannel": false,
+                    "autoOpenTIV": true,
+                    "collectAnalytics": true
+                },
+                "2": {
+                    "autoNavigateChannel": true,
+                    "autoOpenTIV": true,
+                    "collectAnalytics": true
+                },
+                "3": {
+                    "autoNavigateChannel": true,
+                    "autoOpenTIV": false,
+                    "collectAnalytics": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "autoNavigateChannel",
+                "autoOpenTIV",
+                "collectAnalytics"
+            ],
+            "default_config": {
+                "autoNavigateChannel": false,
+                "autoOpenTIV": false,
+                "collectAnalytics": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2025-11-auto-open-tiv",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "autoNavigateChannel": false,
+                    "autoOpenTIV": false,
+                    "collectAnalytics": true
+                },
+                "1": {
+                    "autoNavigateChannel": false,
+                    "autoOpenTIV": true,
+                    "collectAnalytics": true
+                },
+                "2": {
+                    "autoNavigateChannel": true,
+                    "autoOpenTIV": true,
+                    "collectAnalytics": true
+                },
+                "3": {
+                    "autoNavigateChannel": true,
+                    "autoOpenTIV": false,
+                    "collectAnalytics": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +113,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-10T17:19:30.467574+00:00"
+    "timestamp": "2026-06-10T17:29:52.460957+00:00"
 }
