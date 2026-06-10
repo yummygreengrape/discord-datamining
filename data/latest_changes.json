@@ -1,5 +1,5 @@
 {
-    "build_hash": "77d7478860177ef2b244378867e93bdabcd0be4a",
+    "build_hash": "ca45bb5781ca4314a37eee04f4d121987bc7b261",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "LAGfIs": "Once you switch from the yearly plan to monthly, you keep all the same perks but lose your yearly savings."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-09T23:40:50.135096+00:00"
+    "timestamp": "2026-06-10T00:11:26.663281+00:00"
 }
