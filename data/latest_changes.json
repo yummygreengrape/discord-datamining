@@ -1,15 +1,41 @@
 {
-    "build_hash": "678f74b9ae74b6dfc2678e250ac990284fe745ab",
+    "build_hash": "4ae6ac11ad5ca78ab098a98814b98ce035dab69d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-11-auto-open-tiv",
+            "kind": "user",
+            "timestamp": "2026-06-10T17:31:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-remove-wishlist-dm-sidebar-side-copy",
+            "kind": "user",
+            "timestamp": "2026-06-10T15:05:19Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +48,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-10T17:40:19.759449+00:00"
+    "timestamp": "2026-06-10T17:50:49.799135+00:00"
 }
