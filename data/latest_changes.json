@@ -1,5 +1,5 @@
 {
-    "build_hash": "3035981b56050a8578c2770afca450ee89b3903e",
+    "build_hash": "582d479192c6735e352f577b230f820b94c41fac",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,14 +13,18 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "Fbo88g": "Fullscreen chat"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "Fbo88g": "전체 화면 채팅"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-06-10T20:57:23.698897+00:00"
+    "timestamp": "2026-06-10T21:07:50.823823+00:00"
 }
