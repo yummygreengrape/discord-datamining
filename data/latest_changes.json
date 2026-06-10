@@ -1,41 +1,15 @@
 {
-    "build_hash": "4ae6ac11ad5ca78ab098a98814b98ce035dab69d",
+    "build_hash": "8637b9edc0596d0dbbdaa1c9cfb578d07f0e7354",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-11-auto-open-tiv",
-            "kind": "user",
-            "timestamp": "2026-06-10T17:31:31Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-remove-wishlist-dm-sidebar-side-copy",
-            "kind": "user",
-            "timestamp": "2026-06-10T15:05:19Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -48,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-10T17:50:49.799135+00:00"
+    "timestamp": "2026-06-10T18:01:12.707900+00:00"
 }
