@@ -1,8 +1,20 @@
 {
-    "build_hash": "5b4663b9a45caab5d81fdfff3e018f2102daa79a",
+    "build_hash": "d8ed502340950a1e94e3f7baecc8842348146e44",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-collectibles-orbs-redeem-short-text",
+            "kind": "user",
+            "timestamp": "2026-06-11T16:15:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,11 +24,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "1kkbKw": "Start Earning Orbs!",
-                "AZGGo1": "Earn Orbs from completing Bounties.",
-                "q4wlOE": "Check back as more bounties are dropped to you for more Orb rewards."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-11T15:18:46.237071+00:00"
+    "timestamp": "2026-06-11T16:19:46.256031+00:00"
 }
