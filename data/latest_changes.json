@@ -1,5 +1,5 @@
 {
-    "build_hash": "c5e895b1802d1eab58743d68c1e45640e9a432a3",
+    "build_hash": "d4f682aa4c2b85272f1f33242fb6a66be88d56eb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,50 +9,18 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-edit-profile-collectibles-upsell-banner",
-            "kind": "user",
-            "timestamp": "2026-06-11T17:29:56Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "Fbo88g": "Fullscreen chat"
-            },
-            "modified": {
-                "3pFz1P": {
-                    "new_value": "You may notice delayed audio at {badPing} ms or higher. You may sound robotic if your packet loss rate is over {badLossRate}%. If the problem persists, disconnect and try again. See our [troubleshooting guide]({url}) for more assistance.",
-                    "old_value": "You may notice delayed audio at {badPing} ms or higher. You may sound robotic if your packet loss rate is over {badLossRate}%. If the problem persists, disconnect and try again."
-                },
-                "RTC_CONNECTION_STATE_RTC_CONNECTED_DETAILS": {
-                    "new_value": "You may notice delayed audio at {badPing} ms or higher. If the problem persists, disconnect and try again. See our [troubleshooting guide]({url}) for more assistance.",
-                    "old_value": "You may notice delayed audio at {badPing} ms or higher. If the problem persists, disconnect and try again."
-                },
-                "RTC_CONNECTION_STATE_RTC_CONNECTED_DETAILS_WITH_LOSS": {
-                    "new_value": "You may notice delayed audio at {badPing} ms or higher. You may sound robotic if your packet loss rate is over {badLossRate}%. If the problem persists, disconnect and try again. See our [troubleshooting guide]({url}) for more assistance.",
-                    "old_value": "You may notice delayed audio at {badPing} ms or higher. You may sound robotic if your packet loss rate is over {badLossRate}%. If the problem persists, disconnect and try again."
-                },
-                "vggaMt": {
-                    "new_value": "You may notice delayed audio at {badPing} ms or higher. If the problem persists, disconnect and try again. See our [troubleshooting guide]({url}) for more assistance.",
-                    "old_value": "You may notice delayed audio at {badPing} ms or higher. If the problem persists, disconnect and try again."
-                }
-            }
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "Fbo88g": "전체 화면 채팅"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-06-11T17:32:33.183326+00:00"
+    "timestamp": "2026-06-11T17:43:00.013211+00:00"
 }
