@@ -1,5 +1,5 @@
 {
-    "build_hash": "318f8fe4cfdb7537b770fa74cbddd242e5003a83",
+    "build_hash": "e912900ec7dc878565eaa1c01726d9cb8934c828",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,18 +7,7 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_GUILDS_CONFIG_GATES",
-            "status": "added",
-            "url": "/guilds/:param/config-gates"
-        },
-        {
-            "name": "GUILD_CONFIG_GATES",
-            "status": "added",
-            "url": "/guilds/:param/config-gates"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
@@ -33,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-11T17:01:22.079009+00:00"
+    "timestamp": "2026-06-11T17:11:45.266915+00:00"
 }
