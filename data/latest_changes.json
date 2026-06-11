@@ -1,5 +1,5 @@
 {
-    "build_hash": "f2820b978939bb0d986625b2bc8a2463e3ad170e",
+    "build_hash": "7262f65292e03ac3cd3d9cae86c48e5bd5633fd9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,74 +8,11 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-chat-bar-customization",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-06-11T21:49:10Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-chat-bar-customization",
-            "kind": "user",
-            "timestamp": "2026-06-11T21:49:10Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Ar0krj": "Show sticker button",
-                "AxRAWt": "Expression picker format",
-                "FDIKss": "Hidden",
-                "IwVGQs": "Hide Advanced Chat Bar Settings",
-                "V9/cNN": "Expression picker",
-                "We36HX": "Combine the emoji, GIF, and sticker buttons into a single button in the chat input.",
-                "WggFoO": "Condense expression picker when narrow",
-                "XpErGj": "Automatically combine the emoji, GIF, and sticker buttons when the chat input is too narrow to fit them individually.",
-                "YErWkD": "Show emoji button",
-                "ZTH4j4": "Show apps button",
-                "bSGTTZ": "Show the emoji, GIF, and sticker buttons separately. Each one can be toggled individually.",
-                "bjwSOn": "Condensed",
-                "cFNDh5": "Show Advanced Chat Bar Settings",
-                "hSQgW9": "App Launcher",
-                "k7oNEz": "Show GIF button",
-                "k86Soy": "Flexible",
-                "rclZL/": "Hide the emoji, GIF, and sticker buttons from the chat input entirely."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -85,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-11T21:52:32.276100+00:00"
+    "timestamp": "2026-06-11T22:02:55.966781+00:00"
 }
