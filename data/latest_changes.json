@@ -1,5 +1,5 @@
 {
-    "build_hash": "ef6d31b3ef68d8c8cb2a76d9d21a29d3adecb69e",
+    "build_hash": "9207dc9e3c10ac6ab89fb922f9fe17c15702f9fc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "LFHDVw": "Post Voice Chat"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-11T18:45:36.831104+00:00"
+    "timestamp": "2026-06-11T18:56:00.680134+00:00"
 }
