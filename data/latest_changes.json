@@ -1,20 +1,8 @@
 {
-    "build_hash": "d8ed502340950a1e94e3f7baecc8842348146e44",
+    "build_hash": "c0c3e5362fe33f351b67051540d1e4719ad9f349",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-collectibles-orbs-redeem-short-text",
-            "kind": "user",
-            "timestamp": "2026-06-11T16:15:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -34,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-11T16:19:46.256031+00:00"
+    "timestamp": "2026-06-11T16:30:09.303319+00:00"
 }
