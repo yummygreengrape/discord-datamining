@@ -1,31 +1,8 @@
 {
-    "build_hash": "8dfc0af1e8c3168fe93e364a0e4ded3399456b1d",
-    "deleted_api_endpoints": [
-        {
-            "name": "ENDPOINT_GAMES_UPDATES",
-            "status": "deleted",
-            "url": "/games/:param/updates/:param"
-        },
-        {
-            "name": "GAME_UPDATE",
-            "status": "deleted",
-            "url": "/games/:param/updates/:param"
-        }
-    ],
+    "build_hash": "fe72745e5d1f334fca6134886ca649c6e68811af",
+    "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-game-update-notification",
-            "kind": "user",
-            "timestamp": "2026-06-11T17:51:08Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -36,16 +13,7 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "/MxjmI": "More {gameName} game updates?",
-                "/iXnwU": "Page failed to load",
-                "3TO4/r": "Game Updates",
-                "4Wc+CC": "{count, number}d ago",
-                "OacAil": "Available",
-                "ZZIP+o": "A Game I've played in the past receives an update",
-                "a0fXhG": "In {count, number}d",
-                "diGDe0": "Receive a notification when a game you have played is updated."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -54,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-11T17:53:24.404272+00:00"
+    "timestamp": "2026-06-11T18:03:47.938387+00:00"
 }
