@@ -1,5 +1,5 @@
 {
-    "build_hash": "97faf12b6c2f16b959207754afd48d3e6a244983",
+    "build_hash": "d5653d35977afed116a933f3fb91b514e0a1c5cb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "wlTO8v": "Friends Since"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-11T02:06:43.096119+00:00"
+    "timestamp": "2026-06-11T02:57:41.548232+00:00"
 }
