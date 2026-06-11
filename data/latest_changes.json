@@ -1,5 +1,5 @@
 {
-    "build_hash": "7ef323a0c0a07ab0a6e59f85e05a0647eb143745",
+    "build_hash": "638225febe164193e5c63ded25187fc9a7fdf077",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,29 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "065Hig": "Hide levels",
+                "121gLw": "Not unlocked",
+                "2Rb7tE": "Check out the latest additions to the Badge Directory and start collecting.",
+                "5GD53o": "New Badges Just Dropped",
+                "8naQjv": "Lost to time",
+                "Jn+COZ": "Next Level: {tier_name}",
+                "MBBanI": "Very, very early",
+                "Mk5nzZ": "New badges just dropped, and {count}. Check out what you unlocked.",
+                "MylOvg": "View all levels",
+                "WDhIz2": "Date Unlocked",
+                "goKu4e": "Still a work in progress. Features and appearance may change.",
+                "joHqdj": "Browse your collection and find new ones to unlock.",
+                "lWcxa8": "iykyk",
+                "nUA/JW": "Send Gift",
+                "pHo9tZ": "Browse Badges",
+                "q7A8hP": "Work With Us",
+                "rGLVf6": "Manage Gifts",
+                "swICIT": "Quests Home",
+                "uwDBSq": "You've Got New Badges",
+                "wRraFx": "View Your Badges",
+                "wYaDmz": "Level Unlocked"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +44,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-11T19:58:19.414638+00:00"
+    "timestamp": "2026-06-11T20:19:02.190074+00:00"
 }
