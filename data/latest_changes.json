@@ -1,5 +1,5 @@
 {
-    "build_hash": "a144bea847a5e5f097c3093c51b3b6bf3bbb9f2e",
+    "build_hash": "386ca07cb65d0714007a5854efb3fa9f98b17840",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-wmf-cpu-encode-intel",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-11T16:44:33Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-wmf-cpu-encode-intel",
+            "kind": "user",
+            "timestamp": "2026-06-11T16:44:33Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-11T16:40:32.215717+00:00"
+    "timestamp": "2026-06-11T16:50:56.864630+00:00"
 }
