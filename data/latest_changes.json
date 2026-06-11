@@ -1,5 +1,5 @@
 {
-    "build_hash": "31b30c9fa6f5842a6cdd93f644ed5760b7877b64",
+    "build_hash": "01bcdda4c7182e4d606a97192cb01589091cbd28",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-global-soundboard-wheel-popout",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-11T20:54:43Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-global-soundboard-wheel-popout",
+            "kind": "user",
+            "timestamp": "2026-06-11T20:54:43Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-11T20:50:25.446041+00:00"
+    "timestamp": "2026-06-11T21:00:49.448554+00:00"
 }
