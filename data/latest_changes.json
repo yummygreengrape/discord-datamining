@@ -1,5 +1,5 @@
 {
-    "build_hash": "386ca07cb65d0714007a5854efb3fa9f98b17840",
+    "build_hash": "318f8fe4cfdb7537b770fa74cbddd242e5003a83",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,54 +7,20 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiment_details": [
+    "new_api_endpoints": [
         {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-wmf-cpu-encode-intel",
-            "kind": "user",
+            "name": "ENDPOINT_GUILDS_CONFIG_GATES",
             "status": "added",
-            "timestamp": "2026-06-11T16:44:33Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
+            "url": "/guilds/:param/config-gates"
+        },
         {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-wmf-cpu-encode-intel",
-            "kind": "user",
-            "timestamp": "2026-06-11T16:44:33Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
+            "name": "GUILD_CONFIG_GATES",
+            "status": "added",
+            "url": "/guilds/:param/config-gates"
         }
     ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -67,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-11T16:50:56.864630+00:00"
+    "timestamp": "2026-06-11T17:01:22.079009+00:00"
 }
