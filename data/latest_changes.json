@@ -1,5 +1,5 @@
 {
-    "build_hash": "3102461328617c3757dc7224615219c274ea38e2",
+    "build_hash": "31b30c9fa6f5842a6cdd93f644ed5760b7877b64",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,12 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+tmElp": "Role moved, from position {from} to position {to}",
-                "5PbXSy": "Move down",
-                "WaxXjc": "Role not moved, action failed",
-                "Yl8E4h": "Move up"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-11T20:40:01.476297+00:00"
+    "timestamp": "2026-06-11T20:50:25.446041+00:00"
 }
