@@ -1,5 +1,5 @@
 {
-    "build_hash": "2e6b3d30673f77fb42f573c830e7e687cd3cfbfa",
+    "build_hash": "0522541389774c58b0bfab9c84c58522bd0b401a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+yF0ds": "Removed {name}. {count, plural, =0 {No recipients selected} one {# recipient selected} other {# recipients selected}}.",
+                "5X5Oe2": "Send to {names}",
+                "u2qHzE": "Added {name}. {count, plural, =0 {No recipients selected} one {# recipient selected} other {# recipients selected}}."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-11T11:25:14.394383+00:00"
+    "timestamp": "2026-06-11T14:37:59.042818+00:00"
 }
