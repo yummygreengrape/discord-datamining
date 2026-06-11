@@ -1,5 +1,5 @@
 {
-    "build_hash": "0379f5213cd6480f09863c921bd94f7af1d410e2",
+    "build_hash": "ad9a98a0d297e4ac5e484d207255146245049d48",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -17,10 +17,20 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "GNDqtf": "끄기",
+                "IEoBHv": "불러오는 중...",
+                "lTwKmt": "켜기",
+                "q4wlOE": "Orb 보상을 추가로 획득할 수 있는 현상금이 더 지급될 수 있으니 나중에 다시 확인해 보세요."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "7j70dP": {
+                    "new_value": "{premiumGroupProductName} {percent}% 할인",
+                    "old_value": "{premiumGroupProductName}에서 {percent}% 할인"
+                }
+            }
         }
     },
-    "timestamp": "2026-06-11T19:16:48.797917+00:00"
+    "timestamp": "2026-06-11T19:27:09.947618+00:00"
 }
