@@ -1,5 +1,5 @@
 {
-    "build_hash": "cefa0b1129c7e18a8ff5090b81097f8ac10f1c64",
+    "build_hash": "b7f98fdda0863195452128ea05d8cd8d6f2684e1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "x9Gtie": "Gummy"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-12T16:51:08.054242+00:00"
+    "timestamp": "2026-06-12T17:01:34.130015+00:00"
 }
