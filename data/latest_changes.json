@@ -1,5 +1,5 @@
 {
-    "build_hash": "8154b7357878344be48126690dc71df92f9bf95c",
+    "build_hash": "a928a0b80e3d02cd52eff94410025ad88983ff5a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "N6ixy8": "Get Nitro to customize your bio per-server",
-                "jVai8N": "Server bio"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-12T20:18:17.143324+00:00"
+    "timestamp": "2026-06-12T20:28:41.342414+00:00"
 }
