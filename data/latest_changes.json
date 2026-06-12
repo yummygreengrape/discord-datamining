@@ -1,5 +1,5 @@
 {
-    "build_hash": "ff6baf8b2676f7dbc41ed25897bdaf900c57a1db",
+    "build_hash": "9bc87b953eb5830b8bef07899bc854aefd1b76bb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,55 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0SLl/G": "Connect your Discord account and {objective} in [{gameTitle}]({onGameTitleClick}) to win **{questReward}**.",
-                "2Ctf1d": "{objective} in [{gameTitle}]({onGameTitleClick}) to unlock **{questReward}**. Keep it with Nitro!",
-                "4+3zP/": "Use the button below to connect your Discord and [{gameTitle}]({onClickGameTitle}) accounts",
-                "BlfaHK": "Connect your Discord account and {objective} in {gameTitle} to win **{questReward}**.",
-                "GLZnbq": "{objective} in [{gameTitle}]({onClickGameTitle}) to unlock {rewardName}",
-                "bxN0nx": "{objective} in [{gameTitle}]({onGameTitleClick}) and win **{questReward}**.",
-                "j3155Y": "Use the button below to connect your Discord and {gameTitle} accounts",
-                "ojhBxZ": "{objective} in [{gameTitle}]({onGameTitleClick}) to unlock **{questReward}** for {duration}.",
-                "tNmoIp": "Launch {gameTitle} and use the button below to learn how to get connected",
-                "u3mdpP": "Head back to {gameTitle} and keep your quest going.",
-                "uLVYG5": "{objective} in [{gameTitle}]({onGameTitleClick}) to unlock **{questReward}** for {duration}. Keep it with Nitro!",
-                "yMEn77": "{objective} in [{gameTitle}]({onGameTitleClick}) to unlock **{questReward}** for {duration} and keep it for longer with Nitro!"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "2+opCy": {
-                    "new_value": "You're connected!",
-                    "old_value": "You're Connected!"
-                },
-                "6FOKAX": {
-                    "new_value": "{objective} in {gameTitle} to unlock **{questReward}** for {duration} and keep it for longer with Nitro!",
-                    "old_value": "{objective} to unlock **{questReward}** for {duration} and keep it for longer with Nitro!"
-                },
-                "8066TK": {
-                    "new_value": "{objective} in {gameTitle} to unlock **{questReward}**. Keep it with Nitro!",
-                    "old_value": "{objective} to unlock **{questReward}**. Keep it with Nitro!"
-                },
-                "IACEB/": {
-                    "new_value": "{objective} in {gameTitle} to unlock **{questReward}** for {duration}.",
-                    "old_value": "{objective} to unlock **{questReward}** for {duration}."
-                },
-                "NdXW5c": {
-                    "new_value": "{objective} in {gameTitle} to unlock **{questReward}** for {duration}. Keep it with Nitro!",
-                    "old_value": "{objective} to unlock **{questReward}** for {duration}. Keep it with Nitro!"
-                },
-                "nP1hFd": {
-                    "new_value": "{objective} in {gameTitle} to unlock {rewardName}",
-                    "old_value": "{objective} to unlock {rewardName}"
-                },
-                "thO6iA": {
-                    "new_value": "{objective} in {gameTitle} and win **{questReward}**.",
-                    "old_value": "{objective} and win **{questReward}**."
-                },
-                "yqSr9m": {
-                    "new_value": "Use the button below to get connected",
-                    "old_value": "Use the button below to get connected."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -68,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-12T13:25:56.022826+00:00"
+    "timestamp": "2026-06-12T13:46:28.098341+00:00"
 }
