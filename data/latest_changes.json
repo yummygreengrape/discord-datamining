@@ -1,53 +1,8 @@
 {
-    "build_hash": "13830ab42224b3da21b2a7570bd480de32f72c03",
+    "build_hash": "f27c012fd7f2976aad7747780bf875f46b1983a0",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-voice-timeout-mitigations",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-06-12T17:18:58Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-voice-timeout-mitigations",
-            "kind": "user",
-            "timestamp": "2026-06-12T17:18:58Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -67,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-12T17:22:06.014629+00:00"
+    "timestamp": "2026-06-12T17:42:38.807229+00:00"
 }
