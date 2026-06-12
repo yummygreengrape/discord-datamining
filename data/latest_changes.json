@@ -1,5 +1,5 @@
 {
-    "build_hash": "66b7bed7b847f777717cc4d0e2ee2338ab3e0589",
+    "build_hash": "e81de8a5af76ca7764b023aad8a034465d71f1dd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,26 +9,11 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-nitro-gifting-price-copy-tweaks",
-            "kind": "user",
-            "timestamp": "2026-06-12T00:35:26Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {
                 "NFJUPa": "Clear after, {value}",
-                "lPlIMo": "Sort by: {selected}",
-                "lVQycU": "for one month",
                 "uxFcqu": "Calendar icon"
             },
             "deleted": {},
@@ -40,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-12T00:58:08.687543+00:00"
+    "timestamp": "2026-06-12T01:08:33.448772+00:00"
 }
