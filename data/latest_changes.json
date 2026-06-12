@@ -1,5 +1,5 @@
 {
-    "build_hash": "dcc888bfa8f83a0a9727a735377445dd779c8f8f",
+    "build_hash": "618e1a0d94bdf950f65ca0052441902501c96239",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Mi60fm": "Have your guardian scan this code",
-                "pDByAB": "Connecting gives your guardian visibility into your activity in Family Center — and gives you full access to Discord. [Learn more]({link})",
-                "vELYWk": "Connect to a guardian to keep access to your account"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-12T10:18:01.616889+00:00"
+    "timestamp": "2026-06-12T11:03:52.332671+00:00"
 }
