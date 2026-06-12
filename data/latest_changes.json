@@ -1,8 +1,53 @@
 {
-    "build_hash": "b7f98fdda0863195452128ea05d8cd8d6f2684e1",
+    "build_hash": "13830ab42224b3da21b2a7570bd480de32f72c03",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-voice-timeout-mitigations",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-06-12T17:18:58Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-voice-timeout-mitigations",
+            "kind": "user",
+            "timestamp": "2026-06-12T17:18:58Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,9 +57,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "x9Gtie": "Gummy"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-12T17:01:34.130015+00:00"
+    "timestamp": "2026-06-12T17:22:06.014629+00:00"
 }
