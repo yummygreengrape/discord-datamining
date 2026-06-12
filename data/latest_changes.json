@@ -1,5 +1,5 @@
 {
-    "build_hash": "8304a81b20d32f0e183e015f02389e5816daa7e0",
+    "build_hash": "31ad699c56dba2a40bdb03c9532feba211b7dd0a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,27 +9,11 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-nitro-gifting-price-copy-tweaks",
-            "kind": "user",
-            "timestamp": "2026-06-12T00:35:26Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {
-                "NFJUPa": "Clear after, {value}",
-                "lPlIMo": "Sort by: {selected}",
-                "lVQycU": "for one month",
-                "uxFcqu": "Calendar icon"
+                "JsBPb8": "Examples of existing Discord communities"
             },
             "deleted": {},
             "modified": {}
@@ -40,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-12T02:00:15.191840+00:00"
+    "timestamp": "2026-06-12T02:10:40.488482+00:00"
 }
