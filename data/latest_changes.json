@@ -1,5 +1,5 @@
 {
-    "build_hash": "69c41981837c264e8ff52e77768aa5648f490c93",
+    "build_hash": "28247f2260e69e95a879cc0fe15d84fbc13241f7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "vos6/N": "Drag down to expand"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-12T20:59:51.763786+00:00"
+    "timestamp": "2026-06-12T21:10:15.896688+00:00"
 }
