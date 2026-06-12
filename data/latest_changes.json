@@ -1,95 +1,28 @@
 {
-    "build_hash": "ac2b78768cd1d2ab69e8ebdeeafecd91d79e6b7b",
+    "build_hash": "69c41981837c264e8ff52e77768aa5648f490c93",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enableQuickBar"
-            ],
-            "default_config": {
-                "enableQuickBar": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-clips-quickbar",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-06-12T20:42:39Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableQuickBar": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enableQuickBar"
-            ],
-            "default_config": {
-                "enableQuickBar": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-clips-quickbar",
-            "kind": "user",
-            "timestamp": "2026-06-12T20:42:39Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableQuickBar": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-dvp-for-attachments",
-            "kind": "user",
-            "timestamp": "2026-06-12T20:47:43Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "KOMFUo": "Toggle Server Themes",
-                "Nm72JC": "Turn server themes on or off per server without changing your default preference.",
-                "RR11kY": "Check it out!",
-                "pGMmJy": "Server admins can set custom colors for their community. You also get to choose whether you see server themes or stick with your own.",
-                "r7wPUa": "Servers can now have themes"
+            "added": {
+                "vos6/N": "Drag down to expand"
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "KOMFUo": "서버 테마 전환",
-                "Nm72JC": "기본 설정을 변경하지 않고 각 서버별로 서버 테마를 켜거나 끌 수 있어요.",
-                "RR11kY": "확인하러 가기!",
-                "pGMmJy": "서버 관리자는 커뮤니티에 맞춤 색상을 설정할 수 있어요. 또한 서버 테마를 볼지, 아니면 자신의 테마를 계속 사용할지를 선택할 수 있어요.",
-                "r7wPUa": "이제 서버에 테마를 설정할 수 있어요"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-06-12T20:49:28.351057+00:00"
+    "timestamp": "2026-06-12T20:59:51.763786+00:00"
 }
