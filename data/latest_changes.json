@@ -1,5 +1,5 @@
 {
-    "build_hash": "57eba826225ab9887b39410a35f6fb488b704280",
+    "build_hash": "c897b036fae19daa2436a054df1a586658641040",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,10 +9,35 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-gdm-invite-embed",
+            "kind": "user",
+            "timestamp": "2026-06-12T18:56:44Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "7Vsu1h": "You sent an invite",
+                "8XOu5v": "You invited {user} to",
+                "Fyamu8": "You sent an invite to",
+                "HfTWGa": "{username} invited you to {groupName}",
+                "NQyAXK": "{username} invited you to",
+                "OfMjx9": "Verified",
+                "Rw6VmE": "{username} invited you to",
+                "XMYrqF": "You invited {user} to {groupName}",
+                "gVDdRn": "Join Group DM",
+                "m5uYso": "{first}, {second} and others",
+                "p/zTYn": "Ask for a new invite",
+                "y7uT5j": "Try sending a new invite",
+                "ysbTP8": "You sent an invite to {groupName}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +47,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-12T19:46:56.492544+00:00"
+    "timestamp": "2026-06-12T19:57:28.136713+00:00"
 }
