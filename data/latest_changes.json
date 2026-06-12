@@ -1,18 +1,128 @@
 {
-    "build_hash": "37b9e47a1fa5e39aaeb5639014e71cd56a000beb",
+    "build_hash": "8102bbd8572b1da7978d2596ffb27bdd185580d0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "trialCTAEnabled"
+            ],
+            "default_config": {
+                "enabled": false,
+                "trialCTAEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-android-two-week-trials",
+            "kind": "user",
+            "old_config_keys": [
+                "discountCTAEnabled",
+                "enabled"
+            ],
+            "old_default_config": {
+                "discountCTAEnabled": false,
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "old_variations": {
+                "1": {
+                    "discountCTAEnabled": true,
+                    "enabled": false
+                },
+                "2": {
+                    "discountCTAEnabled": true,
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "trialCTAEnabled": true
+                },
+                "2": {
+                    "enabled": true,
+                    "trialCTAEnabled": false
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "trialCTAEnabled"
+            ],
+            "default_config": {
+                "enabled": false,
+                "trialCTAEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-android-two-week-trials",
+            "kind": "user",
+            "old_config_keys": [
+                "discountCTAEnabled",
+                "enabled"
+            ],
+            "old_default_config": {
+                "discountCTAEnabled": false,
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "old_variations": {
+                "1": {
+                    "discountCTAEnabled": true,
+                    "enabled": false
+                },
+                "2": {
+                    "discountCTAEnabled": true,
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "trialCTAEnabled": true
+                },
+                "2": {
+                    "enabled": true,
+                    "trialCTAEnabled": false
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "6xpY54": "Try {duration} free"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +132,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-12T15:49:05.582852+00:00"
+    "timestamp": "2026-06-12T15:59:29.081193+00:00"
 }
