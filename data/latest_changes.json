@@ -1,5 +1,5 @@
 {
-    "build_hash": "ab5ba27e0c498a0c91492eff17f3b474fd96f57d",
+    "build_hash": "79b16c67fd4e723a9eb88aa96b8bc32eceeb10f7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,61 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-remove-quest-home-hero",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-13T00:05:26Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-remove-quest-home-hero",
+            "kind": "user",
+            "timestamp": "2026-06-13T00:05:26Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +75,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-12T23:45:01.351259+00:00"
+    "timestamp": "2026-06-13T00:05:31.663602+00:00"
 }
