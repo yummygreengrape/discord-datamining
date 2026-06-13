@@ -1,5 +1,5 @@
 {
-    "build_hash": "23cc341b67ffec05acd7fa61bd3bead52d7b66f2",
+    "build_hash": "4a251e1c8e6efee35e6cc8daca1c4c41f8850781",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,296 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "ctaTimerMilliSeconds",
+                "enabled",
+                "loopingEnabled",
+                "orbAmount",
+                "rewardTimerSeconds",
+                "verticalScrollEnabled"
+            ],
+            "default_config": {
+                "ctaTimerMilliSeconds": 3000,
+                "enabled": false,
+                "loopingEnabled": false,
+                "orbAmount": 50,
+                "rewardTimerSeconds": 15,
+                "verticalScrollEnabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-bounties-stage-1",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-13T03:48:57Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7",
+                "Variant 8",
+                "Variant 9",
+                "Variant 10"
+            ],
+            "variations": {
+                "1": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "10": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 25,
+                    "verticalScrollEnabled": true
+                },
+                "2": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": true,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "3": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 30,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "4": {
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "5": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 25,
+                    "verticalScrollEnabled": false
+                },
+                "6": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                },
+                "7": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": true,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                },
+                "8": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 30,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                },
+                "9": {
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-bounty-use-video-modal-mobile-placement-experiment",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-13T03:48:57Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": false
+                },
+                "2": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "ctaTimerMilliSeconds",
+                "enabled",
+                "loopingEnabled",
+                "orbAmount",
+                "rewardTimerSeconds",
+                "verticalScrollEnabled"
+            ],
+            "default_config": {
+                "ctaTimerMilliSeconds": 3000,
+                "enabled": false,
+                "loopingEnabled": false,
+                "orbAmount": 50,
+                "rewardTimerSeconds": 15,
+                "verticalScrollEnabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-bounties-stage-1",
+            "kind": "user",
+            "timestamp": "2026-06-13T03:48:57Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7",
+                "Variant 8",
+                "Variant 9",
+                "Variant 10"
+            ],
+            "variations": {
+                "1": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "10": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 25,
+                    "verticalScrollEnabled": true
+                },
+                "2": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": true,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "3": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 30,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "4": {
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "5": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 25,
+                    "verticalScrollEnabled": false
+                },
+                "6": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                },
+                "7": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": true,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                },
+                "8": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 30,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                },
+                "9": {
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-bounty-use-video-modal-mobile-placement-experiment",
+            "kind": "user",
+            "timestamp": "2026-06-13T03:48:57Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": false
+                },
+                "2": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +310,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-13T02:38:46.490262+00:00"
+    "timestamp": "2026-06-13T03:49:54.257291+00:00"
 }
