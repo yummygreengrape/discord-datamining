@@ -1,5 +1,5 @@
 {
-    "build_hash": "98b3afc1f7e7837d93c688a338c25a0eaa251c32",
+    "build_hash": "b3f67662ab8027ffc4e481c65aa0590eca6d51b6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,34 +13,13 @@
     "string_changes": {
         "en": {
             "added": {
-                "dxlHN2": "Downtime Schedule Updated",
-                "z6tZKH": "Downtime Starting Soon"
+                "ovecl/": "Share QR code to your guardian"
             },
             "deleted": {},
             "modified": {
-                "/071J7": {
-                    "new_value": "Get notified when a guardian sets, removes, or updates a downtime schedule.",
-                    "old_value": "Receive a notification when a Guardian creates, removes, or changes a schedule."
-                },
-                "1Op+NP": {
-                    "new_value": "Screen Time Limits",
-                    "old_value": "Screen Time Controls"
-                },
-                "26A0Df": {
-                    "new_value": "This will replace existing schedules. You can only set one downtime period per day. Saving this will replace the current schedule(s) on:",
-                    "old_value": "You can only have one Downtime per day. This will replace your current schedule(s) on:"
-                },
-                "TummoQ": {
-                    "new_value": "Get a reminder 15 minutes before Discord becomes unavailable due to downtime set by a guardian.",
-                    "old_value": "Receive a notification reminder 15 minutes before Downtime starts."
-                },
-                "onrAy7": {
-                    "new_value": "Downtime schedule updated",
-                    "old_value": "Screen Downtime schedule is updated"
-                },
-                "z9h8Ym": {
-                    "new_value": "Downtime starting soon",
-                    "old_value": "Screen Downtime will start"
+                "vELYWk": {
+                    "new_value": "Connect to a guardian to keep access to your Discord account",
+                    "old_value": "Connect to a guardian to keep access to your account"
                 }
             }
         },
@@ -50,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-15T16:40:06.541449+00:00"
+    "timestamp": "2026-06-15T16:50:29.311126+00:00"
 }
