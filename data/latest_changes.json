@@ -1,58 +1,214 @@
 {
-    "build_hash": "2bb1f1c172ee0ebf3ee2e8759451c0fcad16510b",
+    "build_hash": "d47c44f2e5b167741ea5b0d458c946837d2ce10e",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-calculated-annual-discount-percent",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-calculated-annual-discount-percent",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "default_config": {
+                "processPriority": "B.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-process-boost-on-voice",
+            "kind": "user",
+            "old_config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "old_default_config": {
+                "processPriority": "V.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "1": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "1": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "default_config": {
+                "processPriority": "B.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-process-boost-on-voice",
+            "kind": "user",
+            "old_config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "old_default_config": {
+                "processPriority": "V.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "1": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "1": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "bitrate",
+                "enabled"
+            ],
+            "default_config": {
+                "bitrate": 9000000,
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-server-ladder",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-15T23:27:14Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "bitrate": 3500000,
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "bitrate",
+                "enabled"
+            ],
+            "default_config": {
+                "bitrate": 9000000,
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-server-ladder",
+            "kind": "user",
+            "timestamp": "2026-06-15T23:27:14Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "bitrate": 3500000,
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -65,5 +221,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-15T23:25:06.991622+00:00"
+    "timestamp": "2026-06-15T23:35:46.602518+00:00"
 }
