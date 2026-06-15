@@ -1,5 +1,5 @@
 {
-    "build_hash": "75242e786045e9bd7ba0146cc2a730c35beb51ff",
+    "build_hash": "cea7019a0f7352f69ccd44972285dcfea839280b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0fc/DG": "This content is age-restricted and can't be viewed.",
+                "xC8Saf": "Age-Restricted Content"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-15T19:05:32.581255+00:00"
+    "timestamp": "2026-06-15T19:16:02.545079+00:00"
 }
