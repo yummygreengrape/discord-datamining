@@ -1,5 +1,5 @@
 {
-    "build_hash": "7b2e394a8225cca0e02715daf30e78ccc6db7d8c",
+    "build_hash": "9b36ebfb0980e99120509b3084e24240287b6555",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,14 +13,24 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "mIkeS2": "Phrase",
+                "nHsilt": "Phrases",
+                "s6wq+m": "Automatically create clips when defined phrases are spoken by you while in a voice channel.",
+                "zYUZpt": "Add Phrase"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "mIkeS2": "문구",
+                "nHsilt": "문구",
+                "s6wq+m": "음성 채널에서 정해진 문구를 사용자가 말하면 자동으로 클립이 생성돼요.",
+                "zYUZpt": "문구 추가"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-06-15T14:47:23.023982+00:00"
+    "timestamp": "2026-06-15T15:08:01.070527+00:00"
 }
