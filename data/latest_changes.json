@@ -1,8 +1,61 @@
 {
-    "build_hash": "cea7019a0f7352f69ccd44972285dcfea839280b",
+    "build_hash": "02bd859c0127b094dc141a289a412b0aabda8f02",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-boosting-badge-hover-popup",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-06-15T19:19:12Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-boosting-badge-hover-popup",
+            "kind": "user",
+            "timestamp": "2026-06-15T19:19:12Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,18 +65,21 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0fc/DG": "This content is age-restricted and can't be viewed.",
-                "xC8Saf": "Age-Restricted Content"
+            "added": {},
+            "deleted": {
+                "OAq2KW": "Server Booster",
+                "rTUArF": "Server Boosting since {date, date, short}"
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "OAq2KW": "서버 부스터",
+                "rTUArF": "{date}부터 서버 부스트 중"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-06-15T19:16:02.545079+00:00"
+    "timestamp": "2026-06-15T19:26:28.997656+00:00"
 }
