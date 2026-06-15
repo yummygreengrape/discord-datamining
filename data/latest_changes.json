@@ -1,5 +1,5 @@
 {
-    "build_hash": "759c4cf886eca38f0513fb6534f38f9d3744ded9",
+    "build_hash": "75242e786045e9bd7ba0146cc2a730c35beb51ff",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,24 +12,15 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "60IaC2": "These are settings for games $[ like {gameName}](gameListHook) that use Discord to power their social experiences.",
-                "Amr1IZ": "These are settings for games that use Discord to power their social experiences.",
-                "RAUmQM": "These are settings for games $[ like {game1}, {game2}, {remaining, plural, one {+# other} other {+# others}}](gameListHook), that use Discord to power their social experiences.",
-                "lthjd7": "These are settings for games $[ like {game1} and {game2}](gameListHook) that use Discord to power their social experiences."
-            },
-            "deleted": {
-                "ihVNdf": "These are settings for games{nameCount, select, 0 {} 1 {$[ like {game1}](gameListHook)} other {$[ like {game1}, {game2}](gameListHook){remaining, plural, =0 {,} one {$[, +# other](gameListHook),} other {$[, +# others](gameListHook),}}}} that use Discord to power their social experiences."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "ihVNdf": "이 설정은 Discord를 활용하여 소셜 경험을 제공하는 {nameCount}}}으로 준비했어요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-06-15T18:44:44.935522+00:00"
+    "timestamp": "2026-06-15T19:05:32.581255+00:00"
 }
