@@ -1,12 +1,184 @@
 {
-    "build_hash": "5c4d972ddee9d30fadc5760696a825710bae791f",
+    "build_hash": "41935153793faaa53dbf9d89bf9d6f6bad8c4d21",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "chatInputFloating",
+                "chatInputLegacySendButton",
+                "enabled"
+            ],
+            "default_config": {
+                "chatInputFloating": false,
+                "chatInputLegacySendButton": false,
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-mobile-visual-refresh",
+            "kind": "user",
+            "old_config_keys": [
+                "chatInputFloating",
+                "enabled"
+            ],
+            "old_default_config": {
+                "chatInputFloating": false,
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "old_variations": {
+                "0": {
+                    "chatInputFloating": false,
+                    "enabled": false
+                },
+                "1": {
+                    "chatInputFloating": false,
+                    "enabled": true
+                },
+                "2": {
+                    "chatInputFloating": true,
+                    "enabled": true
+                },
+                "3": {
+                    "chatInputFloating": true,
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "chatInputFloating": false,
+                    "chatInputLegacySendButton": false,
+                    "enabled": false
+                },
+                "1": {
+                    "chatInputFloating": false,
+                    "chatInputLegacySendButton": false,
+                    "enabled": true
+                },
+                "2": {
+                    "chatInputFloating": true,
+                    "chatInputLegacySendButton": false,
+                    "enabled": true
+                },
+                "3": {
+                    "chatInputFloating": true,
+                    "chatInputLegacySendButton": false,
+                    "enabled": true
+                },
+                "4": {
+                    "chatInputFloating": true,
+                    "chatInputLegacySendButton": true,
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "chatInputFloating",
+                "chatInputLegacySendButton",
+                "enabled"
+            ],
+            "default_config": {
+                "chatInputFloating": false,
+                "chatInputLegacySendButton": false,
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-mobile-visual-refresh",
+            "kind": "user",
+            "old_config_keys": [
+                "chatInputFloating",
+                "enabled"
+            ],
+            "old_default_config": {
+                "chatInputFloating": false,
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "old_variations": {
+                "0": {
+                    "chatInputFloating": false,
+                    "enabled": false
+                },
+                "1": {
+                    "chatInputFloating": false,
+                    "enabled": true
+                },
+                "2": {
+                    "chatInputFloating": true,
+                    "enabled": true
+                },
+                "3": {
+                    "chatInputFloating": true,
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "chatInputFloating": false,
+                    "chatInputLegacySendButton": false,
+                    "enabled": false
+                },
+                "1": {
+                    "chatInputFloating": false,
+                    "chatInputLegacySendButton": false,
+                    "enabled": true
+                },
+                "2": {
+                    "chatInputFloating": true,
+                    "chatInputLegacySendButton": false,
+                    "enabled": true
+                },
+                "3": {
+                    "chatInputFloating": true,
+                    "chatInputLegacySendButton": false,
+                    "enabled": true
+                },
+                "4": {
+                    "chatInputFloating": true,
+                    "chatInputLegacySendButton": true,
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -22,5 +194,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-15T09:51:52.514932+00:00"
+    "timestamp": "2026-06-15T12:34:15.017538+00:00"
 }
