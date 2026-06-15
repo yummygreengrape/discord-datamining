@@ -1,5 +1,5 @@
 {
-    "build_hash": "b3f67662ab8027ffc4e481c65aa0590eca6d51b6",
+    "build_hash": "ca7f4333d0b550044291798a3c222896ba644094",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,16 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "ovecl/": "Share QR code to your guardian"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "vELYWk": {
-                    "new_value": "Connect to a guardian to keep access to your Discord account",
-                    "old_value": "Connect to a guardian to keep access to your account"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -29,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-15T16:50:29.311126+00:00"
+    "timestamp": "2026-06-15T17:00:52.207729+00:00"
 }
