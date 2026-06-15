@@ -1,15 +1,176 @@
 {
-    "build_hash": "501ba6ca8bfc45337e631bbb756c646b99cbff9a",
+    "build_hash": "26593353fd04d73bf3266ec05491e3512bace8bf",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "gatesApex",
+                "inExperiment"
+            ],
+            "default_config": {
+                "enabled": false,
+                "gatesApex": false,
+                "inExperiment": false
+            },
+            "experiment_source": "self_extraction",
+            "id": "2026-04_server_theme",
+            "kind": "guild",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_kind": "guild",
+            "old_title": "Server Theme",
+            "old_treatments": [
+                "Control",
+                "Treatment 1: Enable Server Theme"
+            ],
+            "status": "modified",
+            "title": "Server Theme",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable Server Theme"
+            ]
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "gatesApex",
+                "inExperiment"
+            ],
+            "default_config": {
+                "enabled": false,
+                "gatesApex": false,
+                "inExperiment": false
+            },
+            "experiment_source": "self_extraction",
+            "id": "2026-04_server_theme",
+            "kind": "guild",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_kind": "guild",
+            "old_title": "Server Theme",
+            "old_treatments": [
+                "Control",
+                "Treatment 1: Enable Server Theme"
+            ],
+            "status": "modified",
+            "title": "Server Theme",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable Server Theme"
+            ]
+        }
+    ],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "gatesApex",
+                "inExperiment"
+            ],
+            "default_config": {
+                "enabled": false,
+                "gatesApex": false,
+                "inExperiment": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-server-theme-apex-shadow",
+            "kind": "guild",
+            "status": "added",
+            "timestamp": "2026-06-15T18:07:32Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "gatesApex": false,
+                    "inExperiment": true
+                },
+                "1": {
+                    "enabled": true,
+                    "gatesApex": false,
+                    "inExperiment": true
+                },
+                "2": {
+                    "enabled": false,
+                    "gatesApex": true,
+                    "inExperiment": true
+                },
+                "3": {
+                    "enabled": true,
+                    "gatesApex": true,
+                    "inExperiment": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "gatesApex",
+                "inExperiment"
+            ],
+            "default_config": {
+                "enabled": false,
+                "gatesApex": false,
+                "inExperiment": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-server-theme-apex-shadow",
+            "kind": "guild",
+            "timestamp": "2026-06-15T18:07:32Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "gatesApex": false,
+                    "inExperiment": true
+                },
+                "1": {
+                    "enabled": true,
+                    "gatesApex": false,
+                    "inExperiment": true
+                },
+                "2": {
+                    "enabled": false,
+                    "gatesApex": true,
+                    "inExperiment": true
+                },
+                "3": {
+                    "enabled": true,
+                    "gatesApex": true,
+                    "inExperiment": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +183,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-15T18:03:11.490386+00:00"
+    "timestamp": "2026-06-15T18:13:37.533464+00:00"
 }
