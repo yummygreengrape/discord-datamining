@@ -1,5 +1,5 @@
 {
-    "build_hash": "a4f4c8389d9b5efb570b5e220491bcd757e276c4",
+    "build_hash": "fa1cadda947f1828a4ff2fb683c8968c576c2ffb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "5L6uDs": "{percent} percent"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-15T21:30:46.242359+00:00"
+    "timestamp": "2026-06-15T21:51:24.236218+00:00"
 }
