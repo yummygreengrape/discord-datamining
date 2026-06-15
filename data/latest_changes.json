@@ -1,61 +1,8 @@
 {
-    "build_hash": "02bd859c0127b094dc141a289a412b0aabda8f02",
+    "build_hash": "b2b8541bfedbd81dd7d01ef1f204156c289f4213",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-boosting-badge-hover-popup",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-06-15T19:19:12Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-boosting-badge-hover-popup",
-            "kind": "user",
-            "timestamp": "2026-06-15T19:19:12Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -66,20 +13,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "OAq2KW": "Server Booster",
-                "rTUArF": "Server Boosting since {date, date, short}"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "OAq2KW": "서버 부스터",
-                "rTUArF": "{date}부터 서버 부스트 중"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-06-15T19:26:28.997656+00:00"
+    "timestamp": "2026-06-15T19:36:58.883552+00:00"
 }
