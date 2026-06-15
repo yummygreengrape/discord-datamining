@@ -1,26 +1,54 @@
 {
-    "build_hash": "cda494281db1a69a6a22ec9120b83f8917e40189",
+    "build_hash": "058267745e1067f22f6e48cd8c5ec70465ea4fe1",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "placement"
+            ],
+            "default_config": {
+                "placement": "top"
+            },
+            "experiment_source": "reference_comment",
+            "id": "2026-04_voice_invite_suggestion_placement",
+            "kind": "guild",
+            "status": "deleted",
+            "timestamp": "2026-06-15T22:26:42Z",
+            "title": "Voice Invite Suggestion Placement",
+            "treatments": [
+                "Control",
+                "Control (Top Placement)",
+                "Treatment 1: Treatment (Bottom Placement)"
+            ]
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "placement"
+            ],
+            "default_config": {
+                "placement": "top"
+            },
+            "experiment_source": "reference_comment",
+            "id": "2026-04_voice_invite_suggestion_placement",
+            "kind": "guild",
+            "timestamp": "2026-06-15T22:26:42Z",
+            "title": "Voice Invite Suggestion Placement",
+            "treatments": [
+                "Control",
+                "Control (Top Placement)",
+                "Treatment 1: Treatment (Bottom Placement)"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-server-setup-boost-cta",
-            "kind": "user",
-            "timestamp": "2026-06-15T22:06:33Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -33,5 +61,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-15T22:12:17.036778+00:00"
+    "timestamp": "2026-06-15T22:32:54.124429+00:00"
 }
