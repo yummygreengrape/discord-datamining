@@ -1,5 +1,5 @@
 {
-    "build_hash": "a87c3675f587c548e7fc239dffcd3ad46be9f5f5",
+    "build_hash": "cf8764a3a00eb11ed47dcf7bf86bd775e7752d8d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,9 +7,31 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_GAMES_AUTOCOMPLETE",
+            "status": "added",
+            "url": "/games/autocomplete"
+        },
+        {
+            "name": "GAMES_AUTOCOMPLETE",
+            "status": "added",
+            "url": "/games/autocomplete"
+        }
+    ],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-game-autocomplete-search",
+            "kind": "user",
+            "timestamp": "2026-06-16T19:39:02Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +44,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-16T19:37:19.818972+00:00"
+    "timestamp": "2026-06-16T19:48:25.590160+00:00"
 }
