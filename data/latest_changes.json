@@ -1,5 +1,5 @@
 {
-    "build_hash": "50f7ad5f1bfc9de1dd8b2701d37766aa5e15f28a",
+    "build_hash": "7e53c0ba09b014c2d372ccb1b4fb76d6749dc90f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,13 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "1gfA/U": "Preview (INTERNAL ONLY)",
-                "KSbm1J": "Your Nitro deal awaits",
-                "Q8nVIj": "Expired (INTERNAL ONLY)",
-                "XLyZxX": "A deal picked just for you. Don’t sleep on it.",
-                "blt9Z2": "Claim Offer"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -28,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-16T22:43:24.210831+00:00"
+    "timestamp": "2026-06-16T22:54:34.742761+00:00"
 }
