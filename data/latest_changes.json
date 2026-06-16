@@ -1,8 +1,19 @@
 {
-    "build_hash": "da177783a515d77b6821de933a6c4db507ffe212",
+    "build_hash": "c85b84696677133fa98c019740caaf4c1e2b8bea",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-primary-cta-white-desktop",
+            "kind": "user",
+            "timestamp": "2026-06-16T18:44:31Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,10 +24,16 @@
     "string_changes": {
         "en": {
             "added": {
+                "6Qbqxw": "Unlock perks for everyone with Boosts",
                 "XJlymS": "Check back as more Bounties are dropped to you for more Orb rewards."
             },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "OYDyt2": {
+                    "new_value": "{count, plural, one {# Message} other {# Messages}} ›",
+                    "old_value": "{count, plural, one {# message} other {# messages}} ›"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -24,5 +41,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-16T19:14:43.615662+00:00"
+    "timestamp": "2026-06-16T19:26:07.559695+00:00"
 }
