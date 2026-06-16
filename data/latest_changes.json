@@ -1,5 +1,5 @@
 {
-    "build_hash": "9a1856849904950d4789a8da71c2c72ca75499fa",
+    "build_hash": "d9ce12d3f28f6891b95324e97839ee637d54e6f7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "1gfA/U": "Preview (INTERNAL ONLY)",
+                "Q8nVIj": "Expired (INTERNAL ONLY)"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-16T21:57:26.461229+00:00"
+    "timestamp": "2026-06-16T22:08:52.591306+00:00"
 }
