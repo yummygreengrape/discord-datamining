@@ -1,8 +1,69 @@
 {
-    "build_hash": "209b4d14f51c0fe19a2c6bb1f6092da31ac2b472",
+    "build_hash": "0466e49940abe6b417b28f7c1933085c484dd85b",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "showClose"
+            ],
+            "default_config": {
+                "enabled": false,
+                "showClose": true
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-channel-wave-button",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-06-16T14:04:17Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "showClose": false
+                },
+                "2": {
+                    "enabled": true,
+                    "showClose": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "showClose"
+            ],
+            "default_config": {
+                "enabled": false,
+                "showClose": true
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-channel-wave-button",
+            "kind": "user",
+            "timestamp": "2026-06-16T14:04:17Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "showClose": false
+                },
+                "2": {
+                    "enabled": true,
+                    "showClose": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +83,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-16T13:57:00.362007+00:00"
+    "timestamp": "2026-06-16T14:08:00.950976+00:00"
 }
