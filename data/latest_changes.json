@@ -1,6 +1,17 @@
 {
-    "build_hash": "cf7c5586e527b3c03c71ee8f7e3ebda6c0622d52",
-    "deleted_api_endpoints": [],
+    "build_hash": "874c2663f5dda10c30969de5b021e8b3dbf847eb",
+    "deleted_api_endpoints": [
+        {
+            "name": "BURST_CREDIT_BALANCE",
+            "status": "deleted",
+            "url": "/users/@me/burst-credits"
+        },
+        {
+            "name": "ENDPOINT_USERS_BURST_CREDITS",
+            "status": "deleted",
+            "url": "/users/@me/burst-credits"
+        }
+    ],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-16T16:29:52.694021+00:00"
+    "timestamp": "2026-06-16T17:02:07.708957+00:00"
 }
