@@ -1,5 +1,5 @@
 {
-    "build_hash": "62c58e09594b7de228d94d200fa58c438ad7b4a7",
+    "build_hash": "6d507d948703f17163e24f134ea1159519e59940",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enableLeagueEvents"
+            ],
+            "default_config": {
+                "enableLeagueEvents": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-clips-league-events",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-16T13:34:02Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableLeagueEvents": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enableLeagueEvents"
+            ],
+            "default_config": {
+                "enableLeagueEvents": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-clips-league-events",
+            "kind": "user",
+            "timestamp": "2026-06-16T13:34:02Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableLeagueEvents": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-16T13:24:46.309213+00:00"
+    "timestamp": "2026-06-16T13:35:40.785777+00:00"
 }
