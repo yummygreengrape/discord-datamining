@@ -1,5 +1,5 @@
 {
-    "build_hash": "49c83c5df68c06e5ebd9e3b697758983367cf0b0",
+    "build_hash": "8cb40b364cf161cc106e5f13a8fd9c56f6652cdc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -17,10 +17,25 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "2kOEFe": "기타",
+                "50J7mj": "Nitro로 매월 Orbs를 받으세요",
+                "5L6uDs": "{percent}%",
+                "5PbXSy": "아래로 이동",
+                "7igrTt": "매달 {monthlyOrbsAmount} Orbs를 받아 상점에서 이용해 보세요. Nitro 구독 시에만 가능해요.",
+                "FDIKss": "숨김",
+                "NU5ZId": "매달 {monthlyOrbsAmount} Orbs를 받아 상점에서 새로운 꾸미기 아이템을 획득해 보세요.",
+                "OfMjx9": "인증됨",
+                "ShSTDe": "일반",
+                "Yl8E4h": "위로 이동",
+                "nUA/JW": "선물 보내기",
+                "tG0zsk": "위로 스와이프",
+                "wRraFx": "내 배지 보기",
+                "xPfigP": "Orbs를 돌려받고 싶으신가요?"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-06-16T01:10:22.781471+00:00"
+    "timestamp": "2026-06-16T01:31:39.329017+00:00"
 }
