@@ -1,5 +1,5 @@
 {
-    "build_hash": "b4599172b817dffab09bfd4aa27028273bccec8e",
+    "build_hash": "1bf7fa305bbd71b1d4df6f23feb1490e139eef9f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,8 +12,15 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "ZHgEG7": "Your checkout session expired. Reopen checkout to continue."
+            },
+            "deleted": {
+                "+rZsly": "best value",
+                "gSNp1n": "save {months, plural, one {# month} other {# months}}",
+                "uVgNlo": "{price}/month billed annually",
+                "zYz/ME": "{amount} off"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-17T19:36:35.170189+00:00"
+    "timestamp": "2026-06-17T19:47:12.841179+00:00"
 }
