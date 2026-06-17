@@ -1,5 +1,5 @@
 {
-    "build_hash": "80b1054001ac8caadb7573d2347b34d65058368c",
+    "build_hash": "3ce5e7c4b8e894e46d29d452ee6641ac0b595e1a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "05xZPR": "What connected guardians can see",
+                "sMmIbm": "Connect with your Teen",
+                "yiUJNU": "By connecting to {username}, you confirm that you’re their parent or legal guardian and approve their use of Discord."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-17T14:40:32.107304+00:00"
+    "timestamp": "2026-06-17T15:42:43.676155+00:00"
 }
