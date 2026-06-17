@@ -1,5 +1,5 @@
 {
-    "build_hash": "a260e055f221e065fb5655faccc6ad9b938a35bb",
+    "build_hash": "75c02bf33fabf2685514283ce99ce71df3cc5d75",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,10 +9,28 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-application-widget-profile-popout-preload",
+            "kind": "user",
+            "timestamp": "2026-06-17T22:36:47Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "5+lnTA": "Share in servers with 200 or fewer members",
+                "JG3WQU": "Pix",
+                "L5IdzV": "Your activity is always shared with your friends.",
+                "bwqjL9": "Where I Share Activity",
+                "egr+VZ": "Do not share in any servers"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +40,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-17T23:08:38.909164+00:00"
+    "timestamp": "2026-06-17T23:19:24.576699+00:00"
 }
