@@ -1,5 +1,5 @@
 {
-    "build_hash": "3ce5e7c4b8e894e46d29d452ee6641ac0b595e1a",
+    "build_hash": "e4fd63d779a60c25cbb22b996f45adcbcf72e845",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,15 +8,102 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "IA.v.GRADIENT",
+                "surface": "IA.F.NONE"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-17T15:46:55Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "IA.v.GRADIENT",
+                    "surface": "IA.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "IA.v.EXPRESSIVE",
+                    "surface": "IA.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "IA.v.GRADIENT",
+                    "surface": "IA.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "IA.v.GLOWING",
+                    "surface": "IA.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "IA.v.GLOWING",
+                    "surface": "IA.F.NONE"
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "IA.v.GRADIENT",
+                "surface": "IA.F.NONE"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "timestamp": "2026-06-17T15:46:55Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "IA.v.GRADIENT",
+                    "surface": "IA.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "IA.v.EXPRESSIVE",
+                    "surface": "IA.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "IA.v.GRADIENT",
+                    "surface": "IA.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "IA.v.GLOWING",
+                    "surface": "IA.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "IA.v.GLOWING",
+                    "surface": "IA.F.NONE"
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "05xZPR": "What connected guardians can see",
-                "sMmIbm": "Connect with your Teen",
-                "yiUJNU": "By connecting to {username}, you confirm that you’re their parent or legal guardian and approve their use of Discord."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +113,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-17T15:42:43.676155+00:00"
+    "timestamp": "2026-06-17T15:53:24.281751+00:00"
 }
