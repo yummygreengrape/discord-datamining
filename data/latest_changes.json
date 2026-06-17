@@ -1,5 +1,5 @@
 {
-    "build_hash": "3ab2dfec1d3bcfc37b2bfaf642b595cbd8179ea1",
+    "build_hash": "6dc0b91d068f80ca70f2657995b55c2f37fe357a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,32 +12,32 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "3SNfm2": "Your Discord gift card balance can be used to purchase things like Nitro, profile upgrades in the Shop, Server Boosts, and more. Go WILD! (responsibly, of course)",
-                "Ojr+O9": "**Typo?** Make sure you're entering the code exactly as shown on the back of the card.",
-                "R10dpt": "If none of the above apply and your code still isn't working, please contact [Discord support](https://support.discord.com/) with your card details and a photo of the back of the card.",
-                "T8oWyd": "You can check your balance anytime under User Settings > Billing > Payment Methods in the desktop app or web browser.",
-                "UYe11k": "Purchase a Discord gift card at a participating retailer, then visit discord.com/redeem and log in to your Discord account. Gently scratch off the foil cover on the back of the card to reveal your code, or find the code in your email for digital gift cards. Follow the on-screen prompts and your gift card balance will move from the card into your account balance.",
-                "aGpJPX": "Gift cards can only be redeemed in the country they were purchased in. To redeem, your account's Country/Region setting must match the gift card's currency.",
-                "dhj1ZQ": "**Platform pro tip.** Just a heads up, you can only view and spend your balance on the desktop app or web browser.",
-                "hanRXM": "Digital gift cards are available in the US at select retailers. Physical cards are coming soon, check out our [Help Center](https://support.discord.com/hc/en-us/articles/41159846304279) for the latest on where to buy.",
-                "m4qT5b": "**Balance or redemption limit reached.** Your account may have reached its wallet balance or redemption limit.",
-                "yLPgno": "**Wrong Country?** Gift cards can only be redeemed in the country they were purchased in. If your [Country/Region](https://support.discord.com/hc/en-us/articles/39799791912087-Country-Region-Setting) doesn't match the card's currency, redemption will be blocked. You can see what region your account is set to under Country/Region in User Settings > Billing > Payments.",
-                "zEzHFj": "Let's help with that! Here are some pro tips and considerations:"
-            },
-            "deleted": {},
-            "modified": {
-                "P+t4+Y": {
-                    "new_value": "How do I redeem a Discord gift card?",
-                    "old_value": "How do I use a Discord gift card?"
-                }
-            }
-        },
-        "ko": {
             "added": {},
             "deleted": {},
             "modified": {}
+        },
+        "ko": {
+            "added": {
+                "4A5erd": "부스트 관리하기",
+                "6xpY54": "무료로 {duration} 체험해 보세요",
+                "ERaS6f": "기본",
+                "blt9Z2": "혜택 받기",
+                "nC2XBl": "공식 메시지",
+                "wlTO8v": "친구가 된 시기:",
+                "y2TE38": "답장"
+            },
+            "deleted": {},
+            "modified": {
+                "Q9zFy9": {
+                    "new_value": "이 서버에는 고유한 모습이 있어요",
+                    "old_value": "이 서버에는 고유한 테마가 있습니다"
+                },
+                "XLpBLj": {
+                    "new_value": "관리자가 이 서버에 사용자 지정 테마를 설정했어요. 여기 있는 동안 이 테마를 사용하거나, 내 테마를 사용할 수도 있어요. 설정에서 언제든지 변경할 수 있어요.",
+                    "old_value": "여기에 있는 동안 서버 테마를 보거나 기본적으로 내 테마를 우선 사용할 수도 있어요."
+                }
+            }
         }
     },
-    "timestamp": "2026-06-17T20:19:08.113985+00:00"
+    "timestamp": "2026-06-17T20:29:45.145820+00:00"
 }
