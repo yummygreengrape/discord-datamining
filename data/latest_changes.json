@@ -1,5 +1,5 @@
 {
-    "build_hash": "afe4fb8ee2ac66be57d6439aefb588159eb2e2de",
+    "build_hash": "5e97afd221a782675defff7b245e9eef2cd0822e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/M7psm": "Prism"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-17T01:35:45.032433+00:00"
+    "timestamp": "2026-06-17T04:06:04.010755+00:00"
 }
