@@ -1,5 +1,5 @@
 {
-    "build_hash": "669c244df9ccad3257b4410173b098b51b6a75d6",
+    "build_hash": "6c601d4baf55875eaab358d0bc17d8bfbda9362e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "BVO96v": "Friendship Anniversary"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-17T08:37:03.879730+00:00"
+    "timestamp": "2026-06-17T09:54:34.043942+00:00"
 }
