@@ -1,5 +1,5 @@
 {
-    "build_hash": "773508eff78f1ca29e94338ed58d0a7ccc657434",
+    "build_hash": "656adb32cfd06eb3880cf3787cd73ebbfc7bbfb8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,16 +8,62 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-application-widget-profile-popout-preload",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-application-widget-profile-popout-preload",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "5+lnTA": "Share in servers with 200 or fewer members",
-                "L5IdzV": "Your activity is always shared with your friends.",
-                "bwqjL9": "Where I Share Activity",
-                "egr+VZ": "Do not share in any servers"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +73,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-17T22:05:25.218498+00:00"
+    "timestamp": "2026-06-17T22:36:36.279763+00:00"
 }
