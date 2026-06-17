@@ -1,8 +1,33 @@
 {
-    "build_hash": "df6ca29a2a149712eabd9aa250f9c68ba8bb25c7",
+    "build_hash": "c0e72b296610587548027dd8bfa1fe976be7d3a8",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-04-trial-continuation-discount",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-04-trial-continuation-discount",
+            "kind": "user",
+            "treatments": [],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +47,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-17T18:43:27.965984+00:00"
+    "timestamp": "2026-06-17T18:54:05.750315+00:00"
 }
