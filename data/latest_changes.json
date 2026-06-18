@@ -1,5 +1,5 @@
 {
-    "build_hash": "aebfe09e5e38210a24f46c93687bbe535f53585e",
+    "build_hash": "9f2e9210e253d7f290b496914116993c8a5ba76e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -17,10 +17,180 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "+tmElp": "역할이 {from} 위치에서 {to} 위치로 이동했어요",
+                "+yF0ds": "{name} 님을 제거했어요. {count}.",
+                "065Hig": "레벨 숨기기",
+                "0SLl/G": "Discord 계정을 연결하고 [{gameTitle}]({onGameTitleClick})에서 {objective}에 참가해 bHook{questReward}을 획득하세요.",
+                "0fc/DG": "이 콘텐츠는 연령 제한이 있어 볼 수 없어요.",
+                "0o3yg8": "보호자로 연결하려면 만 18세 이상이어야 해요. 연결되면 자녀의 활동을 확인하고 설정을 관리할 수 있어요. [자세히 알아보기]({link})",
+                "0vGRCS": "연결됐어요! {rewardNameWithArticle} 보상을 잠금 해제하려면 [{gameTitle}]({onClickGameTitle}) 게임을 {targetMinutes}분 동안 플레이하세요.",
+                "121gLw": "잠금 해제되지 않음",
+                "1kkbKw": "Orbs를 얻기 시작하세요!",
+                "20NLWC": "연결 실패",
+                "2Ctf1d": "[{gameTitle}]({onGameTitleClick})에서 {objective}에 참가하여 bHook{questReward}을 잠금 해제하세요. Nitro 구독으로 유지할 수 있어요!",
+                "2Rb7tE": "배지 디렉터리에 새로 추가된 최신 항목을 확인하고 수집을 시작해 보세요.",
+                "3oUE4o": "연령 확인",
+                "4+3zP/": "아래 버튼을 눌러 Discord와 [{gameTitle}]({onClickGameTitle}) 계정을 연결하세요",
+                "5GD53o": "신규 배지 출시",
+                "5X5Oe2": "{names}에 보내기",
+                "60IaC2": "이 설정은 Discord를 활용하여 소셜 경험을 제공하는 gameListHookHook{gameName} 게임용으로 준비했어요.",
+                "7Vsu1h": "초대를 보냈어요",
+                "8XOu5v": "{user} 님을 초대했어요",
+                "8naQjv": "시간 속에 잊혀지다",
+                "AZGGo1": "현상금을 완료하여 Orbs를 획득하세요.",
+                "Amr1IZ": "이 설정은 Discord를 활용하여 소셜 경험을 제공하는 게임용으로 준비했어요.",
+                "Ar0krj": "스티커 버튼 표시",
+                "AxRAWt": "표현 선택기 형식",
+                "BQFHXW": "연결된 보호자가 되려면 만 18세 이상이어야 해요",
+                "BlfaHK": "Discord 계정을 연결하고 {gameTitle}에서 {objective}에 참가해 bHook{questReward}을 획득하세요.",
+                "Fo68kU": "PC 전용 플레이 퀘스트예요. PC 클라이언트를 열고 {gameTitle} 게임을 플레이하여 진행 상황을 추적하세요.",
+                "Fyamu8": "초대를 보냈어요",
+                "GLZnbq": "[{gameTitle}]({onClickGameTitle})에서 {objective}에 참가해 {rewardName} 잠금 해제",
+                "HfTWGa": "{username} 님이 회원님을 {groupName}에 초대했어요",
+                "IwVGQs": "고급 채팅 바 설정 숨기기",
+                "Jn+COZ": "다음 레벨: {tier_name}",
+                "JsBPb8": "기존 Discord 커뮤니티의 예시",
+                "LAGfIs": "연간 플랜에서 월간 플랜으로 전환하면 특전은 그대로 유지되지만 연간 할인 혜택은 사라져요.",
+                "MBBanI": "초창기 멤버",
+                "Mi60fm": "보호자가 이 코드를 스캔하게 하세요",
+                "Mk5nzZ": "방금 신규 배지가 출시됐어요. 이미 {count} 개 를 획득했어요. 잠금 해제된 항목을 확인해 보세요.",
+                "MqTGqz": "설정 페이지",
+                "MylOvg": "모든 레벨 보기",
+                "N6ixy8": "Nitro를 구독하고 서버별 소개글을 커스터마이즈하세요",
+                "NFJUPa": "지우기까지 {value}",
+                "NQyAXK": "{username} 님이 초대했어요",
+                "OYDyt2": "메시지 {count} 개 ›",
+                "QXQ/Sm": "bHook{intervalCount}개월 후 {priceRate}",
+                "RAUmQM": "이 설정은 Discord를 활용하여 소셜 경험을 제공하는 gameListHookHook{game1}, {game2}, 그외 {remaining} 개의 게임용으로 준비했어요.",
+                "Rw6VmE": "{username} 님이 초대했어요",
+                "TWSB/5": "플랫폼 선택",
+                "Ur/4dI": "그룹 DM에 서버 멤버 초대하기",
+                "V3DI1E": "기프트 카드 잔액으로 구매하려면 PC 또는 웹 앱을 사용해야 해요.",
+                "V9/cNN": "표현 선택기",
+                "WDhIz2": "잠금 해제된 날짜",
+                "WDjaKn": "연결된 보호자가 되기 위한 최소 연령을 충족하지 않아요. 잘못된 것 같다면 [나이를 다시 확인]({link})해 보세요.",
+                "WPNjGe": "Orbs {count} 개 획득",
+                "WaxXjc": "역할을 이동하지 못했어요. 작업이 실패했어요.",
+                "We36HX": "채팅 입력창에서 이모지, GIF, 스티커 버튼을 하나의 버튼으로 합쳐요.",
+                "WggFoO": "좁을 때 표현 선택기 축소",
+                "XMYrqF": "{user} 님을 {groupName}에 초대했어요",
+                "XpErGj": "채팅 입력창이 너무 좁아서 버튼을 개별적으로 표시하기 어려울 때, 이모지, GIF, 스티커 버튼을 자동으로 합쳐요.",
+                "YErWkD": "이모지 버튼 표시",
+                "YZePWx": "알겠습니다",
+                "ZTH4j4": "앱 버튼 표시",
+                "ZU3/B4": "설정 사이드바",
+                "aJE9i1": "Xbox Game Pass 및 추가 혜택",
+                "bSGTTZ": "이모지, GIF, 스티커 버튼을 따로 표시해요. 각각 개별적으로 끄고 켤 수 있어요.",
+                "bjwSOn": "축소",
+                "bxN0nx": "[{gameTitle}]({onGameTitleClick})에서 {objective}에 참가하고 bHook{questReward}을 획득하세요.",
+                "cFNDh5": "고급 채팅 바 설정 표시",
+                "dxlHN2": "다운타임 일정 업데이트됨",
+                "ewSb6o": "만료된 링크예요",
+                "gVDdRn": "그룹 메시지 참가하기",
+                "goKu4e": "아직 작업 중이에요. 기능과 디스플레이가 변경될 수 있어요.",
+                "hSQgW9": "App Launcher",
+                "j3155Y": "아래 버튼을 눌러 Discord와 {gameTitle} 계정을 연결하세요",
+                "jVai8N": "서버 소개글",
+                "jcUN2F": "보호자 연결 링크는 1시간 후 만료돼요. 자녀에게 새 링크를 요청하거나, 자녀의 Family Center에서 QR 코드를 스캔해 보세요.",
+                "jd8fki": "독립적인 부스팅 특전으로 제공되던 {perkName} 베타 테스트가 {startDate}부터 종료돼요. 이 특전에 대한 서버의 액세스 권한은 {endDate}에 만료돼요. 부스트 {boostCount}개가 자동 반환돼요.",
+                "joHqdj": "컬렉션을 둘러보고 새로운 항목을 잠금 해제해 보세요.",
+                "k5IKep": "{username}님이 스트리밍 중이에요",
+                "k7oNEz": "GIF 버튼 표시",
+                "k86Soy": "유연",
+                "lPlIMo": "정렬 기준: {selected}",
+                "lVQycU": "한 달 동안",
+                "lWcxa8": "아는 사람만 알지",
+                "lthjd7": "이 설정은 Discord를 활용하여 소셜 경험을 제공하는 gameListHookHook{game1}, {game2} 게임용으로 준비했어요.",
+                "m5uYso": "{first}, {second} 외",
+                "ojhBxZ": "[{gameTitle}]({onGameTitleClick})에서 {objective}에 참가하여 {duration} 동안bHook{questReward}을 잠금 해제하세요.",
+                "ovecl/": "QR 코드를 보호자와 공유하세요",
+                "p/zTYn": "새 초대장 부탁하기",
+                "pDByAB": "연결하면 보호자가 Family Center에서 회원님의 활동을 볼 수 있고, 회원님은 Discord를 완전히 이용할 수 있어요. [자세히 알아보기]({link})",
+                "pHo9tZ": "배지 훑어보기",
+                "pQQMJ7": "Discord에서 보호자 감독을 설정하세요",
+                "q7A8hP": "함께 일해요",
+                "qQmNEy": "퀘스트를 계속 진행하려면 Discord 계정을 연결하고 플레이를 시작하세요.",
+                "rGLVf6": "선물 관리",
+                "rclZL/": "채팅 입력창에서 이모지, GIF, 스티커 버튼을 완전히 숨겨요.",
+                "sI+PPN": "시작하려면 계정을 선택하세요",
+                "swICIT": "퀘스트 홈",
+                "tNmoIp": "{gameTitle}을(를) 실행하고 아래 버튼을 눌러 연결하는 방법을 알아보세요",
+                "u2qHzE": "{name} 님을 추가했어요. {count}.",
+                "u3mdpP": "{gameTitle} 게임으로 돌아가 퀘스트를 계속 진행하세요.",
+                "uLVYG5": "[{gameTitle}]({onGameTitleClick})에서 {objective}에 참가하여 {duration} 동안 bHook{questReward}을 잠금 해제하세요. Nitro 구독으로 유지할 수 있어요!",
+                "uwDBSq": "새 배지를 획득했어요",
+                "uxFcqu": "달력 아이콘",
+                "vELYWk": "Discord 계정에 대한 액세스 권한을 유지하려면 보호자와 연결하세요",
+                "vos6/N": "아래로 드래그해서 확장하세요",
+                "wYaDmz": "레벨 잠금 해제됨",
+                "x9Gtie": "젤리",
+                "xC8Saf": "연령 제한 콘텐츠",
+                "y7uT5j": "새 초대장을 보내 보세요",
+                "yMEn77": "[{gameTitle}]({onGameTitleClick})에서 {objective}에 참가하여{duration} 동안 bHook{questReward}을 잠금 해제하세요. Nitro 구독으로 더 오래 유지할 수 있어요!",
+                "ysbTP8": "{groupName} 초대를 보냈어요",
+                "z6tZKH": "곧 다운타임 시작"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "/071J7": {
+                    "new_value": "보호자가 다운타임 일정을 설정, 제거 또는 업데이트하면 알림을 받아요.",
+                    "old_value": "보호자가 일정을 생성, 제거 또는 변경할 때 알림을 받아요."
+                },
+                "1Op+NP": {
+                    "new_value": "스크린 타임 제한",
+                    "old_value": "사용 시간 제한"
+                },
+                "26A0Df": {
+                    "new_value": "기존 일정이 교체돼요. 다운타임은 하루에 한 번만 설정할 수 있어요. 저장하면 현재 일정이 교체돼요.",
+                    "old_value": "하루에 하나의 다운타임만 설정할 수 있어요. 다음 일정의 현재 설정이 교체돼요."
+                },
+                "3pFz1P": {
+                    "new_value": "핑이 {badPing}ms 이상이면 오디오 지연이 발생할 수 있으며, 패킷 손실률이 {badLossRate}% 이상이면 목소리가 로봇처럼 들릴 수 있어요. 문제가 계속된다면 연결을 끊었다가 다시 접속해주세요. 추가 지원이 필요한 경우 [문제 해결 가이드]({url})를 확인해주세요.",
+                    "old_value": "핑이 {badPing}ms 이상이면 오디오 지연이 발생할 수 있으며, 패킷 손실률이 {badLossRate}% 이상이면 목소리가 로봇처럼 들릴 수 있어요. 문제가 계속된다면 연결을 끊었다가 다시 접속해주세요."
+                },
+                "6FOKAX": {
+                    "new_value": "{gameTitle}에서 {objective}에 참가하여{duration} 동안 bHook{questReward}을 잠금 해제하세요. Nitro 구독으로 더 오래 유지할 수 있어요!",
+                    "old_value": "{objective}하여 bHook{questReward}을(를) {duration} 동안 잠금 해제하세요. Nitro 구독으로 더 오래 유지할 수 있어요!"
+                },
+                "8066TK": {
+                    "new_value": "{gameTitle}에서 {objective}에 참가하여 bHook{questReward}을 잠금 해제하세요. Nitro 구독으로 유지할 수 있어요!",
+                    "old_value": "{objective}하여 bHook{questReward}을(를) 잠금 해제하세요. Nitro 구독으로 유지할 수 있어요!"
+                },
+                "IACEB/": {
+                    "new_value": "{gameTitle}에서 {objective}에 참가하여 {duration} 동안 bHook{questReward}을 잠금 해제하세요.",
+                    "old_value": "{objective}하여 bHook{questReward}을(를) {duration} 동안 잠금 해제하세요."
+                },
+                "NdXW5c": {
+                    "new_value": "{gameTitle}에서 {objective}에 참가하여 {duration} 동안 bHook{questReward}을 잠금 해제하세요. Nitro 구독으로 유지할 수 있어요!",
+                    "old_value": "{objective}하여 bHook{questReward}을(를) {duration} 동안 잠금 해제하세요. Nitro 구독으로 유지할 수 있어요!"
+                },
+                "TummoQ": {
+                    "new_value": "보호자가 설정한 다운타임으로 인해 Discord를 사용할 수 없게 되기 15분 전에 알림을 받으세요.",
+                    "old_value": "다운타임이 시작되기 15분 전에 알림 리마인더를 받아요."
+                },
+                "nP1hFd": {
+                    "new_value": "{gameTitle}에서 {objective}에 참가해 {rewardName} 잠금 해제",
+                    "old_value": "{objective}하여 {rewardName} 잠금 해제"
+                },
+                "onrAy7": {
+                    "new_value": "다운타임 일정 업데이트됨",
+                    "old_value": "화면 사용 제한 시간 일정이 업데이트됐어요"
+                },
+                "thO6iA": {
+                    "new_value": "{gameTitle}에서 {objective}에 참가하고 bHook{questReward}을 획득하세요.",
+                    "old_value": "{objective}하고 bHook{questReward}을(를) 획득하세요."
+                },
+                "vggaMt": {
+                    "new_value": "핑이 {badPing}ms 이상이면 오디오 지연이 발생할 수 있어요. 문제가 계속된다면 연결을 끊었다가 다시 접속해주세요. 추가 지원이 필요한 경우 [문제 해결 가이드]({url})를 확인해주세요.",
+                    "old_value": "핑이 {badPing}ms 이상이면 오디오 지연이 발생할 수 있어요. 문제가 계속된다면 연결을 끊었다가 다시 접속해주세요."
+                },
+                "z9h8Ym": {
+                    "new_value": "곧 다운타임 시작",
+                    "old_value": "화면 다운타임이 시작돼요"
+                }
+            }
         }
     },
-    "timestamp": "2026-06-18T23:16:45.642848+00:00"
+    "timestamp": "2026-06-18T23:27:24.779270+00:00"
 }
