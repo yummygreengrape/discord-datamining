@@ -1,5 +1,5 @@
 {
-    "build_hash": "acf1d80e14f8f83c01845526c4234ea3e74af7c3",
+    "build_hash": "d3c0a3e7d8ad6d14b59aa083913dd14c8ab0583e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,89 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "variant"
-            ],
-            "default_config": {
-                "enabled": false,
-                "variant": 0
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-quest-home-layout-visual-tweaks",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-06-18T00:03:32Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "variant": 0
-                },
-                "1": {
-                    "enabled": true,
-                    "variant": 1
-                },
-                "2": {
-                    "enabled": true,
-                    "variant": 2
-                },
-                "3": {
-                    "enabled": true,
-                    "variant": 3
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "variant"
-            ],
-            "default_config": {
-                "enabled": false,
-                "variant": 0
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-quest-home-layout-visual-tweaks",
-            "kind": "user",
-            "timestamp": "2026-06-18T00:03:32Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "variant": 0
-                },
-                "1": {
-                    "enabled": true,
-                    "variant": 1
-                },
-                "2": {
-                    "enabled": true,
-                    "variant": 2
-                },
-                "3": {
-                    "enabled": true,
-                    "variant": 3
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -103,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-18T00:11:35.795337+00:00"
+    "timestamp": "2026-06-18T00:22:17.421313+00:00"
 }
