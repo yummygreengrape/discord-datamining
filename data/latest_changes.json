@@ -1,5 +1,5 @@
 {
-    "build_hash": "040b43807ad7d350bb8ba8c4c341527dd744a3f2",
+    "build_hash": "f6b5315426f1b0d9324c38f14e74f5e2ee8e65ed",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,15 +12,21 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "uLjCfn": "We ran into an issue, refresh and retry."
+            },
+            "deleted": {
+                "mn0IdX": "Your orbs are on their way! We hit a small snag but we're on it. Check back soon."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "mn0IdX": "Orbs가 곧 도착해요! 자잘한 문제가 생겼지만 해결 중이에요. 잠시 후 다시 확인해 보세요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-06-18T20:17:05.283376+00:00"
+    "timestamp": "2026-06-18T20:27:41.395641+00:00"
 }
