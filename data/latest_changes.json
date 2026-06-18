@@ -1,5 +1,5 @@
 {
-    "build_hash": "ef618711e9f10d985fe518cc92ec1e6e130be418",
+    "build_hash": "6e0ff431d00fe4932d5e895f5cfcb6aff9947577",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,20 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "R10dpt": {
+                    "new_value": "If none of the above apply and your code still isn't working, please contact [Discord support]({supportLink}) with your card details and a photo of the back of the card.",
+                    "old_value": "If none of the above apply and your code still isn't working, please contact [Discord support](https://support.discord.com/) with your card details and a photo of the back of the card."
+                },
+                "hanRXM": {
+                    "new_value": "Digital gift cards are available in the US at select retailers. Physical cards are coming soon, check out our [Help Center]({helpCenterLink}) for the latest on where to buy.",
+                    "old_value": "Digital gift cards are available in the US at select retailers. Physical cards are coming soon, check out our [Help Center](https://support.discord.com/hc/en-us/articles/41159846304279) for the latest on where to buy."
+                },
+                "yLPgno": {
+                    "new_value": "**Wrong Country?** Gift cards can only be redeemed in the country they were purchased in. If your [Country/Region]({countryRegionLink}) doesn't match the card's currency, redemption will be blocked. You can see what region your account is set to under Country/Region in User Settings > Billing > Payments.",
+                    "old_value": "**Wrong Country?** Gift cards can only be redeemed in the country they were purchased in. If your [Country/Region](https://support.discord.com/hc/en-us/articles/39799791912087-Country-Region-Setting) doesn't match the card's currency, redemption will be blocked. You can see what region your account is set to under Country/Region in User Settings > Billing > Payments."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-18T20:48:58.974975+00:00"
+    "timestamp": "2026-06-18T20:59:35.390184+00:00"
 }
