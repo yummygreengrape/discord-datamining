@@ -1,5 +1,5 @@
 {
-    "build_hash": "5e912615d4a7a75f6675ebc075652f015e84fc2c",
+    "build_hash": "848b89d82f5891498b58acedfe7926f571e3b67c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "8n9gj5": "Uh oh! Something went wrong when setting your background. Please try again or continue without a background if the issue persists.",
-                "Up0ApK": "Well, it looks like your video background couldn't load. Let's fix that!",
-                "kRwxfi": "Open settings"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-18T22:23:33.241280+00:00"
+    "timestamp": "2026-06-18T22:34:11.880310+00:00"
 }
