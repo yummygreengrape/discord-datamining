@@ -1,5 +1,5 @@
 {
-    "build_hash": "d02cd41afd5e941286a8bf661db1ddc861271a7f",
+    "build_hash": "cbeba25088b00a68d4bf1cfa4ee9f4d620f96ce5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,13 +9,21 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-non-friend-messages-requests-in-uk",
+            "kind": "user",
+            "timestamp": "2026-06-18T18:30:11Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "9Wv+8h": "Your Nitro membership now comes with Xbox Game Pass, gear discounts, and Orbs perks. Available on Desktop only. [Terms apply.]({termsLink})",
-                "aJE9i1": "Xbox Game Pass & More"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-18T18:20:51.553089+00:00"
+    "timestamp": "2026-06-18T18:31:29.904850+00:00"
 }
