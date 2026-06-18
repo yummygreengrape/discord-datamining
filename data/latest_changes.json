@@ -1,5 +1,5 @@
 {
-    "build_hash": "1756e058dace041408e0b9a64a26ab8d26a2ea19",
+    "build_hash": "bd6b3fe2095005269ae3529da94175109d947246",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "B2xSxL": "Image attachment",
-                "VGf+K3": "Media is hidden until the DM is accepted",
-                "YQ0uUE": "Accept the request to send a message, view attachments, and use links."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-18T04:52:12.215347+00:00"
+    "timestamp": "2026-06-18T09:30:37.659073+00:00"
 }
