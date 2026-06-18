@@ -1,5 +1,5 @@
 {
-    "build_hash": "d28637a8a2876c1910ec5bbc4488bf1fbcf1d1bb",
+    "build_hash": "3bc1cf638418420a7fba1d1bc8c395e0f8fdcf75",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "qkARs9": "You won the game!",
+                "vS7yZW": "Victory",
+                "xdsqBt": "You lost the game."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-18T11:14:37.442823+00:00"
+    "timestamp": "2026-06-18T13:59:40.838350+00:00"
 }
