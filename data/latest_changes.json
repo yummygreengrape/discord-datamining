@@ -1,5 +1,5 @@
 {
-    "build_hash": "cbeba25088b00a68d4bf1cfa4ee9f4d620f96ce5",
+    "build_hash": "ac9cdf027423cf6ca747519064fa7f77957055e6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,18 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-non-friend-messages-requests-in-uk",
-            "kind": "user",
-            "timestamp": "2026-06-18T18:30:11Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -33,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-18T18:31:29.904850+00:00"
+    "timestamp": "2026-06-18T18:42:08.020116+00:00"
 }
