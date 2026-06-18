@@ -1,5 +1,5 @@
 {
-    "build_hash": "69b903eb1924b9e4d95f1bcec0d9ebc5c9ee5ece",
+    "build_hash": "040b43807ad7d350bb8ba8c4c341527dd744a3f2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,16 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0Zl+Xt": "By clicking '{purchaseButtonText}', you agree to the [Paid Services Terms]({paidServicesTermsUrl}). Buying an item from the {applicationName} Game Shop means you’re buying a limited license to use this item in the listed game. This purchase is non-refundable. This item will be delivered by the developer directly in-game. {platformInfo}"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "OVhTE7": {
-                    "new_value": "By clicking '{purchaseButtonText}', you agree to the [Paid Services Terms]({paidServicesTermsUrl}). Buying an item from the {applicationName} Game Shop means you’re buying a limited license to use this item in the listed game. This purchase is non-refundable. This item will be delivered by the developer directly in-game.",
-                    "old_value": "By clicking '{purchaseButtonText}', you agree to the [Paid Services Terms]({paidServicesTermsUrl}). Buying an item from the {applicationName} Game Shop means you're buying a limited license to use this item in the listed game. This purchase is non-refundable. This item will be delivered by the developer directly in-game. PC and Xbox only. Account link required for redemption."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -29,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-18T20:06:27.606913+00:00"
+    "timestamp": "2026-06-18T20:17:05.283376+00:00"
 }
