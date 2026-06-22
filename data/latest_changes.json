@@ -1,5 +1,5 @@
 {
-    "build_hash": "f4d0f6a9dad6489cf3a91aa8b1ecd4f5e34dec34",
+    "build_hash": "3e4a81969556da84e9ba37c4327ef10e2501f24d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "cZCqGn": "DEAL"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-22T14:33:38.754714+00:00"
+    "timestamp": "2026-06-22T15:35:48.274981+00:00"
 }
