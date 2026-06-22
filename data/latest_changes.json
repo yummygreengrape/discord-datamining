@@ -1,5 +1,5 @@
 {
-    "build_hash": "32e6a596d28a881594e219ed334b6e91beb3c8e5",
+    "build_hash": "fdb65be8245fa61c44aa4d5316b30e6cc5a46b0a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "O2/Bj8": "{orbAmount} Orbs, delivered",
+                "OhOWfI": "Visit Shop",
+                "qiZPb6": "Your {orbAmount} Orbs landed in your account. Now head to the Shop and put them to work."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-22T17:00:14.132945+00:00"
+    "timestamp": "2026-06-22T17:11:01.434024+00:00"
 }
