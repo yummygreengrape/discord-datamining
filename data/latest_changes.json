@@ -1,5 +1,5 @@
 {
-    "build_hash": "5b452a2c6b85abf5a55c099c76a9cada945959f8",
+    "build_hash": "39ddf4ba3b19595461a2b97deb2d602fd03d3167",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,15 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "3HuGuY": "Log Out",
+                "6GaRTu": "Laws in your region require teens ages 13–16 to have a connected guardian. Share the code below to connect. [Learn more]({link})",
+                "6JV39E": "Share this code with your guardian",
+                "Ke+kz5": "Laws in your region require teens ages 13–16 to have a connected guardian. You have {pendingCount, plural, one {# pending connection request} other {# pending connection requests}}. [Learn more]({link})",
+                "OaHZUf": "Continue to Account",
+                "PARENTAL_CONSENT_CONNECTION": "parental_consent_connection",
+                "dMMSA0": "Connect to a guardian to access your account"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-19T20:15:25.500967+00:00"
+    "timestamp": "2026-06-22T08:22:20.346515+00:00"
 }
