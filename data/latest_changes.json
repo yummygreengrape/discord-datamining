@@ -1,5 +1,5 @@
 {
-    "build_hash": "d97470175b124f2d0cf9e49b8c023a7645918f2a",
+    "build_hash": "92020e895c3c991f6b2398fb5ea8cc7cc5430f95",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "KEupiH": "Quest accepted! Track progress in the Quest tab above your DMs.",
+                "h/qYF6": "Quest Details"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-25T20:54:00.494093+00:00"
+    "timestamp": "2026-06-25T21:04:38.589756+00:00"
 }
