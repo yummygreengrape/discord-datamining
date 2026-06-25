@@ -1,5 +1,5 @@
 {
-    "build_hash": "7dedea361f77175d1b10ac589d02a550e6a30402",
+    "build_hash": "07219d2996bd835b25f3a6cca3c9de61087ebe51",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,51 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-family-center-connection-prereq",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-family-center-connection-prereq",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -17,10 +60,129 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "+80oNL": "다른 기기에서 연령을 확인하세요",
+                "+loyQl": "스타일 없음",
+                "+rZsly": "최고의 가성비",
+                "/M7psm": "Prism",
+                "/SbB94": "또는",
+                "05AyNA": "크기가 {maxSize} 미만인 {types} 파일 {minValues}~{maxValues}개를 업로드하세요.",
+                "05xZPR": "연결된 보호자가 볼 수 있는 항목",
+                "06QnFf": "Playpen Sans",
+                "0Zl+Xt": "\"{purchaseButtonText}\" 버튼을 클릭하면 [유료 서비스 이용 약관]({paidServicesTermsUrl})에 동의하는 것으로 간주돼요. {applicationName} 게임 상점에서 아이템을 구매하면 해당 게임에서 이 아이템을 사용할 수 있는 제한된 라이선스를 구매한다는 의미예요. 구매 시 환불되지 않아요. 이 아이템은 개발사가 게임 내에서 직접 지급해요. {platformInfo}",
+                "1TOrU3": "자르기 설정",
+                "1gfA/U": "미리 보기(내부 전용)",
+                "3SNfm2": "Discord 기프트 카드 잔액은 Nitro, 상점의 프로필 업그레이드, 서버 부스트 등을 구매하는 데 사용할 수 있습니다. 마음껏 즐기세요! (물론 책임감 있게 즐겨야 하지만요)",
+                "4dvK8z": "새로운 글꼴과 효과로 별명에 멋을 더해보세요.",
+                "5+lnTA": "멤버가 200명 이하인 서버와 공유",
+                "5U9LSo": "파일은 {types}이어야 해요.",
+                "6GaRTu": "거주 지역의 법률에 따라 13~16세 청소년 사용자는 보호자를 연결해야 합니다. 아래 코드를 공유하여 연결하세요. [자세히 알아보기]({link})",
+                "6JV39E": "이 코드를 보호자와 공유하세요",
+                "6Qbqxw": "부스트로 모두를 위한 특전 잠금 해제",
+                "7mR8Bv": "반응을 추가하려면 동영상 플레이어의 버튼을 사용하세요",
+                "7mvRNF": "[{username}]({usernameOnClick}) 님이 이 채널에 [메시지]({messageOnClick})를 고정하셨어요. 모든 [고정된 메시지]({pinsOnClick}) 보기.",
+                "8n9gj5": "앗! 배경을 설정하는 중에 문제가 발생했어요. 다시 시도해 보시거나, 문제가 지속될 경우 배경 없이 계속 진행해 주세요.",
+                "9Wv+8h": "이제 Nitro 멤버십에 Xbox Game Pass, 장비 할인 및 Orbs 특전이 포함돼요. 데스크톱에서만 이용할 수 있어요. [약관이 적용됩니다.]({termsLink})",
+                "B2xSxL": "이미지 첨부 파일",
+                "BGHbLb": "userSymbolHookHook textChannelSymbolHookHook voiceChannelSymbolHookHook guildSymbolHookHook gameProfileSymbolHookHook(으)로 검색해 검색 결과를 좁혀보세요. [자세히 알아보기]({helpdeskArticle})",
+                "BVO96v": "친구 기념일",
+                "CZCvn+": "{emoji}",
+                "DtNlM9": "Orbitron",
+                "Hsm5IF": "닫기",
+                "JG3WQU": "Pix",
+                "JJzx48": "파일을 끌어다 놓거나 클릭하여 {types} 파일을 업로드하세요",
+                "JKfipk": "텍스트 색상 없음",
+                "K8Khlc": "현재 시간으로",
+                "KSbm1J": "Nitro 혜택이 기다리고 있어요",
+                "KZQ4mF": "나도 할게",
+                "Ke+kz5": "거주 지역의 법률에 따라 13~16세 청소년 사용자는 보호자를 연결해야 합니다. 보류 중인 연결 요청이 {pendingCount}건 있습니다. [자세히 알아보기]({link})",
+                "Kzll3E": "오디오",
+                "L5IdzV": "내 활동은 항상 친구와 공유돼요.",
+                "L9YdGH": "channelHookHook{channelName}{count}회 • 회원님이 멘션되었어요",
+                "LKsPRe": "내 태그를 확인해 줘!",
+                "M5amXH": "별명을 꾸며 보세요",
+                "MfbDzS": "게임 프로필",
+                "NRRxmz": "{types} 파일 업로드",
+                "O2/Bj8": "{orbAmount} Orbs 지급 완료",
+                "O2vBoY": "배경 색상 없음",
+                "OVvzY0": "아직 이 서버 태그가 프로필에 없어요. 해당 태그를 프로필에 적용하시겠어요?",
+                "OaHZUf": "계정으로 계속하기",
+                "Ojr+O9": "bHook오타 주의! 카드 뒷면에 표시된 코드와 정확히 일치하게 입력했는지 재확인하세요.",
+                "PPaJSw": "{hours}시간 남음",
+                "Q8nVIj": "만료됨(내부 전용)",
+                "QLrHJG": "크기가 {maxSize} 미만인 {types} 파일 {maxValues}개를 업로드하세요.",
+                "R10dpt": "위 항목에 해당하지 않는데도 코드가 계속 작동하지 않는다면, 카드 세부 정보와 카드 뒷면 사진을 첨부하여 [Discord 고객지원]({supportLink})으로 문의해 주세요.",
+                "RiEyiS": "자르기 변경",
+                "T8oWyd": "PC 앱 또는 웹 브라우저의 사용자 설정 > 청구 > 결제 수단에서 언제든지 잔액을 확인할 수 있습니다.",
+                "UYe11k": "제휴 판매처에서 Discord 기프트 카드를 구매한 후 discord.com/redeem에 방문하여 Discord 계정에 로그인하세요. 카드 뒷면의 포일 커버를 살짝 긁어 코드를 확인하거나, 디지털 기프트 카드의 경우 이메일에서 코드를 찾으세요. 화면의 안내를 따르면 기프트 카드 잔액이 내 계정 잔액으로 이전돼요.",
+                "UocED+": "게시자: usernameHookHook",
+                "Up0ApK": "동영상 배경을 불러올 수 없는 것 같네요. 지금 바로 해결해 볼까요!",
+                "Uzms61": "새로운 스타일이 방금 공개됐어요",
+                "VGf+K3": "DM을 수락할 때까지 미디어는 숨겨집니다",
+                "VWu9RV": "멤버 추방 권한을 관리자로 제한",
+                "XJlymS": "Orb 보상을 추가로 획득할 수 있는 현상금이 더 지급될 수 있으니 나중에 다시 확인해 보세요.",
+                "XLyZxX": "특별히 엄선한 혜택이에요. 놓치지 마세요. 자동으로 갱신돼요. 언제든지 취소할 수 있어요.",
+                "XdByBm": "사용자 지정 그레이디언트 색상 {number}",
+                "Xp4xMV": "크기가 {maxSize} 미만인 {types} 파일 {minValues}개를 업로드하세요.",
+                "YQ0uUE": "메시지를 보내고, 첨부 파일을 보거나, 링크를 사용하려면 요청을 수락하세요.",
+                "YQP5dE": "연결됨",
+                "ZEs/pI": "반응 추가",
+                "ZHgEG7": "결제 세션이 만료되었습니다. 결제 창을 다시 열어 계속 진행하세요.",
+                "ZTQ/80": "서버에 공식 메시지가 없습니다.",
+                "a3IPrX": "이를 지원하는 인증된 서버에서 공식 개발자 메시지가 어떻게 표시될지 선택하세요.",
+                "aGpJPX": "기프트 카드는 구매한 국가에서만 교환할 수 있습니다. 교환하려면 계정의 국가/지역 설정이 기프트 카드의 통화와 일치해야 합니다.",
+                "bdpoA7": "Kalam",
+                "bwqjL9": "내 활동을 공유할 곳",
+                "c3OIMS": "현재 시간으로",
+                "c65yqr": "별명을 위한 새로운 글꼴과 효과로 분위기를 바꿔보세요.",
+                "cYwrp8": "새로운 스타일이 방금 공개됐어요",
+                "dMMSA0": "계정에 액세스하려면 보호자를 연결하세요",
+                "dhj1ZQ": "bHook플랫폼 관련 꿀팁. 참고로, 잔액 확인 및 사용은 PC 앱이나 웹 브라우저에서만 가능합니다.",
+                "egr+VZ": "어느 서버와도 공유하지 않음",
+                "gEp2SG": "게임 프로필 검색 중",
+                "gSNp1n": "{months}개월 할인",
+                "hanRXM": "디지털 기프트 카드는 미국의 일부 제휴 판매처에서 구매할 수 있습니다. 실물 카드는 곧 출시될 예정입니다. 구매처에 대한 최신 정보는 [지원 센터]({helpCenterLink})를 확인해 주세요.",
+                "kRwxfi": "설정 열기",
+                "lkpZYr": "이 설정이 활성화되면 관리자 및 서버 소유자만 비활동 멤버를 추방할 수 있습니다.",
+                "m4qT5b": "bHook잔액 또는 교환 한도 도달. 계정의 지갑 잔액 또는 교환 한도에 도달했을 수 있습니다.",
+                "qiZPb6": "{orbAmount} Orbs가 계정에 도착했어요. 이제 상점에서 마음껏 사용해 보세요.",
+                "qkARs9": "게임에서 이겼어요!",
+                "r1Vkoc": "{users}{overflowCount}명 음성 채팅 중",
+                "sMmIbm": "청소년 자녀와 연결하기",
+                "uLjCfn": "문제가 발생했습니다. 새로 고친 후 다시 시도해 주세요.",
+                "uVgNlo": "{price}/월(연간 결제 기준)",
+                "unC18Z": "미디어 스레드",
+                "vS7yZW": "승리",
+                "vtCg11": "와, 그건 어떻게 얻은 거예요?",
+                "w/mIMw": "서버 태그 활성화하기",
+                "wQFVGI": "현재 시간으로",
+                "wSMzUj": "New Rocker",
+                "xdsqBt": "게임에서 졌어요.",
+                "yLPgno": "bHook국가가 잘못되었나요? 기프트 카드는 구매한 국가에서만 교환할 수 있습니다. 내 계정의 [국가/지역]({countryRegionLink}) 설정이 카드의 통화와 일치하지 않으면 교환이 차단됩니다. 계정이 설정된 지역은 사용자 설정 > 청구 > 결제의 국가/지역에서 확인할 수 있습니다.",
+                "yiUJNU": "{username} 님과 연결하면 귀하가 해당 사용자의 부모 또는 법정 후견인임을 확인하며 Discord 사용을 승인하게 됩니다.",
+                "zEzHFj": "저희가 도와드릴게요! 다음 유용한 팁과 참고 사항을 확인해 보세요.",
+                "zYz/ME": "{amount} 할인"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "NU5ZId": {
+                    "new_value": "매달 {monthlyOrbsAmount} Orbs를 받아 상점에서 이용해 보세요.",
+                    "old_value": "매달 {monthlyOrbsAmount} Orbs를 받아 상점에서 새로운 꾸미기 아이템을 획득해 보세요."
+                },
+                "OVhTE7": {
+                    "new_value": "\"{purchaseButtonText}\" 버튼을 클릭하면 [유료 서비스 이용 약관]({paidServicesTermsUrl})에 동의하는 것으로 간주돼요. {applicationName} 게임 상점에서 아이템을 구매하면 해당 게임에서 이 아이템을 사용할 수 있는 제한된 라이선스를 구매한다는 의미예요. 구매 시 환불되지 않아요. 이 아이템은 개발사가 게임 내에서 직접 지급해요.",
+                    "old_value": "\"{purchaseButtonText}\" 버튼을 클릭하면 [유료 서비스 이용 약관]({paidServicesTermsUrl})에 동의하는 것으로 간주돼요. {applicationName} 게임 상점에서 아이템을 구매하면 해당 게임에서 이 아이템을 사용할 수 있는 제한된 라이선스를 구매한다는 의미예요. 구매 시 환불되지 않아요. 이 아이템은 개발사가 게임 내에서 직접 지급해요. PC 및 Xbox에서만 사용할 수 있어요. 수령하려면 계정 링크가 필요해요."
+                },
+                "OqlmU6": {
+                    "new_value": "channelHookHook{channelName}{count}개 • 새로운 메시지",
+                    "old_value": "channelHookHook{channelName}의 신규 항목"
+                },
+                "XdZS9I": {
+                    "new_value": "초기화",
+                    "old_value": "재설정"
+                }
+            }
         }
     },
-    "timestamp": "2026-06-25T23:05:53.965101+00:00"
+    "timestamp": "2026-06-25T23:16:22.181205+00:00"
 }
