@@ -1,139 +1,77 @@
 {
-    "build_hash": "3e9896624f731bdfb8a160a32e9b8af2f982370e",
+    "build_hash": "ce853f51af4f78dec81ef5c8b332595df778bcfb",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "showSettingsToggle"
+            ],
+            "default_config": {
+                "showSettingsToggle": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-gdm-all-reaction-notifications",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "showSettingsToggle": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "showSettingsToggle"
+            ],
+            "default_config": {
+                "showSettingsToggle": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-gdm-all-reaction-notifications",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "showSettingsToggle": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-annual-plan-checkout-copy",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": 0,
-                "1": 1,
-                "2": 2,
-                "3": 3,
-                "4": 4
-            },
-            "status": "modified",
-            "treatments": [],
-            "variations": {
-                "0": 0,
-                "1": 1,
-                "2": 2,
-                "3": 3,
-                "4": 4
-            }
-        },
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-nitro-basic-card-color",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": false,
-                "1": true
-            },
-            "status": "modified",
-            "treatments": [],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-annual-plan-checkout-copy",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": 0,
-                "1": 1,
-                "2": 2,
-                "3": 3,
-                "4": 4
-            },
-            "status": "modified",
-            "treatments": [],
-            "variations": {
-                "0": 0,
-                "1": 1,
-                "2": 2,
-                "3": 3,
-                "4": 4
-            }
-        },
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-nitro-basic-card-color",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": false,
-                "1": true
-            },
-            "status": "modified",
-            "treatments": [],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "EOOWpo": "By clicking '{purchaseButtonText}', you agree to the [Paid Services Terms]({paidServicesTermsUrl}). You may be buying a limited license to use this item only within the creator’s server. bHookThis purchase is non-refundable.",
-                "G0nk6B": "By clicking '{purchaseButtonText}', you agree to the [Paid Services Terms]({paidServicesTermsUrl}). Buying this item means you're buying a limited license to use this item on Discord. This purchase is offered by the developer of this app and can be used only with this app. bHookThis purchase is non-refundable.",
-                "Uwhb1l": "Next level progress",
-                "bbgJdE": "By clicking '{purchaseButtonText}', you are signing up for a recurring subscription. You'll be charged {totalDue} today, then {renewalPrice} plus applicable taxes every {interval} starting {startDate} until you cancel. This purchase is offered by the developer of this app and can be used only with this app. Prices subject to change. Cancel anytime in your Settings. [Paid Services Terms]({paidServicesTermsUrl}) apply. Have questions? [Contact us]({contactUsUrl}) or see our [Subscriptions FAQ]({subscriptionsFaqUrl})."
+            "added": {},
+            "deleted": {
+                "FpJqb0": "Reacted emojiHookHook to {username}:",
+                "J86pqQ": "{username}'s message got {count}",
+                "MJPwfg": "Reacted emojiHookHook to {username}:"
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "FpJqb0": "{username} 님에게 emojiHookHook 이모지로 반응했어요",
+                "J86pqQ": "{username} 님의 메시지가 {count}을 받았어요",
+                "MJPwfg": "{username} 님에게 emojiHookHook 이모지로 반응했어요"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-06-25T20:01:13.198465+00:00"
+    "timestamp": "2026-06-25T20:11:50.381466+00:00"
 }
