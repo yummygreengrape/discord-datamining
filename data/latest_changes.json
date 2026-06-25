@@ -1,30 +1,1847 @@
 {
-    "build_hash": "fdb65be8245fa61c44aa4d5316b30e6cc5a46b0a",
+    "build_hash": "a87588d4af54ec573362378e5dff4fc11d2f2771",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-09-mana-toggle-inputs",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-06-23T15:41:24Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "displayNudges",
+                "enabled",
+                "maxNudgeCount",
+                "minUserDMAffinity"
+            ],
+            "default_config": {
+                "displayNudges": false,
+                "enabled": false,
+                "maxNudgeCount": 1,
+                "minUserDMAffinity": -1
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-01-reply-nudge",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-06-23T20:21:57Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6"
+            ],
+            "variations": {
+                "0": {
+                    "displayNudges": false,
+                    "enabled": true,
+                    "maxNudgeCount": 2,
+                    "minUserDMAffinity": -1
+                },
+                "1": {
+                    "displayNudges": true,
+                    "enabled": true,
+                    "maxNudgeCount": 2,
+                    "minUserDMAffinity": -1
+                },
+                "2": {
+                    "displayNudges": true,
+                    "enabled": true,
+                    "maxNudgeCount": 2,
+                    "minUserDMAffinity": 0.05
+                },
+                "3": {
+                    "displayNudges": true,
+                    "enabled": true,
+                    "maxNudgeCount": 2,
+                    "minUserDMAffinity": -1
+                },
+                "4": {
+                    "displayNudges": true,
+                    "enabled": true,
+                    "maxNudgeCount": 2,
+                    "minUserDMAffinity": 0.05
+                },
+                "5": {
+                    "displayNudges": true,
+                    "enabled": true,
+                    "maxNudgeCount": 5,
+                    "minUserDMAffinity": -1
+                },
+                "6": {
+                    "displayNudges": false,
+                    "enabled": true,
+                    "maxNudgeCount": 5,
+                    "minUserDMAffinity": -1
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "animateBetweenServers",
+                "enabled",
+                "largeAvatarEnabled",
+                "questDockEnabled"
+            ],
+            "default_config": {
+                "animateBetweenServers": false,
+                "enabled": false,
+                "largeAvatarEnabled": false,
+                "questDockEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-01-you-bar",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "1": {
+                    "animateBetweenServers": false,
+                    "enabled": true,
+                    "largeAvatarEnabled": false,
+                    "questDockEnabled": true
+                },
+                "2": {
+                    "animateBetweenServers": false,
+                    "enabled": true,
+                    "largeAvatarEnabled": true,
+                    "questDockEnabled": true
+                },
+                "3": {
+                    "animateBetweenServers": false,
+                    "enabled": true,
+                    "largeAvatarEnabled": true,
+                    "questDockEnabled": false
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled",
+                "treatment"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-silp-in-app-redesign",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "treatment": "v1"
+                },
+                "2": {
+                    "enabled": true,
+                    "treatment": "v2"
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled",
+                "showSkipButton"
+            ],
+            "default_config": {
+                "enabled": false,
+                "showSkipButton": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-desktop-activity-quest-header",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-06-23T20:47:12Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "showSkipButton": true
+                },
+                "2": {
+                    "enabled": true,
+                    "showSkipButton": false
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled",
+                "treatment"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-silp-in-app-redesign-profile",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "treatment": "v1"
+                },
+                "2": {
+                    "enabled": true,
+                    "treatment": "v2"
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-store-country",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-06-23T15:29:17Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-remove-expired-quests",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-user-profile-sidebar-redesign",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-09-mana-toggle-inputs",
+            "kind": "user",
+            "timestamp": "2026-06-23T15:41:24Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "displayNudges",
+                "enabled",
+                "maxNudgeCount",
+                "minUserDMAffinity"
+            ],
+            "default_config": {
+                "displayNudges": false,
+                "enabled": false,
+                "maxNudgeCount": 1,
+                "minUserDMAffinity": -1
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-01-reply-nudge",
+            "kind": "user",
+            "timestamp": "2026-06-23T20:21:57Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6"
+            ],
+            "variations": {
+                "0": {
+                    "displayNudges": false,
+                    "enabled": true,
+                    "maxNudgeCount": 2,
+                    "minUserDMAffinity": -1
+                },
+                "1": {
+                    "displayNudges": true,
+                    "enabled": true,
+                    "maxNudgeCount": 2,
+                    "minUserDMAffinity": -1
+                },
+                "2": {
+                    "displayNudges": true,
+                    "enabled": true,
+                    "maxNudgeCount": 2,
+                    "minUserDMAffinity": 0.05
+                },
+                "3": {
+                    "displayNudges": true,
+                    "enabled": true,
+                    "maxNudgeCount": 2,
+                    "minUserDMAffinity": -1
+                },
+                "4": {
+                    "displayNudges": true,
+                    "enabled": true,
+                    "maxNudgeCount": 2,
+                    "minUserDMAffinity": 0.05
+                },
+                "5": {
+                    "displayNudges": true,
+                    "enabled": true,
+                    "maxNudgeCount": 5,
+                    "minUserDMAffinity": -1
+                },
+                "6": {
+                    "displayNudges": false,
+                    "enabled": true,
+                    "maxNudgeCount": 5,
+                    "minUserDMAffinity": -1
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "animateBetweenServers",
+                "enabled",
+                "largeAvatarEnabled",
+                "questDockEnabled"
+            ],
+            "default_config": {
+                "animateBetweenServers": false,
+                "enabled": false,
+                "largeAvatarEnabled": false,
+                "questDockEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-01-you-bar",
+            "kind": "user",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "1": {
+                    "animateBetweenServers": false,
+                    "enabled": true,
+                    "largeAvatarEnabled": false,
+                    "questDockEnabled": true
+                },
+                "2": {
+                    "animateBetweenServers": false,
+                    "enabled": true,
+                    "largeAvatarEnabled": true,
+                    "questDockEnabled": true
+                },
+                "3": {
+                    "animateBetweenServers": false,
+                    "enabled": true,
+                    "largeAvatarEnabled": true,
+                    "questDockEnabled": false
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled",
+                "treatment"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-silp-in-app-redesign",
+            "kind": "user",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "treatment": "v1"
+                },
+                "2": {
+                    "enabled": true,
+                    "treatment": "v2"
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled",
+                "showSkipButton"
+            ],
+            "default_config": {
+                "enabled": false,
+                "showSkipButton": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-desktop-activity-quest-header",
+            "kind": "user",
+            "timestamp": "2026-06-23T20:47:12Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "showSkipButton": true
+                },
+                "2": {
+                    "enabled": true,
+                    "showSkipButton": false
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled",
+                "treatment"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-silp-in-app-redesign-profile",
+            "kind": "user",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "treatment": "v1"
+                },
+                "2": {
+                    "enabled": true,
+                    "treatment": "v2"
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-store-country",
+            "kind": "user",
+            "timestamp": "2026-06-23T15:29:17Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-remove-expired-quests",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-user-profile-sidebar-redesign",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-edit-profile-collectibles-upsell-banner",
+            "kind": "user",
+            "timestamp": "2026-06-23T15:58:34Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-collectibles-pdp-refresh",
+            "kind": "user",
+            "timestamp": "2026-06-23T19:44:32Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "Io.v.GRADIENT",
+                "surface": "Io.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "It.v.GRADIENT",
+                "surface": "It.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "It.v.GRADIENT",
+                    "surface": "It.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "It.v.EXPRESSIVE",
+                    "surface": "It.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "It.v.GRADIENT",
+                    "surface": "It.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "It.v.GLOWING",
+                    "surface": "It.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "It.v.GLOWING",
+                    "surface": "It.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "Io.v.GRADIENT",
+                    "surface": "Io.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Io.v.EXPRESSIVE",
+                    "surface": "Io.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Io.v.GRADIENT",
+                    "surface": "Io.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Io.v.GLOWING",
+                    "surface": "Io.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Io.v.GLOWING",
+                    "surface": "Io.F.NONE"
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "Io.v.GRADIENT",
+                "surface": "Io.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "It.v.GRADIENT",
+                "surface": "It.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "It.v.GRADIENT",
+                    "surface": "It.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "It.v.EXPRESSIVE",
+                    "surface": "It.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "It.v.GRADIENT",
+                    "surface": "It.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "It.v.GLOWING",
+                    "surface": "It.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "It.v.GLOWING",
+                    "surface": "It.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "Io.v.GRADIENT",
+                    "surface": "Io.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Io.v.EXPRESSIVE",
+                    "surface": "Io.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Io.v.GRADIENT",
+                    "surface": "Io.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Io.v.GLOWING",
+                    "surface": "Io.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Io.v.GLOWING",
+                    "surface": "Io.F.NONE"
+                }
+            }
+        }
+    ],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_AGE_VERIFICATION_INCODE_INTERVIEW",
+            "status": "added",
+            "url": "/age-verification/incode/interview"
+        },
+        {
+            "name": "ENDPOINT_GUILDS_ROOMS_CONNECT",
+            "status": "added",
+            "url": "/guilds/:param/rooms/:param/connect"
+        },
+        {
+            "name": "ENDPOINT_GUILDS_ROOMS_DISCONNECT",
+            "status": "added",
+            "url": "/guilds/:param/rooms/:param/disconnect"
+        },
+        {
+            "name": "ENDPOINT_GUILDS_ROOMS_UPDATE",
+            "status": "added",
+            "url": "/guilds/:param/rooms/:param/update"
+        },
+        {
+            "name": "ENDPOINT_USERS_GIFT_INTENTS_DISMISS",
+            "status": "added",
+            "url": "/users/@me/gift-intents/dismiss"
+        },
+        {
+            "name": "GIFT_INTENTS_DISMISS",
+            "status": "added",
+            "url": "/users/@me/gift-intents/dismiss"
+        },
+        {
+            "name": "GUILD_ROOM_CONNECT",
+            "status": "added",
+            "url": "/guilds/:param/rooms/:param/connect"
+        },
+        {
+            "name": "GUILD_ROOM_DISCONNECT",
+            "status": "added",
+            "url": "/guilds/:param/rooms/:param/disconnect"
+        },
+        {
+            "name": "GUILD_ROOM_UPDATE",
+            "status": "added",
+            "url": "/guilds/:param/rooms/:param/update"
+        },
+        {
+            "name": "REGISTER_INCODE_INTERVIEW",
+            "status": "added",
+            "url": "/age-verification/incode/interview"
+        }
+    ],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "useIndexPage"
+            ],
+            "default_config": {
+                "useIndexPage": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-collectibles-collection-page",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-23T20:10:50Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "useIndexPage": false
+                },
+                "1": {
+                    "useIndexPage": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-tile-cta-refactor",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-age-verification-incode",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-annual-plan-checkout-copy",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-22T18:40:05Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": 0,
+                "1": 1,
+                "2": 2,
+                "3": 3,
+                "4": 4
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-av1-encode-linux",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-clickstream-analytics",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "maxFrequentEmojis"
+            ],
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-emoji-frecent-test",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "maxFrequentEmojis": 9
+                },
+                "2": {
+                    "maxFrequentEmojis": 18
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "buttonVariant"
+            ],
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-expressive-button-test",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "buttonVariant": "overlay-primary"
+                },
+                "2": {
+                    "buttonVariant": "primary"
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-game-autocomplete-search",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "alternatePosition",
+                "enabled"
+            ],
+            "default_config": {
+                "alternatePosition": false,
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-game-profile-in-quickswitcher",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-22T23:12:29Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "alternatePosition": false,
+                    "enabled": false
+                },
+                "1": {
+                    "alternatePosition": false,
+                    "enabled": true
+                },
+                "2": {
+                    "alternatePosition": true,
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-mobile-server-tag",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-23T05:14:29Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-nitro-basic-card-color",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-23T00:14:04Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-otp-orders-phase-1",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-22T21:49:43Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "minCaptureHeight",
+                "minCaptureWidth"
+            ],
+            "default_config": {
+                "minCaptureHeight": 0,
+                "minCaptureWidth": 0
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-upscale-small-captured-frames",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-22T17:45:35Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "minCaptureHeight": 130,
+                    "minCaptureWidth": 130
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": true
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-web-translate-dom-guard",
+            "kind": "installation",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": false
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled",
+                "experimental"
+            ],
+            "default_config": {
+                "enabled": false,
+                "experimental": false
+            },
+            "experiment_source": "reference_comment",
+            "id": "2026-06_guild_rooms",
+            "kind": "guild",
+            "status": "added",
+            "timestamp": "2026-06-22T21:49:43Z",
+            "title": "Guild Rooms",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable Guild Rooms in this guild",
+                "Treatment 2: Enable Guild Rooms in this guild"
+            ]
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "useIndexPage"
+            ],
+            "default_config": {
+                "useIndexPage": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-collectibles-collection-page",
+            "kind": "user",
+            "timestamp": "2026-06-23T20:10:50Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "useIndexPage": false
+                },
+                "1": {
+                    "useIndexPage": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-tile-cta-refactor",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-age-verification-incode",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-annual-plan-checkout-copy",
+            "kind": "user",
+            "timestamp": "2026-06-22T18:40:05Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": 0,
+                "1": 1,
+                "2": 2,
+                "3": 3,
+                "4": 4
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-av1-encode-linux",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-clickstream-analytics",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "maxFrequentEmojis"
+            ],
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-emoji-frecent-test",
+            "kind": "user",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "maxFrequentEmojis": 9
+                },
+                "2": {
+                    "maxFrequentEmojis": 18
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "buttonVariant"
+            ],
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-expressive-button-test",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "buttonVariant": "overlay-primary"
+                },
+                "2": {
+                    "buttonVariant": "primary"
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-game-autocomplete-search",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "alternatePosition",
+                "enabled"
+            ],
+            "default_config": {
+                "alternatePosition": false,
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-game-profile-in-quickswitcher",
+            "kind": "user",
+            "timestamp": "2026-06-22T23:12:29Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "alternatePosition": false,
+                    "enabled": false
+                },
+                "1": {
+                    "alternatePosition": false,
+                    "enabled": true
+                },
+                "2": {
+                    "alternatePosition": true,
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-mobile-server-tag",
+            "kind": "user",
+            "timestamp": "2026-06-23T05:14:29Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-nitro-basic-card-color",
+            "kind": "user",
+            "timestamp": "2026-06-23T00:14:04Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-otp-orders-phase-1",
+            "kind": "user",
+            "timestamp": "2026-06-22T21:49:43Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-quest-fetch-reconnect-jitter",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "config_keys": [
+                "minCaptureHeight",
+                "minCaptureWidth"
+            ],
+            "default_config": {
+                "minCaptureHeight": 0,
+                "minCaptureWidth": 0
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-upscale-small-captured-frames",
+            "kind": "user",
+            "timestamp": "2026-06-22T17:45:35Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "minCaptureHeight": 130,
+                    "minCaptureWidth": 130
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": true
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-web-translate-dom-guard",
+            "kind": "installation",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": false
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled",
+                "experimental"
+            ],
+            "default_config": {
+                "enabled": false,
+                "experimental": false
+            },
+            "experiment_source": "reference_comment",
+            "id": "2026-06_guild_rooms",
+            "kind": "guild",
+            "timestamp": "2026-06-22T21:49:43Z",
+            "title": "Guild Rooms",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable Guild Rooms in this guild",
+                "Treatment 2: Enable Guild Rooms in this guild"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-clips-editor-v2",
+            "kind": "user",
+            "timestamp": "2026-06-22T21:21:29Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {
-                "O2/Bj8": "{orbAmount} Orbs, delivered",
-                "OhOWfI": "Visit Shop",
-                "qiZPb6": "Your {orbAmount} Orbs landed in your account. Now head to the Shop and put them to work."
+                "+80oNL": "Confirm your age on another device",
+                "/JpB6y": "Pay once, save {amount}. All year",
+                "/SbB94": "or",
+                "05AyNA": "Upload {minValues, number}–{maxValues, number} {types} files under {maxSize}.",
+                "0Dx95Z": "This step isn’t supported on mobile. Complete it on the web and we’ll update your experience here automatically.",
+                "0oZGvW": "orbIconHookHook {orbPrice}",
+                "0r2WwT": "image",
+                "1TOrU3": "Crop settings",
+                "2HvOvh": "Declined",
+                "2O6ltn": "Once the code is scanned, your guardian will send a connection request to you. When you accept it you will be connected.",
+                "2tr5Qz": "You've been invited to",
+                "31bBi7": "View pending friend request to {name}",
+                "3CK6jo": "Champion Kill Assist",
+                "4P5I8V": "Try It Out",
+                "4dvK8z": "Give your display name some flair with new fonts and effects.",
+                "5U9LSo": "File must be {types}.",
+                "5jm+T3": "Connect to a guardian in {count} {count} to keep your account access. Laws in your region require teens 13–16 to have a connected guardian. learnMoreHookHookLearn more",
+                "73Islf": "This purchase would put you over your monthly spending cap. Ask your guardian to increase it, or try again next month.",
+                "7SxW32": "Sent yesterday",
+                "7mvRNF": "[{username}]({usernameOnClick}) pinned [a message]({messageOnClick}) to this channel. See all [pinned messages]({pinsOnClick}).",
+                "7yBrfD": "Back",
+                "94Kji7": "Game Started",
+                "9CHfCO": "Game Profile",
+                "9dglzB": "View friend suggestion for {name}",
+                "9nem85": "Sent {count} {count} ago",
+                "9t4+vC": "Share a link or QR code",
+                "BGHbLb": "Start searches with $[](userSymbolHook) $[](textChannelSymbolHook) $[](voiceChannelSymbolHook) $[](guildSymbolHook) $[](gameProfileSymbolHook) to narrow results. [Learn more]({helpdeskArticle})",
+                "C/WqTT": "Champion Death",
+                "CCiFY7": "You respawned.",
+                "CLAQas": "Back to Requests",
+                "CujCES": "Original",
+                "CvXwDY": "See All Nitro Perks",
+                "EhRZ9o": "Fresh drops, just for you",
+                "FmXxW6": "Customize",
+                "G6np6x": "Capped",
+                "GF9RCX": "Message guardian",
+                "Gfqlpa": "connectHookHookConnect to a guardian today",
+                "HfUzlI": "You sent an invite, but",
+                "Hsm5IF": "Close",
+                "JJzx48": "Drag and drop or click to upload {types} file",
+                "KD6MH5": "Same perks you love. Just billed once a year.",
+                "KZQ4mF": "count me in",
+                "Kkah9a": "price1HookHook or price2HookHook",
+                "Kzll3E": "audio",
+                "LKsPRe": "check out my tag!",
+                "M4NOO3": "Sent < 1 minute ago",
+                "M5amXH": "Style your display name",
+                "M8NKGR": "View pending friend request from {name}",
+                "MfbDzS": "Game Profiles",
+                "N5UIKr": "{numFriends}",
+                "NE8WXI": "Same perks, same Nitro. Just billed once a year.",
+                "NRRxmz": "Upload {types} file",
+                "NxavgD": "Your match has ended.",
+                "O2HKdA": "Opens Family Center to connect a guardian",
+                "OMfs8i": "You've been invited, but",
+                "OVvzY0": "You don't have this Server Tag on your own profile yet. Would you like to adopt it?",
+                "PQRuGc": "Celebrate with a GIF",
+                "Pewjjq": "You helped destroy an inhibitor.",
+                "QJKKrT": "Spending limit reached",
+                "QLrHJG": "Upload {maxValues, plural, one {# {types} file} other {up to # {types} files}} under {maxSize}.",
+                "Qb5Km1": "Open conversation with {name}",
+                "RD76/V": "Share New Invite",
+                "RiEyiS": "Change crop",
+                "S5kmfO": "Connect to a guardian today to keep your account access. Laws in your region require teens 13–16 to have a connected guardian. learnMoreHookHookLearn more",
+                "SIZE_40": "size-40",
+                "SIZE_60": "size-60",
+                "Tg0fDm": "Let members represent your server everywhere on Discord with a custom tag next to their name.",
+                "UZWxcy": "Everything you love stays the same. One payment to make it official.",
+                "Uzms61": "FRESH STYLES JUST DROPPED",
+                "VWu9RV": "Restrict member prune to admins",
+                "Vm2OFQ": "Available Seat",
+                "XdByBm": "Custom Gradient Color {number}",
+                "XdZS9I": "Reset",
+                "Xp4xMV": "Upload {minValues, number} {types} files under {maxSize}.",
+                "YQP5dE": "Connected",
+                "ZBK5mM": "{count} {count} to connectHookHookconnect to a guardian",
+                "ZV02cV": "Add a message",
+                "aCUVfL": "Have your guardian scan this QR code",
+                "aKa3qR": "Heads up: Nitro Yearly saves you {amount}",
+                "aNAh3u": "More options, {eventTime}",
+                "al+5qH": "video",
+                "c65yqr": "Switch things up with new fonts and effects for your display name.",
+                "cYwrp8": "Fresh styles just dropped",
+                "cZPXK6": "Love Nitro? Switch and save {amount}",
+                "cg95CA": "Nitro Exclusive: Redeem with Orbs",
+                "deiBu8": "Same perks you already have. Switch once and you're set for the year.",
+                "eZ1OSn": "You helped destroy a turret.",
+                "ebbBDl": "Respawn",
+                "f7g0DK": "Back to Living Room",
+                "fnduP5": "Click to preview",
+                "fyCsox": "Your match has begun!",
+                "gEp2SG": "Searching Game Profiles",
+                "hTltPn": "Tap to preview",
+                "hlOYoA": "Game Ended",
+                "hriMCc": "DEAL",
+                "iFXcjn": "bHookNitro Exclusive: Purchase {applicationName} items with Orbs! Ends August 5th",
+                "iXldTS": "Switch back to Voice Channel",
+                "ifObbX": "If this doesn't seem right, [confirm your age]({handleAgeVerifyHook})",
+                "jVjr/j": "Earn Orbs by completing Discord Quests",
+                "kMRDWs": "Unlock with Boosts",
+                "lkpZYr": "Only administrators and the server owner can prune inactive members when this setting is enabled.",
+                "mv/fF2": "This purchase would put you over your monthly spending cap. guardianHookHookAsk your guardian to increase it, or try again next month.",
+                "n0NjuD": "{months} strong. Lock in, save {amount}",
+                "o1ol+T": "View Collection",
+                "oPzTHw": "Customize Server Tag",
+                "q6jzya": "Sent on {date}",
+                "qVCnq+": "Create a tag that your server members can display next to their name! Anyone outside your server can view your Server Profile through the Server Tag, and if applications are enabled, they can apply to join.",
+                "r15Wrn": "Presets",
+                "sJjWRY": "Sent {count} {count} ago",
+                "tVHevX": "Sent {count} {count} ago",
+                "vtCg11": "woah how did you get that",
+                "w/mIMw": "Enable Server Tag",
+                "wRLmM0": "Living Room",
+                "wucWfE": "Action required: connect to a guardian",
+                "xmQfYw": "Save with Annual",
+                "ye+BAy": "Input Level",
+                "z9gkwZ": "Invite another guardian",
+                "zQkVWf": "Switch to Living Room"
             },
-            "deleted": {},
-            "modified": {}
+            "deleted": {
+                "/bHQ84": "{numDays, plural, one {# day} other {# days}} left to get Discord Orbs on {applicationName} purchases.",
+                "6DXkz6": "In-App Nudges",
+                "7Vsu1h": "You sent an invite",
+                "8XOu5v": "You invited {user} to",
+                "APPLICATION_COMMAND_EDUCATION": "Try slash commands! A new way to use apps by typing slash. [Dismiss]({dismissOnClick})",
+                "Gg3fUf": "For now, webhooks can only be created on web or desktop",
+                "HKBJvw": "Scale chat font size in Appearance Settings.",
+                "HfTWGa": "{username} invited you to {groupName}",
+                "NQyAXK": "{username} invited you to",
+                "REACTION_NOTIFICATIONS": "Reaction Notifications",
+                "RUuXiA": "Get Discord Orbs on **{applicationName}** purchases.",
+                "Rw6VmE": "{username} invited you to",
+                "UorX4T": "No keyboard? Enable the Send Message button in Accessibility Settings to chat.",
+                "VaKgGF": "Reply?",
+                "XMYrqF": "You invited {user} to {groupName}",
+                "ZDYeg3": "Reactions to my messages",
+                "ZFIYp3": "Receive a notification when someone reacts to another message in a group DM I'm in",
+                "cZCqGn": "DEAL",
+                "cx+ezQ": "Pick light or dark theme in Display Settings.",
+                "nvkXtr": "Someone reacts to others’ messages in a group DM",
+                "q62UVy": "Dismiss Reply Nudge",
+                "qLCmvu": "Reactions to others' messages in a group DM",
+                "sh1ZGB": "Unanswered DMs from friends",
+                "tOgS2b": "Reply nudges will temporarily move unanswered DMs from friends to the top of my DM list.",
+                "w61uxH": "Try slash commands! A new way to use apps by typing slash. [Dismiss]({dismissOnClick})",
+                "yYEZGi": "Limited Offer",
+                "ysbTP8": "You sent an invite to {groupName}",
+                "zugLDL": "No keyboard? Enable the Send Message button in Display Settings to chat."
+            },
+            "modified": {
+                "1fHSu2": {
+                    "new_value": "Monthly spending cap",
+                    "old_value": "Monthly spending limit"
+                },
+                "3EQnkg": {
+                    "new_value": "Treat your friends, and yourself. Send a gift and unlock a profile badge that levels up the more you give.",
+                    "old_value": "Treat your friends, and yourself. Send a gift and earn a profile badge that evolves the more you give."
+                },
+                "4Yp0mI": {
+                    "new_value": "Your badge progresses as you gift. Exceptions include when a gift is refunded or when fraud is detected.",
+                    "old_value": "This badge evolves the more you gift. Refunds and fraud flags may adjust your progress."
+                },
+                "6GaRTu": {
+                    "new_value": "Laws in your region require teens ages 13–16 to have a connected guardian. Share the link below to connect with a parent or guardian. [Learn more]({link})",
+                    "old_value": "Laws in your region require teens ages 13–16 to have a connected guardian. Share the code below to connect. [Learn more]({link})"
+                },
+                "AcJ4ke": {
+                    "new_value": "Set hours when your teen can't use Discord. They won't receive notifications and cannot access Discord during this time.",
+                    "old_value": "Choose times your teen cannot use Discord"
+                },
+                "JZDGJ8": {
+                    "new_value": "Disable spending cap",
+                    "old_value": "Disable spending limit"
+                },
+                "Ke+kz5": {
+                    "new_value": "Laws in your region require teens ages 13–16 to have a connected guardian. You have {pendingCount}. [Learn more]({link})",
+                    "old_value": "Laws in your region require teens ages 13–16 to have a connected guardian. You have {pendingCount}. [Learn more]({link})"
+                },
+                "NU5ZId": {
+                    "new_value": "{monthlyOrbsAmount} Orbs every month to spend on new looks in the Shop.",
+                    "old_value": "{monthlyOrbsAmount} Orbs to get new looks in the Shop, every month."
+                },
+                "OwFF4o": {
+                    "new_value": "+ Schedule Downtime",
+                    "old_value": "+ Add Schedule"
+                },
+                "QxRA6w": {
+                    "new_value": "Oh hey, generous. You've sent {giftCount, plural, one {# gift} other {# gifts}}, earning you a profile badge that levels up the more you give.",
+                    "old_value": "Oh hey, generous. You've sent {giftCount, plural, one {# gift} other {# gifts}}, earning you a profile badge that evolves the more you give."
+                },
+                "Tk6x4X": {
+                    "new_value": "Your teen has already spent {amount} this month. Setting a cap below this amount will block all purchases other than subscriptions until {date}.",
+                    "old_value": "{amount} spent this month. This will block spending until {date}."
+                },
+                "XLyZxX": {
+                    "new_value": "A deal picked just for you. Don’t sleep on it. Renews automatically. Cancel anytime.",
+                    "old_value": "A deal picked just for you. Don’t sleep on it. Renews monthly. Cancel anytime."
+                },
+                "gMeekL": {
+                    "new_value": "Spending Cap",
+                    "old_value": "Spending limit"
+                },
+                "k9sNVH": {
+                    "new_value": "Send a gift to earn a profile badge that levels up as you give.",
+                    "old_value": "Send a gift to earn a profile badge that evolves as you give."
+                },
+                "nH8vlc": {
+                    "new_value": "All gifts received in the last week, including who sent them and how much they spent.",
+                    "old_value": "All gifts received in the last week, including unclaimed."
+                },
+                "oBkFiL": {
+                    "new_value": "Change spending cap",
+                    "old_value": "Change spending limit"
+                },
+                "w/ISB8": {
+                    "new_value": "Schedule Screen Downtime",
+                    "old_value": "Schedule Downtime"
+                },
+                "xMRO6A": {
+                    "new_value": "Set a spending cap",
+                    "old_value": "Set a spending limit"
+                }
+            }
         },
         "ko": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "0r2WwT": "이미지",
+                "3HuGuY": "로그아웃",
+                "4P5I8V": "이용해 보기",
+                "7yBrfD": "뒤로 가기",
+                "9CHfCO": "게임 프로필",
+                "CujCES": "오리지널",
+                "EhRZ9o": "오직 당신만을 위한 신규 항목",
+                "FmXxW6": "사용자 지정",
+                "OhOWfI": "상점 방문하기",
+                "XdZS9I": "재설정",
+                "ZV02cV": "메시지 추가하기",
+                "al+5qH": "동영상",
+                "r15Wrn": "프리셋"
+            },
+            "deleted": {
+                "/bHQ84": "{numDays} 남았어요. {applicationName} 구매 시 Discord Orbs를 받을 수 있어요.",
+                "6DXkz6": "앱 내 밀어올리기",
+                "7Vsu1h": "초대를 보냈어요",
+                "8XOu5v": "{user} 님을 초대했어요",
+                "Gg3fUf": "아직까진 웹후크는 웹이나 PC에서만 만들 수 있어요.",
+                "HKBJvw": "디스플레이 설정에서 채팅 글자 크기를 조정할 수 있습니다.",
+                "HfTWGa": "{username} 님이 회원님을 {groupName}에 초대했어요",
+                "NQyAXK": "{username} 님이 초대했어요",
+                "RUuXiA": "bHook{applicationName} 구매 시 Discord Orbs를 받으세요.",
+                "Rw6VmE": "{username} 님이 초대했어요",
+                "UorX4T": "키보드가 없나요? 접근성 설정에서 메시지 보내기 버튼을 활성화하면 채팅할 수 있습니다.",
+                "VaKgGF": "답장하시겠어요?",
+                "XMYrqF": "{user} 님을 {groupName}에 초대했어요",
+                "ZDYeg3": "내 메시지에 대한 반응",
+                "ZFIYp3": "참여 중인 그룹 메시지에서 다른 메시지에 반응이 달리면 알림 받기",
+                "cx+ezQ": "디스플레이 설정에서 밝은 테마 또는 어두운 테마를 선택하세요.",
+                "nvkXtr": "누군가가 그룹 메시지에서 다른 사람의 메시지에 반응해요",
+                "q62UVy": "답장 끌어올리기 닫기",
+                "qLCmvu": "그룹 DM 내 다른 사람의 메시지에 대한 반응",
+                "sh1ZGB": "친구가 보낸 미답변 DM",
+                "tOgS2b": "답장 끌어올리기 기능을 사용하면 친구가 보낸 미답변 DM이 DM 목록 상단으로 일시적으로 이동합니다.",
+                "w61uxH": "빗금 명령어를 사용해보세요! 빗금 명령어는 앱을 사용하는 새로운 방법입니다. [닫기]({dismissOnClick})",
+                "yYEZGi": "한정 판매",
+                "ysbTP8": "{groupName} 초대를 보냈어요",
+                "zugLDL": "키보드가 없나요? 디스플레이 설정에서 메시지 보내기 버튼을 켜면 채팅할 수 있어요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-06-22T17:11:01.434024+00:00"
+    "timestamp": "2026-06-25T19:50:33.259691+00:00"
 }
