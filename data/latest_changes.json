@@ -1,8 +1,51 @@
 {
-    "build_hash": "92020e895c3c991f6b2398fb5ea8cc7cc5430f95",
+    "build_hash": "0a9fddefdc4ca7bbdafee35622a3f51099311ba8",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-clips-gallery-home",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-clips-gallery-home",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,8 +56,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "KEupiH": "Quest accepted! Track progress in the Quest tab above your DMs.",
-                "h/qYF6": "Quest Details"
+                "7Z+aIf": "{minutes}m left",
+                "PPaJSw": "{hours}h left"
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-25T21:04:38.589756+00:00"
+    "timestamp": "2026-06-25T21:15:20.432810+00:00"
 }
