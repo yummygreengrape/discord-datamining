@@ -1,51 +1,8 @@
 {
-    "build_hash": "ce853f51af4f78dec81ef5c8b332595df778bcfb",
+    "build_hash": "aeb1ff8f222c4fa5f91dee13fdae9b6aafda20ef",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "showSettingsToggle"
-            ],
-            "default_config": {
-                "showSettingsToggle": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-02-gdm-all-reaction-notifications",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "showSettingsToggle": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "showSettingsToggle"
-            ],
-            "default_config": {
-                "showSettingsToggle": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-02-gdm-all-reaction-notifications",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "showSettingsToggle": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -56,22 +13,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "FpJqb0": "Reacted emojiHookHook to {username}:",
-                "J86pqQ": "{username}'s message got {count}",
-                "MJPwfg": "Reacted emojiHookHook to {username}:"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "FpJqb0": "{username} 님에게 emojiHookHook 이모지로 반응했어요",
-                "J86pqQ": "{username} 님의 메시지가 {count}을 받았어요",
-                "MJPwfg": "{username} 님에게 emojiHookHook 이모지로 반응했어요"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-06-25T20:11:50.381466+00:00"
+    "timestamp": "2026-06-25T20:22:30.259162+00:00"
 }
