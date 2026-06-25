@@ -1,5 +1,5 @@
 {
-    "build_hash": "2cf41d8c4f07872defea25346f574e454547a323",
+    "build_hash": "ea293e30ab51faf81ce460380faa095df6cc26be",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,16 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "XwadDC": "Subscribe to Nitro to redeem with Orbs"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "iFXcjn": {
-                    "new_value": "bHookNitro Exclusive: Purchase {applicationName} items with Orbs! Ends {endDate}",
-                    "old_value": "bHookNitro Exclusive: Purchase {applicationName} items with Orbs! Ends August 5th"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -29,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-25T23:37:18.119997+00:00"
+    "timestamp": "2026-06-25T23:47:47.525920+00:00"
 }
