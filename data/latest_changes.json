@@ -1,51 +1,8 @@
 {
-    "build_hash": "0a9fddefdc4ca7bbdafee35622a3f51099311ba8",
+    "build_hash": "b7ec33229c72ade819348aeece877897503331b1",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-clips-gallery-home",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-clips-gallery-home",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -55,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "7Z+aIf": "{minutes}m left",
-                "PPaJSw": "{hours}h left"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-25T21:15:20.432810+00:00"
+    "timestamp": "2026-06-25T21:26:00.209012+00:00"
 }
