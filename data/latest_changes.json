@@ -1,5 +1,5 @@
 {
-    "build_hash": "5a3af945f0b419f9e00139aab840cbcf9f5470be",
+    "build_hash": "7c73964c150afa033842e234cbef10d7c2a743dd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,12 +9,41 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-polls-click-to-profile",
+            "kind": "user",
+            "timestamp": "2026-06-26T19:09:12Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "6miRmw": "Use Boosts to unlock a custom theme everyone sees when they drop in.",
+                "NE5r93": "Give this server its own look",
+                "RK6NbY": "This server could have its own look",
+                "xlAqGk": "Admins can now use Boosts to give this server a custom theme."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "L9YdGH": {
+                    "new_value": "$[{channelName}](channelHook)  ·  You were mentioned",
+                    "old_value": "$[{channelName}](channelHook){count, plural, =0 {} other { + #}} • You were mentioned"
+                },
+                "OqlmU6": {
+                    "new_value": "$[New in ](labelHook)$[](iconHook)$[{channelName}](channelHook){count, plural, =0 {} other {$[ +#](overflowHook)}}",
+                    "old_value": "$[{channelName}](channelHook){count, plural, =0 {} other { + #}} • New messages"
+                },
+                "r1Vkoc": {
+                    "new_value": "{users}{overflowCount, plural, =0 {} other { +#}} in voice",
+                    "old_value": "{users}{overflowCount, plural, =0 {} other { + #}} in voice"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-26T20:20:35.832040+00:00"
+    "timestamp": "2026-06-26T20:31:12.967453+00:00"
 }
