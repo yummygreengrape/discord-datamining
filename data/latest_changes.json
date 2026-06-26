@@ -1,18 +1,279 @@
 {
-    "build_hash": "af8823ec96fdce45f218a34ae6ddba4a667c230d",
+    "build_hash": "13bde0d1aa6a95d7da87d918e67e2a9b8abe48a7",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-ios-broadcast-upload-dispose-fix",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-06-26T22:09:49Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-ios-broadcast-upload-dispose-fix",
+            "kind": "user",
+            "timestamp": "2026-06-26T22:09:49Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "id": "2026-05_game_invites_channel",
+            "kind": "guild",
+            "timestamp": "2026-06-26T21:06:12Z",
+            "title": "Game Invites Channel",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable game invites channel"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-premium-group-announcement",
+            "kind": "user",
+            "timestamp": "2026-06-26T21:16:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-premium-group-popover",
+            "kind": "user",
+            "timestamp": "2026-06-26T21:16:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "default_config": {
+                "processPriority": "F.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-process-boost-on-voice",
+            "kind": "user",
+            "old_config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "old_default_config": {
+                "processPriority": "B.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "1": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "1": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "default_config": {
+                "processPriority": "F.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-process-boost-on-voice",
+            "kind": "user",
+            "old_config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "old_default_config": {
+                "processPriority": "B.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "1": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "B.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "1": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-game-invites-channel",
+            "kind": "guild",
+            "timestamp": "2026-06-26T21:06:12Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-premium-group-expansion-announcement",
+            "kind": "user",
+            "timestamp": "2026-06-26T21:16:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-gifting-badge-desktop",
+            "kind": "user",
+            "timestamp": "2026-06-26T21:18:22Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "YeqEjm": "Toggle Voice Channel Chat",
+                "desfB4": "Toggle the text chat panel for the voice channel you are connected to."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +283,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-26T22:05:27.998115+00:00"
+    "timestamp": "2026-06-26T22:16:05.005383+00:00"
 }
