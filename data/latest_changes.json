@@ -1,18 +1,70 @@
 {
-    "build_hash": "689a9fc51acb05c9291153b03db6a61bf47873a1",
+    "build_hash": "b4ed7986708a36ba0bcdf0b368a14b5c85f41e73",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
+    "deleted_experiment_details": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-premium-group-popover",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-06-26T21:16:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-premium-group-announcement",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-06-26T21:16:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
     "deleted_experiments": [
         {
             "experiment_source": "reference_comment",
-            "id": "2026-05_game_invites_channel",
-            "kind": "guild",
-            "timestamp": "2026-06-26T21:06:12Z",
-            "title": "Game Invites Channel",
+            "experiment_type": "apex",
+            "id": "2026-03-premium-group-popover",
+            "kind": "user",
+            "timestamp": "2026-06-26T21:16:20Z",
             "treatments": [
-                "Control",
-                "Treatment 1: Enable game invites channel"
-            ]
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-premium-group-announcement",
+            "kind": "user",
+            "timestamp": "2026-06-26T21:16:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
         }
     ],
     "extractor_version": 20,
@@ -20,14 +72,46 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
+    "new_experiment_details": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-premium-group-expansion-announcement",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-26T21:16:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
     "new_experiments": [
         {
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-06-game-invites-channel",
-            "kind": "guild",
-            "timestamp": "2026-06-26T21:06:12Z",
+            "id": "2026-07-premium-group-expansion-announcement",
+            "kind": "user",
+            "timestamp": "2026-06-26T21:16:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-gifting-badge-desktop",
+            "kind": "user",
+            "timestamp": "2026-06-26T21:18:22Z",
             "treatments": [
                 "Variant 1"
             ]
@@ -45,5 +129,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-26T21:13:18.772692+00:00"
+    "timestamp": "2026-06-26T21:23:45.644857+00:00"
 }
