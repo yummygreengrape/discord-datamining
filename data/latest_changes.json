@@ -1,12 +1,78 @@
 {
-    "build_hash": "79d315d337831feb2779bf09791a4310c07ed3b6",
+    "build_hash": "8625cb7c691dfccb6bde38a23b105d72c4a518dc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "rollbackEnabled"
+            ],
+            "default_config": {
+                "enabled": false,
+                "rollbackEnabled": false
+            },
+            "experiment_source": "self_extraction",
+            "id": "2026-03_file_upload_250_mb_powerup",
+            "kind": "guild",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_kind": "guild",
+            "old_title": "File Upload 250MB Powerup",
+            "old_treatments": [
+                "Control",
+                "Treatment 1: Enable File Upload 250MB Powerup"
+            ],
+            "status": "modified",
+            "title": "File Upload 250MB Powerup",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable File Upload 250MB Powerup",
+                "Treatment 2: Rollback UI for File Upload 250MB Powerup"
+            ]
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "rollbackEnabled"
+            ],
+            "default_config": {
+                "enabled": false,
+                "rollbackEnabled": false
+            },
+            "experiment_source": "self_extraction",
+            "id": "2026-03_file_upload_250_mb_powerup",
+            "kind": "guild",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_kind": "guild",
+            "old_title": "File Upload 250MB Powerup",
+            "old_treatments": [
+                "Control",
+                "Treatment 1: Enable File Upload 250MB Powerup"
+            ],
+            "status": "modified",
+            "title": "File Upload 250MB Powerup",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable File Upload 250MB Powerup",
+                "Treatment 2: Rollback UI for File Upload 250MB Powerup"
+            ]
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -22,5 +88,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-26T00:29:06.362659+00:00"
+    "timestamp": "2026-06-26T00:59:56.222297+00:00"
 }
