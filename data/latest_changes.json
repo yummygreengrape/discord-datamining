@@ -1,5 +1,5 @@
 {
-    "build_hash": "e78415aa5f30cfc97790d1a163c11e9e93a51826",
+    "build_hash": "3c5fce7c4812e4bd170562f3db39332c2bd522ee",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0R6I/b": "Gifts Received — {amount}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-26T03:24:24.347932+00:00"
+    "timestamp": "2026-06-26T04:05:26.854939+00:00"
 }
