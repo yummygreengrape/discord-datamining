@@ -1,5 +1,5 @@
 {
-    "build_hash": "f29f89a615c368a515bf80e2a0ee39f7ba3658ad",
+    "build_hash": "9b67174f12889b0d0eee3dab1cba67626173a298",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,18 +13,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "7vWJmY": "Woohoo! Let’s celebrate our Friendship Anniversary!"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "7vWJmY": "야호! 우리의 친구 기념일을 축하해요!"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-06-26T17:55:23.485501+00:00"
+    "timestamp": "2026-06-26T18:26:14.222025+00:00"
 }
