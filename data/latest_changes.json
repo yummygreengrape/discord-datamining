@@ -1,5 +1,5 @@
 {
-    "build_hash": "5a0ca1d40ec3a93f742a2c5141a2ff12692c7a27",
+    "build_hash": "68638a52eea02a1199594ecf28115f44b334509a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,32 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-similar-games-desktop",
+            "kind": "user",
+            "timestamp": "2026-06-26T22:39:05Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-similar-games-mobile",
+            "kind": "user",
+            "timestamp": "2026-06-26T22:39:05Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +47,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-26T22:36:42.972987+00:00"
+    "timestamp": "2026-06-26T22:47:11.739277+00:00"
 }
