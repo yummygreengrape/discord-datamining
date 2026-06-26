@@ -1,220 +1,43 @@
 {
-    "build_hash": "a31e87a79c14545e63520b495544e7595c052c62",
+    "build_hash": "689a9fc51acb05c9291153b03db6a61bf47873a1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "id": "2026-05_game_invites_channel",
+            "kind": "guild",
+            "timestamp": "2026-06-26T21:06:12Z",
+            "title": "Game Invites Channel",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable game invites channel"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "Iu.v.GRADIENT",
-                "surface": "Iu.F.NONE"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "old_config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "old_default_config": {
-                "badgeStyle": "Io.v.GRADIENT",
-                "surface": "Io.F.NONE"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "Io.v.GRADIENT",
-                    "surface": "Io.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "Io.v.EXPRESSIVE",
-                    "surface": "Io.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "Io.v.GRADIENT",
-                    "surface": "Io.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "Io.v.GLOWING",
-                    "surface": "Io.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "Io.v.GLOWING",
-                    "surface": "Io.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "Iu.v.GRADIENT",
-                    "surface": "Iu.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "Iu.v.EXPRESSIVE",
-                    "surface": "Iu.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "Iu.v.GRADIENT",
-                    "surface": "Iu.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "Iu.v.GLOWING",
-                    "surface": "Iu.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "Iu.v.GLOWING",
-                    "surface": "Iu.F.NONE"
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "Iu.v.GRADIENT",
-                "surface": "Iu.F.NONE"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "old_config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "old_default_config": {
-                "badgeStyle": "Io.v.GRADIENT",
-                "surface": "Io.F.NONE"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "Io.v.GRADIENT",
-                    "surface": "Io.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "Io.v.EXPRESSIVE",
-                    "surface": "Io.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "Io.v.GRADIENT",
-                    "surface": "Io.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "Io.v.GLOWING",
-                    "surface": "Io.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "Io.v.GLOWING",
-                    "surface": "Io.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "Iu.v.GRADIENT",
-                    "surface": "Iu.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "Iu.v.EXPRESSIVE",
-                    "surface": "Iu.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "Iu.v.GRADIENT",
-                    "surface": "Iu.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "Iu.v.GLOWING",
-                    "surface": "Iu.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "Iu.v.GLOWING",
-                    "surface": "Iu.F.NONE"
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [
         {
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "social-entrypoints-v2-activity-panel-p0-visual-upgrade",
-            "kind": "user",
-            "timestamp": "2026-06-26T20:58:07Z",
+            "id": "2026-06-game-invites-channel",
+            "kind": "guild",
+            "timestamp": "2026-06-26T21:06:12Z",
             "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
+                "Variant 1"
             ]
         }
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "6miRmw": "Use Boosts to unlock a custom theme everyone sees when they drop in.",
-                "NE5r93": "Give this server its own look",
-                "RK6NbY": "This server could have its own look",
-                "l7clOK": "Playing a Quest",
-                "xlAqGk": "Admins can now use Boosts to give this server a custom theme."
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "L9YdGH": {
-                    "new_value": "$[{channelName}](channelHook)  ·  You were mentioned",
-                    "old_value": "$[{channelName}](channelHook){count, plural, =0 {} other { + #}} • You were mentioned"
-                },
-                "OqlmU6": {
-                    "new_value": "$[New in ](labelHook)$[](iconHook)$[{channelName}](channelHook){count, plural, =0 {} other {$[ +#](overflowHook)}}",
-                    "old_value": "$[{channelName}](channelHook){count, plural, =0 {} other { + #}} • New messages"
-                },
-                "r1Vkoc": {
-                    "new_value": "{users}{overflowCount, plural, =0 {} other { +#}} in voice",
-                    "old_value": "{users}{overflowCount, plural, =0 {} other { + #}} in voice"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -222,5 +45,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-26T21:02:50.515739+00:00"
+    "timestamp": "2026-06-26T21:13:18.772692+00:00"
 }
