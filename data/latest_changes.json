@@ -1,5 +1,5 @@
 {
-    "build_hash": "ea293e30ab51faf81ce460380faa095df6cc26be",
+    "build_hash": "292a7e117cc1b190a0d15d8f7aacc56be1742c97",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "T8oWyd": {
+                    "new_value": "You can check your balance anytime under User Settings > Billing in the desktop app or web browser.",
+                    "old_value": "You can check your balance anytime under User Settings > Billing > Payment Methods in the desktop app or web browser."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-25T23:47:47.525920+00:00"
+    "timestamp": "2026-06-26T00:18:38.187537+00:00"
 }
