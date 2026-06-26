@@ -1,5 +1,5 @@
 {
-    "build_hash": "7d21708523f8f19ba70cbd9e35c60b75c095add4",
+    "build_hash": "f29f89a615c368a515bf80e2a0ee39f7ba3658ad",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,140 +12,19 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "4C8u97": "Our goal is to help you stay informed about your teen's Discord activity so you can have meaningful conversations and support them as they navigate digital spaces. We provide insights into how your teen uses Discord, and your teen sees the same information, to encourage open dialogue. We allow you to see:",
-                "5x3taM": "New friends that you added or accepted",
-                "8m2ROd": "Guardians can set up safeguards to give their teens the best experience on Discord while being safe.",
-                "CI1Env": "What connected guardians can see",
-                "FcKkcr": "Includes servers you have recently created, joined, sent messages in, or participated in a voice and video call",
-                "Fv3n8L": "Gifts received",
-                "GWPcQg": "All gifts you received in the last week, including who sent them and how much they spent",
-                "HdcGGl": "Set a monthly budget for your teen's Discord purchases, including shop items, gifting, and more. Does not include subscriptions.",
-                "MKeCj3": "Your guardian can set a monthly budget for your Discord purchases, including shop items, gifting, and more. Does not include subscriptions.",
-                "PQtDFk": "Includes servers your teen has recently created, joined, sent messages in, or participated in a voice and video call",
-                "PfveQ6": "Your guardian can schedule times when Discord won't be available. Use this time to take a break and recharge.",
-                "WZwGFX": "New friends that your teen added or accepted",
-                "eqI1WA": "Try chat shortcuts",
-                "f7ofm/": "Give your teen a break by choosing the hours and days when Discord won't be accessible.",
-                "kyT6pZ": "Screen Time Limits",
-                "n73g+V": "What guardians will not see",
-                "nxO3NK": "Press and hold to open the shortcut menu. Slide and release to pick one.",
-                "yFnKIg": "All gifts your teen received in the last week, including who sent them and how much they spent",
-                "zzgr9Q": "Our goal is to help you get the support you need when you need it, while still protecting your privacy. That's why your guardians won't see the private contents of your messages, but they will be able to see:"
-            },
+            "added": {},
             "deleted": {
-                "+yrQhd": "What are connected parents and guardians able to see?",
-                "/iUt2y": "Family center does not share:",
-                "05xZPR": "What connected guardians can see",
-                "2OqtJJ": "FAMILY CENTER DOES NOT SHARE:",
-                "3Orpwl": "What are connected parents able to see?",
-                "4SCALu": "Users messaged or called",
-                "DxFKkd": "Names and avatars",
-                "FAMILY_CENTER_DATA_CONFIRMATION_EXCLUDED_HEADER_PARENT": "FAMILY CENTER DOES NOT SHARE:",
-                "FAMILY_CENTER_DATA_CONFIRMATION_EXCLUDED_HEADER_TEEN": "FAMILY CENTER WILL NEVER SHARE WITH YOUR PARENTS:",
-                "FAMILY_CENTER_DATA_CONFIRMATION_FRIEND_ADD_DESCRIPTION": "Names and avatars",
-                "FAMILY_CENTER_DATA_CONFIRMATION_GUILD_PARTICIPATION_DESCRIPTION": "Names, icons, and member counts",
-                "FAMILY_CENTER_DATA_CONFIRMATION_INCLUDED_HEADER_PARENT": "WHAT ARE CONNECTED PARENTS ABLE TO SEE?",
-                "FAMILY_CENTER_DATA_CONFIRMATION_INCLUDED_HEADER_TEEN": "WHAT ARE CONNECTED PARENTS ABLE TO SEE?",
-                "JvJ3P/": "New friends",
-                "LDu4Uk": "Includes servers you have recently joined, created, sent a message in, or participated in via voice or video call.",
-                "S2ss5X": "New friends that your teen added or accepted",
-                "Sm8Gq5": "WHAT ARE CONNECTED PARENTS ABLE TO SEE?",
-                "TCzk/e": "FAMILY CENTER WILL NEVER SHARE WITH YOUR PARENTS:",
-                "WGz9Dc": "What are connected parents and guardians able to see?",
-                "WrY56N": "Names, icons, and member counts",
-                "YU7aaf": "WHAT ARE CONNECTED PARENTS ABLE TO SEE?",
-                "f28y/v": "What are connected parents able to see?",
-                "fEgtLV": "Includes servers your teen has recently joined, created, sent a message in, or participated in via voice or video call.",
-                "j83L+t": "Family center will never share with your parents:",
-                "l0ChgF": "New friends that you added or accepted",
-                "oYf9P7": "This includes direct messages and group chats"
+                "7vWJmY": "Woohoo! Let’s celebrate our Friendship Anniversary!"
             },
-            "modified": {
-                "/zMYZX": {
-                    "new_value": "New friends",
-                    "old_value": "Recently added friends"
-                },
-                "0QDVFN": {
-                    "new_value": "Your guardians will not see the contents of your messages or calls.",
-                    "old_value": "Your parents will not see the contents of your messages or calls."
-                },
-                "1xBHHV": {
-                    "new_value": "You will not see the contents of your teens' messages or calls.",
-                    "old_value": "To protect your teen's privacy, you will not be able to see the contents of their messages or calls."
-                },
-                "FAMILY_CENTER_DATA_CONFIRMATION_EXCLUDED_CONTENT_DESCRIPTION_PARENT": {
-                    "new_value": "You will not see the contents of your teens' messages or calls.",
-                    "old_value": "To protect your teen's privacy, you will not be able to see the contents of their messages or calls."
-                },
-                "FAMILY_CENTER_DATA_CONFIRMATION_EXCLUDED_CONTENT_DESCRIPTION_TEEN": {
-                    "new_value": "Your guardians will not see the contents of your messages or calls.",
-                    "old_value": "Your parents will not see the contents of your messages or calls."
-                },
-                "FAMILY_CENTER_DATA_CONFIRMATION_FRIEND_ADD_HEADER": {
-                    "new_value": "New friends",
-                    "old_value": "Recently added friends"
-                },
-                "FAMILY_CENTER_DATA_CONFIRMATION_USERS_MESSAGED_DESCRIPTION": {
-                    "new_value": "This includes direct messages and group chats",
-                    "old_value": "Names, avatars, and times of last message or call"
-                },
-                "FAMILY_CENTER_DATA_CONFIRMATION_USERS_MESSAGED_HEADER": {
-                    "new_value": "Users messaged or called",
-                    "old_value": "Users messaged or called in direct or group chats"
-                },
-                "Ief2xc": {
-                    "new_value": "Minutes spent in calls across direct messages group chats, and servers",
-                    "old_value": "Minutes spent in calls across direct messages, group chats, and servers"
-                },
-                "KBgArX": {
-                    "new_value": "This includes direct messages and group chats",
-                    "old_value": "Names, avatars, and times of last message or call"
-                },
-                "Z3G+8h": {
-                    "new_value": "Users messaged or called",
-                    "old_value": "Users messaged or called in direct or group chats"
-                },
-                "dES/2r": {
-                    "new_value": "All purchases you have made including Shop and subscriptions",
-                    "old_value": "All purchases you have made, including Shop and subscriptions"
-                },
-                "ep6mdN": {
-                    "new_value": "All purchases your teen made including Shop and subscriptions",
-                    "old_value": "All purchases your teen made, including Shop and subscriptions"
-                },
-                "tHTyRh": {
-                    "new_value": "You have the option to share a report after you submit it. If you choose to share your guardian will be notified via email",
-                    "old_value": "You have the option to share a report after you submit it. If you choose to share, your guardian will be notified via email"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
             "deleted": {
-                "+yrQhd": "연결된 부모와 보호자는 무엇을 볼 수 있나요?",
-                "/iUt2y": "가족 센터가 공유하지 않는 정보:",
-                "05xZPR": "연결된 보호자가 볼 수 있는 항목",
-                "2OqtJJ": "가족 센터가 공유하지 않는 정보:",
-                "3Orpwl": "연결된 보호자는 무엇을 볼 수 있나요?",
-                "4SCALu": "메시지를 보내거나 통화한 사용자요",
-                "DxFKkd": "이름과 아바타",
-                "JvJ3P/": "새 친구",
-                "LDu4Uk": "당신이 최근에 참여하거나 만든 서버, 메시지를 보낸 서버, 또는 음성·영상 통화에 참여한 서버가 포함돼요.",
-                "S2ss5X": "자녀가 추가했거나 수락한 신규 친구",
-                "Sm8Gq5": "연결된 보호자는 무엇을 볼 수 있나요?",
-                "TCzk/e": "가족 센터가 보호자에게 절대 공유하지 않는 정보:",
-                "WGz9Dc": "연결된 부모와 보호자는 무엇을 볼 수 있나요?",
-                "WrY56N": "이름, 아이콘, 회원 수",
-                "YU7aaf": "연결된 보호자는 무엇을 볼 수 있나요?",
-                "f28y/v": "연결된 보호자는 무엇을 볼 수 있나요?",
-                "fEgtLV": "자녀가 최근에 참여하거나 만든 서버, 메시지를 보낸 서버, 또는 음성·영상 통화에 참여한 서버가 포함돼요.",
-                "j83L+t": "가족 센터가 보호자에게 절대 공유하지 않는 정보:",
-                "l0ChgF": "회원님이 추가했거나 수락한 신규 친구",
-                "oYf9P7": "여기에는 다이렉트 메시지와 그룹 채팅이 포함돼요"
+                "7vWJmY": "야호! 우리의 친구 기념일을 축하해요!"
             },
             "modified": {}
         }
     },
-    "timestamp": "2026-06-26T17:44:53.584398+00:00"
+    "timestamp": "2026-06-26T17:55:23.485501+00:00"
 }
