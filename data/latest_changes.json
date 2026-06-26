@@ -1,5 +1,5 @@
 {
-    "build_hash": "abd536cf05679ba3da96540a68f133be68602e38",
+    "build_hash": "6950d207837faf56a7474c652a34b2c55168f047",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,15 +9,23 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-jellybean",
+            "kind": "user",
+            "timestamp": "2026-06-26T18:38:56Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "Llo/Ia": "Headbang",
-                "RP8HFf": "Monkey Bars",
-                "pwbAIk": "Mainframe",
-                "t9Les4": "Journal"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-26T18:36:41.570357+00:00"
+    "timestamp": "2026-06-26T18:47:09.444043+00:00"
 }
