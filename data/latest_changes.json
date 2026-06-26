@@ -1,5 +1,5 @@
 {
-    "build_hash": "6950d207837faf56a7474c652a34b2c55168f047",
+    "build_hash": "c32d90de4258897af894d52ae04a397df97ce4c7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,20 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-jellybean",
-            "kind": "user",
-            "timestamp": "2026-06-26T18:38:56Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -35,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-26T18:47:09.444043+00:00"
+    "timestamp": "2026-06-26T18:57:38.126922+00:00"
 }
