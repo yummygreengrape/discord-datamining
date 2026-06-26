@@ -1,5 +1,5 @@
 {
-    "build_hash": "1434725b21cb7ad14c66b904ec41c6c6e6c10ff4",
+    "build_hash": "e5dc46136e40da51e6feca9fa3a18527097e474a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0R6I/b": "Gifts Received — {amount}",
-                "RMbedC": "Emoji upload is not available in the overlay."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-26T16:01:00.744471+00:00"
+    "timestamp": "2026-06-26T16:21:41.256194+00:00"
 }
