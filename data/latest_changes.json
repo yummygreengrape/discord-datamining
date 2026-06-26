@@ -1,67 +1,18 @@
 {
-    "build_hash": "46d32477c8c1cd2aaf38e8ae218c28df4fb31bf6",
+    "build_hash": "38c6826c46ab8012790ee2b798efda15745746c5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-premium-group-expansion-announcement",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": false,
-                "1": true
-            },
-            "status": "modified",
-            "treatments": [],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-premium-group-expansion-announcement",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": false,
-                "1": true
-            },
-            "status": "modified",
-            "treatments": [],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "YeqEjm": "Toggle Voice Channel Chat",
-                "desfB4": "Toggle the text chat panel for the voice channel you are connected to."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -71,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-26T21:34:13.273550+00:00"
+    "timestamp": "2026-06-26T21:54:53.410052+00:00"
 }
