@@ -1,5 +1,5 @@
 {
-    "build_hash": "d31b6667d2f00278a3c8128d4685a378bc6a0915",
+    "build_hash": "c4c530b1961e6b3254442218cebf2139fb5dc475",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "QPqIEx": "Custom primary color",
-                "fLMusI": "Custom secondary color",
-                "n5Ve0L": "Custom color {number}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-29T23:36:47.336875+00:00"
+    "timestamp": "2026-06-29T23:47:16.615064+00:00"
 }
