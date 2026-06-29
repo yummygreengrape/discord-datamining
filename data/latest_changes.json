@@ -1,5 +1,5 @@
 {
-    "build_hash": "4857a944911ae47d4328b1b4281a12b96f4849cd",
+    "build_hash": "93b9b5dc8b1eea94991c90043f909f924e84b370",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "pxocaf": "Buy for Yourself"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-29T14:45:54.119919+00:00"
+    "timestamp": "2026-06-29T15:26:53.528096+00:00"
 }
