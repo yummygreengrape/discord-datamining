@@ -1,39 +1,15 @@
 {
-    "build_hash": "a407177c1e2b795b2e09b475a1a49473f1f5e900",
+    "build_hash": "5926742cc22fbf97d0491d2560825eb42d0b728b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-slayer-storefront-exclusive-expressive-flair",
-            "kind": "user",
-            "timestamp": "2026-06-29T18:05:51Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-soundboard-picker-height",
-            "kind": "user",
-            "timestamp": "2026-06-29T17:03:20Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -46,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-29T19:06:28.590227+00:00"
+    "timestamp": "2026-06-29T19:16:55.314736+00:00"
 }
