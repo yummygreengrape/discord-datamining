@@ -1,5 +1,5 @@
 {
-    "build_hash": "a34aa05008f02c9efc6a9ac583eeb0d906e33552",
+    "build_hash": "d31b6667d2f00278a3c8128d4685a378bc6a0915",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,19 +13,9 @@
     "string_changes": {
         "en": {
             "added": {
-                "4fZtHa": "Closes this reminder",
-                "B3veqh": "Laws in your region now require teens ages 13–16 to connect their Discord account to a parent or guardian. You have 60 days to connect before losing access to your account.",
-                "CRZBSY": "Because of laws in your region, starting tomorrow you'll need a connected guardian to access Discord. Share a link or QR code with your parent or guardian to get started.",
-                "F4GT2S": "Laws in your region require teens ages 13–16 to have a connected guardian. Share the link below to connect with a parent or guardian. [Learn more]({link})",
-                "ITlV6p": "Connect to a guardian to keep access to your account",
-                "Kp7sjX": "Connect to Guardian",
-                "NMUfQJ": "or share a link",
-                "RBFAmG": "Connect your account to a guardian",
-                "Zo5YZD": "Connect your account to a guardian today.",
-                "b4sYUn": "You have {count, number} {count, plural, one {day} other {days}} to connect your account to a guardian.",
-                "hST5o8": "Connect Later",
-                "mQcGGY": "Because of laws in your region, in {count, number} {count, plural, one {day} other {days}} you'll need a connected guardian to access Discord. Share a link or QR code with your parent or guardian to get started.",
-                "pojgfk": "Share code with guardian"
+                "QPqIEx": "Custom primary color",
+                "fLMusI": "Custom secondary color",
+                "n5Ve0L": "Custom color {number}"
             },
             "deleted": {},
             "modified": {}
@@ -36,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-29T23:26:20.440463+00:00"
+    "timestamp": "2026-06-29T23:36:47.336875+00:00"
 }
