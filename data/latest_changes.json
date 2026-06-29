@@ -1,5 +1,5 @@
 {
-    "build_hash": "cf41210c7264fcbf3e37bdb10bc9bc07ce2ff4c1",
+    "build_hash": "d7498887197d654d38ae4da792159af1bec6f06c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "TyUdka": "Switch things up with new fonts and effects for your display name. Only with Nitro.",
+                "dluV0R": "Give your display name some flair with new fonts and effects. Only with Nitro."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-29T21:00:16.850200+00:00"
+    "timestamp": "2026-06-29T21:10:43.502045+00:00"
 }
