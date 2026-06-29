@@ -1,5 +1,5 @@
 {
-    "build_hash": "3363312ab29c90d2877ba3c6ab49e206cb315308",
+    "build_hash": "1671dd182392be65b270307ee314fe9d9a207dcb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,53 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "extraHeightPx"
-            ],
-            "default_config": {
-                "extraHeightPx": 0
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-soundboard-picker-height",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-06-29T17:03:20Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "extraHeightPx": 100
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "extraHeightPx"
-            ],
-            "default_config": {
-                "extraHeightPx": 0
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-soundboard-picker-height",
-            "kind": "user",
-            "timestamp": "2026-06-29T17:03:20Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "extraHeightPx": 100
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -67,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-29T17:10:35.350616+00:00"
+    "timestamp": "2026-06-29T17:21:02.708948+00:00"
 }
