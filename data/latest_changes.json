@@ -1,8 +1,21 @@
 {
-    "build_hash": "1671dd182392be65b270307ee314fe9d9a207dcb",
+    "build_hash": "0a421084b1ffb9f88ce8b4ba22d135def092f068",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-slayer-storefront-exclusive-expressive-flair",
+            "kind": "user",
+            "timestamp": "2026-06-29T18:05:51Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-29T17:21:02.708948+00:00"
+    "timestamp": "2026-06-29T18:12:09.557163+00:00"
 }
