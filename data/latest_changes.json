@@ -1,56 +1,73 @@
 {
-    "build_hash": "47767f407afc769ad01fa56be61e790766b937db",
+    "build_hash": "babeeb70a0179c5ab7d9ed0a2e10ea133976d28c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-monthly-to-yearly-upsells",
+            "kind": "user",
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "old_variations": {
+                "0": 0,
+                "1": 1,
+                "2": 2,
+                "3": 3
+            },
+            "status": "modified",
+            "treatments": [],
+            "variations": {
+                "0": 0,
+                "1": 1,
+                "2": 2,
+                "3": 3
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-monthly-to-yearly-upsells",
+            "kind": "user",
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "old_variations": {
+                "0": 0,
+                "1": 1,
+                "2": 2,
+                "3": 3
+            },
+            "status": "modified",
+            "treatments": [],
+            "variations": {
+                "0": 0,
+                "1": 1,
+                "2": 2,
+                "3": 3
+            }
+        }
+    ],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-monthly-to-yearly-upsells",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-06-30T17:18:56Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "0": 0,
-                "1": 1,
-                "2": 2,
-                "3": 3
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-monthly-to-yearly-upsells",
-            "kind": "user",
-            "timestamp": "2026-06-30T17:18:56Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "0": 0,
-                "1": 1,
-                "2": 2,
-                "3": 3
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -63,5 +80,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-30T17:23:12.118124+00:00"
+    "timestamp": "2026-06-30T17:33:39.822208+00:00"
 }
