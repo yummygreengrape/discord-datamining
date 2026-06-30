@@ -1,5 +1,5 @@
 {
-    "build_hash": "256da77ca9bd3f9c68087be279aa53f01b4507e2",
+    "build_hash": "66495661377f77ee6cb1465bd4fe96729b043aa4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,22 +8,57 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-pix-for-otp",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-06-30T18:54:51Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-pix-for-otp",
+            "kind": "user",
+            "timestamp": "2026-06-30T18:54:51Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {
-                "4tVt6P": "Updating your Server Tag will require all of your members to manually reapply the tag to their profile. We do this to prevent abuse.",
-                "BVVy6y": "You've made changes to your Server Tag that have not been saved. Leaving this page will discard your changes.",
-                "Fg/TNW": "Choose Color",
-                "RTSuVn": "Too many server tag updates. Please try again later.",
-                "S6N0gC": "Reset to default colors",
-                "U5p3GZ": "Get access to more exclusive badges",
-                "Ywt4w9": "Leave without saving",
-                "r4R7mm": "Choose Name",
-                "sOxim5": "Server Tag Name",
-                "wRnfnY": "Choose Badge",
-                "zhHtEX": "You have unsaved changes"
+                "JPRQ9L": "Pay with Pix"
             },
             "deleted": {},
             "modified": {}
@@ -34,5 +69,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-30T18:46:59.531349+00:00"
+    "timestamp": "2026-06-30T18:57:27.606758+00:00"
 }
