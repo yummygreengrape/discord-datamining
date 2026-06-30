@@ -1,5 +1,5 @@
 {
-    "build_hash": "652bc50ad4301728e4c6dc65974fc77735b23544",
+    "build_hash": "90e05a202c0b92c48f6b8dd093d0af2542218ce4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -17,10 +17,25 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "8qJAeT": "나중에 다시 알리기",
+                "Fg/TNW": "색상 선택하기",
+                "RTSuVn": "서버 태그 업데이트가 너무 많아요. 나중에 다시 시도해 보세요.",
+                "S6N0gC": "기본 색상으로 재설정",
+                "kxlybP": "연결된 역할 업데이트",
+                "p9TwTG": "브랜치",
+                "r4R7mm": "이름을 선택해 주세요",
+                "wRnfnY": "배지 선택하기",
+                "zhHtEX": "저장하지 않은 변경 사항이 있어요"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "h6MapL": {
+                    "new_value": "게임 시작",
+                    "old_value": "Riot Games"
+                }
+            }
         }
     },
-    "timestamp": "2026-06-30T23:28:09.127507+00:00"
+    "timestamp": "2026-06-30T23:48:49.808549+00:00"
 }
