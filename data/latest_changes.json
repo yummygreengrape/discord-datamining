@@ -1,5 +1,5 @@
 {
-    "build_hash": "98657d56f3fc064ed51f995d4eac1b06a4ca8225",
+    "build_hash": "809d4068a3c71436fbb91998801d25708693f1bd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "F0hdak": "{count, number} {count, plural, one {day} other {days}} to connect to a guardian",
+                "LTzc00": "Connect to a guardian today",
+                "xYJKEy": "Connect a guardian"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-30T05:26:34.703929+00:00"
+    "timestamp": "2026-06-30T05:57:25.520729+00:00"
 }
