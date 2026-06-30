@@ -1,5 +1,5 @@
 {
-    "build_hash": "fd07a989f0a4dcf6a87c34cfc484c57ed5e80ac9",
+    "build_hash": "3be13de7c9a77f74689061f764e5f704fd071907",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "h6MapL": {
+                    "new_value": "Play",
+                    "old_value": "Riot Games"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-30T00:08:12.549558+00:00"
+    "timestamp": "2026-06-30T00:18:40.151526+00:00"
 }
