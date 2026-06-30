@@ -1,8 +1,19 @@
 {
-    "build_hash": "5fec7d020fd72ba3ff78dc2c447d3195ecedea61",
+    "build_hash": "7b7fc25dab5c234443c270b798bb13c220e3b91b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-remove-friendship-anniversary-profile-popout",
+            "kind": "user",
+            "timestamp": "2026-06-30T14:57:37Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,14 +24,20 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "1TnDN4": "{numberOfYears} year anniversary",
+                "icDVNb": "Celebrate your friendship"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "1TnDN4": "{numberOfYears}주년 기념일",
+                "icDVNb": "우정을 기념하세요"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-06-30T14:07:20.951750+00:00"
+    "timestamp": "2026-06-30T14:58:31.271973+00:00"
 }
