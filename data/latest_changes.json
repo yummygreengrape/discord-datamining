@@ -1,108 +1,12 @@
 {
-    "build_hash": "16748c4c806da6b8e19763ece7ca17d3717f8d3e",
+    "build_hash": "d084d8748e2f400469e9aa8ed1fda8bc939b06e6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "buttonStyle"
-            ],
-            "default_config": {
-                "buttonStyle": 0
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-expressive-button-test",
-            "kind": "user",
-            "old_config_keys": [
-                "buttonVariant"
-            ],
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "old_variations": {
-                "1": {
-                    "buttonVariant": "overlay-primary"
-                },
-                "2": {
-                    "buttonVariant": "primary"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "buttonStyle": 0
-                },
-                "1": {
-                    "buttonStyle": 1
-                },
-                "2": {
-                    "buttonStyle": 2
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "buttonStyle"
-            ],
-            "default_config": {
-                "buttonStyle": 0
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-expressive-button-test",
-            "kind": "user",
-            "old_config_keys": [
-                "buttonVariant"
-            ],
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "old_variations": {
-                "1": {
-                    "buttonVariant": "overlay-primary"
-                },
-                "2": {
-                    "buttonVariant": "primary"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "buttonStyle": 0
-                },
-                "1": {
-                    "buttonStyle": 1
-                },
-                "2": {
-                    "buttonStyle": 2
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -110,24 +14,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "GPAtvf": {
-                    "new_value": "Redeem your item",
-                    "old_value": "Redeem your purchase"
-                },
-                "Qmkje8": {
-                    "new_value": "Connect your {applicationName} and Discord accounts to accept this item. Item eligible for PC only.",
-                    "old_value": "Connect your {applicationName} and Discord accounts to accept this purchase. Item eligible for PC only."
-                },
-                "TTj7ME": {
-                    "new_value": "You must claim your item within {numDays, plural, one {# day} other {# days}}. After this period, we may not be able to provide support if you experience problems accessing your items.",
-                    "old_value": "You must claim your item within {numDays, plural, one {# day} other {# days}}. After this period, we may not be able to provide support if you experience problems with your purchase."
-                },
-                "URLMAM": {
-                    "new_value": "Connect your {applicationName} and Discord accounts to accept this item. Item eligible for PC and Xbox only.",
-                    "old_value": "Connect your {applicationName} and Discord accounts to accept this purchase. Item eligible for PC and Xbox only."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -135,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-30T22:25:59.749669+00:00"
+    "timestamp": "2026-06-30T22:46:37.696327+00:00"
 }
