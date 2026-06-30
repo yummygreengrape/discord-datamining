@@ -1,18 +1,82 @@
 {
-    "build_hash": "363eb12f638e308c77138b3b2c716125934b7b6b",
+    "build_hash": "37f03b536219f34e0550d5a6facac03fe2e08615",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enableTimelineUpload"
+            ],
+            "default_config": {
+                "enableTimelineUpload": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-clips-timeline",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableTimelineUpload": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enableTimelineUpload"
+            ],
+            "default_config": {
+                "enableTimelineUpload": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-clips-timeline",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableTimelineUpload": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-monthly-to-yearly-upsells",
+            "kind": "user",
+            "timestamp": "2026-06-30T17:18:56Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "8ej+nd": "Linked Roles for **{connectionName}** will be deprecated starting on {date}. Please migrate your linked roles in settings. **This will no longer be maintained moving forward.**",
+                "8qJAeT": "Remind me later",
+                "iMCLA5": "Linked Roles for **{connectionName}** will be deprecated starting on {date}. Please update your linked roles in settings.",
+                "kxlybP": "Update Linked Roles",
+                "p9TwTG": "Branch",
+                "wUXupS": "The **{connectionName}** connection is migrating to **{applicationName}** in the coming months. [Link your {applicationName} account]({connectionEntrypointUrl}) if you want to continue your connection and unlock additional [in-game social features.]({helpCenterLink})"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +86,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-30T17:55:01.719715+00:00"
+    "timestamp": "2026-06-30T18:26:23.440905+00:00"
 }
