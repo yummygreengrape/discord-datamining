@@ -1,5 +1,5 @@
 {
-    "build_hash": "a685b37ad945c1f78675f8d649aae7207eb8438f",
+    "build_hash": "652bc50ad4301728e4c6dc65974fc77735b23544",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,25 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "AwjsC9": "Game Invites (Limited)",
-                "BW4VHV": "Game Invites"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "G91SYQ": {
-                    "new_value": "Add a voice chat to this post",
-                    "old_value": "You can start a call that others can join"
-                },
-                "SU/IAE": {
-                    "new_value": "Let players know what you're looking for",
-                    "old_value": "Add more detail about your game session"
-                },
-                "yoIAe/": {
-                    "new_value": "Add tags to help the right players find your post",
-                    "old_value": "Add tags for vibes and what you’re looking for"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -38,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-30T23:17:41.789045+00:00"
+    "timestamp": "2026-06-30T23:28:09.127507+00:00"
 }
