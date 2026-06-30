@@ -1,81 +1,29 @@
 {
-    "build_hash": "37f03b536219f34e0550d5a6facac03fe2e08615",
+    "build_hash": "256da77ca9bd3f9c68087be279aa53f01b4507e2",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enableTimelineUpload"
-            ],
-            "default_config": {
-                "enableTimelineUpload": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-clips-timeline",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableTimelineUpload": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enableTimelineUpload"
-            ],
-            "default_config": {
-                "enableTimelineUpload": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-clips-timeline",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableTimelineUpload": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-monthly-to-yearly-upsells",
-            "kind": "user",
-            "timestamp": "2026-06-30T17:18:56Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {
-                "8ej+nd": "Linked Roles for **{connectionName}** will be deprecated starting on {date}. Please migrate your linked roles in settings. **This will no longer be maintained moving forward.**",
-                "8qJAeT": "Remind me later",
-                "iMCLA5": "Linked Roles for **{connectionName}** will be deprecated starting on {date}. Please update your linked roles in settings.",
-                "kxlybP": "Update Linked Roles",
-                "p9TwTG": "Branch",
-                "wUXupS": "The **{connectionName}** connection is migrating to **{applicationName}** in the coming months. [Link your {applicationName} account]({connectionEntrypointUrl}) if you want to continue your connection and unlock additional [in-game social features.]({helpCenterLink})"
+                "4tVt6P": "Updating your Server Tag will require all of your members to manually reapply the tag to their profile. We do this to prevent abuse.",
+                "BVVy6y": "You've made changes to your Server Tag that have not been saved. Leaving this page will discard your changes.",
+                "Fg/TNW": "Choose Color",
+                "RTSuVn": "Too many server tag updates. Please try again later.",
+                "S6N0gC": "Reset to default colors",
+                "U5p3GZ": "Get access to more exclusive badges",
+                "Ywt4w9": "Leave without saving",
+                "r4R7mm": "Choose Name",
+                "sOxim5": "Server Tag Name",
+                "wRnfnY": "Choose Badge",
+                "zhHtEX": "You have unsaved changes"
             },
             "deleted": {},
             "modified": {}
@@ -86,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-30T18:26:23.440905+00:00"
+    "timestamp": "2026-06-30T18:46:59.531349+00:00"
 }
