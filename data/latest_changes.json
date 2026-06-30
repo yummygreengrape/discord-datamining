@@ -1,5 +1,5 @@
 {
-    "build_hash": "b64132cd01386204a2e796f864c32dcd5513e061",
+    "build_hash": "8a137eeb40acc347c75f830ed2e4fa49c2ecc630",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,13 +7,7 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_USERS_PARENTAL_CONSENT_WARNING",
-            "status": "added",
-            "url": "/users/@me/parental-consent/warning"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
@@ -28,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-30T01:21:33.577213+00:00"
+    "timestamp": "2026-06-30T01:32:00.995400+00:00"
 }
