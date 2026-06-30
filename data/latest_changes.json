@@ -1,8 +1,19 @@
 {
-    "build_hash": "9d99ee87b451e0a5d59c4ce5d20dc1b55704af5d",
+    "build_hash": "d96b64f6e6b7000096b17c2cf0c426fc1deb7af2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-orb-redemptions-billing-history",
+            "kind": "user",
+            "timestamp": "2026-06-30T01:03:49Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-30T01:00:36.023573+00:00"
+    "timestamp": "2026-06-30T01:11:05.513507+00:00"
 }
