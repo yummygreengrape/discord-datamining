@@ -1,5 +1,5 @@
 {
-    "build_hash": "66495661377f77ee6cb1465bd4fe96729b043aa4",
+    "build_hash": "8bcc4d774a8e92ffd4e468bcb7b49ce354ccd2fb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,58 +8,22 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-pix-for-otp",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-06-30T18:54:51Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
     "new_experiments": [
         {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-06-pix-for-otp",
-            "kind": "user",
-            "timestamp": "2026-06-30T18:54:51Z",
+            "id": "2026-06-server-boost-bar-nudge",
+            "kind": "guild",
+            "timestamp": "2026-06-30T19:02:56Z",
             "treatments": [
                 "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
+            ]
         }
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "JPRQ9L": "Pay with Pix"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -69,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-30T18:57:27.606758+00:00"
+    "timestamp": "2026-06-30T19:07:56.412860+00:00"
 }
