@@ -1,72 +1,8 @@
 {
-    "build_hash": "5496c4ea5cdf257e6eb2b0397474bc194533f31b",
-    "deleted_api_endpoints": [
-        {
-            "name": "ENDPOINT_USERS_WIDGETS_APPLICATION_WIDGET_APPLICATION_IDS",
-            "status": "deleted",
-            "url": "/users/@me/widgets/application-widget-application-ids"
-        },
-        {
-            "name": "USER_PROFILE_APPLICATION_WIDGET_APPLICATION_IDS",
-            "status": "deleted",
-            "url": "/users/@me/widgets/application-widget-application-ids"
-        }
-    ],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-application-widget-v2-renderer",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-06-30T21:02:06Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-application-widget-v2-renderer",
-            "kind": "user",
-            "timestamp": "2026-06-30T21:02:06Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "build_hash": "fbc66b4cb60c4eabe49cc518c4b3fbae94c6da49",
+    "deleted_api_endpoints": [],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -77,18 +13,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "qI8ZP6": "View All Stats"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "qI8ZP6": "모든 통계 보기"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-06-30T21:03:29.989019+00:00"
+    "timestamp": "2026-06-30T21:24:08.520651+00:00"
 }
