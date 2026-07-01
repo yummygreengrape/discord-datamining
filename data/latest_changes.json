@@ -1,12 +1,130 @@
 {
-    "build_hash": "d013efb2169b2398adbc7eb7309d4aec9006c214",
+    "build_hash": "812cf3d7fc2a87e514116aacdd261b74f6e79042",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2025-10-friendship-anniversary-gifting",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled",
+                "showDmPrompts"
+            ],
+            "old_default_config": {
+                "enabled": false,
+                "showDmPrompts": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "old_variations": {
+                "0": {
+                    "enabled": false,
+                    "showDmPrompts": false
+                },
+                "1": {
+                    "enabled": true,
+                    "showDmPrompts": true
+                },
+                "2": {
+                    "enabled": true,
+                    "showDmPrompts": false
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2025-10-friendship-anniversary-gifting",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled",
+                "showDmPrompts"
+            ],
+            "old_default_config": {
+                "enabled": false,
+                "showDmPrompts": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "old_variations": {
+                "0": {
+                    "enabled": false,
+                    "showDmPrompts": false
+                },
+                "1": {
+                    "enabled": true,
+                    "showDmPrompts": true
+                },
+                "2": {
+                    "enabled": true,
+                    "showDmPrompts": false
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -22,5 +140,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-01T17:27:36.504170+00:00"
+    "timestamp": "2026-07-01T17:39:42.647472+00:00"
 }
