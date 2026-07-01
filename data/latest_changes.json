@@ -1,27 +1,60 @@
 {
-    "build_hash": "c13bfbfccf5921787c924ae6167a6c47629de30e",
+    "build_hash": "54174506dbc234d2320de8736bf17fbdd6450dde",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-av1-decode-android",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-01T22:02:23Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-av1-decode-android",
+            "kind": "user",
+            "timestamp": "2026-07-01T22:02:23Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-wishlist-pdp-gift-button-priority",
-            "kind": "user",
-            "timestamp": "2026-07-01T21:23:05Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -34,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-01T21:26:59.965762+00:00"
+    "timestamp": "2026-07-01T22:07:58.018062+00:00"
 }
