@@ -1,5 +1,5 @@
 {
-    "build_hash": "a2c12dadd629958087518b1a540316ec074c034c",
+    "build_hash": "0b23c7656338d64148c07df8526a3be641e89ef5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "5fbNBX": "By clicking '{purchaseButtonText}', you agree to the [Paid Services Terms]({paidServicesTermsUrl}). Claiming an item from {applicationName} means you're claiming a limited license to use this item on Discord, learn more [here]({virtualGoodsTermsUrl}). Orbs redemptions are non-refundable. This item will be delivered by the developer directly in-game. {platformInfo}",
-                "cwuBkH": "By clicking '{purchaseButtonText}', you agree to the [Paid Services Terms]({paidServicesTermsUrl}). Claiming an item from {applicationName} means you're claiming a limited license to use this item on Discord, learn more [here]({virtualGoodsTermsUrl}). Orbs redemptions are non-refundable. This item will be delivered by the developer directly in-game."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-01T00:40:35.054966+00:00"
+    "timestamp": "2026-07-01T01:01:13.472814+00:00"
 }
