@@ -1,5 +1,5 @@
 {
-    "build_hash": "b3fac17222f6533578fbb85044537bcc1721b5e2",
+    "build_hash": "a8ce64470bfae6838725c5f98e11358feca64ff6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,19 +8,148 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-gifting-badge-desktop",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-gifting-badge-desktop",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/rBQud": "Srsly, you are the gift",
+                "0+xfd9": "{giftsRemaining} away from the {nextTier} Badge!",
+                "0MB2C6": "Gifting Badge",
+                "3EQnkg": "Treat your friends, and yourself. Send a gift and unlock a profile badge that levels up as you give.",
+                "4Yp0mI": "Your badge progresses as you gift. Exceptions include when a gift is refunded or when fraud is detected.",
+                "6QVlxw": "Send {count} to unlock the next badge, {nextTierName}.",
+                "775dKw": "{name} copy",
+                "7gEVxQ": "Duplicate Role",
+                "BB+Dar": "See more",
+                "DDQMlx": "Your community is lucky to have you! You provide and give all the goodies. Keep the generosity up. We see you.",
+                "DLeboq": "You've unlocked the gradientHookHook{tierName} Badge",
+                "DZnomS": "Send a Gift",
+                "EJ+xff": "See badge on profile",
+                "Ka5s+Q": "1 gift away!",
+                "KjdBPz": "Unlock the {nextTier} badge",
+                "LnsdbK": "You unlocked {currentTier}!",
+                "Q2RQka": "Gift a friend, get a badge",
+                "QsbVMM": "{count}",
+                "QxRA6w": "Oh hey, generous. You've sent {giftCount}, earning you a profile badge that levels up the more you give.",
+                "SIHRfH": "{giftsRemaining} away from {nextTier}!",
+                "WZ4cXA": "All Gifting Badges",
+                "XTX3OO": "Give {count} to unlock the {nextTier} badge next!",
+                "a+jfuy": "You got the {tierName} badge",
+                "ace9E2": "See less",
+                "bwyQt8": "{tierName} Badge",
+                "g86YiI": "Send a gift",
+                "iIpfQe": "{count}/{threshold}",
+                "k8MmO8": "You've unlocked the {tierName} badge",
+                "k9sNVH": "Send a gift to earn a profile badge that levels up as you give.",
+                "oqDrEM": "Send one more gift to unlock the coveted next level in your gifting streak.",
+                "qvx9E4": "Gifted {count}x",
+                "rIK0E2": "{giftsToNextTier} from {nextTierName}",
+                "roVAey": "Your Gifting Badge",
+                "sFokBp": "The Gifting Badge",
+                "sa/cfM": "View on profile",
+                "vQDoIh": "View Gifting Badge"
+            },
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "+HMF8k": "Nitro 할로윈",
+                "+utqaz": "선물 배경 옵션: {giftStyle}",
+                "/rBQud": "진정한 선물은 회원님 본인이었어요!",
+                "0+xfd9": "{nextTier} 배지까지 선물 {giftsRemaining}개 남았어요!",
+                "0MB2C6": "선물 배지",
+                "3EQnkg": "친구, 그리고 나 자신에게 선물을 보내세요. 선물을 보내고 더 많이 보낼수록 레벨이 올라가는 프로필 배지를 해금하세요.",
+                "4Yp0mI": "선물을 보낼 때마다 배지도 진화해요. 선물이 환불되거나 부정행위가 감지된 경우는 예외입니다.",
+                "6QVlxw": "다음 등급인 {nextTierName} 배지를 잠금 해제하려면 선물을 {count}개 더 보내세요.",
+                "6dCq/u": "컵",
+                "AJ4iir": "케이크",
+                "B9XqQk": "상자",
+                "BB+Dar": "더 보기",
+                "DDQMlx": "이 커뮤니티에서 회원님이 활동하시는 건 엄청난 행운이에요! 이렇게 좋은 선물들을 전부 베풀어 주시다니요. 앞으로도 넉넉한 인심을 보여주세요. 회원님의 활약을 지켜보고 있을게요.",
+                "DLeboq": "gradientHookHook{tierName} 배지가 잠금 해제되었어요",
+                "DZnomS": "선물 보내기",
+                "EJ+xff": "프로필의 배지 보기",
+                "GzPel1": "상자",
+                "Ka5s+Q": "선물이 딱 한 개 남았어요!",
+                "KjdBPz": "{nextTier} 배지 잠금 해제하기",
+                "LnsdbK": "{currentTier} 잠금 해제!",
+                "M6cPwB": "스노 글로브",
+                "P5keo3": "보물 상자",
+                "Q2RQka": "친구에게 선물하고 배지를 받으세요",
+                "QsbVMM": "{count}개 선물",
+                "QxRA6w": "정말 관대하시네요! 선물을 {giftCount}개 보내신 덕분에, 더 많이 보낼수록 레벨이 올라가는 프로필 배지를 획득하셨어요.",
+                "SIHRfH": "선물을 {giftsRemaining}개만 더 보내면 {nextTier} 등급으로 승급돼요!",
+                "WZ4cXA": "모든 선물 배지",
+                "XTX3OO": "선물 {count}개를 보내 다음 {nextTier} 배지를 잠금 해제하세요!",
+                "a+jfuy": "{tierName} 배지를 받았어요",
+                "ace9E2": "접기",
+                "aubYGR": "휴일 케이크",
+                "bGKjmg": "알겠어요!",
+                "bHuJLa": "휴일 커피",
+                "bwyQt8": "{tierName} 배지",
+                "g86YiI": "선물 보내기",
+                "iIpfQe": "{count}/{threshold}개 선물",
+                "k8MmO8": "{tierName} 배지를 잠금 해제했어요",
+                "k9sNVH": "선물을 보내고 보낼수록 레벨이 올라가는 프로필 배지를 획득하세요.",
+                "oqDrEM": "선물을 한 번 더 보내서 대망의 다음 레벨 선물 기록을 잠금 해제하세요.",
+                "qvx9E4": "{count}회 선물 보냄",
+                "rIK0E2": "{nextTierName}의 선물 {giftsToNextTier}개",
+                "roVAey": "나의 선물 배지",
+                "sFokBp": "선물 배지",
+                "sa/cfM": "프로필에서 보기",
+                "vQDoIh": "선물 배지 보기",
+                "vd1fu/": "휴일 상자",
+                "vjxYqU": "연말 보물 상자",
+                "w84vET": "커피"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-07-01T19:02:49.572837+00:00"
+    "timestamp": "2026-07-01T20:04:11.477897+00:00"
 }
