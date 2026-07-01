@@ -1,5 +1,5 @@
 {
-    "build_hash": "e26a890f8f8a7b4dcb712c467f26a282ee34fe51",
+    "build_hash": "49f83f3b46195ea14b362b978ba628fb61732688",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,67 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "showSmallEmbed"
-            ],
-            "default_config": {
-                "enabled": false,
-                "showSmallEmbed": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-game-profile-share-link",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "showSmallEmbed": true
-                },
-                "2": {
-                    "enabled": true,
-                    "showSmallEmbed": false
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "showSmallEmbed"
-            ],
-            "default_config": {
-                "enabled": false,
-                "showSmallEmbed": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-game-profile-share-link",
-            "kind": "user",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "showSmallEmbed": true
-                },
-                "2": {
-                    "enabled": true,
-                    "showSmallEmbed": false
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -81,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-01T02:02:49.926027+00:00"
+    "timestamp": "2026-07-01T02:23:28.379511+00:00"
 }
