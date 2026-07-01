@@ -1,8 +1,19 @@
 {
-    "build_hash": "a215e5fbd5a0da59da239cee426117d56f7b05ed",
+    "build_hash": "d8bfe929c681b20798d718875a0c1f284d8a7e78",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-dns-surprise-me-weighted-randomizer",
+            "kind": "user",
+            "timestamp": "2026-07-01T00:00:44Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,7 +24,10 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "5fbNBX": "By clicking '{purchaseButtonText}', you agree to the [Paid Services Terms]({paidServicesTermsUrl}). Claiming an item from {applicationName} means you're claiming a limited license to use this item on Discord, learn more [here]({virtualGoodsTermsUrl}). Orbs redemptions are non-refundable. This item will be delivered by the developer directly in-game. {platformInfo}",
+                "cwuBkH": "By clicking '{purchaseButtonText}', you agree to the [Paid Services Terms]({paidServicesTermsUrl}). Claiming an item from {applicationName} means you're claiming a limited license to use this item on Discord, learn more [here]({virtualGoodsTermsUrl}). Orbs redemptions are non-refundable. This item will be delivered by the developer directly in-game."
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-06-30T23:59:17.445486+00:00"
+    "timestamp": "2026-07-01T00:09:46.616471+00:00"
 }
