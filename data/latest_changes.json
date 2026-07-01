@@ -1,53 +1,8 @@
 {
-    "build_hash": "54174506dbc234d2320de8736bf17fbdd6450dde",
+    "build_hash": "a8561f39f74b88db8fbb38d946ce155249b53d1d",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-av1-decode-android",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-07-01T22:02:23Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-av1-decode-android",
-            "kind": "user",
-            "timestamp": "2026-07-01T22:02:23Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -67,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-01T22:07:58.018062+00:00"
+    "timestamp": "2026-07-01T22:38:45.038424+00:00"
 }
