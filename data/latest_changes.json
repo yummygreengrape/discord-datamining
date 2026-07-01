@@ -1,5 +1,5 @@
 {
-    "build_hash": "9d871ccae411fe08220652a956f535a697f01999",
+    "build_hash": "38cf3a020d2c20b1b991ab1dd6f19cab37043c86",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,12 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "TGr8Ws": "or share link",
+                "XhROZk": "or",
+                "lVD5Nd": "{username} is inviting you to connect as their guardian on Discord. {url}",
+                "lggBOi": "or share a link"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-01T05:27:36.417138+00:00"
+    "timestamp": "2026-07-01T11:13:44.497478+00:00"
 }
