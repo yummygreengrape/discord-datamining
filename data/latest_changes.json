@@ -1,5 +1,5 @@
 {
-    "build_hash": "2af0013ad23a8e497b645d7f297ea715b7cf439a",
+    "build_hash": "7ee52e0e7e80891f377928b3cedf094ae4efcf3a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,16 +14,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "0o3yg8": {
-                    "new_value": "You must be 18 or older to be a connected guardian on Discord. Once connected, you can see information about your teen’s activity and help manage certain settings. [Learn more]({link})",
-                    "old_value": "You must be 18 or older to connect as a guardian. Once connected, you'll be able to see your teen's activity and manage their settings. [Learn more]({link})"
-                },
-                "pQQMJ7": {
-                    "new_value": "Connect with {username} as their guardian on Discord",
-                    "old_value": "Set up guardian supervision on Discord"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -31,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-01T20:14:37.618719+00:00"
+    "timestamp": "2026-07-01T20:25:05.522606+00:00"
 }
