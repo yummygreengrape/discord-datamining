@@ -1,5 +1,5 @@
 {
-    "build_hash": "3b4b5bb146f38a9eebdf984b06eaf5b11eee3cf3",
+    "build_hash": "0b336aa4b7eadbbcf379488b05aa33154fab0f5b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,27 +9,10 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-bulk-nitro-gifting",
-            "kind": "user",
-            "timestamp": "2026-07-02T22:08:30Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "CGWyvX": "Restore Subscription",
-                "LvcUx4": "Restore Subscription",
-                "kyGViz": "{quantity} × {label}",
-                "yrk+N6": "Your subscription is past due. Retry payment or add a new payment method to restore it."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -39,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-02T23:04:45.739068+00:00"
+    "timestamp": "2026-07-02T23:15:14.961595+00:00"
 }
