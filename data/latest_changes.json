@@ -1,5 +1,5 @@
 {
-    "build_hash": "bf668c209b773f7aaecaefb5ffa3dc664a785090",
+    "build_hash": "6ec7c3f5305b621bbb4e9beba9bf8c3911a20da9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,20 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "m/3urB": "Show Code"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "2O6ltn": {
+                    "new_value": "Connecting gives your guardian visibility into your activity in Family Center and gives you full access to Discord. [Learn more]({link})",
+                    "old_value": "Once the code is scanned, your guardian will send a connection request to you. When you accept it you will be connected."
+                },
+                "aCUVfL": {
+                    "new_value": "Connect to a guardian to keep access to your account",
+                    "old_value": "Have your guardian scan this QR code"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-01T23:10:10.708913+00:00"
+    "timestamp": "2026-07-02T00:11:37.919774+00:00"
 }
