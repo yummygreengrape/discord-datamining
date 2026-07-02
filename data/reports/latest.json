@@ -1,0 +1,1955 @@
+{
+  "generated_at": "2026-07-02T11:12:13Z",
+  "period": {
+    "start": "2026-06-01T15:00:00Z",
+    "end": "2026-07-02T11:04:29Z",
+    "timezone_note": "Recent one-month window interpreted as 2026-06-02 00:00 KST through the 2026-07-02 manual run."
+  },
+  "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+  "source_bundle": "canary/web.b267176293a4bbfc.js",
+  "counts": {
+    "experiment_rows": 164,
+    "unique_experiment_ids": 148,
+    "new_or_filled_analysis_rows": 14,
+    "newly_interpreted_ids": 8,
+    "strengthened_existing_ids": 5,
+    "dispositions": {
+      "deletion_only_no_context": 52,
+      "unresolved_needs_evidence": 28,
+      "internal_or_low_value": 3,
+      "strengthened_existing": 5,
+      "interpreted": 69,
+      "no_current_surface": 7
+    }
+  },
+  "updated_rows": [
+    {
+      "id": "2026-06-expressive-button-test",
+      "timestamp": "2026-06-30T22:25:59.749669+00:00",
+      "status": "modified",
+      "update_kind": "strengthened_existing"
+    },
+    {
+      "id": "2026-06-content-classification-embedded-activity-filter",
+      "timestamp": "2026-06-30T20:47:50Z",
+      "status": "added",
+      "update_kind": "interpreted"
+    },
+    {
+      "id": "2026-06-pix-for-otp",
+      "timestamp": "2026-06-30T18:54:51Z",
+      "status": "added",
+      "update_kind": "interpreted"
+    },
+    {
+      "id": "2026-06-monthly-to-yearly-upsells",
+      "timestamp": "2026-06-30T17:18:56Z",
+      "status": "added",
+      "update_kind": "interpreted"
+    },
+    {
+      "id": "2026-06-monthly-to-yearly-upsells",
+      "timestamp": "2026-06-30T17:33:39.822208+00:00",
+      "status": "modified",
+      "update_kind": "interpreted"
+    },
+    {
+      "id": "2026-06-ml-offer-creation-ui-upgrade",
+      "timestamp": "2026-06-30T00:29:09.195839+00:00",
+      "status": "modified",
+      "update_kind": "strengthened_existing"
+    },
+    {
+      "id": "2026-06-soundboard-picker-height",
+      "timestamp": "2026-06-29T17:03:20Z",
+      "status": "added",
+      "update_kind": "interpreted"
+    },
+    {
+      "id": "2026-06-gifting-badge-desktop",
+      "timestamp": "2026-06-26T21:18:22Z",
+      "status": "added",
+      "update_kind": "interpreted"
+    },
+    {
+      "id": "2026-06-topical-navigation-guild",
+      "timestamp": "2026-06-05T22:33:35Z",
+      "status": "added",
+      "update_kind": "interpreted"
+    },
+    {
+      "id": "2026-05-quest-home-reward-claim",
+      "timestamp": "2026-06-05T21:39:08Z",
+      "status": "added",
+      "update_kind": "interpreted"
+    },
+    {
+      "id": "2026-03-orders-dual-write",
+      "timestamp": "2026-06-02T20:22:58.337471+00:00",
+      "status": "deleted",
+      "update_kind": "strengthened_existing"
+    },
+    {
+      "id": "2025-12-orb-redemption-thru-orders",
+      "timestamp": "2026-06-02T20:22:58.337471+00:00",
+      "status": "deleted",
+      "update_kind": "strengthened_existing"
+    },
+    {
+      "id": "2026-05-mana-type-consolidation",
+      "timestamp": "2026-06-01T20:55:30Z",
+      "status": "added",
+      "update_kind": "interpreted"
+    },
+    {
+      "id": "2026-02-mobile-visual-refresh",
+      "timestamp": "2026-06-01T19:48:43.684457+00:00",
+      "status": "modified",
+      "update_kind": "strengthened_existing"
+    }
+  ],
+  "experiment_dispositions": [
+    {
+      "id": "2026-04-av1-decode-android",
+      "timestamp": "2026-07-01T22:02:23Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-wishlist-pdp-gift-button-priority",
+      "timestamp": "2026-07-01T21:23:05Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "no current experiment id or gift button priority consumer found"
+    },
+    {
+      "id": "2026-06-game-profile-share-link",
+      "timestamp": "2026-07-01T02:02:49.926027+00:00",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "current consumer confirms coded-link analytics tracking; showSmallEmbed UI consumer was not found"
+    },
+    {
+      "id": "2026-05-dns-surprise-me-weighted-randomizer",
+      "timestamp": "2026-07-01T00:00:44Z",
+      "status": "deleted",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "no current experiment id or discover/surprise-me consumer found"
+    },
+    {
+      "id": "2026-06-expressive-button-test",
+      "timestamp": "2026-06-30T22:25:59.749669+00:00",
+      "status": "modified",
+      "disposition": "strengthened_existing",
+      "reason": "existing evidence-backed analysis applied to another row for the same experiment id"
+    },
+    {
+      "id": "2026-03-application-widget-v2-renderer",
+      "timestamp": "2026-06-30T21:02:06Z",
+      "status": "deleted",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "current bundle no longer contains the experiment id; widget renderer behavior could not be confirmed"
+    },
+    {
+      "id": "2026-06-improved-shop-loading",
+      "timestamp": "2026-06-30T20:47:50Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "no current experiment id or Shop loading consumer found"
+    },
+    {
+      "id": "2026-06-server-boost-bar-nudge",
+      "timestamp": "2026-06-30T19:02:56Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "no current experiment id or config consumer links the server Boost bar nudge to a visible surface"
+    },
+    {
+      "id": "2026-06-content-classification-embedded-activity-filter",
+      "timestamp": "2026-06-30T20:47:50Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "analysis added in this run"
+    },
+    {
+      "id": "2026-06-pix-for-otp",
+      "timestamp": "2026-06-30T18:54:51Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "analysis added in this run"
+    },
+    {
+      "id": "2026-05-clips-timeline",
+      "timestamp": "2026-06-30T18:26:23.440905+00:00",
+      "status": "deleted",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "no current experiment id or Clips timeline consumer found in the current bundle"
+    },
+    {
+      "id": "2026-06-monthly-to-yearly-upsells",
+      "timestamp": "2026-06-30T17:18:56Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "analysis added in this run"
+    },
+    {
+      "id": "2026-06-monthly-to-yearly-upsells",
+      "timestamp": "2026-06-30T17:33:39.822208+00:00",
+      "status": "modified",
+      "disposition": "interpreted",
+      "reason": "analysis added in this run"
+    },
+    {
+      "id": "2026-05-remove-friendship-anniversary-profile-popout",
+      "timestamp": "2026-06-30T14:57:37Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-orb-redemptions-billing-history",
+      "timestamp": "2026-06-30T01:03:49Z",
+      "status": "deleted",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "billing/Orbs copy changed in-window, but no current experiment id or config consumer ties billing history behavior to this experiment"
+    },
+    {
+      "id": "2026-06-ml-offer-creation-ui-upgrade",
+      "timestamp": "2026-06-30T00:29:09.195839+00:00",
+      "status": "modified",
+      "disposition": "strengthened_existing",
+      "reason": "existing evidence-backed analysis applied to another row for the same experiment id"
+    },
+    {
+      "id": "2026-05-slayer-storefront-exclusive-expressive-flair",
+      "timestamp": "2026-06-29T18:05:51Z",
+      "status": "deleted",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "no current experiment id or Shop flair consumer found in the current bundle"
+    },
+    {
+      "id": "2026-06-soundboard-picker-height",
+      "timestamp": "2026-06-29T17:03:20Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "analysis added in this run"
+    },
+    {
+      "id": "2026-06-similar-games-mobile",
+      "timestamp": "2026-06-26T22:39:05Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "no current experiment id match or similar-games mobile UI/API consumer found"
+    },
+    {
+      "id": "2026-06-similar-games-desktop",
+      "timestamp": "2026-06-26T22:39:05Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "no current experiment id match or similar-games desktop UI/API consumer found"
+    },
+    {
+      "id": "2026-03-premium-group-popover",
+      "timestamp": "2026-06-26T21:16:20Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-04-premium-group-announcement",
+      "timestamp": "2026-06-26T21:16:20Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-05_game_invites_channel",
+      "timestamp": "2026-06-26T21:06:12Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-ios-broadcast-upload-dispose-fix",
+      "timestamp": "2026-06-26T22:09:49Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-gifting-badge-desktop",
+      "timestamp": "2026-06-26T21:18:22Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "analysis added in this run"
+    },
+    {
+      "id": "2026-07-premium-group-expansion-announcement",
+      "timestamp": "2026-06-26T21:16:20Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-game-invites-channel",
+      "timestamp": "2026-06-26T21:06:12Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "game-invite strings changed in-window, but no current experiment id or config consumer links them to the new guild experiment"
+    },
+    {
+      "id": "2026-07-premium-group-expansion-announcement",
+      "timestamp": "2026-06-26T21:34:13.273550+00:00",
+      "status": "modified",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "social-entrypoints-v2-activity-panel-p0-visual-upgrade",
+      "timestamp": "2026-06-26T20:58:07Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-polls-click-to-profile",
+      "timestamp": "2026-06-26T19:09:12Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "no current experiment id match or poll-click profile consumer found"
+    },
+    {
+      "id": "2026-06-jellybean",
+      "timestamp": "2026-06-26T18:38:56Z",
+      "status": "added",
+      "disposition": "no_current_surface",
+      "reason": "no current experiment id match or user-facing string/API linkage was confirmed"
+    },
+    {
+      "id": "2026-03_file_upload_250_mb_powerup",
+      "timestamp": "2026-06-26T00:59:56.222297+00:00",
+      "status": "modified",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-family-center-connection-prereq",
+      "timestamp": "2026-06-25T23:16:22.181205+00:00",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-05-slayer-storefront-shop-shim",
+      "timestamp": "2026-06-25T22:55:24.287841+00:00",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-05-clips-gallery-home",
+      "timestamp": "2026-06-25T21:15:20.432810+00:00",
+      "status": "deleted",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-02-gdm-all-reaction-notifications",
+      "timestamp": "2026-06-25T20:11:50.381466+00:00",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-nitro-basic-card-color",
+      "timestamp": "2026-06-25T20:01:13.198465+00:00",
+      "status": "modified",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-annual-plan-checkout-copy",
+      "timestamp": "2026-06-25T20:01:13.198465+00:00",
+      "status": "modified",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-ml-offer-creation-ui-upgrade",
+      "timestamp": "2026-06-25T19:50:33.259691+00:00",
+      "status": "modified",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-05-collectibles-pdp-refresh",
+      "timestamp": "2026-06-23T19:44:32Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-edit-profile-collectibles-upsell-banner",
+      "timestamp": "2026-06-23T15:58:34Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-user-profile-sidebar-redesign",
+      "timestamp": "2026-06-25T19:50:33.259691+00:00",
+      "status": "deleted",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-05-quest-home-remove-expired-quests",
+      "timestamp": "2026-06-25T19:50:33.259691+00:00",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-03-store-country",
+      "timestamp": "2026-06-23T15:29:17Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-03-silp-in-app-redesign-profile",
+      "timestamp": "2026-06-25T19:50:33.259691+00:00",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-03-desktop-activity-quest-header",
+      "timestamp": "2026-06-23T20:47:12Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-02-silp-in-app-redesign",
+      "timestamp": "2026-06-25T19:50:33.259691+00:00",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-01-you-bar",
+      "timestamp": "2026-06-25T19:50:33.259691+00:00",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-01-reply-nudge",
+      "timestamp": "2026-06-23T20:21:57Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2025-09-mana-toggle-inputs",
+      "timestamp": "2026-06-23T15:41:24Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-clips-editor-v2",
+      "timestamp": "2026-06-22T21:21:29Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "same-window crop/customize strings exist, but no current experiment id or config consumer ties them to this experiment"
+    },
+    {
+      "id": "2026-06_guild_rooms",
+      "timestamp": "2026-06-22T21:49:43Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-web-translate-dom-guard",
+      "timestamp": "2026-06-25T19:50:33.259691+00:00",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-upscale-small-captured-frames",
+      "timestamp": "2026-06-22T17:45:35Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-quest-fetch-reconnect-jitter",
+      "timestamp": "2026-06-25T19:50:33.259691+00:00",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-otp-orders-phase-1",
+      "timestamp": "2026-06-22T21:49:43Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-nitro-basic-card-color",
+      "timestamp": "2026-06-23T00:14:04Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-mobile-server-tag",
+      "timestamp": "2026-06-23T05:14:29Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "current guild profile/store module registers the experiment, but the result is not assigned or read"
+    },
+    {
+      "id": "2026-06-game-profile-in-quickswitcher",
+      "timestamp": "2026-06-22T23:12:29Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-expressive-button-test",
+      "timestamp": "2026-06-25T19:50:33.259691+00:00",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-emoji-frecent-test",
+      "timestamp": "2026-06-25T19:50:33.259691+00:00",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-clickstream-analytics",
+      "timestamp": "2026-06-25T19:50:33.259691+00:00",
+      "status": "added",
+      "disposition": "internal_or_low_value",
+      "reason": "confirmed analytics collection only; no direct user-facing behavior was promoted"
+    },
+    {
+      "id": "2026-06-av1-encode-linux",
+      "timestamp": "2026-06-25T19:50:33.259691+00:00",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-annual-plan-checkout-copy",
+      "timestamp": "2026-06-22T18:40:05Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-age-verification-incode",
+      "timestamp": "2026-06-25T19:50:33.259691+00:00",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-05-quest-tile-cta-refactor",
+      "timestamp": "2026-06-25T19:50:33.259691+00:00",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "definition/export exists in the Quest experiment module, but no current helper consumer was confirmed"
+    },
+    {
+      "id": "2026-05-collectibles-collection-page",
+      "timestamp": "2026-06-23T20:10:50Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-gummy-viewers",
+      "timestamp": "2026-06-18T19:40:52Z",
+      "status": "added",
+      "disposition": "internal_or_low_value",
+      "reason": "current consumer is staff-only gating for internal visual treatment access"
+    },
+    {
+      "id": "2026-06-gummy-bears",
+      "timestamp": "2026-06-18T19:45:11.889063+00:00",
+      "status": "added",
+      "disposition": "internal_or_low_value",
+      "reason": "current consumer is staff-only gating for internal visual treatment access"
+    },
+    {
+      "id": "2026-06-friendship-anniversary-backend-persistence",
+      "timestamp": "2026-06-18T19:11:35Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-non-friend-messages-requests-in-uk",
+      "timestamp": "2026-06-18T18:30:11Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "no current experiment id or consumer ties UK users to a changed non-friend message-request path"
+    },
+    {
+      "id": "2026-06-quest-home-layout-visual-tweaks",
+      "timestamp": "2026-06-18T00:03:32Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "definition/export exists in the Quest experiment module, but no current helper consumer was confirmed"
+    },
+    {
+      "id": "2026-06-application-widget-profile-popout-preload",
+      "timestamp": "2026-06-17T22:36:36.279763+00:00",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-04-trial-continuation-discount",
+      "timestamp": "2026-06-17T18:54:05.750315+00:00",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-02-dm-error-message",
+      "timestamp": "2026-06-17T17:36:00Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-ml-offer-creation-ui-upgrade",
+      "timestamp": "2026-06-17T15:46:55Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-05-nitro-tab-discount-expressive-badge",
+      "timestamp": "2026-06-16T20:13:20Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-game-autocomplete-search",
+      "timestamp": "2026-06-16T19:39:02Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-05-quest-primary-cta-white-desktop",
+      "timestamp": "2026-06-16T18:44:31Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-02-channel-wave-button",
+      "timestamp": "2026-06-16T14:04:17Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-clips-league-events",
+      "timestamp": "2026-06-16T13:34:02Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-05-boosting-pre-checkout-modal-refresh-monthly-rate",
+      "timestamp": "2026-06-16T00:06:59.058043+00:00",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-04-boosting-pre-checkout-modal-refresh-v2",
+      "timestamp": "2026-06-16T00:06:59.058043+00:00",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-03-orders-dual-write",
+      "timestamp": "2026-06-16T00:06:59.058043+00:00",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-02-gift-cards",
+      "timestamp": "2026-06-16T00:06:59.058043+00:00",
+      "status": "modified",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2025-12-orb-redemption-thru-orders",
+      "timestamp": "2026-06-16T00:06:59.058043+00:00",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2025-10-payment-elements-launch",
+      "timestamp": "2026-06-16T00:06:59.058043+00:00",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-server-ladder",
+      "timestamp": "2026-06-15T23:27:14Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-03-calculated-annual-discount-percent",
+      "timestamp": "2026-06-15T23:25:06.991622+00:00",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-04_voice_invite_suggestion_placement",
+      "timestamp": "2026-06-15T22:26:42Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-server-setup-boost-cta",
+      "timestamp": "2026-06-15T22:06:33Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "no current experiment id or config consumer links server setup to a Boost CTA"
+    },
+    {
+      "id": "2026-04-boosting-badge-hover-popup",
+      "timestamp": "2026-06-15T19:19:12Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-server-theme-apex-shadow",
+      "timestamp": "2026-06-15T18:07:32Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-02-mobile-visual-refresh",
+      "timestamp": "2026-06-15T12:34:15.017538+00:00",
+      "status": "modified",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-bounty-use-video-modal-mobile-placement-experiment",
+      "timestamp": "2026-06-13T03:48:57Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "experiment definition exists near Quest/Bounties code, but no assigned config read for mobile video modal placement was found"
+    },
+    {
+      "id": "2026-05-bounties-stage-1",
+      "timestamp": "2026-06-13T03:48:57Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "definition exists near Quest/Bounties code, but timer, Orbs, scrolling, and looping keys still have no confirmed consumer"
+    },
+    {
+      "id": "2026-06-user-profile-sidebar-redesign",
+      "timestamp": "2026-06-13T02:01:14Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-remove-quest-home-hero",
+      "timestamp": "2026-06-13T00:05:26Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-use-new-badge-image-source",
+      "timestamp": "2026-06-12T22:22:26.989875+00:00",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-05-clips-quickbar",
+      "timestamp": "2026-06-12T20:42:39Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-05-dvp-for-attachments",
+      "timestamp": "2026-06-12T20:47:43Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "no current experiment id or config consumer; attachment/viewer strings are not enough to link the feature"
+    },
+    {
+      "id": "2026-06-gdm-invite-embed",
+      "timestamp": "2026-06-12T18:56:44Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-02-voice-timeout-mitigations",
+      "timestamp": "2026-06-12T17:18:58Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-nitro-gifting-price-copy-tweaks",
+      "timestamp": "2026-06-12T00:35:26Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-chat-bar-customization",
+      "timestamp": "2026-06-11T21:49:10Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-05-global-soundboard-wheel-popout",
+      "timestamp": "2026-06-11T20:54:43Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-03-game-update-notification",
+      "timestamp": "2026-06-11T17:51:08Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-edit-profile-collectibles-upsell-banner",
+      "timestamp": "2026-06-11T17:29:56Z",
+      "status": "added",
+      "disposition": "no_current_surface",
+      "reason": "no current experiment id match or user-facing string/API linkage was confirmed"
+    },
+    {
+      "id": "2026-06-wmf-cpu-encode-intel",
+      "timestamp": "2026-06-11T16:44:33Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-04-collectibles-orbs-redeem-short-text",
+      "timestamp": "2026-06-11T16:15:20Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-04-social-proof-negative",
+      "timestamp": "2026-06-10T22:40:26Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2025-11-auto-open-tiv",
+      "timestamp": "2026-06-10T17:31:31Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-remove-wishlist-dm-sidebar-side-copy",
+      "timestamp": "2026-06-10T15:05:19Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "no current experiment id, config consumer, or wishlist DM-sidebar copy surface found"
+    },
+    {
+      "id": "2025-11-auto-open-tiv",
+      "timestamp": "2026-06-10T17:29:52.460957+00:00",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-04-clips-primary-entry-point",
+      "timestamp": "2026-06-09T22:41:06Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-04-unified-checkout-ui-premium-flows",
+      "timestamp": "2026-06-09T21:05:13Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-01-unified-checkout-ui",
+      "timestamp": "2026-06-09T21:05:13Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-05-notify-friends-on-come-online",
+      "timestamp": "2026-06-09T18:29:55Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-desktop-tti-splash-asset",
+      "timestamp": "2026-06-09T17:38:28Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-05-quest-home-tile-redesign",
+      "timestamp": "2026-06-08T23:59:47.707824+00:00",
+      "status": "modified",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "raw config or treatments exist, but current consumer evidence was not confirmed"
+    },
+    {
+      "id": "2026-03-private-profiles-strict-gb",
+      "timestamp": "2026-06-08T21:24:08.021713+00:00",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-notify-friends-on-profile-update",
+      "timestamp": "2026-06-08T20:24:30Z",
+      "status": "added",
+      "disposition": "no_current_surface",
+      "reason": "no current experiment id match or user-facing string/API linkage was confirmed"
+    },
+    {
+      "id": "2026-04-rtc-voice-details-refresh",
+      "timestamp": "2026-06-08T17:29:08Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-05-rtc-connection-functional",
+      "timestamp": "2026-06-06T01:12:42Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-02-fetch-quest-home-takeover-on-connection-open",
+      "timestamp": "2026-06-06T01:12:42Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-ios-broadcast-upload-dispose-fix",
+      "timestamp": "2026-06-06T01:12:42Z",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "raw config or treatments exist, but current consumer evidence was not confirmed"
+    },
+    {
+      "id": "2026-04_topical_navigation_aa",
+      "timestamp": "2026-06-05T22:33:35Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-topical-navigation-guild",
+      "timestamp": "2026-06-05T22:33:35Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "analysis added in this run"
+    },
+    {
+      "id": "2026-05-quest-home-reward-claim",
+      "timestamp": "2026-06-05T21:39:08Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "analysis added in this run"
+    },
+    {
+      "id": "2026-05-use-ad-analytics-interface",
+      "timestamp": "2026-06-05T16:15:43Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-magic-scoring",
+      "timestamp": "2026-06-05T15:35:26Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-03-application-widget-v2-add-tweak",
+      "timestamp": "2026-06-04T23:55:11Z",
+      "status": "added",
+      "disposition": "no_current_surface",
+      "reason": "no current experiment id match or user-facing string/API linkage was confirmed"
+    },
+    {
+      "id": "2026-05-game-mentions-v2",
+      "timestamp": "2026-06-04T19:14:29.872493+00:00",
+      "status": "modified",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-03-shop-bundle-card-static-preview",
+      "timestamp": "2026-06-04T17:39:26Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-systemwide-echo-cancellation-for-people-who-refuse-to-wear-headphones",
+      "timestamp": "2026-06-04T16:03:44Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-05-orbs-shop-upsell-banner",
+      "timestamp": "2026-06-04T00:20:37Z",
+      "status": "added",
+      "disposition": "no_current_surface",
+      "reason": "no current experiment id match or user-facing string/API linkage was confirmed"
+    },
+    {
+      "id": "2026-05-device-form-factor-indicators",
+      "timestamp": "2026-06-04T00:20:37Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-05-orbs-purchase-upsell-banner",
+      "timestamp": "2026-06-03T23:05:04Z",
+      "status": "added",
+      "disposition": "no_current_surface",
+      "reason": "no current experiment id match or user-facing string/API linkage was confirmed"
+    },
+    {
+      "id": "2026-04-storefront-pricing",
+      "timestamp": "2026-06-03T21:29:16Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-04-storefront-pricing",
+      "timestamp": "2026-06-03T21:28:47.920681+00:00",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-03-quest-home-bounties",
+      "timestamp": "2026-06-03T21:08:01.398771+00:00",
+      "status": "modified",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "raw config or treatments exist, but current consumer evidence was not confirmed"
+    },
+    {
+      "id": "2026-06-desktop-tti-http-cdt",
+      "timestamp": "2026-06-03T20:57:00Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-clips-settings-redesign",
+      "timestamp": "2026-06-03T20:40:53Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-android-two-week-trials",
+      "timestamp": "2026-06-03T17:00:08.546902+00:00",
+      "status": "added",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "raw config or treatments exist, but current consumer evidence was not confirmed"
+    },
+    {
+      "id": "2026-05-mobile-lurker-server-preview",
+      "timestamp": "2026-06-03T08:46:37Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-04-add-to-dm-updates",
+      "timestamp": "2026-06-02T23:33:13Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-add-to-dm-title",
+      "timestamp": "2026-06-02T23:33:13Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-add-to-dm-customize",
+      "timestamp": "2026-06-02T23:33:13Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2025-12-active-timestamp-styling",
+      "timestamp": "2026-06-02T23:02:57Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-05-dice-roll-slash-command",
+      "timestamp": "2026-06-02T22:40:48Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-06-dont-badge-muted-vcs",
+      "timestamp": "2026-06-02T22:27:39Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-05-game-mentions-v2",
+      "timestamp": "2026-06-02T20:57:59Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "previous evidence-backed Codex interpretation remains valid for this monthly report"
+    },
+    {
+      "id": "2026-03-orders-dual-write",
+      "timestamp": "2026-06-02T20:22:58.337471+00:00",
+      "status": "deleted",
+      "disposition": "strengthened_existing",
+      "reason": "existing evidence-backed analysis applied to another row for the same experiment id"
+    },
+    {
+      "id": "2025-12-orb-redemption-thru-orders",
+      "timestamp": "2026-06-02T20:22:58.337471+00:00",
+      "status": "deleted",
+      "disposition": "strengthened_existing",
+      "reason": "existing evidence-backed analysis applied to another row for the same experiment id"
+    },
+    {
+      "id": "2026-03-game-profiles-mobile",
+      "timestamp": "2026-06-02T19:03:06Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-05-quest-home-new-layout",
+      "timestamp": "2026-06-02T16:55:08.084395+00:00",
+      "status": "modified",
+      "disposition": "unresolved_needs_evidence",
+      "reason": "raw config or treatments exist, but current consumer evidence was not confirmed"
+    },
+    {
+      "id": "2026-03-linux-vulkan-capture",
+      "timestamp": "2026-06-02T00:11:07Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-06-post-call-survey-assets",
+      "timestamp": "2026-06-01T23:28:47Z",
+      "status": "added",
+      "disposition": "no_current_surface",
+      "reason": "no current experiment id match or user-facing string/API linkage was confirmed"
+    },
+    {
+      "id": "2026-04-social-layer-storefront-vc-gifting-panel",
+      "timestamp": "2026-06-01T22:37:25Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-05-mana-type-consolidation",
+      "timestamp": "2026-06-01T20:55:30Z",
+      "status": "added",
+      "disposition": "interpreted",
+      "reason": "analysis added in this run"
+    },
+    {
+      "id": "2026-02-reactions-click-to-profile",
+      "timestamp": "2026-06-01T20:42:21Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-02-mobile-visual-refresh",
+      "timestamp": "2026-06-01T19:48:43.684457+00:00",
+      "status": "modified",
+      "disposition": "strengthened_existing",
+      "reason": "existing evidence-backed analysis applied to another row for the same experiment id"
+    },
+    {
+      "id": "2026-05-multi-button-play-cta",
+      "timestamp": "2026-06-01T19:41:04Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    },
+    {
+      "id": "2026-03-play-with-xbox-game-pass",
+      "timestamp": "2026-06-01T19:41:04Z",
+      "status": "deleted",
+      "disposition": "deletion_only_no_context",
+      "reason": "deleted row without prior evidence-backed interpretation or current consumer evidence"
+    }
+  ],
+  "highlighted_experiments": [
+    {
+      "id": "2025-12-orb-redemption-thru-orders",
+      "status": "deleted",
+      "timestamps": [
+        "2026-06-02T20:22:58.337471+00:00"
+      ],
+      "summary": "Shop에서 Orbs로 아이템을 교환할 때 주문을 먼저 만들고 확정하는 흐름을 시험합니다.",
+      "importance": "medium",
+      "update_type": "strengthened_existing",
+      "evidence_level": "current_canary_consumer",
+      "evidence": [
+        "Canary modules 99029 and 715054 read the experiment in the payment and Orbs checkout modals.",
+        "The enabled path creates an order, signs it, and polls order entitlements.",
+        "The disabled path calls the legacy direct virtual-currency redemption flow."
+      ]
+    },
+    {
+      "id": "2026-02-mobile-visual-refresh",
+      "status": "modified",
+      "timestamps": [
+        "2026-06-01T19:48:43.684457+00:00"
+      ],
+      "summary": "영상 통화 화면에서 프로필 테마 색상을 참가자 타일 배경에 반영하는 실험입니다.",
+      "importance": "low",
+      "update_type": "strengthened_existing",
+      "evidence_level": "current_canary_consumer",
+      "evidence": [
+        "Canary module 334557 reads enabled at VideoBackground-web.",
+        "When enabled and profile colors exist, the tile uses profileThemeStyle and fetches the profile.",
+        "Current web code does not consume chatInputFloating or chatInputLegacySendButton."
+      ]
+    },
+    {
+      "id": "2026-03-orders-dual-write",
+      "status": "deleted",
+      "timestamps": [
+        "2026-06-02T20:22:58.337471+00:00"
+      ],
+      "summary": "결제 화면에서 주문을 먼저 만들고 결제 수단 변경 내용을 같은 주문에 반영하는 실험입니다.",
+      "importance": "high",
+      "update_type": "strengthened_existing",
+      "evidence_level": "current_canary_consumer",
+      "evidence": [
+        "Canary module 99029 reads the experiment at payment_modal.",
+        "The enabled path creates a draft order before continuing checkout.",
+        "A checkout effect updates the order when payment source information changes."
+      ]
+    },
+    {
+      "id": "2026-05-mana-type-consolidation",
+      "status": "added",
+      "timestamps": [
+        "2026-06-01T20:55:30Z"
+      ],
+      "summary": "앱 전반의 글자 스타일을 새 디자인 기준에 맞춰 바꾸는 실험입니다.",
+      "importance": "low",
+      "update_type": "interpreted",
+      "evidence_level": "current_canary_consumer",
+      "evidence": [
+        "canary/web.b267176293a4bbfc.js module 258599 reads the experiment at RootThemeContextProvider.",
+        "The root provider adds mana-type-consolidation to enabledExperiments when enabled.",
+        "A shared typography mapper remaps legacy text variants when that enabled experiment is present."
+      ]
+    },
+    {
+      "id": "2026-05-quest-home-reward-claim",
+      "status": "added",
+      "timestamps": [
+        "2026-06-05T21:39:08Z"
+      ],
+      "summary": "완료한 Quest 보상을 Quest Home에서 바로 수령하도록 안내하는 흐름을 조정하는 실험입니다.",
+      "importance": "medium",
+      "update_type": "interpreted",
+      "evidence_level": "current_canary_consumer",
+      "evidence": [
+        "canary/web.b267176293a4bbfc.js module 795965 registers the experiment and reads it with useConfig.",
+        "The enabled path is gated on a completed but unclaimed quest before opening the claim flow.",
+        "The same handler can route already-claimed Shop rewards toward the Orbs tab."
+      ]
+    },
+    {
+      "id": "2026-06-content-classification-embedded-activity-filter",
+      "status": "added",
+      "timestamps": [
+        "2026-06-30T20:47:50Z"
+      ],
+      "summary": "음성 채널 활동 목록에서 민감하게 분류된 활동을 기본 목록과 분리하는 실험입니다.",
+      "importance": "medium",
+      "update_type": "interpreted",
+      "evidence_level": "current_canary_consumer",
+      "evidence": [
+        "canary/web.b267176293a4bbfc.js module 933958 reads the experiment in embedded_activity_store.",
+        "When enabled, getItems(\"visible\") filters out entries whose contentClassification is sensitive.",
+        "The same store keeps a hidden list for filtered entries."
+      ]
+    },
+    {
+      "id": "2026-06-expressive-button-test",
+      "status": "added",
+      "timestamps": [
+        "2026-06-30T22:25:59.749669+00:00"
+      ],
+      "summary": "이모지와 사운드보드 선택기의 Nitro 안내 버튼 스타일을 바꾸는 실험입니다.",
+      "importance": "low",
+      "update_type": "strengthened_existing",
+      "evidence_level": "current_canary_consumer",
+      "evidence": [
+        "Canary module 754998 returns buttonVariant through useConfig.",
+        "Emoji picker passes the value as subscribeButtonVariantOverride for emoji_picker_floating_upsell.",
+        "Soundboard picker passes the same value for soundboard_floating_upsell."
+      ]
+    },
+    {
+      "id": "2026-06-gifting-badge-desktop",
+      "status": "added",
+      "timestamps": [
+        "2026-06-26T21:18:22Z"
+      ],
+      "summary": "데스크톱에서 선물 횟수에 따라 프로필 선물 배지를 안내하는 실험입니다.",
+      "importance": "medium",
+      "update_type": "interpreted",
+      "evidence_level": "current_canary_consumer",
+      "evidence": [
+        "canary/web.b267176293a4bbfc.js module 284518 reads the web experiment for gifting badge availability.",
+        "The availability check also requires prior premium history and an undismissed coachmark.",
+        "String history adds Gifting Badge, View on profile, Send a gift, and progress copy on 2026-07-01."
+      ]
+    },
+    {
+      "id": "2026-06-ml-offer-creation-ui-upgrade",
+      "status": "added",
+      "timestamps": [
+        "2026-06-30T00:29:09.195839+00:00"
+      ],
+      "summary": "Nitro 탭의 맞춤 혜택 배지 모양과 안내 방식을 바꾸는 실험입니다.",
+      "importance": "medium",
+      "update_type": "strengthened_existing",
+      "evidence_level": "current_canary_consumer",
+      "evidence": [
+        "Canary module 456346 reads the experiment at NitroTabButton.",
+        "badgeStyle selects gradient, expressive, or glowing offer badges.",
+        "surface controls whether the offer uses no surface, a popover, or a tooltip."
+      ]
+    },
+    {
+      "id": "2026-06-monthly-to-yearly-upsells",
+      "status": "modified",
+      "timestamps": [
+        "2026-06-30T17:18:56Z",
+        "2026-06-30T17:33:39.822208+00:00"
+      ],
+      "summary": "월간 Nitro 사용자에게 연간 플랜 전환 안내를 어디에 보여줄지 바꾸는 실험입니다.",
+      "importance": "medium",
+      "update_type": "interpreted",
+      "evidence_level": "current_canary_consumer",
+      "evidence": [
+        "canary/web.b267176293a4bbfc.js module 205483 reads the experiment through useConfig.",
+        "Variants map to Nitro Home tile, sticky bar, and Nitro tab popover placements.",
+        "The same module computes annual-plan savings for active monthly subscriptions."
+      ]
+    },
+    {
+      "id": "2026-06-pix-for-otp",
+      "status": "added",
+      "timestamps": [
+        "2026-06-30T18:54:51Z"
+      ],
+      "summary": "브라질 결제 화면에서 Pix 결제 추가 버튼을 보여주는 실험입니다.",
+      "importance": "medium",
+      "update_type": "interpreted",
+      "evidence_level": "current_canary_consumer",
+      "evidence": [
+        "canary/web.b267176293a4bbfc.js module 319668 reads the experiment at CheckoutStatefulPayWithPixLink.",
+        "The button appears only for Brazil currency flows without an existing PIX payment source.",
+        "String history adds the user-facing “Pay with Pix” copy for the same timestamp."
+      ]
+    },
+    {
+      "id": "2026-06-soundboard-picker-height",
+      "status": "added",
+      "timestamps": [
+        "2026-06-29T17:03:20Z"
+      ],
+      "summary": "사운드보드 선택기 팝아웃을 더 크게 보여주는 실험입니다.",
+      "importance": "low",
+      "update_type": "interpreted",
+      "evidence_level": "current_canary_consumer",
+      "evidence": [
+        "canary/web.b267176293a4bbfc.js module 690661 reads extraHeightPx through useConfig.",
+        "The popout style becomes height: 420 + extraHeightPx when not embedded in the expression picker.",
+        "The current variant adds 100 px to the picker height."
+      ]
+    },
+    {
+      "id": "2026-06-topical-navigation-guild",
+      "status": "added",
+      "timestamps": [
+        "2026-06-05T22:33:35Z"
+      ],
+      "summary": "일부 서버에서 대화 주제 탐색 기능을 보여줄지 정하는 실험입니다.",
+      "importance": "medium",
+      "update_type": "interpreted",
+      "evidence_level": "current_canary_consumer",
+      "evidence": [
+        "canary/web.b267176293a4bbfc.js module 828488 registers the guild experiment and reads it through getConfig/useConfig.",
+        "The consumer checks guild conversation-processing and summaries feature flags before returning enabled.",
+        "The public row is a guild experiment named Topical Navigation."
+      ]
+    }
+  ],
+  "non_experiment_changes": [
+    {
+      "area": "Family Center and guardian connection",
+      "evidence": [
+        "FAMILY_CENTER_CONNECTION_PREREQUISITES API rows",
+        "ENDPOINT_USERS_PARENTAL_CONSENT_WARNING API row",
+        "guardian connection and QR/link strings through 2026-07-02"
+      ],
+      "summary": "Guardian connection copy became more explicit about account access, activity visibility, QR/link sharing, and age requirements."
+    },
+    {
+      "area": "Gifting badge and Nitro gifts",
+      "evidence": [
+        "Gifting Badge strings on 2026-07-01",
+        "2026-06-gifting-badge-desktop experiment consumer"
+      ],
+      "summary": "Large string additions describe a profile badge that levels up as users send gifts, with profile viewing and progress copy."
+    },
+    {
+      "area": "Checkout, Orbs, and payment methods",
+      "evidence": [
+        "ORDER_ENTITLEMENTS API rows",
+        "Pix payment strings",
+        "Orbs redemption item-copy changes"
+      ],
+      "summary": "Checkout work clustered around order entitlements, Orbs item redemption wording, and a Pix payment-source add path."
+    },
+    {
+      "area": "Guild Rooms and voice/social play",
+      "evidence": [
+        "GUILD_ROOM_CONNECT/DISCONNECT/UPDATE API rows",
+        "Game Invites strings around voice chat posts"
+      ],
+      "summary": "Guild Rooms endpoints and Game Invites strings point to more structured voice/social play surfaces, though some related experiments still lack direct linkage."
+    },
+    {
+      "area": "Age verification and regional access",
+      "evidence": [
+        "REGISTER_INCODE_INTERVIEW API rows",
+        "guardian access warning strings"
+      ],
+      "summary": "Age verification and regional guardian requirements continued to add user-facing copy and API support."
+    },
+    {
+      "area": "Server tags and role/link migration",
+      "evidence": [
+        "Server Tag Name, Choose Badge, color/reset strings",
+        "Linked Roles deprecation/migration strings"
+      ],
+      "summary": "Server tag customization copy and linked-role migration notices changed, but the mobile-server-tag experiment still lacks a confirmed config consumer."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "2026-05-dvp-for-attachments",
+      "timestamp": "2026-06-12T20:47:43Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "no current experiment id or config consumer; attachment/viewer strings are not enough to link the feature",
+      "checked_terms": [
+        "2026-05-dvp-for-attachments",
+        "useConfig",
+        "getConfig"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-remove-wishlist-dm-sidebar-side-copy",
+      "timestamp": "2026-06-10T15:05:19Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "no current experiment id, config consumer, or wishlist DM-sidebar copy surface found",
+      "checked_terms": [
+        "2026-06-remove-wishlist-dm-sidebar-side-copy",
+        "gift",
+        "wishlist",
+        "profile badge"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-bounty-use-video-modal-mobile-placement-experiment",
+      "timestamp": "2026-06-13T03:48:57Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "experiment definition exists near Quest/Bounties code, but no assigned config read for mobile video modal placement was found",
+      "checked_terms": [
+        "2026-06-bounty-use-video-modal-mobile-placement-experiment",
+        "Quest Home",
+        "useConfig",
+        "getConfig"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-05-bounties-stage-1",
+      "timestamp": "2026-06-13T03:48:57Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "definition exists near Quest/Bounties code, but timer, Orbs, scrolling, and looping keys still have no confirmed consumer",
+      "checked_terms": [
+        "2026-05-bounties-stage-1",
+        "Quest Home",
+        "useConfig",
+        "getConfig"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-quest-home-layout-visual-tweaks",
+      "timestamp": "2026-06-18T00:03:32Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "definition/export exists in the Quest experiment module, but no current helper consumer was confirmed",
+      "checked_terms": [
+        "2026-06-quest-home-layout-visual-tweaks",
+        "Quest Home",
+        "useConfig",
+        "getConfig"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-server-setup-boost-cta",
+      "timestamp": "2026-06-15T22:06:33Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "no current experiment id or config consumer links server setup to a Boost CTA",
+      "checked_terms": [
+        "2026-06-server-setup-boost-cta",
+        "server",
+        "boost",
+        "tag"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-non-friend-messages-requests-in-uk",
+      "timestamp": "2026-06-18T18:30:11Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "no current experiment id or consumer ties UK users to a changed non-friend message-request path",
+      "checked_terms": [
+        "2026-06-non-friend-messages-requests-in-uk",
+        "Quest Home",
+        "useConfig",
+        "getConfig"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-clips-editor-v2",
+      "timestamp": "2026-06-22T21:21:29Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "same-window crop/customize strings exist, but no current experiment id or config consumer ties them to this experiment",
+      "checked_terms": [
+        "2026-06-clips-editor-v2",
+        "Clips",
+        "Crop settings",
+        "Customize"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-mobile-server-tag",
+      "timestamp": "2026-06-23T05:14:29Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "current guild profile/store module registers the experiment, but the result is not assigned or read",
+      "checked_terms": [
+        "2026-06-mobile-server-tag",
+        "server",
+        "boost",
+        "tag"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-05-quest-tile-cta-refactor",
+      "timestamp": "2026-06-25T19:50:33.259691+00:00",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "definition/export exists in the Quest experiment module, but no current helper consumer was confirmed",
+      "checked_terms": [
+        "2026-05-quest-tile-cta-refactor",
+        "Quest Home",
+        "useConfig",
+        "getConfig"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-polls-click-to-profile",
+      "timestamp": "2026-06-26T19:09:12Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "no current experiment id match or poll-click profile consumer found",
+      "checked_terms": [
+        "2026-06-polls-click-to-profile",
+        "useConfig",
+        "getConfig"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-game-invites-channel",
+      "timestamp": "2026-06-26T21:06:12Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "game-invite strings changed in-window, but no current experiment id or config consumer links them to the new guild experiment",
+      "checked_terms": [
+        "2026-06-game-invites-channel",
+        "game",
+        "Game Invites",
+        "autocomplete",
+        "similar games"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-similar-games-desktop",
+      "timestamp": "2026-06-26T22:39:05Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "no current experiment id match or similar-games desktop UI/API consumer found",
+      "checked_terms": [
+        "2026-06-similar-games-desktop",
+        "game",
+        "Game Invites",
+        "autocomplete",
+        "similar games"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-similar-games-mobile",
+      "timestamp": "2026-06-26T22:39:05Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "no current experiment id match or similar-games mobile UI/API consumer found",
+      "checked_terms": [
+        "2026-06-similar-games-mobile",
+        "game",
+        "Game Invites",
+        "autocomplete",
+        "similar games"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-wishlist-pdp-gift-button-priority",
+      "timestamp": "2026-07-01T21:23:05Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "no current experiment id or gift button priority consumer found",
+      "checked_terms": [
+        "2026-06-wishlist-pdp-gift-button-priority",
+        "gift",
+        "wishlist",
+        "profile badge"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-server-boost-bar-nudge",
+      "timestamp": "2026-06-30T19:02:56Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "no current experiment id or config consumer links the server Boost bar nudge to a visible surface",
+      "checked_terms": [
+        "2026-06-server-boost-bar-nudge",
+        "server",
+        "boost",
+        "tag"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-improved-shop-loading",
+      "timestamp": "2026-06-30T20:47:50Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "no current experiment id or Shop loading consumer found",
+      "checked_terms": [
+        "2026-06-improved-shop-loading",
+        "useConfig",
+        "getConfig"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-05-clips-timeline",
+      "timestamp": "2026-06-30T18:26:23.440905+00:00",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "no current experiment id or Clips timeline consumer found in the current bundle",
+      "checked_terms": [
+        "2026-05-clips-timeline",
+        "Clips",
+        "Crop settings",
+        "Customize"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-orb-redemptions-billing-history",
+      "timestamp": "2026-06-30T01:03:49Z",
+      "status": "needs_evidence",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "billing/Orbs copy changed in-window, but no current experiment id or config consumer ties billing history behavior to this experiment",
+      "checked_terms": [
+        "2026-06-orb-redemptions-billing-history",
+        "useConfig",
+        "getConfig"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    },
+    {
+      "id": "2026-06-game-profile-share-link",
+      "timestamp": "2026-07-01T02:02:49.926027+00:00",
+      "status": "needs_ui_consumer",
+      "build_hash": "cd1b859342a1795785fed95db01dc11699d84e59",
+      "reason": "current consumer confirms coded-link analytics tracking; showSmallEmbed UI consumer was not found",
+      "checked_terms": [
+        "2026-06-game-profile-share-link",
+        "game",
+        "Game Invites",
+        "autocomplete",
+        "similar games"
+      ],
+      "checked_files_or_chunks": [
+        "canary/web.b267176293a4bbfc.js",
+        "data/history.json monthly window",
+        "data/web/strings.en.json monthly window"
+      ],
+      "last_checked_at": "2026-07-02T11:12:13Z",
+      "next_check_hint": "Re-search the current Canary bundle for a concrete useConfig/getConfig consumer, route, store/action, or user-facing string linkage before writing public analysis."
+    }
+  ],
+  "validations": [
+    {
+      "name": "json_validity",
+      "status": "passed",
+      "details": "history, latest, public web JSON, and report JSON parsed successfully."
+    },
+    {
+      "name": "forbidden_fallback_phrase_search",
+      "status": "passed",
+      "details": "No banned generic analysis phrases were found in public data or reports."
+    },
+    {
+      "name": "public_report_sensitivity_search",
+      "status": "passed",
+      "details": "No credential-like markers or local implementation details were found in public report files."
+    },
+    {
+      "name": "git_diff_check",
+      "status": "passed",
+      "details": "Whitespace and patch sanity checks passed before commit."
+    }
+  ],
+  "commits": [
+    {
+      "status": "pending_after_validation",
+      "details": "Commit and push are attempted after the report validation step."
+    }
+  ],
+  "latest_report": "data/reports/weekly/2026-07-02.json"
+}
