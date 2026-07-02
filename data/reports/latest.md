@@ -209,5 +209,5 @@ Latest report: [2026-07-02](weekly/2026-07-02.md)
 
 ## 검증 및 커밋/푸시 결과
 - JSON 유효성 검사, 금지 fallback 문구 검색, 공개 리포트 민감 정보 검색, `git diff --check`를 통과했습니다.
-- 커밋/푸시는 검증 후 별도 단계에서 시도하며, 최종 결과는 automation memory와 실행 최종 보고에 남깁니다.
+- public data/report 커밋 `4fa509b`를 생성했고 `main`에 푸시했습니다.
 - 민감한 로컬 구현 세부사항이나 토큰은 리포트에 포함하지 않았습니다.
