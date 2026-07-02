@@ -1,5 +1,5 @@
 {
-    "build_hash": "48892f3a13eff7effd50af2f62a887afc5e6350e",
+    "build_hash": "73793a0dc162ca87c9e62f7fc876e0989fd31d77",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,12 +7,61 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_api_endpoints": [
+        {
+            "name": "BILLING_PAST_DUE_SUBSCRIPTION",
+            "status": "added",
+            "url": "/billing/premium/past-due"
+        },
+        {
+            "name": "ENDPOINT_BILLING_PREMIUM_PAST_DUE",
+            "status": "added",
+            "url": "/billing/premium/past-due"
+        }
+    ],
+    "new_experiment_details": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-bulk-nitro-gifting",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-07-02T22:08:30Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-bulk-nitro-gifting",
+            "kind": "user",
+            "timestamp": "2026-07-02T22:08:30Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "CGWyvX": "Restore Subscription",
+                "LvcUx4": "Restore Subscription",
+                "kyGViz": "{quantity} × {label}",
+                "yrk+N6": "Your subscription is past due. Retry payment or add a new payment method to restore it."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +71,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-02T22:01:28.901286+00:00"
+    "timestamp": "2026-07-02T22:11:58.282552+00:00"
 }
