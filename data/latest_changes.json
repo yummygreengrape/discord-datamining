@@ -1,5 +1,5 @@
 {
-    "build_hash": "054f6ec682b68f71ce9110301cd2ebacbf34aad1",
+    "build_hash": "122415d30504b9eb639afceb0bb6138dc89d6dd7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/i8N++": "Repeats every day",
+                "JX8E1E": "Every day"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-02T03:18:04.478214+00:00"
+    "timestamp": "2026-07-02T03:38:43.117713+00:00"
 }
