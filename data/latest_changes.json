@@ -1,67 +1,64 @@
 {
-    "build_hash": "73793a0dc162ca87c9e62f7fc876e0989fd31d77",
+    "build_hash": "fe0d307bc2fe374d7ef8703fd036069fd9f1e85d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
-    "new_api_endpoints": [
+    "modified_experiment_details": [
         {
-            "name": "BILLING_PAST_DUE_SUBSCRIPTION",
-            "status": "added",
-            "url": "/billing/premium/past-due"
-        },
-        {
-            "name": "ENDPOINT_BILLING_PREMIUM_PAST_DUE",
-            "status": "added",
-            "url": "/billing/premium/past-due"
-        }
-    ],
-    "new_experiment_details": [
-        {
-            "experiment_source": "reference_comment",
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
             "id": "2026-06-bulk-nitro-gifting",
             "kind": "user",
-            "status": "added",
-            "timestamp": "2026-07-02T22:08:30Z",
-            "treatments": [
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
                 "Variant 0",
                 "Variant 1"
             ],
+            "old_variations": {
+                "0": false,
+                "1": true
+            },
+            "status": "modified",
+            "treatments": [],
             "variations": {
                 "0": false,
                 "1": true
             }
         }
     ],
-    "new_experiments": [
+    "modified_experiments": [
         {
-            "experiment_source": "reference_comment",
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
             "id": "2026-06-bulk-nitro-gifting",
             "kind": "user",
-            "timestamp": "2026-07-02T22:08:30Z",
-            "treatments": [
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
                 "Variant 0",
                 "Variant 1"
             ],
+            "old_variations": {
+                "0": false,
+                "1": true
+            },
+            "status": "modified",
+            "treatments": [],
             "variations": {
                 "0": false,
                 "1": true
             }
         }
     ],
+    "new_api_endpoints": [],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "CGWyvX": "Restore Subscription",
-                "LvcUx4": "Restore Subscription",
-                "kyGViz": "{quantity} × {label}",
-                "yrk+N6": "Your subscription is past due. Retry payment or add a new payment method to restore it."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -71,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-02T22:11:58.282552+00:00"
+    "timestamp": "2026-07-02T22:32:38.197895+00:00"
 }
