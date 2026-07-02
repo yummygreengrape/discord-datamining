@@ -1,5 +1,5 @@
 {
-    "build_hash": "539714dbbef9d0cb1e9b513f23944a87faedc1fb",
+    "build_hash": "560fa717cd57087ff9ee420b42ec31e53be59157",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,18 +13,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "4QZPNa": "Legendary"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "4QZPNa": "전설"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-07-02T20:06:37.023483+00:00"
+    "timestamp": "2026-07-02T20:17:04.319342+00:00"
 }
