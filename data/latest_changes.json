@@ -1,5 +1,5 @@
 {
-    "build_hash": "a304f25c4df26719454fb9f780a83fd7b61ef433",
+    "build_hash": "b7b651ebd8b0d2816719ecdbb45c66f9cb747ef5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Zh44ni": "Turn on activity-based personalization to start counting progress toward this badge. [Go to settings.]({onGoToSettings})"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-02T16:46:44.829027+00:00"
+    "timestamp": "2026-07-02T16:57:35.787591+00:00"
 }
