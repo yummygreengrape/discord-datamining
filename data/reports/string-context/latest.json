@@ -1,0 +1,491 @@
+{
+  "generated_at": "2026-07-03T09:07:14Z",
+  "period": {
+    "start": "2026-07-03T00:59:14.180460+00:00",
+    "end": "2026-07-03T02:06:16Z",
+    "timezone_note": "Run date is 2026-07-03 KST; window chosen from the newest strings history because this automation had no prior memory."
+  },
+  "build_hash": "c9f511c57be95657a0d38e1594174c8f08996741",
+  "counts": {
+    "clusters": 6,
+    "annotated_strings": 27,
+    "annotated_file_rows": 54,
+    "deferred": 8,
+    "latest_changes_string_context_keys": 1
+  },
+  "clusters": [
+    {
+      "id": "family-center-guardian-access",
+      "title": "Family Center guardian connection and account access",
+      "intent_type": "account_or_safety_notice",
+      "confidence": "high",
+      "keys": [
+        "tHTyRh",
+        "Ke+kz5",
+        "6GaRTu",
+        "mQcGGY",
+        "S5kmfO",
+        "ifObbX"
+      ],
+      "summary": "이 문구들은 Family Center에서 청소년 계정이 보호자와 연결되어야 하거나 보호자에게 일부 활동 정보가 공유될 수 있음을 안내하는 흐름입니다.",
+      "summary_en": "These strings belong to Family Center flows that tell a teen account when a guardian connection is required or when limited activity information may be shared with a guardian.",
+      "source_context": "같은 시점의 문자열에는 보호자 연결, 신고 공유, QR/링크 공유, 나이 확인 문구가 함께 추가 또는 수정되었습니다. 최근 리포트도 FAMILY_CENTER_CONNECTION_PREREQUISITES와 parental consent warning API를 같은 영역의 근거로 기록했습니다.",
+      "related_terms": [
+        "Family Center",
+        "guardian connection",
+        "age verification",
+        "13-16 teen account",
+        "QR code",
+        "report sharing"
+      ]
+    },
+    {
+      "id": "family-center-spending-downtime",
+      "title": "Family Center spending cap, purchases, gifts, and downtime",
+      "intent_type": "billing_or_subscription_issue",
+      "confidence": "high",
+      "keys": [
+        "w/ISB8",
+        "AcJ4ke",
+        "nH8vlc",
+        "ep6mdN",
+        "dES/2r",
+        "Tk6x4X",
+        "T8oWyd",
+        "1fHSu2",
+        "mv/fF2"
+      ],
+      "summary": "이 문구들은 보호자가 청소년의 Discord 구매 한도와 사용 불가 시간을 관리하거나, 구매/선물 활동 요약을 확인하는 Family Center 영역에 해당합니다.",
+      "summary_en": "These strings belong to Family Center areas where a guardian can manage a teen’s Discord spending cap and downtime, or review purchase and gift activity summaries.",
+      "source_context": "canary/3695243bc877574c.js에는 지출 한도, 화면 다운타임, 선물, 구매 내역, Family Center 활동 요약 문자열이 함께 들어 있습니다. 최신 API 변화에는 /billing/premium/past-due도 추가되어 결제/청구 영역 변화가 함께 관찰됩니다.",
+      "related_terms": [
+        "spending cap",
+        "screen downtime",
+        "gifts received",
+        "purchase history",
+        "Billing",
+        "Family Center"
+      ]
+    },
+    {
+      "id": "quests-orbs-nitro-redemption",
+      "title": "Quests, Orbs, and Nitro-gated redemption",
+      "intent_type": "quest_or_reward_status",
+      "confidence": "medium",
+      "keys": [
+        "P0lmqC",
+        "jVjr/j",
+        "l7clOK",
+        "iFXcjn",
+        "cg95CA",
+        "XwadDC"
+      ],
+      "summary": "이 문구들은 Discord Quests와 Orbs 보상, 그리고 일부 Orbs 교환이 Nitro 구독자에게 제한될 수 있는 영역을 가리킵니다.",
+      "summary_en": "These strings point to Discord Quests, Orbs rewards, and cases where some Orbs redemptions may be limited to Nitro subscribers.",
+      "source_context": "최신 payload에는 Special Quests가 추가되었고, 같은 최근 문자열 묶음에는 Quest 플레이, Quest 완료로 Orbs 획득, Nitro 전용 Orbs 교환 문구가 있습니다. 최근 리포트는 Quest Home과 Orbs checkout 관련 근거를 별도 항목으로 기록했습니다.",
+      "related_terms": [
+        "Special Quests",
+        "Discord Quests",
+        "Orbs",
+        "Nitro Exclusive",
+        "redeem",
+        "Quest Home"
+      ]
+    },
+    {
+      "id": "server-tags-and-boost-theme",
+      "title": "Server tags and Boost-unlocked server themes",
+      "intent_type": "server_or_permission_notice",
+      "confidence": "medium",
+      "keys": [
+        "qVCnq+",
+        "oPzTHw",
+        "Tg0fDm",
+        "xlAqGk"
+      ],
+      "summary": "이 문구들은 서버 멤버 이름 옆에 표시되는 서버 태그와, 부스트를 통해 열리는 서버 테마 사용자 지정 기능을 설명합니다.",
+      "summary_en": "These strings describe server tags shown next to member names and server theme customization unlocked through Boosts.",
+      "source_context": "같은 문자열 창에는 서버 태그 설명, 태그 사용자 지정, 서버 외부 프로필 노출, 부스트로 서버 사용자 지정 테마를 설정할 수 있다는 문구가 함께 있습니다. 과거 API 변화에는 GUILD_THEME endpoint가 추가된 기록도 있습니다.",
+      "related_terms": [
+        "Server Tag",
+        "custom tag",
+        "server profile",
+        "Boosts",
+        "custom theme",
+        "applications"
+      ]
+    },
+    {
+      "id": "voice-channel-chat-toggle",
+      "title": "Voice channel chat panel toggle",
+      "intent_type": "voice_video_or_device_issue",
+      "confidence": "high",
+      "keys": [
+        "YeqEjm",
+        "desfB4"
+      ],
+      "summary": "이 문구는 접속 중인 음성 채널과 연결된 텍스트 채팅 패널을 열거나 닫는 UI 설명입니다.",
+      "summary_en": "This is UI copy for opening or closing the text chat panel tied to the voice channel you are currently connected to.",
+      "source_context": "두 문자열은 같은 key 묶음으로 음성 채널 채팅 토글 제목과 현재 접속 중인 음성 채널의 텍스트 채팅 패널 설명을 제공합니다.",
+      "related_terms": [
+        "Voice Channel Chat",
+        "text chat panel",
+        "toggle",
+        "voice channel",
+        "connected channel"
+      ]
+    },
+    {
+      "id": "billing-balance-entrypoint",
+      "title": "Billing balance location wording",
+      "intent_type": "billing_or_subscription_issue",
+      "confidence": "medium",
+      "keys": [
+        "T8oWyd"
+      ],
+      "summary": "이 문구는 Discord 잔액 확인 위치를 데스크톱 앱 또는 웹의 사용자 설정 > 청구로 안내합니다.",
+      "summary_en": "This string tells users they can check their Discord balance under User Settings > Billing on desktop or web.",
+      "source_context": "해당 문자열은 잔액 확인 위치를 사용자 설정 > 청구로 정리합니다. 같은 최신 API 묶음에는 /billing/premium/past-due endpoint가 추가되어 청구 영역 변경이 함께 관찰되지만, 이 문자열이 past-due 화면 전용이라고 단정할 근거는 없습니다.",
+      "related_terms": [
+        "Billing",
+        "balance",
+        "User Settings",
+        "payment methods",
+        "past due"
+      ]
+    }
+  ],
+  "annotated_strings": [
+    {
+      "key": "P0lmqC",
+      "lang": "en",
+      "status": "added",
+      "timestamp": "2026-07-03T02:06:16Z",
+      "value": "Special Quests",
+      "cluster_id": "quests-orbs-nitro-redemption"
+    },
+    {
+      "key": "w/ISB8",
+      "lang": "ko",
+      "status": "modified",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "화면 다운타임 일정 예약하기",
+      "cluster_id": "family-center-spending-downtime"
+    },
+    {
+      "key": "tHTyRh",
+      "lang": "ko",
+      "status": "modified",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "제출 후 신고 내용을 공유할 수 있는 옵션이 있어요. 공유를 선택하시면, 보호자에게 이메일로 알림이 전송됩니다",
+      "cluster_id": "family-center-guardian-access"
+    },
+    {
+      "key": "nH8vlc",
+      "lang": "ko",
+      "status": "modified",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "보낸 사람 및 지출 금액을 포함하여 지난주에 받은 모든 선물입니다.",
+      "cluster_id": "family-center-spending-downtime"
+    },
+    {
+      "key": "ep6mdN",
+      "lang": "ko",
+      "status": "modified",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "자녀가 상점 및 구독을 포함해 구매한 모든 내역이 포함됩니다",
+      "cluster_id": "family-center-spending-downtime"
+    },
+    {
+      "key": "dES/2r",
+      "lang": "ko",
+      "status": "modified",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "회원님이 상점 및 구독을 포함해 구매한 모든 내역이 포함됩니다",
+      "cluster_id": "family-center-spending-downtime"
+    },
+    {
+      "key": "Tk6x4X",
+      "lang": "ko",
+      "status": "modified",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "십 대 자녀가 이번 달에 이미 {amount}의 금액을 지출했습니다. 이 금액보다 낮게 한도를 설정하면 {date}까지 구독을 제외한 모든 구매가 차단됩니다.",
+      "cluster_id": "family-center-spending-downtime"
+    },
+    {
+      "key": "T8oWyd",
+      "lang": "ko",
+      "status": "modified",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "PC 앱 또는 웹 브라우저의 사용자 설정 > 청구에서 언제든지 잔액을 확인할 수 있습니다.",
+      "cluster_id": "billing-balance-entrypoint"
+    },
+    {
+      "key": "Ke+kz5",
+      "lang": "ko",
+      "status": "modified",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "거주 지역의 법률에 따라 13~16세의 청소년 사용자는 보호자를 연결해야 합니다. 보류 중인 연결 요청이 {pendingCount}개 있습니다. [자세히 알아보기]({link})",
+      "cluster_id": "family-center-guardian-access"
+    },
+    {
+      "key": "AcJ4ke",
+      "lang": "ko",
+      "status": "modified",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "청소년 자녀가 Discord를 사용할 수 없는 시간을 설정하세요. 해당 시간 동안에는 알림을 받지 못하며 Discord에 액세스할 수 없습니다.",
+      "cluster_id": "family-center-spending-downtime"
+    },
+    {
+      "key": "6GaRTu",
+      "lang": "ko",
+      "status": "modified",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "거주 지역의 법률에 따라 13~16세 청소년 사용자는 보호자를 연결해야 합니다. 부모님이나 보호자와 연결하려면 아래 링크를 공유하세요. [자세히 알아보기]({link})",
+      "cluster_id": "family-center-guardian-access"
+    },
+    {
+      "key": "1fHSu2",
+      "lang": "ko",
+      "status": "modified",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "매달 지출 한도",
+      "cluster_id": "family-center-spending-downtime"
+    },
+    {
+      "key": "xlAqGk",
+      "lang": "ko",
+      "status": "added",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "이제 관리자는 부스트를 사용하여 이 서버에 사용자 지정 테마를 설정할 수 있어요.",
+      "cluster_id": "server-tags-and-boost-theme"
+    },
+    {
+      "key": "qVCnq+",
+      "lang": "ko",
+      "status": "added",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "서버 멤버가 이름 옆에 표시할 수 있는 태그를 만들어 보세요! 서버 외부의 모든 사람이 서버 태그를 통해 서버 프로필을 볼 수 있고, 애플리케이션이 활성화되면 가입 신청할 수 있어요.",
+      "cluster_id": "server-tags-and-boost-theme"
+    },
+    {
+      "key": "oPzTHw",
+      "lang": "ko",
+      "status": "added",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "서버 태그 사용자 지정하기",
+      "cluster_id": "server-tags-and-boost-theme"
+    },
+    {
+      "key": "mv/fF2",
+      "lang": "ko",
+      "status": "added",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "이 구매를 진행하면 월 지출 한도를 초과하게 돼요. guardianHookHook보호자에게 요청하여 한도를 늘리거나 다음 달에 다시 시도해 주세요.",
+      "cluster_id": "family-center-spending-downtime"
+    },
+    {
+      "key": "mQcGGY",
+      "lang": "ko",
+      "status": "added",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "거주 지역의 법률로 인해, Discord에 액세스하려면 {count}일 이내에 연결된 보호자가 있어야 합니다. 시작하려면 부모님이나 보호자에게 링크 또는 QR 코드를 공유하세요.",
+      "cluster_id": "family-center-guardian-access"
+    },
+    {
+      "key": "l7clOK",
+      "lang": "ko",
+      "status": "added",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "퀘스트 플레이",
+      "cluster_id": "quests-orbs-nitro-redemption"
+    },
+    {
+      "key": "jVjr/j",
+      "lang": "ko",
+      "status": "added",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "Discord 퀘스트를 완료하여 Orbs 획득하기",
+      "cluster_id": "quests-orbs-nitro-redemption"
+    },
+    {
+      "key": "ifObbX",
+      "lang": "ko",
+      "status": "added",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "올바르지 않은 것 같으면 [나이를 확인]({handleAgeVerifyHook})해 주세요",
+      "cluster_id": "family-center-guardian-access"
+    },
+    {
+      "key": "iFXcjn",
+      "lang": "ko",
+      "status": "added",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "bHookNitro 전용: Orbs로 {applicationName} 아이템을 구매하세요!종료: {endDate}",
+      "cluster_id": "quests-orbs-nitro-redemption"
+    },
+    {
+      "key": "desfB4",
+      "lang": "ko",
+      "status": "added",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "현재 접속 중인 음성 채널의 텍스트 채팅 패널을 토글합니다.",
+      "cluster_id": "voice-channel-chat-toggle"
+    },
+    {
+      "key": "cg95CA",
+      "lang": "ko",
+      "status": "added",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "Nitro 전용: Orbs로 교환하기",
+      "cluster_id": "quests-orbs-nitro-redemption"
+    },
+    {
+      "key": "YeqEjm",
+      "lang": "ko",
+      "status": "added",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "음성 채널 채팅 토글",
+      "cluster_id": "voice-channel-chat-toggle"
+    },
+    {
+      "key": "XwadDC",
+      "lang": "ko",
+      "status": "added",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "Orbs로 교환하려면 Nitro 구독하기",
+      "cluster_id": "quests-orbs-nitro-redemption"
+    },
+    {
+      "key": "Tg0fDm",
+      "lang": "ko",
+      "status": "added",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "Discord 어디에서나 서버를 대표할 수 있도록 멤버들이 이름 옆에 사용자 지정 태그를 다는 기능을 사용하세요.",
+      "cluster_id": "server-tags-and-boost-theme"
+    },
+    {
+      "key": "S5kmfO",
+      "lang": "ko",
+      "status": "added",
+      "timestamp": "2026-07-03T00:59:14.180460+00:00",
+      "value": "계정 액세스를 유지하려면 오늘 보호자를 연결하세요. 거주 지역의 법률에 따라 13~16세 청소년 사용자는 보호자와 연결해야 합니다. learnMoreHookHook자세히 알아보기",
+      "cluster_id": "family-center-guardian-access"
+    }
+  ],
+  "deferred": [
+    {
+      "key": "h6MapL",
+      "lang": "ko",
+      "value": "플레이",
+      "reason": "low_context_label",
+      "checked_context": [
+        "latest 2026-07-03 Korean modified string window",
+        "no stronger local grouping selected for public interpretation"
+      ],
+      "next_check_hint": "Recheck if future strings tie this label to a concrete game, Quest, or activity surface."
+    },
+    {
+      "key": "ye+BAy",
+      "lang": "ko",
+      "value": "입력 레벨",
+      "reason": "low_context_label",
+      "checked_context": [
+        "latest 2026-07-03 Korean added string window",
+        "short device/control label without surrounding device-error copy"
+      ],
+      "next_check_hint": "Look for microphone or input-device settings strings before writing a device-issue interpretation."
+    },
+    {
+      "key": "t9Les4",
+      "lang": "ko",
+      "value": "Journal",
+      "reason": "low_context_label",
+      "checked_context": [
+        "latest 2026-07-03 Korean added string window",
+        "single English label in Korean strings"
+      ],
+      "next_check_hint": "Wait for nearby Journal screen, activity log, or report strings."
+    },
+    {
+      "key": "hriMCc",
+      "lang": "ko",
+      "value": "혜택",
+      "reason": "low_context_label",
+      "checked_context": [
+        "latest 2026-07-03 Korean added string window",
+        "generic benefits label"
+      ],
+      "next_check_hint": "Only annotate when tied to Nitro, Quest, server, or billing copy."
+    },
+    {
+      "key": "hTltPn",
+      "lang": "ko",
+      "value": "탭하여 미리 보기",
+      "reason": "low_context_label",
+      "checked_context": [
+        "latest 2026-07-03 Korean added string window",
+        "generic preview instruction"
+      ],
+      "next_check_hint": "Recheck if a concrete media, shop, or profile preview cluster appears."
+    },
+    {
+      "key": "fnduP5",
+      "lang": "ko",
+      "value": "클릭하여 미리 보기",
+      "reason": "low_context_label",
+      "checked_context": [
+        "latest 2026-07-03 Korean added string window",
+        "generic preview instruction"
+      ],
+      "next_check_hint": "Recheck with a concrete preview target before public analysis."
+    },
+    {
+      "key": "m/3urB",
+      "lang": "ko",
+      "value": "코드 보기",
+      "reason": "low_context_label",
+      "checked_context": [
+        "guardian connection cluster checked",
+        "label alone does not say which code without nearby QR/link copy"
+      ],
+      "next_check_hint": "Can be annotated if the exact UI placement is confirmed in guardian connection flow."
+    },
+    {
+      "key": "XhROZk",
+      "lang": "ko",
+      "value": "또는",
+      "reason": "low_context_label",
+      "checked_context": [
+        "latest 2026-07-03 Korean added string window",
+        "connector word only"
+      ],
+      "next_check_hint": "Do not annotate standalone connector text."
+    }
+  ],
+  "search_signals": {
+    "search_console_used": false,
+    "public_google_used": false,
+    "basis": "Local public datamining data, recent reports, API rows, experiments, and Canary string bundle key presence were sufficient for this run."
+  },
+  "validations": {
+    "status": "passed",
+    "completed_at": "2026-07-03T09:08:51Z",
+    "commands": [
+      "python3 -m json.tool data/web/meta.json >/dev/null",
+      "python3 -m json.tool data/web/strings.ko.json >/dev/null",
+      "python3 -m json.tool data/web/strings.en.json >/dev/null",
+      "python3 -m json.tool data/latest_changes.json >/dev/null",
+      "python3 -m json.tool data/reports/string-context/latest.json >/dev/null",
+      "python3 analysis-scope forbidden term scan",
+      "git diff --check"
+    ],
+    "notes": "Forbidden term scan was scoped to Codex-added analysis fields and the string-context report to avoid false positives from existing Discord source strings."
+  },
+  "commits": {
+    "status": "ready_to_commit",
+    "commit": null,
+    "push": "not_attempted_yet",
+    "message": "Add string context interpretations for July 3 strings"
+  }
+}
