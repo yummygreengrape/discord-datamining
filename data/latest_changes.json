@@ -24,5 +24,14 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-03T02:12:53.605946+00:00"
+    "timestamp": "2026-07-03T02:12:53.605946+00:00",
+    "string_context": {
+        "en": {
+            "P0lmqC": {
+                "summary": "These strings point to Discord Quests, Orbs rewards, and cases where some Orbs redemptions may be limited to Nitro subscribers.",
+                "what_to_do": "No fix is indicated by this label. Check the Quest or Orbs area if you are looking for reward availability or eligibility."
+            }
+        },
+        "ko": {}
+    }
 }
