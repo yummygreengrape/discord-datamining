@@ -67,3 +67,8 @@
 ## Validation
 
 Passed at 2026-07-03T09:08:51Z: JSON validation for public web/latest/report files, analysis-scope forbidden term scan, and git diff --check.
+
+## Publish
+
+- Data/report commit: `e96c661`
+- Push: succeeded to `origin/main` at 2026-07-03T09:09:51Z
