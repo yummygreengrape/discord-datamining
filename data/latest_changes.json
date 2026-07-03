@@ -1,5 +1,5 @@
 {
-    "build_hash": "bf00d7ae455d3763a12dfc61d5f1293d851b9724",
+    "build_hash": "c8136ade65e110384ff66905cede3e48042cd9a6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-odyssey-hero-temp-overrides",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-07-03T01:26:58Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-odyssey-hero-temp-overrides",
+            "kind": "user",
+            "timestamp": "2026-07-03T01:26:58Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-03T01:09:43.123837+00:00"
+    "timestamp": "2026-07-03T01:30:23.069009+00:00"
 }
