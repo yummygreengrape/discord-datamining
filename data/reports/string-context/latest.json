@@ -483,9 +483,12 @@
     "notes": "Forbidden term scan was scoped to Codex-added analysis fields and the string-context report to avoid false positives from existing Discord source strings."
   },
   "commits": {
-    "status": "ready_to_commit",
-    "commit": null,
-    "push": "not_attempted_yet",
-    "message": "Add string context interpretations for July 3 strings"
+    "status": "pushed",
+    "data_commit": "e96c661",
+    "push": "succeeded",
+    "pushed_at": "2026-07-03T09:09:51Z",
+    "remote": "origin/main",
+    "message": "Add string context interpretations for July 3 strings",
+    "metadata_note": "This report metadata records the pushed data/report commit; the metadata correction is committed separately."
   }
 }
