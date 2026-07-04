@@ -119,4 +119,5 @@
 - JSON 유효성 검사: `history/latest/public web JSON`과 새 report JSON 모두 통과했습니다.
 - 금지 fallback 문구 검색과 공개 report 민감 정보 검색은 통과했습니다.
 - `git diff --check`를 통과했습니다.
-- 커밋/푸시 결과는 publish 후 report metadata에 반영합니다.
+- public data/report 커밋 `1210ab7 Add weekly experiment interpretations`를 생성했고 `origin/main`에 푸시했습니다.
+- 이 리포트의 publish 결과 metadata는 후속 커밋 `Record weekly report publish result`로 기록합니다.
