@@ -51,5 +51,5 @@ Passed at 2026-07-05T09:08:24Z: JSON validation for public web/latest/report fil
 
 ## Publish
 
-- Data/report commit: pending
-- Push: pending
+- Data/report commit: `0fc9222`
+- Push: succeeded to `origin/main` at 2026-07-05T09:09:41Z
