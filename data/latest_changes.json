@@ -1,5 +1,5 @@
 {
-    "build_hash": "a4c27e5bdd74c2a0c754025dc0fd6a93a809db65",
+    "build_hash": "fe48ffc205831045eb65961f8d5927f448393d6e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,10 +9,30 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-windows-camera-mic-permissions",
+            "kind": "user",
+            "timestamp": "2026-07-06T21:05:22Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0CRdJQ": "Activity in {guildName}{count, plural, =0 {} other { +#}}",
+                "3Pm7uY": "New in {guildName}{count, plural, =0 {} other { +#}}",
+                "LJuFRG": "No conversations available.",
+                "T3WBRp": "Recent Conversations",
+                "UoFb3H": "Mentioned in {guildName}{count, plural, =0 {} other { +#}}",
+                "aBNTxl": "View in channel",
+                "eylmYW": "We ran into an issue loading messages.",
+                "u54FxB": "View recent conversations"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +42,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-06T22:13:41.274508+00:00"
+    "timestamp": "2026-07-06T22:24:16.267105+00:00"
 }
