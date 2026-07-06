@@ -1,5 +1,5 @@
 {
-    "build_hash": "ff407b33d076b13e1a2ebc840ee77a07c57ac141",
+    "build_hash": "7916387efaf7deb5a8d047a72c2f1b0e02b55a41",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,14 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "DYoT0n": "Go to Living Room",
+                "Vm2OFQ": "Available Seat",
+                "f7g0DK": "Back to Living Room",
+                "iXldTS": "Switch back to Voice Channel",
+                "wRLmM0": "Living Room",
+                "zQkVWf": "Switch to Living Room"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-06T15:27:42.835250+00:00"
+    "timestamp": "2026-07-06T15:48:20.958755+00:00"
 }
