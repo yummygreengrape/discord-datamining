@@ -1,5 +1,5 @@
 {
-    "build_hash": "b9c46cb63f27fe46dd59b4cb1d7280b899c6320b",
+    "build_hash": "75d13c4e7cdc095abec35d9389961aeca086a005",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,24 +14,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "UHF2Zn": {
-                    "new_value": "Link your Discord account so players can see your squad's open spots and request to join!",
-                    "old_value": "Link your account so players can see your squad's open spots and request to join!"
-                },
-                "XZapWG": {
-                    "new_value": "[Link your Discord account]({onClick}) to show live squad info and open spots.",
-                    "old_value": "[Link your account]({onClick}) to show live squad info and open spots."
-                },
-                "vznMVa": {
-                    "new_value": "[Link your Discord account]({onClick}) so players can see your squad's open spots!",
-                    "old_value": "[Link your account]({onClick}) so players can see your squad's open spots!"
-                },
-                "yoIAe/": {
-                    "new_value": "Add tags to help the right players find your post. Max {tagsMax} tags.",
-                    "old_value": "Add tags to help the right players find your post"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -39,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-06T20:18:36.415189+00:00"
+    "timestamp": "2026-07-06T20:29:03.626875+00:00"
 }
