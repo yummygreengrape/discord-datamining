@@ -1,5 +1,5 @@
 {
-    "build_hash": "2e5c8e91388e7724487f26a59f71e6d4b73c4694",
+    "build_hash": "f7ea46a269c93319bd31007292914432e968eb4a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,12 +7,43 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_PARTNER_SDK_APPLICATIONS_STOREFRONT",
+            "status": "added",
+            "url": "/partner-sdk/applications/:param/storefront/:param"
+        },
+        {
+            "name": "ENDPOINT_PARTNER_SDK_APPLICATIONS_STOREFRONTS_ALL",
+            "status": "added",
+            "url": "/partner-sdk/applications/:param/storefronts/all"
+        },
+        {
+            "name": "SOCIAL_LAYER_STOREFRONTS_ALL",
+            "status": "added",
+            "url": "/partner-sdk/applications/:param/storefronts/all"
+        },
+        {
+            "name": "SOCIAL_LAYER_STOREFRONT_BY_ID",
+            "status": "added",
+            "url": "/partner-sdk/applications/:param/storefront/:param"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "3x/M9Z": "This storefront was published {timestamp} and has been replaced by a newer one.",
+                "DWC99q": "Enabled",
+                "Id33AH": "This storefront has no scheduled publish time.",
+                "QsHYzr": "This storefront is live — published {timestamp}.",
+                "WOZod0": "This storefront goes live {timestamp}.",
+                "c2I5Ti": "Preview a storefront",
+                "dX2mQt": "{title} · Draft",
+                "eF1VJh": "{title} · Live",
+                "mgsmfY": "This flow has been disabled via developer tools"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +53,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-06T17:52:23.430654+00:00"
+    "timestamp": "2026-07-06T18:02:52.676869+00:00"
 }
