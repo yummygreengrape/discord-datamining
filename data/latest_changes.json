@@ -1,5 +1,5 @@
 {
-    "build_hash": "f30ebb896042afecef923fa264e5fc4ea0138d2c",
+    "build_hash": "20f03117a4c37d7b48933abe6c483e400004d77e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0CRdJQ": "Activity in {guildName}{count, plural, =0 {} other { +#}}",
-                "3Pm7uY": "New in {guildName}{count, plural, =0 {} other { +#}}",
-                "UoFb3H": "Mentioned in {guildName}{count, plural, =0 {} other { +#}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-06T21:41:58.963601+00:00"
+    "timestamp": "2026-07-06T22:02:34.677555+00:00"
 }
