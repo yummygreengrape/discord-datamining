@@ -1,5 +1,5 @@
 {
-    "build_hash": "af4b74fa06b839d2078130b8ab403287296448fe",
+    "build_hash": "c807bde78cdbc20c9d0b1bdccb3ae7ce5c2b35d5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,53 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "checkPermissionsEnabled"
-            ],
-            "default_config": {
-                "checkPermissionsEnabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-windows-camera-mic-permissions",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-07-06T21:05:22Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "checkPermissionsEnabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "checkPermissionsEnabled"
-            ],
-            "default_config": {
-                "checkPermissionsEnabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-windows-camera-mic-permissions",
-            "kind": "user",
-            "timestamp": "2026-07-06T21:05:22Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "checkPermissionsEnabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -67,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-06T21:10:56.106647+00:00"
+    "timestamp": "2026-07-06T21:21:23.562397+00:00"
 }
