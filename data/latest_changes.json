@@ -1,38 +1,122 @@
 {
-    "build_hash": "fe48ffc205831045eb65961f8d5927f448393d6e",
+    "build_hash": "c0fc71019a54bb1462294eedd386c631e3e84fe8",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "addCancelButton",
+                "canCustomizeGDM"
+            ],
+            "default_config": {
+                "addCancelButton": false,
+                "canCustomizeGDM": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-add-to-dm-customize",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-06T22:39:07Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "addCancelButton": false,
+                    "canCustomizeGDM": true
+                },
+                "2": {
+                    "addCancelButton": true,
+                    "canCustomizeGDM": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-add-to-dm-title",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-06T22:39:07Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "addCancelButton",
+                "canCustomizeGDM"
+            ],
+            "default_config": {
+                "addCancelButton": false,
+                "canCustomizeGDM": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-add-to-dm-customize",
+            "kind": "user",
+            "timestamp": "2026-07-06T22:39:07Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "addCancelButton": false,
+                    "canCustomizeGDM": true
+                },
+                "2": {
+                    "addCancelButton": true,
+                    "canCustomizeGDM": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-add-to-dm-title",
+            "kind": "user",
+            "timestamp": "2026-07-06T22:39:07Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-windows-camera-mic-permissions",
-            "kind": "user",
-            "timestamp": "2026-07-06T21:05:22Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0CRdJQ": "Activity in {guildName}{count, plural, =0 {} other { +#}}",
-                "3Pm7uY": "New in {guildName}{count, plural, =0 {} other { +#}}",
-                "LJuFRG": "No conversations available.",
-                "T3WBRp": "Recent Conversations",
-                "UoFb3H": "Mentioned in {guildName}{count, plural, =0 {} other { +#}}",
-                "aBNTxl": "View in channel",
-                "eylmYW": "We ran into an issue loading messages.",
-                "u54FxB": "View recent conversations"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -42,5 +126,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-06T22:24:16.267105+00:00"
+    "timestamp": "2026-07-06T22:44:52.606985+00:00"
 }
