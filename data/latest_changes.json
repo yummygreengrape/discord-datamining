@@ -1,5 +1,5 @@
 {
-    "build_hash": "e6a962ed6007471b8bb76cf4d81ac6f362b1aa5e",
+    "build_hash": "9e7700c1b1551ea69d7070c79a72da35f3efb767",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,28 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-server-tag-game-profiles-desktop",
-            "kind": "user",
-            "timestamp": "2026-07-06T17:01:20Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-autoclipping-marketing",
-            "kind": "user",
-            "timestamp": "2026-07-06T17:07:23Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -43,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-06T17:10:53.716399+00:00"
+    "timestamp": "2026-07-06T17:21:21.020094+00:00"
 }
