@@ -1,5 +1,5 @@
 {
-    "build_hash": "95c2c7833a9598f45da0c964a8ba2bf3a5257c36",
+    "build_hash": "d773596eaf03a36286c33f5a016e223bd83c1640",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "t+xzd8": "Your subscription has been restored!"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-07T19:09:06.153576+00:00"
+    "timestamp": "2026-07-07T19:19:33.226235+00:00"
 }
