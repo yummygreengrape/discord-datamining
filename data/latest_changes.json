@@ -1,5 +1,5 @@
 {
-    "build_hash": "efe049169ebbd02014f832a5235ffb6e4dc652bf",
+    "build_hash": "c47edb4cf34d6da3ba79f7da7b48c0b4b82d358f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "hRsJ7T": "You're currently using this Server Tag. This is how people will see you."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-07T20:22:10.530228+00:00"
+    "timestamp": "2026-07-07T20:32:39.035803+00:00"
 }
