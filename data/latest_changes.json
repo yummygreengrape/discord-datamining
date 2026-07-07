@@ -54,5 +54,76 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-07T07:39:26.283071+00:00"
+    "timestamp": "2026-07-07T07:39:26.283071+00:00",
+    "string_context": {
+        "en": {
+            "0ki7+P": {
+                "summary": "These strings warn that teens ages 13-16 in some regions may need a connected guardian, and that disconnecting a guardian affects Discord access or Family Center activity visibility.",
+                "what_to_do": "If continued access is required, keep or set up a guardian connection before removing the current one. Before disconnecting, confirm that the notification and activity-visibility changes are intended.",
+                "intent_type": "account_or_safety_notice",
+                "confidence": "high"
+            },
+            "F2lccv": {
+                "summary": "These strings warn that teens ages 13-16 in some regions may need a connected guardian, and that disconnecting a guardian affects Discord access or Family Center activity visibility.",
+                "what_to_do": "If continued access is required, keep or set up a guardian connection before removing the current one. Before disconnecting, confirm that the notification and activity-visibility changes are intended.",
+                "intent_type": "account_or_safety_notice",
+                "confidence": "high"
+            },
+            "Or6hgl": {
+                "summary": "These strings warn that teens ages 13-16 in some regions may need a connected guardian, and that disconnecting a guardian affects Discord access or Family Center activity visibility.",
+                "what_to_do": "If continued access is required, keep or set up a guardian connection before removing the current one. Before disconnecting, confirm that the notification and activity-visibility changes are intended.",
+                "intent_type": "account_or_safety_notice",
+                "confidence": "high"
+            },
+            "PGQBnk": {
+                "summary": "These strings warn that teens ages 13-16 in some regions may need a connected guardian, and that disconnecting a guardian affects Discord access or Family Center activity visibility.",
+                "what_to_do": "If continued access is required, keep or set up a guardian connection before removing the current one. Before disconnecting, confirm that the notification and activity-visibility changes are intended.",
+                "intent_type": "account_or_safety_notice",
+                "confidence": "high"
+            },
+            "PlrZal": {
+                "summary": "These strings warn that teens ages 13-16 in some regions may need a connected guardian, and that disconnecting a guardian affects Discord access or Family Center activity visibility.",
+                "what_to_do": "If continued access is required, keep or set up a guardian connection before removing the current one. Before disconnecting, confirm that the notification and activity-visibility changes are intended.",
+                "intent_type": "account_or_safety_notice",
+                "confidence": "high"
+            },
+            "WH+Gba": {
+                "summary": "These strings warn that teens ages 13-16 in some regions may need a connected guardian, and that disconnecting a guardian affects Discord access or Family Center activity visibility.",
+                "what_to_do": "If continued access is required, keep or set up a guardian connection before removing the current one. Before disconnecting, confirm that the notification and activity-visibility changes are intended.",
+                "intent_type": "account_or_safety_notice",
+                "confidence": "high"
+            },
+            "XyRW4c": {
+                "summary": "These strings warn that teens ages 13-16 in some regions may need a connected guardian, and that disconnecting a guardian affects Discord access or Family Center activity visibility.",
+                "what_to_do": "If continued access is required, keep or set up a guardian connection before removing the current one. Before disconnecting, confirm that the notification and activity-visibility changes are intended.",
+                "intent_type": "account_or_safety_notice",
+                "confidence": "high"
+            },
+            "eiABQz": {
+                "summary": "These strings warn that teens ages 13-16 in some regions may need a connected guardian, and that disconnecting a guardian affects Discord access or Family Center activity visibility.",
+                "what_to_do": "If continued access is required, keep or set up a guardian connection before removing the current one. Before disconnecting, confirm that the notification and activity-visibility changes are intended.",
+                "intent_type": "account_or_safety_notice",
+                "confidence": "high"
+            },
+            "hOEHFn": {
+                "summary": "These strings warn that teens ages 13-16 in some regions may need a connected guardian, and that disconnecting a guardian affects Discord access or Family Center activity visibility.",
+                "what_to_do": "If continued access is required, keep or set up a guardian connection before removing the current one. Before disconnecting, confirm that the notification and activity-visibility changes are intended.",
+                "intent_type": "account_or_safety_notice",
+                "confidence": "high"
+            },
+            "o0JXuK": {
+                "summary": "These strings warn that teens ages 13-16 in some regions may need a connected guardian, and that disconnecting a guardian affects Discord access or Family Center activity visibility.",
+                "what_to_do": "If continued access is required, keep or set up a guardian connection before removing the current one. Before disconnecting, confirm that the notification and activity-visibility changes are intended.",
+                "intent_type": "account_or_safety_notice",
+                "confidence": "high"
+            },
+            "sCbKs4": {
+                "summary": "These strings warn that teens ages 13-16 in some regions may need a connected guardian, and that disconnecting a guardian affects Discord access or Family Center activity visibility.",
+                "what_to_do": "If continued access is required, keep or set up a guardian connection before removing the current one. Before disconnecting, confirm that the notification and activity-visibility changes are intended.",
+                "intent_type": "account_or_safety_notice",
+                "confidence": "high"
+            }
+        },
+        "ko": {}
+    }
 }
