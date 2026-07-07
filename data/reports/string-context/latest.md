@@ -85,4 +85,6 @@ Passed at 2026-07-07T09:10:05.631009Z: JSON validation for public web/latest/rep
 
 ## Publish
 
-- Pending commit/push.
+- Data/report commit: `5a5a75f`
+- Push: succeeded to `origin/main` at 2026-07-07T09:11:29.339884Z
+- Metadata reconciliation: this report records the pushed data commit.

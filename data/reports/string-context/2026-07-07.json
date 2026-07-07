@@ -590,7 +590,14 @@
     ],
     "notes": "Forbidden phrase scan was scoped to current-run Codex-added analysis fields, latest_changes string_context, and the current string-context report to avoid false positives from existing Discord source strings."
   },
-  "commits": [],
+  "commits": [
+    {
+      "hash": "5a5a75f",
+      "message": "Add string context interpretations for July 7 strings",
+      "pushed": true,
+      "pushed_at": "2026-07-07T09:11:29.339884Z"
+    }
+  ],
   "latest_changes": {
     "string_context_added": true,
     "keys": [
@@ -617,5 +624,12 @@
     ],
     "meta": "data/web/meta.json",
     "latest_changes": "data/latest_changes.json"
+  },
+  "publish": {
+    "status": "pushed",
+    "remote": "origin",
+    "branch": "main",
+    "pushed_at": "2026-07-07T09:11:29.339884Z",
+    "notes": "Data/report commit was pushed before this metadata reconciliation commit."
   }
 }
