@@ -1,30 +1,46 @@
 {
-    "build_hash": "fc04c422ccbbe048174a015b72963ee235a77e2f",
-    "deleted_api_endpoints": [
-        {
-            "name": "ENDPOINT_INTEGRATIONS_SEARCH",
-            "status": "deleted",
-            "url": "/integrations/:param/search"
-        },
-        {
-            "name": "INTEGRATION_SEARCH",
-            "status": "deleted",
-            "url": "/integrations/:param/search"
-        }
-    ],
+    "build_hash": "7488cf3d1f76915ff8db333b6d893ab3d3b43d84",
+    "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_GUILDS_ROOMS_OBJECTS",
+            "status": "added",
+            "url": "/guilds/:param/rooms/:param/objects"
+        },
+        {
+            "name": "ENDPOINT_GUILDS_ROOMS_OBJECTS_UPDATE",
+            "status": "added",
+            "url": "/guilds/:param/rooms/:param/objects/:param/update"
+        },
+        {
+            "name": "GUILD_ROOM_OBJECT_CREATE",
+            "status": "added",
+            "url": "/guilds/:param/rooms/:param/objects"
+        },
+        {
+            "name": "GUILD_ROOM_OBJECT_DELETE",
+            "status": "added",
+            "url": "/guilds/:param/rooms/:param/objects/:param"
+        },
+        {
+            "name": "GUILD_ROOM_OBJECT_UPDATE",
+            "status": "added",
+            "url": "/guilds/:param/rooms/:param/objects/:param/update"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {
-                "xRxGFl": "Activity & Origins"
+                "V3j11+": "Swipe right on the You Bar to return to DMs.",
+                "gMFchc": "Go to DMs faster"
             },
             "deleted": {},
             "modified": {}
@@ -35,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-07T21:24:39.298258+00:00"
+    "timestamp": "2026-07-07T21:35:05.700819+00:00"
 }
