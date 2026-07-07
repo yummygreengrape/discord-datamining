@@ -1,5 +1,5 @@
 {
-    "build_hash": "8da7462999751330dd61a0ca6d9a8715440fb64e",
+    "build_hash": "5cd3523a87a05ad155db18eede0a8fa55b830e66",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,15 +12,47 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "0ki7+P": "I understand that disconnecting this teen will remove my access to information about their Discord activity.",
+                "F2lccv": "This will remove {username} as your connected guardian",
+                "Or6hgl": "Laws in their region require teens ages 13–16 to have a connected guardian. Without a connected guardian, {username} won’t be able to continue accessing Discord.",
+                "PGQBnk": "I understand that Discord requires at least one guardian to be connected to this teen’s account for them to continue using Discord.",
+                "PlrZal": "Disconnecting from {username} will send them a notification that you removed them. It will also revoke your access to information about their Discord activity.",
+                "WH+Gba": "This will remove your guardian connection with this account.",
+                "XyRW4c": "Disconnecting from {username} will send them a notification that you removed them. It will also revoke their access to information about your Discord activity.",
+                "eiABQz": "I understand that Discord requires at least one guardian to be connected to my account for me to continue using Discord.",
+                "hOEHFn": "Laws in your region require teens ages 13–16 to have a connected guardian. Without a connected guardian, you won’t be able to continue accessing Discord.",
+                "o0JXuK": "Disconnect from {username}?",
+                "sCbKs4": "I understand that disconnecting this guardian will remove their access to information about my Discord activity."
+            },
+            "deleted": {
+                "/MYCee": "I understand that disconnecting this teen will revoke my access to their Discord activity information.",
+                "EvMGLT": "Disconnecting from your teen will send them a notification that you removed them. It will also revoke your access to their Discord activity information.",
+                "FAMILY_CENTER_DISCONNECT_LINK_MODAL_DISCLAIMER_PARENT": "I understand that disconnecting this teen will revoke my access to their Discord activity information.",
+                "FAMILY_CENTER_DISCONNECT_LINK_MODAL_DISCLAIMER_TEEN": "I understand that disconnecting this parent will revoke their access to my Discord activity information.",
+                "FAMILY_CENTER_DISCONNECT_LINK_MODAL_NOTICE_DESCRIPTION_PARENT": "Disconnecting from your teen will send them a notification that you removed them. It will also revoke your access to their Discord activity information.",
+                "FAMILY_CENTER_DISCONNECT_LINK_MODAL_NOTICE_DESCRIPTION_TEEN": "Disconnecting from your parent will send them a notification that you removed them. It will also revoke their access to your Discord activity information.",
+                "FAMILY_CENTER_DISCONNECT_LINK_MODAL_NOTICE_HEADER": "Notice",
+                "FAMILY_CENTER_DISCONNECT_LINK_MODAL_TITLE": "Disconnect from {isAdult, select, true {teen} other {parent}}:",
+                "NMSTb/": "Disconnect from {isAdult}:",
+                "VJaHUb": "I understand that disconnecting this parent will revoke their access to my Discord activity information.",
+                "VKblNt": "Notice",
+                "f1SUeW": "Disconnecting from your parent will send them a notification that you removed them. It will also revoke their access to your Discord activity information."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "/MYCee": "이 자녀와 연결을 끊으면 더는 해당 자녀의 Discord 활동 정보에 액세스할 수 없음을 이해하고 있습니다.",
+                "EvMGLT": "자녀와 연결을 끊으면 자녀에게 연결이 끊겼다는 알림이 전송되며, 자녀의 Discord 활동 정보에 대한 회원님의 액세스 권한이 취소됩니다.",
+                "NMSTb/": "{isAdult}와 연결 끊기:",
+                "VJaHUb": "이 보호자와 연결을 끊으면 해당 보호자가 더는 내 Discord 활동 정보에 액세스할 수 없음을 이해하고 있습니다.",
+                "VKblNt": "알림",
+                "f1SUeW": "보호자와 연결을 끊으면 보호자에게 연결이 끊겼다는 알림이 전송되며, 회원님의 Discord 활동 정보에 대한 보호자의 액세스 권한이 취소됩니다."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-07-07T06:31:26.545138+00:00"
+    "timestamp": "2026-07-07T07:39:26.283071+00:00"
 }
