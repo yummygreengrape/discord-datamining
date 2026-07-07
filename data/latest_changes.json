@@ -1,12 +1,170 @@
 {
-    "build_hash": "5f4a9ee893d0b79d672c13b5a3d3fe938fb705a6",
+    "build_hash": "1fa65024c26faef9bd8c03bc479572693a0be9e3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "variant"
+            ],
+            "default_config": {
+                "enabled": false,
+                "variant": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-quest-home-layout-visual-tweaks",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled",
+                "variant"
+            ],
+            "old_default_config": {
+                "enabled": false,
+                "variant": 0
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "old_variations": {
+                "0": {
+                    "enabled": false,
+                    "variant": 0
+                },
+                "1": {
+                    "enabled": true,
+                    "variant": 1
+                },
+                "2": {
+                    "enabled": true,
+                    "variant": 2
+                },
+                "3": {
+                    "enabled": true,
+                    "variant": 3
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "variant": 0
+                },
+                "1": {
+                    "enabled": true,
+                    "variant": 1
+                },
+                "2": {
+                    "enabled": true,
+                    "variant": 2
+                },
+                "3": {
+                    "enabled": true,
+                    "variant": 3
+                },
+                "4": {
+                    "enabled": true,
+                    "variant": 4
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "variant"
+            ],
+            "default_config": {
+                "enabled": false,
+                "variant": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-quest-home-layout-visual-tweaks",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled",
+                "variant"
+            ],
+            "old_default_config": {
+                "enabled": false,
+                "variant": 0
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "old_variations": {
+                "0": {
+                    "enabled": false,
+                    "variant": 0
+                },
+                "1": {
+                    "enabled": true,
+                    "variant": 1
+                },
+                "2": {
+                    "enabled": true,
+                    "variant": 2
+                },
+                "3": {
+                    "enabled": true,
+                    "variant": 3
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "variant": 0
+                },
+                "1": {
+                    "enabled": true,
+                    "variant": 1
+                },
+                "2": {
+                    "enabled": true,
+                    "variant": 2
+                },
+                "3": {
+                    "enabled": true,
+                    "variant": 3
+                },
+                "4": {
+                    "enabled": true,
+                    "variant": 4
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -22,5 +180,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-07T23:19:15.317913+00:00"
+    "timestamp": "2026-07-07T23:29:41.973954+00:00"
 }
