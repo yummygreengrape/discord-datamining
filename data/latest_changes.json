@@ -1,5 +1,5 @@
 {
-    "build_hash": "74e9954846d6ec8cd3376759786f76fa84e79b93",
+    "build_hash": "125d3d8e83e0137129bed2d1ce6081d5aa296378",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,7 +7,18 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_GUILDS_ROOMS",
+            "status": "added",
+            "url": "/guilds/:param/rooms/:param"
+        },
+        {
+            "name": "GUILD_ROOM",
+            "status": "added",
+            "url": "/guilds/:param/rooms/:param"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-08T19:18:28.294982+00:00"
+    "timestamp": "2026-07-08T19:28:53.924264+00:00"
 }
