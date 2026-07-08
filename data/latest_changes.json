@@ -1,5 +1,5 @@
 {
-    "build_hash": "4e5592498962fc42528e424f566aafb3874e089e",
+    "build_hash": "1f18615895adc0034ff9708e917a5ca5916786b7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "NBFa62": "Open this link in Discord on your desktop to continue.",
+                "XjhkM5": "Discord Game Shops are currently desktop-only"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-08T22:56:43.027351+00:00"
+    "timestamp": "2026-07-08T23:07:10.806934+00:00"
 }
