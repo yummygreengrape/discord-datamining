@@ -1,5 +1,5 @@
 {
-    "build_hash": "d44c97a9d930b588f0cd24e144a5ee81fe9be355",
+    "build_hash": "93e514404efc28110e70ca224cfb81d2cb75cf37",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,53 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-parental-consent-warning-fetch",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-07-08T14:21:57Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-parental-consent-warning-fetch",
-            "kind": "user",
-            "timestamp": "2026-07-08T14:21:57Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -67,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-08T14:27:52.554950+00:00"
+    "timestamp": "2026-07-08T14:58:40.418350+00:00"
 }
