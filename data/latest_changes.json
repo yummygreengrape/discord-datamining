@@ -1,5 +1,5 @@
 {
-    "build_hash": "9696fda0478190e35657e1af02126a568601b447",
+    "build_hash": "21510b36f0c7a5a5ee8af12c4efaeadaf8d0d895",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,58 +8,11 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-battlenet-social-sdk-migration",
-            "kind": "user",
-            "status": "added",
-            "treatments": [],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-battlenet-social-sdk-migration",
-            "kind": "user",
-            "treatments": [],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Hr/q/6": "Go to collection"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -69,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-08T18:15:44.403811+00:00"
+    "timestamp": "2026-07-08T18:26:11.265735+00:00"
 }
