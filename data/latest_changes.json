@@ -1,5 +1,5 @@
 {
-    "build_hash": "9a60c9c5add6ec424499da925139ec47dcff0036",
+    "build_hash": "d2ff5983a0f8ad45d46a69445f12756a7fb06279",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+IqPFo": "Living Room",
+                "QvH7E6": "Living Room placement"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-08T17:54:48.699950+00:00"
+    "timestamp": "2026-07-08T18:05:16.349747+00:00"
 }
