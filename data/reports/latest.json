@@ -873,9 +873,9 @@
     "checked_at": "2026-07-08T04:01:40Z"
   },
   "commits": {
-    "status": "pending",
-    "data_commit": "pending",
-    "metadata_commit": "pending",
-    "push": "pending until commit and push complete"
+    "status": "pushed",
+    "data_commit": "63c39cf",
+    "metadata_commit": "Record weekly report publish result (this commit)",
+    "push": "pushed to origin/main; final branch includes the data/report commit and this publish-result metadata commit"
   }
 }
