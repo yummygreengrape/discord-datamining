@@ -1,5 +1,5 @@
 {
-    "build_hash": "ab1bceae0b27d2404414ecb01a8c18e51df98e4b",
+    "build_hash": "8bc6f15dea2d21f9e95bf2af439ab9f9eebd08fe",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,23 +7,16 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "CREATE_INCODE_SESSION",
-            "status": "added",
-            "url": "/age-verification/incode/session"
-        },
-        {
-            "name": "ENDPOINT_AGE_VERIFICATION_INCODE_SESSION",
-            "status": "added",
-            "url": "/age-verification/incode/session"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "IAcEEn": "Leave a Note",
+                "Vj+S0/": "Living Room Note",
+                "lL1Y+d": "Drop a Note"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -33,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-08T16:31:47.256877+00:00"
+    "timestamp": "2026-07-08T16:52:26.412354+00:00"
 }
