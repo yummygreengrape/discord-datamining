@@ -1,5 +1,5 @@
 {
-    "build_hash": "ee4e91a81e48f7fa2b2d19d01237c563d1ca3ca5",
+    "build_hash": "b96721547d55be9c4c1e2df6dc94b61e80ae1620",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,12 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "9/wzjF": "Accent",
+                "PHT1N2": "Primary",
+                "R1AXap": "Server Tag: {tag}",
+                "T1IxYH": "Choose Badge Color"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-08T22:25:18.535747+00:00"
+    "timestamp": "2026-07-08T22:35:45.714241+00:00"
 }
