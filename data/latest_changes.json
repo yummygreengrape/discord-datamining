@@ -1,5 +1,5 @@
 {
-    "build_hash": "b27785d044ae854d3a1b2b4ae25f1af7493b381f",
+    "build_hash": "268593834e4dd5945379998ac91fb3403a4697f7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,37 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "BoiiWz": "This server has failed Discovery activity requirements for 1 week. If this server fails for 4 weeks in a row, it will be automatically removed from Discovery.",
+                "ED4mGc": "This server has failed Discovery activity requirements for 3 weeks in a row. If this server fails for 1 more week, it will be removed from Discovery."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "/TfvyR": {
+                    "new_value": "[{guildName}]({onClickGuild}) has failed Discovery activity requirements for 3 weeks in a row. If it fails for 1 more week, it will be removed from Discovery.",
+                    "old_value": "This server has failed Discovery activity requirements for 3 weeks in a row. If this server fails for 1 more week, it will be removed from Discovery."
+                },
+                "SYSTEM_MESSAGE_GUILD_DISCOVERY_DISQUALIFIED": {
+                    "new_value": "[{guildName}]({onClickGuild}) has been removed from Server Discovery because it no longer passes all the requirements. Check [Server Settings]({onClick}) for more details.",
+                    "old_value": "This server has been removed from Server Discovery because it no longer passes all the requirements. Check [Server Settings]({onClick}) for more details."
+                },
+                "SYSTEM_MESSAGE_GUILD_DISCOVERY_GRACE_PERIOD_FINAL_WARNING": {
+                    "new_value": "[{guildName}]({onClickGuild}) has failed Discovery activity requirements for 3 weeks in a row. If it fails for 1 more week, it will be removed from Discovery.",
+                    "old_value": "This server has failed Discovery activity requirements for 3 weeks in a row. If this server fails for 1 more week, it will be removed from Discovery."
+                },
+                "SYSTEM_MESSAGE_GUILD_DISCOVERY_GRACE_PERIOD_INITIAL_WARNING": {
+                    "new_value": "[{guildName}]({onClickGuild}) has failed Discovery activity requirements for 1 week. If it fails for 4 weeks in a row, it will be automatically removed from Discovery.",
+                    "old_value": "This server has failed Discovery activity requirements for 1 week. If this server fails for 4 weeks in a row, it will be automatically removed from Discovery."
+                },
+                "bYdG3f": {
+                    "new_value": "[{guildName}]({onClickGuild}) has been removed from Server Discovery because it no longer passes all the requirements. Check [Server Settings]({onClick}) for more details.",
+                    "old_value": "This server has been removed from Server Discovery because it no longer passes all the requirements. Check [Server Settings]({onClick}) for more details."
+                },
+                "vzfXql": {
+                    "new_value": "[{guildName}]({onClickGuild}) has failed Discovery activity requirements for 1 week. If it fails for 4 weeks in a row, it will be automatically removed from Discovery.",
+                    "old_value": "This server has failed Discovery activity requirements for 1 week. If this server fails for 4 weeks in a row, it will be automatically removed from Discovery."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-08T18:36:38.568313+00:00"
+    "timestamp": "2026-07-08T18:47:05.823136+00:00"
 }
