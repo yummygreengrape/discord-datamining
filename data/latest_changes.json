@@ -1,5 +1,5 @@
 {
-    "build_hash": "86c71ecca26d34a71259bb515e035ef977835634",
+    "build_hash": "1f5e556c210fe41f64e74913d51a65c3e253e5cd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,37 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-monthly-to-yearly-upsells",
+            "kind": "user",
+            "status": "added",
+            "treatments": [],
+            "variations": {
+                "0": 0,
+                "1": 1,
+                "2": 2,
+                "3": 3
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-monthly-to-yearly-upsells",
+            "kind": "user",
+            "treatments": [],
+            "variations": {
+                "0": 0,
+                "1": 1,
+                "2": 2,
+                "3": 3
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-08T23:48:43.838784+00:00"
+    "timestamp": "2026-07-08T23:59:13.206790+00:00"
 }
