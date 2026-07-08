@@ -1,5 +1,5 @@
 {
-    "build_hash": "d2ff5983a0f8ad45d46a69445f12756a7fb06279",
+    "build_hash": "9696fda0478190e35657e1af02126a568601b447",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,13 +8,57 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-battlenet-social-sdk-migration",
+            "kind": "user",
+            "status": "added",
+            "treatments": [],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-battlenet-social-sdk-migration",
+            "kind": "user",
+            "treatments": [],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {
-                "+IqPFo": "Living Room",
-                "QvH7E6": "Living Room placement"
+                "Hr/q/6": "Go to collection"
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +69,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-08T18:05:16.349747+00:00"
+    "timestamp": "2026-07-08T18:15:44.403811+00:00"
 }
