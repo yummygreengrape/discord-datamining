@@ -1,5 +1,5 @@
 {
-    "build_hash": "c78441b3214a1f4020a9833fb30ffd82bec786e5",
+    "build_hash": "83148374f010107c3e1b2381e931d23556a6ecc8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,13 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+tBsvs": "Match your device's light or dark mode.",
+                "APPEARANCE_DARK_MODE_THEME_PICKER": "Appearance Dark Mode Theme Picker",
+                "APPEARANCE_LIGHT_MODE_THEME_PICKER": "Appearance Light Mode Theme Picker",
+                "EgvHH/": "Dark Mode",
+                "NoFvjZ": "Light Mode"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-08T21:54:12.681987+00:00"
+    "timestamp": "2026-07-08T22:04:39.856091+00:00"
 }
