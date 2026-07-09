@@ -1,5 +1,5 @@
 {
-    "build_hash": "1a1f8faa432beea7f5ca6d0ae60e3e097891cfb1",
+    "build_hash": "6ae794761cae18bdc85b3b71ff15674ae5b14fdd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -17,10 +17,135 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "/i8N++": "매일 반복",
+                "0CRdJQ": "{guildName}+ {count}개 서버",
+                "0QA+rq": "저녁에 활발함",
+                "0qmYNB": "오후에 활발함",
+                "3Pm7uY": "새로운 소식: {guildName}{count}개 서버",
+                "3x/M9Z": "이 스토어는 {timestamp}에 운영 개시되었으며 새로운 스토어로 대체되었어요.",
+                "4tVt6P": "서버 태그를 업데이트하면 모든 멤버가 프로필에 태그를 수동으로 다시 적용해야 해요. 남용을 방지하기 위한 조치예요.",
+                "775dKw": "{name} 사본",
+                "7gEVxQ": "역할 복제",
+                "8ej+nd": "bHook{connectionName}의 연결된 역할이 {date}부터 사용 중단될 예정이에요. 설정에서 연결된 역할을 마이그레이션해 주세요. bHook이후로는 더 이상 유지보수되지 않습니다.",
+                "AwjsC9": "게임 초대(제한됨)",
+                "BVVy6y": "서버 태그에 저장되지 않은 변경 사항이 있습니다. 이 페이지에서 나가면 변경 사항이 취소됩니다.",
+                "BW4VHV": "게임 초대",
+                "CGWyvX": "구독 복원하기",
+                "CXlsRP": "모든 현상금을 완료하면 +{orbAmount} Orbs가 지급되고 잠금이 해제돼요",
+                "DWC99q": "활성화됨",
+                "Id33AH": "이 스토어에는 예정된 운영 개시 시간이 없어요.",
+                "K+spIo": "하루 종일 활발함",
+                "LJuFRG": "사용 가능한 대화가 없어요.",
+                "LVx4Xr": "개설: {createdAtDate}",
+                "P0lmqC": "특별 퀘스트",
+                "QsHYzr": "이 스토어는 운영 중이에요. 운영 개시일:{timestamp}",
+                "T3WBRp": "최신 대화",
+                "TGr8Ws": "또는 링크 공유",
+                "Tl1n53": "주말에 활동량 많음",
+                "U5p3GZ": "더 많은 전용 배지를 획득하세요",
+                "UoFb3H": "{guildName} + {count}개 서버에서 멘션됨",
+                "WOZod0": "이 스토어는 {timestamp}에 운영 개시돼요.",
+                "Ywt4w9": "저장하지 않고 나가기",
+                "ZSLBan": "밤에 활발함",
+                "Zh44ni": "이 배지에 대한 진행도를 반영하려면 활동 기반 개인 최적화 기능을 켜세요. [설정으로 이동]({onGoToSettings})",
+                "aBNTxl": "채널 내에서 보기",
+                "c2I5Ti": "스토어 미리 보기",
+                "cQbw52": "매일 활동량 많음",
+                "dX2mQt": "{title} · 초안",
+                "eF1VJh": "{title} · 라이브",
+                "eylmYW": "메시지를 불러오는 중에 문제가 발생했어요.",
+                "hRsJ7T": "현재 이 서버 태그를 사용 중이에요. 다른 사용자에게 이 모습으로 보일 거예요.",
+                "hj2zN0": "주중에 활동량 많음",
+                "iMCLA5": "bHook{connectionName}의 연결된 역할은 {date}부터 더 이상 지원되지 않아요. 설정에서 연결된 역할을 업데이트해 주세요.",
+                "lVD5Nd": "{username} 님이 Discord에서 보호자로 연결하라는 초대를 보내셨어요. {url}",
+                "mgsmfY": "개발자 도구를 통해 이 흐름이 비활성화되었어요",
+                "o1ol+T": "컬렉션 보기",
+                "s5jG51": "아침에 활발함",
+                "sOxim5": "서버 태그 이름",
+                "u54FxB": "최신 대화 보기",
+                "wUXupS": "향후 몇 개월 이내에 bHook{connectionName} 연결이 bHook{applicationName} 앱으로 마이그레이션돼요. 연결을 계속 유지하고 추가적인 [게임 내 소셜 기능]({helpCenterLink})을 잠금 해제하려면 [{applicationName} 계정을 연결하세요]({connectionEntrypointUrl})."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "0o3yg8": {
+                    "new_value": "Discord에서 연결된 보호자가 되려면 18세 이상이어야 합니다. 연결되면 청소년 자녀의 활동 정보를 확인하고 특정 설정을 관리하는 데 도움을 줄 수 있습니다. [자세히 알아보기]({link})",
+                    "old_value": "보호자로 연결하려면 만 18세 이상이어야 해요. 연결되면 자녀의 활동을 확인하고 설정을 관리할 수 있어요. [자세히 알아보기]({link})"
+                },
+                "1gfA/U": {
+                    "new_value": "미리 보기(INTERNAL ONLY)",
+                    "old_value": "미리 보기(내부 전용)"
+                },
+                "2O6ltn": {
+                    "new_value": "연결하면 보호자가 Family Center에서 회원님의 활동을 볼 수 있고, 회원님은 Discord를 완전히 이용할 수 있어요. [자세히 알아보기]({link})",
+                    "old_value": "코드를 스캔하면 보호자가 연결 요청을 보냅니다. 요청을 수락하면 연결됩니다."
+                },
+                "3EQnkg": {
+                    "new_value": "친구들과 자신에게 특별한 혜택을 선사하세요. 선물을 보내고, 앞으로 계속 선물할수록 레벨이 올라가는 프로필 배지를 잠금 해제하세요.",
+                    "old_value": "친구, 그리고 나 자신에게 선물을 보내세요. 선물을 보내고 더 많이 보낼수록 레벨이 올라가는 프로필 배지를 해금하세요."
+                },
+                "GPAtvf": {
+                    "new_value": "아이템 받기",
+                    "old_value": "구매 항목 수령하기"
+                },
+                "L9YdGH": {
+                    "new_value": "channelHookHook{channelName}{count}개 채널 • 회원님이 멘션되었어요",
+                    "old_value": "channelHookHook{channelName}  ·  내가 멘션됨"
+                },
+                "NU5ZId": {
+                    "new_value": "매달 {monthlyOrbsAmount} Orbs를 받아 상점에서 새로운 룩을 완성해 보세요.",
+                    "old_value": "매달 {monthlyOrbsAmount} Orbs를 받아 상점에서 이용해 보세요."
+                },
+                "OqlmU6": {
+                    "new_value": "channelHookHook{channelName}{count}개 채널 • 새로운 메시지",
+                    "old_value": "labelHookHook새로운 소식: iconHookHookchannelHookHook{channelName}{count}overflowHookHook개"
+                },
+                "Q8nVIj": {
+                    "new_value": "만료됨(INTERNAL ONLY)",
+                    "old_value": "만료됨(내부 전용)"
+                },
+                "Qmkje8": {
+                    "new_value": "이 아이템을 수락하려면 {applicationName} 계정과 Discord 계정을 연결하세요. PC에서만 사용할 수 있는 아이템이에요.",
+                    "old_value": "이 구매를 수락하려면 {applicationName} 계정과 Discord 계정을 연결하세요. PC에서만 사용할 수 있는 아이템이에요."
+                },
+                "S5O8U2": {
+                    "new_value": "비워두면 기본 소개글이 사용돼요.",
+                    "old_value": "비워두면 기본 소개글이 사용돼요다."
+                },
+                "TTj7ME": {
+                    "new_value": "{numDays}일 이내에 아이템을 수령해야 해요. 이 기간이 지나면 아이템 액세스 관련 문제가 발생해도 지원해 드리지 못할 수 있어요.",
+                    "old_value": "{numDays} 이내에 아이템을 수령해야 해요. 이 기간이 지나면 구매와 관련된 문제가 발생해도 지원해 드리지 못할 수 있어요."
+                },
+                "URLMAM": {
+                    "new_value": "이 아이템을 받으려면 {applicationName} 및 Discord 계정을 연결하세요. 이 아이템은 PC 및 Xbox에서만 사용할 수 있어요.",
+                    "old_value": "{applicationName}에 Discord 계정을 연결해 이 구매를 수락하세요. 이 아이템은 PC 및 Xbox에서만 사용할 수 있어요."
+                },
+                "XJlymS": {
+                    "new_value": "Orbs 보상을 추가로 획득할 수 있는 현상금이 더 지급될 수 있으니 나중에 다시 확인해 보세요.",
+                    "old_value": "Orb 보상을 추가로 획득할 수 있는 현상금이 더 지급될 수 있으니 나중에 다시 확인해 보세요."
+                },
+                "aCUVfL": {
+                    "new_value": "계정에 대한 액세스 권한을 유지하려면 보호자와 연결하세요",
+                    "old_value": "보호자에게 이 QR 코드를 스캔해 달라고 하세요"
+                },
+                "bwqjL9": {
+                    "new_value": "활동을 공유할 공간",
+                    "old_value": "내 활동을 공유할 곳"
+                },
+                "pQQMJ7": {
+                    "new_value": "Discord에서 {username} 님의 보호자로 연결하기",
+                    "old_value": "Discord에서 보호자 감독을 설정하세요"
+                },
+                "tmSbYW": {
+                    "new_value": "{count}면 주사위를 굴려 bHook{total}이(가) 나왔어요!",
+                    "old_value": "{count}개의 주사위를 굴려 bHook{total}이(가) 나왔어요!"
+                },
+                "uV5JaG": {
+                    "new_value": "{count}면 주사위 굴리기",
+                    "old_value": "{count}개 주사위 굴리기"
+                }
+            }
         }
     },
-    "timestamp": "2026-07-09T05:26:45.484331+00:00"
+    "timestamp": "2026-07-09T07:07:31.406329+00:00"
 }
