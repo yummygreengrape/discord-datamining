@@ -1,12 +1,160 @@
 {
-    "build_hash": "fb146a1ae13a0d92817e830bc75a103c0bc07fa6",
+    "build_hash": "c7919a2d390706ea928777864723f58bcd9ce20e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "default_config": {
+                "processPriority": "V.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-process-boost-on-voice",
+            "kind": "user",
+            "old_config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "old_default_config": {
+                "processPriority": "F.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "1": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "1": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "default_config": {
+                "processPriority": "V.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-process-boost-on-voice",
+            "kind": "user",
+            "old_config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "old_default_config": {
+                "processPriority": "F.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "1": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "F.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "1": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "V.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -17,25 +165,10 @@
             "modified": {}
         },
         "ko": {
-            "added": {
-                "9/wzjF": "강조",
-                "EgvHH/": "다크 모드",
-                "NoFvjZ": "밝은 테마",
-                "PHT1N2": "기본",
-                "R1AXap": "서버 태그: {tag}"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "Mn3elp": {
-                    "new_value": "비정상적인 참가 활동 감지됨",
-                    "old_value": "비정상적인 참가 활동"
-                },
-                "evRhwg": {
-                    "new_value": "비정상적인 DM 활동 감지됨",
-                    "old_value": "비정상적인 DM 활동"
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-07-09T23:37:28.087872+00:00"
+    "timestamp": "2026-07-09T23:47:56.833631+00:00"
 }
