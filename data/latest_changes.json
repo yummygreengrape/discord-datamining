@@ -1,5 +1,5 @@
 {
-    "build_hash": "2076772471ddbde8f4199be23a9b50ef36e81167",
+    "build_hash": "3efccb2a64328b2cce9cfd8d2ffa123f0641c825",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,24 +14,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "GUILD_ANTIRAID_NAGBAR_DM_RAID_BODY": {
-                    "new_value": "Unusual DM activity detected",
-                    "old_value": "Unusual DM activity"
-                },
-                "GUILD_ANTIRAID_NAGBAR_RAID_BODY": {
-                    "new_value": "Unusual join activity detected",
-                    "old_value": "Unusual join activity"
-                },
-                "Mn3elp": {
-                    "new_value": "Unusual join activity detected",
-                    "old_value": "Unusual join activity"
-                },
-                "evRhwg": {
-                    "new_value": "Unusual DM activity detected",
-                    "old_value": "Unusual DM activity"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -39,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-09T15:18:09.536872+00:00"
+    "timestamp": "2026-07-09T15:28:36.663616+00:00"
 }
