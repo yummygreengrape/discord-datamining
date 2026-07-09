@@ -1,5 +1,5 @@
 {
-    "build_hash": "721eed9fb1a7aef5e070dc325ce9505eac4bc54e",
+    "build_hash": "359d02bf4935a62960539b3259fa75114bbd8161",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,13 +8,65 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-monthly-to-yearly-upsell-copy",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-07-09T02:17:38Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": 0,
+                "1": 1,
+                "2": 2,
+                "3": 3
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-monthly-to-yearly-upsell-copy",
+            "kind": "user",
+            "timestamp": "2026-07-09T02:17:38Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": 0,
+                "1": 1,
+                "2": 2,
+                "3": 3
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "WBEYyz": "Lock in, save {amount}"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "UZWxcy": {
+                    "new_value": "Everything you love about Nitro stays the same. One payment to make it official.",
+                    "old_value": "Everything you love stays the same. One payment to make it official."
+                },
+                "deiBu8": {
+                    "new_value": "Same Nitro perks you already have. Switch once and you're set for the year.",
+                    "old_value": "Same perks you already have. Switch once and you're set for the year."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +74,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-09T01:01:02.404263+00:00"
+    "timestamp": "2026-07-09T02:22:50.364761+00:00"
 }
