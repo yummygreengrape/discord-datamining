@@ -1,15 +1,41 @@
 {
-    "build_hash": "c62bbacb4f673f15c1399b1d412c711f167c5cd4",
+    "build_hash": "effee9792571bb4c0b371f9eec2c6dffdbac6d40",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "social-entrypoints-v2-activity-panel-p0-visual-upgrade",
+            "kind": "user",
+            "timestamp": "2026-07-09T15:00:53Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-activity-entrypoint-ui",
+            "kind": "user",
+            "timestamp": "2026-07-09T15:00:53Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +48,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-09T14:47:05.806172+00:00"
+    "timestamp": "2026-07-09T15:07:41.925747+00:00"
 }
