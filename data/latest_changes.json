@@ -1,104 +1,8 @@
 {
-    "build_hash": "b18a321ba27be2974574df9aabedaf5a0f7cc0e6",
+    "build_hash": "690fb0539c60a17563ae1d946be562b763786a8c",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-01-virtual-currency-rollout",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-07-09T17:08:57Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-mobile-orbs",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-07-09T17:08:57Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-01-virtual-currency-rollout",
-            "kind": "user",
-            "timestamp": "2026-07-09T17:08:57Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-mobile-orbs",
-            "kind": "user",
-            "timestamp": "2026-07-09T17:08:57Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -108,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "poZZGL": "{count, plural, one {# message} other {# messages}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -120,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-09T17:12:32.832608+00:00"
+    "timestamp": "2026-07-09T17:23:00.022006+00:00"
 }
