@@ -1,12 +1,180 @@
 {
-    "build_hash": "4c71f77acc2a002c4ccd416f8a5c1a4ce746ca54",
+    "build_hash": "881780d7f2bd81dc41d8a3d88bacea1ffbec94cc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "Tg.v.GRADIENT",
+                "surface": "Tg.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "Tm.v.GRADIENT",
+                "surface": "Tm.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "Tm.v.GRADIENT",
+                    "surface": "Tm.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tm.v.EXPRESSIVE",
+                    "surface": "Tm.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tm.v.GRADIENT",
+                    "surface": "Tm.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tm.v.GLOWING",
+                    "surface": "Tm.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tm.v.GLOWING",
+                    "surface": "Tm.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "Tg.v.GRADIENT",
+                    "surface": "Tg.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tg.v.EXPRESSIVE",
+                    "surface": "Tg.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tg.v.GRADIENT",
+                    "surface": "Tg.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tg.v.GLOWING",
+                    "surface": "Tg.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tg.v.GLOWING",
+                    "surface": "Tg.F.NONE"
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "Tg.v.GRADIENT",
+                "surface": "Tg.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "Tm.v.GRADIENT",
+                "surface": "Tm.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "Tm.v.GRADIENT",
+                    "surface": "Tm.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tm.v.EXPRESSIVE",
+                    "surface": "Tm.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tm.v.GRADIENT",
+                    "surface": "Tm.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tm.v.GLOWING",
+                    "surface": "Tm.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tm.v.GLOWING",
+                    "surface": "Tm.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "Tg.v.GRADIENT",
+                    "surface": "Tg.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tg.v.EXPRESSIVE",
+                    "surface": "Tg.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tg.v.GRADIENT",
+                    "surface": "Tg.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tg.v.GLOWING",
+                    "surface": "Tg.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tg.v.GLOWING",
+                    "surface": "Tg.F.NONE"
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -22,5 +190,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-09T16:31:20.564510+00:00"
+    "timestamp": "2026-07-09T17:02:05.940617+00:00"
 }
