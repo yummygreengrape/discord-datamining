@@ -1,5 +1,5 @@
 {
-    "build_hash": "0656468f26db4811fbc219f337ce8aa2ff6e803c",
+    "build_hash": "4139e9ba5ef911250ff1c9481f8bdaef37e6b458",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,18 +7,7 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "BULK_GUILD_BAN_V2",
-            "status": "added",
-            "url": "/guilds/:param/bulk-ban/v2"
-        },
-        {
-            "name": "ENDPOINT_GUILDS_BULK_BAN_V2",
-            "status": "added",
-            "url": "/guilds/:param/bulk-ban/v2"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
@@ -33,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-09T20:40:44.100274+00:00"
+    "timestamp": "2026-07-09T20:51:10.381331+00:00"
 }
