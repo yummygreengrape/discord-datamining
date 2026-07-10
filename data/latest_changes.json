@@ -1,5 +1,5 @@
 {
-    "build_hash": "9f02000e7edba73ce392fef6698080e910f83ee8",
+    "build_hash": "50f8f04805f1de48a13d397284cd6773e991c293",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,24 +9,10 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-smag-dm-sidebar-nitro-recommendation",
-            "kind": "user",
-            "timestamp": "2026-07-10T16:35:32Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "yBivur": "Wishlist & Recommendations"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -36,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-10T16:39:11.504511+00:00"
+    "timestamp": "2026-07-10T17:09:55.776737+00:00"
 }
