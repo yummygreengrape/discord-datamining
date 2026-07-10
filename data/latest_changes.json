@@ -1,5 +1,5 @@
 {
-    "build_hash": "130fcefe3ebfb439518a0f5d3abac09de0e0d526",
+    "build_hash": "c2c8dadd0e0b1d894a33df603a3c9821b5c2a2b8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,12 +12,12 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
+            "added": {
                 "QeJIbA": "Browse conversations happening in this channel.",
                 "UcQjDe": "Navigate chat by topic",
                 "c2GSIl": "NEW"
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -26,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-10T19:24:44.969494+00:00"
+    "timestamp": "2026-07-10T19:35:12.538530+00:00"
 }
