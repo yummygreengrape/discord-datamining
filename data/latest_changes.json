@@ -1,5 +1,5 @@
 {
-    "build_hash": "98fd871fdc26a825462b4f0cd4c3de9421d82b1e",
+    "build_hash": "4775d5729ab71f52cb7eba77c2946036c62e7867",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,22 +9,17 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-smag-wishlist-nitro-first-slot",
-            "kind": "user",
-            "timestamp": "2026-07-10T00:43:48Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+rg7Lp": "Busy",
+                "0tpZJ0": "AFK",
+                "7YL3BQ": "Chilling",
+                "LTAf2V": "Set your status",
+                "LkY/of": "Gaming",
+                "jDZFFY": "Down to Chat"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -34,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-10T00:50:46.232717+00:00"
+    "timestamp": "2026-07-10T01:41:54.242744+00:00"
 }
