@@ -1,8 +1,19 @@
 {
-    "build_hash": "2c7efdeb7c5907aac159c089272832f34aabca35",
+    "build_hash": "e3baa4103a5e0e96f932e04706d5407ae32b16e3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-reward-claim",
+            "kind": "user",
+            "timestamp": "2026-07-10T21:56:25Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-10T21:49:18.859219+00:00"
+    "timestamp": "2026-07-10T21:59:41.551336+00:00"
 }
