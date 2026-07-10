@@ -1,5 +1,5 @@
 {
-    "build_hash": "2a87d111a677fd4c05413afe5f11242fbeee7337",
+    "build_hash": "615a4dede1125750f0245fc43f274ee447131fc4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,51 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enableMarketing"
+            ],
+            "default_config": {
+                "enableMarketing": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-autoclipping-marketing",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableMarketing": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enableMarketing"
+            ],
+            "default_config": {
+                "enableMarketing": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-autoclipping-marketing",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableMarketing": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +65,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-10T02:22:51.973876+00:00"
+    "timestamp": "2026-07-10T05:15:55.838037+00:00"
 }
