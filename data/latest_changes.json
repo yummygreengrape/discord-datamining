@@ -1,5 +1,5 @@
 {
-    "build_hash": "c65c9d9eac725a7892c5a7f31d3d789888c0295c",
+    "build_hash": "0a09508c0f35b4bbb6974e6d313814e03f7808ef",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,24 +9,10 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-shop-this-look",
-            "kind": "user",
-            "timestamp": "2026-07-10T17:43:08Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "xNdRDO": "Shop this Look"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -36,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-10T17:51:35.883795+00:00"
+    "timestamp": "2026-07-10T18:12:11.078871+00:00"
 }
