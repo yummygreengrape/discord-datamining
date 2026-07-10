@@ -1039,7 +1039,14 @@
     ],
     "notes": "All required JSON files parsed successfully; current-run analysis/report scan found no private paths, parser logic, tokens, SEO filler, or overclaim fix wording; git diff --check passed."
   },
-  "commits": [],
+  "commits": [
+    {
+      "hash": "ad8ff32",
+      "message": "Add string context interpretations for July 10 strings",
+      "pushed": true,
+      "pushed_at": "2026-07-10T09:13:51.634996Z"
+    }
+  ],
   "latest_changes": {
     "string_context_added": false,
     "keys": [],
@@ -1062,9 +1069,10 @@
     ]
   },
   "publish": {
-    "status": "pending",
+    "status": "pushed",
     "remote": "origin",
     "branch": "main",
-    "notes": "Publish status is reconciled after commit and push."
+    "pushed_at": "2026-07-10T09:13:51.634996Z",
+    "notes": "Data/report commit was pushed before this metadata reconciliation commit."
   }
 }

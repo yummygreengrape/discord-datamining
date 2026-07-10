@@ -127,4 +127,6 @@ Passed at 2026-07-10T09:12:42.435529Z: JSON validation for public web/latest/rep
 
 ## Publish
 
-- Pending commit/push from nested repo.
+- Data/report commit: `ad8ff32`
+- Push: succeeded to `origin/main` at 2026-07-10T09:13:51.634996Z
+- Metadata reconciliation: this report records the pushed data commit.
