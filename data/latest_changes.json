@@ -1,26 +1,86 @@
 {
-    "build_hash": "e3baa4103a5e0e96f932e04706d5407ae32b16e3",
+    "build_hash": "8397942ab29d23eba718c72947f867bfc406ae94",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-quest-home-reward-claim",
-            "kind": "user",
-            "timestamp": "2026-07-10T21:56:25Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "showPlayInstantlyLabel"
+            ],
+            "default_config": {
+                "enabled": false,
+                "showPlayInstantlyLabel": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-quest-bar-secondary-cta",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-07-10T22:13:34Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "showPlayInstantlyLabel": false
+                },
+                "1": {
+                    "enabled": true,
+                    "showPlayInstantlyLabel": false
+                },
+                "2": {
+                    "enabled": true,
+                    "showPlayInstantlyLabel": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "showPlayInstantlyLabel"
+            ],
+            "default_config": {
+                "enabled": false,
+                "showPlayInstantlyLabel": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-quest-bar-secondary-cta",
+            "kind": "user",
+            "timestamp": "2026-07-10T22:13:34Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "showPlayInstantlyLabel": false
+                },
+                "1": {
+                    "enabled": true,
+                    "showPlayInstantlyLabel": false
+                },
+                "2": {
+                    "enabled": true,
+                    "showPlayInstantlyLabel": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -33,5 +93,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-10T21:59:41.551336+00:00"
+    "timestamp": "2026-07-10T22:20:16.414322+00:00"
 }
