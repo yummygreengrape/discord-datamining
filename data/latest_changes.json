@@ -1,5 +1,5 @@
 {
-    "build_hash": "a6ce2f65ff5bbbf4d178cc0694443c2909f60907",
+    "build_hash": "bd596e40bb87f2083e6ccba9cefabc2c0d206f3e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "AVkYMx": "Personal"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-10T20:15:39.743204+00:00"
+    "timestamp": "2026-07-10T20:26:04.901327+00:00"
 }
