@@ -1,5 +1,5 @@
 {
-    "build_hash": "615a4dede1125750f0245fc43f274ee447131fc4",
+    "build_hash": "c8fe3736e4dfe93244c5f33d80ab6744026e6f0d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,56 +8,20 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enableMarketing"
-            ],
-            "default_config": {
-                "enableMarketing": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-autoclipping-marketing",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableMarketing": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enableMarketing"
-            ],
-            "default_config": {
-                "enableMarketing": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-autoclipping-marketing",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableMarketing": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
-            "modified": {}
+            "deleted": {
+                "jDZFFY": "Down to Chat"
+            },
+            "modified": {
+                "+rg7Lp": {
+                    "new_value": "Working",
+                    "old_value": "Busy"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -65,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-10T05:15:55.838037+00:00"
+    "timestamp": "2026-07-10T06:58:00.691354+00:00"
 }
