@@ -1,5 +1,5 @@
 {
-    "build_hash": "26ad24d7e294689eb90c0aa87d3b1bcaa7f25d2d",
+    "build_hash": "56ffbdb3087ed2ef54c844b8b45170b65b0122e6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -17,10 +17,69 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "6Ic4Ev": "더 많은 옵션",
+                "7iRs51": "좋아요",
+                "AVkYMx": "개인용",
+                "c2GSIl": "신규",
+                "uNGhdg": "싫어요"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "+sThav": {
+                    "new_value": "{hours}시간",
+                    "old_value": "{hours}"
+                },
+                "0JYT98": {
+                    "new_value": "{count}개 음향 숨기기",
+                    "old_value": "{count} 숨기기"
+                },
+                "8JRFyZ": {
+                    "new_value": "{count}개 아이템 더 보기",
+                    "old_value": "{count} 더 보기"
+                },
+                "9PA6uj": {
+                    "new_value": "스포일러 채널에 GIF 이미지를 보냈어요",
+                    "old_value": "스포일러 채널에 GIF 파일을 보냈어요"
+                },
+                "BNS5zl": {
+                    "new_value": "오늘 만료되기 전에 {boostCount}개의 부스트를 추가해서 계속 활성 상태로 유지하세요.",
+                    "old_value": "오늘 만료되기 전에 {boostCount}를 추가해서 계속 활성 상태로 유지하세요."
+                },
+                "EPkGyE": {
+                    "new_value": "{time} 시간동안 플레이 중",
+                    "old_value": "{time} {time}동안 플레이 중"
+                },
+                "KxO2Yl": {
+                    "new_value": "동영상을 전송했어요",
+                    "old_value": "영상 전송 완료"
+                },
+                "PX3Ogd": {
+                    "new_value": "{cooldownMonths}개월마다 한 번만 {premiumGroupProductName}에 참가할 수 있어요.",
+                    "old_value": "{cooldownMonths}마다 한 번만 {premiumGroupProductName}에 참가할 수 있어요."
+                },
+                "YjSsdH": {
+                    "new_value": "{primaryName} 플랜에서 {premiumGroupProductName} 특전을 잠금 해제하도록 초대받았어요. 수락하면 현재 구독이 일할 계산 없이 즉시 종료돼요. {cooldownMonths}개월마다 한 번만 {premiumGroupProductName}에 가입할 수 있어요.",
+                    "old_value": "{primaryName} 플랜에서 {premiumGroupProductName} 특전을 잠금 해제하도록 초대받았어요. 수락하면 현재 구독이 일할 계산 없이 즉시 종료돼요. {cooldownMonths}마다 한 번만 {premiumGroupProductName}에 가입할 수 있어요."
+                },
+                "Yr1ogl": {
+                    "new_value": "부스트 {boostCount}개만 더 있으면 모두가 {perkName} 특전을 잠금 해제할 수 있어요.",
+                    "old_value": "{boostCount} 있으면 모두가 {perkName} 특전을 잠금 해제할 수 있어요."
+                },
+                "cfE8Oh": {
+                    "new_value": "{days}일 후에 더 많은 Orbs가 찾아올 거예요!",
+                    "old_value": "{days} 후에 더 많은 Orbs가 찾아올 거예요!"
+                },
+                "h1i+H8": {
+                    "new_value": "{cooldownMonths}개월마다 한 번만 {premiumGroupProductName}에 참가할 수 있어요.",
+                    "old_value": "{cooldownMonths}마다 한 번만 {premiumGroupProductName}에 참가할 수 있어요."
+                },
+                "nYvQ07": {
+                    "new_value": "{count}개의 동영상을 전송했어요",
+                    "old_value": "영상 {count}개 전송 완료"
+                }
+            }
         }
     },
-    "timestamp": "2026-07-10T23:12:00.952256+00:00"
+    "timestamp": "2026-07-10T23:32:47.963303+00:00"
 }
