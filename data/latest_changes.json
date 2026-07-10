@@ -1,5 +1,5 @@
 {
-    "build_hash": "bd596e40bb87f2083e6ccba9cefabc2c0d206f3e",
+    "build_hash": "46bc43a632a725f35ce11c754f7ed2a35d3c8b1f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "AVkYMx": "Personal"
+                "GcEkAP": "Unlock a Server Tag with Boosts",
+                "yo0g7X": "Let your members represent this server everywhere on Discord."
             },
             "deleted": {},
             "modified": {}
@@ -24,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-10T20:26:04.901327+00:00"
+    "timestamp": "2026-07-10T20:46:46.788480+00:00"
 }
