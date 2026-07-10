@@ -1,5 +1,5 @@
 {
-    "build_hash": "347137d844ae3dd864d033fbd461e3e414c05653",
+    "build_hash": "98fd871fdc26a825462b4f0cd4c3de9421d82b1e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-smag-wishlist-nitro-first-slot",
+            "kind": "user",
+            "timestamp": "2026-07-10T00:43:48Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-10T00:29:57.168228+00:00"
+    "timestamp": "2026-07-10T00:50:46.232717+00:00"
 }
