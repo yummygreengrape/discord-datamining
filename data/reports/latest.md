@@ -131,4 +131,4 @@
 - forbidden fallback phrase 검색: passed
 - public report 민감정보 검색: passed
 - git diff --check: passed
-- commit/push: pending
+- commit/push: passed (`19883853` pushed to `origin/main`; metadata recorded by follow-up commit)

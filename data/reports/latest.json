@@ -957,14 +957,15 @@
   "validations": {
     "json_validity": "passed: data/history.json, data/latest_changes.json, public web JSON, and report JSON parsed successfully",
     "forbidden_fallback_phrase_search": "passed: no forbidden generic fallback phrases found in touched public data/report files",
-    "report_sensitivity_search": "passed: no token/secret/authorization/cookie/private-path terms found in public report files",
+    "report_sensitivity_search": "passed: no sensitive credential terms or private local paths found in public report files",
     "git_diff_check": "passed: git diff --check returned clean",
     "notes": "discord-archive.com, parser code, and new_arki2 were not modified, so build/compile checks for those projects were not required."
   },
   "commits": {
-    "data_commit": null,
-    "report_publish_commit": null,
-    "pushed": false,
-    "notes": "Commit and push results are filled after validation."
+    "data_commit": "1988385396ac4b0dcf3b8b13dd48fa37e70f6836",
+    "report_publish_commit": "recorded by follow-up commit after this metadata update",
+    "pushed": true,
+    "remote": "origin/main",
+    "notes": "Data and report files were committed and pushed successfully. This metadata update is committed separately because the first commit hash is only known after commit."
   }
 }
