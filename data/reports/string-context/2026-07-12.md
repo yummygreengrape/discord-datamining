@@ -88,6 +88,8 @@
 
 ## Publish
 
-- Status: pending
-- Pushed: False
-- Commit: pending
+- Status: pushed
+- Pushed: True
+- Pushed at: 2026-07-12T09:11:51.107042Z
+- Commit: `f8e5c5d4` Add string context interpretations for July 12 strings
+- Notes: Report publish metadata is committed by a follow-up commit after the data/report publish commit.
