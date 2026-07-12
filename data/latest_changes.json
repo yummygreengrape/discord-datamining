@@ -1,5 +1,5 @@
 {
-    "build_hash": "eabac4edf27abcde81acf8ac28badbc1b30b4f2c",
+    "build_hash": "22ded246e51f137f6e4b22903fd38c06a1837bb8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,14 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "5yWXmT": "Choose the option that works best for you.",
+                "ARmJ0M": "Use a driver’s license, passport, or other government ID.",
+                "NeVlw/": "Scan your ID",
+                "eZvwAe": "How would you like to verify your age?",
+                "fm7qBC": "Usually fastest and totally automatic. If we can’t confirm your age, you can scan your ID instead.",
+                "rgXXcW": "Take a video selfie"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-11T14:33:18.494225+00:00"
+    "timestamp": "2026-07-12T22:33:51.222370+00:00"
 }
