@@ -562,7 +562,15 @@
       }
     ]
   },
-  "commits": [],
+  "commits": [
+    {
+      "hash": "f8e5c5d4",
+      "full_hash": "f8e5c5d45b34ee0da5f88f4917dbf46b02399a4a",
+      "message": "Add string context interpretations for July 12 strings",
+      "pushed": true,
+      "pushed_at": "2026-07-12T09:11:51.107042Z"
+    }
+  ],
   "latest_changes": {
     "build_hash": "eabac4edf27abcde81acf8ac28badbc1b30b4f2c",
     "string_context_added": false,
@@ -579,8 +587,10 @@
     "data/reports/string-context/latest.md"
   ],
   "publish": {
-    "status": "pending",
-    "pushed": false,
-    "remote": "origin/main"
+    "status": "pushed",
+    "pushed": true,
+    "remote": "origin/main",
+    "pushed_at": "2026-07-12T09:11:51.107042Z",
+    "notes": "Report publish metadata is committed by a follow-up commit after the data/report publish commit."
   }
 }
