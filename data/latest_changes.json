@@ -1,12 +1,104 @@
 {
-    "build_hash": "eeca42855f0852b113fb36f094fe00579bc84f21",
+    "build_hash": "a9526cea88f0e63c80812c57d5b25107a719cb4c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "preferNative"
+            ],
+            "default_config": {
+                "enabled": false,
+                "preferNative": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-arborium-highlight",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "preferNative": false
+                },
+                "2": {
+                    "enabled": true,
+                    "preferNative": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "preferNative"
+            ],
+            "default_config": {
+                "enabled": false,
+                "preferNative": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-arborium-highlight",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "preferNative": false
+                },
+                "2": {
+                    "enabled": true,
+                    "preferNative": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -14,12 +106,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "jVai8N": {
-                    "new_value": "Server Bio",
-                    "old_value": "Server bio"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -27,5 +114,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-13T20:07:39.281520+00:00"
+    "timestamp": "2026-07-13T20:18:06.227285+00:00"
 }
