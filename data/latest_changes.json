@@ -1,5 +1,5 @@
 {
-    "build_hash": "8641922986d4369bcb1157a99941afa7d46c4208",
+    "build_hash": "f434adea201f1f4be270b9dcad318b8db367681e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "pdipXI": "Learn more about LFG Channels"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-13T20:39:02.548145+00:00"
+    "timestamp": "2026-07-13T20:49:31.156723+00:00"
 }
