@@ -1,5 +1,5 @@
 {
-    "build_hash": "4a42e282ae57ac87ccaa32ea498a681cdaa4514e",
+    "build_hash": "c56741dae0c75e949e4650f639c38cadeba28a18",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "jJgRaH": "We couldn’t start age verification. Please close this window and try again."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-13T08:24:08.882270+00:00"
+    "timestamp": "2026-07-13T08:54:56.850102+00:00"
 }
