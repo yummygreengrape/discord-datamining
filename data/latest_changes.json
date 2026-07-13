@@ -1,5 +1,5 @@
 {
-    "build_hash": "594f1cbe4b0d45e24943265d3163d175feab7649",
+    "build_hash": "03846badf3f67eb2b19bc4d447b25f2d3c3e3447",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,51 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-04-consistent-profiles",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-04-consistent-profiles",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -65,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-13T21:10:34.160235+00:00"
+    "timestamp": "2026-07-13T21:21:03.049155+00:00"
 }
