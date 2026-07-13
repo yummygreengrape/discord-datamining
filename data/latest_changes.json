@@ -1,5 +1,5 @@
 {
-    "build_hash": "afbf769e5d30cf203d6e9d0f605c6449902ef8fd",
+    "build_hash": "b518821a4d9e656763463daef12835e77412fe13",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,14 +13,30 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "7NBgIX": "[{username}]({usernameOnClick}) added a new emoji.",
+                "DzUzkQ": "added a new emoji, {emoji}",
+                "IihHB0": "$[{username}](usernameHook) added a new emoji, {emojiPreview} {emojiName}",
+                "SYlkPk": "[{username}]({usernameOnClick}) added a new emoji, {emojiPreview} :[{emojiName}]({emojiOnClick}):",
+                "k6Jc9Y": "$[{username}](usernameHook) added a new emoji.",
+                "lcP/KC": "added a new emoji.",
+                "z5Rnl8": "React with {renderedEmoji}"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "7NBgIX": "[{username}]({usernameOnClick}) 님이 새로운 이모지를 추가하셨어요.",
+                "DzUzkQ": "님이 새로운 이모지({emoji})를 추가했어요!",
+                "IihHB0": "usernameHookHook{username} 님이 새로운 이모지({emojiPreview} {emojiName})를 추가했어요!",
+                "SYlkPk": "[{username}]({usernameOnClick}) 님이 새로운 이모지({emojiPreview} :[{emojiName}]({emojiOnClick}))를 추가했어요!",
+                "k6Jc9Y": "usernameHookHook{username} 님이 새로운 이모지를 추가하셨어요.",
+                "lcP/KC": "님이 새로운 이모지를 추가했어요.",
+                "z5Rnl8": "{renderedEmoji} 이모지로 반응하기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-07-13T18:33:56.988545+00:00"
+    "timestamp": "2026-07-13T18:44:24.584072+00:00"
 }
