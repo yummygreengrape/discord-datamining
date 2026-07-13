@@ -1,5 +1,5 @@
 {
-    "build_hash": "fc7a57caa717e71321748675045142eddb788ff1",
+    "build_hash": "f9e05bf89902437a3b5e83f101dadf2fc7ed144d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "GcPSts": "You don't have access to this perk at the moment",
-                "yxMJHw": "This perk becomes available when your paid subscription starts"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-13T22:44:19.151423+00:00"
+    "timestamp": "2026-07-13T22:55:30.929994+00:00"
 }
