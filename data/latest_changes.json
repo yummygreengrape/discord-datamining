@@ -1,108 +1,18 @@
 {
-    "build_hash": "a09471340a53ac341e8443dfe9a90a15ff898548",
-    "deleted_api_endpoints": [
-        {
-            "name": "ENDPOINT_PARTNER_SDK_APPLICATIONS_STOREFRONT",
-            "status": "deleted",
-            "url": "/partner-sdk/applications/:param/storefront/:param"
-        },
-        {
-            "name": "ENDPOINT_PARTNER_SDK_APPLICATIONS_STOREFRONTS_ALL",
-            "status": "deleted",
-            "url": "/partner-sdk/applications/:param/storefronts/all"
-        }
-    ],
+    "build_hash": "f806bc1b2487b037e2fad6b2983ce30150f40b34",
+    "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
-    "modified_api_endpoints": [
-        {
-            "name": "SOCIAL_LAYER_STOREFRONTS_ALL",
-            "old_url": "/partner-sdk/applications/:param/storefronts/all",
-            "status": "modified",
-            "url": "/partner-sdk/applications/:param/storefronts/preview"
-        },
-        {
-            "name": "SOCIAL_LAYER_STOREFRONT_BY_ID",
-            "old_url": "/partner-sdk/applications/:param/storefront/:param",
-            "status": "modified",
-            "url": "/partner-sdk/applications/:param/storefront/:param/preview"
-        }
-    ],
+    "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_PARTNER_SDK_APPLICATIONS_STOREFRONTS_PREVIEW",
-            "status": "added",
-            "url": "/partner-sdk/applications/:param/storefronts/preview"
-        },
-        {
-            "name": "ENDPOINT_PARTNER_SDK_APPLICATIONS_STOREFRONT_PREVIEW",
-            "status": "added",
-            "url": "/partner-sdk/applications/:param/storefront/:param/preview"
-        }
-    ],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enableAltGateway"
-            ],
-            "default_config": {
-                "enableAltGateway": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-aws-gateway",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-07-13T21:44:26Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enableAltGateway": false
-                },
-                "2": {
-                    "enableAltGateway": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enableAltGateway"
-            ],
-            "default_config": {
-                "enableAltGateway": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-aws-gateway",
-            "kind": "user",
-            "timestamp": "2026-07-13T21:44:26Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enableAltGateway": false
-                },
-                "2": {
-                    "enableAltGateway": true
-                }
-            }
-        }
-    ],
+    "new_api_endpoints": [],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "qfBFn4": "Server activity by hour of day"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -112,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-13T21:51:50.964296+00:00"
+    "timestamp": "2026-07-13T22:02:19.911042+00:00"
 }
