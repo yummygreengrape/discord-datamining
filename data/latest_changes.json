@@ -1,5 +1,5 @@
 {
-    "build_hash": "947016cedd2969ed2ad96c2157c0dff05a8ee3c4",
+    "build_hash": "9bf5837bfe1bea7584af29cb5dd507c6b3eb8947",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "l9n4QZ": {
+                    "new_value": "Your server has the perks of every level, plus some additional ones. Any other perks still need to be purchased with boosts",
+                    "old_value": "Your server has the perks of every level. Additional perks still need to be purchased with boosts."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-14T22:35:49.983829+00:00"
+    "timestamp": "2026-07-14T22:46:20.084958+00:00"
 }
