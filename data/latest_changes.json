@@ -1,5 +1,5 @@
 {
-    "build_hash": "aa1f5b3d1bc82ee13d8e90b05706751e3099adb0",
+    "build_hash": "9b7b9f95461cf4991e980659f597fcd4a5e821ac",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,22 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+ED/nf": "Lost to time",
+                "6zFA/T": "Very, very early",
+                "wzZHKl": "iykyk"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "WDhIz2": {
+                    "new_value": "Date unlocked",
+                    "old_value": "Date Unlocked"
+                },
+                "wYaDmz": {
+                    "new_value": "Level unlocked",
+                    "old_value": "Level Unlocked"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-14T15:58:31.145653+00:00"
+    "timestamp": "2026-07-14T16:39:30.504962+00:00"
 }
