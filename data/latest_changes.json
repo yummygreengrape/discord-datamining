@@ -1,72 +1,8 @@
 {
-    "build_hash": "feab497eacd7a0a048ffdf5fa9d57731ab4b22dd",
+    "build_hash": "b1d1b0846806f7624db439094706bdab9a97e199",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-quest-tile-cta-refactor",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-07-14T14:28:37Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-quest-tile-cta-refactor",
-            "kind": "user",
-            "timestamp": "2026-07-14T14:28:37Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-desktop-live-quest-external-link",
-            "kind": "user",
-            "timestamp": "2026-07-14T14:28:37Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -86,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-14T14:35:51.115995+00:00"
+    "timestamp": "2026-07-14T14:46:22.862348+00:00"
 }
