@@ -1,5 +1,5 @@
 {
-    "build_hash": "584a6050527243215ca24f4e12c572a4f522b685",
+    "build_hash": "90afbe9fe3dc967558c761dff695678e0f8b2ce8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,12 +14,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "iFXcjn": {
-                    "new_value": "**Nitro Exclusive: Purchase {applicationName} items with Orbs!** Ends {endDate}.",
-                    "old_value": "**Nitro Exclusive: Purchase {applicationName} items with Orbs!** Ends {endDate}"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -27,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-14T19:27:52.103145+00:00"
+    "timestamp": "2026-07-14T19:38:17.233817+00:00"
 }
