@@ -1,5 +1,5 @@
 {
-    "build_hash": "04b762d7ca2ca6972f4b3296c0300305c8b79217",
+    "build_hash": "846c9809079a7663325493d6119cfaeac3b32a54",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "KiDDCk": "Must be {max} or less.",
+                "ykmNSo": "Must be {min} or more."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-14T23:07:15.413831+00:00"
+    "timestamp": "2026-07-14T23:27:54.323099+00:00"
 }
