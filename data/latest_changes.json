@@ -1,5 +1,5 @@
 {
-    "build_hash": "e391da767632ef31270b9ef97e0567d328572f4f",
+    "build_hash": "35d30d090e548a6217ae56de1830b89ba5f110f9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+nPHMl": "Boosts are a recurring subscription. Cancel anytime in your settings.",
-                "jHqrJW": "Nitro is a recurring subscription. Cancel anytime in your settings."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-14T18:04:17.616194+00:00"
+    "timestamp": "2026-07-14T18:25:04.626005+00:00"
 }
