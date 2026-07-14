@@ -670,7 +670,15 @@
       }
     ]
   },
-  "commits": [],
+  "commits": [
+    {
+      "hash": "14d8fae9",
+      "full_hash": "14d8fae90f354de3e3c96fbe6d258460b07f4f7d",
+      "message": "Add July 14 string context interpretations",
+      "pushed": true,
+      "pushed_at": "2026-07-14T09:15:38.511220Z"
+    }
+  ],
   "latest_changes": {
     "build_hash": "03b4c8d5e763e29546e9577009a2809225611ffa",
     "string_context_added": false,
@@ -687,10 +695,10 @@
     "data/reports/string-context/latest.md"
   ],
   "publish": {
-    "status": "pending",
-    "pushed": false,
+    "status": "pushed",
+    "pushed": true,
     "remote": "origin/main",
-    "pushed_at": null,
-    "notes": "Validation and publish metadata will be reconciled after the data/report commit is pushed."
+    "pushed_at": "2026-07-14T09:15:38.511220Z",
+    "notes": "Report publish metadata is committed by a follow-up commit after the data/report publish commit."
   }
 }
