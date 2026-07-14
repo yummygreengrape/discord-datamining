@@ -100,6 +100,8 @@
 
 ## Publish
 
-- Status: pending
-- Pushed: False
-- Notes: Validation and publish metadata will be reconciled after the data/report commit is pushed.
+- Status: pushed
+- Pushed: True
+- Pushed at: 2026-07-14T09:15:38.511220Z
+- Commit: `14d8fae9` Add July 14 string context interpretations
+- Notes: Report publish metadata is committed by a follow-up commit after the data/report publish commit.
