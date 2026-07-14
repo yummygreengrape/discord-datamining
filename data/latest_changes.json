@@ -1,5 +1,5 @@
 {
-    "build_hash": "9319137ab150f5212d1ddf36eaf059275429c660",
+    "build_hash": "584a6050527243215ca24f4e12c572a4f522b685",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,58 +8,18 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-autoclipping-default-override",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-07-14T19:13:53Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-autoclipping-default-override",
-            "kind": "user",
-            "timestamp": "2026-07-14T19:13:53Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "iFXcjn": {
+                    "new_value": "**Nitro Exclusive: Purchase {applicationName} items with Orbs!** Ends {endDate}.",
+                    "old_value": "**Nitro Exclusive: Purchase {applicationName} items with Orbs!** Ends {endDate}"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -67,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-14T19:17:24.507902+00:00"
+    "timestamp": "2026-07-14T19:27:52.103145+00:00"
 }
