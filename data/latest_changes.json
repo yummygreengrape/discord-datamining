@@ -1,5 +1,5 @@
 {
-    "build_hash": "c169720bbc3f2cf94a5c7de049dc71f8506054c9",
+    "build_hash": "072fe5b86730da43b3270bb876171f2fbfde519d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Zr0Z4K": "Claim your existing purchase in-game to buy this again."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-14T17:43:11.722095+00:00"
+    "timestamp": "2026-07-14T17:53:48.187885+00:00"
 }
