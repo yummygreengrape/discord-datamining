@@ -1,20 +1,8 @@
 {
-    "build_hash": "a9e63c8d0d6537de62025fb009c1719a0e41cac2",
+    "build_hash": "6fdbc934d0fda9ea1f13f3b873c1ff2572721a35",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "id": "2026-03_spoiler_channel",
-            "kind": "guild",
-            "timestamp": "2026-07-14T00:12:40Z",
-            "title": "Spoiler Channel",
-            "treatments": [
-                "Control",
-                "Treatment 1: Enable spoiler channel setting"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -34,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-14T00:18:37.683129+00:00"
+    "timestamp": "2026-07-14T00:29:05.453104+00:00"
 }
