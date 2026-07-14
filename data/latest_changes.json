@@ -1,5 +1,5 @@
 {
-    "build_hash": "9a068eba8598e4072ade1cfc5710ce71f1d999db",
+    "build_hash": "2eeeb5d4a9f4b85f2460a996abf5b16ae888085f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "D/wRWb": "Link Twitch to get subscriber roles and emoji.",
-                "TC0upt": "Link YouTube to get member roles."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-14T20:40:46.499179+00:00"
+    "timestamp": "2026-07-14T20:51:15.617039+00:00"
 }
