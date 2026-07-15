@@ -1,5 +1,5 @@
 {
-    "build_hash": "bc19467b52174e202ba31ee7c4bf3cdd01598031",
+    "build_hash": "198107e5fde017a3820adeb98110f1b88afbb7a3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+drfVi": "Dynamic",
+                "dCou7i": "Shows a random animation from a set every load"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-15T18:26:41.371881+00:00"
+    "timestamp": "2026-07-15T19:07:38.280407+00:00"
 }
