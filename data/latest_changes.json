@@ -1,5 +1,5 @@
 {
-    "build_hash": "db2c4891e6f20581b3c689276319a0fb49d04030",
+    "build_hash": "923b4b4edaa828ecba5ca74059a90a40ab365c7b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,10 +9,25 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-web-vitals-monitoring",
+            "kind": "user",
+            "timestamp": "2026-07-15T19:17:21Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+drfVi": "Dynamic",
+                "LcefAL": "Boost {server}"
+            },
             "deleted": {},
             "modified": {
                 "dCou7i": {
@@ -27,5 +42,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-15T19:39:55.107580+00:00"
+    "timestamp": "2026-07-15T19:50:41.558050+00:00"
 }
