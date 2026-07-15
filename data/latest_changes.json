@@ -1,5 +1,5 @@
 {
-    "build_hash": "c7042317e7d39efbea4fc196479edc628a266bd1",
+    "build_hash": "e04b1461c6d60fcb32e9aa5048376459212cdb3b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,169 +8,11 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "autoScrollDelayMs",
-                "ctaTimerMilliSeconds",
-                "enabled",
-                "peekFraction",
-                "scrollAffordanceVariant",
-                "verticalScrollEnabled"
-            ],
-            "default_config": {
-                "autoScrollDelayMs": 3000,
-                "ctaTimerMilliSeconds": 0,
-                "enabled": false,
-                "peekFraction": 0,
-                "scrollAffordanceVariant": "none",
-                "verticalScrollEnabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-bounties-vertical-scroll",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-07-15T17:51:39Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5"
-            ],
-            "variations": {
-                "1": {
-                    "autoScrollDelayMs": 3000,
-                    "ctaTimerMilliSeconds": 0,
-                    "enabled": true,
-                    "peekFraction": 0,
-                    "scrollAffordanceVariant": "none",
-                    "verticalScrollEnabled": false
-                },
-                "2": {
-                    "autoScrollDelayMs": 3000,
-                    "ctaTimerMilliSeconds": 0,
-                    "enabled": true,
-                    "peekFraction": 0,
-                    "scrollAffordanceVariant": "none",
-                    "verticalScrollEnabled": true
-                },
-                "3": {
-                    "autoScrollDelayMs": 3000,
-                    "ctaTimerMilliSeconds": 0,
-                    "enabled": true,
-                    "peekFraction": 0,
-                    "scrollAffordanceVariant": "indicator",
-                    "verticalScrollEnabled": true
-                },
-                "4": {
-                    "autoScrollDelayMs": 3000,
-                    "ctaTimerMilliSeconds": 0,
-                    "enabled": true,
-                    "peekFraction": 0,
-                    "scrollAffordanceVariant": "auto",
-                    "verticalScrollEnabled": true
-                },
-                "5": {
-                    "autoScrollDelayMs": 3000,
-                    "ctaTimerMilliSeconds": 0,
-                    "enabled": true,
-                    "peekFraction": 0.12,
-                    "scrollAffordanceVariant": "peek",
-                    "verticalScrollEnabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "autoScrollDelayMs",
-                "ctaTimerMilliSeconds",
-                "enabled",
-                "peekFraction",
-                "scrollAffordanceVariant",
-                "verticalScrollEnabled"
-            ],
-            "default_config": {
-                "autoScrollDelayMs": 3000,
-                "ctaTimerMilliSeconds": 0,
-                "enabled": false,
-                "peekFraction": 0,
-                "scrollAffordanceVariant": "none",
-                "verticalScrollEnabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-bounties-vertical-scroll",
-            "kind": "user",
-            "timestamp": "2026-07-15T17:51:39Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5"
-            ],
-            "variations": {
-                "1": {
-                    "autoScrollDelayMs": 3000,
-                    "ctaTimerMilliSeconds": 0,
-                    "enabled": true,
-                    "peekFraction": 0,
-                    "scrollAffordanceVariant": "none",
-                    "verticalScrollEnabled": false
-                },
-                "2": {
-                    "autoScrollDelayMs": 3000,
-                    "ctaTimerMilliSeconds": 0,
-                    "enabled": true,
-                    "peekFraction": 0,
-                    "scrollAffordanceVariant": "none",
-                    "verticalScrollEnabled": true
-                },
-                "3": {
-                    "autoScrollDelayMs": 3000,
-                    "ctaTimerMilliSeconds": 0,
-                    "enabled": true,
-                    "peekFraction": 0,
-                    "scrollAffordanceVariant": "indicator",
-                    "verticalScrollEnabled": true
-                },
-                "4": {
-                    "autoScrollDelayMs": 3000,
-                    "ctaTimerMilliSeconds": 0,
-                    "enabled": true,
-                    "peekFraction": 0,
-                    "scrollAffordanceVariant": "auto",
-                    "verticalScrollEnabled": true
-                },
-                "5": {
-                    "autoScrollDelayMs": 3000,
-                    "ctaTimerMilliSeconds": 0,
-                    "enabled": true,
-                    "peekFraction": 0.12,
-                    "scrollAffordanceVariant": "peek",
-                    "verticalScrollEnabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "34GMP9": "Game server hosting",
-                "8HAQUb": "Get discounts on all game servers with Nitro",
-                "GJNQYz": "Modpack Installer",
-                "NurDjc": "View Plans",
-                "NzrGEi": "99.9% Uptime",
-                "SXQd3c": "Pick a game, spin up a server, and start playing. Subscribe in the Shop!",
-                "pTinR2": "Backups",
-                "s0N1nM": "DDoS Protection",
-                "xMpGuO": "Play multiplayer games with your friends in just minutes, with simple setup and full admin panel control.",
-                "y85Eg9": "Your game server hosting subscriptions."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -180,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-15T17:55:22.872505+00:00"
+    "timestamp": "2026-07-15T18:05:51.736308+00:00"
 }
