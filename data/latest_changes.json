@@ -1,5 +1,5 @@
 {
-    "build_hash": "50c4eb25da817fa70bc62ad3a7b80f1175b52a82",
+    "build_hash": "6422cbcea5faae234e45c5b1b5a38ec404d5d9ea",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "QfcKZ5": "Originally {orbAmount} orbs",
-                "ckguyq": "Price: {orbAmount} orbs after {discountPercentage}% discount"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-15T00:51:50.329008+00:00"
+    "timestamp": "2026-07-15T01:12:30.482394+00:00"
 }
