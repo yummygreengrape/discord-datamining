@@ -1,5 +1,5 @@
 {
-    "build_hash": "fc4f359af5d51ca6464a4a5a2bb2e59a09d97ba6",
+    "build_hash": "03155c5358a9ebf2390b18d5ff420a0d90c6d446",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "dCou7i": {
+                    "new_value": "This item shows a random animation each visit",
+                    "old_value": "Selects an animation at random every profile visit"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-15T20:01:10.607859+00:00"
+    "timestamp": "2026-07-15T20:11:38.772544+00:00"
 }
