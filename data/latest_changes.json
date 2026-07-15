@@ -1,12 +1,104 @@
 {
-    "build_hash": "594068cee64cdc78dd6342f941a0a22628e0a2c2",
+    "build_hash": "a46c8571c1a5998ce872da1778286f508bc14bc3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "showMutualFriendsNameplate"
+            ],
+            "default_config": {
+                "enabled": false,
+                "showMutualFriendsNameplate": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-04-consistent-profiles",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "showMutualFriendsNameplate": false
+                },
+                "2": {
+                    "enabled": true,
+                    "showMutualFriendsNameplate": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "showMutualFriendsNameplate"
+            ],
+            "default_config": {
+                "enabled": false,
+                "showMutualFriendsNameplate": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-04-consistent-profiles",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "showMutualFriendsNameplate": false
+                },
+                "2": {
+                    "enabled": true,
+                    "showMutualFriendsNameplate": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -22,5 +114,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-15T17:13:45.234095+00:00"
+    "timestamp": "2026-07-15T17:24:14.017165+00:00"
 }
