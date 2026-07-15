@@ -1,5 +1,5 @@
 {
-    "build_hash": "e9105cee2af8264ce0de43ce5d20e267f11c04ee",
+    "build_hash": "db2c4891e6f20581b3c689276319a0fb49d04030",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,14 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "LcefAL": "Boost {server}"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "dCou7i": {
+                    "new_value": "Selects an animation at random every profile visit",
+                    "old_value": "Shows a random animation from a set every load"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -24,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-15T19:28:41.665465+00:00"
+    "timestamp": "2026-07-15T19:39:55.107580+00:00"
 }
