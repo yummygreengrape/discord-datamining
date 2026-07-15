@@ -1,5 +1,5 @@
 {
-    "build_hash": "744dacd3a0c92c88decb8023687a27f7e4baaa83",
+    "build_hash": "736a2d2398b29c6ee9afa12362a6d5736a239769",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,71 +8,13 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-attachment-image-ladder",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-07-15T20:26:02Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-attachment-image-ladder",
-            "kind": "user",
-            "timestamp": "2026-07-15T20:26:02Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "dCou7i": {
-                    "new_value": "This item shows a random animation each visit",
-                    "old_value": "Selects an animation at random every profile visit"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -80,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-15T20:32:34.802468+00:00"
+    "timestamp": "2026-07-15T20:43:00.342352+00:00"
 }
