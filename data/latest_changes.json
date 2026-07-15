@@ -1,5 +1,5 @@
 {
-    "build_hash": "939e4649b6d8370dc5ac22ee0403eb9f160dab25",
+    "build_hash": "1b81ba5d2500fc4413cf85f5ed18c2f07ee95582",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "RTaZb4": "Includes {num, plural, one {# Boost} other {# Boosts}}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-15T16:32:09.141287+00:00"
+    "timestamp": "2026-07-15T16:52:49.020106+00:00"
 }
