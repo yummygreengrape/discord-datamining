@@ -1,5 +1,5 @@
 {
-    "build_hash": "ec745c2fa3d795b930d9ecd52c69529ef9a9070d",
+    "build_hash": "7f99b5bf6bcceea346fd84d2b8bfa7fecf743fce",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,33 +13,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "6JV39E": "Share this code with your guardian",
-                "ovecl/": "Share QR code to your guardian",
-                "pDByAB": "Connecting gives your guardian visibility into your activity in Family Center — and gives you full access to Discord. [Learn more]({link})",
-                "vELYWk": "Connect to a guardian to keep access to your Discord account"
-            },
-            "modified": {
-                "2O6ltn": {
-                    "new_value": "After connecting, your guardian will have visibility into your activity in Family Center. [Learn more]({link})",
-                    "old_value": "Connecting gives your guardian visibility into your activity in Family Center and gives you full access to Discord. [Learn more]({link})"
-                },
-                "aCUVfL": {
-                    "new_value": "Connect a guardian to your Discord account",
-                    "old_value": "Connect to a guardian to keep access to your account"
-                }
-            }
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "6JV39E": "이 코드를 보호자와 공유하세요",
-                "ovecl/": "QR 코드를 보호자와 공유하세요",
-                "pDByAB": "연결하면 보호자가 Family Center에서 회원님의 활동을 볼 수 있고, 회원님은 Discord를 완전히 이용할 수 있어요. [자세히 알아보기]({link})",
-                "vELYWk": "Discord 계정에 대한 액세스 권한을 유지하려면 보호자와 연결하세요"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-07-15T07:40:42.011569+00:00"
+    "timestamp": "2026-07-15T08:42:02.925749+00:00"
 }
