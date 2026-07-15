@@ -166,4 +166,4 @@
 - forbidden fallback phrase 검색: passed
 - public report 민감정보 검색: passed
 - git diff --check: passed
-- commit/push: validated; commit and push pending
+- commit/push: passed (`5c4e47b5` pushed to `origin/main`; metadata recorded by follow-up commit)
