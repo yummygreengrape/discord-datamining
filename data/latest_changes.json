@@ -1,5 +1,5 @@
 {
-    "build_hash": "198107e5fde017a3820adeb98110f1b88afbb7a3",
+    "build_hash": "e3f73d6b8ea905df08f4c173a9e255b8dafd0c2b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,14 +8,72 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "sampleRate"
+            ],
+            "default_config": {
+                "enabled": false,
+                "sampleRate": 0
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-web-vitals-monitoring",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-07-15T19:17:21Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "sampleRate": 0.05
+                },
+                "2": {
+                    "enabled": true,
+                    "sampleRate": 1
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "sampleRate"
+            ],
+            "default_config": {
+                "enabled": false,
+                "sampleRate": 0
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-web-vitals-monitoring",
+            "kind": "user",
+            "timestamp": "2026-07-15T19:17:21Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "sampleRate": 0.05
+                },
+                "2": {
+                    "enabled": true,
+                    "sampleRate": 1
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "+drfVi": "Dynamic",
-                "dCou7i": "Shows a random animation from a set every load"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +83,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-15T19:07:38.280407+00:00"
+    "timestamp": "2026-07-15T19:18:10.096051+00:00"
 }
