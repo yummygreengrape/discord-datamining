@@ -1,5 +1,5 @@
 {
-    "build_hash": "0f50f4a2c82d60a4234ba780163b356c252873cd",
+    "build_hash": "1ffbf910a3129d1ce2ccdbd3a32717544c5da900",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "qiUAeh": "Swipe up for more"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-15T23:32:11.033224+00:00"
+    "timestamp": "2026-07-15T23:42:39.287354+00:00"
 }
