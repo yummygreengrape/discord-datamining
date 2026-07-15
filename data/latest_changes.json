@@ -1,15 +1,228 @@
 {
-    "build_hash": "d834360c12db1403e5d59d24d40cdb728a2611a4",
+    "build_hash": "275a510a1b52bd8af01a7f78472dce35c8de4019",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "TN.v.GRADIENT",
+                "surface": "TN.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "Tg.v.GRADIENT",
+                "surface": "Tg.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "Tg.v.GRADIENT",
+                    "surface": "Tg.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tg.v.EXPRESSIVE",
+                    "surface": "Tg.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tg.v.GRADIENT",
+                    "surface": "Tg.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tg.v.GLOWING",
+                    "surface": "Tg.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tg.v.GLOWING",
+                    "surface": "Tg.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "TN.v.GRADIENT",
+                    "surface": "TN.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TN.v.EXPRESSIVE",
+                    "surface": "TN.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TN.v.GRADIENT",
+                    "surface": "TN.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TN.v.GLOWING",
+                    "surface": "TN.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TN.v.GLOWING",
+                    "surface": "TN.F.NONE"
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "TN.v.GRADIENT",
+                "surface": "TN.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "Tg.v.GRADIENT",
+                "surface": "Tg.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "Tg.v.GRADIENT",
+                    "surface": "Tg.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tg.v.EXPRESSIVE",
+                    "surface": "Tg.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tg.v.GRADIENT",
+                    "surface": "Tg.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tg.v.GLOWING",
+                    "surface": "Tg.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tg.v.GLOWING",
+                    "surface": "Tg.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "TN.v.GRADIENT",
+                    "surface": "TN.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TN.v.EXPRESSIVE",
+                    "surface": "TN.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TN.v.GRADIENT",
+                    "surface": "TN.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TN.v.GLOWING",
+                    "surface": "TN.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TN.v.GLOWING",
+                    "surface": "TN.F.NONE"
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "migrationKilled"
+            ],
+            "default_config": {
+                "migrationKilled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-reject-with-error-kill-switch",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-07-15T02:05:16Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "migrationKilled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "migrationKilled"
+            ],
+            "default_config": {
+                "migrationKilled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-reject-with-error-kill-switch",
+            "kind": "user",
+            "timestamp": "2026-07-15T02:05:16Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "migrationKilled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +235,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-15T01:22:58.800559+00:00"
+    "timestamp": "2026-07-15T02:14:08.566115+00:00"
 }
