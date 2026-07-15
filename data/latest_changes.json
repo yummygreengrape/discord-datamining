@@ -1,5 +1,5 @@
 {
-    "build_hash": "736a2d2398b29c6ee9afa12362a6d5736a239769",
+    "build_hash": "d42ba251924102ac4e0d4f9505fe201e736d9b9c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,10 +9,25 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-clips-secondary-entrypoints",
+            "kind": "user",
+            "timestamp": "2026-07-15T20:53:17Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+QNUov": "Initializing Clips Engine",
+                "Jc3hn1": "Clipping is disabled",
+                "YvJKD+": "Clips Actions"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-15T20:43:00.342352+00:00"
+    "timestamp": "2026-07-15T20:53:27.058667+00:00"
 }
