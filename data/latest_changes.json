@@ -1,5 +1,5 @@
 {
-    "build_hash": "d784f2405a4fb353cb566ef7e2f2cf1d662d72d2",
+    "build_hash": "f12ae6e72fd182e71fe6efcfcda5e243c0fa6ca9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,24 +9,10 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-collectibles-promotion-endpoint-reference",
-            "kind": "user",
-            "timestamp": "2026-07-15T23:56:50Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "hY8Ft1": "Offer Eligible"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -36,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-16T00:03:37.219483+00:00"
+    "timestamp": "2026-07-16T00:14:04.380084+00:00"
 }
