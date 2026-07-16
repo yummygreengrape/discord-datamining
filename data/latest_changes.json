@@ -1,5 +1,5 @@
 {
-    "build_hash": "9c773a9de38ee0b1b653d44dd29f7f9dd93ccb17",
+    "build_hash": "ee232f28158b74b6dc5ee8a8714577aa0f28bad5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "CoT7ML": "XBOX",
+                "ikuLkv": "PSN"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-16T19:36:27.824799+00:00"
+    "timestamp": "2026-07-16T19:46:56.102759+00:00"
 }
