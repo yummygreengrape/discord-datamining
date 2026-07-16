@@ -208,6 +208,8 @@
 
 ## Publish
 
-- Status: pending
-- Pushed: False
-- Notes: Validation passed; commit and push are pending.
+- Status: pushed
+- Pushed: True
+- Pushed at: 2026-07-16T09:19:38Z
+- Commit: `f2c661dc` Add July 16 string context interpretations
+- Notes: Report publish metadata is committed by a follow-up commit after the data/report publish commit.
