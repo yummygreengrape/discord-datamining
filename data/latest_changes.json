@@ -1,5 +1,5 @@
 {
-    "build_hash": "aec5b4c99b33c40976c669ebe628903662d0ce46",
+    "build_hash": "22377492717d110b3cdee468fb6aaef265ea447a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,120 +9,18 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-collectibles-promotion-endpoint-reference",
-            "kind": "user",
-            "timestamp": "2026-07-15T23:56:50Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "hY8Ft1": "Offer Eligible",
-                "qiUAeh": "Swipe up for more"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "+ED/nf": "시간 속에 잊혀지다",
-                "+tBsvs": "기기의 라이트 또는 다크 모드에 맞추어요.",
-                "0ki7+P": "이 청소년 자녀와 연결을 해제하면 자녀의 Discord 활동 정보에 대한 내 액세스 권한이 제거된다는 점을 이해했습니다.",
-                "5yWXmT": "가장 적합한 옵션을 선택하세요.",
-                "6zFA/T": "초창기 멤버",
-                "8bCGTO": "선택한 이모지: {name}",
-                "9kh9qq": "선택한 파일: {name}",
-                "ARmJ0M": "운전면허증, 여권 또는 기타 정부 발급 신분증을 사용하세요.",
-                "AYQq05": "{applicationName}을(를) 실행하고 게임 내에서 계정을 연결하세요.",
-                "BoiiWz": "서버가 1주간 서버 찾기 활동 요구 조건을 충족하지 못했어요. 4주 연속으로 조건을 통과하지 못하면 서버 찾기에서 자동으로 제거돼요.",
-                "ED4mGc": "서버가 3주 연속으로 서버 찾기 활동 요구 조건을 충족하지 못했어요. 1주 더 조건을 통과하지 못하면 서버 찾기에서 자동으로 제거돼요.",
-                "F2lccv": "진행하면 {username} 님의 보호자로서 연결된 상태가 해제됩니다",
-                "GcEkAP": "부스트로 서버 태그 잠금 해제",
-                "GcPSts": "현재 이 특전에 액세스할 수 없습니다",
-                "NBFa62": "계속하려면 Discord PC 버전에서 이 링크를 여세요.",
-                "NeVlw/": "신분증 스캔",
-                "Or6hgl": "거주 지역의 법률에 따라 13~16세 청소년 사용자는 보호자를 연결해야 합니다. 연결된 보호자가 없으면 {username} 님은 Discord에 계속 액세스할 수 없습니다.",
-                "PGQBnk": "청소년 자녀가 Discord를 계속 사용하려면 이 계정에 최소 1명의 보호자가 연결되어 있어야 한다는 점을 이해했습니다.",
-                "PlrZal": "{username} 님과 끊으면 연결이 끊겼다는 알림이 전송되며, 해당 사용자의 Discord 활동 정보에 대한 회원님의 액세스 권한이 취소됩니다.",
-                "QeJIbA": "이 채널에서 진행 중인 대화를 둘러보세요.",
-                "SXH74p": "bHookYouTube 채널 이름 중 하나에 앞뒤 공백이 포함되어 있습니다. YouTube 스튜디오에서 [채널 이름을 업데이트]({link})한 후 다시 시도해 주세요.",
-                "T1IxYH": "배지 색상 선택",
-                "UcQjDe": "주제별로 채팅 탐색하기",
-                "V3j11+": "You Bar에서 오른쪽으로 스와이프하여 개인 메시지로 돌아가세요.",
-                "VcZC22": "진행 불가",
-                "WBEYyz": "확정하고 {amount} 절약하기",
-                "WH+Gba": "진행하면 이 계정 사용자의 보호자로서 연결된 상태가 해제됩니다.",
-                "XjhkM5": "Discord 게임 스토어는 현재 PC에서만 이용할 수 있습니다.",
-                "XyRW4c": "{username} 님과 연결을 해제하면 상대방에게 삭제 알림이 전송됩니다. 또한 해당 사용자의 Discord 활동 정보에 대한 내 액세스 권한도 취소됩니다.",
-                "Zr0Z4K": "게임 내 기존 구매 항목을 받기 하여 다시 구매하세요.",
-                "eZvwAe": "연령을 어떻게 인증하시겠어요?",
-                "eiABQz": "내가 Discord를 계속 사용하려면 내 계정에 최소 1명의 보호자가 연결되어 있어야 한다는 점을 이해했습니다.",
-                "fm7qBC": "일반적으로 가장 빠르고 완전히 자동으로 진행돼요. 연령을 확인할 수 없는 경우 신분증을 대신 스캔할 수 있어요.",
-                "gMFchc": "개인 메시지로 더 빠르게 이동하기",
-                "hOEHFn": "거주 지역의 법률에 따라 13~16세 청소년 사용자는 보호자를 연결해야 합니다. 연결된 보호자가 없으면 Discord에 계속 액세스할 수 없습니다.",
-                "jJgRaH": "나이 인증을 시작할 수 없습니다. 이 창을 닫고 다시 시도해 주세요.",
-                "o0JXuK": "{username} 님과의 연결을 끊으시겠습니까?",
-                "opIMQ5": "잠금 해제 불가",
-                "poZZGL": "{count}개 메시지",
-                "qfBFn4": "시간대별 서버 활동",
-                "rgXXcW": "영상 셀카 찍기",
-                "sCbKs4": "이 보호자와 연결을 해제하면 내 Discord 활동 정보에 대한 보호자의 액세스 권한이 제거된다는 점을 이해했습니다.",
-                "uA3dAs": "선택한 이미지: {name}",
-                "wzZHKl": "아는 사람만 알지",
-                "xNdRDO": "이 룩 쇼핑하기",
-                "xRxGFl": "활동 및 출처",
-                "yBivur": "위시리스트 및 추천",
-                "yo0g7X": "멤버들이 Discord 어디에서나 소속 서버를 자랑하며 활동할 수 있습니다.",
-                "yxMJHw": "유료 구독이 시작되면 이 특전을 이용할 수 있습니다"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "/TfvyR": {
-                    "new_value": "[{guildName}]({onClickGuild}) 서버가 3주 연속 찾기 활동 요구 사항을 충족하지 못했어요. 1주 더 충족하지 못하면 찾기에서 제거됩니다.",
-                    "old_value": "서버가 3주 연속으로 서버 찾기 활동 요구 조건을 충족하지 못했어요. 1주 더 조건을 통과하지 못하면 서버 찾기에서 자동으로 제거돼요."
-                },
-                "Id33AH": {
-                    "new_value": "이 초안에는 예약된 게시 시간이 없습니다.",
-                    "old_value": "이 스토어에는 예정된 운영 개시 시간이 없어요."
-                },
-                "T3WBRp": {
-                    "new_value": "대화",
-                    "old_value": "최신 대화"
-                },
-                "UZWxcy": {
-                    "new_value": "기존의 Nitro 혜택은 모두 그대로 유지돼요. 한 번의 결제로 계속 이용해 보세요.",
-                    "old_value": "좋아하시는 모든 것이 그대로 유지돼요. 단 한 번 결제하여 확정하세요."
-                },
-                "WOZod0": {
-                    "new_value": "이 초안은 {timestamp}에 라이브 상태가 됩니다.",
-                    "old_value": "이 스토어는 {timestamp}에 운영 개시돼요."
-                },
-                "bYdG3f": {
-                    "new_value": "[{guildName}]({onClickGuild}) 서버가 더 이상 모든 요구 사항을 충족하지 않아 서버 찾기에서 제거되었어요. 자세한 내용은 [서버 설정]({onClick})을 확인하세요.",
-                    "old_value": "이 서버는 더 이상 요구 조건을 만족하지 못하여 서버 찾기에서 제거되었어요. 자세한 내용은 [서버 설정]({onClick})에서 확인해주세요."
-                },
-                "c2I5Ti": {
-                    "new_value": "스토어 초안 미리 보기",
-                    "old_value": "스토어 미리 보기"
-                },
-                "deiBu8": {
-                    "new_value": "이미 누리고 있는 Nitro 특전 그대로. 한 번 전환으로 1년 내내 즐기세요.",
-                    "old_value": "이미 누리고 있는 특전을 그대로 누릴 수 있어요. 한 번 전환하면 일 년 내내 사용할 수 있어요."
-                },
-                "vzfXql": {
-                    "new_value": "[{guildName}]({onClickGuild}) 서버가 1주 동안 찾기 활동 요구 사항을 충족하지 못했어요. 4주 연속 충족하지 못하면 찾기에서 자동으로 제거됩니다.",
-                    "old_value": "서버가 1주간 서버 찾기 활동 요구 조건을 충족하지 못했어요. 4주 연속으로 조건을 통과하지 못하면 서버 찾기에서 자동으로 제거돼요."
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-07-16T03:40:27.628690+00:00"
+    "timestamp": "2026-07-16T03:50:53.888628+00:00"
 }
