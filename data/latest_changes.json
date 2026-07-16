@@ -1,5 +1,5 @@
 {
-    "build_hash": "7b334e9d7579949b2604a114d7197979a643ba66",
+    "build_hash": "b7e8042a8e4ebc1769a8d093e4ec700ed0b989eb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,57 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enableGamePanelEntrypoint",
+                "enableOverlayEntrypoint"
+            ],
+            "default_config": {
+                "enableGamePanelEntrypoint": false,
+                "enableOverlayEntrypoint": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-clips-secondary-entrypoints",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableGamePanelEntrypoint": true,
+                    "enableOverlayEntrypoint": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enableGamePanelEntrypoint",
+                "enableOverlayEntrypoint"
+            ],
+            "default_config": {
+                "enableGamePanelEntrypoint": false,
+                "enableOverlayEntrypoint": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-clips-secondary-entrypoints",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableGamePanelEntrypoint": true,
+                    "enableOverlayEntrypoint": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +71,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-16T21:52:43.884760+00:00"
+    "timestamp": "2026-07-16T22:03:12.218373+00:00"
 }
