@@ -1820,7 +1820,15 @@
       }
     ]
   },
-  "commits": [],
+  "commits": [
+    {
+      "hash": "f2c661dc",
+      "full_hash": "f2c661dc7d880f38bc1e21d3c9a28555efb67b85",
+      "message": "Add July 16 string context interpretations",
+      "pushed": true,
+      "pushed_at": "2026-07-16T09:19:38Z"
+    }
+  ],
   "latest_changes": {
     "string_context_updated": false,
     "reason": "Current string_changes.en and string_changes.ko contain empty added, modified, and deleted dictionaries."
@@ -1836,9 +1844,9 @@
     "data/reports/string-context/latest.md"
   ],
   "publish": {
-    "status": "pending",
-    "pushed": false,
-    "pushed_at": null,
-    "notes": "Validation passed; commit and push are pending."
+    "status": "pushed",
+    "pushed": true,
+    "pushed_at": "2026-07-16T09:19:38Z",
+    "notes": "Report publish metadata is committed by a follow-up commit after the data/report publish commit."
   }
 }
