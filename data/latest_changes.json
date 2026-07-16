@@ -1,5 +1,5 @@
 {
-    "build_hash": "1247e6615d8e6f58418ec406bd1f7b3080c8a9ba",
+    "build_hash": "23632ad294a404617205c0276ac5d2e3c1af10e9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "VzqqFC": "Surprise Me!",
+                "X0ir7L": "You're previewing what your profile could look like with Nitro"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-16T21:10:31.729001+00:00"
+    "timestamp": "2026-07-16T21:20:58.898826+00:00"
 }
