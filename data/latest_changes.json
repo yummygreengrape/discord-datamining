@@ -1,5 +1,5 @@
 {
-    "build_hash": "e86de13fabf6a1ded7aaebe8cbb4865f057921eb",
+    "build_hash": "440a93164e03addce3be4570d4f412f5047d3713",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,15 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "40CNiu": "Image editor, {filename}",
+                "8drK3z": "{leftValue}% from left, {rightValue}% from right",
+                "IBQxkI": "Horizontal crop position",
+                "Mrgs5G": "{topValue}% from top, {bottomValue}% from bottom",
+                "SXIgR9": "Vertical crop position",
+                "YIfE3a": "$[{arrowKeys}](arrowKeysHook) to reposition. Hold $[{shiftKey}](shiftKeyHook) to move faster.",
+                "jUze6F": "Zoom in to enable repositioning"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-16T17:41:54.161021+00:00"
+    "timestamp": "2026-07-16T17:52:32.927075+00:00"
 }
