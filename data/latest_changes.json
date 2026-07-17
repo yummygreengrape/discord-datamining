@@ -1,20 +1,8 @@
 {
-    "build_hash": "478960ffc2974e3619953cf1870f5aa2d1f4a663",
+    "build_hash": "969608e09c1894ef5879bbaedb19dd41b060efd6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-wishlist-pdp-gift-button-priority",
-            "kind": "user",
-            "timestamp": "2026-07-17T18:07:01Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -34,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-17T18:08:02.014886+00:00"
+    "timestamp": "2026-07-17T18:18:33.859514+00:00"
 }
