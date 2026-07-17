@@ -1,5 +1,5 @@
 {
-    "build_hash": "e44c0d490b541608fddc425b9c576b9c90b0d048",
+    "build_hash": "9fd4973c280075b99ca1e1d21de117e9b04ec036",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,19 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-wysiwyg-user-profile-premium-try-it-out",
-            "kind": "user",
-            "timestamp": "2026-07-17T05:29:05Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -34,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-17T05:36:08.762193+00:00"
+    "timestamp": "2026-07-17T07:18:21.263454+00:00"
 }
