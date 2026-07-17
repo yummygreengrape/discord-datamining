@@ -1,18 +1,106 @@
 {
-    "build_hash": "90b2079a2eea76c7b2f94d2ec2b859d7ad78ebde",
+    "build_hash": "f453f5b61d016481fc676b10c33edb78b5dec131",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-boost-to-unlock-coachmark",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-expiring-powerup-coachmark",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "deleted_experiments": [
         {
-            "experiment_source": "reference_comment",
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
-            "id": "2026-06-wishlist-pdp-gift-button-priority",
+            "id": "2026-02-boost-to-unlock-coachmark",
             "kind": "user",
-            "timestamp": "2026-07-17T18:07:01Z",
             "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-expiring-powerup-coachmark",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
         }
     ],
     "extractor_version": 20,
@@ -20,8 +108,59 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "showCoachmark"
+            ],
+            "default_config": {
+                "showCoachmark": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-boost-to-unlock-mobile-coachmark",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "showCoachmark": false
+                },
+                "1": {
+                    "showCoachmark": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "showCoachmark"
+            ],
+            "default_config": {
+                "showCoachmark": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-boost-to-unlock-mobile-coachmark",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "showCoachmark": false
+                },
+                "1": {
+                    "showCoachmark": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -34,5 +173,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-17T18:29:12.736212+00:00"
+    "timestamp": "2026-07-17T18:39:48.052938+00:00"
 }
