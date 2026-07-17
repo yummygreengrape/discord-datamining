@@ -1,5 +1,5 @@
 {
-    "build_hash": "b34e0be2faba5c627e511a267d74ce15d1dfade1",
+    "build_hash": "ead32b89e18f716457be69432905383f700861cd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "yBjQ3q": "You do not have permission to join voice in this thread.",
+                "yaoRu1": "You cannot join voice in this thread."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-17T20:23:45.197089+00:00"
+    "timestamp": "2026-07-17T20:34:14.599891+00:00"
 }
