@@ -1,5 +1,5 @@
 {
-    "build_hash": "9df00e292f8cb43cf2425745ab186d427fb3f18e",
+    "build_hash": "27d548b221e7ba3b0cf18bf102bdc421213fd7ef",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Bx4/Lf": "Sent you a message request. Tap to review.",
+                "LeYU4d": "{name} ({count})"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-17T12:55:22.303614+00:00"
+    "timestamp": "2026-07-17T13:05:50.585220+00:00"
 }
