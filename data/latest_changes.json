@@ -1,5 +1,5 @@
 {
-    "build_hash": "f5b9334518f53e7715729a74ee35d093b51f2987",
+    "build_hash": "805fcfcf66e49d0cc7015569ab8aecf132c60504",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,12 +14,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "A+qfZ+": {
-                    "new_value": "By clicking '{purchaseButtonText}', you are signing up for a recurring subscription. You'll be charged {totalDue} today, and {trialOrDiscountPrice} for {trialDuration}. When your trial ends on {trialOrDiscountEndDate, date, long}, you'll be charged {fullRenewalPrice} plus applicable taxes every {interval} until you cancel. Prices subject to change. We'll send you a reminder before your trial ends. Cancel anytime in your Settings. [Paid Services Terms]({paidServicesTermsUrl}) apply. Have questions? [Contact us]({contactUsUrl}) or see our [Subscriptions FAQ]({subscriptionsFaqUrl}).",
-                    "old_value": "By clicking '{purchaseButtonText}', you are signing up for a recurring subscription. You'll be charged {totalDue} today, and {trialOrDiscountPrice} for {trialDuration}. When your trial ends on {trialOrDiscountEndDate, date, long}, you'll be charged {fullRenewalPrice} plus applicable taxes every {interval} until you cancel. Prices subject to change. We'll send you a reminder before your trial ends. Cancel anytime in your Settings. Paid Services Terms apply. Have questions? Contact us or see our [Subscriptions FAQ]({subscriptionsFaqUrl})."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -27,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-17T19:52:43.225987+00:00"
+    "timestamp": "2026-07-17T20:03:09.220891+00:00"
 }
