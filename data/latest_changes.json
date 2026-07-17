@@ -1,5 +1,5 @@
 {
-    "build_hash": "6b395fee61f9754089360bd1eabec720f246d0ff",
+    "build_hash": "15d848a5be7035722350cf0065feb24eb4e2645f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,11 +8,58 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enableGameEventsOnPlayer"
+            ],
+            "default_config": {
+                "enableGameEventsOnPlayer": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-clips-game-events-on-player",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableGameEventsOnPlayer": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enableGameEventsOnPlayer"
+            ],
+            "default_config": {
+                "enableGameEventsOnPlayer": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-clips-game-events-on-player",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableGameEventsOnPlayer": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "MhIx41": "Death",
+                "PMLPER": "Multikill",
+                "fYdqnM": "Kill"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +69,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-17T23:20:30.454597+00:00"
+    "timestamp": "2026-07-17T23:31:12.741080+00:00"
 }
