@@ -1,19 +1,329 @@
 {
-    "build_hash": "f4e38774373ab27935b35d97d12b1c0f62988dbc",
+    "build_hash": "eedf1f22943be217d188c9cd3480f56a89f0a554",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "autoScrollEndCardMs",
+                "autoScrollLeadMs",
+                "ctaTimerMilliSeconds",
+                "enabled",
+                "peekFraction",
+                "scrollAffordanceVariant",
+                "verticalScrollEnabled"
+            ],
+            "default_config": {
+                "autoScrollEndCardMs": 8000,
+                "autoScrollLeadMs": 3000,
+                "ctaTimerMilliSeconds": 0,
+                "enabled": false,
+                "peekFraction": 0,
+                "scrollAffordanceVariant": "none",
+                "verticalScrollEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-bounties-vertical-scroll",
+            "kind": "user",
+            "old_config_keys": [
+                "autoScrollEndCardMs",
+                "autoScrollLeadMs",
+                "ctaTimerMilliSeconds",
+                "enabled",
+                "peekFraction",
+                "scrollAffordanceVariant",
+                "verticalScrollEnabled"
+            ],
+            "old_default_config": {
+                "autoScrollEndCardMs": 5000,
+                "autoScrollLeadMs": 3000,
+                "ctaTimerMilliSeconds": 0,
+                "enabled": false,
+                "peekFraction": 0,
+                "scrollAffordanceVariant": "none",
+                "verticalScrollEnabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5"
+            ],
+            "old_variations": {
+                "1": {
+                    "autoScrollEndCardMs": 5000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "none",
+                    "verticalScrollEnabled": false
+                },
+                "2": {
+                    "autoScrollEndCardMs": 5000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "none",
+                    "verticalScrollEnabled": true
+                },
+                "3": {
+                    "autoScrollEndCardMs": 5000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "indicator",
+                    "verticalScrollEnabled": true
+                },
+                "4": {
+                    "autoScrollEndCardMs": 5000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "auto",
+                    "verticalScrollEnabled": true
+                },
+                "5": {
+                    "autoScrollEndCardMs": 5000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0.12,
+                    "scrollAffordanceVariant": "peek",
+                    "verticalScrollEnabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5"
+            ],
+            "variations": {
+                "1": {
+                    "autoScrollEndCardMs": 8000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "none",
+                    "verticalScrollEnabled": false
+                },
+                "2": {
+                    "autoScrollEndCardMs": 8000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "none",
+                    "verticalScrollEnabled": true
+                },
+                "3": {
+                    "autoScrollEndCardMs": 8000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "indicator",
+                    "verticalScrollEnabled": true
+                },
+                "4": {
+                    "autoScrollEndCardMs": 8000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "auto",
+                    "verticalScrollEnabled": true
+                },
+                "5": {
+                    "autoScrollEndCardMs": 8000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0.12,
+                    "scrollAffordanceVariant": "peek",
+                    "verticalScrollEnabled": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "autoScrollEndCardMs",
+                "autoScrollLeadMs",
+                "ctaTimerMilliSeconds",
+                "enabled",
+                "peekFraction",
+                "scrollAffordanceVariant",
+                "verticalScrollEnabled"
+            ],
+            "default_config": {
+                "autoScrollEndCardMs": 8000,
+                "autoScrollLeadMs": 3000,
+                "ctaTimerMilliSeconds": 0,
+                "enabled": false,
+                "peekFraction": 0,
+                "scrollAffordanceVariant": "none",
+                "verticalScrollEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-bounties-vertical-scroll",
+            "kind": "user",
+            "old_config_keys": [
+                "autoScrollEndCardMs",
+                "autoScrollLeadMs",
+                "ctaTimerMilliSeconds",
+                "enabled",
+                "peekFraction",
+                "scrollAffordanceVariant",
+                "verticalScrollEnabled"
+            ],
+            "old_default_config": {
+                "autoScrollEndCardMs": 5000,
+                "autoScrollLeadMs": 3000,
+                "ctaTimerMilliSeconds": 0,
+                "enabled": false,
+                "peekFraction": 0,
+                "scrollAffordanceVariant": "none",
+                "verticalScrollEnabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5"
+            ],
+            "old_variations": {
+                "1": {
+                    "autoScrollEndCardMs": 5000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "none",
+                    "verticalScrollEnabled": false
+                },
+                "2": {
+                    "autoScrollEndCardMs": 5000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "none",
+                    "verticalScrollEnabled": true
+                },
+                "3": {
+                    "autoScrollEndCardMs": 5000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "indicator",
+                    "verticalScrollEnabled": true
+                },
+                "4": {
+                    "autoScrollEndCardMs": 5000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "auto",
+                    "verticalScrollEnabled": true
+                },
+                "5": {
+                    "autoScrollEndCardMs": 5000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0.12,
+                    "scrollAffordanceVariant": "peek",
+                    "verticalScrollEnabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5"
+            ],
+            "variations": {
+                "1": {
+                    "autoScrollEndCardMs": 8000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "none",
+                    "verticalScrollEnabled": false
+                },
+                "2": {
+                    "autoScrollEndCardMs": 8000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "none",
+                    "verticalScrollEnabled": true
+                },
+                "3": {
+                    "autoScrollEndCardMs": 8000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "indicator",
+                    "verticalScrollEnabled": true
+                },
+                "4": {
+                    "autoScrollEndCardMs": 8000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "auto",
+                    "verticalScrollEnabled": true
+                },
+                "5": {
+                    "autoScrollEndCardMs": 8000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0.12,
+                    "scrollAffordanceVariant": "peek",
+                    "verticalScrollEnabled": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "qiUAeh": "Swipe up for more"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +332,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-17T05:15:11.973898+00:00"
+    "timestamp": "2026-07-17T05:25:40.147500+00:00"
 }
