@@ -1,5 +1,5 @@
 {
-    "build_hash": "689e4eee5fb24d772a3e369c555933603bd2ba29",
+    "build_hash": "5858b1ba6ac681484eea514e4a9e7706088849b9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,20 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "TrOccu": "Like what you see?"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "Eh5+1F": {
+                    "new_value": "Learn about your friend’s decos. Get inspired. Or jealous.",
+                    "old_value": "You can now easily find your friends’ decorations from here"
+                },
+                "xNdRDO": {
+                    "new_value": "Shop This Look",
+                    "old_value": "Shop this Look"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-17T16:53:17.420547+00:00"
+    "timestamp": "2026-07-17T17:03:44.304023+00:00"
 }
