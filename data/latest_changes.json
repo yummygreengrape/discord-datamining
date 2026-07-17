@@ -1,31 +1,188 @@
 {
-    "build_hash": "5858b1ba6ac681484eea514e4a9e7706088849b9",
+    "build_hash": "0e1624543d75b43297ced5c5741f36fcabad2ee3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "TO.v.GRADIENT",
+                "surface": "TO.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TC.v.GRADIENT",
+                "surface": "TC.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TC.v.GRADIENT",
+                    "surface": "TC.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TC.v.EXPRESSIVE",
+                    "surface": "TC.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TC.v.GRADIENT",
+                    "surface": "TC.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TC.v.GLOWING",
+                    "surface": "TC.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TC.v.GLOWING",
+                    "surface": "TC.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "TO.v.GRADIENT",
+                    "surface": "TO.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TO.v.EXPRESSIVE",
+                    "surface": "TO.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TO.v.GRADIENT",
+                    "surface": "TO.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TO.v.GLOWING",
+                    "surface": "TO.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TO.v.GLOWING",
+                    "surface": "TO.F.NONE"
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "TO.v.GRADIENT",
+                "surface": "TO.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TC.v.GRADIENT",
+                "surface": "TC.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TC.v.GRADIENT",
+                    "surface": "TC.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TC.v.EXPRESSIVE",
+                    "surface": "TC.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TC.v.GRADIENT",
+                    "surface": "TC.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TC.v.GLOWING",
+                    "surface": "TC.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TC.v.GLOWING",
+                    "surface": "TC.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "TO.v.GRADIENT",
+                    "surface": "TO.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TO.v.EXPRESSIVE",
+                    "surface": "TO.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TO.v.GRADIENT",
+                    "surface": "TO.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TO.v.GLOWING",
+                    "surface": "TO.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TO.v.GLOWING",
+                    "surface": "TO.F.NONE"
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "TrOccu": "Like what you see?"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "Eh5+1F": {
-                    "new_value": "Learn about your friend’s decos. Get inspired. Or jealous.",
-                    "old_value": "You can now easily find your friends’ decorations from here"
-                },
-                "xNdRDO": {
-                    "new_value": "Shop This Look",
-                    "old_value": "Shop this Look"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -33,5 +190,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-17T17:03:44.304023+00:00"
+    "timestamp": "2026-07-17T17:14:12.347810+00:00"
 }
