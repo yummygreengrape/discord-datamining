@@ -1,5 +1,5 @@
 {
-    "build_hash": "e9e72f14a7f323e2fed34091370b75d64e3bbc51",
+    "build_hash": "94bf8643d817a8885326cf5334af0e655c9ab0df",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "95pCSf": "Preview of your Nameplate in the member list: {a11y_text}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-17T17:24:44.407550+00:00"
+    "timestamp": "2026-07-17T17:35:12.904461+00:00"
 }
