@@ -1,5 +1,5 @@
 {
-    "build_hash": "e720cc308415347ae54c4709d679d2459c3096c9",
+    "build_hash": "3ae939cd4424bfb03ad83b87441509066ef6f278",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,38 +9,27 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-clips-game-events-on-player",
-            "kind": "user",
-            "timestamp": "2026-07-17T23:33:51Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "MhIx41": "Death",
-                "PMLPER": "Multikill",
-                "fYdqnM": "Kill",
-                "xB7MI3": "View Profile Picture"
-            },
-            "deleted": {
-                "yBivur": "Wishlist & Recommendations"
-            },
-            "modified": {}
+            "added": {},
+            "deleted": {},
+            "modified": {
+                "Eh5+1F": {
+                    "new_value": "See what decos your friend’s rocking. Grab your faves",
+                    "old_value": "Learn about your friend’s decos. Get inspired. Or jealous."
+                },
+                "TrOccu": {
+                    "new_value": "Shop this look",
+                    "old_value": "Like what you see?"
+                }
+            }
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "yBivur": "위시리스트 및 추천"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-07-17T23:41:56.895937+00:00"
+    "timestamp": "2026-07-17T23:52:25.776205+00:00"
 }
