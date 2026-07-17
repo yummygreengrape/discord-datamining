@@ -1,5 +1,5 @@
 {
-    "build_hash": "15d848a5be7035722350cf0065feb24eb4e2645f",
+    "build_hash": "e720cc308415347ae54c4709d679d2459c3096c9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,49 +8,17 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enableGameEventsOnPlayer"
-            ],
-            "default_config": {
-                "enableGameEventsOnPlayer": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-clips-game-events-on-player",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableGameEventsOnPlayer": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
     "new_experiments": [
         {
-            "config_keys": [
-                "enableGameEventsOnPlayer"
-            ],
-            "default_config": {
-                "enableGameEventsOnPlayer": false
-            },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
             "id": "2026-07-clips-game-events-on-player",
             "kind": "user",
+            "timestamp": "2026-07-17T23:33:51Z",
             "treatments": [
                 "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableGameEventsOnPlayer": true
-                }
-            }
+            ]
         }
     ],
     "string_changes": {
@@ -58,16 +26,21 @@
             "added": {
                 "MhIx41": "Death",
                 "PMLPER": "Multikill",
-                "fYdqnM": "Kill"
+                "fYdqnM": "Kill",
+                "xB7MI3": "View Profile Picture"
             },
-            "deleted": {},
+            "deleted": {
+                "yBivur": "Wishlist & Recommendations"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "yBivur": "위시리스트 및 추천"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-07-17T23:31:12.741080+00:00"
+    "timestamp": "2026-07-17T23:41:56.895937+00:00"
 }
