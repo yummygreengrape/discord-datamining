@@ -151,4 +151,4 @@
 - public content 검사: passed
 - report pointer 일치: passed
 - git diff --check: passed
-- commit/push: pending publish
+- commit/push: passed (`d5c34e40b3` pushed to `origin/main`; metadata recorded by follow-up commit)
