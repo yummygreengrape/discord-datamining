@@ -1347,11 +1347,72 @@
     "results": []
   },
   "validations": {
-    "status": "pending",
-    "completed_at": null,
-    "checks": []
+    "status": "passed",
+    "completed_at": "2026-07-18T09:20:18Z",
+    "checks": [
+      {
+        "name": "python3 -m json.tool data/web/meta.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/web/strings.ko.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/web/strings.en.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/latest_changes.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/reports/string-context/latest.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/reports/string-context/2026-07-18.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/history.json",
+        "result": "passed"
+      },
+      {
+        "name": "history/source/web full row and annotation payload parity",
+        "result": "passed"
+      },
+      {
+        "name": "50-row required-field and English-language checks",
+        "result": "passed"
+      },
+      {
+        "name": "analysis-only web comparison",
+        "result": "passed"
+      },
+      {
+        "name": "scoped sensitive-content and overclaim scan",
+        "result": "passed"
+      },
+      {
+        "name": "report pointer parity",
+        "result": "passed"
+      },
+      {
+        "name": "git diff --check",
+        "result": "passed"
+      }
+    ]
   },
-  "commits": [],
+  "commits": [
+    {
+      "hash": "7e977a10",
+      "full_hash": "7e977a10c21a4bb30610a8c9683eece8c0e4d295",
+      "message": "Add July 18 string context interpretations",
+      "pushed": true,
+      "pushed_at": "2026-07-18T09:20:18Z"
+    }
+  ],
   "latest_changes": {
     "string_context_updated": false,
     "reason": "Current string_changes.en and string_changes.ko contain empty added, modified, and deleted dictionaries."
@@ -1367,9 +1428,9 @@
     "data/reports/string-context/latest.md"
   ],
   "publish": {
-    "status": "pending",
-    "pushed": false,
-    "pushed_at": null,
-    "notes": "Validation and publish reconciliation are pending."
+    "status": "pushed",
+    "pushed": true,
+    "pushed_at": "2026-07-18T09:20:18Z",
+    "notes": "Report publish metadata is committed by a follow-up commit after the data/report publish commit."
   }
 }
