@@ -149,7 +149,7 @@
 
 ## Validation and Publish
 
-- Validation: pending
-- Publish: pending
-- Data/report commit: pending
+- Validation: passed
+- Publish: pushed
+- Data/report commit: `7e977a10` Add July 18 string context interpretations (pushed: true)
 - latest_changes.string_context updated: false
