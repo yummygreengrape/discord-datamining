@@ -1,8 +1,61 @@
 {
-    "build_hash": "0d3b5aa2cfd455ad3086ea9679c86360ac434df3",
+    "build_hash": "6167a86665722a4a507e0835d8c4c7f446f8afcd",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-layer-system-v2",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-20T21:27:50Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-layer-system-v2",
+            "kind": "user",
+            "timestamp": "2026-07-20T21:27:50Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,9 +65,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "5LcHT0": "April 2026"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +75,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-20T21:26:22.898486+00:00"
+    "timestamp": "2026-07-20T21:36:52.386702+00:00"
 }
