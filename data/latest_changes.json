@@ -1,8 +1,61 @@
 {
-    "build_hash": "92f918e6f179a4fecad84c95ae7e54ed4d4e872f",
+    "build_hash": "ae5763e52e0c6ebf4fa7f54e5fa268eff7f7ec8f",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "allowAccountLinkingUpsellPostGameClose"
+            ],
+            "default_config": {
+                "allowAccountLinkingUpsellPostGameClose": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-game-account-linking-post-game-close",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-20T18:51:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "allowAccountLinkingUpsellPostGameClose": false
+                },
+                "1": {
+                    "allowAccountLinkingUpsellPostGameClose": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "allowAccountLinkingUpsellPostGameClose"
+            ],
+            "default_config": {
+                "allowAccountLinkingUpsellPostGameClose": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-game-account-linking-post-game-close",
+            "kind": "user",
+            "timestamp": "2026-07-20T18:51:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "allowAccountLinkingUpsellPostGameClose": false
+                },
+                "1": {
+                    "allowAccountLinkingUpsellPostGameClose": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +75,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-20T18:50:04.206340+00:00"
+    "timestamp": "2026-07-20T19:00:40.578799+00:00"
 }
