@@ -1,5 +1,5 @@
 {
-    "build_hash": "897d96b9c8a39be2b8122a1e7d090a6e3f1bbb39",
+    "build_hash": "0d3b5aa2cfd455ad3086ea9679c86360ac434df3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "vnyGvc": "Manage Game Servers"
+                "5LcHT0": "April 2026"
             },
             "deleted": {},
             "modified": {}
@@ -24,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-20T21:15:55.778942+00:00"
+    "timestamp": "2026-07-20T21:26:22.898486+00:00"
 }
