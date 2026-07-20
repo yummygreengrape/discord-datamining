@@ -1,5 +1,5 @@
 {
-    "build_hash": "139428fea72e2e3c884bcc9cf5e5b9178746100e",
+    "build_hash": "8b622c77876cb33c8daeb973d344e9622e99d1aa",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,20 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "1OSGGk": "{username} sent {count} attachments",
+                "1wtRlq": "{username} sent a poll",
+                "319zWs": "{username} sent {count} files",
+                "3iI/fs": "{username} sent a sticker",
+                "7FJeVi": "{username} sent a message",
+                "HADQ6n": "{username} sent an audio file",
+                "Y7wlOj": "{username} sent a voice message",
+                "ifW/ef": "{username} sent a file",
+                "mikhon": "{username} sent a GIF",
+                "pTiyNB": "{username} sent an image",
+                "sLDHDi": "{username} forwarded a message",
+                "zqhHWH": "{username} sent a video"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-20T15:42:50.407207+00:00"
+    "timestamp": "2026-07-20T15:53:18.558002+00:00"
 }
