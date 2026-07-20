@@ -1,5 +1,5 @@
 {
-    "build_hash": "770b5d1c779f3fe045d1077ac135c1f99188694b",
+    "build_hash": "022768846d8c25fbaf38536074e3a1114be5d037",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "cNtuKF": "Item is eligible for offer: {offerName}",
-                "nb5PC/": "Promo"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-20T23:21:44.945471+00:00"
+    "timestamp": "2026-07-20T23:32:12.705596+00:00"
 }
