@@ -1,41 +1,653 @@
 {
-    "build_hash": "ad6983326a40179df2ff3d1a645c718f158513d1",
+    "build_hash": "828cdb0dd1d3613321edfa596f9bc66def26b497",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [
+    "deleted_experiment_details": [
         {
-            "experiment_source": "reference_comment",
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
-            "id": "2025-10-layer-system-v2",
+            "id": "2026-03-l-3pp",
             "kind": "user",
-            "timestamp": "2026-07-20T21:27:50Z",
+            "status": "deleted",
             "treatments": [
                 "Variant 0",
                 "Variant 1"
-            ]
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-steelseries-3p-recurring",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-croissant-reheat",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-20T22:44:29Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-kontrolfreek-deprecated-ff",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-logitech-ss-reheat-ff",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-20T22:44:29Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-steelseries-higher-discount-ff",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-l-3pp",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-steelseries-3p-recurring",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-croissant-reheat",
+            "kind": "user",
+            "timestamp": "2026-07-20T22:44:29Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-kontrolfreek-deprecated-ff",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-logitech-ss-reheat-ff",
+            "kind": "user",
+            "timestamp": "2026-07-20T22:44:29Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-steelseries-higher-discount-ff",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
         }
     ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "TN.v.GRADIENT",
+                "surface": "TN.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TL.v.GRADIENT",
+                "surface": "TL.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TL.v.GRADIENT",
+                    "surface": "TL.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TL.v.EXPRESSIVE",
+                    "surface": "TL.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TL.v.GRADIENT",
+                    "surface": "TL.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TL.v.GLOWING",
+                    "surface": "TL.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TL.v.GLOWING",
+                    "surface": "TL.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "TN.v.GRADIENT",
+                    "surface": "TN.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TN.v.EXPRESSIVE",
+                    "surface": "TN.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TN.v.GRADIENT",
+                    "surface": "TN.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TN.v.GLOWING",
+                    "surface": "TN.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TN.v.GLOWING",
+                    "surface": "TN.F.NONE"
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "TN.v.GRADIENT",
+                "surface": "TN.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TL.v.GRADIENT",
+                "surface": "TL.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TL.v.GRADIENT",
+                    "surface": "TL.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TL.v.EXPRESSIVE",
+                    "surface": "TL.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TL.v.GRADIENT",
+                    "surface": "TL.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TL.v.GLOWING",
+                    "surface": "TL.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TL.v.GLOWING",
+                    "surface": "TL.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "TN.v.GRADIENT",
+                    "surface": "TN.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TN.v.EXPRESSIVE",
+                    "surface": "TN.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TN.v.GRADIENT",
+                    "surface": "TN.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TN.v.GLOWING",
+                    "surface": "TN.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TN.v.GLOWING",
+                    "surface": "TN.F.NONE"
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "5LcHT0": "April 2026",
-                "KUwsC0": "Progress"
+            "added": {},
+            "deleted": {
+                "+ADjaQ": "Upgrade",
+                "+QAvQz": "A starter edition of Xbox Game Pass is now included with Nitro. Let’s play.",
+                "+pTnsf": "50+ games like Stardew Valley, Fallout 4, and Grounded. 10 hours of cloud gaming every month. Xbox Rewards. All yours with Nitro.",
+                "/AUOfc": "Jump In",
+                "/GObQk": "Remove Xbox Game Pass",
+                "/UNTlE": "Claim {discountPercent}% off at Logitech G each month, plus one-time discounts on PRO Series gear and new products. [Terms apply]({termsUrl}).",
+                "02smVH": "Want more from every Quest? Nitro members get 1.2x Orbs on Quests, a monthly Orbs drop, and so much more. [Terms apply]({helpCenterLink}).",
+                "0mQ2U6": "Xbox Game Pass",
+                "0vY+ie": "Get Nitro",
+                "2I7nK+": "Logitech Discounts",
+                "2iX+XV": "Upgrade",
+                "3JKWU6": "Subscribe to Nitro and access Xbox Game Pass (Starter Edition), deals on gear, new Orbs perks, and so much more. [Terms apply]({helpCenterLink}).",
+                "4zROKG": "Claim your Xbox Game Pass now",
+                "5rbQbD": "10 hours of cloud gaming each month",
+                "620Iwi": "Get Nitro",
+                "65EEvD": "New code coming in {days}",
+                "6KjkUa": "Valid on any product in the Logitech site except for G Series and new products. Expires {date}.",
+                "7PdsMK": "A starter edition of Xbox Game Pass is now yours with Nitro. Let’s play.",
+                "8Gl8gP": "Build your dream setup with exclusive discount codes every month. Only with Nitro.",
+                "9Y2p6p": "Monthly Reward",
+                "9t2CzW": "Earn Rewards with Xbox just by playing",
+                "A+56/R": "Claim {discountPercent}% off Logitech G gear each month, only with Nitro.",
+                "AyECej": "Gameplay rewards for 18+",
+                "CFfUkp": "Unlock more Orbs with Nitro",
+                "CubeLC": "Take me there",
+                "EL3rU4": "Claim for free",
+                "FO4faL": "A starter edition of Xbox Game Pass is now included with Nitro. [Terms apply.]({termsLink})",
+                "Fs74z9": "Activation in progress. It may take up to 1 hour to be reflected here.",
+                "HCJKFl": "A starter edition of Xbox Game Pass is now yours with Nitro. Let’s play.",
+                "HINTfJ": "See Offers",
+                "HTsycG": "Unlock Xbox Game Pass & more with Nitro",
+                "HlVJm0": "Claim Your New Perks",
+                "I+IXr0": "50+ games, 10 hours of cloud gaming a month, and up to $25 in Rewards. Let’s play.",
+                "KDKdWi": "[Terms & eligibility rules apply.]({termsLink})",
+                "KoKwMn": "Monthly discount on most Logitech G gear. Some exclusions apply.",
+                "LIc2xy": "Claim your Xbox Game Pass now",
+                "LsJ9hj": "{discountPercent}% Off Logitech",
+                "MUypiB": "50+ games like Stardew Valley & Fallout 4",
+                "NwkRTZ": "Xbox Game Pass (Starter Edition) is now included with Nitro. Jump in.",
+                "OlObRa": "Upgrade your setup for less",
+                "OpOEmk": "Xbox Game Pass (Starter Edition)",
+                "PF1aT5": "{discountPercentage}% Off Logitech G",
+                "Plwzgf": "Manage",
+                "Q0A42h": "Monthly discounts at SteelSeries",
+                "Q15RXC": "Unlock Xbox Game Pass with Nitro",
+                "QP/6xR": "You’re winning more Orbs with Nitro",
+                "R7YJAY": "Cloud gaming for select games from your Xbox library",
+                "RGT513": "Xbox Game Pass awaits",
+                "SzOYGc": "Subscribe to Nitro and access Xbox Game Pass (Starter Edition), deals on gear, new Orbs perks, and so much more. [Terms apply]({helpCenterLink}).",
+                "TNS24d": "Check Out Nitro Perks",
+                "UVL9tD": "Xbox Game Pass",
+                "W8jOD0": "One code per purchase. [Terms apply]({termsUrl}).",
+                "Wm58LR": "One-Time Discounts",
+                "Yl5ww1": "Valid on any Logitech G products, excluding new products and PRO Series gear.",
+                "Z2Ipu/": "Remove",
+                "ZGOJ8R": "Claim {discountPercent}% off at Logitech G each month, plus one-time discounts on PRO Series sim racing gear and new products. [Terms apply]({termsUrl}).",
+                "b1X5Jf": "Up to $25/year in the Store with Rewards",
+                "bOf5IH": "Unlock Xbox Game Pass & more with Nitro",
+                "bVwQhX": "Remove",
+                "bZLaD+": "Unlock Rewards",
+                "bpksos": "50+ games to explore like Stardew Valley and Fallout 4",
+                "bsMVNi": "Get 50+ games, 10 hours of cloud gaming per month, and much more. [Terms apply.]({termsLink})",
+                "dHQQvk": "Get Nitro and jump into 50+ PC and console games with Xbox Game Pass. [Terms and eligibility rules apply]({helpCenterLink}).",
+                "ec5Rdd": "10 hours of cloud gaming each month",
+                "fC4abC": "Valid on new products within the first {months} of availability.",
+                "gc2sa/": "Monthly discounts at Logitech G",
+                "gzazAe": "Nitro now comes with Xbox Game Pass and even more perks. Go grab 'em. [Terms apply]({helpCenterLink}).",
+                "hjlZZf": "It might take up to 24 hours to take effect.",
+                "jkdhZq": "{discountPercent}% Off All Products",
+                "lsRjfl": "Valid on racing gear in the PRO series simulation line.",
+                "mH30Yx": "Valid on any Logitech G products, excluding new products and PRO Series simulation line gear.",
+                "nDEuO1": "Access 50+ games, 10 hours/month of cloud gaming, and more.",
+                "oDfh3O": "Xbox Game Pass (Starter Edition)",
+                "ogcfac": "{discountPercent}% Off PRO Series Collection",
+                "pSBCjv": "{discountPercent}% Off PRO Series Simulation Line",
+                "pdaUSE": "Xbox Game Pass is now included with Nitro",
+                "qI5XnY": "Get Nitro",
+                "r/jeXi": "This action will cancel Xbox Game Pass on the linked Xbox Account. This change might take up to 24 hours to take effect.",
+                "sD3eKQ": "Cancel",
+                "uJcbMv": "[Terms & conditions apply.]({termsLink})",
+                "ukvxpp": "Xbox Game Pass Awaits. Let's play.",
+                "v9AaV4": "Nitro now comes with Xbox Game Pass. Jump into 50+ PC and console games at no extra cost. [Terms and eligibility rules apply]({helpCenterLink}).",
+                "wBz9aO": "Removal in progress",
+                "wqhsP3": "Claim Xbox Game Pass",
+                "xZiyZj": "Cloud gaming for select games from your Xbox library",
+                "zPnFYf": "Your 1.2x Orbs Multiplier just kicked in. There’s more to explore in Nitro. Head to your Nitro Home to see what’s new. [Terms apply]({helpCenterLink}).",
+                "zS4GBR": "Discounts and perks to power up how you play and hang.  All yours with Nitro. [Terms apply.]({termsLink})",
+                "zUjL+R": "Upgrade to Nitro and jump into 50+ PC and console games with Xbox Game Pass. [Terms and eligibility rules apply]({helpCenterLink}).",
+                "zeBjoX": "{discountPercent}% Off New Products",
+                "zinfZi": "Claim {discountPercent}% off Logitech G gear with a fresh code each month."
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "+ADjaQ": "업그레이드",
+                "+QAvQz": "이제 Nitro에 Xbox Game Pass 스타터 에디션이 포함됩니다. 게임을 시작해 보세요.",
+                "+pTnsf": "Stardew Valley, Fallout 4, Grounded 등 50개 이상의 게임을 준비했습니다. 매월 10시간의 클라우드 게이밍. Xbox 리워드까지. Nitro와 함께 이 모든 것을 누리세요.",
+                "/AUOfc": "지금 시작하기",
+                "/GObQk": "Xbox Game Pass 제거",
+                "/UNTlE": "매월 Logitech G에서 {discountPercent}% 할인받으시고, PRO Series 장비와 신규 제품에 대한 일회성 할인도 받으세요. [이용약관이 적용됩니다]({termsUrl}).",
+                "02smVH": "모든 퀘스트에서 더 많은 혜택을 원하시나요? Nitro 멤버는 퀘스트 시 Orbs 1.2배 적립, 월간 Orbs 드롭 등 훨씬 더 많은 혜택을 누릴 수 있어요. [이용 약관 및 자격 요건이 적용됩니다]({helpCenterLink}).",
+                "0mQ2U6": "Xbox Game Pass",
+                "0vY+ie": "Nitro 구독하기",
+                "2I7nK+": "Logitech 할인",
+                "2iX+XV": "업그레이드",
+                "3JKWU6": "Discord Nitro를 구독하고 Xbox Game Pass(Starter Edition), 장비 할인, 신규 Orbs 특전 등 다양한 혜택을 이용해 보세요. [약관이 적용됩니다]({helpCenterLink}).",
+                "4zROKG": "지금 Xbox Game Pass를 받으세요",
+                "5rbQbD": "매월 10시간의 클라우드 게이밍",
+                "620Iwi": "Nitro 구독하기",
+                "65EEvD": "{days}일 후 새 코드가 제공돼요",
+                "6KjkUa": "G 시리즈 및 신제품을 제외한 Logitech 웹사이트의 모든 제품에 유효합니다. {date}에 만료됩니다.",
+                "7PdsMK": "이제 Nitro와 함께 Xbox Game Pass 스타터 에디션을 이용할 수 있어요. 게임을 시작해 보세요.",
+                "8Gl8gP": "매달 독점 할인 코드로 꿈에 그리던 장비들을 갖추세요. Nitro 구독자 전용 혜택이랍니다.",
+                "9Y2p6p": "월간 보상",
+                "9t2CzW": "Xbox로 게임을 플레이하기만 해도 보상을 받아요",
+                "A+56/R": "매달 Logitech G 장비를 {discountPercent}% 할인받으세요. Nitro 구독자 전용 혜택이에요.",
+                "AyECej": "18세 이상을 위한 게임 플레이 보상",
+                "CFfUkp": "Nitro로 더 많은 Orbs 잠금 해제",
+                "CubeLC": "거기로 갈래요",
+                "EL3rU4": "무료로 받기",
+                "FO4faL": "이제 Nitro에 Xbox Game Pass 스타터 에디션이 포함돼요. [약관이 적용됩니다.]({termsLink})",
+                "Fs74z9": "활성화를 진행 중이에요. 여기에 반영되기까지 최대 1시간 정도 걸릴 수 있어요.",
+                "HCJKFl": "이제 Nitro와 함께 Xbox Game Pass 스타터 에디션을 이용할 수 있어요. 게임을 시작해 보세요.",
+                "HINTfJ": "혜택 보기",
+                "HTsycG": "Nitro로 Xbox Game Pass 및 추가 혜택을 만나 보세요",
+                "HlVJm0": "새로운 특전을 받으세요",
+                "I+IXr0": "50개 이상의 게임, 매월 10시간의 클라우드 게이밍, 최대 $25의 보상까지! 게임을 시작해 보세요.",
+                "KDKdWi": "[약관 및 자격 요건이 적용됩니다.]({termsLink})",
+                "KoKwMn": "대부분의 Logitech G 장비를 매달 할인가로 제공해요. 일부 품목은 제외돼요.",
+                "LIc2xy": "지금 Xbox Game Pass를 받으세요",
+                "LsJ9hj": "Logitech {discountPercent}% 할인",
+                "MUypiB": "Stardew Valley, Fallout 4 등 50개 이상의 게임",
+                "NwkRTZ": "이제 Nitro에 Xbox Game Pass(스타터 에디션)가 포함됩니다. 지금 바로 경험해 보세요.",
+                "OlObRa": "할인된 가격에 장비를 업그레이드하세요",
+                "OpOEmk": "Xbox Game Pass(Starter Edition)",
+                "PF1aT5": "Logitech G {discountPercentage}% 할인",
+                "Plwzgf": "관리",
+                "Q0A42h": "SteelSeries 매월 할인",
+                "Q15RXC": "Nitro로 Xbox Game Pass 잠금 해제",
+                "QP/6xR": "Nitro와 함께 더 많은 Orbs를 획득하고 있어요",
+                "R7YJAY": "Xbox 라이브러리의 일부 게임을 즐길 수 있는 클라우드 게이밍",
+                "RGT513": "Xbox Game Pass가 기다리고 있어요",
+                "SzOYGc": "Discord Nitro를 구독하고 Xbox Game Pass(Starter Edition), 장비 할인, 신규 Orbs 특전 등 다양한 혜택을 이용해 보세요. [약관이 적용됩니다]({helpCenterLink}).",
+                "TNS24d": "Nitro 특전 확인하기",
+                "UVL9tD": "Xbox Game Pass",
+                "W8jOD0": "구매 1건당 코드 하나만 사용할 수 있습니다. [이용약관이 적용됩니다.]({termsUrl})",
+                "Wm58LR": "일회성 할인",
+                "Yl5ww1": "신규 제품 및 PRO 시리즈 장비를 제외한 모든 Logitech G 제품에 적용돼요.",
+                "Z2Ipu/": "제거",
+                "ZGOJ8R": "매월 Logitech G에서 {discountPercent}% 할인을 받고 PRO 시리즈 심 레이싱 장비 및 신제품에 대한 일회성 할인 혜택도 받으세요. [약관이 적용됩니다]({termsUrl}).",
+                "b1X5Jf": "보상을 통해 스토어에서 연간 최대 $25 상당 혜택",
+                "bOf5IH": "Nitro로 Xbox Game Pass 및 추가 혜택을 만나 보세요",
+                "bVwQhX": "제거",
+                "bZLaD+": "보상 잠금 해제",
+                "bpksos": "Stardew Valley, Fallout 4 등 50개 이상의 게임 준비",
+                "bsMVNi": "50개 이상의 게임, 매월 10시간의 클라우드 게이밍 등 다양한 혜택을 누려보세요. [약관이 적용됩니다.]({termsLink})",
+                "dHQQvk": "Nitro를 이용하고 Xbox Game Pass로 50개 이상의 PC 및 콘솔 게임에 참여해 보세요. [이용 약관 및 자격 요건이 적용됩니다]({helpCenterLink}).",
+                "ec5Rdd": "매월 10시간의 클라우드 게이밍",
+                "fC4abC": "출시된 지 {months}개월 이내인 신제품에만 유효해요.",
+                "gc2sa/": "Logitech G 매달 할인",
+                "gzazAe": "이제 Nitro에 Xbox Game Pass와 더 많은 혜택이 함께 제공돼요. 지금 확인해 보세요. [약관이 적용됩니다]({helpCenterLink}).",
+                "hjlZZf": "적용되는 데 최대 24시간 소요될 수 있어요.",
+                "jkdhZq": "모든 제품 {discountPercent}% 할인",
+                "lsRjfl": "PRO 시리즈 시뮬레이션 라인의 레이싱 장비에 적용돼요.",
+                "mH30Yx": "신제품 및 PRO 시리즈 시뮬레이션 라인 장비를 제외한 모든 Logitech G 제품에 적용돼요.",
+                "nDEuO1": "50개 이상의 게임, 월 10시간의 클라우드 게이밍 등 다양한 혜택을 만나 보세요.",
+                "oDfh3O": "Xbox Game Pass(Starter Edition)",
+                "ogcfac": "PRO 시리즈 컬렉션 {discountPercent}% 할인",
+                "pSBCjv": "PRO 시리즈 시뮬레이션 라인 {discountPercent}% 할인",
+                "pdaUSE": "이제 Nitro에 Xbox Game Pass가 포함돼요",
+                "qI5XnY": "Nitro 구독하기",
+                "r/jeXi": "이 작업을 수행하면 연결된 Xbox 계정에서 Xbox Game Pass가 취소돼요. 이 변경 사항이 적용되는 데 최대 24시간이 걸릴 수 있어요.",
+                "rkt1aw": "이제 Nitro에 Xbox Game Pass(Starter Edition)가 함께 제공됩니다.",
+                "sD3eKQ": "취소",
+                "uJcbMv": "[약관 및 자격 요건이 적용됩니다.]({termsLink})",
+                "ukvxpp": "Xbox Game Pass가 기다리고 있어요. 함께 플레이해요.",
+                "v9AaV4": "이제 Nitro에 Xbox Game Pass가 함께 제공돼요. 추가 비용 없이 50개 이상의 PC 및 콘솔 게임을 즐겨보세요. [이용 약관 및 자격 요건이 적용됩니다]({helpCenterLink}).",
+                "wBz9aO": "제거 진행 중",
+                "wqhsP3": "Xbox Game Pass 받기",
+                "xZiyZj": "Xbox 라이브러리의 일부 게임을 즐길 수 있는 클라우드 게이밍",
+                "zPnFYf": "Orbs 1.2배 배수 혜택이 적용되었어요. Nitro에서 더 많은 혜택을 살펴보세요. Nitro 홈으로 이동하여 새로운 소식을 확인해 보세요. [이용 약관 및 자격 요건이 적용됩니다]({helpCenterLink}).",
+                "zS4GBR": "더욱 활기차게 게임을 즐기고 친구들과 어울리는 데 도움이 되는 할인과 혜택을 준비했어요. Nitro와 함께하면 모든 걸 즐길 수 있어요. [약관이 적용됩니다.]({termsLink})",
+                "zUjL+R": "Nitro로 업그레이드하고 Xbox Game Pass로 50개 이상의 PC 및 콘솔 게임에 참여해 보세요. [이용 약관 및 자격 요건이 적용됩니다]({helpCenterLink}).",
+                "zeBjoX": "신제품 {discountPercent}% 할인",
+                "zinfZi": "매달 새로운 코드로 Logitech G 장비를 {discountPercent}% 할인받으세요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-07-20T22:29:16.836974+00:00"
+    "timestamp": "2026-07-20T22:50:12.546128+00:00"
 }
