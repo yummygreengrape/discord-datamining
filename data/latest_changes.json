@@ -1,12 +1,180 @@
 {
-    "build_hash": "eab1bb6759d6ff872bf48562baa96882301b9908",
+    "build_hash": "9b007f7cd95d4865aff63a4b64049f3d3f81c006",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "TL.v.GRADIENT",
+                "surface": "TL.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TO.v.GRADIENT",
+                "surface": "TO.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TO.v.GRADIENT",
+                    "surface": "TO.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TO.v.EXPRESSIVE",
+                    "surface": "TO.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TO.v.GRADIENT",
+                    "surface": "TO.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TO.v.GLOWING",
+                    "surface": "TO.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TO.v.GLOWING",
+                    "surface": "TO.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "TL.v.GRADIENT",
+                    "surface": "TL.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TL.v.EXPRESSIVE",
+                    "surface": "TL.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TL.v.GRADIENT",
+                    "surface": "TL.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TL.v.GLOWING",
+                    "surface": "TL.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TL.v.GLOWING",
+                    "surface": "TL.F.NONE"
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "TL.v.GRADIENT",
+                "surface": "TL.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TO.v.GRADIENT",
+                "surface": "TO.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TO.v.GRADIENT",
+                    "surface": "TO.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TO.v.EXPRESSIVE",
+                    "surface": "TO.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TO.v.GRADIENT",
+                    "surface": "TO.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TO.v.GLOWING",
+                    "surface": "TO.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TO.v.GLOWING",
+                    "surface": "TO.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "TL.v.GRADIENT",
+                    "surface": "TL.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TL.v.EXPRESSIVE",
+                    "surface": "TL.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TL.v.GRADIENT",
+                    "surface": "TL.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TL.v.GLOWING",
+                    "surface": "TL.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TL.v.GLOWING",
+                    "surface": "TL.F.NONE"
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -22,5 +190,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-20T18:18:52.099124+00:00"
+    "timestamp": "2026-07-20T18:29:19.509469+00:00"
 }
