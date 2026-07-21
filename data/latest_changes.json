@@ -1,5 +1,5 @@
 {
-    "build_hash": "018a3ddfeae68c3ca31bcce8aaf3cb8d1af210d6",
+    "build_hash": "54b343c2886890de8a8430a67c39a51931d6141a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "302tKP": "Get Item",
+                "7EGhnE": "Use Offer"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-21T20:57:43.261394+00:00"
+    "timestamp": "2026-07-21T21:09:51.949621+00:00"
 }
