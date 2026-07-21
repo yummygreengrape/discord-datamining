@@ -1,5 +1,5 @@
 {
-    "build_hash": "6f5295a64ccce7b2c2afc718f66b935b6b07f98a",
+    "build_hash": "214fb7d80858121f70934b50f960489fc7716f76",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,16 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "iXldTS": {
+                    "new_value": "Grid View",
+                    "old_value": "Switch back to Voice Channel"
+                },
+                "zQkVWf": {
+                    "new_value": "Living Room",
+                    "old_value": "Switch to Living Room"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-21T22:54:56.174465+00:00"
+    "timestamp": "2026-07-21T23:05:24.333423+00:00"
 }
