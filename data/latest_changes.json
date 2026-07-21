@@ -1,5 +1,5 @@
 {
-    "build_hash": "7f58a4ec9e31decb58c4a417762663737211ce9a",
+    "build_hash": "e951eda0f6bd45e4a97643ef99d2775fe0b21d92",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -17,28 +17,10 @@
             "modified": {}
         },
         "ko": {
-            "added": {
-                "34GMP9": "게임 서버 호스팅",
-                "8HAQUb": "Nitro로 모든 게임 서버 할인받기",
-                "Bx4/Lf": "메시지 요청을 보냈어요. 탭해서 확인해 보세요.",
-                "GJNQYz": "모드팩 설치 관리자",
-                "Hr/q/6": "컬렉션으로 이동",
-                "MhIx41": "죽음",
-                "NurDjc": "플랜 보기",
-                "NzrGEi": "99.9% 가동 시간",
-                "SXQd3c": "게임을 선택하고 서버를 실행하여 플레이를 시작하세요. 상점에서 구독하세요!",
-                "TEYPNR": "취소 확인",
-                "VzqqFC": "무엇이든 좋아요",
-                "bqZVd/": "확인하러 가기",
-                "nb5PC/": "프로모션",
-                "pTinR2": "백업",
-                "s0N1nM": "DDoS 보호",
-                "xMpGuO": "간편한 설정과 완벽한 관리자 패널 제어 기능으로 단 몇 분 만에 친구들과 멀티플레이어 게임을 즐겨보세요.",
-                "y85Eg9": "내 게임 서버 호스팅 구독이에요."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-07-21T22:01:52.808480+00:00"
+    "timestamp": "2026-07-21T22:12:18.716855+00:00"
 }
