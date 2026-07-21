@@ -1,8 +1,61 @@
 {
-    "build_hash": "214fb7d80858121f70934b50f960489fc7716f76",
+    "build_hash": "dcd28b3211f3699b1941c5400d948eace72756f0",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-user-settings-redesign-4c",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-21T23:15:04Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-user-settings-redesign-4c",
+            "kind": "user",
+            "timestamp": "2026-07-21T23:15:04Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,23 +66,30 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
-            "modified": {
-                "iXldTS": {
-                    "new_value": "Grid View",
-                    "old_value": "Switch back to Voice Channel"
-                },
-                "zQkVWf": {
-                    "new_value": "Living Room",
-                    "old_value": "Switch to Living Room"
-                }
-            }
+            "deleted": {
+                "5Rlr0b": "Discord System Helper has not initialized: {status}",
+                "7pPjTW": "Linux Settings",
+                "KHVMkW": "Discord System Helper is running.",
+                "USER_SETTINGS_LINUX_SETTINGS": "Linux Settings",
+                "USER_SETTINGS_WINDOWS_SETTINGS": "Windows Settings",
+                "ZkDZov": "Windows Settings",
+                "bvw42E": "How Discord Uses Your Data",
+                "xVk85F": "Voice Security"
+            },
+            "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "5Rlr0b": "Discord System Helper 초기화되지 않음: {status}",
+                "7pPjTW": "Linux 설정",
+                "KHVMkW": "Discord System Helper가 실행 중이에요.",
+                "ZkDZov": "Windows 설정",
+                "bvw42E": "Discord가 내 데이터를 사용하는 방법",
+                "xVk85F": "음성 보안"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-07-21T23:05:24.333423+00:00"
+    "timestamp": "2026-07-21T23:15:52.369438+00:00"
 }
