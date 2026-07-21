@@ -1,5 +1,5 @@
 {
-    "build_hash": "248c4edbb544eb07e79abe47997c1c309a46eff9",
+    "build_hash": "2f50384c703b32f1d0b1436ebe3adf7b7b276460",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,18 +13,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "7/UFPj": "Clear {fieldName}"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "7/UFPj": "{fieldName} 지우기"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-07-21T19:13:00.731647+00:00"
+    "timestamp": "2026-07-21T19:23:29.502497+00:00"
 }
