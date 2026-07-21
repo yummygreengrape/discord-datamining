@@ -1,5 +1,5 @@
 {
-    "build_hash": "cc3801b60fa45c55ac5bb118dfa8c66f8021da23",
+    "build_hash": "042ffb4040c79f795f8d0602fd449ad9fb292d68",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,10 +9,25 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-powerups-coachmark-scroll-close",
+            "kind": "user",
+            "timestamp": "2026-07-21T23:35:16Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "8bZyov": "Clip Quality",
+                "h8DSx/": "This is the quality your clips will be recorded at. Higher quality results in larger file sizes."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-21T23:26:24.625471+00:00"
+    "timestamp": "2026-07-21T23:37:07.300088+00:00"
 }
