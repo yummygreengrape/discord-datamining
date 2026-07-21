@@ -1,5 +1,5 @@
 {
-    "build_hash": "d785d10c26c2a0b32ea4df44cd75870718de8deb",
+    "build_hash": "9908b864e2acec99fb682f99f465fa33a87eb7a0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,16 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "Eh5+1F": {
+                    "new_value": "See what decos your friends are rocking. Grab your faves!",
+                    "old_value": "See what decos your friend’s rocking. Grab your faves"
+                },
+                "bqZVd/": {
+                    "new_value": "Check It Out",
+                    "old_value": "Check it out"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-21T20:05:24.358139+00:00"
+    "timestamp": "2026-07-21T20:15:54.313493+00:00"
 }
