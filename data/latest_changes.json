@@ -1,53 +1,8 @@
 {
-    "build_hash": "83c9ba939f1f323245dc019d71b857476cdff266",
+    "build_hash": "b5347597d1c8bc333239159bafabf1cab1de1d95",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-android-app-upsell-banner",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-07-21T01:48:01Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-android-app-upsell-banner",
-            "kind": "user",
-            "timestamp": "2026-07-21T01:48:01Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -67,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-21T01:57:03.617877+00:00"
+    "timestamp": "2026-07-21T03:08:38.482040+00:00"
 }
