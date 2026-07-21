@@ -1,5 +1,5 @@
 {
-    "build_hash": "cc7b04e831c940cc45e8b2ac8141ede2172df390",
+    "build_hash": "282904ff0d4bb747f6eb2ca6739634938982c0b4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "5jIPgz": "Try out the new LFG experience with built-in voice in [$[](channelIconHook) {channelName}]({onChannelClick}) • [Dismiss]({onDismissClick})"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-21T00:23:46.109818+00:00"
+    "timestamp": "2026-07-21T00:34:11.798938+00:00"
 }
