@@ -1,5 +1,5 @@
 {
-    "build_hash": "113574483ea2c3bf907db0becaf2f0f95ef4cf96",
+    "build_hash": "7d4c2cbee6b96acc6ca84e3f5870bff8113f13b5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,28 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "1MYPH0": "Try Nitro for {weeks, plural, one {# week} other {# weeks}}",
+                "96hTLe": "Try Nitro for {months, plural, one {# month} other {# months}}",
+                "B0ZmdG": "Try Nitro for {years, plural, one {# year} other {# years}}",
+                "G88D2T": "{discountedPrice} for the first {numYears, plural, one {year} other {# years}}, then {regularPrice}/year",
+                "SvSwga": "Monthly only",
+                "pYfIoO": "Try Nitro for {days, plural, one {# day} other {# days}}",
+                "qV9zT6": "We're updating the **{connectionName}** connection to power new in-game social features. Link your account to stay connected and earn $[orbs](orbsIconHook) {orbCount} Orbs!",
+                "s6aAW2": "Save {percent, number}% on Nitro Monthly",
+                "x+qUAi": "{discountedPrice} for the first {numMonths, plural, one {month} other {# months}}, then {regularPrice}/month"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "DfSSdL": {
+                    "new_value": "We're updating the **{connectionName}** connection to power new in-game social features. Link your **{applicationName}** account if you'd like to stay connected. (and earn $[orbs](orbsIconHook) {orbCount} Orbs!)",
+                    "old_value": "The **{connectionName}** Connection is migrating to **{applicationName}**. Reconnect your account to keep all of your profile connections (and earn $[orbs](orbsIconHook) {orbCount} Orbs!)"
+                },
+                "wUXupS": {
+                    "new_value": "We're updating the **{connectionName}** connection to power new in-game social features. [Link your **{applicationName}** account]({connectionEntrypointUrl}) if you'd like to stay connected and unlock these [additional features.]({helpCenterLink})",
+                    "old_value": "The **{connectionName}** connection is migrating to **{applicationName}** in the coming months. [Link your {applicationName} account]({connectionEntrypointUrl}) if you want to continue your connection and unlock additional [in-game social features.]({helpCenterLink})"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +41,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-21T17:49:23.384211+00:00"
+    "timestamp": "2026-07-21T17:59:54.091808+00:00"
 }
