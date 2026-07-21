@@ -1,5 +1,5 @@
 {
-    "build_hash": "5bad59ccd859f44eda4a958a3c8fec0357f43c13",
+    "build_hash": "8ba2626d3f763f670be550792f11ecf6386334c3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,18 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-guild-profile-server-tag",
-            "kind": "user",
-            "timestamp": "2026-07-21T17:09:42Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -33,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-21T17:17:59.398831+00:00"
+    "timestamp": "2026-07-21T17:28:27.838024+00:00"
 }
