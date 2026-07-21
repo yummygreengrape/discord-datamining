@@ -1,5 +1,5 @@
 {
-    "build_hash": "bb2a514478726dff7fe7c5996f2e39c0dc8b6563",
+    "build_hash": "0d7267c467f681b5538e0c0a9d58332b68122583",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-wishlist-direct-to-gifting",
+            "kind": "user",
+            "timestamp": "2026-07-21T16:05:07Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-21T15:54:42.152979+00:00"
+    "timestamp": "2026-07-21T16:05:10.858110+00:00"
 }
