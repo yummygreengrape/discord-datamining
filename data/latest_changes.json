@@ -1,5 +1,5 @@
 {
-    "build_hash": "282904ff0d4bb747f6eb2ca6739634938982c0b4",
+    "build_hash": "820bc30df0359f6a8aa6419da7e6589e4112a825",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,14 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "3aEgK6": "Cancels {date}",
+                "9A6cRW": "Renews {date}",
+                "F/BDbC": "View in Shop",
+                "TEYPNR": "Confirm cancellation",
+                "XR1WrB": "Cancellation will take effect at the end of your current billing period. On {date}, you will lose access to your game server, and all game server data will be permanently deleted.",
+                "zjfaGH": "Keep game server"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-21T00:34:11.798938+00:00"
+    "timestamp": "2026-07-21T00:44:39.150644+00:00"
 }
