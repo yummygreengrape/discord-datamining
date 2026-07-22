@@ -1,8 +1,112 @@
 {
-    "build_hash": "98adf76cde6b24b5cb6a9591405610b0b7748518",
+    "build_hash": "905c8c013c9670cfe31e8265433cf903c125d87f",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-gdop-v2-upsell",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-22T18:12:30Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-application-widget-profile-popout-preload",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-22T18:12:30Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-gdop-v2-upsell",
+            "kind": "user",
+            "timestamp": "2026-07-22T18:12:30Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-application-widget-profile-popout-preload",
+            "kind": "user",
+            "timestamp": "2026-07-22T18:12:30Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,33 +116,15 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "3oS3Jq": "Reacted $[](emojiHook) to your GIF",
-                "8xg9ZQ": "Reacted $[](emojiHook) to your forwarded message",
-                "I7mNcA": "Reacted $[](emojiHook) to your image",
-                "NfZxrD": "Your message reached {count, plural, one {# reaction} other {# reactions}}:",
-                "P/bwx9": "Reacted $[](emojiHook) to your audio file",
-                "TXNjGW": "Reacted $[](emojiHook) to your file",
-                "UNRyki": "Reacted $[](emojiHook) to your {count} attachments",
-                "Umew/z": "Reacted $[](emojiHook) to your video",
-                "k6YnQO": "Reacted $[](emojiHook) to your voice message",
-                "pnm8NC": "Reacted $[](emojiHook) to your sticker",
-                "sec4g7": "Reacted $[](emojiHook) to your {count} files",
-                "vfYN5b": "Your message reached {count, plural, one {# reaction} other {# reactions}}"
-            },
-            "deleted": {
-                "KTurAR": "Your message got {count}",
-                "REACTION_IN_APP_NOTIFICATION_CONTENT_MILESTONE": "Your message got {count, plural, one {# reaction} other {# reactions}}"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "KTurAR": "메시지가 {count}를 받았어요"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-07-22T17:43:13.746113+00:00"
+    "timestamp": "2026-07-22T18:14:00.279993+00:00"
 }
