@@ -1,12 +1,120 @@
 {
-    "build_hash": "9c91a86bc6512e2235856e2f74f503fcfa8a3ea9",
+    "build_hash": "04691e324fae0e29375c984ba38e3614523240ab",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-spatial-audio-for-voice",
+            "kind": "user",
+            "locations": [
+                "RTCConnection"
+            ],
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_locations": [
+                "RTCConnection"
+            ],
+            "old_signals": [
+                "MediaEngine.supports(SPATIAL_AUDIO)"
+            ],
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_ui_ids": [
+                "spatial-audio-panel",
+                "spatial-audio-settings"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true
+                }
+            },
+            "signals": [
+                "MediaEngine.supports(SPATIAL_AUDIO)"
+            ],
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-spatial-audio-for-voice",
+            "kind": "user",
+            "locations": [
+                "RTCConnection"
+            ],
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_locations": [
+                "RTCConnection"
+            ],
+            "old_signals": [
+                "MediaEngine.supports(SPATIAL_AUDIO)"
+            ],
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_ui_ids": [
+                "spatial-audio-panel",
+                "spatial-audio-settings"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true
+                }
+            },
+            "signals": [
+                "MediaEngine.supports(SPATIAL_AUDIO)"
+            ],
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -14,7 +122,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "LGDPhA": {
+                    "new_value": "Spatial Audio",
+                    "old_value": "[FOR INTERNAL USE ONLY] Enable spatial audio - Stay tuned"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +135,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-22T01:10:38.569743+00:00"
+    "timestamp": "2026-07-22T01:21:07.694229+00:00"
 }
