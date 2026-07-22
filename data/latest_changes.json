@@ -1,5 +1,5 @@
 {
-    "build_hash": "d58daa737d50ac4f5e7453aed4da33963598f593",
+    "build_hash": "1f4148498e3570c08a6e4e5d3437e9ffe2459aea",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,24 +9,10 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-collectibles-collabs-filter",
-            "kind": "user",
-            "timestamp": "2026-07-22T18:21:37Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+W8gb+": "Collabs"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -36,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-22T18:24:26.675686+00:00"
+    "timestamp": "2026-07-22T18:34:53.647864+00:00"
 }
