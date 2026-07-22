@@ -1,134 +1,12 @@
 {
-    "build_hash": "a3269ee2e44ae2f6906034756bce213495018e33",
+    "build_hash": "5e6bbc33d96587af4145d15c95f1dd465b2875a6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "hasHigherPrivileges",
-                "isFreemium"
-            ],
-            "default_config": {
-                "enabled": false,
-                "hasHigherPrivileges": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-01-favorites-server",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled",
-                "hasHigherPrivileges"
-            ],
-            "old_default_config": {
-                "enabled": false,
-                "hasHigherPrivileges": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true,
-                    "hasHigherPrivileges": true
-                },
-                "2": {
-                    "enabled": true,
-                    "hasHigherPrivileges": false
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "hasHigherPrivileges": true
-                },
-                "2": {
-                    "enabled": true,
-                    "hasHigherPrivileges": false
-                },
-                "3": {
-                    "enabled": true,
-                    "hasHigherPrivileges": true,
-                    "isFreemium": true
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "hasHigherPrivileges",
-                "isFreemium"
-            ],
-            "default_config": {
-                "enabled": false,
-                "hasHigherPrivileges": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-01-favorites-server",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled",
-                "hasHigherPrivileges"
-            ],
-            "old_default_config": {
-                "enabled": false,
-                "hasHigherPrivileges": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true,
-                    "hasHigherPrivileges": true
-                },
-                "2": {
-                    "enabled": true,
-                    "hasHigherPrivileges": false
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "hasHigherPrivileges": true
-                },
-                "2": {
-                    "enabled": true,
-                    "hasHigherPrivileges": false
-                },
-                "3": {
-                    "enabled": true,
-                    "hasHigherPrivileges": true,
-                    "isFreemium": true
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -144,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-22T22:14:18.389344+00:00"
+    "timestamp": "2026-07-22T22:24:44.323921+00:00"
 }
