@@ -1,5 +1,5 @@
 {
-    "build_hash": "057b54ef491f213998c0b4a4e433101942ff5e1e",
+    "build_hash": "b1a5edac37dc3257d439e7b101b9f5d99fa83032",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,34 +9,10 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "id": "2026-06_guild_spaces",
-            "kind": "guild",
-            "timestamp": "2026-07-22T16:56:50Z",
-            "title": "Guild Space",
-            "treatments": [
-                "Control",
-                "Treatment 1: Enable Guild Space"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-past-due-checkout",
-            "kind": "user",
-            "timestamp": "2026-07-22T16:58:52Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "04IVMq": "Server Hub"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -46,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-22T17:11:53.175120+00:00"
+    "timestamp": "2026-07-22T17:22:20.411905+00:00"
 }
