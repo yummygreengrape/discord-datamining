@@ -1,5 +1,5 @@
 {
-    "build_hash": "1e821bf006f526f55e0923d57e6d18ba90090f07",
+    "build_hash": "1291d25a5ee2a3faac5f1324d61a57297a08ba5d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
+            "added": {
                 "96UEzi": "This thread is archived.",
                 "hIXtcT": "This post is archived."
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -25,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-22T19:58:02.682105+00:00"
+    "timestamp": "2026-07-22T20:18:53.904570+00:00"
 }
