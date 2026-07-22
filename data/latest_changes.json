@@ -1,5 +1,5 @@
 {
-    "build_hash": "3e494b20f14b5aa780cacbe2137efef9ac763625",
+    "build_hash": "00f22e5928f9f0e5b2af0b76d81e8b828d2d7a7e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "HYpETY": "Your Nitro membership comes with {boostCount, plural, one {# Boost} other {# Boosts}}. Add more at a Nitro discount whenever your server needs them.",
-                "RmVM19": "{percentageOff, number}% off",
-                "jbrHpT": "You get {discount} extra Boosts with Nitro"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-22T13:14:50.897916+00:00"
+    "timestamp": "2026-07-22T15:17:25.045213+00:00"
 }
