@@ -1,12 +1,266 @@
 {
-    "build_hash": "e45fa41f959d83a47afa9ea995c404d46ef85bbf",
+    "build_hash": "faf05be575b06d97a68c03aa49156c012ec0b8c8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "clickableTile",
+                "ctaOnHover",
+                "useLargeFeaturedTiles",
+                "useNewLayoutWithSearch",
+                "useNewTile"
+            ],
+            "default_config": {
+                "clickableTile": false,
+                "ctaOnHover": false,
+                "useLargeFeaturedTiles": false,
+                "useNewLayoutWithSearch": false,
+                "useNewTile": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-tile-redesign",
+            "kind": "user",
+            "old_config_keys": [
+                "ctaOnHover",
+                "useLargeFeaturedTiles",
+                "useNewLayoutWithSearch",
+                "useNewTile"
+            ],
+            "old_default_config": {
+                "ctaOnHover": false,
+                "useLargeFeaturedTiles": false,
+                "useNewLayoutWithSearch": false,
+                "useNewTile": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": false,
+                    "useNewTile": false
+                },
+                "1": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": false
+                },
+                "2": {
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "3": {
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "4": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5"
+            ],
+            "variations": {
+                "0": {
+                    "clickableTile": false,
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": false,
+                    "useNewTile": false
+                },
+                "1": {
+                    "clickableTile": false,
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": false
+                },
+                "2": {
+                    "clickableTile": false,
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "3": {
+                    "clickableTile": false,
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "4": {
+                    "clickableTile": false,
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "5": {
+                    "clickableTile": true,
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "clickableTile",
+                "ctaOnHover",
+                "useLargeFeaturedTiles",
+                "useNewLayoutWithSearch",
+                "useNewTile"
+            ],
+            "default_config": {
+                "clickableTile": false,
+                "ctaOnHover": false,
+                "useLargeFeaturedTiles": false,
+                "useNewLayoutWithSearch": false,
+                "useNewTile": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-tile-redesign",
+            "kind": "user",
+            "old_config_keys": [
+                "ctaOnHover",
+                "useLargeFeaturedTiles",
+                "useNewLayoutWithSearch",
+                "useNewTile"
+            ],
+            "old_default_config": {
+                "ctaOnHover": false,
+                "useLargeFeaturedTiles": false,
+                "useNewLayoutWithSearch": false,
+                "useNewTile": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": false,
+                    "useNewTile": false
+                },
+                "1": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": false
+                },
+                "2": {
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "3": {
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "4": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5"
+            ],
+            "variations": {
+                "0": {
+                    "clickableTile": false,
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": false,
+                    "useNewTile": false
+                },
+                "1": {
+                    "clickableTile": false,
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": false
+                },
+                "2": {
+                    "clickableTile": false,
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "3": {
+                    "clickableTile": false,
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "4": {
+                    "clickableTile": false,
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "5": {
+                    "clickableTile": true,
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -22,5 +276,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-22T23:26:50.564402+00:00"
+    "timestamp": "2026-07-22T23:47:28.283974+00:00"
 }
