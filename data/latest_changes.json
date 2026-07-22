@@ -1,5 +1,5 @@
 {
-    "build_hash": "5470793b14ba6b41c307a95d742b5b19a5aa78cf",
+    "build_hash": "d589e0b816ade5daef451bb99aa16d8b9ba01c2d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,16 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "7O7Zg3": {
+                    "new_value": "Aww, bummer...This trial is not redeemable on mobile. [Learn more.]({helpdeskArticle})",
+                    "old_value": "Awe, bummer....This trial is not redeemable on mobile. [Learn more.]({helpdeskArticle})"
+                },
+                "yqX4Dr": {
+                    "new_value": "Aww, bummer...This trial is not redeemable on VR. [Learn more.]({helpdeskArticle})",
+                    "old_value": "Awe, bummer....This trial is not redeemable on VR. [Learn more.]({helpdeskArticle})"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-22T00:39:35.051199+00:00"
+    "timestamp": "2026-07-22T00:50:02.007773+00:00"
 }
