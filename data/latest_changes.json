@@ -1,122 +1,32 @@
 {
-    "build_hash": "905c8c013c9670cfe31e8265433cf903c125d87f",
+    "build_hash": "d58daa737d50ac4f5e7453aed4da33963598f593",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-gdop-v2-upsell",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-07-22T18:12:30Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-application-widget-profile-popout-preload",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-07-22T18:12:30Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-gdop-v2-upsell",
-            "kind": "user",
-            "timestamp": "2026-07-22T18:12:30Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-application-widget-profile-popout-preload",
-            "kind": "user",
-            "timestamp": "2026-07-22T18:12:30Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-collectibles-collabs-filter",
+            "kind": "user",
+            "timestamp": "2026-07-22T18:21:37Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+W8gb+": "Collabs"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -126,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-22T18:14:00.279993+00:00"
+    "timestamp": "2026-07-22T18:24:26.675686+00:00"
 }
