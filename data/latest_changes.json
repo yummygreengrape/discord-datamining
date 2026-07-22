@@ -1,5 +1,5 @@
 {
-    "build_hash": "1291d25a5ee2a3faac5f1324d61a57297a08ba5d",
+    "build_hash": "17bb1bc127514cf19075875c59cd81d6315be0fe",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,12 +12,18 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "96UEzi": "This thread is archived.",
-                "hIXtcT": "This post is archived."
-            },
+            "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "9Cx+xL": {
+                    "new_value": "Type /gif + anything to find a GIF for that topic!",
+                    "old_value": "Type /gif or /tenor + anything to find a GIF for that topic!"
+                },
+                "LOADING_TIP_13": {
+                    "new_value": "Type /gif + anything to find a GIF for that topic!",
+                    "old_value": "Type /gif or /tenor + anything to find a GIF for that topic!"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -25,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-22T20:18:53.904570+00:00"
+    "timestamp": "2026-07-22T20:29:21.636464+00:00"
 }
