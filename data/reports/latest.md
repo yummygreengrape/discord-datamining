@@ -147,5 +147,5 @@
 - 공개 내용 점검: passed
 - 최신 리포트 포인터 일치: passed
 - git diff 검사: passed
-- 커밋/푸시: pending validation and publish
+- 커밋/푸시: passed (`f3f2c0b0ad` pushed to `origin/main`; metadata recorded by follow-up commit)
 - 비고: No application or parser code changed, so code build checks are not required for this run.
