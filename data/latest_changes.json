@@ -1,18 +1,264 @@
 {
-    "build_hash": "5b5ca79c654c58e0bb2a01bd0dc737f1470eb779",
+    "build_hash": "2fc98f44b12c200f2b0ef7391464ae1a549fc9e3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "TC.v.GRADIENT",
+                "surface": "TC.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TN.v.GRADIENT",
+                "surface": "TN.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TN.v.GRADIENT",
+                    "surface": "TN.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TN.v.EXPRESSIVE",
+                    "surface": "TN.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TN.v.GRADIENT",
+                    "surface": "TN.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TN.v.GLOWING",
+                    "surface": "TN.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TN.v.GLOWING",
+                    "surface": "TN.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "TC.v.GRADIENT",
+                    "surface": "TC.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TC.v.EXPRESSIVE",
+                    "surface": "TC.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TC.v.GRADIENT",
+                    "surface": "TC.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TC.v.GLOWING",
+                    "surface": "TC.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TC.v.GLOWING",
+                    "surface": "TC.F.NONE"
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "TC.v.GRADIENT",
+                "surface": "TC.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TN.v.GRADIENT",
+                "surface": "TN.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TN.v.GRADIENT",
+                    "surface": "TN.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TN.v.EXPRESSIVE",
+                    "surface": "TN.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TN.v.GRADIENT",
+                    "surface": "TN.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TN.v.GLOWING",
+                    "surface": "TN.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TN.v.GLOWING",
+                    "surface": "TN.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "TC.v.GRADIENT",
+                    "surface": "TC.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TC.v.EXPRESSIVE",
+                    "surface": "TC.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TC.v.GRADIENT",
+                    "surface": "TC.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TC.v.GLOWING",
+                    "surface": "TC.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TC.v.GLOWING",
+                    "surface": "TC.F.NONE"
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_extraction",
+            "id": "2026-06_guild_spaces",
+            "kind": "guild",
+            "status": "added",
+            "title": "Guild Space",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable Guild Space"
+            ]
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-past-due-checkout",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_extraction",
+            "id": "2026-06_guild_spaces",
+            "kind": "guild",
+            "title": "Guild Space",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable Guild Space"
+            ]
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-past-due-checkout",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "04IVMq": "Server Hub"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +268,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-22T16:50:25.064389+00:00"
+    "timestamp": "2026-07-22T17:01:08.332205+00:00"
 }
