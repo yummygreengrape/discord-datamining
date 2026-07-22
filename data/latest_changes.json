@@ -1,21 +1,8 @@
 {
-    "build_hash": "a6ef00646760ca8c1fd3f3b88175ebab6deead1a",
+    "build_hash": "e45fa41f959d83a47afa9ea995c404d46ef85bbf",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-01-valentines-day-drop",
-            "kind": "user",
-            "timestamp": "2026-07-22T22:51:07Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -35,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-22T22:56:01.834798+00:00"
+    "timestamp": "2026-07-22T23:26:50.564402+00:00"
 }
