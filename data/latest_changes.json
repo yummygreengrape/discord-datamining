@@ -1,8 +1,20 @@
 {
-    "build_hash": "1881c7805c89399f1c601f8899807a7febdb79d6",
+    "build_hash": "fe81548948c3e1878c00980e2e71b6bd72eb324a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-shop-fiat-prioritization",
+            "kind": "user",
+            "timestamp": "2026-07-22T19:46:22Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,7 +24,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "96UEzi": "This thread is archived.",
+                "hIXtcT": "This post is archived."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-22T19:37:00.921305+00:00"
+    "timestamp": "2026-07-22T19:47:30.797676+00:00"
 }
