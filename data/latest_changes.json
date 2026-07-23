@@ -1,42 +1,214 @@
 {
-    "build_hash": "584bb3fdafd65c8daf40af0b3fd0afcf46655d0a",
+    "build_hash": "5aada23890f88ae160135c8d732811ccea7c2530",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "combineMentionAutocomplete",
+                "enabled",
+                "showNewTag"
+            ],
+            "default_config": {
+                "combineMentionAutocomplete": false,
+                "enabled": false,
+                "showNewTag": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-game-mentions-v2-mobile",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-23T19:01:47Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": false,
+                    "showNewTag": false
+                },
+                "1": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": true,
+                    "showNewTag": true
+                },
+                "2": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": true,
+                    "showNewTag": false
+                },
+                "3": {
+                    "combineMentionAutocomplete": true,
+                    "enabled": true,
+                    "showNewTag": false
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "combineMentionAutocomplete",
+                "enabled",
+                "showNewTag"
+            ],
+            "default_config": {
+                "combineMentionAutocomplete": false,
+                "enabled": false,
+                "showNewTag": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-game-mentions-v2-mobile",
+            "kind": "user",
+            "timestamp": "2026-07-23T19:01:47Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": false,
+                    "showNewTag": false
+                },
+                "1": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": true,
+                    "showNewTag": true
+                },
+                "2": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": true,
+                    "showNewTag": false
+                },
+                "3": {
+                    "combineMentionAutocomplete": true,
+                    "enabled": true,
+                    "showNewTag": false
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-04-consistent-profiles",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled",
+                "showMutualFriendsNameplate"
+            ],
+            "old_default_config": {
+                "enabled": false,
+                "showMutualFriendsNameplate": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true,
+                    "showMutualFriendsNameplate": false
+                },
+                "2": {
+                    "enabled": true,
+                    "showMutualFriendsNameplate": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-04-consistent-profiles",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled",
+                "showMutualFriendsNameplate"
+            ],
+            "old_default_config": {
+                "enabled": false,
+                "showMutualFriendsNameplate": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true,
+                    "showMutualFriendsNameplate": false
+                },
+                "2": {
+                    "enabled": true,
+                    "showMutualFriendsNameplate": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "5U5RB5": "Buy for {discountOfferAmount}% Off",
-                "78ph4b": "Get {discountOfferAmount}% off this bestseller!",
-                "IhKBNX": "You’re one click away from {discountOfferAmount}% off!",
-                "MrB1Ke": "**Nice work!** You saved {discountOfferAmount}% on this gift!",
-                "fsOXXO": "**Heads up!** Your discount will not apply to this purchase.",
-                "gqv5Q1": "This item won’t be eligible for a discount if claimed with Orbs. Buy this item to activate the deal.",
-                "rItDbx": "Discount Eligible: {discountOfferAmount}% Off"
+            "added": {
+                "qbzGwh": "New badge: {badge_name}, {tier_name}",
+                "rDjKru": "New badge: {badge_name}"
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "5U5RB5": "{discountOfferAmount}% 할인 금액으로 구매",
-                "78ph4b": "이 베스트셀러를 {discountOfferAmount}% 할인 가격으로 구매하세요!",
-                "IhKBNX": "이 아이템을 {discountOfferAmount}% 할인된 가격으로 구입하세요!",
-                "MrB1Ke": "bHook잘했어요! 이 선물을 {discountOfferAmount}% 할인 가격으로 구매하셨네요!",
-                "fsOXXO": "bHook주의하세요! 이 구매에는 할인이 적용되지 않아요.",
-                "gqv5Q1": "이 아이템은 Orbs를 사용해 받을 경우 할인 대상이 되지 않아요. 할인을 받으려면 이 아이템을 구매하세요.",
-                "rItDbx": "할인 적용 가능: {discountOfferAmount}% 할인"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T18:56:18.307401+00:00"
+    "timestamp": "2026-07-23T19:06:45.754114+00:00"
 }
