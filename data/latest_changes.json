@@ -1,5 +1,5 @@
 {
-    "build_hash": "4c4f5c66ed5286ae6316aa8eb7761db79ef6864f",
+    "build_hash": "6102c216d611d8fd82891af0f35ef35a441edcd8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,70 +7,12 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "AGE_VERIFICATION_METHODS_V2",
-            "status": "added",
-            "url": "/age-verification/methods/v2"
-        },
-        {
-            "name": "ENDPOINT_AGE_VERIFICATION_METHODS_V2",
-            "status": "added",
-            "url": "/age-verification/methods/v2"
-        }
-    ],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-expressive-modal-v2",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-07-23T04:13:30Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-expressive-modal-v2",
-            "kind": "user",
-            "timestamp": "2026-07-23T04:13:30Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_api_endpoints": [],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "b7VAIk": "This verification flow isn't implemented yet."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -80,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T04:13:59.438062+00:00"
+    "timestamp": "2026-07-23T04:55:01.173718+00:00"
 }
