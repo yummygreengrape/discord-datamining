@@ -1,8 +1,61 @@
 {
-    "build_hash": "c17a90451c2c4217794efe0453baa205a9bbf710",
+    "build_hash": "6c3446904382f953487123ee50d8163a5e63b30a",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-bounty-use-video-modal-mobile-placement-experiment",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-23T20:08:21Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": false
+                },
+                "2": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-bounty-use-video-modal-mobile-placement-experiment",
+            "kind": "user",
+            "timestamp": "2026-07-23T20:08:21Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": false
+                },
+                "2": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,9 +65,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "uZ4F2O": "Results updated."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +75,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T19:58:38.172945+00:00"
+    "timestamp": "2026-07-23T20:09:05.619733+00:00"
 }
