@@ -1,8 +1,29 @@
 {
-    "build_hash": "b350c6ad374f43a11534b264d6bed9fca8e5ad9e",
+    "build_hash": "91369e0f808a265e89e6cf5fa2f02cf8371da18c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-orbs-shop-upsell-banner",
+            "kind": "user",
+            "timestamp": "2026-07-23T22:49:59Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-orbs-purchase-upsell-banner",
+            "kind": "user",
+            "timestamp": "2026-07-23T22:49:59Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,14 +34,24 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "50J7mj": "Get Orbs monthly with Nitro",
+                "7igrTt": "Get {monthlyOrbsAmount} Orbs every month to spend on new looks in the Shop. Only with Nitro.",
+                "NU5ZId": "{monthlyOrbsAmount} Orbs every month to spend on new looks in the Shop.",
+                "xPfigP": "Want some Orbs back?"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "50J7mj": "Nitro로 매월 Orbs를 받으세요",
+                "7igrTt": "매달 {monthlyOrbsAmount} Orbs를 받아 상점에서 이용해 보세요. Nitro 구독 시에만 가능해요.",
+                "NU5ZId": "매달 {monthlyOrbsAmount} Orbs를 받아 상점에서 새로운 룩을 완성해 보세요.",
+                "xPfigP": "Orbs를 돌려받고 싶으신가요?"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T22:45:50.013158+00:00"
+    "timestamp": "2026-07-23T22:56:27.434237+00:00"
 }
