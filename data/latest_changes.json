@@ -1,5 +1,5 @@
 {
-    "build_hash": "20f24e68eb4c60ea5b26a544a4b0c0b194b08021",
+    "build_hash": "2cfcd78f6facc47fb73b7f9db9c35ae2844cf1b5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-nvenc-reconstructed-frames",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-07-23T20:21:29Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-nvenc-reconstructed-frames",
+            "kind": "user",
+            "timestamp": "2026-07-23T20:21:29Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T20:19:31.492130+00:00"
+    "timestamp": "2026-07-23T20:29:59.627678+00:00"
 }
