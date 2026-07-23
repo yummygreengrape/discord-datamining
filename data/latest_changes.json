@@ -1,18 +1,150 @@
 {
-    "build_hash": "e421a1edead06bcfbd15942524c8e230a43016ff",
+    "build_hash": "7d40531025e3c4b385b6165634983c0544ffc99b",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "maxFrequentEmojis"
+            ],
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-emoji-frecent-test",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-23T22:00:31Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "maxFrequentEmojis": 9
+                },
+                "2": {
+                    "maxFrequentEmojis": 18
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "buttonStyle"
+            ],
+            "default_config": {
+                "buttonStyle": 0
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-expressive-button-test",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-23T22:00:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "buttonStyle": 0
+                },
+                "1": {
+                    "buttonStyle": 1
+                },
+                "2": {
+                    "buttonStyle": 2
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "maxFrequentEmojis"
+            ],
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-emoji-frecent-test",
+            "kind": "user",
+            "timestamp": "2026-07-23T22:00:31Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "maxFrequentEmojis": 9
+                },
+                "2": {
+                    "maxFrequentEmojis": 18
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "buttonStyle"
+            ],
+            "default_config": {
+                "buttonStyle": 0
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-expressive-button-test",
+            "kind": "user",
+            "timestamp": "2026-07-23T22:00:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "buttonStyle": 0
+                },
+                "1": {
+                    "buttonStyle": 1
+                },
+                "2": {
+                    "buttonStyle": 2
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-emoji-frecent-test",
+            "kind": "user",
+            "timestamp": "2026-07-23T22:02:33Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-expressive-button-test",
+            "kind": "user",
+            "timestamp": "2026-07-23T22:02:33Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "kv8ULD": "Widget editing isn't available on mobile yet. Try the web or desktop app!"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +154,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T21:53:45.610550+00:00"
+    "timestamp": "2026-07-23T22:04:12.951340+00:00"
 }
