@@ -1,18 +1,189 @@
 {
-    "build_hash": "e999fe25821d422c498c9eda0a265e93c729a61e",
+    "build_hash": "2a4aff897da71257c7d1bed6a5e5266f0a7cd80e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "Ty.v.GRADIENT",
+                "surface": "Ty.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TR.v.GRADIENT",
+                "surface": "TR.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TR.v.GRADIENT",
+                    "surface": "TR.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TR.v.EXPRESSIVE",
+                    "surface": "TR.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TR.v.GRADIENT",
+                    "surface": "TR.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TR.v.GLOWING",
+                    "surface": "TR.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TR.v.GLOWING",
+                    "surface": "TR.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "Ty.v.GRADIENT",
+                    "surface": "Ty.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Ty.v.EXPRESSIVE",
+                    "surface": "Ty.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Ty.v.GRADIENT",
+                    "surface": "Ty.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Ty.v.GLOWING",
+                    "surface": "Ty.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Ty.v.GLOWING",
+                    "surface": "Ty.F.NONE"
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "Ty.v.GRADIENT",
+                "surface": "Ty.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TR.v.GRADIENT",
+                "surface": "TR.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TR.v.GRADIENT",
+                    "surface": "TR.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TR.v.EXPRESSIVE",
+                    "surface": "TR.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TR.v.GRADIENT",
+                    "surface": "TR.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TR.v.GLOWING",
+                    "surface": "TR.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TR.v.GLOWING",
+                    "surface": "TR.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "Ty.v.GRADIENT",
+                    "surface": "Ty.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Ty.v.EXPRESSIVE",
+                    "surface": "Ty.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Ty.v.GRADIENT",
+                    "surface": "Ty.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Ty.v.GLOWING",
+                    "surface": "Ty.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Ty.v.GLOWING",
+                    "surface": "Ty.F.NONE"
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "1RD2jW": "Something went wrong trying to open this method.",
+                "Bkmk4Y": "Something went wrong loading verification methods. Please try again."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +193,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T17:33:20.523196+00:00"
+    "timestamp": "2026-07-23T17:53:56.988836+00:00"
 }
