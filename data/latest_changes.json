@@ -1,5 +1,5 @@
 {
-    "build_hash": "2a4aff897da71257c7d1bed6a5e5266f0a7cd80e",
+    "build_hash": "34ecddd7ad3c877542891df2a930669eb4824405",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,171 +8,93 @@
     "modified_experiment_details": [
         {
             "config_keys": [
-                "badgeStyle",
-                "surface"
+                "enabled",
+                "experimental",
+                "interactionsEnabled",
+                "multipleRoomsEnabled"
             ],
             "default_config": {
-                "badgeStyle": "Ty.v.GRADIENT",
-                "surface": "Ty.F.NONE"
+                "enabled": false,
+                "experimental": false,
+                "interactionsEnabled": false,
+                "multipleRoomsEnabled": false
             },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
+            "experiment_source": "self_extraction",
+            "id": "2026-06_guild_rooms",
+            "kind": "guild",
             "old_config_keys": [
-                "badgeStyle",
-                "surface"
+                "enabled",
+                "experimental",
+                "interactionsEnabled"
             ],
             "old_default_config": {
-                "badgeStyle": "TR.v.GRADIENT",
-                "surface": "TR.F.NONE"
+                "enabled": false,
+                "experimental": false,
+                "interactionsEnabled": false
             },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
+            "old_kind": "guild",
+            "old_title": "Guild Rooms",
             "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
+                "Control",
+                "Treatment 1: Enable Guild Rooms in this guild",
+                "Treatment 2: Enable Guild Rooms in this guild",
+                "Treatment 3: Enable Guild Rooms without Interactions"
             ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "TR.v.GRADIENT",
-                    "surface": "TR.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "TR.v.EXPRESSIVE",
-                    "surface": "TR.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "TR.v.GRADIENT",
-                    "surface": "TR.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "TR.v.GLOWING",
-                    "surface": "TR.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "TR.v.GLOWING",
-                    "surface": "TR.F.NONE"
-                }
-            },
             "status": "modified",
+            "title": "Guild Rooms",
             "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "Ty.v.GRADIENT",
-                    "surface": "Ty.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "Ty.v.EXPRESSIVE",
-                    "surface": "Ty.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "Ty.v.GRADIENT",
-                    "surface": "Ty.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "Ty.v.GLOWING",
-                    "surface": "Ty.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "Ty.v.GLOWING",
-                    "surface": "Ty.F.NONE"
-                }
-            }
+                "Control",
+                "Treatment 1: Enable Guild Rooms in this guild",
+                "Treatment 2: Enable Guild Rooms in this guild",
+                "Treatment 3: Enable Guild Rooms without Interactions",
+                "Treatment 4: Enable Guild Rooms with Room Variants"
+            ]
         }
     ],
     "modified_experiments": [
         {
             "config_keys": [
-                "badgeStyle",
-                "surface"
+                "enabled",
+                "experimental",
+                "interactionsEnabled",
+                "multipleRoomsEnabled"
             ],
             "default_config": {
-                "badgeStyle": "Ty.v.GRADIENT",
-                "surface": "Ty.F.NONE"
+                "enabled": false,
+                "experimental": false,
+                "interactionsEnabled": false,
+                "multipleRoomsEnabled": false
             },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
+            "experiment_source": "self_extraction",
+            "id": "2026-06_guild_rooms",
+            "kind": "guild",
             "old_config_keys": [
-                "badgeStyle",
-                "surface"
+                "enabled",
+                "experimental",
+                "interactionsEnabled"
             ],
             "old_default_config": {
-                "badgeStyle": "TR.v.GRADIENT",
-                "surface": "TR.F.NONE"
+                "enabled": false,
+                "experimental": false,
+                "interactionsEnabled": false
             },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
+            "old_kind": "guild",
+            "old_title": "Guild Rooms",
             "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
+                "Control",
+                "Treatment 1: Enable Guild Rooms in this guild",
+                "Treatment 2: Enable Guild Rooms in this guild",
+                "Treatment 3: Enable Guild Rooms without Interactions"
             ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "TR.v.GRADIENT",
-                    "surface": "TR.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "TR.v.EXPRESSIVE",
-                    "surface": "TR.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "TR.v.GRADIENT",
-                    "surface": "TR.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "TR.v.GLOWING",
-                    "surface": "TR.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "TR.v.GLOWING",
-                    "surface": "TR.F.NONE"
-                }
-            },
             "status": "modified",
+            "title": "Guild Rooms",
             "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "Ty.v.GRADIENT",
-                    "surface": "Ty.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "Ty.v.EXPRESSIVE",
-                    "surface": "Ty.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "Ty.v.GRADIENT",
-                    "surface": "Ty.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "Ty.v.GLOWING",
-                    "surface": "Ty.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "Ty.v.GLOWING",
-                    "surface": "Ty.F.NONE"
-                }
-            }
+                "Control",
+                "Treatment 1: Enable Guild Rooms in this guild",
+                "Treatment 2: Enable Guild Rooms in this guild",
+                "Treatment 3: Enable Guild Rooms without Interactions",
+                "Treatment 4: Enable Guild Rooms with Room Variants"
+            ]
         }
     ],
     "new_api_endpoints": [],
@@ -181,8 +103,9 @@
     "string_changes": {
         "en": {
             "added": {
-                "1RD2jW": "Something went wrong trying to open this method.",
-                "Bkmk4Y": "Something went wrong loading verification methods. Please try again."
+                "4KcB5R": "Living Room",
+                "Rqmi9/": "Select the room you'd like your space to use.",
+                "kmzWUc": "Choose a Room"
             },
             "deleted": {},
             "modified": {}
@@ -193,5 +116,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T17:53:56.988836+00:00"
+    "timestamp": "2026-07-23T18:04:23.926165+00:00"
 }
