@@ -1,15 +1,234 @@
 {
-    "build_hash": "b03a5570305c1d1217e2f6533f2c33c7c16381b6",
+    "build_hash": "9b4c7a63bfbbe345c53329cdc2471503436b77bd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "TR.v.GRADIENT",
+                "surface": "TR.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TC.v.GRADIENT",
+                "surface": "TC.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TC.v.GRADIENT",
+                    "surface": "TC.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TC.v.EXPRESSIVE",
+                    "surface": "TC.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TC.v.GRADIENT",
+                    "surface": "TC.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TC.v.GLOWING",
+                    "surface": "TC.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TC.v.GLOWING",
+                    "surface": "TC.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "TR.v.GRADIENT",
+                    "surface": "TR.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TR.v.EXPRESSIVE",
+                    "surface": "TR.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TR.v.GRADIENT",
+                    "surface": "TR.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TR.v.GLOWING",
+                    "surface": "TR.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TR.v.GLOWING",
+                    "surface": "TR.F.NONE"
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "TR.v.GRADIENT",
+                "surface": "TR.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TC.v.GRADIENT",
+                "surface": "TC.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TC.v.GRADIENT",
+                    "surface": "TC.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TC.v.EXPRESSIVE",
+                    "surface": "TC.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TC.v.GRADIENT",
+                    "surface": "TC.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TC.v.GLOWING",
+                    "surface": "TC.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TC.v.GLOWING",
+                    "surface": "TC.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "TR.v.GRADIENT",
+                    "surface": "TR.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TR.v.EXPRESSIVE",
+                    "surface": "TR.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TR.v.GRADIENT",
+                    "surface": "TR.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TR.v.GLOWING",
+                    "surface": "TR.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TR.v.GLOWING",
+                    "surface": "TR.F.NONE"
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-vibegrations-guild",
+            "kind": "guild",
+            "status": "added",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-vibegrations-guild",
+            "kind": "guild",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +241,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T17:01:55.035918+00:00"
+    "timestamp": "2026-07-23T17:12:25.712660+00:00"
 }
