@@ -1,15 +1,120 @@
 {
-    "build_hash": "00c0db8ffacc54e15333bcdc1aca33bd632349d8",
+    "build_hash": "dbe4aa3d39e836ee46914442fe8e7a2cb44a7b81",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-notify-friends-on-profile-update",
+            "kind": "user",
+            "timestamp": "2026-07-23T16:33:24Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "combineMentionAutocomplete",
+                "enabled",
+                "showNewTag"
+            ],
+            "default_config": {
+                "combineMentionAutocomplete": false,
+                "enabled": false,
+                "showNewTag": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-game-mentions-v2-mobile",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-07-23T16:37:28Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": false,
+                    "showNewTag": false
+                },
+                "1": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": true,
+                    "showNewTag": true
+                },
+                "2": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": true,
+                    "showNewTag": false
+                },
+                "3": {
+                    "combineMentionAutocomplete": true,
+                    "enabled": true,
+                    "showNewTag": false
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "combineMentionAutocomplete",
+                "enabled",
+                "showNewTag"
+            ],
+            "default_config": {
+                "combineMentionAutocomplete": false,
+                "enabled": false,
+                "showNewTag": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-game-mentions-v2-mobile",
+            "kind": "user",
+            "timestamp": "2026-07-23T16:37:28Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": false,
+                    "showNewTag": false
+                },
+                "1": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": true,
+                    "showNewTag": true
+                },
+                "2": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": true,
+                    "showNewTag": false
+                },
+                "3": {
+                    "combineMentionAutocomplete": true,
+                    "enabled": true,
+                    "showNewTag": false
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +127,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T16:20:41.699740+00:00"
+    "timestamp": "2026-07-23T16:41:18.087434+00:00"
 }
