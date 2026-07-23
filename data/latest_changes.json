@@ -1,63 +1,136 @@
 {
-    "build_hash": "2cfcd78f6facc47fb73b7f9db9c35ae2844cf1b5",
+    "build_hash": "923a775133c0e952742deb61a3b4a29d11b648e0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "interactionsEnabled",
+                "multipleRoomsEnabled",
+                "posturesEnabled"
+            ],
+            "default_config": {
+                "enabled": false,
+                "interactionsEnabled": false,
+                "multipleRoomsEnabled": false,
+                "posturesEnabled": false
+            },
+            "experiment_source": "self_extraction",
+            "id": "2026-06_guild_rooms",
+            "kind": "guild",
+            "old_config_keys": [
+                "enabled",
+                "experimental",
+                "interactionsEnabled",
+                "multipleRoomsEnabled"
+            ],
+            "old_default_config": {
+                "enabled": false,
+                "experimental": false,
+                "interactionsEnabled": false,
+                "multipleRoomsEnabled": false
+            },
+            "old_kind": "guild",
+            "old_title": "Guild Rooms",
+            "old_treatments": [
+                "Control",
+                "Treatment 1: Enable Guild Rooms in this guild",
+                "Treatment 2: Enable Guild Rooms in this guild",
+                "Treatment 3: Enable Guild Rooms without Interactions",
+                "Treatment 4: Enable Guild Rooms with Room Variants"
+            ],
+            "status": "modified",
+            "title": "Guild Rooms",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable Guild Rooms in this guild",
+                "Treatment 2: Enable Guild Rooms without Interactions",
+                "Treatment 3: Enable Guild Rooms with Room Variants",
+                "Treatment 4: Enable Guild Rooms without Postures"
+            ]
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "interactionsEnabled",
+                "multipleRoomsEnabled",
+                "posturesEnabled"
+            ],
+            "default_config": {
+                "enabled": false,
+                "interactionsEnabled": false,
+                "multipleRoomsEnabled": false,
+                "posturesEnabled": false
+            },
+            "experiment_source": "self_extraction",
+            "id": "2026-06_guild_rooms",
+            "kind": "guild",
+            "old_config_keys": [
+                "enabled",
+                "experimental",
+                "interactionsEnabled",
+                "multipleRoomsEnabled"
+            ],
+            "old_default_config": {
+                "enabled": false,
+                "experimental": false,
+                "interactionsEnabled": false,
+                "multipleRoomsEnabled": false
+            },
+            "old_kind": "guild",
+            "old_title": "Guild Rooms",
+            "old_treatments": [
+                "Control",
+                "Treatment 1: Enable Guild Rooms in this guild",
+                "Treatment 2: Enable Guild Rooms in this guild",
+                "Treatment 3: Enable Guild Rooms without Interactions",
+                "Treatment 4: Enable Guild Rooms with Room Variants"
+            ],
+            "status": "modified",
+            "title": "Guild Rooms",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable Guild Rooms in this guild",
+                "Treatment 2: Enable Guild Rooms without Interactions",
+                "Treatment 3: Enable Guild Rooms with Room Variants",
+                "Treatment 4: Enable Guild Rooms without Postures"
+            ]
+        }
+    ],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-nvenc-reconstructed-frames",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-07-23T20:21:29Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-nvenc-reconstructed-frames",
-            "kind": "user",
-            "timestamp": "2026-07-23T20:21:29Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+aRmAc": "Start another game server",
+                "2zdDw5": "By clicking \"{cta}\", you’ll create a game server hosted by {provider}. The servers and all activity within them are powered by {provider} and subject to [{provider}’s Terms of Service]({termsOfServiceUrl}). Discord doesn’t monitor these servers. Visit our [Help Center]({helpCenterUrl}) for practical tips on engaging positively when using game servers.",
+                "5z1yII": "Nitro discount",
+                "6AKZvg": "{gameName} Game Server",
+                "6TgadG": "Your plan changes to {planName} on {date, date, medium}.",
+                "7n6Qq+": "By clicking confirm, your game server subscription will reactivate. You won’t be charged today — you’ll be charged {price} on {date}, and your billing cycle will continue as scheduled.",
+                "AnZeUS": "Learn more",
+                "CrCSF3": "Game server created!",
+                "DLedT1": "Change plan",
+                "F5W36W": "Start your own game server",
+                "FEWMXW": "View Game Server",
+                "H9ti8H": "Your game server is ready! Manage it anytime from ‘Game Servers’ tab in Shop.",
+                "I143Ml": "Select a Plan",
+                "MmcIbA": "This downgrade takes effect at your next renewal.",
+                "QBFUMO": "This upgrade is prorated and takes effect immediately.",
+                "SFUhDi": "Monthly",
+                "UGbET9": "Downgrade",
+                "i5lFSU": "Players",
+                "jlz/q6": "vCPUs",
+                "lfSUpZ": "View all",
+                "yUWVlo": "Upgrade"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -67,5 +140,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T20:29:59.627678+00:00"
+    "timestamp": "2026-07-23T20:40:26.994036+00:00"
 }
