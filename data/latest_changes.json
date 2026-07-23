@@ -1,5 +1,5 @@
 {
-    "build_hash": "0798a35df2509d2faa783964c6626ae84c640617",
+    "build_hash": "4c4f5c66ed5286ae6316aa8eb7761db79ef6864f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,12 +7,70 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_api_endpoints": [
+        {
+            "name": "AGE_VERIFICATION_METHODS_V2",
+            "status": "added",
+            "url": "/age-verification/methods/v2"
+        },
+        {
+            "name": "ENDPOINT_AGE_VERIFICATION_METHODS_V2",
+            "status": "added",
+            "url": "/age-verification/methods/v2"
+        }
+    ],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-expressive-modal-v2",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-07-23T04:13:30Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-expressive-modal-v2",
+            "kind": "user",
+            "timestamp": "2026-07-23T04:13:30Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "b7VAIk": "This verification flow isn't implemented yet."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +80,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T01:51:21.908143+00:00"
+    "timestamp": "2026-07-23T04:13:59.438062+00:00"
 }
