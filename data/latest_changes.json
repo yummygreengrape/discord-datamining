@@ -1,90 +1,12 @@
 {
-    "build_hash": "4c596475896302bcf92a143ff68d0a90e2157677",
+    "build_hash": "00c0db8ffacc54e15333bcdc1aca33bd632349d8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "experimental",
-                "interactionsEnabled"
-            ],
-            "default_config": {
-                "enabled": false,
-                "experimental": false,
-                "interactionsEnabled": false
-            },
-            "experiment_source": "self_extraction",
-            "id": "2026-06_guild_rooms",
-            "kind": "guild",
-            "old_config_keys": [
-                "enabled",
-                "experimental"
-            ],
-            "old_default_config": {
-                "enabled": false,
-                "experimental": false
-            },
-            "old_kind": "guild",
-            "old_title": "Guild Rooms",
-            "old_treatments": [
-                "Control",
-                "Treatment 1: Enable Guild Rooms in this guild",
-                "Treatment 2: Enable Guild Rooms in this guild"
-            ],
-            "status": "modified",
-            "title": "Guild Rooms",
-            "treatments": [
-                "Control",
-                "Treatment 1: Enable Guild Rooms in this guild",
-                "Treatment 2: Enable Guild Rooms in this guild",
-                "Treatment 3: Enable Guild Rooms without Interactions"
-            ]
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "experimental",
-                "interactionsEnabled"
-            ],
-            "default_config": {
-                "enabled": false,
-                "experimental": false,
-                "interactionsEnabled": false
-            },
-            "experiment_source": "self_extraction",
-            "id": "2026-06_guild_rooms",
-            "kind": "guild",
-            "old_config_keys": [
-                "enabled",
-                "experimental"
-            ],
-            "old_default_config": {
-                "enabled": false,
-                "experimental": false
-            },
-            "old_kind": "guild",
-            "old_title": "Guild Rooms",
-            "old_treatments": [
-                "Control",
-                "Treatment 1: Enable Guild Rooms in this guild",
-                "Treatment 2: Enable Guild Rooms in this guild"
-            ],
-            "status": "modified",
-            "title": "Guild Rooms",
-            "treatments": [
-                "Control",
-                "Treatment 1: Enable Guild Rooms in this guild",
-                "Treatment 2: Enable Guild Rooms in this guild",
-                "Treatment 3: Enable Guild Rooms without Interactions"
-            ]
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -100,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T16:10:15.431591+00:00"
+    "timestamp": "2026-07-23T16:20:41.699740+00:00"
 }
