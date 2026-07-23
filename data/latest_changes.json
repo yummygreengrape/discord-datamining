@@ -1,61 +1,8 @@
 {
-    "build_hash": "6c3446904382f953487123ee50d8163a5e63b30a",
+    "build_hash": "20f24e68eb4c60ea5b26a544a4b0c0b194b08021",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-bounty-use-video-modal-mobile-placement-experiment",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-07-23T20:08:21Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": false
-                },
-                "2": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-bounty-use-video-modal-mobile-placement-experiment",
-            "kind": "user",
-            "timestamp": "2026-07-23T20:08:21Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": false
-                },
-                "2": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -75,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T20:09:05.619733+00:00"
+    "timestamp": "2026-07-23T20:19:31.492130+00:00"
 }
