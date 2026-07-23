@@ -1,5 +1,5 @@
 {
-    "build_hash": "ef5c71c58100d7132ae27cab08f94bfeabbcf50c",
+    "build_hash": "584bb3fdafd65c8daf40af0b3fd0afcf46655d0a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,14 +13,30 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "5U5RB5": "Buy for {discountOfferAmount}% Off",
+                "78ph4b": "Get {discountOfferAmount}% off this bestseller!",
+                "IhKBNX": "You’re one click away from {discountOfferAmount}% off!",
+                "MrB1Ke": "**Nice work!** You saved {discountOfferAmount}% on this gift!",
+                "fsOXXO": "**Heads up!** Your discount will not apply to this purchase.",
+                "gqv5Q1": "This item won’t be eligible for a discount if claimed with Orbs. Buy this item to activate the deal.",
+                "rItDbx": "Discount Eligible: {discountOfferAmount}% Off"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "5U5RB5": "{discountOfferAmount}% 할인 금액으로 구매",
+                "78ph4b": "이 베스트셀러를 {discountOfferAmount}% 할인 가격으로 구매하세요!",
+                "IhKBNX": "이 아이템을 {discountOfferAmount}% 할인된 가격으로 구입하세요!",
+                "MrB1Ke": "bHook잘했어요! 이 선물을 {discountOfferAmount}% 할인 가격으로 구매하셨네요!",
+                "fsOXXO": "bHook주의하세요! 이 구매에는 할인이 적용되지 않아요.",
+                "gqv5Q1": "이 아이템은 Orbs를 사용해 받을 경우 할인 대상이 되지 않아요. 할인을 받으려면 이 아이템을 구매하세요.",
+                "rItDbx": "할인 적용 가능: {discountOfferAmount}% 할인"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T18:45:51.494929+00:00"
+    "timestamp": "2026-07-23T18:56:18.307401+00:00"
 }
