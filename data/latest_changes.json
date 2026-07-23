@@ -1,5 +1,5 @@
 {
-    "build_hash": "f7188127af8076f1eeff1d58d71dbbf0e82a1c9d",
+    "build_hash": "cd9c545b7397e77aaa51ceef2d7ef7558862f166",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,34 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "AE4yja": "Womp womp, you have no reminders.",
-                "FOR_LATER_EMPTY_REMINDERS_BODY_NATIVE": "Set a reminder on an important message so you never forget to follow up. Long press on a message to set a reminder for later.",
-                "FOR_LATER_EMPTY_REMINDERS_BODY_WEB": "Set a reminder on an important message so you never forget to follow up. Right-click a message to set a reminder for later.",
-                "FOR_LATER_EMPTY_REMINDERS_TITLE": "Womp womp, you have no reminders.",
-                "a6gcZ/": "Remove Reminder",
-                "fRSRc0": "Set a reminder on an important message so you never forget to follow up. Right-click a message to set a reminder for later.",
-                "iBFuNE": "Set a reminder on an important message so you never forget to follow up. Long press on a message to set a reminder for later."
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "FOR_LATER_EMPTY_ALL_BODY_NATIVE": {
-                    "new_value": "Bookmark your most important messages, for your eyes only. Long press on a message to save it.",
-                    "old_value": "Bookmark your most important messages, for your eyes only. Long press on a message to save it or set a reminder for later."
-                },
-                "FOR_LATER_EMPTY_ALL_BODY_WEB": {
-                    "new_value": "Bookmark your most important messages, for your eyes only. Right-click a message to save it.",
-                    "old_value": "Bookmark your most important messages, for your eyes only. Right-click a message to save it or set a reminder for later."
-                },
-                "NaRCXT": {
-                    "new_value": "Bookmark your most important messages, for your eyes only. Right-click a message to save it.",
-                    "old_value": "Bookmark your most important messages, for your eyes only. Right-click a message to save it or set a reminder for later."
-                },
-                "w1o+75": {
-                    "new_value": "Bookmark your most important messages, for your eyes only. Long press on a message to save it.",
-                    "old_value": "Bookmark your most important messages, for your eyes only. Long press on a message to save it or set a reminder for later."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -47,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T00:18:41.501426+00:00"
+    "timestamp": "2026-07-23T00:29:10.742938+00:00"
 }
