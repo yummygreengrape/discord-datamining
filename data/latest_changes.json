@@ -1,5 +1,5 @@
 {
-    "build_hash": "f76879f178a96315ef222921a3ed7af45e016092",
+    "build_hash": "b8ea5293e79f2c32749a687da90a114f307be692",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,18 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "2tYpRK": "What do you wanna create today?",
+                "Bo5fE3": "Your Creations",
+                "F2dRba": "Project unavailable",
+                "GnEJ3o": "This project may have been deleted or is no longer available.",
+                "LcuTXC": "Project title",
+                "TU9IGR": "Describe your idea...",
+                "Xmvb23": "Magic Builder",
+                "YnAFtT": "Creations are private until you ship them",
+                "oMDaqr": "Last edited {time}",
+                "sPSPIs": "App"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-23T19:17:11.491254+00:00"
+    "timestamp": "2026-07-23T19:27:37.190098+00:00"
 }
