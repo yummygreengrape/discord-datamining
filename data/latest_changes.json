@@ -1,20 +1,207 @@
 {
-    "build_hash": "747f5d82a7dfa37a9ab555f4c55b43251c0fd089",
+    "build_hash": "32099ba4a80f22818b74816adbc5eeb3f9a53c3a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "Tv.v.GRADIENT",
+                "surface": "Tv.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "Ty.v.GRADIENT",
+                "surface": "Ty.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "Ty.v.GRADIENT",
+                    "surface": "Ty.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Ty.v.EXPRESSIVE",
+                    "surface": "Ty.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Ty.v.GRADIENT",
+                    "surface": "Ty.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Ty.v.GLOWING",
+                    "surface": "Ty.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Ty.v.GLOWING",
+                    "surface": "Ty.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "Tv.v.GRADIENT",
+                    "surface": "Tv.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tv.v.EXPRESSIVE",
+                    "surface": "Tv.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tv.v.GRADIENT",
+                    "surface": "Tv.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tv.v.GLOWING",
+                    "surface": "Tv.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tv.v.GLOWING",
+                    "surface": "Tv.F.NONE"
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "Tv.v.GRADIENT",
+                "surface": "Tv.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "Ty.v.GRADIENT",
+                "surface": "Ty.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "Ty.v.GRADIENT",
+                    "surface": "Ty.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Ty.v.EXPRESSIVE",
+                    "surface": "Ty.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Ty.v.GRADIENT",
+                    "surface": "Ty.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Ty.v.GLOWING",
+                    "surface": "Ty.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Ty.v.GLOWING",
+                    "surface": "Ty.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "Tv.v.GRADIENT",
+                    "surface": "Tv.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tv.v.EXPRESSIVE",
+                    "surface": "Tv.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tv.v.GRADIENT",
+                    "surface": "Tv.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tv.v.GLOWING",
+                    "surface": "Tv.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tv.v.GLOWING",
+                    "surface": "Tv.F.NONE"
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "4hUJBy": "Permanently delete this app and workspace",
+                "KV+ICm": "Delete App",
+                "NkPaHG": "Couldn’t update the app name. Try again.",
+                "QDGuNS": "Thinking...",
+                "Z6F624": "App Name",
+                "fYHrcD": "Nothing to ship yet",
+                "kvcg+H": "Production published",
+                "tqKZCi": "Couldn’t delete the app. Try again.",
+                "uAMVJ4": "Ship it"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "6xTawd": {
+                    "new_value": "No preview yet.",
+                    "old_value": "No app preview yet"
+                },
+                "ahRdoJ": {
+                    "new_value": "Write a message…",
+                    "old_value": "Describe the app you want to build…"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +209,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-24T19:58:30.924154+00:00"
+    "timestamp": "2026-07-24T20:08:57.474933+00:00"
 }
