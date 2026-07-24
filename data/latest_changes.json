@@ -1,5 +1,5 @@
 {
-    "build_hash": "00922632d5997b832dda9b8a13af77934fbae514",
+    "build_hash": "6eb9475818d521275285acb629cac85845534d45",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "8Q+k1s": "{label}, character count, {remainingCharacters, plural, one {# character} other {# characters}} remaining"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-24T22:53:54.571200+00:00"
+    "timestamp": "2026-07-24T23:04:20.545405+00:00"
 }
