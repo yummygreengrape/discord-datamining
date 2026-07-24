@@ -1,5 +1,5 @@
 {
-    "build_hash": "231fb7009b469f8c6bb299aa5de0da955c34874d",
+    "build_hash": "37ba1573d5b59d5e105d86d7692b988db1f0c236",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,15 +12,22 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "uQle7a": "Waiting for Voice Server"
+            },
+            "deleted": {
+                "CONNECTION_STATUS_AWAITING_ENDPOINT": "Awaiting Endpoint",
+                "xEbu0Q": "Awaiting Endpoint"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "xEbu0Q": "연결을 기다리는 중"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-07-24T18:35:13.500417+00:00"
+    "timestamp": "2026-07-24T18:45:38.551862+00:00"
 }
