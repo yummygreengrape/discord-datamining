@@ -1,5 +1,5 @@
 {
-    "build_hash": "5dfc1c4fca6310c551bb83ad3c3c46780baa7a78",
+    "build_hash": "d91b1fded74e78083ddee495ef36046034bc0748",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,20 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Yi+FzV": "You’ve reached the limit of {maxInstances} game servers."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "34GMP9": {
+                    "new_value": "Host your own game server",
+                    "old_value": "Game server hosting"
+                },
+                "xMpGuO": {
+                    "new_value": "Pick a game, spin up a server, and start playing in seconds!",
+                    "old_value": "Play multiplayer games with your friends in just minutes, with simple setup and full admin panel control."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-24T15:59:21.124596+00:00"
+    "timestamp": "2026-07-24T16:50:30.380616+00:00"
 }
