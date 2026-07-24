@@ -174,7 +174,7 @@ Public Google results were used only as secondary signals. Current localization,
 ## Validation
 
 Status: `passed`
-Completed: `2026-07-24T09:12:52.506Z`
+Completed: `2026-07-24T09:15:54.682Z`
 
 - `python3 -m json.tool data/web/meta.json`: passed
 - `python3 -m json.tool data/web/strings.ko.json`: passed
@@ -192,7 +192,8 @@ Completed: `2026-07-24T09:12:52.506Z`
 - `report pointer parity`: passed
 - `compact tracked web JSON`: passed
 - `git diff --check`: passed
+- `data commit pushed to origin/main`: passed
 
 ## Commits
 
-- Pending publish metadata reconciliation
+- `abe54fe9` Add July 24 string context interpretations — pushed
