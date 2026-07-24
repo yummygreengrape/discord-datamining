@@ -1,5 +1,5 @@
 {
-    "build_hash": "e9f5c0344a13cab7bceab42afd598cf38edc29c9",
+    "build_hash": "bffaa09c285b14ae961974575c91535c1097981b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "algo"
+            ],
+            "default_config": {
+                "algo": 0
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-desktop-tti-update-backoff-algo",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-07-24T20:58:49Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "algo": 1
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "algo"
+            ],
+            "default_config": {
+                "algo": 0
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-desktop-tti-update-backoff-algo",
+            "kind": "user",
+            "timestamp": "2026-07-24T20:58:49Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "algo": 1
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-24T20:39:59.516595+00:00"
+    "timestamp": "2026-07-24T21:00:34.607187+00:00"
 }
