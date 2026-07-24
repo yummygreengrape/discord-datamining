@@ -1,104 +1,12 @@
 {
-    "build_hash": "3d6b608f053336129ea228a8ce250915536044d0",
+    "build_hash": "151d02a3eb6a474044cf06943616a5a0ed3df56e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "bannerVariant",
-                "enabled"
-            ],
-            "default_config": {
-                "bannerVariant": "control",
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-past-due-checkout",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled"
-            ],
-            "old_default_config": {
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "bannerVariant": "red_expressive",
-                    "enabled": true
-                },
-                "2": {
-                    "bannerVariant": "grey_primary",
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "bannerVariant",
-                "enabled"
-            ],
-            "default_config": {
-                "bannerVariant": "control",
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-past-due-checkout",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled"
-            ],
-            "old_default_config": {
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "bannerVariant": "red_expressive",
-                    "enabled": true
-                },
-                "2": {
-                    "bannerVariant": "grey_primary",
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -114,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-24T19:06:32.624254+00:00"
+    "timestamp": "2026-07-24T19:17:00.118679+00:00"
 }
