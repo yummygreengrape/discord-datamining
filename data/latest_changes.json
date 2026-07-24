@@ -1,5 +1,5 @@
 {
-    "build_hash": "57d6efe07301d075c2ce53c4b01d318b3984e8aa",
+    "build_hash": "74bb1ffaaa63698fefa5998d42c26bee579a3214",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "6TgadG": {
+                    "new_value": "Downgrades to {planName} on {date, date, medium}.",
+                    "old_value": "Your plan changes to {planName} on {date, date, medium}."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-24T17:01:04.230474+00:00"
+    "timestamp": "2026-07-24T17:11:30.562246+00:00"
 }
