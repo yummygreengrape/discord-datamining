@@ -1,5 +1,5 @@
 {
-    "build_hash": "b4ff5a11b60326d63b62a91f278bd602e4d97b5d",
+    "build_hash": "86ffed2561486c21a79648b891000aec846ae34b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,12 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "4IYwrw": "Back to profile styles overview",
-                "M2Hj9s": "Now previewing profile preset: {presetName}",
-                "PiPq7M": "{presetName} profile preset",
-                "bBRdiB": "Try a random profile look with Nitro customizations"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-24T17:42:55.398912+00:00"
+    "timestamp": "2026-07-24T17:53:22.136796+00:00"
 }
