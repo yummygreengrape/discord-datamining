@@ -1,12 +1,104 @@
 {
-    "build_hash": "79d7752e35429c72407cd23f6739ead21f69fb13",
+    "build_hash": "3d6b608f053336129ea228a8ce250915536044d0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "bannerVariant",
+                "enabled"
+            ],
+            "default_config": {
+                "bannerVariant": "control",
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-past-due-checkout",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "bannerVariant": "red_expressive",
+                    "enabled": true
+                },
+                "2": {
+                    "bannerVariant": "grey_primary",
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "bannerVariant",
+                "enabled"
+            ],
+            "default_config": {
+                "bannerVariant": "control",
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-past-due-checkout",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "bannerVariant": "red_expressive",
+                    "enabled": true
+                },
+                "2": {
+                    "bannerVariant": "grey_primary",
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -17,22 +109,10 @@
             "modified": {}
         },
         "ko": {
-            "added": {
-                "AnZeUS": "자세히 알아보기",
-                "CrCSF3": "게임 서버가 생성되었어요!",
-                "FEWMXW": "게임 서버 보기",
-                "SFUhDi": "매달",
-                "lfSUpZ": "모두 보기",
-                "yUWVlo": "업그레이드"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "34GMP9": {
-                    "new_value": "나만의 게임 서버를 호스팅해 보세요",
-                    "old_value": "게임 서버 호스팅"
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-07-24T18:56:07.280579+00:00"
+    "timestamp": "2026-07-24T19:06:32.624254+00:00"
 }
