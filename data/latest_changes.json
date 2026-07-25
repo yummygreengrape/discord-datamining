@@ -1,5 +1,5 @@
 {
-    "build_hash": "612f7802ee305870e8dd8eb59561fdb7b2ffd838",
+    "build_hash": "54308b03e00a5dc9e76ca7633158125d02b4ee80",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "YkET6R": "Reset Favorites",
+                "ZzcwNk": "Empties Favorites and restores its first-run state."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-25T22:51:14.482541+00:00"
+    "timestamp": "2026-07-25T23:22:01.636525+00:00"
 }
