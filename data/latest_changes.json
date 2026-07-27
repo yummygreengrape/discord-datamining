@@ -1,5 +1,5 @@
 {
-    "build_hash": "d0828e4bd76838ca6e78a17ea5ded7bcd7c2c384",
+    "build_hash": "451d5f7e91dc744014246a370ddd33b83500b418",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,38 +7,12 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_USERS_WIDGETS_ASSETS_UPLOAD",
-            "status": "added",
-            "url": "/users/@me/widgets/assets/upload"
-        },
-        {
-            "name": "USER_PROFILE_WIDGET_ASSET_UPLOAD",
-            "status": "added",
-            "url": "/users/@me/widgets/assets/upload"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+VhwRe": "Hero",
-                "7bPRjd": "Contained",
-                "9AY+/x": "Add Field",
-                "Hs14K3": "Add description",
-                "KqCDvK": "Add Title",
-                "Li5ivv": "Title",
-                "RyK5Ww": "Remove Image",
-                "TNamrx": "Add title",
-                "fQqXGl": "Layout",
-                "g2jVww": "Remove Block",
-                "i3vRzP": "Add Image",
-                "k8zZFd": "Add description",
-                "mZddSK": "Add Block",
-                "sadaeG": "Remove Field"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -48,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-27T23:36:40.682694+00:00"
+    "timestamp": "2026-07-27T23:47:07.976051+00:00"
 }
