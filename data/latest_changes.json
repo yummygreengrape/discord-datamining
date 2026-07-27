@@ -1,20 +1,8 @@
 {
-    "build_hash": "bc3bff4dc44a4c7127399db5dd6c0e7019104f88",
+    "build_hash": "07f9f0d9317e63f203eb91772d393ceb634f79e3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-collectibles-pdp-collection-button",
-            "kind": "user",
-            "timestamp": "2026-07-27T17:02:29Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -34,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-27T17:08:08.816548+00:00"
+    "timestamp": "2026-07-27T17:18:36.503129+00:00"
 }
