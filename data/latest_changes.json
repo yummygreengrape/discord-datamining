@@ -1,5 +1,5 @@
 {
-    "build_hash": "6a6c2624c7adf8aa8a06ab08fa189ec7a4b70c7c",
+    "build_hash": "fec43ef5999b22fb2f16dddcfc48821836f4b20c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "2S/5mX": "This reward becomes available when your paid subscription starts",
+                "rJbFM3": "Not Available Yet"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-27T20:38:27.889676+00:00"
+    "timestamp": "2026-07-27T20:59:04.935807+00:00"
 }
