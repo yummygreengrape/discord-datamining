@@ -1,5 +1,5 @@
 {
-    "build_hash": "8a191c6a106a0961f60bc6ca90cc655a19d17a69",
+    "build_hash": "e50980cb814f108363b70360aaa7cafa62905e50",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,7 +7,38 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_GUILDS_SPACE",
+            "status": "added",
+            "url": "/guilds/:param/space"
+        },
+        {
+            "name": "ENDPOINT_GUILDS_SPACE_WIDGETS_CATALOG",
+            "status": "added",
+            "url": "/guilds/:param/space/widgets/catalog"
+        },
+        {
+            "name": "ENDPOINT_GUILDS_SPACE_WIDGETS_HYDRATE",
+            "status": "added",
+            "url": "/guilds/:param/space/widgets/hydrate"
+        },
+        {
+            "name": "GUILD_SPACE",
+            "status": "added",
+            "url": "/guilds/:param/space"
+        },
+        {
+            "name": "GUILD_SPACE_WIDGETS_CATALOG",
+            "status": "added",
+            "url": "/guilds/:param/space/widgets/catalog"
+        },
+        {
+            "name": "GUILD_SPACE_WIDGETS_HYDRATE",
+            "status": "added",
+            "url": "/guilds/:param/space/widgets/hydrate"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
@@ -22,5 +53,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-27T05:32:45.303283+00:00"
+    "timestamp": "2026-07-27T06:54:25.619722+00:00"
 }
