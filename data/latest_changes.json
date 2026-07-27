@@ -1,5 +1,5 @@
 {
-    "build_hash": "3e47419df2219e9cff43f2ce3723467aec3eaf3d",
+    "build_hash": "35584164ca91e524d87f8fc045a4215ab0b8d678",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,10 +9,30 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-nitro-home-header-followup",
+            "kind": "user",
+            "timestamp": "2026-07-27T21:16:36Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "2S/5mX": "This reward becomes available when your paid subscription starts",
+                "F7Swt9": "Go to Shop",
+                "SlS71X": "Head to the Shop and claim your item by {date, date, short}.",
+                "UvLTEv": "See All Nitro Perks",
+                "qIVU1h": "Your free Shop item is ready for you",
+                "rJbFM3": "Not Available Yet",
+                "yBmFPA": "{count, plural, one {# overdue reminder} other {# overdue reminders}}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +42,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-27T21:51:54.574551+00:00"
+    "timestamp": "2026-07-27T22:02:29.449584+00:00"
 }
