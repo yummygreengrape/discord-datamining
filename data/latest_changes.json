@@ -1,5 +1,5 @@
 {
-    "build_hash": "41634cf69a80388d284dd2c535b47cd1c62321a8",
+    "build_hash": "771bdfe47e5854894be040ec24e895daabf5cfbd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,7 +7,33 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_USERS_GAME_SERVERS",
+            "status": "added",
+            "url": "/users/@me/game-servers"
+        },
+        {
+            "name": "ENDPOINT_USERS_GAME_SERVER_REGIONS",
+            "status": "added",
+            "url": "/users/@me/game-server-regions"
+        },
+        {
+            "name": "GAME_SERVERS_ME",
+            "status": "added",
+            "url": "/users/@me/game-servers"
+        },
+        {
+            "name": "GAME_SERVER_ME",
+            "status": "added",
+            "url": "/users/@me/game-servers/:param"
+        },
+        {
+            "name": "GAME_SERVER_MY_REGIONS",
+            "status": "added",
+            "url": "/users/@me/game-server-regions"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
@@ -22,5 +48,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-27T19:44:10.882896+00:00"
+    "timestamp": "2026-07-27T19:54:40.551259+00:00"
 }
