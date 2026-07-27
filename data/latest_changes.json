@@ -1,5 +1,5 @@
 {
-    "build_hash": "4ba8f977499e417bb1706ed948361ddd69ea1d97",
+    "build_hash": "373c4020eb1079210e0dcc169fc237a3c6804abd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,26 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "3+CLfd": "Check it out",
-                "6NP6ic": "Check it out",
-                "CroLGN": "Maybe later",
-                "E5VRaj": "is yapping",
-                "LIcrQP": "Custom Typing indictator",
-                "MiMvXU": "Say something before you say anything, Those three dots are doing the bare minimum. Swap them for your favourite emojis or your avatar, give them some moves.",
-                "PJmudq": "Custom Typing indictator",
-                "TswY68": "Check it out",
-                "UnIf+S": "Reset",
-                "ZDK4Nn": "Typing Suggestion",
-                "iiGYQ9": "Maybe later",
-                "k6c2yP": "This will appear for every user that you message as your replacement for your typing indicator. [Help Center]({helpCenterUrl})",
-                "l8CZ7+": "Emojis",
-                "lSBp2M": "Say something before you say anything, Those three dots are doing the bare minimum.",
-                "oZJRsx": "Animation",
-                "pT+BVM": "Typing Indicator",
-                "uGxDiu": "Custom Typing indictator",
-                "yezU3E": "Say something before you say anything, Those three dots are doing the bare minimum. Swap them for your favourite emojis or your avatar, give them some moves."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -41,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-27T17:59:48.918485+00:00"
+    "timestamp": "2026-07-27T18:10:17.994357+00:00"
 }
