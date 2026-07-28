@@ -1,5 +1,5 @@
 {
-    "build_hash": "f3e0af008548fe267f0a501a19eab681d8c8d69f",
+    "build_hash": "ec3d42ba1625c4992e3e264adc6ed80a3652456f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,32 +8,135 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
-    "string_changes": {
-        "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
-        },
-        "ko": {
-            "added": {
-                "+drfVi": "다이내믹",
-                "95pCSf": "멤버 목록의 이름표 미리 보기: {a11y_text}",
-                "QfcKZ5": "기존 Orbs {orbAmount}개",
-                "cNtuKF": "아이템이 혜택 적용 대상입니다. 혜택: {offerName}",
-                "ckguyq": "가격: Orbs {orbAmount}개({discountPercentage}% 할인 적용 후)",
-                "dCou7i": "이 아이템은 방문할 때마다 무작위 애니메이션을 표시합니다.",
-                "hY8Ft1": "수령 가능한 혜택"
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "models"
+            ],
+            "default_config": {
+                "models": [
+                    {
+                        "filename": "krisp-nc-o-nb-v2.kef",
+                        "maxSampleRate": 8000,
+                        "name": "small_NC_8k"
+                    },
+                    {
+                        "filename": "krisp-nc-o-lite-v1.kef",
+                        "maxSampleRate": 16000,
+                        "name": "small_NC"
+                    },
+                    {
+                        "filename": "krisp-nc-o-med-v7-fp16.kef",
+                        "maxSampleRate": 96000,
+                        "name": "full_NC"
+                    }
+                ]
             },
-            "deleted": {},
-            "modified": {
-                "Xla/TL": {
-                    "new_value": "만료되기 전에 {boostCount}개의 부스트를 {days}일 이내에 추가해서 활성 상태를 유지하세요.",
-                    "old_value": "만료되기 전에 {boostCount}를 {days, plural, one {{days} 이내에 추가해서 활성 상태를 유지하세요."
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-krisp-v9-ios",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-07-28T19:30:31Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "models": [
+                        {
+                            "filename": "krisp-nc-o-nb-v2.kef",
+                            "maxSampleRate": 8000,
+                            "name": "small_NC_8k"
+                        },
+                        {
+                            "filename": "c6.f.s.laughter.da1785_non_optimized.kef",
+                            "maxSampleRate": 16000,
+                            "name": "small_NC_non_optimized"
+                        },
+                        {
+                            "filename": "krisp-nc-o-med-v7.kef",
+                            "maxSampleRate": 96000,
+                            "name": "full_NC_non_optimized"
+                        }
+                    ]
                 }
             }
         }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "models"
+            ],
+            "default_config": {
+                "models": [
+                    {
+                        "filename": "krisp-nc-o-nb-v2.kef",
+                        "maxSampleRate": 8000,
+                        "name": "small_NC_8k"
+                    },
+                    {
+                        "filename": "krisp-nc-o-lite-v1.kef",
+                        "maxSampleRate": 16000,
+                        "name": "small_NC"
+                    },
+                    {
+                        "filename": "krisp-nc-o-med-v7-fp16.kef",
+                        "maxSampleRate": 96000,
+                        "name": "full_NC"
+                    }
+                ]
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-krisp-v9-ios",
+            "kind": "user",
+            "timestamp": "2026-07-28T19:30:31Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "models": [
+                        {
+                            "filename": "krisp-nc-o-nb-v2.kef",
+                            "maxSampleRate": 8000,
+                            "name": "small_NC_8k"
+                        },
+                        {
+                            "filename": "c6.f.s.laughter.da1785_non_optimized.kef",
+                            "maxSampleRate": 16000,
+                            "name": "small_NC_non_optimized"
+                        },
+                        {
+                            "filename": "krisp-nc-o-med-v7.kef",
+                            "maxSampleRate": 96000,
+                            "name": "full_NC_non_optimized"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "string_changes": {
+        "en": {
+            "added": {
+                "bz/ik0": "Jump to Conversation"
+            },
+            "deleted": {},
+            "modified": {
+                "qV9zT6": {
+                    "new_value": "We're updating the **{connectionName}** connection to power new in-game social features. Link your account to stay connected and get $[orbs](orbsIconHook) {orbCount} Discord Orbs!",
+                    "old_value": "We're updating the **{connectionName}** connection to power new in-game social features. Link your account to stay connected and earn $[orbs](orbsIconHook) {orbCount} Orbs!"
+                }
+            }
+        },
+        "ko": {
+            "added": {},
+            "deleted": {},
+            "modified": {}
+        }
     },
-    "timestamp": "2026-07-28T19:32:22.403570+00:00"
+    "timestamp": "2026-07-28T19:53:10.755262+00:00"
 }
