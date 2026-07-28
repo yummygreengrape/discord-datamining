@@ -1,5 +1,5 @@
 {
-    "build_hash": "fdd4eb164b2447b0548f74415eade89994d729df",
+    "build_hash": "8666ec1b75bafe4f415f34f766fa229ff03e70e5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,18 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-hero-shelf-ad-tile",
-            "kind": "user",
-            "timestamp": "2026-07-28T20:19:56Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -33,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-28T20:24:48.741693+00:00"
+    "timestamp": "2026-07-28T20:35:19.372731+00:00"
 }
