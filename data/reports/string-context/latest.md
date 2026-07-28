@@ -159,17 +159,29 @@ Representative low-context carry-forwards remain deferred:
 
 ## Validation and publish
 
-- Status: `pending`
-- `pending` — required JSON syntax checks
-- `pending` — 80 selected analysis-row changes
-- `pending` — history/source/web full-row and annotation parity
-- `pending` — paired required-field and English-language checks
-- `pending` — scoped private-path, token, SEO, and overclaim scan
-- `pending` — public and private repository security tests
-- `pending` — git diff --check
-- `pending` — data commit pushed to origin/main
+- Status: `passed`
+- `passed` — python3 -m json.tool data/web/meta.json
+- `passed` — python3 -m json.tool data/web/strings.ko.json
+- `passed` — python3 -m json.tool data/web/strings.en.json
+- `passed` — python3 -m json.tool data/latest_changes.json
+- `passed` — python3 -m json.tool data/reports/string-context/latest.json
+- `passed` — python3 -m json.tool data/reports/string-context/2026-07-28.json
+- `passed` — python3 -m json.tool data/history.json
+- `passed` — 131 source rows imported without core payload changes
+- `passed` — 80 selected analysis-row changes
+- `passed` — history/source/web full-row and annotation parity
+- `passed` — 80-row paired required-field and English-language checks
+- `passed` — analysis-only tracked web comparison
+- `passed` — scoped private-path, token, SEO, and overclaim scan
+- `passed` — report JSON/Markdown pointer parity
+- `passed` — compact tracked web JSON
+- `passed` — python3 scripts/security_scan.py --root . .
+- `passed` — python3 -m unittest discover -s tests -p 'test_*.py'
+- `passed` — ./scripts/check_security.sh (private runner)
+- `passed` — git diff --check
+- `passed` — data commit pushed to origin/main
 
-- Commit: pending validation and publish
+- Data commit: `267cf502` — Add July 28 string context interpretations (pushed: true)
 
 ## Security/privacy impact
 

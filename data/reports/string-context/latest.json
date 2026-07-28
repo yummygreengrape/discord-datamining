@@ -5980,42 +5980,98 @@
     ]
   },
   "validations": {
-    "status": "pending",
-    "completed_at": null,
+    "status": "passed",
+    "completed_at": "2026-07-28T09:19:28.752Z",
     "checks": [
       {
-        "name": "required JSON syntax checks",
-        "result": "pending"
+        "name": "python3 -m json.tool data/web/meta.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/web/strings.ko.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/web/strings.en.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/latest_changes.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/reports/string-context/latest.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/reports/string-context/2026-07-28.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/history.json",
+        "result": "passed"
+      },
+      {
+        "name": "131 source rows imported without core payload changes",
+        "result": "passed"
       },
       {
         "name": "80 selected analysis-row changes",
-        "result": "pending"
+        "result": "passed"
       },
       {
         "name": "history/source/web full-row and annotation parity",
-        "result": "pending"
+        "result": "passed"
       },
       {
-        "name": "paired required-field and English-language checks",
-        "result": "pending"
+        "name": "80-row paired required-field and English-language checks",
+        "result": "passed"
+      },
+      {
+        "name": "analysis-only tracked web comparison",
+        "result": "passed"
       },
       {
         "name": "scoped private-path, token, SEO, and overclaim scan",
-        "result": "pending"
+        "result": "passed"
       },
       {
-        "name": "public and private repository security tests",
-        "result": "pending"
+        "name": "report JSON/Markdown pointer parity",
+        "result": "passed"
+      },
+      {
+        "name": "compact tracked web JSON",
+        "result": "passed"
+      },
+      {
+        "name": "python3 scripts/security_scan.py --root . .",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m unittest discover -s tests -p 'test_*.py'",
+        "result": "passed"
+      },
+      {
+        "name": "./scripts/check_security.sh (private runner)",
+        "result": "passed"
       },
       {
         "name": "git diff --check",
-        "result": "pending"
+        "result": "passed"
       },
       {
         "name": "data commit pushed to origin/main",
-        "result": "pending"
+        "result": "passed"
       }
     ]
   },
-  "commits": []
+  "commits": [
+    {
+      "hash": "267cf502",
+      "full_hash": "267cf50277808eb64cdd817ce712c259618eac2a",
+      "message": "Add July 28 string context interpretations",
+      "pushed": true,
+      "pushed_at": "2026-07-28T09:19:28.752Z"
+    }
+  ]
 }
