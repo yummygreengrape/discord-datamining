@@ -1,5 +1,5 @@
 {
-    "build_hash": "f2f4f2b5a417955a3854552a10a6537c6818026f",
+    "build_hash": "43194282e991f20fecc6972906b8be8a6e35092b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,149 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "capChannelCount",
-                "capSampleRate",
-                "condition"
-            ],
-            "default_config": {
-                "capChannelCount": false,
-                "capSampleRate": false,
-                "condition": "none"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-audio-fidelity",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-07-28T02:00:54Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5",
-                "Variant 6",
-                "Variant 7",
-                "Variant 8"
-            ],
-            "variations": {
-                "1": {
-                    "capChannelCount": false,
-                    "capSampleRate": true,
-                    "condition": "krisp"
-                },
-                "2": {
-                    "capChannelCount": false,
-                    "capSampleRate": true,
-                    "condition": "noiseSuppression"
-                },
-                "3": {
-                    "capChannelCount": false,
-                    "capSampleRate": true,
-                    "condition": "echoCancellation"
-                },
-                "4": {
-                    "capChannelCount": false,
-                    "capSampleRate": true,
-                    "condition": "any"
-                },
-                "5": {
-                    "capChannelCount": true,
-                    "capSampleRate": true,
-                    "condition": "krisp"
-                },
-                "6": {
-                    "capChannelCount": true,
-                    "capSampleRate": true,
-                    "condition": "noiseSuppression"
-                },
-                "7": {
-                    "capChannelCount": true,
-                    "capSampleRate": true,
-                    "condition": "echoCancellation"
-                },
-                "8": {
-                    "capChannelCount": true,
-                    "capSampleRate": true,
-                    "condition": "any"
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "capChannelCount",
-                "capSampleRate",
-                "condition"
-            ],
-            "default_config": {
-                "capChannelCount": false,
-                "capSampleRate": false,
-                "condition": "none"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-audio-fidelity",
-            "kind": "user",
-            "timestamp": "2026-07-28T02:00:54Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5",
-                "Variant 6",
-                "Variant 7",
-                "Variant 8"
-            ],
-            "variations": {
-                "1": {
-                    "capChannelCount": false,
-                    "capSampleRate": true,
-                    "condition": "krisp"
-                },
-                "2": {
-                    "capChannelCount": false,
-                    "capSampleRate": true,
-                    "condition": "noiseSuppression"
-                },
-                "3": {
-                    "capChannelCount": false,
-                    "capSampleRate": true,
-                    "condition": "echoCancellation"
-                },
-                "4": {
-                    "capChannelCount": false,
-                    "capSampleRate": true,
-                    "condition": "any"
-                },
-                "5": {
-                    "capChannelCount": true,
-                    "capSampleRate": true,
-                    "condition": "krisp"
-                },
-                "6": {
-                    "capChannelCount": true,
-                    "capSampleRate": true,
-                    "condition": "noiseSuppression"
-                },
-                "7": {
-                    "capChannelCount": true,
-                    "capSampleRate": true,
-                    "condition": "echoCancellation"
-                },
-                "8": {
-                    "capChannelCount": true,
-                    "capSampleRate": true,
-                    "condition": "any"
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -158,10 +17,40 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "+VhwRe": "히어로 영역",
+                "1MYPH0": "{weeks}주 무료 체험",
+                "96hTLe": "{months}개월 무료 체험",
+                "9AY+/x": "필드 추가",
+                "B0ZmdG": "{years}년 Nitro 무료 체험",
+                "F7Swt9": "상점으로 가기",
+                "G88D2T": "첫 {numYears}동안 할인가 {discountedPrice} 적용, 이후 연 정가 {regularPrice} 적용",
+                "Li5ivv": "제목",
+                "RyK5Ww": "이미지 제거",
+                "SvSwga": "월간 전용",
+                "UvLTEv": "모든 Nitro 특전 보기",
+                "WQdkbb": "약관이 적용됩니다.",
+                "i3vRzP": "이미지 추가",
+                "pYfIoO": "{days}일 무료 체험",
+                "s6aAW2": "Nitro 월정액 {percent}% 할인",
+                "x+qUAi": "첫 {numMonths}동안 할인가 {discountedPrice} 적용, 이후 월 정가 {regularPrice} 적용"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "7O7Zg3": {
+                    "new_value": "아, 이런... 이 무료 체험은 모바일에서 사용할 수 없어요. [자세히 알아보기.]({helpdeskArticle})",
+                    "old_value": "아쉽네요, 안타깝지만... 이 무료 체험은 모바일에서 받을 수 없어요. [자세히 알아보세요.]({helpdeskArticle})"
+                },
+                "Eh5+1F": {
+                    "new_value": "친구들이 어떤 데코를 쓰고 있는지 확인해 보세요. 마음에 드는 걸 골라 보세요!",
+                    "old_value": "친구가 어떤 데코를 쓰고 있는지 확인해 보세요. 마음에 드는 걸 가져가세요"
+                },
+                "yqX4Dr": {
+                    "new_value": "아, 이런... 이 무료 체험은 VR에서 사용할 수 없어요. [자세히 알아보기.]({helpdeskArticle})",
+                    "old_value": "정말 아쉽지만... 이 무료 체험은 VR에서 사용할 수 없어요. [자세히 알아보기.]({helpdeskArticle})"
+                }
+            }
         }
     },
-    "timestamp": "2026-07-28T02:01:42.387492+00:00"
+    "timestamp": "2026-07-28T03:13:09.205487+00:00"
 }
