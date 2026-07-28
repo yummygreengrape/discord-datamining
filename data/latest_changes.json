@@ -1,5 +1,5 @@
 {
-    "build_hash": "effa1d8c7998182bcdce1e9be5fe7dbb30781f55",
+    "build_hash": "f2f4f2b5a417955a3854552a10a6537c6818026f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,149 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "capChannelCount",
+                "capSampleRate",
+                "condition"
+            ],
+            "default_config": {
+                "capChannelCount": false,
+                "capSampleRate": false,
+                "condition": "none"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-audio-fidelity",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-07-28T02:00:54Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7",
+                "Variant 8"
+            ],
+            "variations": {
+                "1": {
+                    "capChannelCount": false,
+                    "capSampleRate": true,
+                    "condition": "krisp"
+                },
+                "2": {
+                    "capChannelCount": false,
+                    "capSampleRate": true,
+                    "condition": "noiseSuppression"
+                },
+                "3": {
+                    "capChannelCount": false,
+                    "capSampleRate": true,
+                    "condition": "echoCancellation"
+                },
+                "4": {
+                    "capChannelCount": false,
+                    "capSampleRate": true,
+                    "condition": "any"
+                },
+                "5": {
+                    "capChannelCount": true,
+                    "capSampleRate": true,
+                    "condition": "krisp"
+                },
+                "6": {
+                    "capChannelCount": true,
+                    "capSampleRate": true,
+                    "condition": "noiseSuppression"
+                },
+                "7": {
+                    "capChannelCount": true,
+                    "capSampleRate": true,
+                    "condition": "echoCancellation"
+                },
+                "8": {
+                    "capChannelCount": true,
+                    "capSampleRate": true,
+                    "condition": "any"
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "capChannelCount",
+                "capSampleRate",
+                "condition"
+            ],
+            "default_config": {
+                "capChannelCount": false,
+                "capSampleRate": false,
+                "condition": "none"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-audio-fidelity",
+            "kind": "user",
+            "timestamp": "2026-07-28T02:00:54Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7",
+                "Variant 8"
+            ],
+            "variations": {
+                "1": {
+                    "capChannelCount": false,
+                    "capSampleRate": true,
+                    "condition": "krisp"
+                },
+                "2": {
+                    "capChannelCount": false,
+                    "capSampleRate": true,
+                    "condition": "noiseSuppression"
+                },
+                "3": {
+                    "capChannelCount": false,
+                    "capSampleRate": true,
+                    "condition": "echoCancellation"
+                },
+                "4": {
+                    "capChannelCount": false,
+                    "capSampleRate": true,
+                    "condition": "any"
+                },
+                "5": {
+                    "capChannelCount": true,
+                    "capSampleRate": true,
+                    "condition": "krisp"
+                },
+                "6": {
+                    "capChannelCount": true,
+                    "capSampleRate": true,
+                    "condition": "noiseSuppression"
+                },
+                "7": {
+                    "capChannelCount": true,
+                    "capSampleRate": true,
+                    "condition": "echoCancellation"
+                },
+                "8": {
+                    "capChannelCount": true,
+                    "capSampleRate": true,
+                    "condition": "any"
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +163,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-28T01:30:54.120661+00:00"
+    "timestamp": "2026-07-28T02:01:42.387492+00:00"
 }
