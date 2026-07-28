@@ -1,0 +1,28 @@
+name: Security and public-data contract
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Test scanner and public JSON contract
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Scan public datasets
+        run: python scripts/security_scan.py --root . --report "$RUNNER_TEMP/public-data-security.json" .
+      - name: Scan repository text for secrets
+        run: python scripts/security_scan.py --root . --secrets-only README.md AGENTS.md docs .github

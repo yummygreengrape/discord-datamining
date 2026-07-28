@@ -4,6 +4,10 @@
 
 변경 사항을 더 편하게 확인하려면 https://discord-archive.com/datamining 을 확인하세요.
 
+공개 데이터의 범위와 개인정보 제외 원칙은
+[`docs/DATA_INVENTORY.md`](docs/DATA_INVENTORY.md), 발행 전 보안 검사는
+[`docs/SECURITY_PRIVACY.md`](docs/SECURITY_PRIVACY.md)를 참고하세요.
+
 ## 주의 사항
 
 이 저장소는 디스코드 본사(Discord Inc.)와 전혀 무관하게 운영되는 비공식 공간입니다. 디스코드의 공식적인 승인이나 지원을 받지 않은 프로젝트이며, 분석 과정에서 수집된 일부 코드의 권리는 디스코드 측에 있을 수 있음을 미리 알립니다.
