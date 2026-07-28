@@ -1,8 +1,77 @@
 {
-    "build_hash": "815800012ffbb8f60a48ef7ea95dc3f1bb67750d",
+    "build_hash": "b3398ec6a4d1b47fd7882773184670b20bb3e7d1",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "variant"
+            ],
+            "default_config": {
+                "enabled": false,
+                "variant": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-04-mobile-quest-orb-reward-modal-cta-priority",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "variant": 0
+                },
+                "1": {
+                    "enabled": true,
+                    "variant": 1
+                },
+                "2": {
+                    "enabled": true,
+                    "variant": 2
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "variant"
+            ],
+            "default_config": {
+                "enabled": false,
+                "variant": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-04-mobile-quest-orb-reward-modal-cta-priority",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "variant": 0
+                },
+                "1": {
+                    "enabled": true,
+                    "variant": 1
+                },
+                "2": {
+                    "enabled": true,
+                    "variant": 2
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +91,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-28T15:29:41.246489+00:00"
+    "timestamp": "2026-07-28T15:40:21.939198+00:00"
 }
