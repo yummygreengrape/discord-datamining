@@ -1,5 +1,5 @@
 {
-    "build_hash": "63b46910fdc2833fb97992bf90a3b95a52a9d708",
+    "build_hash": "f570ed9078bb26acbe317b9e471d1245b09e50c8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,30 +13,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "1HRKGn": "You cannot have more than {max, number} Favorites and Categories.",
-                "4XlAQd": "Favorites",
-                "9jWMQ9": "Got it",
-                "GCCs6j": "Oh no!",
-                "HdGkqu": "Something went wrong saving your favorites. Please try again.",
-                "OXC/Du": "Added to Favorites",
-                "W9y4i6": "Oh no!"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "1HRKGn": "즐겨찾기 및 카테고리는 최대 {max}개까지만 가능해요.",
-                "4XlAQd": "즐겨찾기",
-                "9jWMQ9": "알겠어요",
-                "GCCs6j": "이런!",
-                "HdGkqu": "즐겨찾기를 저장하는 중에 문제가 생겼어요. 다시 시도해 주세요.",
-                "OXC/Du": "즐겨찾기에 추가됨",
-                "W9y4i6": "이런!"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-07-28T06:08:46.953457+00:00"
+    "timestamp": "2026-07-28T06:29:44.946916+00:00"
 }
