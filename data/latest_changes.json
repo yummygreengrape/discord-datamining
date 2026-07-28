@@ -1,5 +1,5 @@
 {
-    "build_hash": "c2b4997a732ac27509d74df05f4d935ce693ec47",
+    "build_hash": "022e6819cd6825cd91f10e9c132e9e161fc8c818",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,29 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/VVQKJ": "Soundboard",
+                "42Skzz": "Small",
+                "4eAE08": "Size",
+                "9oleCI": "Color",
+                "GtvDbf": "Text settings",
+                "JrcRaE": "Clip Info",
+                "KRnA2D": "Audio",
+                "LGX80j": "Medium",
+                "LYpz7y": "Remove Text",
+                "R/JN4b": "Text",
+                "Ujlm+F": "Medium",
+                "WvkbtB": "Text",
+                "ai9fWO": "Speaker",
+                "huZ6Mm": "Stroke width",
+                "iQZQyA": "Stroke color",
+                "lT4Cq2": "Large",
+                "sa6Q0q": "Large",
+                "tYuPp+": "None",
+                "v2jEIc": "Add text here",
+                "zSN9vp": "Add text",
+                "zYVcjp": "Small"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +44,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-28T16:54:31.704459+00:00"
+    "timestamp": "2026-07-28T17:25:25.618727+00:00"
 }
