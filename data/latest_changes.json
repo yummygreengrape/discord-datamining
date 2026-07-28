@@ -1,8 +1,19 @@
 {
-    "build_hash": "43ffea281b1f2f12c322b043c731533d4aa2618b",
+    "build_hash": "13da9d3b5e43d24d7d1ad870f52d292314f68c3c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-payment-elements-launch",
+            "kind": "user",
+            "timestamp": "2026-07-28T21:10:25Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,8 +23,28 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "5ZigwU": "middle right",
+                "C+LGlh": "Side group",
+                "IE3e0y": "Rafters",
+                "LFdLjz": "{seatType}, {position}",
+                "Qt29nt": "standing spot",
+                "WMBV4i": "middle left",
+                "X84itm": "{seatLabel}, available seat",
+                "YpJ7QS": "front",
+                "crFI7e": "{seatType}, seat {number}",
+                "iVfA9i": "far right",
+                "lQKxC5": "far left",
+                "lkzfot": "Backroom",
+                "p7JgFM": "Duo seat",
+                "wjBOG8": "Couch",
+                "wxkoLF": "back",
+                "yG+xS0": "middle",
+                "ytIYuY": "Gaming PC"
+            },
+            "deleted": {
+                "Vm2OFQ": "Available Seat"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +53,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-28T21:06:55.200499+00:00"
+    "timestamp": "2026-07-28T21:17:26.377220+00:00"
 }
