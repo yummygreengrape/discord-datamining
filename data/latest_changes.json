@@ -1,5 +1,5 @@
 {
-    "build_hash": "72634321cffb30be140920bbb8fd8e051f3bc2d3",
+    "build_hash": "f3e0af008548fe267f0a501a19eab681d8c8d69f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,18 +14,26 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "qV9zT6": {
-                    "new_value": "We're updating the bHook{connectionName} connection to power new in-game social features. Link your account to stay connected and get orbsIconHookHookorbs {orbCount} Discord Orbs!",
-                    "old_value": "We're updating the bHook{connectionName} connection to power new in-game social features. Link your account to stay connected and earn orbsIconHookHookorbs {orbCount} Orbs!"
-                }
-            }
+            "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "+drfVi": "다이내믹",
+                "95pCSf": "멤버 목록의 이름표 미리 보기: {a11y_text}",
+                "QfcKZ5": "기존 Orbs {orbAmount}개",
+                "cNtuKF": "아이템이 혜택 적용 대상입니다. 혜택: {offerName}",
+                "ckguyq": "가격: Orbs {orbAmount}개({discountPercentage}% 할인 적용 후)",
+                "dCou7i": "이 아이템은 방문할 때마다 무작위 애니메이션을 표시합니다.",
+                "hY8Ft1": "수령 가능한 혜택"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "Xla/TL": {
+                    "new_value": "만료되기 전에 {boostCount}개의 부스트를 {days}일 이내에 추가해서 활성 상태를 유지하세요.",
+                    "old_value": "만료되기 전에 {boostCount}를 {days, plural, one {{days} 이내에 추가해서 활성 상태를 유지하세요."
+                }
+            }
         }
     },
-    "timestamp": "2026-07-28T19:21:38.922695+00:00"
+    "timestamp": "2026-07-28T19:32:22.403570+00:00"
 }
