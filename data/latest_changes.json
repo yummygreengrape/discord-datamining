@@ -1,8 +1,89 @@
 {
-    "build_hash": "6ce5af13fa7d4939dee8975f948b7ff26aea63b3",
+    "build_hash": "1466df4950576cddbcfeffafd7817e3ebe3636ea",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enableMetrics",
+                "fallbackProvider",
+                "provider"
+            ],
+            "default_config": {
+                "enableMetrics": true,
+                "fallbackProvider": "tenor",
+                "provider": "tenor"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-gif-providers-multi-treatment",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-28T15:53:29Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enableMetrics": true,
+                    "fallbackProvider": "tenor",
+                    "provider": "tenor"
+                },
+                "1": {
+                    "enableMetrics": true,
+                    "fallbackProvider": "tenor",
+                    "provider": "giphy"
+                },
+                "2": {
+                    "enableMetrics": true,
+                    "fallbackProvider": "tenor",
+                    "provider": "klipy"
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enableMetrics",
+                "fallbackProvider",
+                "provider"
+            ],
+            "default_config": {
+                "enableMetrics": true,
+                "fallbackProvider": "tenor",
+                "provider": "tenor"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-gif-providers-multi-treatment",
+            "kind": "user",
+            "timestamp": "2026-07-28T15:53:29Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enableMetrics": true,
+                    "fallbackProvider": "tenor",
+                    "provider": "tenor"
+                },
+                "1": {
+                    "enableMetrics": true,
+                    "fallbackProvider": "tenor",
+                    "provider": "giphy"
+                },
+                "2": {
+                    "enableMetrics": true,
+                    "fallbackProvider": "tenor",
+                    "provider": "klipy"
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +103,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-28T15:50:54.231341+00:00"
+    "timestamp": "2026-07-28T16:01:26.560486+00:00"
 }
