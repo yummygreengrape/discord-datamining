@@ -1,5 +1,5 @@
 {
-    "build_hash": "8d5bbba5713c81555ad16733206bb964b1f7e173",
+    "build_hash": "72634321cffb30be140920bbb8fd8e051f3bc2d3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "qV9zT6": {
+                    "new_value": "We're updating the bHook{connectionName} connection to power new in-game social features. Link your account to stay connected and get orbsIconHookHookorbs {orbCount} Discord Orbs!",
+                    "old_value": "We're updating the bHook{connectionName} connection to power new in-game social features. Link your account to stay connected and earn orbsIconHookHookorbs {orbCount} Orbs!"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-28T19:10:04.065022+00:00"
+    "timestamp": "2026-07-28T19:21:38.922695+00:00"
 }
