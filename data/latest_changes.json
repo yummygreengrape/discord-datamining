@@ -1,8 +1,19 @@
 {
-    "build_hash": "1f1afda2212edb0565e1c756968cd4a37ccc8338",
+    "build_hash": "ce876a865d7d07fd32f0b05a3f4e16d1b84b1562",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-channel-pinning",
+            "kind": "user",
+            "timestamp": "2026-07-28T22:46:14Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-28T22:40:58.090771+00:00"
+    "timestamp": "2026-07-28T22:51:29.177687+00:00"
 }
