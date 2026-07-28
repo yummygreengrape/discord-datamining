@@ -1,5 +1,5 @@
 {
-    "build_hash": "800370b1b7b380fe570cc479ed2babea0a3f5762",
+    "build_hash": "11201215ef06e1076f226d5b22973189c6af34d8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "//c2Xn": "Activity has ended"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-28T18:38:28.943985+00:00"
+    "timestamp": "2026-07-28T18:49:02.647315+00:00"
 }
