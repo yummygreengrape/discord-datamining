@@ -1,5 +1,5 @@
 {
-    "build_hash": "ec3d42ba1625c4992e3e264adc6ed80a3652456f",
+    "build_hash": "9ac8da6436dcc4679ec94809efb8053deecf8def",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,129 +8,13 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "models"
-            ],
-            "default_config": {
-                "models": [
-                    {
-                        "filename": "krisp-nc-o-nb-v2.kef",
-                        "maxSampleRate": 8000,
-                        "name": "small_NC_8k"
-                    },
-                    {
-                        "filename": "krisp-nc-o-lite-v1.kef",
-                        "maxSampleRate": 16000,
-                        "name": "small_NC"
-                    },
-                    {
-                        "filename": "krisp-nc-o-med-v7-fp16.kef",
-                        "maxSampleRate": 96000,
-                        "name": "full_NC"
-                    }
-                ]
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-krisp-v9-ios",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-07-28T19:30:31Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "models": [
-                        {
-                            "filename": "krisp-nc-o-nb-v2.kef",
-                            "maxSampleRate": 8000,
-                            "name": "small_NC_8k"
-                        },
-                        {
-                            "filename": "c6.f.s.laughter.da1785_non_optimized.kef",
-                            "maxSampleRate": 16000,
-                            "name": "small_NC_non_optimized"
-                        },
-                        {
-                            "filename": "krisp-nc-o-med-v7.kef",
-                            "maxSampleRate": 96000,
-                            "name": "full_NC_non_optimized"
-                        }
-                    ]
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "models"
-            ],
-            "default_config": {
-                "models": [
-                    {
-                        "filename": "krisp-nc-o-nb-v2.kef",
-                        "maxSampleRate": 8000,
-                        "name": "small_NC_8k"
-                    },
-                    {
-                        "filename": "krisp-nc-o-lite-v1.kef",
-                        "maxSampleRate": 16000,
-                        "name": "small_NC"
-                    },
-                    {
-                        "filename": "krisp-nc-o-med-v7-fp16.kef",
-                        "maxSampleRate": 96000,
-                        "name": "full_NC"
-                    }
-                ]
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-krisp-v9-ios",
-            "kind": "user",
-            "timestamp": "2026-07-28T19:30:31Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "models": [
-                        {
-                            "filename": "krisp-nc-o-nb-v2.kef",
-                            "maxSampleRate": 8000,
-                            "name": "small_NC_8k"
-                        },
-                        {
-                            "filename": "c6.f.s.laughter.da1785_non_optimized.kef",
-                            "maxSampleRate": 16000,
-                            "name": "small_NC_non_optimized"
-                        },
-                        {
-                            "filename": "krisp-nc-o-med-v7.kef",
-                            "maxSampleRate": 96000,
-                            "name": "full_NC_non_optimized"
-                        }
-                    ]
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "bz/ik0": "Jump to Conversation"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "qV9zT6": {
-                    "new_value": "We're updating the **{connectionName}** connection to power new in-game social features. Link your account to stay connected and get $[orbs](orbsIconHook) {orbCount} Discord Orbs!",
-                    "old_value": "We're updating the **{connectionName}** connection to power new in-game social features. Link your account to stay connected and earn $[orbs](orbsIconHook) {orbCount} Orbs!"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -138,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-28T19:53:10.755262+00:00"
+    "timestamp": "2026-07-28T20:03:44.015322+00:00"
 }
