@@ -1,8 +1,61 @@
 {
-    "build_hash": "2659970e4f242a5000904a316d1b417bfb45d5ec",
+    "build_hash": "824b5b66c54227d370430cf97fa945cc92681177",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-kaomoji-picker",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-28T17:50:32Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-kaomoji-picker",
+            "kind": "user",
+            "timestamp": "2026-07-28T17:50:32Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,14 +66,44 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "/9vZ+t": "Sad",
+                "/jZYwz": "Cute",
+                "2pR2JI": "Kaomoji",
+                "4nnQWB": "Love",
+                "GUrGRo": "Angry",
+                "GrrYHn": "Wave",
+                "SwOaV2": "Music",
+                "Tj0FXM": "Happy",
+                "UisscN": "Decorative",
+                "X4O8dY": "Cool",
+                "ZUaZLp": "Confused",
+                "gQsrOG": "Excited",
+                "hi+F96": "{category} kaomoji option {number}",
+                "q/yMTa": "Flip"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "/9vZ+t": "슬픔",
+                "/jZYwz": "귀여움",
+                "2pR2JI": "카오모지",
+                "4nnQWB": "사랑",
+                "GUrGRo": "화남",
+                "GrrYHn": "손 흔들기",
+                "SwOaV2": "음악",
+                "Tj0FXM": "행복함",
+                "UisscN": "장식용",
+                "X4O8dY": "멋짐",
+                "ZUaZLp": "혼란스러움",
+                "gQsrOG": "신남",
+                "hi+F96": "{category} 카오모지 옵션 {number}",
+                "q/yMTa": "뒤집기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-07-28T17:46:07.874137+00:00"
+    "timestamp": "2026-07-28T17:56:42.382572+00:00"
 }
