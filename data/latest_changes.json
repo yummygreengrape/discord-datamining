@@ -1,5 +1,5 @@
 {
-    "build_hash": "dd2b3a49ff3a77cc19c492ce43d89f79b4994976",
+    "build_hash": "df511cd50bd59f8c3fec8f04da575526f4c01a31",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -19,8 +19,101 @@
         "ko": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "3SHL+d": {
+                    "new_value": "{count}개 아이템 숨기기",
+                    "old_value": "{count} 숨기기"
+                },
+                "3xgto7": {
+                    "new_value": "{count}개의 부스트 레벨 {tier}",
+                    "old_value": "{count}의 부스트 레벨 {tier}"
+                },
+                "4fw/T2": {
+                    "new_value": "부스트 성공! 서버를 bHook{guildSubscriptionQuantity} 회 부스트했어요.",
+                    "old_value": "부스트 성공! 서버를 bHook{guildSubscriptionQuantity} 부스트했어요."
+                },
+                "6UAu+f": {
+                    "new_value": "Nitro 사용자의 멤버십에 {count}개의 부스트가 포함되어요. [자세히 알아보기]({helpdeskArticle})",
+                    "old_value": "Nitro 사용자의 멤버십에 {count}의 부스트가 포함되어요. [자세히 알아보기]({helpdeskArticle})"
+                },
+                "97VdNm": {
+                    "new_value": "활성화된 모든 초대 링크 목록이에요. 이 중에서 취소하거나 [만들기]({onCreateInvite})할 수 있어요.",
+                    "old_value": "활성화된 모든 초대 링크 목록이에요. 이 중에서 취소하거나 만들기할 수 있어요."
+                },
+                "AvL/At": {
+                    "new_value": "{days}일 후 다음 [Nitro Orbs]({deepLinkToNitroOrbs}) 지급 예정",
+                    "old_value": "{days} 후 다음 [Nitro Orbs]({deepLinkToNitroOrbs}) 지급 예정"
+                },
+                "C08r8L": {
+                    "new_value": "최근에 {premiumGroupProductName} 플랜을 이용하신 것 같아요. {cooldownMonths}개월마다 한 번만 참가할 수 있어요.",
+                    "old_value": "최근에 {premiumGroupProductName} 플랜을 이용하신 것 같아요. {cooldownMonths}마다 한 번만 참가할 수 있어요."
+                },
+                "Idh1Vs": {
+                    "new_value": "Discord Nitro로 {count}개의 부스트를 받으세요!",
+                    "old_value": "Discord Nitro로 {count}의 부스트를 받으세요!"
+                },
+                "IeFTQu": {
+                    "new_value": "부스트 성공! {guildName} 서버를 bHook{guildSubscriptionQuantity} 회 부스트했어요.",
+                    "old_value": "부스트 성공! {guildName} 서버를 bHook{guildSubscriptionQuantity} 부스트했어요.  "
+                },
+                "JeTeAF": {
+                    "new_value": "최신 클립",
+                    "old_value": "최신 {count}개 클립"
+                },
+                "KewnLu": {
+                    "new_value": "사용하지 않은 서버 부스트가 {count}개 있어요",
+                    "old_value": "사용하지 않은 서버 부스트가 {count} 있어요"
+                },
+                "V3g3dS": {
+                    "new_value": "{time}일동안 플레이 중",
+                    "old_value": "{time} {time}동안 플레이 중"
+                },
+                "WaSgzk": {
+                    "new_value": "기본 스레드 슬로우 모드 bHook{newValue}초로 설정",
+                    "old_value": "기본 스레드 슬로우 모드 bHook{newValue}로 설정"
+                },
+                "atbXuX": {
+                    "new_value": "{userCount} 아까 {duration} 동안 모임을 가졌어요.",
+                    "old_value": "{userCount} {userCount} {duration} 동안 모임을 가졌어요."
+                },
+                "barkEr": {
+                    "new_value": "{number}명을 더 추가할 수 있어요.",
+                    "old_value": "{number, count}{명을 더 추가할 수 있어요.}"
+                },
+                "gb1Owj": {
+                    "new_value": "bHook역할",
+                    "old_value": "{count}가지 역할"
+                },
+                "ji1uNt": {
+                    "new_value": "{count}개의 음향 더 보기",
+                    "old_value": "{count} 더 보기"
+                },
+                "qkFeBP": {
+                    "new_value": "초대를 수락하면 {primaryName} 님의 플랜을 통해 {premiumGroupProductName} 특전을 이용할 수 있어요. {cooldownMonths}개월마다 한 번만 {premiumGroupProductName}에 참가할 수 있어요.",
+                    "old_value": "초대를 수락하면 {primaryName} 님의 플랜을 통해 {premiumGroupProductName} 특전을 이용할 수 있어요. {cooldownMonths}마다 한 번만 {premiumGroupProductName}에 참가할 수 있어요."
+                },
+                "sfgpgr": {
+                    "new_value": "및 {overflow}명",
+                    "old_value": "{overflow}"
+                },
+                "tOJ8h7": {
+                    "new_value": "기본 스레드 슬로우 모드 bHook{newValue}초로 변경",
+                    "old_value": "기본 스레드 슬로우 모드 bHook{newValue}초로 변경\n"
+                },
+                "w5w79N": {
+                    "new_value": "{time}분동안 플레이 중",
+                    "old_value": "{time} {time}동안 플레이 중"
+                },
+                "xxFCW8": {
+                    "new_value": "친구 요청 — {count}건",
+                    "old_value": "{count}"
+                },
+                "z1oxGO": {
+                    "new_value": "완료됨 — [지우기]({remove})",
+                    "old_value": "완료됨 — 지우기"
+                }
+            }
         }
     },
-    "timestamp": "2026-07-28T03:44:15.725579+00:00"
+    "timestamp": "2026-07-28T05:37:50.955989+00:00"
 }
