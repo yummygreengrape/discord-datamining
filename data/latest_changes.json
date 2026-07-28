@@ -1,5 +1,5 @@
 {
-    "build_hash": "be973e389f81ea752f65fe69dbaa79b1ac27df1e",
+    "build_hash": "8d5bbba5713c81555ad16733206bb964b1f7e173",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "bz/ik0": "Jump to Conversation"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-28T18:59:33.894808+00:00"
+    "timestamp": "2026-07-28T19:10:04.065022+00:00"
 }
