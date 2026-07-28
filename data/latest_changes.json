@@ -1,17 +1,67 @@
 {
-    "build_hash": "ce876a865d7d07fd32f0b05a3f4e16d1b84b1562",
+    "build_hash": "00f983b16e207ee48729767c3e5fd22400734c01",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [
+    "deleted_experiment_details": [
         {
+            "config_keys": [
+                "enabled",
+                "showSmallEmbed"
+            ],
+            "default_config": {
+                "enabled": false,
+                "showSmallEmbed": false
+            },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-04-channel-pinning",
+            "id": "2026-06-game-profile-share-link",
             "kind": "user",
-            "timestamp": "2026-07-28T22:46:14Z",
+            "status": "deleted",
+            "timestamp": "2026-07-28T22:57:22Z",
             "treatments": [
-                "Variant 1"
-            ]
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "showSmallEmbed": true
+                },
+                "2": {
+                    "enabled": true,
+                    "showSmallEmbed": false
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "showSmallEmbed"
+            ],
+            "default_config": {
+                "enabled": false,
+                "showSmallEmbed": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-game-profile-share-link",
+            "kind": "user",
+            "timestamp": "2026-07-28T22:57:22Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "showSmallEmbed": true
+                },
+                "2": {
+                    "enabled": true,
+                    "showSmallEmbed": false
+                }
+            }
         }
     ],
     "extractor_version": 20,
@@ -19,8 +69,51 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-typing-users-css-dots",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-typing-users-css-dots",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -33,5 +126,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-28T22:51:29.177687+00:00"
+    "timestamp": "2026-07-28T23:02:03.267525+00:00"
 }
