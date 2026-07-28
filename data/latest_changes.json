@@ -1,5 +1,5 @@
 {
-    "build_hash": "c63dfd7376470dcfd2ac7b99d16faa1615fa08cc",
+    "build_hash": "b90116b82b1516af987b8ef37b40573d08bbda3c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,34 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+FvISQ": "Nitro Rewards gets you into the MW4 Early Access Beta.",
-                "20lfHk": "REWARD",
-                "6rwUm2": "Redeem",
-                "6vVfeK": "Early Access to MW4",
-                "9Rq7t1": "Take me there",
-                "CtaLon": "ENDS SOON",
-                "Dkm10r": "Your next Nitro Reward",
-                "F0b4Z8": "Play MW4 early",
-                "IcD/7p": "Early Access has ended",
-                "LHAkT9": "Get an exclusive Call of Duty: MW4 blueprint when the game launches.",
-                "QzRqcq": "Play MW4 early with Nitro",
-                "RDdDov": "Play MW4 early",
-                "RuZS+B": "Get Call of Duty: MW4 Beta Early Access, available {validDates}.",
-                "YJsqDS": "Call of Duty: MW4 Reward",
-                "fcopjf": "Unlock Reward",
-                "fxF0Jz": "EXPIRED",
-                "g7iyvR": "ENDS {date}",
-                "hausFi": "Stay tuned for more exclusive rewards for Call of Duty: MW4, available {date}.",
-                "hworR+": "Redeem your code to play the Call of Duty: MW4 Early Access Beta {validDates}.",
-                "ieA3V0": "One-time code reward. [Terms apply.]({termsUrl})",
-                "kL6q6w": "Claim your code for the Call of Duty: MW4 Early Access Beta.",
-                "lbyFG+": "Unlock",
-                "mHRW3e": "Get Nitro",
-                "niUDET": "Claim Reward",
-                "nsmhS2": "Redeem your Early Access Beta code. Early Access ends {date}.",
-                "sB5V0c": "Play the Call of Duty: MW4 Beta early"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -49,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-28T00:17:55.715948+00:00"
+    "timestamp": "2026-07-28T00:28:24.316556+00:00"
 }
