@@ -1,15 +1,84 @@
 {
-    "build_hash": "cdcbe168d759e32d663966877f1741cf618d8fe0",
+    "build_hash": "3db95b66f83f57ca98631a8e28ef45fe23590359",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-game-profile-in-quickswitcher",
+            "kind": "user",
+            "timestamp": "2026-07-29T21:37:39Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-voice-gateway-protocol-version",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-07-29T22:29:04Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-voice-gateway-protocol-version",
+            "kind": "user",
+            "timestamp": "2026-07-29T22:29:04Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-social-layer-storefront-spend-orbs-banner-copy",
+            "kind": "user",
+            "timestamp": "2026-07-29T22:02:52Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +91,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-29T22:25:11.363024+00:00"
+    "timestamp": "2026-07-29T22:35:51.500266+00:00"
 }
