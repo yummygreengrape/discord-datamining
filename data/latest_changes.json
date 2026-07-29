@@ -1,5 +1,5 @@
 {
-    "build_hash": "19f14a6719700841703c4cea2edaea77402a9f8e",
+    "build_hash": "56d934cbd685c161797def78382ec66202516825",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,51 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-social-layer-storefront-spend-orbs-banner-copy",
+            "kind": "user",
+            "timestamp": "2026-07-29T22:02:52Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-voice-gateway-protocol-version",
+            "kind": "user",
+            "timestamp": "2026-07-29T22:29:04Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-cod-3pp",
+            "kind": "user",
+            "timestamp": "2026-07-29T22:39:11Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-call-of-duty-3pp-expired",
+            "kind": "user",
+            "timestamp": "2026-07-29T22:39:11Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +66,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-29T22:46:36.316287+00:00"
+    "timestamp": "2026-07-29T22:57:18.697953+00:00"
 }
