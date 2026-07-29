@@ -158,7 +158,7 @@ iOS 음성·영상 통화에서 Krisp 소음 제거에 사용하는 모델 파�
 - 공개 내용 보안 검사: passed
 - 리포트 포인터 일치: passed
 - Git diff 검사: passed
-- 커밋/푸시: pending
+- 커밋/푸시: passed (`02d729c421` pushed to `origin/main`; metadata recorded by follow-up commit)
 
 ## Security/privacy impact
 
