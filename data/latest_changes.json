@@ -1,75 +1,19 @@
 {
-    "build_hash": "f9ce8bac8bc1b4a76726126070739fb57112eb9f",
+    "build_hash": "303a54d858efe31faed17c24db842751908fff92",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "alternatePosition",
-                "enabled"
-            ],
-            "default_config": {
-                "alternatePosition": false,
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-game-profile-in-quickswitcher",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "alternatePosition": false,
-                    "enabled": false
-                },
-                "1": {
-                    "alternatePosition": false,
-                    "enabled": true
-                },
-                "2": {
-                    "alternatePosition": true,
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
     "deleted_experiments": [
         {
-            "config_keys": [
-                "alternatePosition",
-                "enabled"
-            ],
-            "default_config": {
-                "alternatePosition": false,
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
             "id": "2026-06-game-profile-in-quickswitcher",
             "kind": "user",
+            "timestamp": "2026-07-29T21:37:39Z",
             "treatments": [
                 "Variant 0",
                 "Variant 1",
                 "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "alternatePosition": false,
-                    "enabled": false
-                },
-                "1": {
-                    "alternatePosition": false,
-                    "enabled": true
-                },
-                "2": {
-                    "alternatePosition": true,
-                    "enabled": true
-                }
-            }
+            ]
         }
     ],
     "extractor_version": 20,
@@ -78,10 +22,32 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-gdop-discovery",
+            "kind": "user",
+            "timestamp": "2026-07-29T20:52:17Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+p0UgM": "No games match your search",
+                "4r2FsW": "Showcase",
+                "EKR8Ps": "Game Stats",
+                "NpchGq": "Interests",
+                "bKOzux": "Widget categories",
+                "fBRUk1": "Search games",
+                "mW75GT": "Game Stats widget options",
+                "mcdIFp": "You’ve added every widget in {tabName}! 🎉 Check out the other tabs for more widgets you can add.",
+                "r/EUap": "{count, plural, one {# game} other {# games}}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -91,5 +57,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-29T21:42:41.947696+00:00"
+    "timestamp": "2026-07-29T21:53:24.909951+00:00"
 }
