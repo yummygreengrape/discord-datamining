@@ -1,5 +1,5 @@
 {
-    "build_hash": "4416dba672adab3e077c7565ae2e6178bf57f5a0",
+    "build_hash": "149388261a9b4951ce9816a153f296afaf00b837",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,15 +12,31 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "/x2jT7": "Add top channels and DMs here for quick access. Only with Nitro.",
+                "0lHa0Z": "Add to Favorites",
+                "0nZZEk": "Get Nitro",
+                "A3ZjbM": "Favorite this with Nitro",
+                "qJUI2v": "Right-click any channel or DM so they're always within reach."
+            },
+            "deleted": {
+                "Ztl9ht": "Press and hold any channel or DM to add it to Favorites. It's that easy.",
+                "kxQJ7q": "Add top channels and DMs here for quick access.",
+                "vN/KQ9": "Check it out"
+            },
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "/x2jT7": "즐겨 찾는 채널과 DM을 여기에 추가하여 빠르게 액세스하세요. Nitro에서만 가능합니다.",
+                "0lHa0Z": "즐겨찾기에 추가하기",
+                "0nZZEk": "Nitro 구독하기",
+                "A3ZjbM": "Discord Nitro로 즐겨찾기에 추가하기",
+                "qJUI2v": "채널이나 DM을 마우스 오른쪽 버튼으로 클릭하여 항상 손이 닿는 곳에 두세요."
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-07-29T02:09:49.697071+00:00"
+    "timestamp": "2026-07-29T02:20:21.496071+00:00"
 }
