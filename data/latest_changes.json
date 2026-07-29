@@ -1,5 +1,5 @@
 {
-    "build_hash": "34dbe98502883ea29eb7453562e4960c16af4fed",
+    "build_hash": "a073d2fbbfc4e744d17abb7159c4869354e2f7a6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,10 +9,24 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-message-bookmarks-v2",
+            "kind": "user",
+            "timestamp": "2026-07-29T19:35:41Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Anr1Dg": "You've reached the limit for reminders ({max, number} total). To add more, please delete a few reminders."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-29T19:26:32.464371+00:00"
+    "timestamp": "2026-07-29T19:37:04.825901+00:00"
 }
