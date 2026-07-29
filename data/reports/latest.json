@@ -1262,12 +1262,12 @@
     "notes": "JSON, report contracts, analysis parity, bilingual pairing, unresolved fields, fallback phrases, tracked publication-path security/privacy scans, pointer equality, and git diff checks passed. A whole-checkout scan also reported the intentionally ignored local data/history.json and existing .DS_Store files; those files are not staged or published. No parser or application code changed."
   },
   "commits": {
-    "data_commit": null,
-    "report_publish_commit": null,
-    "pushed": false,
+    "data_commit": "02d729c421a8e81be6ae7716321b1a4b4ea8c296",
+    "report_publish_commit": "recorded by follow-up commit after this metadata update",
+    "pushed": true,
     "remote": "origin/main",
-    "status_summary": "pending",
-    "notes": "Data and report content are awaiting validation and publication."
+    "status_summary": "passed (`02d729c421` pushed to `origin/main`; metadata recorded by follow-up commit)",
+    "notes": "Data and report files were committed and pushed successfully. This metadata update is committed separately because the first commit hash is only known after commit."
   },
   "security_privacy_impact": {
     "trust_boundary_change": "none",
