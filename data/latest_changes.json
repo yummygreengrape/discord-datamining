@@ -1,5 +1,5 @@
 {
-    "build_hash": "13a1c7ef5ea9db4df120a904b2edcf7dccc24c5d",
+    "build_hash": "63d6ac87c1f6acca3993760c0fe26d62fce8f761",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,19 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-social-layer-storefront-spend-orbs-banner-copy",
-            "kind": "user",
-            "timestamp": "2026-07-29T22:02:52Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -34,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-29T22:03:56.591130+00:00"
+    "timestamp": "2026-07-29T22:14:33.853859+00:00"
 }
