@@ -1,5 +1,5 @@
 {
-    "build_hash": "c39f2125c0ef60115f7a29607e4e83d1e8678595",
+    "build_hash": "d81e73888d99ae79c6d898825e8ea0cdf52f4f82",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,18 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-gsimagic",
+            "kind": "user",
+            "timestamp": "2026-07-29T17:44:48Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-29T19:05:12.712260+00:00"
+    "timestamp": "2026-07-29T19:15:52.628781+00:00"
 }
