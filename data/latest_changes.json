@@ -1,21 +1,8 @@
 {
-    "build_hash": "303a54d858efe31faed17c24db842751908fff92",
+    "build_hash": "13a1c7ef5ea9db4df120a904b2edcf7dccc24c5d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-game-profile-in-quickswitcher",
-            "kind": "user",
-            "timestamp": "2026-07-29T21:37:39Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -26,9 +13,9 @@
         {
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-07-gdop-discovery",
+            "id": "2026-07-social-layer-storefront-spend-orbs-banner-copy",
             "kind": "user",
-            "timestamp": "2026-07-29T20:52:17Z",
+            "timestamp": "2026-07-29T22:02:52Z",
             "treatments": [
                 "Variant 0",
                 "Variant 1"
@@ -37,17 +24,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "+p0UgM": "No games match your search",
-                "4r2FsW": "Showcase",
-                "EKR8Ps": "Game Stats",
-                "NpchGq": "Interests",
-                "bKOzux": "Widget categories",
-                "fBRUk1": "Search games",
-                "mW75GT": "Game Stats widget options",
-                "mcdIFp": "You’ve added every widget in {tabName}! 🎉 Check out the other tabs for more widgets you can add.",
-                "r/EUap": "{count, plural, one {# game} other {# games}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -57,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-29T21:53:24.909951+00:00"
+    "timestamp": "2026-07-29T22:03:56.591130+00:00"
 }
