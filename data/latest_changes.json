@@ -1,17 +1,6 @@
 {
-    "build_hash": "33099ed0e1860a4b4299c5d1fd14a0a4bef474a8",
-    "deleted_api_endpoints": [
-        {
-            "name": "ENDPOINT_GUILDS_ROOMS_DISCONNECT",
-            "status": "deleted",
-            "url": "/guilds/:param/rooms/:param/disconnect"
-        },
-        {
-            "name": "GUILD_ROOM_DISCONNECT",
-            "status": "deleted",
-            "url": "/guilds/:param/rooms/:param/disconnect"
-        }
-    ],
+    "build_hash": "0dcf4b3b521c9540630ec29a8ca10881c02f6556",
+    "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
@@ -33,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-29T17:31:49.930098+00:00"
+    "timestamp": "2026-07-29T17:42:20.570835+00:00"
 }
