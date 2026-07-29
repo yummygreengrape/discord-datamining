@@ -1,8 +1,77 @@
 {
-    "build_hash": "e20a9797293f7f12c5b2415a939233eda5856cac",
+    "build_hash": "f9ce8bac8bc1b4a76726126070739fb57112eb9f",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "alternatePosition",
+                "enabled"
+            ],
+            "default_config": {
+                "alternatePosition": false,
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-game-profile-in-quickswitcher",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "alternatePosition": false,
+                    "enabled": false
+                },
+                "1": {
+                    "alternatePosition": false,
+                    "enabled": true
+                },
+                "2": {
+                    "alternatePosition": true,
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "alternatePosition",
+                "enabled"
+            ],
+            "default_config": {
+                "alternatePosition": false,
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-game-profile-in-quickswitcher",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "alternatePosition": false,
+                    "enabled": false
+                },
+                "1": {
+                    "alternatePosition": false,
+                    "enabled": true
+                },
+                "2": {
+                    "alternatePosition": true,
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +91,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-29T21:21:56.328111+00:00"
+    "timestamp": "2026-07-29T21:42:41.947696+00:00"
 }
