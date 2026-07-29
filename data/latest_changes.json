@@ -1,5 +1,5 @@
 {
-    "build_hash": "8715be73c0b3eb59b580b3fe66fe666eb915999d",
+    "build_hash": "4eed006cf7c1219a274599aea4de1f4dc966b7d0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,53 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enableCs2Gsi"
-            ],
-            "default_config": {
-                "enableCs2Gsi": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-gsimagic",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-07-29T17:44:48Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableCs2Gsi": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enableCs2Gsi"
-            ],
-            "default_config": {
-                "enableCs2Gsi": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-gsimagic",
-            "kind": "user",
-            "timestamp": "2026-07-29T17:44:48Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableCs2Gsi": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -67,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-29T17:52:52.395161+00:00"
+    "timestamp": "2026-07-29T18:33:56.371832+00:00"
 }
