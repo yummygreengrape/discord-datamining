@@ -1,5 +1,5 @@
 {
-    "build_hash": "e2827b4131813df352474834505bf2be97b1daba",
+    "build_hash": "e20a9797293f7f12c5b2415a939233eda5856cac",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,32 +9,10 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-gdop-discovery",
-            "kind": "user",
-            "timestamp": "2026-07-29T20:52:17Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+p0UgM": "No games match your search",
-                "4r2FsW": "Showcase",
-                "EKR8Ps": "Game Stats",
-                "NpchGq": "Interests",
-                "bKOzux": "Widget categories",
-                "fBRUk1": "Search games",
-                "mW75GT": "Game Stats widget options",
-                "mcdIFp": "You’ve added every widget in {tabName}! 🎉 Check out the other tabs for more widgets you can add.",
-                "r/EUap": "{count, plural, one {# game} other {# games}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -44,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-29T21:11:23.982193+00:00"
+    "timestamp": "2026-07-29T21:21:56.328111+00:00"
 }
