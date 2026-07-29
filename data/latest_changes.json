@@ -1,32 +1,33 @@
 {
-    "build_hash": "a073d2fbbfc4e744d17abb7159c4869354e2f7a6",
+    "build_hash": "2de5325f193d09339f87cab9799d7260bcfcaf42",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
-    "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [
+    "modified_experiments": [
         {
-            "experiment_source": "reference_comment",
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
             "id": "2026-07-message-bookmarks-v2",
             "kind": "user",
-            "timestamp": "2026-07-29T19:35:41Z",
-            "treatments": [
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
                 "Variant 1",
                 "Variant 2"
-            ]
+            ],
+            "status": "modified",
+            "treatments": []
         }
     ],
+    "new_api_endpoints": [],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Anr1Dg": "You've reached the limit for reminders ({max, number} total). To add more, please delete a few reminders."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -36,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-29T19:37:04.825901+00:00"
+    "timestamp": "2026-07-29T19:47:36.152157+00:00"
 }
