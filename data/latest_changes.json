@@ -1,5 +1,5 @@
 {
-    "build_hash": "8511cea13cd8381ef24d6a2d910825aecf225ac3",
+    "build_hash": "c63479020608b51a28be798f0d75228520c1fa80",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "ws+0Lr": "See what they have equipped"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-30T22:36:26.819081+00:00"
+    "timestamp": "2026-07-30T22:57:08.413873+00:00"
 }
