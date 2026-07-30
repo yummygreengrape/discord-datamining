@@ -1,8 +1,53 @@
 {
-    "build_hash": "a0af826319280844eea2f321cca7693be80b01c7",
+    "build_hash": "54f6d0ba0dd849fbaea3d8b7afc941884b34707a",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-01-system-service-performance-monitor",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-07-30T20:00:52Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-01-system-service-performance-monitor",
+            "kind": "user",
+            "timestamp": "2026-07-30T20:00:52Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-30T19:57:46.938485+00:00"
+    "timestamp": "2026-07-30T20:08:19.776849+00:00"
 }
