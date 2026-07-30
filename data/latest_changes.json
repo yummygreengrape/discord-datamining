@@ -1,37 +1,452 @@
 {
-    "build_hash": "9856bfc27fffa502889ec885aa170544c1a1e171",
+    "build_hash": "22554528fc3fc3cc0b7f101aa729cbe3ca87b2e2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-gdm-invite-embed",
-            "kind": "user",
-            "timestamp": "2026-07-30T21:27:39Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "Tw.v.GRADIENT",
+                "surface": "Tw.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TH.v.GRADIENT",
+                "surface": "TH.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TH.v.GRADIENT",
+                    "surface": "TH.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TH.v.EXPRESSIVE",
+                    "surface": "TH.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TH.v.GRADIENT",
+                    "surface": "TH.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TH.v.GLOWING",
+                    "surface": "TH.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TH.v.GLOWING",
+                    "surface": "TH.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "Tw.v.GRADIENT",
+                    "surface": "Tw.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tw.v.EXPRESSIVE",
+                    "surface": "Tw.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tw.v.GRADIENT",
+                    "surface": "Tw.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tw.v.GLOWING",
+                    "surface": "Tw.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tw.v.GLOWING",
+                    "surface": "Tw.F.NONE"
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "Tw.v.GRADIENT",
+                "surface": "Tw.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TH.v.GRADIENT",
+                "surface": "TH.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TH.v.GRADIENT",
+                    "surface": "TH.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TH.v.EXPRESSIVE",
+                    "surface": "TH.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TH.v.GRADIENT",
+                    "surface": "TH.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TH.v.GLOWING",
+                    "surface": "TH.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TH.v.GLOWING",
+                    "surface": "TH.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "Tw.v.GRADIENT",
+                    "surface": "Tw.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tw.v.EXPRESSIVE",
+                    "surface": "Tw.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tw.v.GRADIENT",
+                    "surface": "Tw.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tw.v.GLOWING",
+                    "surface": "Tw.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tw.v.GLOWING",
+                    "surface": "Tw.F.NONE"
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "0PL2mz": "Proration Adjustment",
+                "W7oyuf": "Attuning…",
+                "cLhFMi": "Attuned",
+                "eDDdhB": "Connection: {status}",
+                "eE60xI": "Lost the thread",
+                "nm4w9P": "Finding my way back to you…",
+                "orD+xo": "Waiting on you to let it in…",
+                "pOYDEc": "Waiting for it to wake up…",
+                "yBmS+I": "Link dropped",
+                "z4KWsN": "Behind the curtain: {step}"
+            },
+            "deleted": {
+                "+jR47e": "This app isn’t in any servers yet.",
+                "1tpgZj": "Name your project to get started.",
+                "2spNBg": "Open in preview server",
+                "5z1yII": "Nitro discount",
+                "8KOCsL": "Needs Manage Channels",
+                "BrIO8n": "Missing permissions",
+                "DsbhJh": "A separate test bot for trying changes without touching production. Add it to a server, then pick the channel that hosts its app preview. Star the server you build against.",
+                "GY6B0N": "Loading project…",
+                "H/1a4G": "The bot is missing some of its requested permissions here. Re-add it to grant them.",
+                "HOR2G6": "unknown",
+                "KD/8I2": "New",
+                "LxcxOn": "Add to a Server",
+                "MKjK9r": "Published to Discord",
+                "QBFUMO": "This upgrade is prorated and takes effect immediately.",
+                "QSyAeh": "will appear here.",
+                "QtdNbb": "Waiting for WS ({connState})…",
+                "SJUldG": "No preview server set",
+                "T8bq8a": "Name",
+                "V8EI91": "Settings for {name}",
+                "ViaTTs": "Create your first vibegration",
+                "WxL0ot": "Build complete",
+                "XS0kOx": "Thinking",
+                "ZYlNAm": "Add to a Preview Server",
+                "ZZBGJk": "Select a {serverNoun}",
+                "ZwMXxL": "No vibe channel",
+                "blwjBG": "New vibegration",
+                "bs+vW4": "Danger zone",
+                "c2Hoc+": "server",
+                "cqbvos": "Delete project",
+                "ebUKvD": "Set as preferred server",
+                "fpqCQD": "preview server",
+                "h/telp": "Logs",
+                "ikAiBJ": "Vibegration settings",
+                "jImIeK": "Select a project on the left, or create a new one to start building.",
+                "jN6gfK": "project",
+                "kxgA0e": "App Preview",
+                "l7+3Cp": "Couldn’t load your vibegrations",
+                "nn/LnK": "Preview Servers",
+                "oNz6CB": "Nothing yet. Anything your app writes with",
+                "onCPw6": "My vibegration",
+                "ovEV9p": "Build an Activity in the chat. Once your project has an app, it runs here.",
+                "pb94Ix": "Publish to Discord",
+                "psMGvL": "Your Vibegrations",
+                "qnmuac": "Add your bot to a server, then pick the channel that hosts its app preview. Star the server you build against. Publish to push your latest build live.",
+                "s/ZOdr": "Good Vibegrations",
+                "tPH0L7": "Add to Server",
+                "vzw6TV": "Good Vibegrations — working…",
+                "w0V0e+": "Thought for {duration}",
+                "wJB+A3": "Preferred server",
+                "wJR7Dy": "Open the preview server"
+            },
+            "modified": {
+                "0ce6LB": {
+                    "new_value": "Sketching out the shape of it…",
+                    "old_value": "Planning your app…"
+                },
+                "1RCbQT": {
+                    "new_value": "Something went wrong opening it. Try again from the chat.",
+                    "old_value": "Something went wrong launching the app. Try again from the builder."
+                },
+                "2tYpRK": {
+                    "new_value": "What are we conjuring today?",
+                    "old_value": "What do you wanna create today?"
+                },
+                "6L9Vwt": {
+                    "new_value": "That didn’t quite come together.",
+                    "old_value": "Build failed: {message}"
+                },
+                "6xTawd": {
+                    "new_value": "Nothing to preview yet",
+                    "old_value": "No preview yet."
+                },
+                "78YNh7": {
+                    "new_value": "Your preview is ready.",
+                    "old_value": "Preview ready."
+                },
+                "7Fdrf8": {
+                    "new_value": "Done conjuring",
+                    "old_value": "Assistant finished"
+                },
+                "9G3ZmA": {
+                    "new_value": "Gathering the pieces…",
+                    "old_value": "Preparing build…"
+                },
+                "Bo5fE3": {
+                    "new_value": "Your Conjurings",
+                    "old_value": "Your Creations"
+                },
+                "C0t6bp": {
+                    "new_value": "Conjuring your app",
+                    "old_value": "Assistant is thinking"
+                },
+                "Cn9qix": {
+                    "new_value": "Extra access it needs",
+                    "old_value": "Privileged intents"
+                },
+                "F2dRba": {
+                    "new_value": "This one’s gone",
+                    "old_value": "Project unavailable"
+                },
+                "FUWbq1": {
+                    "new_value": "Something didn’t hold together.",
+                    "old_value": "Healthcheck failed: {message}"
+                },
+                "GYoWRk": {
+                    "new_value": "Conjure it",
+                    "old_value": "Build it"
+                },
+                "GnEJ3o": {
+                    "new_value": "It may have been dispelled, or it’s no longer yours to open.",
+                    "old_value": "This project may have been deleted or is no longer available."
+                },
+                "I2hgEB": {
+                    "new_value": "Give it a name first.",
+                    "old_value": "A project name is required."
+                },
+                "IHCafX": {
+                    "new_value": "My plan came out blank. Ask me again?",
+                    "old_value": "Plan proposal was empty"
+                },
+                "IN/HRP": {
+                    "new_value": "We couldn’t reach your conjurings.",
+                    "old_value": "Something went wrong loading your vibegrations."
+                },
+                "Jj8Ftb": {
+                    "new_value": "Yes, conjure it.",
+                    "old_value": "Yes, build it."
+                },
+                "K7TkAL": {
+                    "new_value": "Conjuring…",
+                    "old_value": "Thinking…"
+                },
+                "KKkp5Y": {
+                    "new_value": "Couldn’t start that one. Try again.",
+                    "old_value": "create failed"
+                },
+                "KLyB8Y": {
+                    "new_value": "What you’ll get",
+                    "old_value": "Changes"
+                },
+                "MeLWCr": {
+                    "new_value": "The preview wouldn’t load",
+                    "old_value": "Couldn’t load the preview"
+                },
+                "QDGuNS": {
+                    "new_value": "Conjuring…",
+                    "old_value": "Thinking..."
+                },
+                "R9aduM": {
+                    "new_value": "Conjuring",
+                    "old_value": "Codegen"
+                },
+                "TIbJ5p": {
+                    "new_value": "Close the activity you have running to open this one.",
+                    "old_value": "Close the activity you have running to preview this app."
+                },
+                "TU9IGR": {
+                    "new_value": "Describe the thing you want to exist…",
+                    "old_value": "Describe your idea..."
+                },
+                "VZuRug": {
+                    "new_value": "Gathering ingredients…",
+                    "old_value": "Installing npm dependencies…"
+                },
+                "YnAFtT": {
+                    "new_value": "Yours alone until you ship them",
+                    "old_value": "Creations are private until you ship them"
+                },
+                "Yvyw1H": {
+                    "new_value": "Packing it up…",
+                    "old_value": "Uploading build artifacts…"
+                },
+                "Z8Eo8I": {
+                    "new_value": "I came back with nothing to say. Ask me again?",
+                    "old_value": "Agent reply was empty"
+                },
+                "ahRdoJ": {
+                    "new_value": "Tell me what you’re imagining…",
+                    "old_value": "Write a message…"
+                },
+                "fNP6Cd": {
+                    "new_value": "Couldn’t ship it. Try again.",
+                    "old_value": "Publish failed"
+                },
+                "h6H4+U": {
+                    "new_value": "Worked out {count} thing(s) it can do",
+                    "old_value": "Planned {count} command(s)"
+                },
+                "hOcVAj": {
+                    "new_value": "It’s real.",
+                    "old_value": "Build complete."
+                },
+                "hk4jJr": {
+                    "new_value": "Thinking",
+                    "old_value": "Orchestrator"
+                },
+                "ieqTtP": {
+                    "new_value": "Permissions it needs",
+                    "old_value": "Bot permissions"
+                },
+                "j3hBoA": {
+                    "new_value": "Something went sideways.",
+                    "old_value": "Error: {message}"
+                },
+                "kILb+R": {
+                    "new_value": "Runes saved by memory",
+                    "old_value": "Cache hit rate"
+                },
+                "kvcg+H": {
+                    "new_value": "Your app is live",
+                    "old_value": "Production published"
+                },
+                "nv6pUM": {
+                    "new_value": "Tinkering…",
+                    "old_value": "Working…"
+                },
+                "rEQlMx": {
+                    "new_value": "Binding it all together…",
+                    "old_value": "Bundling worker…"
+                },
+                "s+ylXP": {
+                    "new_value": "Conjuring it into being…",
+                    "old_value": "Running build script…"
+                },
+                "sz8yAj": {
+                    "new_value": "Making sure it holds together…",
+                    "old_value": "Healthchecking…"
+                },
+                "ui2IQ2": {
+                    "new_value": "Conjuring",
+                    "old_value": "Building"
+                },
+                "wcXX8Z": {
+                    "new_value": "Getting your preview ready…",
+                    "old_value": "Deploying preview…"
+                },
+                "wjWm+/": {
+                    "new_value": "We lost the thread. Reconnecting…",
+                    "old_value": "Connection lost"
+                },
+                "x+sqTG": {
+                    "new_value": "Everything holds.",
+                    "old_value": "Healthcheck passed."
+                }
+            }
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "5z1yII": "Nitro 할인",
+                "QBFUMO": "이 업그레이드는 일할 계산되며 즉시 적용돼요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-07-30T21:43:27.682787+00:00"
+    "timestamp": "2026-07-30T21:54:04.204694+00:00"
 }
