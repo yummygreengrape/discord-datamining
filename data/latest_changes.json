@@ -1,5 +1,5 @@
 {
-    "build_hash": "7b0ba1ecc3d9237628a36dca853e1cca6500ae43",
+    "build_hash": "d729c34d0f98f600811f517beae7f889d41c886c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,8 +12,17 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "/l5Wn+": "{seatedCount, plural, one {# person} other {# people}} seated, {openSeatCount, plural, one {# open seat} other {# open seats}}, {objectCount, plural, one {# object} other {# objects}}",
+                "F9DcvR": "Open seats, choose one to sit",
+                "JYlbK5": "Objects in the room",
+                "w5Latp": "Note from {userName}",
+                "xn1EI9": "People here",
+                "zzZaRe": "Notes"
+            },
+            "deleted": {
+                "X84itm": "{seatLabel}, available seat"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-30T18:01:17.329566+00:00"
+    "timestamp": "2026-07-30T18:11:49.161452+00:00"
 }
