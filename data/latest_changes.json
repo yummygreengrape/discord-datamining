@@ -1,5 +1,5 @@
 {
-    "build_hash": "2597edf9b68f92e1da7ee9cf4977f3882a620dbc",
+    "build_hash": "030eff063637fed723fcec3c381808b76a5b75f8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -17,132 +17,10 @@
             "modified": {}
         },
         "ko": {
-            "added": {
-                "+W8gb+": "Collabs",
-                "+aRmAc": "다른 게임 서버 시작하기",
-                "/VVQKJ": "사운드보드",
-                "04IVMq": "서버 허브",
-                "1RD2jW": "이 방법을 여는 중 문제가 발생했습니다.",
-                "2S/5mX": "이 보상은 유료 구독이 시작되면 받을 수 있어요",
-                "2zdDw5": "\"{cta}\"을(를) 클릭하면 {provider}에서 호스팅하는 게임 서버를 만들 수 있어요. 이러한 서버와 그 안에서 일어나는 모든 활동은 {provider} 기반이며, [{provider}의 서비스 이용 약관]({termsOfServiceUrl})이 적용돼요. Discord는 이러한 서버를 모니터링하지 않아요. [지원 센터]({helpCenterUrl})에서 게임 서버를 사용할 때 긍정적으로 참여하는 방법에 대한 유용한 팁을 확인하실 수 있어요.",
-                "3oS3Jq": "emojiHookHook 이모지로 내 GIF에 반응했어요",
-                "42Skzz": "작게",
-                "4IYwrw": "프로필 스타일 개요로 돌아가기",
-                "4eAE08": "크기",
-                "5z1yII": "Nitro 할인",
-                "6AKZvg": "{gameName} 게임 서버",
-                "6TgadG": "{date}에 {planName} 플랜으로 다운그레이드돼요.",
-                "7bPRjd": "포함됨",
-                "7n6Qq+": "확인을 클릭하면 게임 서버 구독이 다시 활성화돼요. 오늘은 요금이 청구되지 않아요. {date}에 {price}의 금액이 청구되며, 청구 주기는 예정대로 계속돼요.",
-                "8DaKO6": "두 번 탭하면 활동과 상호작용할 수 있어요. 두 손가락을 문지르는 제스처로 종료할 수 있어요",
-                "8Q+k1s": "{label}, 글자 수, {remainingCharacters}자 남음",
-                "8bZyov": "클립 품질",
-                "8xg9ZQ": "emojiHookHook 이모지로 내 전달된 메시지에 반응했어요",
-                "96UEzi": "이 스레드는 보관된 상태예요.",
-                "9oleCI": "색상",
-                "AE4yja": "어이쿠, 이런. 설정된 알림이 없네요.",
-                "Bkmk4Y": "인증 방법을 불러오는 중 문제가 발생했습니다. 다시 시도해 주세요.",
-                "DLedT1": "플랜 변경하기",
-                "F5W36W": "나만의 게임 서버 시작하기",
-                "H9ti8H": "게임 서버가 준비됐어요! 언제든지 상점의 '게임 서버' 탭에서 관리하세요.",
-                "HYpETY": "Nitro 멤버십에는 부스트 {boostCount}개가 포함되어 있어요. 서버에 필요할 때마다 Nitro 할인가로 더 추가할 수 있어요.",
-                "Hs14K3": "설명 추가",
-                "I143Ml": "플랜 선택하기",
-                "I7mNcA": "emojiHookHook 이모지로 내 이미지에 반응했어요",
-                "KqCDvK": "제목 추가",
-                "LGX80j": "중간",
-                "M2Hj9s": "현재 프로필 프리셋 미리 보는 중: {presetName}",
-                "MmcIbA": "이 다운그레이드는 다음 갱신 시 적용돼요.",
-                "NfZxrD": "내 메시지, 반응 {count}회 도달:",
-                "P/bwx9": "emojiHookHook 이모지로 내 오디오 파일에 반응했어요",
-                "PiPq7M": "{presetName} 프로필 프리셋",
-                "QBFUMO": "이 업그레이드는 일할 계산되며 즉시 적용돼요.",
-                "R/JN4b": "텍스트",
-                "RmVM19": "{percentageOff}% 할인",
-                "Rpf6Ak": "즐겨찾기한 게임",
-                "SlS71X": "상점으로 가서 {date}까지 아이템을 수령하세요.",
-                "TNamrx": "제목 추가",
-                "TXNjGW": "emojiHookHook 이모지로 내 파일에 반응했어요",
-                "UGbET9": "다운그레이드",
-                "UNRyki": "emojiHookHook 이모지로 내 첨부 파일 {count}개에 반응했어요",
-                "Ujlm+F": "중간",
-                "Umew/z": "emojiHookHook 이모지로 내 동영상에 반응했어요",
-                "WvkbtB": "텍스트",
-                "XSfwGL": "{name} 활동",
-                "Yi+FzV": "게임 서버 제한인 {maxInstances}개에 도달했어요.",
-                "a6gcZ/": "알림 제거하기",
-                "ai9fWO": "스피커",
-                "b7VAIk": "이 인증 절차는 아직 구현되지 않았습니다.",
-                "bBRdiB": "Nitro 사용자 지정으로 무작위 프로필 룩을 만들어 보세요",
-                "c0oFDw": "자동 완성 결과에 게임 표시하기",
-                "fQqXGl": "레이아웃",
-                "fRSRc0": "잊지 말고 확인할 수 있도록 중요한 메시지에 알림을 설정하세요. 메시지를 우클릭하면 나중에 다시 알림을 설정할 수 있어요.",
-                "g2jVww": "차단 해제",
-                "h8DSx/": "클립을 녹화할 때 사용될 화질이에요. 화질이 높을수록 파일 크기가 커져요.",
-                "hIXtcT": "이 포스트는 보관된 상태예요.",
-                "i5lFSU": "플레이어",
-                "iBFuNE": "잊지 말고 확인할 수 있도록 중요한 메시지에 알림을 설정하세요. 메시지를 길게 누르면 나중에 다시 알림을 설정할 수 있어요.",
-                "jbrHpT": "Nitro로 부스트를 {discount}개 더 받을 수 있어요",
-                "jlz/q6": "vCPU",
-                "k6YnQO": "emojiHookHook 이모지로 내 음성 메시지에 반응했어요",
-                "k8zZFd": "설명 추가",
-                "kv8ULD": "모바일에서는 위젯 편집 기능을 아직 사용할 수 없어요. 웹이나 데스크톱 앱을 사용해 보세요!",
-                "lT4Cq2": "크게",
-                "mZddSK": "차단 추가",
-                "pnm8NC": "emojiHookHook 이모지로 내 스티커에 반응했어요",
-                "qIVU1h": "무료 상점 아이템이 준비되었어요",
-                "qV9zT6": "새로운 게임 내 소셜 기능을 지원하기 위해 bHook{connectionName} 연결을 업데이트하고 있어요. 계속 연결을 유지하고 orbsIconHookHookorbs {orbCount} Orbs도 받으려면 계정을 링크하세요!",
-                "qbzGwh": "새 배지: {badge_name}, {tier_name}",
-                "r/EUap": "게임 {count} 개",
-                "rDjKru": "새 배지: {badge_name}",
-                "rJbFM3": "아직 이용할 수 없어요",
-                "sa6Q0q": "크게",
-                "sadaeG": "입력란 삭제",
-                "sec4g7": "emojiHookHook 이모지로 내 파일 {count}개에 반응했어요",
-                "tYuPp+": "없음",
-                "uQle7a": "음성 서버 대기 중",
-                "uZ4F2O": "결과가 업데이트되었어요.",
-                "vfYN5b": "내 메시지가 {count}회에 도달했어요",
-                "yBmFPA": "기한이 지난 알림 {count}개",
-                "zY8Ghg": "클립 갤러리",
-                "zYVcjp": "작게"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "9Cx+xL": {
-                    "new_value": "/gif + 아무 단어나 입력하여 해당 주제의 GIF를 찾아보세요!",
-                    "old_value": "/gif 또는 /tenor와 함께 검색어를 입력하면 해당하는 GIF를 찾을 수 있어요!"
-                },
-                "DfSSdL": {
-                    "new_value": "새로운 게임 내 소셜 기능을 지원하기 위해 bHook{connectionName} 연결을 업데이트하고 있어요. 계속 연결을 유지하려면 bHook{applicationName} 계정을 링크하세요. (orbsIconHookHookorbs {orbCount} Orbs도 받으실 수 있어요!)",
-                    "old_value": "bHook{connectionName} 연결이 bHook{applicationName} 애플리케이션으로 마이그레이션돼요. 계정을 다시 연결해서 모든 프로필 연결을 유지하세요(orbsIconHookHookorbs {orbCount} Orbs도 받을 수 있어요!)."
-                },
-                "NaRCXT": {
-                    "new_value": "가장 중요한 메시지를 나만 볼 수 있는 즐겨찾기에 추가하세요. 메시지를 우클릭하면 저장할 수 있어요.",
-                    "old_value": "가장 중요한 메시지를 나만 볼 수 있는 즐겨찾기에 추가해보세요. 메시지를 우클릭하면 저장하거나 나중을 위해 알림을 설정할 수 있어요."
-                },
-                "SFUhDi": {
-                    "new_value": "월별",
-                    "old_value": "매달"
-                },
-                "SvSwga": {
-                    "new_value": "월간 구독 전용",
-                    "old_value": "월간 전용"
-                },
-                "w1o+75": {
-                    "new_value": "가장 중요한 메시지를 나만 볼 수 있는 즐겨찾기에 추가하세요. 메시지를 길게 누르면 저장할 수 있어요.",
-                    "old_value": "가장 중요한 메시지를 나만 볼 수 있는 즐겨찾기에 추가하세요. 메시지를 길게 누르면 저장하거나 나중을 위해 알림을 설정할 수 있어요."
-                },
-                "wUXupS": {
-                    "new_value": "새로운 게임 내 소셜 기능을 지원하기 위해 bHook{connectionName} 연결을 업데이트하고 있어요. 계속 연결을 유지하고 이러한 [추가 기능]({helpCenterLink})을 잠금 해제하려면 [bHook{applicationName} 계정을 링크하세요.]({connectionEntrypointUrl})",
-                    "old_value": "향후 몇 개월 이내에 bHook{connectionName} 연결이 bHook{applicationName} 앱으로 마이그레이션돼요. 연결을 계속 유지하고 추가적인 [게임 내 소셜 기능]({helpCenterLink})을 잠금 해제하려면 [{applicationName} 계정을 연결하세요]({connectionEntrypointUrl})."
-                },
-                "xMpGuO": {
-                    "new_value": "게임을 선택하고 서버를 실행하여 몇 초 만에 플레이를 시작하세요!",
-                    "old_value": "간편한 설정과 완벽한 관리자 패널 제어 기능으로 단 몇 분 만에 친구들과 멀티플레이어 게임을 즐겨보세요."
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-07-30T07:28:22.103159+00:00"
+    "timestamp": "2026-07-30T08:39:56.857817+00:00"
 }
