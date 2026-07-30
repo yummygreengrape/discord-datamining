@@ -1,5 +1,5 @@
 {
-    "build_hash": "252aa51e89ec326e208bc9c4e5ba425641715066",
+    "build_hash": "2c225579bea7007fe86ab6912beaf807559333a3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,8 +12,25 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "/l5Wn+": "{seatedCount, plural, one {# person} other {# people}} seated, {openSeatCount, plural, one {# open seat} other {# open seats}}, {objectCount, plural, one {# object} other {# objects}}",
+                "4AdY23": "My project didn’t work",
+                "8Ee6yW": "Other",
+                "F9DcvR": "Open seats, choose one to sit",
+                "FVQz1w": "It was too slow",
+                "JYlbK5": "Objects in the room",
+                "UJLIUY": "The result wasn’t what I wanted",
+                "W7Sdp4": "How’s it going so far?",
+                "dXJed8": "Tell us about your experience",
+                "kLHFxL": "What could have gone better?",
+                "u/juX1": "I didn’t know what to ask for",
+                "w5Latp": "Note from {userName}",
+                "xn1EI9": "People here",
+                "zzZaRe": "Notes"
+            },
+            "deleted": {
+                "X84itm": "{seatLabel}, available seat"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +39,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-30T18:33:00.194112+00:00"
+    "timestamp": "2026-07-30T18:43:45.761905+00:00"
 }
