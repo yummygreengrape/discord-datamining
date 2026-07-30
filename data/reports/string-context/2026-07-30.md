@@ -208,10 +208,29 @@ Representative deferred items:
 
 ## Validation and publish
 
-- Status: `pending`
-- `passed` — prepare-time source/web core parity
-- `passed` — 80-row bounded selection with paired analysis fields
-- `passed` — latest_changes string payload empty; string_context omitted
+- Status: `passed`
+- `passed` — python3 -m json.tool data/web/meta.json
+- `passed` — python3 -m json.tool data/web/strings.ko.json
+- `passed` — python3 -m json.tool data/web/strings.en.json
+- `passed` — python3 -m json.tool data/latest_changes.json
+- `passed` — python3 -m json.tool data/reports/string-context/latest.json
+- `passed` — python3 -m json.tool data/reports/string-context/2026-07-30.json
+- `passed` — python3 -m json.tool data/history.json
+- `passed` — 115 source rows imported without core payload changes
+- `passed` — 80 selected analysis-row changes
+- `passed` — history/source/web full-row and annotation parity
+- `passed` — 80-row paired required-field and English-language checks
+- `passed` — analysis-only tracked web comparison
+- `passed` — scoped private-path, token, SEO, and overclaim scan
+- `passed` — report JSON/Markdown pointer parity
+- `passed` — compact tracked web JSON
+- `passed` — python3 scripts/security_scan.py --root . .
+- `passed` — python3 -m unittest discover -s tests -p 'test_*.py'
+- `passed` — ./scripts/check_security.sh (private runner)
+- `passed` — git diff --check
+- `passed` — data commit pushed to origin/main
+
+- Data commit: `4ebf33f1` — Add July 30 string context interpretations (pushed: true)
 
 ## Security/privacy impact
 
