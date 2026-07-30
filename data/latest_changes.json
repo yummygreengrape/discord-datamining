@@ -1,5 +1,5 @@
 {
-    "build_hash": "179ddf09f241a207defa0622cfdcc413cf8dedf2",
+    "build_hash": "f90101c64764547526bbdc76148afb90b709566c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,16 @@
     "string_changes": {
         "en": {
             "added": {
+                "4AdY23": "My project didn’t work",
+                "8Ee6yW": "Other",
+                "FVQz1w": "It was too slow",
+                "UJLIUY": "The result wasn’t what I wanted",
+                "W7Sdp4": "How’s it going so far?",
                 "X+MWsC": "Rename Project",
-                "fHTQgk": "Rename"
+                "dXJed8": "Tell us about your experience",
+                "fHTQgk": "Rename",
+                "kLHFxL": "What could have gone better?",
+                "u/juX1": "I didn’t know what to ask for"
             },
             "deleted": {
                 "4hUJBy": "Permanently delete this app and workspace",
@@ -34,5 +42,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-30T19:36:27.173541+00:00"
+    "timestamp": "2026-07-30T19:47:15.532192+00:00"
 }
