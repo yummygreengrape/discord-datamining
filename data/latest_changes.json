@@ -1,5 +1,5 @@
 {
-    "build_hash": "b04fb256501b84aa1c8378645ec5f092a3b14789",
+    "build_hash": "05b49a2b211f0c61944bd393eac3eadeb76abf92",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "LcuTXC": "Project title"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-30T14:51:11.539362+00:00"
+    "timestamp": "2026-07-30T15:01:45.624500+00:00"
 }
