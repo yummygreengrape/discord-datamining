@@ -1,183 +1,119 @@
 {
-    "build_hash": "5c749713b1a308935bb14611f9b1f718c7ea7e85",
+    "build_hash": "294aee95e781def0b02faefac08d8069d7219f25",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-remove-quest-home-hero",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-remove-quest-home-hero",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "TB.v.GRADIENT",
-                "surface": "TB.F.NONE"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "old_config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "old_default_config": {
-                "badgeStyle": "TH.v.GRADIENT",
-                "surface": "TH.F.NONE"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "TH.v.GRADIENT",
-                    "surface": "TH.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "TH.v.EXPRESSIVE",
-                    "surface": "TH.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "TH.v.GRADIENT",
-                    "surface": "TH.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "TH.v.GLOWING",
-                    "surface": "TH.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "TH.v.GLOWING",
-                    "surface": "TH.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "TB.v.GRADIENT",
-                    "surface": "TB.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "TB.v.EXPRESSIVE",
-                    "surface": "TB.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "TB.v.GRADIENT",
-                    "surface": "TB.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "TB.v.GLOWING",
-                    "surface": "TB.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "TB.v.GLOWING",
-                    "surface": "TB.F.NONE"
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "TB.v.GRADIENT",
-                "surface": "TB.F.NONE"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "old_config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "old_default_config": {
-                "badgeStyle": "TH.v.GRADIENT",
-                "surface": "TH.F.NONE"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "TH.v.GRADIENT",
-                    "surface": "TH.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "TH.v.EXPRESSIVE",
-                    "surface": "TH.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "TH.v.GRADIENT",
-                    "surface": "TH.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "TH.v.GLOWING",
-                    "surface": "TH.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "TH.v.GLOWING",
-                    "surface": "TH.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "TB.v.GRADIENT",
-                    "surface": "TB.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "TB.v.EXPRESSIVE",
-                    "surface": "TB.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "TB.v.GRADIENT",
-                    "surface": "TB.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "TB.v.GLOWING",
-                    "surface": "TB.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "TB.v.GLOWING",
-                    "surface": "TB.F.NONE"
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "showDefaultBanner",
+                "showHeroPlaceholder"
+            ],
+            "default_config": {
+                "showDefaultBanner": true,
+                "showHeroPlaceholder": true
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-quest-home-default-banner-removal",
+            "kind": "user",
+            "status": "added",
+            "treatments": [],
+            "variations": {
+                "1": {
+                    "showDefaultBanner": false,
+                    "showHeroPlaceholder": true
+                },
+                "2": {
+                    "showDefaultBanner": false,
+                    "showHeroPlaceholder": false
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "showDefaultBanner",
+                "showHeroPlaceholder"
+            ],
+            "default_config": {
+                "showDefaultBanner": true,
+                "showHeroPlaceholder": true
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-quest-home-default-banner-removal",
+            "kind": "user",
+            "treatments": [],
+            "variations": {
+                "1": {
+                    "showDefaultBanner": false,
+                    "showHeroPlaceholder": true
+                },
+                "2": {
+                    "showDefaultBanner": false,
+                    "showHeroPlaceholder": false
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -190,5 +126,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-30T06:46:47.185122+00:00"
+    "timestamp": "2026-07-30T07:07:36.008881+00:00"
 }
