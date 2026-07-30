@@ -1,8 +1,19 @@
 {
-    "build_hash": "38cf1572cda85e8665691e5819efcfa2f9c914fe",
+    "build_hash": "9856bfc27fffa502889ec885aa170544c1a1e171",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-gdm-invite-embed",
+            "kind": "user",
+            "timestamp": "2026-07-30T21:27:39Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-30T21:32:41.594964+00:00"
+    "timestamp": "2026-07-30T21:43:27.682787+00:00"
 }
