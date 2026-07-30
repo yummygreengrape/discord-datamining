@@ -1,160 +1,12 @@
 {
-    "build_hash": "cf51217a5c7fe5a6cf28c21bc18aa9477667eef4",
+    "build_hash": "811d1e6c0dbce057dc22e22592b2bd4535f67282",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "default_config": {
-                "processPriority": "B.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-02-process-boost-on-voice",
-            "kind": "user",
-            "old_config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "old_default_config": {
-                "processPriority": "V.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "1": {
-                    "processPriority": "V.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "V.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "V.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "V.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "1": {
-                    "processPriority": "B.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "B.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "B.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "B.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "default_config": {
-                "processPriority": "B.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-02-process-boost-on-voice",
-            "kind": "user",
-            "old_config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "old_default_config": {
-                "processPriority": "V.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "1": {
-                    "processPriority": "V.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "V.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "V.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "V.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "1": {
-                    "processPriority": "B.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "B.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "B.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "B.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -170,21 +22,16 @@
                 "0lHa0Z": "Add to Favorites",
                 "0nZZEk": "Get Nitro",
                 "A3ZjbM": "Favorite this with Nitro",
+                "LcuTXC": "Project title",
                 "qJUI2v": "Right-click any channel or DM so they're always within reach."
             },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "/x2jT7": "즐겨 찾는 채널과 DM을 여기에 추가하여 빠르게 액세스하세요. Nitro에서만 가능합니다.",
-                "0lHa0Z": "즐겨찾기에 추가하기",
-                "0nZZEk": "Nitro 구독하기",
-                "A3ZjbM": "Discord Nitro로 즐겨찾기에 추가하기",
-                "qJUI2v": "채널이나 DM을 마우스 오른쪽 버튼으로 클릭하여 항상 손이 닿는 곳에 두세요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-07-30T16:14:57.556848+00:00"
+    "timestamp": "2026-07-30T16:25:40.288116+00:00"
 }
