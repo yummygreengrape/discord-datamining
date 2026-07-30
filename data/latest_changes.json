@@ -1,5 +1,5 @@
 {
-    "build_hash": "2ce5c56083689ee20301ce0de211af0f9c98753b",
+    "build_hash": "48087057de3339520f0e81f0833ef724e786bfdb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,30 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-onyx",
-            "kind": "user",
-            "timestamp": "2026-07-30T11:25:41Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-cobalt",
-            "kind": "user",
-            "timestamp": "2026-07-30T11:25:41Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -45,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-30T11:25:43.253025+00:00"
+    "timestamp": "2026-07-30T13:07:58.788151+00:00"
 }
