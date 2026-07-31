@@ -1,5 +1,5 @@
 {
-    "build_hash": "4ae0bdbf679ccb1b52a88ceed1d6e00053903226",
+    "build_hash": "0c9e8f71387a1946673dbf11ab46991a0ee5a41a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,16 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "fm7qBC": {
+                    "new_value": "Fastest option. Your biometric data is processed locally and never leaves your device.",
+                    "old_value": "Usually fastest and totally automatic. If we can’t confirm your age, you can scan your ID instead."
+                },
+                "rgXXcW": {
+                    "new_value": "Take a selfie",
+                    "old_value": "Take a video selfie"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-31T02:06:03.630176+00:00"
+    "timestamp": "2026-07-31T02:16:37.531921+00:00"
 }
