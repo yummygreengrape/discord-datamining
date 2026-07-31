@@ -1,5 +1,5 @@
 {
-    "build_hash": "4ebfd6e71d3c594d8ebdb7ce4c0590ef48d0fb2d",
+    "build_hash": "224160954489fc292b3bbe0e636037f6034efba4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,8 +12,26 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "+UouPe": "Nothing to publish yet",
+                "+Zh4FA": "Back to creating",
+                "06/jqP": "A fantasy-styled message board",
+                "5gU57O": "Publish",
+                "7MCiK9": "A trivia game about server members",
+                "CC69wK": "{projectName} is now available in this server.",
+                "CRfE/E": "Review permissions",
+                "DYwf2n": "Review new permissions",
+                "E+Q26x": "A calendar to plan raid days",
+                "E0QD++": "Describe your idea and preview it first",
+                "Rtlv25": "Cannot publish without reviewing permissions",
+                "WWj3pN": "You need to accept the new permissions to preview your project.",
+                "nDQB/b": "Please accept permissions before publishing",
+                "yzxKsU": "Your project was published!"
+            },
+            "deleted": {
+                "kvcg+H": "Your app is live",
+                "uAMVJ4": "Ship it"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +40,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-31T18:00:47.299431+00:00"
+    "timestamp": "2026-07-31T18:11:28.058561+00:00"
 }
