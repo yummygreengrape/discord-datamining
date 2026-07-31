@@ -1,37 +1,87 @@
 {
-    "build_hash": "224160954489fc292b3bbe0e636037f6034efba4",
+    "build_hash": "5c9ed84f249ca3df28dd71efc7a02cf85f2c6296",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "checkPermissionsEnabled"
+            ],
+            "default_config": {
+                "checkPermissionsEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-windows-camera-mic-permissions",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "checkPermissionsEnabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "checkPermissionsEnabled"
+            ],
+            "default_config": {
+                "checkPermissionsEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-windows-camera-mic-permissions",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "checkPermissionsEnabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_QUESTS_APPSTORE_METADATA",
+            "status": "added",
+            "url": "/quests/appstore-metadata"
+        },
+        {
+            "name": "QUESTS_APP_STORE_METADATA",
+            "status": "added",
+            "url": "/quests/appstore-metadata"
+        }
+    ],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-soundboard-desktop-nux",
+            "kind": "user",
+            "timestamp": "2026-07-31T18:20:08Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {
-                "+UouPe": "Nothing to publish yet",
-                "+Zh4FA": "Back to creating",
-                "06/jqP": "A fantasy-styled message board",
-                "5gU57O": "Publish",
-                "7MCiK9": "A trivia game about server members",
-                "CC69wK": "{projectName} is now available in this server.",
-                "CRfE/E": "Review permissions",
-                "DYwf2n": "Review new permissions",
-                "E+Q26x": "A calendar to plan raid days",
-                "E0QD++": "Describe your idea and preview it first",
-                "Rtlv25": "Cannot publish without reviewing permissions",
-                "WWj3pN": "You need to accept the new permissions to preview your project.",
-                "nDQB/b": "Please accept permissions before publishing",
-                "yzxKsU": "Your project was published!"
+                "UaGc2V": "Make some noise with Soundboard!",
+                "lyhz2x": "Bring on the chaos with sounds everyone in voice can hear."
             },
-            "deleted": {
-                "kvcg+H": "Your app is live",
-                "uAMVJ4": "Ship it"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -40,5 +90,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-31T18:11:28.058561+00:00"
+    "timestamp": "2026-07-31T18:22:02.922011+00:00"
 }
