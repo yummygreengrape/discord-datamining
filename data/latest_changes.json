@@ -1,5 +1,5 @@
 {
-    "build_hash": "c16772fb5f19f04177273efabab8c9fa345e2fe1",
+    "build_hash": "7c9c130bc48d3054684a11209237589e7e2c2513",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,12 +7,46 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_USERS_CHANNELS_BULK_LEAVE",
+            "status": "added",
+            "url": "/users/@me/channels/bulk-leave"
+        },
+        {
+            "name": "USER_CHANNELS_BULK_LEAVE",
+            "status": "added",
+            "url": "/users/@me/channels/bulk-leave"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+HM0x2": "Couldn't leave those Group DMs. Please try again.",
+                "/QQnjy": "Direct Messages options",
+                "2Cgdhl": "Leave up to 1,000 Group DMs at once without notifying anyone. Only Group DMs inactive for ~6 months are shown.",
+                "9oRyjg": "Select {count}",
+                "FCwJId": "More",
+                "FLgBG/": "Sort",
+                "FrCK4r": "Clean Up Inactive Group DMs",
+                "NLTGck": "Oldest",
+                "RQbtb8": "Clean up Group DMs…",
+                "SHTZTm": "You’re cleaning up Group DMs too quickly. Try again in {seconds}.",
+                "SakG2D": "{count}",
+                "VHmOpK": "Newest",
+                "Y//IPC": "Looks like everything is tidy already.",
+                "YBjUwi": "Leave Group DMs Silently",
+                "b2r81u": "{count}",
+                "f5Xg0V": "You’re cleaning up Group DMs too quickly. Please wait a moment and try again.",
+                "jxi9GF": "Unselect All",
+                "lFjOtF": "No inactive Group DMs to clean up.",
+                "mKxGpP": "Select All",
+                "ojlzko": "Still leaving your last batch of Group DMs. Hang tight!",
+                "s8TEkh": "No Group DMs to Clean Up",
+                "yySzqH": "Sort Group DMs"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +56,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-31T22:01:53.494208+00:00"
+    "timestamp": "2026-07-31T22:12:35.836474+00:00"
 }
