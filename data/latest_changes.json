@@ -1,51 +1,8 @@
 {
-    "build_hash": "bd237d8fc22d8184e50be1e68201b0242dc952de",
+    "build_hash": "37151fea9a436efc3d48254f1a0326828ff4f364",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "showDeviceDetectedPanel"
-            ],
-            "default_config": {
-                "showDeviceDetectedPanel": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-unobtrusive-device-suggestions",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "showDeviceDetectedPanel": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "showDeviceDetectedPanel"
-            ],
-            "default_config": {
-                "showDeviceDetectedPanel": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-unobtrusive-device-suggestions",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "showDeviceDetectedPanel": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [
@@ -55,8 +12,8 @@
                 "surface"
             ],
             "default_config": {
-                "badgeStyle": "TU.v.GRADIENT",
-                "surface": "TU.F.NONE"
+                "badgeStyle": "Tw.v.GRADIENT",
+                "surface": "Tw.F.NONE"
             },
             "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
@@ -67,8 +24,8 @@
                 "surface"
             ],
             "old_default_config": {
-                "badgeStyle": "Tw.v.GRADIENT",
-                "surface": "Tw.F.NONE"
+                "badgeStyle": "TU.v.GRADIENT",
+                "surface": "TU.F.NONE"
             },
             "old_experiment_type": "apex",
             "old_kind": "user",
@@ -80,36 +37,6 @@
                 "Variant 4"
             ],
             "old_variations": {
-                "0": {
-                    "badgeStyle": "Tw.v.GRADIENT",
-                    "surface": "Tw.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "Tw.v.EXPRESSIVE",
-                    "surface": "Tw.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "Tw.v.GRADIENT",
-                    "surface": "Tw.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "Tw.v.GLOWING",
-                    "surface": "Tw.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "Tw.v.GLOWING",
-                    "surface": "Tw.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
                 "0": {
                     "badgeStyle": "TU.v.GRADIENT",
                     "surface": "TU.F.NONE"
@@ -129,6 +56,36 @@
                 "4": {
                     "badgeStyle": "TU.v.GLOWING",
                     "surface": "TU.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "Tw.v.GRADIENT",
+                    "surface": "Tw.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tw.v.EXPRESSIVE",
+                    "surface": "Tw.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tw.v.GRADIENT",
+                    "surface": "Tw.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tw.v.GLOWING",
+                    "surface": "Tw.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tw.v.GLOWING",
+                    "surface": "Tw.F.NONE"
                 }
             }
         }
@@ -140,8 +97,8 @@
                 "surface"
             ],
             "default_config": {
-                "badgeStyle": "TU.v.GRADIENT",
-                "surface": "TU.F.NONE"
+                "badgeStyle": "Tw.v.GRADIENT",
+                "surface": "Tw.F.NONE"
             },
             "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
@@ -152,8 +109,8 @@
                 "surface"
             ],
             "old_default_config": {
-                "badgeStyle": "Tw.v.GRADIENT",
-                "surface": "Tw.F.NONE"
+                "badgeStyle": "TU.v.GRADIENT",
+                "surface": "TU.F.NONE"
             },
             "old_experiment_type": "apex",
             "old_kind": "user",
@@ -165,36 +122,6 @@
                 "Variant 4"
             ],
             "old_variations": {
-                "0": {
-                    "badgeStyle": "Tw.v.GRADIENT",
-                    "surface": "Tw.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "Tw.v.EXPRESSIVE",
-                    "surface": "Tw.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "Tw.v.GRADIENT",
-                    "surface": "Tw.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "Tw.v.GLOWING",
-                    "surface": "Tw.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "Tw.v.GLOWING",
-                    "surface": "Tw.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
                 "0": {
                     "badgeStyle": "TU.v.GRADIENT",
                     "surface": "TU.F.NONE"
@@ -215,28 +142,104 @@
                     "badgeStyle": "TU.v.GLOWING",
                     "surface": "TU.F.NONE"
                 }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "Tw.v.GRADIENT",
+                    "surface": "Tw.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tw.v.EXPRESSIVE",
+                    "surface": "Tw.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tw.v.GRADIENT",
+                    "surface": "Tw.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tw.v.GLOWING",
+                    "surface": "Tw.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tw.v.GLOWING",
+                    "surface": "Tw.F.NONE"
+                }
             }
         }
     ],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "showDeviceDetectedPanel"
+            ],
+            "default_config": {
+                "showDeviceDetectedPanel": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-unobtrusive-device-suggestions",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-07-31T00:19:11Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "showDeviceDetectedPanel": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "showDeviceDetectedPanel"
+            ],
+            "default_config": {
+                "showDeviceDetectedPanel": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-unobtrusive-device-suggestions",
+            "kind": "user",
+            "timestamp": "2026-07-31T00:19:11Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "showDeviceDetectedPanel": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "1l/LhA": "Discord recommends switching audio input to bHook{vendorName} {modelName}.",
+            "added": {
+                "1l/LhA": "Discord recommends switching audio input to **{vendorName} {modelName}**.",
                 "2X8Wod": "Don't switch",
-                "EUsbHW": "Switch audio to bHook{deviceName}?",
+                "EUsbHW": "Switch audio to **{deviceName}**?",
+                "FMaaaB": "Loved that one? Bookmark it to keep your favorite memories in one place.",
                 "I9iaw+": "Dismiss device suggestion",
                 "Jat8cd": "Switch output",
-                "PAYExK": "Switch audio input to bHook{deviceName}?",
+                "PAYExK": "Switch audio input to **{deviceName}**?",
                 "RJttRt": "Switch input + output",
-                "SupmjL": "Discord recommends switching audio output to bHook{vendorName} {modelName}.",
+                "SupmjL": "Discord recommends switching audio output to **{vendorName} {modelName}**.",
                 "VLKyL8": "Switch input",
-                "aljl4r": "Switch audio output to bHook{deviceName}?",
-                "xYe9fZ": "Discord recommends switching audio to bHook{vendorName} {modelName}."
+                "aljl4r": "Switch audio output to **{deviceName}**?",
+                "xYe9fZ": "Discord recommends switching audio to **{vendorName} {modelName}**."
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -245,5 +248,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-31T00:31:49.133177+00:00"
+    "timestamp": "2026-07-31T00:42:30.783412+00:00"
 }
