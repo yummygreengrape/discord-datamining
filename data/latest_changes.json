@@ -1,5 +1,5 @@
 {
-    "build_hash": "69e81fd6548fddb877cc64dc4fd5a86ff5f1ed8f",
+    "build_hash": "15cd775e5e035a9b978ed4f411e9262311ea4798",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,18 +12,21 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
+            "added": {
                 "1yLQoV": "Go to any text channel to test it",
                 "FHOJiH": "Preview unavailable"
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "hxYr9D": "bHookNitro 전용: 물량이 소진되기 전에 Orbs로 아이템 {applicationName}개를 받아 가세요! {endDate}에 종료돼요.",
+                "vN/KQ9": "확인하러 가기"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-07-31T19:45:54.670227+00:00"
+    "timestamp": "2026-07-31T19:56:42.488457+00:00"
 }
