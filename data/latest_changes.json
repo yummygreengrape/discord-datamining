@@ -1,5 +1,5 @@
 {
-    "build_hash": "7301a956592dbe4b20e5801ac3fb1747797347d0",
+    "build_hash": "0ff78682b52acef262b42846ed2acd359b32d19b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,7 +7,28 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "AGE_SIGNAL",
+            "status": "added",
+            "url": "/users/@me/age-signal"
+        },
+        {
+            "name": "AGE_SIGNAL_CHALLENGE",
+            "status": "added",
+            "url": "/users/@me/age-signal/challenge"
+        },
+        {
+            "name": "ENDPOINT_USERS_AGE_SIGNAL",
+            "status": "added",
+            "url": "/users/@me/age-signal"
+        },
+        {
+            "name": "ENDPOINT_USERS_AGE_SIGNAL_CHALLENGE",
+            "status": "added",
+            "url": "/users/@me/age-signal/challenge"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
@@ -22,5 +43,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-31T05:01:18.236512+00:00"
+    "timestamp": "2026-07-31T08:35:11.208759+00:00"
 }
