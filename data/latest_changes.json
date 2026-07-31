@@ -1,86 +1,18 @@
 {
-    "build_hash": "5c9ed84f249ca3df28dd71efc7a02cf85f2c6296",
+    "build_hash": "a25926fe25cb9ac984fe40287df96241e2e80eb9",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "checkPermissionsEnabled"
-            ],
-            "default_config": {
-                "checkPermissionsEnabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-windows-camera-mic-permissions",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "checkPermissionsEnabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "checkPermissionsEnabled"
-            ],
-            "default_config": {
-                "checkPermissionsEnabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-windows-camera-mic-permissions",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "checkPermissionsEnabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_QUESTS_APPSTORE_METADATA",
-            "status": "added",
-            "url": "/quests/appstore-metadata"
-        },
-        {
-            "name": "QUESTS_APP_STORE_METADATA",
-            "status": "added",
-            "url": "/quests/appstore-metadata"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-soundboard-desktop-nux",
-            "kind": "user",
-            "timestamp": "2026-07-31T18:20:08Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "UaGc2V": "Make some noise with Soundboard!",
-                "lyhz2x": "Bring on the chaos with sounds everyone in voice can hear."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -90,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-31T18:22:02.922011+00:00"
+    "timestamp": "2026-07-31T18:42:44.181408+00:00"
 }
