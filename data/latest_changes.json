@@ -1,5 +1,5 @@
 {
-    "build_hash": "10737dc2535e7b195ab282c7985c34ae926c569c",
+    "build_hash": "deb2f60e2ec7c0bee2a3c1e3978383531cbb5cb1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,36 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+HM0x2": "Couldn't leave those Group DMs. Please try again.",
-                "/QQnjy": "Direct Messages options",
-                "2Cgdhl": "Leave up to 1,000 Group DMs at once without notifying anyone. Only Group DMs inactive for ~6 months are shown.",
-                "9iIKHh": "Hide badges",
-                "9oRyjg": "Select {count, number}",
-                "AdyOTw": "{badge_names}{overflow_count, plural, =0 {} other {, and # more}}",
-                "F4Neqh": "Image upload failed.",
-                "FCwJId": "More",
-                "FLgBG/": "Sort",
-                "FrCK4r": "Clean Up Inactive Group DMs",
-                "H4KPuV": "{num} × {num, plural, one {Server Boost} other {Server Boosts}} Yearly",
-                "NLTGck": "Oldest",
-                "RQbtb8": "Clean up Group DMs…",
-                "SHTZTm": "You’re cleaning up Group DMs too quickly. Try again in {seconds, plural, one {# second} other {# seconds}}.",
-                "SakG2D": "{count, plural, one {Leave # Group DM Silently} other {Leave # Group DMs Silently}}",
-                "VHmOpK": "Newest",
-                "XMDvpN": "Hide Badges",
-                "Y//IPC": "Looks like everything is tidy already.",
-                "YBjUwi": "Leave Group DMs Silently",
-                "b2r81u": "{count, plural, one {Left # Group DM} other {Left # Group DMs}}",
-                "f5Xg0V": "You’re cleaning up Group DMs too quickly. Please wait a moment and try again.",
-                "jxi9GF": "Unselect All",
-                "lFjOtF": "No inactive Group DMs to clean up.",
-                "mKxGpP": "Select All",
-                "ojlzko": "Still leaving your last batch of Group DMs. Hang tight!",
-                "opzPIQ": "Reorder your badges",
-                "s8TEkh": "No Group DMs to Clean Up",
-                "yySzqH": "Sort Group DMs"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-07-31T22:43:37.023522+00:00"
+    "timestamp": "2026-07-31T23:04:19.742250+00:00"
 }
