@@ -178,7 +178,7 @@ Windows에서 자동 클립을 사용할 때 Counter-Strike 2 경기 이벤트�
 - 리포트 포인터 일치: passed
 - 저장소 테스트: passed (12 tests)
 - git diff 검사: passed
-- 커밋/푸시: pending validation and publish
+- 커밋/푸시: passed (`a1091dbba3a4` pushed to `origin/main`; final metadata recorded by follow-up commit)
 - 비고: JSON and report contracts, 142-row history/public interpretation parity, bilingual pairing, unresolved fields, fallback phrases, tracked publication-path content checks, pointer equality, 12 repository tests, and git diff checks passed. The full-checkout scan also reports the intentionally ignored local data/history.json and existing .DS_Store files; neither is staged or published. No parser or application code changed.
 
 ## Security/privacy impact
