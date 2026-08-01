@@ -1,5 +1,5 @@
 {
-    "build_hash": "76ac2e368d0a2a4cc6894ec4114754ef84c178f1",
+    "build_hash": "fb9befc8416f1d11aab5ce04ebfd831727d6f9a5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "FEcbkU": "Add up to {maxClips, plural, one {# clip} other {# clips}} to show off your gameplays! This widget won’t show up on your profile until you add at least 1 clip."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-01T03:02:55.842176+00:00"
+    "timestamp": "2026-08-01T04:24:37.916450+00:00"
 }
