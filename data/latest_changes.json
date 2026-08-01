@@ -1,5 +1,5 @@
 {
-    "build_hash": "5f81dfe813d11df8b261a781f4756b977f497044",
+    "build_hash": "d2e2fb044a538fbe7add611bdb7faf4230f34488",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,13 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "4f6Vkr": "Activity popped out",
-                "7AVpta": "Add Clips Gallery Widget",
-                "LJ2q1H": "Your app is open in another window.",
-                "YdgE0j": "Close Chat",
-                "aWVf4j": "Open Chat"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -28,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-01T01:20:36.261936+00:00"
+    "timestamp": "2026-08-01T01:31:09.124477+00:00"
 }
