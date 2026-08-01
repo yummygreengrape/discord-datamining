@@ -1,5 +1,5 @@
 {
-    "build_hash": "e33f5292d7342d1316b2d7e8d9fda7524772ea95",
+    "build_hash": "df6526438f716e196f36c4aa57781c3462616550",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,36 +7,26 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_USERS_WIDGETS_CLIPS_UPLOAD",
-            "status": "added",
-            "url": "/users/@me/widgets/clips/upload"
-        },
-        {
-            "name": "USER_PROFILE_WIDGET_CLIP_UPLOAD",
-            "status": "added",
-            "url": "/users/@me/widgets/clips/upload"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "RFRuwZ": "Uploading clip",
-                "rI0i0a": "Add Clip",
-                "xcLXWy": "Only clips from a game can be uploaded.",
-                "zrtAwA": "Show clip {clipNumber}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "FCwJId": "기타",
+                "FLgBG/": "정렬",
+                "NLTGck": "오래된 순",
+                "VHmOpK": "최신",
+                "mKxGpP": "모두 선택"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-08-01T05:56:25.814270+00:00"
+    "timestamp": "2026-08-01T06:47:40.798496+00:00"
 }
