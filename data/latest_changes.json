@@ -1,5 +1,5 @@
 {
-    "build_hash": "511cebc97713c5012134e4202e9b2cc6d3473906",
+    "build_hash": "43e1df3b0ef12fbe6dac37cc04eb4a92d8049ea1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,14 +13,34 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "/Xhh40": "Linked Roles for **League of Legends** and **Riot** will be deprecated starting on June 12, 2026. Please update your linked roles in settings.",
+                "DeOsIl": "The **{connectionName}** connection is migrating to **{applicationName}** in the coming months. [Link your Riot Games account]({connectionEntrypointUrl}) if you want to continue your connection and unlock additional [in-game social features.](https://www.riotgames.com/en/riot-games-discord-account-linking)",
+                "DfSSdL": "We're updating the **{connectionName}** connection to power new in-game social features. Link your **{applicationName}** account if you'd like to stay connected. (and earn $[orbs](orbsIconHook) {orbCount} Orbs!)",
+                "MVB/Ab": "Remind me later",
+                "YnnXb6": "The **{connectionName}** Connection is migrating to **{applicationName}**. Reconnect your account to keep all of your profile connections.",
+                "jdcrDs": "Linked Roles for **League of Legends** and **Riot** will be deprecated starting on {date}. Please migrate your linked roles in settings. **This will no longer be maintained moving forward.**",
+                "kb0maj": "Linked Roles for **League of Legends** and **Riot** will be deprecated starting on {date}. Please update your linked roles in settings.",
+                "sbMMtk": "Linked Roles for **League of Legends** and **Riot** will be deprecated starting on June 12, 2026. Please migrate your linked roles in settings. **This will no longer be maintained moving forward.**",
+                "spsZYI": "Update Linked Roles"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "/Xhh40": "bHook리그 오브 레전드와 bHookRiot의 연결된 역할이 2026년 6월 12일부터 지원 중단돼요. 설정에서 연결된 역할을 업데이트해 주세요.",
+                "DeOsIl": "향후 몇 개월 이내에 bHook{connectionName} 연결이 bHook{applicationName} 앱으로 마이그레이션돼요. 연결을 계속 유지하고 추가적인 게임 내 소셜 기능을 잠금 해제하려면 [Riot Games 계정을 연결하세요]({connectionEntrypointUrl}).",
+                "DfSSdL": "새로운 게임 내 소셜 기능을 지원하기 위해 bHook{connectionName} 연결을 업데이트하고 있어요. 계속 연결을 유지하려면 bHook{applicationName} 계정을 링크하세요. (orbsIconHookHookorbs {orbCount} Orbs도 받으실 수 있어요!)",
+                "MVB/Ab": "나중에 다시 알리기",
+                "YnnXb6": "bHook{connectionName} 연결이 bHook{applicationName}(으)로 마이그레이션돼요. 프로필 연결을 모두 유지하려면 계정을 다시 연결하세요.",
+                "jdcrDs": "bHook리그 오브 레전드와 bHookRiot의 연결된 역할이 {date}부터 사용 중단될 예정이에요. 설정에서 연결된 역할을 마이그레이션해 주세요. bHook이후로는 더 이상 유지보수되지 않습니다.",
+                "kb0maj": "bHook리그 오브 레전드와 bHookRiot의 연결된 역할이 {date}부터 지원 중단돼요. 설정에서 연결된 역할을 업데이트해 주세요.",
+                "sbMMtk": "bHook리그 오브 레전드와 bHookRiot의 연결된 역할이 2026년 6월 12일부터 지원 중단될 예정이에요. 설정에서 연결된 역할을 마이그레이션해 주세요. bHook이후로는 더 이상 유지보수되지 않습니다.",
+                "spsZYI": "연결된 역할 업데이트"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-08-01T00:28:37.740526+00:00"
+    "timestamp": "2026-08-01T00:39:08.972022+00:00"
 }
