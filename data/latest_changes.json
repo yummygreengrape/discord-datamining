@@ -1,5 +1,5 @@
 {
-    "build_hash": "b8fc9b21fc6a1cdedd99130aff32dd1f45e6b885",
+    "build_hash": "fcd9272775f6819014bdf3c6a0f07e5f0406c54f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,23 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
-            "modified": {}
+            "deleted": {
+                "sPSPIs": "App"
+            },
+            "modified": {
+                "Bo5fE3": {
+                    "new_value": "Your Projects",
+                    "old_value": "Your Conjurings"
+                },
+                "Xmvb23": {
+                    "new_value": "Create",
+                    "old_value": "Magic Builder"
+                },
+                "YnAFtT": {
+                    "new_value": "Projects are private until you publish them",
+                    "old_value": "Yours alone until you ship them"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-03T15:26:56.710137+00:00"
+    "timestamp": "2026-08-03T16:38:26.257660+00:00"
 }
