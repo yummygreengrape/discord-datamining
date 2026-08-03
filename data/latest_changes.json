@@ -1,5 +1,5 @@
 {
-    "build_hash": "4eca7586da6f3b670142e6e01402c5fbaa95715a",
+    "build_hash": "4bab92dd50f049f8dcb81703ed3c524dae30767b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -18,16 +18,21 @@
                 "3XtTTE": "Try out display names style",
                 "4Y84j2": "Try out accent theme color",
                 "8Q9iXo": "Earth with Wumpus's face, orbited by colorful Discord characters, gaming gear, and a satellite with Discord's logo",
+                "91lTRe": "{name}'s custom status",
                 "Dt3ZUr": "Animated Avatar",
+                "SMkS7x": "A profile card with your avatar, username, and a thought bubble displaying your status: {emoji} {text}",
+                "SlKMnR": "Your custom status",
                 "W86r+Q": "Change Banner Image",
                 "bwRnYf": "Wumpus types on a laptop from bed as sunlight streams through the window",
                 "emZXBr": "Winged Wumpus cubes and pink Mallow heads fly through a pulsing, starry galaxy",
+                "fFaN1b": "Collapse custom status",
                 "kRMJ1v": "Change Banner Color",
                 "kzUdSh": "Currently set to: {value}",
                 "lsjENp": "Change Display Name Style",
                 "nP3V/U": "Try out animated avatar",
                 "sm2nAq": "Try out primary theme color",
                 "stG76C": "Change Accent Color",
+                "xPkLPy": "Expand custom status",
                 "y6WngK": "A geometric fox pilots a futuristic vehicle under neon pink lighting"
             },
             "deleted": {
@@ -36,12 +41,24 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
-            "deleted": {
-                "r7ygQP": "테마 변경"
+            "added": {
+                "302tKP": "아이템 받기",
+                "7EGhnE": "혜택 사용하기",
+                "TLso50": "이용 가능한 혜택 ({count})",
+                "TxoTTj": "콜라보 ({count})"
             },
-            "modified": {}
+            "deleted": {},
+            "modified": {
+                "+W8gb+": {
+                    "new_value": "협업",
+                    "old_value": "Collabs"
+                },
+                "pxocaf": {
+                    "new_value": "직접 구매하기",
+                    "old_value": "나를 위해 구매하기"
+                }
+            }
         }
     },
-    "timestamp": "2026-08-03T21:10:28.809901+00:00"
+    "timestamp": "2026-08-03T21:21:16.961078+00:00"
 }
