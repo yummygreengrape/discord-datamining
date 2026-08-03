@@ -1,5 +1,5 @@
 {
-    "build_hash": "dd9b58dced68fc60c7bcc14911c0574350a1e126",
+    "build_hash": "c7628f19231227502ccb9758539ff92125eec16a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,36 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/4AL9E": "Controller",
-                "3xb4VY": "Living Room {number}",
-                "4bL+KW": "{username}, at {seatLabel}",
-                "FlAboG": "This seat is taken.",
-                "GZrfhf": "{username}, at {seatLabel}, with a controller",
-                "Iq4IWe": "{username}, at {seatLabel}, is AFK",
-                "ViDycn": "Laptop",
-                "WLBG6w": "{username}, at {seatLabel}, with a book",
-                "WsrDmY": "Book",
-                "c/OmBC": "The room is full right now. Stick around, a seat might free up soon.",
-                "gSS3O/": "Living Room is unavailable right now.",
-                "kEnnV1": "AFK",
-                "m5tldI": "{username}, at {seatLabel}, with a laptop",
-                "x38hbr": "{username}, at {seatLabel}, with a blanket",
-                "y33CVg": "Living Room"
-            },
-            "deleted": {
-                "4KcB5R": "Living Room"
-            },
-            "modified": {
-                "/l5Wn+": {
-                    "new_value": "{seatedCount, plural, one {# person} other {# people}} here, {openSeatCount, plural, one {# open spot} other {# open spots}}, {objectCount, plural, one {# object} other {# objects}}",
-                    "old_value": "{seatedCount, plural, one {# person} other {# people}} seated, {openSeatCount, plural, one {# open seat} other {# open seats}}, {objectCount, plural, one {# object} other {# objects}}"
-                },
-                "LTAf2V": {
-                    "new_value": "Customize your look",
-                    "old_value": "Set your status"
-                }
-            }
+            "added": {},
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -49,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-03T05:14:16.319740+00:00"
+    "timestamp": "2026-08-03T08:27:50.001580+00:00"
 }
