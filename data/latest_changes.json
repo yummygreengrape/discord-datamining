@@ -1,5 +1,5 @@
 {
-    "build_hash": "0a9434d4eafa3508239260e4590d9e601896d151",
+    "build_hash": "be807facc72bfd7d5e06bff1f2ea0754640082c5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,275 +8,25 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-call-of-duty-3pp-expired",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-call-of-duty-3pp-marketing",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-08-03T19:51:19Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-call-of-duty-3pp-non-sub-marketing",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-08-03T19:51:19Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-cod-3pp",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-call-of-duty-3pp-expired",
-            "kind": "user",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-call-of-duty-3pp-marketing",
-            "kind": "user",
-            "timestamp": "2026-08-03T19:51:19Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-call-of-duty-3pp-non-sub-marketing",
-            "kind": "user",
-            "timestamp": "2026-08-03T19:51:19Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-cod-3pp",
-            "kind": "user",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {
-                "+FvISQ": "Nitro Rewards gets you into the MW4 Early Access Beta.",
-                "20lfHk": "REWARD",
-                "6rwUm2": "Redeem",
-                "6vVfeK": "Early Access to MW4",
-                "9Rq7t1": "Take me there",
-                "CtaLon": "ENDS SOON",
-                "Dkm10r": "Your next Nitro Reward",
-                "F0b4Z8": "Play MW4 early",
-                "IcD/7p": "Early Access has ended",
-                "LHAkT9": "Get an exclusive Call of Duty: MW4 blueprint when the game launches.",
-                "QzRqcq": "Play MW4 early with Nitro",
-                "RDdDov": "Play MW4 early",
-                "RuZS+B": "Get Call of Duty: MW4 Beta Early Access, available {validDates}.",
-                "YJsqDS": "Call of Duty: MW4 Reward",
-                "fcopjf": "Unlock Reward",
-                "fxF0Jz": "EXPIRED",
-                "g7iyvR": "ENDS {date}",
-                "hausFi": "Stay tuned for more exclusive rewards for Call of Duty: MW4, available {date}.",
-                "hworR+": "Redeem your code to play the Call of Duty: MW4 Early Access Beta {validDates}.",
-                "ieA3V0": "One-time code reward. [Terms apply.]({termsUrl})",
-                "kL6q6w": "Claim your code for the Call of Duty: MW4 Early Access Beta.",
-                "lbyFG+": "Unlock",
-                "mHRW3e": "Get Nitro",
-                "niUDET": "Claim Reward",
-                "nsmhS2": "Redeem your Early Access Beta code. Early Access ends {date}.",
-                "sB5V0c": "Play the Call of Duty: MW4 Beta early"
+                "91lTRe": "{name}'s custom status",
+                "SMkS7x": "A profile card with your avatar, username, and a thought bubble displaying your status: {emoji} {text}",
+                "SlKMnR": "Your custom status",
+                "fFaN1b": "Collapse custom status",
+                "xPkLPy": "Expand custom status"
             },
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "+FvISQ": "Nitro 보상으로 MW4 얼리 액세스 베타에 참여할 수 있어요.",
-                "20lfHk": "보상",
-                "6rwUm2": "적용하기",
-                "6vVfeK": "MW4 얼리 액세스",
-                "9Rq7t1": "거기로 갈래요",
-                "CtaLon": "곧 종료 예정",
-                "Dkm10r": "다음 Discord Nitro 보상",
-                "F0b4Z8": "MW4 미리 플레이하기",
-                "IcD/7p": "얼리 액세스가 종료되었어요",
-                "LHAkT9": "게임 출시 시 한정판 Call of Duty: MW4 청사진을 받으세요.",
-                "QzRqcq": "Nitro로 MW4를 먼저 플레이하세요",
-                "RDdDov": "MW4 미리 플레이하기",
-                "RuZS+B": "{validDates}부터 이용 가능한 Call of Duty: MW4 베타 얼리 액세스에 참여하세요.",
-                "YJsqDS": "Call of Duty: MW4 보상",
-                "fcopjf": "보상 잠금 해제",
-                "fxF0Jz": "만료됨",
-                "g7iyvR": "{date}에 종료",
-                "hausFi": "{date}부터 제공되는 다양한 Call of Duty: MW4 전용 보상을 기대해 주세요.",
-                "hworR+": "코드를 등록하여 {validDates}에 Call of Duty: MW4 얼리 액세스 베타를 플레이하세요.",
-                "ieA3V0": "일회성 코드 보상입니다. [약관이 적용됩니다.]({termsUrl})",
-                "kL6q6w": "Call of Duty: MW4 얼리 액세스 베타 코드를 받으세요.",
-                "lbyFG+": "잠금 해제",
-                "mHRW3e": "Nitro 구독하기",
-                "niUDET": "보상 받기",
-                "nsmhS2": "얼리 액세스 베타 코드를 사용하세요. 얼리 액세스는 {date}에 종료돼요.",
-                "sB5V0c": "Call of Duty: MW4 베타 미리 플레이하기"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-08-03T19:55:49.274990+00:00"
+    "timestamp": "2026-08-03T20:27:15.745081+00:00"
 }
