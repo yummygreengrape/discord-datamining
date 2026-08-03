@@ -1,5 +1,5 @@
 {
-    "build_hash": "ea90fe3d27777e684bfd4d456affa7cdb66305c2",
+    "build_hash": "4eca7586da6f3b670142e6e01402c5fbaa95715a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,15 +12,36 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "1PvTpO": "Change Primary Color",
+                "1SrATP": "Try out profile banner image",
+                "3XtTTE": "Try out display names style",
+                "4Y84j2": "Try out accent theme color",
+                "8Q9iXo": "Earth with Wumpus's face, orbited by colorful Discord characters, gaming gear, and a satellite with Discord's logo",
+                "Dt3ZUr": "Animated Avatar",
+                "W86r+Q": "Change Banner Image",
+                "bwRnYf": "Wumpus types on a laptop from bed as sunlight streams through the window",
+                "emZXBr": "Winged Wumpus cubes and pink Mallow heads fly through a pulsing, starry galaxy",
+                "kRMJ1v": "Change Banner Color",
+                "kzUdSh": "Currently set to: {value}",
+                "lsjENp": "Change Display Name Style",
+                "nP3V/U": "Try out animated avatar",
+                "sm2nAq": "Try out primary theme color",
+                "stG76C": "Change Accent Color",
+                "y6WngK": "A geometric fox pilots a futuristic vehicle under neon pink lighting"
+            },
+            "deleted": {
+                "r7ygQP": "Change Theme"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "r7ygQP": "테마 변경"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-08-03T20:59:41.651006+00:00"
+    "timestamp": "2026-08-03T21:10:28.809901+00:00"
 }
