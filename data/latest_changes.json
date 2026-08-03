@@ -1,5 +1,5 @@
 {
-    "build_hash": "be807facc72bfd7d5e06bff1f2ea0754640082c5",
+    "build_hash": "657cd3fbca6f8ced86d8feb1c6acffbc57b28c98",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,42 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-personal-widget",
+            "kind": "user",
+            "timestamp": "2026-08-03T19:19:03Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-call-of-duty-3pp-marketing",
+            "kind": "user",
+            "timestamp": "2026-08-03T19:51:19Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-call-of-duty-3pp-non-sub-marketing",
+            "kind": "user",
+            "timestamp": "2026-08-03T19:51:19Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {
@@ -28,5 +63,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-03T20:27:15.745081+00:00"
+    "timestamp": "2026-08-03T20:49:03.038963+00:00"
 }
