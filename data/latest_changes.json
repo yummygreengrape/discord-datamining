@@ -1,89 +1,8 @@
 {
-    "build_hash": "1ca4b31433b6636aaecdfada5170b3c29c5bf523",
+    "build_hash": "b8fc9b21fc6a1cdedd99130aff32dd1f45e6b885",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "stickyLurk"
-            ],
-            "default_config": {
-                "enabled": false,
-                "stickyLurk": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-mobile-lurker-server-preview",
-            "kind": "user",
-            "locations": [
-                "LurkerPreviewManager.ensureMissingExpiries",
-                "LurkerPreviewManager.evictOverflowingLurkers"
-            ],
-            "signals": [
-                "GUILD_STOP_LURKING",
-                "LURKER_PREVIEW_SET_EXPIRY",
-                "LurkerPreviewManager.ensureMissingExpiries",
-                "LurkerPreviewManager.evictOverflowingLurkers"
-            ],
-            "status": "deleted",
-            "timestamp": "2026-08-03T14:43:48Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "stickyLurk": false
-                },
-                "2": {
-                    "enabled": true,
-                    "stickyLurk": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "stickyLurk"
-            ],
-            "default_config": {
-                "enabled": false,
-                "stickyLurk": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-mobile-lurker-server-preview",
-            "kind": "user",
-            "locations": [
-                "LurkerPreviewManager.ensureMissingExpiries",
-                "LurkerPreviewManager.evictOverflowingLurkers"
-            ],
-            "signals": [
-                "GUILD_STOP_LURKING",
-                "LURKER_PREVIEW_SET_EXPIRY",
-                "LurkerPreviewManager.ensureMissingExpiries",
-                "LurkerPreviewManager.evictOverflowingLurkers"
-            ],
-            "timestamp": "2026-08-03T14:43:48Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "stickyLurk": false
-                },
-                "2": {
-                    "enabled": true,
-                    "stickyLurk": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -94,34 +13,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "5qtVhX": "Join as $[](usernameHook)",
-                "BRSnEj": "Server Preview · Join to message & react",
-                "ExUb5O": "Server preview",
-                "I1yHxc": "You previewed this server, join so you can come back easily.",
-                "JS8qVx": "Preview",
-                "KNhFgD": "Server Preview",
-                "fTtTTp": "When you join you can message, react, and pick which channels notify you. Leave anytime.",
-                "iZFfTN": "Join to Chat",
-                "us0bE8": "Join for full access"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "5qtVhX": "usernameHookHook(으)로 참가하기",
-                "BRSnEj": "서버 미리 보기 · 메시지를 보내고 반응을 남기려면 참가하세요",
-                "ExUb5O": "서버 미리 보기",
-                "I1yHxc": "이 서버를 미리 보았어요. 나중에 쉽게 다시 방문할 수 있도록 참가하세요.",
-                "JS8qVx": "미리 보기",
-                "KNhFgD": "서버 미리 보기",
-                "fTtTTp": "참가하면 메시지를 보내고, 반응을 남기고, 알림을 받을 채널을 선택할 수 있어요. 언제든지 떠날 수 있어요.",
-                "iZFfTN": "채팅에 참가하기",
-                "us0bE8": "참가하여 전체 액세스 받기"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-08-03T14:45:48.929184+00:00"
+    "timestamp": "2026-08-03T15:26:56.710137+00:00"
 }
