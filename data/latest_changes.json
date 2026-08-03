@@ -1,5 +1,5 @@
 {
-    "build_hash": "282b56d54ca13c8a7430671648b04a2b9b7fc838",
+    "build_hash": "c0819f9d55f3441119b212cb36b75637bb36b64a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,18 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-clips-editor-text-track",
+            "kind": "user",
+            "timestamp": "2026-08-03T22:01:29Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-03T21:52:54.808141+00:00"
+    "timestamp": "2026-08-03T22:03:29.132307+00:00"
 }
