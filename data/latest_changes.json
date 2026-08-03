@@ -1,5 +1,5 @@
 {
-    "build_hash": "a341511a3a2e9bec5ff78918e64b1b3c39ef75f8",
+    "build_hash": "d2bd0d0fe3065525fb0d01ee02ce8f821684e316",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,10 +9,34 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-kestrel-ga",
+            "kind": "user",
+            "timestamp": "2026-08-03T21:32:13Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-clips-editor-text-track",
+            "kind": "user",
+            "timestamp": "2026-08-03T22:01:29Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+R2TzS": "The max file size is {maxSize}. Upgrade to Discord Nitro to upload files up to {premiumMaxSize}."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +46,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-03T22:24:44.748926+00:00"
+    "timestamp": "2026-08-03T22:35:26.176079+00:00"
 }
