@@ -1,66 +1,194 @@
 {
-    "build_hash": "eb91a5bb457ee3bbf1365be00afa1854d9a528a5",
+    "build_hash": "555a44063984f7b3838fa144b83b86db99a68c39",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "Tx.v.GRADIENT",
+                "surface": "Tx.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "Tw.v.GRADIENT",
+                "surface": "Tw.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "Tw.v.GRADIENT",
+                    "surface": "Tw.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tw.v.EXPRESSIVE",
+                    "surface": "Tw.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tw.v.GRADIENT",
+                    "surface": "Tw.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tw.v.GLOWING",
+                    "surface": "Tw.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tw.v.GLOWING",
+                    "surface": "Tw.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "Tx.v.GRADIENT",
+                    "surface": "Tx.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tx.v.EXPRESSIVE",
+                    "surface": "Tx.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tx.v.GRADIENT",
+                    "surface": "Tx.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tx.v.GLOWING",
+                    "surface": "Tx.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tx.v.GLOWING",
+                    "surface": "Tx.F.NONE"
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "Tx.v.GRADIENT",
+                "surface": "Tx.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "Tw.v.GRADIENT",
+                "surface": "Tw.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "Tw.v.GRADIENT",
+                    "surface": "Tw.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tw.v.EXPRESSIVE",
+                    "surface": "Tw.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tw.v.GRADIENT",
+                    "surface": "Tw.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tw.v.GLOWING",
+                    "surface": "Tw.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tw.v.GLOWING",
+                    "surface": "Tw.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "Tx.v.GRADIENT",
+                    "surface": "Tx.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "Tx.v.EXPRESSIVE",
+                    "surface": "Tx.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "Tx.v.GRADIENT",
+                    "surface": "Tx.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "Tx.v.GLOWING",
+                    "surface": "Tx.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "Tx.v.GLOWING",
+                    "surface": "Tx.F.NONE"
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "5Iw19e": "Stay organized, never forget a follow-up",
-                "5TSj/g": "Long press any message and tap **{itemName}**. Find it here, for your eyes only.",
-                "5VsCaT": "Bookmark limit reached. Get {nitroTierName} for {premiumMax, number} bookmarks.",
-                "63EVpI": "wait, did you see this",
-                "93WOd1": "Collect your favorite memories",
-                "E+mhMh": "Reminder limit reached. Get {nitroTierName} for {premiumMax, number} reminders.",
-                "E+qms7": "Right-click any message and pick **{itemName}**. We'll nudge you here when it's due.",
-                "FNFCVJ": "Bookmark limit reached. Get [{nitroTierName}]({onClick}) for {premiumMax, number} bookmarks.",
-                "IwWQgO": "Nitro raises your reminder limit from {max, number} to {premiumMax, number}. You can also delete a reminder to make room.",
-                "KT/TDX": "the setlist for tonight looks unreal",
-                "MYFohD": "Reminder limit reached. Get [{nitroTierName}]({onClick}) for {premiumMax, number} reminders.",
-                "NRF0Wh": "Nitro raises your reminder limit from {max, number} to {premiumMax, number}. You can also [delete a reminder]({onClick}) to make room.",
-                "Oxm3Sq": "Get up to {premiumMax, number} bookmarks",
-                "YI4UjI": "Long press any message and tap **{itemName}**. We'll nudge you here when it's due.",
-                "cpj9o/": "Get up to {premiumMax, number} reminders",
-                "h+KPxy": "Concert tickets go on sale Friday at 10am!",
-                "legvTg": "Right-click any message and pick **{itemName}**. Find it here, for your eyes only.",
-                "o5OLyw": "Nitro raises your bookmark limit from {max, number} to {premiumMax, number}. You can also [delete a bookmark]({onClick}) to make room.",
-                "sgXqR1": "Nitro raises your bookmark limit from {max, number} to {premiumMax, number}. You can also delete a bookmark to make room."
-            },
-            "deleted": {
-                "AE4yja": "Womp womp, you have no reminders.",
-                "FOR_LATER_EMPTY_ALL_BODY_NATIVE": "Bookmark your most important messages, for your eyes only. Long press on a message to save it.",
-                "FOR_LATER_EMPTY_ALL_BODY_WEB": "Bookmark your most important messages, for your eyes only. Right-click a message to save it.",
-                "FOR_LATER_EMPTY_ALL_TITLE": "Womp womp, you have no bookmarks.",
-                "FOR_LATER_EMPTY_REMINDERS_BODY_NATIVE": "Set a reminder on an important message so you never forget to follow up. Long press on a message to set a reminder for later.",
-                "FOR_LATER_EMPTY_REMINDERS_BODY_WEB": "Set a reminder on an important message so you never forget to follow up. Right-click a message to set a reminder for later.",
-                "FOR_LATER_EMPTY_REMINDERS_TITLE": "Womp womp, you have no reminders.",
-                "NaRCXT": "Bookmark your most important messages, for your eyes only. Right-click a message to save it.",
-                "erEf2g": "Womp womp, you have no bookmarks.",
-                "fRSRc0": "Set a reminder on an important message so you never forget to follow up. Right-click a message to set a reminder for later.",
-                "iBFuNE": "Set a reminder on an important message so you never forget to follow up. Long press on a message to set a reminder for later.",
-                "w1o+75": "Bookmark your most important messages, for your eyes only. Long press on a message to save it."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "AE4yja": "어이쿠, 이런. 설정된 알림이 없네요.",
-                "NaRCXT": "가장 중요한 메시지를 나만 볼 수 있는 즐겨찾기에 추가하세요. 메시지를 우클릭하면 저장할 수 있어요.",
-                "erEf2g": "이런, 이런. 즐겨찾기가 없네요.",
-                "fRSRc0": "잊지 말고 확인할 수 있도록 중요한 메시지에 알림을 설정하세요. 메시지를 우클릭하면 나중에 다시 알림을 설정할 수 있어요.",
-                "iBFuNE": "잊지 말고 확인할 수 있도록 중요한 메시지에 알림을 설정하세요. 메시지를 길게 누르면 나중에 다시 알림을 설정할 수 있어요.",
-                "w1o+75": "가장 중요한 메시지를 나만 볼 수 있는 즐겨찾기에 추가하세요. 메시지를 길게 누르면 저장할 수 있어요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-08-03T16:59:35.068307+00:00"
+    "timestamp": "2026-08-03T17:40:41.264362+00:00"
 }
