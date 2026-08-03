@@ -1,5 +1,5 @@
 {
-    "build_hash": "427d913f886207e8edb7efc42e97d1f91cd051fd",
+    "build_hash": "1787300698c3462dfb4fb2407f78e5f1c93b644c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,20 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-personal-widget",
+            "kind": "user",
+            "timestamp": "2026-08-03T19:19:03Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-03T19:13:39.740893+00:00"
+    "timestamp": "2026-08-03T19:24:12.716830+00:00"
 }
