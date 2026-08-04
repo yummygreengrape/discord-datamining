@@ -1,5 +1,5 @@
 {
-    "build_hash": "98fa8c125da4dcc03c0b68671cc60edb14deaa7a",
+    "build_hash": "b61b4f14626ec6a961fd2ad47f2fceffc1baa57a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "8L/eYB": "View Widget",
-                "diasud": "Playing…"
+                "0hoV2D": "Save even more messages with {nitroTierName}.",
+                "W+ZaoS": "Create even more reminders with {nitroTierName}."
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-04T20:53:30.389104+00:00"
+    "timestamp": "2026-08-04T21:14:19.749536+00:00"
 }
