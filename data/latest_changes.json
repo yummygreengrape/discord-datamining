@@ -1,5 +1,5 @@
 {
-    "build_hash": "232ce6272eb8a6c8cf2deef7832f050394c75bdd",
+    "build_hash": "2f56493a813a9a29f8ce84b272a0476d9366492b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "1l30oB": "Add Personal Widget",
-                "xIJpoK": "Create your own custom widget with Nitro"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-04T02:14:05.661973+00:00"
+    "timestamp": "2026-08-04T02:45:00.457027+00:00"
 }
