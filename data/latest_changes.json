@@ -1,5 +1,5 @@
 {
-    "build_hash": "4a9f42f12332f34feb5ff5b58642875ee06886c1",
+    "build_hash": "f929c7c8f8768e4803062475c8bfab8c3452df55",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "YoVmse": "Press and hold any channel or DM and add to your Favorites for quick access."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-04T22:58:09.821614+00:00"
+    "timestamp": "2026-08-04T23:08:45.592414+00:00"
 }
