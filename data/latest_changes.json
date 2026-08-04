@@ -1,18 +1,59 @@
 {
-    "build_hash": "2ee082df63c0c5bfc9fa3ad61f20c7494b4fe800",
+    "build_hash": "463aa9f202a20e4be882350497864b0cd441c124",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [
+    "deleted_experiment_details": [
         {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-06-remove-wishlist-dm-sidebar-side-copy",
+            "id": "2026-05-expiring-boosts",
             "kind": "user",
-            "timestamp": "2026-08-04T15:57:40Z",
+            "status": "deleted",
+            "timestamp": "2026-08-04T16:11:48Z",
             "treatments": [
                 "Variant 0",
                 "Variant 1"
-            ]
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-expiring-boosts",
+            "kind": "user",
+            "timestamp": "2026-08-04T16:11:48Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
         }
     ],
     "extractor_version": 20,
@@ -34,5 +75,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-04T16:01:23.129205+00:00"
+    "timestamp": "2026-08-04T16:11:59.460968+00:00"
 }
