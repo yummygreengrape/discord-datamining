@@ -1,8 +1,20 @@
 {
-    "build_hash": "124731100293308d34fab69a489a3187d60000d2",
+    "build_hash": "2ee082df63c0c5bfc9fa3ad61f20c7494b4fe800",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-remove-wishlist-dm-sidebar-side-copy",
+            "kind": "user",
+            "timestamp": "2026-08-04T15:57:40Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-04T15:30:25.314379+00:00"
+    "timestamp": "2026-08-04T16:01:23.129205+00:00"
 }
