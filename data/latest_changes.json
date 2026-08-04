@@ -1,5 +1,5 @@
 {
-    "build_hash": "453a930d9848823aad1df992c00d248af96a1027",
+    "build_hash": "77edc8e3e5678a70020f5e8fbd215800fb3cc076",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "TYPING_INDICATOR": "Typing Indicator"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-04T17:55:30.407121+00:00"
+    "timestamp": "2026-08-04T18:36:43.796620+00:00"
 }
