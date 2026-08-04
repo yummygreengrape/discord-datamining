@@ -1,5 +1,5 @@
 {
-    "build_hash": "108c101134d84658eec0115b52dbf050f435ccfc",
+    "build_hash": "98fa8c125da4dcc03c0b68671cc60edb14deaa7a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "8L/eYB": "View Widget",
+                "diasud": "Playing…"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-04T20:42:55.160678+00:00"
+    "timestamp": "2026-08-04T20:53:30.389104+00:00"
 }
