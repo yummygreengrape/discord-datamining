@@ -1,20 +1,8 @@
 {
-    "build_hash": "9444862edbde5b5f4d722692053f4ef3241c5914",
+    "build_hash": "c49fbd2b8252d5f3d26065d324ee248a748bade4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-nitro-basic-card-color",
-            "kind": "user",
-            "timestamp": "2026-08-05T18:28:56Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -34,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-05T18:30:52.640635+00:00"
+    "timestamp": "2026-08-05T18:41:29.904344+00:00"
 }
