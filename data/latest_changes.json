@@ -1,5 +1,5 @@
 {
-    "build_hash": "92adf2eee529c2a87ab859a586fff7893bd33f1f",
+    "build_hash": "4eeb2035a79b22cdcf0d9a1b0f44bd67bd0ed205",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,21 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Ae/g7X": "We couldn't confirm your age with a selfie.",
-                "R5crQF": "Your icon",
-                "eVjNWp": "Continue with ID scan",
-                "ib6Mgx": "Remove Clip",
-                "s+qGhK": "Preparing ID scan…",
-                "zyPNb3": "Clip removed"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "OT1NK5": {
-                    "new_value": "Show Favorites server",
-                    "old_value": "Favorites"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -34,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-05T17:37:08.766740+00:00"
+    "timestamp": "2026-08-05T17:47:44.110629+00:00"
 }
