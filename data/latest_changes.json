@@ -1,5 +1,5 @@
 {
-    "build_hash": "03f888b72929fefa95f2f246150790491b6ea081",
+    "build_hash": "274ae9f39c7e37f2a7108fe4aeab00707c5f6392",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "KA1U4B": "Search unavailable",
-                "POfugg": "The overlay is running in compatibility mode for this game and cannot receive keyboard input. Switch to Discord outside of the game to send messages.",
-                "e7ydX0": "Typing is unavailable"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-05T19:23:47.350365+00:00"
+    "timestamp": "2026-08-05T19:54:46.938076+00:00"
 }
