@@ -1,6 +1,6 @@
 # Discord string context report — 2026-08-05
 
-- Generated at: `2026-08-05T09:20:05.807Z`
+- Generated at: `2026-08-05T09:23:56.866Z`
 - Period: `2026-08-03T05:10:43Z` to `2026-08-04T22:55:07Z`
 - Build hash: `d0e6870ff283dc7ea2a7e49303588e53ea73a3c5`
 - Annotated: 80 rows across 10 clusters
@@ -50,14 +50,32 @@ The current latest payload has empty Korean and English string-change maps. No `
 
 ## Validations
 
-Status: **pending**
+Status: **passed**
 
+- `python3 -m json.tool data/web/meta.json`: passed
+- `python3 -m json.tool data/web/strings.ko.json`: passed
+- `python3 -m json.tool data/web/strings.en.json`: passed
+- `python3 -m json.tool data/latest_changes.json`: passed
+- `python3 -m json.tool data/reports/string-context/latest.json`: passed
+- `python3 -m json.tool data/reports/string-context/2026-08-05.json`: passed
+- `80 selected analysis-only row changes`: passed
+- `53,801-row prepared history/source/web full-row parity`: passed
+- `80-row paired required-field and English-language checks`: passed
+- `latest string_context absent because current payload string maps are empty`: passed
+- `scoped private-path, token, SEO, and overclaim scan`: passed
+- `report JSON/Markdown pointer parity`: passed
+- `compact tracked web JSON`: passed
 - `private-runner fixed-path candidate scan and install`: passed
-- `remaining publication and repository checks`: pending
+- `python3 scripts/security_scan.py --root . .`: passed
+- `python3 -m unittest discover -s tests -p test_*.py`: passed
+- `./scripts/check_security.sh`: passed
+- `python3 -m py_compile main.py publish_security.py public_security_scan.py git_askpass.py credential_loader.py runtime_secrets.py`: passed
+- `git diff --check`: passed
+- `data commit pushed to origin/main`: passed
 
 ## Commits
 
-- Pending publication
+- `014b369a` Add August 5 string context interpretations (pushed)
 
 ## Security/privacy impact
 

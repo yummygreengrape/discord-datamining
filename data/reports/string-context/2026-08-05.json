@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T09:20:05.807Z",
+  "generated_at": "2026-08-05T09:23:56.866Z",
   "period": {
     "start": "2026-08-03T05:10:43Z",
     "end": "2026-08-04T22:55:07Z",
@@ -12274,18 +12274,98 @@
     "results": []
   },
   "validations": {
-    "status": "pending",
-    "completed_at": null,
+    "status": "passed",
+    "completed_at": "2026-08-05T09:23:56.866Z",
     "checks": [
+      {
+        "name": "python3 -m json.tool data/web/meta.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/web/strings.ko.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/web/strings.en.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/latest_changes.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/reports/string-context/latest.json",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m json.tool data/reports/string-context/2026-08-05.json",
+        "result": "passed"
+      },
+      {
+        "name": "80 selected analysis-only row changes",
+        "result": "passed"
+      },
+      {
+        "name": "53,801-row prepared history/source/web full-row parity",
+        "result": "passed"
+      },
+      {
+        "name": "80-row paired required-field and English-language checks",
+        "result": "passed"
+      },
+      {
+        "name": "latest string_context absent because current payload string maps are empty",
+        "result": "passed"
+      },
+      {
+        "name": "scoped private-path, token, SEO, and overclaim scan",
+        "result": "passed"
+      },
+      {
+        "name": "report JSON/Markdown pointer parity",
+        "result": "passed"
+      },
+      {
+        "name": "compact tracked web JSON",
+        "result": "passed"
+      },
       {
         "name": "private-runner fixed-path candidate scan and install",
         "result": "passed"
       },
       {
-        "name": "remaining publication and repository checks",
-        "result": "pending"
+        "name": "python3 scripts/security_scan.py --root . .",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m unittest discover -s tests -p test_*.py",
+        "result": "passed"
+      },
+      {
+        "name": "./scripts/check_security.sh",
+        "result": "passed"
+      },
+      {
+        "name": "python3 -m py_compile main.py publish_security.py public_security_scan.py git_askpass.py credential_loader.py runtime_secrets.py",
+        "result": "passed"
+      },
+      {
+        "name": "git diff --check",
+        "result": "passed"
+      },
+      {
+        "name": "data commit pushed to origin/main",
+        "result": "passed"
       }
     ]
   },
-  "commits": []
+  "commits": [
+    {
+      "hash": "014b369a",
+      "full_hash": "014b369aec4c60d273dad382837a6265960a49e2",
+      "message": "Add August 5 string context interpretations",
+      "pushed": true,
+      "pushed_at": "2026-08-05T09:23:56.866Z"
+    }
+  ]
 }
