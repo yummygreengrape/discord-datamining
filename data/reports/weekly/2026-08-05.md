@@ -158,7 +158,7 @@ Nitro 탭의 새 기능 배지와 팝오버에서 Nitro 가입을 거쳐 MW4 보
 - 리포트 포인터 일치: passed
 - 저장소 테스트: passed (12 tests)
 - git diff 검사: passed
-- 커밋/푸시: pending
+- 커밋/푸시: passed (`7a19d2c0374c` pushed to `origin/main`; final metadata recorded by follow-up commit)
 - 비고: JSON and report contracts, 147-row history/public interpretation parity, bilingual pairing and English purity, unresolved fields, fallback phrases, tracked publication-path content checks, report pointers, 12 repository tests, and git diff checks passed. The full-checkout scan only reports intentionally ignored local data/history.json and pre-existing .DS_Store files; none is staged or published. No parser or application code changed.
 
 ## Security/privacy impact

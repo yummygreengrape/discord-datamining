@@ -1422,12 +1422,12 @@
     "notes": "JSON and report contracts, 147-row history/public interpretation parity, bilingual pairing and English purity, unresolved fields, fallback phrases, tracked publication-path content checks, report pointers, 12 repository tests, and git diff checks passed. The full-checkout scan only reports intentionally ignored local data/history.json and pre-existing .DS_Store files; none is staged or published. No parser or application code changed."
   },
   "commits": {
-    "data_commit": null,
-    "report_publish_commit": null,
-    "pushed": false,
+    "data_commit": "7a19d2c0374cfadb38942b92a416519e1781ab6f",
+    "report_publish_commit": "recorded by follow-up commit after this metadata update",
+    "pushed": true,
     "remote": "origin/main",
-    "status_summary": "pending",
-    "notes": "Commit and push have not yet completed."
+    "status_summary": "passed (`7a19d2c0374c` pushed to `origin/main`; final metadata recorded by follow-up commit)",
+    "notes": "Public data and report artifacts were pushed successfully. This metadata update is committed separately because the first commit hash is only known after commit."
   },
   "security_privacy_impact": {
     "trust_boundary_change": "none",
