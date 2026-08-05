@@ -1,5 +1,5 @@
 {
-    "build_hash": "e505746e7c9e4b857dc0d378aa1b960aad25b9aa",
+    "build_hash": "e3c2732aab7cf58682da21481894ca558fb5ee6f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,12 +14,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "OT1NK5": {
-                    "new_value": "Show Favorites server",
-                    "old_value": "Favorites"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -27,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-05T16:53:19.914586+00:00"
+    "timestamp": "2026-08-05T17:03:55.202174+00:00"
 }
