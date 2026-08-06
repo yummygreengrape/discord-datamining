@@ -1,5 +1,5 @@
 {
-    "build_hash": "f28907ad2eaef9d4982e26ead2f510f1fa0d0fde",
+    "build_hash": "a460416417f5efd41d3e43a7ce537eb8a5b0f013",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,14 +13,9 @@
     "string_changes": {
         "en": {
             "added": {
-                "40UKek": "We couldn't confirm your age with an ID scan. Retry?",
-                "9F2y52": "We couldn't confirm your age with a selfie. Retry?",
-                "XBGt7g": "We determined you're below Discord's minimum age."
+                "f8kllL": "Create your own"
             },
-            "deleted": {
-                "MHvjVv": "Another activity is running",
-                "TIbJ5p": "Close the activity you have running to open this one."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -29,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-06T18:06:42.019125+00:00"
+    "timestamp": "2026-08-06T18:17:21.542960+00:00"
 }
