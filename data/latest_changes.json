@@ -1,21 +1,8 @@
 {
-    "build_hash": "5188069b20aaf248cd8e2f25087a05c181755f63",
+    "build_hash": "b33e086c9f6a21417678befb21f0eda3a01603e9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-nitro-gifting-price-copy-tweaks",
-            "kind": "user",
-            "timestamp": "2026-08-06T20:31:16Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -26,8 +13,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "I27WXW": "Your access to Quests has been temporarily suspended due to activity that violates our policies.",
-                "WfwodX": "Quests access suspended"
+                "2wS18o": "Game",
+                "Mbd4OZ": "Select a game"
             },
             "deleted": {},
             "modified": {}
@@ -38,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-06T20:33:29.237738+00:00"
+    "timestamp": "2026-08-06T20:44:12.396190+00:00"
 }
