@@ -1,33 +1,8 @@
 {
-    "build_hash": "018fa7aa716e701911c012e82224d2c0def12306",
+    "build_hash": "0aab0c655f9166253bcf08256b1d0ef2b7e42ca7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-frictionless-gdms",
-            "kind": "user",
-            "timestamp": "2026-08-06T22:41:23Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-annual-plan-checkout-copy",
-            "kind": "user",
-            "timestamp": "2026-08-06T22:55:31Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -37,21 +12,25 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "2Ll0vk": "Sharing Screen",
-                "hOnBrr": "{count, plural, one {Live} other {# Live}}"
-            },
+            "added": {},
             "deleted": {
-                "+rZsly": "best value",
-                "gSNp1n": "save {months, plural, one {# month} other {# months}}"
+                "06QnFf": "Playpen Sans",
+                "DtNlM9": "Orbitron",
+                "bdpoA7": "Kalam",
+                "wSMzUj": "New Rocker"
             },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "06QnFf": "Playpen Sans",
+                "DtNlM9": "Orbitron",
+                "bdpoA7": "Kalam",
+                "wSMzUj": "New Rocker"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-08-06T23:33:54.672272+00:00"
+    "timestamp": "2026-08-06T23:44:40.491207+00:00"
 }
