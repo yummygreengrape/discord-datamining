@@ -1,8 +1,71 @@
 {
-    "build_hash": "92b58c7a56e8a5ff1d72a0123f3e0b41bcd7732c",
+    "build_hash": "23ea31a6df21a1269ca6dd24be6b98df5e35271e",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "boostAtEnd",
+                "boostCapitalizedWords",
+                "boostFavorites",
+                "boostsIgnoreDisambiguators"
+            ],
+            "default_config": {
+                "boostAtEnd": false,
+                "boostCapitalizedWords": false,
+                "boostFavorites": false,
+                "boostsIgnoreDisambiguators": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-emoji-search-ranking-tweaks",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-08-06T22:03:02Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "boostAtEnd": true,
+                    "boostCapitalizedWords": true,
+                    "boostFavorites": true,
+                    "boostsIgnoreDisambiguators": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "boostAtEnd",
+                "boostCapitalizedWords",
+                "boostFavorites",
+                "boostsIgnoreDisambiguators"
+            ],
+            "default_config": {
+                "boostAtEnd": false,
+                "boostCapitalizedWords": false,
+                "boostFavorites": false,
+                "boostsIgnoreDisambiguators": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-emoji-search-ranking-tweaks",
+            "kind": "user",
+            "timestamp": "2026-08-06T22:03:02Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "boostAtEnd": true,
+                    "boostCapitalizedWords": true,
+                    "boostFavorites": true,
+                    "boostsIgnoreDisambiguators": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,9 +75,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "YymRft": "Item Unavailable for Purchase"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +85,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-06T21:58:01.120579+00:00"
+    "timestamp": "2026-08-06T22:08:38.374062+00:00"
 }
