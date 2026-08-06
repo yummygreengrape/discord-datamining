@@ -1,49 +1,41 @@
 {
-    "build_hash": "e0d52c2cc24e80438f4ed16e1da02cab43dc6a8c",
+    "build_hash": "d3c5487b93b2a7edbbc7a4deb133798c3e87303c",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-frictionless-gdms",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
     "deleted_experiments": [
         {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-emoji-search-ranking-tweaks",
+            "kind": "user",
+            "timestamp": "2026-08-06T22:03:02Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
             "id": "2026-05-frictionless-gdms",
             "kind": "user",
+            "timestamp": "2026-08-06T22:41:23Z",
             "treatments": [
                 "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-annual-plan-checkout-copy",
+            "kind": "user",
+            "timestamp": "2026-08-06T22:55:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ]
         }
     ],
     "extractor_version": 20,
@@ -55,15 +47,24 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "2Ll0vk": "Sharing Screen",
+                "hOnBrr": "{count, plural, one {Live} other {# Live}}"
+            },
+            "deleted": {
+                "+rZsly": "best value",
+                "gSNp1n": "save {months, plural, one {# month} other {# months}}"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "+rZsly": "최고의 가성비",
+                "gSNp1n": "{months}개월 할인"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-08-06T22:50:53.182437+00:00"
+    "timestamp": "2026-08-06T23:01:39.873069+00:00"
 }
