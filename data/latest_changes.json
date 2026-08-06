@@ -1,5 +1,5 @@
 {
-    "build_hash": "ec480fbc6c361e7239f8be0275e7cc450b768dcc",
+    "build_hash": "56e8c1854f83a1dd6abf2868695b552c2c742500",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-hide-gift-shop-upsell",
+            "kind": "user",
+            "timestamp": "2026-08-06T19:38:51Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-06T19:31:14.424128+00:00"
+    "timestamp": "2026-08-06T19:41:50.730988+00:00"
 }
