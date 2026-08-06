@@ -1,5 +1,5 @@
 {
-    "build_hash": "ab624966c3ce2c343eb31a6a1c4ba081f57ff668",
+    "build_hash": "d57a0822128f022ae2284d42708adbb6203607b4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,17 +13,26 @@
     "string_changes": {
         "en": {
             "added": {
-                "QxKl9A": "About Me",
-                "fjSaAm": "Header"
+                "D7S0Zo": "Free Favorites are limited to {count, number}. Get Nitro to add up to {maxCount, number} channels and DMs.",
+                "LyZZLX": "Right-click any channel or DM and [add to your Favorites]({onClick}) for quick access.",
+                "PprSsy": "Manage Favorites",
+                "Yw4x8Q": "$[{count, number}/{limit, number}](countHook) Favorites used. [Get {nitroTierName}]({onClick}) to raise your Favorites limit from {limit, number} to {maxCount, number}.",
+                "Z3Hdr5": "Press and hold any channel or DM and [add to your Favorites]({onClick}) for quick access.",
+                "hINqUs": "Need more Favorites?"
             },
-            "deleted": {},
+            "deleted": {
+                "Wwzrs9": "Right-click any channel or DM and add to your Favorites for quick access.",
+                "YoVmse": "Press and hold any channel or DM and add to your Favorites for quick access."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "Wwzrs9": "채널이나 DM을 마우스 오른쪽 버튼으로 클릭하고 즐겨찾기에 추가하여 빠르게 액세스하세요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-08-06T00:59:30.400594+00:00"
+    "timestamp": "2026-08-06T02:41:45.092394+00:00"
 }
