@@ -1,71 +1,8 @@
 {
-    "build_hash": "23ea31a6df21a1269ca6dd24be6b98df5e35271e",
+    "build_hash": "5b7bb380a03ee6f0a98de5172ed1bc262678ae5e",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "boostAtEnd",
-                "boostCapitalizedWords",
-                "boostFavorites",
-                "boostsIgnoreDisambiguators"
-            ],
-            "default_config": {
-                "boostAtEnd": false,
-                "boostCapitalizedWords": false,
-                "boostFavorites": false,
-                "boostsIgnoreDisambiguators": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-10-emoji-search-ranking-tweaks",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-08-06T22:03:02Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "boostAtEnd": true,
-                    "boostCapitalizedWords": true,
-                    "boostFavorites": true,
-                    "boostsIgnoreDisambiguators": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "boostAtEnd",
-                "boostCapitalizedWords",
-                "boostFavorites",
-                "boostsIgnoreDisambiguators"
-            ],
-            "default_config": {
-                "boostAtEnd": false,
-                "boostCapitalizedWords": false,
-                "boostFavorites": false,
-                "boostsIgnoreDisambiguators": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-10-emoji-search-ranking-tweaks",
-            "kind": "user",
-            "timestamp": "2026-08-06T22:03:02Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "boostAtEnd": true,
-                    "boostCapitalizedWords": true,
-                    "boostFavorites": true,
-                    "boostsIgnoreDisambiguators": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -85,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-06T22:08:38.374062+00:00"
+    "timestamp": "2026-08-06T22:19:15.480689+00:00"
 }
