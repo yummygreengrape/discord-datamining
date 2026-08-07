@@ -1,5 +1,5 @@
 {
-    "build_hash": "5bbedc3b24a14a7963db1762301411a33a8d67cf",
+    "build_hash": "193469298fb5d4551b7c0b69d0caf69b41896fe7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,12 +13,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "+cSvS8": "Position {positionNumber} of {positionCount} in the main column",
-                "KcdDyT": "End of the main column",
-                "NV85DR": "Reorder {widgetName}",
-                "O9RvHQ": "Position {positionNumber} of {positionCount} in the side column",
-                "fWef0G": "End of the side column",
-                "hmNYxk": "Remove {widgetName}"
+                "crRMpG": "Games being played"
             },
             "deleted": {},
             "modified": {}
@@ -29,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-07T18:35:50.540890+00:00"
+    "timestamp": "2026-08-07T18:46:22.267412+00:00"
 }
