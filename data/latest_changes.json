@@ -1,5 +1,5 @@
 {
-    "build_hash": "09ca2c0bdb31b9ad359052e42b0e63493f486916",
+    "build_hash": "41f080a1038eb8a9054670816a89028694b9c120",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "CHARACTER_COUNT_LIMIT_REACHED": "Character limit reached",
-                "TEXT_INPUT_CLEAR": "Clear"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,14 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-07T02:51:23.940799+00:00",
-    "string_context": {
-        "ko": {},
-        "en": {
-            "CHARACTER_COUNT_LIMIT_REACHED": {
-                "summary": "A shared Discord text-input status saying the allowed character count has been reached.",
-                "what_to_do": "Shorten the text before submitting again. Use the field's Clear action only if removing the entire current input is appropriate."
-            }
-        }
-    }
+    "timestamp": "2026-08-07T09:41:57.168928+00:00"
 }
