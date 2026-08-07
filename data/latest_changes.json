@@ -25,5 +25,14 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-07T02:51:23.940799+00:00"
+    "timestamp": "2026-08-07T02:51:23.940799+00:00",
+    "string_context": {
+        "ko": {},
+        "en": {
+            "CHARACTER_COUNT_LIMIT_REACHED": {
+                "summary": "A shared Discord text-input status saying the allowed character count has been reached.",
+                "what_to_do": "Shorten the text before submitting again. Use the field's Clear action only if removing the entire current input is appropriate."
+            }
+        }
+    }
 }
