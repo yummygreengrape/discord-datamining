@@ -1,5 +1,5 @@
 {
-    "build_hash": "bdf2c385b429686176494e1203e8a320af110b26",
+    "build_hash": "e68d64d91352fd4757980a46766ab4e5d5bbb8c0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "zleX9q": "Add text or an image"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-07T22:54:23.827099+00:00"
+    "timestamp": "2026-08-07T23:25:18.942211+00:00"
 }
