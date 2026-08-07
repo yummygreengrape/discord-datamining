@@ -1,5 +1,5 @@
 {
-    "build_hash": "0aab0c655f9166253bcf08256b1d0ef2b7e42ca7",
+    "build_hash": "cbea78a074d5ea840a1e22c7ae6ffe1e58a40872",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,24 +13,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "06QnFf": "Playpen Sans",
-                "DtNlM9": "Orbitron",
-                "bdpoA7": "Kalam",
-                "wSMzUj": "New Rocker"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "06QnFf": "Playpen Sans",
-                "DtNlM9": "Orbitron",
-                "bdpoA7": "Kalam",
-                "wSMzUj": "New Rocker"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-08-06T23:44:40.491207+00:00"
+    "timestamp": "2026-08-07T00:15:47.376391+00:00"
 }
