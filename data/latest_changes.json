@@ -1,5 +1,5 @@
 {
-    "build_hash": "7e727e97e61ee05707b448cb5928fd571650f5c1",
+    "build_hash": "00bc5abd90c9af1f1b17af1207ee5f5698c62080",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "/0p2sz": "{label}, {rating} out of {maxRating} stars{ratingCount, plural, one {, # rating} other {, # ratings}}"
+                "2gwc+H": "Add a title",
+                "PDnM11": "Edit clip title"
             },
             "deleted": {},
             "modified": {}
@@ -24,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-07T23:46:26.242734+00:00"
+    "timestamp": "2026-08-08T00:07:09.234032+00:00"
 }
