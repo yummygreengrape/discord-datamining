@@ -1,5 +1,5 @@
 {
-    "build_hash": "ea2ebcba5154faedf0ca176cdcae123a656ac3a9",
+    "build_hash": "9b615c9629542b7c75ae5980d607239cf56bdb4a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,14 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "8s37XL": "floor cushion",
-                "CScWZe": "chair",
-                "E/jYGS": "Loft",
-                "UzA4FM": "Right Lounge",
-                "WaL+LA": "Left Lounge",
-                "xLrkpg": "window seat"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -29,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-08T00:59:32.946641+00:00"
+    "timestamp": "2026-08-08T01:20:18.734507+00:00"
 }
