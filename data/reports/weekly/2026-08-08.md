@@ -137,7 +137,7 @@
 - 리포트 최신 포인터 일치: passed
 - 저장소 테스트: passed (12 tests)
 - git diff 검사: passed
-- 커밋/푸시: pending publication
+- 커밋/푸시: passed (`872eb90d97cc` pushed to `origin/main`; final metadata recorded by follow-up commit)
 
 ## Security/privacy impact
 
