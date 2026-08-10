@@ -1,79 +1,37 @@
 {
-    "build_hash": "3365503e471a8e8d7a425237fb671c5fedc517e7",
+    "build_hash": "1a24e37dd3573f3acf5fc23fa4d5233919a05f70",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-nvenc-reconstructed-frames",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-08-10T20:58:14Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-nvenc-reconstructed-frames",
-            "kind": "user",
-            "timestamp": "2026-08-10T20:58:14Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_USERS_BADGES_SETTINGS",
-            "status": "added",
-            "url": "/users/@me/badges/settings"
-        },
-        {
-            "name": "USER_BADGE_SETTINGS",
-            "status": "added",
-            "url": "/users/@me/badges/settings"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {
-                "9JoKQb": "Customize your badges",
-                "IDh31t": "You can now hide badges on your profile! Get Nitro to reorder them.",
-                "p82vky": "You can now hide badges on your profile. Plus, reorder them as a Nitro perk!"
+                "0Ka6B5": "For Hobbies",
+                "5oGAp/": "A space to share your passion and grow alongside others who get it.",
+                "DSCqxM": "A private hangout for you and your people — no theme required.",
+                "F+MTAZ": "For gaming",
+                "KNhFgD": "Server Preview",
+                "ScXySs": "Just to hangout",
+                "WPXiIk": "The message to send",
+                "Xw97sv": "Schedule a message to send later",
+                "ZJ1tPW": "{count}",
+                "ZXE1s4": "Edit message",
+                "abaDI+": "A place for you and your friends",
+                "raDC7V": "Servers are where you and your friends hang out. Make yours and start talking.",
+                "srNlJw": "A home base for your crew to squad up, share clips, and talk strats.",
+                "wKy7MA": "I have an invite link"
             },
-            "deleted": {},
+            "deleted": {
+                "PH+G/A": "Join servers picked for you to get tips, find teammates, and hear about new content",
+                "fs+2Kn": "Suggested Servers"
+            },
             "modified": {}
         },
         "ko": {
@@ -82,5 +40,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-10T21:00:27.004313+00:00"
+    "timestamp": "2026-08-10T21:11:14.110953+00:00"
 }
