@@ -1,5 +1,5 @@
 {
-    "build_hash": "172d1bef7fe0e105a00f01817535f647a9b61c23",
+    "build_hash": "afb3502c0787ab1a0bd5e62b6cf14da21384f05d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,7 +7,18 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_USERS_GAME_SERVERS_WAKE",
+            "status": "added",
+            "url": "/users/@me/game-servers/:param/wake"
+        },
+        {
+            "name": "GAME_SERVER_ME_WAKE",
+            "status": "added",
+            "url": "/users/@me/game-servers/:param/wake"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-10T20:29:04.738768+00:00"
+    "timestamp": "2026-08-10T20:39:39.358822+00:00"
 }
