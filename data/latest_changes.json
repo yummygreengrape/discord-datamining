@@ -1,5 +1,5 @@
 {
-    "build_hash": "1eaaeb306f4ffcd8aa8605a2c6ba7fa3c714abcd",
+    "build_hash": "fcd5e42ae0cac91a901cdfe64416bc12b969b9b7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,13 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "34XN2f": "Animate my Avatar Decoration",
-                "EEms8K": "Animate my Nameplate",
-                "Loi61N": "You Bar",
-                "SZC/D5": "Control whether your Nameplate and Avatar Decoration animate in the You Bar. These are currently overridden by your reduced motion preferences.",
-                "c7VVKU": "Control whether your Nameplate and Avatar Decoration animate in the You Bar."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -28,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-10T17:31:20.909327+00:00"
+    "timestamp": "2026-08-10T17:41:55.214900+00:00"
 }
