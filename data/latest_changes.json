@@ -1,5 +1,5 @@
 {
-    "build_hash": "3a64e4f9aaf9eed982bc33144a93fbc6e864c4bf",
+    "build_hash": "4be717749f73dedf4b6620c06f6e9b637d49fb48",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,18 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "3U5H62": "Kill",
-                "CWgKMS": "Ace",
-                "Ce0ZBI": "Round Winning Kill",
-                "IptBJr": "Bomb Defused",
-                "b0i6PM": "Game Winning Kill",
-                "bdMG43": "Bomb Plant",
-                "ejnmIP": "Death",
-                "mnZiTO": "Multikill",
-                "qhZmhU": "Assist",
-                "tAXn5v": "Bomb Exploded"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -33,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-10T18:03:07.509931+00:00"
+    "timestamp": "2026-08-10T18:13:44.820598+00:00"
 }
