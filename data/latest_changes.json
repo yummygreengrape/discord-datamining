@@ -1,19 +1,8 @@
 {
-    "build_hash": "35235e49ee049532ec5dbbb1bd0f41fff0a540dc",
+    "build_hash": "e37f83950b6b9d9ec88e03a78ebb3dba909165be",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-server-boost-bar-nudge",
-            "kind": "guild",
-            "timestamp": "2026-08-10T18:15:51Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -33,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-10T18:24:27.492008+00:00"
+    "timestamp": "2026-08-10T18:34:59.732332+00:00"
 }
