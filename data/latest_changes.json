@@ -1,5 +1,5 @@
 {
-    "build_hash": "b1a5ea2a2dd05711c656a32fd11ea651fba64fd1",
+    "build_hash": "a706b9f77d00412934502a91ad604fcd4744fcc2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "nPRAZX": "{userName} moved to {seatLabel}",
+                "qMj+2W": "{userName} joined",
+                "u7LUkR": "{userName} left"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-10T22:14:12.980933+00:00"
+    "timestamp": "2026-08-10T22:24:50.484872+00:00"
 }
