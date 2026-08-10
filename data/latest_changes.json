@@ -1,5 +1,5 @@
 {
-    "build_hash": "53099b5c63dfe30f04b47db9ebd3411b14a9ab54",
+    "build_hash": "a697101e74f0db9043b0c5b7e664ba7d7a63eb28",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,10 +13,6 @@
     "string_changes": {
         "en": {
             "added": {
-                "PH+G/A": "Join servers picked for you to get tips, find teammates, and hear about new content",
-                "fs+2Kn": "Suggested Servers"
-            },
-            "deleted": {
                 "0Ka6B5": "For Hobbies",
                 "5oGAp/": "A space to share your passion and grow alongside others who get it.",
                 "DSCqxM": "A private hangout for you and your people — no theme required.",
@@ -28,6 +24,10 @@
                 "srNlJw": "A home base for your crew to squad up, share clips, and talk strats.",
                 "wKy7MA": "I have an invite link"
             },
+            "deleted": {
+                "PH+G/A": "Join servers picked for you to get tips, find teammates, and hear about new content",
+                "fs+2Kn": "Suggested Servers"
+            },
             "modified": {}
         },
         "ko": {
@@ -36,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-10T21:21:48.342181+00:00"
+    "timestamp": "2026-08-10T21:42:28.294983+00:00"
 }
