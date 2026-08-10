@@ -1,5 +1,5 @@
 {
-    "build_hash": "a706b9f77d00412934502a91ad604fcd4744fcc2",
+    "build_hash": "4772d68f85f1f7c0205218344c2712a188e7bd30",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,11 +13,15 @@
     "string_changes": {
         "en": {
             "added": {
-                "nPRAZX": "{userName} moved to {seatLabel}",
-                "qMj+2W": "{userName} joined",
-                "u7LUkR": "{userName} left"
+                "C/j9NE": "Send it at the perfect moment",
+                "FAn5lu": "Draft your message then click the plus button and pick bHookSchedule Message to choose when to send. We'll handle the rest.",
+                "fxxYiB": "Message #general",
+                "h+Imbu": "Open scheduled messages"
             },
-            "deleted": {},
+            "deleted": {
+                "aJQZfZ": "You've got no scheduled messages!",
+                "rCN4pN": "You can schedule messages by clicking the + icon in the message bar!"
+            },
             "modified": {}
         },
         "ko": {
@@ -26,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-10T22:24:50.484872+00:00"
+    "timestamp": "2026-08-10T22:35:26.100140+00:00"
 }
