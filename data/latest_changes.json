@@ -1,49 +1,8 @@
 {
-    "build_hash": "5df7c365995dd50e1dfc190e3d3acaf87bd09cd8",
+    "build_hash": "3a64e4f9aaf9eed982bc33144a93fbc6e864c4bf",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-monthly-to-yearly-upsell-copy",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-08-10T17:49:33Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "0": 0,
-                "1": 1,
-                "2": 2,
-                "3": 3
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-monthly-to-yearly-upsell-copy",
-            "kind": "user",
-            "timestamp": "2026-08-10T17:49:33Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "0": 0,
-                "1": 1,
-                "2": 2,
-                "3": 3
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -53,31 +12,26 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "/JpB6y": "Pay once, save {amount}. All year",
-                "NE8WXI": "Same perks, same Nitro. Just billed once a year.",
-                "UZWxcy": "Everything you love about Nitro stays the same. One payment to make it official.",
-                "WBEYyz": "Lock in, save {amount}",
-                "aKa3qR": "Heads up: Nitro Yearly saves you {amount}",
-                "deiBu8": "Same Nitro perks you already have. Switch once and you're set for the year.",
-                "n0NjuD": "{months, plural, one {# month} other {# months}} strong. Lock in, save {amount}"
+            "added": {
+                "3U5H62": "Kill",
+                "CWgKMS": "Ace",
+                "Ce0ZBI": "Round Winning Kill",
+                "IptBJr": "Bomb Defused",
+                "b0i6PM": "Game Winning Kill",
+                "bdMG43": "Bomb Plant",
+                "ejnmIP": "Death",
+                "mnZiTO": "Multikill",
+                "qhZmhU": "Assist",
+                "tAXn5v": "Bomb Exploded"
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "/JpB6y": "일 년 치 금액을 한 번에 결제하고 {amount} 할인받으세요.",
-                "NE8WXI": "동일한 특전을 누릴 수 있는 똑같은 Nitro! 1년에 한 번만 결제하세요.",
-                "UZWxcy": "기존의 Nitro 혜택은 모두 그대로 유지돼요. 한 번의 결제로 계속 이용해 보세요.",
-                "WBEYyz": "확정하고 {amount} 절약하기",
-                "aKa3qR": "알림: Nitro 연간 구독 시 {amount} 할인!",
-                "deiBu8": "이미 누리고 있는 Nitro 특전 그대로. 한 번 전환으로 1년 내내 즐기세요.",
-                "n0NjuD": "{months}개월 동안 사용 중이시군요. 구독을 확정하고 {amount}의 금액을 절약하세요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-08-10T17:52:29.658538+00:00"
+    "timestamp": "2026-08-10T18:03:07.509931+00:00"
 }
