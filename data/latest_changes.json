@@ -1,29 +1,78 @@
 {
-    "build_hash": "afb3502c0787ab1a0bd5e62b6cf14da21384f05d",
+    "build_hash": "3365503e471a8e8d7a425237fb671c5fedc517e7",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-nvenc-reconstructed-frames",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-08-10T20:58:14Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-nvenc-reconstructed-frames",
+            "kind": "user",
+            "timestamp": "2026-08-10T20:58:14Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [
         {
-            "name": "ENDPOINT_USERS_GAME_SERVERS_WAKE",
+            "name": "ENDPOINT_USERS_BADGES_SETTINGS",
             "status": "added",
-            "url": "/users/@me/game-servers/:param/wake"
+            "url": "/users/@me/badges/settings"
         },
         {
-            "name": "GAME_SERVER_ME_WAKE",
+            "name": "USER_BADGE_SETTINGS",
             "status": "added",
-            "url": "/users/@me/game-servers/:param/wake"
+            "url": "/users/@me/badges/settings"
         }
     ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "9JoKQb": "Customize your badges",
+                "IDh31t": "You can now hide badges on your profile! Get Nitro to reorder them.",
+                "p82vky": "You can now hide badges on your profile. Plus, reorder them as a Nitro perk!"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -33,5 +82,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-10T20:39:39.358822+00:00"
+    "timestamp": "2026-08-10T21:00:27.004313+00:00"
 }
