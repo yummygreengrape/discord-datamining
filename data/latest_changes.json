@@ -1,5 +1,5 @@
 {
-    "build_hash": "4772d68f85f1f7c0205218344c2712a188e7bd30",
+    "build_hash": "062367a643a00894c1be8686127389ecce3ee581",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,7 @@
         "en": {
             "added": {
                 "C/j9NE": "Send it at the perfect moment",
-                "FAn5lu": "Draft your message then click the plus button and pick bHookSchedule Message to choose when to send. We'll handle the rest.",
+                "FAn5lu": "Draft your message then click the plus button and pick **Schedule Message** to choose when to send. We'll handle the rest.",
                 "fxxYiB": "Message #general",
                 "h+Imbu": "Open scheduled messages"
             },
@@ -30,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-10T22:35:26.100140+00:00"
+    "timestamp": "2026-08-10T22:46:00.925750+00:00"
 }
