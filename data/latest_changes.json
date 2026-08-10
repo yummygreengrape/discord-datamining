@@ -1,5 +1,5 @@
 {
-    "build_hash": "a55dd784347fb2e048cac4116db7c18705bcf64b",
+    "build_hash": "20496703bf9b26191949441f0a8c3fc6007a51be",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,73 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "3hOLod": "**{name}** is daydreaming...",
+                "6Cdy4a": "is typing...",
+                "6ZxPAQ": "Apply",
+                "8t5EiI": "Wave",
+                "AoBaEw": "**{name}** is babbling...",
+                "BGCQqw": "Styling",
+                "EgekTm": "Ring",
+                "Eq5jIA": "Customize your typing indicator",
+                "F7RLTP": "is daydreaming...",
+                "L5aWEN": "**{name}** is barking...",
+                "M282uk": "is barking...",
+                "N8cWE8": "**{name}** is oversharing...",
+                "O0Pe85": "Emoji {slot} of {total}: empty",
+                "SZ0/Qu": "**{name}** is venting...",
+                "VVBcIQ": "Change your typing indicator",
+                "X+ijyw": "Text",
+                "gyL/ce": "Pulse",
+                "hrl2cG": "Dismiss typing text picker",
+                "iVKTbA": "Animation",
+                "kh4K4F": "**{name}** is typing...",
+                "lEsZ+N": "Emoji {slot} of {total}: {emojiName}",
+                "m9AeqG": "**{name}** is yapping...",
+                "myNZDT": "is babbling...",
+                "q+qHax": "Dismiss animation picker",
+                "qGaH/9": "is oversharing...",
+                "xmxdPC": "is venting..."
+            },
+            "deleted": {
+                "3+CLfd": "Check it out",
+                "LIcrQP": "Custom Typing indictator",
+                "MiMvXU": "Say something before you say anything, Those three dots are doing the bare minimum. Swap them for your favourite emojis or your avatar, give them some moves.",
+                "PJmudq": "Custom Typing indictator",
+                "ZDK4Nn": "Typing Suggestion",
+                "iiGYQ9": "Maybe later",
+                "oZJRsx": "Animation"
+            },
+            "modified": {
+                "6NP6ic": {
+                    "new_value": "Check It Out",
+                    "old_value": "Check it out"
+                },
+                "E5VRaj": {
+                    "new_value": "is yapping...",
+                    "old_value": "is yapping"
+                },
+                "TswY68": {
+                    "new_value": "Check It Out",
+                    "old_value": "Check it out"
+                },
+                "k6c2yP": {
+                    "new_value": "When you're typing, others will see this instead of the default typing indicator. [Learn More]({helpCenterUrl}).",
+                    "old_value": "This will appear for every user that you message as your replacement for your typing indicator. [Help Center]({helpCenterUrl})"
+                },
+                "lSBp2M": {
+                    "new_value": "Add emojis and swap \"is typing...\" to something that feels more you.",
+                    "old_value": "Say something before you say anything, Those three dots are doing the bare minimum."
+                },
+                "uGxDiu": {
+                    "new_value": "Say something before you say anything",
+                    "old_value": "Custom Typing indictator"
+                },
+                "yezU3E": {
+                    "new_value": "Add emojis and swap out \"is typing...\" for something that's a little more you. New with Nitro.",
+                    "old_value": "Say something before you say anything, Those three dots are doing the bare minimum. Swap them for your favourite emojis or your avatar, give them some moves."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +86,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-10T23:07:09.810989+00:00"
+    "timestamp": "2026-08-10T23:17:42.454086+00:00"
 }
