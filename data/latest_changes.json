@@ -1,5 +1,5 @@
 {
-    "build_hash": "062367a643a00894c1be8686127389ecce3ee581",
+    "build_hash": "c1493be3fd268ec494c911dcd1a31edf68d19397",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,16 +12,8 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "C/j9NE": "Send it at the perfect moment",
-                "FAn5lu": "Draft your message then click the plus button and pick **Schedule Message** to choose when to send. We'll handle the rest.",
-                "fxxYiB": "Message #general",
-                "h+Imbu": "Open scheduled messages"
-            },
-            "deleted": {
-                "aJQZfZ": "You've got no scheduled messages!",
-                "rCN4pN": "You can schedule messages by clicking the + icon in the message bar!"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -30,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-10T22:46:00.925750+00:00"
+    "timestamp": "2026-08-10T22:56:36.443927+00:00"
 }
