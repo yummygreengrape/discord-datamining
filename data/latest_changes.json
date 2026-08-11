@@ -1,18 +1,59 @@
 {
-    "build_hash": "ed1dee2c117bbd6b06d9e03f449db103774ad7f7",
+    "build_hash": "afd7cba08e680ae4909cb2fa45fb1955ee794b84",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-krisp-cpu-disablement",
+            "kind": "user",
+            "timestamp": "2026-08-11T17:06:43Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-premium-group-gift-selection-upsell",
+            "kind": "user",
+            "timestamp": "2026-08-11T17:36:58Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-krisp-cpu-disablement",
+            "kind": "user",
+            "timestamp": "2026-08-11T17:03:40Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "DwFqrb": "{count, plural, one {# Boost} other {# Boosts}}",
+                "G08ClG": "{count, number} Online",
+                "rp7bx+": "{count, plural, one {# Member} other {# Members}}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +63,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-11T18:20:36.992926+00:00"
+    "timestamp": "2026-08-11T18:31:20.616077+00:00"
 }
