@@ -1,5 +1,5 @@
 {
-    "build_hash": "35e55ced3bb0b5a60769d3e20233bba989a5778a",
+    "build_hash": "0fa61ddf945740afbe2f86516b5f82bd2a3284ca",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,18 +13,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "nVPpLM": "Activity"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "nVPpLM": "활동"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-08-11T22:34:25.566112+00:00"
+    "timestamp": "2026-08-11T22:45:00.386748+00:00"
 }
