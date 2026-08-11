@@ -1,69 +1,198 @@
 {
-    "build_hash": "0cfa5ab928adcef3dd6053e0f3b88dab99d52720",
+    "build_hash": "27b0f8164e2e1f2f76c9f0da90d77be87dcf83c9",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-user-settings-redesign-4d",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
     "deleted_experiments": [
         {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-05-user-settings-redesign-4d",
+            "id": "2026-02-new-video-quest-progress-bar-styling",
             "kind": "user",
+            "timestamp": "2026-08-11T20:31:28Z",
             "treatments": [
                 "Variant 0",
                 "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
+            ]
         }
     ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-01-favorites-server",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled",
+                "hasHigherPrivileges",
+                "isFreemium"
+            ],
+            "old_default_config": {
+                "enabled": false,
+                "hasHigherPrivileges": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true,
+                    "hasHigherPrivileges": true
+                },
+                "2": {
+                    "enabled": true,
+                    "hasHigherPrivileges": false
+                },
+                "3": {
+                    "enabled": true,
+                    "hasHigherPrivileges": true,
+                    "isFreemium": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-01-favorites-server",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled",
+                "hasHigherPrivileges",
+                "isFreemium"
+            ],
+            "old_default_config": {
+                "enabled": false,
+                "hasHigherPrivileges": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true,
+                    "hasHigherPrivileges": true
+                },
+                "2": {
+                    "enabled": true,
+                    "hasHigherPrivileges": false
+                },
+                "3": {
+                    "enabled": true,
+                    "hasHigherPrivileges": true,
+                    "isFreemium": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-favorites-server",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-08-11T20:55:42Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-favorites-server",
+            "kind": "user",
+            "timestamp": "2026-08-11T20:55:42Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "2NWMqY": "Model settings",
+                "4AsQHS": "Thinking effort",
+                "4k2gSf": "Get Nitro",
+                "9FRudW": "Model",
+                "COVYeS": "Model settings",
+                "ICU5aW": "Changes apply from your next message.",
+                "ISmynF": "Thinking (orchestrator)",
+                "n9cZTH": "Submit a developer appeal"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -73,5 +202,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-11T20:59:03.266593+00:00"
+    "timestamp": "2026-08-11T21:09:44.803758+00:00"
 }
