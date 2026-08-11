@@ -1,5 +1,5 @@
 {
-    "build_hash": "4a625fd3755b2a2b55c679c7bb9f813176e6b11a",
+    "build_hash": "d520d2dc9f2cc1140067e676c4c7adba86a39600",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,25 +8,68 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "closeChatOnLeave"
+            ],
+            "default_config": {
+                "closeChatOnLeave": true
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-dont-close-chat",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-08-11T02:38:09Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "closeChatOnLeave": false
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "closeChatOnLeave"
+            ],
+            "default_config": {
+                "closeChatOnLeave": true
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-dont-close-chat",
+            "kind": "user",
+            "timestamp": "2026-08-11T02:38:09Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "closeChatOnLeave": false
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "F3dWTe": "Dismiss suggested channels",
-                "Hevebj": "Add {name} to Favorites",
-                "oHWnLy": "Suggested Channels"
-            },
+            "added": {},
             "deleted": {
-                "Yw4x8Q": "$[{count, number}/{limit, number}](countHook) Favorites used. [Get {nitroTierName}]({onClick}) to raise your Favorites limit from {limit, number} to {maxCount, number}."
+                "l/iJSJ": "Pending banner image"
             },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "l/iJSJ": "대기 중인 배너 이미지"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-08-11T02:24:56.724919+00:00"
+    "timestamp": "2026-08-11T02:45:44.639896+00:00"
 }
