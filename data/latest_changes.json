@@ -1,19 +1,60 @@
 {
-    "build_hash": "c59be976f58ab7953f56a63c636554ada290ea8f",
+    "build_hash": "0412219879989ebe5af31f7cd8073831adbbb3bc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-livestream-entrypoint-v2",
+            "kind": "user",
+            "timestamp": "2026-08-11T22:05:22Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-activity-entrypoint-ui",
+            "kind": "user",
+            "timestamp": "2026-08-11T23:09:55Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-vq-remaining-time-truncation",
+            "kind": "user",
+            "timestamp": "2026-08-11T22:16:28Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "XTdnRd": "{count}m+",
+                "spl/XS": "{count}s+"
+            },
+            "deleted": {
+                "nVPpLM": "Activity"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +63,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-11T23:06:14.933817+00:00"
+    "timestamp": "2026-08-11T23:16:58.129514+00:00"
 }
