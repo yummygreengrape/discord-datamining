@@ -1,5 +1,5 @@
 {
-    "build_hash": "0a9f98cb7d7e3bbd0da6334ec92018c2eecc0001",
+    "build_hash": "35e55ced3bb0b5a60769d3e20233bba989a5778a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,69 +8,23 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "truncateMoreThanSeconds"
-            ],
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-vq-remaining-time-truncation",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-08-11T22:16:28Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "truncateMoreThanSeconds": 30
-                },
-                "2": {
-                    "truncateMoreThanSeconds": 60
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "truncateMoreThanSeconds"
-            ],
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-vq-remaining-time-truncation",
-            "kind": "user",
-            "timestamp": "2026-08-11T22:16:28Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "truncateMoreThanSeconds": 30
-                },
-                "2": {
-                    "truncateMoreThanSeconds": 60
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "XTdnRd": "{count}m+",
-                "spl/XS": "{count}s+"
+            "added": {},
+            "deleted": {
+                "nVPpLM": "Activity"
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "nVPpLM": "활동"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-08-11T22:23:53.846545+00:00"
+    "timestamp": "2026-08-11T22:34:25.566112+00:00"
 }
