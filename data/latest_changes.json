@@ -1,8 +1,53 @@
 {
-    "build_hash": "3b12d6ff5a459c3c09c40a02d6de2a3c36501938",
+    "build_hash": "db0d399b0ae83f7a8c9e3848a8e32c705e9747b2",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-vad-before-processing",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-08-11T19:28:55Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-vad-before-processing",
+            "kind": "user",
+            "timestamp": "2026-08-11T19:28:55Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -17,10 +62,32 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "2gwc+H": "제목 추가하기",
+                "3U5H62": "킬",
+                "9bEWZJ": "평점",
+                "N0IE3v": "트레일러",
+                "TByIjT": "이 위반은 {expirationDate}까지 회원님의 계정 상태에 영향을 미칩니다",
+                "ejnmIP": "죽음",
+                "mnZiTO": "멀티킬",
+                "ncrlHJ": "나이"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "PlrZal": {
+                    "new_value": "{username} 님과 연결을 해제하면 상대방에게 연결이 해제되었다는 알림이 전송됩니다. 또한 해당 사용자의 Discord 활동 정보에 대한 회원님의 액세스 권한도 취소됩니다.",
+                    "old_value": "{username} 님과 끊으면 연결이 끊겼다는 알림이 전송되며, 해당 사용자의 Discord 활동 정보에 대한 회원님의 액세스 권한이 취소됩니다."
+                },
+                "XyRW4c": {
+                    "new_value": "{username} 님과 연결을 해제하면 상대방에게 연결이 해제되었다는 알림이 전송됩니다. 또한 회원님의 Discord 활동 정보에 대한 해당 사용자의 액세스 권한도 취소됩니다.",
+                    "old_value": "{username} 님과 연결을 해제하면 상대방에게 삭제 알림이 전송됩니다. 또한 해당 사용자의 Discord 활동 정보에 대한 내 액세스 권한도 취소됩니다."
+                },
+                "hY8Ft1": {
+                    "new_value": "이용 가능한 혜택",
+                    "old_value": "수령 가능한 혜택"
+                }
+            }
         }
     },
-    "timestamp": "2026-08-11T19:23:57.793212+00:00"
+    "timestamp": "2026-08-11T19:34:32.233268+00:00"
 }
