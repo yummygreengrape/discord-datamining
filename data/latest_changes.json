@@ -1,138 +1,18 @@
 {
-    "build_hash": "2c6e88d932991f88797b4f8c598878ebdefdfad6",
+    "build_hash": "e4e70a1fe328b53e16c9539f16f73d6462960e9f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "showCreateEntrypoint"
-            ],
-            "default_config": {
-                "enabled": false,
-                "showCreateEntrypoint": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-personal-widget",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled"
-            ],
-            "old_default_config": {
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "old_variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                },
-                "2": {
-                    "enabled": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "showCreateEntrypoint": false
-                },
-                "1": {
-                    "enabled": true,
-                    "showCreateEntrypoint": false
-                },
-                "2": {
-                    "enabled": true,
-                    "showCreateEntrypoint": true
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "showCreateEntrypoint"
-            ],
-            "default_config": {
-                "enabled": false,
-                "showCreateEntrypoint": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-personal-widget",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled"
-            ],
-            "old_default_config": {
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "old_variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                },
-                "2": {
-                    "enabled": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "showCreateEntrypoint": false
-                },
-                "1": {
-                    "enabled": true,
-                    "showCreateEntrypoint": false
-                },
-                "2": {
-                    "enabled": true,
-                    "showCreateEntrypoint": true
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "eGAirq": "Create Your Own"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -142,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-11T21:52:17.486754+00:00"
+    "timestamp": "2026-08-11T22:02:50.312700+00:00"
 }
