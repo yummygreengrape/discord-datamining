@@ -1,8 +1,71 @@
 {
-    "build_hash": "91d4f8e15ecb82c477ce868c283745192a21913e",
+    "build_hash": "2cc9db10ea3d9e50376b9684570f7cb58d550e89",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-new-video-quest-progress-bar-styling",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-08-11T20:31:28Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-new-video-quest-progress-bar-styling",
+            "kind": "user",
+            "timestamp": "2026-08-11T20:31:28Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-vad-before-processing",
+            "kind": "user",
+            "timestamp": "2026-08-11T19:28:55Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,7 +75,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "4k2gSf": "Get Nitro",
+                "n9cZTH": "Submit a developer appeal"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +88,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-11T20:16:54.728788+00:00"
+    "timestamp": "2026-08-11T20:37:45.746084+00:00"
 }
