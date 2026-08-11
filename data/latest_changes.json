@@ -1,138 +1,12 @@
 {
-    "build_hash": "27b0f8164e2e1f2f76c9f0da90d77be87dcf83c9",
+    "build_hash": "aaaa0680ea043c0c45c3b8d9bad8c15470dbbb9d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-new-video-quest-progress-bar-styling",
-            "kind": "user",
-            "timestamp": "2026-08-11T20:31:28Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-01-favorites-server",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled",
-                "hasHigherPrivileges",
-                "isFreemium"
-            ],
-            "old_default_config": {
-                "enabled": false,
-                "hasHigherPrivileges": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true,
-                    "hasHigherPrivileges": true
-                },
-                "2": {
-                    "enabled": true,
-                    "hasHigherPrivileges": false
-                },
-                "3": {
-                    "enabled": true,
-                    "hasHigherPrivileges": true,
-                    "isFreemium": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                },
-                "2": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-01-favorites-server",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled",
-                "hasHigherPrivileges",
-                "isFreemium"
-            ],
-            "old_default_config": {
-                "enabled": false,
-                "hasHigherPrivileges": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true,
-                    "hasHigherPrivileges": true
-                },
-                "2": {
-                    "enabled": true,
-                    "hasHigherPrivileges": false
-                },
-                "3": {
-                    "enabled": true,
-                    "hasHigherPrivileges": true,
-                    "isFreemium": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                },
-                "2": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [
         {
@@ -142,17 +16,24 @@
             "default_config": {
                 "enabled": false
             },
-            "experiment_source": "reference_comment",
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
-            "id": "2026-08-favorites-server",
+            "id": "2026-07-personal-widget",
             "kind": "user",
             "status": "added",
-            "timestamp": "2026-08-11T20:55:42Z",
             "treatments": [
-                "Variant 1"
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
             ],
             "variations": {
+                "0": {
+                    "enabled": false
+                },
                 "1": {
+                    "enabled": true
+                },
+                "2": {
                     "enabled": true
                 }
             }
@@ -166,16 +47,23 @@
             "default_config": {
                 "enabled": false
             },
-            "experiment_source": "reference_comment",
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
-            "id": "2026-08-favorites-server",
+            "id": "2026-07-personal-widget",
             "kind": "user",
-            "timestamp": "2026-08-11T20:55:42Z",
             "treatments": [
-                "Variant 1"
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
             ],
             "variations": {
+                "0": {
+                    "enabled": false
+                },
                 "1": {
+                    "enabled": true
+                },
+                "2": {
                     "enabled": true
                 }
             }
@@ -184,14 +72,9 @@
     "string_changes": {
         "en": {
             "added": {
-                "2NWMqY": "Model settings",
-                "4AsQHS": "Thinking effort",
-                "4k2gSf": "Get Nitro",
-                "9FRudW": "Model",
-                "COVYeS": "Model settings",
-                "ICU5aW": "Changes apply from your next message.",
-                "ISmynF": "Thinking (orchestrator)",
-                "n9cZTH": "Submit a developer appeal"
+                "IS+QTV": "Create your own custom widget with Nitro",
+                "KKGxNt": "New! Design your own widget with Nitro",
+                "RCy7Px": "Try it Out"
             },
             "deleted": {},
             "modified": {}
@@ -202,5 +85,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-11T21:09:44.803758+00:00"
+    "timestamp": "2026-08-11T21:20:21.460544+00:00"
 }
