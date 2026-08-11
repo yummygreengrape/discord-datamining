@@ -1,5 +1,5 @@
 {
-    "build_hash": "1e44ad16e1269457ace5ece3b00f32dd37a930c0",
+    "build_hash": "4a625fd3755b2a2b55c679c7bb9f813176e6b11a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,13 @@
     "string_changes": {
         "en": {
             "added": {
-                "ZcyFYa": "Exited Nitro preview"
+                "F3dWTe": "Dismiss suggested channels",
+                "Hevebj": "Add {name} to Favorites",
+                "oHWnLy": "Suggested Channels"
             },
-            "deleted": {},
+            "deleted": {
+                "Yw4x8Q": "$[{count, number}/{limit, number}](countHook) Favorites used. [Get {nitroTierName}]({onClick}) to raise your Favorites limit from {limit, number} to {maxCount, number}."
+            },
             "modified": {}
         },
         "ko": {
@@ -24,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-11T01:54:00.857897+00:00"
+    "timestamp": "2026-08-11T02:24:56.724919+00:00"
 }
