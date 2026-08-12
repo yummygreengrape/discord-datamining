@@ -1,18 +1,91 @@
 {
-    "build_hash": "86b7f1051b216079f530c0921f94fe31a1d7c11e",
+    "build_hash": "77b070228ad966e82725fbeaf3464b21f9938721",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [
+    "deleted_experiment_details": [
         {
+            "config_keys": [
+                "enableNewRequestBehavior"
+            ],
+            "default_config": {
+                "enableNewRequestBehavior": false
+            },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-05-user-settings-redesign-4d",
+            "id": "2025-10-ad-request-behavior-experiment",
             "kind": "user",
-            "timestamp": "2026-08-12T18:25:00Z",
+            "status": "deleted",
+            "timestamp": "2026-08-12T19:53:47Z",
             "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6"
+            ],
+            "variations": {
+                "1": {
+                    "enableNewRequestBehavior": false
+                },
+                "2": {
+                    "enableNewRequestBehavior": true
+                },
+                "3": {
+                    "enableNewRequestBehavior": false
+                },
+                "4": {
+                    "enableNewRequestBehavior": true
+                },
+                "5": {
+                    "enableNewRequestBehavior": true
+                },
+                "6": {
+                    "enableNewRequestBehavior": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enableNewRequestBehavior"
+            ],
+            "default_config": {
+                "enableNewRequestBehavior": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-ad-request-behavior-experiment",
+            "kind": "user",
+            "timestamp": "2026-08-12T19:53:47Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6"
+            ],
+            "variations": {
+                "1": {
+                    "enableNewRequestBehavior": false
+                },
+                "2": {
+                    "enableNewRequestBehavior": true
+                },
+                "3": {
+                    "enableNewRequestBehavior": false
+                },
+                "4": {
+                    "enableNewRequestBehavior": true
+                },
+                "5": {
+                    "enableNewRequestBehavior": true
+                },
+                "6": {
+                    "enableNewRequestBehavior": true
+                }
+            }
         }
     ],
     "extractor_version": 20,
@@ -25,11 +98,7 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "CONNECTIONS_USER_SETTINGS_CONNECT_ACCOUNTS_DESCRIPTION": "This information will not be shared outside of Discord without your permission, and is used in accordance with Discord’s [Privacy Policy]({privacyPolicyUrl}).",
-                "CONNECTIONS_USER_SETTINGS_CONNECT_ACCOUNTS_HEADER": "Add accounts to your profile",
-                "bTjP+Y": "App preview (local worker)"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -38,5 +107,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T19:46:47.984839+00:00"
+    "timestamp": "2026-08-12T19:57:22.446314+00:00"
 }
