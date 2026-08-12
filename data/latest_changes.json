@@ -1,50 +1,18 @@
 {
-    "build_hash": "920a26a20b12fa58d642df1784519f9b3d62bb76",
+    "build_hash": "2911675005eb6d47400ab7973486c7afbb572edc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-gsh-subs-activity-bar",
-            "kind": "user",
-            "timestamp": "2026-08-12T20:52:22Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-gsh-subs-activity-bar",
-            "kind": "user",
-            "timestamp": "2026-08-12T20:54:24Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Fp+l7E": "Hide any badges you don't want to appear publicly",
-                "QVHyhK": "You don't have any badges you can hide yet.",
-                "TPp3Mq": "Toggles whether this badge appears on your profile",
-                "gOrBCw": "Spin up your own hosted server and start playing with friends in seconds.",
-                "k9KZ2L": "Host a {gameName} game server",
-                "oZ4ZFn": "Host a {gameName} game server!",
-                "sElzfG": "View plans"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -54,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T21:00:27.179564+00:00"
+    "timestamp": "2026-08-12T21:21:16.765736+00:00"
 }
