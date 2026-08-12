@@ -1,5 +1,5 @@
 {
-    "build_hash": "d4f9739caf7f56a0dbbe145b3b9e7d117ae794fc",
+    "build_hash": "482495cb7f20ee0a39906fc9b53fa9fd9fcdd2f6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,11 +8,126 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-game-server-hosting-in-shop",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-gsh-subs-activity-bar",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-08-12T20:48:19Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-game-server-hosting-in-shop",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-gsh-subs-activity-bar",
+            "kind": "user",
+            "timestamp": "2026-08-12T20:48:19Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "gOrBCw": "Spin up your own hosted server and start playing with friends in seconds.",
+                "k9KZ2L": "Host a {gameName} game server",
+                "oZ4ZFn": "Host a {gameName} game server!",
+                "sElzfG": "View plans"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +137,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T20:39:21.390570+00:00"
+    "timestamp": "2026-08-12T20:49:53.235487+00:00"
 }
