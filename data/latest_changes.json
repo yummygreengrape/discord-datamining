@@ -1,5 +1,5 @@
 {
-    "build_hash": "f993177237a45efc6c3083dce4e0306ffc13e533",
+    "build_hash": "52c874048c7d93ce62f5133bf348cf3f3c3e268b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,34 +13,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "/Go08F": "Control who can see your game and app activity when you join a new server.",
-                "/sAeRY": "Share in servers under 200 members",
-                "1PougL": "Servers I Share With",
-                "OO17Lg": "Customize the servers that I share with.",
-                "TvuhQc": "Terms of service and privacy policy",
-                "USER_SETTINGS_PRIVACY_TERMS": "Check out our [Terms of Service]({termsLink}) and [Privacy Policy]({privacyLink}).",
-                "USER_SETTINGS_PRIVACY_TERMS_SEARCHABLE": "Terms of service and privacy policy",
-                "UzGMH9": "Do not share",
-                "VDcvrR": "Default Sharing",
-                "xvCsx4": "Check out our [Terms of Service]({termsLink}) and [Privacy Policy]({privacyLink})."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "/Go08F": "신규 서버에 참가할 때 내 게임과 앱 활동을 볼 수 있는 사람을 설정해요.",
-                "/sAeRY": "멤버 수 200명 미만의 서버에 공유",
-                "1PougL": "내가 공유하는 서버",
-                "OO17Lg": "내가 공유할 서버를 커스터마이즈해요.",
-                "TvuhQc": "이용 약관과 개인정보 보호 정책",
-                "UzGMH9": "공유 금지",
-                "VDcvrR": "기본 공유",
-                "xvCsx4": "[이용 약관]({termsLink})과 [개인정보 보호 정책]({privacyLink})을 확인하세요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T00:09:22.716491+00:00"
+    "timestamp": "2026-08-12T00:19:56.338854+00:00"
 }
