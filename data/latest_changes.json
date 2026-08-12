@@ -1,12 +1,241 @@
 {
-    "build_hash": "d51c603a6c5e19afc345f1502d9c0ca8255c94ec",
+    "build_hash": "da6f116ea6e988b7af4e5637a7f9b150f8c3eb68",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-friendship-anniversary-gifting",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-08-12T17:57:45Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-friendship-anniversary-gifting",
+            "kind": "user",
+            "timestamp": "2026-08-12T17:57:45Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "TF.v.GRADIENT",
+                "surface": "TF.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TV.v.GRADIENT",
+                "surface": "TV.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TV.v.GRADIENT",
+                    "surface": "TV.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TV.v.EXPRESSIVE",
+                    "surface": "TV.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TV.v.GRADIENT",
+                    "surface": "TV.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TV.v.GLOWING",
+                    "surface": "TV.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TV.v.GLOWING",
+                    "surface": "TV.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "TF.v.GRADIENT",
+                    "surface": "TF.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TF.v.EXPRESSIVE",
+                    "surface": "TF.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TF.v.GRADIENT",
+                    "surface": "TF.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TF.v.GLOWING",
+                    "surface": "TF.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TF.v.GLOWING",
+                    "surface": "TF.F.NONE"
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "TF.v.GRADIENT",
+                "surface": "TF.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "TV.v.GRADIENT",
+                "surface": "TV.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "TV.v.GRADIENT",
+                    "surface": "TV.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TV.v.EXPRESSIVE",
+                    "surface": "TV.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TV.v.GRADIENT",
+                    "surface": "TV.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TV.v.GLOWING",
+                    "surface": "TV.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TV.v.GLOWING",
+                    "surface": "TV.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "TF.v.GRADIENT",
+                    "surface": "TF.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "TF.v.EXPRESSIVE",
+                    "surface": "TF.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "TF.v.GRADIENT",
+                    "surface": "TF.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "TF.v.GLOWING",
+                    "surface": "TF.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "TF.v.GLOWING",
+                    "surface": "TF.F.NONE"
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -22,5 +251,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T17:40:53.415563+00:00"
+    "timestamp": "2026-08-12T18:01:34.529903+00:00"
 }
