@@ -1,8 +1,53 @@
 {
-    "build_hash": "43274107d71b3414a527924dce34e3826cd06bb7",
+    "build_hash": "90dafb787231d6b0ab4f4ce6a5505845e3610791",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enableRedesign"
+            ],
+            "default_config": {
+                "enableRedesign": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-clips-settings-redesign",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-08-12T01:32:06Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableRedesign": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enableRedesign"
+            ],
+            "default_config": {
+                "enableRedesign": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-clips-settings-redesign",
+            "kind": "user",
+            "timestamp": "2026-08-12T01:32:06Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableRedesign": true
+                }
+            }
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,14 +58,38 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "01JPeO": "Perspectives",
+                "CLIPS_SETTINGS_ENABLE_DECOUPLED_CLIPS": "Enable Always-On Game Clipping",
+                "CLIPS_SETTINGS_ENABLE_DECOUPLED_CLIPS_HELP": "Enables you to capture clips while gaming (even if you’re not streaming).",
+                "Xnx+Co": "Automatically create clips of all the perspectives in your voice channel.",
+                "YP3ujk": "Enables you to capture clips while gaming (even if you’re not streaming).",
+                "dJ2tX+": "Automatically create clips based on in-game events and achievements.",
+                "iIwmV5": "Recording",
+                "iV6KcI": "In-Game Events & Achievements",
+                "sA0WKL": "Automatic Clipping",
+                "vlDHdC": "The maximum number of automatically created clips to keep stored to save storage.",
+                "yXvykv": "Enable Always-On Game Clipping",
+                "yfsrDI": "Auto Clip Storage Limit"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "01JPeO": "관점",
+                "Xnx+Co": "음성 채널에서 모든 시점의 클립을 자동으로 생성해요.",
+                "YP3ujk": "방송을 하고 있지 않을 때도, 게임 중 클립을 캡처할 수 있게 활성화해요.",
+                "dJ2tX+": "게임 내 이벤트와 업적을 기반으로 클립을 자동으로 생성해요.",
+                "iIwmV5": "기록",
+                "iV6KcI": "게임 내 이벤트 및 업적",
+                "sA0WKL": "자동 클립 기능",
+                "vlDHdC": "저장 공간을 절약하기 위해 자동으로 생성된 클립을 보관할 수 있는 최대 개수예요.",
+                "yXvykv": "상시 게임 클립 기능 활성화",
+                "yfsrDI": "자동 클립 저장 한도"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T01:12:46.156860+00:00"
+    "timestamp": "2026-08-12T01:33:30.255601+00:00"
 }
