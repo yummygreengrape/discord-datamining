@@ -1,8 +1,20 @@
 {
-    "build_hash": "9b85f45afffac2caf73cf63d8a53650b15d79462",
+    "build_hash": "398fe2f3e046f1c0f2a3a8e34937c22b2d1ce530",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-boosting-settings-refresh",
+            "kind": "user",
+            "timestamp": "2026-08-12T13:41:34Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T14:53:47.212386+00:00"
+    "timestamp": "2026-08-12T15:15:14.364060+00:00"
 }
