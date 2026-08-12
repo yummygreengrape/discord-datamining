@@ -1,93 +1,8 @@
 {
-    "build_hash": "77b070228ad966e82725fbeaf3464b21f9938721",
+    "build_hash": "f7459c4b031e4d0c4433dd3980a02e8de0319ae5",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enableNewRequestBehavior"
-            ],
-            "default_config": {
-                "enableNewRequestBehavior": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-10-ad-request-behavior-experiment",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-08-12T19:53:47Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5",
-                "Variant 6"
-            ],
-            "variations": {
-                "1": {
-                    "enableNewRequestBehavior": false
-                },
-                "2": {
-                    "enableNewRequestBehavior": true
-                },
-                "3": {
-                    "enableNewRequestBehavior": false
-                },
-                "4": {
-                    "enableNewRequestBehavior": true
-                },
-                "5": {
-                    "enableNewRequestBehavior": true
-                },
-                "6": {
-                    "enableNewRequestBehavior": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enableNewRequestBehavior"
-            ],
-            "default_config": {
-                "enableNewRequestBehavior": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-10-ad-request-behavior-experiment",
-            "kind": "user",
-            "timestamp": "2026-08-12T19:53:47Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5",
-                "Variant 6"
-            ],
-            "variations": {
-                "1": {
-                    "enableNewRequestBehavior": false
-                },
-                "2": {
-                    "enableNewRequestBehavior": true
-                },
-                "3": {
-                    "enableNewRequestBehavior": false
-                },
-                "4": {
-                    "enableNewRequestBehavior": true
-                },
-                "5": {
-                    "enableNewRequestBehavior": true
-                },
-                "6": {
-                    "enableNewRequestBehavior": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -97,7 +12,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "4NWSxa": "$[**{user}**](userHook) created a media channel $[**{target}**](targetHook)",
+                "VvNgHX": "$[**{user}**](userHook) created a forum channel $[**{target}**](targetHook)",
+                "eYP6UV": "$[**{user}**](userHook) created an announcement channel $[**{target}**](targetHook)"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -107,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T19:57:22.446314+00:00"
+    "timestamp": "2026-08-12T20:08:02.860248+00:00"
 }
