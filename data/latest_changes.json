@@ -1,8 +1,20 @@
 {
-    "build_hash": "d3213c404c9fc4a2704dd1ca8669735597681979",
+    "build_hash": "86b7f1051b216079f530c0921f94fe31a1d7c11e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-user-settings-redesign-4d",
+            "kind": "user",
+            "timestamp": "2026-08-12T18:25:00Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,7 +25,11 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "CONNECTIONS_USER_SETTINGS_CONNECT_ACCOUNTS_DESCRIPTION": "This information will not be shared outside of Discord without your permission, and is used in accordance with Discord’s [Privacy Policy]({privacyPolicyUrl}).",
+                "CONNECTIONS_USER_SETTINGS_CONNECT_ACCOUNTS_HEADER": "Add accounts to your profile",
+                "bTjP+Y": "App preview (local worker)"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +38,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T19:35:50.469457+00:00"
+    "timestamp": "2026-08-12T19:46:47.984839+00:00"
 }
