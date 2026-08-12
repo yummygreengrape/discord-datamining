@@ -1,5 +1,5 @@
 {
-    "build_hash": "4a583440ad21c0526e4a171f76c06833b4debf65",
+    "build_hash": "d3213c404c9fc4a2704dd1ca8669735597681979",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,7 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "bTjP+Y": "App preview (local worker)"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T19:24:48.194390+00:00"
+    "timestamp": "2026-08-12T19:35:50.469457+00:00"
 }
