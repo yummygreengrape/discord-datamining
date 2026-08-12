@@ -1,255 +1,46 @@
 {
-    "build_hash": "da6f116ea6e988b7af4e5637a7f9b150f8c3eb68",
+    "build_hash": "a4b3c26644e9f5820b6ce970cfe3c61ea072bc1e",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-10-friendship-anniversary-gifting",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-08-12T17:57:45Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                },
-                "2": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
     "deleted_experiments": [
         {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2025-10-friendship-anniversary-gifting",
+            "id": "2026-05-user-settings-redesign-4d",
             "kind": "user",
-            "timestamp": "2026-08-12T17:57:45Z",
+            "timestamp": "2026-08-12T18:25:00Z",
             "treatments": [
                 "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                },
-                "2": {
-                    "enabled": true
-                }
-            }
+                "Variant 1"
+            ]
         }
     ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "TF.v.GRADIENT",
-                "surface": "TF.F.NONE"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "old_config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "old_default_config": {
-                "badgeStyle": "TV.v.GRADIENT",
-                "surface": "TV.F.NONE"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "TV.v.GRADIENT",
-                    "surface": "TV.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "TV.v.EXPRESSIVE",
-                    "surface": "TV.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "TV.v.GRADIENT",
-                    "surface": "TV.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "TV.v.GLOWING",
-                    "surface": "TV.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "TV.v.GLOWING",
-                    "surface": "TV.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "TF.v.GRADIENT",
-                    "surface": "TF.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "TF.v.EXPRESSIVE",
-                    "surface": "TF.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "TF.v.GRADIENT",
-                    "surface": "TF.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "TF.v.GLOWING",
-                    "surface": "TF.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "TF.v.GLOWING",
-                    "surface": "TF.F.NONE"
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "TF.v.GRADIENT",
-                "surface": "TF.F.NONE"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "old_config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "old_default_config": {
-                "badgeStyle": "TV.v.GRADIENT",
-                "surface": "TV.F.NONE"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "TV.v.GRADIENT",
-                    "surface": "TV.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "TV.v.EXPRESSIVE",
-                    "surface": "TV.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "TV.v.GRADIENT",
-                    "surface": "TV.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "TV.v.GLOWING",
-                    "surface": "TV.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "TV.v.GLOWING",
-                    "surface": "TV.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "TF.v.GRADIENT",
-                    "surface": "TF.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "TF.v.EXPRESSIVE",
-                    "surface": "TF.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "TF.v.GRADIENT",
-                    "surface": "TF.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "TF.v.GLOWING",
-                    "surface": "TF.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "TF.v.GLOWING",
-                    "surface": "TF.F.NONE"
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "CONNECTIONS_USER_SETTINGS_CONNECT_ACCOUNTS_DESCRIPTION": "This information will not be shared outside of Discord without your permission, and is used in accordance with Discord’s [Privacy Policy]({privacyPolicyUrl}).",
+                "CONNECTIONS_USER_SETTINGS_CONNECT_ACCOUNTS_HEADER": "Add accounts to your profile",
+                "ZeDrUf": "Add accounts to your profile",
+                "oYc+Gz": "This information will not be shared outside of Discord without your permission, and is used in accordance with Discord’s [Privacy Policy]({privacyPolicyUrl})."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "ZeDrUf": "계정에 프로필 연결",
+                "oYc+Gz": "이 정보는 회원님의 동의 없이 Discord 외부에 공유되지 않으며, Discord [개인정보 보호 정책]({privacyPolicyUrl})에 따라 사용돼요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T18:01:34.529903+00:00"
+    "timestamp": "2026-08-12T18:32:32.373632+00:00"
 }
