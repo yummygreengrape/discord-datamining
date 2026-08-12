@@ -1,5 +1,5 @@
 {
-    "build_hash": "0595c18d29f45ad0729036eb9edeef85b2ce57d1",
+    "build_hash": "4ffe239979d3f5b6c177d909560b7ea5c52b13ab",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,13 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "DpZqVj": "Enable Auto Clips",
+                "GqojUr": "Automatically capture key gaming moments. [Learn more]({learnMoreLink})",
+                "oaIXoz": "Enable Clips & Auto Clips",
+                "owG+AO": "Auto Clips is here",
+                "peZtJo": "Automatically capture gaming moments with Auto Clips."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T02:04:48.181112+00:00"
+    "timestamp": "2026-08-12T03:46:48.348850+00:00"
 }
