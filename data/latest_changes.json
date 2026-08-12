@@ -1,59 +1,8 @@
 {
-    "build_hash": "3f01427478394276f4cd92130527e208a94ed831",
+    "build_hash": "77a19a204555011a0a57d086f7af8e5c5ed94b36",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-friendship-anniversary-backend-persistence",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-friendship-anniversary-backend-persistence",
-            "kind": "user",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -64,14 +13,32 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "EADv+4": "+{count} more",
+                "LVwR56": "Accounts You’ve Blocked or Ignored",
+                "NSFW_DM_COMMANDS_HEADER": "Allow access to age-restricted commands from apps in Direct Messages",
+                "NSFW_GUILDS_TOGGLE_CAPTION_V2": "After joining on desktop, view your servers for people 18+ on iOS devices",
+                "VaxeGn": "Game Friends are players you have added as friends only in connected games. They have less access to you than your Discord Friends. [Learn more]({helpdeskArticle})",
+                "XahVjj": "Allow access to age-restricted commands from apps in Direct Messages",
+                "hiM8pU": "After joining on desktop, view your servers for people 18+ on iOS devices",
+                "oYaYOe": "Manage games in **Authorized Apps**",
+                "sHFdTg": "{gameList}, $[](plusMoreHook)"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "EADv+4": "+{count} 더 보기",
+                "LVwR56": "차단하거나 무시한 계정",
+                "VaxeGn": "게임 친구는 연결된 게임에서만 친구로 추가한 플레이어예요. Discord 친구보다 접근할 수 있는 권한이 적어요. [자세히 알아보기]({helpdeskArticle})",
+                "XahVjj": "다이렉트 메시지에서 앱의 연령 제한 명령어 액세스 허용",
+                "hiM8pU": "데스크톱으로 참가 후, iOS 기기에서 만 18세 이상을 위한 서버 표시",
+                "oYaYOe": "bHook인증된 앱에서 게임을 관리하세요",
+                "sHFdTg": "{gameList}, plusMoreHookHook"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T17:09:12.825800+00:00"
+    "timestamp": "2026-08-12T17:19:46.418625+00:00"
 }
