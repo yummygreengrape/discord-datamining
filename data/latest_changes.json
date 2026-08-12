@@ -1,5 +1,5 @@
 {
-    "build_hash": "cbc07355d6b333ea4fd3de935cb46d08afd28531",
+    "build_hash": "f21a703215206b27d499a4572bbe5495bd0b6347",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,25 +13,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "BfLmm+": "Add to Library",
-                "EkUv4u": "Discord has automatically created this clip for you. Unless you add it to your library it will be deleted to save storage."
-            },
-            "modified": {
-                "6AXirz": {
-                    "new_value": "Discord has automatically clipped some of these for you.",
-                    "old_value": "Discord has automatically clipped some of these for you. Unless you add them to your library they will be deleted to save storage."
-                }
-            }
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "BfLmm+": "라이브러리에 추가",
-                "EkUv4u": "Discord에서 자동으로 이 클립을 생성했어요. 라이브러리에 추가하지 않으면 저장 공간을 절약하기 위해 삭제돼요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T03:57:22.834972+00:00"
+    "timestamp": "2026-08-12T04:28:17.129091+00:00"
 }
