@@ -1,5 +1,5 @@
 {
-    "build_hash": "eaecd315687ee9c0d0c0e0c32100b3ffb4b922c4",
+    "build_hash": "e5d4ee388c7c6245f2f7fff4564680716a5dbe0e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,13 +8,65 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-nvenc-reconstructed-frames",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-08-12T22:42:18Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-nvenc-reconstructed-frames",
+            "kind": "user",
+            "timestamp": "2026-08-12T22:42:18Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "ZN3tIx": "Scheduling for {timestamp} at {timestamp}"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "MQcRX/": {
+                    "new_value": "Scheduling message for {timestamp} at {timestamp}",
+                    "old_value": "Scheduling message for {timestamp} at {timestamp} (in your timezone)"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +74,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T22:33:44.798497+00:00"
+    "timestamp": "2026-08-12T22:44:18.608165+00:00"
 }
