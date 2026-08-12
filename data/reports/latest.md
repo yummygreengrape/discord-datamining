@@ -184,10 +184,10 @@ Quests 카드가 시작 전 남은 시간을 정확한 숫자 대신 ‘30초+�
 - repository_tests: passed (12 tests)
 - git_diff_check: passed
 - notes: JSON and report contracts, 163-row history/public interpretation parity, bilingual pairing and English purity, 42 unresolved records, fallback phrases, report pointers, 12 repository tests, scoped public-path security scanning, and git diff checks passed. The required full-checkout scan reported only the intentionally ignored local data/history.json and pre-existing .DS_Store files; none is staged or published. No parser or application code changed.
-- data_commit: pending
-- report_publish_commit: pending
-- pushed: false
-- publish_status: pending validation and publish
+- data_commit: 13f90b95733d2f40a2ef86a24788749e7cdec0ca
+- report_publish_commit: recorded by this follow-up metadata commit
+- pushed: true
+- publish_status: passed (`13f90b95733d` pushed to `origin/main`; final metadata recorded by follow-up commit)
 
 ## Security/privacy impact
 
