@@ -1,8 +1,19 @@
 {
-    "build_hash": "fb7f19c5e8085e57822bc0e9d33e44db8b0a90e5",
+    "build_hash": "b965ad8bac6d4a691227afd3d2b613e33904bbd4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-pix-for-otp",
+            "kind": "user",
+            "timestamp": "2026-08-12T22:55:27Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 20,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-12T23:37:53.216435+00:00"
+    "timestamp": "2026-08-13T00:15:51.076389+00:00"
 }
