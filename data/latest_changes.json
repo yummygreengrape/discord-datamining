@@ -1,15 +1,37 @@
 {
-    "build_hash": "0cb085e1ab46793edfe7d013b5f805b547c57ff7",
+    "build_hash": "ddd730268ab11a638771a17f5c1f9217d621fdd9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-client-heartbeat-skipped",
+            "kind": "user",
+            "timestamp": "2026-08-13T17:30:58Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-client-heartbeat-skipped",
+            "kind": "user",
+            "timestamp": "2026-08-13T17:36:01Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +44,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-13T18:33:45.934767+00:00"
+    "timestamp": "2026-08-13T18:44:29.247565+00:00"
 }
