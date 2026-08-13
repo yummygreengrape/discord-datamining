@@ -1,5 +1,5 @@
 {
-    "build_hash": "a4d1e7e8ad0d4ba46b828332ae6227eda011f010",
+    "build_hash": "78bbedddff54e4ed2df130b2c36d0a3d06789cf3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "P+DDLh": "Get 5,000 Orbs",
-                "dOZh6X": "When you complete this gift purchase"
+                "JrOki0": "Reorder badges with Nitro"
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-13T20:30:53.124244+00:00"
+    "timestamp": "2026-08-13T20:41:29.612875+00:00"
 }
