@@ -1,5 +1,5 @@
 {
-    "build_hash": "0f34269164cf8a150247247e3b2d02463b8b1a4b",
+    "build_hash": "aad5a3f7122ddce88f8e16938075083506d99c80",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,15 +12,24 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "KcOpCm": "Edit Server Hub",
+                "hpAg80": "{panelCount, plural, one {# panel active} other {# panels active}}"
+            },
+            "deleted": {
+                "HmFYc5": "Your changes couldn't be saved. Try again.",
+                "lXCMda": "Edit Hub"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "HmFYc5": "변경 사항을 저장할 수 없습니다. 다시 시도해 주세요.",
+                "lXCMda": "허브 편집"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-08-13T23:19:04.586476+00:00"
+    "timestamp": "2026-08-13T23:29:40.646062+00:00"
 }
