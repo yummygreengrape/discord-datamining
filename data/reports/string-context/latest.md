@@ -1,6 +1,6 @@
 # Discord string context report — 2026-08-13
 
-- Generated at: 2026-08-13T09:11:50.762Z
+- Generated at: 2026-08-13T09:15:55.366Z
 - Period: 2026-08-10T17:31:20.909327+00:00 to 2026-08-12T22:44:18.608165+00:00
 - Build hash: 500c65c0267c0ecfa8a22ca061557af695ba372f
 - Annotated: 80 rows across 9 clusters
@@ -51,7 +51,7 @@ The current string_changes maps are empty. The existing payload was preserved by
 
 ## Validations
 
-Status: passed_pre_publish
+Status: passed
 
 - required JSON parsing: passed
 - 80 selected analysis-only row changes: passed
@@ -68,11 +68,11 @@ Status: passed_pre_publish
 - private security tests and Python syntax checks: passed
 - dependency audit: passed
 - git diff checks: passed
-- clean post-push branch parity: pending
+- clean post-push branch parity: passed
 
 ## Commits
 
-- Pending publication
+- a2eb5da9 Add August 13 string context interpretations (pushed)
 
 ## Security/privacy impact
 
