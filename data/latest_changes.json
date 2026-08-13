@@ -1,5 +1,5 @@
 {
-    "build_hash": "defcc6a9abb75bb37db837f3b3eb6bb1032ecb54",
+    "build_hash": "4052a853f851d29612b5bcc55cf8d39640e9489c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "0Ka6B5": {
+                    "new_value": "For hobbies",
+                    "old_value": "For Hobbies"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-13T18:55:09.560373+00:00"
+    "timestamp": "2026-08-13T19:05:49.638939+00:00"
 }
