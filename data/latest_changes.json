@@ -1,99 +1,26 @@
 {
-    "build_hash": "78392db08a14f07029be239ad0b37ab611784e3d",
+    "build_hash": "f16578f5ee83b77cc2d7412d0fec931e61e2d469",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-expressive-modal-v2",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled"
-            ],
-            "old_default_config": {
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                },
-                "2": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-expressive-modal-v2",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled"
-            ],
-            "old_default_config": {
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                },
-                "2": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-premium-gifting-gogo-promotion",
+            "kind": "user",
+            "timestamp": "2026-08-13T22:36:53Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -106,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-13T22:26:32.740905+00:00"
+    "timestamp": "2026-08-13T22:37:10.190345+00:00"
 }
