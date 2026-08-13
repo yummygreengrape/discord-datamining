@@ -1,49 +1,17 @@
 {
-    "build_hash": "d750d06eb01d2e5da619ecb11cab771fd9a8787c",
+    "build_hash": "2bd01618e2cda151b0153d6525c9756672bb963a",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "logHeartbeatSkipped"
-            ],
-            "default_config": {
-                "logHeartbeatSkipped": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-02-client-heartbeat-skipped",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "logHeartbeatSkipped": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
     "deleted_experiments": [
         {
-            "config_keys": [
-                "logHeartbeatSkipped"
-            ],
-            "default_config": {
-                "logHeartbeatSkipped": false
-            },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
             "id": "2026-02-client-heartbeat-skipped",
             "kind": "user",
+            "timestamp": "2026-08-13T17:39:04Z",
             "treatments": [
                 "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "logHeartbeatSkipped": true
-                }
-            }
+            ]
         }
     ],
     "extractor_version": 23,
@@ -52,7 +20,18 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-client-heartbeat-skipped",
+            "kind": "user",
+            "timestamp": "2026-08-13T17:36:01Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -65,5 +44,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-13T17:30:33.579364+00:00"
+    "timestamp": "2026-08-13T17:41:08.281218+00:00"
 }
