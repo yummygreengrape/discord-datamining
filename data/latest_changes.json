@@ -1,5 +1,5 @@
 {
-    "build_hash": "1c3ff2310fc935156df523d5f19b27baaae8b8ab",
+    "build_hash": "4e32f8380a6cfefa810a8d2325008670d97fb835",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,11 +13,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "/YEoH2": "This server is age-restricted in your region. We determined you're in a restricted age group. If we made a mistake, you can reconfirm.",
-                "LL8k/n": "Age-Restricted Server",
-                "WvuuHt": "Drag to reorder your badges",
-                "XCszCi": "Confirm Age",
-                "dta2JM": "This server is age-restricted in your region. Do you want to confirm your age to join?"
+                "hZobvN": "Watch stream from {username}"
             },
             "deleted": {},
             "modified": {}
@@ -28,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-13T19:48:30.566933+00:00"
+    "timestamp": "2026-08-13T19:59:06.058014+00:00"
 }
