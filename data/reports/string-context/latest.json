@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T09:11:50.762Z",
+  "generated_at": "2026-08-13T09:15:55.366Z",
   "period": {
     "start": "2026-08-10T17:31:20.909327+00:00",
     "end": "2026-08-12T22:44:18.608165+00:00",
@@ -22,7 +22,7 @@
     "latest_changes_string_context_keys": 0,
     "history_rows_updated": 80,
     "history_rows_imported_after_cutoff": 46,
-    "history_build_header_synchronized": false,
+    "history_build_header_synchronized": true,
     "web_en_rows_updated": 75,
     "web_ko_rows_updated": 5,
     "selected_added_rows": 69,
@@ -15638,8 +15638,8 @@
     "results": []
   },
   "validations": {
-    "status": "passed_pre_publish",
-    "completed_at": "2026-08-13T09:14:25.091Z",
+    "status": "passed",
+    "completed_at": "2026-08-13T09:15:55.366Z",
     "checks": [
       {
         "name": "required JSON parsing",
@@ -15703,10 +15703,18 @@
       },
       {
         "name": "clean post-push branch parity",
-        "result": "pending"
+        "result": "passed"
       }
     ]
   },
-  "commits": [],
+  "commits": [
+    {
+      "hash": "a2eb5da9",
+      "full_hash": "a2eb5da9d515ccd89ae387151801a2b82245cb20",
+      "message": "Add August 13 string context interpretations",
+      "pushed": true,
+      "pushed_at": "2026-08-13T09:15:55.366Z"
+    }
+  ],
   "security_privacy_impact": "No trust boundary, collection purpose, field set, recipient, retention period, deletion path, backup behavior, or access control changed. This run adds interpretation only to already-public Discord product metadata and does not publish messages, user identifiers, credentials, private runner state, or private implementation logic."
 }
