@@ -1,5 +1,5 @@
 {
-    "build_hash": "b13f803c43c357173ca8c0364d68d0d01d9e7042",
+    "build_hash": "1b823b255b08e4a8d07725fa8c5610c1c80d67c8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,20 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "3HWvgk": "Remove attachment",
-                "4DQd7d": "I couldn’t get a screenshot of that. Try again?",
-                "9MOgRI": "Capture a region of the app",
-                "B5gWPk": "Capture Region",
-                "DlX57a": "I can only carry {count} files at a time.",
-                "GwEHvn": "This one didn’t make it through. Remove it and try again.",
-                "OBr7WW": "{name} — no longer available",
-                "QUFLUq": "Open {name}",
-                "cI7t94": "This one is too big to bring along.",
-                "gUn10I": "Attach Files",
-                "gV5YcR": "Download {name}",
-                "ydkvBR": "Drag to capture a piece of your app. ESC to cancel."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -35,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-14T20:22:12.991237+00:00"
+    "timestamp": "2026-08-14T20:32:50.598290+00:00"
 }
