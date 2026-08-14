@@ -1,12 +1,104 @@
 {
-    "build_hash": "adb215f3ec8c51351c97772248dcac2ee06b4f18",
+    "build_hash": "e0887325f8536749a0cf45acb4eed754844c91db",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "maxUpscale",
+                "minSnapDownDpr"
+            ],
+            "default_config": {
+                "enabled": false,
+                "maxUpscale": 1.1,
+                "minSnapDownDpr": 2
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-attachment-image-ladder",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "maxUpscale",
+                "minSnapDownDpr"
+            ],
+            "default_config": {
+                "enabled": false,
+                "maxUpscale": 1.1,
+                "minSnapDownDpr": 2
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-attachment-image-ladder",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -18,7 +110,8 @@
                 "bm1WjO": "Capture",
                 "gpCRFS": "Saved performance trace to your Downloads folder",
                 "o6Qr6n": "Capture Performance Trace",
-                "qGRW8d": "Capturing performance data…"
+                "qGRW8d": "Capturing performance data…",
+                "t+GPi4": "Next Stream"
             },
             "deleted": {},
             "modified": {}
@@ -29,5 +122,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-14T18:46:51.562389+00:00"
+    "timestamp": "2026-08-14T18:57:36.913267+00:00"
 }
