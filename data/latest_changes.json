@@ -1,5 +1,5 @@
 {
-    "build_hash": "41a79c9c21dd10705ac59994b3f506b4755db469",
+    "build_hash": "85101bb885de968e8d836d895d806fbb61a790b8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0Z9/o9": "**{name}** is meowing...",
+                "EfxyQI": "is meowing..."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-13T23:40:17.242755+00:00"
+    "timestamp": "2026-08-14T00:01:16.064519+00:00"
 }
