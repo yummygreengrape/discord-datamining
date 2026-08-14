@@ -1,5 +1,5 @@
 {
-    "build_hash": "54efc18614cad92e6bc6a5fa2051cad200470a36",
+    "build_hash": "2a8b269b54b4d781d80b35e7f47d7a8e5de596b6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -11,23 +11,23 @@
     "new_experiment_details": [
         {
             "config_keys": [
-                "enabled"
+                "showBanner"
             ],
             "default_config": {
-                "enabled": false
+                "showBanner": false
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-08-profile-embed-rendering",
+            "id": "2026-08-rich-presence-invite-banner",
             "kind": "user",
             "status": "added",
-            "timestamp": "2026-08-14T12:56:24Z",
+            "timestamp": "2026-08-14T14:52:15Z",
             "treatments": [
                 "Variant 1"
             ],
             "variations": {
                 "1": {
-                    "enabled": true
+                    "showBanner": true
                 }
             }
         }
@@ -35,29 +35,35 @@
     "new_experiments": [
         {
             "config_keys": [
-                "enabled"
+                "showBanner"
             ],
             "default_config": {
-                "enabled": false
+                "showBanner": false
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-08-profile-embed-rendering",
+            "id": "2026-08-rich-presence-invite-banner",
             "kind": "user",
-            "timestamp": "2026-08-14T12:56:24Z",
+            "timestamp": "2026-08-14T14:52:15Z",
             "treatments": [
                 "Variant 1"
             ],
             "variations": {
                 "1": {
-                    "enabled": true
+                    "showBanner": true
                 }
             }
         }
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "CHANNEL_TEXT_AREA_BARS": "ChannelTextAreaBars",
+                "DrmvNT": "Invite others in this channel to play {activityName}",
+                "TYPING_USERS": "TypingUsers",
+                "fXM+J7": "Invite to Play",
+                "gFwvLa": "Invite others to play by clicking + in the chat box."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -67,5 +73,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-14T13:05:12.174757+00:00"
+    "timestamp": "2026-08-14T14:57:30.632784+00:00"
 }
