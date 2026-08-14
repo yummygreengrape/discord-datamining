@@ -1,5 +1,5 @@
 {
-    "build_hash": "b3f338308dc5947ee00db393e83256c495052dc6",
+    "build_hash": "7ffb3cd21fafa52e8dbe2d8435fdc1a5c560e23f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,16 +14,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "OkWAc/": {
-                    "new_value": "Screen sharing is currently disabled in your region due to a Brazilian government order.",
-                    "old_value": "Screen sharing is not supported in your region."
-                },
-                "UoW002": {
-                    "new_value": "Video is currently disabled in your region due to a Brazilian government order.",
-                    "old_value": "Video is not supported in your region."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -31,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-14T21:56:46.439132+00:00"
+    "timestamp": "2026-08-14T22:07:31.427268+00:00"
 }
