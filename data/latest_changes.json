@@ -1,8 +1,20 @@
 {
-    "build_hash": "232c979f9370bced5def0ef39cc552c3ef77e237",
+    "build_hash": "c4cb4169cae1a4a59df6ad159575972cef13d072",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-collectibles-promotion-endpoint-reference",
+            "kind": "user",
+            "timestamp": "2026-08-14T22:04:01Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,9 +24,31 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "21W3EN": "Badge {position}, {badgeName}",
+                "B9PPxE": "This content is currently being hidden.",
+                "OkmBx0": "Topics",
+                "XUj46U": "Sponsored Content",
+                "Y9ZOp8": "This content is currently being shown.",
+                "foQaI1": "Manage Sponsored Content",
+                "i8WB+Y": "Sponsored Content Preferences",
+                "pmIitA": "Real Money Gaming",
+                "qPHr0x": "Badge moved, from position {from} to position {to}",
+                "tLA5Ft": "Manage how we personalize Sponsored Content and control the ad topics you see.",
+                "yyhs9L": "Manage Sponsored Content",
+                "z/MfaY": "Discord allows you to control seeing Sponsored Content associated with certain topics. If you hide a topic below, then you will see no Sponsored Content from the topic. Discord’s Ad Policy will control certain content you see regardless of these selections. [Learn more]({helpdeskArticle})"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "OkWAc/": {
+                    "new_value": "Screen sharing is currently disabled in your region due to a Brazilian government order.",
+                    "old_value": "Screen sharing is not supported in your region."
+                },
+                "UoW002": {
+                    "new_value": "Video is currently disabled in your region due to a Brazilian government order.",
+                    "old_value": "Video is not supported in your region."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +56,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-14T22:45:49.191756+00:00"
+    "timestamp": "2026-08-14T23:02:06.940591+00:00"
 }
