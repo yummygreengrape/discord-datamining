@@ -1,19 +1,73 @@
 {
-    "build_hash": "d3256d1e85a181bf8053708d4bda22e513079704",
+    "build_hash": "6c1ac23098fc4229467f659ac951b6862e6dd59c",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-scheduled-messages-ui-backup",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-08-14T00:21:50Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-scheduled-messages-ui-backup",
+            "kind": "user",
+            "timestamp": "2026-08-14T00:21:50Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-scheduled-messages",
+            "kind": "user",
+            "timestamp": "2026-08-14T00:21:50Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "0Z9/o9": "**{name}** is meowing...",
+                "EfxyQI": "is meowing...",
+                "KcOpCm": "Edit Server Hub",
+                "ZME/HA": "You unlocked 5,000 Orbs.",
+                "aMeOMj": "You can spend them in the Shop!",
+                "hpAg80": "{panelCount, plural, one {# panel active} other {# panels active}}"
+            },
+            "deleted": {
+                "lXCMda": "Edit Hub"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +76,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-14T00:11:57.072705+00:00"
+    "timestamp": "2026-08-14T00:22:42.101214+00:00"
 }
