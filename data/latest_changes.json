@@ -1,5 +1,5 @@
 {
-    "build_hash": "6109cb07e189e67455c7e0b14b9c189aee890fa7",
+    "build_hash": "adb215f3ec8c51351c97772248dcac2ee06b4f18",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,14 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "JEHHJ1": "Discord will capture performance information for 30 seconds and save it to your Downloads folder.",
+                "OuGtH8": "Record 30 seconds of performance data and save it to a file you can attach to a support ticket.",
+                "bm1WjO": "Capture",
+                "gpCRFS": "Saved performance trace to your Downloads folder",
+                "o6Qr6n": "Capture Performance Trace",
+                "qGRW8d": "Capturing performance data…"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-14T18:36:11.297859+00:00"
+    "timestamp": "2026-08-14T18:46:51.562389+00:00"
 }
