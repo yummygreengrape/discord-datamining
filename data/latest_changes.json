@@ -1,5 +1,5 @@
 {
-    "build_hash": "2ce8e5c52428599ee40f0655dcfb0fbbc63b4e9d",
+    "build_hash": "d2c89a73f211d07369e341658deacd18d06e06b4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,67 +8,11 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "videoEnabled"
-            ],
-            "default_config": {
-                "videoEnabled": true
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-video-guard",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-08-14T00:43:01Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "videoEnabled": false
-                },
-                "2": {
-                    "videoEnabled": false
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "videoEnabled"
-            ],
-            "default_config": {
-                "videoEnabled": true
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-video-guard",
-            "kind": "user",
-            "timestamp": "2026-08-14T00:43:01Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "videoEnabled": false
-                },
-                "2": {
-                    "videoEnabled": false
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "OkWAc/": "Screen sharing is not supported in your region.",
-                "UoW002": "Video is not supported in your region."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -78,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-14T00:43:56.248512+00:00"
+    "timestamp": "2026-08-14T00:54:34.210258+00:00"
 }
