@@ -1,73 +1,34 @@
 {
-    "build_hash": "6c1ac23098fc4229467f659ac951b6862e6dd59c",
+    "build_hash": "a1049e52c62c3539b1c39d1d97b285189c7a6f8e",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-scheduled-messages-ui-backup",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-08-14T00:21:50Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-scheduled-messages-ui-backup",
-            "kind": "user",
-            "timestamp": "2026-08-14T00:21:50Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
-    "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [
+    "modified_experiments": [
         {
-            "experiment_source": "reference_comment",
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
             "id": "2026-08-scheduled-messages",
             "kind": "user",
-            "timestamp": "2026-08-14T00:21:50Z",
-            "treatments": [
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
                 "Variant 1",
                 "Variant 2"
-            ]
+            ],
+            "status": "modified",
+            "treatments": []
         }
     ],
+    "new_api_endpoints": [],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0Z9/o9": "**{name}** is meowing...",
-                "EfxyQI": "is meowing...",
-                "KcOpCm": "Edit Server Hub",
-                "ZME/HA": "You unlocked 5,000 Orbs.",
-                "aMeOMj": "You can spend them in the Shop!",
-                "hpAg80": "{panelCount, plural, one {# panel active} other {# panels active}}"
-            },
-            "deleted": {
-                "lXCMda": "Edit Hub"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -76,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-14T00:22:42.101214+00:00"
+    "timestamp": "2026-08-14T00:33:19.704187+00:00"
 }
