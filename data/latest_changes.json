@@ -1,5 +1,5 @@
 {
-    "build_hash": "b3feee363b286c3c7857f38a3573cf79692932d7",
+    "build_hash": "d4d6053b304bc1e3009325b639b23bc22fcb45e3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,10 +9,24 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-profile-embed-share-button",
+            "kind": "user",
+            "timestamp": "2026-08-14T17:11:24Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "sFN1/M": "Share Profile",
+                "t+GPi4": "Next Stream"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-14T17:54:23.572537+00:00"
+    "timestamp": "2026-08-14T18:05:17.584210+00:00"
 }
