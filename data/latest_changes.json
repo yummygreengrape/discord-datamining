@@ -1,118 +1,18 @@
 {
-    "build_hash": "e0887325f8536749a0cf45acb4eed754844c91db",
+    "build_hash": "89d3dfb22252b4527d64476ba2ce9df4c9e871a7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "maxUpscale",
-                "minSnapDownDpr"
-            ],
-            "default_config": {
-                "enabled": false,
-                "maxUpscale": 1.1,
-                "minSnapDownDpr": 2
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-attachment-image-ladder",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled"
-            ],
-            "old_default_config": {
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "maxUpscale",
-                "minSnapDownDpr"
-            ],
-            "default_config": {
-                "enabled": false,
-                "maxUpscale": 1.1,
-                "minSnapDownDpr": 2
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-attachment-image-ladder",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled"
-            ],
-            "old_default_config": {
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "JEHHJ1": "Discord will capture performance information for 30 seconds and save it to your Downloads folder.",
-                "OuGtH8": "Record 30 seconds of performance data and save it to a file you can attach to a support ticket.",
-                "bm1WjO": "Capture",
-                "gpCRFS": "Saved performance trace to your Downloads folder",
-                "o6Qr6n": "Capture Performance Trace",
-                "qGRW8d": "Capturing performance data…",
-                "t+GPi4": "Next Stream"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -122,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-14T18:57:36.913267+00:00"
+    "timestamp": "2026-08-14T19:08:12.783148+00:00"
 }
