@@ -1,5 +1,5 @@
 {
-    "build_hash": "186cdfdc92aa86e46be0a9d29aa6ca0b1fc11867",
+    "build_hash": "54efc18614cad92e6bc6a5fa2051cad200470a36",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,14 +8,56 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-profile-embed-rendering",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-08-14T12:56:24Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-profile-embed-rendering",
+            "kind": "user",
+            "timestamp": "2026-08-14T12:56:24Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "CunK+J": "Remove banner",
-                "EN+0gW": "Edit Banner"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-14T09:00:45.404612+00:00"
+    "timestamp": "2026-08-14T13:05:12.174757+00:00"
 }
