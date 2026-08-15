@@ -232,10 +232,10 @@ Quest 전달 응답의 Bounty 형식을 버리지 않고 Quest bar 상태로 전
 - repository_tests: passed (12 tests)
 - git_diff_check: passed
 - notes: JSON and report contracts, 194-row history/public interpretation parity, bilingual pairing and English purity, 42 unresolved records, fallback phrases, report pointers, 12 repository tests, scoped public-path security scanning, and git diff checks passed. The required full-checkout scan reported only the intentionally ignored local data/history.json and pre-existing .DS_Store files; none is staged or published. No parser or application code changed.
-- data_commit: pending
-- report_publish_commit: pending
-- pushed: false
-- publish_status: pending
+- data_commit: e66d998b44a6076322d3c8fea97a73dfc98b888c
+- report_publish_commit: recorded by this follow-up metadata commit
+- pushed: true
+- publish_status: passed (e66d998b44a6 pushed to origin/main; final metadata recorded by follow-up commit)
 
 ## Security/privacy impact
 
