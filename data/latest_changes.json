@@ -1,53 +1,8 @@
 {
-    "build_hash": "9e597eff0a7a8f4994ac5565118b1549bca93b56",
+    "build_hash": "2473b2cab1adb8e098f0b169091aa2bea762f4e2",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-mkl-zen-cpu-dispatch-override",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-08-15T19:15:18Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-mkl-zen-cpu-dispatch-override",
-            "kind": "user",
-            "timestamp": "2026-08-15T19:15:18Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -67,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-15T19:16:13.018185+00:00"
+    "timestamp": "2026-08-15T19:57:30.705159+00:00"
 }
