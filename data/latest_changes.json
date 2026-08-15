@@ -1,61 +1,8 @@
 {
-    "build_hash": "4d6b76220ec0ec7f8d3c2038639180d39dec1246",
+    "build_hash": "0357156d779870cc83d087eb339f87ec75d877de",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-profile-frame-gifting",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-08-14T23:33:52Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-profile-frame-gifting",
-            "kind": "user",
-            "timestamp": "2026-08-14T23:33:52Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -75,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-14T23:34:09.896754+00:00"
+    "timestamp": "2026-08-15T00:05:15.113306+00:00"
 }
