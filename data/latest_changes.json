@@ -1,5 +1,5 @@
 {
-    "build_hash": "8a50d021c5ac70200f09d6c8310a9f0698dd67fa",
+    "build_hash": "2a593269db4b2c75291a7dfc81ad2aba5d17e92f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,51 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-08-premium-gifting-gogo-promotion",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-08-premium-gifting-gogo-promotion",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +65,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-15T00:15:55.381650+00:00"
+    "timestamp": "2026-08-15T01:07:27.792697+00:00"
 }
