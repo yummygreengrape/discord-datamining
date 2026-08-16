@@ -22,7 +22,7 @@
     "latest_changes_string_context_keys": 0,
     "history_rows_updated": 80,
     "history_rows_imported_after_cutoff": 0,
-    "history_build_header_synchronized": false,
+    "history_build_header_synchronized": true,
     "web_en_rows_updated": 59,
     "web_ko_rows_updated": 21,
     "selected_added_rows": 75,
@@ -16583,27 +16583,83 @@
     "results": []
   },
   "validations": {
-    "status": "prepared",
-    "completed_at": null,
+    "status": "passed",
+    "completed_at": "2026-08-16T00:16:00.214218Z",
     "checks": [
+      {
+        "name": "required JSON parsing",
+        "result": "passed"
+      },
       {
         "name": "80 selected analysis-only row changes",
         "result": "passed"
       },
       {
-        "name": "54,544-row prepared-source/web core parity",
+        "name": "54,544-row source/history/web full parity",
         "result": "passed"
       },
       {
-        "name": "private-runner fixed-path candidate scan and attestation",
+        "name": "paired Korean and English required fields",
         "result": "passed"
       },
       {
-        "name": "remaining release checks",
-        "result": "pending"
+        "name": "English-language purity",
+        "result": "passed"
+      },
+      {
+        "name": "scoped private-path, credential, SEO, and overclaim scan",
+        "result": "passed"
+      },
+      {
+        "name": "unchanged empty latest string payload",
+        "result": "passed"
+      },
+      {
+        "name": "dated/latest report pointer parity",
+        "result": "passed"
+      },
+      {
+        "name": "compact tracked web JSON",
+        "result": "passed"
+      },
+      {
+        "name": "private-runner fixed-path candidate scan and staged digest attestation",
+        "result": "passed"
+      },
+      {
+        "name": "public security scan",
+        "result": "passed"
+      },
+      {
+        "name": "public unit tests",
+        "result": "passed"
+      },
+      {
+        "name": "private security tests and Python syntax checks",
+        "result": "passed"
+      },
+      {
+        "name": "dependency audit",
+        "result": "passed"
+      },
+      {
+        "name": "git diff checks",
+        "result": "passed"
+      },
+      {
+        "name": "clean post-push branch parity",
+        "result": "passed"
       }
     ]
   },
-  "commits": [],
+  "commits": [
+    {
+      "hash": "a8be24be",
+      "full_hash": "a8be24bef0469e86b24e37336eb34c939f724eaf",
+      "message": "Add August 16 string context interpretations",
+      "pushed": true,
+      "pushed_at": "2026-08-16T00:16:00.214218Z"
+    }
+  ],
   "security_privacy_impact": "No trust boundary, collection purpose, field set, recipient, retention period, deletion path, backup behavior, or access control changed. This run adds interpretation only to already-public Discord product metadata and does not publish messages, user identifiers, credentials, private runner state, or private implementation logic."
 }
