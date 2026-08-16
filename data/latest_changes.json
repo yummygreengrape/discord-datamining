@@ -1,5 +1,5 @@
 {
-    "build_hash": "0b5aff17b43d88b7e07430f73949aff5f3a865b6",
+    "build_hash": "c171074e847aa6527a34f5bb730b29264203c7b7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "yg36OD": "App icon"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-16T09:16:42.935814+00:00"
+    "timestamp": "2026-08-16T17:55:41.778584+00:00"
 }
