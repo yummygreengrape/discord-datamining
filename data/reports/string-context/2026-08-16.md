@@ -1,7 +1,7 @@
 # Discord string context report — 2026-08-16
 
 - Generated at: 2026-08-16T00:12:07.828977Z
-- Period: 2026-08-13T19:40:08Z to 2026-08-14T23:23:30.276914+00:00
+- Period: 2026-08-13T18:45:41Z to 2026-08-14T23:23:30.276914+00:00
 - Build hash: 2473b2cab1adb8e098f0b169091aa2bea762f4e2
 - Annotated: 80 rows across 10 clusters
 - Deferred: 1572 rows
