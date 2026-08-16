@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-08-16T00:12:07.828977Z",
   "period": {
-    "start": "2026-08-13T19:40:08Z",
+    "start": "2026-08-13T18:45:41Z",
     "end": "2026-08-14T23:23:30.276914+00:00",
     "source_cutoff": "2026-08-12T22:44:18.608165+00:00",
     "timezone_note": "Run date is 2026-08-16 KST. The primary source contains 175 rows after the previous cutoff; 80 were selected and 95 were deferred in this bounded run."
