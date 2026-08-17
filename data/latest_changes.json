@@ -1,5 +1,5 @@
 {
-    "build_hash": "581a88645ef46badb1086176776d4c451f82946e",
+    "build_hash": "f675f7127d852176100ac666587d60e7f3060795",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,13 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "3sTTBu": "What could I do next?",
+                "DAvYsi": "What’s next",
+                "cwTe5o": "Inspire me",
+                "pztRGi": "Ask for “{title}”",
+                "tG5PBo": "Not sure what to do next? I can come up with a few things."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-17T01:36:13.112616+00:00"
+    "timestamp": "2026-08-17T02:07:27.880173+00:00"
 }
