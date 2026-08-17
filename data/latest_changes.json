@@ -1,5 +1,5 @@
 {
-    "build_hash": "c25cfb2e49b7a54a94e9a37615f8664b25e77c10",
+    "build_hash": "9fb904366a8525e608001ec4c7d3f64508f47620",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,20 +13,19 @@
     "string_changes": {
         "en": {
             "added": {
-                "02GpNr": "Couldn’t bring that one in. Try again.",
-                "6syXoH": "Importing swaps in the files from your archive and discards what’s here now. This can’t be undone.",
-                "7iamDC": "Export project",
-                "AzziHF": "That one’s too big to bring in.",
-                "G2GqyP": "Couldn’t export it. Try again.",
-                "NHP2+t": "Import project",
-                "XYZqZK": "Replace {name}?",
-                "XqkyM5": "That file isn’t a .zip, .tar, .tar.gz, or .rar I can bring in.",
-                "lf8HqE": "Import into this project",
-                "m7otAJ": "Finish the current conjuring first, then try again.",
-                "p5Cw7k": "Brought in {count} file(s). Tell me when you’re ready to get it running.",
-                "pgFuyr": "Replace"
+                "LK4Wsd": "Didn’t come together",
+                "MdXWEK": "A helper is at work",
+                "SxMgMJ": "{title} — {state}. Show what it did.",
+                "X3c4hc": "Done",
+                "esfcU6": "Never finished",
+                "fW7T+d": "Still going",
+                "msWvKA": "Called off",
+                "s1wx5H": "{activity}. Show or hide this piece of work."
             },
-            "deleted": {},
+            "deleted": {
+                "0ce6LB": "Sketching out the shape of it…",
+                "h6H4+U": "Worked out {count} thing(s) it can do"
+            },
             "modified": {}
         },
         "ko": {
@@ -35,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-17T03:40:06.688039+00:00"
+    "timestamp": "2026-08-17T04:31:51.023533+00:00"
 }
