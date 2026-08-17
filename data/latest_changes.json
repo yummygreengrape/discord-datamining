@@ -1,23 +1,187 @@
 {
-    "build_hash": "82e8a5dc3479f299c2518ba8ab43d84fe8e9a64c",
+    "build_hash": "1c39e7c1cfd04b249b7fe2da4d2d2ae80398df55",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "m4.v.GRADIENT",
+                "surface": "m4.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "m1.v.GRADIENT",
+                "surface": "m1.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "m1.v.GRADIENT",
+                    "surface": "m1.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "m1.v.EXPRESSIVE",
+                    "surface": "m1.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "m1.v.GRADIENT",
+                    "surface": "m1.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "m1.v.GLOWING",
+                    "surface": "m1.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "m1.v.GLOWING",
+                    "surface": "m1.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "m4.v.GRADIENT",
+                    "surface": "m4.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "m4.v.EXPRESSIVE",
+                    "surface": "m4.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "m4.v.GRADIENT",
+                    "surface": "m4.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "m4.v.GLOWING",
+                    "surface": "m4.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "m4.v.GLOWING",
+                    "surface": "m4.F.NONE"
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "m4.v.GRADIENT",
+                "surface": "m4.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "m1.v.GRADIENT",
+                "surface": "m1.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "m1.v.GRADIENT",
+                    "surface": "m1.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "m1.v.EXPRESSIVE",
+                    "surface": "m1.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "m1.v.GRADIENT",
+                    "surface": "m1.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "m1.v.GLOWING",
+                    "surface": "m1.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "m1.v.GLOWING",
+                    "surface": "m1.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "m4.v.GRADIENT",
+                    "surface": "m4.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "m4.v.EXPRESSIVE",
+                    "surface": "m4.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "m4.v.GRADIENT",
+                    "surface": "m4.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "m4.v.GLOWING",
+                    "surface": "m4.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "m4.v.GLOWING",
+                    "surface": "m4.F.NONE"
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "3Hq9pQ": "Screenshot"
-            },
-            "deleted": {
-                "pOYDEc": "Waiting for it to wake up…"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -26,5 +190,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-17T06:25:38.917558+00:00"
+    "timestamp": "2026-08-17T06:36:26.311928+00:00"
 }
