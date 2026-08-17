@@ -1,5 +1,5 @@
 {
-    "build_hash": "3c0b3d8232369b04c79c2e9ffa4d1adf2c6fb51d",
+    "build_hash": "82e8a5dc3479f299c2518ba8ab43d84fe8e9a64c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,18 +13,10 @@
     "string_changes": {
         "en": {
             "added": {
-                "6zuiBa": "{completed}/{total}",
-                "Ly7F7x": "Thinking…",
-                "QG/EiF": "Checklist: {completed} of {total} done",
-                "SzdX35": "Conjuring your app. Show how the thinking is going.",
-                "TkPGOH": "Done",
-                "bQvqly": "{completed} of {total} done",
-                "oK+fmd": "Working on this now",
-                "qCRC6c": "What I’m working through"
+                "3Hq9pQ": "Screenshot"
             },
             "deleted": {
-                "C0t6bp": "Conjuring your app",
-                "fYHrcD": "Nothing to ship yet"
+                "pOYDEc": "Waiting for it to wake up…"
             },
             "modified": {}
         },
@@ -34,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-17T05:23:35.285147+00:00"
+    "timestamp": "2026-08-17T06:25:38.917558+00:00"
 }
