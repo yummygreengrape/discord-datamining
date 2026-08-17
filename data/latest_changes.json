@@ -1,5 +1,5 @@
 {
-    "build_hash": "5aa1f1413c02cdd85f76a5f28910a28b25130c44",
+    "build_hash": "09cbe955f699c47a7423102c10ad6a82a0fab4a8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,61 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "2ejwtJ": "Package this project up and send me a copy I can download.",
-                "3Hq9pQ": "Screenshot",
-                "6zuiBa": "{completed}/{total}",
-                "C7GU2r": "Import this into this project and build it",
-                "KjEtrZ": "Import this project and build it",
-                "LK4Wsd": "Didn’t come together",
-                "Ly7F7x": "Thinking…",
-                "MdXWEK": "A helper is at work",
-                "QG/EiF": "Checklist: {completed} of {total} done",
-                "SxMgMJ": "{title} — {state}. Show what it did.",
-                "SzdX35": "Conjuring your app. Show how the thinking is going.",
-                "TkPGOH": "Done",
-                "X3c4hc": "Done",
-                "bQvqly": "{completed} of {total} done",
-                "esfcU6": "Never finished",
-                "fW7T+d": "Still going",
-                "msWvKA": "Called off",
-                "oK+fmd": "Working on this now",
-                "qCRC6c": "What I’m working through",
-                "s1wx5H": "{activity}. Show or hide this piece of work."
-            },
-            "deleted": {
-                "0ce6LB": "Sketching out the shape of it…",
-                "C0t6bp": "Conjuring your app",
-                "G2GqyP": "Couldn’t export it. Try again.",
-                "XqkyM5": "That file isn’t a .zip, .tar, .tar.gz, or .rar I can bring in.",
-                "fYHrcD": "Nothing to ship yet",
-                "h6H4+U": "Worked out {count} thing(s) it can do",
-                "m7otAJ": "Finish the current conjuring first, then try again.",
-                "p5Cw7k": "Brought in {count} file(s). Tell me when you’re ready to get it running.",
-                "pOYDEc": "Waiting for it to wake up…"
-            },
-            "modified": {
-                "7iamDC": {
-                    "new_value": "Export",
-                    "old_value": "Export project"
-                },
-                "AzziHF": {
-                    "new_value": "That one’s too big to bring in — {size} is the most I can take.",
-                    "old_value": "That one’s too big to bring in."
-                },
-                "NHP2+t": {
-                    "new_value": "Import",
-                    "old_value": "Import project"
-                },
-                "cI7t94": {
-                    "new_value": "This one is too big to bring along — {size} is the most I can carry.",
-                    "old_value": "This one is too big to bring along."
-                },
-                "lf8HqE": {
-                    "new_value": "Import",
-                    "old_value": "Import into this project"
-                }
-            }
+            "added": {},
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -74,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-17T19:41:11.347245+00:00"
+    "timestamp": "2026-08-17T19:51:57.014985+00:00"
 }
