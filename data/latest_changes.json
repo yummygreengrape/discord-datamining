@@ -1,5 +1,5 @@
 {
-    "build_hash": "418e5a16074051cc69a0f2c9cfc064152eb37d17",
+    "build_hash": "f1d2c07c687cba474ff79a58cabfbb495b659253",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,18 +7,7 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_USERS_GIFTING_PROMOTION_SUMMER_2026_GOGO_CAMPAIGN_ELIGIBILITY",
-            "status": "added",
-            "url": "/users/@me/gifting-promotion-summer-2026-gogo-campaign-eligibility"
-        },
-        {
-            "name": "GIFTING_PROMOTION_SUMMER_2026_GOGO_CAMPAIGN_ELIGIBILITY",
-            "status": "added",
-            "url": "/users/@me/gifting-promotion-summer-2026-gogo-campaign-eligibility"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
@@ -33,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-17T23:09:25.672844+00:00"
+    "timestamp": "2026-08-17T23:20:10.148721+00:00"
 }
