@@ -1,5 +1,5 @@
 {
-    "build_hash": "063e5aa5d09b3eebffedb07f92cfa0939ccd37c4",
+    "build_hash": "82bc29559a46b6ae8076d426b2a082ac8cc90861",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,67 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "source"
+            ],
+            "default_config": {
+                "source": "hook"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-08-guilds-bar-media-state-store",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "source": "hook"
+                },
+                "1": {
+                    "source": "store"
+                },
+                "2": {
+                    "source": "shadow"
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "source"
+            ],
+            "default_config": {
+                "source": "hook"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-08-guilds-bar-media-state-store",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "source": "hook"
+                },
+                "1": {
+                    "source": "store"
+                },
+                "2": {
+                    "source": "shadow"
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +81,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-17T20:54:14.753930+00:00"
+    "timestamp": "2026-08-17T21:25:29.653265+00:00"
 }
