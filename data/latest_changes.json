@@ -1,5 +1,5 @@
 {
-    "build_hash": "e54fd2256556ef53db5732c752546f9ccdf8ad0d",
+    "build_hash": "8a26d399e955ec0ec96193fd051558fa775147b2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,39 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "2ejwtJ": "Package this project up and send me a copy I can download.",
+                "C7GU2r": "Import this into this project and build it",
+                "KjEtrZ": "Import this project and build it"
+            },
+            "deleted": {
+                "G2GqyP": "Couldn’t export it. Try again.",
+                "XqkyM5": "That file isn’t a .zip, .tar, .tar.gz, or .rar I can bring in.",
+                "m7otAJ": "Finish the current conjuring first, then try again.",
+                "p5Cw7k": "Brought in {count} file(s). Tell me when you’re ready to get it running."
+            },
+            "modified": {
+                "7iamDC": {
+                    "new_value": "Export",
+                    "old_value": "Export project"
+                },
+                "AzziHF": {
+                    "new_value": "That one’s too big to bring in — {size} is the most I can take.",
+                    "old_value": "That one’s too big to bring in."
+                },
+                "NHP2+t": {
+                    "new_value": "Import",
+                    "old_value": "Import project"
+                },
+                "cI7t94": {
+                    "new_value": "This one is too big to bring along — {size} is the most I can carry.",
+                    "old_value": "This one is too big to bring along."
+                },
+                "lf8HqE": {
+                    "new_value": "Import",
+                    "old_value": "Import into this project"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +52,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-17T07:17:59.220744+00:00"
+    "timestamp": "2026-08-17T08:50:50.047130+00:00"
 }
