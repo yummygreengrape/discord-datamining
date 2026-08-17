@@ -1,5 +1,5 @@
 {
-    "build_hash": "8e4a006daa8c50f40fadc291d00fb1776a2438de",
+    "build_hash": "418e5a16074051cc69a0f2c9cfc064152eb37d17",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,18 +7,23 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_USERS_GIFTING_PROMOTION_SUMMER_2026_GOGO_CAMPAIGN_ELIGIBILITY",
+            "status": "added",
+            "url": "/users/@me/gifting-promotion-summer-2026-gogo-campaign-eligibility"
+        },
+        {
+            "name": "GIFTING_PROMOTION_SUMMER_2026_GOGO_CAMPAIGN_ELIGIBILITY",
+            "status": "added",
+            "url": "/users/@me/gifting-promotion-summer-2026-gogo-campaign-eligibility"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "GKiadO": "I couldn’t make a copy of this app. Try again?",
-                "Gc6FB2": "This app is still being worked on. Let it finish, then fork it.",
-                "gsSrw3": "I just made this as a copy of another app of mine. Look it over, tell me what it does, and suggest some ways to make it my own.",
-                "hU9QAE": "Fork",
-                "sFFX7L": "Fork App"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -28,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-17T22:07:33.487053+00:00"
+    "timestamp": "2026-08-17T23:09:25.672844+00:00"
 }
