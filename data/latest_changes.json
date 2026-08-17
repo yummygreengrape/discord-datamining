@@ -1,5 +1,5 @@
 {
-    "build_hash": "9fb904366a8525e608001ec4c7d3f64508f47620",
+    "build_hash": "3c0b3d8232369b04c79c2e9ffa4d1adf2c6fb51d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,18 +13,18 @@
     "string_changes": {
         "en": {
             "added": {
-                "LK4Wsd": "Didn’t come together",
-                "MdXWEK": "A helper is at work",
-                "SxMgMJ": "{title} — {state}. Show what it did.",
-                "X3c4hc": "Done",
-                "esfcU6": "Never finished",
-                "fW7T+d": "Still going",
-                "msWvKA": "Called off",
-                "s1wx5H": "{activity}. Show or hide this piece of work."
+                "6zuiBa": "{completed}/{total}",
+                "Ly7F7x": "Thinking…",
+                "QG/EiF": "Checklist: {completed} of {total} done",
+                "SzdX35": "Conjuring your app. Show how the thinking is going.",
+                "TkPGOH": "Done",
+                "bQvqly": "{completed} of {total} done",
+                "oK+fmd": "Working on this now",
+                "qCRC6c": "What I’m working through"
             },
             "deleted": {
-                "0ce6LB": "Sketching out the shape of it…",
-                "h6H4+U": "Worked out {count} thing(s) it can do"
+                "C0t6bp": "Conjuring your app",
+                "fYHrcD": "Nothing to ship yet"
             },
             "modified": {}
         },
@@ -34,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-17T04:31:51.023533+00:00"
+    "timestamp": "2026-08-17T05:23:35.285147+00:00"
 }
