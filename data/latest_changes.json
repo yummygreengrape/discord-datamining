@@ -1,193 +1,18 @@
 {
-    "build_hash": "a82db70c6c7c44c3607a62aa729a24857cdac12e",
+    "build_hash": "c97674ddff4ef65e0d39ebffda4fc0d8674d2bbc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "m6.v.GRADIENT",
-                "surface": "m6.F.NONE"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "old_config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "old_default_config": {
-                "badgeStyle": "m8.v.GRADIENT",
-                "surface": "m8.F.NONE"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "m8.v.GRADIENT",
-                    "surface": "m8.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "m8.v.EXPRESSIVE",
-                    "surface": "m8.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "m8.v.GRADIENT",
-                    "surface": "m8.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "m8.v.GLOWING",
-                    "surface": "m8.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "m8.v.GLOWING",
-                    "surface": "m8.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "m6.v.GRADIENT",
-                    "surface": "m6.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "m6.v.EXPRESSIVE",
-                    "surface": "m6.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "m6.v.GRADIENT",
-                    "surface": "m6.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "m6.v.GLOWING",
-                    "surface": "m6.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "m6.v.GLOWING",
-                    "surface": "m6.F.NONE"
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "m6.v.GRADIENT",
-                "surface": "m6.F.NONE"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "old_config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "old_default_config": {
-                "badgeStyle": "m8.v.GRADIENT",
-                "surface": "m8.F.NONE"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "m8.v.GRADIENT",
-                    "surface": "m8.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "m8.v.EXPRESSIVE",
-                    "surface": "m8.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "m8.v.GRADIENT",
-                    "surface": "m8.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "m8.v.GLOWING",
-                    "surface": "m8.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "m8.v.GLOWING",
-                    "surface": "m8.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "m6.v.GRADIENT",
-                    "surface": "m6.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "m6.v.EXPRESSIVE",
-                    "surface": "m6.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "m6.v.GRADIENT",
-                    "surface": "m6.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "m6.v.GLOWING",
-                    "surface": "m6.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "m6.v.GLOWING",
-                    "surface": "m6.F.NONE"
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "1Q4Cs2": "Starting fresh with this",
-                "5T7DSm": "Interrupted",
-                "67PpcP": "Add a thought while it works…",
-                "I9TkzD": "Added to the current work",
-                "KdgI4k": "Interrupt the current work",
-                "gbjY6o": "Waiting for the current work to finish"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -197,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-18T04:15:02.826391+00:00"
+    "timestamp": "2026-08-18T09:11:04.705741+00:00"
 }
