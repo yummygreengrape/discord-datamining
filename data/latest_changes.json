@@ -1,5 +1,5 @@
 {
-    "build_hash": "60e62fb9bddaca5b6b0d26c94c4be3ea81297dc3",
+    "build_hash": "bd2aca45aebd5cfc397d9e3e6b73034b753fdcab",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,12 +9,39 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-call-of-duty-3pp-nagbar",
+            "kind": "user",
+            "timestamp": "2026-08-18T21:10:58Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "0vH/5G": "Compacting…",
+                "1YhkP1": "The account is suspended because a guardian turned off access to Discord through the app store’s parental controls, not because of a policy violation.",
+                "6FXIU6": "View Guide",
+                "BaI6L4": "Ask the guardian to restore access in the app store’s parental controls (Apple or Google Play).",
+                "VS98dM": "The account is suspended because a guardian turned off access to Discord through the app store’s parental controls.",
+                "Z87TFb": "Account locked by guardian",
+                "z1L5Wt": "Ask your guardian to restore access"
+            },
+            "deleted": {
+                "cLhFMi": "Attuned"
+            },
+            "modified": {
+                "SIGN_IN_WITH_PASSKEY": {
+                    "new_value": "Or sign in with a passkey",
+                    "old_value": "Or, sign in with passkey"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +49,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-18T22:43:25.092545+00:00"
+    "timestamp": "2026-08-18T22:54:12.963826+00:00"
 }
