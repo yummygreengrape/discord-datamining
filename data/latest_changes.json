@@ -1,5 +1,5 @@
 {
-    "build_hash": "ef6d81a50a1694ce62cf980a79fd320fde7855fe",
+    "build_hash": "a3559ef0028ab5bd87e3006b02320e33bbfc1eff",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,75 +8,12 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-call-of-duty-3pp-nagbar",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-08-18T21:10:58Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-call-of-duty-3pp-nagbar",
-            "kind": "user",
-            "timestamp": "2026-08-18T21:10:58Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "1YhkP1": "The account is suspended because a guardian turned off access to Discord through the app store’s parental controls, not because of a policy violation.",
-                "6FXIU6": "View Guide",
-                "APP_STORE_PARENTAL_REVOCATION": "app_store_parental_revocation",
-                "BaI6L4": "Ask the guardian to restore access in the app store’s parental controls (Apple or Google Play).",
-                "VS98dM": "The account is suspended because a guardian turned off access to Discord through the app store’s parental controls.",
-                "Z87TFb": "Account locked by guardian",
-                "z1L5Wt": "Ask your guardian to restore access"
-            },
-            "deleted": {
-                "cLhFMi": "Attuned"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -85,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-18T21:19:17.619349+00:00"
+    "timestamp": "2026-08-18T21:29:56.764671+00:00"
 }
