@@ -147,10 +147,10 @@ Nitro 탭의 맞춤 혜택 배지를 그라데이션·강조형·빛나는 모�
 - repository_tests: passed (12 tests)
 - git_diff_check: passed
 - notes: JSON/report contracts, exact private/public/web parity, 200 paired Korean/English experiment interpretations, 42 unresolved records, fallback search, report pointers, 12 repository tests, scoped publication security scan, and git diff checks passed. The required full-checkout scan reported only ignored data/history.json and three pre-existing .DS_Store files; none is staged or published. No parser or application code changed.
-- data_commit: pending
-- report_publish_commit: pending
-- pushed: false
-- publish_status: pending
+- data_commit: 09853a2ed9a1942630ec0edf46e3953f1205178c
+- report_publish_commit: recorded by this follow-up metadata commit
+- pushed: true
+- publish_status: passed (09853a2ed9a1 pushed to origin/main; final metadata recorded by follow-up commit)
 
 ## Security/privacy impact
 
