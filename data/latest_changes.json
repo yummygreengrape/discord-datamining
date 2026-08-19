@@ -1,5 +1,5 @@
 {
-    "build_hash": "31b61b10912e7e127cd96332f0d2848e8bee5e2c",
+    "build_hash": "2295005c07fe9cb297412655921686c8079e703b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,22 +12,18 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "55tM3t": "Design and preview your own custom widget. Get Nitro to actually save and publish it.",
+                "WOPVdz": "Preview Mode: Custom Widget"
+            },
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "6FXIU6": "안내 보기"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "b2r81u": {
-                    "new_value": "{count}개 그룹 DM에서 나갔습니다",
-                    "old_value": "{count}개 그룹 DM에서 나감"
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-08-19T00:27:58.300240+00:00"
+    "timestamp": "2026-08-19T00:59:03.937130+00:00"
 }
