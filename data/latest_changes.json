@@ -1,5 +1,5 @@
 {
-    "build_hash": "adf9bf350da496bdad88d6671173d049e30aac1c",
+    "build_hash": "bd8fddf5880b5c693c4a965384b212059a445eac",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "MLPgsX": "You’re confirming your age in another window",
+                "VcZF1q": "Continue in the other window. If you would like to choose a different age confirmation method, close the window and return here."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-19T09:34:10.629707+00:00"
+    "timestamp": "2026-08-19T12:38:25.677371+00:00"
 }
