@@ -1,5 +1,5 @@
 {
-    "build_hash": "2295005c07fe9cb297412655921686c8079e703b",
+    "build_hash": "3a354f0b0efb0fdcd7cde517f31c69b7c635a18a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "55tM3t": "Design and preview your own custom widget. Get Nitro to actually save and publish it.",
-                "WOPVdz": "Preview Mode: Custom Widget"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-19T00:59:03.937130+00:00"
+    "timestamp": "2026-08-19T01:09:44.290940+00:00"
 }
