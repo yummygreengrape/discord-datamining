@@ -1297,12 +1297,12 @@
     "notes": "JSON/report contracts, exact private/public/web parity, 200 paired Korean/English experiment interpretations, 42 unresolved records, fallback search, report pointers, 12 repository tests, scoped publication security scan, and git diff checks passed. The required full-checkout scan reported only ignored data/history.json and three pre-existing .DS_Store files; none is staged or published. No parser or application code changed."
   },
   "commits": {
-    "data_commit": "pending",
-    "report_publish_commit": "pending",
-    "pushed": false,
+    "data_commit": "09853a2ed9a1942630ec0edf46e3953f1205178c",
+    "report_publish_commit": "recorded by this follow-up metadata commit",
+    "pushed": true,
     "remote": "origin/main",
-    "status_summary": "pending",
-    "notes": "Publication has not completed yet."
+    "status_summary": "passed (09853a2ed9a1 pushed to origin/main; final metadata recorded by follow-up commit)",
+    "notes": "Public interpretations and report artifacts were pushed successfully. This metadata update is committed separately because the first commit hash is known only after commit."
   },
   "security_privacy_impact": {
     "summary": "No trust boundary, collection, transmission, retention, deletion, backup, access-control, or public schema changed.",
