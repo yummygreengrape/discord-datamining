@@ -1,12 +1,120 @@
 {
-    "build_hash": "530048b60c3ea29aa25649aafd7c24f8376ec849",
+    "build_hash": "d18021045e4f547368168b745c6872550f602330",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-spatial-audio-for-voice",
+            "kind": "user",
+            "locations": [
+                "RTCConnection"
+            ],
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_locations": [
+                "RTCConnection"
+            ],
+            "old_signals": [
+                "MediaEngine.supports(SPATIAL_AUDIO)"
+            ],
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_ui_ids": [
+                "spatial-audio-panel",
+                "spatial-audio-settings"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true
+                }
+            },
+            "signals": [
+                "MediaEngine.supports(SPATIAL_AUDIO)"
+            ],
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-spatial-audio-for-voice",
+            "kind": "user",
+            "locations": [
+                "RTCConnection"
+            ],
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_locations": [
+                "RTCConnection"
+            ],
+            "old_signals": [
+                "MediaEngine.supports(SPATIAL_AUDIO)"
+            ],
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_ui_ids": [
+                "spatial-audio-panel",
+                "spatial-audio-settings"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true
+                }
+            },
+            "signals": [
+                "MediaEngine.supports(SPATIAL_AUDIO)"
+            ],
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -22,5 +130,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-19T20:56:45.915819+00:00"
+    "timestamp": "2026-08-19T21:38:09.699230+00:00"
 }
