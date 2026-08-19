@@ -51,29 +51,29 @@ The current string_changes maps are empty. The existing payload was preserved by
 
 ## Validations
 
-Status: pending
+Status: passed
 
-- required JSON parsing: pending
-- 80 selected analysis-only row changes across 64 identities: pending
-- 54,686-row source/history/web full parity: pending
-- 142-row ignored-history synchronization: pending
-- paired Korean and English required fields: pending
-- English-language purity: pending
-- scoped private-path, credential-value, SEO, and overclaim scan: pending
-- unchanged empty latest string payload: pending
-- dated/latest report pointer parity: pending
-- compact tracked web JSON: pending
-- private-runner fixed-path candidate scan and staged digest attestation: pending
-- public security scan: pending
-- public unit tests: pending
-- private route, analysis, and security tests plus Python syntax checks: pending
-- dependency audit: pending
-- git diff checks: pending
-- clean post-push branch parity: pending
+- required JSON parsing: passed
+- 80 selected analysis-only row changes across 64 identities: passed
+- 54,686-row source/history/web full parity: passed
+- 142-row ignored-history synchronization: passed
+- paired Korean and English required fields: passed
+- English-language purity: passed
+- scoped private-path, credential-value, SEO, and overclaim scan: passed
+- unchanged empty latest string payload: passed
+- dated/latest report pointer parity: passed
+- compact tracked web JSON: passed
+- private-runner fixed-path candidate scan and staged digest attestation: passed
+- public security scan: passed
+- public unit tests: passed
+- private route, analysis, and security tests plus Python syntax checks: passed
+- dependency audit: passed
+- git diff checks: passed
+- clean post-push branch parity: passed
 
 ## Commits
 
-- Pending validation and publish
+- 485defbc Add August 19 string context interpretations (pushed)
 
 ## Security/privacy impact
 
