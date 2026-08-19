@@ -1,5 +1,5 @@
 {
-    "build_hash": "1cb7e0cee9525c5675863632bb8771f6a0d04e82",
+    "build_hash": "d423e1744cc733ad611d48bef62c8e184a0d98ca",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,14 +13,23 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
-            "modified": {}
+            "deleted": {
+                "QxKl9A": "About Me"
+            },
+            "modified": {
+                "fjSaAm": {
+                    "new_value": "Add Widget Name",
+                    "old_value": "Header"
+                }
+            }
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "QxKl9A": "내 소개"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-08-19T23:02:23.541689+00:00"
+    "timestamp": "2026-08-19T23:23:15.100459+00:00"
 }
