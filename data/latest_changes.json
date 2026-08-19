@@ -1,5 +1,5 @@
 {
-    "build_hash": "e27d018d56b13a5195657e5bbcfe3c737d8f5a3d",
+    "build_hash": "7a0bb0fa9d2e41ed6c9a1262baa05dedace2e408",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,16 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "7bypa+": "{index} of {total}",
-                "KYpgvZ": "Back to the previous question",
-                "OXRWyV": "Recommended",
-                "XHESTL": "Answer “{question}” in your own words",
-                "aL1BKQ": "Answer “{answer}” — recommended",
-                "k7lEgj": "Answer “{answer}”",
-                "qifsdL": "Or say it your way, then press Enter…",
-                "yKdgqw": "Back"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -31,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-19T01:51:03.798690+00:00"
+    "timestamp": "2026-08-19T02:42:38.118024+00:00"
 }
