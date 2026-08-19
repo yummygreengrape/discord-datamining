@@ -1,5 +1,5 @@
 {
-    "build_hash": "200bec0c552d4e992bf4fe2a97b7ed464a3fc58b",
+    "build_hash": "31b61b10912e7e127cd96332f0d2848e8bee5e2c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -17,10 +17,17 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "6FXIU6": "안내 보기"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "b2r81u": {
+                    "new_value": "{count}개 그룹 DM에서 나갔습니다",
+                    "old_value": "{count}개 그룹 DM에서 나감"
+                }
+            }
         }
     },
-    "timestamp": "2026-08-18T23:26:10.267224+00:00"
+    "timestamp": "2026-08-19T00:27:58.300240+00:00"
 }
