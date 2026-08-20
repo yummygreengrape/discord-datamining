@@ -1,5 +1,5 @@
 {
-    "build_hash": "da738cb715d6d2ba1e5babd37d3b287bd63b453f",
+    "build_hash": "c6a3e16550b99c586a15081f05172ea43cdbcfc9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,53 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-manual-age-assurance-fallback",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-08-20T06:27:03Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-manual-age-assurance-fallback",
-            "kind": "user",
-            "timestamp": "2026-08-20T06:27:03Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -67,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-20T06:30:08.933460+00:00"
+    "timestamp": "2026-08-20T07:11:45.561535+00:00"
 }
