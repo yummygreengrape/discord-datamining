@@ -1,5 +1,5 @@
 {
-    "build_hash": "5c0f28cb6b14aa73a23027ea01d8a054335fa3c1",
+    "build_hash": "ea290222f1dc7513b2655d3c846eac1c1b0c4c07",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,16 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+nzCxZ": "Preview at phone size",
-                "3uCc8U": "Preview at full size",
-                "DN7KeU": "Files",
-                "QM4w4h": "An app conjured on this server lives here.",
-                "ecod4C": "Preview your app",
-                "jLMpUv": "Open App",
-                "sFX7H4": "Uploading {name}",
-                "xE6M2k": "Photos"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -31,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-20T00:46:49.229483+00:00"
+    "timestamp": "2026-08-20T02:49:53.116252+00:00"
 }
