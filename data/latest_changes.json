@@ -1,5 +1,5 @@
 {
-    "build_hash": "c04b6070393b8286e61aad80d6f1e1979baff710",
+    "build_hash": "8c26324633d2d31f7a3f004d43e602ae515ad0ad",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "A/KOOc": "Get 5,000 Orbs when you complete this gift purchase. [Learn More]({learnMoreUrl})"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-20T16:07:56.136629+00:00"
+    "timestamp": "2026-08-20T16:28:50.762860+00:00"
 }
