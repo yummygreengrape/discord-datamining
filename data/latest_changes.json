@@ -1,5 +1,5 @@
 {
-    "build_hash": "4337471c2ccb3200898719afe4c28d74a8213d59",
+    "build_hash": "da738cb715d6d2ba1e5babd37d3b287bd63b453f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,25 +8,56 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-manual-age-assurance-fallback",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-08-20T06:27:03Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-manual-age-assurance-fallback",
+            "kind": "user",
+            "timestamp": "2026-08-20T06:27:03Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "1Ew5/j": "Prefer to build in your own coding tool? Add this link to it and you can work on this app from there, then preview and ship it right back here.",
-                "3qelzD": "Build with your tools",
-                "7xdKYd": "Try again",
-                "DRgXyU": "Your app’s link",
-                "JeM47J": "Your other tool is working here…",
-                "QJKw6N": "That didn’t come together. Try again in a moment.",
-                "bsDgiq": "Refresh",
-                "c3R8Tx": "Conjuring your link…",
-                "dZxnCn": "Refresh",
-                "jKNAzJ": "Refresh link?",
-                "lTtxBT": "This link works for 24 hours. Refresh it whenever you need a new one.",
-                "oWzC0r": "Your current link stops working. Any tool you’ve already connected will need the new one.",
-                "xMOS+Z": "Build with your tools"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -36,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-20T06:19:20.700045+00:00"
+    "timestamp": "2026-08-20T06:30:08.933460+00:00"
 }
