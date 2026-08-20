@@ -1,5 +1,5 @@
 {
-    "build_hash": "3989998a73d2daf11ccfa4733f88ae22cb63ef9c",
+    "build_hash": "e66f8a4daa7d0cb68fb4ad71f409647688dc2779",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,8 +12,12 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "jTuX7C": "“Any sufficiently advanced technology is indistinguishable from magic.” — Arthur C. Clarke"
+            },
+            "deleted": {
+                "6xTawd": "Nothing to preview yet"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-20T13:32:00.311688+00:00"
+    "timestamp": "2026-08-20T14:34:53.319152+00:00"
 }
