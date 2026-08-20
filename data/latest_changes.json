@@ -1,5 +1,5 @@
 {
-    "build_hash": "7711e8abf56912a1d8b115d3e2d6b68a208e08a4",
+    "build_hash": "7c0f803ab4c169456eae17c236a64e9dbf904b91",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,82 +12,17 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "bl4eBc": "Couldn’t open a DM with this app"
+            },
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "+vMoL1": "음성 채널에 참여할 때 항상 거실이 아닌 거실 또는 그리드 중 마지막으로 보았던 화면이 표시돼요. 거실은 베타 기능이에요.",
-                "/YEoH2": "이 서버는 회원님의 지역에서 연령 제한이 적용됩니다. 회원님은 제한된 연령대에 속하는 것으로 확인되었습니다. 당사의 실수라고 생각하신다면 다시 확인할 수 있습니다.",
-                "21W3EN": "배지 {position}, {badgeName}",
-                "4NWSxa": "userHookHookbHook{user} 님이 targetHookHookbHook{target} 미디어 채널을 만들었어요",
-                "5Qo0S6": "새 탭에서 열기",
-                "A/PzIa": "탭 닫기, {channelName}",
-                "Aiucjd": "탭 고정",
-                "DO8iXB": "{userName} 님의 메모가 삭제되었어요",
-                "DpZqVj": "자동 클립 활성화",
-                "EV1W/L": "트레일러 및 스크린샷",
-                "FHfTsV": "색상 옵션 {number}: {hexList}",
-                "Fp+l7E": "공개적으로 표시하고 싶지 않은 배지 숨기기",
-                "GR7NIF": "신규 탭",
-                "GqojUr": "중요한 게임 플레이 순간을 자동으로 캡처해 보세요. [자세히 알아보기]({learnMoreLink})",
-                "In6PEK": "탭 닫기",
-                "JEHHJ1": "Discord에서 30초 동안 성능 정보를 캡처하여 다운로드(Downloads) 폴더에 저장합니다.",
-                "JrOki0": "Nitro로 배지 순서 변경하기",
-                "KKGxNt": "새로운 기능! Nitro로 나만의 위젯을 디자인해 보세요",
-                "LvKSA8": "탭 고정 해제",
-                "MxXgrL": "애니메이션 GIF",
-                "OkWAc/": "브라질 정부 명령에 따라 현재 회원님의 지역에서는 화면 공유가 비활성화되었습니다.",
-                "OuGtH8": "30초 동안의 성능 데이터를 기록하고 지원 티켓에 첨부할 수 있는 파일로 저장합니다.",
-                "P+DDLh": "5,000 Orbs 받기",
-                "QVHyhK": "아직 숨길 수 있는 배지가 없습니다.",
-                "RCy7Px": "이용해 보기",
-                "SU2mY/": "bHook{name}을(를) 다시 실행해서 메시지를 보내세요.",
-                "TPp3Mq": "이 배지를 프로필에 표시할지 여부를 전환합니다",
-                "UoW002": "브라질 정부 명령에 따라 현재 회원님의 지역에서는 동영상이 비활성화되었습니다.",
-                "VvNgHX": "userHookHookbHook{user} 님이 targetHookHookbHook{target} 포럼 채널을 만들었어요",
-                "WnnzG7": "선물 개수 선택",
-                "WvuuHt": "드래그하여 배지 순서 변경하기",
-                "XTdnRd": "{count}분+",
-                "ZME/HA": "5,000 Orbs가 잠금 해제됐어요.",
-                "aMeOMj": "상점에서 사용할 수 있어요!",
-                "bm1WjO": "점령",
-                "dOZh6X": "이 선물 구매를 완료하면",
-                "dd5Eyn": "탭 액션",
-                "dta2JM": "이 서버는 회원님의 지역에서 연령 제한이 적용됩니다. 연령을 확인하고 참여하시겠습니까?",
-                "eGAirq": "직접 만들기",
-                "eYP6UV": "userHookHookbHook{user} 님이 targetHookHookbHook{target} 공지 채널을 생성했어요",
-                "es0PkU": "채널 탭",
-                "gOrBCw": "호스팅 서버를 실행하고 몇 초 만에 친구들과 플레이를 시작하세요.",
-                "gpCRFS": "다운로드 폴더에 성능 추적을 저장했습니다",
-                "gzrysL": "{userName} 님이 상태를 {postureLabel}(으)로 변경했어요",
-                "hZobvN": "{username} 님의 스트림 시청하기",
-                "k9KZ2L": "{gameName} 게임 서버 호스팅",
-                "n9cZTH": "개발자 이의 제기 제출",
-                "o6Qr6n": "성능 추적 캡처",
-                "oZ4ZFn": "{gameName} 게임 서버를 호스팅하세요!",
-                "oaIXoz": "클립 및 자동 클립 활성화",
-                "owG+AO": "자동 클립 기능 출시!",
-                "peZtJo": "자동 클립 기능을 사용하여 게임 플레이 순간을 자동으로 캡처하세요.",
-                "qGRW8d": "성능 데이터 수집 중…",
-                "qPHr0x": "배지가 {from} 위치에서 {to} 위치로 이동했습니다",
-                "qYzpsI": "마지막으로 본 화면 기억하기",
-                "sElzfG": "플랜 보기",
-                "sFN1/M": "프로필 공유",
-                "spl/XS": "{count}초+",
-                "t+GPi4": "다음 스트림",
-                "vNuh/e": "{userName} 님이 상태를 초기화했어요",
-                "zTbxKr": "{userName} 님이 메모를 남겼어요"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "6AXirz": {
-                    "new_value": "Discord에서 일부 클립을 자동으로 생성했습니다.",
-                    "old_value": "Discord가 일부 클립을 자동으로 생성했어요. 이 클립을 보관함에 추가하지 않으면 저장 공간을 절약하기 위해 삭제돼요."
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-08-20T04:12:41.313564+00:00"
+    "timestamp": "2026-08-20T05:04:34.094988+00:00"
 }
