@@ -1,5 +1,5 @@
 {
-    "build_hash": "b7842f62c46e0b019c1e40f9df6a0eb046fa8d5b",
+    "build_hash": "4d2b112b103aa893546ad8603db28b04fa176fb1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "J6WZ+x": "Answering right away",
+                "OAjkIT": "A quick answer — the conjuring continues"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-20T00:05:00.300109+00:00"
+    "timestamp": "2026-08-20T00:15:41.688348+00:00"
 }
