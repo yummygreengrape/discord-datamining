@@ -1,5 +1,5 @@
 {
-    "build_hash": "6cfbbe5af7118457c035742b948cab88582c604d",
+    "build_hash": "4337471c2ccb3200898719afe4c28d74a8213d59",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,21 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "1Ew5/j": "Prefer to build in your own coding tool? Add this link to it and you can work on this app from there, then preview and ship it right back here.",
+                "3qelzD": "Build with your tools",
+                "7xdKYd": "Try again",
+                "DRgXyU": "Your app’s link",
+                "JeM47J": "Your other tool is working here…",
+                "QJKw6N": "That didn’t come together. Try again in a moment.",
+                "bsDgiq": "Refresh",
+                "c3R8Tx": "Conjuring your link…",
+                "dZxnCn": "Refresh",
+                "jKNAzJ": "Refresh link?",
+                "lTtxBT": "This link works for 24 hours. Refresh it whenever you need a new one.",
+                "oWzC0r": "Your current link stops working. Any tool you’ve already connected will need the new one.",
+                "xMOS+Z": "Build with your tools"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-20T05:57:12.768949+00:00"
+    "timestamp": "2026-08-20T06:19:20.700045+00:00"
 }
