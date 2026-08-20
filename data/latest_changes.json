@@ -1,5 +1,5 @@
 {
-    "build_hash": "1caa9bcfc00d9c47b7f4393e2a803b6de50f1635",
+    "build_hash": "eefd06ed72cfa7502883759dd75120007d231acc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Ev7DO6": "When you complete this gift purchase",
-                "vXqqUc": "Get {orbCount, plural, one {# Orb} other {# Orbs}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-20T16:49:41.265639+00:00"
+    "timestamp": "2026-08-20T17:10:35.157228+00:00"
 }
