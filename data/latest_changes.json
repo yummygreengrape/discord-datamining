@@ -1,5 +1,5 @@
 {
-    "build_hash": "92d42a8b444674dec890228a24c11ca7b3986d92",
+    "build_hash": "0e3256c0a943930a4ce3cdadb589f27022e3efc0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+Ft5ch": "If confirmed as an adult (18+), you will have access to age-restricted content and settings. Need help? See [how to confirm]({handleOnHelpUrlHook}), or learn about our [trusted providers]({handleOnTrustedProvidersHook}).",
-                "/kgWIg": "Confirm your age group"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-21T17:55:25.042569+00:00"
+    "timestamp": "2026-08-21T18:26:30.704546+00:00"
 }
