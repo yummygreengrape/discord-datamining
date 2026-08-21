@@ -1,5 +1,5 @@
 {
-    "build_hash": "391a7d74810386c7aeef578810e7cd22253ecd98",
+    "build_hash": "0d1f6cf2535b9733655d1f96ea39376c162f9049",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,12 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "7Q/vz0": "{hours, plural, one {# hour} other {# hours}} {minutes, plural, one {# minute} other {# minutes}}",
-                "RsOwXc": "{count, plural, one {# second} other {# seconds}}",
-                "vuv9bT": "Finished {task} in {duration}",
-                "z+U4YX": "{count, plural, one {# minute} other {# minutes}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-21T06:03:12.321327+00:00"
+    "timestamp": "2026-08-21T06:13:53.879842+00:00"
 }
