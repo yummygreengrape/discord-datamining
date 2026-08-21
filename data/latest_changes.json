@@ -1,5 +1,5 @@
 {
-    "build_hash": "3959583b154ebf5fc6932cf7859abf9265a9cdef",
+    "build_hash": "821ce93f0e5f190ac516828fefef02f5f1498437",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,16 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "oNtdYP": "Bot"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "Jj8Ftb": {
+                    "new_value": "Go for it",
+                    "old_value": "Yes, conjure it."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-21T22:05:26.756502+00:00"
+    "timestamp": "2026-08-21T22:26:18.353565+00:00"
 }
