@@ -1,5 +1,5 @@
 {
-    "build_hash": "4ae752e201eaeadbf44ab87c30e33b067b3226b1",
+    "build_hash": "39ef9952bee51fcf0eff24054ba10ef8695d6db8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,12 +14,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "COVYeS": {
-                    "new_value": "Tune models",
-                    "old_value": "Model settings"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -27,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-21T21:13:29.486928+00:00"
+    "timestamp": "2026-08-21T21:44:36.433130+00:00"
 }
