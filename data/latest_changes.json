@@ -1,5 +1,5 @@
 {
-    "build_hash": "7ddeb4b248aba093c568197d99f4177f8dc99f0a",
+    "build_hash": "98730a1813db4023c21a4f0942838722b6b46492",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,26 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+FPL+I": "Hornwick",
+                "2l3AEQ": "Slowspell",
+                "2qYUUZ": "Thought for {hours, plural, one {# hour} other {# hours}} {minutes, plural, one {# minute} other {# minutes}}",
+                "49T8W0": "Thought for {count, plural, one {# second} other {# seconds}}",
+                "4iXcNT": "Silkweave",
+                "5uv8y0": "Couldn’t finish {task}",
+                "9zxqmP": "Hearthbound",
+                "DoTGt5": "Glimmerwing",
+                "HF0T3L": "Loomspinner",
+                "KS49RN": "Finished {task}",
+                "NkZO2t": "Thought for {count, plural, one {# minute} other {# minutes}}",
+                "NnydwQ": "Emberwhisk",
+                "XTzDga": "Hexhive",
+                "XmZT9M": "Thistledown",
+                "abtC2b": "Cogspark",
+                "khZEUv": "What do you want to build?",
+                "oEzDO/": "Stopped {task}",
+                "w4GOfR": "Mirebell"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +41,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-21T01:32:42.430473+00:00"
+    "timestamp": "2026-08-21T01:43:25.037330+00:00"
 }
