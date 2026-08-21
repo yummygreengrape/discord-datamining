@@ -1,5 +1,5 @@
 {
-    "build_hash": "1c2f5bfa42bc10cf28c27428c0cf4619e2da2186",
+    "build_hash": "4b1ac6da311446367f5abda02931559a01b79815",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,16 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "+sRK16": {
+                    "new_value": "Restore",
+                    "old_value": "Restore this version"
+                },
+                "jAWwzi": {
+                    "new_value": "Version History",
+                    "old_value": "Version history"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-21T23:08:05.598399+00:00"
+    "timestamp": "2026-08-21T23:28:59.603285+00:00"
 }
