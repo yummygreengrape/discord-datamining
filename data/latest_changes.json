@@ -1,5 +1,5 @@
 {
-    "build_hash": "1cf43c561a24d0ee1d537d8fced025596d41af7b",
+    "build_hash": "af99855e35f8eba1792ac4ba9695435b8a32a2ef",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,8 +12,12 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "BstttJ": "Custom typing indicator. Tap to learn more."
+            },
+            "deleted": {
+                "z2+nNW": "Thinking up ideas"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-21T15:49:04.904928+00:00"
+    "timestamp": "2026-08-21T15:59:46.475666+00:00"
 }
