@@ -1,5 +1,5 @@
 {
-    "build_hash": "8af8a48a2350be574b346a15f4750bebec15aa53",
+    "build_hash": "7ddeb4b248aba093c568197d99f4177f8dc99f0a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "LpnmXm": "Only have some of these? Save what you have — you can add the rest later.",
-                "VqmTFn": "The {platform} credentials go together — add both, or leave both empty.",
-                "pu8e3p": "I saved some of the keys — I don’t have the rest yet."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-21T00:30:53.958364+00:00"
+    "timestamp": "2026-08-21T01:32:42.430473+00:00"
 }
