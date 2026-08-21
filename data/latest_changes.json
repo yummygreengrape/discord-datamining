@@ -1,5 +1,5 @@
 {
-    "build_hash": "2b61fd7abaaaa3285795c79439b263bc99ea7d08",
+    "build_hash": "46f25712cabbbf1d196a7a02c76013ac7544d80e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "Xmvb23": {
+                    "new_value": "Conjure",
+                    "old_value": "Create"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-21T02:04:19.921436+00:00"
+    "timestamp": "2026-08-21T02:15:00.626177+00:00"
 }
