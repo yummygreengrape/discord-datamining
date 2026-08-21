@@ -1,5 +1,5 @@
 {
-    "build_hash": "d9964d56b4cb5f06703e678d5d3e34ec991cafbf",
+    "build_hash": "db9eed306d28171c7cd9da6e41fc592eb6eb7f90",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,34 +13,17 @@
     "string_changes": {
         "en": {
             "added": {
-                "/F078G": "Settings ({count})",
-                "Hl+eu7": "Anything marked secret goes straight into a locked vault. It never appears in the chat, and I never see it.",
-                "KO2xN+": "Open settings",
-                "Tuz9vw": "Save settings",
-                "URnN4B": "This app doesn’t have any settings yet.",
-                "V+DBhs": "This needs you to pick a few settings before it can do its thing.",
-                "Z0KiSp": "App settings sections",
-                "cTofe2": "Change {label}",
-                "gTMvzD": "App Settings",
-                "gqJFu0": "Settings saved",
-                "iD7xfZ": "Secrets",
-                "jczqxT": "Settings",
-                "n02OEo": "Those didn’t save. Check the values and try again.",
-                "vlIHBJ": "Secrets ({count})",
-                "wgDhiQ": "Settings needed",
-                "xPxvYa": "Changes to this land after a quick rebuild — saving starts one."
+                "TVeTae": "Edit {name}",
+                "edKajy": "Import project",
+                "z2+nNW": "Thinking up ideas"
             },
-            "deleted": {
-                "/64HKW": "{platform} app credentials",
-                "A4GtqV": "Create an app on {platform}’s developer site.",
-                "JiwZjF": "Paste the app’s credentials here:",
-                "NT5IFS": "{platform} client ID",
-                "VqmTFn": "The {platform} credentials go together — add both, or leave both empty.",
-                "j2JF7B": "In that app’s settings, add both of these as redirect URLs:",
-                "koywk/": "{platform} client secret",
-                "zqgV1t": "Connect {platform}"
-            },
-            "modified": {}
+            "deleted": {},
+            "modified": {
+                "DAvYsi": {
+                    "new_value": "What’s next?",
+                    "old_value": "What’s next"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -48,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-21T03:06:39.028504+00:00"
+    "timestamp": "2026-08-21T03:58:08.279657+00:00"
 }
