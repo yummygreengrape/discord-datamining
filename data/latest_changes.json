@@ -1,5 +1,5 @@
 {
-    "build_hash": "a50e79826342bd7b9693c51ec6fa7c81df1ac0a4",
+    "build_hash": "41cb0d3ffa11a02fda43fe8532ebe43406d17c12",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,18 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+sRK16": "Restore this version",
+                "TOmYPT": "No saved versions yet.",
+                "aFffp2": "Loading…",
+                "jAWwzi": "Version history",
+                "k2JBj5": "Your app will return to this version. Your current work stays in version history.",
+                "mSJn+K": "I couldn’t load version history. Try again in a moment.",
+                "pGFXZ0": "Restoring your previous version…",
+                "q6iZ84": "I couldn’t restore that version. Try again in a moment.",
+                "qOUOPE": "Restore this version?",
+                "u8g2Od": "Your selected version is restored and ready to keep building."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-21T06:24:34.093512+00:00"
+    "timestamp": "2026-08-21T06:35:16.131568+00:00"
 }
