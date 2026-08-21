@@ -1,5 +1,5 @@
 {
-    "build_hash": "db9eed306d28171c7cd9da6e41fc592eb6eb7f90",
+    "build_hash": "6c7d43da4f93a0ffaedd1f50e84197c9e4ad74c6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,17 +13,14 @@
     "string_changes": {
         "en": {
             "added": {
-                "TVeTae": "Edit {name}",
-                "edKajy": "Import project",
-                "z2+nNW": "Thinking up ideas"
+                "1KEhDu": "Projects shared with you in this server",
+                "Hn/5vP": "Make public",
+                "NXfIfj": "Edit App",
+                "XC0HHn": "Make private",
+                "jrCnUc": "Your shared projects"
             },
             "deleted": {},
-            "modified": {
-                "DAvYsi": {
-                    "new_value": "What’s next?",
-                    "old_value": "What’s next"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -31,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-21T03:58:08.279657+00:00"
+    "timestamp": "2026-08-21T04:29:15.797124+00:00"
 }
