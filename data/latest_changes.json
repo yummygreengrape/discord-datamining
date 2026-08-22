@@ -1,6 +1,17 @@
 {
-    "build_hash": "f0bf73102976b2f4c2d13d0d2bb45b5fb774c00c",
-    "deleted_api_endpoints": [],
+    "build_hash": "4162ccd75ed3222b7a64e987f7a87bdd5c5de4c0",
+    "deleted_api_endpoints": [
+        {
+            "name": "ENDPOINT_PREMIUM_MARKETING_CAMPAIGNS_ELIGIBILITY",
+            "status": "deleted",
+            "url": "/premium-marketing/@me/campaigns/:param/eligibility"
+        },
+        {
+            "name": "MARKETING_CAMPAIGN_ELIGIBILITY",
+            "status": "deleted",
+            "url": "/premium-marketing/@me/campaigns/:param/eligibility"
+        }
+    ],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
@@ -12,12 +23,18 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "09LJ+I": "A side quest while you wait?",
-                "egO5fO": "Not now"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "3qelzD": {
+                    "new_value": "Conjuring MCP",
+                    "old_value": "Build with your tools"
+                },
+                "xMOS+Z": {
+                    "new_value": "Conjuring MCP",
+                    "old_value": "Build with your tools"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -25,5 +42,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-21T23:49:52.390335+00:00"
+    "timestamp": "2026-08-22T00:00:39.895662+00:00"
 }
