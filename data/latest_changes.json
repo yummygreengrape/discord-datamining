@@ -1,5 +1,5 @@
 {
-    "build_hash": "2cd89e1a1aa5483dd4412bc87f2d90a859b025a2",
+    "build_hash": "0f60f44cadc6b4f8d53e7ff236f4f7debed385d5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,12 +13,16 @@
     "string_changes": {
         "en": {
             "added": {
-                "RWkUzH": "Edit Image",
-                "dh0LD5": "Change Image",
-                "je0LTI": "Reposition Image"
+                "O5ij4K": "Activity",
+                "bBkuBd": "Bot"
             },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "qCRC6c": {
+                    "new_value": "Tasks",
+                    "old_value": "What I’m working through"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -26,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-22T02:36:50.070869+00:00"
+    "timestamp": "2026-08-22T07:33:37.619881+00:00"
 }
