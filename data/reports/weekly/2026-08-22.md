@@ -135,7 +135,7 @@ Nitro 탭의 맞춤 혜택 배지를 그라데이션·강조형·빛나는 모�
 ## 검증 및 커밋/푸시 결과
 
 - JSON/report shape, exact private/public/web parity, 한영 해석 203행, unresolved 43건, raw 필드·latest_changes 불변성, 금지 문구, report pointer, 공개 저장소 12개 테스트, 비공개 보안·파서 테스트, scoped 공개 경로 보안 검사, git diff 검사가 통과했습니다.
-- 커밋/푸시 메타데이터는 검증과 실제 push가 끝난 뒤 최신 리포트와 날짜별 리포트에 함께 반영합니다.
+- 데이터·리포트 커밋 `844e5aec76dc`와 최종 메타데이터 follow-up 커밋을 `origin/main`에 push했습니다.
 
 ### Security/privacy impact
 
