@@ -1,5 +1,5 @@
 {
-    "build_hash": "fda54b1983e19ebf6faf85a4961b916170f22367",
+    "build_hash": "2cd89e1a1aa5483dd4412bc87f2d90a859b025a2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "RWkUzH": "Edit Image",
+                "dh0LD5": "Change Image",
+                "je0LTI": "Reposition Image"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-22T02:26:07.616461+00:00"
+    "timestamp": "2026-08-22T02:36:50.070869+00:00"
 }
