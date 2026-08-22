@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-22T00:17:34.955233Z",
+  "generated_at": "2026-08-22T00:24:06.593356Z",
   "period": {
     "start": "2026-08-19T00:27:58.300240+00:00",
     "end": "2026-08-22T00:00:39.895662+00:00",
     "source_cutoff": "2026-08-18T23:03:56Z",
-    "timezone_note": "Run date is 2026-08-22 KST. The primary source contains 205 rows after the previous cutoff; 80 were selected and 125 were deferred in this bounded run."
+    "timezone_note": "Run date is 2026-08-22 KST. The primary source contains 205 rows after the previous cutoff; 80 were selected and 125 were deferred in this bounded run. A concurrent Canary update advanced the final build without adding string rows, so the processing period and selection are unchanged."
   },
-  "build_hash": "76e8f9a95ac216a0e744d44762d90a9d2fe3f0f5",
+  "build_hash": "e98d9d6192d91c05de994887b77b2c7890641fee",
   "counts": {
     "clusters": 15,
     "annotated_strings": 80,
@@ -18580,7 +18580,7 @@
   },
   "validations": {
     "status": "passed",
-    "completed_at": "2026-08-22T00:21:51Z",
+    "completed_at": "2026-08-22T00:24:06Z",
     "checks": [
       {
         "name": "required JSON parsing",
@@ -18662,7 +18662,7 @@
       "full_hash": "db4024d874b115310c684a579e79304eb8b48977",
       "message": "Add August 22 string context interpretations",
       "pushed": true,
-      "pushed_at": "2026-08-22T00:21:51Z"
+      "pushed_at": "2026-08-22T00:24:06Z"
     }
   ],
   "security_privacy_impact": "No trust boundary, collection purpose, field set, recipient, retention period, deletion path, backup behavior, or access control changed. This run adds interpretation only to already-public Discord product metadata. It publishes no credential values, messages, user identifiers, private runner state, or private implementation logic."
