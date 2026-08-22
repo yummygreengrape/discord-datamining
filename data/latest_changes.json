@@ -1,17 +1,6 @@
 {
-    "build_hash": "4162ccd75ed3222b7a64e987f7a87bdd5c5de4c0",
-    "deleted_api_endpoints": [
-        {
-            "name": "ENDPOINT_PREMIUM_MARKETING_CAMPAIGNS_ELIGIBILITY",
-            "status": "deleted",
-            "url": "/premium-marketing/@me/campaigns/:param/eligibility"
-        },
-        {
-            "name": "MARKETING_CAMPAIGN_ELIGIBILITY",
-            "status": "deleted",
-            "url": "/premium-marketing/@me/campaigns/:param/eligibility"
-        }
-    ],
+    "build_hash": "76e8f9a95ac216a0e744d44762d90a9d2fe3f0f5",
+    "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
@@ -25,16 +14,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "3qelzD": {
-                    "new_value": "Conjuring MCP",
-                    "old_value": "Build with your tools"
-                },
-                "xMOS+Z": {
-                    "new_value": "Conjuring MCP",
-                    "old_value": "Build with your tools"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -42,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-22T00:00:39.895662+00:00"
+    "timestamp": "2026-08-22T00:11:20.667541+00:00"
 }
