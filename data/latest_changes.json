@@ -1,5 +1,5 @@
 {
-    "build_hash": "2e171479bde1caadb7fbcf532b65155f69dd9404",
+    "build_hash": "d9bfd7319c6e70d8f0c39662d2099f3f96e11986",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,12 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "G2GqyP": "Couldn’t package that one up. Try again.",
+                "u9TapG": "Packaging {name} up — your download will start shortly.",
+                "uB40Hz": "This app is still being worked on. Let it finish, then export it.",
+                "wCq2jC": "There’s nothing in this app to take away yet. Ask for something first."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-23T00:40:59.418957+00:00"
+    "timestamp": "2026-08-23T00:51:41.627362+00:00"
 }
