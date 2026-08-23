@@ -1,5 +1,5 @@
 {
-    "build_hash": "ea56074dd1dd35a08b319b021fa8c3ec038e840a",
+    "build_hash": "c977e6500ea651d1b22e22a2b330c2bf2b92f729",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,8 +12,32 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "+aBXyx": "Describe what you want and we conjure it from nothing.",
+                "+abXa8": "Collaborative Whiteboard",
+                "/SUK82": "Build from scratch",
+                "3gSfUa": "A natural conversation bot",
+                "9D9L0S": "Can you import the {templateName} template",
+                "BLDsiz": "Feature Showcase",
+                "BTNdyX": "Up and running in seconds",
+                "ER1uQ4": "Start from the {name} template",
+                "FYK2xQ": "Import a template",
+                "G2GqyP": "Couldn’t package that one up. Try again.",
+                "OZYPMR": "A shared board your whole channel draws on together, live.",
+                "dIE9zO": "Conjuring is controlling the app preview. Your clicks are paused.",
+                "ivvYHP": "Controlling…",
+                "jK1PL5": "A tour of everything an app can do inside Discord — sign-in, sharing, menus, live voice and video, saved data.",
+                "u9TapG": "Packaging {name} up — your download will start shortly.",
+                "uB40Hz": "This app is still being worked on. Let it finish, then export it.",
+                "wCq2jC": "There’s nothing in this app to take away yet. Ask for something first."
+            },
+            "deleted": {
+                "4DQd7d": "I couldn’t get a screenshot of that. Try again?",
+                "7MCiK9": "A trivia game about server members",
+                "9MOgRI": "Capture a region of the app",
+                "B5gWPk": "Capture Region",
+                "ydkvBR": "Drag to capture a piece of your app. ESC to cancel."
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +46,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-23T06:11:48.208318+00:00"
+    "timestamp": "2026-08-23T06:43:22.459287+00:00"
 }
