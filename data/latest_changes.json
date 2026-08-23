@@ -1,5 +1,5 @@
 {
-    "build_hash": "8b8762741181d26594ec65cf2f786de49b0c605d",
+    "build_hash": "ea56074dd1dd35a08b319b021fa8c3ec038e840a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,18 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+aBXyx": "Describe what you want and we conjure it from nothing.",
-                "+abXa8": "Collaborative Whiteboard",
-                "/SUK82": "Build from scratch",
-                "9D9L0S": "Can you import the {templateName} template",
-                "BLDsiz": "Feature Showcase",
-                "BTNdyX": "Up and running in seconds",
-                "ER1uQ4": "Start from the {name} template",
-                "FYK2xQ": "Import a template",
-                "OZYPMR": "A shared board your whole channel draws on together, live.",
-                "jK1PL5": "A tour of everything an app can do inside Discord — sign-in, sharing, menus, live voice and video, saved data."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -33,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-23T06:00:15.218041+00:00"
+    "timestamp": "2026-08-23T06:11:48.208318+00:00"
 }
