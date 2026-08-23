@@ -1,5 +1,5 @@
 {
-    "build_hash": "2fd2ce77a75b54945d7f650d0296b5e8b8b7376c",
+    "build_hash": "fb3b0e87c60d7691640a499d0d4149b54e402cc6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,11 +13,10 @@
     "string_changes": {
         "en": {
             "added": {
-                "3gSfUa": "A natural conversation bot"
+                "dIE9zO": "Conjuring is controlling the app preview. Your clicks are paused.",
+                "ivvYHP": "Controlling…"
             },
-            "deleted": {
-                "7MCiK9": "A trivia game about server members"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -26,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-23T02:54:57.840204+00:00"
+    "timestamp": "2026-08-23T05:39:11.624589+00:00"
 }
