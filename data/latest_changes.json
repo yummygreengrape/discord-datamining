@@ -1,5 +1,5 @@
 {
-    "build_hash": "25ebbeed984b0be5e18a42a403aa57fd16948ff4",
+    "build_hash": "ede8b5e8361804deb3a1f3b627278374fbc1a16a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,12 +14,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "files": {
-                    "new_value": "rive.jsrive.js.maprive.wasmrive_fallback.wasmrive.d.tsrive_advanced.mjs.d.tsruntimeLoader.d.tsutilssemantics",
-                    "old_value": "rive.jsrive.js.maprive.wasmrive_fallback.wasmrive.d.tsrive_advanced.mjs.d.ts"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -27,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-24T17:08:36.364415+00:00"
+    "timestamp": "2026-08-24T17:29:31.451081+00:00"
 }
