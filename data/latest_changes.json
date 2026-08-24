@@ -1,5 +1,5 @@
 {
-    "build_hash": "5aa5ab77cfb720d9266b77419703ddaec03d7c8b",
+    "build_hash": "ebe3eb5ed2d613075dbc9f7bad5b52dff5ac25e8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "vpzyht": "Pause Preview When Discord Isn’t Focused"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-24T16:36:22.574040+00:00"
+    "timestamp": "2026-08-24T16:47:09.073355+00:00"
 }
