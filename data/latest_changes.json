@@ -1,5 +1,5 @@
 {
-    "build_hash": "215c386e24c6b321d3c962e0a861b77747c0d8a7",
+    "build_hash": "c72ee63c7fef400f503e3bdf49164e54654edd4c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,12 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "DIyQIF": "Auto-Add Threads",
-                "WsUrMD": "Full",
-                "dW9Kov": "Favorites limit reached",
-                "g2vHYJ": "Threads you join go to an \"Auto-Added Threads\" category."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-24T22:06:46.446401+00:00"
+    "timestamp": "2026-08-24T22:17:32.563404+00:00"
 }
