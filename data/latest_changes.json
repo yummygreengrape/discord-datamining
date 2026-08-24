@@ -1,5 +1,5 @@
 {
-    "build_hash": "8070097d4aea1f31d31ad566af004ea70d3e54fd",
+    "build_hash": "cdfe86167747d4997444d6cdc6af9eb62b70b99d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "AUTOCOMPLETE_NO_RESULTS_BODY": "Did you make a typo?",
+                "AUTOCOMPLETE_NO_RESULTS_HEADER": "Nope!"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-24T13:58:27.427528+00:00"
+    "timestamp": "2026-08-24T14:29:54.978273+00:00"
 }
