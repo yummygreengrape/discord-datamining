@@ -1,5 +1,5 @@
 {
-    "build_hash": "51b4cd229c3c5272b6fca57c7605d9c6e1a29b73",
+    "build_hash": "4a342aa4ead9250a0b817d5e3b22528e68350f98",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "B2MCEq": "Choose your FREE reward(s)",
+                "UGXnmY": "{rewardCount} of {maxRewardCount} selected"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-24T21:45:15.892315+00:00"
+    "timestamp": "2026-08-24T21:55:59.384663+00:00"
 }
