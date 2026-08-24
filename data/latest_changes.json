@@ -1,5 +1,5 @@
 {
-    "build_hash": "2e82302e5736db2d10cde5468915f255491b4790",
+    "build_hash": "b5f62aa4113fc9d8bfbf8381ce552a95bf96a36f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Tj6b30": "Compacting"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-24T00:43:37.829436+00:00"
+    "timestamp": "2026-08-24T02:47:07.192890+00:00"
 }
