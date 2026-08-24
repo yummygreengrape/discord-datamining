@@ -1,8 +1,33 @@
 {
-    "build_hash": "4dc5a1821c85c77de82cd9018654bba0ce355a8a",
+    "build_hash": "ddb0abcbad488e5ec0d427d4586db797ebe4de4a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-similar-games-desktop",
+            "kind": "user",
+            "timestamp": "2026-08-24T20:13:23Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-similar-games-mobile",
+            "kind": "user",
+            "timestamp": "2026-08-24T20:13:23Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +47,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-24T20:09:41.577079+00:00"
+    "timestamp": "2026-08-24T20:20:23.942003+00:00"
 }
