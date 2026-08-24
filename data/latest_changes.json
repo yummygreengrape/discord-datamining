@@ -1,5 +1,5 @@
 {
-    "build_hash": "cfb79511c02595bac3fe04ab68dff1b2943158ea",
+    "build_hash": "d36582a1ead81f2c2f0347c70aad64b166e2dd13",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,21 +12,8 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "EHMPvA": "Allow Remixing",
-                "V+azw/": "Remix App",
-                "bTAItn": "This app is still being worked on. Let it finish, then remix it.",
-                "ekrwGo": "I couldn’t remix this app. Try again?",
-                "so1WC7": "I just made this as a remix of another app. Look it over, tell me what it does, and suggest some ways to make it my own.",
-                "vPI794": "Remix"
-            },
-            "deleted": {
-                "GKiadO": "I couldn’t make a copy of this app. Try again?",
-                "Gc6FB2": "This app is still being worked on. Let it finish, then fork it.",
-                "gsSrw3": "I just made this as a copy of another app of mine. Look it over, tell me what it does, and suggest some ways to make it my own.",
-                "hU9QAE": "Fork",
-                "sFFX7L": "Fork App"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -35,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-24T22:28:18.703314+00:00"
+    "timestamp": "2026-08-24T22:39:03.652741+00:00"
 }
