@@ -1,5 +1,5 @@
 {
-    "build_hash": "4a342aa4ead9250a0b817d5e3b22528e68350f98",
+    "build_hash": "215c386e24c6b321d3c962e0a861b77747c0d8a7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,10 @@
     "string_changes": {
         "en": {
             "added": {
-                "B2MCEq": "Choose your FREE reward(s)",
-                "UGXnmY": "{rewardCount} of {maxRewardCount} selected"
+                "DIyQIF": "Auto-Add Threads",
+                "WsUrMD": "Full",
+                "dW9Kov": "Favorites limit reached",
+                "g2vHYJ": "Threads you join go to an \"Auto-Added Threads\" category."
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-24T21:55:59.384663+00:00"
+    "timestamp": "2026-08-24T22:06:46.446401+00:00"
 }
