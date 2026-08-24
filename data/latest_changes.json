@@ -1,5 +1,5 @@
 {
-    "build_hash": "af210dea7d15eb464a6a1de3e8e592ea8a8820b2",
+    "build_hash": "85f5c2dab0ebddf604e3757b03d7a485228b7b8d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "eIHfGZ": "{overflow_count, plural, one {# more badge} other {# more badges}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-24T16:04:10.944944+00:00"
+    "timestamp": "2026-08-24T16:14:53.874387+00:00"
 }
