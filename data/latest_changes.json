@@ -1,5 +1,5 @@
 {
-    "build_hash": "e4d23b76db90adabd866aed69ee08516b04836a5",
+    "build_hash": "af443a36ff1e59c00100c3f46652b8e6a45a73f9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,18 +9,35 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-mark-channel-unread",
+            "kind": "user",
+            "timestamp": "2026-08-24T19:51:06Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "KOUwKV": "View Widget"
+            },
+            "deleted": {
+                "8L/eYB": "View Widget"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "8L/eYB": "위젯 보기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-08-24T19:37:56.384753+00:00"
+    "timestamp": "2026-08-24T19:58:55.540792+00:00"
 }
