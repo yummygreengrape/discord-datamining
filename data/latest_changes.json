@@ -1,5 +1,5 @@
 {
-    "build_hash": "85f5c2dab0ebddf604e3757b03d7a485228b7b8d",
+    "build_hash": "61f05187722ccdfc72a30e9c04d892292301a164",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,79 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "quality"
+            ],
+            "default_config": {
+                "enabled": false,
+                "quality": 60
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-heic-upload-conversion",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-08-24T16:24:56Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "quality": 60
+                },
+                "1": {
+                    "enabled": true,
+                    "quality": 60
+                },
+                "2": {
+                    "enabled": true,
+                    "quality": 80
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "quality"
+            ],
+            "default_config": {
+                "enabled": false,
+                "quality": 60
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-heic-upload-conversion",
+            "kind": "user",
+            "timestamp": "2026-08-24T16:24:56Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "quality": 60
+                },
+                "1": {
+                    "enabled": true,
+                    "quality": 60
+                },
+                "2": {
+                    "enabled": true,
+                    "quality": 80
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +93,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-24T16:14:53.874387+00:00"
+    "timestamp": "2026-08-24T16:25:37.591899+00:00"
 }
