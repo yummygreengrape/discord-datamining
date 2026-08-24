@@ -1,5 +1,5 @@
 {
-    "build_hash": "7fad524a64a01e9a161d2011d399a3cb3fbc39da",
+    "build_hash": "bb7114889ac1d073f94334bd95ab340209afcaaf",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -11,30 +11,23 @@
     "new_experiment_details": [
         {
             "config_keys": [
-                "enabled",
-                "tenureBadgeHideable"
+                "useNtpClock"
             ],
             "default_config": {
-                "enabled": false,
-                "tenureBadgeHideable": false
+                "useNtpClock": false
             },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-08-badge-management",
+            "id": "2026-07-clips-ntp-clock",
             "kind": "user",
             "status": "added",
+            "timestamp": "2026-08-24T18:31:18Z",
             "treatments": [
-                "Variant 1",
-                "Variant 2"
+                "Variant 1"
             ],
             "variations": {
                 "1": {
-                    "enabled": true,
-                    "tenureBadgeHideable": true
-                },
-                "2": {
-                    "enabled": true,
-                    "tenureBadgeHideable": false
+                    "useNtpClock": true
                 }
             }
         }
@@ -42,53 +35,40 @@
     "new_experiments": [
         {
             "config_keys": [
-                "enabled",
-                "tenureBadgeHideable"
+                "useNtpClock"
             ],
             "default_config": {
-                "enabled": false,
-                "tenureBadgeHideable": false
+                "useNtpClock": false
             },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-08-badge-management",
+            "id": "2026-07-clips-ntp-clock",
             "kind": "user",
+            "timestamp": "2026-08-24T18:31:18Z",
             "treatments": [
-                "Variant 1",
-                "Variant 2"
+                "Variant 1"
             ],
             "variations": {
                 "1": {
-                    "enabled": true,
-                    "tenureBadgeHideable": true
-                },
-                "2": {
-                    "enabled": true,
-                    "tenureBadgeHideable": false
+                    "useNtpClock": true
                 }
             }
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-nitro-tenure-badge-total-progress",
-            "kind": "user",
-            "timestamp": "2026-08-24T18:20:08Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
         }
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "PXIyjF": "Customize your badges",
-                "VHaYM7": "Hold and drag to reorder, and hide any badges you don't want to appear publicly.",
-                "fN2how": "View Badges"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "Hn/5vP": {
+                    "new_value": "Enable Co-development",
+                    "old_value": "Make public"
+                },
+                "XC0HHn": {
+                    "new_value": "Disable Co-development",
+                    "old_value": "Make private"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -96,5 +76,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-24T18:23:13.729277+00:00"
+    "timestamp": "2026-08-24T18:34:00.628857+00:00"
 }
