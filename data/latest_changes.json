@@ -1,5 +1,5 @@
 {
-    "build_hash": "fdbf7f3cef680d041349aab555a8d543c261e72b",
+    "build_hash": "670c685b9802dc3a9dbbdb85531d2bc1014472ee",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,23 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "NBm6jz": "Placing note next to {targetLabel}",
-                "NYm6Cb": "{seatLabel}, unoccupied",
-                "bUGP71": "Note canceled",
-                "sV/+Cu": "Open seats, choose one to sit"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "F9DcvR": {
-                    "new_value": "Open seats",
-                    "old_value": "Open seats, choose one to sit"
-                },
-                "xyO7AD": {
-                    "new_value": "Press Enter to place your note here. Press Escape to cancel.",
-                    "old_value": "Use the arrow keys to position your note, then press Enter to place it."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -36,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-24T18:55:29.890148+00:00"
+    "timestamp": "2026-08-24T19:06:15.796000+00:00"
 }
