@@ -1,5 +1,5 @@
 {
-    "build_hash": "abaf754ded6171b7dc6aa618db5f486297b94736",
+    "build_hash": "7fad524a64a01e9a161d2011d399a3cb3fbc39da",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,11 +8,85 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "tenureBadgeHideable"
+            ],
+            "default_config": {
+                "enabled": false,
+                "tenureBadgeHideable": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-08-badge-management",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "tenureBadgeHideable": true
+                },
+                "2": {
+                    "enabled": true,
+                    "tenureBadgeHideable": false
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "tenureBadgeHideable"
+            ],
+            "default_config": {
+                "enabled": false,
+                "tenureBadgeHideable": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-08-badge-management",
+            "kind": "user",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "tenureBadgeHideable": true
+                },
+                "2": {
+                    "enabled": true,
+                    "tenureBadgeHideable": false
+                }
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-nitro-tenure-badge-total-progress",
+            "kind": "user",
+            "timestamp": "2026-08-24T18:20:08Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "PXIyjF": "Customize your badges",
+                "VHaYM7": "Hold and drag to reorder, and hide any badges you don't want to appear publicly.",
+                "fN2how": "View Badges"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +96,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-24T18:12:24.554737+00:00"
+    "timestamp": "2026-08-24T18:23:13.729277+00:00"
 }
