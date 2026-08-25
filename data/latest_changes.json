@@ -1,8 +1,19 @@
 {
-    "build_hash": "f930bf5cb97a1a1f5d75191dc3ca22311f124a76",
+    "build_hash": "e9a64f40d30a9fbe022b5387947c373407d4549e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-rtc-panel-game-card",
+            "kind": "user",
+            "timestamp": "2026-08-25T17:10:54Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-25T17:45:34.870608+00:00"
+    "timestamp": "2026-08-25T17:56:39.853261+00:00"
 }
