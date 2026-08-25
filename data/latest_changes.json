@@ -1,8 +1,106 @@
 {
-    "build_hash": "a354ee293e97de6053fe64df3dfb4ba509db4c42",
+    "build_hash": "c0a182ec946e24aab84d61a2b238c825356b0b3b",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-hotwheels-clickable-game-icon",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-08-25T17:07:46Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "improvedGameCard"
+            ],
+            "default_config": {
+                "improvedGameCard": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-rtc-panel-game-card",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-08-25T17:10:54Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "improvedGameCard": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-hotwheels-clickable-game-icon",
+            "kind": "user",
+            "timestamp": "2026-08-25T17:07:46Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "improvedGameCard"
+            ],
+            "default_config": {
+                "improvedGameCard": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-rtc-panel-game-card",
+            "kind": "user",
+            "timestamp": "2026-08-25T17:10:54Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "improvedGameCard": true
+                }
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-server-tag-game-profiles-desktop",
+            "kind": "user",
+            "timestamp": "2026-08-25T17:09:53Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +120,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-25T16:51:51.809068+00:00"
+    "timestamp": "2026-08-25T17:12:51.112832+00:00"
 }
