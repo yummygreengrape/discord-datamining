@@ -1,21 +1,8 @@
 {
-    "build_hash": "11fe9ded038950a12a0d352819df93e0cd4c46e5",
+    "build_hash": "376a7a00cd1ae9eeebb091a3ca3aa0a6a25b230f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-smag-wishlist-recommendations-dismiss-threshold",
-            "kind": "user",
-            "timestamp": "2026-08-25T00:44:57Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -35,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-25T00:46:28.976168+00:00"
+    "timestamp": "2026-08-25T01:07:30.264986+00:00"
 }
