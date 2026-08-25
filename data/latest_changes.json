@@ -1,5 +1,5 @@
 {
-    "build_hash": "af9091d2d01b94823a8b338c7ab9373b381f6422",
+    "build_hash": "a62bb5a46127aac1ecdb73bea8f163fdf6a97d2f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,41 +12,15 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "FJB6MV": "Selects this badge to hide from your profile",
-                "Vzc4+8": "Hold and drag to reorder. Tap to hide.",
-                "ZuXSRp": "Tap to hide badges you want to be private.",
-                "hHHpvU": "Shows this badge on your profile again",
-                "j3DsAJ": "{count, plural, one {Hide Badge} other {Hide Badges}}",
-                "mehuPg": "{badgeName} shown",
-                "nPQVxb": "Badge is always visible",
-                "q3t0Ht": "{count, plural, one {Badge hidden} other {# badges hidden}}",
-                "x5SfWU": "Customize your badges"
-            },
-            "deleted": {
-                "9iIKHh": "Hide badges",
-                "Fp+l7E": "Hide any badges you don't want to appear publicly",
-                "QVHyhK": "You don't have any badges you can hide yet.",
-                "TPp3Mq": "Toggles whether this badge appears on your profile",
-                "WvuuHt": "Drag to reorder your badges",
-                "XMDvpN": "Hide Badges",
-                "opzPIQ": "Reorder your badges"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "9iIKHh": "배지 숨기기",
-                "Fp+l7E": "공개적으로 표시하고 싶지 않은 배지 숨기기",
-                "QVHyhK": "아직 숨길 수 있는 배지가 없습니다.",
-                "TPp3Mq": "이 배지를 프로필에 표시할지 여부를 전환합니다",
-                "WvuuHt": "드래그하여 배지 순서 변경하기",
-                "XMDvpN": "배지 숨기기",
-                "opzPIQ": "배지 순서 변경"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-08-25T21:09:21.691275+00:00"
+    "timestamp": "2026-08-25T21:20:18.952890+00:00"
 }
