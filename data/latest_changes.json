@@ -1,5 +1,5 @@
 {
-    "build_hash": "16b56467f6dd5146c7b31a239dedf49d0b38df98",
+    "build_hash": "6cd6046590b25ac72b8fc51f03f3667b38e79ea3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,90 +7,12 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_GUILDS_TOP_SOUNDBOARD_SOUNDS",
-            "status": "added",
-            "url": "/guilds/:param/top-soundboard-sounds"
-        },
-        {
-            "name": "TOP_SOUNDBOARD_SOUNDS_FOR_GUILD",
-            "status": "added",
-            "url": "/guilds/:param/top-soundboard-sounds"
-        }
-    ],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "topSoundsFirst"
-            ],
-            "default_config": {
-                "enabled": false,
-                "topSoundsFirst": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-08-top-soundboard-sounds",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "topSoundsFirst": true
-                },
-                "2": {
-                    "enabled": true,
-                    "topSoundsFirst": false
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "topSoundsFirst"
-            ],
-            "default_config": {
-                "enabled": false,
-                "topSoundsFirst": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-08-top-soundboard-sounds",
-            "kind": "user",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "topSoundsFirst": true
-                },
-                "2": {
-                    "enabled": true,
-                    "topSoundsFirst": false
-                }
-            }
-        }
-    ],
+    "new_api_endpoints": [],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+kdkTi": "Orbs in {days} days",
-                "6CLLyH": "Customize Your Badges",
-                "GXs41w": "Top Sounds in {guildName}",
-                "H6Ny8N": "ACTIVE CHALLENGES",
-                "HACucK": "You have enough Orbs to get something in the Shop!",
-                "WmfVjs": "Claim",
-                "k6h2J3": "Challenge completed"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -100,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-25T18:07:23.951765+00:00"
+    "timestamp": "2026-08-25T18:18:10.093992+00:00"
 }
