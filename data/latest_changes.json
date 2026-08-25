@@ -1,5 +1,5 @@
 {
-    "build_hash": "b93e3b5849fa4bfef7caccdef8b0deeddc49fdd4",
+    "build_hash": "bae8c4f234a9a178bb2bcbda421667a044364a53",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,60 +7,50 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "APPLICATION_WIDGET_REFRESH",
-            "status": "added",
-            "url": "/applications/:param/widget/refresh"
-        },
-        {
-            "name": "ENDPOINT_APPLICATIONS_WIDGET_REFRESH",
-            "status": "added",
-            "url": "/applications/:param/widget/refresh"
-        },
-        {
-            "name": "ENDPOINT_USERS_BILLING_USER_OFFER_TRIGGER",
-            "status": "added",
-            "url": "/users/@me/billing/user-offer/trigger"
-        },
-        {
-            "name": "USER_OFFER_TRIGGER",
-            "status": "added",
-            "url": "/users/@me/billing/user-offer/trigger"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {
-                "1UFWet": "This app doesn’t have a profile card set up yet.",
-                "30UxZU": "This app can’t update your card until you authorize it again in Authorized Apps.",
-                "BLKD4B": "Couldn’t request a refresh. Try again in a moment.",
-                "T1n7hc": "You just refreshed this. Try again in a minute.",
-                "um/5Kc": "Refresh requested. Your card will update shortly.",
-                "wK1svU": "Content Rating",
-                "ypKX9A": "Couldn’t reach this app to ask for a refresh. Try again in a moment."
+                "4OR+L+": "Custom card",
+                "5fwOcF": "Couldn’t open sign-in. Try again.",
+                "8DyNx1": "Conjuring happens in a server you’re in. Join one or create your own, then come back.",
+                "8oRfMw": "Refresh Profile Widget",
+                "DAm99t": "What should it show?",
+                "FYN9Rl": "Paste a public link — a WoW Armory page, a GitHub profile, a Roll20 sheet — then say what you want on the card.",
+                "JMd7xW": "{label} setup isn’t finished",
+                "JXACNA": "Connect {label}",
+                "LdgKdI": "A server",
+                "MLg0S8": "Who is this for?",
+                "SGHO9K": "Your profile card is switched off",
+                "TI6dfu": "Frame",
+                "WE0MKN": "Widget",
+                "Wo5sQv": "Tell it what to build first.",
+                "avu1u4": "Finish the setup form for this app first.",
+                "blSmfQ": "The link has to be public. Anything behind a login is something your app can’t read, so it won’t show up.",
+                "f/Jz/R": "Start conjuring",
+                "iqXIRN": "Just me",
+                "jQ3nQB": "Pick who this is for first.",
+                "oq8F8s": "Import as",
+                "pV/rS2": "This app’s access to your profile was taken away, so there’s nothing for it to show here.",
+                "zshJSX": "Widget"
             },
-            "deleted": {},
+            "deleted": {
+                "O5ij4K": "Activity"
+            },
             "modified": {
-                "9bEWZJ": {
-                    "new_value": "Ratings",
-                    "old_value": "Rating"
+                "xKexN1": {
+                    "new_value": "Refresh App",
+                    "old_value": "Refresh"
                 }
             }
         },
         "ko": {
-            "added": {
-                "Ev7DO6": "이 선물 구매를 완료하면",
-                "PXIyjF": "배지 사용자 지정",
-                "RWkUzH": "이미지 편집하기",
-                "WsUrMD": "만원",
-                "dh0LD5": "이미지 변경"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-08-25T22:03:45.302602+00:00"
+    "timestamp": "2026-08-25T22:14:31.500135+00:00"
 }
