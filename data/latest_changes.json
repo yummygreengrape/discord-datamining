@@ -1,5 +1,5 @@
 {
-    "build_hash": "c7ca58162e11142bdcb26aa706be1a8e697c9209",
+    "build_hash": "549475f008964b256f236299f9e62fbd65cd3cab",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,8 +12,14 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "8s30Te": "{name}’s Preview",
+                "fvxLKl": "Co-development"
+            },
+            "deleted": {
+                "Hn/5vP": "Enable Co-development",
+                "XC0HHn": "Disable Co-development"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-25T08:12:51.694957+00:00"
+    "timestamp": "2026-08-25T08:23:40.207513+00:00"
 }
