@@ -58,30 +58,30 @@ The current string_changes payload contains one English added key, P9nKjJ. strin
 
 ## Validations
 
-Status: pending
+Status: passed
 
-- required JSON parsing: pending
-- 80 selected analysis-only row changes across 73 identities: pending
-- 54,976-row source/web core parity before publish: pending
-- 54,976-row private/ignored/web full parity after synchronization: pending
-- 82-row ignored-history synchronization: pending
-- paired Korean and English required fields: pending
-- English-language purity: pending
-- scoped private-path, credential-value, SEO, and overclaim scan: pending
-- latest string_context limited to the current P9nKjJ payload key: pending
-- dated/latest report pointer parity: pending
-- compact tracked web JSON and four-space latest payload: pending
-- private-runner fixed-path candidate scan and staged digest attestation: pending
-- public security scan: pending
-- public unit tests: pending
-- private route, analysis, and security tests plus Python syntax checks: pending
-- dependency audit: pending
-- git diff checks: pending
-- clean post-push branch parity: pending
+- required JSON parsing: passed
+- 80 selected analysis-only row changes across 73 identities: passed
+- 54,976-row source/web core parity before publish: passed
+- 54,976-row private/ignored/web full parity after synchronization: passed
+- 82-row ignored-history synchronization: passed
+- paired Korean and English required fields: passed
+- English-language purity: passed
+- scoped private-path, credential-value, SEO, and overclaim scan: passed
+- latest string_context limited to the current P9nKjJ payload key: passed
+- dated/latest report pointer parity: passed
+- compact tracked web JSON and four-space latest payload: passed
+- private-runner fixed-path candidate scan and staged digest attestation: passed
+- public security scan: passed
+- public unit tests: passed
+- private route, analysis, and security tests plus Python syntax checks: passed
+- dependency audit: passed
+- git diff checks: passed
+- clean post-push branch parity: passed
 
 ## Commits
 
-- Pending publication
+- b93371d6 Add August 25 string context interpretations (pushed)
 
 ## Security/privacy impact
 
