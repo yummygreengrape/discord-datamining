@@ -1,5 +1,5 @@
 {
-    "build_hash": "d3325f2e0c983d96f8e22cb098ff54530f5b3147",
+    "build_hash": "b93e3b5849fa4bfef7caccdef8b0deeddc49fdd4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,20 +7,60 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "APPLICATION_WIDGET_REFRESH",
+            "status": "added",
+            "url": "/applications/:param/widget/refresh"
+        },
+        {
+            "name": "ENDPOINT_APPLICATIONS_WIDGET_REFRESH",
+            "status": "added",
+            "url": "/applications/:param/widget/refresh"
+        },
+        {
+            "name": "ENDPOINT_USERS_BILLING_USER_OFFER_TRIGGER",
+            "status": "added",
+            "url": "/users/@me/billing/user-offer/trigger"
+        },
+        {
+            "name": "USER_OFFER_TRIGGER",
+            "status": "added",
+            "url": "/users/@me/billing/user-offer/trigger"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "1UFWet": "This app doesn’t have a profile card set up yet.",
+                "30UxZU": "This app can’t update your card until you authorize it again in Authorized Apps.",
+                "BLKD4B": "Couldn’t request a refresh. Try again in a moment.",
+                "T1n7hc": "You just refreshed this. Try again in a minute.",
+                "um/5Kc": "Refresh requested. Your card will update shortly.",
+                "wK1svU": "Content Rating",
+                "ypKX9A": "Couldn’t reach this app to ask for a refresh. Try again in a moment."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "9bEWZJ": {
+                    "new_value": "Ratings",
+                    "old_value": "Rating"
+                }
+            }
         },
         "ko": {
-            "added": {},
+            "added": {
+                "Ev7DO6": "이 선물 구매를 완료하면",
+                "PXIyjF": "배지 사용자 지정",
+                "RWkUzH": "이미지 편집하기",
+                "WsUrMD": "만원",
+                "dh0LD5": "이미지 변경"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-08-25T21:52:48.903574+00:00"
+    "timestamp": "2026-08-25T22:03:45.302602+00:00"
 }
