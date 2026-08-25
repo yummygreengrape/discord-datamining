@@ -1,5 +1,5 @@
 {
-    "build_hash": "1f58388d1d3f6b0266506381f3c243ee0f54de50",
+    "build_hash": "ae2e0a3ce23de644cc57dc885fcb6d34ec7e4422",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,17 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "1kFyto": "Nitro raises your scheduled message limit to {premiumMax, number}. You can also [cancel a scheduled message]({onClick}) to make room.",
-                "2o4lgw": "Scheduled message limit reached. Get [{nitroTierName}]({onClick}) for {premiumMax, number} scheduled messages.",
-                "3AMt7r": "You've reached the limit of {max, number} scheduled messages. Cancel one to schedule another.",
-                "7GgYhg": "Scheduled limit reached. Get {nitroTierName} for {premiumMax, number} scheduled messages.",
-                "GNoaxo": "Get up to {premiumMax, number} scheduled messages",
-                "RLdUVh": "Oops! Limit reached.",
-                "WfTDdG": "Schedule even more messages with {nitroTierName}.",
-                "YnsakI": "Nitro raises your scheduled message limit to {premiumMax, number}. You can also cancel a scheduled message to make room.",
-                "lv6bDa": "Manage Messages"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -32,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-25T22:57:39.316536+00:00"
+    "timestamp": "2026-08-25T23:44:08.157347+00:00"
 }
