@@ -1,5 +1,5 @@
 {
-    "build_hash": "c76d93e8d62c3a7d003029a0398ab4c17a4e8a71",
+    "build_hash": "fa0d6224af8919a78360a00dc829c0d93924b5bf",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,12 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "GpUOWb": "{count, plural, one {Selected # Group DM} other {Selected # Group DMs}}.",
+                "SsUZo/": "Selected {name}. {count, plural, =0 {No Group DMs selected} one {# Group DM selected} other {# Group DMs selected}}.",
+                "hhQnsH": "Cleared selection. No Group DMs selected.",
+                "x03WqE": "Unselected {name}. {count, plural, =0 {No Group DMs selected} one {# Group DM selected} other {# Group DMs selected}}."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-25T07:10:04.053817+00:00"
+    "timestamp": "2026-08-25T08:02:04.023099+00:00"
 }
