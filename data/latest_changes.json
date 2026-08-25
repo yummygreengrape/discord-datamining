@@ -1,5 +1,5 @@
 {
-    "build_hash": "8007655e10a6437ba0f514543527ddeca5b83edd",
+    "build_hash": "b420ef523d015bd07e52bac297fc9b4d4831ccc1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "PqmI8J": "Draft your message, then long press the plus button and tap **Schedule Message** to choose when to send. We'll handle the rest.",
-                "SZVs3K": "Scheduled Messages",
-                "sHmiIC": "Options"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-25T02:20:20.854217+00:00"
+    "timestamp": "2026-08-25T03:12:03.647393+00:00"
 }
