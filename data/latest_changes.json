@@ -1,5 +1,5 @@
 {
-    "build_hash": "bae8c4f234a9a178bb2bcbda421667a044364a53",
+    "build_hash": "ae6ca0a7510a51474bb1e37da0496be04cb585b1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,39 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "4OR+L+": "Custom card",
-                "5fwOcF": "Couldn’t open sign-in. Try again.",
-                "8DyNx1": "Conjuring happens in a server you’re in. Join one or create your own, then come back.",
-                "8oRfMw": "Refresh Profile Widget",
-                "DAm99t": "What should it show?",
-                "FYN9Rl": "Paste a public link — a WoW Armory page, a GitHub profile, a Roll20 sheet — then say what you want on the card.",
-                "JMd7xW": "{label} setup isn’t finished",
-                "JXACNA": "Connect {label}",
-                "LdgKdI": "A server",
-                "MLg0S8": "Who is this for?",
-                "SGHO9K": "Your profile card is switched off",
-                "TI6dfu": "Frame",
-                "WE0MKN": "Widget",
-                "Wo5sQv": "Tell it what to build first.",
-                "avu1u4": "Finish the setup form for this app first.",
-                "blSmfQ": "The link has to be public. Anything behind a login is something your app can’t read, so it won’t show up.",
-                "f/Jz/R": "Start conjuring",
-                "iqXIRN": "Just me",
-                "jQ3nQB": "Pick who this is for first.",
-                "oq8F8s": "Import as",
-                "pV/rS2": "This app’s access to your profile was taken away, so there’s nothing for it to show here.",
-                "zshJSX": "Widget"
-            },
-            "deleted": {
-                "O5ij4K": "Activity"
-            },
-            "modified": {
-                "xKexN1": {
-                    "new_value": "Refresh App",
-                    "old_value": "Refresh"
-                }
-            }
+            "added": {},
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -52,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-25T22:14:31.500135+00:00"
+    "timestamp": "2026-08-25T22:25:19.613822+00:00"
 }
