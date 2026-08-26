@@ -1,20 +1,8 @@
 {
-    "build_hash": "6a9855ac4b32dd15f59fde5eebab034e79f27a51",
+    "build_hash": "bd5b6ceda1f59f26270c9d657b976b7acb871388",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-collectibles-collabs-filter",
-            "kind": "user",
-            "timestamp": "2026-08-26T17:10:16Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -34,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-26T17:19:35.695361+00:00"
+    "timestamp": "2026-08-26T17:31:18.146122+00:00"
 }
