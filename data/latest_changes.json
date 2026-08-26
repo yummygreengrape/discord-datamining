@@ -1,5 +1,5 @@
 {
-    "build_hash": "e9474d154105b7ddccab471765c4d1c816e436e0",
+    "build_hash": "5d62f6de2e70a4257c120c7e15248ad556756cd6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,16 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "9AY+/x": {
+                    "new_value": "Add Block",
+                    "old_value": "Add Field"
+                },
+                "t4vU5I": {
+                    "new_value": "Add Blocks",
+                    "old_value": "Add Fields"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-26T22:11:41.403342+00:00"
+    "timestamp": "2026-08-26T22:22:33.639741+00:00"
 }
