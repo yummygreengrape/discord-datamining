@@ -5,8 +5,8 @@
 변경 사항을 더 편하게 확인하려면 https://discord-archive.com/datamining 을 확인하세요.
 
 공개 데이터의 범위와 개인정보 제외 원칙은
-[`docs/DATA_INVENTORY.md`](docs/DATA_INVENTORY.md), 발행 전 보안 검사는
-[`docs/SECURITY_PRIVACY.md`](docs/SECURITY_PRIVACY.md)를 참고하세요.
+[`docs/DATA_INVENTORY.md`](docs/DATA_INVENTORY.md), 비공개 러너에서 수행하는 발행 전
+보안 검사는 [`docs/SECURITY_PRIVACY.md`](docs/SECURITY_PRIVACY.md)를 참고하세요.
 
 ## 주의 사항
 

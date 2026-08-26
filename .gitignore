@@ -4,6 +4,12 @@
 !.env.example
 __pycache__/
 *.py[cod]
+/AGENTS.md
+/.github/
+/data/reports/
+/scripts/
+/security/
+/tests/
 security-reports/
 quarantine/
 *filtered_user_messages*
