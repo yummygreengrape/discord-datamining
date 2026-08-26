@@ -1,8 +1,101 @@
 {
-    "build_hash": "95bac997173952d37e99bc9c3e1215bc3c9794d5",
+    "build_hash": "bb3be5cd14b7ed207c75ea9a88018d1df467aef6",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "combineMentionAutocomplete",
+                "enabled",
+                "showNewTag"
+            ],
+            "default_config": {
+                "combineMentionAutocomplete": false,
+                "enabled": false,
+                "showNewTag": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-game-mentions-v2-mobile",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-08-26T22:00:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": false,
+                    "showNewTag": false
+                },
+                "1": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": true,
+                    "showNewTag": true
+                },
+                "2": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": true,
+                    "showNewTag": false
+                },
+                "3": {
+                    "combineMentionAutocomplete": true,
+                    "enabled": true,
+                    "showNewTag": false
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "combineMentionAutocomplete",
+                "enabled",
+                "showNewTag"
+            ],
+            "default_config": {
+                "combineMentionAutocomplete": false,
+                "enabled": false,
+                "showNewTag": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-game-mentions-v2-mobile",
+            "kind": "user",
+            "timestamp": "2026-08-26T22:00:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": false,
+                    "showNewTag": false
+                },
+                "1": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": true,
+                    "showNewTag": true
+                },
+                "2": {
+                    "combineMentionAutocomplete": false,
+                    "enabled": true,
+                    "showNewTag": false
+                },
+                "3": {
+                    "combineMentionAutocomplete": true,
+                    "enabled": true,
+                    "showNewTag": false
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,7 +106,12 @@
     "string_changes": {
         "en": {
             "added": {
-                "t4vU5I": "Add Fields"
+                "UPLtlA": "You don't have permission to edit whiteboard access.",
+                "XXLbfv": "Restrict access by role",
+                "XrpYIG": "Only these roles can use the whiteboard. Leave this empty to let everyone use it. Changes apply right away and are not part of your draft.",
+                "nXc/MQ": "You don't have access.",
+                "pp6WeD": "Select roles",
+                "xyCJYs": "Whiteboard couldn't be updated. Try again."
             },
             "deleted": {},
             "modified": {}
@@ -24,5 +122,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-26T21:50:04.303499+00:00"
+    "timestamp": "2026-08-26T22:00:50.802161+00:00"
 }
