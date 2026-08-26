@@ -1,5 +1,5 @@
 {
-    "build_hash": "c16dafe377bceff46d8b9f0c555e8034b161e470",
+    "build_hash": "d0577eeb9a54439f3060d2b2c4b21f47c16d3ada",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -17,45 +17,10 @@
             "modified": {}
         },
         "ko": {
-            "added": {
-                "x5SfWU": "배지 사용자 지정"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "1MTnqY": {
-                    "new_value": "자동 운영을 활성화하면 포럼 모니터링이 쉬워져요. [활성화]({setUpAutomod})",
-                    "old_value": "자동 운영을 활성화하면 포럼 모니터링이 쉬워져요."
-                },
-                "4fw/T2": {
-                    "new_value": "부스트 성공! 서버를 bHook{guildSubscriptionQuantity}회 부스트했어요.",
-                    "old_value": "부스트 성공! 서버를 bHook{guildSubscriptionQuantity} 회 부스트했어요."
-                },
-                "BxLJQL": {
-                    "new_value": "{days}일 후에 {orbsCount}개의 Orbs가 함께할 거예요!",
-                    "old_value": "{days} 후에 {orbsCount}개의 Orbs가 함께할 거예요!"
-                },
-                "G7zwOk": {
-                    "new_value": "기기 {count}개",
-                    "old_value": "기기 {count} 개"
-                },
-                "IeFTQu": {
-                    "new_value": "부스트 성공! {guildName} 서버를 bHook{guildSubscriptionQuantity}회 부스트했어요.",
-                    "old_value": "부스트 성공! {guildName} 서버를 bHook{guildSubscriptionQuantity} 회 부스트했어요."
-                },
-                "V3g3dS": {
-                    "new_value": "{time}일 동안 플레이 중",
-                    "old_value": "{time}일동안 플레이 중"
-                },
-                "iovXMa": {
-                    "new_value": "만료 유예기간을 bHook{newValue}일로 설정해요",
-                    "old_value": "만료 유예기간을 bHook일로 설정해요"
-                },
-                "w5w79N": {
-                    "new_value": "{time}분 동안 플레이 중",
-                    "old_value": "{time}분동안 플레이 중"
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-08-26T11:36:01.306628+00:00"
+    "timestamp": "2026-08-26T12:27:53.890631+00:00"
 }
