@@ -1,8 +1,20 @@
 {
-    "build_hash": "b57eaac3a8149d6c33bfcd5cd1ef9add2c0fe169",
+    "build_hash": "af107ea344a74a25a03cda20f65e1e06826cf494",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-friend-is-online-v3",
+            "kind": "user",
+            "timestamp": "2026-08-26T19:31:45Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-26T19:29:57.430287+00:00"
+    "timestamp": "2026-08-26T19:40:42.329646+00:00"
 }
