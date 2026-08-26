@@ -1,5 +1,5 @@
 {
-    "build_hash": "d41efe112c1e2aa1c00eb129c84f834b0ffe5ffa",
+    "build_hash": "b57eaac3a8149d6c33bfcd5cd1ef9add2c0fe169",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,69 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "topSoundsFirst"
-            ],
-            "default_config": {
-                "enabled": false,
-                "topSoundsFirst": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-top-soundboard-sounds-mobile",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-08-26T19:17:37Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "topSoundsFirst": true
-                },
-                "2": {
-                    "enabled": true,
-                    "topSoundsFirst": false
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "topSoundsFirst"
-            ],
-            "default_config": {
-                "enabled": false,
-                "topSoundsFirst": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-top-soundboard-sounds-mobile",
-            "kind": "user",
-            "timestamp": "2026-08-26T19:17:37Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "topSoundsFirst": true
-                },
-                "2": {
-                    "enabled": true,
-                    "topSoundsFirst": false
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -83,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-26T19:19:12.506304+00:00"
+    "timestamp": "2026-08-26T19:29:57.430287+00:00"
 }
