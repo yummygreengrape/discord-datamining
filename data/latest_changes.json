@@ -1,69 +1,8 @@
 {
-    "build_hash": "387173773cb89ea2d8164b889d17a4be6e57cc43",
+    "build_hash": "3530a56072ef9020a2e1211eff37cacb65555760",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "trialCTAEnabled"
-            ],
-            "default_config": {
-                "enabled": false,
-                "trialCTAEnabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-android-two-week-trials",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-08-26T04:31:15Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "trialCTAEnabled": true
-                },
-                "2": {
-                    "enabled": true,
-                    "trialCTAEnabled": false
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "trialCTAEnabled"
-            ],
-            "default_config": {
-                "enabled": false,
-                "trialCTAEnabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-android-two-week-trials",
-            "kind": "user",
-            "timestamp": "2026-08-26T04:31:15Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "trialCTAEnabled": true
-                },
-                "2": {
-                    "enabled": true,
-                    "trialCTAEnabled": false
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -83,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-26T04:31:58.873574+00:00"
+    "timestamp": "2026-08-26T04:42:44.639581+00:00"
 }
