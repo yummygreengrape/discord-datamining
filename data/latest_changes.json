@@ -1,5 +1,5 @@
 {
-    "build_hash": "133e5afd5bf162a0759436b0fc0f11638446d523",
+    "build_hash": "77dfa3bd4fc24d7f3d0d83c29ef150090c2edba5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "pJz0/A": "Get Nitro to earn more Orbs"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-26T18:57:37.276993+00:00"
+    "timestamp": "2026-08-26T19:08:27.140604+00:00"
 }
