@@ -1,5 +1,5 @@
 {
-    "build_hash": "d05fc0fadced6d1e14269f49df8013a2b2b1a989",
+    "build_hash": "f90b795d3e718666b6e4f70f1b2406101439dc77",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,80 +8,11 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-nitro-gdm-cap-increase",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-08-26T22:48:07Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-nitro-gdm-cap-increase",
-            "kind": "user",
-            "timestamp": "2026-08-26T22:48:07Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "8+6MUw": "Fit up to {number} people in this GDM with Nitro Premium. Now in Beta.",
-                "8o8Zk5": "Fit up to {number} people in this GDM with Nitro. Now in Beta.",
-                "9EQix0": "{numMembers} / {maxMemberLimit} member limit",
-                "9k2yq6": "Fit up to {number} people in this GDM with Nitro Premium. Now in Beta.",
-                "Ae97n/": "Fit up to {number} people in this GDM with Nitro. Now in Beta.",
-                "IyBYPN": "You've reached the {number} member limit",
-                "KCD0Hp": "You've reached your limit",
-                "KfitWs": "Upgrade",
-                "PUZmk4": "View all Nitro Perks",
-                "SXkUiv": "Fit up to {number} people in this GDM with Nitro.",
-                "Sqrz1V": "Get Nitro",
-                "d8Spvj": "Bigger Groups are here.",
-                "ePNvSP": "Fit up to {number} people in this GDM with Nitro Premium.",
-                "mr27w/": "Fit up to {number} people in this GDM with Nitro. Now in Beta.",
-                "yZOtoD": "Add to Group"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -91,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-26T22:53:49.665681+00:00"
+    "timestamp": "2026-08-26T23:04:34.036512+00:00"
 }
