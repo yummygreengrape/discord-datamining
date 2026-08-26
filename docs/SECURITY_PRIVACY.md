@@ -2,12 +2,22 @@
 
 ## Publication gate
 
-Run:
+This repository contains published data and reader-facing documentation only.
+It does not execute or distribute the runner, scanner, allowlist, tests, agent
+instructions, or CI workflow. Those controls live in the private runner
+repository, whose CI checks out this repository and validates it before
+publication.
 
-```bash
-python3 scripts/security_scan.py --root . --report /tmp/public-data-security.json .
-python3 -m unittest discover -s tests -p 'test_*.py'
-```
+The private publisher installs and stages exactly these seven generated files
+after candidate scanning and digest attestation:
+
+- `data/latest_changes.json`
+- `data/web/meta.json`
+- `data/web/experiments.json`
+- `data/web/experiment-details.json`
+- `data/web/apis.json`
+- `data/web/strings.en.json`
+- `data/web/strings.ko.json`
 
 The scanner fails publication for:
 
@@ -28,8 +38,9 @@ They never contain the detected value.
 
 ## Allowlist policy
 
-`security/public-data-allowlist.json` is for verified non-user product metadata
-that a detector cannot distinguish automatically. Every entry requires:
+The private allowlist is for verified non-user product metadata that a detector
+cannot distinguish automatically. It is not published in this repository.
+Every entry requires:
 
 - one exact detector rule and SHA-256 fingerprint;
 - the narrowest matching public path;
