@@ -165,8 +165,8 @@ Clips 녹화가 로컬 시간만 쓰는 대신 Discord가 맞춘 네트워크 �
 
 ## 검증 및 커밋/푸시 결과
 
-- Validation has not yet completed.
-- Publication has not yet completed.
+- JSON/report contracts, exact private/public/web parity, 211 paired Korean/English experiment interpretations, 41 unresolved records, raw-field immutability, latest_changes immutability, fallback search, report pointers, repository tests, scoped publication security scan, and git diff checks passed. No parser or application code changed.
+- Public interpretations and report artifacts were pushed in `10f0d5305945`. This follow-up records the final validation and publication result.
 
 ### Security/privacy impact
 
