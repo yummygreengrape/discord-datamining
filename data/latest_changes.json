@@ -1,5 +1,5 @@
 {
-    "build_hash": "1eb546a3458986ba1640785ab8695c8cf6a02fa5",
+    "build_hash": "36d350e10ec20116eb973931f62c62d6596f3237",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "D+2/QP": "LFG Channel"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-26T15:57:54.540218+00:00"
+    "timestamp": "2026-08-26T16:08:48.104878+00:00"
 }
