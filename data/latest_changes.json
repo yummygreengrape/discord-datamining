@@ -1,8 +1,20 @@
 {
-    "build_hash": "bd5b6ceda1f59f26270c9d657b976b7acb871388",
+    "build_hash": "5d643f58ee20360c5f724e06b9c07b03913c3e02",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-collectibles-collabs-filter",
+            "kind": "user",
+            "timestamp": "2026-08-26T17:10:16Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,8 +24,28 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "9yHiDe": "Close Collaborator Roles",
+                "Eb3Pe3": "Let server managers and people with selected roles open and work on this project.",
+                "FTvt33": "Turn on Co-development to select roles.",
+                "JbzVsh": "Set onboarding to Advanced Mode",
+                "UYmwNU": "Close Project Settings",
+                "VPUL05": "You can add up to {max} roles.",
+                "aCgU0S": "Set onboarding to Regular Mode",
+                "bQQ4uT": "Let anyone who can see this app make a copy of it.",
+                "dByf4y": "Account is blocked",
+                "dxH2ZV": "Couldn’t update project settings. Try again.",
+                "eaqbJt": "{count} of {max} roles selected",
+                "gWSQVl": "People with any selected role can collaborate when Co-development is on.",
+                "mMCUM9": "Account is ignored",
+                "xEhUCx": "Select roles",
+                "xhcY+n": "Project Settings"
+            },
+            "deleted": {
+                "NkPaHG": "Couldn’t update the app name. Try again.",
+                "X+MWsC": "Rename Project",
+                "fHTQgk": "Rename"
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +54,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-26T17:31:18.146122+00:00"
+    "timestamp": "2026-08-26T17:42:43.422330+00:00"
 }
