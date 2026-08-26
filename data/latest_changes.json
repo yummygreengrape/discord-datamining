@@ -1,5 +1,5 @@
 {
-    "build_hash": "ad6d5ae5b80abec5017cb6aafbc6ca815dc7f194",
+    "build_hash": "3ea37b2b8d37fa7ad0c152fdf60afe6d4e29de8e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,53 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-virtual-backgrounds-ios",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-08-26T23:18:25Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-virtual-backgrounds-ios",
-            "kind": "user",
-            "timestamp": "2026-08-26T23:18:25Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -67,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-26T23:26:03.986792+00:00"
+    "timestamp": "2026-08-26T23:36:51.519283+00:00"
 }
