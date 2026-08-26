@@ -1,201 +1,18 @@
 {
-    "build_hash": "44e6cb4d4e2a423fa136ee8c7c1fa4dd94cfa57e",
+    "build_hash": "05ae5df7922c8f3c9911ddf055e7ecc18dfa5d1d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "gi.v.GRADIENT",
-                "surface": "gi.F.NONE"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "old_config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "old_default_config": {
-                "badgeStyle": "gt.v.GRADIENT",
-                "surface": "gt.F.NONE"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "gt.v.GRADIENT",
-                    "surface": "gt.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "gt.v.EXPRESSIVE",
-                    "surface": "gt.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "gt.v.GRADIENT",
-                    "surface": "gt.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "gt.v.GLOWING",
-                    "surface": "gt.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "gt.v.GLOWING",
-                    "surface": "gt.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "gi.v.GRADIENT",
-                    "surface": "gi.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "gi.v.EXPRESSIVE",
-                    "surface": "gi.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "gi.v.GRADIENT",
-                    "surface": "gi.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "gi.v.GLOWING",
-                    "surface": "gi.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "gi.v.GLOWING",
-                    "surface": "gi.F.NONE"
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "gi.v.GRADIENT",
-                "surface": "gi.F.NONE"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "old_config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "old_default_config": {
-                "badgeStyle": "gt.v.GRADIENT",
-                "surface": "gt.F.NONE"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "gt.v.GRADIENT",
-                    "surface": "gt.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "gt.v.EXPRESSIVE",
-                    "surface": "gt.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "gt.v.GRADIENT",
-                    "surface": "gt.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "gt.v.GLOWING",
-                    "surface": "gt.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "gt.v.GLOWING",
-                    "surface": "gt.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "gi.v.GRADIENT",
-                    "surface": "gi.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "gi.v.EXPRESSIVE",
-                    "surface": "gi.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "gi.v.GRADIENT",
-                    "surface": "gi.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "gi.v.GLOWING",
-                    "surface": "gi.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "gi.v.GLOWING",
-                    "surface": "gi.F.NONE"
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+Lq5Ha": "{name}, in {server}",
-                "/aUeR9": "Gathering your conjurings…",
-                "1SDxuI": "Active",
-                "7Io+dh": "Tasks: {completed} of {total} done",
-                "8NmOZ5": "You can start one in {count}:",
-                "I92Gjf": "None of your servers can start one yet. You need Manage Server and Manage Channels somewhere Conjuring is switched on.",
-                "JmMDaL": "{completed}/{total} tasks",
-                "ZnvpQR": "Conjuring",
-                "aj4bR0": "{name}, not in a server yet",
-                "g/BU5S": "No servers you can start one in",
-                "qSQH7H": "Nothing conjured yet",
-                "qbAREO": "Create",
-                "qqH+iN": "No server yet",
-                "r9EdXu": "Idle"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -205,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-26T07:58:30.235462+00:00"
+    "timestamp": "2026-08-26T08:19:40.811493+00:00"
 }
