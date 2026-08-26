@@ -1,5 +1,5 @@
 {
-    "build_hash": "4a36ea61f10bb66dfc9d1bbafa8a08d3f25da8d6",
+    "build_hash": "8d7008c69b91ac173d41db9561eb3a0d5b5973b0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,77 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "showOnRTCHover",
-                "showQuickAccess"
-            ],
-            "default_config": {
-                "enabled": false,
-                "showOnRTCHover": false,
-                "showQuickAccess": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-soundboard-quick-action",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-08-26T20:00:05Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "showOnRTCHover": true,
-                    "showQuickAccess": true
-                },
-                "2": {
-                    "enabled": true,
-                    "showOnRTCHover": true,
-                    "showQuickAccess": false
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "showOnRTCHover",
-                "showQuickAccess"
-            ],
-            "default_config": {
-                "enabled": false,
-                "showOnRTCHover": false,
-                "showQuickAccess": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-soundboard-quick-action",
-            "kind": "user",
-            "timestamp": "2026-08-26T20:00:05Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "showOnRTCHover": true,
-                    "showQuickAccess": true
-                },
-                "2": {
-                    "enabled": true,
-                    "showOnRTCHover": true,
-                    "showQuickAccess": false
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -91,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-26T20:02:13.416479+00:00"
+    "timestamp": "2026-08-26T20:12:56.570463+00:00"
 }
