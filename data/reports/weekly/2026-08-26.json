@@ -1422,26 +1422,26 @@
     }
   ],
   "validations": {
-    "json_validity": "pending",
-    "report_shape": "pending",
-    "history_public_parity": "pending",
-    "paired_language_analysis": "pending",
-    "unresolved_required_fields": "pending",
-    "forbidden_fallback_phrase_search": "pending",
-    "tracked_public_content_check": "pending",
-    "full_checkout_security_scan": "pending",
-    "report_pointer_equality": "pending",
-    "repository_tests": "pending",
-    "git_diff_check": "pending",
-    "notes": "Validation has not yet completed."
+    "json_validity": "passed (11 JSON inputs)",
+    "report_shape": "passed",
+    "history_public_parity": "passed (exact private/public/web parity; 211 Codex experiment rows)",
+    "paired_language_analysis": "passed (211 paired Korean/English rows; English purity passed)",
+    "unresolved_required_fields": "passed (41 candidates)",
+    "forbidden_fallback_phrase_search": "passed",
+    "tracked_public_content_check": "passed (reviewed public product metadata only)",
+    "full_checkout_security_scan": "reviewed (local ignored history and pre-existing local metadata findings were not staged)",
+    "report_pointer_equality": "passed",
+    "repository_tests": "passed (12 public tests; private security/parser suites passed)",
+    "git_diff_check": "passed",
+    "notes": "JSON/report contracts, exact private/public/web parity, 211 paired Korean/English experiment interpretations, 41 unresolved records, raw-field immutability, latest_changes immutability, fallback search, report pointers, repository tests, scoped publication security scan, and git diff checks passed. No parser or application code changed."
   },
   "commits": {
-    "data_commit": null,
-    "report_publish_commit": null,
-    "pushed": false,
+    "data_commit": "10f0d5305945bb8b5338106da1c3a7f6e92495d3",
+    "report_publish_commit": "recorded by this follow-up metadata commit",
+    "pushed": true,
     "remote": "origin/main",
-    "status_summary": "pending",
-    "notes": "Publication has not yet completed."
+    "status_summary": "passed (10f0d5305945 pushed to origin/main; final metadata recorded by follow-up commit)",
+    "notes": "Public interpretations and report artifacts were pushed in `10f0d5305945`. This follow-up records the final validation and publication result."
   },
   "security_privacy_impact": {
     "summary": "No trust boundary, collection, transmission, retention, deletion, backup, access-control, or public schema changed.",
