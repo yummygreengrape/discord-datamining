@@ -1,5 +1,5 @@
 {
-    "build_hash": "b3eaafab9b80632119f4a3b906bf3840ba9697a5",
+    "build_hash": "89fed110fd2389bf731a0851f072d679696b92cc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,56 +8,14 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-user-profile-server-tag-style",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-08-25T23:50:01Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-user-profile-server-tag-style",
-            "kind": "user",
-            "timestamp": "2026-08-25T23:50:01Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "2ia+9V": "View Badge Details",
+                "Ci7gvp": "More options, badge {position}, {badgeName}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -67,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-25T23:54:52.446207+00:00"
+    "timestamp": "2026-08-26T00:15:56.077172+00:00"
 }
