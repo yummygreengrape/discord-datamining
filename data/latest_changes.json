@@ -1,236 +1,84 @@
 {
-    "build_hash": "1743b99300f9cf9687caa39e78947fc8b3b9e85f",
+    "build_hash": "4a36ea61f10bb66dfc9d1bbafa8a08d3f25da8d6",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-profile-frames-ea-marketing",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-08-26T19:43:53Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-profile-frames-ea-marketing",
-            "kind": "user",
-            "timestamp": "2026-08-26T19:43:53Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "gn.v.GRADIENT",
-                "surface": "gn.F.NONE"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "old_config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "old_default_config": {
-                "badgeStyle": "gi.v.GRADIENT",
-                "surface": "gi.F.NONE"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "gi.v.GRADIENT",
-                    "surface": "gi.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "gi.v.EXPRESSIVE",
-                    "surface": "gi.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "gi.v.GRADIENT",
-                    "surface": "gi.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "gi.v.GLOWING",
-                    "surface": "gi.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "gi.v.GLOWING",
-                    "surface": "gi.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "gn.v.GRADIENT",
-                    "surface": "gn.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "gn.v.EXPRESSIVE",
-                    "surface": "gn.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "gn.v.GRADIENT",
-                    "surface": "gn.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "gn.v.GLOWING",
-                    "surface": "gn.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "gn.v.GLOWING",
-                    "surface": "gn.F.NONE"
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "gn.v.GRADIENT",
-                "surface": "gn.F.NONE"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "old_config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "old_default_config": {
-                "badgeStyle": "gi.v.GRADIENT",
-                "surface": "gi.F.NONE"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "gi.v.GRADIENT",
-                    "surface": "gi.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "gi.v.EXPRESSIVE",
-                    "surface": "gi.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "gi.v.GRADIENT",
-                    "surface": "gi.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "gi.v.GLOWING",
-                    "surface": "gi.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "gi.v.GLOWING",
-                    "surface": "gi.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "gn.v.GRADIENT",
-                    "surface": "gn.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "gn.v.EXPRESSIVE",
-                    "surface": "gn.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "gn.v.GRADIENT",
-                    "surface": "gn.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "gn.v.GLOWING",
-                    "surface": "gn.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "gn.v.GLOWING",
-                    "surface": "gn.F.NONE"
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "showOnRTCHover",
+                "showQuickAccess"
+            ],
+            "default_config": {
+                "enabled": false,
+                "showOnRTCHover": false,
+                "showQuickAccess": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-soundboard-quick-action",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-08-26T20:00:05Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "showOnRTCHover": true,
+                    "showQuickAccess": true
+                },
+                "2": {
+                    "enabled": true,
+                    "showOnRTCHover": true,
+                    "showQuickAccess": false
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "showOnRTCHover",
+                "showQuickAccess"
+            ],
+            "default_config": {
+                "enabled": false,
+                "showOnRTCHover": false,
+                "showQuickAccess": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-soundboard-quick-action",
+            "kind": "user",
+            "timestamp": "2026-08-26T20:00:05Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "showOnRTCHover": true,
+                    "showQuickAccess": true
+                },
+                "2": {
+                    "enabled": true,
+                    "showOnRTCHover": true,
+                    "showQuickAccess": false
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -243,5 +91,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-26T19:51:27.401193+00:00"
+    "timestamp": "2026-08-26T20:02:13.416479+00:00"
 }
