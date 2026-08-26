@@ -1,5 +1,5 @@
 {
-    "build_hash": "89fed110fd2389bf731a0851f072d679696b92cc",
+    "build_hash": "d0d48fae12f38c5ec2719ea5ee63255ace8f2153",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "2ia+9V": "View Badge Details",
-                "Ci7gvp": "More options, badge {position}, {badgeName}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-26T00:15:56.077172+00:00"
+    "timestamp": "2026-08-26T01:07:42.905833+00:00"
 }
