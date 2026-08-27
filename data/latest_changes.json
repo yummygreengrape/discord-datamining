@@ -1,5 +1,5 @@
 {
-    "build_hash": "60a9fb4bf06102c0a82fc4b7871ae04607ab794e",
+    "build_hash": "984d19ee4395654f02ec280e56d9c8e854dd7d3e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,11 +8,66 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "showWithheldBadge"
+            ],
+            "default_config": {
+                "showWithheldBadge": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-nitro-tenure-badge-withheld-state",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-08-27T17:35:17Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "showWithheldBadge": false
+                },
+                "1": {
+                    "showWithheldBadge": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "showWithheldBadge"
+            ],
+            "default_config": {
+                "showWithheldBadge": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-nitro-tenure-badge-withheld-state",
+            "kind": "user",
+            "timestamp": "2026-08-27T17:35:17Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "showWithheldBadge": false
+                },
+                "1": {
+                    "showWithheldBadge": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "QUe9zz": "Explore More Bounties"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +77,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-27T17:27:12.529545+00:00"
+    "timestamp": "2026-08-27T17:38:01.770558+00:00"
 }
