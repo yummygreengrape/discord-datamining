@@ -1,5 +1,5 @@
 {
-    "build_hash": "104558fe3145cba1c4ac6423a3c4254f594665da",
+    "build_hash": "da3b71d1cebcb4d24421084bbc87eb3f59165019",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "G5zCGV": "Unlock {widgetName}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-27T00:08:41.533735+00:00"
+    "timestamp": "2026-08-27T00:29:42.664861+00:00"
 }
