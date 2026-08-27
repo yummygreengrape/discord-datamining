@@ -1,5 +1,5 @@
 {
-    "build_hash": "47ca604d679af522463a6f987ceb03b5baff3310",
+    "build_hash": "297341424d5aca2a32ce8c77774d5c99e15d5d6c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "CscLHM": "Play clip"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-27T22:07:52.899306+00:00"
+    "timestamp": "2026-08-27T22:18:44.207062+00:00"
 }
