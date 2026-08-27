@@ -1,53 +1,8 @@
 {
-    "build_hash": "28076e3cff7f5a7006d00fb88e50fe13012fa557",
+    "build_hash": "3c09cfbf5b54e868609c480a1f356bcf18411039",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-video-quest-player-refactor",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-08-27T19:30:28Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-video-quest-player-refactor",
-            "kind": "user",
-            "timestamp": "2026-08-27T19:30:28Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -57,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "9x7Jdd": "has blocked a Living Room note for $[**{channelName}**](channelHook)",
+                "srla2+": "has flagged a Living Room note for $[**{channelName}**](channelHook)"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -67,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-27T19:38:28.199303+00:00"
+    "timestamp": "2026-08-27T20:09:43.340133+00:00"
 }
