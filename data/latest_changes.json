@@ -1,5 +1,5 @@
 {
-    "build_hash": "042e842244ea01c43584754561966c15a0752451",
+    "build_hash": "39e469b975056e926cd999a77dcfc7cf7a30b4ba",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,37 +9,10 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-nitro-tenure-badge-withheld-state",
-            "kind": "user",
-            "timestamp": "2026-08-27T17:35:17Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-orbchievements",
-            "kind": "user",
-            "timestamp": "2026-08-27T17:50:28Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "QUe9zz": "Explore More Bounties",
-                "aBVuHF": "Get {orbAmount} Orbs",
-                "mOsACs": "Claim {orbAmount} Orbs",
-                "t3udZb": "Badge is always visible and appears first"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -49,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-27T18:33:05.702701+00:00"
+    "timestamp": "2026-08-27T18:43:57.107195+00:00"
 }
