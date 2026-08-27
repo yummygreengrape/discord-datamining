@@ -1,5 +1,5 @@
 {
-    "build_hash": "7548181bb06b4aa8fbaab1cd33c39484dbe2f2d0",
+    "build_hash": "3fd03ff6b4f73ff343516b51a97f969f04dfb390",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "t3udZb": "Badge is always visible and appears first"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-27T18:10:02.933982+00:00"
+    "timestamp": "2026-08-27T18:22:05.376882+00:00"
 }
