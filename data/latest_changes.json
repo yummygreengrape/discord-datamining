@@ -1,8 +1,53 @@
 {
-    "build_hash": "4503bcf8cc250a77447007b2617f3129ff6939ea",
+    "build_hash": "28076e3cff7f5a7006d00fb88e50fe13012fa557",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-video-quest-player-refactor",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-08-27T19:30:28Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-video-quest-player-refactor",
+            "kind": "user",
+            "timestamp": "2026-08-27T19:30:28Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,9 +57,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "JkKNss": "Pix Automático"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-27T19:17:29.519198+00:00"
+    "timestamp": "2026-08-27T19:38:28.199303+00:00"
 }
