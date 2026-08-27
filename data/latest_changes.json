@@ -1,5 +1,5 @@
 {
-    "build_hash": "7ba4fb2fe3d26906b364c0bdc90dbc487ed36681",
+    "build_hash": "414e11ec4c47903db788e72f6ab9d21053b70e88",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,26 +7,12 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "DEBUG_TEMPORAL_INFRA_PROOF_OF_CONCEPT",
-            "status": "added",
-            "url": "/debug/temporal/infra-proof-of-concept"
-        },
-        {
-            "name": "ENDPOINT_DEBUG_TEMPORAL_INFRA_PROOF_OF_CONCEPT",
-            "status": "added",
-            "url": "/debug/temporal/infra-proof-of-concept"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "1a/hIV": "Suggested Sounds",
-                "hmBVph": "Show all"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -36,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-27T20:20:33.597296+00:00"
+    "timestamp": "2026-08-27T20:41:34.490463+00:00"
 }
