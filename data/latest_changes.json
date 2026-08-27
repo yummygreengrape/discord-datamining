@@ -1,5 +1,5 @@
 {
-    "build_hash": "ce5e68ef6abc0f693a2d48e46a4cffab9350f414",
+    "build_hash": "1feab30ec6bdb5e9ae605af8514c84888f1a398b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,10 +9,23 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-show-expressive-modal-subtitle-alt",
+            "kind": "user",
+            "timestamp": "2026-08-27T22:37:27Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "22HSSI": "If confirmed as an adult (18+), you will have access to age-restricted content and settings. Need help? See [how to confirm]({handleOnHelpUrlHook})."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-27T22:29:37.382899+00:00"
+    "timestamp": "2026-08-27T22:40:24.156611+00:00"
 }
