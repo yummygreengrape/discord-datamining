@@ -1,5 +1,5 @@
 {
-    "build_hash": "1d49e2d4f8f8838cca560016f059b4595178ebc7",
+    "build_hash": "9396b3eae1bb95ac3c22ceda2b33529ef7371a26",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "JmMDaL": {
+                    "new_value": "{completed}/{total}",
+                    "old_value": "{completed}/{total} tasks"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-27T00:40:29.755778+00:00"
+    "timestamp": "2026-08-27T00:51:16.957095+00:00"
 }
