@@ -1,5 +1,5 @@
 {
-    "build_hash": "869c71ba1af940ad1f9d40e6a10e3a618b2fdaf9",
+    "build_hash": "7548181bb06b4aa8fbaab1cd33c39484dbe2f2d0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,33 +7,14 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_USERS_ACHIEVEMENTS_CLAIM",
-            "status": "added",
-            "url": "/users/@me/achievements/:param/claim"
-        },
-        {
-            "name": "ENDPOINT_USERS_ACHIEVEMENTS_LIST",
-            "status": "added",
-            "url": "/users/@me/achievements/list?reward_type=orbs"
-        },
-        {
-            "name": "ORB_USER_CHALLENGES_LIST",
-            "status": "added",
-            "url": "/users/@me/achievements/list?reward_type=orbs"
-        },
-        {
-            "name": "ORB_USER_CHALLENGE_CLAIM",
-            "status": "added",
-            "url": "/users/@me/achievements/:param/claim"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "t3udZb": "Badge is always visible and appears first"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -43,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-27T17:48:53.126460+00:00"
+    "timestamp": "2026-08-27T18:10:02.933982+00:00"
 }
