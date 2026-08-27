@@ -1,5 +1,5 @@
 {
-    "build_hash": "2f6884e660aa887f1a138d969e7113d4e51732ca",
+    "build_hash": "4d870bf19bd8a3e5a70f35e2322bdc7f4d709aaf",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,71 +8,28 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enableRocketLeagueEvents"
-            ],
-            "default_config": {
-                "enableRocketLeagueEvents": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-rocketleague-events",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-08-27T23:30:03Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableRocketLeagueEvents": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enableRocketLeagueEvents"
-            ],
-            "default_config": {
-                "enableRocketLeagueEvents": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-rocketleague-events",
-            "kind": "user",
-            "timestamp": "2026-08-27T23:30:03Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableRocketLeagueEvents": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {
-                "4cFeIa": "Pool Shot",
-                "ELmvIk": "Shot on Goal",
-                "GdVA11": "Demolished",
-                "IJqCEW": "Demolition",
-                "JjrRc2": "Turtle Goal",
-                "OPgONO": "Epic Save",
-                "QOC6N4": "Flip Reset",
-                "Rt7Y2b": "Save",
-                "cOToac": "Goal",
-                "p65UF0": "Victory",
-                "qlCPiQ": "Assist",
-                "saS9BW": "Defeat"
+                "hjQFmA": "Hide any badges you don't want others to see."
             },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "VHaYM7": {
+                    "new_value": "Drag to reorder, and hide the ones you don't want others to see.",
+                    "old_value": "Hold and drag to reorder, and hide any badges you don't want to appear publicly."
+                },
+                "Vzc4+8": {
+                    "new_value": "Drag to reorder. Tap to hide.",
+                    "old_value": "Hold and drag to reorder. Tap to hide."
+                },
+                "ZuXSRp": {
+                    "new_value": "Tap to hide any badges you don't want others to see.",
+                    "old_value": "Tap to hide badges you want to be private."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -80,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-27T23:34:18.281203+00:00"
+    "timestamp": "2026-08-27T23:45:09.510701+00:00"
 }
