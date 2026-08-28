@@ -1,5 +1,5 @@
 {
-    "build_hash": "ba3923b3aad9836822d0449e2dc0e63a54a29053",
+    "build_hash": "e88e42fca9ed1de229fd7d27ce4cdef1c15649be",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,40 +8,58 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "newUserCooldownMs"
+            ],
+            "default_config": {
+                "newUserCooldownMs": "o.A.Millis.DAY"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-dcf-new-user-cooldown",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-08-28T18:45:37Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ]
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "newUserCooldownMs"
+            ],
+            "default_config": {
+                "newUserCooldownMs": "o.A.Millis.DAY"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-dcf-new-user-cooldown",
+            "kind": "user",
+            "timestamp": "2026-08-28T18:45:37Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "quJD0Y": "Opens reviews in the app store."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "Rt7Y2b": "저장",
-                "cOToac": "골",
-                "p65UF0": "승리",
-                "qlCPiQ": "어시스트",
-                "saS9BW": "패배"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "P+DDLh": {
-                    "new_value": "5,000 Orbs 지급!",
-                    "old_value": "5,000 Orbs 받기"
-                },
-                "dOZh6X": {
-                    "new_value": "이 선물 구매 완료 시",
-                    "old_value": "이 선물 구매를 완료하면"
-                },
-                "qPHr0x": {
-                    "new_value": "배지가 {from}번째 위치에서 {to}번째 위치로 이동했습니다",
-                    "old_value": "배지가 {from} 위치에서 {to} 위치로 이동했습니다"
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-08-28T18:41:20.947996+00:00"
+    "timestamp": "2026-08-28T18:52:00.649048+00:00"
 }
