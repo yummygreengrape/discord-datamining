@@ -1,5 +1,5 @@
 {
-    "build_hash": "0b3f19b5c6a54040fd52036aab9b83f75470100e",
+    "build_hash": "aef544185332748bf6412db36104e628588e9a1e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -17,73 +17,10 @@
             "modified": {}
         },
         "ko": {
-            "added": {
-                "+Ft5ch": "성인(18세 이상)으로 확인되면 연령 제한 콘텐츠 및 설정에 액세스할 수 있습니다. 도움이 필요하신가요? [확인 방법]({handleOnHelpUrlHook})을 참조하거나 [신뢰할 수 있는 제공업체]({handleOnTrustedProvidersHook})에 대해 알아보세요.",
-                "/kgWIg": "연령대 확인",
-                "0nFw35": "Nitro {durationCount}개월 이용권",
-                "1YhkP1": "정책 위반이 아닌, 보호자가 앱 스토어의 자녀 보호 기능을 통해 Discord 액세스를 차단했기 때문에 계정이 정지되었습니다.",
-                "55tM3t": "나만의 맞춤 위젯을 디자인하고 미리 보세요. Nitro를 구독하면 실제로 저장하고 게시할 수 있어요.",
-                "A/KOOc": "이 선물 구매를 완료하고 5,000Orbs를 받으세요. [자세히 알아보기]({learnMoreUrl})",
-                "Aq6Jxd": "Nitro {durationCount}년 이용권",
-                "AxON/M": "선물 {giftCount}개",
-                "B2MCEq": "무료 보상 선택",
-                "BaI6L4": "앱 스토어(Apple 또는 Google Play)의 자녀 보호 기능에서 보호자에게 액세스 복원을 요청하세요.",
-                "DIyQIF": "스레드 자동 추가",
-                "H3pTAa": "수량 선택",
-                "KOUwKV": "위젯 보기",
-                "KfitWs": "업그레이드",
-                "MLPgsX": "다른 창에서 연령을 확인합니다",
-                "NBm6jz": "{targetLabel} 옆에 메모 배치 중",
-                "NYm6Cb": "{seatLabel}, 비어 있음",
-                "P9nKjJ": "클립 {positionNumber}",
-                "Sqrz1V": "Nitro 구독하기",
-                "UGXnmY": "{rewardCount}개 중 {maxRewardCount}개 선택됨",
-                "UWycjR": "기간 선택",
-                "VHaYM7": "길게 누른 다음 드래그하여 순서를 변경하고, 공개적으로 표시하고 싶지 않은 배지를 숨기세요.",
-                "VS98dM": "보호자가 앱 스토어의 자녀 보호 기능을 통해 Discord 액세스를 차단했기 때문에 계정이 정지되었습니다.",
-                "VcZF1q": "다른 창에서 계속 진행하세요. 다른 연령 확인 방법을 선택하려면 창을 닫고 여기로 돌아오세요.",
-                "WOPVdz": "미리 보기 모드: 사용자 지정 위젯",
-                "Z87TFb": "보호자가 계정을 잠금",
-                "bUGP71": "메모 취소됨",
-                "dW9Kov": "즐겨찾기 한도 도달",
-                "eIHfGZ": "{overflow_count}개 추가 메시지",
-                "fN2how": "배지 보기",
-                "g2vHYJ": "참여하는 스레드는 \"자동 추가된 스레드\" 카테고리로 이동합니다.",
-                "gQmDk4": "헤더 추가",
-                "hmBVph": "모두 보기",
-                "je0LTI": "이미지 위치 조정",
-                "jhNRIe": "사용자 지정 수량",
-                "rr3AQS": "{percent}% 할인",
-                "sV/+Cu": "빈자리, 앉을 자리를 선택하세요",
-                "vXqqUc": "{orbCount}개의 Orbs를 받게 돼요",
-                "vpzyht": "Discord에 포커스가 맞춰져 있지 않을 때 미리 보기 일시 중지",
-                "wve4kg": "사용자 설정 (빌드 우선 설정: {webBuildOverride}, 빌드 완료: {builtAt})",
-                "z1L5Wt": "보호자에게 액세스 복원 요청하기"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "/kpMDt": {
-                    "new_value": "또는 패스키로 로그인",
-                    "old_value": "또는, 패스키로 로그인하세요"
-                },
-                "2Ll0vk": {
-                    "new_value": "화면 공유 중",
-                    "old_value": "화면 공유"
-                },
-                "F9DcvR": {
-                    "new_value": "빈 자리",
-                    "old_value": "빈자리, 앉을 자리를 선택하세요"
-                },
-                "fjSaAm": {
-                    "new_value": "위젯 이름 추가",
-                    "old_value": "헤더"
-                },
-                "xyO7AD": {
-                    "new_value": "Enter 키를 눌러 여기에 메모를 입력하세요. 취소하려면 Escape 키를 누르세요.",
-                    "old_value": "방향키를 사용하여 메모 위치를 정한 다음 Enter 키를 눌러 배치하세요."
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-08-28T00:28:34.562802+00:00"
+    "timestamp": "2026-08-28T00:59:55.240754+00:00"
 }
