@@ -1,5 +1,5 @@
 {
-    "build_hash": "a73c4d7c70c2621efd0651b1f900d132cd142da6",
+    "build_hash": "e48e63786a016034ae82b45e67f7d89e54b04416",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,16 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "BPbGq7": {
+                    "new_value": "Control how loud sounds are for you personally. [Learn more about Soundboard volume.]({helpCenterArticle})",
+                    "old_value": "Control how loud sounds are for you personally. For more info, [click here]({helpCenterArticle})."
+                },
+                "USER_SETTINGS_SOUNDBOARD_VOLUME_DESCRIPTION_WITH_LINK": {
+                    "new_value": "Control how loud sounds are for you personally. [Learn more about Soundboard volume.]({helpCenterArticle})",
+                    "old_value": "Control how loud sounds are for you personally. For more info, [click here]({helpCenterArticle})."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T21:32:19.864912+00:00"
+    "timestamp": "2026-08-28T21:42:59.801398+00:00"
 }
