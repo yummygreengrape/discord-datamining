@@ -1,5 +1,5 @@
 {
-    "build_hash": "58775ba58df655a03fb96169db4f9090eb16bafc",
+    "build_hash": "bd34c33c15cf13adf30e36f43c6640f16092a549",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,142 +7,14 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "AGE_VERIFICATION_MANUAL_REVIEW",
-            "status": "added",
-            "url": "/age-verification/manual-review"
-        },
-        {
-            "name": "ENDPOINT_AGE_VERIFICATION_MANUAL_REVIEW",
-            "status": "added",
-            "url": "/age-verification/manual-review"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "+2AMt1": "Anything new still arrives live.",
-                "/703Yk": "Input Tokens (Counted)",
-                "/L6GFe": "{type}, Optional",
-                "/N6ZU9": "Tool",
-                "0eZV5k": "Loading history…",
-                "0hOYM3": "{count} New Error(s)",
-                "1kBG9Z": "The agent only saw the first part of this result.",
-                "2Aii2k": "Result Size",
-                "3IZssz": "{errors} error(s), {warnings} warning(s)",
-                "5T4Dd0": "Failed",
-                "5XxVIu": "Anything your app prints or throws while it runs shows up here.",
-                "6+W0dJ": "Output Tokens (Counted)",
-                "6QoPmP": "{type}, Required",
-                "6oILKx": "Schema",
-                "8fXBH2": "{label}, {count} New Error(s)",
-                "8pdPx5": "Every step the agent takes shows up here while it works, with timings.",
-                "A3Z3ar": "Export",
-                "AhOqQs": "Model",
-                "Cpr+oM": "No steps match that.",
-                "DdXP0P": "{count} Char(s)",
-                "EoY7D+": "Subagent",
-                "F9jaUF": "Approximate — measured before sending, not counted by the model.",
-                "Fa7HVP": "Error",
-                "HcEbf2": "Delegated",
-                "HpKDyl": "Running",
-                "I7cJP0": "Turn",
-                "I8sr5Y": "Resize Details",
-                "IZAYJl": "Logs",
-                "Iyt8OJ": "No activity yet",
-                "KVFrD3": "Context",
-                "KXrf5F": "Result",
-                "KjYka5": "Actual Arguments",
-                "Kl1kmT": "Tool Definitions: ~{tokens} across {count} tool(s)",
-                "NfncNw": "Search Steps",
-                "NnBqcd": "Delegated By",
-                "OB8Qvn": "{count} Item(s)",
-                "OZvPXt": "Withheld — this tool has no disclosure rule yet",
-                "PYO+Jv": "~{tokens} Prompt",
-                "PkIUHD": "Credential-Like Content Removed",
-                "QATZ+A": "Trace",
-                "Qy2iTq": "System ~{system} · Tools ~{tools} across {toolCount} · Messages ~{messages} across {messageCount}",
-                "Ran4BY": "Prompt (Estimated)",
-                "SA/gJO": "All",
-                "SSGoks": "System Prompt: ~{tokens}",
-                "T7SFyZ": "Diagnostics",
-                "TE0vZe": "Info",
-                "TN3Xlu": "Search Logs",
-                "TV42NS": "Could not load history",
-                "TlpZKP": "{name} details",
-                "U/qDX9": "Older history is not shown.",
-                "ULGTr+": "No logs yet",
-                "UV2R1/": "Truncated",
-                "UZ1OlR": "Filter Trace by Category",
-                "UffawN": "{percent}%",
-                "VGSwo4": "Truncated from {count} Character(s)",
-                "VbEmf0": "Done",
-                "VyAl6j": "Cache",
-                "W+4BVk": "Usage",
-                "XVTP/S": "Step ID",
-                "Y/j+TD": "Turn {number}",
-                "Z/uxIH": "Error",
-                "arPnKK": "{view} Controls",
-                "fI6mzD": "Spawned",
-                "fj5wM8": "Couldn’t load the full detail.",
-                "fy9PRy": "Staff Only",
-                "gpBZRr": "Withheld — content",
-                "hO8FYp": "{count} Step(s)",
-                "hpGFzS": "Lines Changed",
-                "inZDNR": "Try Again",
-                "jEQTot": "The full detail is no longer available for this step.",
-                "jXY3mm": "Arguments",
-                "kR95Ct": "Nothing at that level.",
-                "khAjR0": "Press Escape or select this step again to collapse.",
-                "l9YFEQ": "Cost",
-                "lkMc23": "{read} Read / {write} Written",
-                "omThhp": "Messages: ~{tokens} across {count} message(s)",
-                "oqnmJF": "Warning",
-                "p1XPCa": "Actual Result",
-                "pAv/F8": "{count} Step(s)",
-                "pkqbAR": "Chat",
-                "ppv+97": "Arguments and results are reduced worker-side before they are sent; each value says where something was withheld.",
-                "rD7bm0": "Started",
-                "rxmzYT": "Stopped Because",
-                "t5cOGo": "Problems",
-                "vBF/0G": "Loading the full detail…",
-                "vDqfj+": "Model",
-                "vJ/99r": "Filter Logs by Severity",
-                "vPIcyv": "Breakdown",
-                "w8vPbe": "{count}",
-                "xO6bcQ": "Withheld — may contain your words or the agent’s",
-                "zpHUo+": "Debug"
-            },
-            "modified": {
-                "78YNh7": {
-                    "new_value": "Your preview is ready.",
-                    "old_value": "Your frame is ready."
-                },
-                "E0QD++": {
-                    "new_value": "Describe your idea and preview it first",
-                    "old_value": "Describe your idea and open its frame first"
-                },
-                "FHOJiH": {
-                    "new_value": "Preview unavailable",
-                    "old_value": "No frame to show"
-                },
-                "MeLWCr": {
-                    "new_value": "The preview wouldn’t load",
-                    "old_value": "The frame wouldn’t load"
-                },
-                "WWj3pN": {
-                    "new_value": "You need to accept the new permissions to preview your project.",
-                    "old_value": "You need to accept the new permissions to open your project’s frame."
-                },
-                "wcXX8Z": {
-                    "new_value": "Getting your preview ready…",
-                    "old_value": "Getting your frame ready…"
-                }
-            }
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -150,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T10:16:13.016287+00:00"
+    "timestamp": "2026-08-28T14:17:27.707051+00:00"
 }
