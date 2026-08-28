@@ -1,5 +1,5 @@
 {
-    "build_hash": "4e094aa23cd574a482ecd7e1af2ed22f3774afa0",
+    "build_hash": "33cd86d580403245ac0cbe41adef200bb180b12a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,29 +7,12 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_USERS_SCHEDULED_MESSAGES_SEND",
-            "status": "added",
-            "url": "/users/@me/scheduled-messages/:param/send"
-        },
-        {
-            "name": "SCHEDULED_MESSAGE_SEND",
-            "status": "added",
-            "url": "/users/@me/scheduled-messages/:param/send"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "BHCm/d": "Message sent.",
-                "JLba51": "Send now",
-                "Nt0tz7": "Scheduled time is too far away",
-                "uy++C+": "Failed to send scheduled message. {error}",
-                "w/fgvh": "Scheduled time is too soon"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -39,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-27T23:56:02.051245+00:00"
+    "timestamp": "2026-08-28T00:06:53.095728+00:00"
 }
