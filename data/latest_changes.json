@@ -1,34 +1,188 @@
 {
-    "build_hash": "9bafe98b0ba6e59744a94250e32f3b8ce488d407",
+    "build_hash": "ac4ed730583176af2f08383065011fd7182c4889",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [
+    "modified_experiment_details": [
         {
-            "experiment_source": "reference_comment",
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "gn.v.GRADIENT",
+                "surface": "gn.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
-            "id": "2026-08-ad-topic-opt-out-client",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
             "kind": "user",
-            "timestamp": "2026-08-28T18:18:19Z",
-            "treatments": [
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "gt.v.GRADIENT",
+                "surface": "gt.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
                 "Variant 1",
                 "Variant 2",
                 "Variant 3",
-                "Variant 4",
-                "Variant 5"
-            ]
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "gt.v.GRADIENT",
+                    "surface": "gt.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "gt.v.EXPRESSIVE",
+                    "surface": "gt.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "gt.v.GRADIENT",
+                    "surface": "gt.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "gt.v.GLOWING",
+                    "surface": "gt.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "gt.v.GLOWING",
+                    "surface": "gt.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "gn.v.GRADIENT",
+                    "surface": "gn.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "gn.v.EXPRESSIVE",
+                    "surface": "gn.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "gn.v.GRADIENT",
+                    "surface": "gn.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "gn.v.GLOWING",
+                    "surface": "gn.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "gn.v.GLOWING",
+                    "surface": "gn.F.NONE"
+                }
+            }
         }
     ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "default_config": {
+                "badgeStyle": "gn.v.GRADIENT",
+                "surface": "gn.F.NONE"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-ml-offer-creation-ui-upgrade",
+            "kind": "user",
+            "old_config_keys": [
+                "badgeStyle",
+                "surface"
+            ],
+            "old_default_config": {
+                "badgeStyle": "gt.v.GRADIENT",
+                "surface": "gt.F.NONE"
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "0": {
+                    "badgeStyle": "gt.v.GRADIENT",
+                    "surface": "gt.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "gt.v.EXPRESSIVE",
+                    "surface": "gt.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "gt.v.GRADIENT",
+                    "surface": "gt.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "gt.v.GLOWING",
+                    "surface": "gt.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "gt.v.GLOWING",
+                    "surface": "gt.F.NONE"
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "badgeStyle": "gn.v.GRADIENT",
+                    "surface": "gn.F.NONE"
+                },
+                "1": {
+                    "badgeStyle": "gn.v.EXPRESSIVE",
+                    "surface": "gn.F.POPOVER"
+                },
+                "2": {
+                    "badgeStyle": "gn.v.GRADIENT",
+                    "surface": "gn.F.POPOVER"
+                },
+                "3": {
+                    "badgeStyle": "gn.v.GLOWING",
+                    "surface": "gn.F.TOOLTIP"
+                },
+                "4": {
+                    "badgeStyle": "gn.v.GLOWING",
+                    "surface": "gn.F.NONE"
+                }
+            }
+        }
+    ],
+    "new_api_endpoints": [],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {
-                "bnxyEL": "Search…"
+                "U3CkDg": "Fit up to {number} people in this GDM with Nitro.",
+                "iZDK8I": "Fit up to {number} people in this GDM with Nitro Premium."
             },
             "deleted": {},
             "modified": {}
@@ -39,5 +193,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T18:19:56.198177+00:00"
+    "timestamp": "2026-08-28T18:30:37.857201+00:00"
 }
