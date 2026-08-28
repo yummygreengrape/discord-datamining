@@ -1,5 +1,5 @@
 {
-    "build_hash": "e88e42fca9ed1de229fd7d27ce4cdef1c15649be",
+    "build_hash": "95bc70b2478231ef0ef7dc0ba6ef824885e6d364",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,50 +8,13 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "newUserCooldownMs"
-            ],
-            "default_config": {
-                "newUserCooldownMs": "o.A.Millis.DAY"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-dcf-new-user-cooldown",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-08-28T18:45:37Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ]
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "newUserCooldownMs"
-            ],
-            "default_config": {
-                "newUserCooldownMs": "o.A.Millis.DAY"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-dcf-new-user-cooldown",
-            "kind": "user",
-            "timestamp": "2026-08-28T18:45:37Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ]
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "gPRdVj": "Add clip: {clipName}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -61,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T18:52:00.649048+00:00"
+    "timestamp": "2026-08-28T19:02:48.278195+00:00"
 }
