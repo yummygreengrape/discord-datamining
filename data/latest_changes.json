@@ -1,12 +1,311 @@
 {
-    "build_hash": "bc2bd4dfe928e57082e9b2a0dfe4cfa5db87810a",
+    "build_hash": "a6e142a854ced3e3a9604c5dd13b5d3f3b430aff",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-soundboard-frequently-used",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-08-28T21:03:03Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-soundboard-frequently-used",
+            "kind": "user",
+            "timestamp": "2026-08-28T21:03:03Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "ctaOnHover",
+                "useLargeFeaturedTiles",
+                "useNewLayoutWithSearch",
+                "useNewTile"
+            ],
+            "default_config": {
+                "ctaOnHover": false,
+                "useLargeFeaturedTiles": false,
+                "useNewLayoutWithSearch": false,
+                "useNewTile": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-tile-redesign",
+            "kind": "user",
+            "old_config_keys": [
+                "clickableTile",
+                "ctaOnHover",
+                "useLargeFeaturedTiles",
+                "useNewLayoutWithSearch",
+                "useNewTile"
+            ],
+            "old_default_config": {
+                "clickableTile": false,
+                "ctaOnHover": false,
+                "useLargeFeaturedTiles": false,
+                "useNewLayoutWithSearch": false,
+                "useNewTile": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5"
+            ],
+            "old_variations": {
+                "0": {
+                    "clickableTile": false,
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": false,
+                    "useNewTile": false
+                },
+                "1": {
+                    "clickableTile": false,
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": false
+                },
+                "2": {
+                    "clickableTile": false,
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "3": {
+                    "clickableTile": false,
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "4": {
+                    "clickableTile": false,
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "5": {
+                    "clickableTile": true,
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": false,
+                    "useNewTile": false
+                },
+                "1": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": false
+                },
+                "2": {
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "3": {
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "4": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "ctaOnHover",
+                "useLargeFeaturedTiles",
+                "useNewLayoutWithSearch",
+                "useNewTile"
+            ],
+            "default_config": {
+                "ctaOnHover": false,
+                "useLargeFeaturedTiles": false,
+                "useNewLayoutWithSearch": false,
+                "useNewTile": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-quest-home-tile-redesign",
+            "kind": "user",
+            "old_config_keys": [
+                "clickableTile",
+                "ctaOnHover",
+                "useLargeFeaturedTiles",
+                "useNewLayoutWithSearch",
+                "useNewTile"
+            ],
+            "old_default_config": {
+                "clickableTile": false,
+                "ctaOnHover": false,
+                "useLargeFeaturedTiles": false,
+                "useNewLayoutWithSearch": false,
+                "useNewTile": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5"
+            ],
+            "old_variations": {
+                "0": {
+                    "clickableTile": false,
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": false,
+                    "useNewTile": false
+                },
+                "1": {
+                    "clickableTile": false,
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": false
+                },
+                "2": {
+                    "clickableTile": false,
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "3": {
+                    "clickableTile": false,
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "4": {
+                    "clickableTile": false,
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "5": {
+                    "clickableTile": true,
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": false,
+                    "useNewTile": false
+                },
+                "1": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": false
+                },
+                "2": {
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "3": {
+                    "ctaOnHover": true,
+                    "useLargeFeaturedTiles": false,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                },
+                "4": {
+                    "ctaOnHover": false,
+                    "useLargeFeaturedTiles": true,
+                    "useNewLayoutWithSearch": true,
+                    "useNewTile": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -22,5 +321,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T21:00:17.503308+00:00"
+    "timestamp": "2026-08-28T21:10:58.779555+00:00"
 }
