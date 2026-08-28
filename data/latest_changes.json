@@ -1,54 +1,33 @@
 {
-    "build_hash": "eb95050033e9ab99797efff34b821854456410ad",
+    "build_hash": "fb8b48306f0b540d6fba1e2753cd2a8cfb8f17ec",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [
         {
             "config_keys": [
-                "chatInputFloating",
-                "chatInputLegacySendButton",
+                "bannerVariant",
                 "enabled"
             ],
             "default_config": {
-                "chatInputFloating": false,
-                "chatInputLegacySendButton": false,
+                "bannerVariant": "control",
                 "enabled": false
             },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-02-mobile-visual-refresh",
+            "id": "2026-07-past-due-checkout",
             "kind": "user",
             "status": "deleted",
+            "timestamp": "2026-08-28T17:51:58Z",
             "treatments": [
-                "Variant 0",
                 "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
+                "Variant 2"
             ],
             "variations": {
-                "0": {
-                    "chatInputFloating": false,
-                    "chatInputLegacySendButton": false,
-                    "enabled": false
-                },
                 "1": {
-                    "chatInputFloating": false,
-                    "chatInputLegacySendButton": false,
+                    "bannerVariant": "red_expressive",
                     "enabled": true
                 },
                 "2": {
-                    "chatInputFloating": true,
-                    "chatInputLegacySendButton": false,
-                    "enabled": true
-                },
-                "3": {
-                    "chatInputFloating": true,
-                    "chatInputLegacySendButton": false,
-                    "enabled": true
-                },
-                "4": {
-                    "chatInputFloating": true,
-                    "chatInputLegacySendButton": true,
+                    "bannerVariant": "grey_primary",
                     "enabled": true
                 }
             }
@@ -57,50 +36,29 @@
     "deleted_experiments": [
         {
             "config_keys": [
-                "chatInputFloating",
-                "chatInputLegacySendButton",
+                "bannerVariant",
                 "enabled"
             ],
             "default_config": {
-                "chatInputFloating": false,
-                "chatInputLegacySendButton": false,
+                "bannerVariant": "control",
                 "enabled": false
             },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-02-mobile-visual-refresh",
+            "id": "2026-07-past-due-checkout",
             "kind": "user",
+            "timestamp": "2026-08-28T17:51:58Z",
             "treatments": [
-                "Variant 0",
                 "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
+                "Variant 2"
             ],
             "variations": {
-                "0": {
-                    "chatInputFloating": false,
-                    "chatInputLegacySendButton": false,
-                    "enabled": false
-                },
                 "1": {
-                    "chatInputFloating": false,
-                    "chatInputLegacySendButton": false,
+                    "bannerVariant": "red_expressive",
                     "enabled": true
                 },
                 "2": {
-                    "chatInputFloating": true,
-                    "chatInputLegacySendButton": false,
-                    "enabled": true
-                },
-                "3": {
-                    "chatInputFloating": true,
-                    "chatInputLegacySendButton": false,
-                    "enabled": true
-                },
-                "4": {
-                    "chatInputFloating": true,
-                    "chatInputLegacySendButton": true,
+                    "bannerVariant": "grey_primary",
                     "enabled": true
                 }
             }
@@ -125,5 +83,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T17:47:52.333669+00:00"
+    "timestamp": "2026-08-28T17:58:33.488300+00:00"
 }
