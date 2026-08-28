@@ -1,5 +1,5 @@
 {
-    "build_hash": "c58ef73d27c16cc9c57f41bb2d434653f7e8cf8c",
+    "build_hash": "b0468286fa704d2345e95bca2e7e4c266fac1c9c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,14 +12,17 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+YIVE1": "{action} friend request from {name}",
+                "6Xp33Z": "{action} options for {name}",
+                "8ef7X0": "{action} {name}",
+                "BfqcNh": "{action} friend request to {name} in {application}",
+                "kSmk1F": "{action} friend request from {name} in {application}",
+                "u4RMWj": "{action} friend suggestion for {name}",
+                "vrDIev": "{action} friend request to {name}"
+            },
             "deleted": {},
-            "modified": {
-                "7nKAXx": {
-                    "new_value": "Done",
-                    "old_value": "Age group confirmed"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -27,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T22:45:40.627641+00:00"
+    "timestamp": "2026-08-28T22:56:22.512246+00:00"
 }
