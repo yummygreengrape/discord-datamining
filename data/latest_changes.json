@@ -1,197 +1,47 @@
 {
-    "build_hash": "ac4ed730583176af2f08383065011fd7182c4889",
+    "build_hash": "ba3923b3aad9836822d0449e2dc0e63a54a29053",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "gn.v.GRADIENT",
-                "surface": "gn.F.NONE"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "old_config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "old_default_config": {
-                "badgeStyle": "gt.v.GRADIENT",
-                "surface": "gt.F.NONE"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "gt.v.GRADIENT",
-                    "surface": "gt.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "gt.v.EXPRESSIVE",
-                    "surface": "gt.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "gt.v.GRADIENT",
-                    "surface": "gt.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "gt.v.GLOWING",
-                    "surface": "gt.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "gt.v.GLOWING",
-                    "surface": "gt.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "gn.v.GRADIENT",
-                    "surface": "gn.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "gn.v.EXPRESSIVE",
-                    "surface": "gn.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "gn.v.GRADIENT",
-                    "surface": "gn.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "gn.v.GLOWING",
-                    "surface": "gn.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "gn.v.GLOWING",
-                    "surface": "gn.F.NONE"
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "gn.v.GRADIENT",
-                "surface": "gn.F.NONE"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "old_config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "old_default_config": {
-                "badgeStyle": "gt.v.GRADIENT",
-                "surface": "gt.F.NONE"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "0": {
-                    "badgeStyle": "gt.v.GRADIENT",
-                    "surface": "gt.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "gt.v.EXPRESSIVE",
-                    "surface": "gt.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "gt.v.GRADIENT",
-                    "surface": "gt.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "gt.v.GLOWING",
-                    "surface": "gt.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "gt.v.GLOWING",
-                    "surface": "gt.F.NONE"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "gn.v.GRADIENT",
-                    "surface": "gn.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "gn.v.EXPRESSIVE",
-                    "surface": "gn.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "gn.v.GRADIENT",
-                    "surface": "gn.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "gn.v.GLOWING",
-                    "surface": "gn.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "gn.v.GLOWING",
-                    "surface": "gn.F.NONE"
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {
-                "U3CkDg": "Fit up to {number} people in this GDM with Nitro.",
-                "iZDK8I": "Fit up to {number} people in this GDM with Nitro Premium."
+                "quJD0Y": "Opens reviews in the app store."
             },
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "Rt7Y2b": "저장",
+                "cOToac": "골",
+                "p65UF0": "승리",
+                "qlCPiQ": "어시스트",
+                "saS9BW": "패배"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "P+DDLh": {
+                    "new_value": "5,000 Orbs 지급!",
+                    "old_value": "5,000 Orbs 받기"
+                },
+                "dOZh6X": {
+                    "new_value": "이 선물 구매 완료 시",
+                    "old_value": "이 선물 구매를 완료하면"
+                },
+                "qPHr0x": {
+                    "new_value": "배지가 {from}번째 위치에서 {to}번째 위치로 이동했습니다",
+                    "old_value": "배지가 {from} 위치에서 {to} 위치로 이동했습니다"
+                }
+            }
         }
     },
-    "timestamp": "2026-08-28T18:30:37.857201+00:00"
+    "timestamp": "2026-08-28T18:41:20.947996+00:00"
 }
