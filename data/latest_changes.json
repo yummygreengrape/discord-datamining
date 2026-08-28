@@ -1,5 +1,5 @@
 {
-    "build_hash": "80f8b1d2a4fbf47d4a05a50c5d2d5129266c3bd2",
+    "build_hash": "9bafe98b0ba6e59744a94250e32f3b8ce488d407",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,32 +9,29 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-ad-topic-opt-out-client",
+            "kind": "user",
+            "timestamp": "2026-08-28T18:18:19Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {
-                "04j3XV": "{orbAmount} Orbs in {days} days",
-                "B8Fxns": "Earn $[orbIcon](orbIconHook) {orbAmount} Orbs",
-                "Ba/7wO": "Nitro members earn {multiplier}x on everything",
-                "FkfrRH": "Nitro Orbs",
-                "OHLdjq": "{multiplier}x",
-                "U9UQJE": "Get Nitro",
-                "WOMrJf": "Unlock {multiplier}x",
-                "XW2CuY": "Keep earning to unlock your next reward!",
-                "ZqCAos": "Earn Orbs faster",
-                "h2qWpS": "Claim $[orbIcon](orbIconHook) {orbAmount} Orbs",
-                "xOP5OP": "You're all caught up"
+                "bnxyEL": "Search…"
             },
-            "deleted": {
-                "aBVuHF": "Get {orbAmount} Orbs",
-                "mOsACs": "Claim {orbAmount} Orbs"
-            },
-            "modified": {
-                "H6Ny8N": {
-                    "new_value": "Active Challenges",
-                    "old_value": "ACTIVE CHALLENGES"
-                }
-            }
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -42,5 +39,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T18:09:16.257191+00:00"
+    "timestamp": "2026-08-28T18:19:56.198177+00:00"
 }
