@@ -1,5 +1,5 @@
 {
-    "build_hash": "da06acf575079c1e2b06d8348ffcadb29aed74de",
+    "build_hash": "950bb353de2d331a2e831f0b6d4a0b7ca6b8f160",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,126 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+2AMt1": "Anything new still arrives live.",
+                "/703Yk": "Input Tokens (Counted)",
+                "/L6GFe": "{type}, Optional",
+                "/N6ZU9": "Tool",
+                "0eZV5k": "Loading history…",
+                "0hOYM3": "{count} New Error(s)",
+                "1kBG9Z": "The agent only saw the first part of this result.",
+                "2Aii2k": "Result Size",
+                "3IZssz": "{errors} error(s), {warnings} warning(s)",
+                "5T4Dd0": "Failed",
+                "5XxVIu": "Anything your app prints or throws while it runs shows up here.",
+                "6+W0dJ": "Output Tokens (Counted)",
+                "6QoPmP": "{type}, Required",
+                "6oILKx": "Schema",
+                "8fXBH2": "{label}, {count} New Error(s)",
+                "8pdPx5": "Every step the agent takes shows up here while it works, with timings.",
+                "A3Z3ar": "Export",
+                "AhOqQs": "Model",
+                "Cpr+oM": "No steps match that.",
+                "DdXP0P": "{count} Char(s)",
+                "EoY7D+": "Subagent",
+                "F9jaUF": "Approximate — measured before sending, not counted by the model.",
+                "Fa7HVP": "Error",
+                "HcEbf2": "Delegated",
+                "HpKDyl": "Running",
+                "I7cJP0": "Turn",
+                "I8sr5Y": "Resize Details",
+                "IZAYJl": "Logs",
+                "Iyt8OJ": "No activity yet",
+                "KVFrD3": "Context",
+                "KXrf5F": "Result",
+                "KjYka5": "Actual Arguments",
+                "Kl1kmT": "Tool Definitions: ~{tokens} across {count} tool(s)",
+                "NfncNw": "Search Steps",
+                "NnBqcd": "Delegated By",
+                "OB8Qvn": "{count} Item(s)",
+                "OZvPXt": "Withheld — this tool has no disclosure rule yet",
+                "PYO+Jv": "~{tokens} Prompt",
+                "PkIUHD": "Credential-Like Content Removed",
+                "QATZ+A": "Trace",
+                "Qy2iTq": "System ~{system} · Tools ~{tools} across {toolCount} · Messages ~{messages} across {messageCount}",
+                "Ran4BY": "Prompt (Estimated)",
+                "SA/gJO": "All",
+                "SSGoks": "System Prompt: ~{tokens}",
+                "T7SFyZ": "Diagnostics",
+                "TE0vZe": "Info",
+                "TN3Xlu": "Search Logs",
+                "TV42NS": "Could not load history",
+                "TlpZKP": "{name} details",
+                "U/qDX9": "Older history is not shown.",
+                "ULGTr+": "No logs yet",
+                "UV2R1/": "Truncated",
+                "UZ1OlR": "Filter Trace by Category",
+                "UffawN": "{percent}%",
+                "VGSwo4": "Truncated from {count} Character(s)",
+                "VbEmf0": "Done",
+                "VyAl6j": "Cache",
+                "W+4BVk": "Usage",
+                "XVTP/S": "Step ID",
+                "Y/j+TD": "Turn {number}",
+                "Z/uxIH": "Error",
+                "arPnKK": "{view} Controls",
+                "fI6mzD": "Spawned",
+                "fj5wM8": "Couldn’t load the full detail.",
+                "fy9PRy": "Staff Only",
+                "gpBZRr": "Withheld — content",
+                "hO8FYp": "{count} Step(s)",
+                "hpGFzS": "Lines Changed",
+                "inZDNR": "Try Again",
+                "jEQTot": "The full detail is no longer available for this step.",
+                "jXY3mm": "Arguments",
+                "kR95Ct": "Nothing at that level.",
+                "khAjR0": "Press Escape or select this step again to collapse.",
+                "l9YFEQ": "Cost",
+                "lkMc23": "{read} Read / {write} Written",
+                "omThhp": "Messages: ~{tokens} across {count} message(s)",
+                "oqnmJF": "Warning",
+                "p1XPCa": "Actual Result",
+                "pAv/F8": "{count} Step(s)",
+                "pkqbAR": "Chat",
+                "ppv+97": "Arguments and results are reduced worker-side before they are sent; each value says where something was withheld.",
+                "rD7bm0": "Started",
+                "rxmzYT": "Stopped Because",
+                "t5cOGo": "Problems",
+                "vBF/0G": "Loading the full detail…",
+                "vDqfj+": "Model",
+                "vJ/99r": "Filter Logs by Severity",
+                "vPIcyv": "Breakdown",
+                "w8vPbe": "{count}",
+                "xO6bcQ": "Withheld — may contain your words or the agent’s",
+                "zpHUo+": "Debug"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "78YNh7": {
+                    "new_value": "Your frame is ready.",
+                    "old_value": "Your preview is ready."
+                },
+                "E0QD++": {
+                    "new_value": "Describe your idea and open its frame first",
+                    "old_value": "Describe your idea and preview it first"
+                },
+                "FHOJiH": {
+                    "new_value": "No frame to show",
+                    "old_value": "Preview unavailable"
+                },
+                "MeLWCr": {
+                    "new_value": "The frame wouldn’t load",
+                    "old_value": "The preview wouldn’t load"
+                },
+                "WWj3pN": {
+                    "new_value": "You need to accept the new permissions to open your project’s frame.",
+                    "old_value": "You need to accept the new permissions to preview your project."
+                },
+                "wcXX8Z": {
+                    "new_value": "Getting your frame ready…",
+                    "old_value": "Getting your preview ready…"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +139,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T08:08:23.576367+00:00"
+    "timestamp": "2026-08-28T08:39:45.387492+00:00"
 }
