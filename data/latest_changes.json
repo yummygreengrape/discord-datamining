@@ -1,5 +1,5 @@
 {
-    "build_hash": "5565b51c1e65b80a0add49c6bfee8a1cf6cda4fb",
+    "build_hash": "a73c4d7c70c2621efd0651b1f900d132cd142da6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,36 +14,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "FpeuT5": {
-                    "new_value": "Scheduled message's channel not found.",
-                    "old_value": "The channel for a scheduled message could not be found."
-                },
-                "PsJmUe": {
-                    "new_value": "Failed to schedule message. {error}",
-                    "old_value": "Failed to create scheduled message. {error}"
-                },
-                "j8uIfG": {
-                    "new_value": "Message could not be sent",
-                    "old_value": "Message failed to send"
-                },
-                "pflV7z": {
-                    "new_value": "Message could not be sent",
-                    "old_value": "Message failed to send inside the standard message send flow"
-                },
-                "slM6In": {
-                    "new_value": "Failed to update message. {error}",
-                    "old_value": "Failed to update scheduled message. {error}"
-                },
-                "v5O2dK": {
-                    "new_value": "Message could not be sent",
-                    "old_value": "Message failed to send because the channel was not found"
-                },
-                "w6zHX/": {
-                    "new_value": "Message could not be sent, permission was denied",
-                    "old_value": "Message failed to send because you cannot send scheduled messages"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -51,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T21:21:39.313873+00:00"
+    "timestamp": "2026-08-28T21:32:19.864912+00:00"
 }
