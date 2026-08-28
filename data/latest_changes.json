@@ -1,5 +1,5 @@
 {
-    "build_hash": "fb073288beaff9d8a7c59eee382bfeb34dcda7f3",
+    "build_hash": "63c0c8fe6c55b29a19389778746f87e38fe3e962",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,12 +14,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "UGXnmY": {
-                    "new_value": "Get one with each gift purchase. {rewardCount} of {maxRewardCount} selected.",
-                    "old_value": "{rewardCount} of {maxRewardCount} selected"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -27,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T16:12:09.794356+00:00"
+    "timestamp": "2026-08-28T16:33:05.997553+00:00"
 }
