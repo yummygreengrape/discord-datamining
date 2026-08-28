@@ -1,5 +1,5 @@
 {
-    "build_hash": "b1c9d1856be829b6176a309e3e8d22248dcac924",
+    "build_hash": "5b6857b55e141993fca2b6bfefbfaecb63519a1d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "JR+Zws": "Limit {maxCredits}.",
-                "PdIODz": "Offer ends {date}."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T23:33:27.259216+00:00"
+    "timestamp": "2026-08-28T23:44:09.289942+00:00"
 }
