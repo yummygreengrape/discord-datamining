@@ -1,5 +1,5 @@
 {
-    "build_hash": "e5babc4aa08933463888682e0add1cdfb1c4669e",
+    "build_hash": "f9ffe1f02b001396b0e207f6e64a3129f54f1305",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "string_changes": {
         "en": {
             "added": {
-                "o18gVZ": "{count, plural, one {Collect Your Reward} other {Collect Your Rewards}}"
+                "A2yQnt": "Now you can click the plus button and pick **Schedule Message** to send at the perfect time.",
+                "Juk17F": "Now you can long press the plus button and tap **Schedule Message** to send at the perfect time.",
+                "Pu7sCU": "Sending later?"
             },
             "deleted": {},
             "modified": {}
@@ -24,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T20:38:54.815321+00:00"
+    "timestamp": "2026-08-28T20:49:36.565333+00:00"
 }
