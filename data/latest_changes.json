@@ -1,5 +1,5 @@
 {
-    "build_hash": "933c5bfc230909a619e6b5c5dacc7f49ac8999f7",
+    "build_hash": "e9b13120e373398afdd9b9d37470c31333d81117",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -18,18 +18,14 @@
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-07-clips-on-profile-viewer",
+            "id": "2026-08-voice-server-update-immediate",
             "kind": "user",
             "status": "added",
-            "timestamp": "2026-08-28T19:37:08Z",
+            "timestamp": "2026-08-28T19:55:18Z",
             "treatments": [
-                "Variant 0",
                 "Variant 1"
             ],
             "variations": {
-                "0": {
-                    "enabled": false
-                },
                 "1": {
                     "enabled": true
                 }
@@ -46,17 +42,13 @@
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-07-clips-on-profile-viewer",
+            "id": "2026-08-voice-server-update-immediate",
             "kind": "user",
-            "timestamp": "2026-08-28T19:37:08Z",
+            "timestamp": "2026-08-28T19:55:18Z",
             "treatments": [
-                "Variant 0",
                 "Variant 1"
             ],
             "variations": {
-                "0": {
-                    "enabled": false
-                },
                 "1": {
                     "enabled": true
                 }
@@ -75,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T19:45:28.950215+00:00"
+    "timestamp": "2026-08-28T19:56:09.399828+00:00"
 }
