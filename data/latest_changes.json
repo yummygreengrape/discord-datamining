@@ -1,5 +1,5 @@
 {
-    "build_hash": "819b13b51c97066116e3532c36201707b3270c6f",
+    "build_hash": "933c5bfc230909a619e6b5c5dacc7f49ac8999f7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,61 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-clips-on-profile-viewer",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-08-28T19:37:08Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-clips-on-profile-viewer",
+            "kind": "user",
+            "timestamp": "2026-08-28T19:37:08Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +75,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T19:34:52.217389+00:00"
+    "timestamp": "2026-08-28T19:45:28.950215+00:00"
 }
