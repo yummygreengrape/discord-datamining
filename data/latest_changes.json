@@ -1,5 +1,5 @@
 {
-    "build_hash": "bcfbab0df09d2bd31d6fbf6dc0952df64e99dc43",
+    "build_hash": "a2e374d8e444319064bb7b5afa1fe25f99d5721e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,16 +14,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "IS+QTV": {
-                    "new_value": "With Nitro, you can now design your own custom widget!",
-                    "old_value": "Create your own custom widget with Nitro"
-                },
-                "KKGxNt": {
-                    "new_value": "Create your own widget",
-                    "old_value": "New! Design your own widget with Nitro"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -31,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T19:13:28.618434+00:00"
+    "timestamp": "2026-08-28T19:24:12.364869+00:00"
 }
