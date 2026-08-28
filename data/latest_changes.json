@@ -1,8 +1,111 @@
 {
-    "build_hash": "b5735c819351ee24d78c36d09a395f72befa092e",
+    "build_hash": "eb95050033e9ab99797efff34b821854456410ad",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "chatInputFloating",
+                "chatInputLegacySendButton",
+                "enabled"
+            ],
+            "default_config": {
+                "chatInputFloating": false,
+                "chatInputLegacySendButton": false,
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-mobile-visual-refresh",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "chatInputFloating": false,
+                    "chatInputLegacySendButton": false,
+                    "enabled": false
+                },
+                "1": {
+                    "chatInputFloating": false,
+                    "chatInputLegacySendButton": false,
+                    "enabled": true
+                },
+                "2": {
+                    "chatInputFloating": true,
+                    "chatInputLegacySendButton": false,
+                    "enabled": true
+                },
+                "3": {
+                    "chatInputFloating": true,
+                    "chatInputLegacySendButton": false,
+                    "enabled": true
+                },
+                "4": {
+                    "chatInputFloating": true,
+                    "chatInputLegacySendButton": true,
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "chatInputFloating",
+                "chatInputLegacySendButton",
+                "enabled"
+            ],
+            "default_config": {
+                "chatInputFloating": false,
+                "chatInputLegacySendButton": false,
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-mobile-visual-refresh",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "chatInputFloating": false,
+                    "chatInputLegacySendButton": false,
+                    "enabled": false
+                },
+                "1": {
+                    "chatInputFloating": false,
+                    "chatInputLegacySendButton": false,
+                    "enabled": true
+                },
+                "2": {
+                    "chatInputFloating": true,
+                    "chatInputLegacySendButton": false,
+                    "enabled": true
+                },
+                "3": {
+                    "chatInputFloating": true,
+                    "chatInputLegacySendButton": false,
+                    "enabled": true
+                },
+                "4": {
+                    "chatInputFloating": true,
+                    "chatInputLegacySendButton": true,
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +125,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T17:37:12.024042+00:00"
+    "timestamp": "2026-08-28T17:47:52.333669+00:00"
 }
