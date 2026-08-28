@@ -1,69 +1,8 @@
 {
-    "build_hash": "fb8b48306f0b540d6fba1e2753cd2a8cfb8f17ec",
+    "build_hash": "80f8b1d2a4fbf47d4a05a50c5d2d5129266c3bd2",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "bannerVariant",
-                "enabled"
-            ],
-            "default_config": {
-                "bannerVariant": "control",
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-past-due-checkout",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-08-28T17:51:58Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "bannerVariant": "red_expressive",
-                    "enabled": true
-                },
-                "2": {
-                    "bannerVariant": "grey_primary",
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "bannerVariant",
-                "enabled"
-            ],
-            "default_config": {
-                "bannerVariant": "control",
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-past-due-checkout",
-            "kind": "user",
-            "timestamp": "2026-08-28T17:51:58Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "bannerVariant": "red_expressive",
-                    "enabled": true
-                },
-                "2": {
-                    "bannerVariant": "grey_primary",
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -73,9 +12,29 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "04j3XV": "{orbAmount} Orbs in {days} days",
+                "B8Fxns": "Earn $[orbIcon](orbIconHook) {orbAmount} Orbs",
+                "Ba/7wO": "Nitro members earn {multiplier}x on everything",
+                "FkfrRH": "Nitro Orbs",
+                "OHLdjq": "{multiplier}x",
+                "U9UQJE": "Get Nitro",
+                "WOMrJf": "Unlock {multiplier}x",
+                "XW2CuY": "Keep earning to unlock your next reward!",
+                "ZqCAos": "Earn Orbs faster",
+                "h2qWpS": "Claim $[orbIcon](orbIconHook) {orbAmount} Orbs",
+                "xOP5OP": "You're all caught up"
+            },
+            "deleted": {
+                "aBVuHF": "Get {orbAmount} Orbs",
+                "mOsACs": "Claim {orbAmount} Orbs"
+            },
+            "modified": {
+                "H6Ny8N": {
+                    "new_value": "Active Challenges",
+                    "old_value": "ACTIVE CHALLENGES"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -83,5 +42,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-28T17:58:33.488300+00:00"
+    "timestamp": "2026-08-28T18:09:16.257191+00:00"
 }
