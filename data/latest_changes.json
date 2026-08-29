@@ -1,5 +1,5 @@
 {
-    "build_hash": "42a1c3d2b1dede11f40e15d208e3b3366b9442d5",
+    "build_hash": "d70f110b252998fb9b62e6f9cdafa3197b73383d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,12 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "33M5bg": "You've joined {guildName}!",
-                "7N4JkE": "Get the Discord app to start chatting.",
-                "dzGILG": "Finish signing up",
-                "renMUD": "Already have an account? Open the app"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-29T02:40:37.747534+00:00"
+    "timestamp": "2026-08-29T03:42:21.574339+00:00"
 }
