@@ -1,5 +1,5 @@
 {
-    "build_hash": "1802f6db527b90872175a5c35b778fec39a6d9e6",
+    "build_hash": "dbcfce1b5dc2723a8ba220d6083bdef37cd3f5ee",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-compress-logs",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-08-29T09:32:02Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-compress-logs",
+            "kind": "user",
+            "timestamp": "2026-08-29T09:32:02Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-29T05:51:01.299226+00:00"
+    "timestamp": "2026-08-29T09:36:28.126730+00:00"
 }
