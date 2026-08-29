@@ -1,5 +1,5 @@
 {
-    "build_hash": "d70f110b252998fb9b62e6f9cdafa3197b73383d",
+    "build_hash": "a41999f96ab2d55079d9a876ba11f694b6e4ee8c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "4Rq3a7": "Clip tags",
+                "pWHvBI": "View all tags"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-29T03:42:21.574339+00:00"
+    "timestamp": "2026-08-29T04:13:30.051597+00:00"
 }
