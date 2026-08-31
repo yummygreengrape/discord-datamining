@@ -1,8 +1,53 @@
 {
-    "build_hash": "7e236458d8062d7adff9f46a6071b764126d474d",
+    "build_hash": "7a122fbf1f127cff92351b958dc8f5d89e74a386",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-quest-reload-video-on-obscured",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-08-31T23:38:00Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-quest-reload-video-on-obscured",
+            "kind": "user",
+            "timestamp": "2026-08-31T23:38:00Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,7 +57,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Z5b2Gf": "When you accept a gift while you have a running subscription, redeem a promotion, or accept a gift that differs from your current subscription, it will appear here as credit."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +69,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-31T23:36:10.730006+00:00"
+    "timestamp": "2026-08-31T23:46:54.178122+00:00"
 }
