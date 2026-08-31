@@ -1,5 +1,5 @@
 {
-    "build_hash": "bb0195bd7b647b60bfd4aa88fbdfe97fe83a6416",
+    "build_hash": "0ca0788600d62d4d3ed013af4773228c68d0c879",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,28 +7,7 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_USERS_ACHIEVEMENTS_UNREAD_STATE",
-            "status": "added",
-            "url": "/users/@me/achievements/unread-state"
-        },
-        {
-            "name": "ENDPOINT_USERS_ACHIEVEMENTS_UNREAD_STATE_ACK",
-            "status": "added",
-            "url": "/users/@me/achievements/unread-state/ack"
-        },
-        {
-            "name": "ORB_USER_CHALLENGES_UNREAD_STATE",
-            "status": "added",
-            "url": "/users/@me/achievements/unread-state"
-        },
-        {
-            "name": "ORB_USER_CHALLENGES_UNREAD_STATE_ACK",
-            "status": "added",
-            "url": "/users/@me/achievements/unread-state/ack"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
@@ -43,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-31T21:48:19.640975+00:00"
+    "timestamp": "2026-08-31T21:59:22.213356+00:00"
 }
