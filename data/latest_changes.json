@@ -1,5 +1,5 @@
 {
-    "build_hash": "2d394ad0c8650d96fd87ecff6563097d02442cde",
+    "build_hash": "a87de3d808dbb7b736362a191797d7adfc8e9986",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -17,10 +17,25 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "+P5MmK": "월요일 오전 9시",
+                "Fn6Odn": "예정됨",
+                "RLdUVh": "이런! 한도에 도달했어요.",
+                "dzGILG": "가입 완료",
+                "iQ1SwX": "일정 설정",
+                "lv6bDa": "메시지 관리",
+                "sHmiIC": "옵션",
+                "stHooC": "사용자 지정...",
+                "tjIn9i": "내일 오전 9시"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "7nKAXx": {
+                    "new_value": "완료",
+                    "old_value": "연령대가 확인되었어요"
+                }
+            }
         }
     },
-    "timestamp": "2026-08-31T19:17:40.397996+00:00"
+    "timestamp": "2026-08-31T19:28:23.581145+00:00"
 }
