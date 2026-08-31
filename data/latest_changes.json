@@ -1,5 +1,5 @@
 {
-    "build_hash": "0ca0788600d62d4d3ed013af4773228c68d0c879",
+    "build_hash": "1afb3f660164209870952f35c62672ba764ebf88",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-gift-recipient-display-name-search",
+            "kind": "user",
+            "timestamp": "2026-08-31T20:55:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-31T21:59:22.213356+00:00"
+    "timestamp": "2026-08-31T22:10:29.763905+00:00"
 }
