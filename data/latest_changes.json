@@ -1,5 +1,5 @@
 {
-    "build_hash": "d6e3d595d6e1d08e1cf7fad2ece7353796f9ad88",
+    "build_hash": "c3a4e561b2ef9f41979c9f8205d4500bc1aa92f5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,21 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+fcvlI": "Send a 2-week trial and save 30% on Nitro for every friend who subscribes. [Learn more]({helpdeskArticle}).",
-                "1aV1j9": "You’ve shared all your trials. Your Orbs will roll in when a friend subscribes. [Learn more]({helpdeskArticle}).",
-                "53BCd6": "Your Nitro discount is active",
-                "8BYihN": "A thanks to your friends is in order. Your discounts will be auto-applied. [Learn more]({helpdeskArticle}).",
-                "Ka9J40": "Send a 2-week Nitro trial and get {numOrbs} Orbs for each friend who subscribes. [Learn more]({helpdeskArticle}).",
-                "OluhLp": "A thanks to your friends is in order. Head to the Shop to see what’s new. [Learn more]({helpdeskArticle}).",
-                "P//01n": "{discountPercent}% off {duration, plural, one {# month} other {# months}}",
-                "QNrPuS": "You've shared all your trials. Your discount kicks in once a friend subscribes. [Learn more]({helpdeskArticle}).",
-                "ZskKu1": "You've used all your trials! More are coming soon. If you're feeling generous, you could always gift Nitro. [Learn more]({helpdeskArticle}).",
-                "a0+Jwv": "None of your friends are eligible for a trial right now. [Learn more]({helpdeskArticle}).",
-                "kBsllF": "Share a Nitro trial and earn discounts each month for every friend that subscribes. [Learn more]({helpdeskArticle}).",
-                "kO23jV": "Refer friends, earn Orbs",
-                "tSiyfF": "All your trials have been sent. Your friends have 10 days to accept before the trial is returned to you. [Learn more]({helpdeskArticle})."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -36,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-31T22:42:36.082597+00:00"
+    "timestamp": "2026-08-31T22:53:19.648974+00:00"
 }
