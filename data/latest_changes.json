@@ -1,5 +1,5 @@
 {
-    "build_hash": "dba6197e0ec21ac0e35364d1c3c91aabdf228805",
+    "build_hash": "51db1b66dab3c5fcdf73bf3e314e7fdd65afd0fc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "GhK5nf": "Unhide badge {position}, {badgeName}",
-                "RXOPc3": "Unhide Badge",
-                "xSWJPo": "Hide Badge"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T20:13:34.466817+00:00"
+    "timestamp": "2026-09-01T20:24:18.500419+00:00"
 }
