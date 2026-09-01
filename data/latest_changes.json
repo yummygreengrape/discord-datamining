@@ -1,19 +1,8 @@
 {
-    "build_hash": "9da686cb86aee7590ce3cb885ddd2c5b6211616b",
+    "build_hash": "96e04fb040e851c0d801f28033b1f3fec43a600c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-minimal-detectable",
-            "kind": "user",
-            "timestamp": "2026-09-01T18:53:43Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -23,100 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/703Yk": "Input Tokens (Counted)",
-                "/L6GFe": "{type}, Optional",
-                "/N6ZU9": "Tool",
-                "/g6wUz": "Bot gateway (Preview)",
-                "1kBG9Z": "The agent only saw the first part of this result.",
-                "2Aii2k": "Result Size",
-                "3hYhpp": "Newest {shown} of {total} this session",
-                "5T4Dd0": "Failed",
-                "6+W0dJ": "Output Tokens (Counted)",
-                "6QoPmP": "{type}, Required",
-                "6oILKx": "Schema",
-                "8pdPx5": "Every step the agent takes shows up here while it works, with timings — from the point this project started keeping them.",
-                "A3Z3ar": "Export",
-                "AhOqQs": "Model",
-                "AnRynJ": "{cpu} CPU",
-                "Cpr+oM": "No steps match that.",
-                "DdXP0P": "{count} Char(s)",
-                "EoY7D+": "Subagent",
-                "F5eP7e": "Model calls",
-                "F9jaUF": "Approximate — measured before sending, not counted by the model.",
-                "H6PMwW": "CPU & memory (24h)",
-                "HcEbf2": "Delegated",
-                "HpKDyl": "Running",
-                "I7cJP0": "Turn",
-                "I8sr5Y": "Resize Details",
-                "Iyt8OJ": "No activity yet",
-                "JmIyL8": "Database (Preview)",
-                "KVFrD3": "Context",
-                "KXrf5F": "Result",
-                "LONZ/8": "Realtime (Preview)",
-                "M7Vn6y": "Cloudflare analytics don’t exist in local development.",
-                "NfncNw": "Search Steps",
-                "NnBqcd": "Delegated By",
-                "OB8Qvn": "{count} Item(s)",
-                "OZvPXt": "Withheld — this tool has no disclosure rule yet",
-                "PYO+Jv": "~{tokens} Prompt",
-                "Pgvj3h": "Durable Objects (last 24h)",
-                "PkIUHD": "Credential-Like Content Removed",
-                "QATZ+A": "Trace",
-                "QZ1e4l": "The configured Cloudflare API token can’t read account analytics.",
-                "QirpMl": "This deployment has no Cloudflare API token configured for analytics.",
-                "Qy2iTq": "System ~{system} · Tools ~{tools} across {toolCount} · Messages ~{messages} across {messageCount}",
-                "Ran4BY": "Prompt (Estimated)",
-                "SBkDIZ": "{p50} median · {p999} peak",
-                "T7SFyZ": "Diagnostics",
-                "TLOZ8J": "Not available",
-                "TlpZKP": "{name} details",
-                "UV2R1/": "Truncated",
-                "UZ1OlR": "Filter Trace by Category",
-                "UffawN": "{percent}%",
-                "VGSwo4": "Truncated from {count} Character(s)",
-                "VbEmf0": "Done",
-                "VyAl6j": "Cache",
-                "W+4BVk": "Usage",
-                "WIAQes": "The analytics query failed.",
-                "WdGviA": "Memory (24h)",
-                "XVTP/S": "Step ID",
-                "Y/j+TD": "Turn {number}",
-                "awAqRi": "CPU time (24h)",
-                "bzNyv8": "Realtime",
-                "fI6mzD": "Spawned",
-                "fj5wM8": "Couldn’t load the full detail.",
-                "fy9PRy": "Staff Only",
-                "gpBZRr": "Withheld — content",
-                "h5CwHI": "Recent improvements to conjuring",
-                "hO8FYp": "{count} Step(s)",
-                "hpGFzS": "Lines Changed",
-                "j8NMgl": "No model calls observed this session.",
-                "jEQTot": "The full detail is no longer available for this step.",
-                "jXY3mm": "Arguments",
-                "jdpw3A": "Bot gateway",
-                "khAjR0": "Press Escape or select this step again to collapse.",
-                "l9YFEQ": "Cost",
-                "lkMc23": "{read} Read / {write} Written",
-                "ppv+97": "Arguments and results are reduced worker-side before they are sent; each value says where something was withheld.",
-                "r6cciE": "Database",
-                "rD7bm0": "Started",
-                "rxmzYT": "Stopped Because",
-                "uAzxdh": "No samples in the window yet — analytics lag live traffic by a few minutes.",
-                "vBF/0G": "Loading the full detail…",
-                "vPIcyv": "Breakdown",
-                "w8vPbe": "{count}",
-                "wUZveG": "Trace",
-                "xO6bcQ": "Withheld — may contain your words or the agent’s",
-                "zUTHf7": "The analytics query failed: {detail}"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "QX2UQC": {
-                    "new_value": "CPU and memory aren’t readable from inside a running instance — the 24-hour rows below carry Cloudflare’s account-side measurements, and a young instance on a busy project is the live churn signal.",
-                    "old_value": "CPU and memory aren’t readable from inside a running instance — a young instance on a busy project is the live churn signal."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -124,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T19:41:18.813570+00:00"
+    "timestamp": "2026-09-01T19:52:03.963211+00:00"
 }
