@@ -1,31 +1,18 @@
 {
-    "build_hash": "2b987f11479fd4ff98c3e8c2b73e33d3fa4b80a0",
+    "build_hash": "eb2fbe188bf130689715bec1428e760de51ec718",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-04-premium-group-primary-reminder-nagbar",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
     "deleted_experiments": [
         {
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
             "id": "2026-04-premium-group-primary-reminder-nagbar",
             "kind": "user",
-            "treatments": [],
-            "variations": {
-                "0": false,
-                "1": true
-            }
+            "timestamp": "2026-09-01T22:19:45Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
         }
     ],
     "extractor_version": 23,
@@ -33,90 +20,68 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "variant"
-            ],
-            "default_config": {
-                "enabled": false,
-                "variant": 0
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-08-bounties-ctr-experiment-1",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "variant": 0
-                },
-                "1": {
-                    "enabled": true,
-                    "variant": 1
-                },
-                "2": {
-                    "enabled": true,
-                    "variant": 2
-                },
-                "3": {
-                    "enabled": true,
-                    "variant": 3
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
     "new_experiments": [
         {
-            "config_keys": [
-                "enabled",
-                "variant"
-            ],
-            "default_config": {
-                "enabled": false,
-                "variant": 0
-            },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-app-channels",
+            "kind": "guild",
+            "timestamp": "2026-09-01T22:02:34Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
             "id": "2026-08-bounties-ctr-experiment-1",
             "kind": "user",
+            "timestamp": "2026-09-01T22:19:45Z",
             "treatments": [
                 "Variant 0",
                 "Variant 1",
                 "Variant 2",
                 "Variant 3"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "variant": 0
-                },
-                "1": {
-                    "enabled": true,
-                    "variant": 1
-                },
-                "2": {
-                    "enabled": true,
-                    "variant": 2
-                },
-                "3": {
-                    "enabled": true,
-                    "variant": 3
-                }
-            }
+            ]
         }
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "37AyNG": "unread, {channelName} (media channel)",
+                "4/7x+3": "Move to Back",
+                "4QEsIN": "Bounty",
+                "A+8d6M": "App",
+                "Ajnhpa": "{channelName} (forum channel)",
+                "BILI3J": "{mentionCount, plural, one {# mention} other {# mentions}}, {channelName} (app channel)",
+                "BpXa17": "Move to Front",
+                "F2FMFR": "Select app",
+                "F98YPC": "{channelName} (app channel)",
+                "GZa4J0": "This app is not available.",
+                "HO/lY5": "App (Spoiler)",
+                "KqEUsJ": "{mentionCount, plural, one {# mention} other {# mentions}}, {channelName} (media channel)",
+                "KuUltE": "{channelName} (media channel)",
+                "LVQQ3Z": "Create a space to interact with an app",
+                "MlQm3T": "No apps available",
+                "MpFE11": "App (Limited)",
+                "V4y5nG": "This app doesn’t have a bot in this server.",
+                "Xq++FA": "{appName} needs some permissions to work in this channel, so they can’t be turned off.",
+                "Zazao2": "Reorder {name}",
+                "ZkcrC2": "App Channel",
+                "dr/Oik": "unread, {channelName} (forum channel)",
+                "fnhin8": "Set the app to $[](newApplicationHook)",
+                "iUWcU/": "This app doesn’t support App Channels.",
+                "mcNs5B": "Changed the app from $[](oldApplicationHook) to $[](newApplicationHook)",
+                "na1rJc": "To change this channel’s app, you need the {permissions} {count, plural, one {permission} other {permissions}}.",
+                "oYTLIL": "App",
+                "rSsuUF": "{mentionCount, plural, one {# mention} other {# mentions}}, {channelName} (forum channel)",
+                "v05vEp": "The channel’s app can’t be removed from its own channel.",
+                "xzhzM/": "unread, {channelName} (app channel)",
+                "yXmgpP": "The channel’s app requires this permission.",
+                "z2/ML4": "App",
+                "zAEV11": "App (Age-Restricted)"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -126,5 +91,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T22:22:41.583101+00:00"
+    "timestamp": "2026-09-01T22:33:53.358103+00:00"
 }
