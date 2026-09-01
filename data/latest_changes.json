@@ -1,8 +1,53 @@
 {
-    "build_hash": "c755ea7866eed1f1ef098c6fab56d1b41e9beab2",
+    "build_hash": "b20d14b0d1a2669a0b85ede875c0747939d59aad",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-minimal-detectable",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-01T18:53:43Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-minimal-detectable",
+            "kind": "user",
+            "timestamp": "2026-09-01T18:53:43Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,7 +57,74 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/703Yk": "Input Tokens (Counted)",
+                "/L6GFe": "{type}, Optional",
+                "/N6ZU9": "Tool",
+                "1kBG9Z": "The agent only saw the first part of this result.",
+                "2Aii2k": "Result Size",
+                "3hYhpp": "Newest {shown} of {total} this session",
+                "5T4Dd0": "Failed",
+                "6+W0dJ": "Output Tokens (Counted)",
+                "6QoPmP": "{type}, Required",
+                "6oILKx": "Schema",
+                "8pdPx5": "Every step the agent takes shows up here while it works, with timings — from the point this project started keeping them.",
+                "A3Z3ar": "Export",
+                "AhOqQs": "Model",
+                "Cpr+oM": "No steps match that.",
+                "DdXP0P": "{count} Char(s)",
+                "EoY7D+": "Subagent",
+                "F5eP7e": "Model calls",
+                "F9jaUF": "Approximate — measured before sending, not counted by the model.",
+                "HcEbf2": "Delegated",
+                "HpKDyl": "Running",
+                "I7cJP0": "Turn",
+                "I8sr5Y": "Resize Details",
+                "Iyt8OJ": "No activity yet",
+                "KVFrD3": "Context",
+                "KXrf5F": "Result",
+                "NfncNw": "Search Steps",
+                "NnBqcd": "Delegated By",
+                "OB8Qvn": "{count} Item(s)",
+                "OZvPXt": "Withheld — this tool has no disclosure rule yet",
+                "PYO+Jv": "~{tokens} Prompt",
+                "PkIUHD": "Credential-Like Content Removed",
+                "QATZ+A": "Trace",
+                "Qy2iTq": "System ~{system} · Tools ~{tools} across {toolCount} · Messages ~{messages} across {messageCount}",
+                "Ran4BY": "Prompt (Estimated)",
+                "T7SFyZ": "Diagnostics",
+                "TlpZKP": "{name} details",
+                "UV2R1/": "Truncated",
+                "UZ1OlR": "Filter Trace by Category",
+                "UffawN": "{percent}%",
+                "VGSwo4": "Truncated from {count} Character(s)",
+                "VbEmf0": "Done",
+                "VyAl6j": "Cache",
+                "W+4BVk": "Usage",
+                "XVTP/S": "Step ID",
+                "Y/j+TD": "Turn {number}",
+                "fI6mzD": "Spawned",
+                "fj5wM8": "Couldn’t load the full detail.",
+                "fy9PRy": "Staff Only",
+                "gpBZRr": "Withheld — content",
+                "h5CwHI": "Recent improvements to conjuring",
+                "hO8FYp": "{count} Step(s)",
+                "hpGFzS": "Lines Changed",
+                "j8NMgl": "No model calls observed this session.",
+                "jEQTot": "The full detail is no longer available for this step.",
+                "jXY3mm": "Arguments",
+                "khAjR0": "Press Escape or select this step again to collapse.",
+                "l9YFEQ": "Cost",
+                "lkMc23": "{read} Read / {write} Written",
+                "ppv+97": "Arguments and results are reduced worker-side before they are sent; each value says where something was withheld.",
+                "rD7bm0": "Started",
+                "rxmzYT": "Stopped Because",
+                "vBF/0G": "Loading the full detail…",
+                "vPIcyv": "Breakdown",
+                "w8vPbe": "{count}",
+                "wUZveG": "Trace",
+                "xO6bcQ": "Withheld — may contain your words or the agent’s"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +134,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T18:45:50.621185+00:00"
+    "timestamp": "2026-09-01T18:57:31.138724+00:00"
 }
