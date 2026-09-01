@@ -1,5 +1,5 @@
 {
-    "build_hash": "5a4c1fcade5acc1ce2ac1dca264c9b84e6710114",
+    "build_hash": "40e785120179bcd20333d0fd30f452b39499db36",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,57 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+LxC7W": "{total} CPU total · {wall} wall total",
+                "+dpDma": "Preview worker",
+                "+rYPHD": "CPU time, average request",
+                "0AB7l3": "Events received",
+                "0OIswI": "Database · {env}",
+                "0ayoy+": "last failure {host} ({status}) · {time}",
+                "1PdrB1": "Counting since {time}",
+                "1mpzdJ": "Logs",
+                "4NpaEk": "Snapshot from {time}",
+                "4tYZVa": "No",
+                "5iALNP": "Memory limit {limit} — no live gauge; kills are the signal",
+                "7ecbr3": "next run {time}",
+                "8GAiDk": "This runtime reported no CPU figures on its tail events — typical in local dev. Deployed workers report real values.",
+                "9KlveJ": "Yes",
+                "9TpIQg": "Files · {env}",
+                "BVORfc": "Live connections · {env}",
+                "C6xjtD": "never started (the app has not called env.BOT.start())",
+                "CjPhyY": "Errors",
+                "ElaQ0A": "Servers",
+                "HHe+8E": "Deployments",
+                "JUZs7g": "Build",
+                "K+FvtM": "Couldn’t load debug info.",
+                "KOnL3g": "Requests",
+                "N4l504": "Event deliveries failed",
+                "NQHyed": "Production worker",
+                "NQxkhU": "Schedule · {id}",
+                "P8lBrO": "{state} (attempt {attempt})",
+                "QifItp": "Realtime & schedules",
+                "S7o3vV": "{count} objects",
+                "SJtBTN": "Reconnects",
+                "SWKshl": "Workers AI",
+                "V/nNbs": "CPU time, slowest request",
+                "Vrh0rD": "Shared (preview and production use the same data)",
+                "W4hcKL": "Nothing observed recently.",
+                "YKWIxp": "not reported",
+                "Yur5Zm": "{requests} requests · {failures} failed",
+                "aw0IJm": "Refresh",
+                "bSzLue": "last close {code} · {time}",
+                "f8ix3w": "Connected · {env}",
+                "g1O88C": "Killed for memory limit",
+                "o45MMA": "{count}+ objects (measurement capped — sizes are a floor)",
+                "rx1pBg": "Bot gateway",
+                "t2+yv/": "Outbound requests",
+                "uNyR86": "Debug panel views",
+                "ueEMPa": "Wall time, total",
+                "v/fbnv": "No requests observed recently.",
+                "vM2krr": "Killed for CPU limit",
+                "voXL2a": "{calls} calls · {errors} failed",
+                "whGHLD": "Worker"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +72,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T00:50:46.811731+00:00"
+    "timestamp": "2026-09-01T01:11:46.424052+00:00"
 }
