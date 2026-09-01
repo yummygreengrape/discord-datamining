@@ -1,5 +1,5 @@
 {
-    "build_hash": "9fd9d9bb6ae329c2643e31553b006b6bd907ee37",
+    "build_hash": "5c1f029e164a9b1df12770dd522898d15889d31f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-premium-group-perk-check",
+            "kind": "user",
+            "timestamp": "2026-09-01T00:31:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T00:29:18.304322+00:00"
+    "timestamp": "2026-09-01T00:40:02.444223+00:00"
 }
