@@ -1,93 +1,30 @@
 {
-    "build_hash": "a270d37c67b29a0025d65afd18522a8cb452fc94",
+    "build_hash": "299f878f5511d409e4e014519929753a74555b5d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-premium-group-primary-reminder-nagbar",
-            "kind": "user",
-            "timestamp": "2026-09-01T22:19:45Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-app-channels",
-            "kind": "guild",
-            "timestamp": "2026-09-01T22:02:34Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-bounties-ctr-experiment-1",
-            "kind": "user",
-            "timestamp": "2026-09-01T22:19:45Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "37AyNG": "unread, {channelName} (media channel)",
-                "4QEsIN": "Bounty",
-                "A+8d6M": "App",
-                "Ajnhpa": "{channelName} (forum channel)",
-                "BILI3J": "{mentionCount, plural, one {# mention} other {# mentions}}, {channelName} (app channel)",
-                "F2FMFR": "Select app",
-                "F98YPC": "{channelName} (app channel)",
-                "GZa4J0": "This app is not available.",
-                "HO/lY5": "App (Spoiler)",
-                "KqEUsJ": "{mentionCount, plural, one {# mention} other {# mentions}}, {channelName} (media channel)",
-                "KuUltE": "{channelName} (media channel)",
-                "LVQQ3Z": "Create a space to interact with an app",
-                "MlQm3T": "No apps available",
-                "MpFE11": "App (Limited)",
-                "V4y5nG": "This app doesn’t have a bot in this server.",
-                "Xq++FA": "{appName} needs some permissions to work in this channel, so they can’t be turned off.",
-                "Zazao2": "Reorder {name}",
-                "ZkcrC2": "App Channel",
-                "dr/Oik": "unread, {channelName} (forum channel)",
-                "fnhin8": "Set the app to $[](newApplicationHook)",
-                "iUWcU/": "This app doesn’t support App Channels.",
-                "mcNs5B": "Changed the app from $[](oldApplicationHook) to $[](newApplicationHook)",
-                "na1rJc": "To change this channel’s app, you need the {permissions} {count, plural, one {permission} other {permissions}}.",
-                "oYTLIL": "App",
-                "rSsuUF": "{mentionCount, plural, one {# mention} other {# mentions}}, {channelName} (forum channel)",
-                "v05vEp": "The channel’s app can’t be removed from its own channel.",
-                "xzhzM/": "unread, {channelName} (app channel)",
-                "yXmgpP": "The channel’s app requires this permission.",
-                "z2/ML4": "App",
-                "zAEV11": "App (Age-Restricted)"
+            "added": {},
+            "deleted": {
+                "OejPtl": "Get two months for the price of one."
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "OejPtl": "1개월 요금으로 2개월 동안 사용하세요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T23:17:29.992012+00:00"
+    "timestamp": "2026-09-01T23:28:11.433619+00:00"
 }
