@@ -1,5 +1,5 @@
 {
-    "build_hash": "2f8fb47528a4aa046c02e63925c8a464ba098804",
+    "build_hash": "5b0145bc62dab5ee41e90b4ef2047d134ff71f4d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,12 +7,64 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_GUILDS_EMBEDDED_APPLICATIONS",
+            "status": "added",
+            "url": "/guilds/:param/embedded-applications"
+        },
+        {
+            "name": "GUILD_EMBEDDED_APPLICATIONS",
+            "status": "added",
+            "url": "/guilds/:param/embedded-applications"
+        }
+    ],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-app-channels",
+            "kind": "guild",
+            "timestamp": "2026-09-01T22:02:34Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "37AyNG": "unread, {channelName} (media channel)",
+                "A+8d6M": "App",
+                "Ajnhpa": "{channelName} (forum channel)",
+                "BILI3J": "{mentionCount, plural, one {# mention} other {# mentions}}, {channelName} (app channel)",
+                "F2FMFR": "Select app",
+                "F98YPC": "{channelName} (app channel)",
+                "GZa4J0": "This app is not available.",
+                "HO/lY5": "App (Spoiler)",
+                "KqEUsJ": "{mentionCount, plural, one {# mention} other {# mentions}}, {channelName} (media channel)",
+                "KuUltE": "{channelName} (media channel)",
+                "LVQQ3Z": "Create a space to interact with an app",
+                "MlQm3T": "No apps available",
+                "MpFE11": "App (Limited)",
+                "V4y5nG": "This app doesn’t have a bot in this server.",
+                "Xq++FA": "{appName} needs some permissions to work in this channel, so they can’t be turned off.",
+                "Zazao2": "Reorder {name}",
+                "ZkcrC2": "App Channel",
+                "dr/Oik": "unread, {channelName} (forum channel)",
+                "fnhin8": "Set the app to $[](newApplicationHook)",
+                "iUWcU/": "This app doesn’t support App Channels.",
+                "mcNs5B": "Changed the app from $[](oldApplicationHook) to $[](newApplicationHook)",
+                "na1rJc": "To change this channel’s app, you need the {permissions} {count, plural, one {permission} other {permissions}}.",
+                "oYTLIL": "App",
+                "rSsuUF": "{mentionCount, plural, one {# mention} other {# mentions}}, {channelName} (forum channel)",
+                "v05vEp": "The channel’s app can’t be removed from its own channel.",
+                "xzhzM/": "unread, {channelName} (app channel)",
+                "yXmgpP": "The channel’s app requires this permission.",
+                "z2/ML4": "App",
+                "zAEV11": "App (Age-Restricted)"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +74,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T21:40:00.156001+00:00"
+    "timestamp": "2026-09-01T22:11:12.900103+00:00"
 }
