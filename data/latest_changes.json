@@ -1,5 +1,5 @@
 {
-    "build_hash": "88363fb105641b26ec89f0111ca17711d7cf7b0f",
+    "build_hash": "9eded9a92a5be2ac01495948b1a8bb384b73d0a5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "9W8SbY": "What it will look like",
+                "CBrpNv": "Open the wireframe at full size",
+                "FW8UcU": "A wireframe of the app this plan would build"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T04:07:09.652721+00:00"
+    "timestamp": "2026-09-01T04:28:08.763050+00:00"
 }
