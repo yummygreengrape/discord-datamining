@@ -1,5 +1,5 @@
 {
-    "build_hash": "9eded9a92a5be2ac01495948b1a8bb384b73d0a5",
+    "build_hash": "22043f6eb9b566031afff3d4c5817d001970d159",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "9W8SbY": "What it will look like",
-                "CBrpNv": "Open the wireframe at full size",
-                "FW8UcU": "A wireframe of the app this plan would build"
+                "DXe2dP": "Conjuring will use this wireframe as a direction, not an exact final design.",
+                "Y6y4nQ": "About this wireframe"
             },
             "deleted": {},
             "modified": {}
@@ -26,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T04:28:08.763050+00:00"
+    "timestamp": "2026-09-01T06:51:58.832154+00:00"
 }
