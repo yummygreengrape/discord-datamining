@@ -1,5 +1,5 @@
 {
-    "build_hash": "79516b5014cd8b6e38a0b84229a4ace30a57a91c",
+    "build_hash": "e2a95934dfba1494d375e2a52d5676c3f72126f9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,20 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "GI2mea": "Account Status"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "SAFETY_HUB_ACCOUNT_STANDING_ALL_GOOD_DESCRIPTION_V2": {
+                    "new_value": "Thank you for upholding Discord's [Terms of Service]({termsOfService}) and [Community Guidelines]({communityGuidelines}). If you have a violation, it will appear here.",
+                    "old_value": "Thanks for upholding Discord's [Terms of Service]({termsOfService}) and [Community Guidelines]({communityGuidelines}). If you break the rules, it will show up here."
+                },
+                "pEdBD4": {
+                    "new_value": "Thank you for upholding Discord's [Terms of Service]({termsOfService}) and [Community Guidelines]({communityGuidelines}). If you have a violation, it will appear here.",
+                    "old_value": "Thanks for upholding Discord's [Terms of Service]({termsOfService}) and [Community Guidelines]({communityGuidelines}). If you break the rules, it will show up here."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T09:51:37.832127+00:00"
+    "timestamp": "2026-09-01T10:53:29.949262+00:00"
 }
