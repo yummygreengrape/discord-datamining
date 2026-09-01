@@ -1,5 +1,5 @@
 {
-    "build_hash": "299f878f5511d409e4e014519929753a74555b5d",
+    "build_hash": "0a3b38feca4bbd90f8dacf21bc445bdcbcb7e46d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,19 +12,17 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "OejPtl": "Get two months for the price of one."
+            "added": {
+                "5UYoSr": "{ctaLabel}, {productLabel}"
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "OejPtl": "1개월 요금으로 2개월 동안 사용하세요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T23:28:11.433619+00:00"
+    "timestamp": "2026-09-01T23:38:58.871187+00:00"
 }
