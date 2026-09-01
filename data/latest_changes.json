@@ -1,5 +1,5 @@
 {
-    "build_hash": "6a1e164c1a6189e33a7cc910875c282cc00e664e",
+    "build_hash": "f29f9a63ce301685cc431e2f99ceb7f24dbd8e21",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,39 +7,34 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "AGE_VERIFICATION_SUSPENDED_METHODS_V2",
+            "status": "added",
+            "url": "/age-verification/suspended/methods/v2"
+        },
+        {
+            "name": "ENDPOINT_AGE_VERIFICATION_SUSPENDED_METHODS_V2",
+            "status": "added",
+            "url": "/age-verification/suspended/methods/v2"
+        },
+        {
+            "name": "ENDPOINT_SAFETY_HUB_SUSPENDED_REQUEST_VERIFICATION_V2",
+            "status": "added",
+            "url": "/safety-hub/suspended/request-verification/v2"
+        },
+        {
+            "name": "SAFETY_HUB_REQUEST_SUSPENDED_AGE_VERIFICATION_V2",
+            "status": "added",
+            "url": "/safety-hub/suspended/request-verification/v2"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {
-                "/hOBkc": "Queued messages",
-                "5iHZLk": "Iterations per session",
-                "6Z2KhK": "{count} turns",
-                "8MSJDH": "Runes",
-                "EmSF+A": "Limits",
-                "IYpHtT": "Lifetime usage",
-                "KHK44U": "Compacting wouldn’t shrink the context enough to be worth paying for · {time}",
-                "LKGmsP": "No compaction observed this session. The agent compacts when its context nears {ceiling} tokens.",
-                "Q2OlgI": "Turn outcomes",
-                "QX2UQC": "CPU and memory aren’t readable from inside a running instance — a young instance on a busy project is the live churn signal.",
-                "RIDc6D": "Session attempts per turn",
-                "Rb6m3E": "Iterations per subagent",
-                "TOQnq4": "Build attempts per turn",
-                "U98VaN": "{count} tokens",
-                "VwF+oY": "Total",
-                "WQ9pMe": "Context ceiling",
-                "ZRxAPD": "Agent runtime",
-                "a/LXBt": "Turn in flight",
-                "cK3AvL": "Agent",
-                "dKFhCg": "Context after last compaction",
-                "gPabB9": "Nothing measured yet.",
-                "iEAvzu": "Output per turn",
-                "jA05ru": "kept {count} messages · {time}",
-                "lo4mY6": "Latest turn",
-                "ntZb8d": "Last compaction",
-                "uyPveL": "No turn has settled this session.",
-                "wt5X/o": "Instance up since"
+                "LeAhOQ": "Did we make a mistake? $[Confirm you meet the minimum age requirement in your region.](letUsKnowHook)"
             },
             "deleted": {},
             "modified": {}
@@ -50,5 +45,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T01:53:10.035026+00:00"
+    "timestamp": "2026-09-01T02:24:22.951609+00:00"
 }
