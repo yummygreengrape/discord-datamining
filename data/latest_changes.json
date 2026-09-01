@@ -1,5 +1,5 @@
 {
-    "build_hash": "0920169734d7af18cd628e0c50c27171c34fc73a",
+    "build_hash": "d3f8684cec148ea454038988354c33d9259c6751",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,18 +12,18 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "4/7x+3": "Move to Back",
+                "BpXa17": "Move to Front"
+            },
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "ZskKu1": "무료 체험을 모두 사용하셨어요! 곧 더 제공될 예정이에요. 넉넉한 마음을 나누고 싶다면 Nitro를 언제든지 선물할 수 있어요. [자세히 알아보기]({helpdeskArticle}).",
-                "tSiyfF": "모든 무료 체험을 친구들에게 보냈어요. 친구들이 10일 안에 수락하지 않으면 다시 회원님께 반환될 거예요. [자세히 알아보기]({helpdeskArticle})."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T21:18:25.052224+00:00"
+    "timestamp": "2026-09-01T21:29:17.844401+00:00"
 }
