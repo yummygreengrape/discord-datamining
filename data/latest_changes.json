@@ -1,5 +1,5 @@
 {
-    "build_hash": "22043f6eb9b566031afff3d4c5817d001970d159",
+    "build_hash": "79516b5014cd8b6e38a0b84229a4ace30a57a91c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "DXe2dP": "Conjuring will use this wireframe as a direction, not an exact final design.",
-                "Y6y4nQ": "About this wireframe"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T06:51:58.832154+00:00"
+    "timestamp": "2026-09-01T09:51:37.832127+00:00"
 }
