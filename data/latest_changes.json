@@ -1,5 +1,5 @@
 {
-    "build_hash": "0c94a3c9bdfaaa1a0c1660afb0608a65e457e11a",
+    "build_hash": "a5d5dee9e5882fd901459d8c3114468448c769f5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Wx2B4V": "Based on what you’ve told us or other information we’ve collected, the following information was used to tell you about this Bounty:",
-                "f7iZVO": "Based on contextual signals, the following information was used to tell you about this Bounty:"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T15:02:54.709100+00:00"
+    "timestamp": "2026-09-01T15:34:06.166215+00:00"
 }
