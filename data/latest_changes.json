@@ -1,104 +1,12 @@
 {
-    "build_hash": "ffa8bc3f5274e05dbba72fefce2f35072397eaf8",
+    "build_hash": "ce94432bb450a750d4b7c1192d953e33f79dd00b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-arborium-highlight",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled",
-                "preferNative"
-            ],
-            "old_default_config": {
-                "enabled": false,
-                "preferNative": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true,
-                    "preferNative": false
-                },
-                "2": {
-                    "enabled": true,
-                    "preferNative": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-arborium-highlight",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled",
-                "preferNative"
-            ],
-            "old_default_config": {
-                "enabled": false,
-                "preferNative": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true,
-                    "preferNative": false
-                },
-                "2": {
-                    "enabled": true,
-                    "preferNative": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -114,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T15:55:35.353236+00:00"
+    "timestamp": "2026-09-01T16:06:17.868840+00:00"
 }
