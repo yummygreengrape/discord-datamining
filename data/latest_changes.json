@@ -1,5 +1,5 @@
 {
-    "build_hash": "1d245aab1fed87df3874bc3a5e3641aa7bf66fde",
+    "build_hash": "0c1d7674cc058fc2bb92cc65ae04510510235bf4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,72 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+2AMt1": "Anything new still arrives live.",
-                "+m8XM6": "Preview",
-                "0hOYM3": "{count} New Error(s)",
-                "21ipY1": "Copy debug snapshot",
-                "3IZssz": "{errors} error(s), {warnings} warning(s)",
-                "5XxVIu": "Anything your app prints or throws while it runs shows up here, from the point this project started keeping them.",
-                "8MLfBT": "Debug panel",
-                "8fXBH2": "{label}, {count} New Error(s)",
-                "GO6JcR": "crash",
-                "IZAYJl": "Logs",
-                "J2TPCe": "Browser",
-                "KampIf": "Debug",
-                "MX4vr/": "Search logs",
-                "RNN8pX": "No output yet. Console logs from your app show up here as it runs.",
-                "SA/gJO": "All",
-                "TE0vZe": "Info",
-                "TN3Xlu": "Search Logs",
-                "TV42NS": "Could not load history",
-                "U/qDX9": "Older history is not shown.",
-                "ULGTr+": "No logs yet",
-                "Z/uxIH": "Error",
-                "arPnKK": "{view} Controls",
-                "ehmgbH": "Toggle structured data",
-                "fhnXnM": "Filter logs by environment",
-                "humq1B": "All",
-                "kR95Ct": "Nothing at that level.",
-                "kiOVnt": "Production",
-                "lXkB6Z": "{count} items",
-                "mcFyYc": "No output yet",
-                "oIJbFa": "Nothing matches this filter.",
-                "oqnmJF": "Warning",
-                "pkqbAR": "Chat",
-                "sDSDiO": "Debug snapshot copied",
-                "t5cOGo": "Problems",
-                "vJ/99r": "Filter Logs by Severity",
-                "wkbYxG": "{count} keys",
-                "zpHUo+": "Debug"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "78YNh7": {
-                    "new_value": "Your frame is ready.",
-                    "old_value": "Your preview is ready."
-                },
-                "E0QD++": {
-                    "new_value": "Describe your idea and open its frame first",
-                    "old_value": "Describe your idea and preview it first"
-                },
-                "FHOJiH": {
-                    "new_value": "No frame to show",
-                    "old_value": "Preview unavailable"
-                },
-                "MeLWCr": {
-                    "new_value": "The frame wouldn’t load",
-                    "old_value": "The preview wouldn’t load"
-                },
-                "WWj3pN": {
-                    "new_value": "You need to accept the new permissions to open your project’s frame.",
-                    "old_value": "You need to accept the new permissions to preview your project."
-                },
-                "wcXX8Z": {
-                    "new_value": "Getting your frame ready…",
-                    "old_value": "Getting your preview ready…"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -85,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-08-31T23:57:37.275001+00:00"
+    "timestamp": "2026-09-01T00:18:35.066534+00:00"
 }
