@@ -1,5 +1,5 @@
 {
-    "build_hash": "c1635afbfa92041c64ed2f64e22180521a010bfe",
+    "build_hash": "0920169734d7af18cd628e0c50c27171c34fc73a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,120 +12,18 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "GhK5nf": "Unhide badge {position}, {badgeName}",
-                "RXOPc3": "Unhide Badge",
-                "akCCqu": "{count, number} new",
-                "c4JwHL": "{tabName}, new content",
-                "s9RZ1r": "New item: {label}",
-                "wKJfIg": "{count, plural, one {# new wishlist item} other {# new wishlist items}}",
-                "xSWJPo": "Hide Badge"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "5iALNP": {
-                    "new_value": "Memory limit {limit}: no live gauge; kills are the signal",
-                    "old_value": "Memory limit {limit} — no live gauge; kills are the signal"
-                },
-                "8GAiDk": {
-                    "new_value": "This runtime reported no CPU figures on its tail events, typical in local dev. Deployed workers report real values.",
-                    "old_value": "This runtime reported no CPU figures on its tail events — typical in local dev. Deployed workers report real values."
-                },
-                "8pdPx5": {
-                    "new_value": "Every step the agent takes shows up here while it works, with timings, from the point this project started keeping them.",
-                    "old_value": "Every step the agent takes shows up here while it works, with timings — from the point this project started keeping them."
-                },
-                "AzziHF": {
-                    "new_value": "That one’s too big to bring in; {size} is the most I can take.",
-                    "old_value": "That one’s too big to bring in — {size} is the most I can take."
-                },
-                "F9jaUF": {
-                    "new_value": "Approximate: measured before sending, not counted by the model.",
-                    "old_value": "Approximate — measured before sending, not counted by the model."
-                },
-                "FYN9Rl": {
-                    "new_value": "Paste a public link: a WoW Armory page, a GitHub profile, a Roll20 sheet. Then say what you want on the card.",
-                    "old_value": "Paste a public link — a WoW Armory page, a GitHub profile, a Roll20 sheet — then say what you want on the card."
-                },
-                "LpnmXm": {
-                    "new_value": "Only have some of these? Save what you have; you can add the rest later.",
-                    "old_value": "Only have some of these? Save what you have — you can add the rest later."
-                },
-                "OAjkIT": {
-                    "new_value": "A quick answer: the conjuring continues",
-                    "old_value": "A quick answer — the conjuring continues"
-                },
-                "OBr7WW": {
-                    "new_value": "{name} - no longer available",
-                    "old_value": "{name} — no longer available"
-                },
-                "OZvPXt": {
-                    "new_value": "Withheld: this tool has no disclosure rule yet",
-                    "old_value": "Withheld — this tool has no disclosure rule yet"
-                },
-                "QX2UQC": {
-                    "new_value": "CPU and memory aren’t readable from inside a running instance: the 24-hour rows below carry Cloudflare’s account-side measurements, and a young instance on a busy project is the live churn signal.",
-                    "old_value": "CPU and memory aren’t readable from inside a running instance — the 24-hour rows below carry Cloudflare’s account-side measurements, and a young instance on a busy project is the live churn signal."
-                },
-                "SxMgMJ": {
-                    "new_value": "{title}, {state}. Show what it did.",
-                    "old_value": "{title} — {state}. Show what it did."
-                },
-                "aL1BKQ": {
-                    "new_value": "Answer “{answer}”, recommended",
-                    "old_value": "Answer “{answer}” — recommended"
-                },
-                "cI7t94": {
-                    "new_value": "This one is too big to bring along; {size} is the most I can carry.",
-                    "old_value": "This one is too big to bring along — {size} is the most I can carry."
-                },
-                "gpBZRr": {
-                    "new_value": "Withheld: content",
-                    "old_value": "Withheld — content"
-                },
-                "jK1PL5": {
-                    "new_value": "A tour of everything an app can do inside Discord: sign-in, sharing, menus, live voice and video, saved data.",
-                    "old_value": "A tour of everything an app can do inside Discord — sign-in, sharing, menus, live voice and video, saved data."
-                },
-                "jTuX7C": {
-                    "new_value": "“Any sufficiently advanced technology is indistinguishable from magic.” - Arthur C. Clarke",
-                    "old_value": "“Any sufficiently advanced technology is indistinguishable from magic.” — Arthur C. Clarke"
-                },
-                "jxvtin": {
-                    "new_value": "This needs a few keys from you to work. Add them through the locked form. Never paste them into the chat.",
-                    "old_value": "This needs a few keys from you to work. Add them through the locked form — never paste them into the chat."
-                },
-                "o45MMA": {
-                    "new_value": "{count}+ objects (measurement capped; sizes are a floor)",
-                    "old_value": "{count}+ objects (measurement capped — sizes are a floor)"
-                },
-                "pu8e3p": {
-                    "new_value": "I saved some of the keys; I don’t have the rest yet.",
-                    "old_value": "I saved some of the keys — I don’t have the rest yet."
-                },
-                "u9TapG": {
-                    "new_value": "Packaging {name} up; your download will start shortly.",
-                    "old_value": "Packaging {name} up — your download will start shortly."
-                },
-                "uAzxdh": {
-                    "new_value": "No samples in the window yet; analytics lag live traffic by a few minutes.",
-                    "old_value": "No samples in the window yet — analytics lag live traffic by a few minutes."
-                },
-                "xO6bcQ": {
-                    "new_value": "Withheld: may contain your words or the agent’s",
-                    "old_value": "Withheld — may contain your words or the agent’s"
-                },
-                "xPxvYa": {
-                    "new_value": "Changes to this land after a quick rebuild; saving starts one.",
-                    "old_value": "Changes to this land after a quick rebuild — saving starts one."
-                }
-            }
+            "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "ZskKu1": "무료 체험을 모두 사용하셨어요! 곧 더 제공될 예정이에요. 넉넉한 마음을 나누고 싶다면 Nitro를 언제든지 선물할 수 있어요. [자세히 알아보기]({helpdeskArticle}).",
+                "tSiyfF": "모든 무료 체험을 친구들에게 보냈어요. 친구들이 10일 안에 수락하지 않으면 다시 회원님께 반환될 거예요. [자세히 알아보기]({helpdeskArticle})."
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T20:57:22.638967+00:00"
+    "timestamp": "2026-09-01T21:18:25.052224+00:00"
 }
