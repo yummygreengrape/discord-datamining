@@ -1,5 +1,5 @@
 {
-    "build_hash": "d3f8684cec148ea454038988354c33d9259c6751",
+    "build_hash": "2f8fb47528a4aa046c02e63925c8a464ba098804",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "4/7x+3": "Move to Back",
-                "BpXa17": "Move to Front"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-01T21:29:17.844401+00:00"
+    "timestamp": "2026-09-01T21:40:00.156001+00:00"
 }
