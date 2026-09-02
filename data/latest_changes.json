@@ -1,5 +1,5 @@
 {
-    "build_hash": "47edbbbef419d5d3bc99f632332a27c17ec041e9",
+    "build_hash": "d744098e71f65e654892a74be39491d400cfd6c4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,53 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-stream-zero-vad-leading",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-09-02T22:25:38Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-stream-zero-vad-leading",
-            "kind": "user",
-            "timestamp": "2026-09-02T22:25:38Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -67,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-02T22:26:46.580041+00:00"
+    "timestamp": "2026-09-02T22:37:30.217188+00:00"
 }
