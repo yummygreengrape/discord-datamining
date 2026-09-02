@@ -1,109 +1,8 @@
 {
-    "build_hash": "a0e5ee8fb6eac0a7bba555830d7f18b506e28f59",
+    "build_hash": "7f67b3fd1da3dda61723e822aab579e45ea14231",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "go.v.GRADIENT",
-                "surface": "go.F.NONE"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-02T01:20:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "go.v.GRADIENT",
-                    "surface": "go.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "go.v.EXPRESSIVE",
-                    "surface": "go.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "go.v.GRADIENT",
-                    "surface": "go.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "go.v.GLOWING",
-                    "surface": "go.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "go.v.GLOWING",
-                    "surface": "go.F.NONE"
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "badgeStyle",
-                "surface"
-            ],
-            "default_config": {
-                "badgeStyle": "go.v.GRADIENT",
-                "surface": "go.F.NONE"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-ml-offer-creation-ui-upgrade",
-            "kind": "user",
-            "timestamp": "2026-09-02T01:20:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "badgeStyle": "go.v.GRADIENT",
-                    "surface": "go.F.NONE"
-                },
-                "1": {
-                    "badgeStyle": "go.v.EXPRESSIVE",
-                    "surface": "go.F.POPOVER"
-                },
-                "2": {
-                    "badgeStyle": "go.v.GRADIENT",
-                    "surface": "go.F.POPOVER"
-                },
-                "3": {
-                    "badgeStyle": "go.v.GLOWING",
-                    "surface": "go.F.TOOLTIP"
-                },
-                "4": {
-                    "badgeStyle": "go.v.GLOWING",
-                    "surface": "go.F.NONE"
-                }
-            }
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-consistent-profiles",
-            "kind": "user",
-            "timestamp": "2026-09-01T23:50:37Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -123,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-02T01:34:51.717623+00:00"
+    "timestamp": "2026-09-02T01:55:47.506747+00:00"
 }
