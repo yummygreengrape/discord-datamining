@@ -2,7 +2,7 @@
 
 이 레포지토리는 **Discord**의 클라이언트 및 API의 변경 사항을 자동으로 추적하고 기록하기 위해 만들어졌습니다. 프로그램이 주기적으로 실행되어 실험(Experiments), 내부 문자열(Strings), API 엔드포인트 등의 변화를 감지하고, 변경 이력을 이 레포지토리에 자동으로 커밋 및 푸시합니다.
 
-변경 사항을 더 편하게 확인하려면 https://discord-archive.com/datamining 을 확인하세요.
+변경 사항을 더 편하게 확인하려면 https://dicoarki.com/datamining 을 확인하세요.
 
 공개 데이터의 범위와 개인정보 제외 원칙은
 [`docs/DATA_INVENTORY.md`](docs/DATA_INVENTORY.md), 비공개 러너에서 수행하는 발행 전
