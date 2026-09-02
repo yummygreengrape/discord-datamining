@@ -1,8 +1,21 @@
 {
-    "build_hash": "4163e64543a2b266256e26adf3c229a94b84b9c9",
+    "build_hash": "6f496291c57ec0c46bec2a3f3968b448104268cc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-01-profile-updates-notification",
+            "kind": "user",
+            "timestamp": "2026-09-02T20:13:17Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-02T20:17:29.507522+00:00"
+    "timestamp": "2026-09-02T20:29:20.887708+00:00"
 }
