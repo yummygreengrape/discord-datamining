@@ -1,28 +1,58 @@
 {
-    "build_hash": "6f496291c57ec0c46bec2a3f3968b448104268cc",
+    "build_hash": "797b0878d5a2f1176a5ab61adfbae4a0775943ec",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-01-profile-updates-notification",
-            "kind": "user",
-            "timestamp": "2026-09-02T20:13:17Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-screenshare-picker-wgc",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-screenshare-picker-wgc",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -35,5 +65,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-02T20:29:20.887708+00:00"
+    "timestamp": "2026-09-02T20:40:03.738748+00:00"
 }
