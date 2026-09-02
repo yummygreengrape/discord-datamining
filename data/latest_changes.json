@@ -1,140 +1,22 @@
 {
-    "build_hash": "560c26570fcd88c87d9f537b4b8c62e96d9a2539",
+    "build_hash": "9d69579297e893c4c85c3d11153a034b596fb097",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "premiumSkuToPlan"
-            ],
-            "default_config": {
-                "enabled": false,
-                "premiumSkuToPlan": "r.zE"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-smag-nitro-gifting-lightning-checkout",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-02T18:38:12Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "premiumSkuToPlan": "r.zE"
-                },
-                "2": {
-                    "enabled": true,
-                    "premiumSkuToPlan": "r.En"
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "premiumSkuToPlan"
-            ],
-            "default_config": {
-                "enabled": false,
-                "premiumSkuToPlan": "r.zE"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-smag-nitro-gifting-lightning-checkout",
-            "kind": "user",
-            "timestamp": "2026-09-02T18:38:12Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "premiumSkuToPlan": "r.zE"
-                },
-                "2": {
-                    "enabled": true,
-                    "premiumSkuToPlan": "r.En"
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "premiumSkuToPlan"
-            ],
-            "default_config": {
-                "enabled": false,
-                "premiumSkuToPlan": "r.zE"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-smag-nitro-gifting-lightning-checkout",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-09-02T18:38:12Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "premiumSkuToPlan": "r.zE"
-                },
-                "2": {
-                    "enabled": true,
-                    "premiumSkuToPlan": "r.En"
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "premiumSkuToPlan"
-            ],
-            "default_config": {
-                "enabled": false,
-                "premiumSkuToPlan": "r.zE"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-smag-nitro-gifting-lightning-checkout",
-            "kind": "user",
-            "timestamp": "2026-09-02T18:38:12Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "premiumSkuToPlan": "r.zE"
-                },
-                "2": {
-                    "enabled": true,
-                    "premiumSkuToPlan": "r.En"
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/JJ9I5": "Refer friends, save on Nitro",
+                "UhguER": "Orbs earned",
+                "n7CiSK": "+{count}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -144,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-02T18:40:28.384605+00:00"
+    "timestamp": "2026-09-02T18:51:11.658756+00:00"
 }
