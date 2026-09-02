@@ -1,5 +1,5 @@
 {
-    "build_hash": "1d882dff1838c8d045254fcc01cfc9e5f8cf5746",
+    "build_hash": "c4ba23900f70d7a178720f5cfd9c1cb45ec963c1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,18 +7,7 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_QUESTS_CREATIVES_DISMISS",
-            "status": "added",
-            "url": "/quests/creatives/:param/dismiss"
-        },
-        {
-            "name": "QUESTS_CREATIVES_DISMISS",
-            "status": "added",
-            "url": "/quests/creatives/:param/dismiss"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
@@ -33,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-02T15:29:17.435887+00:00"
+    "timestamp": "2026-09-02T15:50:14.775436+00:00"
 }
