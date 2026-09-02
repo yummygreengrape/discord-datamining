@@ -1,5 +1,5 @@
 {
-    "build_hash": "2ff4292439c68be86b148ac198e8b27dec365230",
+    "build_hash": "b7a8ea3fe13e3a1378d6054cd5c494f03690dabd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,19 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "7Zw7AB": "{giftCount, plural, one {Gift ready for delivery} other {Gifts ready for delivery}}",
+                "Gr02vu": "Send more gifts",
+                "ZolTTE": "Gift Recipients",
+                "ZvgWUV": "If you skip sending {giftCount, plural, one {the gift} other {the gifts}} now, you can always send {giftCount, plural, one {it} other {them}} later from your [Gift Inventory]({onInventoryClick})",
+                "geFoof": "{giftCount, plural, one {You’re so generous! Send this gift to a friend to give them {skuName}. We hope they enjoy!} other {You’re so generous! Send these gifts to friends to give them {skuName}. We hope they enjoy!}}",
+                "owluOg": "Your gifts are on the way!",
+                "p0mYoH": "One or more of your gifts didn’t go through automatically. Send them to friends from your [Gift Inventory]({onInventoryClick}).",
+                "qTXpj/": "Skip",
+                "wTKEyX": "Continue",
+                "wiBqTu": "You’re so generous! {otherCount, plural, =0 {Thanks for sending {recipientName} a gift.} one {Thanks for sending {recipientName} and 1 other a gift.} other {Thanks for sending {recipientName} and # others a gift.}}",
+                "xdDO7f": "Type your friends’ names"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-02T18:19:01.257494+00:00"
+    "timestamp": "2026-09-02T18:29:43.018450+00:00"
 }
