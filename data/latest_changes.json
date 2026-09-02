@@ -1,5 +1,5 @@
 {
-    "build_hash": "591cb304014b3ff4b65961136ffa10ca2e0c248b",
+    "build_hash": "46640f2f967804b0f3ce3e1ed675e4eac8f14760",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Mr9vVW": "Use these stickers and more by subscribing to Nitro."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-02T17:03:48.553427+00:00"
+    "timestamp": "2026-09-02T17:14:34.065390+00:00"
 }
