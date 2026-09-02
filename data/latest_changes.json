@@ -1,5 +1,5 @@
 {
-    "build_hash": "797b0878d5a2f1176a5ab61adfbae4a0775943ec",
+    "build_hash": "2242400ce568212b7a969d15b264203fa2c3aae7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,54 +8,14 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-screenshare-picker-wgc",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-screenshare-picker-wgc",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "7Qs/YX": "Hide any badges you don't want others to see.",
+                "cKIIzk": "Reorder your badges with Nitro"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -65,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-02T20:40:03.738748+00:00"
+    "timestamp": "2026-09-02T20:50:47.665550+00:00"
 }
