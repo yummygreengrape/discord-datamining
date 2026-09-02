@@ -1,5 +1,5 @@
 {
-    "build_hash": "42eac516f858f96721ada7c559538a5b07e8d844",
+    "build_hash": "1d882dff1838c8d045254fcc01cfc9e5f8cf5746",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,54 +7,20 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiment_details": [
+    "new_api_endpoints": [
         {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-profile-link-fetch",
-            "kind": "user",
+            "name": "ENDPOINT_QUESTS_CREATIVES_DISMISS",
             "status": "added",
-            "timestamp": "2026-09-02T14:53:55Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
+            "url": "/quests/creatives/:param/dismiss"
+        },
         {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-profile-link-fetch",
-            "kind": "user",
-            "timestamp": "2026-09-02T14:53:55Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
+            "name": "QUESTS_CREATIVES_DISMISS",
+            "status": "added",
+            "url": "/quests/creatives/:param/dismiss"
         }
     ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -67,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-02T14:58:04.432027+00:00"
+    "timestamp": "2026-09-02T15:29:17.435887+00:00"
 }
