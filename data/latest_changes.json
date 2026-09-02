@@ -1,5 +1,5 @@
 {
-    "build_hash": "2242400ce568212b7a969d15b264203fa2c3aae7",
+    "build_hash": "62dc8a6e8c06eb9bec8155cdbab6c5c2c8f6c7ae",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "7Qs/YX": "Hide any badges you don't want others to see.",
-                "cKIIzk": "Reorder your badges with Nitro"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-02T20:50:47.665550+00:00"
+    "timestamp": "2026-09-02T21:01:31.402362+00:00"
 }
