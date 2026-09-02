@@ -1,30 +1,140 @@
 {
-    "build_hash": "b7a8ea3fe13e3a1378d6054cd5c494f03690dabd",
+    "build_hash": "560c26570fcd88c87d9f537b4b8c62e96d9a2539",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "premiumSkuToPlan"
+            ],
+            "default_config": {
+                "enabled": false,
+                "premiumSkuToPlan": "r.zE"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-smag-nitro-gifting-lightning-checkout",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-02T18:38:12Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "premiumSkuToPlan": "r.zE"
+                },
+                "2": {
+                    "enabled": true,
+                    "premiumSkuToPlan": "r.En"
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "premiumSkuToPlan"
+            ],
+            "default_config": {
+                "enabled": false,
+                "premiumSkuToPlan": "r.zE"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-smag-nitro-gifting-lightning-checkout",
+            "kind": "user",
+            "timestamp": "2026-09-02T18:38:12Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "premiumSkuToPlan": "r.zE"
+                },
+                "2": {
+                    "enabled": true,
+                    "premiumSkuToPlan": "r.En"
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "premiumSkuToPlan"
+            ],
+            "default_config": {
+                "enabled": false,
+                "premiumSkuToPlan": "r.zE"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-smag-nitro-gifting-lightning-checkout",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-02T18:38:12Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "premiumSkuToPlan": "r.zE"
+                },
+                "2": {
+                    "enabled": true,
+                    "premiumSkuToPlan": "r.En"
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "premiumSkuToPlan"
+            ],
+            "default_config": {
+                "enabled": false,
+                "premiumSkuToPlan": "r.zE"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-smag-nitro-gifting-lightning-checkout",
+            "kind": "user",
+            "timestamp": "2026-09-02T18:38:12Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "premiumSkuToPlan": "r.zE"
+                },
+                "2": {
+                    "enabled": true,
+                    "premiumSkuToPlan": "r.En"
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {
-                "7Zw7AB": "{giftCount, plural, one {Gift ready for delivery} other {Gifts ready for delivery}}",
-                "Gr02vu": "Send more gifts",
-                "ZolTTE": "Gift Recipients",
-                "ZvgWUV": "If you skip sending {giftCount, plural, one {the gift} other {the gifts}} now, you can always send {giftCount, plural, one {it} other {them}} later from your [Gift Inventory]({onInventoryClick})",
-                "geFoof": "{giftCount, plural, one {You’re so generous! Send this gift to a friend to give them {skuName}. We hope they enjoy!} other {You’re so generous! Send these gifts to friends to give them {skuName}. We hope they enjoy!}}",
-                "owluOg": "Your gifts are on the way!",
-                "p0mYoH": "One or more of your gifts didn’t go through automatically. Send them to friends from your [Gift Inventory]({onInventoryClick}).",
-                "qTXpj/": "Skip",
-                "wTKEyX": "Continue",
-                "wiBqTu": "You’re so generous! {otherCount, plural, =0 {Thanks for sending {recipientName} a gift.} one {Thanks for sending {recipientName} and 1 other a gift.} other {Thanks for sending {recipientName} and # others a gift.}}",
-                "xdDO7f": "Type your friends’ names"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -34,5 +144,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-02T18:29:43.018450+00:00"
+    "timestamp": "2026-09-02T18:40:28.384605+00:00"
 }
