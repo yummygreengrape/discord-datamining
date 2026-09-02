@@ -1,5 +1,5 @@
 {
-    "build_hash": "9d69579297e893c4c85c3d11153a034b596fb097",
+    "build_hash": "cc56c0f917557f8f162ee868554e92af0b973a14",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,24 +7,77 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_AGE_VERIFICATION_GOOGLE_WALLET_SUSPENDED_REQUEST",
+            "status": "added",
+            "url": "/age-verification/google-wallet/suspended/request"
+        },
+        {
+            "name": "ENDPOINT_AGE_VERIFICATION_GOOGLE_WALLET_SUSPENDED_VERIFY",
+            "status": "added",
+            "url": "/age-verification/google-wallet/suspended/verify"
+        },
+        {
+            "name": "ENDPOINT_SAFETY_HUB_SUSPENDED_CHECK_VERIFICATION_V2",
+            "status": "added",
+            "url": "/safety-hub/suspended/check-verification/v2"
+        },
+        {
+            "name": "GOOGLE_WALLET_REQUEST_SUSPENDED_USER",
+            "status": "added",
+            "url": "/age-verification/google-wallet/suspended/request"
+        },
+        {
+            "name": "GOOGLE_WALLET_VERIFY_SUSPENDED_USER",
+            "status": "added",
+            "url": "/age-verification/google-wallet/suspended/verify"
+        },
+        {
+            "name": "SAFETY_HUB_CHECK_SUSPENDED_AGE_VERIFICATION_V2",
+            "status": "added",
+            "url": "/safety-hub/suspended/check-verification/v2"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {
-                "/JJ9I5": "Refer friends, save on Nitro",
-                "UhguER": "Orbs earned",
-                "n7CiSK": "+{count}"
+                "2Qe65J": "You’re all set. We have determined you meet the minimum age requirement in your region.",
+                "2jvQ6K": "Log In",
+                "GBjQwf": "Quest completion can take up to [36 hours to confirm]({onLearnMore}).",
+                "IcA9iD": "Retry",
+                "Ie7p1Q": "We have determined you meet the minimum age requirement in your region. Your minimum age violation has been resolved, but other violations on your account are still affecting your ability to log in.",
+                "NkTGsC": "Request Manual Review",
+                "PU8nMu": "We're working to determine your age group.",
+                "VTgFYh": "We have determined you do not meet the minimum age requirement in your region. If this isn’t correct, you can request a manual review.",
+                "VaiGaz": "You must enable third-party data sharing in {gameTitle} for Discord to track your progress.",
+                "dqbMbn": "We have determined you do not meet the minimum age requirement in your region. If this isn’t correct, you can retry confirming your age."
             },
-            "deleted": {},
-            "modified": {}
+            "deleted": {
+                "+pgFbW": "Hang tight!",
+                "Uk4lV5": "Quest completion can take up to 36 hours to confirm. [Learn more]({onLearnMore}) about how this works."
+            },
+            "modified": {
+                "0SLl/G": {
+                    "new_value": "Connect your Discord account in [{gameTitle}]({onGameTitleClick}). {objective} to win **{questReward}**.",
+                    "old_value": "Connect your Discord account and {objective} in [{gameTitle}]({onGameTitleClick}) to win **{questReward}**."
+                },
+                "BlfaHK": {
+                    "new_value": "Connect your Discord account in {gameTitle}. {objective} to win **{questReward}**.",
+                    "old_value": "Connect your Discord account and {objective} in {gameTitle} to win **{questReward}**."
+                }
+            }
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "+pgFbW": "잠깐만요!",
+                "Uk4lV5": "퀘스트 완료가 확인되기까지 최대 36시간이 걸릴 수 있습니다. 작동 방식에 대해 [자세히 알아보세요]({onLearnMore})."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-02T18:51:11.658756+00:00"
+    "timestamp": "2026-09-02T19:01:53.434203+00:00"
 }
