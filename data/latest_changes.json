@@ -1,5 +1,5 @@
 {
-    "build_hash": "ff6aecaf3d35f4b8c36205e63b1f58f5a73c522e",
+    "build_hash": "1991a242d1e648532d20f595e7bed073684c3f5d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,130 +8,11 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2025-12-orb-redemption-thru-orders",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled",
-                "forceEligible"
-            ],
-            "default_config": {
-                "enabled": false,
-                "forceEligible": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-orbchievements",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "forceEligible": false
-                },
-                "2": {
-                    "enabled": true,
-                    "forceEligible": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2025-12-orb-redemption-thru-orders",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled",
-                "forceEligible"
-            ],
-            "default_config": {
-                "enabled": false,
-                "forceEligible": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-orbchievements",
-            "kind": "user",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "forceEligible": false
-                },
-                "2": {
-                    "enabled": true,
-                    "forceEligible": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+kdkTi": "Orbs in {days} days",
-                "04j3XV": "{orbAmount} Orbs in {days} days",
-                "8xDISf": "{balance} Orbs",
-                "B8Fxns": "Earn orbIconHookHookorbIcon {orbAmount} Orbs",
-                "Ba/7wO": "Nitro members earn {multiplier}x on everything",
-                "FkfrRH": "Nitro Orbs",
-                "H6Ny8N": "Active Challenges",
-                "HACucK": "You have enough Orbs to get something in the Shop!",
-                "OHLdjq": "{multiplier}x",
-                "U9UQJE": "Get Nitro",
-                "WOMrJf": "Unlock {multiplier}x",
-                "WmfVjs": "Claim",
-                "XW2CuY": "Keep earning to unlock your next reward!",
-                "ZqCAos": "Earn Orbs faster",
-                "h2qWpS": "Claim orbIconHookHookorbIcon {orbAmount} Orbs",
-                "k6h2J3": "Challenge completed",
-                "pJz0/A": "Get Nitro to earn more Orbs",
-                "xOP5OP": "You're all caught up"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -141,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-02T21:43:53.892812+00:00"
+    "timestamp": "2026-09-02T21:54:38.242177+00:00"
 }
