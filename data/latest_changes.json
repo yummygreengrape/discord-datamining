@@ -1,20 +1,99 @@
 {
-    "build_hash": "76aa40010d47c832390cb477b5da591be6d45d0c",
+    "build_hash": "5ba605f9947434c0271022904657cb72b857738a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-premium-group-perk-check",
+            "kind": "user",
+            "timestamp": "2026-09-03T19:23:45Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-video-background-profile-fetch",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-03T19:10:38Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-video-background-profile-fetch",
+            "kind": "user",
+            "timestamp": "2026-09-03T19:10:38Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "dXg/Dl": "Badge {position}, {badgeName}, hidden"
+            },
+            "deleted": {
+                "FJB6MV": "Selects this badge to hide from your profile",
+                "j3DsAJ": "{count, plural, one {Hide Badge} other {Hide Badges}}"
+            },
+            "modified": {
+                "Vzc4+8": {
+                    "new_value": "Drag to reorder. Long press to hide.",
+                    "old_value": "Drag to reorder. Tap to hide."
+                },
+                "ZuXSRp": {
+                    "new_value": "Long press to hide any badges you don't want others to see.",
+                    "old_value": "Tap to hide any badges you don't want others to see."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +101,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-03T19:14:29.680937+00:00"
+    "timestamp": "2026-09-03T19:25:33.795034+00:00"
 }
