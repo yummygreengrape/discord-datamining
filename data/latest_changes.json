@@ -1,5 +1,5 @@
 {
-    "build_hash": "21b60b860a7fbb4dc8769fa6ee2d7dbe55751865",
+    "build_hash": "814e83ed31ceb9b998517744c4b3d195aeb7fe13",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,11 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
+            "added": {},
+            "deleted": {
                 "1IPUq9": "Start Bounty",
                 "1uzE2S": "Watch the video to earn Orbs!"
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -25,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-03T20:19:03.483742+00:00"
+    "timestamp": "2026-09-03T20:30:10.335905+00:00"
 }
