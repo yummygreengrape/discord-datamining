@@ -1,5 +1,5 @@
 {
-    "build_hash": "0dd5cdbbb518009667f7e6956fd40377765cce34",
+    "build_hash": "7e8013f0231462e3cb0e7811f1090f3a900bce70",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enableAutomontage"
+            ],
+            "default_config": {
+                "enableAutomontage": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-automontage",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-03T12:50:47Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableAutomontage": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enableAutomontage"
+            ],
+            "default_config": {
+                "enableAutomontage": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-automontage",
+            "kind": "user",
+            "timestamp": "2026-09-03T12:50:47Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableAutomontage": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-03T11:20:57.507388+00:00"
+    "timestamp": "2026-09-03T12:53:42.888323+00:00"
 }
