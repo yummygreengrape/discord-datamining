@@ -1,99 +1,24 @@
 {
-    "build_hash": "5ba605f9947434c0271022904657cb72b857738a",
+    "build_hash": "138b6191e0333cce40d40feaa312311b91ad0670",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-premium-group-perk-check",
-            "kind": "user",
-            "timestamp": "2026-09-03T19:23:45Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-video-background-profile-fetch",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-09-03T19:10:38Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-video-background-profile-fetch",
-            "kind": "user",
-            "timestamp": "2026-09-03T19:10:38Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {
-                "dXg/Dl": "Badge {position}, {badgeName}, hidden"
+                "Jx33+I": "Try another method",
+                "MN6I4Y": "Confirming your age group…",
+                "tBwanH": "We couldn't confirm your age group with the App Store. Please try another method."
             },
-            "deleted": {
-                "FJB6MV": "Selects this badge to hide from your profile",
-                "j3DsAJ": "{count, plural, one {Hide Badge} other {Hide Badges}}"
-            },
-            "modified": {
-                "Vzc4+8": {
-                    "new_value": "Drag to reorder. Long press to hide.",
-                    "old_value": "Drag to reorder. Tap to hide."
-                },
-                "ZuXSRp": {
-                    "new_value": "Long press to hide any badges you don't want others to see.",
-                    "old_value": "Tap to hide any badges you don't want others to see."
-                }
-            }
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -101,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-03T19:25:33.795034+00:00"
+    "timestamp": "2026-09-03T19:36:18.135992+00:00"
 }
