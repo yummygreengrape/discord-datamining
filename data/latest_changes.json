@@ -1,8 +1,89 @@
 {
-    "build_hash": "463aa1fb4ce19c89e7a113bf5605d75111ff45cb",
+    "build_hash": "b67915e2e14b6d976d9b213d8d9923c3b5c8a4f5",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "variant"
+            ],
+            "default_config": {
+                "enabled": false,
+                "variant": 0
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-bounties-ctr-experiment-1",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-03T16:28:50Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "variant": 0
+                },
+                "1": {
+                    "enabled": true,
+                    "variant": 1
+                },
+                "2": {
+                    "enabled": true,
+                    "variant": 2
+                },
+                "3": {
+                    "enabled": true,
+                    "variant": 3
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "variant"
+            ],
+            "default_config": {
+                "enabled": false,
+                "variant": 0
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-bounties-ctr-experiment-1",
+            "kind": "user",
+            "timestamp": "2026-09-03T16:28:50Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "variant": 0
+                },
+                "1": {
+                    "enabled": true,
+                    "variant": 1
+                },
+                "2": {
+                    "enabled": true,
+                    "variant": 2
+                },
+                "3": {
+                    "enabled": true,
+                    "variant": 3
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -22,5 +103,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-03T16:23:15.006596+00:00"
+    "timestamp": "2026-09-03T16:33:57.766792+00:00"
 }
