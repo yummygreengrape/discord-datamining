@@ -1,5 +1,5 @@
 {
-    "build_hash": "977c75bede27bf4f3356b32daa9c171edfd5aa70",
+    "build_hash": "20d45101f3fa4c9b448496587146c3302ebaf1e7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,34 +9,12 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-frontier-tuning",
-            "kind": "guild",
-            "timestamp": "2026-09-03T19:49:02Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "1IPUq9": "Start Bounty",
-                "1uzE2S": "Watch the video to earn Orbs!"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "hmBVph": {
-                    "new_value": "See All",
-                    "old_value": "Show all"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -44,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-03T20:41:41.044870+00:00"
+    "timestamp": "2026-09-03T20:52:24.551705+00:00"
 }
