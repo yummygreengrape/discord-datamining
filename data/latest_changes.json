@@ -1,5 +1,5 @@
 {
-    "build_hash": "138b6191e0333cce40d40feaa312311b91ad0670",
+    "build_hash": "0a945ccfa1fa0ecbcd99601012fcbd669791499e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Jx33+I": "Try another method",
-                "MN6I4Y": "Confirming your age group…",
-                "tBwanH": "We couldn't confirm your age group with the App Store. Please try another method."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-03T19:36:18.135992+00:00"
+    "timestamp": "2026-09-03T19:47:00.503908+00:00"
 }
