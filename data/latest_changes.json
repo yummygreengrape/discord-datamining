@@ -1,5 +1,5 @@
 {
-    "build_hash": "35f67ac2a7d1ccc09c5af9d4ef5be8e97ec8d236",
+    "build_hash": "c9e53c4099c692c58f17f679af7cd17937d0fd29",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -11,27 +11,41 @@
     "new_experiment_details": [
         {
             "config_keys": [
-                "enableNoFill"
+                "enabled",
+                "variant"
             ],
             "default_config": {
-                "enableNoFill": false
+                "enabled": false,
+                "variant": 0
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-08-no-fill-logging",
+            "id": "2026-08-bounties-ctr-experiment-1",
             "kind": "user",
             "status": "added",
-            "timestamp": "2026-09-03T17:12:18Z",
+            "timestamp": "2026-09-03T17:25:27Z",
             "treatments": [
+                "Variant 0",
                 "Variant 1",
-                "Variant 2"
+                "Variant 2",
+                "Variant 3"
             ],
             "variations": {
+                "0": {
+                    "enabled": false,
+                    "variant": 0
+                },
                 "1": {
-                    "enableNoFill": false
+                    "enabled": true,
+                    "variant": 1
                 },
                 "2": {
-                    "enableNoFill": true
+                    "enabled": true,
+                    "variant": 2
+                },
+                "3": {
+                    "enabled": true,
+                    "variant": 3
                 }
             }
         }
@@ -39,26 +53,40 @@
     "new_experiments": [
         {
             "config_keys": [
-                "enableNoFill"
+                "enabled",
+                "variant"
             ],
             "default_config": {
-                "enableNoFill": false
+                "enabled": false,
+                "variant": 0
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-08-no-fill-logging",
+            "id": "2026-08-bounties-ctr-experiment-1",
             "kind": "user",
-            "timestamp": "2026-09-03T17:12:18Z",
+            "timestamp": "2026-09-03T17:25:27Z",
             "treatments": [
+                "Variant 0",
                 "Variant 1",
-                "Variant 2"
+                "Variant 2",
+                "Variant 3"
             ],
             "variations": {
+                "0": {
+                    "enabled": false,
+                    "variant": 0
+                },
                 "1": {
-                    "enableNoFill": false
+                    "enabled": true,
+                    "variant": 1
                 },
                 "2": {
-                    "enableNoFill": true
+                    "enabled": true,
+                    "variant": 2
+                },
+                "3": {
+                    "enabled": true,
+                    "variant": 3
                 }
             }
         }
@@ -75,5 +103,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-03T17:16:50.443138+00:00"
+    "timestamp": "2026-09-03T17:27:32.283808+00:00"
 }
