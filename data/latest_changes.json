@@ -1,209 +1,18 @@
 {
-    "build_hash": "929f66419b90ed463637a920930ccf0c4c823947",
+    "build_hash": "49e63565b9c7b9ae19b949fa604e028346c97987",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "noiseCancellationConfig",
-                "noiseCancellationDuringProcessing",
-                "vadKrispActivationThreshold"
-            ],
-            "default_config": {
-                "noiseCancellationConfig": {
-                    "useAGC2": false
-                },
-                "noiseCancellationDuringProcessing": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-09-agc2-v2",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-03T22:00:26Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5",
-                "Variant 6"
-            ],
-            "variations": {
-                "1": {
-                    "noiseCancellationConfig": {
-                        "useAGC2": false
-                    },
-                    "noiseCancellationDuringProcessing": true
-                },
-                "2": {
-                    "noiseCancellationDuringProcessing": true,
-                    "vadKrispActivationThreshold": 0.5
-                },
-                "3": {
-                    "noiseCancellationDuringProcessing": true,
-                    "vadKrispActivationThreshold": 0.7
-                },
-                "4": {
-                    "noiseCancellationDuringProcessing": true,
-                    "vadKrispActivationThreshold": 0.8
-                },
-                "5": {
-                    "noiseCancellationDuringProcessing": true,
-                    "vadKrispActivationThreshold": 0.9
-                },
-                "6": {
-                    "noiseCancellationDuringProcessing": true,
-                    "vadKrispActivationThreshold": 0.95
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "noiseCancellationConfig",
-                "noiseCancellationDuringProcessing",
-                "vadKrispActivationThreshold"
-            ],
-            "default_config": {
-                "noiseCancellationConfig": {
-                    "useAGC2": false
-                },
-                "noiseCancellationDuringProcessing": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-09-agc2-v2",
-            "kind": "user",
-            "timestamp": "2026-09-03T22:00:26Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5",
-                "Variant 6"
-            ],
-            "variations": {
-                "1": {
-                    "noiseCancellationConfig": {
-                        "useAGC2": false
-                    },
-                    "noiseCancellationDuringProcessing": true
-                },
-                "2": {
-                    "noiseCancellationDuringProcessing": true,
-                    "vadKrispActivationThreshold": 0.5
-                },
-                "3": {
-                    "noiseCancellationDuringProcessing": true,
-                    "vadKrispActivationThreshold": 0.7
-                },
-                "4": {
-                    "noiseCancellationDuringProcessing": true,
-                    "vadKrispActivationThreshold": 0.8
-                },
-                "5": {
-                    "noiseCancellationDuringProcessing": true,
-                    "vadKrispActivationThreshold": 0.9
-                },
-                "6": {
-                    "noiseCancellationDuringProcessing": true,
-                    "vadKrispActivationThreshold": 0.95
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "probeAudioEffects"
-            ],
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-audio-effects-probe",
-            "kind": "user",
-            "old_config_keys": [
-                "probeAudioEffects"
-            ],
-            "old_default_config": {
-                "probeAudioEffects": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "probeAudioEffects"
-            ],
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-audio-effects-probe",
-            "kind": "user",
-            "old_config_keys": [
-                "probeAudioEffects"
-            ],
-            "old_default_config": {
-                "probeAudioEffects": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "2KIDX+": "This app is open in another window.",
-                "3Zypbv": "Pop out app",
-                "E94mJf": "This channel doesn’t have an app yet. Configure one in the channel’s settings.",
-                "NKV/MO": "Pop in app",
-                "Sd9D/R": "Something went wrong. Try again.",
-                "VquUff": "Couldn’t load this app",
-                "iJA/TE": "Favorited",
-                "izggZO": "Could not find application. Consider reloading or selecting a new application in the channel’s settings",
-                "tU5fiM": "No app configured"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -213,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-03T22:08:56.253098+00:00"
+    "timestamp": "2026-09-03T22:50:17.220921+00:00"
 }
