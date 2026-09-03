@@ -1,5 +1,5 @@
 {
-    "build_hash": "c9e53c4099c692c58f17f679af7cd17937d0fd29",
+    "build_hash": "f3a68802057889233e8c1c673d48c8d54265c1d1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -11,41 +11,49 @@
     "new_experiment_details": [
         {
             "config_keys": [
-                "enabled",
-                "variant"
+                "enabled"
             ],
             "default_config": {
-                "enabled": false,
-                "variant": 0
+                "enabled": false
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-08-bounties-ctr-experiment-1",
+            "id": "2026-09-nitro-file-upload-rollout",
             "kind": "user",
             "status": "added",
-            "timestamp": "2026-09-03T17:25:27Z",
+            "timestamp": "2026-09-03T17:30:31Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-non-nitro-file-upload-marketing",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-03T17:30:31Z",
             "treatments": [
                 "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
+                "Variant 1"
             ],
             "variations": {
                 "0": {
-                    "enabled": false,
-                    "variant": 0
+                    "enabled": false
                 },
                 "1": {
-                    "enabled": true,
-                    "variant": 1
-                },
-                "2": {
-                    "enabled": true,
-                    "variant": 2
-                },
-                "3": {
-                    "enabled": true,
-                    "variant": 3
+                    "enabled": true
                 }
             }
         }
@@ -53,40 +61,47 @@
     "new_experiments": [
         {
             "config_keys": [
-                "enabled",
-                "variant"
+                "enabled"
             ],
             "default_config": {
-                "enabled": false,
-                "variant": 0
+                "enabled": false
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-08-bounties-ctr-experiment-1",
+            "id": "2026-09-nitro-file-upload-rollout",
             "kind": "user",
-            "timestamp": "2026-09-03T17:25:27Z",
+            "timestamp": "2026-09-03T17:30:31Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-non-nitro-file-upload-marketing",
+            "kind": "user",
+            "timestamp": "2026-09-03T17:30:31Z",
             "treatments": [
                 "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
+                "Variant 1"
             ],
             "variations": {
                 "0": {
-                    "enabled": false,
-                    "variant": 0
+                    "enabled": false
                 },
                 "1": {
-                    "enabled": true,
-                    "variant": 1
-                },
-                "2": {
-                    "enabled": true,
-                    "variant": 2
-                },
-                "3": {
-                    "enabled": true,
-                    "variant": 3
+                    "enabled": true
                 }
             }
         }
@@ -103,5 +118,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-03T17:27:32.283808+00:00"
+    "timestamp": "2026-09-03T17:38:15.030400+00:00"
 }
