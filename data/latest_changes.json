@@ -1,5 +1,5 @@
 {
-    "build_hash": "883c357ef4bfc43f4bffee10bc6e67b1b15001f5",
+    "build_hash": "35f67ac2a7d1ccc09c5af9d4ef5be8e97ec8d236",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,61 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enableNoFill"
+            ],
+            "default_config": {
+                "enableNoFill": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-no-fill-logging",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-03T17:12:18Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enableNoFill": false
+                },
+                "2": {
+                    "enableNoFill": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enableNoFill"
+            ],
+            "default_config": {
+                "enableNoFill": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-no-fill-logging",
+            "kind": "user",
+            "timestamp": "2026-09-03T17:12:18Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enableNoFill": false
+                },
+                "2": {
+                    "enableNoFill": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -22,5 +75,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-03T17:06:04.223833+00:00"
+    "timestamp": "2026-09-03T17:16:50.443138+00:00"
 }
