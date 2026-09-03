@@ -1,5 +1,5 @@
 {
-    "build_hash": "f3a68802057889233e8c1c673d48c8d54265c1d1",
+    "build_hash": "0e2a30692cd76288ffc0b10c902a9f181065ca98",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,104 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-nitro-file-upload-rollout",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-09-03T17:30:31Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-non-nitro-file-upload-marketing",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-09-03T17:30:31Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-nitro-file-upload-rollout",
-            "kind": "user",
-            "timestamp": "2026-09-03T17:30:31Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-non-nitro-file-upload-marketing",
-            "kind": "user",
-            "timestamp": "2026-09-03T17:30:31Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -118,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-03T17:38:15.030400+00:00"
+    "timestamp": "2026-09-03T17:48:57.881609+00:00"
 }
