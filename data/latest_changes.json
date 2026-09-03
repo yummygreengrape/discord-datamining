@@ -1,5 +1,5 @@
 {
-    "build_hash": "a704ea82a5abda06eb9c603896fc1d301b05c4e8",
+    "build_hash": "c83902f0e983e1387aff6fed0cc9d2d7c2d6fbf0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,24 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-connected-thread-sidebar",
-            "kind": "user",
-            "timestamp": "2026-09-03T03:33:16Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "pBMSie": "Edit age group"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "DVywUB": {
+                    "new_value": "Confirm Age",
+                    "old_value": "Confirm"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -34,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-03T03:40:30.395540+00:00"
+    "timestamp": "2026-09-03T11:10:12.060878+00:00"
 }
