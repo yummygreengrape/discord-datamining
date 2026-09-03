@@ -1,5 +1,5 @@
 {
-    "build_hash": "db516d6312ba3dcbe441c7daf0541b0568cf646b",
+    "build_hash": "171499c38dd15d055a1acc16b6ef812129bedd80",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,23 +12,9 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "dXg/Dl": "Badge {position}, {badgeName}, hidden"
-            },
-            "deleted": {
-                "FJB6MV": "Selects this badge to hide from your profile",
-                "j3DsAJ": "{count, plural, one {Hide Badge} other {Hide Badges}}"
-            },
-            "modified": {
-                "Vzc4+8": {
-                    "new_value": "Drag to reorder. Long press to hide.",
-                    "old_value": "Drag to reorder. Tap to hide."
-                },
-                "ZuXSRp": {
-                    "new_value": "Long press to hide any badges you don't want others to see.",
-                    "old_value": "Tap to hide any badges you don't want others to see."
-                }
-            }
+            "added": {},
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -36,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-03T18:10:19.155235+00:00"
+    "timestamp": "2026-09-03T18:21:01.539935+00:00"
 }
