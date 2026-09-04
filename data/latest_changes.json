@@ -1,8 +1,53 @@
 {
-    "build_hash": "2cb4e6b3e29ee6041d79183358857aef54e7ee9a",
+    "build_hash": "2041db7fd245ec32a68093c7a1b13e120e8959c0",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-create-gdm-title",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-04T00:04:35Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-create-gdm-title",
+            "kind": "user",
+            "timestamp": "2026-09-04T00:04:35Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -14,7 +59,16 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "67PpcP": {
+                    "new_value": "Add a thought while it works",
+                    "old_value": "Add a thought while it works…"
+                },
+                "Jj8Ftb": {
+                    "new_value": "Build it",
+                    "old_value": "Go for it"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +76,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-03T23:54:04.614275+00:00"
+    "timestamp": "2026-09-04T00:04:47.854613+00:00"
 }
