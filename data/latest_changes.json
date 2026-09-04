@@ -1,5 +1,5 @@
 {
-    "build_hash": "fe9ef5ec2b3a048d7eed8586984d65c71c7e6f2e",
+    "build_hash": "4e37cd79dea13dfcdbae0cd9fb49609cf3b7ff5a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,11 +9,42 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-collectibles-navigation-menu",
+            "kind": "user",
+            "timestamp": "2026-09-04T18:26:08Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "+w36yH": "Browse Menu",
+                "7yaXr8": "Snag a free decoration",
+                "PEtHiE": "More Pages Menu",
+                "QojGXK": "With a gift purchase",
+                "XeLTZl": "Your reward is ready",
+                "bf9uMH": "Game Shops Menu"
+            },
+            "deleted": {
+                "CLIPS_CONNECTIVITY_ALL": "All",
+                "CLIPS_CONNECTIVITY_FRIENDS": "Friends",
+                "CLIPS_SETTINGS_ALLOW_VIEWER_CLIPS": "Allow viewers to capture clips",
+                "CLIPS_SETTINGS_ALLOW_VIEWER_CLIPS_HELP": "Enable the creation of clips from your Go Live stream",
+                "CLIPS_SETTINGS_VIEWERSIDE_CLIPS_TOGGLE": "Allow viewers to capture clips",
+                "CLIPS_SETTINGS_VIEWERSIDE_CLIPS_TOGGLE_DESCRIPTION": "If this is on, viewers can take clips of your stream.",
+                "CLIPS_SETTINGS_WHO_CAN_CAPTURE": "Who can capture clips",
+                "CLIPS_SETTINGS_WHO_CAN_CAPTURE_HELP": "Choose what layer of connectivity you need viewers to have in order to capture clips",
+                "CLIPS_VIEWERSIDE_BUTTON_DISABLED_TOOLTIP": "Clips are disabled for this stream.",
+                "CLIPS_VIEWERSIDE_BUTTON_ENABLE_CLIPS_TOOLTIP": "Enable clips to capture this stream.",
+                "CLIPS_VIEWERSIDE_BUTTON_FOCUS_TOOLTIP": "Focus on a stream to capture clips."
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +53,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-04T18:46:13.365603+00:00"
+    "timestamp": "2026-09-04T18:57:19.588500+00:00"
 }
