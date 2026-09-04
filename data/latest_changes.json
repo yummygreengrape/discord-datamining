@@ -1,243 +1,26 @@
 {
-    "build_hash": "dd9496f5191186bed4d5c0f30e1e3b58644c8bff",
+    "build_hash": "fe9ef5ec2b3a048d7eed8586984d65c71c7e6f2e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "probeAudioEffects"
-            ],
-            "default_config": {
-                "probeAudioEffects": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-audio-effects-probe",
-            "kind": "user",
-            "old_config_keys": [
-                "probeAudioEffects"
-            ],
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enableClipsV3ML"
-            ],
-            "default_config": {
-                "enableClipsV3ML": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-04-clips-v3-runtime",
-            "kind": "user",
-            "old_config_keys": [
-                "enableClipsV3",
-                "enableClipsV3ML"
-            ],
-            "old_default_config": {
-                "enableClipsV3": false,
-                "enableClipsV3ML": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "old_variations": {
-                "1": {
-                    "enableClipsV3": true,
-                    "enableClipsV3ML": false
-                },
-                "2": {
-                    "enableClipsV3": true,
-                    "enableClipsV3ML": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enableClipsV3ML": false
-                },
-                "2": {
-                    "enableClipsV3ML": true
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "probeAudioEffects"
-            ],
-            "default_config": {
-                "probeAudioEffects": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-audio-effects-probe",
-            "kind": "user",
-            "old_config_keys": [
-                "probeAudioEffects"
-            ],
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enableClipsV3ML"
-            ],
-            "default_config": {
-                "enableClipsV3ML": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-04-clips-v3-runtime",
-            "kind": "user",
-            "old_config_keys": [
-                "enableClipsV3",
-                "enableClipsV3ML"
-            ],
-            "old_default_config": {
-                "enableClipsV3": false,
-                "enableClipsV3ML": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "old_variations": {
-                "1": {
-                    "enableClipsV3": true,
-                    "enableClipsV3ML": false
-                },
-                "2": {
-                    "enableClipsV3": true,
-                    "enableClipsV3ML": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enableClipsV3ML": false
-                },
-                "2": {
-                    "enableClipsV3ML": true
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-collectibles-navigation-menu",
-            "kind": "user",
-            "timestamp": "2026-09-04T18:26:08Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+w36yH": "Browse Menu",
-                "PEtHiE": "More Pages Menu",
-                "bf9uMH": "Game Shops Menu"
-            },
-            "deleted": {
-                "0vjy8N": "If this is on, viewers can take clips of your stream.",
-                "5/zsn8": "All",
-                "CLIPS_CONNECTIVITY_ALL": "All",
-                "CLIPS_CONNECTIVITY_FRIENDS": "Friends",
-                "CLIPS_SETTINGS_ALLOW_VIEWER_CLIPS": "Allow viewers to capture clips",
-                "CLIPS_SETTINGS_ALLOW_VIEWER_CLIPS_HELP": "Enable the creation of clips from your Go Live stream",
-                "CLIPS_SETTINGS_VIEWERSIDE_CLIPS_TOGGLE": "Allow viewers to capture clips",
-                "CLIPS_SETTINGS_VIEWERSIDE_CLIPS_TOGGLE_DESCRIPTION": "If this is on, viewers can take clips of your stream.",
-                "CLIPS_SETTINGS_WHO_CAN_CAPTURE": "Who can capture clips",
-                "CLIPS_SETTINGS_WHO_CAN_CAPTURE_HELP": "Choose what layer of connectivity you need viewers to have in order to capture clips",
-                "CLIPS_VIEWERSIDE_BUTTON_DISABLED_TOOLTIP": "Clips are disabled for this stream.",
-                "CLIPS_VIEWERSIDE_BUTTON_ENABLE_CLIPS_TOOLTIP": "Enable clips to capture this stream.",
-                "CLIPS_VIEWERSIDE_BUTTON_FOCUS_TOOLTIP": "Focus on a stream to capture clips.",
-                "FsbKOz": "Friends",
-                "KxkQAW": "Enable the creation of clips from your Go Live stream",
-                "NWw7kY": "Allow viewers to capture clips",
-                "Z45WsV": "Who can capture clips",
-                "aRifJX": "Clips are disabled for this stream.",
-                "eg5qtV": "Focus on a stream to capture clips.",
-                "kScUbP": "Allow viewers to capture clips",
-                "wSS1yN": "Enable clips to capture this stream."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "0vjy8N": "이 기능을 켜면 시청자가 방송을 캡처할 수 있어요.",
-                "5/zsn8": "모두",
-                "FsbKOz": "친구",
-                "KxkQAW": "Go Live 방송에서 클립을 생성할 수 있게 허용해요",
-                "NWw7kY": "시청자가 클립을 캡처할 수 있게 허용하기",
-                "Z45WsV": "클립을 캡처할 수 있는 사람",
-                "aRifJX": "이 방송은 클립이 비활성화되어 있어요.",
-                "eg5qtV": "클립하려면 방송에 포커스를 맞춰보세요.",
-                "kScUbP": "시청자가 클립을 캡처할 수 있게 허용하기",
-                "wSS1yN": "클립을 활성화해 이 방송을 캡처하세요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-04T18:34:35.736517+00:00"
+    "timestamp": "2026-09-04T18:46:13.365603+00:00"
 }
