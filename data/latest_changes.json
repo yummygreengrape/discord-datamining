@@ -1,5 +1,5 @@
 {
-    "build_hash": "ad7007dc6c586d158b4eb4e979b5114cd64930ca",
+    "build_hash": "5f085989f17651eedea63f1b1f279c7cccafd43e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "CXlsRP": {
+                    "new_value": "Finish all Bounties for +{orbAmount, number} Orbs to unlock",
+                    "old_value": "Finish all bounties for +{orbAmount, number} Orbs to unlock"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-04T21:25:45.175932+00:00"
+    "timestamp": "2026-09-04T21:36:26.416807+00:00"
 }
