@@ -1,5 +1,5 @@
 {
-    "build_hash": "30c2bda4951a6c6879cdc4b52344f5b706f43724",
+    "build_hash": "2abbf4d6ed1772119a513ccdc0babb82e36a96f5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,26 +7,30 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_USERS_GIFT_CODE_DELIVERIES",
-            "status": "added",
-            "url": "/users/@me/gift-code-deliveries"
-        },
-        {
-            "name": "USER_GIFT_CODE_DELIVERIES",
-            "status": "added",
-            "url": "/users/@me/gift-code-deliveries"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "7yaXr8": "Snag a free decoration",
+                "QojGXK": "With a gift purchase",
+                "XeLTZl": "Your reward is ready"
+            },
             "deleted": {
                 "8+6MUw": "Fit up to {number} people in this GDM with Nitro Premium. Now in Beta.",
                 "9k2yq6": "Fit up to {number} people in this GDM with Nitro Premium. Now in Beta.",
+                "CLIPS_CONNECTIVITY_ALL": "All",
+                "CLIPS_CONNECTIVITY_FRIENDS": "Friends",
+                "CLIPS_SETTINGS_ALLOW_VIEWER_CLIPS": "Allow viewers to capture clips",
+                "CLIPS_SETTINGS_ALLOW_VIEWER_CLIPS_HELP": "Enable the creation of clips from your Go Live stream",
+                "CLIPS_SETTINGS_VIEWERSIDE_CLIPS_TOGGLE": "Allow viewers to capture clips",
+                "CLIPS_SETTINGS_VIEWERSIDE_CLIPS_TOGGLE_DESCRIPTION": "If this is on, viewers can take clips of your stream.",
+                "CLIPS_SETTINGS_WHO_CAN_CAPTURE": "Who can capture clips",
+                "CLIPS_SETTINGS_WHO_CAN_CAPTURE_HELP": "Choose what layer of connectivity you need viewers to have in order to capture clips",
+                "CLIPS_VIEWERSIDE_BUTTON_DISABLED_TOOLTIP": "Clips are disabled for this stream.",
+                "CLIPS_VIEWERSIDE_BUTTON_ENABLE_CLIPS_TOOLTIP": "Enable clips to capture this stream.",
+                "CLIPS_VIEWERSIDE_BUTTON_FOCUS_TOOLTIP": "Focus on a stream to capture clips.",
                 "ePNvSP": "Fit up to {number} people in this GDM with Nitro Premium.",
                 "iZDK8I": "Fit up to {number} people in this GDM with Nitro Premium."
             },
@@ -38,5 +42,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-04T19:28:55.729245+00:00"
+    "timestamp": "2026-09-04T19:39:47.399323+00:00"
 }
