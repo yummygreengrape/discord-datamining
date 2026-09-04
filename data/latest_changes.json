@@ -1,53 +1,8 @@
 {
-    "build_hash": "2041db7fd245ec32a68093c7a1b13e120e8959c0",
+    "build_hash": "2d25ff84cf7f8eec4f0f6cea6959d95461932afd",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-create-gdm-title",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-04T00:04:35Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-create-gdm-title",
-            "kind": "user",
-            "timestamp": "2026-09-04T00:04:35Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -59,16 +14,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "67PpcP": {
-                    "new_value": "Add a thought while it works",
-                    "old_value": "Add a thought while it works…"
-                },
-                "Jj8Ftb": {
-                    "new_value": "Build it",
-                    "old_value": "Go for it"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -76,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-04T00:04:47.854613+00:00"
+    "timestamp": "2026-09-04T00:15:33.869041+00:00"
 }
