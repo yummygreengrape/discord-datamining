@@ -1,5 +1,5 @@
 {
-    "build_hash": "63b442ac3d905790c419e3780295de92baafd9db",
+    "build_hash": "c1f4fd73191f0660d775a80da36aaa728e340a15",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,9 +12,30 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "8qO519": "Pick a channel",
+                "IcSdnu": "Post to",
+                "MsXuP8": "Published {projectName} to this server. Everyone can access it now! [{link}]({onNavigate})",
+                "NmaE9T": "Skip",
+                "P6SoGm": "The patch notes didn’t send. Try again.",
+                "PCST1n": "The draft didn’t come through. Write your own, or skip the notes.",
+                "VQhlkB": "Conjuring up patch notes…",
+                "bhoZhI": "Play it here: {channel}",
+                "dx7eQG": "Send Patch Notes",
+                "g5fncX": "Shipping {projectName}…",
+                "gOv8LL": "Ship {projectName}",
+                "oouynk": "Patch notes",
+                "tqtMyS": "Status",
+                "unJ01l": "Post to [{channel}]({onPick})",
+                "xkxDN1": "What’s new in this release?"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "CC69wK": {
+                    "new_value": "Published {projectName} to this server. Everyone can access it now!",
+                    "old_value": "{projectName} is now available in this server."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -22,5 +43,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-04T18:02:29.499483+00:00"
+    "timestamp": "2026-09-04T18:13:09.969750+00:00"
 }
