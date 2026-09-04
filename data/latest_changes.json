@@ -1,5 +1,5 @@
 {
-    "build_hash": "0da7f9ab827e214c4ee2f57e626d103bec5a0d2a",
+    "build_hash": "31a96b1660176175b4b61234f09966af6d2caaa9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "ByJmnc": "Are you sure you want to cancel the upload?",
+                "PqpqTp": "Cancel Upload"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-04T23:23:05.142876+00:00"
+    "timestamp": "2026-09-04T23:33:45.334226+00:00"
 }
