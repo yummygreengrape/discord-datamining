@@ -1,5 +1,5 @@
 {
-    "build_hash": "4d9c92f86d07e8c63f35055267cda5329ca05299",
+    "build_hash": "3565a398a8f933aff3f10549f6935a230283cbf6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,11 +8,71 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "sidebarEnabled"
+            ],
+            "default_config": {
+                "sidebarEnabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-friends-sidebar",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-04T05:49:23Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "sidebarEnabled": false
+                },
+                "1": {
+                    "sidebarEnabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "sidebarEnabled"
+            ],
+            "default_config": {
+                "sidebarEnabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-friends-sidebar",
+            "kind": "user",
+            "timestamp": "2026-09-04T05:49:23Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "sidebarEnabled": false
+                },
+                "1": {
+                    "sidebarEnabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "60M8Ae": "Search Friends",
+                "7kJd9e": "Friends",
+                "Dr/+ku": "Expand Friends List",
+                "F3+Xei": "Resize Friends List",
+                "JZCSRZ": "Collapse Friends List",
+                "au4mU4": "Add Friend"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +82,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-04T04:44:31.788926+00:00"
+    "timestamp": "2026-09-04T05:56:39.410783+00:00"
 }
