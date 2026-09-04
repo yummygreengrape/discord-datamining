@@ -1,5 +1,5 @@
 {
-    "build_hash": "36222cf23f1f4725604aa0d1c07ae28f262b9784",
+    "build_hash": "b021decc71aaa4396dfd6325fbda2b7b3613ace1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,11 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "dqC1w2": "This server is limited to adults (18+) and may contain sensitive content. Your account is in the teen age group. If your age group isn't correct, confirm you're an adult.",
-                "fp3xf5": "This server is limited to adults (18+) and may contain sensitive content.",
-                "qiLic6": "This server is limited to adults (18+) and may contain sensitive content. Confirm you're an adult to access age-restricted content, spaces, and settings."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-04T13:29:36.872585+00:00"
+    "timestamp": "2026-09-04T14:11:05.859627+00:00"
 }
