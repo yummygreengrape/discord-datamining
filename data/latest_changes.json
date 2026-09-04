@@ -1,5 +1,5 @@
 {
-    "build_hash": "df01dbeeed915f2f46f4ddd5b70ce72d61ecffef",
+    "build_hash": "30c2bda4951a6c6879cdc4b52344f5b706f43724",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,13 +7,29 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_USERS_GIFT_CODE_DELIVERIES",
+            "status": "added",
+            "url": "/users/@me/gift-code-deliveries"
+        },
+        {
+            "name": "USER_GIFT_CODE_DELIVERIES",
+            "status": "added",
+            "url": "/users/@me/gift-code-deliveries"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "8+6MUw": "Fit up to {number} people in this GDM with Nitro Premium. Now in Beta.",
+                "9k2yq6": "Fit up to {number} people in this GDM with Nitro Premium. Now in Beta.",
+                "ePNvSP": "Fit up to {number} people in this GDM with Nitro Premium.",
+                "iZDK8I": "Fit up to {number} people in this GDM with Nitro Premium."
+            },
             "modified": {}
         },
         "ko": {
@@ -22,5 +38,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-04T19:18:09.991018+00:00"
+    "timestamp": "2026-09-04T19:28:55.729245+00:00"
 }
