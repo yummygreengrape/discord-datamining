@@ -1,5 +1,5 @@
 {
-    "build_hash": "a7fcbd2fa942bbca91a01dd8a64f3c571f9fb0f5",
+    "build_hash": "1b06b0b8d86ee6765c60277cb74268c86a4eef9b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,17 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "HSgJeg": "Your attachment(s) are too large. Maximum total size is {maxFileSize}.",
+                "IDAfOy": "{maxFileSize} Uploads",
+                "OmTHl7": "2 Server Boosts, {maxFileSize} uploads, and more!",
+                "PvqncD": "Share files up to {maxFileSize}, no sweat.",
+                "b2Mm7k": "{maxFileSize} uploads unlocked!",
+                "iy47pM": "Upload files up to {maxFileSize} with Nitro!",
+                "teOTfv": "Send files up to {maxFileSize}. Perfect for game clips, art, and more.",
+                "u3Ricc": "Unlock {maxFileSize} uploads with Nitro",
+                "vjcKsF": "{maxFileSize} uploads"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +32,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-04T16:48:57.006999+00:00"
+    "timestamp": "2026-09-04T16:59:42.524502+00:00"
 }
