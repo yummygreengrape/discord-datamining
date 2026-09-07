@@ -13,16 +13,15 @@ Browse the data at **[dicoarki.com/datamining](https://dicoarki.com/datamining)*
 
 ## What is in here right now
 
-| Dataset | Count |
-| --- | ---: |
-| Experiments | 4,766 |
-| Apex experiments (subset of the above) | 1,530 |
-| REST API routes | 571 |
-| Localized strings (`en`) | 30,023 |
-| Localized strings (`ko`) | 26,077 |
+[![experiment count](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyummygreengrape%2Fdiscord_datamining%2Fmain%2Fdata%2Fweb%2Fmeta.json&query=%24.counts.experiments&label=experiments&color=5865F2)](data/web/meta.json)
+[![apex experiment count](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyummygreengrape%2Fdiscord_datamining%2Fmain%2Fdata%2Fweb%2Fmeta.json&query=%24.counts.experiments_by_type.apex&label=apex&color=5865F2)](data/web/meta.json)
+[![API route count](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyummygreengrape%2Fdiscord_datamining%2Fmain%2Fdata%2Fweb%2Fmeta.json&query=%24.counts.apis&label=API%20routes&color=5865F2)](data/web/meta.json)
+[![English string count](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyummygreengrape%2Fdiscord_datamining%2Fmain%2Fdata%2Fweb%2Fmeta.json&query=%24.counts.strings.en&label=strings%20en&color=5865F2)](data/web/meta.json)
+[![Korean string count](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fyummygreengrape%2Fdiscord_datamining%2Fmain%2Fdata%2Fweb%2Fmeta.json&query=%24.counts.strings.ko&label=strings%20ko&color=5865F2)](data/web/meta.json)
 
-As of 2026-09-04, schema version 8. Current counts are always in
-[`data/web/meta.json`](data/web/meta.json).
+These badges read [`data/web/meta.json`](data/web/meta.json) directly, so they always reflect the most
+recently published build. No count is hard-coded in this file, and `meta.json` also carries the build
+hash, generation time and schema version that the datasets below were produced with.
 
 ## How it works
 
@@ -57,7 +56,7 @@ what may or may not be published is listed in [`docs/DATA_INVENTORY.md`](docs/DA
 | [`data/latest_changes.json`](data/latest_changes.json) | The newest build's diff only: new, modified and deleted experiments, API routes and strings, plus `build_hash` and `extractor_version` | Discord bot |
 | [`data/web/meta.json`](data/web/meta.json) | Build hash, generation time, schema version and dataset counts | Web |
 | [`data/web/experiments.json`](data/web/experiments.json) | Experiment records — `id`, `experiment_type`, `kind`, `treatments`, `config_keys`, `variations`, `status`, `timestamp` | Web (list, search) |
-| [`data/web/experiment-details.json`](data/web/experiment-details.json) | The same record shape, served to the per-experiment detail view | Web (detail pages) |
+| [`data/web/experiment-details.json`](data/web/experiment-details.json) | Byte-for-byte identical to `experiments.json`; it is the file the per-experiment detail view and the sitemap read (see *Design notes*) | Web (detail pages, sitemap) |
 | [`data/web/apis.json`](data/web/apis.json) | REST route records — `name`, `url`, `old_url`, `status`, `timestamp` | Web |
 | [`data/web/strings.en.json`](data/web/strings.en.json) | Localized string records — `key`, `lang`, `value`, `status`, `timestamp` | Web |
 | [`data/web/strings.ko.json`](data/web/strings.ko.json) | Same shape, Korean locale | Web |
@@ -80,6 +79,18 @@ Records are history entries, not current-state rows: a key that changed twice ap
 - **Experiment type is explicit.** Apex experiments are identified by `experiment_type == "apex"`,
   never inferred from treatment names.
 
+- **`experiments.json` and `experiment-details.json` hold the same rows on purpose.** Until schema
+  version 5 the detail file was a filtered subset — only the experiments that carried
+  `analysis`, `default_config`, `variations` and friends — while the list file was summary-only.
+  Schema 7 merged them, because both halves of the site need the full-fat records: the list view
+  filters and badges experiments by their interpretation, and every experiment (not just an
+  annotated one) needs a reachable detail page. The runner writes both files from one list and
+  refuses to publish if their interpretation payloads ever drift apart, so a consumer may treat
+  either file as the complete experiment history. `meta.json` reports both counts:
+  `counts.experiment_details` is that shared row count, and `counts.experiment_detail_summaries`
+  is the smaller number of rows that actually carry detail fields — a statistic, not the size of
+  any published file.
+
 ## 한국어 요약
 
 이 저장소는 **Discord 클라이언트의 변경 사항을 자동으로 추적한 결과물**입니다. 비공개 러너가 주기적으로
@@ -95,6 +106,12 @@ Canary 클라이언트 chunk를 추출해 이전 상태와 비교하고, 실험(
 - **발행되는 JSON은 저장소 경계를 넘는 공개 인터페이스입니다.** 봇과 웹이 직접 읽으므로 새 필드는
   optional로만 추가하고, 기존 필드의 의미는 바꾸지 않습니다.
 - **History는 로그입니다.** 이후 빌드에서 상태가 바뀌어도 이미 기록된 항목을 덮어쓰지 않습니다.
+- **`experiments.json`과 `experiment-details.json`은 의도적으로 같은 내용입니다.** schema 5까지는 상세
+  필드를 가진 실험만 추린 부분집합이었지만, 목록 화면이 해석(analysis) 유무로 필터링해야 하고 주석이
+  없는 실험에도 상세 페이지가 있어야 해서 schema 7에서 하나로 합쳤습니다. 러너가 두 파일을 같은
+  목록에서 쓰고 해석 payload가 어긋나면 발행을 중단하므로, 어느 쪽을 읽어도 전체 실험 기록입니다.
+  `meta.json`의 `counts.experiment_detail_summaries`는 상세 필드를 가진 행 수를 나타내는 통계값이며,
+  발행되는 파일의 크기가 아닙니다.
 
 ## Disclaimer and license
 
