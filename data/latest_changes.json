@@ -1,5 +1,5 @@
 {
-    "build_hash": "22eb5ec309fb93416415183b317b38026aeed627",
+    "build_hash": "7f46e118f85e01b5ce796b44cadbd41875e851f5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,12 +7,29 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "AGE_VERIFICATION_SUSPENDED_MANUAL_REVIEW",
+            "status": "added",
+            "url": "/age-verification/suspended/manual-review"
+        },
+        {
+            "name": "ENDPOINT_AGE_VERIFICATION_SUSPENDED_MANUAL_REVIEW",
+            "status": "added",
+            "url": "/age-verification/suspended/manual-review"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "HITWAI": "Faster, more runes.",
+                "SYLSgx": "Priority",
+                "WOKsTg": "Project ID copied",
+                "b4TqpT": "Copy Project ID",
+                "qOoAsd": "Priority"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +39,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-05T03:22:56.090605+00:00"
+    "timestamp": "2026-09-07T07:51:13.768849+00:00"
 }
