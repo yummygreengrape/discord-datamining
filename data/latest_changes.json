@@ -1,5 +1,5 @@
 {
-    "build_hash": "8933690b391c40e6cce2a29daf24f0ce09cb62d9",
+    "build_hash": "0368604156cb7d56720645a399f21ca9cda73425",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,36 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/kYdZe": "Preview",
+                "0lt6bH": "This rewinds your app’s data to {target}. Everything the app saved after that moment is removed. A restore point of the current data is saved first, so you can undo this from the same list.",
+                "1/CVzo": "Published",
+                "14UarN": "Save restore point",
+                "2xSPXh": "The rewind was scheduled but not confirmed yet; it may still take effect in the next few moments. Check your app’s data before making changes, and rewind again if it didn’t apply.",
+                "3D/vYN": "Rewind to this time",
+                "7hBXn4": "No restore points yet. One is saved automatically before every deploy, and you can save your own below.",
+                "CNvRyJ": "Which data to restore",
+                "FRjicO": "Data Restore",
+                "PeVYaC": "This restore point is too old to use. Data can only be rewound within the last {days} days.",
+                "S3WHxG": "Rewind your app’s data?",
+                "TtQOSW": "Expired",
+                "ZlKerR": "Rewind data",
+                "c/tNny": "Undo point",
+                "h4zhWL": "Before deploy",
+                "hIVbiP": "Get Nitro",
+                "hJb78b": "Label (optional)",
+                "jViU+0": "Saved by you",
+                "kIWqXR": "Your data is rewound. An undo point holding the data you just left was saved to this list.",
+                "kXofol": "I couldn’t rewind the data. Nothing changed, and it’s safe to try again.",
+                "l07ism": "Your app’s data can be rewound to any moment in the last {days} days.",
+                "mfAoFT": "Restore point saved.",
+                "pVBlCH": "Claim Reward",
+                "pwFaXc": "I couldn’t load restore points. Try again in a moment.",
+                "rI7mpv": "Or rewind to an exact date and time",
+                "uhhqP3": "I couldn’t save a restore point. Try again in a moment.",
+                "xMAiew": "Rewinding your app’s data…",
+                "zVcDfj": "This rewinds the {environment} data to {target}. Everything the app saved after that moment is removed. A restore point of the current data is saved first, so you can undo this from the same list."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-08T19:59:57.709948+00:00"
+    "timestamp": "2026-09-08T20:31:03.170696+00:00"
 }
