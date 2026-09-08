@@ -1,5 +1,5 @@
 {
-    "build_hash": "55a956e8bfae4870c2d27f21de87bebca3715800",
+    "build_hash": "9f19644b6879af6e8c236fe16e63c0df43e27620",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,10 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "SgkNaU": "Unselected {name}. {count, plural, =0 {No items selected} one {# item selected} other {# items selected}}.",
-                "mvPjcC": "Selected {name}. {count, plural, =0 {No items selected} one {# item selected} other {# items selected}}."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-08T13:53:31.265527+00:00"
+    "timestamp": "2026-09-08T14:55:23.546132+00:00"
 }
