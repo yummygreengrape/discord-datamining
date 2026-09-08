@@ -1,8 +1,79 @@
 {
-    "build_hash": "731a0110bd87b79e84ca7e60e0abaa755d1cea26",
+    "build_hash": "9f1e7e414e0bf6e7eb9582f7ae79ce4f589ba82b",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "showPlayInstantlyLabel"
+            ],
+            "default_config": {
+                "enabled": false,
+                "showPlayInstantlyLabel": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-quest-bar-secondary-cta",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-08T21:07:35Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "showPlayInstantlyLabel": false
+                },
+                "1": {
+                    "enabled": true,
+                    "showPlayInstantlyLabel": false
+                },
+                "2": {
+                    "enabled": true,
+                    "showPlayInstantlyLabel": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "showPlayInstantlyLabel"
+            ],
+            "default_config": {
+                "enabled": false,
+                "showPlayInstantlyLabel": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-quest-bar-secondary-cta",
+            "kind": "user",
+            "timestamp": "2026-09-08T21:07:35Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "showPlayInstantlyLabel": false
+                },
+                "1": {
+                    "enabled": true,
+                    "showPlayInstantlyLabel": false
+                },
+                "2": {
+                    "enabled": true,
+                    "showPlayInstantlyLabel": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -12,17 +83,25 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "wA0o0L": "Published! Your app is live."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "akCCqu": "새 항목 {count}개",
+                "c4JwHL": "{tabName}, 신규 콘텐츠",
+                "s9RZ1r": "신규 아이템: {label}",
+                "wKJfIg": "{count}개의 신규 찜 목록 아이템"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "eXan7B": {
+                    "new_value": "화면 공유 중",
+                    "old_value": "멤버들 화면 공유"
+                }
+            }
         }
     },
-    "timestamp": "2026-09-08T21:03:15.172203+00:00"
+    "timestamp": "2026-09-08T21:13:57.870728+00:00"
 }
