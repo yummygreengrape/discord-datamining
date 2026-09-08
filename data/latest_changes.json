@@ -1,5 +1,5 @@
 {
-    "build_hash": "49721f4f5f55c2bbb2bb56b3229652746e15e247",
+    "build_hash": "6e139e6704ec2d4ef26a170f06f923bbbc34d0b8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,13 +12,7 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "4AH1Vb": "Switch to {name}",
-                "6XuC8e": "Alternate angle",
-                "9tdsDk": "Original",
-                "JFaxs2": "{name}, available at {time}",
-                "RSMzC/": "{name}, now playing"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -28,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-08T18:56:12.360047+00:00"
+    "timestamp": "2026-09-08T19:06:57.105466+00:00"
 }
