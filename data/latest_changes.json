@@ -1,5 +1,5 @@
 {
-    "build_hash": "2a92cd0164f289c313bd17158c30d15915e5c283",
+    "build_hash": "88aa956ca2f070c52114bf317d06acd13a9abbc3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,13 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0s/g+O": "Server drawer closed",
+                "Rgk/2h": "Open server drawer",
+                "gxD5I6": "New messages in {channelName} channel{count, plural, =0 {} one {, and # more channel} other {, and # more channels}}",
+                "h8xFEv": "Close server drawer",
+                "hfxfVb": "Server drawer opened"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-08T05:10:50.250267+00:00"
+    "timestamp": "2026-09-08T13:31:55.850542+00:00"
 }
