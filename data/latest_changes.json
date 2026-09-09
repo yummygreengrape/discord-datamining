@@ -1,69 +1,8 @@
 {
-    "build_hash": "7bdf90a38107868ebbf814fc397c7e89eda95b78",
+    "build_hash": "01f9969c32d561aebd04a7b554b77f82154abc48",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "bucket"
-            ],
-            "default_config": {
-                "bucket": 0
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-collectibles-profile-frames-purchase",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-08T23:41:19Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "bucket": 0
-                },
-                "1": {
-                    "bucket": 1
-                },
-                "2": {
-                    "bucket": 2
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "bucket"
-            ],
-            "default_config": {
-                "bucket": 0
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-collectibles-profile-frames-purchase",
-            "kind": "user",
-            "timestamp": "2026-09-08T23:41:19Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "bucket": 0
-                },
-                "1": {
-                    "bucket": 1
-                },
-                "2": {
-                    "bucket": 2
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -83,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-09T00:10:22.605810+00:00"
+    "timestamp": "2026-09-09T00:21:04.280864+00:00"
 }
