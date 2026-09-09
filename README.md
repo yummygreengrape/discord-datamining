@@ -113,14 +113,12 @@ Canary 클라이언트 chunk를 추출해 이전 상태와 비교하고, 실험(
   `meta.json`의 `counts.experiment_detail_summaries`는 상세 필드를 가진 행 수를 나타내는 통계값이며,
   발행되는 파일의 크기가 아닙니다.
 
-## Disclaimer and license
+## Disclaimer and license / 주의 사항
 
 This is an unofficial project with no affiliation to, endorsement by, or support from Discord Inc.
 Some of the material surfaced by this analysis may remain the property of Discord. Everything here
 exists for studying and analyzing data structures. Please do not repost it elsewhere as your own
 discovery; when citing it, follow the Creative Commons Attribution-ShareAlike licence (CC BY-SA).
-
-### 주의 사항
 
 이 저장소는 디스코드 본사(Discord Inc.)와 전혀 무관하게 운영되는 비공식 공간입니다. 디스코드의 공식적인
 승인이나 지원을 받지 않은 프로젝트이며, 분석 과정에서 수집된 일부 코드의 권리는 디스코드 측에 있을 수
