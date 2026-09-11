@@ -1,12 +1,104 @@
 {
-    "build_hash": "edde177430d308ec2b558a36de903ced7772c22f",
+    "build_hash": "7d9f4d633607f80f44f491cf8446d821e8db802a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "inviteMaxAgeSeconds"
+            ],
+            "default_config": {
+                "inviteMaxAgeSeconds": 86400
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-longer-group-dm-invites",
+            "kind": "user",
+            "old_config_keys": [
+                "inviteMaxAgeSeconds"
+            ],
+            "old_default_config": {
+                "inviteMaxAgeSeconds": 86400
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "inviteMaxAgeSeconds": 86400
+                },
+                "1": {
+                    "inviteMaxAgeSeconds": 604800
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "inviteMaxAgeSeconds": 86400
+                },
+                "1": {
+                    "inviteMaxAgeSeconds": 2419200
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "inviteMaxAgeSeconds"
+            ],
+            "default_config": {
+                "inviteMaxAgeSeconds": 86400
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-longer-group-dm-invites",
+            "kind": "user",
+            "old_config_keys": [
+                "inviteMaxAgeSeconds"
+            ],
+            "old_default_config": {
+                "inviteMaxAgeSeconds": 86400
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "inviteMaxAgeSeconds": 86400
+                },
+                "1": {
+                    "inviteMaxAgeSeconds": 604800
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "inviteMaxAgeSeconds": 86400
+                },
+                "1": {
+                    "inviteMaxAgeSeconds": 2419200
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -23,5 +115,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-11T23:09:18.688060+00:00"
+    "timestamp": "2026-09-11T23:20:03.779460+00:00"
 }
