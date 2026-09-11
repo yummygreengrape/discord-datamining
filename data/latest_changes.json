@@ -1,82 +1,12 @@
 {
-    "build_hash": "4d05dbb0505b22dda0743311361fa6c045d9c7d0",
+    "build_hash": "e29ff3c96186c26e89a171c93e9c8db5b09a29a1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "probeAudioEffects"
-            ],
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-audio-effects-probe",
-            "kind": "user",
-            "old_config_keys": [
-                "probeAudioEffects"
-            ],
-            "old_default_config": {
-                "probeAudioEffects": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "probeAudioEffects"
-            ],
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-audio-effects-probe",
-            "kind": "user",
-            "old_config_keys": [
-                "probeAudioEffects"
-            ],
-            "old_default_config": {
-                "probeAudioEffects": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -93,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-11T21:22:43.750491+00:00"
+    "timestamp": "2026-09-11T21:33:31.301395+00:00"
 }
