@@ -1,5 +1,5 @@
 {
-    "build_hash": "792658da4d97f61091a74e2a06add59c9723587c",
+    "build_hash": "d500d3ec124de23d413c036addab68f83e1fc04d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,11 +8,66 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-markdown-file-preview",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-11T17:03:41Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-markdown-file-preview",
+            "kind": "user",
+            "timestamp": "2026-09-11T17:03:41Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "zstmkn": "Render Markdown"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +77,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-11T16:55:01.402389+00:00"
+    "timestamp": "2026-09-11T17:05:53.942507+00:00"
 }
