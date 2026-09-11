@@ -28,6 +28,7 @@ hash, generation time and schema version that the datasets below were produced w
 ```mermaid
 flowchart TD
     A["Discord Canary client<br/>JS chunks"] --> B["Private runner<br/>extract · parse · diff"]
+    R["Guild experiment rollouts<br/>Discord experiments response · xhyrom dataset"] --> B
     B --> C{"Pre-publish<br/>security scan"}
     C -- fails --> D["Quarantined privately<br/>nothing is published"]
     C -- passes --> E["This repository<br/>7 public JSON files"]
@@ -35,7 +36,8 @@ flowchart TD
     E --> G["Web · dicoarki.com<br/>data/web/*.json → search and detail pages"]
 ```
 
-1. **Extract** — the runner pulls the current Canary build's client chunks on a schedule.
+1. **Extract** — the runner pulls the current Canary build's client chunks on a schedule, and on the
+   same schedule reads guild experiment rollout settings even when the build has not changed.
 2. **Diff** — parsed experiments, strings and routes are compared against the previously stored
    state, so only real changes are recorded.
 3. **Scan** — candidates are written to an ignored directory first and checked for secrets, tokens,
@@ -53,9 +55,9 @@ what may or may not be published is listed in [`docs/DATA_INVENTORY.md`](docs/DA
 
 | File | Contents | Consumed by |
 | --- | --- | --- |
-| [`data/latest_changes.json`](data/latest_changes.json) | The newest build's diff only: new, modified and deleted experiments, API routes and strings, plus `build_hash` and `extractor_version` | Discord bot |
-| [`data/web/meta.json`](data/web/meta.json) | Build hash, generation time, schema version and dataset counts | Web |
-| [`data/web/experiments.json`](data/web/experiments.json) | Experiment records — `id`, `experiment_type`, `kind`, `treatments`, `config_keys`, `variations`, `status`, `timestamp` | Web (list, search) |
+| [`data/latest_changes.json`](data/latest_changes.json) | The newest build's diff only: new, modified and deleted experiments, API routes and strings, plus `build_hash` and `extractor_version`; optional `rollout_changes` lists guild experiment rollout changes from the last 7 days | Discord bot |
+| [`data/web/meta.json`](data/web/meta.json) | Build hash, generation time, schema version and dataset counts; optional `rollout_status` holds the last rollout check per source | Web |
+| [`data/web/experiments.json`](data/web/experiments.json) | Experiment records — `id`, `experiment_type`, `kind`, `treatments`, `config_keys`, `variations`, `status`, `timestamp`; guild experiments with a public rollout setting carry an optional `rollout` | Web (list, search) |
 | [`data/web/experiment-details.json`](data/web/experiment-details.json) | Byte-for-byte identical to `experiments.json`; it is the file the per-experiment detail view and the sitemap read (see *Design notes*) | Web (detail pages, sitemap) |
 | [`data/web/apis.json`](data/web/apis.json) | REST route records — `name`, `url`, `old_url`, `status`, `timestamp` | Web |
 | [`data/web/strings.en.json`](data/web/strings.en.json) | Localized string records — `key`, `lang`, `value`, `status`, `timestamp` | Web |
@@ -78,6 +80,13 @@ Records are history entries, not current-state rows: a key that changed twice ap
   was already recorded.
 - **Experiment type is explicit.** Apex experiments are identified by `experiment_type == "apex"`,
   never inferred from treatment names.
+- **Rollout settings are configuration, not measurements.** A guild experiment's optional `rollout`
+  holds the treatment hash ranges and eligibility conditions of the newest revision that Discord's
+  unauthenticated experiments response or the public `xhyrom/discord-datamining` dataset provides.
+  A percentage is the share of the hash range inside one condition, not the share of servers that
+  have a feature. ID override lists, holdouts and same-revision disagreements between sources are
+  flagged instead of guessed, a failing source keeps its last good setting, and an experiment that
+  a source stops listing is marked as missing rather than ended.
 
 - **`experiments.json` and `experiment-details.json` hold the same rows on purpose.** Until schema
   version 5 the detail file was a filtered subset — only the experiments that carried
@@ -106,6 +115,11 @@ Canary 클라이언트 chunk를 추출해 이전 상태와 비교하고, 실험(
 - **발행되는 JSON은 저장소 경계를 넘는 공개 인터페이스입니다.** 봇과 웹이 직접 읽으므로 새 필드는
   optional로만 추가하고, 기존 필드의 의미는 바꾸지 않습니다.
 - **History는 로그입니다.** 이후 빌드에서 상태가 바뀌어도 이미 기록된 항목을 덮어쓰지 않습니다.
+- **실험 배포 정보는 측정값이 아니라 설정값입니다.** 서버 실험의 optional `rollout`은 Discord의 비인증
+  실험 응답이나 공개 `xhyrom/discord-datamining` 데이터가 제공하는 최신 revision의 해시 구간과 적용
+  조건입니다. 비율은 한 조건 안에서 해시 구간이 차지하는 몫이며, 기능을 받은 서버의 비율이 아닙니다.
+  ID 지정 목록, holdout, 같은 revision에서 출처끼리 어긋나는 경우는 추정하지 않고 표시만 하며, 확인에
+  실패한 출처는 마지막 정상 설정을 유지하고, 출처 목록에서 빠진 실험은 종료가 아니라 미확인으로 표시합니다.
 - **`experiments.json`과 `experiment-details.json`은 의도적으로 같은 내용입니다.** schema 5까지는 상세
   필드를 가진 실험만 추린 부분집합이었지만, 목록 화면이 해석(analysis) 유무로 필터링해야 하고 주석이
   없는 실험에도 상세 페이지가 있어야 해서 schema 7에서 하나로 합쳤습니다. 러너가 두 파일을 같은

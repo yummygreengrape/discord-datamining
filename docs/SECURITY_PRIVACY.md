@@ -36,6 +36,19 @@ The scanner fails publication for:
 Reports contain paths, line numbers, rule names, and SHA-256 fingerprints only.
 They never contain the detected value.
 
+## Experiment rollout data
+
+Rollout settings come from Discord's unauthenticated experiments response and
+the public `xhyrom/discord-datamining` dataset. The runner sends no credentials
+to either source, keeps unparsed responses in memory only, and publishes only
+sanitized settings: revisions, treatment hash ranges, eligibility conditions,
+and flags. Guild IDs are never published; ID-range boundaries become creation
+times and override lists become a presence flag. Published percentages describe
+hash ranges within a condition, not the share of all servers. Each source's
+own update time and check status are published, so outdated or failing sources
+are visible, and records where sources disagree on the same revision are marked
+as conflicts.
+
 ## Allowlist policy
 
 The private allowlist is for verified non-user product metadata that a detector
