@@ -1,5 +1,5 @@
 {
-    "build_hash": "b342f07632a33018a7f8878b4952601c8c212182",
+    "build_hash": "ed378176c14c14d179494cbe84ec541a521b6f96",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -15,13 +15,194 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "ZuXSRp": {
+                    "new_value": "Long press to hide badges you want to be private.",
+                    "old_value": "Long press to hide any badges you don't want others to see."
+                }
+            }
         },
         "ko": {
-            "added": {},
+            "added": {
+                "/JJ9I5": "Nitro를 공유하고 {discountPercent}% 할인 받기",
+                "/QnMxj": "구독하는 친구 한 명당 Nitro를 {discountPercent}% 할인받아 최대 {numMonths}개월까지 할인 혜택을 누릴 수 있어요.",
+                "0s/g+O": "서버 목록 닫힘",
+                "1IPUq9": "현상금 시작",
+                "1uzE2S": "동영상을 시청하고 Orb를 획득하세요!",
+                "2KIDX+": "이 앱은 다른 창에 열려 있어요.",
+                "2Qe65J": "모두 완료되었습니다. 해당 지역의 최소 연령 요건을 충족하는 것으로 확인되었습니다.",
+                "37AyNG": "읽지 않음, {channelName}(미디어 채널)",
+                "3MdBF7": "업로드 파일 크기 {maxFileSize}로 증가",
+                "3Zypbv": "앱 팝아웃",
+                "4/7x+3": "맨 뒤로 이동",
+                "4AH1Vb": "{name} 플랜으로 변경",
+                "6XuC8e": "다른 각도",
+                "7yaXr8": "무료 장식 획득하기",
+                "8xDISf": "Orbs {balance}개",
+                "9xRVLy": "드래그하여 배지 순서 변경: {position}, {badgeName}",
+                "Ajnhpa": "{channelName}(포럼 채널)",
+                "BILI3J": "멘션 {mentionCount}개, {channelName}(앱 채널)",
+                "BpXa17": "맨 앞으로 이동",
+                "BrLu1D": "Nitro를 공유하고 {discountPercent}% 할인받기",
+                "ByJmnc": "업로드를 취소하시겠어요?",
+                "E94mJf": "이 채널에는 아직 앱이 없어요. 채널 설정에서 앱을 구성하세요.",
+                "F2FMFR": "앱 선택",
+                "F98YPC": "{channelName}(앱 채널)",
+                "GBjQwf": "퀘스트 완료를 확인하는 데 최대 [36시간이 걸릴 수 있어요]({onLearnMore}).",
+                "GI2mea": "계정 상태",
+                "GNHAfw": "퀘스트",
+                "GZa4J0": "이 앱은 사용할 수 없어요.",
+                "GhK5nf": "배지 숨기기 취소: {position}, {badgeName}",
+                "HO/lY5": "앱(스포일러)",
+                "HSgJeg": "첨부 파일이 너무 커요. 최대 {maxFileSize} 이하여야 해요.",
+                "IDAfOy": "{maxFileSize} 업로드",
+                "Ie7p1Q": "해당 지역의 최소 연령 요건을 충족하는 것으로 확인되었습니다. 최소 연령 위반 사항은 해결되었으나 계정의 다른 위반 사항으로 인해 여전히 로그인에 영향을 받고 있습니다.",
+                "JDvNF+": "퀘스트",
+                "JFaxs2": "{name}, {time}에 이용 가능",
+                "JXC6bv": "1시간 미만 남음",
+                "KqEUsJ": "멘션 {mentionCount}개, {channelName}(미디어 채널)",
+                "KuUltE": "{channelName}(미디어 채널)",
+                "LVQQ3Z": "앱과 상호작용할 수 있는 공간 만들기",
+                "MN6I4Y": "연령대 확인 중...",
+                "MlQm3T": "사용 가능한 앱 없음",
+                "MpFE11": "앱(제한됨)",
+                "Mr9vVW": "Nitro를 구독하고 이 스티커를 비롯한 다양한 스티커를 사용해 보세요.",
+                "NKV/MO": "앱 팝인",
+                "OmTHl7": "서버 부스트 2개, {maxFileSize} 업로드 등 다양한 혜택을 누려보세요!",
+                "PU8nMu": "현재 연령대를 확인하는 중입니다.",
+                "PqpqTp": "업로드 취소",
+                "PvqncD": "최대 {maxFileSize}의 파일도 원활하게 공유할 수 있어요.",
+                "QojGXK": "선물 구매 시",
+                "RSMzC/": "{name}, 플레이 중",
+                "RXOPc3": "배지 숨기기 취소",
+                "Rgk/2h": "서버 목록 열기",
+                "SgkNaU": "{name}이(가) 선택 해제됐어요. {count}.",
+                "UhguER": "획득한 Orbs",
+                "V4y5nG": "이 앱은 이 서버에 봇이 없어요",
+                "VTgFYh": "회원님이 해당 지역의 최소 연령 요건을 충족하지 못하는 것으로 확인되었습니다. 이 정보가 올바르지 않은 경우 수동 검토를 요청할 수 있습니다.",
+                "VaiGaz": "Discord에서 진행률을 추적하려면 {gameTitle}에서 타사 데이터 공유를 활성화해야 합니다.",
+                "VquUff": "이 앱을 로드하지 못했어요",
+                "VwVCfv": "퀘스트",
+                "Vzc4+8": "드래그하여 순서를 변경하세요. 길게 누르면 숨겨져요.",
+                "XeLTZl": "보상이 준비되었습니다",
+                "XpgzeO": "규칙 {number}/{total}",
+                "Xq++FA": "{appName} 앱이 이 채널에서 작동하려면 일부 권한이 필요하므로 해당 권한을 끌 수 없어요.",
+                "Zazao2": "{name} 재정렬",
+                "ZkcrC2": "앱 채널",
+                "ZuXSRp": "길게 눌러 다른 사람에게 보여주고 싶지 않은 배지를 숨기세요.",
+                "b2Mm7k": "{maxFileSize} 업로드가 잠금 해제되었어요!",
+                "cKIIzk": "Nitro로 배지 순서 변경하기",
+                "cfE0uG": "2주 Nitro 체험판을 보내고 친구가 구독할 때마다 {numOrbs} Orbs를 받으세요. [자세히 알아보기]({helpdeskArticle}).",
+                "dXg/Dl": "배지 {position}, {badgeName}, 숨겨짐",
+                "dqC1w2": "이 서버는 성인(18세 이상)으로 제한되며 민감한 콘텐츠가 포함될 수 있습니다. 회원님의 계정은 청소년 연령대에 속합니다. 연령대가 올바르지 않은 경우 성인임을 인증해 주세요.",
+                "dqbMbn": "회원님이 해당 지역의 최소 연령 요건을 충족하지 못하는 것으로 확인되었습니다. 이 정보가 올바르지 않은 경우 연령 인증을 다시 시도할 수 있습니다.",
+                "dr/Oik": "읽지 않음, {channelName}(포럼 채널)",
+                "fp3xf5": "이 서버는 성인(18세 이상)으로 제한되며 민감한 콘텐츠가 포함될 수 있습니다.",
+                "gxD5I6": "{channelName} 채널 및 그외 {count}개 채널에 새 메시지가 있어요",
+                "h8xFEv": "서버 목록 닫기",
+                "hfxfVb": "서버 목록 열림",
+                "iJA/TE": "즐겨찾기 추가 완료",
+                "iUWcU/": "이 앱은 앱 채널을 지원하지 않아요.",
+                "iy47pM": "Nitro로 최대 {maxFileSize}의 파일을 업로드하세요!",
+                "izggZO": "애플리케이션을 찾을 수 없어요. 채널 설정에서 다시 로드하거나 새 애플리케이션을 선택해 보세요.",
+                "mcNs5B": "앱을 bHook{oldValue}에서 bHook{newValue}(으)로 변경 완료",
+                "mvPjcC": "{name}이(가) 선택됐어요. {count}.",
+                "n5kHOr": "배지 {position}, {badgeName}. 드래그하여 순서를 변경하세요.",
+                "n7CiSK": "+{count}개",
+                "na1rJc": "이 채널의 앱을 변경하려면 {permissions} 권한이 필요해요.",
+                "oxVfSY": "메시지 요청",
+                "pBMSie": "연령대 편집",
+                "qS9MOl": "퀘스트",
+                "qiLic6": "이 서버는 성인(18세 이상)으로 제한되며 민감한 콘텐츠가 포함될 수 있습니다. 연령 제한 콘텐츠, 공간 및 설정에 액세스하려면 성인임을 인증해 주세요.",
+                "qojQSe": "{hours}시간 남았어요",
+                "rSsuUF": "멘션 {mentionCount}개, {channelName}(포럼 채널)",
+                "tAlkl4": "Nitro를 공유하고 Orbs 획득하기",
+                "tBwanH": "App Store를 통해 연령대를 확인하지 못했습니다. 다른 방법을 시도해 주세요.",
+                "tU5fiM": "구성된 앱 없음",
+                "teOTfv": "최대 {maxFileSize}MB의 파일을 전송할 수 있어요. 게임 클립, 아트 등 다양한 용도에 완벽하죠.",
+                "tho4OY": "이게 전부 여러분 거예요!",
+                "u3Ricc": "Nitro로 {maxFileSize} 업로드 잠금 해제",
+                "v05vEp": "채널의 앱은 해당 앱의 채널에서 제거할 수 없어요.",
+                "vjcKsF": "{maxFileSize} 업로드",
+                "xF3JRh": "{days}일 남았어요",
+                "xSWJPo": "배지 숨기기",
+                "xfuQvv": "공개 배지 없음",
+                "xzhzM/": "읽지 않음, {channelName}(앱 채널)",
+                "yXmgpP": "채널의 앱에 이 권한이 필요해요.",
+                "zAEV11": "앱(연령 제한)"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "0SLl/G": {
+                    "new_value": "[{gameTitle}]({onGameTitleClick})에서 Discord 계정을 연결하세요. {objective}하여 bHook{questReward}을(를) 획득하세요.",
+                    "old_value": "Discord 계정을 연결하고 [{gameTitle}]({onGameTitleClick})에서 {objective}에 참가해 bHook{questReward}을 획득하세요."
+                },
+                "BlfaHK": {
+                    "new_value": "{gameTitle}에서 Discord 계정을 연결하세요. {objective}하여 bHook{questReward}을(를) 획득하세요.",
+                    "old_value": "Discord 계정을 연결하고 {gameTitle}에서 {objective}에 참가해 bHook{questReward}을 획득하세요."
+                },
+                "Ka9J40": {
+                    "new_value": "Nitro를 공유하고 친구가 구독할 때마다 {numOrbs} Orbs를 획득하세요.",
+                    "old_value": "2주 Nitro 체험판을 보내고 친구가 구독할 때마다 {numOrbs} Orbs를 받으세요. [자세히 알아보기]({helpdeskArticle})."
+                },
+                "QUe9zz": {
+                    "new_value": "더 많은 퀘스트 둘러보기",
+                    "old_value": "더 많은 현상금 둘러보기"
+                },
+                "kO23jV": {
+                    "new_value": "나는 Orbs 받고, 친구는 Nitro를 받고",
+                    "old_value": "친구를 추천하고 Orbs를 받으세요"
+                },
+                "pEdBD4": {
+                    "new_value": "Discord의 [이용 약관]({termsOfService}) 및 [커뮤니티 지침]({communityGuidelines})을 준수해 주셔서 감사합니다. 위반 사항이 있을 경우 여기에 표시됩니다.",
+                    "old_value": "Discord의 [이용 약관]({termsOfService}) 및 [커뮤니티 지침]({communityGuidelines})을 잘 지켜주셔서 감사해요. 규정을 위반하면 여기에 해당 내용이 표시될 거예요."
+                }
+            }
         }
     },
-    "timestamp": "2026-09-11T20:50:27.593825+00:00"
+    "string_context": {
+        "en": {
+            "ZuXSRp": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "배지 관리 화면에서는 배지를 탭해 다른 사람에게 보이지 않게 하거나, 다시 표시하고, 드래그해 순서를 바꿀 수 있습니다. 일부 배지는 항상 보이거나 첫 번째에 고정된다는 안내도 함께 확인됩니다. 공개 실험 데이터의 Badge Management 설명과 배지 설정 API가 같은 기능 표면을 뒷받침합니다.",
+                    "generated_at": "2026-08-28T00:12:36.449330Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Customize your badges",
+                        "Hide Badges",
+                        "Badge hidden",
+                        "Badge shown",
+                        "drag to reorder",
+                        "Nitro"
+                    ],
+                    "search_intent": "Discord 프로필 배지를 숨기거나 순서를 바꾸는 방법과 항상 표시되는 배지가 무엇인지 확인하려는 검색입니다.",
+                    "source_context": "같은 문자열 묶음에 배지 숨김, 다시 표시, 드래그 순서 변경, 항상 표시·첫 번째 고정 안내가 함께 있으며 공개 실험·API 데이터도 배지 관리 기능을 가리킵니다.",
+                    "summary": "프로필 배지를 숨기거나 다시 표시하고 순서를 바꾸는 배지 관리 화면의 문구입니다.",
+                    "what_it_means": "배지의 공개 표시와 순서를 관리하는 상태이며, 항상 표시되는 배지는 숨기거나 이동할 수 없을 수 있습니다.",
+                    "when_it_appears": "자신의 프로필에서 배지 목록을 열고 Customize your badges 관리 화면을 사용할 때 나타납니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The badge manager lets users tap badges to hide them from other people, show them again, and drag them into a different order. The copy also identifies badges that must remain visible or appear first. Public Badge Management experiment data and the badge-settings API support the same product surface.",
+                    "generated_at": "2026-08-28T00:12:36.449330Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Customize your badges",
+                        "Hide Badges",
+                        "Badge hidden",
+                        "Badge shown",
+                        "drag to reorder",
+                        "Nitro"
+                    ],
+                    "search_intent": "The searcher likely wants to know how to hide or reorder Discord profile badges and why some badges stay visible.",
+                    "source_context": "The same string group covers hiding, showing, drag ordering, and always-visible or first-position states; public experiment and API data point to the same badge-management feature.",
+                    "summary": "These strings belong to the profile badge manager for hiding, showing, and reordering badges.",
+                    "what_it_means": "It manages badge visibility and order; a badge marked always visible may not be hideable or movable from its required position.",
+                    "when_it_appears": "It appears after opening the badge list on your own profile and entering Customize your badges."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-09-11T21:01:13.619083+00:00"
 }
