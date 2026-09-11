@@ -1,27 +1,68 @@
 {
-    "build_hash": "185734a510c053f4f8928f87ad8aadbacce1ed33",
+    "build_hash": "9013f3520ae396aec662b11e3d70558db640038f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-gdop-discovery",
-            "kind": "user",
-            "timestamp": "2026-09-11T21:42:50Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-gifting-badge-complex-art",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-11T21:51:56Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-gifting-badge-complex-art",
+            "kind": "user",
+            "timestamp": "2026-09-11T21:51:56Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -35,5 +76,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-11T21:44:18.202042+00:00"
+    "timestamp": "2026-09-11T21:55:04.756485+00:00"
 }
