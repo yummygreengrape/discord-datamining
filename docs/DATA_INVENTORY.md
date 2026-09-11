@@ -14,11 +14,18 @@ published here: runner code, scanners, allowlists, tests, agent instructions,
 CI workflows, internal analysis reports, `history.json`, `previous_state.json`,
 `message.txt`, extracted string baselines, raw API/experiment state, Canary
 bundles, credentials, cookies, request headers, full exception payloads,
-quarantine artifacts, and moderation or user-message reports.
+quarantine artifacts, interpretation queue files, and moderation or user-message
+reports.
 
 The runner's failed publication candidates and redacted scan reports are kept
 outside this repository in its ignored local quarantine directory for at most
 30 days. They are not committed or pushed.
+
+Codex interpretation batches reach the runner through a private queue outside
+this repository instead of edits to these files. The runner validates each batch,
+scans its text with the same rules as other generated data, and publishes it only
+through its normal scanned path. Processed and rejected batch files are deleted 30
+days after the runner handles them. They are not committed or pushed.
 
 ## Recipients and access
 
