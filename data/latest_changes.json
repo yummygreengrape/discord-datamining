@@ -1,8 +1,20 @@
 {
-    "build_hash": "e29ff3c96186c26e89a171c93e9c8db5b09a29a1",
+    "build_hash": "185734a510c053f4f8928f87ad8aadbacce1ed33",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-gdop-discovery",
+            "kind": "user",
+            "timestamp": "2026-09-11T21:42:50Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -23,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-11T21:33:31.301395+00:00"
+    "timestamp": "2026-09-11T21:44:18.202042+00:00"
 }
