@@ -1,5 +1,5 @@
 {
-    "build_hash": "c0ef49eb60df390bba3fe2cce3c7e44d11cfb5d0",
+    "build_hash": "bbebda78efe57a1f11fd32d66aae13e4b8ee281c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "ifAVZr": "Check your Apple Account",
-                "meauFg": "Your subscription was purchased with a different Apple Account. Sign in with that one to cancel or make changes."
+                "Asusmn": "You’ve hit the max number of projects.",
+                "DT6qly": "Did you cast Haste? Wait a moment, then try again."
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-11T18:56:18.809335+00:00"
+    "timestamp": "2026-09-11T19:07:13.473809+00:00"
 }
