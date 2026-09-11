@@ -1,5 +1,5 @@
 {
-    "build_hash": "cc770cc8b1a49260ebdac2d3109eca3d1bbf11f8",
+    "build_hash": "c0ef49eb60df390bba3fe2cce3c7e44d11cfb5d0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -12,7 +12,10 @@
     "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "ifAVZr": "Check your Apple Account",
+                "meauFg": "Your subscription was purchased with a different Apple Account. Sign in with that one to cancel or make changes."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -22,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-11T18:45:24.198817+00:00"
+    "timestamp": "2026-09-11T18:56:18.809335+00:00"
 }
