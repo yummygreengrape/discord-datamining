@@ -1,61 +1,8 @@
 {
-    "build_hash": "483ab98ede3e3cdc0d215f13122c6e7e927781f8",
+    "build_hash": "e98d1b436e48912a1b19afdcd64b26f9421dc89b",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enableProfileFrames"
-            ],
-            "default_config": {
-                "enableProfileFrames": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-collectibles-profile-frames",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-11T16:19:17Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enableProfileFrames": false
-                },
-                "1": {
-                    "enableProfileFrames": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enableProfileFrames"
-            ],
-            "default_config": {
-                "enableProfileFrames": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-collectibles-profile-frames",
-            "kind": "user",
-            "timestamp": "2026-09-11T16:19:17Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enableProfileFrames": false
-                },
-                "1": {
-                    "enableProfileFrames": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -75,5 +22,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-11T16:22:59.282711+00:00"
+    "timestamp": "2026-09-11T16:33:54.406049+00:00"
 }
