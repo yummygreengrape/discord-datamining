@@ -1,32 +1,71 @@
 {
-    "build_hash": "4b83fa446f9d8182af2dd687a5ffc9858b5591f1",
+    "build_hash": "f6f36e527dbbadbd4fc24b8f8fe002cca26cb61c",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-badge-discovery",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-11T17:44:12Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-badge-discovery",
+            "kind": "user",
+            "timestamp": "2026-09-11T17:44:12Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-markdown-file-preview",
-            "kind": "user",
-            "timestamp": "2026-09-11T17:03:41Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "string_changes": {
         "en": {
-            "added": {
-                "zstmkn": "Render Markdown"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -36,5 +75,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-11T17:40:25.979938+00:00"
+    "timestamp": "2026-09-11T17:51:20.717854+00:00"
 }
