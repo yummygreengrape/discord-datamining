@@ -39,15 +39,17 @@ They never contain the detected value.
 ## Experiment rollout data
 
 Rollout settings come from Discord's unauthenticated experiments response and
-the public `xhyrom/discord-datamining` dataset. The runner sends no credentials
-to either source, keeps unparsed responses in memory only, and publishes only
-sanitized settings: revisions, treatment hash ranges, eligibility conditions,
-and flags. Guild IDs are never published; ID-range boundaries become creation
-times and override lists become a presence flag. Published percentages describe
-hash ranges within a condition, not the share of all servers. Each source's
-own update time and check status are published, so outdated or failing sources
-are visible, and records where sources disagree on the same revision are marked
-as conflicts.
+the public `xhyrom/discord-datamining` dataset file. Neither request carries
+credentials or cookies, and neither follows redirects. The dataset's last commit
+time is read from the GitHub API with the runner's existing GitHub token, which
+is sent only to GitHub. Unparsed responses stay in memory, and only sanitized
+settings are published: revisions, treatment hash ranges, eligibility
+conditions, and flags. Guild IDs are never published; ID-range boundaries become
+creation times and override lists become a presence flag. Published percentages
+describe hash ranges within a condition, not the share of all servers. Each
+source's own update time and check status are published, so outdated or failing
+sources are visible, and records where sources disagree on the same revision are
+marked as conflicts.
 
 ## Allowlist policy
 
