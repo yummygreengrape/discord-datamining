@@ -1,5 +1,5 @@
 {
-    "build_hash": "9013f3520ae396aec662b11e3d70558db640038f",
+    "build_hash": "303e2790c3109360166a8a56944a2f8b1d6adff7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,61 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-gifting-badge-complex-art",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-09-11T21:51:56Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-gifting-badge-complex-art",
-            "kind": "user",
-            "timestamp": "2026-09-11T21:51:56Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -76,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-11T21:55:04.756485+00:00"
+    "timestamp": "2026-09-11T22:05:51.140554+00:00"
 }
