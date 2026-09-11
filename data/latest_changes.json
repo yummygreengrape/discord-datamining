@@ -1,5 +1,5 @@
 {
-    "build_hash": "f6f36e527dbbadbd4fc24b8f8fe002cca26cb61c",
+    "build_hash": "5cddfc3abe7fabe904b2fb20b954645d0cd57c24",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [
         {
@@ -11,20 +11,214 @@
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-04-badge-discovery",
+            "id": "2026-03-quest-home-bounties",
             "kind": "user",
             "status": "deleted",
-            "timestamp": "2026-09-11T17:44:12Z",
+            "timestamp": "2026-09-11T18:00:24Z",
             "treatments": [
-                "Variant 0",
                 "Variant 1"
             ],
             "variations": {
-                "0": {
-                    "enabled": false
-                },
                 "1": {
                     "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "ctaTimerMilliSeconds",
+                "enabled",
+                "loopingEnabled",
+                "orbAmount",
+                "rewardTimerSeconds",
+                "verticalScrollEnabled"
+            ],
+            "default_config": {
+                "ctaTimerMilliSeconds": 3000,
+                "enabled": false,
+                "loopingEnabled": false,
+                "orbAmount": 50,
+                "rewardTimerSeconds": 15,
+                "verticalScrollEnabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-bounties-stage-1",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-11T18:00:24Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7",
+                "Variant 8",
+                "Variant 9",
+                "Variant 10"
+            ],
+            "variations": {
+                "1": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "10": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 25,
+                    "verticalScrollEnabled": true
+                },
+                "2": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": true,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "3": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 30,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "4": {
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "5": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 25,
+                    "verticalScrollEnabled": false
+                },
+                "6": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                },
+                "7": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": true,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                },
+                "8": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 30,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                },
+                "9": {
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "autoScrollEndCardMs",
+                "autoScrollLeadMs",
+                "ctaTimerMilliSeconds",
+                "enabled",
+                "peekFraction",
+                "scrollAffordanceVariant",
+                "verticalScrollEnabled"
+            ],
+            "default_config": {
+                "autoScrollEndCardMs": 3000,
+                "autoScrollLeadMs": 3000,
+                "ctaTimerMilliSeconds": 0,
+                "enabled": false,
+                "peekFraction": 0,
+                "scrollAffordanceVariant": "none",
+                "verticalScrollEnabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-bounties-vertical-scroll",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-11T18:00:24Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5"
+            ],
+            "variations": {
+                "1": {
+                    "autoScrollEndCardMs": 3000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "none",
+                    "verticalScrollEnabled": false
+                },
+                "2": {
+                    "autoScrollEndCardMs": 3000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "none",
+                    "verticalScrollEnabled": true
+                },
+                "3": {
+                    "autoScrollEndCardMs": 3000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "indicator",
+                    "verticalScrollEnabled": true
+                },
+                "4": {
+                    "autoScrollEndCardMs": 3000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "auto",
+                    "verticalScrollEnabled": true
+                },
+                "5": {
+                    "autoScrollEndCardMs": 3000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0.12,
+                    "scrollAffordanceVariant": "peek",
+                    "verticalScrollEnabled": true
                 }
             }
         }
@@ -39,19 +233,211 @@
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-04-badge-discovery",
+            "id": "2026-03-quest-home-bounties",
             "kind": "user",
-            "timestamp": "2026-09-11T17:44:12Z",
+            "timestamp": "2026-09-11T18:00:24Z",
             "treatments": [
-                "Variant 0",
                 "Variant 1"
             ],
             "variations": {
-                "0": {
-                    "enabled": false
-                },
                 "1": {
                     "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "ctaTimerMilliSeconds",
+                "enabled",
+                "loopingEnabled",
+                "orbAmount",
+                "rewardTimerSeconds",
+                "verticalScrollEnabled"
+            ],
+            "default_config": {
+                "ctaTimerMilliSeconds": 3000,
+                "enabled": false,
+                "loopingEnabled": false,
+                "orbAmount": 50,
+                "rewardTimerSeconds": 15,
+                "verticalScrollEnabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-bounties-stage-1",
+            "kind": "user",
+            "timestamp": "2026-09-11T18:00:24Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7",
+                "Variant 8",
+                "Variant 9",
+                "Variant 10"
+            ],
+            "variations": {
+                "1": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "10": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 25,
+                    "verticalScrollEnabled": true
+                },
+                "2": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": true,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "3": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 30,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "4": {
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": false
+                },
+                "5": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 25,
+                    "verticalScrollEnabled": false
+                },
+                "6": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                },
+                "7": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": true,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                },
+                "8": {
+                    "ctaTimerMilliSeconds": 3000,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 30,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                },
+                "9": {
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "loopingEnabled": false,
+                    "orbAmount": 50,
+                    "rewardTimerSeconds": 15,
+                    "verticalScrollEnabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "autoScrollEndCardMs",
+                "autoScrollLeadMs",
+                "ctaTimerMilliSeconds",
+                "enabled",
+                "peekFraction",
+                "scrollAffordanceVariant",
+                "verticalScrollEnabled"
+            ],
+            "default_config": {
+                "autoScrollEndCardMs": 3000,
+                "autoScrollLeadMs": 3000,
+                "ctaTimerMilliSeconds": 0,
+                "enabled": false,
+                "peekFraction": 0,
+                "scrollAffordanceVariant": "none",
+                "verticalScrollEnabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-bounties-vertical-scroll",
+            "kind": "user",
+            "timestamp": "2026-09-11T18:00:24Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5"
+            ],
+            "variations": {
+                "1": {
+                    "autoScrollEndCardMs": 3000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "none",
+                    "verticalScrollEnabled": false
+                },
+                "2": {
+                    "autoScrollEndCardMs": 3000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "none",
+                    "verticalScrollEnabled": true
+                },
+                "3": {
+                    "autoScrollEndCardMs": 3000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "indicator",
+                    "verticalScrollEnabled": true
+                },
+                "4": {
+                    "autoScrollEndCardMs": 3000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0,
+                    "scrollAffordanceVariant": "auto",
+                    "verticalScrollEnabled": true
+                },
+                "5": {
+                    "autoScrollEndCardMs": 3000,
+                    "autoScrollLeadMs": 3000,
+                    "ctaTimerMilliSeconds": 0,
+                    "enabled": true,
+                    "peekFraction": 0.12,
+                    "scrollAffordanceVariant": "peek",
+                    "verticalScrollEnabled": true
                 }
             }
         }
@@ -61,8 +447,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-quest-home-bounties-feature-gate",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-11T18:00:24Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-quest-home-bounties-feature-gate",
+            "kind": "user",
+            "timestamp": "2026-09-11T18:00:24Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -75,5 +506,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-11T17:51:20.717854+00:00"
+    "timestamp": "2026-09-11T18:02:13.663291+00:00"
 }
