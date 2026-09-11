@@ -1,5 +1,5 @@
 {
-    "build_hash": "bbebda78efe57a1f11fd32d66aae13e4b8ee281c",
+    "build_hash": "f26fa4db213f4868b3576ef2dfb83cec00736644",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "Asusmn": "You’ve hit the max number of projects.",
-                "DT6qly": "Did you cast Haste? Wait a moment, then try again."
+                "w4GEvw": "{days, number}d left"
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +24,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-11T19:07:13.473809+00:00"
+    "timestamp": "2026-09-11T19:18:06.967539+00:00"
 }
