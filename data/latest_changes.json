@@ -1,5 +1,5 @@
 {
-    "build_hash": "38e855595bffd053ef7c5384d186c44a6af08739",
+    "build_hash": "32d1338dc8cc1e2af8ac61ad23a9fd2f76857de1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,127 +8,82 @@
     "modified_experiment_details": [
         {
             "config_keys": [
-                "probeAudioEffects"
+                "agc2Enabled",
+                "noiseCancellationDuringProcessing",
+                "vadKrispActivationThreshold"
             ],
             "default_config": {
-                "probeAudioEffects": false
+                "agc2Enabled": false,
+                "noiseCancellationDuringProcessing": false,
+                "vadKrispActivationThreshold": 0.5
             },
             "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
-            "id": "2026-03-audio-effects-probe",
+            "id": "2026-09-agc2-mobile",
             "kind": "user",
             "old_config_keys": [
-                "probeAudioEffects"
+                "agc2Enabled",
+                "noiseCancellationDuringProcessing",
+                "vadKrispActivationThreshold"
             ],
+            "old_default_config": {
+                "agc2Enabled": false,
+                "noiseCancellationDuringProcessing": false,
+                "vadKrispActivationThreshold": 0.5
+            },
             "old_experiment_type": "apex",
             "old_kind": "user",
             "old_treatments": [
-                "Variant 1"
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
             ],
-            "old_variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            },
             "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            }
+            "treatments": []
         }
     ],
     "modified_experiments": [
         {
             "config_keys": [
-                "probeAudioEffects"
+                "agc2Enabled",
+                "noiseCancellationDuringProcessing",
+                "vadKrispActivationThreshold"
             ],
             "default_config": {
-                "probeAudioEffects": false
+                "agc2Enabled": false,
+                "noiseCancellationDuringProcessing": false,
+                "vadKrispActivationThreshold": 0.5
             },
             "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
-            "id": "2026-03-audio-effects-probe",
+            "id": "2026-09-agc2-mobile",
             "kind": "user",
             "old_config_keys": [
-                "probeAudioEffects"
+                "agc2Enabled",
+                "noiseCancellationDuringProcessing",
+                "vadKrispActivationThreshold"
             ],
+            "old_default_config": {
+                "agc2Enabled": false,
+                "noiseCancellationDuringProcessing": false,
+                "vadKrispActivationThreshold": 0.5
+            },
             "old_experiment_type": "apex",
             "old_kind": "user",
             "old_treatments": [
-                "Variant 1"
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
             ],
-            "old_variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            },
             "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "probeAudioEffects": true
-                }
-            }
+            "treatments": []
         }
     ],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "agc2Enabled",
-                "noiseCancellationDuringProcessing",
-                "vadKrispActivationThreshold"
-            ],
-            "default_config": {
-                "agc2Enabled": false,
-                "noiseCancellationDuringProcessing": false,
-                "vadKrispActivationThreshold": 0.5
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-agc2-mobile",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-09-11T22:26:16Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ]
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "agc2Enabled",
-                "noiseCancellationDuringProcessing",
-                "vadKrispActivationThreshold"
-            ],
-            "default_config": {
-                "agc2Enabled": false,
-                "noiseCancellationDuringProcessing": false,
-                "vadKrispActivationThreshold": 0.5
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-agc2-mobile",
-            "kind": "user",
-            "timestamp": "2026-09-11T22:26:16Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ]
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -142,5 +97,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-11T22:26:50.079101+00:00"
+    "timestamp": "2026-09-11T22:37:32.467333+00:00"
 }
