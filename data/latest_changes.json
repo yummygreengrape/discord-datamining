@@ -1,5 +1,5 @@
 {
-    "build_hash": "f691cbbd2a1b635e84ba818dbcaaf7c8b8fb5cea",
+    "build_hash": "c9722dfb89585a18ffc83e1f61e46b8fafa12206",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -10,11 +10,10 @@
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
+    "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/NKLK5": "Browse All Widgets"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -24,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-11T19:29:11.326212+00:00"
+    "timestamp": "2026-09-11T19:34:50.694621+00:00"
 }
