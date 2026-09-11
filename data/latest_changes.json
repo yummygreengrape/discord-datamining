@@ -1,15 +1,134 @@
 {
-    "build_hash": "303e2790c3109360166a8a56944a2f8b1d6adff7",
+    "build_hash": "38e855595bffd053ef7c5384d186c44a6af08739",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "probeAudioEffects"
+            ],
+            "default_config": {
+                "probeAudioEffects": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-audio-effects-probe",
+            "kind": "user",
+            "old_config_keys": [
+                "probeAudioEffects"
+            ],
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "probeAudioEffects": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "probeAudioEffects": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "probeAudioEffects"
+            ],
+            "default_config": {
+                "probeAudioEffects": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-audio-effects-probe",
+            "kind": "user",
+            "old_config_keys": [
+                "probeAudioEffects"
+            ],
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "probeAudioEffects": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "probeAudioEffects": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "agc2Enabled",
+                "noiseCancellationDuringProcessing",
+                "vadKrispActivationThreshold"
+            ],
+            "default_config": {
+                "agc2Enabled": false,
+                "noiseCancellationDuringProcessing": false,
+                "vadKrispActivationThreshold": 0.5
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-agc2-mobile",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-11T22:26:16Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ]
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "agc2Enabled",
+                "noiseCancellationDuringProcessing",
+                "vadKrispActivationThreshold"
+            ],
+            "default_config": {
+                "agc2Enabled": false,
+                "noiseCancellationDuringProcessing": false,
+                "vadKrispActivationThreshold": 0.5
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-agc2-mobile",
+            "kind": "user",
+            "timestamp": "2026-09-11T22:26:16Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +142,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-11T22:05:51.140554+00:00"
+    "timestamp": "2026-09-11T22:26:50.079101+00:00"
 }
