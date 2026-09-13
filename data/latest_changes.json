@@ -1,5 +1,5 @@
 {
-    "build_hash": "2dfee5fbb830730d47468fce6d0312bd17afc634",
+    "build_hash": "1ab9d8672f64b4609b883d83c54adb79349e601e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "5yvj+f": "A spinning, lit 3D globe drawn by Rust running as WebAssembly, on WebGPU where available.",
+                "ieAgex": "Rust Sphere"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-13T22:54:10.752605+00:00"
+    "timestamp": "2026-09-13T23:35:34.519288+00:00"
 }
