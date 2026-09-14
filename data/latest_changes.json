@@ -1,5 +1,5 @@
 {
-    "build_hash": "e8543df71778ec8b07c3e4e0cad5fd43e280daa6",
+    "build_hash": "9c79c90a5b4dba42527cf187a5d2537772ad0ff2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -46,10 +46,19 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "5C3rVr": "사용자명",
+                "HWT3wh": "친구 요청 보내기",
+                "w4GEvw": "{days}일 남음"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "kedGua": {
+                    "new_value": "알림, 신규 {count}개",
+                    "old_value": "{count}"
+                }
+            }
         }
     },
-    "timestamp": "2026-09-14T23:38:43.948614+00:00"
+    "timestamp": "2026-09-14T23:49:27.926170+00:00"
 }
