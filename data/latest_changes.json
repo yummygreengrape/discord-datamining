@@ -1,5 +1,5 @@
 {
-    "build_hash": "19f42d464e36fd5b8e010f56e5c7b97833fb4c1d",
+    "build_hash": "c1659aabd24d222a89b63f0fe0d30897599bb35b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,18 +41,18 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
+            "added": {
                 "dUPcpR": "{name}, starts in {time}",
                 "gYiBrD": "Exit grid view",
                 "lykjkX": "Enter grid view",
                 "q8TlkE": "{name}, ended {time} ago",
                 "zc1itm": "{name}, playing"
             },
+            "deleted": {},
             "modified": {
                 "6XuC8e": {
-                    "new_value": "Alternate angle",
-                    "old_value": "Alternate point of view"
+                    "new_value": "Alternate point of view",
+                    "old_value": "Alternate angle"
                 }
             }
         },
@@ -62,5 +62,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-14T23:06:17.884021+00:00"
+    "timestamp": "2026-09-14T23:17:04.409529+00:00"
 }
