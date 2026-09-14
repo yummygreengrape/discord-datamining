@@ -1,5 +1,5 @@
 {
-    "build_hash": "6145050c5962db7c3c8505c1f4572e452fa9e121",
+    "build_hash": "19f42d464e36fd5b8e010f56e5c7b97833fb4c1d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,23 +41,18 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "Pla5Vk": "Eligible items"
-            },
+            "added": {},
             "deleted": {
-                "E0SFb7": "View all Items",
-                "maMl3x": "Claim Reward",
-                "nSY5Wy": "Use Now",
-                "oLxnTH": "View all items"
+                "dUPcpR": "{name}, starts in {time}",
+                "gYiBrD": "Exit grid view",
+                "lykjkX": "Enter grid view",
+                "q8TlkE": "{name}, ended {time} ago",
+                "zc1itm": "{name}, playing"
             },
             "modified": {
-                "GNHAfw": {
-                    "new_value": "Quest Reserve",
-                    "old_value": "Quest"
-                },
-                "qS9MOl": {
-                    "new_value": "Quest Reserves",
-                    "old_value": "Quests"
+                "6XuC8e": {
+                    "new_value": "Alternate angle",
+                    "old_value": "Alternate point of view"
                 }
             }
         },
@@ -67,5 +62,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-14T22:55:30.376098+00:00"
+    "timestamp": "2026-09-14T23:06:17.884021+00:00"
 }
