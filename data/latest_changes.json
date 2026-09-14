@@ -1,5 +1,5 @@
 {
-    "build_hash": "52d7920a7ac8cddb8c35bd917be15dda60ebd990",
+    "build_hash": "67bb6ea64779ceee51445203a7a9d5acc313fa8c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,16 +14,46 @@
     "string_changes": {
         "en": {
             "added": {
-                "DESIGN_SYSTEM_AI_LOADER": "Design Systems (AI Loader)"
+                "1ADi0d": "Snag a sweet 6-month discount",
+                "BTLkvw": "Offers may differ for new and current YouTube Premium subscribers. Redeem with a single-use code. [Terms apply]({helpCenterUrl}).",
+                "CwMGMb": "20% Off For 6 Months",
+                "FSFi1k": "Take 20% off your next 6 months of YouTube Premium. [Terms apply]({helpCenterUrl}).",
+                "GHtnoW": "Snag a sweet deal with Nitro",
+                "J8CVYT": "Current YouTube Premium subscriber? [Follow this guide]({helpCenterUrl}).",
+                "KfOPbQ": "Redeem",
+                "MrgHvR": "Take 20% off your next 6 months of YouTube Premium. [Terms apply]({helpCenterUrl}).",
+                "NNPh/j": "Snag your 6-month discount",
+                "P5sLUo": "Take 20% off your next 6 months, whether you're new to YouTube Premium or already in. [Terms apply]({helpCenterUrl}).",
+                "TDZUui": "YouTube Premium Reward",
+                "TgHy6p": "New or current YouTube Premium subscribers can access 20% off for 6 months.",
+                "VwLXyT": "Unlock Offer",
+                "mwOvZQ": "New Nitro reward just landed",
+                "oMk0zq": "Take 20% off your next 6 months of YouTube Premium. [Terms apply]({helpCenterUrl})."
             },
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "1ADi0d": "특별한 6개월 할인 혜택을 잡으세요",
+                "BTLkvw": "YouTube Premium 신규 및 기존 구독자에 따라 혜택이 다를 수 있습니다. 일회용 코드로 교환하세요. [약관이 적용됩니다]({helpCenterUrl}).",
+                "CwMGMb": "6개월 동안 20% 할인",
+                "FSFi1k": "향후 6개월 동안 YouTube Premium을 20% 할인받으세요. [약관이 적용됩니다]({helpCenterUrl}).",
+                "GHtnoW": "Nitro로 특별한 혜택을 잡으세요",
+                "J8CVYT": "현재 YouTube Premium을 구독 중이신가요? [이 가이드를 따르세요]({helpCenterUrl}).",
+                "KfOPbQ": "적용하기",
+                "MrgHvR": "향후 6개월 동안 YouTube Premium을 20% 할인받으세요. [약관이 적용됩니다]({helpCenterUrl}).",
+                "NNPh/j": "6개월 할인 혜택을 잡으세요",
+                "P5sLUo": "YouTube Premium 신규 가입자든 기존 구독자든 향후 6개월 동안 20% 할인을 받으세요. [약관이 적용됩니다]({helpCenterUrl}).",
+                "TDZUui": "YouTube Premium 보상",
+                "TgHy6p": "YouTube Premium 신규 또는 기존 구독자는 6개월 동안 20% 할인을 받을 수 있습니다.",
+                "VwLXyT": "혜택 잠금 해제",
+                "mwOvZQ": "새로운 Nitro 보상이 도착했어요",
+                "oMk0zq": "향후 6개월 동안 YouTube Premium을 20% 할인받으세요. [약관이 적용됩니다]({helpCenterUrl})."
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-14T15:46:56.939547+00:00"
+    "timestamp": "2026-09-14T15:57:42.097075+00:00"
 }
