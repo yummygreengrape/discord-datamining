@@ -1,43 +1,8 @@
 {
-    "build_hash": "957859a977c2da3b2ee234aa2de0d17b5f491fee",
+    "build_hash": "271802f57c730b2ce0052b236af8045051218b89",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "paymentsBlocked"
-            ],
-            "default_config": {
-                "paymentsBlocked": false
-            },
-            "experiment_source": "self_extraction",
-            "id": "2022-03_block_russian_purchases",
-            "kind": "user",
-            "status": "deleted",
-            "title": "Block purchases based on country",
-            "treatments": [
-                "Control",
-                "Treatment 1: Payments Blocked"
-            ]
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "paymentsBlocked"
-            ],
-            "default_config": {
-                "paymentsBlocked": false
-            },
-            "experiment_source": "self_extraction",
-            "id": "2022-03_block_russian_purchases",
-            "kind": "user",
-            "title": "Block purchases based on country",
-            "treatments": [
-                "Control",
-                "Treatment 1: Payments Blocked"
-            ]
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -86,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-14T18:49:43.113741+00:00"
+    "timestamp": "2026-09-14T19:00:29.026218+00:00"
 }
