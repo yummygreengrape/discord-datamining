@@ -1,5 +1,5 @@
 {
-    "build_hash": "8bc1432cad6aa3290c9f92b30334a2443cda5220",
+    "build_hash": "e45917698761b0a24af230ce05e3f4054bbc76a9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-badge-directory-updates",
+            "kind": "user",
+            "timestamp": "2026-09-14T20:17:11Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "5d22a5f54de0297b9577e25d6d33ec6b",
@@ -41,7 +53,10 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "2m/g2c": "Your progress",
+                "XmaiRQ": "Unlocked {date, date, short}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +66,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-14T20:03:51.888941+00:00"
+    "timestamp": "2026-09-14T20:24:50.279325+00:00"
 }
