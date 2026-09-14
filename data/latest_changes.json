@@ -1,5 +1,5 @@
 {
-    "build_hash": "e58cc25dedba5a9fbd322322c579953dc0d77e41",
+    "build_hash": "b12b6c7b0c380a3ae567723b7d3ab5c366da4e1f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -10,7 +10,35 @@
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
-    "rollout_changes": [],
+    "rollout_changes": [
+        {
+            "change_id": "5d22a5f54de0297b9577e25d6d33ec6b",
+            "changed_at": "2026-09-14T17:55:37.329643+00:00",
+            "changes": [
+                {
+                    "after": 3,
+                    "before": 4,
+                    "type": "override_rules_changed"
+                }
+            ],
+            "id": "2026-06_guild_rooms",
+            "kind": "guild",
+            "labels": {
+                "0": "Control",
+                "1": "Treatment 1: Enable Guild Rooms in this guild",
+                "2": "Treatment 2: Enable Guild Rooms without Interactions",
+                "5": "Treatment 5: Enable Guild Rooms with Room 2 Default and Selector"
+            },
+            "limits": [
+                "guild_id_list"
+            ],
+            "revision": {
+                "after": 0,
+                "before": 0
+            },
+            "source": "discord"
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -23,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-14T17:45:09.414785+00:00"
+    "timestamp": "2026-09-14T17:55:51.643271+00:00"
 }
