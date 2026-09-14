@@ -1,5 +1,5 @@
 {
-    "build_hash": "02de778fef12f6e67a80b1923361e2327bb864a7",
+    "build_hash": "60de447970e60cc2d02c28232faa37c06fc50579",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,95 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "analysis": {
-                "detailed_summary": "현재 Canary의 공용 파일 업로드 경로는 JXR, WDP, HDP 확장자나 대응 MIME 형식을 감지하면 이름이 명시된 JXR 변환 실험을 지연 로드합니다. 설정이 켜지고 파일 크기 조건을 만족하면 지정된 품질로 JPEG를 만든 뒤 그 파일을 업로드하며, 변환할 수 없으면 원본으로 계속 진행합니다. 실험 정의가 든 지연 청크 자체는 이번 로컬 스냅샷에 없지만, 동일 ID의 현재 history 행과 이름이 지정된 소비 호출을 함께 확인했습니다.",
-                "evidence": [
-                    "The shared current upload flow detects JXR, WDP, HDP, image/jxr, and image/vnd.ms-photo files.",
-                    "That path dynamically loads JxrUploadConversionExperiment and applies enabled, quality, and maxFileSizeBytes before upload.",
-                    "The exact experiment identity is present in current history, while the lazy definition chunk is not available in this local snapshot."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "JXR 계열 이미지 업로드",
-                "generated_at": "2026-09-12T04:08:49Z",
-                "importance": "medium",
-                "summary": "JXR·WDP·HDP 이미지를 올릴 때 JPEG로 변환해 전송하는 실험입니다.",
-                "why_it_matters": "Windows 계열 고효율 이미지 형식을 다른 기기와 브라우저에서도 열기 쉬운 JPEG로 바꿔 첨부 호환성을 높일 수 있습니다."
-            },
-            "analysis_en": {
-                "detailed_summary": "The shared upload path in current Canary detects JXR, WDP, and HDP extensions and their matching MIME types, then lazily loads the named JXR conversion experiment. When enabled and within its size limit, the path creates a JPEG at the configured quality before uploading it; a conversion failure keeps the original file. The lazy chunk containing the experiment definition is not present in this local snapshot, but the current history identity and the explicitly named consumer call are both available.",
-                "evidence": [
-                    "The shared current upload flow detects JXR, WDP, HDP, image/jxr, and image/vnd.ms-photo files.",
-                    "That path dynamically loads JxrUploadConversionExperiment and applies enabled, quality, and maxFileSizeBytes before upload.",
-                    "The exact experiment identity is present in current history, while the lazy definition chunk is not available in this local snapshot."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "JXR-family image uploads",
-                "generated_at": "2026-09-12T04:08:49Z",
-                "importance": "medium",
-                "summary": "Converts JXR, WDP, and HDP images to JPEG before upload.",
-                "why_it_matters": "This may make Windows-oriented image formats easier to open across devices and browsers by sending a broadly supported JPEG instead."
-            },
-            "config_keys": [
-                "enabled",
-                "quality"
-            ],
-            "default_config": {
-                "enabled": false,
-                "quality": 85
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-jxr-upload-conversion",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "quality": 85
-                },
-                "1": {
-                    "enabled": true,
-                    "quality": 85
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "quality"
-            ],
-            "default_config": {
-                "enabled": false,
-                "quality": 85
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-jxr-upload-conversion",
-            "kind": "user",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "quality": 85
-                },
-                "1": {
-                    "enabled": true,
-                    "quality": 85
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "5d22a5f54de0297b9577e25d6d33ec6b",
@@ -129,20 +42,15 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "E0SFb7": "View all Items",
-                "maMl3x": "Claim Reward",
-                "nSY5Wy": "Use Now",
-                "oLxnTH": "View all items"
-            },
+            "deleted": {},
             "modified": {
                 "GNHAfw": {
-                    "new_value": "Quest Reserve",
-                    "old_value": "Quest"
+                    "new_value": "Quest",
+                    "old_value": "Quest Reserve"
                 },
                 "qS9MOl": {
-                    "new_value": "Quest Reserves",
-                    "old_value": "Quests"
+                    "new_value": "Quests",
+                    "old_value": "Quest Reserves"
                 }
             }
         },
@@ -152,5 +60,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-14T22:22:25.437129+00:00"
+    "timestamp": "2026-09-14T22:34:15.049504+00:00"
 }
