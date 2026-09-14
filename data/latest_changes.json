@@ -1,5 +1,5 @@
 {
-    "build_hash": "a8b31b23ff37aedb483e24af9ea12e7db8882bb9",
+    "build_hash": "3a132a5c31b4722b138f645332fd12c0ab0a8488",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,15 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "5C3rVr": "Username",
-                "6dVPSI": "Add a note (optional)",
-                "HWT3wh": "Send Friend Request",
-                "bTMtdN": "e.g. let's be friends yipee!",
-                "jx0GiG": "e.g. wumpus",
-                "t1T3kD": "Copy friend link",
-                "tBOSx4": "Friend link copied"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -31,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-14T16:40:43.787252+00:00"
+    "timestamp": "2026-09-14T16:51:28.834760+00:00"
 }
