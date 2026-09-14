@@ -1,5 +1,5 @@
 {
-    "build_hash": "d77a36c034c7ffe4557115b4dec4cc21d22aea75",
+    "build_hash": "56f5b7313701941db4c2b55764fc1c3e7aa82292",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,7 +41,13 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "E0SFb7": "View all Items",
+                "Pla5Vk": "Eligible items",
+                "maMl3x": "Claim Reward",
+                "nSY5Wy": "Use Now",
+                "oLxnTH": "View all items"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +57,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-14T22:00:55.776116+00:00"
+    "timestamp": "2026-09-14T22:11:40.246155+00:00"
 }
