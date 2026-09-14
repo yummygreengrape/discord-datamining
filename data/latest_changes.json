@@ -1,8 +1,51 @@
 {
-    "build_hash": "3d330b767f63ba13058fb392398217d0c66361c0",
+    "build_hash": "d3dc977473ca8db5fc0e67e82460a6de80e06390",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2025-09-threads-also-send-to-channel",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2025-09-threads-also-send-to-channel",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -51,5 +94,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-14T19:11:13.002575+00:00"
+    "timestamp": "2026-09-14T19:42:22.535135+00:00"
 }
