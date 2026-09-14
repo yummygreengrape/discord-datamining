@@ -1,89 +1,8 @@
 {
-    "build_hash": "fcbb6b681193a430a7406c130fb11a0324e0f5e6",
+    "build_hash": "02d6084ff5760bc98a749f8d7d47f55854d87e3c",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "guildActivitiesEnabled",
-                "voiceChannelActivitiesEnabled"
-            ],
-            "default_config": {
-                "guildActivitiesEnabled": false,
-                "voiceChannelActivitiesEnabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-12-social-layer-storefront-activity-card-entrypoints-user-experiment",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-14T18:16:55Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "0": {
-                    "guildActivitiesEnabled": false,
-                    "voiceChannelActivitiesEnabled": false
-                },
-                "1": {
-                    "guildActivitiesEnabled": false,
-                    "voiceChannelActivitiesEnabled": true
-                },
-                "2": {
-                    "guildActivitiesEnabled": true,
-                    "voiceChannelActivitiesEnabled": false
-                },
-                "3": {
-                    "guildActivitiesEnabled": true,
-                    "voiceChannelActivitiesEnabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "guildActivitiesEnabled",
-                "voiceChannelActivitiesEnabled"
-            ],
-            "default_config": {
-                "guildActivitiesEnabled": false,
-                "voiceChannelActivitiesEnabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-12-social-layer-storefront-activity-card-entrypoints-user-experiment",
-            "kind": "user",
-            "timestamp": "2026-09-14T18:16:55Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "0": {
-                    "guildActivitiesEnabled": false,
-                    "voiceChannelActivitiesEnabled": false
-                },
-                "1": {
-                    "guildActivitiesEnabled": false,
-                    "voiceChannelActivitiesEnabled": true
-                },
-                "2": {
-                    "guildActivitiesEnabled": true,
-                    "voiceChannelActivitiesEnabled": false
-                },
-                "3": {
-                    "guildActivitiesEnabled": true,
-                    "voiceChannelActivitiesEnabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -123,64 +42,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "hxYr9D": "**Nitro Exclusive: Get {applicationName} items with Orbs while supplies last!** Ends {endDate}."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "hxYr9D": "bHookNitro 전용: 물량이 소진되기 전에 Orbs로 아이템 {applicationName}개를 받아 가세요! {endDate}에 종료돼요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "hxYr9D": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "문구는 Nitro 전용, Orbs 사용, 재고 소진 가능성과 endDate를 한 번에 명시합니다. 같은 시점의 `2026-07-social-layer-storefront-spend-orbs-banner-copy` 실험이 storefront 배너 문구를 뒷받침합니다. 표시된 앱·재고·종료일 범위 밖의 상시 혜택으로 해석하면 안 됩니다.",
-                    "generated_at": "2026-07-30T09:14:41.320Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "Nitro Exclusive",
-                        "Discord Orbs",
-                        "storefront",
-                        "application items",
-                        "while supplies last",
-                        "end date"
-                    ],
-                    "search_intent": "Discord에서 `**Nitro Exclusive: Get {applicationName} items with Orbs while supplies last!** Ends {endDate}.` 문구가 왜 보였는지, 어떤 기능·상태를 뜻하는지, 필요한 대응이 있는지 확인하려는 검색입니다.",
-                    "source_context": "현재 Canary storefront localization과 같은 시점의 Orbs 배너 실험이 Nitro 전용·재고·종료일 조건을 함께 확인합니다.",
-                    "summary": "Nitro 회원이 재고와 종료 기한이 남아 있는 동안 특정 앱 아이템을 Orbs로 받을 수 있다는 배너입니다.",
-                    "what_it_means": "해당 앱 아이템은 표시된 종료일 전, 재고가 남아 있을 때만 Nitro 회원이 Orbs로 받을 수 있다는 뜻입니다.",
-                    "what_to_do": "표시된 applicationName, 필요한 Orbs, endDate와 현재 재고 상태를 확인한 뒤 진행하세요.",
-                    "when_it_appears": "Nitro 자격으로 특정 애플리케이션의 storefront 아이템을 Orbs로 받을 수 있는 기간 한정 제안에서 나타날 수 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The copy explicitly combines Nitro exclusivity, Orbs redemption, limited supply, and an endDate. The same-window `2026-07-social-layer-storefront-spend-orbs-banner-copy` experiment supports a storefront banner. It should not be read as a permanent benefit beyond the displayed application, stock, and deadline.",
-                    "generated_at": "2026-07-30T09:14:41.320Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "Nitro Exclusive",
-                        "Discord Orbs",
-                        "storefront",
-                        "application items",
-                        "while supplies last",
-                        "end date"
-                    ],
-                    "search_intent": "A search to understand why Discord shows `**Nitro Exclusive: Get {applicationName} items with Orbs while supplies last!** Ends {endDate}.`, what feature or state it represents, and whether any action is needed.",
-                    "source_context": "Current Canary storefront localization and the same-window Orbs banner experiment confirm the Nitro, stock, and deadline conditions together.",
-                    "summary": "A banner saying Nitro members can get selected application items with Orbs while supply and time remain.",
-                    "what_it_means": "The selected application items can be obtained with Orbs by eligible Nitro members only before the deadline and while stock remains.",
-                    "what_to_do": "Check the displayed applicationName, required Orbs, endDate, and current availability before proceeding.",
-                    "when_it_appears": "It can appear in a time-limited storefront offer where Nitro eligibility allows selected application items to be obtained with Orbs."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-09-14T18:17:31.134258+00:00"
+    "timestamp": "2026-09-14T18:28:15.836642+00:00"
 }
