@@ -1,8 +1,59 @@
 {
-    "build_hash": "14eb0153c6f0011d0e82f3ed2b8c1ed6fc43e19a",
+    "build_hash": "d386b6147cc132dd62fc531725e50b56ab20f376",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-01-family-center-v3",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-01-family-center-v3",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -23,5 +74,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-14T04:14:31.256890+00:00"
+    "timestamp": "2026-09-14T09:54:39.671654+00:00"
 }
