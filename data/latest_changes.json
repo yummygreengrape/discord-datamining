@@ -1,5 +1,5 @@
 {
-    "build_hash": "bb48ee23b1798a3056747bda723b32cf574c2476",
+    "build_hash": "52d7920a7ac8cddb8c35bd917be15dda60ebd990",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "DESIGN_SYSTEM_AI_LOADER": "Design Systems (AI Loader)"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-14T15:15:45.070038+00:00"
+    "timestamp": "2026-09-14T15:46:56.939547+00:00"
 }
