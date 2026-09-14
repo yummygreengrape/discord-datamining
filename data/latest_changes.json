@@ -1,5 +1,5 @@
 {
-    "build_hash": "a367b1c44bb054e8fb57ab5d96f35aa7464e661b",
+    "build_hash": "5d4d3f0aa5ee6f05b9256cd94ef99f42c92329f0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,7 +41,10 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "4z6ldH": "Cancel upload",
+                "VCQXvr": "Upload canceled"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +54,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-14T21:07:15.784452+00:00"
+    "timestamp": "2026-09-14T21:17:58.933833+00:00"
 }
