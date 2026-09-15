@@ -1,5 +1,5 @@
 {
-    "build_hash": "64b39243fd04cce3483ad10398c507085de3ebb2",
+    "build_hash": "72fc6122812d2f846b19576eb4ed774d7397e8e4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,7 +7,18 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_GUILDS_INTELLIGENCE_LAYER_SEARCH",
+            "status": "added",
+            "url": "/guilds/:param/intelligence-layer/search"
+        },
+        {
+            "name": "INTELLIGENCE_LAYER_SEARCH",
+            "status": "added",
+            "url": "/guilds/:param/intelligence-layer/search"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [
@@ -41,11 +52,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "Q+dH5r": "New look, new challenges",
-                "YKJw4W": "Now your Orbs are easier to track and easier to earn.",
-                "dcOuei": "See Challenges"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -55,5 +62,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-15T21:52:58.713912+00:00"
+    "timestamp": "2026-09-15T22:03:45.879306+00:00"
 }
