@@ -1,5 +1,5 @@
 {
-    "build_hash": "a5b94577d5d9383df621402f278a740f80200fcd",
+    "build_hash": "2b0ad1def83f2992061e7925707a5532cad2b982",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,19 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-new-hscroll",
-            "kind": "user",
-            "timestamp": "2026-09-15T18:43:12Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "5d22a5f54de0297b9577e25d6d33ec6b",
@@ -53,9 +41,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "DESIGN_SYSTEM_AI_SHIMMER": "Design Systems (AI Shimmer)"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -65,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-15T18:49:44.000202+00:00"
+    "timestamp": "2026-09-15T19:00:31.335110+00:00"
 }
