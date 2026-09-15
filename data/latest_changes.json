@@ -1,8 +1,89 @@
 {
-    "build_hash": "638bb272dc81e37280cab288a5d7f4a0ef19063c",
+    "build_hash": "73081930b9901af68e3ecc705868b0e2894aa682",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "variant",
+                        "note": "raw 값은 기본 상태, Nitro Home 타일, 고정 안내 막대, Nitro 탭 말풍선 위치를 나타내지만 이번 빌드에서 확인된 소비 위치는 Nitro 탭 말풍선입니다."
+                    }
+                ],
+                "detailed_summary": "월간 Nitro 구독자에게 연간 플랜 전환 안내를 보여주는 위치를 나누는 실험입니다. raw 값은 기본 상태, Nitro Home 타일, 고정 안내 막대, Nitro 탭 말풍선을 나타내지만, 현재 Canary에서 실제로 확인된 소비 경로는 Nitro 탭 버튼의 말풍선 노출입니다. 이 경로는 연간 전환 안내 문구를 계산하는 별도 copy 실험과 함께 쓰이며, 전환 가능한 연간 플랜과 절약 금액이 있을 때 Nitro 탭에서 안내를 띄울 수 있습니다. Nitro Home 타일과 고정 안내 막대 소비 위치는 이번 번들에서 새로 확인하지 못했습니다.",
+                "evidence": [
+                    "Current Canary module 107857 registers 2026-06-monthly-to-yearly-upsells and exports the placement enum.",
+                    "The current confirmed consumer reads the experiment at NitroTabButton and uses the NITRO_TAB_POPOVER placement.",
+                    "The same area uses yearly-upsell content generated from the monthly-to-yearly copy experiment and savings calculation."
+                ],
+                "evidence_level": "current_canary_consumer_limited",
+                "focus_area": "Nitro 연간 전환 안내 위치",
+                "generated_at": "2026-07-11T04:01:18Z",
+                "importance": "medium",
+                "summary": "월간 Nitro 사용자에게 연간 플랜 전환 안내를 어디에 보여줄지 바꾸는 실험입니다.",
+                "why_it_matters": "사용자가 같은 연간 전환 제안을 어디에서 보느냐에 따라 발견성과 방해 정도가 달라집니다. 현재 확인된 근거만으로는 Nitro 탭 말풍선 위치가 가장 확실하며, 다른 raw 위치 이름은 실제 노출 지점이 다시 확인될 때까지 단정하지 않는 것이 맞습니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "variant",
+                        "note": "Raw values name control, Nitro Home tile, sticky bar, and Nitro tab popover, but this build only reconfirmed the Nitro tab popover consumer."
+                    }
+                ],
+                "detailed_summary": "The experiment splits where the yearly-plan prompt can appear for monthly Nitro subscribers. The raw values name control, Nitro Home tile, sticky bar, and Nitro tab popover placements, but the current Canary build only confirms the Nitro tab popover consumer. That path is used alongside the separate yearly-switch copy experiment, which calculates eligible yearly plans and savings before showing the prompt. The Nitro Home tile and sticky bar consumers were not reconfirmed in this build.",
+                "evidence": [
+                    "Current Canary module 107857 registers 2026-06-monthly-to-yearly-upsells and exports the placement enum.",
+                    "The current confirmed consumer reads the experiment at NitroTabButton and uses the NITRO_TAB_POPOVER placement.",
+                    "The same area uses yearly-upsell content generated from the monthly-to-yearly copy experiment and savings calculation."
+                ],
+                "evidence_level": "current_canary_consumer_limited",
+                "focus_area": "Nitro yearly-switch placement",
+                "generated_at": "2026-07-11T04:01:18Z",
+                "importance": "medium",
+                "summary": "This experiment controls where eligible monthly Nitro users see a prompt to switch to a yearly plan.",
+                "why_it_matters": "Placement affects both discoverability and how intrusive the yearly-switch prompt feels. Based on current evidence, the Nitro tab popover is confirmed; the other raw placement names should not be treated as active visible surfaces until their consumers are found again."
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-monthly-to-yearly-upsells",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-15T20:46:38Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": 0,
+                "1": 1,
+                "2": 2,
+                "3": 3
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-monthly-to-yearly-upsells",
+            "kind": "user",
+            "timestamp": "2026-09-15T20:46:38Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": 0,
+                "1": 1,
+                "2": 2,
+                "3": 3
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -42,14 +123,22 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "KD6MH5": "Same perks you love. Just billed once a year.",
+                "cZPXK6": "Love Nitro? Switch and save {amount}",
+                "xmQfYw": "Save with Annual"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "KD6MH5": "좋아하시는 특전을 그대로 누리시고 1년에 한 번만 결제하세요.",
+                "cZPXK6": "Nitro가 마음에 드시나요? {amount} 할인된 금액으로 구독하세요",
+                "xmQfYw": "연간 구독으로 절약하기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-15T20:37:29.878308+00:00"
+    "timestamp": "2026-09-15T20:48:16.517487+00:00"
 }
