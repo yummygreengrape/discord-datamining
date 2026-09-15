@@ -1,5 +1,5 @@
 {
-    "build_hash": "d85512e27e3f237aed115427496e0e2705b0153a",
+    "build_hash": "d8255a5d82b8fe79650bcea7e81beec93c64fb4b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,7 +41,16 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "CLX+p/": "Mobile only",
+                "OZIOl8": "Checklist for this work",
+                "Sk4CzQ": "{activity}. Show this in the transcript.",
+                "Vpu1Pd": "{count} more working on this",
+                "loFt7s": "Replying to {name}: {content}",
+                "t5mTfU": "Reconnecting — you can change these once the link is back.",
+                "vvxuUI": "Desktop only",
+                "yTB8eu": "{name}, {task}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +60,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-15T01:45:29.954974+00:00"
+    "timestamp": "2026-09-15T02:37:16.442093+00:00"
 }
