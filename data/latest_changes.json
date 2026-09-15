@@ -1,5 +1,5 @@
 {
-    "build_hash": "26667d526360feb148d38e7a8f978e9a6485e43a",
+    "build_hash": "65b52af3c841246d4c0e4769f26d11a75e74fe20",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,12 +41,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "4BsHmp": "Want Conjuring in your own server? Request access in #conjuring-help",
-                "NRqfBN": "Import a project",
-                "ROtSe7": "Start from a zip you already have. Conjure unpacks it and builds it.",
-                "bxn/qp": "Choose a file"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -56,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-15T19:54:26.839661+00:00"
+    "timestamp": "2026-09-15T20:05:11.339814+00:00"
 }
