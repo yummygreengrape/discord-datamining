@@ -1,5 +1,5 @@
 {
-    "build_hash": "81eeceff18806ce1641accdddcfdf49bd6d5dab0",
+    "build_hash": "262c684ff157f5e98e56f5d516a3175473f68f2e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,18 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-update-email-settings-copy-subtext",
+            "kind": "user",
+            "timestamp": "2026-09-15T18:21:57Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "5d22a5f54de0297b9577e25d6d33ec6b",
@@ -43,7 +54,16 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "abaDI+": {
+                    "new_value": "Create a place for you and your friends",
+                    "old_value": "A place for you and your friends"
+                },
+                "rJRote": {
+                    "new_value": "Join communities",
+                    "old_value": "Join Communities"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -51,5 +71,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-15T18:17:25.077559+00:00"
+    "timestamp": "2026-09-15T18:28:09.411873+00:00"
 }
