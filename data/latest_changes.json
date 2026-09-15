@@ -1,5 +1,5 @@
 {
-    "build_hash": "4a52537139b3e65ecd57badaccb077f539d7933e",
+    "build_hash": "72ee06b4e77ea2763e52228b827ec0a0855bc5c6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,11 +41,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "LSoXK5": "(Optional) Send me emails with Discord updates, tips, and special offers. We track opens and clicks to learn what’s useful.",
-                "QSqW06": "Unlock Reward",
-                "WViBDk": "We track email opens and clicks to see what’s useful and improve the emails we send."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -55,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-15T17:33:54.347510+00:00"
+    "timestamp": "2026-09-15T17:45:08.540318+00:00"
 }
