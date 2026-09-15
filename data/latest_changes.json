@@ -1,5 +1,5 @@
 {
-    "build_hash": "0b573fba3cdab143732822f58ccd5f83dddac954",
+    "build_hash": "b94db5ba9fda8e1f4b010662c090549e8f0a3ab1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,15 +41,45 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "/cV3ka": "1GB Uploads",
+                "H523FI": "Your upload limit just jumped to 1GB.",
+                "IyCdAU": "1GB uploads are here",
+                "LhfXZN": "Your file upload limit just jumped to 1GB. That’s a lot of file.",
+                "Ocbn9P": "[Learn more]({deepLinkToNitroHome})",
+                "Uty2/X": "Bigger files await",
+                "VAgI8Q": "Nitro just unlocked 1GB uploads. That’s a whole lot of file.",
+                "mRy6sO": "Unlock with Nitro",
+                "n8j5s/": "Send files up to 1GB. Perfect for game clips, art, and more",
+                "rY0e9i": "1GB uploads, live now"
+            },
+            "deleted": {
+                "Dr3GoS": "Unlock customization and upgrades for everyone:",
+                "PREMIUM_GUILD_SUBSCRIPTION_UPSELL_MODAL_HEADER": "Unlock customization and upgrades for everyone:",
+                "PREMIUM_GUILD_SUBSCRIPTION_UPSELL_MODAL_HEADER_IMG_ALT_TEXT": "Image of a pink crystal with wings",
+                "PkcaAH": "Image of a pink crystal with wings"
+            },
             "modified": {}
         },
         "ko": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "/cV3ka": "1GB 업로드",
+                "H523FI": "업로드 한도가 1GB로 늘어났어요.",
+                "IyCdAU": "1GB 업로드를 이용할 수 있어요",
+                "LhfXZN": "파일 업로드 한도가 1GB로 늘어났어요. 정말 넉넉한 용량이죠.",
+                "Ocbn9P": "[자세히 알아보기]({deepLinkToNitroHome})",
+                "Uty2/X": "더 큰 파일이 기다리고 있어요",
+                "VAgI8Q": "Nitro가 방금 1GB 업로드 기능을 개시했어요. 엄청난 크기의 파일을 전송할 수 있어요.",
+                "mRy6sO": "Nitro로 해제",
+                "n8j5s/": "최대 1GB까지 파일을 전송할 수 있어요. 게임 클립, 아트워크 등에 완벽합니다!",
+                "rY0e9i": "1GB 업로드 기능, 지금 바로 이용 가능"
+            },
+            "deleted": {
+                "Dr3GoS": "모두가 사용할 수 있는 맞춤형 설정과 업그레이드를 잠금 해제합니다.",
+                "PkcaAH": "날개가 달린 분홍색 수정 이미지"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-15T16:29:09.929393+00:00"
+    "timestamp": "2026-09-15T16:39:54.393281+00:00"
 }
