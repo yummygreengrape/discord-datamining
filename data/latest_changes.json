@@ -1,5 +1,5 @@
 {
-    "build_hash": "bcf62adeea5f78c9be59c8a8f18b259165e9ecbd",
+    "build_hash": "5abdd6ab4d565f622c03a533532c11094a6a11ba",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,7 +41,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "zcZtrU": "Customize badges"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +53,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-15T10:44:03.799560+00:00"
+    "timestamp": "2026-09-15T13:39:33.285026+00:00"
 }
