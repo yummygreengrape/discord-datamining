@@ -1,5 +1,5 @@
 {
-    "build_hash": "7ebdc3198c9de2bd608951c18a23ab53d9d814c2",
+    "build_hash": "64b39243fd04cce3483ad10398c507085de3ebb2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,7 +41,11 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Q+dH5r": "New look, new challenges",
+                "YKJw4W": "Now your Orbs are easier to track and easier to earn.",
+                "dcOuei": "See Challenges"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +55,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-15T21:42:12.593698+00:00"
+    "timestamp": "2026-09-15T21:52:58.713912+00:00"
 }
