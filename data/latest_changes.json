@@ -1,32 +1,13 @@
 {
-    "build_hash": "8e93fdcf3eba3cfa160d785a1c467eb60329f4e2",
-    "deleted_api_endpoints": [
-        {
-            "name": "ENDPOINT_GUILDS_INTELLIGENCE_LAYER_SEARCH",
-            "status": "deleted",
-            "url": "/guilds/:param/intelligence-layer/search"
-        }
-    ],
+    "build_hash": "57fac9a2ee03aac70edc6a0a616861de89793375",
+    "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
-    "modified_api_endpoints": [
-        {
-            "name": "INTELLIGENCE_LAYER_SEARCH",
-            "old_url": "/guilds/:param/intelligence-layer/search",
-            "status": "modified",
-            "url": "/guilds/:param/intelligence/search"
-        }
-    ],
+    "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_GUILDS_INTELLIGENCE_SEARCH",
-            "status": "added",
-            "url": "/guilds/:param/intelligence/search"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [
@@ -70,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-15T22:36:00.341068+00:00"
+    "timestamp": "2026-09-15T22:46:44.170926+00:00"
 }
