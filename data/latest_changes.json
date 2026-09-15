@@ -1,5 +1,5 @@
 {
-    "build_hash": "9eaab55f0e4c09948d8968c8377000f7523742a4",
+    "build_hash": "3c48297e8696e5e020f9a0c4f04f7ccbb7acd951",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,11 +41,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "NaUZWO": "**{guildName}** has been removed from Server Discovery because it no longer passes all the requirements. Check Server Settings on desktop for more details.",
-                "bPMe3o": "**{guildName}** has failed Discovery activity requirements for 3 weeks in a row. If this server fails for 1 more week, it will be removed from Discovery.",
-                "fJP+Wx": "**{guildName}** has failed Discovery activity requirements for 1 week. If this server fails for 4 weeks in a row, it will be automatically removed from Discovery."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -55,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-15T00:21:17.619162+00:00"
+    "timestamp": "2026-09-15T00:32:05.512398+00:00"
 }
