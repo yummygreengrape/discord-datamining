@@ -1,5 +1,5 @@
 {
-    "build_hash": "2c3c7e001d582f9e154516fdd76cb9e4a73bed6c",
+    "build_hash": "c20dffe1f3d6e7d670ec2a04d2bbdda94f820580",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,25 +41,359 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "3nB2PV": "Version",
+                "CUAKSg": "Draft — not published",
+                "evGwDW": "Draft — scheduled to go live {timestamp}",
+                "qnSo/i": "Social Commerce",
+                "rbAtUi": "Live — published {timestamp}."
+            },
+            "deleted": {
+                "Id33AH": "This draft has no scheduled publish time.",
+                "QsHYzr": "This storefront is live — published {timestamp}.",
+                "WOZod0": "This draft will go live {timestamp}.",
+                "c2I5Ti": "Preview a draft storefront"
+            },
             "modified": {}
         },
         "ko": {
-            "added": {
-                "+w36yH": "탐색 메뉴",
-                "5UYoSr": "{ctaLabel}, {productLabel}",
-                "PEtHiE": "페이지 더 보기 메뉴",
-                "QSqW06": "보상 잠금 해제",
-                "Yrz9rv": "사용할 수 없음",
-                "bf9uMH": "게임 상점 메뉴",
-                "iw5Ccc": "Orbs 사용",
-                "qINKo/": "오늘 오전 9시",
-                "tWkvsa": "앱"
+            "added": {},
+            "deleted": {
+                "Id33AH": "이 초안에는 예약된 게시 시간이 없습니다.",
+                "QsHYzr": "이 스토어는 운영 중이에요. 운영 개시일:{timestamp}",
+                "WOZod0": "이 초안은 {timestamp}에 라이브 상태가 됩니다.",
+                "c2I5Ti": "스토어 초안 미리 보기"
             },
-            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-16T19:51:23.934388+00:00"
+    "string_context": {
+        "en": {
+            "Id33AH": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "영어 문구는 “Preview a draft storefront”처럼 초안 상태를 더 명확히 하도록 수정됐고, 한국어 최신 문자열도 라이브/초안/운영 개시/교체 상태를 함께 담고 있습니다. 이는 일반 상점 문구가 아니라 storefront 게시 상태를 관리하는 화면의 copy로 해석됩니다.",
+                    "generated_at": "2026-07-10T09:10:48.795305Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "draft storefront",
+                        "live storefront",
+                        "scheduled publish time",
+                        "Game Shop",
+                        "replaced storefront"
+                    ],
+                    "search_intent": "사용자는 storefront 초안 미리 보기가 무엇인지, 스토어가 언제 라이브되는지, 왜 새 스토어로 대체됐다고 뜨는지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "canary/316200a20e21b29c.js and canary/996c272ba8a0cf1e.js contain the matching storefront status labels in English and Korean.",
+                    "summary": "이 문구들은 Discord의 storefront가 초안, 라이브, 예약 공개, 교체됨 같은 게시 상태를 갖는 관리 흐름을 설명합니다.",
+                    "what_it_means": "스토어 항목이 바로 공개되는 것이 아니라 초안, 예약, 라이브, 교체 상태를 거칠 수 있다는 뜻입니다.",
+                    "what_to_do": "",
+                    "when_it_appears": "Game Shop 또는 개발자/스토어 관리 화면에서 storefront 초안과 라이브 상태를 확인할 때 보일 가능성이 큽니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The English copy was tightened to Preview a draft storefront, and the latest Korean strings include live, draft, go-live time, no scheduled publish time, and replaced storefront states. This is best read as storefront publishing status copy rather than generic shop text.",
+                    "generated_at": "2026-07-10T09:10:48.795305Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "draft storefront",
+                        "live storefront",
+                        "scheduled publish time",
+                        "Game Shop",
+                        "replaced storefront"
+                    ],
+                    "search_intent": "Searchers are likely trying to understand what a draft storefront preview is, when a storefront goes live, or why a storefront was replaced by a newer one.",
+                    "source_context": "canary/316200a20e21b29c.js and canary/996c272ba8a0cf1e.js contain the matching storefront status labels in English and Korean.",
+                    "summary": "These strings describe storefront management states such as draft, live, scheduled publish time, and replaced storefront.",
+                    "what_it_means": "It means storefronts can move through draft, scheduled, live, and replaced states instead of publishing immediately.",
+                    "what_to_do": "",
+                    "when_it_appears": "Likely appears in Game Shop or storefront management screens when reviewing draft and live publish states."
+                }
+            },
+            "QsHYzr": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "`Preview a storefront`, `{title} · Draft`, `{title} · Live`, 예약 공개 시간, 이미 게시된 storefront가 새 버전으로 대체되었다는 문구가 같은 묶음에 추가되었습니다. 이는 사용자가 보는 일반 구매 화면이라기보다 storefront를 미리 보고 게시 상태를 확인하는 관리/게시 흐름에 가깝습니다. 다만 현재 근거는 문자열 묶음이므로, 어떤 개발자 도구나 내부 화면에서 노출되는지는 단정하지 않습니다.",
+                    "generated_at": "2026-07-07T09:08:14.994374Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Preview a storefront",
+                        "Live",
+                        "Draft",
+                        "published",
+                        "scheduled publish time",
+                        "replaced storefront",
+                        "Game Shop"
+                    ],
+                    "search_intent": "Discord storefront, Draft, Live, scheduled publish 같은 문구가 무엇을 뜻하는지 확인하려는 검색입니다.",
+                    "source_context": "canary/ddd4c83ed7a83464.js groups storefront status labels with Game Shop, Orbs, Nitro-exclusive purchase, and item detail strings.",
+                    "summary": "이 문구들은 Discord 상점 또는 게임 상점 storefront가 초안, 라이브, 예약 공개, 교체됨 같은 게시 상태를 갖는 흐름을 설명합니다.",
+                    "what_it_means": "Draft는 아직 게시 전 상태, Live는 공개된 상태, scheduled publish는 예약 공개 시간, replaced는 예전 게시본이 새 storefront로 대체되었음을 뜻합니다.",
+                    "when_it_appears": "스토어front를 미리 보거나 게시 예정/게시 완료/교체 상태를 확인하는 상점 관리 또는 preview 화면에서 보일 가능성이 큽니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The added strings include `Preview a storefront`, `{title} · Draft`, `{title} · Live`, scheduled publish time, and a notice that an older storefront was replaced by a newer one. That points more to a storefront management or preview flow than to the normal buyer-facing shop page. The evidence is a string cluster, so the exact developer or admin surface is not confirmed from this data alone.",
+                    "generated_at": "2026-07-07T09:08:14.994374Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Preview a storefront",
+                        "Live",
+                        "Draft",
+                        "published",
+                        "scheduled publish time",
+                        "replaced storefront",
+                        "Game Shop"
+                    ],
+                    "search_intent": "The likely search intent is to understand what Discord means by storefront Draft, Live, scheduled publish, or replaced storefront.",
+                    "source_context": "canary/ddd4c83ed7a83464.js groups storefront status labels with Game Shop, Orbs, Nitro-exclusive purchase, and item detail strings.",
+                    "summary": "These strings describe storefront preview and publishing states such as Draft, Live, scheduled publishing, and replaced versions.",
+                    "what_it_means": "Draft means not yet published, Live means currently published, scheduled publish points to a future go-live time, and replaced means an older published storefront has been superseded.",
+                    "when_it_appears": "Likely appears while previewing a storefront or checking whether a storefront is unpublished, live, scheduled, or superseded by a newer version."
+                }
+            },
+            "WOZod0": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "영어 문구는 “Preview a draft storefront”처럼 초안 상태를 더 명확히 하도록 수정됐고, 한국어 최신 문자열도 라이브/초안/운영 개시/교체 상태를 함께 담고 있습니다. 이는 일반 상점 문구가 아니라 storefront 게시 상태를 관리하는 화면의 copy로 해석됩니다.",
+                    "generated_at": "2026-07-10T09:10:48.795305Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "draft storefront",
+                        "live storefront",
+                        "scheduled publish time",
+                        "Game Shop",
+                        "replaced storefront"
+                    ],
+                    "search_intent": "사용자는 storefront 초안 미리 보기가 무엇인지, 스토어가 언제 라이브되는지, 왜 새 스토어로 대체됐다고 뜨는지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "canary/316200a20e21b29c.js and canary/996c272ba8a0cf1e.js contain the matching storefront status labels in English and Korean.",
+                    "summary": "이 문구들은 Discord의 storefront가 초안, 라이브, 예약 공개, 교체됨 같은 게시 상태를 갖는 관리 흐름을 설명합니다.",
+                    "what_it_means": "스토어 항목이 바로 공개되는 것이 아니라 초안, 예약, 라이브, 교체 상태를 거칠 수 있다는 뜻입니다.",
+                    "what_to_do": "",
+                    "when_it_appears": "Game Shop 또는 개발자/스토어 관리 화면에서 storefront 초안과 라이브 상태를 확인할 때 보일 가능성이 큽니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The English copy was tightened to Preview a draft storefront, and the latest Korean strings include live, draft, go-live time, no scheduled publish time, and replaced storefront states. This is best read as storefront publishing status copy rather than generic shop text.",
+                    "generated_at": "2026-07-10T09:10:48.795305Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "draft storefront",
+                        "live storefront",
+                        "scheduled publish time",
+                        "Game Shop",
+                        "replaced storefront"
+                    ],
+                    "search_intent": "Searchers are likely trying to understand what a draft storefront preview is, when a storefront goes live, or why a storefront was replaced by a newer one.",
+                    "source_context": "canary/316200a20e21b29c.js and canary/996c272ba8a0cf1e.js contain the matching storefront status labels in English and Korean.",
+                    "summary": "These strings describe storefront management states such as draft, live, scheduled publish time, and replaced storefront.",
+                    "what_it_means": "It means storefronts can move through draft, scheduled, live, and replaced states instead of publishing immediately.",
+                    "what_to_do": "",
+                    "when_it_appears": "Likely appears in Game Shop or storefront management screens when reviewing draft and live publish states."
+                }
+            },
+            "c2I5Ti": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "영어 문구는 “Preview a draft storefront”처럼 초안 상태를 더 명확히 하도록 수정됐고, 한국어 최신 문자열도 라이브/초안/운영 개시/교체 상태를 함께 담고 있습니다. 이는 일반 상점 문구가 아니라 storefront 게시 상태를 관리하는 화면의 copy로 해석됩니다.",
+                    "generated_at": "2026-07-10T09:10:48.795305Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "draft storefront",
+                        "live storefront",
+                        "scheduled publish time",
+                        "Game Shop",
+                        "replaced storefront"
+                    ],
+                    "search_intent": "사용자는 storefront 초안 미리 보기가 무엇인지, 스토어가 언제 라이브되는지, 왜 새 스토어로 대체됐다고 뜨는지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "canary/316200a20e21b29c.js and canary/996c272ba8a0cf1e.js contain the matching storefront status labels in English and Korean.",
+                    "summary": "이 문구들은 Discord의 storefront가 초안, 라이브, 예약 공개, 교체됨 같은 게시 상태를 갖는 관리 흐름을 설명합니다.",
+                    "what_it_means": "스토어 항목이 바로 공개되는 것이 아니라 초안, 예약, 라이브, 교체 상태를 거칠 수 있다는 뜻입니다.",
+                    "what_to_do": "",
+                    "when_it_appears": "Game Shop 또는 개발자/스토어 관리 화면에서 storefront 초안과 라이브 상태를 확인할 때 보일 가능성이 큽니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The English copy was tightened to Preview a draft storefront, and the latest Korean strings include live, draft, go-live time, no scheduled publish time, and replaced storefront states. This is best read as storefront publishing status copy rather than generic shop text.",
+                    "generated_at": "2026-07-10T09:10:48.795305Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "draft storefront",
+                        "live storefront",
+                        "scheduled publish time",
+                        "Game Shop",
+                        "replaced storefront"
+                    ],
+                    "search_intent": "Searchers are likely trying to understand what a draft storefront preview is, when a storefront goes live, or why a storefront was replaced by a newer one.",
+                    "source_context": "canary/316200a20e21b29c.js and canary/996c272ba8a0cf1e.js contain the matching storefront status labels in English and Korean.",
+                    "summary": "These strings describe storefront management states such as draft, live, scheduled publish time, and replaced storefront.",
+                    "what_it_means": "It means storefronts can move through draft, scheduled, live, and replaced states instead of publishing immediately.",
+                    "what_to_do": "",
+                    "when_it_appears": "Likely appears in Game Shop or storefront management screens when reviewing draft and live publish states."
+                }
+            }
+        },
+        "ko": {
+            "Id33AH": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "영어 문구는 “Preview a draft storefront”처럼 초안 상태를 더 명확히 하도록 수정됐고, 한국어 최신 문자열도 라이브/초안/운영 개시/교체 상태를 함께 담고 있습니다. 이는 일반 상점 문구가 아니라 storefront 게시 상태를 관리하는 화면의 copy로 해석됩니다.",
+                    "generated_at": "2026-07-16T09:15:49.744650Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "draft storefront",
+                        "live storefront",
+                        "scheduled publish time",
+                        "Game Shop",
+                        "replaced storefront"
+                    ],
+                    "search_intent": "사용자는 storefront 초안 미리 보기가 무엇인지, 스토어가 언제 라이브되는지, 왜 새 스토어로 대체됐다고 뜨는지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "canary/316200a20e21b29c.js and canary/996c272ba8a0cf1e.js contain the matching storefront status labels in English and Korean.",
+                    "summary": "이 문구들은 Discord의 storefront가 초안, 라이브, 예약 공개, 교체됨 같은 게시 상태를 갖는 관리 흐름을 설명합니다.",
+                    "what_it_means": "스토어 항목이 바로 공개되는 것이 아니라 초안, 예약, 라이브, 교체 상태를 거칠 수 있다는 뜻입니다.",
+                    "what_to_do": "",
+                    "when_it_appears": "Game Shop 또는 개발자/스토어 관리 화면에서 storefront 초안과 라이브 상태를 확인할 때 보일 가능성이 큽니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The English copy was tightened to Preview a draft storefront, and the latest Korean strings include live, draft, go-live time, no scheduled publish time, and replaced storefront states. This is best read as storefront publishing status copy rather than generic shop text.",
+                    "generated_at": "2026-07-16T09:15:49.744650Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "draft storefront",
+                        "live storefront",
+                        "scheduled publish time",
+                        "Game Shop",
+                        "replaced storefront"
+                    ],
+                    "search_intent": "Searchers are likely trying to understand what a draft storefront preview is, when a storefront goes live, or why a storefront was replaced by a newer one.",
+                    "source_context": "canary/316200a20e21b29c.js and canary/996c272ba8a0cf1e.js contain the matching storefront status labels in English and Korean.",
+                    "summary": "These strings describe storefront management states such as draft, live, scheduled publish time, and replaced storefront.",
+                    "what_it_means": "It means storefronts can move through draft, scheduled, live, and replaced states instead of publishing immediately.",
+                    "what_to_do": "",
+                    "when_it_appears": "Likely appears in Game Shop or storefront management screens when reviewing draft and live publish states."
+                }
+            },
+            "QsHYzr": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "영어 문구는 “Preview a draft storefront”처럼 초안 상태를 더 명확히 하도록 수정됐고, 한국어 최신 문자열도 라이브/초안/운영 개시/교체 상태를 함께 담고 있습니다. 이는 일반 상점 문구가 아니라 storefront 게시 상태를 관리하는 화면의 copy로 해석됩니다.",
+                    "generated_at": "2026-07-10T09:10:48.795305Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "draft storefront",
+                        "live storefront",
+                        "scheduled publish time",
+                        "Game Shop",
+                        "replaced storefront"
+                    ],
+                    "search_intent": "사용자는 storefront 초안 미리 보기가 무엇인지, 스토어가 언제 라이브되는지, 왜 새 스토어로 대체됐다고 뜨는지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "canary/316200a20e21b29c.js and canary/996c272ba8a0cf1e.js contain the matching storefront status labels in English and Korean.",
+                    "summary": "이 문구들은 Discord의 storefront가 초안, 라이브, 예약 공개, 교체됨 같은 게시 상태를 갖는 관리 흐름을 설명합니다.",
+                    "what_it_means": "스토어 항목이 바로 공개되는 것이 아니라 초안, 예약, 라이브, 교체 상태를 거칠 수 있다는 뜻입니다.",
+                    "what_to_do": "",
+                    "when_it_appears": "Game Shop 또는 개발자/스토어 관리 화면에서 storefront 초안과 라이브 상태를 확인할 때 보일 가능성이 큽니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The English copy was tightened to Preview a draft storefront, and the latest Korean strings include live, draft, go-live time, no scheduled publish time, and replaced storefront states. This is best read as storefront publishing status copy rather than generic shop text.",
+                    "generated_at": "2026-07-10T09:10:48.795305Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "draft storefront",
+                        "live storefront",
+                        "scheduled publish time",
+                        "Game Shop",
+                        "replaced storefront"
+                    ],
+                    "search_intent": "Searchers are likely trying to understand what a draft storefront preview is, when a storefront goes live, or why a storefront was replaced by a newer one.",
+                    "source_context": "canary/316200a20e21b29c.js and canary/996c272ba8a0cf1e.js contain the matching storefront status labels in English and Korean.",
+                    "summary": "These strings describe storefront management states such as draft, live, scheduled publish time, and replaced storefront.",
+                    "what_it_means": "It means storefronts can move through draft, scheduled, live, and replaced states instead of publishing immediately.",
+                    "what_to_do": "",
+                    "when_it_appears": "Likely appears in Game Shop or storefront management screens when reviewing draft and live publish states."
+                }
+            },
+            "WOZod0": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "영어 문구는 “Preview a draft storefront”처럼 초안 상태를 더 명확히 하도록 수정됐고, 한국어 최신 문자열도 라이브/초안/운영 개시/교체 상태를 함께 담고 있습니다. 이는 일반 상점 문구가 아니라 storefront 게시 상태를 관리하는 화면의 copy로 해석됩니다.",
+                    "generated_at": "2026-07-16T09:15:49.744650Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "draft storefront",
+                        "live storefront",
+                        "scheduled publish time",
+                        "Game Shop",
+                        "replaced storefront"
+                    ],
+                    "search_intent": "사용자는 storefront 초안 미리 보기가 무엇인지, 스토어가 언제 라이브되는지, 왜 새 스토어로 대체됐다고 뜨는지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "canary/316200a20e21b29c.js and canary/996c272ba8a0cf1e.js contain the matching storefront status labels in English and Korean.",
+                    "summary": "이 문구들은 Discord의 storefront가 초안, 라이브, 예약 공개, 교체됨 같은 게시 상태를 갖는 관리 흐름을 설명합니다.",
+                    "what_it_means": "스토어 항목이 바로 공개되는 것이 아니라 초안, 예약, 라이브, 교체 상태를 거칠 수 있다는 뜻입니다.",
+                    "what_to_do": "",
+                    "when_it_appears": "Game Shop 또는 개발자/스토어 관리 화면에서 storefront 초안과 라이브 상태를 확인할 때 보일 가능성이 큽니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The English copy was tightened to Preview a draft storefront, and the latest Korean strings include live, draft, go-live time, no scheduled publish time, and replaced storefront states. This is best read as storefront publishing status copy rather than generic shop text.",
+                    "generated_at": "2026-07-16T09:15:49.744650Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "draft storefront",
+                        "live storefront",
+                        "scheduled publish time",
+                        "Game Shop",
+                        "replaced storefront"
+                    ],
+                    "search_intent": "Searchers are likely trying to understand what a draft storefront preview is, when a storefront goes live, or why a storefront was replaced by a newer one.",
+                    "source_context": "canary/316200a20e21b29c.js and canary/996c272ba8a0cf1e.js contain the matching storefront status labels in English and Korean.",
+                    "summary": "These strings describe storefront management states such as draft, live, scheduled publish time, and replaced storefront.",
+                    "what_it_means": "It means storefronts can move through draft, scheduled, live, and replaced states instead of publishing immediately.",
+                    "what_to_do": "",
+                    "when_it_appears": "Likely appears in Game Shop or storefront management screens when reviewing draft and live publish states."
+                }
+            },
+            "c2I5Ti": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "영어 문구는 “Preview a draft storefront”처럼 초안 상태를 더 명확히 하도록 수정됐고, 한국어 최신 문자열도 라이브/초안/운영 개시/교체 상태를 함께 담고 있습니다. 이는 일반 상점 문구가 아니라 storefront 게시 상태를 관리하는 화면의 copy로 해석됩니다.",
+                    "generated_at": "2026-07-16T09:15:49.744650Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "draft storefront",
+                        "live storefront",
+                        "scheduled publish time",
+                        "Game Shop",
+                        "replaced storefront"
+                    ],
+                    "search_intent": "사용자는 storefront 초안 미리 보기가 무엇인지, 스토어가 언제 라이브되는지, 왜 새 스토어로 대체됐다고 뜨는지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "canary/316200a20e21b29c.js and canary/996c272ba8a0cf1e.js contain the matching storefront status labels in English and Korean.",
+                    "summary": "이 문구들은 Discord의 storefront가 초안, 라이브, 예약 공개, 교체됨 같은 게시 상태를 갖는 관리 흐름을 설명합니다.",
+                    "what_it_means": "스토어 항목이 바로 공개되는 것이 아니라 초안, 예약, 라이브, 교체 상태를 거칠 수 있다는 뜻입니다.",
+                    "what_to_do": "",
+                    "when_it_appears": "Game Shop 또는 개발자/스토어 관리 화면에서 storefront 초안과 라이브 상태를 확인할 때 보일 가능성이 큽니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The English copy was tightened to Preview a draft storefront, and the latest Korean strings include live, draft, go-live time, no scheduled publish time, and replaced storefront states. This is best read as storefront publishing status copy rather than generic shop text.",
+                    "generated_at": "2026-07-16T09:15:49.744650Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "draft storefront",
+                        "live storefront",
+                        "scheduled publish time",
+                        "Game Shop",
+                        "replaced storefront"
+                    ],
+                    "search_intent": "Searchers are likely trying to understand what a draft storefront preview is, when a storefront goes live, or why a storefront was replaced by a newer one.",
+                    "source_context": "canary/316200a20e21b29c.js and canary/996c272ba8a0cf1e.js contain the matching storefront status labels in English and Korean.",
+                    "summary": "These strings describe storefront management states such as draft, live, scheduled publish time, and replaced storefront.",
+                    "what_it_means": "It means storefronts can move through draft, scheduled, live, and replaced states instead of publishing immediately.",
+                    "what_to_do": "",
+                    "when_it_appears": "Likely appears in Game Shop or storefront management screens when reviewing draft and live publish states."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-09-16T20:02:08.350895+00:00"
 }
