@@ -1,5 +1,5 @@
 {
-    "build_hash": "140f85a8ea92e4af7527a792bec392396002133a",
+    "build_hash": "de1f6522eb45af3a1bcab397281ab07fad330193",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,18 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-forward-age-restricted-destinations",
-            "kind": "user",
-            "timestamp": "2026-09-16T17:09:13Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "5d22a5f54de0297b9577e25d6d33ec6b",
@@ -52,9 +41,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "QHrFo6": "You can't forward messages to this age-restricted channel."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-16T17:11:39.861744+00:00"
+    "timestamp": "2026-09-16T17:22:26.562195+00:00"
 }
