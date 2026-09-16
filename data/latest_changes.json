@@ -1,5 +1,5 @@
 {
-    "build_hash": "106a8dbcd4c12d079b171ac68c477ce986798b6f",
+    "build_hash": "675d108f3380ea0e5413d1896bd808b00d3d91f0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,7 +41,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0N8fCf": "Oh hey, generous. You've sent enough gifts to earn a profile badge that levels up the more you give."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +53,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-16T21:37:50.122459+00:00"
+    "timestamp": "2026-09-16T21:48:34.442317+00:00"
 }
