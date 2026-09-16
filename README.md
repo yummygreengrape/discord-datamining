@@ -130,15 +130,46 @@ Canary 클라이언트 chunk를 추출해 이전 상태와 비교하고, 실험(
 ## Disclaimer and license / 주의 사항
 
 This is an unofficial project with no affiliation to, endorsement by, or support from Discord Inc.
-Some of the material surfaced by this analysis may remain the property of Discord. Everything here
-exists for studying and analyzing data structures. Please do not repost it elsewhere as your own
-discovery; when citing it, follow the Creative Commons Attribution-ShareAlike licence (CC BY-SA).
+Everything here exists for studying and analyzing data structures.
+
+**What this repository licenses.** The compilation published here — the schema, the selection and
+arrangement of the records, the diff history and any annotation the runner adds — is offered under
+[Creative Commons Attribution-ShareAlike 4.0 International][cc-by-sa] (CC BY-SA 4.0). Credit the
+source with a link to the licence, state whether you changed anything, and share any derivative
+under the same licence.
+
+**What it does not license.** The underlying material is not this project's to relicense:
+
+- Strings, experiment definitions and API routes extracted from the Discord client may remain the
+  property of Discord Inc. They are reproduced here for study and analysis.
+- Guild experiment rollout rows whose `source` is `xhyrom` come from the public
+  [`xhyrom/discord-datamining`](https://github.com/xhyrom/discord-datamining) dataset, which
+  publishes no licence of its own. Every `rollout` object carries its `source`, so check that field
+  before reusing a row.
+- Trademarks, logos and brand assets belong to their owners and are not covered by CC BY-SA.
+
+Please do not repost this work elsewhere as your own discovery.
 
 이 저장소는 디스코드 본사(Discord Inc.)와 전혀 무관하게 운영되는 비공식 공간입니다. 디스코드의 공식적인
-승인이나 지원을 받지 않은 프로젝트이며, 분석 과정에서 수집된 일부 코드의 권리는 디스코드 측에 있을 수
-있음을 미리 알립니다.
+승인이나 지원을 받지 않은 프로젝트이며, 이곳에 기록된 모든 데이터는 순수하게 데이터 구조를 공부하고
+분석하기 위한 용도로만 존재합니다.
 
-이곳에 기록된 모든 데이터는 순수하게 데이터 구조를 공부하고 분석하기 위한 용도로만 존재합니다. 노력이
-담긴 결과물이므로, 이곳의 자료를 다른 SNS 또는 커뮤니티에 마치 자신이 직접 발견한 것처럼 퍼가는 일은
-삼가주세요. 이를 존중하여 인용 시 크리에이티브 커먼즈 라이선스(Creative Commons License)
-저작자표시-동일조건변경허락(CC BY-SA)을 따라주세요.
+**이 저장소가 제공하는 라이선스.** 여기에 발행된 편집물 — 스키마, 레코드의 선택과 배열, 변경 이력,
+러너가 덧붙인 해석 — 은 [크리에이티브 커먼즈 저작자표시-동일조건변경허락 4.0 국제][cc-by-sa]
+(CC BY-SA 4.0)에 따라 이용할 수 있습니다. 출처와 라이선스 링크를 표시하고, 변경한 경우 그 사실을
+밝히며, 2차적 저작물은 동일한 라이선스로 공유해 주세요.
+
+**이 라이선스가 미치지 않는 부분.** 아래 자료는 이 프로젝트가 재라이선스할 수 있는 대상이 아닙니다.
+
+- 디스코드 클라이언트에서 추출한 문자열, 실험 정의, API 엔드포인트의 권리는 디스코드 측에 있을 수
+  있습니다. 연구와 분석 목적으로 수록합니다.
+- `source`가 `xhyrom`인 서버 실험 배포 행은 공개
+  [`xhyrom/discord-datamining`](https://github.com/xhyrom/discord-datamining) 데이터에서 왔으며,
+  해당 저장소는 자체 라이선스를 밝히지 않습니다. 모든 `rollout` 객체에 `source`가 들어 있으니
+  재이용 전에 확인하세요.
+- 상표, 로고, 브랜드 자산의 권리는 각 권리자에게 있으며 CC BY-SA의 적용 대상이 아닙니다.
+
+노력이 담긴 결과물이므로, 이곳의 자료를 다른 SNS 또는 커뮤니티에 마치 자신이 직접 발견한 것처럼
+퍼가는 일은 삼가주세요.
+
+[cc-by-sa]: https://creativecommons.org/licenses/by-sa/4.0/
