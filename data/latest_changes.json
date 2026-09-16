@@ -1,5 +1,5 @@
 {
-    "build_hash": "f49050eab66547cc37df522272dfc1f5f2c40df6",
+    "build_hash": "263789be51c6fa4dbc36c02ab026190d5ca2a2ab",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-automod-application-rules",
+            "kind": "guild",
+            "status": "added",
+            "timestamp": "2026-09-16T17:44:38Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-automod-application-rules",
+            "kind": "guild",
+            "timestamp": "2026-09-16T17:44:38Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "5d22a5f54de0297b9577e25d6d33ec6b",
@@ -41,7 +86,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "6NbEkN": "Choose an app before saving this rule.",
+                "7/h5vj": "None of the apps in this server can moderate messages yet.",
+                "FKSiso": "Choose an app to check messages",
+                "V+Iv+U": "Select an app",
+                "VxE3o6": "App Moderation Rule",
+                "kHNeDa": "The app chooses what action to take for each message, including blocking the message or doing nothing at all.",
+                "tWkvsa": "App"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +104,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-16T17:43:24.772534+00:00"
+    "timestamp": "2026-09-16T17:54:10.347020+00:00"
 }
