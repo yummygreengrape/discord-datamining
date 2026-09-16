@@ -1,5 +1,5 @@
 {
-    "build_hash": "56afce1883f2ad11d8f6365e7db56315f414cf59",
+    "build_hash": "2c3c7e001d582f9e154516fdd76cb9e4a73bed6c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -46,10 +46,20 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "+w36yH": "탐색 메뉴",
+                "5UYoSr": "{ctaLabel}, {productLabel}",
+                "PEtHiE": "페이지 더 보기 메뉴",
+                "QSqW06": "보상 잠금 해제",
+                "Yrz9rv": "사용할 수 없음",
+                "bf9uMH": "게임 상점 메뉴",
+                "iw5Ccc": "Orbs 사용",
+                "qINKo/": "오늘 오전 9시",
+                "tWkvsa": "앱"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-16T19:30:25.681937+00:00"
+    "timestamp": "2026-09-16T19:51:23.934388+00:00"
 }
