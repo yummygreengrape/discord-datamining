@@ -1,5 +1,5 @@
 {
-    "build_hash": "b8a88d58d90be28e89c1dcadfdd67f312158e74c",
+    "build_hash": "64a40652ab37e5f7c455d1d2964e2434bb627f9b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,68 +41,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "RVEiD0": "Did we make a mistake?",
-                "YQPbuc": "Confirm you meet the minimum age requirement in your region"
-            },
-            "deleted": {
-                "LeAhOQ": "Did we make a mistake? $[Confirm you meet the minimum age requirement in your region.](letUsKnowHook)"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "LeAhOQ": "저희가 실수했나요? letUsKnowHookHook회원님이 계신 지역 최소 연령 요건을 충족하는지 확인하세요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "LeAhOQ": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "문자열은 판정 중, 최소 연령 충족, 미충족, 재시도, 수동 검토, 로그인 복구를 각각 구분합니다. 같은 처리 창의 공개 API에는 정지된 계정용 Safety Hub 확인·검증 및 Google Wallet 연령 확인 요청 경로가 추가돼 이 흐름을 보강합니다. 최소 연령 위반이 해결돼도 다른 위반이 남아 있으면 로그인 제한이 계속될 수 있다고 명시돼 있습니다.",
-                    "generated_at": "2026-09-03T00:20:01.873047Z",
-                    "intent_type": "account_or_safety_notice",
-                    "related_terms": [
-                        "minimum age requirement",
-                        "age group",
-                        "Retry",
-                        "Request Manual Review",
-                        "Safety Hub",
-                        "Google Wallet age verification"
-                    ],
-                    "search_intent": "Discord에서 ‘Did we make a mistake? $[Confirm you meet the minimum age requirement in your region.](letUsKnowHook)’ 문구를 본 사용자가 이 기능·상태가 무엇인지, 왜 표시됐는지, 필요한 대응이 있는지 확인하려는 검색입니다.",
-                    "source_context": "최소 연령 결과·재시도·수동 검토 문자열과 정지 계정용 Safety Hub/Google Wallet 연령 확인 API가 같은 창에서 추가됐습니다.",
-                    "summary": "Discord가 지역별 최소 연령 충족 여부를 판정하고, 실패 시 재시도 또는 수동 검토를 안내하는 계정 접근 흐름입니다.",
-                    "what_it_means": "Discord가 계정이 현재 지역의 최소 연령 기준을 충족하는지 확인했으며, 결과에 따라 로그인·재시도·수동 검토가 달라진다는 뜻입니다.",
-                    "what_to_do": "결과가 틀렸다고 생각하면 화면에 제공된 `Retry` 또는 `Request Manual Review` 절차를 사용하세요. 최소 연령 문제가 해결됐는데도 로그인할 수 없다면 같은 화면에 표시된 다른 계정 위반 상태를 별도로 확인해야 합니다.",
-                    "when_it_appears": "최소 연령 문제로 계정 접근이 제한된 뒤 연령 확인을 진행하거나 결과와 재검토 선택지를 받을 때 나타날 수 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "The copy distinguishes determination in progress, meeting the minimum age, not meeting it, retry, manual review, and restored login. Public APIs in the same window add Safety Hub verification checks and Google Wallet age-verification request paths for suspended users. The text also states that other account violations can continue to block login after the minimum-age violation is resolved.",
-                    "generated_at": "2026-09-03T00:20:01.873047Z",
-                    "intent_type": "account_or_safety_notice",
-                    "related_terms": [
-                        "minimum age requirement",
-                        "age group",
-                        "Retry",
-                        "Request Manual Review",
-                        "Safety Hub",
-                        "Google Wallet age verification"
-                    ],
-                    "search_intent": "A visitor likely searched for “Did we make a mistake? $[Confirm you meet the minimum age requirement in your region.](letUsKnowHook)” to identify the Discord feature or state, understand why it appeared, and learn whether any response is needed.",
-                    "source_context": "Minimum-age result, retry, and manual-review strings were added alongside suspended-account Safety Hub and Google Wallet age-verification APIs.",
-                    "summary": "An account-access flow that decides whether the regional minimum age is met and offers retry or manual review after a failed result.",
-                    "what_it_means": "It means Discord has evaluated whether the account meets the minimum age for its region, with login, retry, or manual review depending on the result.",
-                    "what_to_do": "If the result appears incorrect, use the on-screen Retry or Request Manual Review path. If login remains blocked after the age issue is resolved, review any other account violations identified by the same flow.",
-                    "when_it_appears": "May appear after account access is restricted for a minimum-age issue, during verification, or when presenting the result and review options."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-09-16T08:11:02.508320+00:00"
+    "timestamp": "2026-09-16T08:32:10.783982+00:00"
 }
