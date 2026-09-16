@@ -1,8 +1,19 @@
 {
-    "build_hash": "a06df351157ab7505b56c7aabc01d179462d8139",
+    "build_hash": "74daa496f5c26b0e0379e39be4a17410183e30aa",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-server-setup-boost-cta",
+            "kind": "user",
+            "timestamp": "2026-09-16T13:36:19Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -51,5 +62,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-16T13:01:03.967786+00:00"
+    "timestamp": "2026-09-16T13:42:39.928172+00:00"
 }
