@@ -1,5 +1,5 @@
 {
-    "build_hash": "c3e0f4013799e49594c29950e9f2293d2c75d01d",
+    "build_hash": "8a5e34cc5a2f712968384bba4c9ca9981fb751fe",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,7 +41,13 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Fzi4HX": "Upload file names, sizes, and timestamps from app storage to your debug logs to help investigate storage usage.",
+                "H99tIV": "Storage diagnostics uploaded.",
+                "L/aQij": "Unable to upload storage diagnostics. Try again.",
+                "VSunuT": "Upload Storage Diagnostics",
+                "cHxSwT": "Partial storage diagnostics uploaded. Some files could not be listed or a scan limit was reached."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +57,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-16T01:05:20.430679+00:00"
+    "timestamp": "2026-09-16T01:16:07.649924+00:00"
 }
