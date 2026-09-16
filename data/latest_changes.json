@@ -1,5 +1,5 @@
 {
-    "build_hash": "2711e53c31b53131a9e403187d7b0d33b16d83ea",
+    "build_hash": "e60a5810c7afce569516200abe626e64ec065cc9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,13 +7,7 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "CHANNEL_CONVERSATION",
-            "status": "added",
-            "url": "/channels/:param/conversations/:param"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [
@@ -57,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-16T20:23:07.490659+00:00"
+    "timestamp": "2026-09-16T20:33:52.839530+00:00"
 }
