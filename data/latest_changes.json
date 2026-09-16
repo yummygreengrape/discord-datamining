@@ -1,5 +1,5 @@
 {
-    "build_hash": "7046d6e893d363b1f02a939f59ed00cae7f6cecf",
+    "build_hash": "60d44dcf21f9bdda17aea75912d1b31a6bf7ea05",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,15 +41,23 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "wSD7jV": "Select a Safety Notifications channel"
+            },
+            "deleted": {
+                "3q1TEo": "Please select the channel that hosts your rules. This channel will by default start from the top and will feature a special header.",
+                "Fg6O/5": "This is the channel where Discord will send updates for Community admins and moderators."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "3q1TEo": "규칙을 게시할 채널을 선택해주세요. 이 채널은 기본적으로 맨 위에서 시작하며, 특수 헤더를 사용합니다.",
+                "Fg6O/5": "Discord가 커뮤니티 관리자 및 운영자분께 관련 업데이트를 보내는 채널이에요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-16T18:47:23.867054+00:00"
+    "timestamp": "2026-09-16T18:58:09.741202+00:00"
 }
