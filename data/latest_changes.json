@@ -1,8 +1,61 @@
 {
-    "build_hash": "9515a9152e54e0900a0d252237e43db4ae45ef24",
+    "build_hash": "fd13639e086d48a4afa2340e1ff67dad574193ef",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "showCoachmark"
+            ],
+            "default_config": {
+                "showCoachmark": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-boost-to-unlock-mobile-coachmark",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-16T23:23:05Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "showCoachmark": false
+                },
+                "1": {
+                    "showCoachmark": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "showCoachmark"
+            ],
+            "default_config": {
+                "showCoachmark": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-boost-to-unlock-mobile-coachmark",
+            "kind": "user",
+            "timestamp": "2026-09-16T23:23:05Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "showCoachmark": false
+                },
+                "1": {
+                    "showCoachmark": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -51,5 +104,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-16T23:02:16.950738+00:00"
+    "timestamp": "2026-09-16T23:23:15.600480+00:00"
 }
