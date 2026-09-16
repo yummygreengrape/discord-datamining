@@ -1,5 +1,5 @@
 {
-    "build_hash": "948460c3e40dea66326bfba01546645d215c065f",
+    "build_hash": "0b90e7356536ee5a47124dd82fc48efcd044cb17",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,11 +41,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "HNqvOh": "Clear Browser Data",
-                "IyXIFu": "Clears in-app browser cache, cookies, and website data. This may sign you out of websites.",
-                "zaEQz+": "Browser data cleared."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -55,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-16T00:21:54.261505+00:00"
+    "timestamp": "2026-09-16T00:42:58.267204+00:00"
 }
