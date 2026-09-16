@@ -1,5 +1,5 @@
 {
-    "build_hash": "bc16716188443f733aa9e886f01efdcc1822ed29",
+    "build_hash": "5a3d6220292b19db2cb690fd4c2aff248a391e68",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,7 +41,11 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "2+/rrF": "Get discounts on profile items, plus custom emoji, HD streaming, and more with Nitro.",
+                "GZWBoL": "Save up to 20% in the Shop",
+                "WjOclf": "Save up to 20% off on everything in the Shop, plus get exclusive items. Only with Nitro."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +55,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-16T18:04:54.859824+00:00"
+    "timestamp": "2026-09-16T18:15:38.290149+00:00"
 }
