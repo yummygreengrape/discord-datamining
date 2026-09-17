@@ -1,5 +1,5 @@
 {
-    "build_hash": "9ddf49549e3e7f216f97ad751297fcf744b9bf33",
+    "build_hash": "ebe295eb47829f701346c514ce6c0c2eb89acd36",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,14 +41,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/OtM0k": "Add panels to this column.",
+                "9Ctu9P": "Add Panels: insert panel at position {positionNumber} in the main column",
+                "U0SqHk": "Add Panels: insert panel at position {positionNumber} in the side column",
+                "h9P9H+": "Insert panel at position {positionNumber} in the side column",
+                "xboFyi": "Insert panel at position {positionNumber} in the main column"
+            },
             "deleted": {},
-            "modified": {
-                "cR6336": {
-                    "new_value": "No age verification methods available. Please check again shortly.",
-                    "old_value": "No age verification methods available. This may be an error."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -56,5 +57,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-17T20:28:10.236619+00:00"
+    "timestamp": "2026-09-17T20:38:58.209562+00:00"
 }
