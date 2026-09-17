@@ -1,5 +1,5 @@
 {
-    "build_hash": "20451619f9fcffdcfa1cdbf6b800d7526eb7ea4d",
+    "build_hash": "0f0d0b8e623001cb18358212bfaa5eb4a9fa4c2d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,7 +41,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0PGVTy": "Show how the thinking is going."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +53,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-17T17:56:23.484475+00:00"
+    "timestamp": "2026-09-17T18:07:10.632562+00:00"
 }
