@@ -1,12 +1,301 @@
 {
-    "build_hash": "b15a0528343c48309fd1ac5da9c8c2ae1494f201",
+    "build_hash": "afea5085f13f8bebb859674c3941d47251d46e1b",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "variant"
+            ],
+            "default_config": {
+                "enabled": false,
+                "variant": 0
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-bounties-ctr-experiment-1",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-17T17:40:22Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "variant": 0
+                },
+                "1": {
+                    "enabled": true,
+                    "variant": 1
+                },
+                "2": {
+                    "enabled": true,
+                    "variant": 2
+                },
+                "3": {
+                    "enabled": true,
+                    "variant": 3
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "variant"
+            ],
+            "default_config": {
+                "enabled": false,
+                "variant": 0
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-bounties-ctr-experiment-1",
+            "kind": "user",
+            "timestamp": "2026-09-17T17:40:22Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "variant": 0
+                },
+                "1": {
+                    "enabled": true,
+                    "variant": 1
+                },
+                "2": {
+                    "enabled": true,
+                    "variant": 2
+                },
+                "3": {
+                    "enabled": true,
+                    "variant": 3
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "켜지면 Quest 전달 응답의 Bounty 형식을 버리지 않고 Quest bar 상태로 전달합니다."
+                    }
+                ],
+                "detailed_summary": "Quest 항목을 받아오는 흐름은 일반 Quest와 Bounty 형식의 제안을 함께 받을 수 있습니다. 기본 상태에서는 응답이 Bounty이면 해당 제안을 버리고 기존 Quest만 처리합니다. 비교안에서는 Bounty 응답을 변환해 Quest bar 상태에 전달합니다. 현재 소비 경로는 Bounty를 통과시키는지까지만 확인되며 카드 배치나 디자인 차이는 보여 주지 않습니다.",
+                "evidence": [
+                    "Current Canary QuestActionCreators reads the experiment when processing the Quest decision response.",
+                    "The default path drops BOUNTY creatives; the enabled path converts and dispatches them.",
+                    "Ordinary Quest responses are not gated by this experiment."
+                ],
+                "evidence_level": "current_canary_action_consumer",
+                "focus_area": "Quest bar의 Bounty 표시",
+                "generated_at": "2026-08-15T04:03:35Z",
+                "importance": "medium",
+                "summary": "Quest bar가 서버에서 받은 Bounty 카드를 표시할 수 있게 하는 실험입니다.",
+                "why_it_matters": "Quest bar에 보상형 제안의 종류가 늘어날 수 있습니다. 일반 Quest와 Bounty가 같은 진입 공간에서 경쟁할 수 있어 사용자가 보는 프로모션 구성도 달라집니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "Keeps a Bounty creative from the Quest delivery response and sends it to Quest-bar state."
+                    }
+                ],
+                "detailed_summary": "The Quest delivery path can receive both ordinary Quests and Bounty creatives. In the default state, a Bounty response is discarded and only the existing Quest path continues. The comparison converts the Bounty payload and dispatches it into Quest-bar state. The confirmed consumer establishes that the Bounty is admitted, but it does not reveal a different card layout or design.",
+                "evidence": [
+                    "Current Canary QuestActionCreators reads the experiment when processing the Quest decision response.",
+                    "The default path drops BOUNTY creatives; the enabled path converts and dispatches them.",
+                    "Ordinary Quest responses are not gated by this experiment."
+                ],
+                "evidence_level": "current_canary_action_consumer",
+                "focus_area": "Bounties in the Quest bar",
+                "generated_at": "2026-08-15T04:03:35Z",
+                "importance": "medium",
+                "summary": "Allows the Quest bar to display a Bounty returned by the Quest decision request.",
+                "why_it_matters": "This can broaden the kinds of rewarded offers shown in the Quest bar. It may also change how ordinary Quests and Bounties compete for the same entry point."
+            },
+            "config_keys": [
+                "ctrVariant",
+                "enabled",
+                "hapticFeedbackOnRewardEarnedEnabled",
+                "illustration"
+            ],
+            "default_config": {
+                "ctrVariant": 0,
+                "enabled": false,
+                "hapticFeedbackOnRewardEarnedEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-08-bounties-mobile-quest-bar",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7"
+            ],
+            "variations": {
+                "1": {
+                    "ctrVariant": 0,
+                    "enabled": true,
+                    "hapticFeedbackOnRewardEarnedEnabled": false,
+                    "illustration": "illustration1"
+                },
+                "2": {
+                    "ctrVariant": 0,
+                    "enabled": true,
+                    "hapticFeedbackOnRewardEarnedEnabled": false,
+                    "illustration": "illustration2"
+                },
+                "3": {
+                    "ctrVariant": 0,
+                    "enabled": true,
+                    "hapticFeedbackOnRewardEarnedEnabled": false,
+                    "illustration": "illustration3"
+                },
+                "4": {
+                    "ctrVariant": 2,
+                    "enabled": true,
+                    "hapticFeedbackOnRewardEarnedEnabled": false
+                },
+                "5": {
+                    "ctrVariant": 3,
+                    "enabled": true,
+                    "hapticFeedbackOnRewardEarnedEnabled": false
+                },
+                "6": {
+                    "ctrVariant": 1,
+                    "enabled": true,
+                    "hapticFeedbackOnRewardEarnedEnabled": false
+                },
+                "7": {
+                    "ctrVariant": 0,
+                    "enabled": true,
+                    "hapticFeedbackOnRewardEarnedEnabled": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "ctrVariant",
+                "enabled",
+                "hapticFeedbackOnRewardEarnedEnabled",
+                "illustration"
+            ],
+            "default_config": {
+                "ctrVariant": 0,
+                "enabled": false,
+                "hapticFeedbackOnRewardEarnedEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-08-bounties-mobile-quest-bar",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7"
+            ],
+            "variations": {
+                "1": {
+                    "ctrVariant": 0,
+                    "enabled": true,
+                    "hapticFeedbackOnRewardEarnedEnabled": false,
+                    "illustration": "illustration1"
+                },
+                "2": {
+                    "ctrVariant": 0,
+                    "enabled": true,
+                    "hapticFeedbackOnRewardEarnedEnabled": false,
+                    "illustration": "illustration2"
+                },
+                "3": {
+                    "ctrVariant": 0,
+                    "enabled": true,
+                    "hapticFeedbackOnRewardEarnedEnabled": false,
+                    "illustration": "illustration3"
+                },
+                "4": {
+                    "ctrVariant": 2,
+                    "enabled": true,
+                    "hapticFeedbackOnRewardEarnedEnabled": false
+                },
+                "5": {
+                    "ctrVariant": 3,
+                    "enabled": true,
+                    "hapticFeedbackOnRewardEarnedEnabled": false
+                },
+                "6": {
+                    "ctrVariant": 1,
+                    "enabled": true,
+                    "hapticFeedbackOnRewardEarnedEnabled": false
+                },
+                "7": {
+                    "ctrVariant": 0,
+                    "enabled": true,
+                    "hapticFeedbackOnRewardEarnedEnabled": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -51,5 +340,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-17T17:34:49.340715+00:00"
+    "timestamp": "2026-09-17T17:45:38.448106+00:00"
 }
