@@ -1,5 +1,5 @@
 {
-    "build_hash": "424c12769f2887202fdb2eb4f9002a4dd26296d1",
+    "build_hash": "7f763fe5953d3cd4435ab9aced9058bc335be1d7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,7 +41,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Qno0jg": "You haven't earned any badges yet"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +53,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-17T12:10:06.523743+00:00"
+    "timestamp": "2026-09-17T14:04:07.148210+00:00"
 }
