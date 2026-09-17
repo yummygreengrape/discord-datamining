@@ -1,5 +1,5 @@
 {
-    "build_hash": "0ee9811d570708e4faa0fbb49441321571b7e86c",
+    "build_hash": "738dc5aa89b9def35f602640031f94736bbbec27",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,9 +41,17 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "ltkR4n": "Model thinking",
+                "rXPcUx": "Nothing to show right now. The model is not reasoning."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "4BsHmp": {
+                    "new_value": "Want Conjuring in your own server? Request access in [#{channel}]({onNavigate})",
+                    "old_value": "Want Conjuring in your own server? Request access in [#conjuring-help](https://i.dis.gd/conjuring-access)"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -51,5 +59,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-17T02:10:45.748528+00:00"
+    "timestamp": "2026-09-17T02:52:16.874427+00:00"
 }
