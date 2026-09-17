@@ -28,7 +28,7 @@ hash, generation time and schema version that the datasets below were produced w
 ```mermaid
 flowchart TD
     A["Discord Canary client<br/>JS chunks"] --> B["Private runner<br/>extract · parse · diff"]
-    R["Guild experiment rollouts<br/>Discord experiments response · xhyrom dataset"] --> B
+    R["Guild experiment rollouts<br/>Discord experiments response"] --> B
     B --> C{"Pre-publish<br/>security scan"}
     C -- fails --> D["Quarantined privately<br/>nothing is published"]
     C -- passes --> E["This repository<br/>7 public JSON files"]
@@ -82,7 +82,7 @@ Records are history entries, not current-state rows: a key that changed twice ap
   never inferred from treatment names.
 - **Rollout settings are configuration, not measurements.** A guild experiment's optional `rollout`
   holds the treatment hash ranges and eligibility conditions of the newest revision that Discord's
-  unauthenticated experiments response or the public `xhyrom/discord-datamining` dataset provides.
+  unauthenticated experiments response provides.
   A percentage is the share of the hash range inside one condition, not the share of servers that
   have a feature. ID override lists, holdouts and same-revision disagreements between sources are
   flagged instead of guessed, a failing source keeps its last good setting, and an experiment that
@@ -116,8 +116,7 @@ Canary 클라이언트 chunk를 추출해 이전 상태와 비교하고, 실험(
   optional로만 추가하고, 기존 필드의 의미는 바꾸지 않습니다.
 - **History는 로그입니다.** 이후 빌드에서 상태가 바뀌어도 이미 기록된 항목을 덮어쓰지 않습니다.
 - **실험 배포 정보는 측정값이 아니라 설정값입니다.** 서버 실험의 optional `rollout`은 Discord의 비인증
-  실험 응답이나 공개 `xhyrom/discord-datamining` 데이터가 제공하는 최신 revision의 해시 구간과 적용
-  조건입니다. 비율은 한 조건 안에서 해시 구간이 차지하는 몫이며, 기능을 받은 서버의 비율이 아닙니다.
+  실험 응답이 제공하는 최신 revision의 해시 구간과 적용 조건입니다. 비율은 한 조건 안에서 해시 구간이 차지하는 몫이며, 기능을 받은 서버의 비율이 아닙니다.
   ID 지정 목록, holdout, 같은 revision에서 출처끼리 어긋나는 경우는 추정하지 않고 표시만 하며, 확인에
   실패한 출처는 마지막 정상 설정을 유지하고, 출처 목록에서 빠진 실험은 종료가 아니라 미확인으로 표시합니다.
 - **`experiments.json`과 `experiment-details.json`은 의도적으로 같은 내용입니다.** schema 5까지는 상세
@@ -142,10 +141,11 @@ under the same licence.
 
 - Strings, experiment definitions and API routes extracted from the Discord client may remain the
   property of Discord Inc. They are reproduced here for study and analysis.
-- Guild experiment rollout rows whose `source` is `xhyrom` come from the public
-  [`xhyrom/discord-datamining`](https://github.com/xhyrom/discord-datamining) dataset, which
-  publishes no licence of its own. Every `rollout` object carries its `source`, so check that field
-  before reusing a row.
+- Guild experiment rollout rows published before 2026-09-17 whose `source` is `xhyrom` came from the
+  public [`xhyrom/discord-datamining`](https://github.com/xhyrom/discord-datamining) dataset, which
+  publishes no licence of its own. That source was dropped because its experiments stopped updating
+  in March 2025, so such rows remain only in this repository's Git history. Every `rollout` object
+  carries its `source`, so check that field before reusing a row.
 - Trademarks, logos and brand assets belong to their owners and are not covered by CC BY-SA.
 
 Please do not repost this work elsewhere as your own discovery.
@@ -163,10 +163,11 @@ Please do not repost this work elsewhere as your own discovery.
 
 - 디스코드 클라이언트에서 추출한 문자열, 실험 정의, API 엔드포인트의 권리는 디스코드 측에 있을 수
   있습니다. 연구와 분석 목적으로 수록합니다.
-- `source`가 `xhyrom`인 서버 실험 배포 행은 공개
+- 2026-09-17 이전에 발행된 서버 실험 배포 행 중 `source`가 `xhyrom`인 행은 공개
   [`xhyrom/discord-datamining`](https://github.com/xhyrom/discord-datamining) 데이터에서 왔으며,
-  해당 저장소는 자체 라이선스를 밝히지 않습니다. 모든 `rollout` 객체에 `source`가 들어 있으니
-  재이용 전에 확인하세요.
+  해당 저장소는 자체 라이선스를 밝히지 않습니다. 그 출처는 실험 데이터가 2025년 3월 뒤로 갱신되지
+  않아 뺐으므로, 이런 행은 이 저장소의 Git 이력에만 남아 있습니다. 모든 `rollout` 객체에 `source`가
+  들어 있으니 재이용 전에 확인하세요.
 - 상표, 로고, 브랜드 자산의 권리는 각 권리자에게 있으며 CC BY-SA의 적용 대상이 아닙니다.
 
 노력이 담긴 결과물이므로, 이곳의 자료를 다른 SNS 또는 커뮤니티에 마치 자신이 직접 발견한 것처럼

@@ -38,18 +38,16 @@ They never contain the detected value.
 
 ## Experiment rollout data
 
-Rollout settings come from Discord's unauthenticated experiments response and
-the public `xhyrom/discord-datamining` dataset file. Neither request carries
-credentials or cookies, and neither follows redirects. The dataset's last commit
-time is read from the GitHub API with the runner's existing GitHub token, which
-is sent only to GitHub. Unparsed responses stay in memory, and only sanitized
+Rollout settings come from Discord's unauthenticated experiments response. The
+request carries no credentials or cookies and does not follow redirects. The
+public `xhyrom/discord-datamining` dataset was used until 2026-09-17 and dropped
+because its experiments stopped updating in March 2025; no rollout check uses the
+runner's GitHub token any more. Unparsed responses stay in memory, and only sanitized
 settings are published: revisions, treatment hash ranges, eligibility
 conditions, and flags. Guild IDs are never published; ID-range boundaries become
 creation times and override lists become a presence flag. Published percentages
-describe hash ranges within a condition, not the share of all servers. Each
-source's own update time and check status are published, so outdated or failing
-sources are visible, and records where sources disagree on the same revision are
-marked as conflicts.
+describe hash ranges within a condition, not the share of all servers. The
+source's check status is published, so a failing source is visible.
 
 ## Allowlist policy
 
