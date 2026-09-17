@@ -1,70 +1,82 @@
 {
-    "build_hash": "c2750d577446eb954eec85056dad279e4b3eaa5a",
-    "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
-    "extractor_version": 23,
-    "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
-    "new_api_endpoints": [
+    "build_hash": "2d6671b1110bccb92da9d1e6505274a804e374bd",
+    "deleted_api_endpoints": [
         {
             "name": "BOGO_PROMOTIONS",
-            "status": "added",
+            "status": "deleted",
             "url": "/bogo-promotions"
         },
         {
             "name": "ENDPOINT_BOGO_PROMOTIONS",
-            "status": "added",
+            "status": "deleted",
             "url": "/bogo-promotions"
         }
     ],
-    "new_experiment_details": [
+    "deleted_experiment_details": [
         {
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
             "id": "2026-03-bogo-promotion-gate-v2",
             "kind": "user",
-            "status": "added",
-            "treatments": [],
+            "status": "deleted",
+            "timestamp": "2026-09-17T19:12:24Z",
+            "treatments": [
+                "Variant 1"
+            ],
             "variations": {
                 "1": true
             }
         },
         {
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
             "id": "2026-03-bogo-promotion-marketing-materials-v2",
             "kind": "user",
-            "status": "added",
-            "treatments": [],
+            "status": "deleted",
+            "timestamp": "2026-09-17T19:12:24Z",
+            "treatments": [
+                "Variant 1"
+            ],
             "variations": {
                 "1": true
             }
         }
     ],
-    "new_experiments": [
+    "deleted_experiments": [
         {
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
             "id": "2026-03-bogo-promotion-gate-v2",
             "kind": "user",
-            "treatments": [],
+            "timestamp": "2026-09-17T19:12:24Z",
+            "treatments": [
+                "Variant 1"
+            ],
             "variations": {
                 "1": true
             }
         },
         {
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
             "id": "2026-03-bogo-promotion-marketing-materials-v2",
             "kind": "user",
-            "treatments": [],
+            "timestamp": "2026-09-17T19:12:24Z",
+            "treatments": [
+                "Variant 1"
+            ],
             "variations": {
                 "1": true
             }
         }
     ],
+    "extractor_version": 23,
+    "modified_api_endpoints": [],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
+    "new_api_endpoints": [],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "5d22a5f54de0297b9577e25d6d33ec6b",
@@ -97,6 +109,19 @@
     "string_changes": {
         "en": {
             "added": {
+                "CmLD50": "Stream like you’re in the room",
+                "DHLE0q": "Chat with the whole community",
+                "FlY+Rz": "What’s Discord?",
+                "YCIfhC": "Discord is a free app to chat, stream, and chill",
+                "Z70vcv": "Drop in and out of voice or text channels",
+                "ZsAL7q": "Hide Friends List",
+                "fAU31r": "For gaming, hanging out, or idk, homework.",
+                "lgHr73": "Chat, stream, and chill",
+                "pqph/A": "Whenever you’re free, no calls or invites.",
+                "putVLl": "Using custom reactions, embeds, and bots.",
+                "sgse8P": "Show Friends List"
+            },
+            "deleted": {
                 "+5UxML": "Buy Nitro. Get a Month On Us.",
                 "+LdvPq": "With {premiumMaxSize} file uploads and expanded emoji & stickers, bring on the fun with legendary reactions.",
                 "/H3wrK": "Supercharge your Discord experience with this limited time Nitro deal.",
@@ -110,17 +135,60 @@
                 "6amg2J": "With full HD resolution, every gameplay and hangout is smooth and clear for you and your friends.",
                 "8ODCC/": "Support your favorite server",
                 "9tRdON": "Buy 1, Get 1",
+                "BOGO_ANNOUNCEMENT_MODAL_HEADER": "Buy Nitro, get a month free!",
+                "BOGO_ANNOUNCEMENT_MODAL_SOUNDBOARD_CARD_BODY_FORMATTED": "Use your favorite sounds across servers. Quack.",
+                "BOGO_ANNOUNCEMENT_MODAL_SOUNDBOARD_CARD_HEADER": "Soundboard",
+                "BOGO_ANNOUNCEMENT_MODAL_SUBHEADER": "Enjoy the Nitro days of summer with a free month and thrilling perks",
+                "BOGO_ANNOUNCEMENT_MODAL_THEMES_CARD_BODY": "Style your Discord with a new look.",
+                "BOGO_ANNOUNCEMENT_MODAL_THEMES_CARD_HEADER": "Color Themes",
+                "BOGO_ANNOUNCEMENT_MODAL_UPGRADE_HEADER": "Buy 1 or Upgrade, Get 1 Month Free",
+                "BOGO_BUY_HEADLINE": "Buy Nitro & Get 1 Month Free!",
+                "BOGO_CHANGE_LOG_BOOST_BODY": "With your 2 free Boosts, unlock perks for everyone in your favorite Discord community.",
+                "BOGO_CHANGE_LOG_BOOST_SUBTITLE": "Support your favorite server",
+                "BOGO_CHANGE_LOG_FILE_BODY_INCREASE": "With {premiumMaxSize} file uploads and expanded emoji & stickers, bring on the fun with legendary reactions.",
+                "BOGO_CHANGE_LOG_FILE_SUBTITLE": "Cheer, roast, and meme like never before",
+                "BOGO_CHANGE_LOG_MORE": "...and so much more!",
+                "BOGO_CHANGE_LOG_STREAM_BODY": "With full HD resolution, every gameplay and hangout is smooth and clear for you and your friends.",
+                "BOGO_CHANGE_LOG_STREAM_SUBTITLE": "Enjoy crystal clear streams",
+                "BOGO_CHANGE_LOG_TITLE": "Upgrade your Discord experience with Nitro. Subscribe now and get a free month.",
+                "BOGO_HURRY_UP_OFFER_ENDS_ON_DATE": "Hurry up, the offer ends on {date}! [Learn more.]({helpdeskArticle})",
+                "BOGO_HURRY_UP_OFFER_ENDS_ON_DATE_WITHOUT_LINK": "Hurry up, the offer ends on {date}!",
+                "BOGO_LIMITED_TIME_VALUE_PROP": "Limited Time Deal! Buy Nitro and get one month free.",
+                "BOGO_MARKETING_PAGE_BANNER_HEADER_2024": "Join Nitro & Get 1 Month Free!",
+                "BOGO_MARKETING_PAGE_BANNER_NON_NITRO_HEADER_2024": "Upgrade & Get 1 Month Free!",
+                "BOGO_MARKETING_PAGE_BANNER_SUBHEADER_2024": "Double up on summer magic with Nitro. [Terms apply.]({helpCenterLink})",
+                "BOGO_PAYMENT_MODAL_BANNER_2024": "Join or Upgrade, Get 1 Month Free",
+                "BOGO_PERKS_SUBTITLE_NON_SUB_FORMATTED": "WOO! Unleash the fun this summer when you get Nitro. [Learn more.]({helpCenterLink})",
+                "BOGO_PERKS_SUBTITLE_SUB_FORMATTED": "Unleash more fun this summer when you upgrade Nitro. [Learn more.]({helpCenterLink})",
+                "BOGO_PILL": "Buy 1, Get 1",
+                "BOGO_PILL_2024_V1": "Buy 1, Get 1",
+                "BOGO_PILL_2024_V2": "Buy 1, Get 1 Free",
+                "BOGO_SUPERCHARGE_YOUR_EXPERIENCE": "Supercharge your Discord experience with this limited time Nitro deal.",
+                "BOGO_UNTIL_OFFER_ENDS": "{hours}:{minutes}:{seconds} Until Offer Ends",
+                "BOGO_UNTIL_OFFER_ENDS_DAYS": "{days, plural, one {# Day} other {# Days}} Until Offer Ends",
+                "BOGO_UPGRADE_HEADLINE": "Upgrade for 1 Free Month!",
+                "BOGO_VALUE_PROP": "Subscribe now and get a free month. Hurry, offer ends soon!",
+                "BUY_ONE_GET_ONE_FREE": "Buy One, Get One Free",
+                "BUY_ONE_GET_ONE_FREE_NEWLINE": "Buy One,\n\nGet One Free\n\n",
+                "BUY_ONE_GET_ONE_MONTH_FREE": "Buy One, Get One Month Free",
+                "BUY_ONE_GET_ONE_MONTH_FREE_NEWLINE": "Buy One,\n\nGet One Month Free\n\n",
                 "CvE0PS": "Subscribe now and get a free month. Hurry, offer ends soon!",
+                "ENJOY_A_FREE_MONTH": "Enjoy a free month with your purchase!",
                 "FuVAwh": "Upgrade for 1 Free Month!",
                 "G80WJT": "...and so much more!",
                 "Lr/SqD": "Unleash more fun this summer when you upgrade Nitro. [Learn more.]({helpCenterLink})",
+                "OFFER_ENDS_IN": "Offer Ends In {hours}:{minutes}:{seconds}",
+                "OFFER_ENDS_IN_DAYS": "Offer Ends In {days, plural, one {# Day} other {# Days}}",
+                "OFFER_ENDS_ON_DATE": "Offer Ends {date}",
                 "PWL1dg": "Offer Ends {date}",
                 "Q01jYN": "Style your Discord with a new look.",
                 "Q9NnNh": "Enjoy crystal clear streams",
                 "QPC/ee": "Offers",
                 "QXdvCF": "Rules and restrictions apply.",
+                "RULES_AND_RESTRICTIONS_APPLY": "Rules and restrictions apply.",
                 "S2FF7o": "Subscribe now and get a free month of Nitro.",
                 "SQYLbr": "Hurry up, the offer ends on {date}! [Learn more.]({helpdeskArticle})",
+                "SUBSCRIBE_NOW_FREE_MONTH": "Subscribe now and get a free month of Nitro.",
                 "UrnEV6": "Enjoy a free month with your purchase!",
                 "VeCPBR": "Buy 1, Get 1",
                 "VyEevD": "Buy One, Get One Free",
@@ -149,11 +217,11 @@
                 "ymzGiU": "Offer Ends In {hours}:{minutes}:{seconds}",
                 "z15nl1": "Use your favorite sounds across servers. Quack."
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
+            "added": {},
+            "deleted": {
                 "+5UxML": "Nitro를 구입하세요. 한 달을 무료로 드려요.",
                 "+LdvPq": "{premiumMaxSize} 파일 업로드, 확장된 이모지와 스티커로 열띤 반응을 보이고 재미있게 즐기세요.",
                 "/H3wrK": "기간 한정 Nitro 행사로 Discord 경험을 강화해요.",
@@ -206,9 +274,8 @@
                 "ymzGiU": "행사 종료까지 {hours}:{minutes}:{seconds}",
                 "z15nl1": "어느 서버에서나 좋아하는 사운드를 사용하세요. 꽥꽥."
             },
-            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-17T19:23:02.913514+00:00"
+    "timestamp": "2026-09-17T19:34:14.210496+00:00"
 }
