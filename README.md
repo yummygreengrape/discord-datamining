@@ -141,11 +141,6 @@ under the same licence.
 
 - Strings, experiment definitions and API routes extracted from the Discord client may remain the
   property of Discord Inc. They are reproduced here for study and analysis.
-- Guild experiment rollout rows published before 2026-09-17 whose `source` is `xhyrom` came from the
-  public [`xhyrom/discord-datamining`](https://github.com/xhyrom/discord-datamining) dataset, which
-  publishes no licence of its own. That source was dropped because its experiments stopped updating
-  in March 2025, so such rows remain only in this repository's Git history. Every `rollout` object
-  carries its `source`, so check that field before reusing a row.
 - Trademarks, logos and brand assets belong to their owners and are not covered by CC BY-SA.
 
 Please do not repost this work elsewhere as your own discovery.
@@ -163,11 +158,6 @@ Please do not repost this work elsewhere as your own discovery.
 
 - 디스코드 클라이언트에서 추출한 문자열, 실험 정의, API 엔드포인트의 권리는 디스코드 측에 있을 수
   있습니다. 연구와 분석 목적으로 수록합니다.
-- 2026-09-17 이전에 발행된 서버 실험 배포 행 중 `source`가 `xhyrom`인 행은 공개
-  [`xhyrom/discord-datamining`](https://github.com/xhyrom/discord-datamining) 데이터에서 왔으며,
-  해당 저장소는 자체 라이선스를 밝히지 않습니다. 그 출처는 실험 데이터가 2025년 3월 뒤로 갱신되지
-  않아 뺐으므로, 이런 행은 이 저장소의 Git 이력에만 남아 있습니다. 모든 `rollout` 객체에 `source`가
-  들어 있으니 재이용 전에 확인하세요.
 - 상표, 로고, 브랜드 자산의 권리는 각 권리자에게 있으며 CC BY-SA의 적용 대상이 아닙니다.
 
 노력이 담긴 결과물이므로, 이곳의 자료를 다른 SNS 또는 커뮤니티에 마치 자신이 직접 발견한 것처럼
