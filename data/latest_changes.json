@@ -1,12 +1,160 @@
 {
-    "build_hash": "ec0fde3dce4d96420a05ba893cce8f089ff06c2e",
+    "build_hash": "725b12668a94a494ceee0440f21629a3594c36e8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "sidebarEnabled",
+                        "note": "켜지면 채널 영역에 친구 목록 사이드바 구역을 추가합니다."
+                    }
+                ],
+                "detailed_summary": "기본 상태에서는 이 친구 사이드바 구역을 만들지 않습니다. 비교안에서는 채널 영역에 친구 목록 구역을 추가하고, 열림 상태와 너비를 저장해 접거나 다시 펼칠 수 있게 합니다. 같은 시점의 문자열에는 ‘친구 검색’, ‘친구 목록 크기 조절’, ‘친구 목록 펼치기/접기’, ‘친구 추가’가 추가되어 보이는 조작도 확인됩니다. 현재 Canary의 채널 구역 구성이 이 설정을 직접 읽어 친구 사이드바를 반환합니다.",
+                "evidence": [
+                    "Current Canary ChannelSectionStore reads sidebarEnabled and returns a FRIENDS section when it is open.",
+                    "Same-window strings cover friend search, add-friend, resizing, expanding, and collapsing the list."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "친구 목록 사이드바",
+                "generated_at": "2026-09-05T04:19:24Z",
+                "importance": "high",
+                "summary": "친구 목록을 별도의 크기 조절 가능한 사이드바로 열어 두고 검색·친구 추가를 바로 할 수 있게 하는 실험입니다.",
+                "why_it_matters": "서버나 DM을 탐색하면서도 친구를 찾고 연락할 대상을 관리하는 동선이 짧아질 수 있습니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "sidebarEnabled",
+                        "note": "When enabled, a Friends sidebar section is added to the channel area."
+                    }
+                ],
+                "detailed_summary": "The default state does not create this Friends sidebar section. In the variant, the channel area gains a Friends section whose open state and width can be retained as it is collapsed, expanded, or resized. Strings added in the same period include ‘Search Friends,’ ‘Resize Friends List,’ ‘Expand Friends List,’ ‘Collapse Friends List,’ and ‘Add Friend,’ confirming the visible controls. Current Canary's channel-section configuration directly reads the setting and returns the Friends section.",
+                "evidence": [
+                    "Current Canary ChannelSectionStore reads sidebarEnabled and returns a FRIENDS section when it is open.",
+                    "Same-window strings cover friend search, add-friend, resizing, expanding, and collapsing the list."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Friends list sidebar",
+                "generated_at": "2026-09-05T04:19:24Z",
+                "importance": "high",
+                "summary": "Adds a resizable Friends sidebar with search and quick access to adding friends.",
+                "why_it_matters": "It can shorten the path to finding and managing friends while users continue browsing servers or direct messages."
+            },
+            "config_keys": [
+                "appBarToggleEnabled",
+                "sidebarEnabled"
+            ],
+            "default_config": {
+                "appBarToggleEnabled": false,
+                "sidebarEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-friends-sidebar",
+            "kind": "user",
+            "old_config_keys": [
+                "sidebarEnabled"
+            ],
+            "old_default_config": {
+                "sidebarEnabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "sidebarEnabled": false
+                },
+                "1": {
+                    "sidebarEnabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "appBarToggleEnabled": false,
+                    "sidebarEnabled": false
+                },
+                "1": {
+                    "appBarToggleEnabled": false,
+                    "sidebarEnabled": true
+                },
+                "2": {
+                    "appBarToggleEnabled": true,
+                    "sidebarEnabled": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "appBarToggleEnabled",
+                "sidebarEnabled"
+            ],
+            "default_config": {
+                "appBarToggleEnabled": false,
+                "sidebarEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-friends-sidebar",
+            "kind": "user",
+            "old_config_keys": [
+                "sidebarEnabled"
+            ],
+            "old_default_config": {
+                "sidebarEnabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "sidebarEnabled": false
+                },
+                "1": {
+                    "sidebarEnabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "appBarToggleEnabled": false,
+                    "sidebarEnabled": false
+                },
+                "1": {
+                    "appBarToggleEnabled": false,
+                    "sidebarEnabled": true
+                },
+                "2": {
+                    "appBarToggleEnabled": true,
+                    "sidebarEnabled": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -41,15 +189,33 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0usxBd": "You can search friends using their display name or username.",
+                "60M8Ae": "Search Friends",
+                "7kJd9e": "Friends",
+                "Dr/+ku": "Expand Friends List",
+                "F3+Xei": "Resize Friends List",
+                "JZCSRZ": "Collapse Friends List",
+                "VH2HXW": "No friends match that search.",
+                "ZsAL7q": "Hide Friends List",
+                "au4mU4": "Add Friend",
+                "sgse8P": "Show Friends List"
+            },
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "60M8Ae": "친구 검색",
+                "7kJd9e": "친구",
+                "Dr/+ku": "친구 목록 펼치기",
+                "F3+Xei": "친구 목록 크기 조절",
+                "JZCSRZ": "친구 목록 접기",
+                "au4mU4": "친구 추가하기"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-17T18:39:16.509606+00:00"
+    "timestamp": "2026-09-17T18:50:02.337091+00:00"
 }
