@@ -1,70 +1,70 @@
 {
-    "build_hash": "630565e36dfa9e0968f0e8232b38fddd7cc68a8f",
-    "deleted_api_endpoints": [
-        {
-            "name": "BOGO_PROMOTIONS",
-            "status": "deleted",
-            "url": "/bogo-promotions"
-        },
-        {
-            "name": "ENDPOINT_BOGO_PROMOTIONS",
-            "status": "deleted",
-            "url": "/bogo-promotions"
-        }
-    ],
-    "deleted_experiment_details": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-bogo-promotion-gate-v2",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [],
-            "variations": {
-                "1": true
-            }
-        },
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-bogo-promotion-marketing-materials-v2",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [],
-            "variations": {
-                "1": true
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-bogo-promotion-gate-v2",
-            "kind": "user",
-            "treatments": [],
-            "variations": {
-                "1": true
-            }
-        },
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-03-bogo-promotion-marketing-materials-v2",
-            "kind": "user",
-            "treatments": [],
-            "variations": {
-                "1": true
-            }
-        }
-    ],
+    "build_hash": "c2750d577446eb954eec85056dad279e4b3eaa5a",
+    "deleted_api_endpoints": [],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_api_endpoints": [
+        {
+            "name": "BOGO_PROMOTIONS",
+            "status": "added",
+            "url": "/bogo-promotions"
+        },
+        {
+            "name": "ENDPOINT_BOGO_PROMOTIONS",
+            "status": "added",
+            "url": "/bogo-promotions"
+        }
+    ],
+    "new_experiment_details": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-bogo-promotion-gate-v2",
+            "kind": "user",
+            "status": "added",
+            "treatments": [],
+            "variations": {
+                "1": true
+            }
+        },
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-bogo-promotion-marketing-materials-v2",
+            "kind": "user",
+            "status": "added",
+            "treatments": [],
+            "variations": {
+                "1": true
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-bogo-promotion-gate-v2",
+            "kind": "user",
+            "treatments": [],
+            "variations": {
+                "1": true
+            }
+        },
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-bogo-promotion-marketing-materials-v2",
+            "kind": "user",
+            "treatments": [],
+            "variations": {
+                "1": true
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "5d22a5f54de0297b9577e25d6d33ec6b",
@@ -96,8 +96,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
+            "added": {
                 "+5UxML": "Buy Nitro. Get a Month On Us.",
                 "+LdvPq": "With {premiumMaxSize} file uploads and expanded emoji & stickers, bring on the fun with legendary reactions.",
                 "/H3wrK": "Supercharge your Discord experience with this limited time Nitro deal.",
@@ -150,11 +149,11 @@
                 "ymzGiU": "Offer Ends In {hours}:{minutes}:{seconds}",
                 "z15nl1": "Use your favorite sounds across servers. Quack."
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {},
-            "deleted": {
+            "added": {
                 "+5UxML": "Nitro를 구입하세요. 한 달을 무료로 드려요.",
                 "+LdvPq": "{premiumMaxSize} 파일 업로드, 확장된 이모지와 스티커로 열띤 반응을 보이고 재미있게 즐기세요.",
                 "/H3wrK": "기간 한정 Nitro 행사로 Discord 경험을 강화해요.",
@@ -207,8 +206,9 @@
                 "ymzGiU": "행사 종료까지 {hours}:{minutes}:{seconds}",
                 "z15nl1": "어느 서버에서나 좋아하는 사운드를 사용하세요. 꽥꽥."
             },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-17T19:11:35.256975+00:00"
+    "timestamp": "2026-09-17T19:23:02.913514+00:00"
 }
