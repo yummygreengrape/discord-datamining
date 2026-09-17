@@ -1,5 +1,5 @@
 {
-    "build_hash": "e1f8fe93bf5821bf435c97880c996f46ddf2d71c",
+    "build_hash": "9ddf49549e3e7f216f97ad751297fcf744b9bf33",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,23 +41,20 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "eugFxh": "{count, plural, one {# server has} other {# servers have}} custom settings",
-                "uyBKps": "{count, plural, one {$[# server](countHook) has custom DM permissions. Select it to see or change them.} other {$[# servers](countHook) have custom DM permissions. Select one to see or change them.}}"
-            },
-            "deleted": {
-                "GUILD_SELECT_ALL_SERVERS_OPTION": "Server defaults",
-                "OMVg25": "Server defaults"
-            },
-            "modified": {}
+            "added": {},
+            "deleted": {},
+            "modified": {
+                "cR6336": {
+                    "new_value": "No age verification methods available. Please check again shortly.",
+                    "old_value": "No age verification methods available. This may be an error."
+                }
+            }
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "OMVg25": "서버 기본값"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-17T20:17:25.548935+00:00"
+    "timestamp": "2026-09-17T20:28:10.236619+00:00"
 }
