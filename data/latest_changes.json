@@ -1,5 +1,5 @@
 {
-    "build_hash": "b8998345ba16a5e567fdaa3df99fb963260cf1d1",
+    "build_hash": "22741fc62bc6469232f751ac0b194b8a560f075f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,164 +41,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "G00RI5": "On",
-                "WrleYK": "Enable Rule"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "/NKLK5": "모든 위젯 둘러보기",
-                "0XMNl5": "아직 게임 상점이 설정되지 않은 것 같아요",
-                "0usxBd": "별명이나 사용자명으로 친구를 검색할 수 있어요.",
-                "1XGw3F": "DM이 산 채로 파묻히고 있나요? 고정 기능을 사용해 보세요!",
-                "1fYyf4": "보상이 준비됐어요",
-                "2CKnsF": "캐시",
-                "2MEL67": "Orbs 보상을 추가로 획득할 수 있는 {productNamePlural}이(가) 더 나올 수 있으니 나중에 다시 확인해 보세요.",
-                "2m/g2c": "내 진행 상황",
-                "4z6ldH": "업로드 취소",
-                "54qByS": "레이드 신고가 제출되었어요",
-                "5f7PYN": "서둘러 한정판 핼러윈 아이템을 잠금 해제하세요. {endDate}에 종료돼요.",
-                "6dVPSI": "메모 추가(선택 사항)",
-                "7KOunu": "뼈가 부딪히는 소리인가요, 아니면 키보드 소리가 그렇게 큰 건가요?",
-                "8IYt7j": "{productNamePlural}",
-                "9kPRi0": "모든 배지 보기",
-                "AVZpFH": "캐시 작업 닫기",
-                "Bhun8A": "가마솥이 부르고 있어요",
-                "CoudPr": "디렉터리별로",
-                "CzRXoC": "요약",
-                "DGQvlY": "애플리케이션 지원",
-                "FPTCM+": "프로모션 완료: {target}개 중 {current}개 수집 완료 - {numDays}일 남음",
-                "FYb5rH": "수령하는 중 문제가 발생했습니다. 다시 시도해 보세요.",
-                "G9koyR": "핼러윈 프로모션: {target}개 중 {current}개 수집 완료",
-                "IPj7dL": "나중에 새로운 {productNamePlural}을(를) 다시 확인해 보세요! [자세히 알아보기]({onClickLearnMore}).",
-                "JZGcX2": "{productName} 요약",
-                "KPCFC9": "개발자 문서 보기",
-                "KuAL0o": "가마솥을 확인할 시간",
-                "LD7HFF": "{collectibleTitle}이(가) 컬렉션에 추가되었어요. 계속 만드세요!",
-                "LRh/OJ": "지난주에 {username} 님이 {statName}을(를) 달성했어요!",
-                "Mjs8KR": "나만의 오싹한 사운드를 설정하세요",
-                "N8M39C": "서버 허브 보기",
-                "NENZhS": "설정 조정하기",
-                "NZbasC": "스토어를 준비하는 데 도움이 필요하신가요?",
-                "NaUZWO": "bHook{guildName} 서버는 요구 조건을 만족하지 못하여 서버 찾기 기능에서 제거되었어요. 자세한 내용은 PC에서 서버 설정을 확인해주세요.",
-                "O20zQi": "총 측정 용량",
-                "RjPllj": "더 많은 퀘스트 둘러보기",
-                "So4gmj": "리더보드 1위({statName})",
-                "Tc8sxG": "게임 상점 설정을 완료하려면 개발자 문서를 확인해 보세요.",
-                "U0INks": "사용자 설정에서 으스스한 알림음을 건너뛰세요.",
-                "U2f1ef": "다른 라이브러리 파일",
-                "UNvUNn": "한 번의 세션에서 {productNamePlural} 동영상을 시청하고 각각 최대 100 Orbs를 획득하세요. 보상을 획득하는 시점은 왼쪽 상단의 타이머를 확인하세요!",
-                "UQsNEK": "임시 파일",
-                "UTExh3": "이 스티커는 사용할 수 없어요.",
-                "VCQXvr": "업로드 취소 완료",
-                "VH2HXW": "검색어와 일치하는 친구가 없어요.",
-                "VHM37p": "Orbs 보상을 추가로 획득할 수 있는 {productNamePlural}이(가) 더 나올 수 있으니 나중에 다시 확인해 보세요.",
-                "VT02mI": "배지가 없네요! 획득할 수 있는 배지를 확인해 보세요.",
-                "WGgc3y": "더 많은 퀘스트",
-                "XmaiRQ": "잠금 해제: {date}",
-                "XoHiqS": "{name} 및 {count}개 더",
-                "Ynmbie": "크기 계산 중…",
-                "ZduI7f": "다른 컨테이너 파일",
-                "a60/Fx": "전환할 오디오 장치",
-                "aE3Wbw": "문서",
-                "aIcsfw": "WebKit",
-                "bPMe3o": "bHook{guildName} 서버가 3주 연속으로 서버 찾기 활동 요구 조건을 충족하지 못했어요. 1주 더 조건을 통과하지 못하면 서버 찾기에서 자동으로 제거돼요.",
-                "bTMtdN": "예: 친구 추가하자, ㅇㅋ? 굿!",
-                "bhtYLk": "{productNamePlural}(으)로 돌아가기",
-                "brh0nz": "{productName}",
-                "cL/uf8": "프로모션 대상, 친구의 진행 상황에 추가 - {numDays}일 남음",
-                "d9KbHK": "프로모션 대상: {target}개 중 {current}개 수집 완료",
-                "dTHLeG": "무언가 으스스한 일이 일어나고 있어요. 한정판 핼러윈 아이템이 사라지기 전에 잠금 해제하세요.",
-                "dUPcpR": "{name}, {time} 후 시작",
-                "fJP+Wx": "bHook{guildName} 서버가 1주간 서버 찾기 활동 요구 조건을 충족하지 못했어요. 4주 연속으로 조건을 통과하지 못하면 서버 찾기에서 자동으로 제거돼요.",
-                "gRxSSJ": "한정판 핼러윈 아이템이 준비되었어요. {endClaimDate}까지 받아 가세요.",
-                "gYiBrD": "그리드 보기 나가기",
-                "ggLzeg": "챌린지를 로드하는 중 문제가 발생했습니다. underlineHookHook다시 시도해 보세요",
-                "hj/3qI": "디스크 사용량을 계산할 수 없습니다. 크기 계산을 다시 시도해 주세요.",
-                "i9UgY+": "가마솥 카오스",
-                "iAFGRu": "크기 계산",
-                "ifAVZr": "Apple 계정 확인",
-                "jidBDk": "프로모션 대상: {target}개 중 {current}개 수집 완료 - {numDays}일 남음",
-                "jx0GiG": "예: Wumpus",
-                "kJtgUW": "모든 {productNamePlural}을(를) 완료하여 +{orbAmount} Orbs를 받고 잠금 해제하세요",
-                "kt7tAT": "부분 측정: 읽기 오류 {errors}건, 디렉터리 {unavailable}개 사용 불가. 총 크기가 실제 사용량보다 적을 수 있습니다.",
-                "ltaxJz": "{streakCount}연승",
-                "lvf/y3": "{productNamePlural}을(를) 완료하고 Orbs를 획득하세요.",
-                "lyXyiY": "{target}개 중 {current}개 선택",
-                "lykjkX": "그리드 보기 열기",
-                "lzJM+Z": "디스크 사용량 계산이 완료되었습니다. 결과는 아래에 표시됩니다.",
-                "m8BOpo": "디스크 사용량",
-                "mL6Jwf": "{productNamePlural} 완료!",
-                "meauFg": "구독이 다른 Apple 계정으로 결제되었어요. 해당 계정으로 로그인하여 취소하거나 변경하세요.",
-                "oCKH5M": "이용 가능한 {productNamePlural}이(가) 없어요. 나중에 다시 확인해 주세요.",
-                "okaenw": "새 오디오 장치 발견",
-                "owAd83": "순위표 1위({statName})\n*{streakCount}주 연속",
-                "q3NQDg": "짧은 영상을 보고 Orbs를 획득하세요!",
-                "q8TlkE": "{name}, {time} 전 종료",
-                "r+tSgg": "{productNamePlural} 제공 예정",
-                "rManeQ": "연령대",
-                "sUvNeI": "{count}개의 무료 장식을 선택하세요. 선물 구매 시 영구적으로 소장할 수 있어요.",
-                "t1T3kD": "친구 링크 복사",
-                "tBOSx4": "친구 링크가 복사되었어요",
-                "thbw2T": "뭔가 만들어지고 있어요. 한정판 핼러윈 아이템이 사라지기 전에 잠금 해제하세요.",
-                "vI+3Ok": "번들에는 프로모션 진행률에 포함되는 {itemCount}개의 아이템이 포함되어 있어요. {endDate}부터 Orbs를 받을 수 있어요.",
-                "wBhFsO": "{itemDescription}. {endDate}부터 Orbs를 받을 수 있어요.",
-                "xs7q1I": "건너뛸 수 있는 동영상을 시청하고 각각 최대 100 Orbs를 획득하세요. 보상을 획득하는 시점은 왼쪽 상단의 타이머를 확인하세요!",
-                "zCbUvd": "{productName} 시작",
-                "zc1itm": "{name}, 플레이 중",
-                "zstmkn": "마크다운 렌더링"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "/Idfao": {
-                    "new_value": "hookHook문제없어",
-                    "old_value": "hookHook양호해요!"
-                },
-                "6XuC8e": {
-                    "new_value": "다른 시점",
-                    "old_value": "다른 각도"
-                },
-                "AL/SoZ": {
-                    "new_value": "유령이신가요, 아니면 그냥 오프라인 표시 중이신가요?",
-                    "old_value": "우우우! 우우우! 오싹오싹 핼러윈 시즌"
-                },
-                "GNHAfw": {
-                    "new_value": "퀘스트 예약",
-                    "old_value": "퀘스트"
-                },
-                "JcZ36i": {
-                    "new_value": "차단은 자동으로 계정과 IP를 동시에 차단해요.\n사용자는 프록시를 사용하여 IP 차단을 우회할 수 있어요.\n[보안 설정]({onModerationClick})에서 휴대폰 인증을 활성화하면 차단을 우회하기가 어려워져요.",
-                    "old_value": "차단은 자동으로 계정과 IP를 동시에 차단해요.\n사용자는 프록시를 사용하여 IP 차단을 우회할 수 있어요.\n[운영]({onModerationClick})에서 휴대폰 인증을 활성화하면 차단을 우회하는 게 어려워져요."
-                },
-                "TlJKIQ": {
-                    "new_value": "상점에서 Discord의 상주 마녀이자 물약 제조사인 Lottie를 만나볼 수 있어요.",
-                    "old_value": "당신은 유령인가요, 아니면 그냥 모습을 숨기고 계신 것뿐인가요?"
-                },
-                "ZuXSRp": {
-                    "new_value": "비공개로 유지하고 싶은 배지를 숨기려면 길게 누르세요.",
-                    "old_value": "길게 눌러 다른 사람에게 보여주고 싶지 않은 배지를 숨기세요."
-                },
-                "irDT8W": {
-                    "new_value": "마이크에서 잡음이 들리나요? 단순한 기계적 간섭 때문일 수도 있지만... 그게 아닌 뭔가 다른 존재일 수도 있죠…",
-                    "old_value": "핼러윈 '분위기'에 빠져들고 있어요"
-                },
-                "qS9MOl": {
-                    "new_value": "퀘스트 예약",
-                    "old_value": "퀘스트"
-                },
-                "rE+3z3": {
-                    "new_value": "으스스한 시기라고 해서 친구의 연락을 무시하면 안 되죠. DM에 답장해 보세요.",
-                    "old_value": "음성 채팅에서는 모두가 실체 없는 영혼이나 마찬가지예요."
-                },
-                "ydMZ2o": {
-                    "new_value": "죽어가는 서버를 다시 살려보세요.",
-                    "old_value": "즐거운 핼러윈! 죽은 서버를 꼭 되살리세요"
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-09-17T22:03:56.395977+00:00"
+    "timestamp": "2026-09-17T22:14:42.002141+00:00"
 }
