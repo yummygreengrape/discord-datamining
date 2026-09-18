@@ -1,5 +1,5 @@
 {
-    "build_hash": "0ed33b491201dcb8788c769b96acc4da47f0727b",
+    "build_hash": "0c27e972f8360a08e075ea3dfd3810f09f21b098",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,7 +41,11 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "1RFJ5Q": "Join Community",
+                "JMWqry": "Join the Conversation",
+                "OqHiIt": "Join Server"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +55,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-18T18:34:19.339017+00:00"
+    "timestamp": "2026-09-18T18:45:02.987187+00:00"
 }
