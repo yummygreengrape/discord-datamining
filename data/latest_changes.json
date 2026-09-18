@@ -1,8 +1,53 @@
 {
-    "build_hash": "b1bd5f15c6d5fbc1e563ca3720c7d82a764c4b35",
+    "build_hash": "f3c009f917640990d029edd36ad3e49842b3c2d3",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-referral-reminder-dc",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-18T00:11:27Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-referral-reminder-dc",
+            "kind": "user",
+            "timestamp": "2026-09-18T00:11:27Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -51,5 +96,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-17T23:55:03.357726+00:00"
+    "timestamp": "2026-09-18T00:16:07.108586+00:00"
 }
