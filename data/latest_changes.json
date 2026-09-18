@@ -1,5 +1,5 @@
 {
-    "build_hash": "a886c4ce18754f8803c4109d334859a63c1b67d8",
+    "build_hash": "d43f58e2beba783703e74633c16ae3451f5af357",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,15 +41,421 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "cfrfyZ": "Show a suggestion when Discord detects a new audio device.",
+                "gF8HJo": "Audio Device Suggestions"
+            },
+            "deleted": {
+                "1l/LhA": "Discord recommends switching audio input to bHook{vendorName} {modelName}.",
+                "SupmjL": "Discord recommends switching audio output to bHook{vendorName} {modelName}.",
+                "xYe9fZ": "Discord recommends switching audio to bHook{vendorName} {modelName}."
+            },
+            "modified": {
+                "2X8Wod": {
+                    "new_value": "Don't Switch",
+                    "old_value": "Don't switch"
+                },
+                "Jat8cd": {
+                    "new_value": "Switch Output",
+                    "old_value": "Switch output"
+                },
+                "RJttRt": {
+                    "new_value": "Switch Input + Output",
+                    "old_value": "Switch input + output"
+                },
+                "VLKyL8": {
+                    "new_value": "Switch Input",
+                    "old_value": "Switch input"
+                }
+            }
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "1l/LhA": "Discord에서 오디오 입력을 bHook{vendorName} {modelName}으(로) 전환할 것을 권장합니다.",
+                "SupmjL": "Discord에서 오디오 출력을 bHook{vendorName} {modelName}으(로) 전환할 것을 권장합니다.",
+                "xYe9fZ": "Discord에서 오디오를 bHook{vendorName} {modelName}(으)로 전환할 것을 권장합니다."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-18T17:39:33.842866+00:00"
+    "string_context": {
+        "en": {
+            "1l/LhA": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 문자열은 감지된 vendorName·modelName 또는 deviceName을 보여 주고 입력, 출력, 둘 다 전환하는 동작을 구분합니다. 같은 시점의 실험 근거는 통화를 가리는 큰 창 대신 작은 장치 감지 패널에서 전환·닫기·무시 동작을 제공했음을 보여 줍니다. 실험 삭제 기록도 함께 있으므로 모든 계정에 현재 표시된다고 단정하지 않습니다.",
+                    "generated_at": "2026-08-01T09:12:57.625Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Switch input",
+                        "Switch output",
+                        "Switch input + output",
+                        "Dismiss device suggestion",
+                        "Don't switch",
+                        "2026-07-unobtrusive-device-suggestions"
+                    ],
+                    "search_intent": "Discord에서 ‘Discord recommends switching audio input to **{vendorName} {modelName}**.’ 문구가 어느 화면에서 왜 나타났는지, 무엇을 의미하고 필요한 조치가 있는지 확인하려는 검색입니다.",
+                    "source_context": "현재 문자열과 최신 리포트의 `2026-07-unobtrusive-device-suggestions` 소비자 근거가 switch, dismiss, ignore 동작을 같은 DeviceDetectedPanel에 연결합니다.",
+                    "summary": "Discord가 새 마이크나 스피커를 감지했을 때 입력·출력 장치를 바꿀지 묻는 음성 장치 제안 문구입니다.",
+                    "what_it_means": "Discord가 현재 사용 중인 마이크나 스피커 대신 새로 감지한 장치를 입력, 출력 또는 양쪽에 적용할지 확인하는 단계입니다.",
+                    "when_it_appears": "Discord 음성 기능을 사용하는 동안 새 오디오 입력 또는 출력 장치가 감지되고 해당 장치 제안 UI가 활성화된 경우 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The current strings identify a detected vendor, model, or device and separate actions for switching input, output, or both. Same-window experiment evidence places switch, dismiss, and ignore actions in a compact device-detected panel instead of a blocking modal. Because the experiment also has a later deletion event, this analysis does not claim universal current availability.",
+                    "generated_at": "2026-08-01T09:12:57.625Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Switch input",
+                        "Switch output",
+                        "Switch input + output",
+                        "Dismiss device suggestion",
+                        "Don't switch",
+                        "2026-07-unobtrusive-device-suggestions"
+                    ],
+                    "search_intent": "A visitor likely searched for “Discord recommends switching audio input to **{vendorName} {modelName}**.” to learn where it appears in Discord, what it means, and whether any action is needed.",
+                    "source_context": "Current strings and the latest report's consumer evidence for `2026-07-unobtrusive-device-suggestions` connect switch, dismiss, and ignore actions to the same DeviceDetectedPanel.",
+                    "summary": "A Discord voice prompt asking whether to switch input, output, or both after a new microphone or speaker is detected.",
+                    "what_it_means": "Discord is asking whether the newly detected microphone or speaker should replace the current input, output, or both.",
+                    "when_it_appears": "It can appear while Discord voice features are in use, a new input or output device is detected, and the device-suggestion UI is enabled."
+                }
+            },
+            "Jat8cd": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 문자열은 감지된 vendorName·modelName 또는 deviceName을 보여 주고 입력, 출력, 둘 다 전환하는 동작을 구분합니다. 같은 시점의 실험 근거는 통화를 가리는 큰 창 대신 작은 장치 감지 패널에서 전환·닫기·무시 동작을 제공했음을 보여 줍니다. 실험 삭제 기록도 함께 있으므로 모든 계정에 현재 표시된다고 단정하지 않습니다. 이 항목은 화면에 ‘Switch output’라고 표시되어, 같은 흐름 안에서도 현재 단계나 가능한 동작을 구체적으로 구분해 줍니다.",
+                    "generated_at": "2026-09-12T00:15:18Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Switch input",
+                        "Switch output",
+                        "Switch input + output",
+                        "Dismiss device suggestion",
+                        "Don't switch",
+                        "2026-07-unobtrusive-device-suggestions"
+                    ],
+                    "search_intent": "‘Switch output’를 Discord에서 본 사용자가 그 문구의 기능과 표시 이유를 확인하려는 검색입니다. Discord에서 ‘Switch output’ 문구가 어느 화면에서 왜 나타났는지, 무엇을 의미하고 필요한 조치가 있는지 확인하려는 검색입니다.",
+                    "source_context": "현재 문자열과 최신 리포트의 `2026-07-unobtrusive-device-suggestions` 소비자 근거가 switch, dismiss, ignore 동작을 같은 DeviceDetectedPanel에 연결합니다.",
+                    "summary": "‘Switch output’는 Discord의 음성·영상·장치 안내 문구입니다. Discord가 새 마이크나 스피커를 감지했을 때 입력·출력 장치를 바꿀지 묻는 음성 장치 제안 문구입니다.",
+                    "what_it_means": "‘Switch output’라는 표현이 직접 가리키는 상태나 동작을 설명합니다. Discord가 현재 사용 중인 마이크나 스피커 대신 새로 감지한 장치를 입력, 출력 또는 양쪽에 적용할지 확인하는 단계입니다.",
+                    "when_it_appears": "Discord 음성 기능을 사용하는 동안 새 오디오 입력 또는 출력 장치가 감지되고 해당 장치 제안 UI가 활성화된 경우 나타날 수 있습니다. 그 과정에서 이 항목은 ‘Switch output’라는 문구로 나타납니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The current strings identify a detected vendor, model, or device and separate actions for switching input, output, or both. Same-window experiment evidence places switch, dismiss, and ignore actions in a compact device-detected panel instead of a blocking modal. Because the experiment also has a later deletion event, this analysis does not claim universal current availability. This specific item is displayed as “Switch output,” distinguishing its current step, state, or available action from nearby items in the same flow.",
+                    "generated_at": "2026-09-12T00:15:18Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Switch input",
+                        "Switch output",
+                        "Switch input + output",
+                        "Dismiss device suggestion",
+                        "Don't switch",
+                        "2026-07-unobtrusive-device-suggestions"
+                    ],
+                    "search_intent": "A user who saw “Switch output” in Discord is likely checking what this exact copy does and why it appeared. A visitor likely searched for “Switch output” to learn where it appears in Discord, what it means, and whether any action is needed.",
+                    "source_context": "Current strings and the latest report's consumer evidence for `2026-07-unobtrusive-device-suggestions` connect switch, dismiss, and ignore actions to the same DeviceDetectedPanel.",
+                    "summary": "“Switch output” is a voice, video, or device notice in Discord. A Discord voice prompt asking whether to switch input, output, or both after a new microphone or speaker is detected.",
+                    "what_it_means": "The wording “Switch output” identifies the specific state or action described here. Discord is asking whether the newly detected microphone or speaker should replace the current input, output, or both.",
+                    "when_it_appears": "It can appear while Discord voice features are in use, a new input or output device is detected, and the device-suggestion UI is enabled. At that point, this item appears with the text “Switch output.”"
+                }
+            },
+            "RJttRt": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 문자열은 감지된 vendorName·modelName 또는 deviceName을 보여 주고 입력, 출력, 둘 다 전환하는 동작을 구분합니다. 같은 시점의 실험 근거는 통화를 가리는 큰 창 대신 작은 장치 감지 패널에서 전환·닫기·무시 동작을 제공했음을 보여 줍니다. 실험 삭제 기록도 함께 있으므로 모든 계정에 현재 표시된다고 단정하지 않습니다.",
+                    "generated_at": "2026-08-01T09:12:57.625Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Switch input",
+                        "Switch output",
+                        "Switch input + output",
+                        "Dismiss device suggestion",
+                        "Don't switch",
+                        "2026-07-unobtrusive-device-suggestions"
+                    ],
+                    "search_intent": "Discord에서 ‘Switch input + output’ 문구가 어느 화면에서 왜 나타났는지, 무엇을 의미하고 필요한 조치가 있는지 확인하려는 검색입니다.",
+                    "source_context": "현재 문자열과 최신 리포트의 `2026-07-unobtrusive-device-suggestions` 소비자 근거가 switch, dismiss, ignore 동작을 같은 DeviceDetectedPanel에 연결합니다.",
+                    "summary": "Discord가 새 마이크나 스피커를 감지했을 때 입력·출력 장치를 바꿀지 묻는 음성 장치 제안 문구입니다.",
+                    "what_it_means": "Discord가 현재 사용 중인 마이크나 스피커 대신 새로 감지한 장치를 입력, 출력 또는 양쪽에 적용할지 확인하는 단계입니다.",
+                    "when_it_appears": "Discord 음성 기능을 사용하는 동안 새 오디오 입력 또는 출력 장치가 감지되고 해당 장치 제안 UI가 활성화된 경우 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The current strings identify a detected vendor, model, or device and separate actions for switching input, output, or both. Same-window experiment evidence places switch, dismiss, and ignore actions in a compact device-detected panel instead of a blocking modal. Because the experiment also has a later deletion event, this analysis does not claim universal current availability.",
+                    "generated_at": "2026-08-01T09:12:57.625Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Switch input",
+                        "Switch output",
+                        "Switch input + output",
+                        "Dismiss device suggestion",
+                        "Don't switch",
+                        "2026-07-unobtrusive-device-suggestions"
+                    ],
+                    "search_intent": "A visitor likely searched for “Switch input + output” to learn where it appears in Discord, what it means, and whether any action is needed.",
+                    "source_context": "Current strings and the latest report's consumer evidence for `2026-07-unobtrusive-device-suggestions` connect switch, dismiss, and ignore actions to the same DeviceDetectedPanel.",
+                    "summary": "A Discord voice prompt asking whether to switch input, output, or both after a new microphone or speaker is detected.",
+                    "what_it_means": "Discord is asking whether the newly detected microphone or speaker should replace the current input, output, or both.",
+                    "when_it_appears": "It can appear while Discord voice features are in use, a new input or output device is detected, and the device-suggestion UI is enabled."
+                }
+            },
+            "SupmjL": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 문자열은 감지된 vendorName·modelName 또는 deviceName을 보여 주고 입력, 출력, 둘 다 전환하는 동작을 구분합니다. 같은 시점의 실험 근거는 통화를 가리는 큰 창 대신 작은 장치 감지 패널에서 전환·닫기·무시 동작을 제공했음을 보여 줍니다. 실험 삭제 기록도 함께 있으므로 모든 계정에 현재 표시된다고 단정하지 않습니다.",
+                    "generated_at": "2026-08-01T09:12:57.625Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Switch input",
+                        "Switch output",
+                        "Switch input + output",
+                        "Dismiss device suggestion",
+                        "Don't switch",
+                        "2026-07-unobtrusive-device-suggestions"
+                    ],
+                    "search_intent": "Discord에서 ‘Discord recommends switching audio output to **{vendorName} {modelName}**.’ 문구가 어느 화면에서 왜 나타났는지, 무엇을 의미하고 필요한 조치가 있는지 확인하려는 검색입니다.",
+                    "source_context": "현재 문자열과 최신 리포트의 `2026-07-unobtrusive-device-suggestions` 소비자 근거가 switch, dismiss, ignore 동작을 같은 DeviceDetectedPanel에 연결합니다.",
+                    "summary": "Discord가 새 마이크나 스피커를 감지했을 때 입력·출력 장치를 바꿀지 묻는 음성 장치 제안 문구입니다.",
+                    "what_it_means": "Discord가 현재 사용 중인 마이크나 스피커 대신 새로 감지한 장치를 입력, 출력 또는 양쪽에 적용할지 확인하는 단계입니다.",
+                    "when_it_appears": "Discord 음성 기능을 사용하는 동안 새 오디오 입력 또는 출력 장치가 감지되고 해당 장치 제안 UI가 활성화된 경우 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The current strings identify a detected vendor, model, or device and separate actions for switching input, output, or both. Same-window experiment evidence places switch, dismiss, and ignore actions in a compact device-detected panel instead of a blocking modal. Because the experiment also has a later deletion event, this analysis does not claim universal current availability.",
+                    "generated_at": "2026-08-01T09:12:57.625Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Switch input",
+                        "Switch output",
+                        "Switch input + output",
+                        "Dismiss device suggestion",
+                        "Don't switch",
+                        "2026-07-unobtrusive-device-suggestions"
+                    ],
+                    "search_intent": "A visitor likely searched for “Discord recommends switching audio output to **{vendorName} {modelName}**.” to learn where it appears in Discord, what it means, and whether any action is needed.",
+                    "source_context": "Current strings and the latest report's consumer evidence for `2026-07-unobtrusive-device-suggestions` connect switch, dismiss, and ignore actions to the same DeviceDetectedPanel.",
+                    "summary": "A Discord voice prompt asking whether to switch input, output, or both after a new microphone or speaker is detected.",
+                    "what_it_means": "Discord is asking whether the newly detected microphone or speaker should replace the current input, output, or both.",
+                    "when_it_appears": "It can appear while Discord voice features are in use, a new input or output device is detected, and the device-suggestion UI is enabled."
+                }
+            },
+            "VLKyL8": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 문자열은 감지된 vendorName·modelName 또는 deviceName을 보여 주고 입력, 출력, 둘 다 전환하는 동작을 구분합니다. 같은 시점의 실험 근거는 통화를 가리는 큰 창 대신 작은 장치 감지 패널에서 전환·닫기·무시 동작을 제공했음을 보여 줍니다. 실험 삭제 기록도 함께 있으므로 모든 계정에 현재 표시된다고 단정하지 않습니다.",
+                    "generated_at": "2026-08-01T09:12:57.625Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Switch input",
+                        "Switch output",
+                        "Switch input + output",
+                        "Dismiss device suggestion",
+                        "Don't switch",
+                        "2026-07-unobtrusive-device-suggestions"
+                    ],
+                    "search_intent": "Discord에서 ‘Switch input’ 문구가 어느 화면에서 왜 나타났는지, 무엇을 의미하고 필요한 조치가 있는지 확인하려는 검색입니다.",
+                    "source_context": "현재 문자열과 최신 리포트의 `2026-07-unobtrusive-device-suggestions` 소비자 근거가 switch, dismiss, ignore 동작을 같은 DeviceDetectedPanel에 연결합니다.",
+                    "summary": "Discord가 새 마이크나 스피커를 감지했을 때 입력·출력 장치를 바꿀지 묻는 음성 장치 제안 문구입니다.",
+                    "what_it_means": "Discord가 현재 사용 중인 마이크나 스피커 대신 새로 감지한 장치를 입력, 출력 또는 양쪽에 적용할지 확인하는 단계입니다.",
+                    "when_it_appears": "Discord 음성 기능을 사용하는 동안 새 오디오 입력 또는 출력 장치가 감지되고 해당 장치 제안 UI가 활성화된 경우 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The current strings identify a detected vendor, model, or device and separate actions for switching input, output, or both. Same-window experiment evidence places switch, dismiss, and ignore actions in a compact device-detected panel instead of a blocking modal. Because the experiment also has a later deletion event, this analysis does not claim universal current availability.",
+                    "generated_at": "2026-08-01T09:12:57.625Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Switch input",
+                        "Switch output",
+                        "Switch input + output",
+                        "Dismiss device suggestion",
+                        "Don't switch",
+                        "2026-07-unobtrusive-device-suggestions"
+                    ],
+                    "search_intent": "A visitor likely searched for “Switch input” to learn where it appears in Discord, what it means, and whether any action is needed.",
+                    "source_context": "Current strings and the latest report's consumer evidence for `2026-07-unobtrusive-device-suggestions` connect switch, dismiss, and ignore actions to the same DeviceDetectedPanel.",
+                    "summary": "A Discord voice prompt asking whether to switch input, output, or both after a new microphone or speaker is detected.",
+                    "what_it_means": "Discord is asking whether the newly detected microphone or speaker should replace the current input, output, or both.",
+                    "when_it_appears": "It can appear while Discord voice features are in use, a new input or output device is detected, and the device-suggestion UI is enabled."
+                }
+            },
+            "xYe9fZ": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 문자열은 감지된 vendorName·modelName 또는 deviceName을 보여 주고 입력, 출력, 둘 다 전환하는 동작을 구분합니다. 같은 시점의 실험 근거는 통화를 가리는 큰 창 대신 작은 장치 감지 패널에서 전환·닫기·무시 동작을 제공했음을 보여 줍니다. 실험 삭제 기록도 함께 있으므로 모든 계정에 현재 표시된다고 단정하지 않습니다.",
+                    "generated_at": "2026-08-01T09:12:57.625Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Switch input",
+                        "Switch output",
+                        "Switch input + output",
+                        "Dismiss device suggestion",
+                        "Don't switch",
+                        "2026-07-unobtrusive-device-suggestions"
+                    ],
+                    "search_intent": "Discord에서 ‘Discord recommends switching audio to **{vendorName} {modelName}**.’ 문구가 어느 화면에서 왜 나타났는지, 무엇을 의미하고 필요한 조치가 있는지 확인하려는 검색입니다.",
+                    "source_context": "현재 문자열과 최신 리포트의 `2026-07-unobtrusive-device-suggestions` 소비자 근거가 switch, dismiss, ignore 동작을 같은 DeviceDetectedPanel에 연결합니다.",
+                    "summary": "Discord가 새 마이크나 스피커를 감지했을 때 입력·출력 장치를 바꿀지 묻는 음성 장치 제안 문구입니다.",
+                    "what_it_means": "Discord가 현재 사용 중인 마이크나 스피커 대신 새로 감지한 장치를 입력, 출력 또는 양쪽에 적용할지 확인하는 단계입니다.",
+                    "when_it_appears": "Discord 음성 기능을 사용하는 동안 새 오디오 입력 또는 출력 장치가 감지되고 해당 장치 제안 UI가 활성화된 경우 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The current strings identify a detected vendor, model, or device and separate actions for switching input, output, or both. Same-window experiment evidence places switch, dismiss, and ignore actions in a compact device-detected panel instead of a blocking modal. Because the experiment also has a later deletion event, this analysis does not claim universal current availability.",
+                    "generated_at": "2026-08-01T09:12:57.625Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Switch input",
+                        "Switch output",
+                        "Switch input + output",
+                        "Dismiss device suggestion",
+                        "Don't switch",
+                        "2026-07-unobtrusive-device-suggestions"
+                    ],
+                    "search_intent": "A visitor likely searched for “Discord recommends switching audio to **{vendorName} {modelName}**.” to learn where it appears in Discord, what it means, and whether any action is needed.",
+                    "source_context": "Current strings and the latest report's consumer evidence for `2026-07-unobtrusive-device-suggestions` connect switch, dismiss, and ignore actions to the same DeviceDetectedPanel.",
+                    "summary": "A Discord voice prompt asking whether to switch input, output, or both after a new microphone or speaker is detected.",
+                    "what_it_means": "Discord is asking whether the newly detected microphone or speaker should replace the current input, output, or both.",
+                    "when_it_appears": "It can appear while Discord voice features are in use, a new input or output device is detected, and the device-suggestion UI is enabled."
+                }
+            }
+        },
+        "ko": {
+            "1l/LhA": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "같은 한국어 묶음은 추천 장치의 제조사·모델명, 오디오 입력 전환, 출력 전환, 입력+출력 전환을 함께 보여 줍니다. 이는 통화 중 장치가 바뀌었거나 새 장치가 감지된 상황을 가리키며, 자동으로 전환됐다는 뜻은 아닙니다.",
+                    "generated_at": "2026-08-07T09:14:11.258Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Audio Input",
+                        "Audio Output",
+                        "Switch Input + Output",
+                        "device recommendation",
+                        "microphone",
+                        "speaker",
+                        "Discord voice"
+                    ],
+                    "search_intent": "사용자는 Discord가 마이크나 스피커 전환을 왜 추천하는지, 입력·출력·둘 다 전환의 차이가 무엇인지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "같은 시점의 한국어 locale에는 Discord recommends switching audio, switch input, switch output, switch input + output 문구가 함께 추가되었습니다.",
+                    "summary": "Discord가 새 오디오 장치를 감지하고 입력·출력 또는 둘 다 전환할지 묻는 음성 장치 안내입니다.",
+                    "what_it_means": "입력은 마이크, 출력은 듣는 장치이며, 입력+출력은 두 장치를 함께 새 장치로 바꾸는 선택입니다.",
+                    "what_to_do": "원하는 마이크와 스피커가 화면에 표시된 장치인지 확인한 뒤 해당 전환만 선택하세요. 현재 통화 장치를 유지하려면 전환을 취소할 수 있습니다.",
+                    "when_it_appears": "Discord 음성 기능을 사용하는 동안 새 마이크·헤드셋·스피커가 감지되거나 기본 장치가 달라졌을 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The Korean group combines a recommended device's vendor and model with switching audio input, output, or both. It points to a new or changed device during voice use and does not mean Discord already switched automatically.",
+                    "generated_at": "2026-08-07T09:14:11.258Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Audio Input",
+                        "Audio Output",
+                        "Switch Input + Output",
+                        "device recommendation",
+                        "microphone",
+                        "speaker",
+                        "Discord voice"
+                    ],
+                    "search_intent": "Searchers likely want to know why Discord recommends switching a microphone or speaker and what the input, output, or both choices change.",
+                    "source_context": "The Korean locale added Discord recommends switching audio, switch input, switch output, and switch input plus output copy together.",
+                    "summary": "Discord voice prompts that detect an audio device and ask whether to switch input, output, or both.",
+                    "what_it_means": "Input means the microphone, output means the listening device, and input plus output switches both sides to the new device.",
+                    "what_to_do": "Confirm that the displayed device is the microphone or speaker you want, then choose only the relevant switch. Cancel the prompt if you want to keep the current call devices.",
+                    "when_it_appears": "May appear while using Discord voice when a new microphone, headset, or speaker is detected or the default device changes."
+                }
+            },
+            "SupmjL": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "같은 한국어 묶음은 추천 장치의 제조사·모델명, 오디오 입력 전환, 출력 전환, 입력+출력 전환을 함께 보여 줍니다. 이는 통화 중 장치가 바뀌었거나 새 장치가 감지된 상황을 가리키며, 자동으로 전환됐다는 뜻은 아닙니다.",
+                    "generated_at": "2026-08-07T09:14:11.258Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Audio Input",
+                        "Audio Output",
+                        "Switch Input + Output",
+                        "device recommendation",
+                        "microphone",
+                        "speaker",
+                        "Discord voice"
+                    ],
+                    "search_intent": "사용자는 Discord가 마이크나 스피커 전환을 왜 추천하는지, 입력·출력·둘 다 전환의 차이가 무엇인지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "같은 시점의 한국어 locale에는 Discord recommends switching audio, switch input, switch output, switch input + output 문구가 함께 추가되었습니다.",
+                    "summary": "Discord가 새 오디오 장치를 감지하고 입력·출력 또는 둘 다 전환할지 묻는 음성 장치 안내입니다.",
+                    "what_it_means": "입력은 마이크, 출력은 듣는 장치이며, 입력+출력은 두 장치를 함께 새 장치로 바꾸는 선택입니다.",
+                    "what_to_do": "원하는 마이크와 스피커가 화면에 표시된 장치인지 확인한 뒤 해당 전환만 선택하세요. 현재 통화 장치를 유지하려면 전환을 취소할 수 있습니다.",
+                    "when_it_appears": "Discord 음성 기능을 사용하는 동안 새 마이크·헤드셋·스피커가 감지되거나 기본 장치가 달라졌을 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The Korean group combines a recommended device's vendor and model with switching audio input, output, or both. It points to a new or changed device during voice use and does not mean Discord already switched automatically.",
+                    "generated_at": "2026-08-07T09:14:11.258Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Audio Input",
+                        "Audio Output",
+                        "Switch Input + Output",
+                        "device recommendation",
+                        "microphone",
+                        "speaker",
+                        "Discord voice"
+                    ],
+                    "search_intent": "Searchers likely want to know why Discord recommends switching a microphone or speaker and what the input, output, or both choices change.",
+                    "source_context": "The Korean locale added Discord recommends switching audio, switch input, switch output, and switch input plus output copy together.",
+                    "summary": "Discord voice prompts that detect an audio device and ask whether to switch input, output, or both.",
+                    "what_it_means": "Input means the microphone, output means the listening device, and input plus output switches both sides to the new device.",
+                    "what_to_do": "Confirm that the displayed device is the microphone or speaker you want, then choose only the relevant switch. Cancel the prompt if you want to keep the current call devices.",
+                    "when_it_appears": "May appear while using Discord voice when a new microphone, headset, or speaker is detected or the default device changes."
+                }
+            },
+            "xYe9fZ": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "같은 한국어 묶음은 추천 장치의 제조사·모델명, 오디오 입력 전환, 출력 전환, 입력+출력 전환을 함께 보여 줍니다. 이는 통화 중 장치가 바뀌었거나 새 장치가 감지된 상황을 가리키며, 자동으로 전환됐다는 뜻은 아닙니다.",
+                    "generated_at": "2026-08-07T09:14:11.258Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Audio Input",
+                        "Audio Output",
+                        "Switch Input + Output",
+                        "device recommendation",
+                        "microphone",
+                        "speaker",
+                        "Discord voice"
+                    ],
+                    "search_intent": "사용자는 Discord가 마이크나 스피커 전환을 왜 추천하는지, 입력·출력·둘 다 전환의 차이가 무엇인지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "같은 시점의 한국어 locale에는 Discord recommends switching audio, switch input, switch output, switch input + output 문구가 함께 추가되었습니다.",
+                    "summary": "Discord가 새 오디오 장치를 감지하고 입력·출력 또는 둘 다 전환할지 묻는 음성 장치 안내입니다.",
+                    "what_it_means": "입력은 마이크, 출력은 듣는 장치이며, 입력+출력은 두 장치를 함께 새 장치로 바꾸는 선택입니다.",
+                    "what_to_do": "원하는 마이크와 스피커가 화면에 표시된 장치인지 확인한 뒤 해당 전환만 선택하세요. 현재 통화 장치를 유지하려면 전환을 취소할 수 있습니다.",
+                    "when_it_appears": "Discord 음성 기능을 사용하는 동안 새 마이크·헤드셋·스피커가 감지되거나 기본 장치가 달라졌을 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The Korean group combines a recommended device's vendor and model with switching audio input, output, or both. It points to a new or changed device during voice use and does not mean Discord already switched automatically.",
+                    "generated_at": "2026-08-07T09:14:11.258Z",
+                    "intent_type": "voice_video_or_device_issue",
+                    "related_terms": [
+                        "Audio Input",
+                        "Audio Output",
+                        "Switch Input + Output",
+                        "device recommendation",
+                        "microphone",
+                        "speaker",
+                        "Discord voice"
+                    ],
+                    "search_intent": "Searchers likely want to know why Discord recommends switching a microphone or speaker and what the input, output, or both choices change.",
+                    "source_context": "The Korean locale added Discord recommends switching audio, switch input, switch output, and switch input plus output copy together.",
+                    "summary": "Discord voice prompts that detect an audio device and ask whether to switch input, output, or both.",
+                    "what_it_means": "Input means the microphone, output means the listening device, and input plus output switches both sides to the new device.",
+                    "what_to_do": "Confirm that the displayed device is the microphone or speaker you want, then choose only the relevant switch. Cancel the prompt if you want to keep the current call devices.",
+                    "when_it_appears": "May appear while using Discord voice when a new microphone, headset, or speaker is detected or the default device changes."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-09-18T17:51:14.628363+00:00"
 }
