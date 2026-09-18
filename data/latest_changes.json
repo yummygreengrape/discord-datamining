@@ -1,5 +1,5 @@
 {
-    "build_hash": "a898ebdfc7a4a5119f2f86d798e7e4eb79fdbbdd",
+    "build_hash": "a833b0883149994635ca3d99a851f90c6fed2452",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,18 +41,8 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "+OEqVQ": "Build your own Server Hub",
-                "2AoJt6": "Add the panels your server will actually use.",
-                "BNSdWl": "Customizable",
-                "BP//Ot": "Create a space for you and all of your friends that’s uniquely yours.",
-                "HXmZlY": "You can customize the layout, and content to create a unique space for your community.",
-                "OTYC2K": "Always changing",
-                "aQUPiQ": "Panels refresh themselves with the latest activity."
-            },
-            "deleted": {
-                "KcOpCm": "Edit Server Hub"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -61,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-18T21:37:29.644133+00:00"
+    "timestamp": "2026-09-18T21:48:12.478648+00:00"
 }
