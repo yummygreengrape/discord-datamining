@@ -1,5 +1,5 @@
 {
-    "build_hash": "0f605076ef09202aaf80bcaad2dd34b9a8b3e3de",
+    "build_hash": "b171296ec55db514eb351d95ca79c25cae31d2ed",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,18 +41,263 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "4iyrze": "Its preview bot is not ready to chat yet.",
-                "kWtsyP": "Chat"
+            "added": {},
+            "deleted": {
+                "P+DDLh": "Get 5,000 Orbs",
+                "ZME/HA": "You unlocked 5,000 Orbs.",
+                "aMeOMj": "You can spend them in the Shop!",
+                "dOZh6X": "When you complete this gift purchase"
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "P+DDLh": "5,000 Orbs 지급!",
+                "ZME/HA": "5,000 Orbs가 잠금 해제됐어요.",
+                "aMeOMj": "상점에서 사용할 수 있어요!",
+                "dOZh6X": "이 선물 구매 완료 시"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-18T05:09:55.609188+00:00"
+    "string_context": {
+        "en": {
+            "P+DDLh": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "이 문자열들은 선물 구매 완료 조건, 5,000 Orbs 획득, 보상 잠금 해제, Shop 사용 안내를 하나의 흐름으로 보여 줍니다. 따라서 단순한 Orbs 잔액 표시가 아니라 구매와 연결된 보상 안내로 해석됩니다. 대상 선물, 적용 지역, 행사 기간과 중복 수령 조건은 현재 문자열에서 확인되지 않습니다.",
+                    "generated_at": "2026-08-16T00:12:07.828977Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "5,000 Orbs",
+                        "선물 구매",
+                        "Shop",
+                        "보상 잠금 해제",
+                        "Discord Orbs"
+                    ],
+                    "search_intent": "Discord 선물 구매 시 5,000 Orbs를 받는 조건과 받은 Orbs의 사용처를 확인하려는 검색입니다.",
+                    "source_context": "같은 시점에 Get 5,000 Orbs, gift purchase 완료 조건, You unlocked 5,000 Orbs, Shop 사용 안내가 함께 추가되었습니다.",
+                    "summary": "특정 선물 구매를 완료하면 5,000 Orbs를 받고 Discord Shop에서 사용할 수 있다고 안내하는 보상 문구입니다.",
+                    "what_it_means": "문구상 해당 선물 구매를 완료하면 5,000 Orbs가 보상으로 지급되고 Shop에서 쓸 수 있다는 뜻입니다.",
+                    "when_it_appears": "보상 대상 선물 구매를 안내하거나 구매 완료 후 Orbs 잠금 해제를 확인하는 화면에 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "These strings connect completion of a gift purchase with receiving 5,000 Orbs, an unlocked-reward state, and spending the currency in the Shop. This is therefore purchase-linked reward copy rather than a generic balance label. The eligible gift, regions, promotion period, and repeat-eligibility rules are not present in the strings.",
+                    "generated_at": "2026-08-16T00:12:07.828977Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "5,000 Orbs",
+                        "gift purchase",
+                        "Shop",
+                        "reward unlocked",
+                        "Discord Orbs"
+                    ],
+                    "search_intent": "A search to understand the 5,000-Orb reward condition for a Discord gift purchase and where the reward can be used.",
+                    "source_context": "Same-window strings add Get 5,000 Orbs, the gift-purchase completion condition, You unlocked 5,000 Orbs, and Shop spending guidance together.",
+                    "summary": "Reward copy stating that completing a gift purchase grants 5,000 Orbs that can be spent in the Discord Shop.",
+                    "what_it_means": "The copy says that completing the relevant gift purchase grants 5,000 Orbs for use in the Shop.",
+                    "when_it_appears": "It can appear while presenting an eligible gift purchase or confirming that the Orbs were unlocked after completion."
+                }
+            },
+            "ZME/HA": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "이 문자열들은 선물 구매 완료 조건, 5,000 Orbs 획득, 보상 잠금 해제, Shop 사용 안내를 하나의 흐름으로 보여 줍니다. 따라서 단순한 Orbs 잔액 표시가 아니라 구매와 연결된 보상 안내로 해석됩니다. 대상 선물, 적용 지역, 행사 기간과 중복 수령 조건은 현재 문자열에서 확인되지 않습니다.",
+                    "generated_at": "2026-08-16T00:12:07.828977Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "5,000 Orbs",
+                        "선물 구매",
+                        "Shop",
+                        "보상 잠금 해제",
+                        "Discord Orbs"
+                    ],
+                    "search_intent": "Discord 선물 구매 시 5,000 Orbs를 받는 조건과 받은 Orbs의 사용처를 확인하려는 검색입니다.",
+                    "source_context": "같은 시점에 Get 5,000 Orbs, gift purchase 완료 조건, You unlocked 5,000 Orbs, Shop 사용 안내가 함께 추가되었습니다.",
+                    "summary": "특정 선물 구매를 완료하면 5,000 Orbs를 받고 Discord Shop에서 사용할 수 있다고 안내하는 보상 문구입니다.",
+                    "what_it_means": "문구상 해당 선물 구매를 완료하면 5,000 Orbs가 보상으로 지급되고 Shop에서 쓸 수 있다는 뜻입니다.",
+                    "when_it_appears": "보상 대상 선물 구매를 안내하거나 구매 완료 후 Orbs 잠금 해제를 확인하는 화면에 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "These strings connect completion of a gift purchase with receiving 5,000 Orbs, an unlocked-reward state, and spending the currency in the Shop. This is therefore purchase-linked reward copy rather than a generic balance label. The eligible gift, regions, promotion period, and repeat-eligibility rules are not present in the strings.",
+                    "generated_at": "2026-08-16T00:12:07.828977Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "5,000 Orbs",
+                        "gift purchase",
+                        "Shop",
+                        "reward unlocked",
+                        "Discord Orbs"
+                    ],
+                    "search_intent": "A search to understand the 5,000-Orb reward condition for a Discord gift purchase and where the reward can be used.",
+                    "source_context": "Same-window strings add Get 5,000 Orbs, the gift-purchase completion condition, You unlocked 5,000 Orbs, and Shop spending guidance together.",
+                    "summary": "Reward copy stating that completing a gift purchase grants 5,000 Orbs that can be spent in the Discord Shop.",
+                    "what_it_means": "The copy says that completing the relevant gift purchase grants 5,000 Orbs for use in the Shop.",
+                    "when_it_appears": "It can appear while presenting an eligible gift purchase or confirming that the Orbs were unlocked after completion."
+                }
+            },
+            "aMeOMj": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "이 문자열들은 선물 구매 완료 조건, 5,000 Orbs 획득, 보상 잠금 해제, Shop 사용 안내를 하나의 흐름으로 보여 줍니다. 따라서 단순한 Orbs 잔액 표시가 아니라 구매와 연결된 보상 안내로 해석됩니다. 대상 선물, 적용 지역, 행사 기간과 중복 수령 조건은 현재 문자열에서 확인되지 않습니다.",
+                    "generated_at": "2026-08-16T00:12:07.828977Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "5,000 Orbs",
+                        "선물 구매",
+                        "Shop",
+                        "보상 잠금 해제",
+                        "Discord Orbs"
+                    ],
+                    "search_intent": "Discord 선물 구매 시 5,000 Orbs를 받는 조건과 받은 Orbs의 사용처를 확인하려는 검색입니다.",
+                    "source_context": "같은 시점에 Get 5,000 Orbs, gift purchase 완료 조건, You unlocked 5,000 Orbs, Shop 사용 안내가 함께 추가되었습니다.",
+                    "summary": "특정 선물 구매를 완료하면 5,000 Orbs를 받고 Discord Shop에서 사용할 수 있다고 안내하는 보상 문구입니다.",
+                    "what_it_means": "문구상 해당 선물 구매를 완료하면 5,000 Orbs가 보상으로 지급되고 Shop에서 쓸 수 있다는 뜻입니다.",
+                    "when_it_appears": "보상 대상 선물 구매를 안내하거나 구매 완료 후 Orbs 잠금 해제를 확인하는 화면에 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "These strings connect completion of a gift purchase with receiving 5,000 Orbs, an unlocked-reward state, and spending the currency in the Shop. This is therefore purchase-linked reward copy rather than a generic balance label. The eligible gift, regions, promotion period, and repeat-eligibility rules are not present in the strings.",
+                    "generated_at": "2026-08-16T00:12:07.828977Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "5,000 Orbs",
+                        "gift purchase",
+                        "Shop",
+                        "reward unlocked",
+                        "Discord Orbs"
+                    ],
+                    "search_intent": "A search to understand the 5,000-Orb reward condition for a Discord gift purchase and where the reward can be used.",
+                    "source_context": "Same-window strings add Get 5,000 Orbs, the gift-purchase completion condition, You unlocked 5,000 Orbs, and Shop spending guidance together.",
+                    "summary": "Reward copy stating that completing a gift purchase grants 5,000 Orbs that can be spent in the Discord Shop.",
+                    "what_it_means": "The copy says that completing the relevant gift purchase grants 5,000 Orbs for use in the Shop.",
+                    "when_it_appears": "It can appear while presenting an eligible gift purchase or confirming that the Orbs were unlocked after completion."
+                }
+            },
+            "dOZh6X": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "이 문자열들은 선물 구매 완료 조건, 5,000 Orbs 획득, 보상 잠금 해제, Shop 사용 안내를 하나의 흐름으로 보여 줍니다. 따라서 단순한 Orbs 잔액 표시가 아니라 구매와 연결된 보상 안내로 해석됩니다. 대상 선물, 적용 지역, 행사 기간과 중복 수령 조건은 현재 문자열에서 확인되지 않습니다.",
+                    "generated_at": "2026-08-16T00:12:07.828977Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "5,000 Orbs",
+                        "선물 구매",
+                        "Shop",
+                        "보상 잠금 해제",
+                        "Discord Orbs"
+                    ],
+                    "search_intent": "Discord 선물 구매 시 5,000 Orbs를 받는 조건과 받은 Orbs의 사용처를 확인하려는 검색입니다.",
+                    "source_context": "같은 시점에 Get 5,000 Orbs, gift purchase 완료 조건, You unlocked 5,000 Orbs, Shop 사용 안내가 함께 추가되었습니다.",
+                    "summary": "특정 선물 구매를 완료하면 5,000 Orbs를 받고 Discord Shop에서 사용할 수 있다고 안내하는 보상 문구입니다.",
+                    "what_it_means": "문구상 해당 선물 구매를 완료하면 5,000 Orbs가 보상으로 지급되고 Shop에서 쓸 수 있다는 뜻입니다.",
+                    "when_it_appears": "보상 대상 선물 구매를 안내하거나 구매 완료 후 Orbs 잠금 해제를 확인하는 화면에 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "These strings connect completion of a gift purchase with receiving 5,000 Orbs, an unlocked-reward state, and spending the currency in the Shop. This is therefore purchase-linked reward copy rather than a generic balance label. The eligible gift, regions, promotion period, and repeat-eligibility rules are not present in the strings.",
+                    "generated_at": "2026-08-16T00:12:07.828977Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "5,000 Orbs",
+                        "gift purchase",
+                        "Shop",
+                        "reward unlocked",
+                        "Discord Orbs"
+                    ],
+                    "search_intent": "A search to understand the 5,000-Orb reward condition for a Discord gift purchase and where the reward can be used.",
+                    "source_context": "Same-window strings add Get 5,000 Orbs, the gift-purchase completion condition, You unlocked 5,000 Orbs, and Shop spending guidance together.",
+                    "summary": "Reward copy stating that completing a gift purchase grants 5,000 Orbs that can be spent in the Discord Shop.",
+                    "what_it_means": "The copy says that completing the relevant gift purchase grants 5,000 Orbs for use in the Shop.",
+                    "when_it_appears": "It can appear while presenting an eligible gift purchase or confirming that the Orbs were unlocked after completion."
+                }
+            }
+        },
+        "ko": {
+            "P+DDLh": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "한국어 묶음에는 무료 보상 선택, 선택 개수, 선물 개수, Nitro 이용 기간과 5,000 Orbs 지급 안내가 함께 있습니다. 따라서 Quest 완료 보상이 아니라 현재 선물 구매 제안에 딸린 보상 선택·보너스 흐름이며, 할인율과 제공 수량은 화면에 표시된 제안에 따라 달라집니다.",
+                    "generated_at": "2026-08-31T00:15:44.939956Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "무료 보상",
+                        "선물 구매",
+                        "5,000 Orbs",
+                        "Nitro 선물",
+                        "선택됨",
+                        "할인"
+                    ],
+                    "search_intent": "Discord 선물 구매에서 무료 보상이나 5,000 Orbs가 왜 표시되고 어떤 조건으로 받는지 확인하려는 검색입니다.",
+                    "source_context": "같은 한국어 locale 묶음에 무료 보상 선택, 선물 기간·수량, 할인과 선물 구매 완료 시 Orbs 지급 안내가 함께 있습니다.",
+                    "summary": "Discord 선물 구매에 포함된 무료 보상이나 Orbs 보너스와 선택 수량을 보여 주는 문구입니다.",
+                    "what_it_means": "현재 결제 화면의 선물 구매를 완료하면 표시된 무료 보상 또는 Orbs 보너스를 받을 수 있다는 뜻입니다.",
+                    "when_it_appears": "해당 프로모션이 적용된 Nitro 선물 구매에서 기간·수량을 고르고 무료 보상 또는 Orbs 보너스를 확인할 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The Korean group combines free-reward selection, selected count, gift quantity, Nitro duration, and a 5,000 Orbs purchase bonus. This supports a reward-selection and bonus flow attached to the current gift offer rather than a Quest completion reward; the discount and quantities depend on the displayed offer.",
+                    "generated_at": "2026-08-31T00:15:44.939956Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "free reward",
+                        "gift purchase",
+                        "5,000 Orbs",
+                        "Nitro gift",
+                        "selected",
+                        "discount"
+                    ],
+                    "search_intent": "The searcher likely wants to know why a free reward or 5,000 Orbs appears in Discord gift checkout and what condition applies.",
+                    "source_context": "The same Korean locale group combines free-reward selection, gift duration and quantity, a discount, and Orbs granted after completing the gift purchase.",
+                    "summary": "These strings show free item rewards or an Orbs bonus included with an eligible Discord gift purchase, plus the selected amount.",
+                    "what_it_means": "Completing the gift purchase shown in the current checkout can grant the displayed free reward or Orbs bonus.",
+                    "when_it_appears": "It may appear in an eligible Nitro gift checkout while choosing duration or quantity and reviewing the free reward or Orbs bonus."
+                }
+            },
+            "dOZh6X": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "한국어 묶음에는 무료 보상 선택, 선택 개수, 선물 개수, Nitro 이용 기간과 5,000 Orbs 지급 안내가 함께 있습니다. 따라서 Quest 완료 보상이 아니라 현재 선물 구매 제안에 딸린 보상 선택·보너스 흐름이며, 할인율과 제공 수량은 화면에 표시된 제안에 따라 달라집니다.",
+                    "generated_at": "2026-08-31T00:15:44.939956Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "무료 보상",
+                        "선물 구매",
+                        "5,000 Orbs",
+                        "Nitro 선물",
+                        "선택됨",
+                        "할인"
+                    ],
+                    "search_intent": "Discord 선물 구매에서 무료 보상이나 5,000 Orbs가 왜 표시되고 어떤 조건으로 받는지 확인하려는 검색입니다.",
+                    "source_context": "같은 한국어 locale 묶음에 무료 보상 선택, 선물 기간·수량, 할인과 선물 구매 완료 시 Orbs 지급 안내가 함께 있습니다.",
+                    "summary": "Discord 선물 구매에 포함된 무료 보상이나 Orbs 보너스와 선택 수량을 보여 주는 문구입니다.",
+                    "what_it_means": "현재 결제 화면의 선물 구매를 완료하면 표시된 무료 보상 또는 Orbs 보너스를 받을 수 있다는 뜻입니다.",
+                    "when_it_appears": "해당 프로모션이 적용된 Nitro 선물 구매에서 기간·수량을 고르고 무료 보상 또는 Orbs 보너스를 확인할 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The Korean group combines free-reward selection, selected count, gift quantity, Nitro duration, and a 5,000 Orbs purchase bonus. This supports a reward-selection and bonus flow attached to the current gift offer rather than a Quest completion reward; the discount and quantities depend on the displayed offer.",
+                    "generated_at": "2026-08-31T00:15:44.939956Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "free reward",
+                        "gift purchase",
+                        "5,000 Orbs",
+                        "Nitro gift",
+                        "selected",
+                        "discount"
+                    ],
+                    "search_intent": "The searcher likely wants to know why a free reward or 5,000 Orbs appears in Discord gift checkout and what condition applies.",
+                    "source_context": "The same Korean locale group combines free-reward selection, gift duration and quantity, a discount, and Orbs granted after completing the gift purchase.",
+                    "summary": "These strings show free item rewards or an Orbs bonus included with an eligible Discord gift purchase, plus the selected amount.",
+                    "what_it_means": "Completing the gift purchase shown in the current checkout can grant the displayed free reward or Orbs bonus.",
+                    "when_it_appears": "It may appear in an eligible Nitro gift checkout while choosing duration or quantity and reviewing the free reward or Orbs bonus."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-09-18T06:01:47.104596+00:00"
 }
