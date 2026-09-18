@@ -1,48 +1,106 @@
 {
-    "build_hash": "1d245955e0f1533d119940fb6cc85bbe36ea7372",
+    "build_hash": "85f691f27975a3c79efc1df3766f696015615e0e",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-premium-gifting-gogo-promotion",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-18T23:20:16Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-premium-gifting-gogo-promotion",
+            "kind": "user",
+            "timestamp": "2026-09-18T23:20:16Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-referral-trial-cta",
+            "kind": "user",
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": false,
+                "1": true
+            },
+            "status": "modified",
+            "treatments": [],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-referral-trial-cta",
+            "kind": "user",
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": false,
+                "1": true
+            },
+            "status": "modified",
+            "treatments": [],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-referral-trial-cta",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-09-18T23:11:11Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-referral-trial-cta",
-            "kind": "user",
-            "timestamp": "2026-09-18T23:11:11Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "5d22a5f54de0297b9577e25d6d33ec6b",
@@ -74,15 +132,202 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "BRUwuY": "All Projects",
+                "jDPFDh": "Hide Projects",
+                "mtU4VZ": "For Me",
+                "mvtKAm": "Show projects from",
+                "wY7I+H": "Opening projects from other servers is coming soon"
+            },
+            "deleted": {
+                "A/KOOc": "Get 5,000 Orbs when you complete this gift purchase. [Learn More]({learnMoreUrl})"
+            },
+            "modified": {
+                "Bo5fE3": {
+                    "new_value": "Projects",
+                    "old_value": "Your Projects"
+                },
+                "oMDaqr": {
+                    "new_value": "Edited {time}",
+                    "old_value": "Last edited {time}"
+                }
+            }
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "A/KOOc": "이 선물 구매를 완료하고 5,000Orbs를 받으세요. [자세히 알아보기]({learnMoreUrl})"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-18T23:13:29.256608+00:00"
+    "string_context": {
+        "en": {
+            "A/KOOc": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "영어 문구는 선물 구매 완료 시 Orb 수량을 받는다고 설명하고, 별도 안내는 5,000 Orbs와 Learn More 링크를 명시합니다. 같은 시점의 한국어 문구도 ‘이 선물 구매를 완료하면’과 ‘5,000 Orbs 받기’를 함께 제공합니다. 이 문자열은 제안 화면의 보상을 설명하지만 모든 선물 구매나 모든 계정의 자격을 보장하지는 않습니다.",
+                    "generated_at": "2026-08-22T00:17:34.955233Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "Orbs",
+                        "5,000 Orbs",
+                        "gift purchase",
+                        "Get Orbs",
+                        "Learn More",
+                        "reward offer"
+                    ],
+                    "search_intent": "Discord에서 선물을 사면 왜 Orbs가 표시되는지, 5,000 Orbs가 언제 지급되는지, 어떤 구매가 대상인지 확인하려는 검색입니다.",
+                    "source_context": "같은 처리 창의 영어·한국어 문자열에 Get Orbs, 선물 구매 완료 조건, 5,000 Orbs와 Learn More가 함께 추가되었습니다.",
+                    "summary": "Discord 선물 구매를 완료하면 Orbs 보상을 받을 수 있다고 표시하는 구매 보너스 문구입니다.",
+                    "what_it_means": "현재 제안에 해당하는 선물 구매를 완료하면 화면에 표시된 Orbs 보상을 받는다는 뜻입니다.",
+                    "what_to_do": "구매 전에 현재 결제 화면에 Orbs 보너스와 수량이 실제로 표시되는지 확인하세요. 보상을 원하고 구매할 의사가 있다면 해당 제안의 선물 구매를 완료하고, 세부 조건은 화면의 Learn More를 확인하세요.",
+                    "when_it_appears": "Orbs 보너스가 붙은 Discord 선물 구매 제안이나 결제 흐름에서 보상 수량과 완료 조건을 보여 줄 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "English strings say an Orb amount is received when the gift purchase is completed, and a separate line specifies 5,000 Orbs with a Learn More link. Korean strings from the same window pair the completion condition with Get 5,000 Orbs. The copy describes the offer shown on that purchase surface; it does not establish eligibility for every gift or account.",
+                    "generated_at": "2026-08-22T00:17:34.955233Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "Orbs",
+                        "5,000 Orbs",
+                        "gift purchase",
+                        "Get Orbs",
+                        "Learn More",
+                        "reward offer"
+                    ],
+                    "search_intent": "A search to learn why Orbs appear during Discord gifting, when the 5,000 Orbs are granted, or which purchase is eligible.",
+                    "source_context": "The same window adds English and Korean Get Orbs copy, the gift-purchase completion condition, 5,000 Orbs, and a Learn More link together.",
+                    "summary": "Purchase-offer copy offering an Orbs reward when the displayed Discord gift purchase is completed.",
+                    "what_it_means": "Completing the gift purchase covered by the displayed offer grants the shown Orbs reward.",
+                    "what_to_do": "Before buying, confirm that the current checkout actually displays the Orbs bonus and amount. If you intend to purchase and want the reward, complete that offer's gift purchase and use Learn More for its stated terms.",
+                    "when_it_appears": "May appear in a Discord gift-purchase offer or checkout that displays an Orbs bonus and its completion condition."
+                }
+            },
+            "Bo5fE3": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "세 modified 문자열은 같은 앱 제작 흐름에서 사용자에게 보이는 명칭을 더 일반적인 Projects와 Create로 바꿉니다. `Projects are private until you publish them`은 작업물이 게시 전에는 비공개임을 직접 설명합니다. 현재 consumer와 주간 리포트는 제작·미리보기·게시 흐름이 계속 연결됨을 보여 주지만, 이 문구만으로 모든 계정에 기능이 제공된다고 단정할 수는 없습니다.",
+                    "generated_at": "2026-08-05T09:20:05.741Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Your Projects",
+                        "Create",
+                        "Your Conjurings",
+                        "Magic Builder",
+                        "publish",
+                        "app project"
+                    ],
+                    "search_intent": "사용자는 Discord의 Your Projects 또는 Create 화면이 무엇인지, 기존 Conjurings·Magic Builder와 어떤 관계인지, 게시 전 프로젝트가 공개되는지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "같은 시점에 Your Conjurings→Your Projects, Magic Builder→Create, 게시 전 비공개 안내가 함께 수정됐고 현재 앱 제작 consumer도 유지됩니다.",
+                    "summary": "Discord의 앱 제작 화면이 기존 Conjurings·Magic Builder 표현을 Projects·Create로 바꾸고, 게시 전 프로젝트는 비공개라고 안내하는 문구입니다.",
+                    "what_it_means": "기능 제거보다는 사용자 표시 명칭이 Projects와 Create 중심으로 정리된 변화이며, 프로젝트는 사용자가 게시하기 전까지 비공개로 안내됩니다.",
+                    "when_it_appears": "Discord 안에서 앱 또는 Activity 프로젝트를 만들고 관리하거나, 게시 전 공개 범위를 안내하는 제작 화면에서 보일 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "Three modified strings update the visible terminology in the same app-building flow to the more general Projects and Create. `Projects are private until you publish them` directly describes the pre-publication state. Current consumers and the weekly report still connect the create, preview, and publish flow, but these strings do not establish availability for every account.",
+                    "generated_at": "2026-08-05T09:20:05.741Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Your Projects",
+                        "Create",
+                        "Your Conjurings",
+                        "Magic Builder",
+                        "publish",
+                        "app project"
+                    ],
+                    "search_intent": "Searchers likely want to know what Your Projects or Create means in Discord, how it relates to the earlier Conjurings or Magic Builder labels, and whether an unpublished project is public.",
+                    "source_context": "The same update changes Your Conjurings to Your Projects, Magic Builder to Create, and adds a pre-publication privacy statement while the current app-building consumer remains present.",
+                    "summary": "Copy that renames Discord's app-building surface from Conjurings and Magic Builder to Projects and Create, while stating that projects stay private before publication.",
+                    "what_it_means": "The change points to clearer user-facing naming rather than removal of the underlying feature, and Discord says the project remains private until the user publishes it.",
+                    "when_it_appears": "May appear while creating or managing an app or Activity project in Discord, including a notice about its visibility before publication."
+                }
+            },
+            "oMDaqr": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 기록의 ‘Last edited {time}’ 표현을 기준으로 기존 근거를 다시 적용했습니다. 같은 시점에 Magic Builder, What do you wanna create today?, Describe your idea, Project title, Last edited, Your Creations가 한 묶음으로 추가됐습니다. ‘Creations are private until you ship them’은 게시 전 프로젝트가 비공개임을 설명하고, Project unavailable은 삭제됐거나 더 이상 접근할 수 없는 프로젝트 상태를 가리킵니다. 구체적인 Vibegrations consumer와 직접 연결되는지는 확인되지 않아 기능 관계는 단정하지 않습니다.",
+                    "generated_at": "2026-09-15T00:13:09Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Magic Builder",
+                        "Your Creations",
+                        "Project title",
+                        "Describe your idea",
+                        "private until shipped",
+                        "Project unavailable"
+                    ],
+                    "search_intent": "Discord에서 ‘Last edited {time}’가 왜 표시됐는지와 이 문구가 가리키는 기능 상태를 확인하려는 검색입니다. 사용자는 Discord의 Magic Builder가 무엇을 만드는 기능인지, Your Creations가 공개되는지, Project unavailable이 왜 보이는지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "같은 timestamp에 Magic Builder, Your Creations, App, 프로젝트 제목·수정 시각, 아이디어 입력, 게시 전 비공개, 삭제·접근 불가 안내가 함께 추가됐습니다.",
+                    "summary": "‘Last edited {time}’는 Discord의 기능·설정 설명 문구입니다. Magic Builder는 아이디어를 설명해 App 프로젝트를 만들고 Your Creations에서 관리하는 제작 화면으로 보입니다.",
+                    "what_it_means": "이 레코드의 ‘Last edited {time}’는 다음 의미를 전달합니다. 게시하기 전 creation은 비공개로 유지되며, 사용할 수 없는 프로젝트는 삭제됐거나 현재 접근 권한이 없는 상태일 수 있습니다.",
+                    "when_it_appears": "‘Last edited {time}’라는 현재 문구가 쓰이는 단계는 다음 기존 근거와 연결됩니다. 아이디어를 입력해 App 프로젝트를 만들거나 기존 creation 목록과 프로젝트 세부 정보를 열 때 보일 가능성이 큽니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The existing evidence is reapplied to the current wording “Last edited {time}.” Magic Builder, What do you wanna create today?, Describe your idea, Project title, Last edited, and Your Creations arrived together. “Creations are private until you ship them” says projects remain private before publishing, while Project unavailable points to a deleted or inaccessible project. A direct consumer link to Vibegrations is not confirmed, so the relationship between the two surfaces is left open.",
+                    "generated_at": "2026-09-15T00:13:09Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Magic Builder",
+                        "Your Creations",
+                        "Project title",
+                        "Describe your idea",
+                        "private until shipped",
+                        "Project unavailable"
+                    ],
+                    "search_intent": "A user who saw “Last edited {time}” in Discord is likely checking why this exact wording appeared and which product state it describes. Searchers likely want to know what Discord's Magic Builder creates, whether Your Creations are public, or why Project unavailable appears.",
+                    "source_context": "The same timestamp adds Magic Builder, Your Creations, App, project title and edit time, idea input, private-before-shipping copy, and deleted or inaccessible project notices.",
+                    "summary": "“Last edited {time}” is the specific Discord feature or setting explanation copy in this record. Magic Builder appears to be a creation surface for describing an idea, producing an App project, and managing it under Your Creations.",
+                    "what_it_means": "In this record, “Last edited {time}” communicates the following meaning. A creation stays private before it is shipped; an unavailable project may have been deleted or may no longer be accessible.",
+                    "when_it_appears": "The current wording “Last edited {time}” is tied to the following established surface. Likely appears while describing an App idea, creating a project, or opening the creations list and project details."
+                }
+            }
+        },
+        "ko": {
+            "A/KOOc": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "한국어 묶음에는 무료 보상 선택, 선택 개수, 선물 개수, Nitro 이용 기간과 5,000 Orbs 지급 안내가 함께 있습니다. 따라서 Quest 완료 보상이 아니라 현재 선물 구매 제안에 딸린 보상 선택·보너스 흐름이며, 할인율과 제공 수량은 화면에 표시된 제안에 따라 달라집니다.",
+                    "generated_at": "2026-08-31T00:15:44.939956Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "무료 보상",
+                        "선물 구매",
+                        "5,000 Orbs",
+                        "Nitro 선물",
+                        "선택됨",
+                        "할인"
+                    ],
+                    "search_intent": "Discord 선물 구매에서 무료 보상이나 5,000 Orbs가 왜 표시되고 어떤 조건으로 받는지 확인하려는 검색입니다.",
+                    "source_context": "같은 한국어 locale 묶음에 무료 보상 선택, 선물 기간·수량, 할인과 선물 구매 완료 시 Orbs 지급 안내가 함께 있습니다.",
+                    "summary": "Discord 선물 구매에 포함된 무료 보상이나 Orbs 보너스와 선택 수량을 보여 주는 문구입니다.",
+                    "what_it_means": "현재 결제 화면의 선물 구매를 완료하면 표시된 무료 보상 또는 Orbs 보너스를 받을 수 있다는 뜻입니다.",
+                    "when_it_appears": "해당 프로모션이 적용된 Nitro 선물 구매에서 기간·수량을 고르고 무료 보상 또는 Orbs 보너스를 확인할 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The Korean group combines free-reward selection, selected count, gift quantity, Nitro duration, and a 5,000 Orbs purchase bonus. This supports a reward-selection and bonus flow attached to the current gift offer rather than a Quest completion reward; the discount and quantities depend on the displayed offer.",
+                    "generated_at": "2026-08-31T00:15:44.939956Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "free reward",
+                        "gift purchase",
+                        "5,000 Orbs",
+                        "Nitro gift",
+                        "selected",
+                        "discount"
+                    ],
+                    "search_intent": "The searcher likely wants to know why a free reward or 5,000 Orbs appears in Discord gift checkout and what condition applies.",
+                    "source_context": "The same Korean locale group combines free-reward selection, gift duration and quantity, a discount, and Orbs granted after completing the gift purchase.",
+                    "summary": "These strings show free item rewards or an Orbs bonus included with an eligible Discord gift purchase, plus the selected amount.",
+                    "what_it_means": "Completing the gift purchase shown in the current checkout can grant the displayed free reward or Orbs bonus.",
+                    "when_it_appears": "It may appear in an eligible Nitro gift checkout while choosing duration or quantity and reviewing the free reward or Orbs bonus."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-09-18T23:24:11.053173+00:00"
 }
