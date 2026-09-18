@@ -1,12 +1,152 @@
 {
-    "build_hash": "a5cba31d4bb8d2615a76a0a4934472af5b88e79f",
+    "build_hash": "cf785083f2fd20c33f55166fe0d6356f34aa1d3e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "두 비교안 모두 Orbs 지갑의 도전과제 카드를 켭니다."
+                    },
+                    {
+                        "key": "forceEligible",
+                        "note": "원시 설정에는 있지만 현재 확인된 지갑 소비 위치는 이 값을 읽지 않습니다."
+                    }
+                ],
+                "detailed_summary": "기본 상태에서는 Orbs 지갑의 도전과제 카드가 표시되지 않습니다. 두 비교안은 지갑을 열 때 도전과제를 불러오고, 진행 중인 항목·완료 상태·보상 청구 동작을 지갑 안에 표시합니다. 같은 시점의 문자열에는 ‘진행 중인 도전과제’, ‘청구’, ‘도전과제 완료’와 Nitro 배수 안내가 추가됐고, API 변화에서는 새 항목 확인 상태를 기록하는 경로가 정리돼 이 흐름을 뒷받침합니다. 원시 설정에는 강제 자격 여부가 있지만 현재 지갑 소비 위치는 켜짐 값만 읽으므로 두 비교안의 실제 사용자 차이는 확인되지 않습니다.",
+                "evidence": [
+                    "Current Canary module 362862 exposes the enabled value and module 276130 reads it from StatefulOrbWallet.",
+                    "The enabled wallet fetches challenges, renders an active-challenges card, and supplies the claim action.",
+                    "Same-window strings describe active challenges, claiming, completion, and Nitro multipliers; the unread acknowledgement endpoint was also updated."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Orbs 지갑 도전과제",
+                "generated_at": "2026-09-05T04:19:24Z",
+                "importance": "high",
+                "summary": "Orbs 지갑에 진행 중인 도전과제와 보상 청구 카드를 보여 주는 실험입니다.",
+                "why_it_matters": "사용자는 별도 화면을 찾지 않고도 Orbs 잔액을 확인하는 곳에서 도전과제를 발견하고 보상을 받을 수 있습니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "Both variants enable the challenges card in the Orbs wallet."
+                    },
+                    {
+                        "key": "forceEligible",
+                        "note": "Present in raw config, but not read by the confirmed wallet consumer."
+                    }
+                ],
+                "detailed_summary": "The default state does not render a challenges card in the Orbs wallet. Both variants fetch challenges when the wallet opens and show active items, completion states, and claim actions inside the wallet. Strings added in the same period include ‘Active Challenges,’ ‘Claim,’ ‘Challenge completed,’ and Nitro multiplier copy, while an API change updates the acknowledgement path for newly seen challenge items. The raw setting also contains forceEligible, but the current wallet consumer reads only enabled, so no user-facing difference between the two variants is established.",
+                "evidence": [
+                    "Current Canary module 362862 exposes the enabled value and module 276130 reads it from StatefulOrbWallet.",
+                    "The enabled wallet fetches challenges, renders an active-challenges card, and supplies the claim action.",
+                    "Same-window strings describe active challenges, claiming, completion, and Nitro multipliers; the unread acknowledgement endpoint was also updated."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Challenges in the Orbs wallet",
+                "generated_at": "2026-09-05T04:19:24Z",
+                "importance": "high",
+                "summary": "Adds active challenges and reward-claim cards to the Orbs wallet.",
+                "why_it_matters": "Users can discover challenges and collect rewards from the same place where they check their Orbs balance."
+            },
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-orbchievements",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled",
+                "forceEligible"
+            ],
+            "old_default_config": {
+                "enabled": false,
+                "forceEligible": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true,
+                    "forceEligible": false
+                },
+                "2": {
+                    "enabled": true,
+                    "forceEligible": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-orbchievements",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled",
+                "forceEligible"
+            ],
+            "old_default_config": {
+                "enabled": false,
+                "forceEligible": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true,
+                    "forceEligible": false
+                },
+                "2": {
+                    "enabled": true,
+                    "forceEligible": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -51,5 +191,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-18T20:23:37.773382+00:00"
+    "timestamp": "2026-09-18T20:34:17.450771+00:00"
 }
