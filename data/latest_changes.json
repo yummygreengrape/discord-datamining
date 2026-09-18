@@ -1,5 +1,5 @@
 {
-    "build_hash": "9da3adddab137c2b47e6a85c8a6039e8a2e27faa",
+    "build_hash": "23190c4db63a0eb5fd4afbd6f37c7a635fa5e60e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -42,14 +42,20 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "5WS9pL": "Unlock more tiers by upgrading to Nitro.",
+                "crwYbF": "Unlock more tiers the longer you have Nitro"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "5WS9pL": "Nitro로 업그레이드하여 더 많은 티어를 잠금 해제하세요.",
+                "crwYbF": "Nitro를 오래 유지할수록 더 많은 티어를 잠금 해제할 수 있어요"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-18T09:49:29.720046+00:00"
+    "timestamp": "2026-09-18T13:47:47.140933+00:00"
 }
