@@ -1,20 +1,8 @@
 {
-    "build_hash": "c5807c814f49baad6241bd97ab8863fd21f838ca",
+    "build_hash": "839b697c1e8f41c82f32cc76755f3b0f35e7d9b7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-wysiwyg-user-profile-edit-polish",
-            "kind": "user",
-            "timestamp": "2026-09-18T00:18:33Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -54,22 +42,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "g7OSZ/": "Edit server nickname",
-                "h6VAO7": "Edit pronouns",
-                "kyfzzc": "Edit display name"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "g7OSZ/": "서버 별명 편집",
-                "h6VAO7": "대명사 편집",
-                "kyfzzc": "별명 편집하기"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-18T00:26:58.152626+00:00"
+    "timestamp": "2026-09-18T00:37:47.967731+00:00"
 }
