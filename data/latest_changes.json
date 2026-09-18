@@ -1,5 +1,5 @@
 {
-    "build_hash": "795959384d585488e794c28c334b7ab76ba61a12",
+    "build_hash": "92971c47affd28ced2c9923898e76de73d21a0fd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -42,14 +42,18 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "ppb9MJ": "Edit comment"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "ppb9MJ": "댓글 편집"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-18T01:09:38.752963+00:00"
+    "timestamp": "2026-09-18T01:30:42.492494+00:00"
 }
