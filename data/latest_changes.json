@@ -1,5 +1,5 @@
 {
-    "build_hash": "4f2f79e4ad48a7ee17d9d3f4d3897873ca72d026",
+    "build_hash": "55e4d01b79d8447a73a72e9c6753a7c97fe8488e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,7 +41,10 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "84RzOi": "Tap a part of your app to say what should change.",
+                "sSnnY4": "Nothing to pick there. Try another spot."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +54,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-18T22:20:20.883292+00:00"
+    "timestamp": "2026-09-18T22:31:03.906780+00:00"
 }
