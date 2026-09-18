@@ -1,5 +1,5 @@
 {
-    "build_hash": "495917af105d9f632d7bd157923e816c331171f5",
+    "build_hash": "b97e17fe44471e9b11472d4c966085b1b4999cf3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,8 +41,39 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "1bt50t": "Last updated {timestamp}",
+                "6Y8H0A": "{hours}h {minutes}m total",
+                "7CrlYb": "No games played yet",
+                "81PK67": "There need to be at least {memberCount, number} server members sharing their gaming activity to have a leaderboard enabled.",
+                "9FItmd": "Who has played on the most days?",
+                "A+HRrQ": "Who has the most total game time?",
+                "GXDPol": "Who has played the most unique games?",
+                "H8RhX0": "Who is on top of the leaderboard?",
+                "I4JiAQ": "Rank {rank}",
+                "J8r/7L": "Ended",
+                "JiMMEd": "+{count}",
+                "PuaR+2": "{days}d left",
+                "Sa+h68": "{hours}h {minutes}m",
+                "ULK65a": "Not enough data",
+                "X+VLqi": "{statQuestion} This competition ends {endsAt}.",
+                "YuNVPY": "Last played {gameName}",
+                "bxcrSz": "Played {firstGame}, {secondGame} and {otherCount, plural, one {# other game} other {# other games}}",
+                "dbNpK0": "Played {firstGame}",
+                "kG9XmM": "This competition ended {endedAt}. The next competition is **{nextStatName}**.",
+                "o6mBdl": "See {name}'s recent activity",
+                "rgpc8E": "{count, plural, one {# game} other {# games}}",
+                "rhDbuQ": "a game",
+                "subXXA": "{name} (You)",
+                "tqVg4M": "Played {firstGame} and {secondGame}",
+                "wKXLfQ": "Top three"
+            },
+            "deleted": {
+                "C07UJ2": "{days, plural, one {# day left} other {# days left}}",
+                "NIqIy8": "Unique games played",
+                "WoNIHI": "Hours played",
+                "hmATeU": "Days played"
+            },
             "modified": {}
         },
         "ko": {
@@ -51,5 +82,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-18T19:17:10.706561+00:00"
+    "timestamp": "2026-09-18T19:27:53.592554+00:00"
 }
