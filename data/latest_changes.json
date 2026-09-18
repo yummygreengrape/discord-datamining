@@ -1,346 +1,12 @@
 {
-    "build_hash": "227d7b14414b60ee633d525dccd19e7e89939481",
+    "build_hash": "21fb7645b63f230c52a5a094d725e8ec07a6e78d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "gatesApex",
-                "inExperiment",
-                "rollbackEnabled"
-            ],
-            "default_config": {
-                "enabled": false,
-                "gatesApex": false,
-                "inExperiment": false,
-                "rollbackEnabled": false
-            },
-            "experiment_source": "self_extraction",
-            "id": "2026-04_server_theme",
-            "kind": "guild",
-            "old_config_keys": [
-                "enabled",
-                "gatesApex",
-                "inExperiment"
-            ],
-            "old_default_config": {
-                "enabled": false,
-                "gatesApex": false,
-                "inExperiment": false
-            },
-            "old_kind": "guild",
-            "old_title": "Server Theme",
-            "old_treatments": [
-                "Control",
-                "Treatment 1: Enable Server Theme"
-            ],
-            "status": "modified",
-            "title": "Server Theme",
-            "treatments": [
-                "Control",
-                "Treatment 1: Enable Server Theme",
-                "Treatment 2: Rollback UI for Server Theme"
-            ]
-        },
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "새 배정에서 서버 테마를 켤지 정합니다."
-                    },
-                    {
-                        "key": "gatesApex",
-                        "note": "기존 배정 대신 새 배정을 실제 기능 게이트로 사용할지 정합니다."
-                    },
-                    {
-                        "key": "inExperiment",
-                        "note": "서버가 비교 대상에 포함됐음을 나타냅니다."
-                    }
-                ],
-                "detailed_summary": "서버 테마를 지원하는 화면에서, 기존 서버별 실험 결과가 없을 때 새 배정 결과를 대신 사용해 테마 기능을 켜거나 숨깁니다. 비교안에는 새 배정에 실제로 따를지와 테마를 켤지가 따로 나뉘어 있습니다.",
-                "evidence": [
-                    "Canary modules 772788 and 383272 combine the new assignment with the legacy server-theme experiment.",
-                    "The consumer reads enabled and gatesApex for the current guild.",
-                    "The new result is used only when the legacy experiment does not already control the feature."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "서버 테마 제공 여부",
-                "generated_at": "2026-06-21T00:03:25Z",
-                "importance": "medium",
-                "summary": "서버에서 테마 꾸미기 기능이 표시되는지를 새 실험 배정으로 결정합니다.",
-                "why_it_matters": "서버 테마를 더 넓게 배포하면서도 기존 배정과 충돌하지 않게 전환할 수 있습니다. 서버에 따라 같은 설정 화면에서도 테마 항목의 노출 여부가 달라질 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "Controls whether server themes are enabled in the new assignment."
-                    },
-                    {
-                        "key": "gatesApex",
-                        "note": "Controls whether the new assignment gates the feature after the legacy assignment."
-                    },
-                    {
-                        "key": "inExperiment",
-                        "note": "Marks the guild as included in the comparison."
-                    }
-                ],
-                "detailed_summary": "On surfaces that support server themes, the client falls back to this new assignment when the older guild experiment does not control the result. Variants separately decide whether the new assignment should gate the feature and whether the theme is enabled.",
-                "evidence": [
-                    "Canary modules 772788 and 383272 combine the new assignment with the legacy server-theme experiment.",
-                    "The consumer reads enabled and gatesApex for the current guild.",
-                    "The new result is used only when the legacy experiment does not already control the feature."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Server theme availability",
-                "generated_at": "2026-06-21T00:03:25Z",
-                "importance": "medium",
-                "summary": "Uses a new experiment assignment to decide whether server theming is available.",
-                "why_it_matters": "Discord can expand the server-theme rollout without overriding existing assignments. Different servers may therefore see different theme availability on the same settings surfaces."
-            },
-            "config_keys": [
-                "enabled",
-                "gatesApex",
-                "inExperiment",
-                "rollbackEnabled"
-            ],
-            "default_config": {
-                "enabled": false,
-                "gatesApex": false,
-                "inExperiment": false,
-                "rollbackEnabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-server-theme-apex-shadow",
-            "kind": "guild",
-            "old_config_keys": [
-                "enabled",
-                "gatesApex",
-                "inExperiment"
-            ],
-            "old_default_config": {
-                "enabled": false,
-                "gatesApex": false,
-                "inExperiment": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "guild",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "old_variations": {
-                "0": {
-                    "enabled": false,
-                    "gatesApex": false,
-                    "inExperiment": true
-                },
-                "1": {
-                    "enabled": true,
-                    "gatesApex": false,
-                    "inExperiment": true
-                },
-                "2": {
-                    "enabled": false,
-                    "gatesApex": true,
-                    "inExperiment": true
-                },
-                "3": {
-                    "enabled": true,
-                    "gatesApex": true,
-                    "inExperiment": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "gatesApex": false,
-                    "inExperiment": true,
-                    "rollbackEnabled": false
-                },
-                "1": {
-                    "enabled": true,
-                    "gatesApex": false,
-                    "inExperiment": true,
-                    "rollbackEnabled": false
-                },
-                "2": {
-                    "enabled": false,
-                    "gatesApex": true,
-                    "inExperiment": true,
-                    "rollbackEnabled": false
-                },
-                "3": {
-                    "enabled": true,
-                    "gatesApex": true,
-                    "inExperiment": true,
-                    "rollbackEnabled": false
-                },
-                "4": {
-                    "enabled": true,
-                    "gatesApex": true,
-                    "inExperiment": true,
-                    "rollbackEnabled": true
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "gatesApex",
-                "inExperiment",
-                "rollbackEnabled"
-            ],
-            "default_config": {
-                "enabled": false,
-                "gatesApex": false,
-                "inExperiment": false,
-                "rollbackEnabled": false
-            },
-            "experiment_source": "self_extraction",
-            "id": "2026-04_server_theme",
-            "kind": "guild",
-            "old_config_keys": [
-                "enabled",
-                "gatesApex",
-                "inExperiment"
-            ],
-            "old_default_config": {
-                "enabled": false,
-                "gatesApex": false,
-                "inExperiment": false
-            },
-            "old_kind": "guild",
-            "old_title": "Server Theme",
-            "old_treatments": [
-                "Control",
-                "Treatment 1: Enable Server Theme"
-            ],
-            "status": "modified",
-            "title": "Server Theme",
-            "treatments": [
-                "Control",
-                "Treatment 1: Enable Server Theme",
-                "Treatment 2: Rollback UI for Server Theme"
-            ]
-        },
-        {
-            "config_keys": [
-                "enabled",
-                "gatesApex",
-                "inExperiment",
-                "rollbackEnabled"
-            ],
-            "default_config": {
-                "enabled": false,
-                "gatesApex": false,
-                "inExperiment": false,
-                "rollbackEnabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-server-theme-apex-shadow",
-            "kind": "guild",
-            "old_config_keys": [
-                "enabled",
-                "gatesApex",
-                "inExperiment"
-            ],
-            "old_default_config": {
-                "enabled": false,
-                "gatesApex": false,
-                "inExperiment": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "guild",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "old_variations": {
-                "0": {
-                    "enabled": false,
-                    "gatesApex": false,
-                    "inExperiment": true
-                },
-                "1": {
-                    "enabled": true,
-                    "gatesApex": false,
-                    "inExperiment": true
-                },
-                "2": {
-                    "enabled": false,
-                    "gatesApex": true,
-                    "inExperiment": true
-                },
-                "3": {
-                    "enabled": true,
-                    "gatesApex": true,
-                    "inExperiment": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "gatesApex": false,
-                    "inExperiment": true,
-                    "rollbackEnabled": false
-                },
-                "1": {
-                    "enabled": true,
-                    "gatesApex": false,
-                    "inExperiment": true,
-                    "rollbackEnabled": false
-                },
-                "2": {
-                    "enabled": false,
-                    "gatesApex": true,
-                    "inExperiment": true,
-                    "rollbackEnabled": false
-                },
-                "3": {
-                    "enabled": true,
-                    "gatesApex": true,
-                    "inExperiment": true,
-                    "rollbackEnabled": false
-                },
-                "4": {
-                    "enabled": true,
-                    "gatesApex": true,
-                    "inExperiment": true,
-                    "rollbackEnabled": true
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -375,15 +41,63 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "1bt50t": "Last updated {timestamp}",
+                "6Y8H0A": "{hours}h {minutes}m total",
+                "7CrlYb": "No games played yet",
+                "81PK67": "There need to be at least {memberCount, number} server members sharing their gaming activity to have a leaderboard enabled.",
+                "9FItmd": "Who has played on the most days?",
+                "A+HRrQ": "Who has the most total game time?",
+                "GXDPol": "Who has played the most unique games?",
+                "H8RhX0": "Who is on top of the leaderboard?",
+                "I4JiAQ": "Rank {rank}",
+                "J8r/7L": "Ended",
+                "JiMMEd": "+{count}",
+                "PuaR+2": "{days}d left",
+                "Sa+h68": "{hours}h {minutes}m",
+                "ULK65a": "Not enough data",
+                "X+VLqi": "{statQuestion} This competition ends {endsAt}.",
+                "YuNVPY": "Last played {gameName}",
+                "bxcrSz": "Played {firstGame}, {secondGame} and {otherCount, plural, one {# other game} other {# other games}}",
+                "dbNpK0": "Played {firstGame}",
+                "kG9XmM": "This competition ended {endedAt}. The next competition is **{nextStatName}**.",
+                "o6mBdl": "See {name}'s recent activity",
+                "rgpc8E": "{count, plural, one {# game} other {# games}}",
+                "rhDbuQ": "a game",
+                "subXXA": "{name} (You)",
+                "tqVg4M": "Played {firstGame} and {secondGame}",
+                "wKXLfQ": "Top three"
+            },
+            "deleted": {
+                "C07UJ2": "{days, plural, one {# day left} other {# days left}}",
+                "NIqIy8": "Unique games played",
+                "WoNIHI": "Hours played",
+                "hmATeU": "Days played"
+            },
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "/v2zZ+": "섀도우",
+                "AJsDsD": "중간",
+                "BjfDQq": "Discord 설치하기",
+                "G00RI5": "켜기",
+                "IqUUKg": "없음",
+                "OqHiIt": "서버 참가하기",
+                "VearyN": "작게",
+                "heHHUW": "이미지",
+                "k5w7Jy": "크게",
+                "qM8PRd": "이미지",
+                "ytiENm": "이미지 제거"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "2X8Wod": {
+                    "new_value": "바꾸지 않기",
+                    "old_value": "전환하지 않기"
+                }
+            }
         }
     },
-    "timestamp": "2026-09-18T20:01:16.365468+00:00"
+    "timestamp": "2026-09-18T20:12:06.427112+00:00"
 }
