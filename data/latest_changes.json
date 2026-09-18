@@ -1,5 +1,5 @@
 {
-    "build_hash": "356c263a7273ebcd4a20779ea67a43dfa7efc786",
+    "build_hash": "bf215ca212a337e551e4126075c1177fd2fb1750",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -42,14 +42,22 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "84R4Tc": "{value}k",
+                "Iku48I": "{value}M",
+                "OiHat3": "{value}"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "84R4Tc": "{value}k",
+                "Iku48I": "{value}M",
+                "OiHat3": "{value}"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-18T16:56:34.722212+00:00"
+    "timestamp": "2026-09-18T17:07:19.618494+00:00"
 }
