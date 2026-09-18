@@ -1,5 +1,5 @@
 {
-    "build_hash": "8777d69b831a4bf12b637e4ee1b9851abaa9bc2c",
+    "build_hash": "d96a8fd3e4f89c5c0fd2e8c6a43448d833ecb5da",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,18 +41,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "5fXjSj": "Invite expires in {numMinutes, plural, one {# minute} other {# minutes}}",
-                "8czF24": "Your post was removed",
-                "9U3Wb3": "Your message was deleted in {channel}",
-                "BjfDQq": "Get Discord",
-                "Ifgxdy": "Invite expires in {numHours, plural, one {# hour} other {# hours}}",
-                "Nb1EQx": "Only you can see this",
-                "RgDY7v": "Preview Server",
-                "StrErG": "Your message was removed",
-                "jCQlbu": "Download Discord App",
-                "l7PkYW": "Invite expires in {numDays, plural, one {# day} other {# days}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -62,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-18T18:55:47.170157+00:00"
+    "timestamp": "2026-09-18T19:06:29.570368+00:00"
 }
