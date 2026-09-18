@@ -1,180 +1,8 @@
 {
-    "build_hash": "ba760443a5191a8649ad28e7a80a2faf70b486c6",
+    "build_hash": "7762f0f279b9ef053c623d8af7b21347982d44aa",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "threshold"
-            ],
-            "default_config": {
-                "enabled": false,
-                "threshold": 0
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-kestrel",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-18T22:32:48Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "threshold": 0
-                },
-                "1": {
-                    "enabled": true,
-                    "threshold": 15
-                },
-                "2": {
-                    "enabled": true,
-                    "threshold": 20
-                },
-                "3": {
-                    "enabled": true,
-                    "threshold": 25
-                }
-            }
-        },
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "웹 개별 파일 한도 계산에 최소 20MB 기준과 전용 오류 안내 상태를 적용합니다."
-                    }
-                ],
-                "detailed_summary": "기본 상태에서는 계정과 서버에 이미 적용된 개별 파일 업로드 한도로 검사합니다. 비교안에서는 그 한도가 20MB보다 작을 때 유효 한도를 20MB로 높이고, 원래 한도가 더 크면 기존 값을 그대로 둡니다. 현재 Canary 사용처는 파일 선택 전 검사와 ‘파일이 너무 큼’ 오류 안내에서 같은 값을 사용하며, 새 문자열도 현재 한도와 Nitro의 더 큰 한도를 함께 설명합니다. 여러 첨부파일의 총합 한도나 첨부 개수를 바꾼다는 근거는 확인되지 않았습니다.",
-                "evidence": [
-                    "Current Canary module 550642 makes the GA treatment return enabled with a 20 MB threshold.",
-                    "Upload preflight and visible oversized-file errors calculate the effective per-file limit as the greater of 20 MB and the existing limit.",
-                    "A same-window string explains the current maximum file size and Nitro's larger upload allowance."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "파일 업로드 한도",
-                "generated_at": "2026-08-05T04:13:55Z",
-                "importance": "high",
-                "summary": "웹에서 파일을 올릴 때 개별 파일 허용 크기를 최소 20MB로 계산하고, 너무 큰 파일 안내에도 같은 한도를 표시하는 실험입니다.",
-                "why_it_matters": "기존 개별 파일 한도가 20MB보다 작은 경우 더 큰 파일을 바로 보낼 수 있고, 실패 안내도 실제 적용 한도와 일치하게 됩니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "Applies the minimum 20 MB web per-file calculation and its dedicated error state."
-                    }
-                ],
-                "detailed_summary": "The default state uses the per-file upload limit already assigned to the account and server. In the treatment, the effective limit becomes 20 MB when the existing value is lower, while any higher existing limit remains unchanged. Current Canary consumers use the same value for upload preflight checks and the visible file-too-large error, and a new string explains the current limit alongside Nitro's higher allowance. No evidence shows a change to combined attachment size or attachment count.",
-                "evidence": [
-                    "Current Canary module 550642 makes the GA treatment return enabled with a 20 MB threshold.",
-                    "Upload preflight and visible oversized-file errors calculate the effective per-file limit as the greater of 20 MB and the existing limit.",
-                    "A same-window string explains the current maximum file size and Nitro's larger upload allowance."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "File upload limits",
-                "generated_at": "2026-08-05T04:13:55Z",
-                "importance": "high",
-                "summary": "Calculates a minimum 20 MB per-file upload limit on the web and shows that same limit in oversized-file guidance.",
-                "why_it_matters": "People whose existing per-file limit is below 20 MB can send larger files, and failure guidance stays aligned with the limit actually being applied."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-kestrel-ga",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-18T22:32:48Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "threshold"
-            ],
-            "default_config": {
-                "enabled": false,
-                "threshold": 0
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-kestrel",
-            "kind": "user",
-            "timestamp": "2026-09-18T22:32:48Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "threshold": 0
-                },
-                "1": {
-                    "enabled": true,
-                    "threshold": 15
-                },
-                "2": {
-                    "enabled": true,
-                    "threshold": 20
-                },
-                "3": {
-                    "enabled": true,
-                    "threshold": 25
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-kestrel-ga",
-            "kind": "user",
-            "timestamp": "2026-09-18T22:32:48Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -213,21 +41,22 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "bRYgjH": "BETA · Your files are too powerful",
-                "tRuxk9": "The max file size is {maxSize}. Upgrade to Discord Nitro to upload files up to {premiumMaxSize}. [Learn More]({onClick})"
+            "added": {
+                "gn3Poi": "Create an invite link anyone can use to join, or invite friends directly."
             },
-            "modified": {}
+            "deleted": {},
+            "modified": {
+                "KmK3q4": {
+                    "new_value": "Create Invite Link",
+                    "old_value": "Create invite link"
+                }
+            }
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "bRYgjH": "베타 · 파일이 너무 강력해요",
-                "tRuxk9": "최대 파일 크기는 {maxSize}예요. Discord Nitro로 업그레이드하면 최대 {premiumMaxSize}의 파일을 업로드할 수 있어요. [자세히 알아보기]({onClick})"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-18T22:41:49.776374+00:00"
+    "timestamp": "2026-09-18T22:52:33.618374+00:00"
 }
