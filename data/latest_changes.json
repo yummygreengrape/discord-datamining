@@ -1,5 +1,5 @@
 {
-    "build_hash": "858a9de47d6ff36e3776f354cfc8a9c72b0219bf",
+    "build_hash": "7fe3914ca15cf01c5879e90b90219ee2708532f8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,18 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-clips-editor-image-track",
-            "kind": "user",
-            "timestamp": "2026-09-18T15:19:58Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "5d22a5f54de0297b9577e25d6d33ec6b",
@@ -52,27 +41,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "+20A3o": "Couldn't add that image. Please try again.",
-                "/v2zZ+": "Shadow",
-                "AJsDsD": "Medium",
-                "EDmwVf": "Text overlay: {text}",
-                "IqUUKg": "None",
-                "P5dSl0": "Shadow color",
-                "S0ODmT": "Image settings",
-                "VearyN": "Small",
-                "ar2OUZ": "That image file is too large.",
-                "heHHUW": "Image",
-                "iFo3gj": "Add image",
-                "j3AKJQ": "That file isn't a supported image. Try a PNG, JPEG, or WebP.",
-                "k5w7Jy": "Large",
-                "lZuIri": "Image overlay: {fileName}",
-                "piRNeN": "Couldn't read that image.",
-                "qM8PRd": "Images",
-                "uF5VXk": "That image can't be added to a clip.",
-                "wR5R9w": "Replace image",
-                "ytiENm": "Remove Image"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -82,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-18T15:21:09.962495+00:00"
+    "timestamp": "2026-09-18T15:42:19.524260+00:00"
 }
