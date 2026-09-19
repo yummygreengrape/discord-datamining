@@ -1,61 +1,8 @@
 {
-    "build_hash": "8902c6def10a936fb1d5ecddc199773fc088681a",
+    "build_hash": "38d79095d64a8b58342d7e62fd57ddd09ea76045",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-stage-voice-panel",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-19T01:33:40Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-stage-voice-panel",
-            "kind": "user",
-            "timestamp": "2026-09-19T01:33:40Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -104,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-19T01:42:06.695989+00:00"
+    "timestamp": "2026-09-19T01:52:49.888389+00:00"
 }
