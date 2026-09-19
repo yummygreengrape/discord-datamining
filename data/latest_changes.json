@@ -1,17 +1,6 @@
 {
-    "build_hash": "2da3f4c2c61a9ad64e5aba861f7e05ff3025f398",
-    "deleted_api_endpoints": [
-        {
-            "name": "ENDPOINT_USERS_GIFTING_PROMOTION_SUMMER_2026_GOGO_CAMPAIGN_ELIGIBILITY",
-            "status": "deleted",
-            "url": "/users/@me/gifting-promotion-summer-2026-gogo-campaign-eligibility"
-        },
-        {
-            "name": "GIFTING_PROMOTION_SUMMER_2026_GOGO_CAMPAIGN_ELIGIBILITY",
-            "status": "deleted",
-            "url": "/users/@me/gifting-promotion-summer-2026-gogo-campaign-eligibility"
-        }
-    ],
+    "build_hash": "55ce4010953865670152d4ce1841b02d2627e8e2",
+    "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
@@ -52,7 +41,10 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "idRAwG": "Moderation Bot",
+                "oP90O/": "An AutoMod bot you describe in plain English, with a tester that shows what it would do to any message."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -62,5 +54,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-19T00:28:33.273896+00:00"
+    "timestamp": "2026-09-19T00:49:29.875869+00:00"
 }
