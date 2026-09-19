@@ -1,5 +1,5 @@
 {
-    "build_hash": "7d17ef86396f7dc82a97ce8eed66250f00693038",
+    "build_hash": "6559ba66fd5f406362cfd16cdb92bcb63fe2ed8e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "id": "2026-09-multisku-embed-builder",
+            "kind": "user",
+            "timestamp": "2026-09-19T01:19:32Z",
+            "title": "Multi-SKU Embed Builder",
+            "treatments": [
+                "Control",
+                "Treatment 1: Show the embed builder entry point in the Social Commerce dev tools tab"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "5d22a5f54de0297b9577e25d6d33ec6b",
@@ -41,7 +53,13 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Z3uXLR": "Embed Builder",
+                "fr7qnZ": "Select products",
+                "mmTvZn": "{count, number}/{max, number} selected",
+                "ozurym": "Share Embed",
+                "sS4xGd": "Create a shareable embed for select products from your Game Shop."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -51,5 +69,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-19T01:10:27.289690+00:00"
+    "timestamp": "2026-09-19T01:21:10.758049+00:00"
 }
