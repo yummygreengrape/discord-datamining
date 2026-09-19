@@ -1,27 +1,68 @@
 {
-    "build_hash": "6559ba66fd5f406362cfd16cdb92bcb63fe2ed8e",
+    "build_hash": "8902c6def10a936fb1d5ecddc199773fc088681a",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-stage-voice-panel",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-19T01:33:40Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-stage-voice-panel",
+            "kind": "user",
+            "timestamp": "2026-09-19T01:33:40Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "id": "2026-09-multisku-embed-builder",
-            "kind": "user",
-            "timestamp": "2026-09-19T01:19:32Z",
-            "title": "Multi-SKU Embed Builder",
-            "treatments": [
-                "Control",
-                "Treatment 1: Show the embed builder entry point in the Social Commerce dev tools tab"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "5d22a5f54de0297b9577e25d6d33ec6b",
@@ -53,13 +94,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "Z3uXLR": "Embed Builder",
-                "fr7qnZ": "Select products",
-                "mmTvZn": "{count, number}/{max, number} selected",
-                "ozurym": "Share Embed",
-                "sS4xGd": "Create a shareable embed for select products from your Game Shop."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -69,5 +104,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-19T01:21:10.758049+00:00"
+    "timestamp": "2026-09-19T01:42:06.695989+00:00"
 }
