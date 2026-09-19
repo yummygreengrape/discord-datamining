@@ -1,5 +1,5 @@
 {
-    "build_hash": "843e301f585ed0ce69abd6f1c0dd0c773afbe525",
+    "build_hash": "4d06c5cd9b0bd38ae3bf749b3f108bcdb0e6707f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -42,19 +42,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "+OecxG": "User Management",
-                "USER_MANAGEMENT": "User Management"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "+OecxG": "사용자 관리"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-19T02:13:50.184562+00:00"
+    "timestamp": "2026-09-19T19:22:33.744643+00:00"
 }
