@@ -1,6 +1,17 @@
 {
-    "build_hash": "bbbc267a290180c136a076c148b8ae0a1a87b99f",
-    "deleted_api_endpoints": [],
+    "build_hash": "2da3f4c2c61a9ad64e5aba861f7e05ff3025f398",
+    "deleted_api_endpoints": [
+        {
+            "name": "ENDPOINT_USERS_GIFTING_PROMOTION_SUMMER_2026_GOGO_CAMPAIGN_ELIGIBILITY",
+            "status": "deleted",
+            "url": "/users/@me/gifting-promotion-summer-2026-gogo-campaign-eligibility"
+        },
+        {
+            "name": "GIFTING_PROMOTION_SUMMER_2026_GOGO_CAMPAIGN_ELIGIBILITY",
+            "status": "deleted",
+            "url": "/users/@me/gifting-promotion-summer-2026-gogo-campaign-eligibility"
+        }
+    ],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
@@ -41,9 +52,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "UXnPhI": "For me"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -53,5 +62,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-19T00:17:48.240908+00:00"
+    "timestamp": "2026-09-19T00:28:33.273896+00:00"
 }
