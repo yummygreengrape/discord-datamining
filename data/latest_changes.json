@@ -1,5 +1,5 @@
 {
-    "build_hash": "4abec7d617828a153f3dc14a1171b9024b77198a",
+    "build_hash": "864d1f5f41ff63435d5bcf02a7185faa3ad5a0a5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,14 +8,59 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-desktop-tti-shader-cache",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-21T21:46:19Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-desktop-tti-shader-cache",
+            "kind": "user",
+            "timestamp": "2026-09-21T21:46:19Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "3jY5i3": "If you like YouTube, you'll love Premium. Take 20% off your next 6 months, whether you're new to YouTube Premium or already in. [Terms apply]({helpCenterUrl}).",
-                "BdIVB+": "Level up your YouTube with Premium"
+                "Hgo1xT": "New Nitro Reward! Get 20% off your next 6 months of YouTube Premium. [Terms apply]({helpCenterUrl})",
+                "vKA/P1": "Unlock Offer"
             },
             "deleted": {},
             "modified": {}
@@ -26,5 +71,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-21T21:44:23.743531+00:00"
+    "timestamp": "2026-09-21T21:55:09.263792+00:00"
 }
