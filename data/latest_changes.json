@@ -1,5 +1,5 @@
 {
-    "build_hash": "4989565184de13362a0910b6f544251675ed94c3",
+    "build_hash": "25aa72975b8a5a3cbdc19404aa6dcf0901a4179a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -18,64 +18,10 @@
             "modified": {}
         },
         "ko": {
-            "added": {
-                "/8znyU": "선물을 더 보내서 모두 수집하세요",
-                "WvAqZA": "무료 장식을 받으셨어요",
-                "cMHedL": "한정 보상 {count}개를 수집했어요",
-                "ivpn6G": "소장할 무료 장식을 선택하세요",
-                "ozurym": "임베드 공유",
-                "zVGHbw": "무료 장식 받기"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "vpzyht": {
-                    "new_value": "Discord가 활성 상태의 창이 아닐 때 미리 보기 일시 중지",
-                    "old_value": "Discord에 포커스가 맞춰져 있지 않을 때 미리 보기 일시 중지"
-                }
-            }
+            "modified": {}
         }
     },
-    "string_context": {
-        "ko": {
-            "vpzyht": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "같은 key의 영어 값은 `Pause Preview When Discord Isn’t Focused`이며 앱 제작·미리보기 문자열 묶음과 함께 확인됩니다. 따라서 Discord가 백그라운드에 있을 때 미리보기 실행을 잠시 멈추는 성능·동작 설정일 가능성이 큽니다. 저장된 프로젝트나 게시 상태가 바뀐다는 근거는 없습니다.",
-                    "generated_at": "2026-09-03T00:20:01.873047Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Pause Preview",
-                        "Discord focus",
-                        "app preview",
-                        "background",
-                        "Conjuring"
-                    ],
-                    "search_intent": "Discord에서 ‘Discord에 포커스가 맞춰져 있지 않을 때 미리 보기 일시 중지’ 문구를 본 사용자가 이 기능·상태가 무엇인지, 왜 표시됐는지, 필요한 대응이 있는지 확인하려는 검색입니다.",
-                    "source_context": "같은 key의 영문 설정명과 현재 앱 제작 미리보기 locale 묶음이 정확한 조건을 설명합니다.",
-                    "summary": "Discord 창에 포커스가 없을 때 앱 프로젝트 미리보기 실행을 멈출지 정하는 설정입니다.",
-                    "what_it_means": "Discord가 활성 창이 아닐 때 실행 중인 미리보기를 잠시 멈추는 선택지입니다.",
-                    "when_it_appears": "앱 프로젝트의 미리보기 동작 또는 성능 설정을 조정할 때 나타날 가능성이 큽니다."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The same key's English value is Pause Preview When Discord Isn’t Focused and appears with app-building preview copy. It is therefore likely a behavior or performance setting that suspends the preview while Discord is in the background. There is no evidence that it changes saved project or publication state.",
-                    "generated_at": "2026-09-03T00:20:01.873047Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Pause Preview",
-                        "Discord focus",
-                        "app preview",
-                        "background",
-                        "Conjuring"
-                    ],
-                    "search_intent": "A visitor likely searched for “Pause app preview while unfocused” to identify the Discord feature or state, understand why it appeared, and learn whether any response is needed.",
-                    "source_context": "The same key's English setting name and current app-building preview locale group describe the condition directly.",
-                    "summary": "A setting for pausing an app-project preview while the Discord window is not focused.",
-                    "what_it_means": "It offers to suspend the running preview while Discord is not the active window.",
-                    "when_it_appears": "Likely appears among behavior or performance settings for an app-project preview."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-09-21T20:28:47.734105+00:00"
+    "timestamp": "2026-09-21T20:39:55.617340+00:00"
 }
