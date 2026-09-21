@@ -1,5 +1,5 @@
 {
-    "build_hash": "a80fa2b14f821331d18c7076fa98948069e240ff",
+    "build_hash": "a52dd4ca2d27e832660ee3e07ce773bef1ece580",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,10 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "IthhpG": "Xbox Game Pass Awaits",
-                "NKTF0a": "50+ games, 10 hours of cloud gaming a month, and up to $25 in Rewards. Let's play. [Terms and eligibility rules apply]({helpCenterLink})."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-21T23:10:46.528117+00:00"
+    "timestamp": "2026-09-21T23:21:33.112996+00:00"
 }
