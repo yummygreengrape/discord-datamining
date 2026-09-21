@@ -1,53 +1,8 @@
 {
-    "build_hash": "d21233f72e7b2fbfb7464bd3f9eb52812eeef32f",
+    "build_hash": "85616b3c5ea02ab19581bd04419b5f9f68302030",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enableScrubPreview"
-            ],
-            "default_config": {
-                "enableScrubPreview": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-clips-scrub-preview-frontend",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-21T18:06:55Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableScrubPreview": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enableScrubPreview"
-            ],
-            "default_config": {
-                "enableScrubPreview": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-clips-scrub-preview-frontend",
-            "kind": "user",
-            "timestamp": "2026-09-21T18:06:55Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableScrubPreview": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -68,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-21T18:09:40.092935+00:00"
+    "timestamp": "2026-09-21T18:30:40.060960+00:00"
 }
