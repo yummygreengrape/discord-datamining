@@ -1,5 +1,5 @@
 {
-    "build_hash": "cf9e53d36aa51bf2157341946c39eb48a1c9c92b",
+    "build_hash": "e39d2431a669f2b79eacc0a05580f4797e8caf1f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,10 +41,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "4fvi9I": "Your friends, at a glance.",
-                "OZj923": "Keep up with what they're up to and have fun together."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -54,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-21T15:54:12.119562+00:00"
+    "timestamp": "2026-09-21T16:27:14.807036+00:00"
 }
