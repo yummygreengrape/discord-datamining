@@ -1,8 +1,29 @@
 {
-    "build_hash": "cbf8e015dde810d5d853998d457dbebbb3388a7b",
+    "build_hash": "0e9c7b2212accb5dcfae1a69ca3e40ae6fb2a6fd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-clips-editor-v2",
+            "kind": "user",
+            "timestamp": "2026-09-21T19:40:49Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-clips-editor-text-track",
+            "kind": "user",
+            "timestamp": "2026-09-21T19:40:49Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,7 +34,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "K1URjQ": "Manage settings for your Server Hub.",
+                "lgDNyX": "Show Server Hub tab in channel list"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +47,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-21T19:34:33.155502+00:00"
+    "timestamp": "2026-09-21T19:45:17.220868+00:00"
 }
