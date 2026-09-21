@@ -1,5 +1,5 @@
 {
-    "build_hash": "bd3b0f1ea2de605ed5d3f3c673d9a7c9c3a13fcb",
+    "build_hash": "55877d7eade1273e9cb6bbbaf002aca544d3d3b0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,15 +13,25 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "D/HToK": "{hours, plural, one {# hour} other {# hours}}",
+                "JzbSEY": "Mentions + Unreads",
+                "bgQf2H": "{minutes, number} min",
+                "fvtrHn": "{hours, plural, one {# hour} other {# hours}} {minutes, number} min"
+            },
+            "deleted": {
+                "NOTIFICATION_SETTINGS_CHANNELS_CUSTOM_MENU_ARIA_LABEL": "The channel custom notification settings",
+                "kMdneQ": "The channel custom notification settings"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "kMdneQ": "채널 맞춤 알림 설정"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-21T22:28:17.005803+00:00"
+    "timestamp": "2026-09-21T22:39:01.723251+00:00"
 }
