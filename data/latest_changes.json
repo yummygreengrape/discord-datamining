@@ -1,5 +1,5 @@
 {
-    "build_hash": "ecffb50e1da39e7a4ff7410bdf20a06e2f5c7b7f",
+    "build_hash": "9ed56607a267ef2eef87c4fb4d33157671305730",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -43,7 +43,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "SWKshl": {
+                    "new_value": "Built-in AI",
+                    "old_value": "Workers AI"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -51,5 +56,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-21T06:43:39.097852+00:00"
+    "timestamp": "2026-09-21T07:04:39.731271+00:00"
 }
