@@ -1,5 +1,5 @@
 {
-    "build_hash": "feb6a10db3821436b012f90e60bdccc963988d44",
+    "build_hash": "8bf89da16d782dc51604aa6e9c72d45b66aa3e03",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,198 +13,15 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/WsW/1": "Try out profile theme",
-                "Igwax6": "{fontName} font, {effectName} effect, {colors}"
-            },
-            "deleted": {
-                "4Y84j2": "Try out accent theme color",
-                "sm2nAq": "Try out primary theme color"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "4Y84j2": "강조 테마 색상 사용해 보기",
-                "sm2nAq": "기본 테마 색상 사용해 보기"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "4Y84j2": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "영어와 한국어 문자열이 같은 키로 맞물리며 `Try out`, `Change`, `Currently set to` 상태를 함께 보여 줍니다. 이는 새 프로필 항목을 바로 확정하는 문구라기보다 편집 화면에서 모양을 시험하고 현재 값을 확인하는 흐름입니다. 계정이나 구독별 노출 범위는 이 문자열만으로 확정되지 않습니다.",
-                    "generated_at": "2026-08-07T09:14:11.258Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Edit Profile",
-                        "Animated Avatar",
-                        "Banner Image",
-                        "Banner Color",
-                        "Primary Color",
-                        "Display Name Style",
-                        "Currently set to"
-                    ],
-                    "search_intent": "사용자는 Discord의 `Try out animated avatar`, `Change Banner Image`, `Currently set to` 같은 버튼이 무엇을 바꾸고 실제 적용 전 미리보기인지 확인하려고 검색했을 가능성이 큽니다.",
-                    "source_context": "같은 키의 최근 영어·한국어 locale에는 Animated Avatar, banner image/color, primary/accent theme color, display-name style, current value가 하나의 프로필 편집 묶음으로 확인됩니다.",
-                    "summary": "Discord 프로필 편집기에서 움직이는 아바타, 배너, 테마 색상, 표시 이름 스타일을 미리 보거나 바꾸는 컨트롤입니다.",
-                    "what_it_means": "프로필의 시각적 모양을 시험하거나 현재 선택값을 확인하는 편집 컨트롤입니다. 이 문구 자체는 변경이 저장됐다는 뜻이 아닙니다.",
-                    "when_it_appears": "Discord 프로필 편집 화면에서 아바타 애니메이션, 배너 이미지·색상, 기본·강조 색상, 표시 이름 스타일을 선택하거나 미리 볼 때 나타날 수 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "Matching English and Korean keys combine Try out, Change, and Currently set to states. They describe previewing a profile appearance and checking the current value in the editor rather than proving that every option is available to every account. Exposure by account or subscription is not established by these strings alone.",
-                    "generated_at": "2026-08-07T09:14:11.258Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Edit Profile",
-                        "Animated Avatar",
-                        "Banner Image",
-                        "Banner Color",
-                        "Primary Color",
-                        "Display Name Style",
-                        "Currently set to"
-                    ],
-                    "search_intent": "Searchers likely want to know what controls such as Try out animated avatar, Change Banner Image, or Currently set to change and whether they are preview controls before applying a profile edit.",
-                    "source_context": "Recent English and Korean locale rows for the same keys group Animated Avatar, banner image and color, primary and accent theme colors, display-name style, and the current value in one profile-editing surface.",
-                    "summary": "Controls for previewing or changing an animated avatar, banner, theme colors, and display-name style in Discord's profile editor.",
-                    "what_it_means": "These are editing controls for trying a profile appearance or reading the current selection. The copy by itself does not mean that a change has been saved.",
-                    "when_it_appears": "May appear in Discord's profile editor while choosing or previewing avatar animation, banner image or color, primary or accent color, and display-name style."
-                }
-            },
-            "sm2nAq": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "영어와 한국어 문자열이 같은 키로 맞물리며 `Try out`, `Change`, `Currently set to` 상태를 함께 보여 줍니다. 이는 새 프로필 항목을 바로 확정하는 문구라기보다 편집 화면에서 모양을 시험하고 현재 값을 확인하는 흐름입니다. 계정이나 구독별 노출 범위는 이 문자열만으로 확정되지 않습니다.",
-                    "generated_at": "2026-08-07T09:14:11.258Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Edit Profile",
-                        "Animated Avatar",
-                        "Banner Image",
-                        "Banner Color",
-                        "Primary Color",
-                        "Display Name Style",
-                        "Currently set to"
-                    ],
-                    "search_intent": "사용자는 Discord의 `Try out animated avatar`, `Change Banner Image`, `Currently set to` 같은 버튼이 무엇을 바꾸고 실제 적용 전 미리보기인지 확인하려고 검색했을 가능성이 큽니다.",
-                    "source_context": "같은 키의 최근 영어·한국어 locale에는 Animated Avatar, banner image/color, primary/accent theme color, display-name style, current value가 하나의 프로필 편집 묶음으로 확인됩니다.",
-                    "summary": "Discord 프로필 편집기에서 움직이는 아바타, 배너, 테마 색상, 표시 이름 스타일을 미리 보거나 바꾸는 컨트롤입니다.",
-                    "what_it_means": "프로필의 시각적 모양을 시험하거나 현재 선택값을 확인하는 편집 컨트롤입니다. 이 문구 자체는 변경이 저장됐다는 뜻이 아닙니다.",
-                    "when_it_appears": "Discord 프로필 편집 화면에서 아바타 애니메이션, 배너 이미지·색상, 기본·강조 색상, 표시 이름 스타일을 선택하거나 미리 볼 때 나타날 수 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "Matching English and Korean keys combine Try out, Change, and Currently set to states. They describe previewing a profile appearance and checking the current value in the editor rather than proving that every option is available to every account. Exposure by account or subscription is not established by these strings alone.",
-                    "generated_at": "2026-08-07T09:14:11.258Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Edit Profile",
-                        "Animated Avatar",
-                        "Banner Image",
-                        "Banner Color",
-                        "Primary Color",
-                        "Display Name Style",
-                        "Currently set to"
-                    ],
-                    "search_intent": "Searchers likely want to know what controls such as Try out animated avatar, Change Banner Image, or Currently set to change and whether they are preview controls before applying a profile edit.",
-                    "source_context": "Recent English and Korean locale rows for the same keys group Animated Avatar, banner image and color, primary and accent theme colors, display-name style, and the current value in one profile-editing surface.",
-                    "summary": "Controls for previewing or changing an animated avatar, banner, theme colors, and display-name style in Discord's profile editor.",
-                    "what_it_means": "These are editing controls for trying a profile appearance or reading the current selection. The copy by itself does not mean that a change has been saved.",
-                    "when_it_appears": "May appear in Discord's profile editor while choosing or previewing avatar animation, banner image or color, primary or accent color, and display-name style."
-                }
-            }
-        },
-        "ko": {
-            "4Y84j2": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "영어와 한국어 문자열이 같은 키로 맞물리며 `Try out`, `Change`, `Currently set to` 상태를 함께 보여 줍니다. 이는 새 프로필 항목을 바로 확정하는 문구라기보다 편집 화면에서 모양을 시험하고 현재 값을 확인하는 흐름입니다. 계정이나 구독별 노출 범위는 이 문자열만으로 확정되지 않습니다.",
-                    "generated_at": "2026-08-07T09:14:11.258Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Edit Profile",
-                        "Animated Avatar",
-                        "Banner Image",
-                        "Banner Color",
-                        "Primary Color",
-                        "Display Name Style",
-                        "Currently set to"
-                    ],
-                    "search_intent": "사용자는 Discord의 `Try out animated avatar`, `Change Banner Image`, `Currently set to` 같은 버튼이 무엇을 바꾸고 실제 적용 전 미리보기인지 확인하려고 검색했을 가능성이 큽니다.",
-                    "source_context": "같은 키의 최근 영어·한국어 locale에는 Animated Avatar, banner image/color, primary/accent theme color, display-name style, current value가 하나의 프로필 편집 묶음으로 확인됩니다.",
-                    "summary": "Discord 프로필 편집기에서 움직이는 아바타, 배너, 테마 색상, 표시 이름 스타일을 미리 보거나 바꾸는 컨트롤입니다.",
-                    "what_it_means": "프로필의 시각적 모양을 시험하거나 현재 선택값을 확인하는 편집 컨트롤입니다. 이 문구 자체는 변경이 저장됐다는 뜻이 아닙니다.",
-                    "when_it_appears": "Discord 프로필 편집 화면에서 아바타 애니메이션, 배너 이미지·색상, 기본·강조 색상, 표시 이름 스타일을 선택하거나 미리 볼 때 나타날 수 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "Matching English and Korean keys combine Try out, Change, and Currently set to states. They describe previewing a profile appearance and checking the current value in the editor rather than proving that every option is available to every account. Exposure by account or subscription is not established by these strings alone.",
-                    "generated_at": "2026-08-07T09:14:11.258Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Edit Profile",
-                        "Animated Avatar",
-                        "Banner Image",
-                        "Banner Color",
-                        "Primary Color",
-                        "Display Name Style",
-                        "Currently set to"
-                    ],
-                    "search_intent": "Searchers likely want to know what controls such as Try out animated avatar, Change Banner Image, or Currently set to change and whether they are preview controls before applying a profile edit.",
-                    "source_context": "Recent English and Korean locale rows for the same keys group Animated Avatar, banner image and color, primary and accent theme colors, display-name style, and the current value in one profile-editing surface.",
-                    "summary": "Controls for previewing or changing an animated avatar, banner, theme colors, and display-name style in Discord's profile editor.",
-                    "what_it_means": "These are editing controls for trying a profile appearance or reading the current selection. The copy by itself does not mean that a change has been saved.",
-                    "when_it_appears": "May appear in Discord's profile editor while choosing or previewing avatar animation, banner image or color, primary or accent color, and display-name style."
-                }
-            },
-            "sm2nAq": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "영어와 한국어 문자열이 같은 키로 맞물리며 `Try out`, `Change`, `Currently set to` 상태를 함께 보여 줍니다. 이는 새 프로필 항목을 바로 확정하는 문구라기보다 편집 화면에서 모양을 시험하고 현재 값을 확인하는 흐름입니다. 계정이나 구독별 노출 범위는 이 문자열만으로 확정되지 않습니다.",
-                    "generated_at": "2026-08-07T09:14:11.258Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Edit Profile",
-                        "Animated Avatar",
-                        "Banner Image",
-                        "Banner Color",
-                        "Primary Color",
-                        "Display Name Style",
-                        "Currently set to"
-                    ],
-                    "search_intent": "사용자는 Discord의 `Try out animated avatar`, `Change Banner Image`, `Currently set to` 같은 버튼이 무엇을 바꾸고 실제 적용 전 미리보기인지 확인하려고 검색했을 가능성이 큽니다.",
-                    "source_context": "같은 키의 최근 영어·한국어 locale에는 Animated Avatar, banner image/color, primary/accent theme color, display-name style, current value가 하나의 프로필 편집 묶음으로 확인됩니다.",
-                    "summary": "Discord 프로필 편집기에서 움직이는 아바타, 배너, 테마 색상, 표시 이름 스타일을 미리 보거나 바꾸는 컨트롤입니다.",
-                    "what_it_means": "프로필의 시각적 모양을 시험하거나 현재 선택값을 확인하는 편집 컨트롤입니다. 이 문구 자체는 변경이 저장됐다는 뜻이 아닙니다.",
-                    "when_it_appears": "Discord 프로필 편집 화면에서 아바타 애니메이션, 배너 이미지·색상, 기본·강조 색상, 표시 이름 스타일을 선택하거나 미리 볼 때 나타날 수 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "Matching English and Korean keys combine Try out, Change, and Currently set to states. They describe previewing a profile appearance and checking the current value in the editor rather than proving that every option is available to every account. Exposure by account or subscription is not established by these strings alone.",
-                    "generated_at": "2026-08-07T09:14:11.258Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Edit Profile",
-                        "Animated Avatar",
-                        "Banner Image",
-                        "Banner Color",
-                        "Primary Color",
-                        "Display Name Style",
-                        "Currently set to"
-                    ],
-                    "search_intent": "Searchers likely want to know what controls such as Try out animated avatar, Change Banner Image, or Currently set to change and whether they are preview controls before applying a profile edit.",
-                    "source_context": "Recent English and Korean locale rows for the same keys group Animated Avatar, banner image and color, primary and accent theme colors, display-name style, and the current value in one profile-editing surface.",
-                    "summary": "Controls for previewing or changing an animated avatar, banner, theme colors, and display-name style in Discord's profile editor.",
-                    "what_it_means": "These are editing controls for trying a profile appearance or reading the current selection. The copy by itself does not mean that a change has been saved.",
-                    "when_it_appears": "May appear in Discord's profile editor while choosing or previewing avatar animation, banner image or color, primary or accent color, and display-name style."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-09-21T20:06:47.607386+00:00"
+    "timestamp": "2026-09-21T20:17:33.486023+00:00"
 }
