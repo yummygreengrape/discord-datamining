@@ -1,5 +1,5 @@
 {
-    "build_hash": "0757c52158cd6e5aed02a13c54f2bbdb0edbb034",
+    "build_hash": "708a50a3c5ff34419e4f154d2fe648f51f6e8e26",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,13 +41,8 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "5DOL2g": "Speedrun",
-                "5I6PKl": "Balanced"
-            },
-            "deleted": {
-                "c11EuO": "Speedrun"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -56,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-21T04:49:44.569638+00:00"
+    "timestamp": "2026-09-21T05:51:53.601020+00:00"
 }
