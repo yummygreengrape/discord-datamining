@@ -1,5 +1,5 @@
 {
-    "build_hash": "2c21731d14e7775b5b6a137208b241dc809e314f",
+    "build_hash": "efdbb7d4c4fe4b922d096c47b73e7007f2d0c486",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,37 +41,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "7raRgL": "Redeem Orbs",
-                "v8QrJf": "Your Orbs are ready to redeem"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "04j3XV": {
-                    "new_value": "{orbAmount} Orbs in {days, plural, one {day} other {days}}",
-                    "old_value": "{orbAmount} Orbs in {days} days"
-                },
-                "Ba/7wO": {
-                    "new_value": "Subscribe to grow your stash with monthly Orbs and {multiplier}x rewards.",
-                    "old_value": "Nitro members earn {multiplier}x on everything"
-                },
-                "G5k+lZ": {
-                    "new_value": "Turn Quest wins into mega wins with {bonusOrbMultiplier, number}x rewards when you subscribe to Nitro. Cancel anytime.",
-                    "old_value": "Turn Quest wins into mega wins with a {bonusOrbMultiplier, number}x multiplier on Orb Rewards."
-                },
-                "HACucK": {
-                    "new_value": "You've got enough to grab something in the Shop.",
-                    "old_value": "You have enough Orbs to get something in the Shop!"
-                },
-                "NpUfej": {
-                    "new_value": "Now your Quest wins become mega wins with {bonusOrbMultiplier, number}x rewards when you subscribe to Nitro. Cancel anytime",
-                    "old_value": "Now your Quest wins become mega wins with a {bonusOrbMultiplier, number}x multiplier on Orb Rewards."
-                },
-                "ZqCAos": {
-                    "new_value": "Unlock more Orbs",
-                    "old_value": "Earn Orbs faster"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -79,171 +51,5 @@
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "04j3XV": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "Active Challenges, Earn Orbs faster, Nitro members earn {multiplier}x on everything, Claim {orbAmount} Orbs가 한 묶음으로 추가됐습니다. 공개 실험 데이터에도 quests premium Orbs multiplier marketing과 orbchievements가 있어 Nitro가 Orbs 도전·보상 진행에 배수를 적용하는 화면이라는 해석을 뒷받침합니다.",
-                    "generated_at": "2026-08-31T00:15:44.939956Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "Nitro Orbs",
-                        "Earn Orbs faster",
-                        "Active Challenges",
-                        "Claim",
-                        "multiplier",
-                        "next reward"
-                    ],
-                    "search_intent": "Discord Nitro Orbs가 무엇인지, {multiplier}x가 어디에 적용되고 보상을 언제 받을 수 있는지 확인하려는 검색입니다.",
-                    "source_context": "같은 문자열 묶음에 Nitro 배수, 활성 도전, Orbs 수령, 다음 보상 진행이 있으며 공개 실험 데이터에 premium Orbs multiplier와 orbchievements가 확인됩니다.",
-                    "summary": "Nitro 회원의 Orbs 획득 배수, 다음 보상까지의 진행, 받을 수 있는 Orbs를 보여 주는 보상 화면 문구입니다.",
-                    "what_it_means": "Nitro 회원에게 표시된 배수가 Orbs 획득 진행에 적용되며, 현재 받을 수 있는 보상과 다음 보상 상태를 구분해 보여 줍니다.",
-                    "when_it_appears": "Orbs 도전 목록이나 보상 진행 화면에서 Nitro 배수, 다음 보상까지 남은 기간, 수령 가능한 Orbs를 볼 때 나타납니다."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "Active Challenges, Earn Orbs faster, Nitro members earn {multiplier}x on everything, and Claim {orbAmount} Orbs appear together. Public experiment data also includes quests premium Orbs multiplier marketing and orbchievements, supporting a screen where Nitro applies a multiplier to Orbs challenge and reward progress.",
-                    "generated_at": "2026-08-31T00:15:44.939956Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "Nitro Orbs",
-                        "Earn Orbs faster",
-                        "Active Challenges",
-                        "Claim",
-                        "multiplier",
-                        "next reward"
-                    ],
-                    "search_intent": "The searcher likely wants to know what Discord Nitro Orbs are, where the {multiplier}x applies, and when a reward can be claimed.",
-                    "source_context": "The same string group covers Nitro multipliers, active challenges, Orbs claims, and next-reward progress; public experiments include premium Orbs multiplier and orbchievements entries.",
-                    "summary": "These reward-screen strings show Nitro Orbs multipliers, progress toward the next reward, and claimable Orbs.",
-                    "what_it_means": "The displayed Nitro multiplier applies to Orbs earning progress and the screen distinguishes a claimable reward from progress toward the next one.",
-                    "when_it_appears": "It appears on an Orbs challenge or reward-progress screen showing a Nitro multiplier, time to the next reward, or claimable Orbs."
-                }
-            },
-            "Ba/7wO": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "Active Challenges, Earn Orbs faster, Nitro members earn {multiplier}x on everything, Claim {orbAmount} Orbs가 한 묶음으로 추가됐습니다. 공개 실험 데이터에도 quests premium Orbs multiplier marketing과 orbchievements가 있어 Nitro가 Orbs 도전·보상 진행에 배수를 적용하는 화면이라는 해석을 뒷받침합니다.",
-                    "generated_at": "2026-08-31T00:15:44.939956Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "Nitro Orbs",
-                        "Earn Orbs faster",
-                        "Active Challenges",
-                        "Claim",
-                        "multiplier",
-                        "next reward"
-                    ],
-                    "search_intent": "Discord Nitro Orbs가 무엇인지, {multiplier}x가 어디에 적용되고 보상을 언제 받을 수 있는지 확인하려는 검색입니다.",
-                    "source_context": "같은 문자열 묶음에 Nitro 배수, 활성 도전, Orbs 수령, 다음 보상 진행이 있으며 공개 실험 데이터에 premium Orbs multiplier와 orbchievements가 확인됩니다.",
-                    "summary": "Nitro 회원의 Orbs 획득 배수, 다음 보상까지의 진행, 받을 수 있는 Orbs를 보여 주는 보상 화면 문구입니다.",
-                    "what_it_means": "Nitro 회원에게 표시된 배수가 Orbs 획득 진행에 적용되며, 현재 받을 수 있는 보상과 다음 보상 상태를 구분해 보여 줍니다.",
-                    "when_it_appears": "Orbs 도전 목록이나 보상 진행 화면에서 Nitro 배수, 다음 보상까지 남은 기간, 수령 가능한 Orbs를 볼 때 나타납니다."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "Active Challenges, Earn Orbs faster, Nitro members earn {multiplier}x on everything, and Claim {orbAmount} Orbs appear together. Public experiment data also includes quests premium Orbs multiplier marketing and orbchievements, supporting a screen where Nitro applies a multiplier to Orbs challenge and reward progress.",
-                    "generated_at": "2026-08-31T00:15:44.939956Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "Nitro Orbs",
-                        "Earn Orbs faster",
-                        "Active Challenges",
-                        "Claim",
-                        "multiplier",
-                        "next reward"
-                    ],
-                    "search_intent": "The searcher likely wants to know what Discord Nitro Orbs are, where the {multiplier}x applies, and when a reward can be claimed.",
-                    "source_context": "The same string group covers Nitro multipliers, active challenges, Orbs claims, and next-reward progress; public experiments include premium Orbs multiplier and orbchievements entries.",
-                    "summary": "These reward-screen strings show Nitro Orbs multipliers, progress toward the next reward, and claimable Orbs.",
-                    "what_it_means": "The displayed Nitro multiplier applies to Orbs earning progress and the screen distinguishes a claimable reward from progress toward the next one.",
-                    "when_it_appears": "It appears on an Orbs challenge or reward-progress screen showing a Nitro multiplier, time to the next reward, or claimable Orbs."
-                }
-            },
-            "HACucK": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "같은 처리 창에 Active Challenges, Challenge completed, Claim, Explore More Bounties, Orbs 수령 문구가 함께 나타납니다. 공개 API 데이터에도 Orbs 보상 유형의 도전 목록과 도전 보상 수령 항목이 추가되었습니다. 따라서 단순 상점 잔액이 아니라 도전 완료와 보상 청구 흐름을 설명하는 묶음으로 확인됩니다.",
-                    "generated_at": "2026-08-28T00:12:36.449330Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "Orbs",
-                        "Active Challenges",
-                        "Challenge completed",
-                        "Claim",
-                        "Bounties",
-                        "Shop"
-                    ],
-                    "search_intent": "Discord의 Orbs 도전이나 Bounties가 무엇인지, 완료한 Orbs 보상을 어디서 받는지 확인하려는 검색입니다.",
-                    "source_context": "같은 시점의 문자열이 도전 목록, 완료, 수령, Bounties 탐색을 연결하며 공개 API 데이터에는 Orbs 도전 목록과 보상 수령 항목이 함께 추가되었습니다.",
-                    "summary": "Orbs를 얻는 활성 도전과 Bounties를 살펴보고 완료 보상을 받는 흐름의 문구입니다.",
-                    "what_it_means": "도전의 진행 상태와 받을 수 있는 Orbs 수량, 보상 청구 가능 여부를 보여 주는 상태입니다.",
-                    "what_to_do": "도전이 완료로 표시되면 Claim 또는 Orbs 수령 버튼을 사용하세요. 받을 수 있는 항목이 없으면 활성 도전이나 Bounties 목록에서 조건을 확인하세요.",
-                    "when_it_appears": "Orbs를 주는 활성 도전 목록을 보거나, 도전을 완료하거나, 받을 수 있는 Orbs 보상을 청구할 때 나타납니다."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "The same window adds Active Challenges, Challenge completed, Claim, Explore More Bounties, and Orbs reward copy. Public API data also adds Orbs-filtered challenge listing and challenge reward claiming entries. This supports a challenge-completion and reward-claim flow rather than a generic Shop balance label.",
-                    "generated_at": "2026-08-28T00:12:36.449330Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "Orbs",
-                        "Active Challenges",
-                        "Challenge completed",
-                        "Claim",
-                        "Bounties",
-                        "Shop"
-                    ],
-                    "search_intent": "The searcher likely wants to understand Discord Orbs challenges or Bounties and where to claim a completed reward.",
-                    "source_context": "Same-window strings connect challenge browsing, completion, claiming, and Bounties; public API data also adds Orbs challenge-list and reward-claim entries.",
-                    "summary": "These labels belong to the flow for browsing active Orbs challenges and Bounties, then claiming completed rewards.",
-                    "what_it_means": "It shows challenge progress, the Orbs amount available, and whether the reward can be claimed.",
-                    "what_to_do": "When a challenge is marked complete, use Claim or the Orbs claim action. If nothing is claimable, review the active challenge or Bounties list for its requirements.",
-                    "when_it_appears": "It appears while viewing active Orbs challenges, completing one, or claiming an available Orbs reward."
-                }
-            },
-            "ZqCAos": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "Active Challenges, Earn Orbs faster, Nitro members earn {multiplier}x on everything, Claim {orbAmount} Orbs가 한 묶음으로 추가됐습니다. 공개 실험 데이터에도 quests premium Orbs multiplier marketing과 orbchievements가 있어 Nitro가 Orbs 도전·보상 진행에 배수를 적용하는 화면이라는 해석을 뒷받침합니다.",
-                    "generated_at": "2026-08-31T00:15:44.939956Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "Nitro Orbs",
-                        "Earn Orbs faster",
-                        "Active Challenges",
-                        "Claim",
-                        "multiplier",
-                        "next reward"
-                    ],
-                    "search_intent": "Discord Nitro Orbs가 무엇인지, {multiplier}x가 어디에 적용되고 보상을 언제 받을 수 있는지 확인하려는 검색입니다.",
-                    "source_context": "같은 문자열 묶음에 Nitro 배수, 활성 도전, Orbs 수령, 다음 보상 진행이 있으며 공개 실험 데이터에 premium Orbs multiplier와 orbchievements가 확인됩니다.",
-                    "summary": "Nitro 회원의 Orbs 획득 배수, 다음 보상까지의 진행, 받을 수 있는 Orbs를 보여 주는 보상 화면 문구입니다.",
-                    "what_it_means": "Nitro 회원에게 표시된 배수가 Orbs 획득 진행에 적용되며, 현재 받을 수 있는 보상과 다음 보상 상태를 구분해 보여 줍니다.",
-                    "when_it_appears": "Orbs 도전 목록이나 보상 진행 화면에서 Nitro 배수, 다음 보상까지 남은 기간, 수령 가능한 Orbs를 볼 때 나타납니다."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "Active Challenges, Earn Orbs faster, Nitro members earn {multiplier}x on everything, and Claim {orbAmount} Orbs appear together. Public experiment data also includes quests premium Orbs multiplier marketing and orbchievements, supporting a screen where Nitro applies a multiplier to Orbs challenge and reward progress.",
-                    "generated_at": "2026-08-31T00:15:44.939956Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "Nitro Orbs",
-                        "Earn Orbs faster",
-                        "Active Challenges",
-                        "Claim",
-                        "multiplier",
-                        "next reward"
-                    ],
-                    "search_intent": "The searcher likely wants to know what Discord Nitro Orbs are, where the {multiplier}x applies, and when a reward can be claimed.",
-                    "source_context": "The same string group covers Nitro multipliers, active challenges, Orbs claims, and next-reward progress; public experiments include premium Orbs multiplier and orbchievements entries.",
-                    "summary": "These reward-screen strings show Nitro Orbs multipliers, progress toward the next reward, and claimable Orbs.",
-                    "what_it_means": "The displayed Nitro multiplier applies to Orbs earning progress and the screen distinguishes a claimable reward from progress toward the next one.",
-                    "when_it_appears": "It appears on an Orbs challenge or reward-progress screen showing a Nitro multiplier, time to the next reward, or claimable Orbs."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-09-21T17:26:39.399275+00:00"
+    "timestamp": "2026-09-21T17:37:25.306116+00:00"
 }
