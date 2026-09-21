@@ -1,15 +1,38 @@
 {
-    "build_hash": "25320094eb4372350f936fe126a498a120fe5207",
+    "build_hash": "c4d615439d2b3aaaf42a78a81b9855b6bbb61125",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "id": "2026-09-multisku-embed-builder",
+            "kind": "user",
+            "timestamp": "2026-09-21T21:32:03Z",
+            "title": "Multi-SKU Embed Builder",
+            "treatments": [
+                "Control",
+                "Treatment 1: Show the embed builder entry point in the Social Commerce dev tools tab"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-multisku-embed-builder",
+            "kind": "user",
+            "timestamp": "2026-09-21T21:32:03Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +46,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-21T21:22:51.503435+00:00"
+    "timestamp": "2026-09-21T21:33:37.742736+00:00"
 }
