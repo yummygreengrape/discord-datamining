@@ -1,5 +1,5 @@
 {
-    "build_hash": "e8af474f978eaa994889feb041216ac90cc415ee",
+    "build_hash": "77bbccb3bbc2710630781d3c8f3b6c39bbe3be9e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,17 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/nFLZv": "Promo eligible: {current} of {target} collected - {numDays} days left",
+                "8XhAe3": "Promo eligible: {current} of {target} collected"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "EN+0gW": {
+                    "new_value": "Edit Banner Image",
+                    "old_value": "Edit Banner"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-21T23:42:32.061986+00:00"
+    "timestamp": "2026-09-21T23:53:18.660576+00:00"
 }
