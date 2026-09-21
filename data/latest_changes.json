@@ -1,5 +1,5 @@
 {
-    "build_hash": "49329385c4ba4b3bf4a5b6eb9364f9f01f497f5f",
+    "build_hash": "8850c80ba52d53cd10b7870a0d5bf8afbd40642c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,69 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "allowReordering",
-                "sortOrder"
-            ],
-            "default_config": {
-                "allowReordering": false,
-                "sortOrder": "creation-date"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-soundboard-favorites",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-09-21T16:26:41Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "allowReordering": false,
-                    "sortOrder": "favorite-date"
-                },
-                "2": {
-                    "allowReordering": true,
-                    "sortOrder": "favorite-date"
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "allowReordering",
-                "sortOrder"
-            ],
-            "default_config": {
-                "allowReordering": false,
-                "sortOrder": "creation-date"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-soundboard-favorites",
-            "kind": "user",
-            "timestamp": "2026-09-21T16:26:41Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "allowReordering": false,
-                    "sortOrder": "favorite-date"
-                },
-                "2": {
-                    "allowReordering": true,
-                    "sortOrder": "favorite-date"
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "5d22a5f54de0297b9577e25d6d33ec6b",
@@ -102,10 +41,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "KFcQy8": "Reorder your favorite sounds!",
-                "P/1x7s": "Drag and drop your favorite sounds in any order you like."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -115,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-21T16:38:05.304755+00:00"
+    "timestamp": "2026-09-21T16:48:52.531209+00:00"
 }
