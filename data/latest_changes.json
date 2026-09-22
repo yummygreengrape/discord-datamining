@@ -1,5 +1,5 @@
 {
-    "build_hash": "43060abf2f47a6f51dc710d7d17ee82e660104fd",
+    "build_hash": "88cac0d305cd3487a4e184ae1ce75d802bb614e5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "AzkvWe": "Featured Tile"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T19:07:06.744638+00:00"
+    "timestamp": "2026-09-22T19:18:17.525590+00:00"
 }
