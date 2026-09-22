@@ -1,5 +1,5 @@
 {
-    "build_hash": "b15a4c7a3bad76309775f475eeb3402ec07b849d",
+    "build_hash": "597cac984f2181a19e34983aaa58417bff89f175",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,26 +13,11 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "AzkvWe": "Featured Tile"
+            },
             "deleted": {},
-            "modified": {
-                "l+jt8J": {
-                    "new_value": "You’re in the teen age group, so Message Requests can’t be turned off. If this doesn’t seem right, you can [confirm you’re an adult]({handleOnConfirmAgeHook}).",
-                    "old_value": "You’re in the teen age group, so Message Requests can’t be turned off. If this doesn’t seem right, you can [confirm you’re an adult]({handleOnConfirmAgeHook})"
-                },
-                "qSkhZH": {
-                    "new_value": "Age groups determine if you can access content and settings meant for adults. Otherwise, Discord works the same. See your age group below and [learn more on our blog]({handleOnBlogHook}).",
-                    "old_value": "Age groups determine if you can access content and settings meant for adults. Otherwise, Discord works the same. See your age group below and [learn more on our blog]({handleOnBlogHook})"
-                },
-                "qbBkFI": {
-                    "new_value": "You’re in the teen age group, so some settings can’t be changed. If this doesn’t seem right, you can [confirm you’re an adult]({handleOnConfirmAgeHook}).",
-                    "old_value": "You’re in the teen age group, so some settings can’t be changed. If this doesn’t seem right, you can [confirm you’re an adult]({handleOnConfirmAgeHook})"
-                },
-                "vGxRDB": {
-                    "new_value": "Age groups determine if you can access content and settings meant for adults. Otherwise, Discord works the same. See your age group below and [learn more on our blog]({handleOnBlogHook}).",
-                    "old_value": "Age groups determine if you can access content and settings meant for adults. Otherwise, Discord works the same. See your age group below and [learn more on our blog]({handleOnBlogHook})"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -40,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T18:12:37.511108+00:00"
+    "timestamp": "2026-09-22T18:23:24.269713+00:00"
 }
