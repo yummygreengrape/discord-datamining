@@ -1,5 +1,5 @@
 {
-    "build_hash": "0d7a6d1c429efe98f298b62beea67c5c9622bb51",
+    "build_hash": "50e0ca086dc51a3c2220796e8a3c0cd82c9f683e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,17 +8,49 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [
+    "new_experiment_details": [
         {
-            "experiment_source": "reference_comment",
+            "config_keys": [
+                "preload"
+            ],
+            "default_config": {
+                "preload": "auto"
+            },
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
-            "id": "2026-08-web-filter-tag-group-migration",
+            "id": "2026-09-nameplate-video-preload-none",
             "kind": "user",
-            "timestamp": "2026-09-22T20:05:53Z",
+            "status": "added",
             "treatments": [
                 "Variant 1"
-            ]
+            ],
+            "variations": {
+                "1": {
+                    "preload": "none"
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "preload"
+            ],
+            "default_config": {
+                "preload": "auto"
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-nameplate-video-preload-none",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "preload": "none"
+                }
+            }
         }
     ],
     "rollout_changes": [],
@@ -34,5 +66,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T20:09:59.045360+00:00"
+    "timestamp": "2026-09-22T20:21:06.134539+00:00"
 }
