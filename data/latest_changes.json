@@ -1,5 +1,5 @@
 {
-    "build_hash": "1b13589190c27f8b080d59b2163effc84d329b84",
+    "build_hash": "79c3f09b994756ca16db368f474958c7d7c2280f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,20 +8,286 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-build-a-bear",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-22T21:18:52Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-build-a-bear",
+            "kind": "user",
+            "timestamp": "2026-09-22T21:18:52Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+uwOHt": "Sidekick",
+                "//ZYM/": "Send a special message...",
+                "1jPMeG": "Only you can see your Checkpoint (unless you choose to share it). learnMoreHookHookLearn More.",
+                "26V/4h": "No Games",
+                "36PZwu": "You were in the percentHookHookTop {percent}% of Discord voice chatters worldwide!",
+                "3sARW7": "Favorite Emoji",
+                "4R3VzK": "Our gift to you",
+                "4xZpq4": "When it came to friends, you definitely had your favorites",
+                "5XqqXc": "I’d sit in voice muted with you any day",
+                "76Qd/E": "Most used emoji",
+                "8XPMJj": "Top Server",
+                "8mqr6Q": "You've reached a Checkpoint",
+                "94azAy": "Looks great!",
+                "9s8yXv": "every time I hear a ping, I always hope it’s from you",
+                "BHbwK1": "You went a full year without using emoji. Honestly, impressive.",
+                "CdU/PF": "Checkpoint",
+                "F0fkrh": "Servers",
+                "FiYi7u": "Time in voice",
+                "GN0uv6": "Unmute Sounds",
+                "GNHD4i": "This happens if you're new here or have privacy settings enabled that limit personalization. learnMoreHookHookLearn More.",
+                "Gobn4e": "{count} minutes",
+                "JwFMdL": "Total Emoji used",
+                "M/LvW0": "Look back at your 2025 on Discord",
+                "MugpMu": "{numSessions} sessions",
+                "MyO0sh": "The strong silent type.",
+                "OBeYX/": "0 minutes in voice",
+                "OHIb1L": "Reward",
+                "OzY5Ns": "Squad",
+                "P4hgY/": "we are kind of a big deal",
+                "PLcLdx": "you’ve heard all my hot takes and stuck around anyway",
+                "Q0EMOP": "The places on Discord that you called home in 2025.",
+                "QkdNzt": "0 Quests Completed",
+                "RbT4Zq": "Most Played Game",
+                "RmVTph": "Minutes in Voice",
+                "T7cl+Y": "Share",
+                "UPMwV8": "Most played game",
+                "UYTBoT": "Start earning Orbs, in-game items, profile decorations, and more with Discord Quests. learnMoreHookHookLearn More.",
+                "UYcJ48": "Check Point",
+                "UYjWa5": "Rewatch your Checkpoint anytime until January 15th.",
+                "UZbUtl": "{numMinutes} in voice",
+                "VaydtR": "monthHookHook{month} was your chattiest month on Discord!",
+                "Xu0QsX": "{numHours} in voice",
+                "ZQakPR": "Your Discord",
+                "Zd+Ej+": "You messaged the most in monthHookHook{month}!",
+                "ZuvPfg": "Here are a few of your favorites:",
+                "beRTy6": "Emojis sent",
+                "cuQ8hW": "Most active server",
+                "d5HUsD": "But one person was always your go-to...",
+                "dW6EBf": "Your favorite",
+                "eoLmk1": "No Servers",
+                "fnOOv7": "same time, same place, next year?",
+                "fzS0tb": "Take a look back at your 2025",
+                "g476ZL": "Music By: {name}",
+                "gd+Olh": "This year you earned orbsHookHook{numOrbs} to spend in the Discord Shop.",
+                "goiR2u": "Checkpoint 2025",
+                "gzlOml": "You played gamesHookHook{numGames} {numGames} this year. These were your favorites:",
+                "hDXaQ/": "just to be clear, YOU are the sidekick",
+                "i5nVyC": "{count} hours",
+                "ir6nEQ": "Your Checkpoint",
+                "ixvOza": "You were in the percentHookHookTop {percent}% for messages sent on Discord!",
+                "kimsIr": "Checkpoint Unavailable",
+                "lXT6ns": "Time in Voice",
+                "mAroeJ": "Your favorite",
+                "mDxM7m": "Claim Now",
+                "mIG7/G": "Loading Your Checkpoint",
+                "nPTMHj": "{numMessages} sent this year",
+                "oLTb46": "Top {percent}% played worldwide!",
+                "od48B0": "Show off Your 2025 Checkpoint",
+                "pJ4fx0": "This year you earned {numOrbs} to spend in the Discord Shop.",
+                "pjF33X": "Mute Sounds",
+                "qsFkSO": "Quests Completed",
+                "r8GEbK": "Open Checkpoint",
+                "sEPtGY": "The Discord friends you spent the most time with this year.",
+                "vKovUV": "Our gift to you",
+                "vnG9Sx": "No Emoji",
+                "wWKySP": "Messages sent",
+                "wnuxp5": "You've reached a Checkpoint!",
+                "wz2JuF": "Your Discord sidekick is:\nuserHookHook{user}",
+                "xLI+Hj": "You can still enjoy a reward to celebrate the year:",
+                "y4M1na": "Summary",
+                "zcbFu1": "Emoji Used"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "2tYpRK": {
+                    "new_value": "What should we conjure today?",
+                    "old_value": "What are we conjuring today?"
+                }
+            }
         },
         "ko": {
-            "added": {},
+            "added": {
+                "+uwOHt": "사이드킥",
+                "//ZYM/": "특별한 메시지 보내기...",
+                "1jPMeG": "체크포인트는 본인만 볼 수 있어요(공유하기로 선택한 경우 제외). learnMoreHookHook자세히 알아보세요.",
+                "26V/4h": "게임 없음",
+                "36PZwu": "전 세계 Discord 음성 통화 사용자 중 percentHookHook상위 {percent}%에 들어가셨어요!",
+                "3sARW7": "즐겨찾기에 이모지 추가",
+                "4R3VzK": "당신을 위한 선물이에요",
+                "4xZpq4": "친구들 중에 확실히 좋아하는 사람들이 정해져 있었네요",
+                "5XqqXc": "당신과 함께라면 마이크를 끄고 함께하는 순간을 즐기고 싶어요",
+                "76Qd/E": "가장 많이 사용한 이모지",
+                "8XPMJj": "상위 서버",
+                "8mqr6Q": "체크포인트에 도달했어요",
+                "94azAy": "멋져요!",
+                "9s8yXv": "알림 소리가 들릴 때마다 항상 당신이길 바라요",
+                "BHbwK1": "1년 내내 이모지를 한 번도 안 쓰셨군요. 솔직히 대단하시네요.",
+                "CdU/PF": "체크포인트",
+                "F0fkrh": "서버",
+                "FiYi7u": "음성 통화 시간",
+                "GN0uv6": "소리 켜기",
+                "GNHD4i": "이 메시지는 신규 사용자이거나 개인화 정보를 제한하는 개인정보 보호 설정 기능이 활성화된 경우 표시되어요. learnMoreHookHook자세히 알아보세요.",
+                "Gobn4e": "{count}분",
+                "JwFMdL": "사용한 총 이모지",
+                "M/LvW0": "2025년 Discord 활동을 되돌아보세요",
+                "MugpMu": "{numSessions}개 세션",
+                "MyO0sh": "과묵한 외유내강 성격이시군요.",
+                "OBeYX/": "음성 통화 0분",
+                "OHIb1L": "보상",
+                "OzY5Ns": "스쿼드",
+                "P4hgY/": "우린 좀 대단한 사이인 것 같아요",
+                "PLcLdx": "제 말도 안 되는 주장을 다 듣고도 곁에 머물러 주셨군요",
+                "Q0EMOP": "2025년에 Discord에서 내 집처럼 드나들던 곳들이에요.",
+                "QkdNzt": "완료한 퀘스트 0개",
+                "RbT4Zq": "가장 많이 플레이한 게임",
+                "RmVTph": "음성 통화 시간(분)",
+                "T7cl+Y": "공유",
+                "UPMwV8": "가장 많이 플레이한 게임",
+                "UYTBoT": "Discord 퀘스트로 Orbs, 게임 내 아이템, 프로필 장식 등을 획득해 보세요. learnMoreHookHook자세히 알아보세요.",
+                "UYcJ48": "체크포인트",
+                "UYjWa5": "체크포인트는 1월 15일까지 언제든지 다시 볼 수 있어요.",
+                "UZbUtl": "음성 통화 분",
+                "VaydtR": "monthHookHook{month}에 Discord에서 가장 활발하게 대화를 나누셨어요!",
+                "Xu0QsX": "음성 통화 시간",
+                "ZQakPR": "나의 Discord",
+                "Zd+Ej+": "monthHookHook{month}에 가장 많은 메시지를 보냈어요!",
+                "ZuvPfg": "가장 즐겨 사용한 이모지:",
+                "beRTy6": "보낸 이모지",
+                "cuQ8hW": "가장 활발하게 활동한 서버",
+                "d5HUsD": "하지만 언제나 가장 먼저 찾는 사람은 한 명이었죠...",
+                "dW6EBf": "가장 좋아하는 게임",
+                "eoLmk1": "서버 없음",
+                "fnOOv7": "내년에도 같은 시간, 같은 장소에서 볼까요?",
+                "fzS0tb": "2025년 되돌아보기",
+                "g476ZL": "음악: {name}",
+                "gd+Olh": "올해 Discord 상점에서 사용할 수 있는 orbsHookHook{numOrbs}개의 Orbs를 획득했어요.",
+                "goiR2u": "체크포인트 2025",
+                "gzlOml": "올해 gamesHookHook{numGames}개의 게임을 플레이했어요. 가장 즐겨 찾으신 게임은 다음과 같아요.",
+                "hDXaQ/": "확실히 해두자면, 나의 사이드킥은 바로 '당신'이에요",
+                "i5nVyC": "{count}시간",
+                "ir6nEQ": "나의 체크포인트",
+                "ixvOza": "Discord 메시지 발송량 percentHookHook상위 {percent}%에 들어갔어요!",
+                "kimsIr": "체크포인트를 이용 불가",
+                "lXT6ns": "음성 통화 시간",
+                "mAroeJ": "가장 좋아하는 게임",
+                "mDxM7m": "지금 받기",
+                "mIG7/G": "체크포인트 로딩 중",
+                "nPTMHj": "올해 {numMessages}개의 메시지를 보냈어요",
+                "oLTb46": "전 세계 상위 {percent}% 플레이!",
+                "od48B0": "2025 체크포인트를 자랑해 보세요",
+                "pJ4fx0": "올해 Discord 상점에서 사용할 수 있는 {numOrbs}개의 오브를 획득했어요.",
+                "pjF33X": "음소거",
+                "qsFkSO": "완료한 퀘스트",
+                "r8GEbK": "체크포인트 열기",
+                "sEPtGY": "올해 가장 많은 시간을 함께 보낸 Discord 친구들이에요.",
+                "vKovUV": "당신을 위한 선물이에요",
+                "vnG9Sx": "이모지 없음",
+                "wWKySP": "보낸 메시지",
+                "wnuxp5": "체크포인트에 도달했어요!",
+                "wz2JuF": "나의 Discord 사이드킥:\nuserHookHook{user}",
+                "xLI+Hj": "한 해를 기념하는 보상을 즐기실 수 있어요.",
+                "y4M1na": "요약",
+                "zcbFu1": "사용한 이모지"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T21:15:31.718851+00:00"
+    "string_context": {
+        "en": {
+            "2tYpRK": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 기록의 ‘What do you wanna create today?’ 표현을 기준으로 기존 근거를 다시 적용했습니다. 같은 시점에 Magic Builder, What do you wanna create today?, Describe your idea, Project title, Last edited, Your Creations가 한 묶음으로 추가됐습니다. ‘Creations are private until you ship them’은 게시 전 프로젝트가 비공개임을 설명하고, Project unavailable은 삭제됐거나 더 이상 접근할 수 없는 프로젝트 상태를 가리킵니다. 구체적인 Vibegrations consumer와 직접 연결되는지는 확인되지 않아 기능 관계는 단정하지 않습니다.",
+                    "generated_at": "2026-09-15T00:13:09Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Magic Builder",
+                        "Your Creations",
+                        "Project title",
+                        "Describe your idea",
+                        "private until shipped",
+                        "Project unavailable"
+                    ],
+                    "search_intent": "Discord에서 ‘What do you wanna create today?’가 왜 표시됐는지와 이 문구가 가리키는 기능 상태를 확인하려는 검색입니다. 사용자는 Discord의 Magic Builder가 무엇을 만드는 기능인지, Your Creations가 공개되는지, Project unavailable이 왜 보이는지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "같은 timestamp에 Magic Builder, Your Creations, App, 프로젝트 제목·수정 시각, 아이디어 입력, 게시 전 비공개, 삭제·접근 불가 안내가 함께 추가됐습니다.",
+                    "summary": "‘What do you wanna create today?’는 Discord의 기능·설정 설명 문구입니다. Magic Builder는 아이디어를 설명해 App 프로젝트를 만들고 Your Creations에서 관리하는 제작 화면으로 보입니다.",
+                    "what_it_means": "이 레코드의 ‘What do you wanna create today?’는 다음 의미를 전달합니다. 게시하기 전 creation은 비공개로 유지되며, 사용할 수 없는 프로젝트는 삭제됐거나 현재 접근 권한이 없는 상태일 수 있습니다.",
+                    "when_it_appears": "‘What do you wanna create today?’라는 현재 문구가 쓰이는 단계는 다음 기존 근거와 연결됩니다. 아이디어를 입력해 App 프로젝트를 만들거나 기존 creation 목록과 프로젝트 세부 정보를 열 때 보일 가능성이 큽니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The existing evidence is reapplied to the current wording “What do you wanna create today?.” Magic Builder, What do you wanna create today?, Describe your idea, Project title, Last edited, and Your Creations arrived together. “Creations are private until you ship them” says projects remain private before publishing, while Project unavailable points to a deleted or inaccessible project. A direct consumer link to Vibegrations is not confirmed, so the relationship between the two surfaces is left open.",
+                    "generated_at": "2026-09-15T00:13:09Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Magic Builder",
+                        "Your Creations",
+                        "Project title",
+                        "Describe your idea",
+                        "private until shipped",
+                        "Project unavailable"
+                    ],
+                    "search_intent": "A user who saw “What do you wanna create today?” in Discord is likely checking why this exact wording appeared and which product state it describes. Searchers likely want to know what Discord's Magic Builder creates, whether Your Creations are public, or why Project unavailable appears.",
+                    "source_context": "The same timestamp adds Magic Builder, Your Creations, App, project title and edit time, idea input, private-before-shipping copy, and deleted or inaccessible project notices.",
+                    "summary": "“What do you wanna create today?” is the specific Discord feature or setting explanation copy in this record. Magic Builder appears to be a creation surface for describing an idea, producing an App project, and managing it under Your Creations.",
+                    "what_it_means": "In this record, “What do you wanna create today?” communicates the following meaning. A creation stays private before it is shipped; an unavailable project may have been deleted or may no longer be accessible.",
+                    "when_it_appears": "The current wording “What do you wanna create today?” is tied to the following established surface. Likely appears while describing an App idea, creating a project, or opening the creations list and project details."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-09-22T21:26:17.628150+00:00"
 }
