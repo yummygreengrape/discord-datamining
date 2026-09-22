@@ -1,55 +1,66 @@
 {
-    "build_hash": "88195f792cdc62a5303fd3d5aa8564fc6e548bad",
+    "build_hash": "0c361dcb16cfbf2e72020ba13802c8126e3d761d",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-wgc-dirty-regions",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-22T20:36:15Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-wgc-dirty-regions",
+            "kind": "user",
+            "timestamp": "2026-09-22T20:36:15Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-web-filter-tag-group-migration",
-            "kind": "user",
-            "timestamp": "2026-09-22T20:05:53Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-nameplate-video-preload-none",
-            "kind": "user",
-            "timestamp": "2026-09-22T20:13:59Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "8e4LiB": {
-                    "new_value": "All",
-                    "old_value": "All Reviews"
-                },
-                "MQGNsN": {
-                    "new_value": "Recent",
-                    "old_value": "Recent Reviews"
-                },
-                "aWb+V4": {
-                    "new_value": "English",
-                    "old_value": "English Reviews"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -57,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T20:32:30.043010+00:00"
+    "timestamp": "2026-09-22T20:43:18.717927+00:00"
 }
