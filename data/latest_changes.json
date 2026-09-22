@@ -1,19 +1,8 @@
 {
-    "build_hash": "588ce5cb8094ca295616ba90b09b05ef2655a428",
+    "build_hash": "bdedcdcf510bbf9e0412210dcdaf10a0979c479f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-wishlist-show-owned-items-last",
-            "kind": "user",
-            "timestamp": "2026-09-22T02:57:16Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -34,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T03:02:00.149441+00:00"
+    "timestamp": "2026-09-22T03:22:59.964157+00:00"
 }
