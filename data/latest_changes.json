@@ -1,24 +1,58 @@
 {
-    "build_hash": "900007b1234eb2da66e08ceb07eb194253b3af12",
+    "build_hash": "3b9c1dd69a33be9545df803e405482690edb99fa",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "invertWants"
+            ],
+            "default_config": {
+                "invertWants": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-browser-inverted-wants",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-22T00:06:52Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "invertWants": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "invertWants"
+            ],
+            "default_config": {
+                "invertWants": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-browser-inverted-wants",
+            "kind": "user",
+            "timestamp": "2026-09-22T00:06:52Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "invertWants": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "AGE_SIGNAL_ATTEST_KEY",
-            "status": "added",
-            "url": "/users/@me/age-signal/attest-key"
-        },
-        {
-            "name": "ENDPOINT_USERS_AGE_SIGNAL_ATTEST_KEY",
-            "status": "added",
-            "url": "/users/@me/age-signal/attest-key"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
@@ -34,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T00:04:08.056164+00:00"
+    "timestamp": "2026-09-22T00:14:53.787742+00:00"
 }
