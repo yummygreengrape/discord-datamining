@@ -1,5 +1,5 @@
 {
-    "build_hash": "94e15498ed51ac7b46db7e828447406713ddf0f6",
+    "build_hash": "bf8e79e4b1f4fc9acd4091f7f27f131d5f3d6b0c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -15,7 +15,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "JzbSEY": {
+                    "new_value": "@Mentions + Unreads",
+                    "old_value": "Mentions + Unreads"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T16:58:07.377125+00:00"
+    "timestamp": "2026-09-22T17:29:18.108695+00:00"
 }
