@@ -1,8 +1,118 @@
 {
-    "build_hash": "9347d31808a5cf45482e56e3557eb5ddd363c967",
+    "build_hash": "e8ee6b9e26aefd94c3b4d1d5edb3a978de0ecfcd",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "showPTTIconIndicator",
+                "showPTTJoinTooltip",
+                "showPTTNoKeybindWarning",
+                "showPTTSpeakingIndicator"
+            ],
+            "default_config": {
+                "showPTTIconIndicator": false,
+                "showPTTJoinTooltip": false,
+                "showPTTNoKeybindWarning": false,
+                "showPTTSpeakingIndicator": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-12-09-ptt-education",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-22T23:29:07Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "showPTTJoinTooltip": true,
+                    "showPTTNoKeybindWarning": true,
+                    "showPTTSpeakingIndicator": true
+                },
+                "2": {
+                    "showPTTIconIndicator": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "moduleCacheEnabled"
+            ],
+            "default_config": {
+                "moduleCacheEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-requiremodule-caching-redux",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "moduleCacheEnabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "showPTTIconIndicator",
+                "showPTTJoinTooltip",
+                "showPTTNoKeybindWarning",
+                "showPTTSpeakingIndicator"
+            ],
+            "default_config": {
+                "showPTTIconIndicator": false,
+                "showPTTJoinTooltip": false,
+                "showPTTNoKeybindWarning": false,
+                "showPTTSpeakingIndicator": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-12-09-ptt-education",
+            "kind": "user",
+            "timestamp": "2026-09-22T23:29:07Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "showPTTJoinTooltip": true,
+                    "showPTTNoKeybindWarning": true,
+                    "showPTTSpeakingIndicator": true
+                },
+                "2": {
+                    "showPTTIconIndicator": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "moduleCacheEnabled"
+            ],
+            "default_config": {
+                "moduleCacheEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-requiremodule-caching-redux",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "moduleCacheEnabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,7 +123,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "n3aRYQ": "Updates for a competition ending, new competition beginning, and when a new user takes the lead during a live competition",
+                "zLNTax": "Hide Server Hub Settings"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +136,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T23:22:04.454881+00:00"
+    "timestamp": "2026-09-22T23:32:49.097004+00:00"
 }
