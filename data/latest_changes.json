@@ -1,5 +1,5 @@
 {
-    "build_hash": "f7fcd009769b4078ddf6e56d6a24c186b8dc0454",
+    "build_hash": "b15a4c7a3bad76309775f475eeb3402ec07b849d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,127 +8,37 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-08-tiny-bronco",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-08-tiny-bronco",
-            "kind": "user",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+7NlgO": "Learn More",
-                "221iML": "You’re in the teen age group (13-17), so you have additional protections and [content and settings]({handleOnAgeGatedContentHook}) meant for adults aren’t available. If your age group isn’t correct, you can [confirm you’re an adult]({handleOnConfirmAgeHook}).",
-                "41MDhK": "You are in the teen age group",
-                "8TWztV": "Age groups determine if you can access content and settings meant for adults. You’re in the adult age group, so nothing changes for you. [Learn more on our blog]({handleOnBlogHook})",
-                "Bp/1dq": "Learn more on our blog",
-                "Ga2z/E": "Your account is in the teen age group, so content and settings meant for adults aren't available. Otherwise, Discord works the same. [If we got it wrong, confirm you’re an adult]({handleOnConfirmAgeHook}).",
-                "GdTVPF": "We’ve Launched Additional Protections for Teens",
-                "HGJo1F": "Some settings can only be changed if you’re in the adult age group. [Learn more]({handleOnAgeGatedContentHook})",
-                "PMznGO": "Age groups determine if you can access content and settings meant for adults. You’re in the adult age group (18+), so nothing changes for you. [Learn more on our blog]({handleOnBlogHook})",
-                "W0/7DD": "Your age group hasn’t been confirmed yet, so [some content and settings]({handleOnAgeGatedContentHook}) meant for adults aren’t available until you [confirm you’re an adult]({handleOnConfirmAgeHook}).",
-                "ZzcLhc": "If we got it wrong, confirm you’re an adult",
-                "cI+bc/": "Confirm Age",
-                "ezJA0R": "This channel is limited to adults (18+) by {guildName}'s admins and may contain sensitive content. Your account is in the teen age group. If your age group isn't correct, confirm you're an adult.",
-                "f7c7qE": "Your account is in the teen age group, so content and settings meant for adults aren't available. Otherwise, Discord works the same.",
-                "gi4ulu": "You’re in the adult age group (18+) and have access to [age-restricted content, spaces, and settings]({handleOnAgeGatedContentHook}).",
-                "h4HbnI": "This channel is limited to adults (18+) by {guildName}'s admins and may contain sensitive content. Confirm you're an adult to access age-restricted content, spaces, and settings.",
-                "iK0n30": "This channel is limited to adults (18+) by {guildName}'s admins and may contain sensitive content.",
-                "jjpcno": "View in Settings",
-                "jssaTD": "Your age group hasn’t been confirmed yet, so some content and settings meant for adults aren't available. Otherwise, Discord works the same.",
-                "l+jt8J": "You’re in the teen age group, so Message Requests can’t be turned off. If this doesn’t seem right, you can [confirm you’re an adult]({handleOnConfirmAgeHook})",
-                "m95jW8": "Your age group is unconfirmed",
-                "qSkhZH": "Age groups determine if you can access content and settings meant for adults. Otherwise, Discord works the same. See your age group below and [learn more on our blog]({handleOnBlogHook})",
-                "qbBkFI": "You’re in the teen age group, so some settings can’t be changed. If this doesn’t seem right, you can [confirm you’re an adult]({handleOnConfirmAgeHook})",
-                "t5QjmQ": "You are in the adult age group",
-                "tGsCdS": "Message Requests can only be turned off if you’re in the adult age group. [Learn more]({handleOnAgeGatedContentHook})",
-                "vGxRDB": "Age groups determine if you can access content and settings meant for adults. Otherwise, Discord works the same. See your age group below and [learn more on our blog]({handleOnBlogHook})",
-                "xuvWqy": "Your age group hasn’t been confirmed yet, so some content and settings meant for adults aren't available. Otherwise, Discord works the same. [Learn more on our blog]({handleOnBlogHook})."
-            },
+            "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "l+jt8J": {
+                    "new_value": "You’re in the teen age group, so Message Requests can’t be turned off. If this doesn’t seem right, you can [confirm you’re an adult]({handleOnConfirmAgeHook}).",
+                    "old_value": "You’re in the teen age group, so Message Requests can’t be turned off. If this doesn’t seem right, you can [confirm you’re an adult]({handleOnConfirmAgeHook})"
+                },
+                "qSkhZH": {
+                    "new_value": "Age groups determine if you can access content and settings meant for adults. Otherwise, Discord works the same. See your age group below and [learn more on our blog]({handleOnBlogHook}).",
+                    "old_value": "Age groups determine if you can access content and settings meant for adults. Otherwise, Discord works the same. See your age group below and [learn more on our blog]({handleOnBlogHook})"
+                },
+                "qbBkFI": {
+                    "new_value": "You’re in the teen age group, so some settings can’t be changed. If this doesn’t seem right, you can [confirm you’re an adult]({handleOnConfirmAgeHook}).",
+                    "old_value": "You’re in the teen age group, so some settings can’t be changed. If this doesn’t seem right, you can [confirm you’re an adult]({handleOnConfirmAgeHook})"
+                },
+                "vGxRDB": {
+                    "new_value": "Age groups determine if you can access content and settings meant for adults. Otherwise, Discord works the same. See your age group below and [learn more on our blog]({handleOnBlogHook}).",
+                    "old_value": "Age groups determine if you can access content and settings meant for adults. Otherwise, Discord works the same. See your age group below and [learn more on our blog]({handleOnBlogHook})"
+                }
+            }
         },
         "ko": {
-            "added": {
-                "+7NlgO": "자세히 알아보기",
-                "221iML": "회원님은 청소년 연령대(13~17세)에 속하므로 추가 보호 기능이 적용되며 성인을 위한 [콘텐츠 및 설정]({handleOnAgeGatedContentHook})은 사용할 수 없습니다. 연령대가 올바르지 않은 경우 [성인임을 확인할 수 있습니다]({handleOnConfirmAgeHook}).",
-                "41MDhK": "청소년 연령대에 해당합니다",
-                "8TWztV": "연령대에 따라 성인을 위한 콘텐츠 및 설정에 대한 액세스 여부가 결정됩니다. 회원님은 성인 연령대에 속하므로 달라지는 것은 없습니다. [블로그에서 더 알아보기]({handleOnBlogHook})",
-                "Bp/1dq": "블로그에서 자세히 알아보기",
-                "Ga2z/E": "회원님의 계정은 청소년 연령대에 속하므로 성인을 위한 콘텐츠 및 설정은 사용할 수 없습니다. 이를 제외한 다른 모든 이용 환경은 동일하게 유지됩니다. 당사의 실수라고 생각하신다면 [성인 인증을 완료해 주세요]({handleOnConfirmAgeHook}).",
-                "GdTVPF": "청소년을 위한 추가 보호 기능 도입",
-                "HGJo1F": "일부 설정은 성인 연령대에 속한 사용자만 변경할 수 있습니다. [자세히 알아보기]({handleOnAgeGatedContentHook})",
-                "PMznGO": "연령대에 따라 성인을 위한 콘텐츠 및 설정에 대한 액세스 여부가 결정됩니다. 회원님은 성인 연령대(18세 이상)에 속하므로 달라지는 것은 없습니다. [블로그에서 더 알아보기]({handleOnBlogHook})",
-                "W0/7DD": "회원님의 연령대가 아직 확인되지 않았으므로 성인을 위한 [일부 콘텐츠 및 설정]({handleOnAgeGatedContentHook})은 [성인임을 확인할 때까지]({handleOnConfirmAgeHook}) 사용할 수 없습니다.",
-                "ZzcLhc": "당사의 실수라고 생각하신다면 성인 사용자임을 확인해 주세요",
-                "cI+bc/": "나이 확인",
-                "ezJA0R": "이 채널은  {guildName} 관리자가 성인(18세 이상)으로 제한 설정했으며, 민감한 콘텐츠가 포함될 수 있습니다. 회원님의 계정은 청소년 연령대에 속합니다. 연령대가 올바르지 않은 경우 성인임을 인증해 주세요.",
-                "f7c7qE": "회원님의 계정은 청소년 연령대에 속하므로 성인을 위한 콘텐츠 및 설정은 사용할 수 없습니다. 이를 제외한 다른 모든 이용 환경은 동일하게 유지됩니다.",
-                "gi4ulu": "회원님은 성인 연령대(18세 이상)에 속하며 [연령 제한 콘텐츠, 공간 및 설정]({handleOnAgeGatedContentHook})에 액세스할 수 있습니다.",
-                "h4HbnI": "이 서버는 {guildName} 관리자가 성인(18세 이상)으로 제한 설정했으며, 민감한 콘텐츠가 포함될 수 있습니다. 연령 제한 콘텐츠, 공간 및 설정에 액세스하려면 성인임을 인증해 주세요.",
-                "iK0n30": "이 채널은 {guildName} 관리자가 성인(18세 이상)으로 제한 설정했으며, 민감한 콘텐츠가 포함될 수 있습니다.",
-                "jjpcno": "설정에서 보기",
-                "jssaTD": "회원님의 연령대가 아직 확인되지 않았으므로 성인을 위한 일부 콘텐츠 및 설정은 사용할 수 없습니다. 이를 제외한 다른 모든 이용 환경은 동일하게 유지됩니다.",
-                "l+jt8J": "회원님은 청소년 연령대에 속하므로 메시지 요청을 끌 수 없습니다. 이 정보가 올바르지 않다고 생각하신다면 [성인 인증을 진행해 주세요]({handleOnConfirmAgeHook})",
-                "m95jW8": "연령대가 확인되지 않았습니다",
-                "qSkhZH": "연령대에 따라 성인을 위한 콘텐츠 및 설정에 대한 액세스 여부가 결정됩니다. 이를 제외한 다른 모든 Discord 환경은 동일하게 유지됩니다. 아래에서 회원님의 연령대를 확인하고 [블로그에서 더 알아보세요]({handleOnBlogHook})",
-                "qbBkFI": "회원님은 청소년 연령대에 속하므로 일부 설정을 변경할 수 없습니다. 이 정보가 올바르지 않다고 생각하신다면 [성인 인증을 진행해 주세요]({handleOnConfirmAgeHook})",
-                "t5QjmQ": "성인 연령대에 해당합니다",
-                "tGsCdS": "메시지 요청은 성인 연령대에 속한 사용자만 끌 수 있습니다. [자세히 알아보기]({handleOnAgeGatedContentHook})",
-                "vGxRDB": "연령대에 따라 성인을 위한 콘텐츠 및 설정에 대한 액세스 여부가 결정됩니다. 이를 제외한 다른 모든 Discord 환경은 동일하게 유지됩니다. 아래에서 회원님의 연령대를 확인하고 [블로그에서 더 알아보세요]({handleOnBlogHook})",
-                "xuvWqy": "회원님의 연령대가 아직 확인되지 않았으므로 성인을 위한 일부 콘텐츠 및 설정은 사용할 수 없습니다. 이를 제외한 다른 모든 이용 환경은 동일하게 유지됩니다. [블로그에서 더 알아보기]({handleOnBlogHook})."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T18:01:51.062669+00:00"
+    "timestamp": "2026-09-22T18:12:37.511108+00:00"
 }
