@@ -1,5 +1,5 @@
 {
-    "build_hash": "77bbccb3bbc2710630781d3c8f3b6c39bbe3be9e",
+    "build_hash": "900007b1234eb2da66e08ceb07eb194253b3af12",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,23 +7,26 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "AGE_SIGNAL_ATTEST_KEY",
+            "status": "added",
+            "url": "/users/@me/age-signal/attest-key"
+        },
+        {
+            "name": "ENDPOINT_USERS_AGE_SIGNAL_ATTEST_KEY",
+            "status": "added",
+            "url": "/users/@me/age-signal/attest-key"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/nFLZv": "Promo eligible: {current} of {target} collected - {numDays} days left",
-                "8XhAe3": "Promo eligible: {current} of {target} collected"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "EN+0gW": {
-                    "new_value": "Edit Banner Image",
-                    "old_value": "Edit Banner"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -31,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-21T23:53:18.660576+00:00"
+    "timestamp": "2026-09-22T00:04:08.056164+00:00"
 }
