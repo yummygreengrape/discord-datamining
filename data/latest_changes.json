@@ -1,5 +1,5 @@
 {
-    "build_hash": "bb405844c764c97e89de819525916bdeb6fad1e1",
+    "build_hash": "411f3b31129181d9f02084d54c71a1ddb7b2d217",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,10 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "SPQn3O": "Intimate imagery of anyone under 18 is Child Sexual Abuse Material (CSAM) and is illegal. CSAM is reported to the [National Center for Missing & Exploited Children](https://www.missingkids.org/home).",
-                "rtm4DR": "If you have concerns about your personal safety, or the safety of someone you know, contact the Women’s Assistance Center at Call 180 or visit [Brazil helplines and hotlines]({supportOrgURL}). More resources are available in our [Wellbeing Hub]({wellbeingURL}) and [Help Center article]({helpCenterURL})."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T22:07:45.522196+00:00"
+    "timestamp": "2026-09-22T22:18:33.244649+00:00"
 }
