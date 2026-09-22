@@ -1,130 +1,8 @@
 {
-    "build_hash": "e7b8681198e570e994ea41b0f4a3ec18bb2acf5e",
+    "build_hash": "22204649324b52704ecdb4cd9a3f673de4dbf5be",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-block-user-feedback",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-22T11:16:51Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled",
-                "shouldGetShorterIgnoreDuration"
-            ],
-            "default_config": {
-                "enabled": false,
-                "shouldGetShorterIgnoreDuration": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-ignore-user-feedback",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-22T11:16:51Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "shouldGetShorterIgnoreDuration": false
-                },
-                "1": {
-                    "enabled": true,
-                    "shouldGetShorterIgnoreDuration": false
-                },
-                "2": {
-                    "enabled": true,
-                    "shouldGetShorterIgnoreDuration": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-block-user-feedback",
-            "kind": "user",
-            "timestamp": "2026-09-22T11:16:51Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled",
-                "shouldGetShorterIgnoreDuration"
-            ],
-            "default_config": {
-                "enabled": false,
-                "shouldGetShorterIgnoreDuration": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-ignore-user-feedback",
-            "kind": "user",
-            "timestamp": "2026-09-22T11:16:51Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "shouldGetShorterIgnoreDuration": false
-                },
-                "1": {
-                    "enabled": true,
-                    "shouldGetShorterIgnoreDuration": false
-                },
-                "2": {
-                    "enabled": true,
-                    "shouldGetShorterIgnoreDuration": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -145,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T11:17:49.610948+00:00"
+    "timestamp": "2026-09-22T11:28:54.946951+00:00"
 }
