@@ -1,5 +1,5 @@
 {
-    "build_hash": "0750918cf1feb83318c50f68a45b7db5e388b584",
+    "build_hash": "6c2bc2524bb3acad602330b048efea0c12f30a8a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,21 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "122Ir6": "Change your mind",
+                "4lZNuo": "I’d like to start from the {templateName} template. My language is {locale}.",
+                "6NyGSZ": "Server",
+                "9KCASa": "Ask what else it could do",
+                "KD2m2Y": "Conjure",
+                "KLTQfQ": "The app is set up in that server, and its page shows up there.",
+                "Oaq2Cc": "{content}",
+                "WQCnSf": "Which server is this for?",
+                "ZK2O25": "Add something",
+                "cK0dk1": "Your answers are in and the first build is starting. Type here any time to steer it:",
+                "ipwoYO": "You need Manage Server in a server before you can start this template.",
+                "sZCqrE": "Got it",
+                "uF4ly7": "Your answer"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T17:40:04.846313+00:00"
+    "timestamp": "2026-09-22T17:50:49.614843+00:00"
 }
