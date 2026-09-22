@@ -1,66 +1,37 @@
 {
-    "build_hash": "1d62f96f2b71460642bb4cdfe04ab513c031c004",
-    "deleted_api_endpoints": [],
+    "build_hash": "623244e3de435c8d2ef12206f0dce118cb207335",
+    "deleted_api_endpoints": [
+        {
+            "name": "BULK_GUILD_BAN",
+            "status": "deleted",
+            "url": "/guilds/:param/bulk-ban"
+        },
+        {
+            "name": "ENDPOINT_GUILDS_BULK_BAN",
+            "status": "deleted",
+            "url": "/guilds/:param/bulk-ban"
+        }
+    ],
     "deleted_experiment_details": [
         {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "켜진 비교안에서는 나이 확인 시스템 알림의 connect_to_teen CTA를 보호자 연결 안내로 인정합니다."
-                    }
-                ],
-                "detailed_summary": "나이 확인 시스템 알림 메시지에 “청소년에게 연결” CTA가 들어 있을 때, pending 보호자 연결 상태와 실험값을 함께 확인해 버튼을 유효한 안내로 처리합니다. 같은 주의 문자열은 보호자 연결이 필요한 지역의 계정 접근 안내를 보여 줍니다.",
-                "evidence": [
-                    "Canary module 653166 defines the experiment.",
-                    "Module 36149 reads d.q.getConfig at isAgeVerificationMessageWithConnectToTeenCta.",
-                    "String history includes guardian connection prerequisite copy for teen accounts."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Family Center 보호자 연결 안내",
-                "generated_at": "2026-06-28T00:13:23Z",
-                "importance": "high",
-                "summary": "보호자 연결이 필요한 청소년 계정에서 연결 안내 버튼을 노출하는 실험입니다.",
-                "why_it_matters": "법적 요구로 보호자 연결이 필요한 사용자는 계정 접근을 계속하기 위해 어느 버튼을 눌러야 하는지 더 직접적으로 안내받을 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "The enabled treatment accepts the connect_to_teen CTA in age-verification system notifications."
-                    }
-                ],
-                "detailed_summary": "When an age-verification system notification includes a connect-to-teen CTA, the client checks pending guardian connection state and this experiment before treating the CTA as valid. The same week’s strings include account access copy for regions requiring guardian connection.",
-                "evidence": [
-                    "Canary module 653166 defines the experiment.",
-                    "Module 36149 reads d.q.getConfig at isAgeVerificationMessageWithConnectToTeenCta.",
-                    "String history includes guardian connection prerequisite copy for teen accounts."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Family Center guardian connection prompt",
-                "generated_at": "2026-06-28T00:13:23Z",
-                "importance": "high",
-                "summary": "Shows a connection prompt for teen accounts that require a guardian connection.",
-                "why_it_matters": "Users who legally need a connected guardian can get a more direct path to the button needed to regain or continue account access."
-            },
             "config_keys": [
-                "enabled"
+                "usePubSub"
             ],
             "default_config": {
-                "enabled": false
+                "usePubSub": false
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-06-family-center-connection-prereq",
+            "id": "2026-02-pubsub-bulk-ban-users",
             "kind": "user",
             "status": "deleted",
-            "timestamp": "2026-09-22T11:43:04Z",
+            "timestamp": "2026-09-22T12:03:16Z",
             "treatments": [
                 "Variant 1"
             ],
             "variations": {
                 "1": {
-                    "enabled": true
+                    "usePubSub": true
                 }
             }
         }
@@ -68,57 +39,24 @@
     "deleted_experiments": [
         {
             "config_keys": [
-                "enabled"
+                "usePubSub"
             ],
             "default_config": {
-                "enabled": false
+                "usePubSub": false
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-06-family-center-connection-prereq",
+            "id": "2026-02-pubsub-bulk-ban-users",
             "kind": "user",
-            "timestamp": "2026-09-22T11:43:04Z",
+            "timestamp": "2026-09-22T12:03:16Z",
             "treatments": [
                 "Variant 1"
             ],
             "variations": {
                 "1": {
-                    "enabled": true
+                    "usePubSub": true
                 }
             }
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-wishlist-show-owned-items-last",
-            "kind": "user",
-            "timestamp": "2026-09-22T02:57:16Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-block-user-feedback",
-            "kind": "user",
-            "timestamp": "2026-09-22T11:16:51Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-ignore-user-feedback",
-            "kind": "user",
-            "timestamp": "2026-09-22T11:16:51Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ]
         }
     ],
     "extractor_version": 23,
@@ -141,5 +79,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T11:50:31.423123+00:00"
+    "timestamp": "2026-09-22T12:11:34.168897+00:00"
 }
