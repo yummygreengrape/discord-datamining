@@ -1,5 +1,5 @@
 {
-    "build_hash": "50e0ca086dc51a3c2220796e8a3c0cd82c9f683e",
+    "build_hash": "88195f792cdc62a5303fd3d5aa8564fc6e548bad",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,49 +8,27 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "preload"
-            ],
-            "default_config": {
-                "preload": "auto"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-nameplate-video-preload-none",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "preload": "none"
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
     "new_experiments": [
         {
-            "config_keys": [
-                "preload"
-            ],
-            "default_config": {
-                "preload": "auto"
-            },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-web-filter-tag-group-migration",
+            "kind": "user",
+            "timestamp": "2026-09-22T20:05:53Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
             "id": "2026-09-nameplate-video-preload-none",
             "kind": "user",
+            "timestamp": "2026-09-22T20:13:59Z",
             "treatments": [
                 "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "preload": "none"
-                }
-            }
+            ]
         }
     ],
     "rollout_changes": [],
@@ -58,7 +36,20 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "8e4LiB": {
+                    "new_value": "All",
+                    "old_value": "All Reviews"
+                },
+                "MQGNsN": {
+                    "new_value": "Recent",
+                    "old_value": "Recent Reviews"
+                },
+                "aWb+V4": {
+                    "new_value": "English",
+                    "old_value": "English Reviews"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -66,5 +57,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T20:21:06.134539+00:00"
+    "timestamp": "2026-09-22T20:32:30.043010+00:00"
 }
