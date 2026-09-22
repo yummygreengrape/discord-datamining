@@ -1,5 +1,5 @@
 {
-    "build_hash": "88cac0d305cd3487a4e184ae1ce75d802bb614e5",
+    "build_hash": "0d7a6d1c429efe98f298b62beea67c5c9622bb51",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,13 +9,22 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-web-filter-tag-group-migration",
+            "kind": "user",
+            "timestamp": "2026-09-22T20:05:53Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "AzkvWe": "Featured Tile"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T19:18:17.525590+00:00"
+    "timestamp": "2026-09-22T20:09:59.045360+00:00"
 }
