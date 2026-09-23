@@ -1,156 +1,8 @@
 {
-    "build_hash": "c14c05b27e585c796c743cfe4edb0ad08c949718",
+    "build_hash": "9cd44b0a6cd16a882b52031980390d422497dcd7",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "videoPresetResolutionMax",
-                        "note": "기본 상태는 1440p, 비교안은 1080p를 최대값으로 사용합니다."
-                    }
-                ],
-                "detailed_summary": "기본 상태에서는 화면 공유 화질 선택이 최대 1440p까지 허용합니다. 비교안에서는 같은 선택 목록의 상한을 1080p로 낮춥니다. 현재 Canary의 화면 공유 화질 프리셋 계산이 이 설정을 직접 읽어 최대 해상도를 제한하는 것이 확인됩니다. 계정·서버 혜택 같은 다른 자격 조건은 별도로 적용되므로 모든 사용자에게 1440p가 보인다는 뜻은 아닙니다.",
-                "evidence": [
-                    "Current Canary getApplicationStreamPresetValues reads the experiment when building screen-share presets.",
-                    "The default config resolves to RESOLUTION_1440 and Variant 1 resolves to RESOLUTION_1080."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "화면 공유 최고 해상도",
-                "generated_at": "2026-09-05T04:19:24Z",
-                "importance": "medium",
-                "summary": "화면 공유 화질 선택에서 제공하는 최고 해상도를 1440p와 1080p 중 어느 쪽으로 둘지 비교하는 실험입니다.",
-                "why_it_matters": "최고 해상도를 낮추면 대역폭과 인코딩 부담을 줄일 수 있지만, 조건을 충족한 사용자는 1440p 선택지를 잃을 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "videoPresetResolutionMax",
-                        "note": "The default maximum is 1440p; the variant maximum is 1080p."
-                    }
-                ],
-                "detailed_summary": "The default lets the screen-share preset list reach 1440p. The variant lowers that list's maximum to 1080p. Current Canary directly reads the experiment while deriving application-stream preset values. Other account and guild entitlement checks still apply, so this does not mean every user sees a 1440p option by default.",
-                "evidence": [
-                    "Current Canary getApplicationStreamPresetValues reads the experiment when building screen-share presets.",
-                    "The default config resolves to RESOLUTION_1440 and Variant 1 resolves to RESOLUTION_1080."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Maximum screen-share resolution",
-                "generated_at": "2026-09-05T04:19:24Z",
-                "importance": "medium",
-                "summary": "Tests whether the highest resolution offered in screen-share quality presets is 1440p or 1080p.",
-                "why_it_matters": "A lower ceiling can reduce bandwidth and encoding load, but eligible users in the variant may lose the 1440p choice."
-            },
-            "config_keys": [
-                "videoPresetResolutionMax"
-            ],
-            "default_config": {
-                "videoPresetResolutionMax": "a.on.RESOLUTION_1440"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-go-live-video-preset-resolution",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-22T23:39:17Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "videoPresetResolutionMax": "a.on.RESOLUTION_1080"
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enableHardwareSilenceWarning",
-                "resetSilenceWarningAfterNMinutes",
-                "resetSilenceWarningOnDeviceChange"
-            ],
-            "default_config": {
-                "enableHardwareSilenceWarning": false,
-                "resetSilenceWarningOnDeviceChange": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-silence-warning-aggression",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-22T23:35:12Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "1": {
-                    "resetSilenceWarningOnDeviceChange": true
-                },
-                "2": {
-                    "resetSilenceWarningAfterNMinutes": 10
-                },
-                "3": {
-                    "enableHardwareSilenceWarning": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "videoPresetResolutionMax"
-            ],
-            "default_config": {
-                "videoPresetResolutionMax": "a.on.RESOLUTION_1440"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-go-live-video-preset-resolution",
-            "kind": "user",
-            "timestamp": "2026-09-22T23:39:17Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "videoPresetResolutionMax": "a.on.RESOLUTION_1080"
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enableHardwareSilenceWarning",
-                "resetSilenceWarningAfterNMinutes",
-                "resetSilenceWarningOnDeviceChange"
-            ],
-            "default_config": {
-                "enableHardwareSilenceWarning": false,
-                "resetSilenceWarningOnDeviceChange": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-silence-warning-aggression",
-            "kind": "user",
-            "timestamp": "2026-09-22T23:35:12Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "1": {
-                    "resetSilenceWarningOnDeviceChange": true
-                },
-                "2": {
-                    "resetSilenceWarningAfterNMinutes": 10
-                },
-                "3": {
-                    "enableHardwareSilenceWarning": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -162,24 +14,16 @@
     "string_changes": {
         "en": {
             "added": {
-                "sroJQp": "Optional"
+                "6UTDHm": "Hide the settings form"
             },
-            "deleted": {
-                "QMw8Fd": "Discord suspects your microphone hardware mute switch might be on. Just reminding you...",
-                "pZ0vr4": "Hardware Mute Reminder",
-                "tVbzoZ": "Show a reminder when Discord thinks your microphone is hardware muted."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "QMw8Fd": "마이크 하드웨어 음소거 스위치가 켜져 있는 것 같은 느낌이 드네요. 혹시나 해서 알려드리는 거예요...",
-                "pZ0vr4": "하드웨어 음소거 알림",
-                "tVbzoZ": "Discord가 마이크 하드웨어 음소거 상태를 감지하면 알림을 표시합니다."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-22T23:54:53.635207+00:00"
+    "timestamp": "2026-09-23T00:05:40.225293+00:00"
 }
