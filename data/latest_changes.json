@@ -1,5 +1,5 @@
 {
-    "build_hash": "ce85b017acc5441158ec56d4d71ed487a5640caf",
+    "build_hash": "e0982d8e8cf22446349fcdae2b2b76dd70a03566",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "kHie4V": "Reload App"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-23T00:27:26.758101+00:00"
+    "timestamp": "2026-09-23T00:38:15.161992+00:00"
 }
