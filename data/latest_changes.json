@@ -1,5 +1,5 @@
 {
-    "build_hash": "f6e8b110c3809858ea21af7f7c09deece76d9ac2",
+    "build_hash": "21d10380b04f62a78cc26c40065dfe6f9e39c720",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "wE4a/r": "Now your wins become mega wins with a {bonusOrbMultiplier, number}x multiplier on Orb Rewards."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-23T20:43:58.129412+00:00"
+    "timestamp": "2026-09-23T20:54:44.296582+00:00"
 }
