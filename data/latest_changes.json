@@ -1,5 +1,5 @@
 {
-    "build_hash": "e3f19b2a1b7bdb628e60e0006a9b828351a84722",
+    "build_hash": "0af3355dc62ba8aff7aeacb2785813ae0ee3afa7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "J0tNny": "Includes requests under the Online Safety Act",
+                "nYb8xq": "Includes requests under the Online Protection of Women Decree (Decree No. 12,976/2026)"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-23T18:16:15.849122+00:00"
+    "timestamp": "2026-09-23T18:27:00.324005+00:00"
 }
