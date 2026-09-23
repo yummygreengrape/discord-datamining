@@ -1,5 +1,5 @@
 {
-    "build_hash": "23617321a6ce44d47e0abbd06cc448a2abcf09e7",
+    "build_hash": "49f818720983137edd4096d3636dbcef3b13f333",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,20 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-silp-cta-copy-tests",
+            "kind": "user",
+            "timestamp": "2026-09-23T02:02:45Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-23T01:41:54.576766+00:00"
+    "timestamp": "2026-09-23T02:02:56.649863+00:00"
 }
