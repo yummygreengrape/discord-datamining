@@ -1,157 +1,19 @@
 {
-    "build_hash": "92ccd420f9a69eb8bcfda42827fb2e552ce91ef6",
+    "build_hash": "5ac5cb2bfae957db9f2aeae58d4399f5aa0a3c2b",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "서버 관리 권한이 있는 사용자에게 Guild Space 경로를 허용합니다."
-                    }
-                ],
-                "detailed_summary": "해당 서버가 비교안에 포함되면 서버 관리 권한이 있는 사용자는 Guild Space라는 별도 화면에 접근할 수 있습니다. 현재 클라이언트는 서버 채널 화면과 링크 이동 과정에서 비교안 포함 여부와 서버 관리 권한을 함께 확인합니다. 이번 주에는 서버 공간 자체와 위젯 카탈로그, 위젯 초기 데이터를 불러오는 API가 추가되어 이 화면이 별도 데이터 허브로 구체화됐습니다. 어떤 관리 기능과 위젯이 최종 배치되는지는 현재 코드만으로 모두 확인되지 않았습니다.",
-                "evidence": [
-                    "Current Canary module 470452 reads the guild experiment through getCurrentConfig/useExperiment and requires Manage Guild permission.",
-                    "Channel rendering and channel-link accessibility import the helper for the GUILD_SPACE route.",
-                    "A Server Hub string was added in the same extraction window.",
-                    "Current-window APIs add /guilds/:param/space plus widget catalog and hydrate routes."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "서버 관리 허브",
-                "generated_at": "2026-07-29T04:02:18Z",
-                "importance": "high",
-                "summary": "서버 관리 권한이 있는 사용자에게 Guild Space 또는 Server Hub 화면을 여는 서버 실험입니다.",
-                "why_it_matters": "서버 관리 도구나 새 서버 기능을 일반 채널과 분리된 허브에서 찾게 될 수 있어, 관리자의 이동 방식이 달라질 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "Allows the Guild Space route for users with server-management permission."
-                    }
-                ],
-                "detailed_summary": "When a server is included in the treatment, members with Manage Server permission can access a separate Guild Space screen. The current client checks both experiment membership and permission while rendering server channels and following Guild Space links. This week adds APIs for the space itself, its widget catalog, and widget hydration, making the screen more concrete as a separate data-backed hub. The final set of management tools and widgets placed there is not fully confirmed.",
-                "evidence": [
-                    "Current Canary module 470452 reads the guild experiment through getCurrentConfig/useExperiment and requires Manage Guild permission.",
-                    "Channel rendering and channel-link accessibility import the helper for the GUILD_SPACE route.",
-                    "A Server Hub string was added in the same extraction window.",
-                    "Current-window APIs add /guilds/:param/space plus widget catalog and hydrate routes."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Server management hub",
-                "generated_at": "2026-07-29T04:02:18Z",
-                "importance": "high",
-                "summary": "Opens a Guild Space or Server Hub surface for users with server-management permission.",
-                "why_it_matters": "Server tools and new guild features may move into a hub separate from ordinary channels, changing how administrators navigate the server."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "id": "2026-06_guild_spaces",
-            "kind": "guild",
-            "status": "deleted",
-            "timestamp": "2026-09-23T22:01:26Z",
-            "title": "Guild Space",
-            "treatments": [
-                "Control",
-                "Treatment 1: Enable Guild Space"
-            ]
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "id": "2026-06_guild_spaces",
-            "kind": "guild",
-            "timestamp": "2026-09-23T22:01:26Z",
-            "title": "Guild Space",
-            "treatments": [
-                "Control",
-                "Treatment 1: Enable Guild Space"
-            ]
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-guild-spaces",
-            "kind": "guild",
-            "status": "added",
-            "timestamp": "2026-09-23T22:01:26Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-guild-spaces",
-            "kind": "guild",
-            "timestamp": "2026-09-23T22:01:26Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/VAMco": "Won last week's gaming leaderboard with {count, plural, one {# unique game} other {# unique games}}.",
-                "BX+8uG": "Click to see more",
-                "GC7N5H": "Won last week's gaming leaderboard with {hours}h {minutes}m of total game time.",
-                "IXdbVJ": "Won last week's gaming leaderboard with {days, plural, one {# day} other {# days}} played.",
-                "npZ6IB": "View Leaderboard"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -161,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-23T22:09:50.151845+00:00"
+    "timestamp": "2026-09-23T22:20:36.093537+00:00"
 }
