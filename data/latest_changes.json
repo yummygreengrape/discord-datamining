@@ -1,5 +1,5 @@
 {
-    "build_hash": "34a2309e6cb411eaf5fa96b40d72bfbb6a788870",
+    "build_hash": "f1d2313b844c4be5dd798c21db618f580d5f2a4b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,12 +8,68 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-dismissible-content-server-arbitration",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-23T17:22:36Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-dismissible-content-server-arbitration",
+            "kind": "user",
+            "timestamp": "2026-09-23T17:22:36Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "eMhkxR": "Waiting for approval",
+                "gBJwjU": "We'll add your purchase to your account automatically once it's approved."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +79,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-23T17:21:41.634386+00:00"
+    "timestamp": "2026-09-23T17:32:26.517803+00:00"
 }
