@@ -1,5 +1,5 @@
 {
-    "build_hash": "015606f4167f3b38da13a6e78718de67b436d175",
+    "build_hash": "70b43e32d4fc4cde737aec33098e481bf26df07c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,72 +8,15 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-conversation-topic-header",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-09-23T06:12:45Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-conversation-topic-header",
-            "kind": "user",
-            "timestamp": "2026-09-23T06:12:45Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-silp-cta-copy-tests",
-            "kind": "user",
-            "timestamp": "2026-09-23T02:02:45Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ]
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "kHie4V": "Reload App"
+            "added": {},
+            "deleted": {
+                "qOoAsd": "Priority"
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -82,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-23T06:13:27.111806+00:00"
+    "timestamp": "2026-09-23T06:24:17.613558+00:00"
 }
