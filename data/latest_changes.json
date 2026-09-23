@@ -1,5 +1,5 @@
 {
-    "build_hash": "3404fd5f92c6a2e8cd6fad371ed0abbe64e65e4d",
+    "build_hash": "d45b7ffd65ae55cd0cdc1e81ec183ddac922ea47",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -18,23 +18,10 @@
             "modified": {}
         },
         "ko": {
-            "added": {
-                "Pla5Vk": "대상 아이템",
-                "vKA/P1": "혜택 잠금 해제",
-                "y3TqzT": "기타 옵션"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "qojQSe": {
-                    "new_value": "{hours}시간 남음",
-                    "old_value": "{hours}시간 남았어요"
-                },
-                "xF3JRh": {
-                    "new_value": "{days}일 남음",
-                    "old_value": "{days}일 남았어요"
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-09-23T03:36:06.534803+00:00"
+    "timestamp": "2026-09-23T04:17:36.944125+00:00"
 }
