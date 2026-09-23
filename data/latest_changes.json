@@ -1,5 +1,5 @@
 {
-    "build_hash": "79629d9eb495f22206382dd79a0932a4d61279b0",
+    "build_hash": "a8a285b634b54b7f5cc3059938fd8ae02fb8b4ae",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,9 +7,71 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_STOREFRONT_PROMOTIONS_CLAIM",
+            "status": "added",
+            "url": "/storefront/promotions/:param/claim"
+        },
+        {
+            "name": "STOREFRONT_PROMOTION_CLAIM",
+            "status": "added",
+            "url": "/storefront/promotions/:param/claim"
+        }
+    ],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-halloween-wishlisting-animation",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-halloween-wishlisting-animation",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +85,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-23T18:47:59.986165+00:00"
+    "timestamp": "2026-09-23T18:58:44.333936+00:00"
 }
