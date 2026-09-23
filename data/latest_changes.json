@@ -1,5 +1,5 @@
 {
-    "build_hash": "eff3c8b2a438ad0f75a098c4710cabff1318b4ae",
+    "build_hash": "8711232b578500c622783b4a962bc3c1392b2f39",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,22 +13,8 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "8drwHu": "App",
-                "FAz9Zy": "Settings tabs",
-                "Wzi4Jd": "Close Settings",
-                "aMTBSX": "Model",
-                "cWmjzs": "Settings",
-                "wo1EUp": "Project"
-            },
-            "deleted": {
-                "/F078G": "Settings ({count})",
-                "UYmwNU": "Close Project Settings",
-                "Z0KiSp": "App settings sections",
-                "gTMvzD": "App Settings",
-                "jczqxT": "Settings",
-                "vlIHBJ": "Secrets ({count})"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -37,93 +23,5 @@
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "Z0KiSp": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "같은 묶음은 앱에 설정이 아직 없는 empty state와, 몇 가지 설정을 먼저 골라야 한다는 required state를 구분합니다. Open settings는 해당 구성 화면으로 이동하는 동작이며, 저장하면 빠른 rebuild가 시작돼 변경이 반영된다고 안내합니다. 공개 문자열은 각 앱이 요구하는 실제 설정 항목까지는 보여 주지 않습니다.",
-                    "generated_at": "2026-08-22T00:17:34.955233Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "App Settings",
-                        "Settings needed",
-                        "Open settings",
-                        "Save settings",
-                        "app project",
-                        "rebuild"
-                    ],
-                    "search_intent": "Discord 앱에서 Settings needed가 왜 표시되는지, App Settings에서 무엇을 해야 앱이 동작하는지 확인하려는 검색입니다.",
-                    "source_context": "현재 Canary 앱 제작 locale 묶음에 Settings needed, 설정 선택 필요, App Settings, Open settings, 설정 없음, 저장 후 rebuild 안내가 함께 있습니다.",
-                    "summary": "Discord 앱 프로젝트가 동작하기 전에 필요한 설정을 열고 선택하도록 안내하는 App Settings 문구입니다.",
-                    "what_it_means": "해당 앱이 실행되기 전에 프로젝트별 설정값을 선택해야 하며, 설정이 없는 앱에서는 구성할 항목이 없다는 뜻입니다.",
-                    "what_to_do": "Open settings를 선택해 화면에서 필요한 것으로 표시된 항목을 설정하고 저장하세요. ‘설정이 아직 없음’이 표시되면 현재 구성할 항목이 없는 상태입니다.",
-                    "when_it_appears": "서버의 앱 프로젝트를 열거나 실행하려는데 필수 구성이 남아 있을 때, 또는 프로젝트의 App Settings 화면을 열 때 나타날 수 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "The group distinguishes an app with no settings from a required state that asks the user to choose a few settings first. Open settings leads to that configuration surface, and saving is described as starting a quick rebuild before changes land. The public strings do not expose the exact options required by each app.",
-                    "generated_at": "2026-08-22T00:17:34.955233Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "App Settings",
-                        "Settings needed",
-                        "Open settings",
-                        "Save settings",
-                        "app project",
-                        "rebuild"
-                    ],
-                    "search_intent": "A search to learn why Settings needed appears for a Discord app or what must be configured in App Settings before the app works.",
-                    "source_context": "The current Canary app-creation locale group combines Settings needed, required-choice copy, App Settings, Open settings, a no-settings state, and the save-triggered rebuild notice.",
-                    "summary": "App Settings copy that asks for project-specific configuration before a Discord app can run.",
-                    "what_it_means": "The app needs project-specific options selected before it can operate; an app with no settings has nothing to configure there.",
-                    "what_to_do": "Choose Open settings, complete the options marked as needed, and save them. If the app says it has no settings yet, there is currently nothing to configure on that surface.",
-                    "when_it_appears": "May appear when opening or running a server app project that still needs configuration, or while opening its App Settings surface."
-                }
-            },
-            "gTMvzD": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "같은 묶음은 앱에 설정이 아직 없는 empty state와, 몇 가지 설정을 먼저 골라야 한다는 required state를 구분합니다. Open settings는 해당 구성 화면으로 이동하는 동작이며, 저장하면 빠른 rebuild가 시작돼 변경이 반영된다고 안내합니다. 공개 문자열은 각 앱이 요구하는 실제 설정 항목까지는 보여 주지 않습니다.",
-                    "generated_at": "2026-08-22T00:17:34.955233Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "App Settings",
-                        "Settings needed",
-                        "Open settings",
-                        "Save settings",
-                        "app project",
-                        "rebuild"
-                    ],
-                    "search_intent": "Discord 앱에서 Settings needed가 왜 표시되는지, App Settings에서 무엇을 해야 앱이 동작하는지 확인하려는 검색입니다.",
-                    "source_context": "현재 Canary 앱 제작 locale 묶음에 Settings needed, 설정 선택 필요, App Settings, Open settings, 설정 없음, 저장 후 rebuild 안내가 함께 있습니다.",
-                    "summary": "Discord 앱 프로젝트가 동작하기 전에 필요한 설정을 열고 선택하도록 안내하는 App Settings 문구입니다.",
-                    "what_it_means": "해당 앱이 실행되기 전에 프로젝트별 설정값을 선택해야 하며, 설정이 없는 앱에서는 구성할 항목이 없다는 뜻입니다.",
-                    "what_to_do": "Open settings를 선택해 화면에서 필요한 것으로 표시된 항목을 설정하고 저장하세요. ‘설정이 아직 없음’이 표시되면 현재 구성할 항목이 없는 상태입니다.",
-                    "when_it_appears": "서버의 앱 프로젝트를 열거나 실행하려는데 필수 구성이 남아 있을 때, 또는 프로젝트의 App Settings 화면을 열 때 나타날 수 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "The group distinguishes an app with no settings from a required state that asks the user to choose a few settings first. Open settings leads to that configuration surface, and saving is described as starting a quick rebuild before changes land. The public strings do not expose the exact options required by each app.",
-                    "generated_at": "2026-08-22T00:17:34.955233Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "App Settings",
-                        "Settings needed",
-                        "Open settings",
-                        "Save settings",
-                        "app project",
-                        "rebuild"
-                    ],
-                    "search_intent": "A search to learn why Settings needed appears for a Discord app or what must be configured in App Settings before the app works.",
-                    "source_context": "The current Canary app-creation locale group combines Settings needed, required-choice copy, App Settings, Open settings, a no-settings state, and the save-triggered rebuild notice.",
-                    "summary": "App Settings copy that asks for project-specific configuration before a Discord app can run.",
-                    "what_it_means": "The app needs project-specific options selected before it can operate; an app with no settings has nothing to configure there.",
-                    "what_to_do": "Choose Open settings, complete the options marked as needed, and save them. If the app says it has no settings yet, there is currently nothing to configure on that surface.",
-                    "when_it_appears": "May appear when opening or running a server app project that still needs configuration, or while opening its App Settings surface."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-09-23T23:24:26.188442+00:00"
+    "timestamp": "2026-09-23T23:35:10.388643+00:00"
 }
