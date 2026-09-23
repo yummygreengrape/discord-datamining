@@ -1,5 +1,5 @@
 {
-    "build_hash": "d45b7ffd65ae55cd0cdc1e81ec183ddac922ea47",
+    "build_hash": "10904addd68e9682ca67ffc7ae774c2732e8550e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -20,8 +20,37 @@
         "ko": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "8e4LiB": {
+                    "new_value": "모두",
+                    "old_value": "모든 리뷰"
+                },
+                "MQGNsN": {
+                    "new_value": "최신",
+                    "old_value": "최신 리뷰"
+                },
+                "aWb+V4": {
+                    "new_value": "영어",
+                    "old_value": "영어 리뷰들"
+                },
+                "l+jt8J": {
+                    "new_value": "회원님은 청소년 연령대에 속하므로 메시지 요청을 끌 수 없습니다. 이 정보가 올바르지 않다고 생각하신다면 [성인 인증을 진행해 주세요]({handleOnConfirmAgeHook}).",
+                    "old_value": "회원님은 청소년 연령대에 속하므로 메시지 요청을 끌 수 없습니다. 이 정보가 올바르지 않다고 생각하신다면 [성인 인증을 진행해 주세요]({handleOnConfirmAgeHook})"
+                },
+                "qSkhZH": {
+                    "new_value": "연령대에 따라 성인을 위한 콘텐츠 및 설정에 대한 액세스 여부가 결정됩니다. 이를 제외한 다른 모든 Discord 환경은 동일하게 유지됩니다. 아래에서 회원님의 연령대를 확인하고 [블로그에서 더 알아보세요]({handleOnBlogHook}).",
+                    "old_value": "연령대에 따라 성인을 위한 콘텐츠 및 설정에 대한 액세스 여부가 결정됩니다. 이를 제외한 다른 모든 Discord 환경은 동일하게 유지됩니다. 아래에서 회원님의 연령대를 확인하고 [블로그에서 더 알아보세요]({handleOnBlogHook})"
+                },
+                "qbBkFI": {
+                    "new_value": "회원님은 청소년 연령대에 속하므로 일부 설정을 변경할 수 없습니다. 이 정보가 올바르지 않다고 생각하신다면 [성인 인증을 진행해 주세요]({handleOnConfirmAgeHook}).",
+                    "old_value": "회원님은 청소년 연령대에 속하므로 일부 설정을 변경할 수 없습니다. 이 정보가 올바르지 않다고 생각하신다면 [성인 인증을 진행해 주세요]({handleOnConfirmAgeHook})"
+                },
+                "vGxRDB": {
+                    "new_value": "연령대에 따라 성인을 위한 콘텐츠 및 설정에 대한 액세스 여부가 결정됩니다. 이를 제외한 다른 모든 Discord 환경은 동일하게 유지됩니다. 아래에서 회원님의 연령대를 확인하고 [블로그에서 더 알아보세요]({handleOnBlogHook}).",
+                    "old_value": "연령대에 따라 성인을 위한 콘텐츠 및 설정에 대한 액세스 여부가 결정됩니다. 이를 제외한 다른 모든 Discord 환경은 동일하게 유지됩니다. 아래에서 회원님의 연령대를 확인하고 [블로그에서 더 알아보세요]({handleOnBlogHook})"
+                }
+            }
         }
     },
-    "timestamp": "2026-09-23T04:17:36.944125+00:00"
+    "timestamp": "2026-09-23T05:30:52.298673+00:00"
 }
