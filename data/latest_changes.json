@@ -1,5 +1,5 @@
 {
-    "build_hash": "49f818720983137edd4096d3636dbcef3b13f333",
+    "build_hash": "3404fd5f92c6a2e8cd6fad371ed0abbe64e65e4d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,20 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-silp-cta-copy-tests",
-            "kind": "user",
-            "timestamp": "2026-09-23T02:02:45Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -31,10 +18,23 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "Pla5Vk": "대상 아이템",
+                "vKA/P1": "혜택 잠금 해제",
+                "y3TqzT": "기타 옵션"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "qojQSe": {
+                    "new_value": "{hours}시간 남음",
+                    "old_value": "{hours}시간 남았어요"
+                },
+                "xF3JRh": {
+                    "new_value": "{days}일 남음",
+                    "old_value": "{days}일 남았어요"
+                }
+            }
         }
     },
-    "timestamp": "2026-09-23T02:02:56.649863+00:00"
+    "timestamp": "2026-09-23T03:36:06.534803+00:00"
 }
