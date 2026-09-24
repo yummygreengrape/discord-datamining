@@ -1,72 +1,19 @@
 {
-    "build_hash": "a096f86708410b6fbf5d7d087a085f1908ce651f",
+    "build_hash": "33998e69398e2db43be98def1a8d7b775d9aadad",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-magic-scoring",
-            "kind": "user",
-            "timestamp": "2026-09-24T15:54:53Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-gsimagic2",
-            "kind": "user",
-            "timestamp": "2026-09-24T15:54:53Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-invite-expiring-soon",
-            "kind": "user",
-            "timestamp": "2026-09-24T17:25:48Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "51/RO8": "Attachment",
-                "7qUFc7": "Spoiler revealed",
-                "CuzcRY": "Assist",
-                "I2GETO": "Deleted",
-                "KIskmn": "Spoilers revealed",
-                "NEFeB0": "Death",
-                "QlN4tN": "Link",
-                "Sxxqdx": "The whiteboard is active.",
-                "TcGz5R": "Defeat",
-                "Y7CAoY": "Multikill",
-                "bgfExW": "Hashtag",
-                "bzNi8X": "Roshan Kill",
-                "e62g5R": "List item {index} of {size}",
-                "fcmI49": "{displayCount, select, 1 {$[{username}](usernameHook)} other {$[{username}](usernameHook), $[{username2}](username2Hook),}} and {additionalCount, plural, one {# user} other {# users}} are using the whiteboard.",
-                "fyRdwo": "Victory",
-                "gQErX1": "Kill",
-                "p+Bvxs": "Emoji",
-                "qvvMqu": "Reveal spoiler",
-                "zUiZPF": "{displayCount, select, 1 {[{username}]({usernameOnClick})} other {[{username}]({usernameOnClick}), [{username2}]({username2OnClick}),}} and {additionalCount, plural, one {# user} other {# users}} are using the whiteboard."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -76,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T17:42:16.247072+00:00"
+    "timestamp": "2026-09-24T17:53:02.335781+00:00"
 }
