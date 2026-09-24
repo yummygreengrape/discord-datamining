@@ -1,5 +1,5 @@
 {
-    "build_hash": "1eef0413c8bb0e638912660fa0fd72bf35086d7a",
+    "build_hash": "ad4e37d3eeaff7865a56eaed1b4c82b1dda76fba",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,53 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-gifting-badge-coachmark-audience",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-09-24T20:38:57Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-gifting-badge-coachmark-audience",
-            "kind": "user",
-            "timestamp": "2026-09-24T20:38:57Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -68,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T20:43:38.344556+00:00"
+    "timestamp": "2026-09-24T20:54:23.211630+00:00"
 }
