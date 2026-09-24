@@ -1,5 +1,5 @@
 {
-    "build_hash": "31efed46017c0fa5d6f300235dbb55fc483bed29",
+    "build_hash": "4703822becd1344413d8981cb1f63e7719fd1d98",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,11 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Sxxqdx": "The whiteboard is active.",
+                "fcmI49": "{displayCount, select, 1 {$[{username}](usernameHook)} other {$[{username}](usernameHook), $[{username2}](username2Hook),}} and {additionalCount, plural, one {# user} other {# users}} are using the whiteboard.",
+                "zUiZPF": "{displayCount, select, 1 {[{username}]({usernameOnClick})} other {[{username}]({usernameOnClick}), [{username2}]({username2OnClick}),}} and {additionalCount, plural, one {# user} other {# users}} are using the whiteboard."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T16:25:02.762053+00:00"
+    "timestamp": "2026-09-24T16:35:46.693211+00:00"
 }
