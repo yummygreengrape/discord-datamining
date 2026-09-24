@@ -1,5 +1,5 @@
 {
-    "build_hash": "e1c1e4c2313edd310b1475968200ff1d2685198e",
+    "build_hash": "a262d036aa051008e40b1b211d38c2bd75fae87f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "HL9CT6": "This one sat too long and expired. Remove it and attach it again."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T18:47:07.947738+00:00"
+    "timestamp": "2026-09-24T18:57:52.193014+00:00"
 }
