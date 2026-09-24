@@ -1,5 +1,5 @@
 {
-    "build_hash": "a37faf09d58e282088b7988d2b69f0565605905c",
+    "build_hash": "90c18f9e689c9351434d9e51006ba58180f6098f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,23 +9,17 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-new-horizontal-scroll-shared",
-            "kind": "user",
-            "timestamp": "2026-09-24T21:11:30Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "JO5lXN": "Open Voice && Video Settings",
+                "PhnOeM": "Check For Updates...",
+                "VuK9sC": "Quit {appName}",
+                "mpd5Bv": "Hi! Discord will run in the background to keep you in touch with your friends. You can right-click here to quit.",
+                "zjuWNH": "Open {appName}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -35,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T21:37:32.658605+00:00"
+    "timestamp": "2026-09-24T21:48:18.597580+00:00"
 }
