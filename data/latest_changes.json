@@ -1,8 +1,101 @@
 {
-    "build_hash": "23bf4657511bc4bade687b09f11ef6594f0aace2",
+    "build_hash": "9e6b1b494fcea85ed187fb7243a15fd6f476f087",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "useIndexPage",
+                        "note": "켜진 비교안에서는 컬렉션 상세 route를 사용할 수 있습니다."
+                    }
+                ],
+                "detailed_summary": "수집품 Shop route에서 컬렉션 상세 주소를 별도로 처리할지 결정합니다. 켜진 비교안에서는 컬렉션 id가 있는 주소를 컬렉션 상세 페이지로 열고, id가 없으면 Shop 기본 페이지로 돌립니다.",
+                "evidence": [
+                    "Canary module 50920 returns useIndexPage through useConfig.",
+                    "AppView reads the helper before registering COLLECTIBLES_SHOP_COLLECTION_DETAIL routes.",
+                    "The enabled route loads the collection detail component when collectionId is present."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Shop 컬렉션 상세 페이지",
+                "generated_at": "2026-06-28T00:13:23Z",
+                "importance": "medium",
+                "summary": "Shop에서 컬렉션별 상세 페이지 주소를 열 수 있게 하는 실험입니다.",
+                "why_it_matters": "사용자가 특정 컬렉션 링크를 받았을 때 바로 해당 컬렉션을 볼 수 있는지에 영향을 줍니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "useIndexPage",
+                        "note": "The enabled treatment allows the collection detail route."
+                    }
+                ],
+                "detailed_summary": "The Collectibles Shop route decides whether collection detail URLs should be handled separately. When enabled, a URL with a collection id opens that collection detail page; missing ids fall back to the Shop page.",
+                "evidence": [
+                    "Canary module 50920 returns useIndexPage through useConfig.",
+                    "AppView reads the helper before registering COLLECTIBLES_SHOP_COLLECTION_DETAIL routes.",
+                    "The enabled route loads the collection detail component when collectionId is present."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Shop collection detail pages",
+                "generated_at": "2026-06-28T00:13:23Z",
+                "importance": "medium",
+                "summary": "Enables collection-specific detail pages inside Shop.",
+                "why_it_matters": "This affects whether users can open a shared collection link directly into the right Shop collection."
+            },
+            "config_keys": [
+                "useIndexPage"
+            ],
+            "default_config": {
+                "useIndexPage": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-collectibles-collection-page",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-24T14:12:59Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "useIndexPage": false
+                },
+                "1": {
+                    "useIndexPage": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "useIndexPage"
+            ],
+            "default_config": {
+                "useIndexPage": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-collectibles-collection-page",
+            "kind": "user",
+            "timestamp": "2026-09-24T14:12:59Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "useIndexPage": false
+                },
+                "1": {
+                    "useIndexPage": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -23,5 +116,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T14:09:03.214874+00:00"
+    "timestamp": "2026-09-24T14:19:49.567133+00:00"
 }
