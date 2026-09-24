@@ -1,5 +1,5 @@
 {
-    "build_hash": "90c18f9e689c9351434d9e51006ba58180f6098f",
+    "build_hash": "d0492b199741d220ee092347f27a4e3cc27c7afb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,13 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "JO5lXN": "Open Voice && Video Settings",
-                "PhnOeM": "Check For Updates...",
-                "VuK9sC": "Quit {appName}",
-                "mpd5Bv": "Hi! Discord will run in the background to keep you in touch with your friends. You can right-click here to quit.",
-                "zjuWNH": "Open {appName}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -29,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T21:48:18.597580+00:00"
+    "timestamp": "2026-09-24T21:59:03.048013+00:00"
 }
