@@ -1,155 +1,19 @@
 {
-    "build_hash": "52a29dc7586a167dc75f3e328125fa7b280c9730",
+    "build_hash": "f1c63088212bb58883465ef03e2e8543b1b08e03",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enableSteamTimeline",
-                        "note": "Clip signal handler registration에서 steam-timeline application handler를 켭니다."
-                    }
-                ],
-                "detailed_summary": "게임 및 클립 관련 신호 처리에서 Steam timeline application handler를 등록할지 제어하는 실험입니다. Canary 청크의 Clip signal handler registration 위치에서 enableSteamTimeline이 true일 때 steam-timeline 핸들러를 import하도록 되어 있어, 사용자에게는 게임 활동 기반 추천이나 클립 관련 판단 품질 변화로 이어질 수 있습니다.",
-                "evidence": [
-                    "canary/web.c0ac8579b6abf687.js: enableSteamTimeline true일 때 steam-timeline handler import",
-                    "RUNNING_GAMES_CHANGE, CLIPS_SETTINGS_UPDATE, VOICE_STATE_UPDATES에서 handler 갱신"
-                ],
-                "evidence_level": "current_canary_usage",
-                "focus_area": "게임/클립 신호",
-                "generated_at": "2026-06-06T05:06:17.601Z",
-                "importance": "medium",
-                "summary": "게임 활동 스코어링에 Steam timeline 신호 핸들러를 포함할지 나누는 실험입니다.",
-                "why_it_matters": "Steam timeline을 별도 처리군으로 분리하면 Discord가 게임 활동 신호를 점수화에 넣었을 때 클립/활동 경험이 실제로 좋아지는지 측정할 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enableSteamTimeline",
-                        "note": "Enables the steam-timeline application handler in Clip signal handler registration."
-                    }
-                ],
-                "detailed_summary": "This experiment controls registration of a Steam timeline application signal handler for game and Clips-related processing. In the Canary chunk, enableSteamTimeline turns on the steam-timeline handler from the Clip signal handler registration path, so the likely user-facing effect is better game activity or Clips decisions rather than a standalone UI surface.",
-                "evidence": [
-                    "canary/web.c0ac8579b6abf687.js imports the steam-timeline handler when enableSteamTimeline is true",
-                    "The manager updates handlers on running game, Clips setting, and voice state changes"
-                ],
-                "evidence_level": "current_canary_usage",
-                "focus_area": "Game/clip signals",
-                "generated_at": "2026-06-06T05:06:17.601Z",
-                "importance": "medium",
-                "summary": "Tests whether Steam timeline signals are included in game activity scoring.",
-                "why_it_matters": "Separating Steam timeline input lets Discord measure whether that activity signal improves scoring quality for game and clip experiences."
-            },
-            "config_keys": [
-                "enableSteamTimeline"
-            ],
-            "default_config": {
-                "enableSteamTimeline": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-magic-scoring",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-24T15:54:53Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableSteamTimeline": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enableSteamTimeline"
-            ],
-            "default_config": {
-                "enableSteamTimeline": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-magic-scoring",
-            "kind": "user",
-            "timestamp": "2026-09-24T15:54:53Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableSteamTimeline": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enableDotaGsi"
-            ],
-            "default_config": {
-                "enableDotaGsi": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-gsimagic2",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-09-24T15:54:53Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableDotaGsi": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enableDotaGsi"
-            ],
-            "default_config": {
-                "enableDotaGsi": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-gsimagic2",
-            "kind": "user",
-            "timestamp": "2026-09-24T15:54:53Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enableDotaGsi": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "CuzcRY": "Assist",
-                "NEFeB0": "Death",
-                "TcGz5R": "Defeat",
-                "Y7CAoY": "Multikill",
-                "bzNi8X": "Roshan Kill",
-                "fyRdwo": "Victory",
-                "gQErX1": "Kill"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -159,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T16:03:29.644362+00:00"
+    "timestamp": "2026-09-24T16:14:16.096105+00:00"
 }
