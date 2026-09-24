@@ -1,5 +1,5 @@
 {
-    "build_hash": "01618dc98148b349385dd51d0ba515f1fbef9980",
+    "build_hash": "92d3227aa117be72564014f150e1f8f9b7af5c80",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,19 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-new-horizontal-scroll-shared",
-            "kind": "user",
-            "timestamp": "2026-09-24T21:11:30Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -35,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T21:15:50.438948+00:00"
+    "timestamp": "2026-09-24T21:26:39.252102+00:00"
 }
