@@ -1,45 +1,8 @@
 {
-    "build_hash": "078d3f7e72e7c15f764c91d2e38a0525d5df4874",
+    "build_hash": "d4a034a3662dcdc32865565931f19007400f7c5e",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "id": "2024-12_guild_voice_channel_ringing",
-            "kind": "guild",
-            "status": "deleted",
-            "timestamp": "2026-09-24T22:23:19Z",
-            "title": "Guild Voice Ringing",
-            "treatments": [
-                "Control",
-                "Treatment 1: Allow users to ring each other in Guild Voice Channels"
-            ]
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "id": "2024-12_guild_voice_channel_ringing",
-            "kind": "guild",
-            "timestamp": "2026-09-24T22:23:19Z",
-            "title": "Guild Voice Ringing",
-            "treatments": [
-                "Control",
-                "Treatment 1: Allow users to ring each other in Guild Voice Channels"
-            ]
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -50,9 +13,16 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "SNcPbe": "Your published app is still yours to play meanwhile."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "dIE9zO": {
+                    "new_value": "Conjuring is using this Frame right now, so your clicks are paused to keep them from colliding with its own.",
+                    "old_value": "Conjuring is controlling the app preview. Your clicks are paused."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -60,5 +30,49 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T22:31:16.182480+00:00"
+    "string_context": {
+        "en": {
+            "dIE9zO": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "Controlling…과 함께 사용자의 클릭이 paused 상태라고 명시되어 있어, Conjuring이 생성한 앱의 미리보기에서 자동 작업을 수행하는 동안 입력 충돌을 막는 상태로 확인됩니다. 앱이나 Discord 전체가 멈췄다는 오류 메시지는 아닙니다. 문구는 제어가 언제 끝나는지에 대한 별도 시간 제한을 제공하지 않습니다.",
+                    "generated_at": "2026-08-25T00:18:28.245368Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Controlling",
+                        "app preview",
+                        "clicks paused",
+                        "Conjuring",
+                        "preview",
+                        "current work"
+                    ],
+                    "search_intent": "Discord에서 ‘Conjuring is controlling the app preview. Your clicks are paused.’ 문구를 본 사용자가 이 기능이나 상태가 무엇이고 왜 표시됐는지 확인하려는 검색입니다.",
+                    "source_context": "현재 Canary Conjuring locale에서 Controlling…과 ‘Conjuring is controlling the app preview. Your clicks are paused.’가 같은 상태 묶음으로 확인됩니다.",
+                    "summary": "Conjuring이 앱 미리보기를 직접 조작하는 동안 사용자의 클릭을 잠시 멈추는 제어 상태입니다.",
+                    "what_it_means": "자동 미리보기 작업이 진행되는 동안 충돌을 피하려고 사용자의 미리보기 클릭만 일시 중지된다는 뜻입니다.",
+                    "when_it_appears": "Conjuring이 앱 프로젝트의 미리보기 안에서 자동으로 클릭하거나 동작을 확인하는 동안 나타납니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "Controlling… is paired with an explicit notice that the user's clicks are paused, confirming a state where Conjuring operates the generated app preview without competing input. It is not an error saying that the app or all of Discord has frozen. The copy does not provide a separate timeout for the control state.",
+                    "generated_at": "2026-08-25T00:18:28.245368Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Controlling",
+                        "app preview",
+                        "clicks paused",
+                        "Conjuring",
+                        "preview",
+                        "current work"
+                    ],
+                    "search_intent": "A visitor likely searched for “Conjuring is controlling the app preview. Your clicks are paused.” to identify the Discord feature or state and understand why it appeared.",
+                    "source_context": "The current Canary Conjuring locale pairs Controlling… with “Conjuring is controlling the app preview. Your clicks are paused.” in the same state group.",
+                    "summary": "A control state shown while Conjuring is operating the app preview and temporarily pauses the user's clicks.",
+                    "what_it_means": "Only the user's preview clicks are temporarily paused to avoid conflicting with the automated preview work.",
+                    "when_it_appears": "Appears while Conjuring is clicking through or checking behavior inside an app-project preview."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-09-24T22:42:00.771980+00:00"
 }
