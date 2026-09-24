@@ -1,101 +1,8 @@
 {
-    "build_hash": "9e6b1b494fcea85ed187fb7243a15fd6f476f087",
+    "build_hash": "55e051d864c9460082ebbef0773a6be06c323ca6",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "useIndexPage",
-                        "note": "켜진 비교안에서는 컬렉션 상세 route를 사용할 수 있습니다."
-                    }
-                ],
-                "detailed_summary": "수집품 Shop route에서 컬렉션 상세 주소를 별도로 처리할지 결정합니다. 켜진 비교안에서는 컬렉션 id가 있는 주소를 컬렉션 상세 페이지로 열고, id가 없으면 Shop 기본 페이지로 돌립니다.",
-                "evidence": [
-                    "Canary module 50920 returns useIndexPage through useConfig.",
-                    "AppView reads the helper before registering COLLECTIBLES_SHOP_COLLECTION_DETAIL routes.",
-                    "The enabled route loads the collection detail component when collectionId is present."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Shop 컬렉션 상세 페이지",
-                "generated_at": "2026-06-28T00:13:23Z",
-                "importance": "medium",
-                "summary": "Shop에서 컬렉션별 상세 페이지 주소를 열 수 있게 하는 실험입니다.",
-                "why_it_matters": "사용자가 특정 컬렉션 링크를 받았을 때 바로 해당 컬렉션을 볼 수 있는지에 영향을 줍니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "useIndexPage",
-                        "note": "The enabled treatment allows the collection detail route."
-                    }
-                ],
-                "detailed_summary": "The Collectibles Shop route decides whether collection detail URLs should be handled separately. When enabled, a URL with a collection id opens that collection detail page; missing ids fall back to the Shop page.",
-                "evidence": [
-                    "Canary module 50920 returns useIndexPage through useConfig.",
-                    "AppView reads the helper before registering COLLECTIBLES_SHOP_COLLECTION_DETAIL routes.",
-                    "The enabled route loads the collection detail component when collectionId is present."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Shop collection detail pages",
-                "generated_at": "2026-06-28T00:13:23Z",
-                "importance": "medium",
-                "summary": "Enables collection-specific detail pages inside Shop.",
-                "why_it_matters": "This affects whether users can open a shared collection link directly into the right Shop collection."
-            },
-            "config_keys": [
-                "useIndexPage"
-            ],
-            "default_config": {
-                "useIndexPage": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-collectibles-collection-page",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-24T14:12:59Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "useIndexPage": false
-                },
-                "1": {
-                    "useIndexPage": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "useIndexPage"
-            ],
-            "default_config": {
-                "useIndexPage": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-collectibles-collection-page",
-            "kind": "user",
-            "timestamp": "2026-09-24T14:12:59Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "useIndexPage": false
-                },
-                "1": {
-                    "useIndexPage": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -107,14 +14,67 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "/8znyU": "Send another gift to collect them all",
+                "WvAqZA": "You earned a free decoration",
+                "cMHedL": "{count, plural, one {You’ve collected the exclusive reward} other {You’ve collected all # exclusive rewards}}",
+                "ivpn6G": "Pick a free decoration to keep",
+                "zVGHbw": "Get a free decoration",
+                "zprqn1": "Get one with each gift purchase. Spread even more love to collect them all!"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "/8znyU": "선물을 더 보내서 모두 수집하세요",
+                "WvAqZA": "무료 장식을 받으셨어요",
+                "cMHedL": "한정 보상 {count}개를 수집했어요",
+                "ivpn6G": "소장할 무료 장식을 선택하세요",
+                "zVGHbw": "무료 장식 받기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T14:19:49.567133+00:00"
+    "string_context": {
+        "en": {
+            "zprqn1": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "영어 화면의 “one collectible per gift purchase” 문구는 선물 구매 한 번마다 수집형 보상 하나를 얻는다는 안내입니다. 같은 시기에 선물 구매와 무료 장식 수집을 연결하는 문구가 추가되었습니다.",
+                    "generated_at": "2026-09-24T00:12:12Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "선물 구매",
+                        "무료 장식",
+                        "수집",
+                        "선물 인벤토리"
+                    ],
+                    "search_intent": "Discord에서 “one collectible per gift purchase”를 보고 선물 구매 보상이 몇 개 지급되는지 확인하려는 검색입니다.",
+                    "source_context": "같은 시기에 선물 구매와 무료 장식 수집을 연결하는 문구가 추가되었습니다.",
+                    "summary": "영어 화면의 “one collectible per gift purchase” 문구는 선물 구매 한 번마다 수집형 보상 하나를 얻는다는 안내입니다.",
+                    "what_it_means": "“one collectible per gift purchase” 문구는 선물 구매 한 번마다 수집형 보상 하나를 얻는다는 안내입니다.",
+                    "when_it_appears": "영어 화면에서 “one collectible per gift purchase”와 관련된 상태를 확인할 때 보일 가능성이 있습니다. 선물 구매에 딸린 보상 안내에서 보일 가능성이 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "In the English UI, “one collectible per gift purchase” says each gift purchase grants one item in a collectible set. The same group connects gift purchases with collecting free decorations.",
+                    "generated_at": "2026-09-24T00:12:12Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "gift purchase",
+                        "free decoration",
+                        "collectibles",
+                        "Gift Inventory"
+                    ],
+                    "search_intent": "A search after seeing “one collectible per gift purchase” in the English UI on Discord to learn how many collectibles a gift purchase grants.",
+                    "source_context": "The same group connects gift purchases with collecting free decorations.",
+                    "summary": "In the English UI, “one collectible per gift purchase” says each gift purchase grants one item in a collectible set.",
+                    "what_it_means": "In the English UI, “one collectible per gift purchase” says each gift purchase grants one item in a collectible set.",
+                    "when_it_appears": "“one collectible per gift purchase” may appear in the English UI. It may appear with a gift-purchase reward offer."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-09-24T15:11:45.731853+00:00"
 }
