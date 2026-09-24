@@ -1,5 +1,5 @@
 {
-    "build_hash": "d229204f3e41e7152b80bf174f07d73b25c6974e",
+    "build_hash": "67a4d9c5acc608f5d4e75db2f8487ccdb8bbd716",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,27 +13,15 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "B5tZXw": "{orbAmount} Orbs redeemed all time"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "CuzcRY": "어시스트",
-                "I2GETO": "삭제됨",
-                "NEFeB0": "죽음",
-                "QlN4tN": "연결",
-                "TcGz5R": "패배",
-                "Y7CAoY": "멀티킬",
-                "fyRdwo": "승리",
-                "gQErX1": "킬",
-                "p+Bvxs": "이모지"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T23:14:20.766160+00:00"
+    "timestamp": "2026-09-24T23:25:06.081499+00:00"
 }
