@@ -1,5 +1,5 @@
 {
-    "build_hash": "0fe686cd15ffaa74ebabb2d6f49b112d0616b245",
+    "build_hash": "8bbf568ac7fa655f508317ad44f6848ea1ca8fc1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,33 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-web-sticker-picker-upsell-restyle",
-            "kind": "user",
-            "status": "added",
-            "treatments": [],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-web-sticker-picker-upsell-restyle",
-            "kind": "user",
-            "treatments": [],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -48,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T00:19:03.174509+00:00"
+    "timestamp": "2026-09-24T00:29:49.890494+00:00"
 }
