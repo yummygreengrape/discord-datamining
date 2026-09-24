@@ -1,5 +1,5 @@
 {
-    "build_hash": "2072b173508a3f0a2565ee3a636e028849f6c2b2",
+    "build_hash": "730c4e0498abd0a220e2f3d687c9aeaa784588cc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,12 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "SVhXLT": "Show tasks",
+                "fIBJas": "Hide tasks",
+                "gNnrNi": "{completed} of {total} done, {unfinished} unfinished",
+                "j9qAGu": "Checklist: {completed} of {total} done, {unfinished} unfinished"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T06:23:43.953173+00:00"
+    "timestamp": "2026-09-24T06:34:26.961404+00:00"
 }
