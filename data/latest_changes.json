@@ -1,5 +1,5 @@
 {
-    "build_hash": "8bbf568ac7fa655f508317ad44f6848ea1ca8fc1",
+    "build_hash": "efebae6c0cc20d405b286b840bb9a743f3a05b1a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,61 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-mobile-quest-home-sort-priority",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-24T00:32:04Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-mobile-quest-home-sort-priority",
+            "kind": "user",
+            "timestamp": "2026-09-24T00:32:04Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +76,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T00:29:49.890494+00:00"
+    "timestamp": "2026-09-24T00:40:35.289203+00:00"
 }
