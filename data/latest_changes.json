@@ -1,5 +1,5 @@
 {
-    "build_hash": "21a3fc5dad44d6edfa89ee1ca9fa1782c0170718",
+    "build_hash": "3cd397ad03c904e826e75dfcd39bb56a42e9135f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,17 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "51/RO8": "Attachment",
-                "7qUFc7": "Spoiler revealed",
-                "I2GETO": "Deleted",
-                "KIskmn": "Spoilers revealed",
-                "QlN4tN": "Link",
-                "bgfExW": "Hashtag",
-                "e62g5R": "List item {index} of {size}",
-                "p+Bvxs": "Emoji",
-                "qvvMqu": "Reveal spoiler"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -33,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-24T17:18:12.413871+00:00"
+    "timestamp": "2026-09-24T17:29:24.159642+00:00"
 }
