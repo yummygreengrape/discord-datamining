@@ -1,5 +1,5 @@
 {
-    "build_hash": "39cd22801c45e7e0eccb4a75a1a2ad808b0c9d8e",
+    "build_hash": "3abf31f28c21e6db98cceaf9001a9c1f18314157",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,28 +13,15 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/8znyU": "Send another gift to collect them all",
-                "3ihAAO": "{count, plural, one {You earned a free decoration} other {You earned free decorations}}",
-                "6w+Dyr": "This audio file could not be read. It may be corrupt or use an unsupported codec.",
-                "WvAqZA": "You earned a free decoration",
-                "cMHedL": "{count, plural, one {You’ve collected the exclusive reward} other {You’ve collected all # exclusive rewards}}",
-                "icF5bW": "{count, plural, one {Gift Nitro, pick a free decoration to keep.} other {Gift Nitro, pick # free decorations to keep.}}",
-                "ivpn6G": "Pick a free decoration to keep",
-                "zVGHbw": "Get a free decoration"
-            },
-            "deleted": {
-                "Xe0KGE": "By creating a server, you agree to Discord's [Community Guidelines]({guidelinesURL})."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "Xe0KGE": "서버를 만들면 Discord의 [커뮤니티 지침]({guidelinesURL})에 동의하게 됩니다."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-25T03:55:55.999020+00:00"
+    "timestamp": "2026-09-25T05:08:21.110000+00:00"
 }
