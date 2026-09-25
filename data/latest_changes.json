@@ -1,5 +1,5 @@
 {
-    "build_hash": "e280998d60b1678b115e30f643f70426b5a18adb",
+    "build_hash": "45ca78d668c894ae11114d67f05510889b8ab52c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,60 +8,12 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "extraChromeEnabled"
-            ],
-            "default_config": {
-                "extraChromeEnabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-game-search-row",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-09-25T21:59:14Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "extraChromeEnabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "extraChromeEnabled"
-            ],
-            "default_config": {
-                "extraChromeEnabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-game-search-row",
-            "kind": "user",
-            "timestamp": "2026-09-25T21:59:14Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "extraChromeEnabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0DvssQ": "Mobile",
-                "RT9Ccb": "Console"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -71,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-25T22:07:17.706094+00:00"
+    "timestamp": "2026-09-25T22:18:02.994255+00:00"
 }
