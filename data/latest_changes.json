@@ -1,15 +1,270 @@
 {
-    "build_hash": "91020dfe4c076d0e424d80563b0457cb395cdc17",
+    "build_hash": "b82b642a2905b1f717bcc6fed224bf928fc3b92a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "processPriority",
+                        "note": "기본 상태는 높음, 비교안은 보통 우선순위를 요청합니다."
+                    },
+                    {
+                        "key": "threadPriorityConfiguration",
+                        "note": "비교안마다 통화 작업 우선순위 조합이 다릅니다."
+                    }
+                ],
+                "detailed_summary": "기본 상태에서는 통화 처리 프로세스에 높은 우선순위를 요청합니다. 네 비교안은 프로세스 우선순위를 보통으로 낮추고, 내부 통화 작업의 우선순위 조합을 네 단계로 나눕니다. 현재 Canary가 음성·영상 통화 연결을 만들 때 이 설정을 직접 읽어 데스크톱 앱의 통화 처리에 적용하는 것이 확인됩니다. 화면에 표시되는 설정은 아니며, 실제 통화 안정성이나 다른 앱의 반응성 차이는 기기별 성능 측정이 필요합니다.",
+                "evidence": [
+                    "Current Canary reads the experiment at media_engine_connect before creating the desktop call process.",
+                    "The default uses HIGH process priority; variants use NORMAL with threadPriorityConfiguration values 0 through 3."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "음성·영상 통화 자원 우선순위",
+                "generated_at": "2026-09-05T04:19:24Z",
+                "importance": "low",
+                "summary": "음성·영상 통화가 시작될 때 Discord가 컴퓨터 자원을 우선 배정받는 방식을 비교하는 실험입니다.",
+                "why_it_matters": "통화 끊김을 줄이는 것과 다른 앱이 사용할 자원을 남기는 것 사이의 균형에 영향을 줄 수 있습니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "processPriority",
+                        "note": "The default requests high process priority; variants request normal priority."
+                    },
+                    {
+                        "key": "threadPriorityConfiguration",
+                        "note": "Each variant uses a different call-thread priority combination."
+                    }
+                ],
+                "detailed_summary": "The default requests high priority for the call-processing process. The four variants lower the process priority to normal and test four internal thread-priority combinations. Current Canary directly reads the setting while creating a voice or video connection in the desktop app. This has no visible control, and any effect on call stability or responsiveness of other apps would require device-level performance measurements.",
+                "evidence": [
+                    "Current Canary reads the experiment at media_engine_connect before creating the desktop call process.",
+                    "The default uses HIGH process priority; variants use NORMAL with threadPriorityConfiguration values 0 through 3."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Voice and video call resource priority",
+                "generated_at": "2026-09-05T04:19:24Z",
+                "importance": "low",
+                "summary": "Compares how much system scheduling priority Discord requests when a voice or video call starts.",
+                "why_it_matters": "It may affect the balance between keeping calls smooth and leaving processing time available for other applications."
+            },
+            "config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "default_config": {
+                "processPriority": "j.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-process-boost-on-voice",
+            "kind": "user",
+            "old_config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "old_default_config": {
+                "processPriority": "H.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "1": {
+                    "processPriority": "H.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "H.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "H.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "H.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "1": {
+                    "processPriority": "j.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "j.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "j.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "j.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "default_config": {
+                "processPriority": "j.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-process-boost-on-voice",
+            "kind": "user",
+            "old_config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "old_default_config": {
+                "processPriority": "H.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "1": {
+                    "processPriority": "H.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "H.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "H.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "H.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "1": {
+                    "processPriority": "j.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "j.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "j.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "j.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "mode"
+            ],
+            "default_config": {
+                "mode": "all"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-linux-gpu-decode",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-25T23:51:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "mode": "all"
+                },
+                "1": {
+                    "mode": "disable_nvidia"
+                },
+                "2": {
+                    "mode": "disable_all"
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "mode"
+            ],
+            "default_config": {
+                "mode": "all"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-linux-gpu-decode",
+            "kind": "user",
+            "timestamp": "2026-09-25T23:51:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "mode": "all"
+                },
+                "1": {
+                    "mode": "disable_nvidia"
+                },
+                "2": {
+                    "mode": "disable_all"
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -18,10 +273,13 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "0DvssQ": "모바일",
+                "RT9Ccb": "게임 콘솔"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-25T23:45:12.215499+00:00"
+    "timestamp": "2026-09-25T23:55:55.379490+00:00"
 }
