@@ -1,5 +1,5 @@
 {
-    "build_hash": "ea37baa9b0bd47547ceb5fd7cca526a3db9ae28f",
+    "build_hash": "41558585744df91681e14a47580d42f9336ef538",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -15,29 +15,16 @@
         "en": {
             "added": {},
             "deleted": {
-                "gNnrNi": "{completed} of {total} done, {unfinished} unfinished",
-                "j9qAGu": "Checklist: {completed} of {total} done, {unfinished} unfinished"
+                "09LJ+I": "A side quest while you wait?",
+                "egO5fO": "Not now"
             },
             "modified": {}
         },
         "ko": {
-            "added": {
-                "EdXn1A": "iOS 플랫폼에서는 App Store 방침상 연령 제한 서버를 볼 수 없어요. 성인이라면 데스크톱에서 서버에 참여하고 설정을 업데이트하여 iOS에서도 확인할 수 있어요. 더 자세한 내용은 고객센터에서 확인해주세요.",
-                "JqfHGt": "연령 제한 서버",
-                "wi6hPV": "고객센터 방문하기"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "E/oQYL": {
-                    "new_value": "Discord는 18세 미만의 사용자를 보호하기 위해 민감한 내용을 포함할 수 있는 미디어를 자동으로 감지하고 필터링해요. 잘못된 연령대에 포함되었다면, 나이를 다시 인증하거나 Discord에 문의해 주세요.",
-                    "old_value": "Discord는 18세 미만의 미성년자를 보호하기 위해 민감한 내용을 포함할 수 있는 콘텐츠를 자동으로 감지해 필터링해요. 자세한 내용은 고객센터에서 확인할 수 있어요."
-                },
-                "KEPOlE": {
-                    "new_value": "Discord는 18세 미만의 사용자를 보호하기 위해 민감한 내용을 포함할 수 있는 미디어를 자동으로 감지하고 필터링해요. 잘못된 연령대에 포함되었다면, 나이를 다시 인증하거나 Discord에 문의해 주세요.",
-                    "old_value": "Discord는 18세 미만의 사용자를 보호하기 위해 민감한 내용을 포함할 수 있는 미디어를 자동으로 감지하고 필터링해요. 잘못된 연령대에 포함되었다면, 나이를 다시 인증하거나 Discord에 문의해 주세요. 나이 인증에 관해 [자세히 알아보기]({handleOnHelpUrlHook})"
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-09-25T23:02:15.295162+00:00"
+    "timestamp": "2026-09-25T23:13:00.331164+00:00"
 }
