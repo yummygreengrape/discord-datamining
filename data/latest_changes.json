@@ -1,5 +1,5 @@
 {
-    "build_hash": "433e8c6b3a17d5206db58e411ac730b82be64d6b",
+    "build_hash": "4f6a4869b88490ed9237b871cf29d636fced50fa",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,57 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+aHNgn": "$[{username}](usernameHook) took 1st Place from $[{previousUsername}](previousUsernameHook) on the leaderboard with {value, plural, one {# game day} other {# game days}}.",
-                "/JyaTi": "$[{username}](usernameHook) won this week’s competition with {value, plural, one {# game day} other {# game days}}.",
-                "2IbyWO": "A new leaderboard begins! Who will be this week’s winner with the most game days? So far $[{username}](usernameHook) is in the lead.",
-                "5D7LjH": "$[{username}](usernameHook) won this week’s competition with {value, plural, one {# unique game played} other {# unique games played}}.",
-                "8MO3bp": "$[{username}](usernameHook) took 1st Place from $[{previousUsername}](previousUsernameHook) on the leaderboard with {gameTime} of game time.",
-                "CHYFwK": "$[{username}](usernameHook) took 1st Place from $[{previousUsername}](previousUsernameHook) on the leaderboard with {value, plural, one {# unique game played} other {# unique games played}}.",
-                "EdXn1A": "Age-restricted servers are blocked on the iOS platform per App Store guidelines. If you are an adult, you can join the server on desktop and update your settings to view this on iOS. Visit our Help Center to learn more.",
-                "JqfHGt": "Age-Restricted Server",
-                "O1h3uU": "See the leaderboard",
-                "PLdF3A": "A new leaderboard begins! Who will be this week’s winner with the most unique games played? So far [{username}]({usernameOnClick}) is in the lead.",
-                "T7CcFq": "A new leaderboard begins! Who will be this week’s winner with the most game time? So far [{username}]({usernameOnClick}) is in the lead.",
-                "Wwu6IA": "[{username}]({usernameOnClick}) won this week’s competition with {gameTime} of game time.",
-                "Y6K3qc": "A new leaderboard begins! Who will be this week’s winner with the most unique games played? So far $[{username}](usernameHook) is in the lead.",
-                "dX9B32": "[{username}]({usernameOnClick}) took 1st Place from [{previousUsername}]({previousUsernameOnClick}) on the leaderboard with {value, plural, one {# unique game played} other {# unique games played}}.",
-                "exTWBN": "[{username}]({usernameOnClick}) took 1st Place from [{previousUsername}]({previousUsernameOnClick}) on the leaderboard with {value, plural, one {# game day} other {# game days}}.",
-                "f6TxHV": "[{username}]({usernameOnClick}) won this week’s competition with {value, plural, one {# game day} other {# game days}}.",
-                "fVm1Zn": "[{username}]({usernameOnClick}) took 1st Place from [{previousUsername}]({previousUsernameOnClick}) on the leaderboard with {gameTime} of game time.",
-                "jUJ7IO": "A new leaderboard begins! Who will be this week’s winner with the most game days? So far [{username}]({usernameOnClick}) is in the lead.",
-                "mhO0Bz": "[{username}]({usernameOnClick}) won this week’s competition with {value, plural, one {# unique game played} other {# unique games played}}.",
-                "ptD18B": "A new leaderboard begins! Who will be this week’s winner with the most game time? So far $[{username}](usernameHook) is in the lead.",
-                "unVTUQ": "$[{username}](usernameHook) won this week’s competition with {gameTime} of game time.",
-                "wi6hPV": "Visit Our Help Center"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "E/oQYL": {
-                    "new_value": "We automatically detect and filter media that may be sensitive to help protect people on Discord who are under 18. If we put you in the wrong age group, you can update your age or contact us.",
-                    "old_value": "We automatically detect and filter some media that may be sensitive to help protect people on Discord who are under 18. You can learn more about this in our Help Center."
-                },
-                "KEPOlE": {
-                    "new_value": "We automatically detect and filter media that may be sensitive to help protect people on Discord who are under 18. If we put you in the wrong age group, you can update your age or contact us.",
-                    "old_value": "We automatically detect and filter media that may be sensitive to help protect people on Discord who are under 18. If we put you in the wrong age group, you can update your age or contact us. [Learn more]({handleOnHelpUrlHook}) about age verification"
-                },
-                "NQuXf0": {
-                    "new_value": "Age-restricted servers are blocked on the iOS platform per App Store guidelines. If you are an adult, you can join the server on desktop and update your settings to view this on iOS. [Visit our Help Center]({helpURL}) to learn more.",
-                    "old_value": "Age-restricted servers are blocked on the iOS platform per App Store guidelines. [Visit our Help Center]({helpURL}) to learn more."
-                },
-                "NSFW_GUILD_SIDEBAR_DESCRIPTION": {
-                    "new_value": "Age-restricted servers are blocked on the iOS platform per App Store guidelines. If you are an adult, you can join the server on desktop and update your settings to view this on iOS. [Visit our Help Center]({helpURL}) to learn more.",
-                    "old_value": "Age-restricted servers are blocked on the iOS platform per App Store guidelines. [Visit our Help Center]({helpURL}) to learn more."
-                },
-                "NSFW_GUILD_SIDEBAR_HEADER": {
-                    "new_value": "Age-Restricted Server",
-                    "old_value": "Age-restricted server"
-                },
-                "bAVpRR": {
-                    "new_value": "Age-Restricted Server",
-                    "old_value": "Age-restricted server"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -71,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-25T16:24:47.301935+00:00"
+    "timestamp": "2026-09-25T16:35:37.277296+00:00"
 }
