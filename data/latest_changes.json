@@ -1,5 +1,5 @@
 {
-    "build_hash": "852dc4f76ce731f9bd889fe8ce19f58dee5470a6",
+    "build_hash": "f310c462681ca030661c7c6d86a344fe3e1935e3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "DESIGN_SYSTEM_TAG_GROUP": "Design Systems (Tag Group)"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-25T19:29:14.117161+00:00"
+    "timestamp": "2026-09-25T19:40:06.390581+00:00"
 }
