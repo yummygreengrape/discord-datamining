@@ -1,5 +1,5 @@
 {
-    "build_hash": "01b17638ac9bb16df9b46ad2324a5bc4ce354aa9",
+    "build_hash": "a9e3004230b489943f1bff011955430fe0ea076f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,59 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "useDiscordVideoPlayer"
+            ],
+            "default_config": {
+                "useDiscordVideoPlayer": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-dvp-for-attachments",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "useDiscordVideoPlayer": false
+                },
+                "1": {
+                    "useDiscordVideoPlayer": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "useDiscordVideoPlayer"
+            ],
+            "default_config": {
+                "useDiscordVideoPlayer": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-dvp-for-attachments",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "useDiscordVideoPlayer": false
+                },
+                "1": {
+                    "useDiscordVideoPlayer": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +74,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-25T21:13:30.893300+00:00"
+    "timestamp": "2026-09-25T21:24:15.761916+00:00"
 }
