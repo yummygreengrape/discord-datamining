@@ -1,5 +1,5 @@
 {
-    "build_hash": "7724f9252e12ff2941ff37d16024613b18bbc285",
+    "build_hash": "ab4c443c6b2159c53cdffbc8dbe9f6b3e38a8c1a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,27 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+aHNgn": "usernameHookHook{username} took 1st Place from previousUsernameHookHook{previousUsername} on the leaderboard with {value}.",
+                "/JyaTi": "usernameHookHook{username} won this week’s competition with {value}.",
+                "2IbyWO": "A new leaderboard begins! Who will be this week’s winner with the most game days? So far usernameHookHook{username} is in the lead.",
+                "5D7LjH": "usernameHookHook{username} won this week’s competition with {value}.",
+                "8MO3bp": "usernameHookHook{username} took 1st Place from previousUsernameHookHook{previousUsername} on the leaderboard with {gameTime} of game time.",
+                "CHYFwK": "usernameHookHook{username} took 1st Place from previousUsernameHookHook{previousUsername} on the leaderboard with {value}.",
+                "O1h3uU": "See the leaderboard",
+                "PLdF3A": "A new leaderboard begins! Who will be this week’s winner with the most unique games played? So far [{username}]({usernameOnClick}) is in the lead.",
+                "T7CcFq": "A new leaderboard begins! Who will be this week’s winner with the most game time? So far [{username}]({usernameOnClick}) is in the lead.",
+                "Wwu6IA": "[{username}]({usernameOnClick}) won this week’s competition with {gameTime} of game time.",
+                "Y6K3qc": "A new leaderboard begins! Who will be this week’s winner with the most unique games played? So far usernameHookHook{username} is in the lead.",
+                "dX9B32": "[{username}]({usernameOnClick}) took 1st Place from [{previousUsername}]({previousUsernameOnClick}) on the leaderboard with {value}.",
+                "exTWBN": "[{username}]({usernameOnClick}) took 1st Place from [{previousUsername}]({previousUsernameOnClick}) on the leaderboard with {value}.",
+                "f6TxHV": "[{username}]({usernameOnClick}) won this week’s competition with {value}.",
+                "fVm1Zn": "[{username}]({usernameOnClick}) took 1st Place from [{previousUsername}]({previousUsernameOnClick}) on the leaderboard with {gameTime} of game time.",
+                "jUJ7IO": "A new leaderboard begins! Who will be this week’s winner with the most game days? So far [{username}]({usernameOnClick}) is in the lead.",
+                "mhO0Bz": "[{username}]({usernameOnClick}) won this week’s competition with {value}.",
+                "ptD18B": "A new leaderboard begins! Who will be this week’s winner with the most game time? So far usernameHookHook{username} is in the lead.",
+                "unVTUQ": "usernameHookHook{username} won this week’s competition with {gameTime} of game time."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +43,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-25T16:01:48.322129+00:00"
+    "timestamp": "2026-09-25T16:13:24.906163+00:00"
 }
