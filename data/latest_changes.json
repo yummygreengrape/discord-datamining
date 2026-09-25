@@ -1,5 +1,5 @@
 {
-    "build_hash": "3abf31f28c21e6db98cceaf9001a9c1f18314157",
+    "build_hash": "bd2074cd8c7ea37dd1af76c5db0374ae8175ed95",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,14 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/J6kmO": "Working for {minutes, plural, one {# minute} other {# minutes}}",
+                "9/TJIF": "{minutes}m {seconds}s",
+                "FqRCg2": "{seconds}s",
+                "RmLsRf": "Working for {hours, plural, one {# hour} other {# hours}} {minutes, plural, one {# minute} other {# minutes}}",
+                "gTzQ7A": "Working for less than a minute",
+                "ru1bG9": "{hours}h {minutes}m {seconds}s"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-25T05:08:21.110000+00:00"
+    "timestamp": "2026-09-25T06:00:01.784074+00:00"
 }
