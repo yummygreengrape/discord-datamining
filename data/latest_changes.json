@@ -1,5 +1,5 @@
 {
-    "build_hash": "41282a2795dca05e7a9219e998bfcba8cf77d12d",
+    "build_hash": "e280998d60b1678b115e30f643f70426b5a18adb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,25 +8,60 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [
+    "new_experiment_details": [
         {
+            "config_keys": [
+                "extraChromeEnabled"
+            ],
+            "default_config": {
+                "extraChromeEnabled": false
+            },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-09-silp-desktop-app-upsell",
+            "id": "2026-09-game-search-row",
             "kind": "user",
-            "timestamp": "2026-09-25T21:54:11Z",
+            "status": "added",
+            "timestamp": "2026-09-25T21:59:14Z",
             "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ]
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "extraChromeEnabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "extraChromeEnabled"
+            ],
+            "default_config": {
+                "extraChromeEnabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-game-search-row",
+            "kind": "user",
+            "timestamp": "2026-09-25T21:59:14Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "extraChromeEnabled": true
+                }
+            }
         }
     ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0DvssQ": "Mobile",
+                "RT9Ccb": "Console"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -36,5 +71,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-25T21:56:30.360738+00:00"
+    "timestamp": "2026-09-25T22:07:17.706094+00:00"
 }
