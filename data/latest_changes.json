@@ -1,8 +1,53 @@
 {
-    "build_hash": "bd2074cd8c7ea37dd1af76c5db0374ae8175ed95",
+    "build_hash": "251d51529655dd79777af53a41ac79c38fa903d6",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-friend-request-alerts-v2",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-25T09:29:16Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-10-friend-request-alerts-v2",
+            "kind": "user",
+            "timestamp": "2026-09-25T09:29:16Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,14 +58,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/J6kmO": "Working for {minutes, plural, one {# minute} other {# minutes}}",
-                "9/TJIF": "{minutes}m {seconds}s",
-                "FqRCg2": "{seconds}s",
-                "RmLsRf": "Working for {hours, plural, one {# hour} other {# hours}} {minutes, plural, one {# minute} other {# minutes}}",
-                "gTzQ7A": "Working for less than a minute",
-                "ru1bG9": "{hours}h {minutes}m {seconds}s"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -30,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-25T06:00:01.784074+00:00"
+    "timestamp": "2026-09-25T09:36:33.229675+00:00"
 }
