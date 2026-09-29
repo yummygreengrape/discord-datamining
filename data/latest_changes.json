@@ -1,5 +1,5 @@
 {
-    "build_hash": "bcea99e3fe3c005304467a92c245898bc8b6277d",
+    "build_hash": "efb2b50c23ea499efd58035a347502d9cbf7f3da",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,53 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-design-systems-notification-components",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-09-29T18:07:03Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-design-systems-notification-components",
-            "kind": "user",
-            "timestamp": "2026-09-29T18:07:03Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -86,15 +41,9 @@
     "string_changes": {
         "en": {
             "added": {
-                "1MXXPf": "Success",
-                "7vL/d/": "Warning",
-                "BReS7U": "Info",
-                "DISMISS_BUTTON_LABEL": "Dismiss",
-                "FEEDBACK_CRITICAL_ICON_A11Y_LABEL": "Error",
-                "FEEDBACK_INFO_ICON_A11Y_LABEL": "Info",
-                "FEEDBACK_POSITIVE_ICON_A11Y_LABEL": "Success",
-                "FEEDBACK_WARNING_ICON_A11Y_LABEL": "Warning",
-                "uKMqrF": "Error"
+                "8ALChp": "In voice",
+                "Fb6oNP": "{text} • {duration}",
+                "KddZZf": "Playing for {duration}"
             },
             "deleted": {},
             "modified": {}
@@ -105,5 +54,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T18:07:35.370424+00:00"
+    "timestamp": "2026-09-29T18:18:24.012173+00:00"
 }
