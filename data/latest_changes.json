@@ -1,5 +1,5 @@
 {
-    "build_hash": "b55d9e60439f964c92f0f860daa0f39d0f84f09f",
+    "build_hash": "a4d8cadac12d61c5e023319423257a083e296c74",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,14 +40,14 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "d3aX5b": "$[**{user}**](userHook) moved {count, plural, =1 {**a channel**} other {**# channels**}}",
+                "g+lLUV": "Move Role",
+                "hKfSwp": "Move Channel",
+                "jZeaoW": "$[**{user}**](userHook) moved {count, plural, =1 {**a role**} other {**# roles**}}"
+            },
             "deleted": {},
-            "modified": {
-                "3qelzD": {
-                    "new_value": "MCP",
-                    "old_value": "Conjuring MCP"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -55,51 +55,5 @@
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "3qelzD": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "현재 문자열 묶음은 외부 코딩 도구에 앱 링크를 추가하면 그 도구에서 프로젝트를 작업하고 Discord로 돌아와 미리보기와 게시를 할 수 있다고 설명합니다. 링크는 24시간 동안 유효하며, 새로고침하면 기존 링크가 중단되고 이미 연결한 도구에도 새 링크가 필요하다고 명시합니다. 최신 modified 행은 같은 두 라벨을 Build with your tools에서 Conjuring MCP로 바꿨으므로, 기능 제거가 아니라 표시 명칭 변경으로 확인됩니다.",
-                    "generated_at": "2026-08-22T00:17:34.955233Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Conjuring MCP",
-                        "app link",
-                        "external coding tool",
-                        "Refresh link",
-                        "24 hours",
-                        "Your Projects"
-                    ],
-                    "search_intent": "Discord의 Conjuring MCP가 무엇인지, 외부 코딩 도구에 어떤 링크를 넣는지, 링크가 만료되거나 새로고침된 뒤 어떻게 다시 연결하는지 확인하려는 검색입니다.",
-                    "source_context": "현재 Canary 앱 제작 locale 묶음에 Conjuring MCP, Your app’s link, 24시간 유효 안내, 링크 새로고침 경고, 외부 도구 작업·미리보기·게시 설명과 오류 상태가 함께 있습니다.",
-                    "summary": "Discord 앱 프로젝트를 외부 코딩 도구와 연결하는 임시 앱 링크와 ‘Conjuring MCP’ 영역의 문구입니다.",
-                    "what_it_means": "표시된 앱 링크를 지원되는 외부 코딩 도구에 연결해 같은 프로젝트를 그 도구에서도 작업할 수 있다는 뜻입니다. Conjuring MCP는 이 연결 영역의 새 표시 명칭입니다.",
-                    "what_to_do": "화면의 앱 링크를 사용하려는 코딩 도구에 추가하세요. 링크가 만료됐거나 교체가 필요할 때만 새로고침하고, 새로고침 후에는 기존 도구에도 새 링크를 다시 연결하세요. 생성 오류가 나오면 잠시 뒤 같은 화면에서 다시 시도할 수 있습니다.",
-                    "when_it_appears": "Discord의 앱 제작 프로젝트에서 외부 코딩 도구로 작업하기 위한 링크를 만들거나 새로고침하고, 연결·재시도 상태를 볼 때 나타날 수 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "The current string group says an app link can be added to an external coding tool so the project can be edited there and then previewed or shipped back in Discord. The link works for 24 hours, and refreshing it invalidates the current link and requires already connected tools to use the new one. The two latest modified rows rename Build with your tools to Conjuring MCP, which establishes a label change rather than removal of the workflow.",
-                    "generated_at": "2026-08-22T00:17:34.955233Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Conjuring MCP",
-                        "app link",
-                        "external coding tool",
-                        "Refresh link",
-                        "24 hours",
-                        "Your Projects"
-                    ],
-                    "search_intent": "A search to understand Conjuring MCP in Discord, where its app link is used, or how to reconnect after the link expires or is refreshed.",
-                    "source_context": "The current Canary app-creation locale group contains Conjuring MCP, Your app’s link, the 24-hour lifetime, refresh invalidation, external-tool editing and return-to-preview copy, and failure states together.",
-                    "summary": "Copy for the temporary app link and the renamed Conjuring MCP surface that connects a Discord app project to an external coding tool.",
-                    "what_it_means": "The displayed app link connects a supported external coding tool to the same project. Conjuring MCP is the new visible label for this connection surface.",
-                    "what_to_do": "Add the displayed app link to the coding tool you intend to use. Refresh only when the link expired or needs replacing, then reconnect existing tools with the new link. If link creation fails, retry from the same surface after a moment.",
-                    "when_it_appears": "May appear in a Discord app project while creating or refreshing a link for an external coding tool, including connection and retry states."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-09-29T06:06:21.769568+00:00"
+    "timestamp": "2026-09-29T06:37:38.033086+00:00"
 }
