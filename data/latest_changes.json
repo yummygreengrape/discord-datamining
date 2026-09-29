@@ -1,5 +1,5 @@
 {
-    "build_hash": "2f937f27bf9f7a22b2d367bc7d58e6a327435ab6",
+    "build_hash": "c62430bd58b051b9d2dc5374d8f6508fdeff99c6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,61 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-new-orb-reward-visuals",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-29T15:58:23Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-new-orb-reward-visuals",
+            "kind": "user",
+            "timestamp": "2026-09-29T15:58:23Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -50,5 +103,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T15:47:43.896872+00:00"
+    "timestamp": "2026-09-29T15:58:30.920745+00:00"
 }
