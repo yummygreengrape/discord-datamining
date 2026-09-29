@@ -1,5 +1,5 @@
 {
-    "build_hash": "40daac7afd0b5bcb57f7b988a39cfff372ebf9c6",
+    "build_hash": "20eb649622c8b9b49fce4d1c7798213905d8f0f3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,8 +40,14 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "FLbAwN": "to"
+            },
+            "deleted": {
+                "8njO1f": "Ready to publish",
+                "JH4Xt5": "Publishing to {server}",
+                "kV4lwa": "Publish your app"
+            },
             "modified": {}
         },
         "ko": {
@@ -50,5 +56,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T17:46:00.206163+00:00"
+    "timestamp": "2026-09-29T17:56:46.391886+00:00"
 }
