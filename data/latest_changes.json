@@ -1,5 +1,5 @@
 {
-    "build_hash": "aa264a149d444461154df6f2142270838dbad6e1",
+    "build_hash": "6d6093e50b01bcfe7a7503575e70008f828f2fd4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "3LJ1u9": "Activity Sharing",
+                "8y885d": "Share your activity in order to join the leaderboard.",
+                "PJn0ih": "Enable each setting to contribute to the leaderboard. These can be changed at any time in Settings.",
+                "fMbgeZ": "Share Activity",
+                "mTARYx": "Turn on personalization to join the leaderboard.",
+                "oHdW+u": "Unranked",
+                "toxuHd": "Play some games to join the leaderboard!"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +58,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T18:40:00.746993+00:00"
+    "timestamp": "2026-09-29T18:50:47.513457+00:00"
 }
