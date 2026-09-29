@@ -1,16 +1,15 @@
 {
-    "build_hash": "5205572ee265ab6f8c2534c123cda48627fb8b23",
+    "build_hash": "f78d31b3fec5c4abeda6687880065c983de44010",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [
         {
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-07-shop-this-look",
+            "id": "2025-11-hide-manual-link",
             "kind": "user",
-            "timestamp": "2026-09-29T22:09:09Z",
+            "timestamp": "2026-09-29T22:24:21Z",
             "treatments": [
-                "Variant 0",
                 "Variant 1"
             ]
         }
@@ -52,15 +51,29 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "6dmFs5": "While supplies last"
+            },
+            "deleted": {
+                "LZO+Hd": "Contact Us",
+                "N2mHaK": "with our Trust & Safety Team",
+                "o6QHZ/": "Request a manual review",
+                "pJAxgQ": "Want another method? [Request a manual review]({handleOnRequestHook})",
+                "ty+iWP": "Request a manual review"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "LZO+Hd": "문의처",
+                "N2mHaK": "Discord 보안팀과 함께",
+                "o6QHZ/": "수동 검토 요청",
+                "pJAxgQ": "다른 방법이 필요하신가요? [수동 검토를 요청해 주세요]({handleOnRequestHook})",
+                "ty+iWP": "수동 검토 요청"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T22:14:41.522633+00:00"
+    "timestamp": "2026-09-29T22:25:30.828586+00:00"
 }
