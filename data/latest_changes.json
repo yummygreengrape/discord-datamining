@@ -1,235 +1,157 @@
 {
-    "build_hash": "b82b642a2905b1f717bcc6fed224bf928fc3b92a",
-    "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "build_hash": "986cc31fb5332bd4ef1f026875054bd4f63b38cb",
+    "deleted_api_endpoints": [
+        {
+            "name": "COLLECTIBLES_CLAIM_CATEGORY_REWARD",
+            "status": "deleted",
+            "url": "/users/@me/claim-reward-category-product"
+        },
+        {
+            "name": "ENDPOINT_USERS_CLAIM_REWARD_CATEGORY_PRODUCT",
+            "status": "deleted",
+            "url": "/users/@me/claim-reward-category-product"
+        },
+        {
+            "name": "INTELLIGENCE_LAYER_SEARCH",
+            "status": "deleted",
+            "url": "/guilds/:param/intelligence/search"
+        }
+    ],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "mainWindowFPSLimit",
+                "overlayFPSLimit"
+            ],
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-overlay-fps-limit",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-26T00:08:42Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "1": {
+                    "overlayFPSLimit": 60
+                },
+                "2": {
+                    "overlayFPSLimit": 30
+                },
+                "3": {
+                    "mainWindowFPSLimit": 30,
+                    "overlayFPSLimit": 30
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "mainWindowFPSLimit",
+                "overlayFPSLimit"
+            ],
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-overlay-fps-limit",
+            "kind": "user",
+            "timestamp": "2026-09-26T00:08:42Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "1": {
+                    "overlayFPSLimit": 60
+                },
+                "2": {
+                    "overlayFPSLimit": 30
+                },
+                "3": {
+                    "mainWindowFPSLimit": 30,
+                    "overlayFPSLimit": 30
+                }
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "id": "2021-10_study_group",
+            "kind": "guild",
+            "timestamp": "2026-09-28T23:27:53Z",
+            "title": "Student hub study group",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enables study group sidebar"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
+    "modified_experiment_details": [],
+    "modified_experiments": [],
+    "new_api_endpoints": [
         {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "processPriority",
-                        "note": "기본 상태는 높음, 비교안은 보통 우선순위를 요청합니다."
-                    },
-                    {
-                        "key": "threadPriorityConfiguration",
-                        "note": "비교안마다 통화 작업 우선순위 조합이 다릅니다."
-                    }
-                ],
-                "detailed_summary": "기본 상태에서는 통화 처리 프로세스에 높은 우선순위를 요청합니다. 네 비교안은 프로세스 우선순위를 보통으로 낮추고, 내부 통화 작업의 우선순위 조합을 네 단계로 나눕니다. 현재 Canary가 음성·영상 통화 연결을 만들 때 이 설정을 직접 읽어 데스크톱 앱의 통화 처리에 적용하는 것이 확인됩니다. 화면에 표시되는 설정은 아니며, 실제 통화 안정성이나 다른 앱의 반응성 차이는 기기별 성능 측정이 필요합니다.",
-                "evidence": [
-                    "Current Canary reads the experiment at media_engine_connect before creating the desktop call process.",
-                    "The default uses HIGH process priority; variants use NORMAL with threadPriorityConfiguration values 0 through 3."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "음성·영상 통화 자원 우선순위",
-                "generated_at": "2026-09-05T04:19:24Z",
-                "importance": "low",
-                "summary": "음성·영상 통화가 시작될 때 Discord가 컴퓨터 자원을 우선 배정받는 방식을 비교하는 실험입니다.",
-                "why_it_matters": "통화 끊김을 줄이는 것과 다른 앱이 사용할 자원을 남기는 것 사이의 균형에 영향을 줄 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "processPriority",
-                        "note": "The default requests high process priority; variants request normal priority."
-                    },
-                    {
-                        "key": "threadPriorityConfiguration",
-                        "note": "Each variant uses a different call-thread priority combination."
-                    }
-                ],
-                "detailed_summary": "The default requests high priority for the call-processing process. The four variants lower the process priority to normal and test four internal thread-priority combinations. Current Canary directly reads the setting while creating a voice or video connection in the desktop app. This has no visible control, and any effect on call stability or responsiveness of other apps would require device-level performance measurements.",
-                "evidence": [
-                    "Current Canary reads the experiment at media_engine_connect before creating the desktop call process.",
-                    "The default uses HIGH process priority; variants use NORMAL with threadPriorityConfiguration values 0 through 3."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Voice and video call resource priority",
-                "generated_at": "2026-09-05T04:19:24Z",
-                "importance": "low",
-                "summary": "Compares how much system scheduling priority Discord requests when a voice or video call starts.",
-                "why_it_matters": "It may affect the balance between keeping calls smooth and leaving processing time available for other applications."
-            },
-            "config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "default_config": {
-                "processPriority": "j.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-02-process-boost-on-voice",
-            "kind": "user",
-            "old_config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "old_default_config": {
-                "processPriority": "H.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "1": {
-                    "processPriority": "H.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "H.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "H.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "H.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "1": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            }
+            "name": "ENDPOINT_GUILDS_INTELLIGENCE_SEARCH_SUGGESTIONS",
+            "status": "added",
+            "url": "/guilds/:param/intelligence/search/suggestions"
+        },
+        {
+            "name": "SMART_SEARCH",
+            "status": "added",
+            "url": "/guilds/:param/intelligence/search"
+        },
+        {
+            "name": "SUGGESTED_SEARCHES",
+            "status": "added",
+            "url": "/guilds/:param/intelligence/search/suggestions"
         }
     ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "default_config": {
-                "processPriority": "j.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-02-process-boost-on-voice",
-            "kind": "user",
-            "old_config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "old_default_config": {
-                "processPriority": "H.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "1": {
-                    "processPriority": "H.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "H.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "H.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "H.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "1": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            }
-        }
-    ],
-    "new_api_endpoints": [],
     "new_experiment_details": [
         {
             "config_keys": [
-                "mode"
+                "enabled"
             ],
             "default_config": {
-                "mode": "all"
+                "enabled": false
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-09-linux-gpu-decode",
+            "id": "2026-08-game-mode",
             "kind": "user",
             "status": "added",
-            "timestamp": "2026-09-25T23:51:31Z",
+            "timestamp": "2026-09-26T00:08:42Z",
             "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
+                "Variant 1"
             ],
             "variations": {
-                "0": {
-                    "mode": "all"
-                },
                 "1": {
-                    "mode": "disable_nvidia"
-                },
-                "2": {
-                    "mode": "disable_all"
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-multi-sku-embed-rendering",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-09-28T19:11:03Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
                 }
             }
         }
@@ -237,49 +159,665 @@
     "new_experiments": [
         {
             "config_keys": [
-                "mode"
+                "enabled"
             ],
             "default_config": {
-                "mode": "all"
+                "enabled": false
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-09-linux-gpu-decode",
+            "id": "2026-08-game-mode",
             "kind": "user",
-            "timestamp": "2026-09-25T23:51:31Z",
+            "timestamp": "2026-09-26T00:08:42Z",
             "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
+                "Variant 1"
             ],
             "variations": {
-                "0": {
-                    "mode": "all"
-                },
                 "1": {
-                    "mode": "disable_nvidia"
-                },
-                "2": {
-                    "mode": "disable_all"
+                    "enabled": true
                 }
             }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-multi-sku-embed-rendering",
+            "kind": "user",
+            "timestamp": "2026-09-28T19:11:03Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-application-test-mode-quick-access",
+            "kind": "user",
+            "timestamp": "2026-09-28T17:38:45Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-game-profiles-v3-commerce-tab",
+            "kind": "user",
+            "timestamp": "2026-09-28T18:20:19Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-server-onboarding-setup-progress",
+            "kind": "user",
+            "timestamp": "2026-09-29T00:28:29Z",
+            "treatments": [
+                "Variant 1"
+            ]
         }
     ],
-    "rollout_changes": [],
+    "rollout_changes": [
+        {
+            "change_id": "f295c0672413707ff0be2fedeffe118f",
+            "changed_at": "2026-09-29T00:43:06.127140+00:00",
+            "changes": [
+                {
+                    "after": 3,
+                    "before": 2,
+                    "type": "override_rules_changed"
+                }
+            ],
+            "id": "2026-04_server_theme",
+            "kind": "guild",
+            "labels": {
+                "0": "Control",
+                "1": "Treatment 1: Enable Server Theme",
+                "2": "Treatment 2: Rollback UI for Server Theme"
+            },
+            "limits": [
+                "guild_id_list"
+            ],
+            "revision": {
+                "after": 1,
+                "before": 1
+            },
+            "source": "discord"
+        }
+    ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "/sw6q+": "Not Now",
+                "0ySxbu": "Unfortunately, no results were found.",
+                "1JZfaU": "Unlock a {multiplier} times Orb bonus with Nitro",
+                "1LEnd8": "If you aren’t sure what to do, just ask me!",
+                "22g6Ju": "Thoroughly searching...",
+                "2HalWx": "Stop",
+                "5U1fkv": "Live · up to date",
+                "6Ea4dF": "Reading back the runes…",
+                "7ACDrq": "Try this look",
+                "7U6tIB": "You’re back in control",
+                "8njO1f": "Ready to publish",
+                "8oUm/J": "Leafing back through the grimoire…",
+                "AgMngw": "Orbs balance: {balance} orbs, new Orb challenge updates",
+                "BceUWe": "Open DM",
+                "D7+kY/": "Check It Out",
+                "DwBO0x": "Reduce Discord’s CPU and GPU usage while a game is running.",
+                "EwXXks": "Deleting…",
+                "FKLBbW": "Show less",
+                "HJcyIC": "Save resources while gaming?",
+                "HX/WYf": "We searched far and wide.",
+                "IogGZY": "Conducting a thorough search...",
+                "JH4Xt5": "Publishing to {server}",
+                "M3cBMT": "I updated your live rule [{name}]({onOpen}).",
+                "M4qsJL": "Display Name Style",
+                "Nfs5wk": "Open #{channel}",
+                "NldIIG": "Your controls are paused.",
+                "NuTbB9": "Show more",
+                "O4r42+": "Drop images or files here to bring them along with your next message.",
+                "PEFk1b": "Turn on Game Mode to reduce Discord’s CPU and GPU usage while you play. Calls keep working. You can change this anytime in Settings.",
+                "QG0axY": "Game Mode",
+                "QIdSmb": "from messages",
+                "QexSCe": "Devtools",
+                "Qn0VCU": "Update rule",
+                "S+XFJ2": "Update widget",
+                "SDP0vo": "Could not enable test mode for this application.",
+                "Sb2fo2": "Searching very hard...",
+                "TwgkQe": "Made by {creator}",
+                "UEnMJF": "Wow, what a search...",
+                "UVa49v": "Great question apparently, still searching...",
+                "UazRD1": "Add to your message",
+                "VGcdxP": "This is temporarily off while Game Mode is active.",
+                "XKj5L9": "Orb Wallet",
+                "ajHWbZ": "You can now try on any display name style that catches your eye.",
+                "bzswFC": "Players also answered",
+                "c4LI5t": "Launch",
+                "eSDVDt": "Restore this version",
+                "fQx5qC": "Relighting the candles…",
+                "ffCCEe": "Searching hard...",
+                "gSpqdm": "I updated your live widget [{name}]({onOpen}).",
+                "gYzaCr": "$[](displayNameHook)'s style suits you well!",
+                "ga8too": "Conjure it!",
+                "hG0Y0+": "Approve",
+                "j8541Y": "View AutoMod settings",
+                "jnwfvk": "Go to {server}",
+                "jt5JBA": "Select all that apply",
+                "kV4lwa": "Publish your app",
+                "khdMoL": "Earlier version",
+                "kk7BVL": "Searching is happening...",
+                "kocF+6": "In Game Items",
+                "krnkPq": "Finding our page in the spellbook…",
+                "ncJb2S": "I updated your live bot [{name}]({onOpen}).",
+                "o046LG": "Update bot",
+                "oAYuZw": "Try this name style",
+                "ogEl54": "[{name}]({onOpen}) is live.",
+                "p9PPYD": "{multiplier} times Orb bonus with Nitro",
+                "phXeK/": "Dusting off the incantations…",
+                "rXNe0Z": "Never searched more...",
+                "rea2Ar": "Enable Game Mode",
+                "s4oxNv": "I couldn’t recall our conversation just now. It’s still saved; check back in a moment.",
+                "sKNh1M": "Keys needed from you",
+                "tg9fgb": "I updated your live app [{name}]({onOpen}).",
+                "tgtTuF": "Authorization header",
+                "wK3FYl": "View profile",
+                "x71ku3": "Needs Manage Server in {server}",
+                "yZ9HPM": "Made by {creator} · with {collaborators}",
+                "ydAwWi": "TL;DR",
+                "ydhvN1": "Testing the app",
+                "zFcLHP": "Review permissions"
+            },
+            "deleted": {
+                "0Vo35I": "We searched far and wide.",
+                "0YpIF/": "Try claiming this item again later while we resolve this issue.",
+                "0mDmg/": "Exclusive Gift",
+                "5OQUzL": "Searching is happening...",
+                "5TwASM": "{collectedCount}/{totalCount} collected",
+                "5iHZLk": "Iterations per session",
+                "6L9Vwt": "That didn’t quite come together.",
+                "8aMDPc": "Buy all {totalCount} items in this collection to earn an exclusive gift.",
+                "9G3ZmA": "Gathering the pieces…",
+                "CM07jO": "Searching hard...",
+                "Cy8fRZ": "TL;DR",
+                "EAdD4b": "Tested the app for {count, plural, one {# second} other {# seconds}}",
+                "G9wVrJ": "Searching very hard...",
+                "GYoWRk": "Conjure it",
+                "H6umN6": "Ok, sounds good",
+                "LCtCSE": "Great question apparently, still searching...",
+                "MsXuP8": "Published {projectName} to this server. Everyone can access it now! [{link}]({onNavigate})",
+                "OLD0mz": "Show more",
+                "PDPJ33": "from messages",
+                "RJyNW8": "Thoroughly searching...",
+                "SNcPbe": "Your published app is still yours to play meanwhile.",
+                "SRTlyA": "Uh oh! Something went wrong.",
+                "U7cMqS": "Players also answered",
+                "VZuRug": "Gathering ingredients…",
+                "VnVTNc": "Claim Gift",
+                "Yvyw1H": "Packing it up…",
+                "abPI+A": "Testing the app",
+                "bsB1as": "Conducting a thorough search...",
+                "cIp+Jf": "Tested the app",
+                "cKH3tk": "Congrats! You’ve unlocked an exclusive gift.",
+                "dK6oyH": "Congrats! You’ve unlocked the {productName}",
+                "h1N2Xd": "Tested the app for {count, plural, one {# minute} other {# minutes}}",
+                "hOcVAj": "It’s real.",
+                "nE828Q": "Never searched more...",
+                "nP2LB6": "Tested the app for {hours, plural, one {# hour} other {# hours}} {minutes, plural, one {# minute} other {# minutes}}",
+                "nQrJzz": "Wow, what a search...",
+                "njrqqv": "Unfortunately, no results were found.",
+                "orD+xo": "Waiting on you to let it in…",
+                "rEQlMx": "Binding it all together…",
+                "rykAJ9": "Unlock Me",
+                "s+ylXP": "Conjuring it into being…",
+                "sz8yAj": "Making sure it holds together…",
+                "wA0o0L": "Published! Your app is live.",
+                "wcXX8Z": "Getting your frame ready…",
+                "x+sqTG": "Everything holds."
+            },
+            "modified": {
+                "1Ew5/j": {
+                    "new_value": "Prefer to build in your own coding tool? Add this link and header to it and you can work on this app from there, then preview and ship it right back here.",
+                    "old_value": "Prefer to build in your own coding tool? Add this link to it and you can work on this app from there, then preview and ship it right back here."
+                },
+                "gVV+HX": {
+                    "new_value": "Press here to add securely",
+                    "old_value": "Add them securely"
+                },
+                "jKNAzJ": {
+                    "new_value": "Refresh header?",
+                    "old_value": "Refresh link?"
+                },
+                "lTtxBT": {
+                    "new_value": "This header works for 24 hours. Refresh it whenever you need a new one.",
+                    "old_value": "This link works for 24 hours. Refresh it whenever you need a new one."
+                },
+                "oWzC0r": {
+                    "new_value": "Your current header stops working. Any tool you’ve already connected will need the new one.",
+                    "old_value": "Your current link stops working. Any tool you’ve already connected will need the new one."
+                },
+                "p0Ay4J": {
+                    "new_value": "Stored privately for this app. Never shown in chat or to me.",
+                    "old_value": "These go straight into a locked vault. They never appear in the chat, and I never see them."
+                }
+            }
         },
         "ko": {
-            "added": {
-                "0DvssQ": "모바일",
-                "RT9Ccb": "게임 콘솔"
+            "added": {},
+            "deleted": {
+                "0YpIF/": "문제를 해결하는 동안 나중에 이 아이템을 다시 받아 보세요.",
+                "0mDmg/": "독점 선물",
+                "5TwASM": "{collectedCount}/{totalCount} 수집 완료",
+                "8aMDPc": "이 컬렉션의 {totalCount}개 아이템을 모두 구매하면 독점 선물을 받을 수 있어요.",
+                "H6umN6": "좋아요",
+                "SRTlyA": "이런! 뭔가 문제가 발생했어요.",
+                "VnVTNc": "선물 받기",
+                "cKH3tk": "축하해요! 특별한 선물을 잠금 해제했어요.",
+                "dK6oyH": "{productName} 잠금 해제 완료! 축하드려요!",
+                "rykAJ9": "잠금 해제하기"
             },
-            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-25T23:55:55.379490+00:00"
+    "string_context": {
+        "en": {
+            "1Ew5/j": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "현재 문자열 묶음은 외부 코딩 도구에 앱 링크를 추가하면 그 도구에서 프로젝트를 작업하고 Discord로 돌아와 미리보기와 게시를 할 수 있다고 설명합니다. 링크는 24시간 동안 유효하며, 새로고침하면 기존 링크가 중단되고 이미 연결한 도구에도 새 링크가 필요하다고 명시합니다. 최신 modified 행은 같은 두 라벨을 Build with your tools에서 Conjuring MCP로 바꿨으므로, 기능 제거가 아니라 표시 명칭 변경으로 확인됩니다.",
+                    "generated_at": "2026-08-22T00:17:34.955233Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjuring MCP",
+                        "app link",
+                        "external coding tool",
+                        "Refresh link",
+                        "24 hours",
+                        "Your Projects"
+                    ],
+                    "search_intent": "Discord의 Conjuring MCP가 무엇인지, 외부 코딩 도구에 어떤 링크를 넣는지, 링크가 만료되거나 새로고침된 뒤 어떻게 다시 연결하는지 확인하려는 검색입니다.",
+                    "source_context": "현재 Canary 앱 제작 locale 묶음에 Conjuring MCP, Your app’s link, 24시간 유효 안내, 링크 새로고침 경고, 외부 도구 작업·미리보기·게시 설명과 오류 상태가 함께 있습니다.",
+                    "summary": "Discord 앱 프로젝트를 외부 코딩 도구와 연결하는 임시 앱 링크와 ‘Conjuring MCP’ 영역의 문구입니다.",
+                    "what_it_means": "표시된 앱 링크를 지원되는 외부 코딩 도구에 연결해 같은 프로젝트를 그 도구에서도 작업할 수 있다는 뜻입니다. Conjuring MCP는 이 연결 영역의 새 표시 명칭입니다.",
+                    "what_to_do": "화면의 앱 링크를 사용하려는 코딩 도구에 추가하세요. 링크가 만료됐거나 교체가 필요할 때만 새로고침하고, 새로고침 후에는 기존 도구에도 새 링크를 다시 연결하세요. 생성 오류가 나오면 잠시 뒤 같은 화면에서 다시 시도할 수 있습니다.",
+                    "when_it_appears": "Discord의 앱 제작 프로젝트에서 외부 코딩 도구로 작업하기 위한 링크를 만들거나 새로고침하고, 연결·재시도 상태를 볼 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The current string group says an app link can be added to an external coding tool so the project can be edited there and then previewed or shipped back in Discord. The link works for 24 hours, and refreshing it invalidates the current link and requires already connected tools to use the new one. The two latest modified rows rename Build with your tools to Conjuring MCP, which establishes a label change rather than removal of the workflow.",
+                    "generated_at": "2026-08-22T00:17:34.955233Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjuring MCP",
+                        "app link",
+                        "external coding tool",
+                        "Refresh link",
+                        "24 hours",
+                        "Your Projects"
+                    ],
+                    "search_intent": "A search to understand Conjuring MCP in Discord, where its app link is used, or how to reconnect after the link expires or is refreshed.",
+                    "source_context": "The current Canary app-creation locale group contains Conjuring MCP, Your app’s link, the 24-hour lifetime, refresh invalidation, external-tool editing and return-to-preview copy, and failure states together.",
+                    "summary": "Copy for the temporary app link and the renamed Conjuring MCP surface that connects a Discord app project to an external coding tool.",
+                    "what_it_means": "The displayed app link connects a supported external coding tool to the same project. Conjuring MCP is the new visible label for this connection surface.",
+                    "what_to_do": "Add the displayed app link to the coding tool you intend to use. Refresh only when the link expired or needs replacing, then reconnect existing tools with the new link. If link creation fails, retry from the same surface after a moment.",
+                    "when_it_appears": "May appear in a Discord app project while creating or refreshing a link for an external coding tool, including connection and retry states."
+                }
+            },
+            "6L9Vwt": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "이 문자열들은 기존 Vibegrations 앱 빌더의 Creations·Build 중심 표현이 Conjurings·Conjure it 중심으로 바뀐 같은 묶음에 있습니다. 오류는 빈 계획, 연결 재시도, 불러오지 못한 프로젝트, 열리지 않는 미리보기, 실패한 빌드와 게시를 구분합니다. 장식적인 표현이 사용돼도 일반 Discord 메시지 오류가 아니라 서버 앱 제작 흐름의 상태입니다.",
+                    "generated_at": "2026-08-01T09:12:57.625Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Your Conjurings",
+                        "Conjure it",
+                        "preview wouldn't load",
+                        "Couldn't ship it",
+                        "reconnecting",
+                        "project unavailable"
+                    ],
+                    "search_intent": "Discord에서 ‘That didn’t quite come together.’ 문구가 어느 화면에서 왜 나타났는지, 무엇을 의미하고 필요한 조치가 있는지 확인하려는 검색입니다.",
+                    "source_context": "현재 `2026-07-vibegrations-guild` 소비자와 최신 리포트는 Manage Channels·Manage Guild 조건의 앱 빌더가 Conjuring 용어로 바뀌었고 동일 창에 구체적 오류 상태가 추가됐음을 확인합니다.",
+                    "summary": "Discord의 Conjuring 앱 제작 흐름에서 계획·연결·미리보기·빌드·게시가 완료되지 않았음을 알리는 오류 문구입니다.",
+                    "what_it_means": "현재 제작 단계가 끝나지 않았거나 프로젝트 접근·연결·미리보기·빌드·게시 중 하나가 실패했다는 뜻이며, 각 문구가 실패 지점을 구분합니다.",
+                    "what_to_do": "문구가 다시 요청하라고 하면 아이디어를 다시 보내고, 재연결 중이면 연결이 돌아올 때까지 기다리세요. 미리보기나 게시 실패는 화면이 제시한 위치에서 다시 시도하고, 프로젝트가 더 이상 내 것이 아니라는 문구는 현재 계정과 서버에서 접근 가능한 프로젝트인지 확인하세요.",
+                    "when_it_appears": "권한이 허용된 서버의 Conjuring 제작 화면에서 아이디어를 계획하거나 앱을 빌드·미리보기·게시하는 과정이 실패하거나 연결이 끊겼을 때 나타납니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "These strings belong to the same change set that renames the Vibegrations builder from Creations and Build language to Conjurings and Conjure it. The errors distinguish an empty plan, reconnecting state, unavailable project, preview failure, build failure, and publish failure. Despite the fantasy-styled wording, they describe concrete server-app creation states rather than general Discord errors.",
+                    "generated_at": "2026-08-01T09:12:57.625Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Your Conjurings",
+                        "Conjure it",
+                        "preview wouldn't load",
+                        "Couldn't ship it",
+                        "reconnecting",
+                        "project unavailable"
+                    ],
+                    "search_intent": "A visitor likely searched for “That didn’t quite come together.” to learn where it appears in Discord, what it means, and whether any action is needed.",
+                    "source_context": "The current `2026-07-vibegrations-guild` consumer and latest report confirm a Manage Channels and Manage Guild gated builder whose visible terminology changed to Conjuring alongside these specific error states.",
+                    "summary": "Error copy for unfinished planning, connection, preview, build, or publish steps in Discord's Conjuring app-builder flow.",
+                    "what_it_means": "The current creation step did not finish, and the specific message identifies whether the failure concerns planning, access, connection, preview, build, or publishing.",
+                    "what_to_do": "If the message asks for another prompt, send the idea again; if it says Discord is reconnecting, wait for the connection to return. Retry preview or publishing from the location named by the UI, and for unavailable-project copy, confirm that the current account and server still have access to that project.",
+                    "when_it_appears": "It appears in the permission-gated Conjuring builder when planning, opening, previewing, building, or publishing an app does not complete normally."
+                }
+            },
+            "GYoWRk": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "현재 기록의 ‘Build it’ 표현을 기준으로 기존 근거를 다시 적용했습니다. Your Vibegrations, New vibegration, Describe the app you want to build, Planning your app, Build complete가 하나의 프로젝트 흐름을 이룹니다. 현재 클라이언트에는 Vibegrations 프로젝트 조회·게시 API와 `conjuring` 길드 경로가 있고, `2026-07-vibegrations-guild` 실험이 기능 노출을 제어합니다. 따라서 일반 앱 설정이 아니라 제한적으로 시험 중인 서버 앱 제작 도구로 해석하는 것이 맞습니다.",
+                    "generated_at": "2026-09-15T00:13:09Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Vibegrations",
+                        "Good Vibegrations",
+                        "Build it",
+                        "Discord Activity",
+                        "app builder",
+                        "conjuring",
+                        "guild experiment"
+                    ],
+                    "search_intent": "Discord에서 ‘Build it’가 왜 표시됐는지와 이 문구가 가리키는 기능 상태를 확인하려는 검색입니다. 사용자는 Discord에서 Good Vibegrations 또는 Vibegration이 무엇인지, 왜 서버에 새 빌더가 보이는지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "현재 클라이언트에 Vibegrations 프로젝트·게시 API, `conjuring` 길드 경로, `2026-07-vibegrations-guild` 실험이 함께 있고 같은 시점에 97개 빌더 문자열이 추가됐습니다.",
+                    "summary": "‘Build it’는 Discord의 기능·설정 설명 문구입니다. Vibegrations는 Discord 안에서 아이디어를 설명하고 서버용 앱 또는 Activity 프로젝트를 생성·빌드하는 실험적 제작 화면의 이름입니다.",
+                    "what_it_means": "이 레코드의 ‘Build it’는 다음 의미를 전달합니다. 자연어로 앱 아이디어를 설명하면 Discord 안에서 미리보기 가능한 프로젝트를 계획하고 빌드하는 개발·제작 흐름입니다.",
+                    "when_it_appears": "‘Build it’라는 현재 문구가 쓰이는 단계는 다음 기존 근거와 연결됩니다. 관련 길드 실험이 활성화된 서버의 Vibegrations 또는 `conjuring` 제작 화면에서 프로젝트를 만들고 빌드할 때 보일 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The existing evidence is reapplied to the current wording “Build it.” Your Vibegrations, New vibegration, Describe the app you want to build, Planning your app, and Build complete form one project flow. The current client includes Vibegrations project and publishing APIs, a `conjuring` guild route, and a `2026-07-vibegrations-guild` experiment controlling access. It is therefore best understood as a limited server-app creation tool rather than a general app setting.",
+                    "generated_at": "2026-09-15T00:13:09Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Vibegrations",
+                        "Good Vibegrations",
+                        "Build it",
+                        "Discord Activity",
+                        "app builder",
+                        "conjuring",
+                        "guild experiment"
+                    ],
+                    "search_intent": "A user who saw “Build it” in Discord is likely checking why this exact wording appeared and which product state it describes. Searchers likely want to know what Good Vibegrations or a Vibegration means in Discord and why a new builder appeared in a server.",
+                    "source_context": "The current client contains Vibegrations project and publishing APIs, a `conjuring` guild route, and the `2026-07-vibegrations-guild` experiment; 97 builder strings arrived together.",
+                    "summary": "“Build it” is the specific Discord feature or setting explanation copy in this record. Vibegrations is the name of an experimental creation surface for describing, generating, and building a server app or Discord Activity project inside Discord.",
+                    "what_it_means": "In this record, “Build it” communicates the following meaning. It is a development and creation flow that turns an app idea described in natural language into a project that can be built and previewed in Discord.",
+                    "when_it_appears": "The current wording “Build it” is tied to the following established surface. May appear while creating and building a project in the Vibegrations or `conjuring` surface for guilds included in the experiment."
+                }
+            },
+            "gVV+HX": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "현재 앱 제작 문자열 묶음은 플랫폼 개발자 사이트에서 앱을 만들고, 두 redirect URL을 등록한 뒤 client ID와 secret을 입력하는 순서를 보여 줍니다. 화면 문구는 자격 증명이 chat이 아니라 locked form과 vault로 전달되며 제작 대화에는 나타나지 않는다고 설명합니다. 다만 이 공개 문자열 분석은 표시된 안내를 확인한 것이며 실제 백엔드의 비밀정보 처리 구현을 독립적으로 검증한 것은 아닙니다.",
+                    "generated_at": "2026-08-19T00:13:28.881209Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "app credentials",
+                        "client ID",
+                        "client secret",
+                        "redirect URLs",
+                        "locked form",
+                        "locked vault",
+                        "Connect platform"
+                    ],
+                    "search_intent": "Discord에서 ‘Add them securely’ 문구를 본 사용자가 이 문구가 어느 화면의 기능·상태인지, 왜 표시됐는지, 필요한 대응이 있는지 확인하려는 검색입니다.",
+                    "source_context": "현재 Canary 앱 제작 locale 묶음에 Create an app, client ID, client secret, redirect URLs, Add your keys, locked form과 locked vault 안내가 함께 추가되었습니다.",
+                    "summary": "Discord 앱 프로젝트를 외부 플랫폼에 연결할 때 개발자용 client ID·secret과 redirect URL을 별도의 잠금 입력 폼으로 설정하는 안내입니다.",
+                    "what_it_means": "외부 플랫폼이 발급한 앱 식별자와 비밀값, Discord가 보여 주는 redirect URL을 연결 설정에 등록해야 기능이 동작한다는 뜻입니다.",
+                    "what_to_do": "플랫폼 개발자 사이트에서 앱을 만들고 화면에 표시된 redirect URL을 등록한 뒤, 자격 증명은 잠금 폼에만 입력하세요. chat 메시지에는 붙여 넣지 마세요.",
+                    "when_it_appears": "Discord에서 만든 앱 프로젝트가 OAuth 같은 외부 플랫폼 연결을 위해 개발자 자격 증명을 요구할 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The current app-creation string group lays out creating an app on the platform's developer site, adding two redirect URLs, and entering a client ID and secret. The UI copy says the credentials go through a locked form and vault rather than the chat and are not shown to the project conversation. This analysis confirms the displayed guidance, not the backend secret-handling implementation independently.",
+                    "generated_at": "2026-08-19T00:13:28.881209Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "app credentials",
+                        "client ID",
+                        "client secret",
+                        "redirect URLs",
+                        "locked form",
+                        "locked vault",
+                        "Connect platform"
+                    ],
+                    "search_intent": "A visitor likely searched for “Add them securely” to identify the Discord surface, understand why it appeared, and learn whether any response is needed.",
+                    "source_context": "The current Canary app-creation locale group adds Create an app, client ID, client secret, redirect URLs, Add your keys, locked-form, and locked-vault guidance together.",
+                    "summary": "Setup copy for connecting a Discord app project to an external platform with a client ID, secret, and redirect URLs through a separate locked form.",
+                    "what_it_means": "The project needs the external platform's app identifier and secret plus the redirect URLs shown by Discord before the connection can work.",
+                    "what_to_do": "Create the app on the platform's developer site, register the redirect URLs shown on screen, and enter credentials only in the locked form. Do not paste them into the chat.",
+                    "when_it_appears": "May appear when an app project created in Discord needs developer credentials to connect to an external platform, such as an OAuth integration."
+                }
+            },
+            "hOcVAj": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "현재 기록의 ‘Build complete.’ 표현을 기준으로 기존 근거를 다시 적용했습니다. Your Vibegrations, New vibegration, Describe the app you want to build, Planning your app, Build complete가 하나의 프로젝트 흐름을 이룹니다. 현재 클라이언트에는 Vibegrations 프로젝트 조회·게시 API와 `conjuring` 길드 경로가 있고, `2026-07-vibegrations-guild` 실험이 기능 노출을 제어합니다. 따라서 일반 앱 설정이 아니라 제한적으로 시험 중인 서버 앱 제작 도구로 해석하는 것이 맞습니다.",
+                    "generated_at": "2026-09-15T00:13:09Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Vibegrations",
+                        "Good Vibegrations",
+                        "Build it",
+                        "Discord Activity",
+                        "app builder",
+                        "conjuring",
+                        "guild experiment"
+                    ],
+                    "search_intent": "Discord에서 ‘Build complete.’가 왜 표시됐는지와 이 문구가 가리키는 기능 상태를 확인하려는 검색입니다. 사용자는 Discord에서 Good Vibegrations 또는 Vibegration이 무엇인지, 왜 서버에 새 빌더가 보이는지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "현재 클라이언트에 Vibegrations 프로젝트·게시 API, `conjuring` 길드 경로, `2026-07-vibegrations-guild` 실험이 함께 있고 같은 시점에 97개 빌더 문자열이 추가됐습니다.",
+                    "summary": "‘Build complete.’는 Discord의 기능·설정 설명 문구입니다. Vibegrations는 Discord 안에서 아이디어를 설명하고 서버용 앱 또는 Activity 프로젝트를 생성·빌드하는 실험적 제작 화면의 이름입니다.",
+                    "what_it_means": "이 레코드의 ‘Build complete.’는 다음 의미를 전달합니다. 자연어로 앱 아이디어를 설명하면 Discord 안에서 미리보기 가능한 프로젝트를 계획하고 빌드하는 개발·제작 흐름입니다.",
+                    "when_it_appears": "‘Build complete.’라는 현재 문구가 쓰이는 단계는 다음 기존 근거와 연결됩니다. 관련 길드 실험이 활성화된 서버의 Vibegrations 또는 `conjuring` 제작 화면에서 프로젝트를 만들고 빌드할 때 보일 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The existing evidence is reapplied to the current wording “Build complete..” Your Vibegrations, New vibegration, Describe the app you want to build, Planning your app, and Build complete form one project flow. The current client includes Vibegrations project and publishing APIs, a `conjuring` guild route, and a `2026-07-vibegrations-guild` experiment controlling access. It is therefore best understood as a limited server-app creation tool rather than a general app setting.",
+                    "generated_at": "2026-09-15T00:13:09Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Vibegrations",
+                        "Good Vibegrations",
+                        "Build it",
+                        "Discord Activity",
+                        "app builder",
+                        "conjuring",
+                        "guild experiment"
+                    ],
+                    "search_intent": "A user who saw “Build complete.” in Discord is likely checking why this exact wording appeared and which product state it describes. Searchers likely want to know what Good Vibegrations or a Vibegration means in Discord and why a new builder appeared in a server.",
+                    "source_context": "The current client contains Vibegrations project and publishing APIs, a `conjuring` guild route, and the `2026-07-vibegrations-guild` experiment; 97 builder strings arrived together.",
+                    "summary": "“Build complete.” is the specific Discord feature or setting explanation copy in this record. Vibegrations is the name of an experimental creation surface for describing, generating, and building a server app or Discord Activity project inside Discord.",
+                    "what_it_means": "In this record, “Build complete.” communicates the following meaning. It is a development and creation flow that turns an app idea described in natural language into a project that can be built and previewed in Discord.",
+                    "when_it_appears": "The current wording “Build complete.” is tied to the following established surface. May appear while creating and building a project in the Vibegrations or `conjuring` surface for guilds included in the experiment."
+                }
+            },
+            "jKNAzJ": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "현재 문자열 묶음은 외부 코딩 도구에 앱 링크를 추가하면 그 도구에서 프로젝트를 작업하고 Discord로 돌아와 미리보기와 게시를 할 수 있다고 설명합니다. 링크는 24시간 동안 유효하며, 새로고침하면 기존 링크가 중단되고 이미 연결한 도구에도 새 링크가 필요하다고 명시합니다. 최신 modified 행은 같은 두 라벨을 Build with your tools에서 Conjuring MCP로 바꿨으므로, 기능 제거가 아니라 표시 명칭 변경으로 확인됩니다.",
+                    "generated_at": "2026-08-22T00:17:34.955233Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjuring MCP",
+                        "app link",
+                        "external coding tool",
+                        "Refresh link",
+                        "24 hours",
+                        "Your Projects"
+                    ],
+                    "search_intent": "Discord의 Conjuring MCP가 무엇인지, 외부 코딩 도구에 어떤 링크를 넣는지, 링크가 만료되거나 새로고침된 뒤 어떻게 다시 연결하는지 확인하려는 검색입니다.",
+                    "source_context": "현재 Canary 앱 제작 locale 묶음에 Conjuring MCP, Your app’s link, 24시간 유효 안내, 링크 새로고침 경고, 외부 도구 작업·미리보기·게시 설명과 오류 상태가 함께 있습니다.",
+                    "summary": "Discord 앱 프로젝트를 외부 코딩 도구와 연결하는 임시 앱 링크와 ‘Conjuring MCP’ 영역의 문구입니다.",
+                    "what_it_means": "표시된 앱 링크를 지원되는 외부 코딩 도구에 연결해 같은 프로젝트를 그 도구에서도 작업할 수 있다는 뜻입니다. Conjuring MCP는 이 연결 영역의 새 표시 명칭입니다.",
+                    "what_to_do": "화면의 앱 링크를 사용하려는 코딩 도구에 추가하세요. 링크가 만료됐거나 교체가 필요할 때만 새로고침하고, 새로고침 후에는 기존 도구에도 새 링크를 다시 연결하세요. 생성 오류가 나오면 잠시 뒤 같은 화면에서 다시 시도할 수 있습니다.",
+                    "when_it_appears": "Discord의 앱 제작 프로젝트에서 외부 코딩 도구로 작업하기 위한 링크를 만들거나 새로고침하고, 연결·재시도 상태를 볼 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The current string group says an app link can be added to an external coding tool so the project can be edited there and then previewed or shipped back in Discord. The link works for 24 hours, and refreshing it invalidates the current link and requires already connected tools to use the new one. The two latest modified rows rename Build with your tools to Conjuring MCP, which establishes a label change rather than removal of the workflow.",
+                    "generated_at": "2026-08-22T00:17:34.955233Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjuring MCP",
+                        "app link",
+                        "external coding tool",
+                        "Refresh link",
+                        "24 hours",
+                        "Your Projects"
+                    ],
+                    "search_intent": "A search to understand Conjuring MCP in Discord, where its app link is used, or how to reconnect after the link expires or is refreshed.",
+                    "source_context": "The current Canary app-creation locale group contains Conjuring MCP, Your app’s link, the 24-hour lifetime, refresh invalidation, external-tool editing and return-to-preview copy, and failure states together.",
+                    "summary": "Copy for the temporary app link and the renamed Conjuring MCP surface that connects a Discord app project to an external coding tool.",
+                    "what_it_means": "The displayed app link connects a supported external coding tool to the same project. Conjuring MCP is the new visible label for this connection surface.",
+                    "what_to_do": "Add the displayed app link to the coding tool you intend to use. Refresh only when the link expired or needs replacing, then reconnect existing tools with the new link. If link creation fails, retry from the same surface after a moment.",
+                    "when_it_appears": "May appear in a Discord app project while creating or refreshing a link for an external coding tool, including connection and retry states."
+                }
+            },
+            "lTtxBT": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "현재 문자열 묶음은 외부 코딩 도구에 앱 링크를 추가하면 그 도구에서 프로젝트를 작업하고 Discord로 돌아와 미리보기와 게시를 할 수 있다고 설명합니다. 링크는 24시간 동안 유효하며, 새로고침하면 기존 링크가 중단되고 이미 연결한 도구에도 새 링크가 필요하다고 명시합니다. 최신 modified 행은 같은 두 라벨을 Build with your tools에서 Conjuring MCP로 바꿨으므로, 기능 제거가 아니라 표시 명칭 변경으로 확인됩니다.",
+                    "generated_at": "2026-08-22T00:17:34.955233Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjuring MCP",
+                        "app link",
+                        "external coding tool",
+                        "Refresh link",
+                        "24 hours",
+                        "Your Projects"
+                    ],
+                    "search_intent": "Discord의 Conjuring MCP가 무엇인지, 외부 코딩 도구에 어떤 링크를 넣는지, 링크가 만료되거나 새로고침된 뒤 어떻게 다시 연결하는지 확인하려는 검색입니다.",
+                    "source_context": "현재 Canary 앱 제작 locale 묶음에 Conjuring MCP, Your app’s link, 24시간 유효 안내, 링크 새로고침 경고, 외부 도구 작업·미리보기·게시 설명과 오류 상태가 함께 있습니다.",
+                    "summary": "Discord 앱 프로젝트를 외부 코딩 도구와 연결하는 임시 앱 링크와 ‘Conjuring MCP’ 영역의 문구입니다.",
+                    "what_it_means": "표시된 앱 링크를 지원되는 외부 코딩 도구에 연결해 같은 프로젝트를 그 도구에서도 작업할 수 있다는 뜻입니다. Conjuring MCP는 이 연결 영역의 새 표시 명칭입니다.",
+                    "what_to_do": "화면의 앱 링크를 사용하려는 코딩 도구에 추가하세요. 링크가 만료됐거나 교체가 필요할 때만 새로고침하고, 새로고침 후에는 기존 도구에도 새 링크를 다시 연결하세요. 생성 오류가 나오면 잠시 뒤 같은 화면에서 다시 시도할 수 있습니다.",
+                    "when_it_appears": "Discord의 앱 제작 프로젝트에서 외부 코딩 도구로 작업하기 위한 링크를 만들거나 새로고침하고, 연결·재시도 상태를 볼 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The current string group says an app link can be added to an external coding tool so the project can be edited there and then previewed or shipped back in Discord. The link works for 24 hours, and refreshing it invalidates the current link and requires already connected tools to use the new one. The two latest modified rows rename Build with your tools to Conjuring MCP, which establishes a label change rather than removal of the workflow.",
+                    "generated_at": "2026-08-22T00:17:34.955233Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjuring MCP",
+                        "app link",
+                        "external coding tool",
+                        "Refresh link",
+                        "24 hours",
+                        "Your Projects"
+                    ],
+                    "search_intent": "A search to understand Conjuring MCP in Discord, where its app link is used, or how to reconnect after the link expires or is refreshed.",
+                    "source_context": "The current Canary app-creation locale group contains Conjuring MCP, Your app’s link, the 24-hour lifetime, refresh invalidation, external-tool editing and return-to-preview copy, and failure states together.",
+                    "summary": "Copy for the temporary app link and the renamed Conjuring MCP surface that connects a Discord app project to an external coding tool.",
+                    "what_it_means": "The displayed app link connects a supported external coding tool to the same project. Conjuring MCP is the new visible label for this connection surface.",
+                    "what_to_do": "Add the displayed app link to the coding tool you intend to use. Refresh only when the link expired or needs replacing, then reconnect existing tools with the new link. If link creation fails, retry from the same surface after a moment.",
+                    "when_it_appears": "May appear in a Discord app project while creating or refreshing a link for an external coding tool, including connection and retry states."
+                }
+            },
+            "oWzC0r": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "현재 문자열 묶음은 외부 코딩 도구에 앱 링크를 추가하면 그 도구에서 프로젝트를 작업하고 Discord로 돌아와 미리보기와 게시를 할 수 있다고 설명합니다. 링크는 24시간 동안 유효하며, 새로고침하면 기존 링크가 중단되고 이미 연결한 도구에도 새 링크가 필요하다고 명시합니다. 최신 modified 행은 같은 두 라벨을 Build with your tools에서 Conjuring MCP로 바꿨으므로, 기능 제거가 아니라 표시 명칭 변경으로 확인됩니다.",
+                    "generated_at": "2026-08-22T00:17:34.955233Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjuring MCP",
+                        "app link",
+                        "external coding tool",
+                        "Refresh link",
+                        "24 hours",
+                        "Your Projects"
+                    ],
+                    "search_intent": "Discord의 Conjuring MCP가 무엇인지, 외부 코딩 도구에 어떤 링크를 넣는지, 링크가 만료되거나 새로고침된 뒤 어떻게 다시 연결하는지 확인하려는 검색입니다.",
+                    "source_context": "현재 Canary 앱 제작 locale 묶음에 Conjuring MCP, Your app’s link, 24시간 유효 안내, 링크 새로고침 경고, 외부 도구 작업·미리보기·게시 설명과 오류 상태가 함께 있습니다.",
+                    "summary": "Discord 앱 프로젝트를 외부 코딩 도구와 연결하는 임시 앱 링크와 ‘Conjuring MCP’ 영역의 문구입니다.",
+                    "what_it_means": "표시된 앱 링크를 지원되는 외부 코딩 도구에 연결해 같은 프로젝트를 그 도구에서도 작업할 수 있다는 뜻입니다. Conjuring MCP는 이 연결 영역의 새 표시 명칭입니다.",
+                    "what_to_do": "화면의 앱 링크를 사용하려는 코딩 도구에 추가하세요. 링크가 만료됐거나 교체가 필요할 때만 새로고침하고, 새로고침 후에는 기존 도구에도 새 링크를 다시 연결하세요. 생성 오류가 나오면 잠시 뒤 같은 화면에서 다시 시도할 수 있습니다.",
+                    "when_it_appears": "Discord의 앱 제작 프로젝트에서 외부 코딩 도구로 작업하기 위한 링크를 만들거나 새로고침하고, 연결·재시도 상태를 볼 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The current string group says an app link can be added to an external coding tool so the project can be edited there and then previewed or shipped back in Discord. The link works for 24 hours, and refreshing it invalidates the current link and requires already connected tools to use the new one. The two latest modified rows rename Build with your tools to Conjuring MCP, which establishes a label change rather than removal of the workflow.",
+                    "generated_at": "2026-08-22T00:17:34.955233Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjuring MCP",
+                        "app link",
+                        "external coding tool",
+                        "Refresh link",
+                        "24 hours",
+                        "Your Projects"
+                    ],
+                    "search_intent": "A search to understand Conjuring MCP in Discord, where its app link is used, or how to reconnect after the link expires or is refreshed.",
+                    "source_context": "The current Canary app-creation locale group contains Conjuring MCP, Your app’s link, the 24-hour lifetime, refresh invalidation, external-tool editing and return-to-preview copy, and failure states together.",
+                    "summary": "Copy for the temporary app link and the renamed Conjuring MCP surface that connects a Discord app project to an external coding tool.",
+                    "what_it_means": "The displayed app link connects a supported external coding tool to the same project. Conjuring MCP is the new visible label for this connection surface.",
+                    "what_to_do": "Add the displayed app link to the coding tool you intend to use. Refresh only when the link expired or needs replacing, then reconnect existing tools with the new link. If link creation fails, retry from the same surface after a moment.",
+                    "when_it_appears": "May appear in a Discord app project while creating or refreshing a link for an external coding tool, including connection and retry states."
+                }
+            },
+            "p0Ay4J": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "현재 앱 제작 문자열 묶음은 플랫폼 개발자 사이트에서 앱을 만들고, 두 redirect URL을 등록한 뒤 client ID와 secret을 입력하는 순서를 보여 줍니다. 화면 문구는 자격 증명이 chat이 아니라 locked form과 vault로 전달되며 제작 대화에는 나타나지 않는다고 설명합니다. 다만 이 공개 문자열 분석은 표시된 안내를 확인한 것이며 실제 백엔드의 비밀정보 처리 구현을 독립적으로 검증한 것은 아닙니다.",
+                    "generated_at": "2026-08-19T00:13:28.881209Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "app credentials",
+                        "client ID",
+                        "client secret",
+                        "redirect URLs",
+                        "locked form",
+                        "locked vault",
+                        "Connect platform"
+                    ],
+                    "search_intent": "Discord에서 ‘These go straight into a locked vault. They never appear in the chat, and I never see them.’ 문구를 본 사용자가 이 문구가 어느 화면의 기능·상태인지, 왜 표시됐는지, 필요한 대응이 있는지 확인하려는 검색입니다.",
+                    "source_context": "현재 Canary 앱 제작 locale 묶음에 Create an app, client ID, client secret, redirect URLs, Add your keys, locked form과 locked vault 안내가 함께 추가되었습니다.",
+                    "summary": "Discord 앱 프로젝트를 외부 플랫폼에 연결할 때 개발자용 client ID·secret과 redirect URL을 별도의 잠금 입력 폼으로 설정하는 안내입니다.",
+                    "what_it_means": "외부 플랫폼이 발급한 앱 식별자와 비밀값, Discord가 보여 주는 redirect URL을 연결 설정에 등록해야 기능이 동작한다는 뜻입니다.",
+                    "what_to_do": "플랫폼 개발자 사이트에서 앱을 만들고 화면에 표시된 redirect URL을 등록한 뒤, 자격 증명은 잠금 폼에만 입력하세요. chat 메시지에는 붙여 넣지 마세요.",
+                    "when_it_appears": "Discord에서 만든 앱 프로젝트가 OAuth 같은 외부 플랫폼 연결을 위해 개발자 자격 증명을 요구할 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The current app-creation string group lays out creating an app on the platform's developer site, adding two redirect URLs, and entering a client ID and secret. The UI copy says the credentials go through a locked form and vault rather than the chat and are not shown to the project conversation. This analysis confirms the displayed guidance, not the backend secret-handling implementation independently.",
+                    "generated_at": "2026-08-19T00:13:28.881209Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "app credentials",
+                        "client ID",
+                        "client secret",
+                        "redirect URLs",
+                        "locked form",
+                        "locked vault",
+                        "Connect platform"
+                    ],
+                    "search_intent": "A visitor likely searched for “These go straight into a locked vault. They never appear in the chat, and I never see them.” to identify the Discord surface, understand why it appeared, and learn whether any response is needed.",
+                    "source_context": "The current Canary app-creation locale group adds Create an app, client ID, client secret, redirect URLs, Add your keys, locked-form, and locked-vault guidance together.",
+                    "summary": "Setup copy for connecting a Discord app project to an external platform with a client ID, secret, and redirect URLs through a separate locked form.",
+                    "what_it_means": "The project needs the external platform's app identifier and secret plus the redirect URLs shown by Discord before the connection can work.",
+                    "what_to_do": "Create the app on the platform's developer site, register the redirect URLs shown on screen, and enter credentials only in the locked form. Do not paste them into the chat.",
+                    "when_it_appears": "May appear when an app project created in Discord needs developer credentials to connect to an external platform, such as an OAuth integration."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-09-29T00:44:07.974840+00:00"
 }
