@@ -1,82 +1,15 @@
 {
-    "build_hash": "567cd4ef4bbae05696a98a11d28049c6f7c77a0e",
+    "build_hash": "eb00befbbda4db7ec75bb6abc9b5b980f1ab2400",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-mobile-boost-progress-bar",
-            "kind": "user",
-            "timestamp": "2026-09-29T16:48:59Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_CHANNELS_SEND_SOUNDBOARD_ECHO",
-            "status": "added",
-            "url": "/channels/:param/send-soundboard-echo"
-        },
-        {
-            "name": "SEND_SOUNDBOARD_ECHO",
-            "status": "added",
-            "url": "/channels/:param/send-soundboard-echo"
-        }
-    ],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-soundboard-echo",
-            "kind": "guild",
-            "status": "added",
-            "timestamp": "2026-09-29T16:41:50Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-soundboard-echo",
-            "kind": "guild",
-            "timestamp": "2026-09-29T16:41:50Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_api_endpoints": [],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -107,22 +40,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "VOmeSq": "echo sound {name}"
-            },
-            "deleted": {
-                "GUILD_BOOSTING_USER_SETTINGS_NO_AVAILABLE_GUILD_BOOST_SLOTS": "Oh no! You don't have any available Boosts.",
-                "xr4m5B": "Oh no! You don't have any available Boosts."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "xr4m5B": "이런! 사용할 수 있는 부스트가 없어요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T16:52:01.593558+00:00"
+    "timestamp": "2026-09-29T17:02:51.844570+00:00"
 }
