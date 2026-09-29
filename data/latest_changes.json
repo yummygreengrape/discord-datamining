@@ -1,5 +1,5 @@
 {
-    "build_hash": "a4d8cadac12d61c5e023319423257a083e296c74",
+    "build_hash": "ff94d1f55731a29b9158c1f551799b5cd0b875d0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,12 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "d3aX5b": "$[**{user}**](userHook) moved {count, plural, =1 {**a channel**} other {**# channels**}}",
-                "g+lLUV": "Move Role",
-                "hKfSwp": "Move Channel",
-                "jZeaoW": "$[**{user}**](userHook) moved {count, plural, =1 {**a role**} other {**# roles**}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -55,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T06:37:38.033086+00:00"
+    "timestamp": "2026-09-29T07:39:37.015235+00:00"
 }
