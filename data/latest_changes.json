@@ -1,8 +1,19 @@
 {
-    "build_hash": "c64c10c8d9d51fd34f5214529da9907141651d70",
+    "build_hash": "39a18d5aa05b8e711f296e9d72642fa56aba3e5f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-new-games-coachmark",
+            "kind": "user",
+            "timestamp": "2026-09-29T16:39:48Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -40,17 +51,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "/sw0JL": "{widgetName}: {viewName}",
-                "3/DOFo": "Updates daily showing last 7 days",
-                "5xxUI2": "Popular Music",
-                "KO73KB": "Top Listeners",
-                "KgeEtx": "Top Songs",
-                "RYxWTS": "Top Artists",
-                "ZdPp2q": "Spotify",
-                "hFYyGU": "Popular Music views",
-                "jUr+wF": "Open in Spotify"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -60,5 +61,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T16:20:06.575514+00:00"
+    "timestamp": "2026-09-29T16:41:12.017221+00:00"
 }
