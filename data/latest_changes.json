@@ -1,5 +1,5 @@
 {
-    "build_hash": "6a02a9d3aa37be60c60c3a8319ee4c8e7590e8b4",
+    "build_hash": "228145d810136774787f4f6a236b05a417ca7e6b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -45,10 +45,19 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "7vL/d/": "경고",
+                "8ALChp": "음성 채널에서 사용",
+                "BReS7U": "정보",
+                "D7+kY/": "확인하러 가기",
+                "M4qsJL": "표시 이름 스타일",
+                "TWtV8E": "Nitro 구독 시 defaultPriceHookHook{defaultPrice} premiumPriceHookHook{premiumPrice}",
+                "WjOclf": "상점의 모든 품목을 최대 20%까지 할인받고, 전용 아이템까지 손에 넣으세요. Nitro 구독 시에만 가능해요.",
+                "uKMqrF": "오류"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T21:52:58.963686+00:00"
+    "timestamp": "2026-09-29T22:03:47.433371+00:00"
 }
