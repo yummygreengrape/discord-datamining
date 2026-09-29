@@ -1,5 +1,5 @@
 {
-    "build_hash": "0f1669baa75fad9fce896f047b6f7da35b94a6a1",
+    "build_hash": "89e2ef6a961702bf1f3704869a533c00d0c658d7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,16 +40,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "Vl3IL0": "Or tell me what to change"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "hG0Y0+": {
-                    "new_value": "Conjure it!",
-                    "old_value": "Approve"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -57,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T04:02:23.315786+00:00"
+    "timestamp": "2026-09-29T05:04:22.857096+00:00"
 }
