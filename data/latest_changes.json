@@ -1,5 +1,5 @@
 {
-    "build_hash": "a48f261f17f8722f056418fa8cbda78f2a0a36b4",
+    "build_hash": "83f4f8b80ee4154248ea61feae4cc5060e6983b3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,14 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "+5b01q": "{minutes, plural, one {# minute} other {# minutes}}",
-                "7X+3f8": "{count, plural, one {# play} other {# plays}}",
-                "7hHUIS": "$[{count, plural, one {# play} other {# plays}}](countHook){trend, select, up {trending up} down {trending down} other {}}",
-                "AzIhRB": "listened to by $[{count, plural, one {# member} other {# members}}](countHook) this week.{trend, select, up {Up} down {Down} other {}}",
-                "bFIg0R": "+{count}",
-                "h+LUpk": "{percent}%"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -57,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T19:44:39.615235+00:00"
+    "timestamp": "2026-09-29T19:55:27.066076+00:00"
 }
