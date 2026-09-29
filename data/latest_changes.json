@@ -1,5 +1,5 @@
 {
-    "build_hash": "462d20b1db1cf0e832a3974caddeda87cb33da2f",
+    "build_hash": "95422d429c28538824abe497308fad41a17cc066",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,10 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "jK2oto": "Scroll left or right to view other badges",
+                "q7PYXq": "{badgeName}, badge {position, number} of {total, number}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +53,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T11:48:46.357967+00:00"
+    "timestamp": "2026-09-29T14:13:21.830503+00:00"
 }
