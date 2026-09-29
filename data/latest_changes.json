@@ -1,5 +1,5 @@
 {
-    "build_hash": "6d6093e50b01bcfe7a7503575e70008f828f2fd4",
+    "build_hash": "d30f1739a67beab2cc8546b7f0c04298c96b7594",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,16 +41,17 @@
     "string_changes": {
         "en": {
             "added": {
-                "3LJ1u9": "Activity Sharing",
-                "8y885d": "Share your activity in order to join the leaderboard.",
-                "PJn0ih": "Enable each setting to contribute to the leaderboard. These can be changed at any time in Settings.",
-                "fMbgeZ": "Share Activity",
-                "mTARYx": "Turn on personalization to join the leaderboard.",
-                "oHdW+u": "Unranked",
-                "toxuHd": "Play some games to join the leaderboard!"
+                "EwshDz": "Ship into Discord's own app channels instead of a Conjuring portal.",
+                "nyY2CS": "Use app channels",
+                "xTlB8O": "Couldn’t ship it: {reason}"
             },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "jK1PL5": {
+                    "new_value": "A tour of everything an app can do inside Discord: sign-in, sharing, menus, live voice and video, saved data, and two app channels that talk to each other.",
+                    "old_value": "A tour of everything an app can do inside Discord: sign-in, sharing, menus, live voice and video, saved data."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -58,5 +59,49 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T18:50:47.513457+00:00"
+    "string_context": {
+        "en": {
+            "jK1PL5": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "Build from scratch는 원하는 앱을 직접 설명해 시작하는 선택지입니다. Import a template는 Collaborative Whiteboard, Feature Showcase, natural conversation bot 같은 예제에서 출발하며, 각 설명은 채널 공동 보드나 Discord 내부 기능 시연처럼 템플릿의 목적을 알려 줍니다. 표시된 템플릿은 시작점이며 완성된 공식 Discord 기능으로 출시됐다는 뜻은 아닙니다.",
+                    "generated_at": "2026-08-25T00:18:28.245368Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Build from scratch",
+                        "Import a template",
+                        "Collaborative Whiteboard",
+                        "Feature Showcase",
+                        "Conjuring",
+                        "app template"
+                    ],
+                    "search_intent": "Discord에서 ‘A tour of everything an app can do inside Discord — sign-in, sharing, menus, live voice and video, saved data.’ 문구를 본 사용자가 이 기능이나 상태가 무엇이고 왜 표시됐는지 확인하려는 검색입니다.",
+                    "source_context": "현재 Canary의 같은 Conjuring locale 묶음에 Build from scratch, Import a template, 템플릿 시작 문구와 Whiteboard·Feature Showcase 설명이 연속해서 확인됩니다.",
+                    "summary": "Discord의 Conjuring 앱 제작을 빈 프로젝트나 예제 템플릿에서 시작하는 스타터 갤러리 문구입니다.",
+                    "what_it_means": "직접 요구사항을 적어 새 앱을 만들거나, 미리 준비된 예제 앱을 가져와 수정할 수 있다는 뜻입니다.",
+                    "when_it_appears": "Conjuring에서 새 앱 프로젝트를 만들 때 빈 프로젝트와 템플릿 갤러리 중 시작 방식을 고르는 화면에 나타납니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "Build from scratch starts from the user's own description. Import a template offers examples such as Collaborative Whiteboard, Feature Showcase, and a natural conversation bot, with descriptions explaining each starter's purpose. These are project starting points, not proof that every example is a released standalone Discord feature.",
+                    "generated_at": "2026-08-25T00:18:28.245368Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Build from scratch",
+                        "Import a template",
+                        "Collaborative Whiteboard",
+                        "Feature Showcase",
+                        "Conjuring",
+                        "app template"
+                    ],
+                    "search_intent": "A visitor likely searched for “A tour of everything an app can do inside Discord — sign-in, sharing, menus, live voice and video, saved data.” to identify the Discord feature or state and understand why it appeared.",
+                    "source_context": "The current Canary Conjuring locale group contains Build from scratch, Import a template, template-start prompts, and the Whiteboard and Feature Showcase descriptions together.",
+                    "summary": "Starter-gallery copy for beginning a Discord Conjuring app from scratch or from an example template.",
+                    "what_it_means": "It means the user can describe a new app from scratch or import an example project and customize it.",
+                    "when_it_appears": "Appears when starting a new Conjuring app project and choosing between a blank build and the template gallery."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-09-29T19:01:34.911944+00:00"
 }
