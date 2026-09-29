@@ -1,5 +1,5 @@
 {
-    "build_hash": "dd98ff418d40d0b91cb6ab3ff900e2edf074ffef",
+    "build_hash": "1fe76763c5fe9858aca383f23ea315bfb83bc8e2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,18 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-split-payments",
-            "kind": "user",
-            "timestamp": "2026-09-29T19:58:44Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -61,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T20:06:15.342639+00:00"
+    "timestamp": "2026-09-29T20:38:36.964281+00:00"
 }
