@@ -1,5 +1,5 @@
 {
-    "build_hash": "86dfa3b3a040857ac233ae683dad91730d38fe39",
+    "build_hash": "c64c10c8d9d51fd34f5214529da9907141651d70",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,17 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/sw0JL": "{widgetName}: {viewName}",
+                "3/DOFo": "Updates daily showing last 7 days",
+                "5xxUI2": "Popular Music",
+                "KO73KB": "Top Listeners",
+                "KgeEtx": "Top Songs",
+                "RYxWTS": "Top Artists",
+                "ZdPp2q": "Spotify",
+                "hFYyGU": "Popular Music views",
+                "jUr+wF": "Open in Spotify"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +60,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T16:09:20.334032+00:00"
+    "timestamp": "2026-09-29T16:20:06.575514+00:00"
 }
