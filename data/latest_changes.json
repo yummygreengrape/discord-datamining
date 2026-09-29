@@ -1,8 +1,45 @@
 {
-    "build_hash": "732cf1a4fc651f7509a2d1f1b6b89542cea2f698",
+    "build_hash": "c01f500e03f3885feb406cf13385a998745f617c",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "id": "2026-03_game_server_pricing",
+            "kind": "guild",
+            "status": "deleted",
+            "timestamp": "2026-09-29T20:53:18Z",
+            "title": "Game Server Pricing",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable Game Server Pricing"
+            ]
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "id": "2026-03_game_server_pricing",
+            "kind": "guild",
+            "timestamp": "2026-09-29T20:53:18Z",
+            "title": "Game Server Pricing",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable Game Server Pricing"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -41,16 +78,22 @@
     "string_changes": {
         "en": {
             "added": {
-                "CZ3jxp": "Keep pop-up notifications on screen for at least this long. Notifications that already stay longer are unaffected."
+                "ZOkckv": "{name}: {error}"
             },
-            "deleted": {},
+            "deleted": {
+                "Jkx0sf": "Get a game server for less",
+                "WhPKFP": "Most game servers now require fewer Boosts to unlock."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "Jkx0sf": "더 적은 부스트로 게임 서버를 시작해 보세요",
+                "WhPKFP": "이제 더 적은 부스트로 대부분의 게임 서버를 잠금 해제할 수 있어요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T20:49:21.863051+00:00"
+    "timestamp": "2026-09-29T21:00:11.139137+00:00"
 }
