@@ -1,5 +1,5 @@
 {
-    "build_hash": "efb2b50c23ea499efd58035a347502d9cbf7f3da",
+    "build_hash": "2368c9c34a7d3393fed917e1cf4ec63afa7dda6e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,11 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "8ALChp": "In voice",
-                "Fb6oNP": "{text} • {duration}",
-                "KddZZf": "Playing for {duration}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -54,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T18:18:24.012173+00:00"
+    "timestamp": "2026-09-29T18:29:13.086298+00:00"
 }
