@@ -1,5 +1,5 @@
 {
-    "build_hash": "1fe76763c5fe9858aca383f23ea315bfb83bc8e2",
+    "build_hash": "732cf1a4fc651f7509a2d1f1b6b89542cea2f698",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "CZ3jxp": "Keep pop-up notifications on screen for at least this long. Notifications that already stay longer are unaffected."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +52,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-29T20:38:36.964281+00:00"
+    "timestamp": "2026-09-29T20:49:21.863051+00:00"
 }
