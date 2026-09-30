@@ -1,8 +1,87 @@
 {
-    "build_hash": "7c3c28868de26debb818ceb66adf0fa86c63e10a",
+    "build_hash": "a146b1b92407dc202b81fad1d41597255e24a00e",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "detailed_summary": "기본 상태에서는 화면에 띄울 수 있는 안내 후보를 앱 안에서 고릅니다. 비교안에서는 일부 안내 후보를 서버에 보내 우선순위를 받은 뒤 표시하고, 서버가 응답하지 않으면 해당 후보를 이번 선택에서 제외합니다. 현재 클라이언트는 여러 안내와 혜택 알림의 후보 목록을 모으는 단계에서 이 설정을 직접 읽습니다. 실제로 사용자에게 보이는 안내의 종류와 빈도가 얼마나 달라지는지는 이 코드만으로 알 수 없습니다.",
+                "evidence": [
+                    "The dismissible-content selection path reads the exact enabled flag.",
+                    "When enabled it posts eligible candidates to the arbitration endpoint and falls back on request failure."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "안내 표시 우선순위",
+                "generated_at": "2026-09-26T04:08:03Z",
+                "importance": "medium",
+                "summary": "닫을 수 있는 안내 중 어떤 항목을 보여 줄지 고르는 방식을 비교합니다.",
+                "why_it_matters": "여러 알림이 겹칠 때 어떤 안내를 먼저 보게 되는지에 영향을 줄 수 있습니다."
+            },
+            "analysis_en": {
+                "detailed_summary": "By default, the client chooses among eligible notices locally. In the variant, it sends some candidates to the server for ranking before display; if that request fails, those candidates are omitted from that selection. Current client code reads this exact experiment while assembling candidates from many notice and offer surfaces. The actual change in which notices people see, or how often, has not been measured here.",
+                "evidence": [
+                    "The dismissible-content selection path reads the exact enabled flag.",
+                    "When enabled it posts eligible candidates to the arbitration endpoint and falls back on request failure."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Dismissible notice priority",
+                "generated_at": "2026-09-26T04:08:03Z",
+                "importance": "medium",
+                "summary": "Tests how Discord chooses among dismissible notices competing for attention.",
+                "why_it_matters": "It may change which notice appears first when several are eligible."
+            },
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-dismissible-content-server-arbitration",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-30T15:25:46Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-dismissible-content-server-arbitration",
+            "kind": "user",
+            "timestamp": "2026-09-30T15:25:46Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -50,5 +129,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T15:13:21.414579+00:00"
+    "timestamp": "2026-09-30T15:34:25.905366+00:00"
 }
