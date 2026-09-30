@@ -1,5 +1,5 @@
 {
-    "build_hash": "536f6d9130074daf791ceaaa9706107ffe8d4dc6",
+    "build_hash": "84a3d0a68522f207274742ae1a82c651c860c1c9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,8 +41,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "W8etVA": "{count, plural, one {# song played} other {# songs played}}",
-                "yGqf0D": "by $[{memberCount, plural, one {# member} other {# members}}](memberCountHook) across $[{artistCount, plural, one {# artist} other {# artists}}](artistCountHook) this week.{trend, select, up {Up} down {Down} other {}}"
+                "QqaqBg": "Last listened to $[{trackTitle}](highlightHook) by $[{artistName}](highlightHook)",
+                "ZMJ8Mt": "Last listened to $[{trackTitle}](highlightHook)"
             },
             "deleted": {},
             "modified": {}
@@ -53,5 +53,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T11:23:06.713532+00:00"
+    "timestamp": "2026-09-30T13:06:40.018557+00:00"
 }
