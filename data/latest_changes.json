@@ -1,5 +1,5 @@
 {
-    "build_hash": "367030ddb39216336dedef76b9ff97b40d6a9ea9",
+    "build_hash": "6940f0b13d082107b8b1b5a580fc0bd2d86747dd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,74 +40,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "3Uwmdt": "More options, badge {position}, {badgeName}, hidden"
-            },
-            "deleted": {
-                "GhK5nf": "Unhide badge {position}, {badgeName}",
-                "hHHpvU": "Shows this badge on your profile again"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "/lMTzd": "현재 활동 중",
-                "aKZ12v": "게임",
-                "eVxFX3": "이름순",
-                "foKBCN": "foKBCN",
-                "qHmbyh": "일반",
-                "wE4a/r": "이제 Orbs 보상에 {bonusOrbMultiplier}배의 배수가 적용되어 완료하면 메가 보상을 받게 됩니다."
-            },
-            "deleted": {
-                "GhK5nf": "배지 숨기기 취소: {position}, {badgeName}",
-                "hHHpvU": "프로필에 이 배지를 다시 표시해요"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "hHHpvU": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "배지 관리 화면에서는 배지를 탭해 다른 사람에게 보이지 않게 하거나, 다시 표시하고, 드래그해 순서를 바꿀 수 있습니다. 일부 배지는 항상 보이거나 첫 번째에 고정된다는 안내도 함께 확인됩니다. 공개 실험 데이터의 Badge Management 설명과 배지 설정 API가 같은 기능 표면을 뒷받침합니다.",
-                    "generated_at": "2026-08-28T00:12:36.449330Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Customize your badges",
-                        "Hide Badges",
-                        "Badge hidden",
-                        "Badge shown",
-                        "drag to reorder",
-                        "Nitro"
-                    ],
-                    "search_intent": "Discord 프로필 배지를 숨기거나 순서를 바꾸는 방법과 항상 표시되는 배지가 무엇인지 확인하려는 검색입니다.",
-                    "source_context": "같은 문자열 묶음에 배지 숨김, 다시 표시, 드래그 순서 변경, 항상 표시·첫 번째 고정 안내가 함께 있으며 공개 실험·API 데이터도 배지 관리 기능을 가리킵니다.",
-                    "summary": "프로필 배지를 숨기거나 다시 표시하고 순서를 바꾸는 배지 관리 화면의 문구입니다.",
-                    "what_it_means": "배지의 공개 표시와 순서를 관리하는 상태이며, 항상 표시되는 배지는 숨기거나 이동할 수 없을 수 있습니다.",
-                    "when_it_appears": "자신의 프로필에서 배지 목록을 열고 Customize your badges 관리 화면을 사용할 때 나타납니다."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "The badge manager lets users tap badges to hide them from other people, show them again, and drag them into a different order. The copy also identifies badges that must remain visible or appear first. Public Badge Management experiment data and the badge-settings API support the same product surface.",
-                    "generated_at": "2026-08-28T00:12:36.449330Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Customize your badges",
-                        "Hide Badges",
-                        "Badge hidden",
-                        "Badge shown",
-                        "drag to reorder",
-                        "Nitro"
-                    ],
-                    "search_intent": "The searcher likely wants to know how to hide or reorder Discord profile badges and why some badges stay visible.",
-                    "source_context": "The same string group covers hiding, showing, drag ordering, and always-visible or first-position states; public experiment and API data point to the same badge-management feature.",
-                    "summary": "These strings belong to the profile badge manager for hiding, showing, and reordering badges.",
-                    "what_it_means": "It manages badge visibility and order; a badge marked always visible may not be hideable or movable from its required position.",
-                    "when_it_appears": "It appears after opening the badge list on your own profile and entering Customize your badges."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-09-30T19:43:17.167544+00:00"
+    "timestamp": "2026-09-30T19:54:07.487995+00:00"
 }
