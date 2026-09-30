@@ -1,5 +1,5 @@
 {
-    "build_hash": "65dca476e6d25e56690104ac2c23daa0c749698c",
+    "build_hash": "7c3c28868de26debb818ceb66adf0fa86c63e10a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -42,12 +42,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "VOmeSq": {
-                    "new_value": "play sound {name}",
-                    "old_value": "echo sound {name}"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -55,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T14:52:14.095200+00:00"
+    "timestamp": "2026-09-30T15:13:21.414579+00:00"
 }
