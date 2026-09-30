@@ -1,5 +1,5 @@
 {
-    "build_hash": "33d91bb97ff445ce747ea97f039c4ac641282ac3",
+    "build_hash": "3e42245ed54d309b99fb3e4248045919b720c1c6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-referral-profile-contextual-menu-upsell",
+            "kind": "user",
+            "timestamp": "2026-09-30T20:20:23Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -41,25 +53,22 @@
     "string_changes": {
         "en": {
             "added": {
-                "/Pkxmw": "Last in Category",
-                "8fQe3x": "Last in List",
-                "9qpRrY": "First in Folder",
-                "A95Fzm": "Move to...",
-                "IMqgs9": "First in List",
-                "IfgLzT": "No Folder",
-                "Q9TKt6": "First in Category",
-                "RZY2fr": "Category",
-                "ytlaCY": "Last in Folder",
-                "znwvG4": "Folder"
+                "JNgfIL": "Grant {recipientName} access to awesome Nitro perks like custom profiles, animated emojis, and more.",
+                "JSSBzo": "Share Nitro"
             },
-            "deleted": {},
+            "deleted": {
+                "5S3sQF": "Manage App",
+                "MANAGE_APP": "Manage App"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "5S3sQF": "앱 관리하기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T20:15:08.552748+00:00"
+    "timestamp": "2026-09-30T20:25:55.940979+00:00"
 }
