@@ -1,5 +1,5 @@
 {
-    "build_hash": "84a3d0a68522f207274742ae1a82c651c860c1c9",
+    "build_hash": "85260e07642120439afcacf49853bfcc77c51e71",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,10 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "QqaqBg": "Last listened to $[{trackTitle}](highlightHook) by $[{artistName}](highlightHook)",
-                "ZMJ8Mt": "Last listened to $[{trackTitle}](highlightHook)"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -53,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T13:06:40.018557+00:00"
+    "timestamp": "2026-09-30T13:17:30.196791+00:00"
 }
