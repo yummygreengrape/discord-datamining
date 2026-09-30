@@ -1,8 +1,235 @@
 {
-    "build_hash": "4985e737788017b56adf69a0e29e07d5d6b24049",
+    "build_hash": "2ffb431f8867980fd8c3d932228eddece708ce5e",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-private-profiles",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-30T01:25:05Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-private-profiles-strict",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-30T01:25:05Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                },
+                "3": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "비교안 1, 2, 3은 모두 private profile 안내 조건을 켭니다."
+                    }
+                ],
+                "detailed_summary": "프로필 정보 공개 범위를 제한한 사용자에게 관련 안내를 더 분명하게 보여주는 실험입니다. 켜진 상태에서는 기존 private profile 게이트들과 함께 true로 처리되어, 사용자 프로필 화면의 공개 범위 안내와 프로필 설정으로 이동하는 코치마크 후보에 포함됩니다. 비교안 1, 2, 3은 모두 기능을 켜는 형태라 UI 문구 차이보다는 노출 대상 그룹을 넓히는 성격으로 보입니다.",
+                "evidence": [
+                    "canary/web.c4cc2d83f86a94ed.js: 2026-03-private-profiles-strict-gb 등록 확인",
+                    "private profile helper가 2026-02-private-profiles, 2026-03-private-profiles-strict, 2026-03-private-profiles-strict-gb 값을 OR 조건으로 결합함",
+                    "UserProfilePrivacyNotice 및 AccountCoachmark 위치에서 해당 helper 사용 확인"
+                ],
+                "evidence_level": "current_canary_usage",
+                "focus_area": "프로필 개인정보 안내",
+                "generated_at": "2026-06-10T04:22:33.616923Z",
+                "importance": "medium",
+                "summary": "프로필 소개나 연결 계정 같은 정보를 누가 볼 수 있는지 안내하는 private profile 흐름을 별도 그룹에도 켜는 실험입니다.",
+                "why_it_matters": "프로필 소개, 연결 계정, 활동 정보는 사용자가 공개 범위를 민감하게 느낄 수 있는 영역입니다. 코드에서는 이 실험값이 UserProfilePrivacyNotice와 AccountCoachmark 위치에서 기존 private profile 조건과 함께 사용됩니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "Variants 1, 2, and 3 all enable the private profile guidance gate."
+                    }
+                ],
+                "detailed_summary": "This experiment shows private-profile guidance to another rollout group for users who limit profile visibility. When enabled, it joins the existing private profile gates and can feed the inline privacy notice on user profiles plus the account coachmark that points users toward profile settings. Variants 1, 2, and 3 all turn the gate on, so the meaningful difference is exposure rather than separate copy variants.",
+                "evidence": [
+                    "canary/web.c4cc2d83f86a94ed.js registers 2026-03-private-profiles-strict-gb",
+                    "The private profile helper ORs 2026-02-private-profiles, 2026-03-private-profiles-strict, and 2026-03-private-profiles-strict-gb",
+                    "The helper is used by UserProfilePrivacyNotice and AccountCoachmark locations"
+                ],
+                "evidence_level": "current_canary_usage",
+                "focus_area": "Profile privacy guidance",
+                "generated_at": "2026-06-10T04:22:33.616923Z",
+                "importance": "medium",
+                "summary": "Extends the private profile flow that explains who can see profile details like bios and connected accounts.",
+                "why_it_matters": "Profile bios, connected accounts, and activity details are sensitive visibility surfaces. The code uses this experiment alongside existing private profile gates in UserProfilePrivacyNotice and AccountCoachmark paths."
+            },
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-private-profiles-strict-gb",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-09-30T01:25:05Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                },
+                "3": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-private-profiles",
+            "kind": "user",
+            "timestamp": "2026-09-30T01:25:05Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-private-profiles-strict",
+            "kind": "user",
+            "timestamp": "2026-09-30T01:25:05Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                },
+                "3": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-private-profiles-strict-gb",
+            "kind": "user",
+            "timestamp": "2026-09-30T01:25:05Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                },
+                "3": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -50,5 +277,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T01:18:08.313614+00:00"
+    "timestamp": "2026-09-30T01:28:57.712992+00:00"
 }
