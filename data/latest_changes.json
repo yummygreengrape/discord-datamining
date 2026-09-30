@@ -1,5 +1,5 @@
 {
-    "build_hash": "e067368da8fcb6fa478c15e851571dddacd59f0d",
+    "build_hash": "a79ea9564222cd391afe73c5db16fd8504705b2d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,9 +40,17 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "53xiNu": "You need the Manage Channels permission in {server} to publish this app.",
+                "qG1SMK": "You need the Manage Server and Manage Channels permissions in {server} to publish this app."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "x71ku3": {
+                    "new_value": "You need the Manage Server permission in {server} to publish this app.",
+                    "old_value": "Needs Manage Server in {server}"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -50,5 +58,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T05:49:37.819628+00:00"
+    "timestamp": "2026-09-30T07:33:07.975223+00:00"
 }
