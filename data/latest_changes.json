@@ -1,5 +1,5 @@
 {
-    "build_hash": "6940f0b13d082107b8b1b5a580fc0bd2d86747dd",
+    "build_hash": "33d91bb97ff445ce747ea97f039c4ac641282ac3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,18 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/Pkxmw": "Last in Category",
+                "8fQe3x": "Last in List",
+                "9qpRrY": "First in Folder",
+                "A95Fzm": "Move to...",
+                "IMqgs9": "First in List",
+                "IfgLzT": "No Folder",
+                "Q9TKt6": "First in Category",
+                "RZY2fr": "Category",
+                "ytlaCY": "Last in Folder",
+                "znwvG4": "Folder"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +61,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T19:54:07.487995+00:00"
+    "timestamp": "2026-09-30T20:15:08.552748+00:00"
 }
