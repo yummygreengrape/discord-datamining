@@ -1,8 +1,21 @@
 {
-    "build_hash": "1e257049cc78c5fb59d17e687f2ed12c1c0edf9b",
+    "build_hash": "28c0279789f6227d47c9b73c29563be28d49974b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-activity-privacy-matching",
+            "kind": "user",
+            "timestamp": "2026-09-30T10:56:12Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -50,5 +63,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T10:10:14.430170+00:00"
+    "timestamp": "2026-09-30T11:02:02.243377+00:00"
 }
