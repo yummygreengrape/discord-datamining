@@ -1,8 +1,124 @@
 {
-    "build_hash": "dd1d28fb56f4571ca863a0b609d2bcd0245b7f35",
+    "build_hash": "7b39a50b5f606627e2bb8da5367d5828425b4f8e",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "id": "2022-12_mention_raid_limit",
+            "kind": "guild",
+            "status": "deleted",
+            "timestamp": "2026-09-30T17:45:08Z",
+            "title": "Automod Mention Raid Limit",
+            "treatments": [
+                "Control",
+                "Treatment 1: Automod Mention Raid Limit"
+            ]
+        },
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "켜지면 AutoMod 설정에서 앱 기반 규칙을 만들 수 있는 흐름을 노출합니다."
+                    }
+                ],
+                "detailed_summary": "기본 상태에서는 AutoMod 설정에 앱 기반 규칙을 추가하는 흐름이 꺼져 있습니다. 비교안에서는 관리자가 서버의 앱을 선택하고, 그 앱이 각 메시지에 대해 차단하거나 아무 조치도 하지 않는 규칙을 만들 수 있습니다. 현재 Canary는 AutoMod 설정 위치에서 정확한 서버 실험의 켜짐 값을 읽습니다. 같은 시점의 문자열에는 ‘App Moderation Rule’, 앱 선택, 저장 전 선택 확인, 사용할 수 있는 앱이 없다는 상태가 함께 추가됐습니다.",
+                "evidence": [
+                    "Current Canary module 318729 reads the exact guild experiment at automod_settings.",
+                    "Same-timestamp strings describe selecting an app, creating an App Moderation Rule, and allowing the app to block or ignore each message."
+                ],
+                "evidence_level": "current_canary_settings_consumer_and_strings",
+                "focus_area": "앱 기반 AutoMod 규칙",
+                "generated_at": "2026-09-19T04:05:42Z",
+                "importance": "high",
+                "summary": "서버 AutoMod 규칙에서 설치된 앱이 각 메시지를 검사하고 조치를 선택하게 하는 실험입니다.",
+                "why_it_matters": "서버 운영자는 Discord의 고정 규칙 외에도 설치한 앱의 판단을 AutoMod 흐름에 연결할 수 있습니다. 실제 검사 기준과 앱이 받는 데이터 범위는 선택한 앱의 구현에 따라 달라집니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "Exposes application-backed rule creation in AutoMod settings."
+                    }
+                ],
+                "detailed_summary": "The default state keeps application-backed rules out of AutoMod settings. In the comparison, an administrator can select a server app and create a rule where that app decides whether to block each message or take no action. Current Canary reads the exact guild experiment at the AutoMod settings location. Strings added at the same timestamp cover App Moderation Rule, app selection, the save-time requirement, and the state where no installed app can moderate messages yet.",
+                "evidence": [
+                    "Current Canary module 318729 reads the exact guild experiment at automod_settings.",
+                    "Same-timestamp strings describe selecting an app, creating an App Moderation Rule, and allowing the app to block or ignore each message."
+                ],
+                "evidence_level": "current_canary_settings_consumer_and_strings",
+                "focus_area": "Application-backed AutoMod rules",
+                "generated_at": "2026-09-19T04:05:42Z",
+                "importance": "high",
+                "summary": "Lets a server create an AutoMod rule where an installed app checks each message and chooses the action.",
+                "why_it_matters": "Server operators can connect app-defined moderation logic to the AutoMod workflow instead of relying only on fixed Discord rules. The actual criteria and data handled depend on the selected app's implementation."
+            },
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-automod-application-rules",
+            "kind": "guild",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "id": "2022-12_mention_raid_limit",
+            "kind": "guild",
+            "timestamp": "2026-09-30T17:45:08Z",
+            "title": "Automod Mention Raid Limit",
+            "treatments": [
+                "Control",
+                "Treatment 1: Automod Mention Raid Limit"
+            ]
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-automod-application-rules",
+            "kind": "guild",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -40,7 +156,12 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "35vxnc": "This item isn't available for purchase right now.",
+                "J3/JCl": "Game Shop, choose a storefront page",
+                "M2b74O": "Activate the Discord mobile game cover three times for a surprise",
+                "ueza5l": "Turn on Activity Sharing to help unlock this leaderboard. There need to be at least {memberCount, number} server members sharing their gaming activity."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +171,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T17:54:26.332475+00:00"
+    "timestamp": "2026-09-30T18:05:47.950311+00:00"
 }
