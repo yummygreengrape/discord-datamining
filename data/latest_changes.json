@@ -1,5 +1,5 @@
 {
-    "build_hash": "e980c060268f46f6f3a12a3c68d905b7f4e2a491",
+    "build_hash": "70ac1c62bf1993839689af8c68f66c729c049102",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,10 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "35vxnc": "This item isn't available for purchase right now.",
-                "ueza5l": "Turn on Activity Sharing to help unlock this leaderboard. There need to be at least {memberCount, number} server members sharing their gaming activity."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -53,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T17:20:46.098111+00:00"
+    "timestamp": "2026-09-30T17:31:35.972684+00:00"
 }
