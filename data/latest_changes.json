@@ -1,5 +1,5 @@
 {
-    "build_hash": "3d714f16bb82e2f9b8e00ef22e22f76c45c32391",
+    "build_hash": "6a02abf967b7397f07ef527ba9914a227c66aae8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,59 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-improved-shop-loading",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-06-improved-shop-loading",
-            "kind": "user",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -91,17 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "/b1eZT": "Group Friends in Voice",
-                "/bZ+Av": "Friends in the same voice channel will be grouped together",
-                "/lMTzd": "Active Now",
-                "IzzWNM": "Friends with live activity at the top",
-                "OvTyCX": "Organize by",
-                "aKZ12v": "Game",
-                "eVxFX3": "Alphabetical",
-                "lE79Lm": "Friends organized by the game they're playing now",
-                "wvbB3Z": "Customize Friends List"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -111,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T18:38:11.307300+00:00"
+    "timestamp": "2026-09-30T18:48:58.979124+00:00"
 }
