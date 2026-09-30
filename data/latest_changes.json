@@ -1,108 +1,66 @@
 {
-    "build_hash": "e288ab82300b508b0350a87cb82b9bf5cca51614",
+    "build_hash": "3d714f16bb82e2f9b8e00ef22e22f76c45c32391",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "켜지면 지원 확장자의 일반 텍스트 미리보기를 Markdown으로 렌더링합니다."
-                    }
-                ],
-                "detailed_summary": "기본 상태에서는 `.md`, `.markdown`, `.mkd` 같은 일반 텍스트 첨부가 Markdown으로 렌더링되지 않습니다. 비교안에서는 현재 Canary의 PlaintextFilePreview가 이 설정을 읽고, 지원하는 파일을 제한된 태그 집합으로 파싱해 제목·목록·링크·코드 블록 등의 서식을 보여 줍니다. 같은 시점에 ‘Render Markdown’ 메뉴 문구도 추가됐습니다. 원본 파일을 수정하거나 업로드 형식을 바꾸는 기능은 아닙니다.",
-                "evidence": [
-                    "Current Canary PlaintextFilePreview reads the exact experiment for markdown, md, and mkd attachments.",
-                    "The enabled path parses Markdown with a restricted allowed-tag set and renders formatted content.",
-                    "Same-window copy adds the Render Markdown action."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Markdown 첨부 파일 미리보기",
-                "generated_at": "2026-09-12T04:08:49Z",
-                "importance": "high",
-                "summary": "채팅에 첨부된 Markdown 파일을 서식이 적용된 미리보기로 읽게 하는 실험입니다.",
-                "why_it_matters": "README나 메모 파일을 내려받지 않고 채팅 안에서 구조를 살려 빠르게 읽을 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "When enabled, plain-text previews for supported extensions render as Markdown."
-                    }
-                ],
-                "detailed_summary": "By default, plain-text attachments such as .md, .markdown, and .mkd are not rendered as Markdown under this experiment. The treatment makes current Canary PlaintextFilePreview parse supported files with a restricted tag set and show formatting such as headings, lists, links, and code blocks. A Render Markdown action was added in the same window. This changes presentation only; it does not edit the source file or change its upload format.",
-                "evidence": [
-                    "Current Canary PlaintextFilePreview reads the exact experiment for markdown, md, and mkd attachments.",
-                    "The enabled path parses Markdown with a restricted allowed-tag set and renders formatted content.",
-                    "Same-window copy adds the Render Markdown action."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Markdown attachment previews",
-                "generated_at": "2026-09-12T04:08:49Z",
-                "importance": "high",
-                "summary": "Renders attached Markdown files as formatted previews inside chat.",
-                "why_it_matters": "Users can read the structure of README and note files in chat without first downloading them."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-markdown-file-preview",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-09-30T18:20:49Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-markdown-file-preview",
-            "kind": "user",
-            "timestamp": "2026-09-30T18:20:49Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-improved-shop-loading",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-improved-shop-loading",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -133,7 +91,17 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/b1eZT": "Group Friends in Voice",
+                "/bZ+Av": "Friends in the same voice channel will be grouped together",
+                "/lMTzd": "Active Now",
+                "IzzWNM": "Friends with live activity at the top",
+                "OvTyCX": "Organize by",
+                "aKZ12v": "Game",
+                "eVxFX3": "Alphabetical",
+                "lE79Lm": "Friends organized by the game they're playing now",
+                "wvbB3Z": "Customize Friends List"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -143,5 +111,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T18:27:24.739267+00:00"
+    "timestamp": "2026-09-30T18:38:11.307300+00:00"
 }
