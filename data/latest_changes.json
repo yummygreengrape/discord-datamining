@@ -1,5 +1,5 @@
 {
-    "build_hash": "9f3e2447871e1bf3059f3209408f8e252813598e",
+    "build_hash": "c2dab2630d5f9b2842d91b077d803f8dd00aaf62",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-referral-profile-contextual-menu-upsell",
+            "kind": "user",
+            "timestamp": "2026-09-30T20:20:23Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -40,8 +52,24 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "/Pkxmw": "Last in Category",
+                "8fQe3x": "Last in List",
+                "9qpRrY": "First in Folder",
+                "A95Fzm": "Move to...",
+                "IMqgs9": "First in List",
+                "IfgLzT": "No Folder",
+                "JNgfIL": "Grant {recipientName} access to awesome Nitro perks like custom profiles, animated emojis, and more.",
+                "JSSBzo": "Share Nitro",
+                "Q9TKt6": "First in Category",
+                "RZY2fr": "Category",
+                "V3e2Yd": "Needs your input",
+                "ytlaCY": "Last in Folder",
+                "znwvG4": "Folder"
+            },
+            "deleted": {
+                "MANAGE_APP": "Manage App"
+            },
             "modified": {}
         },
         "ko": {
@@ -50,5 +78,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T20:58:29.887400+00:00"
+    "timestamp": "2026-09-30T21:09:28.011955+00:00"
 }
