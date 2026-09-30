@@ -1,27 +1,37 @@
 {
-    "build_hash": "c2dab2630d5f9b2842d91b077d803f8dd00aaf62",
+    "build_hash": "4c46de186a5193a9430b23e997fbe78ae13d02dd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-wysiwyg-show-dns-to-non-nitro",
+            "kind": "user",
+            "timestamp": "2026-09-30T21:20:14Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-wysiwyg-user-profile-premium-try-it-out",
+            "kind": "user",
+            "timestamp": "2026-09-30T21:20:14Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-referral-profile-contextual-menu-upsell",
-            "kind": "user",
-            "timestamp": "2026-09-30T20:20:23Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -52,31 +62,101 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "/Pkxmw": "Last in Category",
-                "8fQe3x": "Last in List",
-                "9qpRrY": "First in Folder",
-                "A95Fzm": "Move to...",
-                "IMqgs9": "First in List",
-                "IfgLzT": "No Folder",
-                "JNgfIL": "Grant {recipientName} access to awesome Nitro perks like custom profiles, animated emojis, and more.",
-                "JSSBzo": "Share Nitro",
-                "Q9TKt6": "First in Category",
-                "RZY2fr": "Category",
-                "V3e2Yd": "Needs your input",
-                "ytlaCY": "Last in Folder",
-                "znwvG4": "Folder"
-            },
+            "added": {},
             "deleted": {
-                "MANAGE_APP": "Manage App"
+                "PiPq7M": "{presetName} profile preset"
             },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "PiPq7M": "{presetName} 프로필 프리셋"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T21:09:28.011955+00:00"
+    "string_context": {
+        "en": {
+            "PiPq7M": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "현재 프로필 localization에서 프리셋 이름, 미리보기 상태, Profile Styles 개요로 돌아가기, `Surprise Me`와 Nitro 커스터마이징 안내가 함께 배치됩니다. 따라서 이 문구들은 저장된 프로필이 즉시 바뀌었다는 뜻이 아니라 적용 전 스타일 조합을 미리 보는 흐름을 가리킵니다.",
+                    "generated_at": "2026-07-28T09:12:22.356Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "profile preset",
+                        "Profile Styles",
+                        "Surprise Me",
+                        "Nitro customizations",
+                        "profile preview"
+                    ],
+                    "search_intent": "Discord에서 `{presetName} profile preset` 문구가 무엇을 뜻하고 어떤 화면에서 보이는지, 그리고 별도 조치가 필요한지 확인하려는 검색입니다.",
+                    "source_context": "현재 Canary 프로필 문자열에서 profile preset, preview, Surprise Me, Nitro customizations가 같은 묶음으로 확인됩니다.",
+                    "summary": "Nitro 프로필 스타일을 프리셋으로 미리 보거나 무작위 조합을 시험하는 화면의 라벨입니다.",
+                    "what_it_means": "현재 선택한 프리셋의 미리보기이며, 실제 프로필에 저장된 상태와 구분됩니다.",
+                    "when_it_appears": "프로필 꾸미기에서 프리셋 또는 무작위 Nitro 스타일을 선택해 적용 전 모습을 확인할 때 나타납니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "Current profile localization places the preset name, preview state, a return to the Profile Styles overview, `Surprise Me`, and Nitro customization copy together. These labels describe a preview flow and do not mean the saved profile has already changed.",
+                    "generated_at": "2026-07-28T09:12:22.356Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "profile preset",
+                        "Profile Styles",
+                        "Surprise Me",
+                        "Nitro customizations",
+                        "profile preview"
+                    ],
+                    "search_intent": "A search to understand what `{presetName} profile preset` means in Discord, where it appears, and whether any action is required.",
+                    "source_context": "Current Canary profile strings group profile presets, previewing, Surprise Me, and Nitro customizations together.",
+                    "summary": "Labels for previewing a Nitro profile-style preset or trying a random combination of profile customizations.",
+                    "what_it_means": "It identifies the preset currently being previewed, separate from the profile's saved state.",
+                    "when_it_appears": "It appears while choosing a preset or random Nitro style in profile customization and previewing it before applying changes."
+                }
+            }
+        },
+        "ko": {
+            "PiPq7M": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "현재 프로필 localization은 프리셋 이름, 미리보기 상태, Profile Styles 개요로 돌아가기와 Nitro 사용자 지정 무작위 조합을 함께 배치합니다. 이 라벨은 적용 전 모습을 시험하는 흐름이며, 표시된 것만으로 저장된 프로필이 이미 바뀌었다는 뜻은 아닙니다.",
+                    "generated_at": "2026-07-30T09:14:41.320Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "profile preset",
+                        "Profile Styles",
+                        "Surprise Me",
+                        "Nitro customizations",
+                        "profile preview"
+                    ],
+                    "search_intent": "Discord에서 `{presetName} 프로필 프리셋` 문구가 왜 보였는지, 어떤 기능·상태를 뜻하는지, 필요한 대응이 있는지 확인하려는 검색입니다.",
+                    "source_context": "현재 Canary의 한국어 프로필 문자열이 profile preset, preview, Profile Styles와 Nitro customizations를 한 묶음으로 확인합니다.",
+                    "summary": "Nitro 프로필 스타일을 프리셋으로 미리 보거나 무작위 조합을 시험하는 한국어 라벨입니다.",
+                    "what_it_means": "현재 선택한 프리셋이나 무작위 스타일 조합의 미리보기이며 저장 완료 상태와 구분됩니다.",
+                    "when_it_appears": "프로필 꾸미기에서 프리셋 또는 무작위 Nitro 스타일을 선택해 적용 전 모습을 확인할 때 나타납니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "Current profile localization places the preset name, preview state, a return to the Profile Styles overview, and a randomized Nitro customization together. These labels describe trying a look before applying it; they do not mean the saved profile has already changed.",
+                    "generated_at": "2026-07-30T09:14:41.320Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "profile preset",
+                        "Profile Styles",
+                        "Surprise Me",
+                        "Nitro customizations",
+                        "profile preview"
+                    ],
+                    "search_intent": "A search to understand the Korean wording shown in Discord's Nitro profile style presets in Korean surface, why it appeared, and whether any action is needed.",
+                    "source_context": "Current Canary Korean profile strings group profile presets, previewing, Profile Styles, and Nitro customizations together.",
+                    "summary": "Korean labels for previewing a Nitro profile-style preset or trying a random combination of customizations.",
+                    "what_it_means": "It identifies the preset or randomized style currently being previewed, separate from the saved profile state.",
+                    "when_it_appears": "It appears while selecting a preset or random Nitro style in profile customization and previewing it before applying changes."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-09-30T21:20:16.715998+00:00"
 }
