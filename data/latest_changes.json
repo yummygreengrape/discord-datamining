@@ -1,5 +1,5 @@
 {
-    "build_hash": "a540513eb6ac798223e67446659d06d17e6902d4",
+    "build_hash": "c2999c14bc9b62cbbc36a8015ae0523bbbe6a3ba",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -42,12 +42,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "wJVyYR": {
-                    "new_value": "Confirm your age group",
-                    "old_value": "Confirm age group"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -55,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T00:34:50.848081+00:00"
+    "timestamp": "2026-09-30T00:45:40.519001+00:00"
 }
