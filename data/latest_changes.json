@@ -1,5 +1,5 @@
 {
-    "build_hash": "af0297e22f93d511d27122f05f4b9f18d1b6cdcf",
+    "build_hash": "6885b413d525bbfdb63ac041be304a740721fe06",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,18 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-manual-review-inconclusive-copy",
-            "kind": "user",
-            "timestamp": "2026-09-30T18:57:18Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -51,9 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "UIbYzl": "Our manual review couldn't determine that you're in the adult age group (18+), so $[content and settings meant for adults](contentAndSettingsHook) aren't available. You may be able to confirm your age group again later."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -63,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T18:59:48.193558+00:00"
+    "timestamp": "2026-09-30T19:10:47.949645+00:00"
 }
