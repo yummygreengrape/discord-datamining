@@ -1,5 +1,5 @@
 {
-    "build_hash": "992dee44c83edea51c963add5a4bc2a016d1bfed",
+    "build_hash": "8db0446f024d5d35f82ba4f18a4dcf2e4c0564b2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,15 +40,22 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "GJ27pD": "Some activities are currently unavailable in Brazil. Read more: {supportArticleUrl}"
+            },
+            "deleted": {
+                "UNBAN_USER_TITLE": "Unban '{user}'",
+                "XvAG5t": "Unban '{user}'"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "XvAG5t": "'{user}' 님 차단 해제하기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T22:14:00.347986+00:00"
+    "timestamp": "2026-09-30T22:24:55.110637+00:00"
 }
