@@ -1,5 +1,5 @@
 {
-    "build_hash": "3e42245ed54d309b99fb3e4248045919b720c1c6",
+    "build_hash": "e70ac65a9c341ce83ebc9d448f00084e01037838",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,19 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-referral-profile-contextual-menu-upsell",
-            "kind": "user",
-            "timestamp": "2026-09-30T20:20:23Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -52,23 +40,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "JNgfIL": "Grant {recipientName} access to awesome Nitro perks like custom profiles, animated emojis, and more.",
-                "JSSBzo": "Share Nitro"
-            },
-            "deleted": {
-                "5S3sQF": "Manage App",
-                "MANAGE_APP": "Manage App"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "5S3sQF": "앱 관리하기"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T20:25:55.940979+00:00"
+    "timestamp": "2026-09-30T20:36:43.537096+00:00"
 }
