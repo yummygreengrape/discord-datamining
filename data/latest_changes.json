@@ -1,30 +1,8 @@
 {
-    "build_hash": "4c46de186a5193a9430b23e997fbe78ae13d02dd",
+    "build_hash": "49fbbe8c56e227bec436c75b979eaa9af40c4d8e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-wysiwyg-show-dns-to-non-nitro",
-            "kind": "user",
-            "timestamp": "2026-09-30T21:20:14Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-wysiwyg-user-profile-premium-try-it-out",
-            "kind": "user",
-            "timestamp": "2026-09-30T21:20:14Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -64,99 +42,237 @@
         "en": {
             "added": {},
             "deleted": {
-                "PiPq7M": "{presetName} profile preset"
+                "XwadDC": "Subscribe to Nitro to redeem with Orbs",
+                "cg95CA": "Nitro Exclusive: Redeem with Orbs",
+                "iFXcjn": "**Nitro Exclusive: Purchase {applicationName} items with Orbs!** Ends {endDate}.",
+                "jVjr/j": "Earn Orbs by completing Discord Quests"
             },
             "modified": {}
         },
         "ko": {
             "added": {},
             "deleted": {
-                "PiPq7M": "{presetName} 프로필 프리셋"
+                "XwadDC": "Orbs로 교환하려면 Nitro 구독하기",
+                "cg95CA": "Nitro 전용: Orbs로 교환하기",
+                "iFXcjn": "bHookNitro 전용: Orbs로 {applicationName} 아이템을 구매하세요!종료: {endDate}.",
+                "jVjr/j": "Discord 퀘스트를 완료하여 Orbs 획득하기"
             },
             "modified": {}
         }
     },
     "string_context": {
         "en": {
-            "PiPq7M": {
+            "iFXcjn": {
                 "analysis": {
                     "confidence": "high",
-                    "detailed_summary": "현재 프로필 localization에서 프리셋 이름, 미리보기 상태, Profile Styles 개요로 돌아가기, `Surprise Me`와 Nitro 커스터마이징 안내가 함께 배치됩니다. 따라서 이 문구들은 저장된 프로필이 즉시 바뀌었다는 뜻이 아니라 적용 전 스타일 조합을 미리 보는 흐름을 가리킵니다.",
-                    "generated_at": "2026-07-28T09:12:22.356Z",
-                    "intent_type": "feature_or_setting_explanation",
+                    "detailed_summary": "Originally {orbAmount} orbs와 discount percentage가 적용된 Price 문구가 같은 시점에 추가됐고, Nitro 전용 Orbs 구매 문구도 함께 수정됐습니다. 현재 Shop 문자열 묶음에는 Orbs 가격, Nitro 구독자 할인, 상품 소유 상태가 함께 있습니다. 공개 Discord Orbs FAQ 검색 결과도 Orbs를 Quest로 얻어 Shop에서 쓰는 보상이라고 설명하지만, 각 할인율과 대상 상품은 실제 Shop 표시를 따라야 합니다.",
+                    "generated_at": "2026-07-16T09:15:49.744650Z",
+                    "intent_type": "quest_or_reward_status",
                     "related_terms": [
-                        "profile preset",
-                        "Profile Styles",
-                        "Surprise Me",
-                        "Nitro customizations",
-                        "profile preview"
+                        "Discord Orbs",
+                        "Shop",
+                        "원래 가격",
+                        "할인율",
+                        "Nitro 전용",
+                        "Quest 보상"
                     ],
-                    "search_intent": "Discord에서 `{presetName} profile preset` 문구가 무엇을 뜻하고 어떤 화면에서 보이는지, 그리고 별도 조치가 필요한지 확인하려는 검색입니다.",
-                    "source_context": "현재 Canary 프로필 문자열에서 profile preset, preview, Surprise Me, Nitro customizations가 같은 묶음으로 확인됩니다.",
-                    "summary": "Nitro 프로필 스타일을 프리셋으로 미리 보거나 무작위 조합을 시험하는 화면의 라벨입니다.",
-                    "what_it_means": "현재 선택한 프리셋의 미리보기이며, 실제 프로필에 저장된 상태와 구분됩니다.",
-                    "when_it_appears": "프로필 꾸미기에서 프리셋 또는 무작위 Nitro 스타일을 선택해 적용 전 모습을 확인할 때 나타납니다."
+                    "search_intent": "사용자는 Orbs 원래 가격과 할인 가격의 차이, Nitro 전용 할인인지, Shop에서 Orbs를 어디에 쓰는지 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "현재 Shop 문자열은 원래 Orbs 가격, 할인 적용 가격, Nitro 전용 Orbs 구매 기간을 함께 담고 있으며 공개 Orbs FAQ 검색 결과도 Shop 사용 맥락을 확인해 줍니다.",
+                    "summary": "Discord Shop에서 할인 전 Orbs 가격과 할인 적용 후 가격을 함께 보여 주는 가격 표시 문구입니다.",
+                    "what_it_means": "표시된 원래 Orbs 가격에서 할인율이 적용되어 현재 더 적은 Orbs로 교환할 수 있다는 뜻입니다.",
+                    "when_it_appears": "Discord Shop에서 Orbs로 교환 가능한 상품의 가격 또는 Nitro 전용 Orbs 프로모션을 볼 때 나타납니다."
                 },
                 "analysis_en": {
                     "confidence": "high",
-                    "detailed_summary": "Current profile localization places the preset name, preview state, a return to the Profile Styles overview, `Surprise Me`, and Nitro customization copy together. These labels describe a preview flow and do not mean the saved profile has already changed.",
-                    "generated_at": "2026-07-28T09:12:22.356Z",
-                    "intent_type": "feature_or_setting_explanation",
+                    "detailed_summary": "Originally {orbAmount} orbs and the discounted Price label were added together, while Nitro-exclusive Orbs purchase copy was also updated. The current Shop localization groups Orbs prices, Nitro member discounts, and ownership states. Discord's public Orbs FAQ search result also describes Orbs as Quest rewards spent in the Shop, but the actual discount and eligible item must come from the live Shop display.",
+                    "generated_at": "2026-07-16T09:15:49.744650Z",
+                    "intent_type": "quest_or_reward_status",
                     "related_terms": [
-                        "profile preset",
-                        "Profile Styles",
-                        "Surprise Me",
-                        "Nitro customizations",
-                        "profile preview"
+                        "Discord Orbs",
+                        "Shop",
+                        "original price",
+                        "discount percentage",
+                        "Nitro exclusive",
+                        "Quest rewards"
                     ],
-                    "search_intent": "A search to understand what `{presetName} profile preset` means in Discord, where it appears, and whether any action is required.",
-                    "source_context": "Current Canary profile strings group profile presets, previewing, Surprise Me, and Nitro customizations together.",
-                    "summary": "Labels for previewing a Nitro profile-style preset or trying a random combination of profile customizations.",
-                    "what_it_means": "It identifies the preset currently being previewed, separate from the profile's saved state.",
-                    "when_it_appears": "It appears while choosing a preset or random Nitro style in profile customization and previewing it before applying changes."
+                    "search_intent": "Searchers likely want to understand the original versus discounted Orbs price, whether the discount is Nitro-only, and where Orbs are spent in the Shop.",
+                    "source_context": "Current Shop strings group original Orbs pricing, discounted pricing, and a timed Nitro-exclusive Orbs purchase; the public Orbs FAQ search result confirms the Shop-spending context.",
+                    "summary": "These Shop price labels show the original Orbs amount and the discounted Orbs price together.",
+                    "what_it_means": "It means a discount has been applied to the original Orbs amount, allowing the item to be redeemed for fewer Orbs at that time.",
+                    "when_it_appears": "Appears on Orbs-eligible Shop items and Nitro-exclusive Orbs promotions."
                 }
             }
         },
         "ko": {
-            "PiPq7M": {
+            "XwadDC": {
                 "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "현재 프로필 localization은 프리셋 이름, 미리보기 상태, Profile Styles 개요로 돌아가기와 Nitro 사용자 지정 무작위 조합을 함께 배치합니다. 이 라벨은 적용 전 모습을 시험하는 흐름이며, 표시된 것만으로 저장된 프로필이 이미 바뀌었다는 뜻은 아닙니다.",
-                    "generated_at": "2026-07-30T09:14:41.320Z",
-                    "intent_type": "feature_or_setting_explanation",
+                    "confidence": "medium",
+                    "detailed_summary": "“Special Quests” 자체는 짧은 라벨이지만, 같은 최신 변경 흐름에 Quest 플레이, Orbs 획득, Nitro 전용 교환 문구가 함께 있어 Quest/보상 화면의 하위 구역 또는 필터명일 가능성이 있습니다. 다만 현재 문자열만으로 특별 퀘스트의 정확한 조건이나 노출 위치까지 확정할 수는 없습니다. Nitro 전용 교환 문구는 일부 아이템 교환이 Nitro 상태를 요구할 수 있음을 보여줍니다.",
+                    "generated_at": "2026-07-03T09:07:14Z",
+                    "intent_type": "quest_or_reward_status",
                     "related_terms": [
-                        "profile preset",
-                        "Profile Styles",
-                        "Surprise Me",
-                        "Nitro customizations",
-                        "profile preview"
+                        "Special Quests",
+                        "Discord Quests",
+                        "Orbs",
+                        "Nitro Exclusive",
+                        "redeem",
+                        "Quest Home"
                     ],
-                    "search_intent": "Discord에서 `{presetName} 프로필 프리셋` 문구가 왜 보였는지, 어떤 기능·상태를 뜻하는지, 필요한 대응이 있는지 확인하려는 검색입니다.",
-                    "source_context": "현재 Canary의 한국어 프로필 문자열이 profile preset, preview, Profile Styles와 Nitro customizations를 한 묶음으로 확인합니다.",
-                    "summary": "Nitro 프로필 스타일을 프리셋으로 미리 보거나 무작위 조합을 시험하는 한국어 라벨입니다.",
-                    "what_it_means": "현재 선택한 프리셋이나 무작위 스타일 조합의 미리보기이며 저장 완료 상태와 구분됩니다.",
-                    "when_it_appears": "프로필 꾸미기에서 프리셋 또는 무작위 Nitro 스타일을 선택해 적용 전 모습을 확인할 때 나타납니다."
+                    "search_intent": "사용자는 “Special Quests가 무엇인가”, “Orbs는 어떻게 얻나”, “Nitro가 있어야 교환 가능한가”를 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "최신 payload에는 Special Quests가 추가되었고, 같은 최근 문자열 묶음에는 Quest 플레이, Quest 완료로 Orbs 획득, Nitro 전용 Orbs 교환 문구가 있습니다. 최근 리포트는 Quest Home과 Orbs checkout 관련 근거를 별도 항목으로 기록했습니다.",
+                    "summary": "이 문구들은 Discord Quests와 Orbs 보상, 그리고 일부 Orbs 교환이 Nitro 구독자에게 제한될 수 있는 영역을 가리킵니다.",
+                    "what_it_means": "Quest를 완료하면 Orbs를 얻거나 아이템 교환에 사용할 수 있지만, 일부 교환은 Nitro 구독 상태와 연결될 수 있다는 의미입니다.",
+                    "what_to_do": "",
+                    "when_it_appears": "Quest Home, 보상/Orbs 화면, Shop 아이템 교환 또는 Nitro 전용 보상 안내에서 보일 가능성이 있습니다."
                 },
                 "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "Current profile localization places the preset name, preview state, a return to the Profile Styles overview, and a randomized Nitro customization together. These labels describe trying a look before applying it; they do not mean the saved profile has already changed.",
-                    "generated_at": "2026-07-30T09:14:41.320Z",
-                    "intent_type": "feature_or_setting_explanation",
+                    "confidence": "medium",
+                    "detailed_summary": "“Special Quests” is a short label, but it appears alongside recent Quest play, Orbs earning, and Nitro-exclusive redemption copy, so it is likely tied to a Quest or rewards surface. The strings alone do not confirm the exact eligibility rules or placement for Special Quests. Nitro-exclusive redemption copy does show that some item redemptions can require Nitro status.",
+                    "generated_at": "2026-07-03T09:07:14Z",
+                    "intent_type": "quest_or_reward_status",
                     "related_terms": [
-                        "profile preset",
-                        "Profile Styles",
-                        "Surprise Me",
-                        "Nitro customizations",
-                        "profile preview"
+                        "Special Quests",
+                        "Discord Quests",
+                        "Orbs",
+                        "Nitro Exclusive",
+                        "redeem",
+                        "Quest Home"
                     ],
-                    "search_intent": "A search to understand the Korean wording shown in Discord's Nitro profile style presets in Korean surface, why it appeared, and whether any action is needed.",
-                    "source_context": "Current Canary Korean profile strings group profile presets, previewing, Profile Styles, and Nitro customizations together.",
-                    "summary": "Korean labels for previewing a Nitro profile-style preset or trying a random combination of customizations.",
-                    "what_it_means": "It identifies the preset or randomized style currently being previewed, separate from the saved profile state.",
-                    "when_it_appears": "It appears while selecting a preset or random Nitro style in profile customization and previewing it before applying changes."
+                    "search_intent": "Searchers are likely trying to understand what Special Quests are, how to earn Orbs, or whether Nitro is required to redeem an item.",
+                    "source_context": "The latest payload adds Special Quests, and the surrounding recent string set includes playing a Quest, earning Orbs from Quests, and Nitro-exclusive Orbs redemption copy. The recent report separately documented Quest Home and Orbs checkout evidence.",
+                    "summary": "These strings point to Discord Quests, Orbs rewards, and cases where some Orbs redemptions may be limited to Nitro subscribers.",
+                    "what_it_means": "It means Quests can award Orbs or connect to item redemption, while some redemptions may be tied to Nitro subscription status.",
+                    "what_to_do": "",
+                    "when_it_appears": "Likely appears in Quest Home, rewards or Orbs surfaces, Shop item redemption, or Nitro-exclusive reward notices."
+                }
+            },
+            "cg95CA": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "“Special Quests” 자체는 짧은 라벨이지만, 같은 최신 변경 흐름에 Quest 플레이, Orbs 획득, Nitro 전용 교환 문구가 함께 있어 Quest/보상 화면의 하위 구역 또는 필터명일 가능성이 있습니다. 다만 현재 문자열만으로 특별 퀘스트의 정확한 조건이나 노출 위치까지 확정할 수는 없습니다. Nitro 전용 교환 문구는 일부 아이템 교환이 Nitro 상태를 요구할 수 있음을 보여줍니다.",
+                    "generated_at": "2026-07-03T09:07:14Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "Special Quests",
+                        "Discord Quests",
+                        "Orbs",
+                        "Nitro Exclusive",
+                        "redeem",
+                        "Quest Home"
+                    ],
+                    "search_intent": "사용자는 “Special Quests가 무엇인가”, “Orbs는 어떻게 얻나”, “Nitro가 있어야 교환 가능한가”를 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "최신 payload에는 Special Quests가 추가되었고, 같은 최근 문자열 묶음에는 Quest 플레이, Quest 완료로 Orbs 획득, Nitro 전용 Orbs 교환 문구가 있습니다. 최근 리포트는 Quest Home과 Orbs checkout 관련 근거를 별도 항목으로 기록했습니다.",
+                    "summary": "이 문구들은 Discord Quests와 Orbs 보상, 그리고 일부 Orbs 교환이 Nitro 구독자에게 제한될 수 있는 영역을 가리킵니다.",
+                    "what_it_means": "Quest를 완료하면 Orbs를 얻거나 아이템 교환에 사용할 수 있지만, 일부 교환은 Nitro 구독 상태와 연결될 수 있다는 의미입니다.",
+                    "what_to_do": "",
+                    "when_it_appears": "Quest Home, 보상/Orbs 화면, Shop 아이템 교환 또는 Nitro 전용 보상 안내에서 보일 가능성이 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "“Special Quests” is a short label, but it appears alongside recent Quest play, Orbs earning, and Nitro-exclusive redemption copy, so it is likely tied to a Quest or rewards surface. The strings alone do not confirm the exact eligibility rules or placement for Special Quests. Nitro-exclusive redemption copy does show that some item redemptions can require Nitro status.",
+                    "generated_at": "2026-07-03T09:07:14Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "Special Quests",
+                        "Discord Quests",
+                        "Orbs",
+                        "Nitro Exclusive",
+                        "redeem",
+                        "Quest Home"
+                    ],
+                    "search_intent": "Searchers are likely trying to understand what Special Quests are, how to earn Orbs, or whether Nitro is required to redeem an item.",
+                    "source_context": "The latest payload adds Special Quests, and the surrounding recent string set includes playing a Quest, earning Orbs from Quests, and Nitro-exclusive Orbs redemption copy. The recent report separately documented Quest Home and Orbs checkout evidence.",
+                    "summary": "These strings point to Discord Quests, Orbs rewards, and cases where some Orbs redemptions may be limited to Nitro subscribers.",
+                    "what_it_means": "It means Quests can award Orbs or connect to item redemption, while some redemptions may be tied to Nitro subscription status.",
+                    "what_to_do": "",
+                    "when_it_appears": "Likely appears in Quest Home, rewards or Orbs surfaces, Shop item redemption, or Nitro-exclusive reward notices."
+                }
+            },
+            "iFXcjn": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "“Special Quests” 자체는 짧은 라벨이지만, 같은 최신 변경 흐름에 Quest 플레이, Orbs 획득, Nitro 전용 교환 문구가 함께 있어 Quest/보상 화면의 하위 구역 또는 필터명일 가능성이 있습니다. 다만 현재 문자열만으로 특별 퀘스트의 정확한 조건이나 노출 위치까지 확정할 수는 없습니다. Nitro 전용 교환 문구는 일부 아이템 교환이 Nitro 상태를 요구할 수 있음을 보여줍니다.",
+                    "generated_at": "2026-07-03T09:07:14Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "Special Quests",
+                        "Discord Quests",
+                        "Orbs",
+                        "Nitro Exclusive",
+                        "redeem",
+                        "Quest Home"
+                    ],
+                    "search_intent": "사용자는 “Special Quests가 무엇인가”, “Orbs는 어떻게 얻나”, “Nitro가 있어야 교환 가능한가”를 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "최신 payload에는 Special Quests가 추가되었고, 같은 최근 문자열 묶음에는 Quest 플레이, Quest 완료로 Orbs 획득, Nitro 전용 Orbs 교환 문구가 있습니다. 최근 리포트는 Quest Home과 Orbs checkout 관련 근거를 별도 항목으로 기록했습니다.",
+                    "summary": "이 문구들은 Discord Quests와 Orbs 보상, 그리고 일부 Orbs 교환이 Nitro 구독자에게 제한될 수 있는 영역을 가리킵니다.",
+                    "what_it_means": "Quest를 완료하면 Orbs를 얻거나 아이템 교환에 사용할 수 있지만, 일부 교환은 Nitro 구독 상태와 연결될 수 있다는 의미입니다.",
+                    "what_to_do": "",
+                    "when_it_appears": "Quest Home, 보상/Orbs 화면, Shop 아이템 교환 또는 Nitro 전용 보상 안내에서 보일 가능성이 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "“Special Quests” is a short label, but it appears alongside recent Quest play, Orbs earning, and Nitro-exclusive redemption copy, so it is likely tied to a Quest or rewards surface. The strings alone do not confirm the exact eligibility rules or placement for Special Quests. Nitro-exclusive redemption copy does show that some item redemptions can require Nitro status.",
+                    "generated_at": "2026-07-03T09:07:14Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "Special Quests",
+                        "Discord Quests",
+                        "Orbs",
+                        "Nitro Exclusive",
+                        "redeem",
+                        "Quest Home"
+                    ],
+                    "search_intent": "Searchers are likely trying to understand what Special Quests are, how to earn Orbs, or whether Nitro is required to redeem an item.",
+                    "source_context": "The latest payload adds Special Quests, and the surrounding recent string set includes playing a Quest, earning Orbs from Quests, and Nitro-exclusive Orbs redemption copy. The recent report separately documented Quest Home and Orbs checkout evidence.",
+                    "summary": "These strings point to Discord Quests, Orbs rewards, and cases where some Orbs redemptions may be limited to Nitro subscribers.",
+                    "what_it_means": "It means Quests can award Orbs or connect to item redemption, while some redemptions may be tied to Nitro subscription status.",
+                    "what_to_do": "",
+                    "when_it_appears": "Likely appears in Quest Home, rewards or Orbs surfaces, Shop item redemption, or Nitro-exclusive reward notices."
+                }
+            },
+            "jVjr/j": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "“Special Quests” 자체는 짧은 라벨이지만, 같은 최신 변경 흐름에 Quest 플레이, Orbs 획득, Nitro 전용 교환 문구가 함께 있어 Quest/보상 화면의 하위 구역 또는 필터명일 가능성이 있습니다. 다만 현재 문자열만으로 특별 퀘스트의 정확한 조건이나 노출 위치까지 확정할 수는 없습니다. Nitro 전용 교환 문구는 일부 아이템 교환이 Nitro 상태를 요구할 수 있음을 보여줍니다.",
+                    "generated_at": "2026-07-03T09:07:14Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "Special Quests",
+                        "Discord Quests",
+                        "Orbs",
+                        "Nitro Exclusive",
+                        "redeem",
+                        "Quest Home"
+                    ],
+                    "search_intent": "사용자는 “Special Quests가 무엇인가”, “Orbs는 어떻게 얻나”, “Nitro가 있어야 교환 가능한가”를 확인하려고 검색했을 가능성이 큽니다.",
+                    "source_context": "최신 payload에는 Special Quests가 추가되었고, 같은 최근 문자열 묶음에는 Quest 플레이, Quest 완료로 Orbs 획득, Nitro 전용 Orbs 교환 문구가 있습니다. 최근 리포트는 Quest Home과 Orbs checkout 관련 근거를 별도 항목으로 기록했습니다.",
+                    "summary": "이 문구들은 Discord Quests와 Orbs 보상, 그리고 일부 Orbs 교환이 Nitro 구독자에게 제한될 수 있는 영역을 가리킵니다.",
+                    "what_it_means": "Quest를 완료하면 Orbs를 얻거나 아이템 교환에 사용할 수 있지만, 일부 교환은 Nitro 구독 상태와 연결될 수 있다는 의미입니다.",
+                    "what_to_do": "",
+                    "when_it_appears": "Quest Home, 보상/Orbs 화면, Shop 아이템 교환 또는 Nitro 전용 보상 안내에서 보일 가능성이 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "“Special Quests” is a short label, but it appears alongside recent Quest play, Orbs earning, and Nitro-exclusive redemption copy, so it is likely tied to a Quest or rewards surface. The strings alone do not confirm the exact eligibility rules or placement for Special Quests. Nitro-exclusive redemption copy does show that some item redemptions can require Nitro status.",
+                    "generated_at": "2026-07-03T09:07:14Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "Special Quests",
+                        "Discord Quests",
+                        "Orbs",
+                        "Nitro Exclusive",
+                        "redeem",
+                        "Quest Home"
+                    ],
+                    "search_intent": "Searchers are likely trying to understand what Special Quests are, how to earn Orbs, or whether Nitro is required to redeem an item.",
+                    "source_context": "The latest payload adds Special Quests, and the surrounding recent string set includes playing a Quest, earning Orbs from Quests, and Nitro-exclusive Orbs redemption copy. The recent report separately documented Quest Home and Orbs checkout evidence.",
+                    "summary": "These strings point to Discord Quests, Orbs rewards, and cases where some Orbs redemptions may be limited to Nitro subscribers.",
+                    "what_it_means": "It means Quests can award Orbs or connect to item redemption, while some redemptions may be tied to Nitro subscription status.",
+                    "what_to_do": "",
+                    "when_it_appears": "Likely appears in Quest Home, rewards or Orbs surfaces, Shop item redemption, or Nitro-exclusive reward notices."
                 }
             }
         }
     },
-    "timestamp": "2026-09-30T21:20:16.715998+00:00"
+    "timestamp": "2026-09-30T21:31:07.119668+00:00"
 }
