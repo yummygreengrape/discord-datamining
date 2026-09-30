@@ -1,148 +1,15 @@
 {
-    "build_hash": "fafc2971531f7822997d1125c6632e531d3fd7be",
+    "build_hash": "80db63bee2922b9c5c757c9860bdc3aec900d7dc",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "detailed_summary": "기본 상태에서는 첨부 동영상의 기존 재생 화면을 유지합니다. 비교안에서는 미디어 보기 화면 안에서 다른 Discord 동영상 재생기를 사용하며, 썸네일·가로세로 방향·자동 재생·음소거 상태를 전달합니다. 현재 클라이언트가 이 실험을 정확히 읽고 두 재생 경로 중 하나를 선택하는 것이 확인됩니다. 화질이나 재생 안정성이 실제로 좋아지는지는 이 코드만으로 알 수 없습니다.",
-                "evidence": [
-                    "The current media viewer reads the exact experiment before choosing its video player.",
-                    "The default keeps the existing player; the variant renders the Discord player with poster, orientation, playback, and mute state."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "첨부 동영상 재생",
-                "generated_at": "2026-09-26T04:10:39Z",
-                "importance": "medium",
-                "summary": "첨부 동영상을 크게 볼 때 사용할 재생기를 비교합니다.",
-                "why_it_matters": "첨부 동영상을 열었을 때의 재생 조작과 표시 방식이 달라질 수 있습니다."
-            },
-            "analysis_en": {
-                "detailed_summary": "The default keeps the existing playback view for attached videos. The variant renders a different Discord video player inside the media viewer, passing the poster, orientation, autoplay, and mute state. Current client code reads the exact experiment to choose between those paths. The code alone does not show whether video quality or reliability improves.",
-                "evidence": [
-                    "The current media viewer reads the exact experiment before choosing its video player.",
-                    "The default keeps the existing player; the variant renders the Discord player with poster, orientation, playback, and mute state."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Attachment video playback",
-                "generated_at": "2026-09-26T04:10:39Z",
-                "importance": "medium",
-                "summary": "Tests which player opens an attached video in the media viewer.",
-                "why_it_matters": "The playback controls and presentation people encounter when opening an attachment may change."
-            },
-            "config_keys": [
-                "useDiscordVideoPlayer"
-            ],
-            "default_config": {
-                "useDiscordVideoPlayer": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-dvp-for-attachments",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "useDiscordVideoPlayer": false
-                },
-                "1": {
-                    "useDiscordVideoPlayer": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "useDiscordVideoPlayer"
-            ],
-            "default_config": {
-                "useDiscordVideoPlayer": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-dvp-for-attachments",
-            "kind": "user",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "useDiscordVideoPlayer": false
-                },
-                "1": {
-                    "useDiscordVideoPlayer": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-linked-game-org-invites-dev",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-09-30T23:16:34Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-linked-game-org-invites-dev",
-            "kind": "user",
-            "timestamp": "2026-09-30T23:16:34Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-orbs-hero-carousel",
-            "kind": "user",
-            "timestamp": "2026-09-30T23:11:30Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -173,9 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "DC7gJB": "{fontName} + {effectName}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -185,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T23:18:28.920055+00:00"
+    "timestamp": "2026-09-30T23:29:18.992558+00:00"
 }
