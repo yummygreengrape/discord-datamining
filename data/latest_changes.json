@@ -1,5 +1,5 @@
 {
-    "build_hash": "5b9f764ed9c6b76e21bcdf4fc7d1a13b8f8a5a96",
+    "build_hash": "d2d6f7495441070507e639e883af638458c9f582",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "AcWS6c": "The live version is out of date. [{action}]({onUpdate})"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +52,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T03:34:08.055745+00:00"
+    "timestamp": "2026-09-30T04:05:27.222674+00:00"
 }
