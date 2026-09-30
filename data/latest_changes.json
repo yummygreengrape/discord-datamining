@@ -1,5 +1,5 @@
 {
-    "build_hash": "eb99673dbb5d5d893ea17badded0d65d993115db",
+    "build_hash": "992dee44c83edea51c963add5a4bc2a016d1bfed",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,9 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "GJ27pD": "Some activities are currently unavailable in Brazil. Read more: {supportArticleUrl}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -52,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-09-30T22:02:59.007974+00:00"
+    "timestamp": "2026-09-30T22:14:00.347986+00:00"
 }
