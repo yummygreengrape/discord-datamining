@@ -1,5 +1,5 @@
 {
-    "build_hash": "53562dbec3b1994ec920fb4127cb49f5c3eb49cb",
+    "build_hash": "56b32d9fc25fc3ecc5c3a164679a8bb7930bb099",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-edit-profile-collectibles-ordering",
+            "kind": "user",
+            "timestamp": "2026-10-01T17:23:55Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -41,14 +53,20 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "YWo6VL": "How it works",
+                "gXVvKc": "If enabled, you'll keep your Custom Invite Link and get your Boosts back if you reach Level 3."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "YWo6VL": "작동 방식",
+                "gXVvKc": "이 기능을 켜면 사용자 지정 초대 링크가 유지되며, 레벨 3에 도달하면 부스트를 돌려받을 수 있어요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T17:17:19.787390+00:00"
+    "timestamp": "2026-10-01T17:28:10.076795+00:00"
 }
