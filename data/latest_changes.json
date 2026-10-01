@@ -1,5 +1,5 @@
 {
-    "build_hash": "9004ba51c878c4775e089ba9cbcf433f4394345b",
+    "build_hash": "78082a1f6acd93e85399482fa9d59fb3f0862f0a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,26 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-safety-flows-legacy-required-actions",
+            "kind": "user",
+            "timestamp": "2026-10-01T15:21:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7",
+                "Variant 8"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -40,7 +59,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "OBp3V3": "GIF, button"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +71,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T15:03:59.597807+00:00"
+    "timestamp": "2026-10-01T15:24:59.091236+00:00"
 }
