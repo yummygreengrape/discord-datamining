@@ -1,22 +1,20 @@
 {
-    "build_hash": "78082a1f6acd93e85399482fa9d59fb3f0862f0a",
+    "build_hash": "b63f36957cf750beb7eae3815edf3d9ceeb9c272",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
-    "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [
+    "modified_experiments": [
         {
-            "experiment_source": "reference_comment",
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
             "id": "2026-09-safety-flows-legacy-required-actions",
             "kind": "user",
-            "timestamp": "2026-10-01T15:21:20Z",
-            "treatments": [
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
                 "Variant 0",
                 "Variant 1",
                 "Variant 2",
@@ -26,9 +24,14 @@
                 "Variant 6",
                 "Variant 7",
                 "Variant 8"
-            ]
+            ],
+            "status": "modified",
+            "treatments": []
         }
     ],
+    "new_api_endpoints": [],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -60,7 +63,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "OBp3V3": "GIF, button"
+                "YUcvdQ": "Suggested"
             },
             "deleted": {},
             "modified": {}
@@ -71,5 +74,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T15:24:59.091236+00:00"
+    "timestamp": "2026-10-01T15:56:17.027283+00:00"
 }
