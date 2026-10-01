@@ -1,5 +1,5 @@
 {
-    "build_hash": "47f55dcb943a33b25ea67cbfefd0c704a790c0fd",
+    "build_hash": "623894181f8dd313b0418fbc3064fc7a4bf35434",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,7 +41,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "122Ir6": "Change your mind",
+                "9KCASa": "Ask what else it could do",
+                "Oaq2Cc": "{content}",
+                "ZK2O25": "Add something",
+                "cK0dk1": "Your answers are in and the first build is starting. Type here any time to steer it:",
+                "sZCqrE": "Got it"
+            },
             "modified": {}
         },
         "ko": {
@@ -50,5 +57,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T19:58:58.945055+00:00"
+    "timestamp": "2026-10-01T20:09:47.313010+00:00"
 }
