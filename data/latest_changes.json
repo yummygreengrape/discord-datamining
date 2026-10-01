@@ -1,5 +1,5 @@
 {
-    "build_hash": "95cf2c52b6d8bac1122412af0e3d2318c470385d",
+    "build_hash": "b85d85b7c3d9eb534bffe0db4a3d16ae74d7d30c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,14 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "JHcSBI": "Your Requests",
-                "PY1iDb": "{count, number} pending",
-                "QX4H2E": "Hide note",
-                "d90MfZ": "{count, plural, one {# other in voice} other {# others in voice}}",
-                "eS6Nek": "{count, plural, one {# outgoing request} other {# outgoing requests}}",
-                "xZupEi": "View note"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -57,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T20:35:10.712621+00:00"
+    "timestamp": "2026-10-01T20:46:34.513839+00:00"
 }
