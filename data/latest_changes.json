@@ -1,5 +1,5 @@
 {
-    "build_hash": "2fad5a9168b4ddf9c8fea99149d6672ed19d5d30",
+    "build_hash": "53562dbec3b1994ec920fb4127cb49f5c3eb49cb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,12 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "WEBAUTHN_EDIT": "Rename Security Key",
-                "WEBAUTHN_NAME": "Name Security Key",
-                "WEBAUTHN_REGISTER": "Register Security Key",
-                "WEBAUTHN_SUCCESS": "Security Key Added"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -55,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T17:06:26.183564+00:00"
+    "timestamp": "2026-10-01T17:17:19.787390+00:00"
 }
