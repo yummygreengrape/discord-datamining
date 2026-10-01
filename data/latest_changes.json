@@ -1,5 +1,5 @@
 {
-    "build_hash": "c482e5b3cca755f9bf70fd52727e25288441789a",
+    "build_hash": "aaf987ba71b0c57567843d0dc2358aa151663607",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,9 +40,16 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "d0Z8kd": "Jump to you"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "o6mBdl": {
+                    "new_value": "View recent activity",
+                    "old_value": "See {name}'s recent activity"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -50,5 +57,49 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T17:50:48.131658+00:00"
+    "string_context": {
+        "en": {
+            "o6mBdl": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 문자열 ‘See {name}'s recent activity’는 특정 구성원의 최근 게임 활동 상세를 여는 링크을(를) 나타냅니다. 같은 시각에 순위, 상위 3명, 최근 플레이, 총 게임 시간, 고유 게임 수, 활동 공유 인원 조건과 기간제 경쟁 문구가 한 묶음으로 추가됐습니다. 이는 서버 구성원이 공유한 게임 활동을 집계하는 리더보드로 보이지만 실제 노출 범위는 확인되지 않습니다.",
+                    "generated_at": "2026-09-21T00:11:28Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "leaderboard",
+                        "gaming activity",
+                        "competition",
+                        "rank",
+                        "game time",
+                        "server members"
+                    ],
+                    "search_intent": "Discord에서 ‘See {name}'s recent activity’를 본 사용자가 이 문구가 특정 구성원의 최근 게임 활동 상세를 여는 링크인지, 어느 화면에서 보이고 어떤 상태를 뜻하는지 확인하려는 검색입니다.",
+                    "source_context": "같은 시각에 순위, 상위 3명, 최근 플레이, 총 게임 시간, 고유 게임 수, 활동 공유 인원 조건과 기간제 경쟁 문구가 한 묶음으로 추가됐습니다. 이는 서버 구성원이 공유한 게임 활동을 집계하는 리더보드로 보이지만 실제 노출 범위는 확인되지 않습니다.",
+                    "summary": "‘See {name}'s recent activity’가 가리키는 것은 특정 구성원의 최근 게임 활동 상세를 여는 링크입니다.",
+                    "what_it_means": "화면에 ‘See {name}'s recent activity’가 보이면 현재 단계가 특정 구성원의 최근 게임 활동 상세를 여는 링크이라는 뜻입니다.",
+                    "when_it_appears": "‘See {name}'s recent activity’는 서버 구성원의 공유된 게임 활동을 순위와 기간별 경쟁으로 보여 주는 화면에서 특정 구성원의 최근 게임 활동 상세를 여는 링크을(를) 표시할 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "Current copy “See {name}'s recent activity” represents the link for opening a specific member's recent gaming activity. Rank, top-three, recent-play, total-time, unique-game, minimum-sharing-member, and timed-competition strings arrived together. They describe a leaderboard built from server members' shared gaming activity, while actual rollout remains unconfirmed.",
+                    "generated_at": "2026-09-21T00:11:28Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "leaderboard",
+                        "gaming activity",
+                        "competition",
+                        "rank",
+                        "game time",
+                        "server members"
+                    ],
+                    "search_intent": "A user who saw “See {name}'s recent activity” in Discord is likely searching to confirm that it means the link for opening a specific member's recent gaming activity, where it appears, and which state it describes.",
+                    "source_context": "Rank, top-three, recent-play, total-time, unique-game, minimum-sharing-member, and timed-competition strings arrived together. They describe a leaderboard built from server members' shared gaming activity, while actual rollout remains unconfirmed.",
+                    "summary": "“See {name}'s recent activity” identifies the link for opening a specific member's recent gaming activity.",
+                    "what_it_means": "When “See {name}'s recent activity” is shown, the current step is presenting the link for opening a specific member's recent gaming activity.",
+                    "when_it_appears": "“See {name}'s recent activity” can appear on a server view that ranks shared gaming activity and shows a timed competition when Discord displays the link for opening a specific member's recent gaming activity."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-10-01T18:01:42.543914+00:00"
 }
