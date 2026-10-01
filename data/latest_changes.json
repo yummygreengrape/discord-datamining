@@ -1,5 +1,5 @@
 {
-    "build_hash": "b5a32e3fa98ef7706b33d55c44c5a947c366f9e7",
+    "build_hash": "a5a4800068c575fa33609884748883e0fd439408",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "49Jv0I": "Enable sharing to contribute to {widgetName}",
+                "B39UTK": "Connect Spotify account",
+                "BeCUHZ": "Enable each setting to contribute to {widgetName}. These can be changed at any time in Settings.",
+                "V5eNx6": "Connect Spotify",
+                "bZ0yGQ": "Used to share which songs you're listening to.",
+                "jB1fWC": "Link Account",
+                "y1neEe": "Connect Spotify and help build your server's music stats"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +58,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T19:07:22.387443+00:00"
+    "timestamp": "2026-10-01T19:18:28.643873+00:00"
 }
