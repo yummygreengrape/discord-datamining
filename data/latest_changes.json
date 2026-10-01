@@ -1,34 +1,12 @@
 {
-    "build_hash": "b63f36957cf750beb7eae3815edf3d9ceeb9c272",
+    "build_hash": "1ad6ef807c5c34f321579ca1ae6bada19dd2c033",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
-    "modified_experiments": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-safety-flows-legacy-required-actions",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5",
-                "Variant 6",
-                "Variant 7",
-                "Variant 8"
-            ],
-            "status": "modified",
-            "treatments": []
-        }
-    ],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -62,9 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "YUcvdQ": "Suggested"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -74,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T15:56:17.027283+00:00"
+    "timestamp": "2026-10-01T16:07:07.147810+00:00"
 }
