@@ -1,5 +1,5 @@
 {
-    "build_hash": "136405cb8e81f6f32a238ef1763987e125502ed1",
+    "build_hash": "6da0236dd80a078d86ec110caf15f499252bf977",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,11 +40,10 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "/GM1bA": "Room Size (m²)",
-                "l5XHLy": "Room Size in square meters"
+            "added": {
+                "W95rrI": "Open $[](channelIconHook){channel}"
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -53,5 +52,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T21:51:54.032604+00:00"
+    "timestamp": "2026-10-01T22:02:43.077385+00:00"
 }
