@@ -1,8 +1,19 @@
 {
-    "build_hash": "1261a526ff14232583d330fd36adea8121d6f1b9",
+    "build_hash": "5ed18170d29a89105ee4bafeff0e40b8a9570f89",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-non-friend-messages-requests-in-uk",
+            "kind": "user",
+            "timestamp": "2026-10-01T10:58:01Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -50,5 +61,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T10:48:45.370948+00:00"
+    "timestamp": "2026-10-01T10:59:36.723850+00:00"
 }
