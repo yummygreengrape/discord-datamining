@@ -1,5 +1,5 @@
 {
-    "build_hash": "c9092fd30dad790fe95fa488de148d169ff00032",
+    "build_hash": "3546a0c999807dafefd3eaf8e3561edf556ff026",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,14 +41,18 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "/wx+J2": "This takes 3 minutes on average"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "/wx+J2": "나이를 확인하는 데 잠시 시간이 걸릴 거예요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T06:49:17.617265+00:00"
+    "timestamp": "2026-10-01T07:00:07.740126+00:00"
 }
