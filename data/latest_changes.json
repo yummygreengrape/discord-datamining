@@ -1,206 +1,12 @@
 {
-    "build_hash": "abba06979f13c55168a38548bf0312823137f942",
+    "build_hash": "6837c8876687cb4495560d3793b2f1116d0cf196",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "processPriority",
-                        "note": "기본 높음, 비교안 보통 우선순위입니다."
-                    },
-                    {
-                        "key": "threadPriorityConfiguration",
-                        "note": "비교안별 0~3 설정입니다."
-                    }
-                ],
-                "detailed_summary": "기본 상태는 통화 처리에 높은 우선순위를 요청합니다. 네 비교안은 보통 우선순위를 요청하면서 내부 통화 작업의 우선순위 조합을 다르게 설정합니다. 새 빌드에서도 통화 연결을 만들기 직전에 이 설정값을 읽어 적용하는 경로가 확인됐고, 이번 raw 변경에서 우선순위 값 자체의 차이는 확인되지 않았습니다. 사용자에게 별도 스위치는 보이지 않으며 실제 통화 품질이나 다른 앱의 반응성 차이는 측정이 필요합니다.",
-                "evidence": [
-                    "Current Canary reads the exact priority config before media connection.",
-                    "The current row keeps HIGH in default and NORMAL with thread settings 0–3 in variants."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "통화 자원 우선순위",
-                "generated_at": "2026-09-30T04:08:56Z",
-                "importance": "low",
-                "summary": "음성·영상 통화를 시작할 때 Discord가 요청하는 컴퓨터 자원 우선순위를 비교합니다.",
-                "why_it_matters": "통화의 안정성과 다른 앱에 남는 자원 사이의 균형에 영향을 줄 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "processPriority",
-                        "note": "Default HIGH, variants NORMAL."
-                    },
-                    {
-                        "key": "threadPriorityConfiguration",
-                        "note": "Variant settings 0–3."
-                    }
-                ],
-                "detailed_summary": "The default requests high priority for call processing. Four variants request normal priority with different internal call-task priority combinations. The new build still reads these values immediately before connecting a call, and the raw change did not establish a change to the values themselves. There is no separate user control, and effects on call quality or other apps need measurement.",
-                "evidence": [
-                    "Current Canary reads the exact priority config before media connection.",
-                    "The current row keeps HIGH in default and NORMAL with thread settings 0–3 in variants."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Call resource priority",
-                "generated_at": "2026-09-30T04:08:56Z",
-                "importance": "low",
-                "summary": "Compares the system priority Discord requests when starting a voice or video call.",
-                "why_it_matters": "It may affect the balance between call stability and resources available to other apps."
-            },
-            "config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "default_config": {
-                "processPriority": "Y.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-02-process-boost-on-voice",
-            "kind": "user",
-            "old_config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "old_default_config": {
-                "processPriority": "j.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "1": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "1": {
-                    "processPriority": "Y.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "Y.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "Y.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "Y.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "default_config": {
-                "processPriority": "Y.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-02-process-boost-on-voice",
-            "kind": "user",
-            "old_config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "old_default_config": {
-                "processPriority": "j.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "1": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "j.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "1": {
-                    "processPriority": "Y.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "Y.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "Y.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "Y.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -234,9 +40,27 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "E7QYGI": "{sender} has gifted you Nitro for {intervalCount, plural, one {# month} other {# months}}!",
+                "G1Q40N": "{intervalCount, plural, one {# month} other {# months}} of Nitro",
+                "PyJC0V": "{intervalCount, plural, one {# Month} other {# Months}} of Nitro",
+                "boclBe": "Starting at"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "7hHUIS": {
+                    "new_value": "$[{count, plural, one {# play} other {# plays}}](countHook) {trend, select, up {trending up} down {trending down} other {}}",
+                    "old_value": "$[{count, plural, one {# play} other {# plays}}](countHook){trend, select, up {trending up} down {trending down} other {}}"
+                },
+                "AzIhRB": {
+                    "new_value": "listened to by $[{count, plural, one {# member} other {# members}}](countHook) this week. {trend, select, up {Up} down {Down} other {}}",
+                    "old_value": "listened to by $[{count, plural, one {# member} other {# members}}](countHook) this week.{trend, select, up {Up} down {Down} other {}}"
+                },
+                "yGqf0D": {
+                    "new_value": "by $[{memberCount, plural, one {# member} other {# members}}](memberCountHook) across $[{artistCount, plural, one {# artist} other {# artists}}](artistCountHook) this week. {trend, select, up {Up} down {Down} other {}}",
+                    "old_value": "by $[{memberCount, plural, one {# member} other {# members}}](memberCountHook) across $[{artistCount, plural, one {# artist} other {# artists}}](artistCountHook) this week.{trend, select, up {Up} down {Down} other {}}"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -244,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T21:30:05.496283+00:00"
+    "timestamp": "2026-10-01T21:41:00.481463+00:00"
 }
