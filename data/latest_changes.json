@@ -1,5 +1,5 @@
 {
-    "build_hash": "3d3be2eee2da4243e6fa26385708cabc20d3f785",
+    "build_hash": "b5a32e3fa98ef7706b33d55c44c5a947c366f9e7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,11 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "BLuvck": "There need to be at least {memberCount, number} server members sharing their Spotify listening activity to have popular music enabled.",
-                "Ko3a0+": "Share your Spotify listening activity to help unlock popular music. There need to be at least {memberCount, number} server members sharing theirs.",
-                "ZQxU8v": "At least {memberCount, number} server members need to be sharing their Spotify listening activity to show top listeners."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -54,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T18:46:10.365798+00:00"
+    "timestamp": "2026-10-01T19:07:22.387443+00:00"
 }
