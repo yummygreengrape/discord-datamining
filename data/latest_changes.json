@@ -1,5 +1,5 @@
 {
-    "build_hash": "64132e63d9ed6863e6692d8d46e9b8f5929395ac",
+    "build_hash": "aefba451a06076d3d13ed29dd1a6d05e404ad234",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-game-profiles-v3-communities-tab",
+            "kind": "user",
+            "timestamp": "2026-10-01T18:18:44Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -40,7 +52,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "2/aTr2": "This invite is invalid or has expired.",
+                "3xFZEo": "Communities",
+                "Cz/ZUM": "Join {noun}",
+                "GLe98U": "Invalid Invite",
+                "VuENGl": "{count}/{max}",
+                "jKi+kc": "{noun} Invite",
+                "nVMqjA": "Guild"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +70,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T18:12:33.737965+00:00"
+    "timestamp": "2026-10-01T18:23:23.286172+00:00"
 }
