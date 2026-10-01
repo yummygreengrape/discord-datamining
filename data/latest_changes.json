@@ -1,5 +1,5 @@
 {
-    "build_hash": "cd4746fa0f810c39bc2021df9dec2c4250075e0b",
+    "build_hash": "1cda988411670016f7c3b14981622c0d911fe38a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,69 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "mode"
+            ],
+            "default_config": {
+                "mode": "disabled"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-server-tooltip-notification-context",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-01T23:21:10Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "mode": "disabled"
+                },
+                "1": {
+                    "mode": "latest"
+                },
+                "2": {
+                    "mode": "mentions_first"
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "mode"
+            ],
+            "default_config": {
+                "mode": "disabled"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-server-tooltip-notification-context",
+            "kind": "user",
+            "timestamp": "2026-10-01T23:21:10Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "mode": "disabled"
+                },
+                "1": {
+                    "mode": "latest"
+                },
+                "2": {
+                    "mode": "mentions_first"
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -41,8 +102,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "336dtK": "{count, plural, one {# app slot left} other {# app slots left}}",
-                "JQU61N": "No app slots left"
+                "FwKQxx": "New activity in #{channelName}",
+                "HwW3zP": "Mention in #{channelName}"
             },
             "deleted": {},
             "modified": {}
@@ -53,5 +114,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T23:12:09.608792+00:00"
+    "timestamp": "2026-10-01T23:23:02.680399+00:00"
 }
