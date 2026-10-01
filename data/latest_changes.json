@@ -1,5 +1,5 @@
 {
-    "build_hash": "639ada304611a719d57ccd33f15c7c77c621c2de",
+    "build_hash": "cd4746fa0f810c39bc2021df9dec2c4250075e0b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,10 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "336dtK": "{count, plural, one {# app slot left} other {# app slots left}}",
+                "JQU61N": "No app slots left"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +53,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T23:01:20.891893+00:00"
+    "timestamp": "2026-10-01T23:12:09.608792+00:00"
 }
