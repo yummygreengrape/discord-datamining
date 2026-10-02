@@ -1,5 +1,5 @@
 {
-    "build_hash": "00f6a73371451c2e5e1465debe612ba339085927",
+    "build_hash": "50ee72644d456315b20bfb8859bf9c43ecb946c7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,9 +41,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "+1CM/5": "Team Fight Won",
-                "2bu+0V": "Your team won a team fight {allyKills}-{enemyKills}!",
-                "HTJgep": "Your team fought {allyKills}-{enemyKills}."
+                "XvX+Pj": "Keys requested again below",
+                "stFB6A": "Keys received"
             },
             "deleted": {},
             "modified": {}
@@ -54,5 +53,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-02T17:57:47.952848+00:00"
+    "timestamp": "2026-10-02T18:09:04.786948+00:00"
 }
