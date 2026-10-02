@@ -1,5 +1,5 @@
 {
-    "build_hash": "6fa1809599ea64051f8c8aa38fe63b5b2cb57ca4",
+    "build_hash": "3fd7709bbd4d131412ac406da958729de830b08e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-invite-accept-age-group-errors",
+            "kind": "user",
+            "timestamp": "2026-10-02T17:36:16Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -41,9 +53,15 @@
     "string_changes": {
         "en": {
             "added": {
+                "/jdd/7": "This emoji is from a Nitro Emoji Pack. It's in Beta and only available to select Nitro members. [Learn more.]({helpdeskArticle})",
                 "2yTd7D": "Unable to join server",
                 "8Ow7Xi": "Confirm your age to join this server.",
+                "BBk7Qw": "Upon joining the {noun}, they will automatically get added to this linked server if not already a member.",
+                "EnTIIr": "Invite to Linked {noun}",
                 "TCXgZL": "Confirm your age to join",
+                "cRK6SQ": "Invite friends to your {noun}",
+                "e3qAIz": "Unignore {name}",
+                "izBDZN": "Unblock {name}",
                 "vRw5lm": "You can't join this server because of your age group."
             },
             "deleted": {},
@@ -55,5 +73,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-02T17:34:48.784567+00:00"
+    "timestamp": "2026-10-02T17:46:06.967936+00:00"
 }
