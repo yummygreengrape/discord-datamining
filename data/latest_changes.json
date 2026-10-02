@@ -1,5 +1,5 @@
 {
-    "build_hash": "35f81224ae7843f32c2d26c12e06440862426539",
+    "build_hash": "3257d3901db9ba2a463d108bf7e0b5bf0effdbf2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,13 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "1AKkZ2": "Show plan",
-                "KdZinO": "Plan v{version}",
-                "dm6fQ8": "Hide plan",
-                "o2zmBB": "Replaced",
-                "ucdH2a": "What changed"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -56,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-02T00:38:18.097826+00:00"
+    "timestamp": "2026-10-02T00:59:24.350769+00:00"
 }
