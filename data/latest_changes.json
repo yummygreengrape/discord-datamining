@@ -1,5 +1,5 @@
 {
-    "build_hash": "a531a71468dc303049729e37f776d81fc1aad2d5",
+    "build_hash": "e43ef12f6dca82405d9a3b3826d912cf253a6612",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,11 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "8Hux/D": "Content and settings meant for adults aren’t available. Otherwise, Discord works the same. If this isn’t correct, confirm you’re an adult in settings.",
-                "UV17wE": "We’ve determined you’re in the teen age group (13-17)",
-                "rbqtTJ": "We’ve determined you’re in the teen age group (13-17). If this isn’t correct, $[confirm you’re an adult](hook)."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -54,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-02T16:26:34.704977+00:00"
+    "timestamp": "2026-10-02T16:37:23.542907+00:00"
 }
