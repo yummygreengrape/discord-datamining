@@ -1,5 +1,5 @@
 {
-    "build_hash": "f9a6f9e461aa3a0759867a810ef7b34b5773af29",
+    "build_hash": "b10fbdfa6a59dcde35751c83e109e982773e8f83",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "VqNHoS": "This sound is no longer active"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +52,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-02T13:58:15.909732+00:00"
+    "timestamp": "2026-10-02T14:50:13.180645+00:00"
 }
