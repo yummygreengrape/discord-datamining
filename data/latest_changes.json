@@ -1,5 +1,5 @@
 {
-    "build_hash": "6f0d2f1577396da8c928273244dd921aed5d7325",
+    "build_hash": "54301a4d5ce60ae6e78a8387d7a1005e478e79ed",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,61 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-guild-tooltip-lazy-content",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-02T00:25:09Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-guild-tooltip-lazy-content",
+            "kind": "user",
+            "timestamp": "2026-10-02T00:25:09Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -50,5 +103,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-02T00:16:42.295687+00:00"
+    "timestamp": "2026-10-02T00:27:30.442568+00:00"
 }
