@@ -1,5 +1,5 @@
 {
-    "build_hash": "c18b391e806a0e88db999a6419d9bdff7afe32ab",
+    "build_hash": "097556376eee14cccf19e704197e0a82143dd604",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,11 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "65zBhE": "Create Your Own",
+                "h+7Yx3": "Unlock a Server Tag using Boosts. Pick a server to get started.",
+                "xO5QzM": "Create a Server Tag"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +54,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-02T20:23:07.951265+00:00"
+    "timestamp": "2026-10-02T20:33:57.836547+00:00"
 }
