@@ -1,5 +1,5 @@
 {
-    "build_hash": "ebef47fb2a702834c32d02dc3623fb9cc27e02b3",
+    "build_hash": "23499e0f09da931d3791a06e77005fc2da7e577f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,16 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "8Hux/D": "Content and settings meant for adults aren’t available. Otherwise, Discord works the same. If this isn’t correct, confirm you’re an adult in settings.",
-                "BBk7Qw": "Upon joining the {noun}, they will automatically get added to this linked server if not already a member.",
-                "EnTIIr": "Invite to Linked {noun}",
-                "UV17wE": "We’ve determined you’re in the teen age group (13-17)",
-                "cRK6SQ": "Invite friends to your {noun}",
-                "e3qAIz": "Unignore {name}",
-                "izBDZN": "Unblock {name}",
-                "rbqtTJ": "We’ve determined you’re in the teen age group (13-17). If this isn’t correct, $[confirm you’re an adult](hook)."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -59,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-02T17:11:58.789747+00:00"
+    "timestamp": "2026-10-02T17:22:49.550521+00:00"
 }
