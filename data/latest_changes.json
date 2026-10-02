@@ -1,5 +1,5 @@
 {
-    "build_hash": "e6543bb1bb946ca626c050a7409ac65b0ce916ec",
+    "build_hash": "7f0c9cd43c7ce068a8dd00ffa37360f03129424e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,9 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "DrSoFn": "Conjure reacted with {emojiName}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -52,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-02T19:03:52.657050+00:00"
+    "timestamp": "2026-10-02T19:14:45.987305+00:00"
 }
