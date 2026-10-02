@@ -1,5 +1,5 @@
 {
-    "build_hash": "b51f45d0b50b103e82ed84d655af2974b68c2f09",
+    "build_hash": "640693b14c555f4daf57e64f6178bab77c5e3fe1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,28 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/jdd/7": "This emoji is from a Nitro Emoji Pack. It's in Beta and only available to select Nitro members. [Learn more.]({helpdeskArticle})",
+                "0+5+Oy": "Nitro Emoji Packs",
+                "2zxYCx": "Remove",
+                "6RMLFY": "{packName} Added",
+                "6mcVBm": "New emoji packs with Nitro",
+                "90jVsn": "Little Guys",
+                "AP3kT4": "Anime",
+                "DtK5IG": "View Set",
+                "FgkyO+": "This emoji is from a Nitro Emoji Pack and is currently in Beta.",
+                "HtUpwy": "View Emoji Packs",
+                "LbNlZd": "{packName} Removed",
+                "Nj8Y3C": "Check it Out",
+                "RhpNnh": "Cute one minute, unhinged the next. With Nitro, the perfect emoji is now just a tap away.",
+                "Tfkx5f": "Meow Squad",
+                "Tvdb5N": "Add to picker",
+                "UA8cNe": "{count, plural, one {# Emoji} other {# Emojis}}",
+                "VEfeux": "From {packName} Pack",
+                "ZiykFI": "Skelly",
+                "leUgZw": "Nitro exclusive emoji",
+                "rDWswi": "Happy Feet"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +71,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-02T22:01:42.766835+00:00"
+    "timestamp": "2026-10-02T22:13:10.643813+00:00"
 }
