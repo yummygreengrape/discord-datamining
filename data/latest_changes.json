@@ -1,5 +1,5 @@
 {
-    "build_hash": "23499e0f09da931d3791a06e77005fc2da7e577f",
+    "build_hash": "6fa1809599ea64051f8c8aa38fe63b5b2cb57ca4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,12 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "2yTd7D": "Unable to join server",
+                "8Ow7Xi": "Confirm your age to join this server.",
+                "TCXgZL": "Confirm your age to join",
+                "vRw5lm": "You can't join this server because of your age group."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +55,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-02T17:23:35.923816+00:00"
+    "timestamp": "2026-10-02T17:34:48.784567+00:00"
 }
