@@ -1,5 +1,5 @@
 {
-    "build_hash": "061d449f1ef276c1d98352315f60896b126da21f",
+    "build_hash": "6f0d2f1577396da8c928273244dd921aed5d7325",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,22 +41,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "AV/9eW": "Adding Linked Roles to any channel will give members Role Tags!",
-                "LINKED_ROLES_ADMIN_NUX_CONTENT": "Adding Linked Roles to any channel will give members Role Tags!",
-                "LINKED_ROLES_ADMIN_NUX_TITLE": "Did you know?",
-                "YMgaJt": "Did you know?"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "AV/9eW": "아무 채널에 연결된 역할을 추가하면 멤버에게 역할 태그가 생겨요!",
-                "YMgaJt": "알고 계셨나요?"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-01T23:55:31.753780+00:00"
+    "timestamp": "2026-10-02T00:16:42.295687+00:00"
 }
