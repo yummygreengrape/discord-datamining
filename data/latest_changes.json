@@ -1,5 +1,5 @@
 {
-    "build_hash": "a84a76068f51c794641d3a287e0895017dfbd7aa",
+    "build_hash": "271c9237cde5474b1a2c42c701c5b1683eccce8e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,15 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "/ZJIuo": "Love this sound? Nitro lets you use bHook{guildName}'s sounds anywhere.",
-                "T7AWtb": "Private Server",
-                "Z4UD3R": "This sound is from an invite-only server.",
-                "ixMwGl": "This sound can be used anywhere.",
-                "l3QzyC": "This sound is from your server.",
-                "rWPrJC": "Discord Default",
-                "s5No7R": "This sound is from a public server."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -58,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-02T18:42:07.810754+00:00"
+    "timestamp": "2026-10-02T18:52:57.033885+00:00"
 }
