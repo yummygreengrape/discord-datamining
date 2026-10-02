@@ -1,5 +1,5 @@
 {
-    "build_hash": "35e71ab1ceae3a24714abd3e7528216b1acb3277",
+    "build_hash": "3e6e7005249b07eccd2abeee3ce44ab8e6d72628",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,8 +40,14 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "akg5nT": "Favorite Nitro Perks: {filterName}"
+            },
+            "deleted": {
+                "QM4w4h": "An app conjured on this server lives here.",
+                "jLMpUv": "Open App",
+                "yLw6Hg": "App"
+            },
             "modified": {}
         },
         "ko": {
@@ -50,5 +56,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-02T20:44:52.014111+00:00"
+    "timestamp": "2026-10-02T21:05:59.328668+00:00"
 }
