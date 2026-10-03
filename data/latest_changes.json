@@ -1,5 +1,5 @@
 {
-    "build_hash": "0867216992a2004727108b58f0fb9e96f1d22fb1",
+    "build_hash": "41cd9e8efccd9a7619d6828aff7af5824832780b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,18 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "5hI77G": "Alerts mods",
+                "CJRQat": "Sample messages showing what the rule will do. Nothing here is posted.",
+                "DLAXIs": "Allowed",
+                "EVMdYA": "Alert",
+                "HMhHBG": "Member",
+                "Iz8bsB": "AutoMod Rule",
+                "OlKZgi": "Blocked",
+                "Uw7rNo": "About these examples",
+                "mtBG+G": "Timeout",
+                "xzy7Ie": "How it works in your server"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +61,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-03T00:53:57.682033+00:00"
+    "timestamp": "2026-10-03T01:25:14.931090+00:00"
 }
