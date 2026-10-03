@@ -1,53 +1,8 @@
 {
-    "build_hash": "554a2d4dc0349f3b7123512125936bf5d5979de5",
+    "build_hash": "f3e15a47a0ccc994d94e5380c16ebb5ddf2ab808",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "padding"
-            ],
-            "default_config": {
-                "padding": 2
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-sticker-padding",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-03T06:40:43Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "padding": 1
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "padding"
-            ],
-            "default_config": {
-                "padding": 2
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-sticker-padding",
-            "kind": "user",
-            "timestamp": "2026-10-03T06:40:43Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "padding": 1
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -95,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-03T06:45:51.017409+00:00"
+    "timestamp": "2026-10-03T08:18:52.823757+00:00"
 }
