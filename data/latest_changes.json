@@ -1,5 +1,5 @@
 {
-    "build_hash": "c4c91f563cb147f3dfb1f718e175fa73af7a868c",
+    "build_hash": "2973b1388ba5a087cdfa4782400a1e2dd0353a78",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,26 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/GiZNH": "Starting the dev server",
+                "/U4dT8": "Restoring project files",
+                "1TcEz0": "Enabling Live Reload",
+                "68nO2D": "Snapshot",
+                "AdGkz9": "Stopping the dev server",
+                "Fti+F5": "Live Reload",
+                "ITBIXb": "Couldn’t change Live Reload. Try again.",
+                "Ie457W": "Installing packages",
+                "Lu00h9": "Reloading the frame",
+                "RBhBVu": "Starting the sandbox",
+                "VcsnmW": "Live Reload is on, but the live preview isn’t running: {error}",
+                "ZASeZg": "Building the app",
+                "bm0WV1": "Preview updates instantly when files change.",
+                "huahAR": "Disabling Live Reload",
+                "kB51qn": "Live Reload is off, but the snapshot didn’t build: {error}",
+                "m3/pu8": "Experimental",
+                "mdVHTQ": "Preparing the dev server",
+                "zQ1CmU": "Building a snapshot"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +69,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-03T09:20:54.504505+00:00"
+    "timestamp": "2026-10-03T18:19:48.370678+00:00"
 }
