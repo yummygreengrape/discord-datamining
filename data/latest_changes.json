@@ -1,5 +1,5 @@
 {
-    "build_hash": "b245187213d2708ee25c97fc64b3951604b7a10a",
+    "build_hash": "0e0ca995bad0cf9e6c480f5427fd842f28bed238",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,156 +40,285 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "1UFWet": "This app doesn’t have a profile card set up yet.",
+                "30UxZU": "This app can’t update your card until you authorize it again in Authorized Apps.",
+                "BLKD4B": "Couldn’t request a refresh. Try again in a moment.",
+                "T1n7hc": "You just refreshed this. Try again in a minute.",
+                "um/5Kc": "Refresh requested. Your card will update shortly.",
+                "ypKX9A": "Couldn’t reach this app to ask for a refresh. Try again in a moment."
+            },
             "deleted": {},
-            "modified": {
-                "1Q4Cs2": {
-                    "new_value": "Interrupting to do this instead",
-                    "old_value": "Starting fresh with this"
-                },
-                "I9TkzD": {
-                    "new_value": "Folding this into the current work",
-                    "old_value": "Added to the current work"
-                },
-                "OAjkIT": {
-                    "new_value": "Answering on the side",
-                    "old_value": "A quick answer: the conjuring continues"
-                },
-                "gbjY6o": {
-                    "new_value": "Will do this after",
-                    "old_value": "Waiting for the current work to finish"
-                }
-            }
+            "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "1UFWet": "이 앱에는 아직 설정된 프로필 카드가 없습니다.",
+                "30UxZU": "승인된 앱에서 다시 승인할 때까지 이 앱은 카드를 업데이트할 수 없습니다.",
+                "BLKD4B": "새로 고침을 요청할 수 없습니다. 잠시 후 다시 시도해 주세요.",
+                "T1n7hc": "방금 새로 고침을 했습니다. 잠시 후 다시 시도해 보세요.",
+                "um/5Kc": "새로 고침이 요청되었습니다. 카드가 곧 업데이트됩니다.",
+                "ypKX9A": "이 앱에 연결하여 새로 고침을 요청할 수 없습니다. 잠시 후에 다시 시도해 주세요."
+            },
             "deleted": {},
             "modified": {}
         }
     },
     "string_context": {
         "en": {
-            "1Q4Cs2": {
+            "1UFWet": {
                 "analysis": {
                     "confidence": "high",
-                    "detailed_summary": "여섯 문구는 작업 중 생각 추가, 현재 작업에 추가됨, 완료 대기, 현재 작업 중단, Interrupted, Starting fresh를 같은 흐름으로 보여 줍니다. 이는 앱 제작 대화가 진행되는 동안 새 입력이 즉시 별도 실행되지 않고 현재 작업에 합쳐지거나 대기할 수 있으며, 사용자가 현재 작업을 끊는 선택도 있음을 뜻합니다. 중단 뒤 실제로 어떤 내부 상태가 보존되는지는 이 문자열만으로 확인되지 않습니다.",
-                    "generated_at": "2026-08-19T00:13:28.881209Z",
-                    "intent_type": "feature_or_setting_explanation",
+                    "detailed_summary": "프로필 위젯 새로고침은 연결된 앱에 최신 카드 정보를 다시 요청하는 동작입니다. 앱에 카드가 없거나, 프로필 접근 권한이 취소되었거나, 재인증이 필요하거나, 너무 자주 요청했거나, 앱에 연결할 수 없을 때 각각 다른 상태가 표시됩니다. 같은 시점의 공개 API 데이터에도 애플리케이션 위젯 새로고침 항목이 추가되었습니다.",
+                    "generated_at": "2026-08-28T00:12:36.449330Z",
+                    "intent_type": "error_or_blocked_action",
                     "related_terms": [
-                        "Add a thought while it works",
-                        "Interrupt the current work",
-                        "Added to the current work",
-                        "Waiting for the current work to finish",
-                        "Interrupted",
-                        "Starting fresh"
+                        "Profile Widget",
+                        "profile card",
+                        "Refresh App",
+                        "Authorized Apps",
+                        "reauthorize",
+                        "Custom card"
                     ],
-                    "search_intent": "Discord에서 ‘Starting fresh with this’ 문구를 본 사용자가 이 문구가 어느 화면의 기능·상태인지, 왜 표시됐는지, 필요한 대응이 있는지 확인하려는 검색입니다.",
-                    "source_context": "현재 Canary 앱 제작 locale 묶음에 추가·대기·중단·새로 시작 상태 여섯 개가 함께 추가되었습니다.",
-                    "summary": "Discord 앱 제작 작업이 진행 중일 때 새 요청을 현재 작업에 추가하거나 작업을 중단하는 상태·조작 문구입니다.",
-                    "what_it_means": "새 요청이 진행 중인 작업에 추가되거나 완료까지 기다리며, Interrupt는 현재 작업을 멈추고 다음 작업을 새로 시작하는 흐름을 가리킵니다.",
-                    "when_it_appears": "Discord 앱 프로젝트가 생성·수정 작업을 수행하는 동안 새 메시지를 입력하거나 현재 작업을 중단할 때 나타날 수 있습니다."
+                    "search_intent": "Discord Profile Widget 또는 프로필 카드가 갱신되지 않는 이유와 Refresh App이 하는 일을 확인하려는 검색입니다.",
+                    "source_context": "같은 시점의 문자열이 위젯 없음, 재인증 필요, 요청 제한, 앱 연결 실패, 새로고침 성공을 나누며 공개 API 데이터에도 애플리케이션 위젯 새로고침 항목이 추가되었습니다.",
+                    "summary": "앱이 만든 프로필 카드 또는 Profile Widget을 새로고침할 때 보이는 상태와 오류 문구입니다.",
+                    "what_it_means": "Discord가 앱에 새 카드 데이터를 요청했는지, 요청이 제한되었는지, 앱 권한이나 연결을 다시 설정해야 하는지를 알려 줍니다.",
+                    "what_to_do": "잠시 기다린 뒤 한 번만 다시 시도하세요. 권한이 취소되었다는 안내가 있으면 Authorized Apps에서 해당 앱을 다시 승인하고, 앱에 카드가 없거나 꺼져 있다는 안내는 앱 설정에서 먼저 해결해야 합니다.",
+                    "when_it_appears": "프로필 카드에서 Refresh Profile Widget 또는 Refresh App을 누르거나, 앱 연결 상태를 다시 확인할 때 나타납니다."
                 },
                 "analysis_en": {
                     "confidence": "high",
-                    "detailed_summary": "The six strings combine adding a thought while work continues, confirming it was added, waiting for current work, interrupting it, Interrupted, and Starting fresh. They indicate that new input may join or wait behind ongoing app-project work, while the user can also stop the current task. The strings do not reveal exactly which internal state is retained after an interruption.",
-                    "generated_at": "2026-08-19T00:13:28.881209Z",
-                    "intent_type": "feature_or_setting_explanation",
+                    "detailed_summary": "Refreshing a Profile Widget asks the connected app for current card data. Separate states cover an app with no card, revoked profile access, required reauthorization, requests made too quickly, and an app that cannot be reached. Public API data from the same period also adds an application-widget refresh entry.",
+                    "generated_at": "2026-08-28T00:12:36.449330Z",
+                    "intent_type": "error_or_blocked_action",
                     "related_terms": [
-                        "Add a thought while it works",
-                        "Interrupt the current work",
-                        "Added to the current work",
-                        "Waiting for the current work to finish",
-                        "Interrupted",
-                        "Starting fresh"
+                        "Profile Widget",
+                        "profile card",
+                        "Refresh App",
+                        "Authorized Apps",
+                        "reauthorize",
+                        "Custom card"
                     ],
-                    "search_intent": "A visitor likely searched for “Starting fresh with this” to identify the Discord surface, understand why it appeared, and learn whether any response is needed.",
-                    "source_context": "The current Canary app-creation locale group adds the six add, wait, interrupt, interrupted, and starting-fresh states together.",
-                    "summary": "Status and controls for adding a new request to ongoing Discord app-project work or interrupting that work.",
-                    "what_it_means": "A new request can be added to or wait for the active task; Interrupt stops the current work so a subsequent task can start fresh.",
-                    "when_it_appears": "May appear while a Discord app project is being generated or revised and the user submits another message or interrupts the current work."
+                    "search_intent": "The searcher likely wants to know why a Discord Profile Widget or profile card is not updating and what Refresh App does.",
+                    "source_context": "Same-window strings distinguish no widget, reauthorization, rate limiting, app reachability, and refresh success; public API data also adds an application-widget refresh entry.",
+                    "summary": "These states and errors appear while refreshing an app-provided profile card or Profile Widget.",
+                    "what_it_means": "It tells you whether Discord requested new card data, rate-limited the request, or needs the app connection or authorization restored.",
+                    "what_to_do": "Wait briefly and retry once. If access was revoked, authorize the app again in Authorized Apps. If the card is missing or switched off, fix that in the app's setup before refreshing.",
+                    "when_it_appears": "It appears after choosing Refresh Profile Widget or Refresh App, or when Discord rechecks the app connection."
                 }
             },
-            "I9TkzD": {
+            "30UxZU": {
                 "analysis": {
                     "confidence": "high",
-                    "detailed_summary": "여섯 문구는 작업 중 생각 추가, 현재 작업에 추가됨, 완료 대기, 현재 작업 중단, Interrupted, Starting fresh를 같은 흐름으로 보여 줍니다. 이는 앱 제작 대화가 진행되는 동안 새 입력이 즉시 별도 실행되지 않고 현재 작업에 합쳐지거나 대기할 수 있으며, 사용자가 현재 작업을 끊는 선택도 있음을 뜻합니다. 중단 뒤 실제로 어떤 내부 상태가 보존되는지는 이 문자열만으로 확인되지 않습니다.",
-                    "generated_at": "2026-08-19T00:13:28.881209Z",
-                    "intent_type": "feature_or_setting_explanation",
+                    "detailed_summary": "프로필 위젯 새로고침은 연결된 앱에 최신 카드 정보를 다시 요청하는 동작입니다. 앱에 카드가 없거나, 프로필 접근 권한이 취소되었거나, 재인증이 필요하거나, 너무 자주 요청했거나, 앱에 연결할 수 없을 때 각각 다른 상태가 표시됩니다. 같은 시점의 공개 API 데이터에도 애플리케이션 위젯 새로고침 항목이 추가되었습니다.",
+                    "generated_at": "2026-08-28T00:12:36.449330Z",
+                    "intent_type": "error_or_blocked_action",
                     "related_terms": [
-                        "Add a thought while it works",
-                        "Interrupt the current work",
-                        "Added to the current work",
-                        "Waiting for the current work to finish",
-                        "Interrupted",
-                        "Starting fresh"
+                        "Profile Widget",
+                        "profile card",
+                        "Refresh App",
+                        "Authorized Apps",
+                        "reauthorize",
+                        "Custom card"
                     ],
-                    "search_intent": "Discord에서 ‘Added to the current work’ 문구를 본 사용자가 이 문구가 어느 화면의 기능·상태인지, 왜 표시됐는지, 필요한 대응이 있는지 확인하려는 검색입니다.",
-                    "source_context": "현재 Canary 앱 제작 locale 묶음에 추가·대기·중단·새로 시작 상태 여섯 개가 함께 추가되었습니다.",
-                    "summary": "Discord 앱 제작 작업이 진행 중일 때 새 요청을 현재 작업에 추가하거나 작업을 중단하는 상태·조작 문구입니다.",
-                    "what_it_means": "새 요청이 진행 중인 작업에 추가되거나 완료까지 기다리며, Interrupt는 현재 작업을 멈추고 다음 작업을 새로 시작하는 흐름을 가리킵니다.",
-                    "when_it_appears": "Discord 앱 프로젝트가 생성·수정 작업을 수행하는 동안 새 메시지를 입력하거나 현재 작업을 중단할 때 나타날 수 있습니다."
+                    "search_intent": "Discord Profile Widget 또는 프로필 카드가 갱신되지 않는 이유와 Refresh App이 하는 일을 확인하려는 검색입니다.",
+                    "source_context": "같은 시점의 문자열이 위젯 없음, 재인증 필요, 요청 제한, 앱 연결 실패, 새로고침 성공을 나누며 공개 API 데이터에도 애플리케이션 위젯 새로고침 항목이 추가되었습니다.",
+                    "summary": "앱이 만든 프로필 카드 또는 Profile Widget을 새로고침할 때 보이는 상태와 오류 문구입니다.",
+                    "what_it_means": "Discord가 앱에 새 카드 데이터를 요청했는지, 요청이 제한되었는지, 앱 권한이나 연결을 다시 설정해야 하는지를 알려 줍니다.",
+                    "what_to_do": "잠시 기다린 뒤 한 번만 다시 시도하세요. 권한이 취소되었다는 안내가 있으면 Authorized Apps에서 해당 앱을 다시 승인하고, 앱에 카드가 없거나 꺼져 있다는 안내는 앱 설정에서 먼저 해결해야 합니다.",
+                    "when_it_appears": "프로필 카드에서 Refresh Profile Widget 또는 Refresh App을 누르거나, 앱 연결 상태를 다시 확인할 때 나타납니다."
                 },
                 "analysis_en": {
                     "confidence": "high",
-                    "detailed_summary": "The six strings combine adding a thought while work continues, confirming it was added, waiting for current work, interrupting it, Interrupted, and Starting fresh. They indicate that new input may join or wait behind ongoing app-project work, while the user can also stop the current task. The strings do not reveal exactly which internal state is retained after an interruption.",
-                    "generated_at": "2026-08-19T00:13:28.881209Z",
-                    "intent_type": "feature_or_setting_explanation",
+                    "detailed_summary": "Refreshing a Profile Widget asks the connected app for current card data. Separate states cover an app with no card, revoked profile access, required reauthorization, requests made too quickly, and an app that cannot be reached. Public API data from the same period also adds an application-widget refresh entry.",
+                    "generated_at": "2026-08-28T00:12:36.449330Z",
+                    "intent_type": "error_or_blocked_action",
                     "related_terms": [
-                        "Add a thought while it works",
-                        "Interrupt the current work",
-                        "Added to the current work",
-                        "Waiting for the current work to finish",
-                        "Interrupted",
-                        "Starting fresh"
+                        "Profile Widget",
+                        "profile card",
+                        "Refresh App",
+                        "Authorized Apps",
+                        "reauthorize",
+                        "Custom card"
                     ],
-                    "search_intent": "A visitor likely searched for “Added to the current work” to identify the Discord surface, understand why it appeared, and learn whether any response is needed.",
-                    "source_context": "The current Canary app-creation locale group adds the six add, wait, interrupt, interrupted, and starting-fresh states together.",
-                    "summary": "Status and controls for adding a new request to ongoing Discord app-project work or interrupting that work.",
-                    "what_it_means": "A new request can be added to or wait for the active task; Interrupt stops the current work so a subsequent task can start fresh.",
-                    "when_it_appears": "May appear while a Discord app project is being generated or revised and the user submits another message or interrupts the current work."
+                    "search_intent": "The searcher likely wants to know why a Discord Profile Widget or profile card is not updating and what Refresh App does.",
+                    "source_context": "Same-window strings distinguish no widget, reauthorization, rate limiting, app reachability, and refresh success; public API data also adds an application-widget refresh entry.",
+                    "summary": "These states and errors appear while refreshing an app-provided profile card or Profile Widget.",
+                    "what_it_means": "It tells you whether Discord requested new card data, rate-limited the request, or needs the app connection or authorization restored.",
+                    "what_to_do": "Wait briefly and retry once. If access was revoked, authorize the app again in Authorized Apps. If the card is missing or switched off, fix that in the app's setup before refreshing.",
+                    "when_it_appears": "It appears after choosing Refresh Profile Widget or Refresh App, or when Discord rechecks the app connection."
                 }
             },
-            "gbjY6o": {
+            "BLKD4B": {
                 "analysis": {
                     "confidence": "high",
-                    "detailed_summary": "여섯 문구는 작업 중 생각 추가, 현재 작업에 추가됨, 완료 대기, 현재 작업 중단, Interrupted, Starting fresh를 같은 흐름으로 보여 줍니다. 이는 앱 제작 대화가 진행되는 동안 새 입력이 즉시 별도 실행되지 않고 현재 작업에 합쳐지거나 대기할 수 있으며, 사용자가 현재 작업을 끊는 선택도 있음을 뜻합니다. 중단 뒤 실제로 어떤 내부 상태가 보존되는지는 이 문자열만으로 확인되지 않습니다.",
-                    "generated_at": "2026-08-19T00:13:28.881209Z",
-                    "intent_type": "feature_or_setting_explanation",
+                    "detailed_summary": "프로필 위젯 새로고침은 연결된 앱에 최신 카드 정보를 다시 요청하는 동작입니다. 앱에 카드가 없거나, 프로필 접근 권한이 취소되었거나, 재인증이 필요하거나, 너무 자주 요청했거나, 앱에 연결할 수 없을 때 각각 다른 상태가 표시됩니다. 같은 시점의 공개 API 데이터에도 애플리케이션 위젯 새로고침 항목이 추가되었습니다.",
+                    "generated_at": "2026-08-28T00:12:36.449330Z",
+                    "intent_type": "error_or_blocked_action",
                     "related_terms": [
-                        "Add a thought while it works",
-                        "Interrupt the current work",
-                        "Added to the current work",
-                        "Waiting for the current work to finish",
-                        "Interrupted",
-                        "Starting fresh"
+                        "Profile Widget",
+                        "profile card",
+                        "Refresh App",
+                        "Authorized Apps",
+                        "reauthorize",
+                        "Custom card"
                     ],
-                    "search_intent": "Discord에서 ‘Waiting for the current work to finish’ 문구를 본 사용자가 이 문구가 어느 화면의 기능·상태인지, 왜 표시됐는지, 필요한 대응이 있는지 확인하려는 검색입니다.",
-                    "source_context": "현재 Canary 앱 제작 locale 묶음에 추가·대기·중단·새로 시작 상태 여섯 개가 함께 추가되었습니다.",
-                    "summary": "Discord 앱 제작 작업이 진행 중일 때 새 요청을 현재 작업에 추가하거나 작업을 중단하는 상태·조작 문구입니다.",
-                    "what_it_means": "새 요청이 진행 중인 작업에 추가되거나 완료까지 기다리며, Interrupt는 현재 작업을 멈추고 다음 작업을 새로 시작하는 흐름을 가리킵니다.",
-                    "when_it_appears": "Discord 앱 프로젝트가 생성·수정 작업을 수행하는 동안 새 메시지를 입력하거나 현재 작업을 중단할 때 나타날 수 있습니다."
+                    "search_intent": "Discord Profile Widget 또는 프로필 카드가 갱신되지 않는 이유와 Refresh App이 하는 일을 확인하려는 검색입니다.",
+                    "source_context": "같은 시점의 문자열이 위젯 없음, 재인증 필요, 요청 제한, 앱 연결 실패, 새로고침 성공을 나누며 공개 API 데이터에도 애플리케이션 위젯 새로고침 항목이 추가되었습니다.",
+                    "summary": "앱이 만든 프로필 카드 또는 Profile Widget을 새로고침할 때 보이는 상태와 오류 문구입니다.",
+                    "what_it_means": "Discord가 앱에 새 카드 데이터를 요청했는지, 요청이 제한되었는지, 앱 권한이나 연결을 다시 설정해야 하는지를 알려 줍니다.",
+                    "what_to_do": "잠시 기다린 뒤 한 번만 다시 시도하세요. 권한이 취소되었다는 안내가 있으면 Authorized Apps에서 해당 앱을 다시 승인하고, 앱에 카드가 없거나 꺼져 있다는 안내는 앱 설정에서 먼저 해결해야 합니다.",
+                    "when_it_appears": "프로필 카드에서 Refresh Profile Widget 또는 Refresh App을 누르거나, 앱 연결 상태를 다시 확인할 때 나타납니다."
                 },
                 "analysis_en": {
                     "confidence": "high",
-                    "detailed_summary": "The six strings combine adding a thought while work continues, confirming it was added, waiting for current work, interrupting it, Interrupted, and Starting fresh. They indicate that new input may join or wait behind ongoing app-project work, while the user can also stop the current task. The strings do not reveal exactly which internal state is retained after an interruption.",
-                    "generated_at": "2026-08-19T00:13:28.881209Z",
-                    "intent_type": "feature_or_setting_explanation",
+                    "detailed_summary": "Refreshing a Profile Widget asks the connected app for current card data. Separate states cover an app with no card, revoked profile access, required reauthorization, requests made too quickly, and an app that cannot be reached. Public API data from the same period also adds an application-widget refresh entry.",
+                    "generated_at": "2026-08-28T00:12:36.449330Z",
+                    "intent_type": "error_or_blocked_action",
                     "related_terms": [
-                        "Add a thought while it works",
-                        "Interrupt the current work",
-                        "Added to the current work",
-                        "Waiting for the current work to finish",
-                        "Interrupted",
-                        "Starting fresh"
+                        "Profile Widget",
+                        "profile card",
+                        "Refresh App",
+                        "Authorized Apps",
+                        "reauthorize",
+                        "Custom card"
                     ],
-                    "search_intent": "A visitor likely searched for “Waiting for the current work to finish” to identify the Discord surface, understand why it appeared, and learn whether any response is needed.",
-                    "source_context": "The current Canary app-creation locale group adds the six add, wait, interrupt, interrupted, and starting-fresh states together.",
-                    "summary": "Status and controls for adding a new request to ongoing Discord app-project work or interrupting that work.",
-                    "what_it_means": "A new request can be added to or wait for the active task; Interrupt stops the current work so a subsequent task can start fresh.",
-                    "when_it_appears": "May appear while a Discord app project is being generated or revised and the user submits another message or interrupts the current work."
+                    "search_intent": "The searcher likely wants to know why a Discord Profile Widget or profile card is not updating and what Refresh App does.",
+                    "source_context": "Same-window strings distinguish no widget, reauthorization, rate limiting, app reachability, and refresh success; public API data also adds an application-widget refresh entry.",
+                    "summary": "These states and errors appear while refreshing an app-provided profile card or Profile Widget.",
+                    "what_it_means": "It tells you whether Discord requested new card data, rate-limited the request, or needs the app connection or authorization restored.",
+                    "what_to_do": "Wait briefly and retry once. If access was revoked, authorize the app again in Authorized Apps. If the card is missing or switched off, fix that in the app's setup before refreshing.",
+                    "when_it_appears": "It appears after choosing Refresh Profile Widget or Refresh App, or when Discord rechecks the app connection."
+                }
+            },
+            "T1n7hc": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "프로필 위젯 새로고침은 연결된 앱에 최신 카드 정보를 다시 요청하는 동작입니다. 앱에 카드가 없거나, 프로필 접근 권한이 취소되었거나, 재인증이 필요하거나, 너무 자주 요청했거나, 앱에 연결할 수 없을 때 각각 다른 상태가 표시됩니다. 같은 시점의 공개 API 데이터에도 애플리케이션 위젯 새로고침 항목이 추가되었습니다.",
+                    "generated_at": "2026-08-28T00:12:36.449330Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Profile Widget",
+                        "profile card",
+                        "Refresh App",
+                        "Authorized Apps",
+                        "reauthorize",
+                        "Custom card"
+                    ],
+                    "search_intent": "Discord Profile Widget 또는 프로필 카드가 갱신되지 않는 이유와 Refresh App이 하는 일을 확인하려는 검색입니다.",
+                    "source_context": "같은 시점의 문자열이 위젯 없음, 재인증 필요, 요청 제한, 앱 연결 실패, 새로고침 성공을 나누며 공개 API 데이터에도 애플리케이션 위젯 새로고침 항목이 추가되었습니다.",
+                    "summary": "앱이 만든 프로필 카드 또는 Profile Widget을 새로고침할 때 보이는 상태와 오류 문구입니다.",
+                    "what_it_means": "Discord가 앱에 새 카드 데이터를 요청했는지, 요청이 제한되었는지, 앱 권한이나 연결을 다시 설정해야 하는지를 알려 줍니다.",
+                    "what_to_do": "잠시 기다린 뒤 한 번만 다시 시도하세요. 권한이 취소되었다는 안내가 있으면 Authorized Apps에서 해당 앱을 다시 승인하고, 앱에 카드가 없거나 꺼져 있다는 안내는 앱 설정에서 먼저 해결해야 합니다.",
+                    "when_it_appears": "프로필 카드에서 Refresh Profile Widget 또는 Refresh App을 누르거나, 앱 연결 상태를 다시 확인할 때 나타납니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "Refreshing a Profile Widget asks the connected app for current card data. Separate states cover an app with no card, revoked profile access, required reauthorization, requests made too quickly, and an app that cannot be reached. Public API data from the same period also adds an application-widget refresh entry.",
+                    "generated_at": "2026-08-28T00:12:36.449330Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Profile Widget",
+                        "profile card",
+                        "Refresh App",
+                        "Authorized Apps",
+                        "reauthorize",
+                        "Custom card"
+                    ],
+                    "search_intent": "The searcher likely wants to know why a Discord Profile Widget or profile card is not updating and what Refresh App does.",
+                    "source_context": "Same-window strings distinguish no widget, reauthorization, rate limiting, app reachability, and refresh success; public API data also adds an application-widget refresh entry.",
+                    "summary": "These states and errors appear while refreshing an app-provided profile card or Profile Widget.",
+                    "what_it_means": "It tells you whether Discord requested new card data, rate-limited the request, or needs the app connection or authorization restored.",
+                    "what_to_do": "Wait briefly and retry once. If access was revoked, authorize the app again in Authorized Apps. If the card is missing or switched off, fix that in the app's setup before refreshing.",
+                    "when_it_appears": "It appears after choosing Refresh Profile Widget or Refresh App, or when Discord rechecks the app connection."
+                }
+            },
+            "um/5Kc": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "프로필 위젯 새로고침은 연결된 앱에 최신 카드 정보를 다시 요청하는 동작입니다. 앱에 카드가 없거나, 프로필 접근 권한이 취소되었거나, 재인증이 필요하거나, 너무 자주 요청했거나, 앱에 연결할 수 없을 때 각각 다른 상태가 표시됩니다. 같은 시점의 공개 API 데이터에도 애플리케이션 위젯 새로고침 항목이 추가되었습니다.",
+                    "generated_at": "2026-08-28T00:12:36.449330Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Profile Widget",
+                        "profile card",
+                        "Refresh App",
+                        "Authorized Apps",
+                        "reauthorize",
+                        "Custom card"
+                    ],
+                    "search_intent": "Discord Profile Widget 또는 프로필 카드가 갱신되지 않는 이유와 Refresh App이 하는 일을 확인하려는 검색입니다.",
+                    "source_context": "같은 시점의 문자열이 위젯 없음, 재인증 필요, 요청 제한, 앱 연결 실패, 새로고침 성공을 나누며 공개 API 데이터에도 애플리케이션 위젯 새로고침 항목이 추가되었습니다.",
+                    "summary": "앱이 만든 프로필 카드 또는 Profile Widget을 새로고침할 때 보이는 상태와 오류 문구입니다.",
+                    "what_it_means": "Discord가 앱에 새 카드 데이터를 요청했는지, 요청이 제한되었는지, 앱 권한이나 연결을 다시 설정해야 하는지를 알려 줍니다.",
+                    "what_to_do": "잠시 기다린 뒤 한 번만 다시 시도하세요. 권한이 취소되었다는 안내가 있으면 Authorized Apps에서 해당 앱을 다시 승인하고, 앱에 카드가 없거나 꺼져 있다는 안내는 앱 설정에서 먼저 해결해야 합니다.",
+                    "when_it_appears": "프로필 카드에서 Refresh Profile Widget 또는 Refresh App을 누르거나, 앱 연결 상태를 다시 확인할 때 나타납니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "Refreshing a Profile Widget asks the connected app for current card data. Separate states cover an app with no card, revoked profile access, required reauthorization, requests made too quickly, and an app that cannot be reached. Public API data from the same period also adds an application-widget refresh entry.",
+                    "generated_at": "2026-08-28T00:12:36.449330Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Profile Widget",
+                        "profile card",
+                        "Refresh App",
+                        "Authorized Apps",
+                        "reauthorize",
+                        "Custom card"
+                    ],
+                    "search_intent": "The searcher likely wants to know why a Discord Profile Widget or profile card is not updating and what Refresh App does.",
+                    "source_context": "Same-window strings distinguish no widget, reauthorization, rate limiting, app reachability, and refresh success; public API data also adds an application-widget refresh entry.",
+                    "summary": "These states and errors appear while refreshing an app-provided profile card or Profile Widget.",
+                    "what_it_means": "It tells you whether Discord requested new card data, rate-limited the request, or needs the app connection or authorization restored.",
+                    "what_to_do": "Wait briefly and retry once. If access was revoked, authorize the app again in Authorized Apps. If the card is missing or switched off, fix that in the app's setup before refreshing.",
+                    "when_it_appears": "It appears after choosing Refresh Profile Widget or Refresh App, or when Discord rechecks the app connection."
+                }
+            },
+            "ypKX9A": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "프로필 위젯 새로고침은 연결된 앱에 최신 카드 정보를 다시 요청하는 동작입니다. 앱에 카드가 없거나, 프로필 접근 권한이 취소되었거나, 재인증이 필요하거나, 너무 자주 요청했거나, 앱에 연결할 수 없을 때 각각 다른 상태가 표시됩니다. 같은 시점의 공개 API 데이터에도 애플리케이션 위젯 새로고침 항목이 추가되었습니다.",
+                    "generated_at": "2026-08-28T00:12:36.449330Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Profile Widget",
+                        "profile card",
+                        "Refresh App",
+                        "Authorized Apps",
+                        "reauthorize",
+                        "Custom card"
+                    ],
+                    "search_intent": "Discord Profile Widget 또는 프로필 카드가 갱신되지 않는 이유와 Refresh App이 하는 일을 확인하려는 검색입니다.",
+                    "source_context": "같은 시점의 문자열이 위젯 없음, 재인증 필요, 요청 제한, 앱 연결 실패, 새로고침 성공을 나누며 공개 API 데이터에도 애플리케이션 위젯 새로고침 항목이 추가되었습니다.",
+                    "summary": "앱이 만든 프로필 카드 또는 Profile Widget을 새로고침할 때 보이는 상태와 오류 문구입니다.",
+                    "what_it_means": "Discord가 앱에 새 카드 데이터를 요청했는지, 요청이 제한되었는지, 앱 권한이나 연결을 다시 설정해야 하는지를 알려 줍니다.",
+                    "what_to_do": "잠시 기다린 뒤 한 번만 다시 시도하세요. 권한이 취소되었다는 안내가 있으면 Authorized Apps에서 해당 앱을 다시 승인하고, 앱에 카드가 없거나 꺼져 있다는 안내는 앱 설정에서 먼저 해결해야 합니다.",
+                    "when_it_appears": "프로필 카드에서 Refresh Profile Widget 또는 Refresh App을 누르거나, 앱 연결 상태를 다시 확인할 때 나타납니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "Refreshing a Profile Widget asks the connected app for current card data. Separate states cover an app with no card, revoked profile access, required reauthorization, requests made too quickly, and an app that cannot be reached. Public API data from the same period also adds an application-widget refresh entry.",
+                    "generated_at": "2026-08-28T00:12:36.449330Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Profile Widget",
+                        "profile card",
+                        "Refresh App",
+                        "Authorized Apps",
+                        "reauthorize",
+                        "Custom card"
+                    ],
+                    "search_intent": "The searcher likely wants to know why a Discord Profile Widget or profile card is not updating and what Refresh App does.",
+                    "source_context": "Same-window strings distinguish no widget, reauthorization, rate limiting, app reachability, and refresh success; public API data also adds an application-widget refresh entry.",
+                    "summary": "These states and errors appear while refreshing an app-provided profile card or Profile Widget.",
+                    "what_it_means": "It tells you whether Discord requested new card data, rate-limited the request, or needs the app connection or authorization restored.",
+                    "what_to_do": "Wait briefly and retry once. If access was revoked, authorize the app again in Authorized Apps. If the card is missing or switched off, fix that in the app's setup before refreshing.",
+                    "when_it_appears": "It appears after choosing Refresh Profile Widget or Refresh App, or when Discord rechecks the app connection."
                 }
             }
         }
     },
-    "timestamp": "2026-10-03T21:46:09.011515+00:00"
+    "timestamp": "2026-10-03T21:57:25.189029+00:00"
 }
