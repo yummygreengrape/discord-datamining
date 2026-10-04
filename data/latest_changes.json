@@ -1,5 +1,5 @@
 {
-    "build_hash": "4725222296205a0aa49f0de263b1f2ae4cc11c50",
+    "build_hash": "aa021fd4c11b516e92ad62d0ccf2aee420bc3d3b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,21 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "+imAGy": "Cancel",
-                "+stDGK": "That link couldn’t be loaded.",
-                "Iei4FG": "Your image",
-                "NneH2e": "Image link",
-                "ZCK1zf": "Paste a link",
-                "cMHeL/": "Upload",
-                "hu6Wxn": "Upload icon",
-                "ikBrVV": "View full size",
-                "rgIDXE": "Image unavailable",
-                "sjTneW": "View “{answer}” full size",
-                "sq9kuX": "Add",
-                "tBCmsU": "Remove your image",
-                "zgBWJU": "My own image"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-03T23:52:04.270684+00:00"
+    "timestamp": "2026-10-04T00:02:51.064741+00:00"
 }
