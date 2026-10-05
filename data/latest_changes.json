@@ -1,5 +1,5 @@
 {
-    "build_hash": "c68b1dd8c50510ec8db66a28508f37237e87dd6b",
+    "build_hash": "a63cfc51b06b7aef8332ffad9d21f2974a75db22",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,20 +40,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "WAvmdq": "A profile widget"
-            },
-            "deleted": {
-                "5ufpHn": "A shared board your whole channel draws on together, live.",
-                "9B/zQ2": "A fantasy-styled message board",
-                "Eo4gWN": "Collaborative Whiteboard"
-            },
-            "modified": {
-                "+dKy/B": {
-                    "new_value": "A tour of everything an app can do inside Discord: sign-in, sharing, menus, live voice and video, AI, live updates, reminders, saved data and files, and two app channels that talk to each other.",
-                    "old_value": "A tour of everything an app can do inside Discord: sign-in, sharing, menus, live voice and video, saved data, and two app channels that talk to each other."
-                }
-            }
+            "added": {},
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -61,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T00:47:11.940708+00:00"
+    "timestamp": "2026-10-05T01:18:30.347795+00:00"
 }
