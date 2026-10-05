@@ -1,5 +1,5 @@
 {
-    "build_hash": "0c5750e082baa8b34dff0ee805536f4a9676c034",
+    "build_hash": "46973daee0f3ace3a5cf8fcbff14111bed7a0b93",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,53 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-mobile-quest-reward-button-to-secondary-button",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-05T17:19:24Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-mobile-quest-reward-button-to-secondary-button",
-            "kind": "user",
-            "timestamp": "2026-10-05T17:19:24Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -85,7 +40,13 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "7TxNKE": "Days",
+                "7pATiR": "Hours",
+                "OejyCi": "Upcoming",
+                "TaUsG9": "In {days, plural, one {# day} other {# days}}",
+                "dXR9qI": "Minutes"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -95,5 +56,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T17:19:55.063184+00:00"
+    "timestamp": "2026-10-05T17:30:43.900374+00:00"
 }
