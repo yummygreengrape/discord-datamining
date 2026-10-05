@@ -1,5 +1,5 @@
 {
-    "build_hash": "46973daee0f3ace3a5cf8fcbff14111bed7a0b93",
+    "build_hash": "0d2cda3aba956829fd95d1abd24903db770f81f8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,11 +41,10 @@
     "string_changes": {
         "en": {
             "added": {
-                "7TxNKE": "Days",
-                "7pATiR": "Hours",
-                "OejyCi": "Upcoming",
-                "TaUsG9": "In {days, plural, one {# day} other {# days}}",
-                "dXR9qI": "Minutes"
+                "+7+Hvl": "Read messages in your servers",
+                "Alcf2G": "Read messages that mention you",
+                "N1P8Wp": "Search messages in your servers",
+                "UVkUVk": "Search your direct messages"
             },
             "deleted": {},
             "modified": {}
@@ -56,5 +55,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T17:30:43.900374+00:00"
+    "timestamp": "2026-10-05T17:41:31.316623+00:00"
 }
