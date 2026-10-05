@@ -1,5 +1,5 @@
 {
-    "build_hash": "5e61f32a80dc6915c0f6743fb261653538a86ec5",
+    "build_hash": "0c5750e082baa8b34dff0ee805536f4a9676c034",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-mobile-quest-reward-button-to-secondary-button",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-05T17:19:24Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-mobile-quest-reward-button-to-secondary-button",
+            "kind": "user",
+            "timestamp": "2026-10-05T17:19:24Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -50,5 +95,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T16:58:58.742884+00:00"
+    "timestamp": "2026-10-05T17:19:55.063184+00:00"
 }
