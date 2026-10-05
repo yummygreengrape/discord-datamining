@@ -1,5 +1,5 @@
 {
-    "build_hash": "2f9c0b5e9fb4c9c94be996e9a98dc2b4225b93be",
+    "build_hash": "152ee824c68bb36129b76751a836063029e37eb7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,44 +41,7 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "PREMIUM_GIFT_MONTH_TIER_0": "premium_month_tier_0",
-                "PREMIUM_GIFT_MONTH_TIER_1": "premium_month_tier_1.2",
-                "PREMIUM_GIFT_MONTH_TIER_2": "premium_month_tier_2.2",
-                "PREMIUM_GIFT_YEAR_TIER_0": "premium_year_tier_0",
-                "PREMIUM_GIFT_YEAR_TIER_1": "premium_year_tier_1.2",
-                "PREMIUM_GIFT_YEAR_TIER_2": "premium_year_tier_2.2",
-                "PREMIUM_GUILD_1_MONTHLY": "premium_guild_1_monthly",
-                "PREMIUM_GUILD_2_MONTHLY": "premium_guild_2_monthly",
-                "PREMIUM_MONTH_TIER_1": "premium_month_tier_1.1",
-                "PREMIUM_MONTH_TIER_2": "premium_month_tier_2.1",
-                "PREMIUM_TIER_0_MONTHLY": "premium_tier_0_monthly",
-                "PREMIUM_TIER_0_YEARLY": "premium_tier_0_yearly",
-                "PREMIUM_TIER_1_MONTHLY": "premium_tier_1_monthly",
-                "PREMIUM_TIER_1_PREMIUM_GUILD_1_MONTHLY": "premium_tier_1_premium_guild_1_monthly",
-                "PREMIUM_TIER_1_PREMIUM_GUILD_1_YEARLY": "premium_tier_1_premium_guild_1_yearly",
-                "PREMIUM_TIER_1_YEARLY": "premium_tier_1_yearly",
-                "PREMIUM_TIER_2_MONTHLY": "premium_tier_2_monthly",
-                "PREMIUM_TIER_2_PREMIUM_GUILD_10_MONTHLY": "premium_tier_2_premium_guild_10_monthly",
-                "PREMIUM_TIER_2_PREMIUM_GUILD_10_YEARLY": "premium_tier_2_premium_guild_10_yearly",
-                "PREMIUM_TIER_2_PREMIUM_GUILD_13_MONTHLY": "premium_tier_2_premium_guild_13_monthly",
-                "PREMIUM_TIER_2_PREMIUM_GUILD_13_YEARLY": "premium_tier_2_premium_guild_13_yearly",
-                "PREMIUM_TIER_2_PREMIUM_GUILD_1_MONTHLY": "premium_tier_2_premium_guild_1_monthly",
-                "PREMIUM_TIER_2_PREMIUM_GUILD_1_YEARLY": "premium_tier_2_premium_guild_1_yearly",
-                "PREMIUM_TIER_2_PREMIUM_GUILD_28_MONTHLY": "premium_tier_2_premium_guild_28_monthly",
-                "PREMIUM_TIER_2_PREMIUM_GUILD_28_YEARLY": "premium_tier_2_premium_guild_28_yearly",
-                "PREMIUM_TIER_2_PREMIUM_GUILD_2_MONTHLY": "premium_tier_2_premium_guild_2_monthly",
-                "PREMIUM_TIER_2_PREMIUM_GUILD_2_YEARLY": "premium_tier_2_premium_guild_2_yearly",
-                "PREMIUM_TIER_2_PREMIUM_GUILD_3_MONTHLY": "premium_tier_2_premium_guild_3_monthly",
-                "PREMIUM_TIER_2_PREMIUM_GUILD_3_YEARLY": "premium_tier_2_premium_guild_3_yearly",
-                "PREMIUM_TIER_2_PREMIUM_GUILD_5_MONTHLY": "premium_tier_2_premium_guild_5_monthly",
-                "PREMIUM_TIER_2_PREMIUM_GUILD_5_YEARLY": "premium_tier_2_premium_guild_5_yearly",
-                "PREMIUM_TIER_2_YEARLY": "premium_tier_2_yearly",
-                "PREMIUM_YEAR_TIER_1": "premium_year_tier_1.1",
-                "PREMIUM_YEAR_TIER_2": "premium_year_tier_2.1",
-                "STICKER_PACK_199": "sticker_pack_199",
-                "STICKER_PACK_299": "sticker_pack_299"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -87,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T22:01:51.054314+00:00"
+    "timestamp": "2026-10-05T22:12:42.025747+00:00"
 }
