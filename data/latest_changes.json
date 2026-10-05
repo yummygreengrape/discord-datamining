@@ -1,5 +1,5 @@
 {
-    "build_hash": "a3358ed752dd8b8db822520623c4c271fec7988b",
+    "build_hash": "9027ce61f53983174592dafbc68fad78d1c5dcf4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,9 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "uCXulJ": "Gifting {intervalCount, plural, one {# month} other {# months}} saves you {savingsPercent, number}%. Nice move!"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -52,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T22:34:13.769263+00:00"
+    "timestamp": "2026-10-05T22:45:01.138908+00:00"
 }
