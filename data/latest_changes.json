@@ -1,5 +1,5 @@
 {
-    "build_hash": "346a536a0c8ed8783f9d86f02ede3d20abe9b7bf",
+    "build_hash": "4c812ce75b89e223ec3c5fb599f363fc8ac55241",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,9 +7,31 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "BILLING_HISTORY",
+            "status": "added",
+            "url": "/users/@me/billing/history"
+        },
+        {
+            "name": "ENDPOINT_USERS_BILLING_HISTORY",
+            "status": "added",
+            "url": "/users/@me/billing/history"
+        }
+    ],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-purchase-history",
+            "kind": "user",
+            "timestamp": "2026-10-05T20:52:19Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -41,13 +63,7 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "EwU5zF": "View all",
-                "ZM/VB/": "Recent improvements to conjuring",
-                "bTBUeX": "What’s new",
-                "cW5XHD": "Desktop only",
-                "ybCVge": "Mobile only"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -56,5 +72,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T20:46:21.658667+00:00"
+    "timestamp": "2026-10-05T20:57:09.535420+00:00"
 }
