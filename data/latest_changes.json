@@ -1,5 +1,5 @@
 {
-    "build_hash": "9d35df927a4b15ab49df1b9f242ec8d7c994df4b",
+    "build_hash": "26e0eb69d068cbf496192754b1c0e770193b6766",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,11 +41,7 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "/sw6q+": "Not Now",
-                "HJcyIC": "Save resources while gaming?",
-                "PEFk1b": "Turn on Game Mode to reduce Discord’s CPU and GPU usage while you play. Calls keep working. You can change this anytime in Settings."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -54,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T20:24:48.455119+00:00"
+    "timestamp": "2026-10-05T20:35:37.254152+00:00"
 }
