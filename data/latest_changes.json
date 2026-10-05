@@ -1,5 +1,5 @@
 {
-    "build_hash": "675c05784faadbfa8b95f64e6668d5e8b385b5f9",
+    "build_hash": "fd0c8dafd8f59f1e9db2c6f6d4cbc4bd7a19c402",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -43,13 +43,9 @@
             "added": {},
             "deleted": {},
             "modified": {
-                "NiXcSi": {
-                    "new_value": "Start one just for you, or in {count, plural, one {this server} other {one of these servers}}:",
-                    "old_value": "You can start one in {count, plural, one {this server} other {these servers}}:"
-                },
-                "f5o5pk": {
-                    "new_value": "Start one just for you. To start one in a server, you need Manage Server and Manage Channels somewhere Conjuring is switched on.",
-                    "old_value": "None of your servers can start one yet. You need Manage Server and Manage Channels somewhere Conjuring is switched on."
+                "8qJtGr": {
+                    "new_value": "You need to accept the new permissions to message your project’s bot.",
+                    "old_value": "You need to accept the new permissions to open your project’s frame."
                 }
             }
         },
@@ -59,5 +55,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T17:52:24.013282+00:00"
+    "timestamp": "2026-10-05T18:03:11.859623+00:00"
 }
