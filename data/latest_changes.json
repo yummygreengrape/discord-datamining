@@ -1,5 +1,5 @@
 {
-    "build_hash": "7ef45da6fa536e1ca11bc630503b56dd70a3c607",
+    "build_hash": "df5a7d97ecee75d963f20fa98d9022acb33cb719",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,16 +41,7 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "+BS1Qc": "Tell us about your experience",
-                "8cyhK6": "It was too slow",
-                "QhB3in": "What could have gone better?",
-                "QnwyW8": "How’s it going so far?",
-                "X73n1w": "I didn’t know what to ask for",
-                "g2rAXL": "My project didn’t work",
-                "kwO25M": "The result wasn’t what I wanted",
-                "zgU5P0": "Other"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -59,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T08:14:14.877911+00:00"
+    "timestamp": "2026-10-05T08:25:04.045175+00:00"
 }
