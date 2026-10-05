@@ -1,5 +1,5 @@
 {
-    "build_hash": "7e4791c6fa37b53841d2424788f0d6aabad329c1",
+    "build_hash": "5e61f32a80dc6915c0f6743fb261653538a86ec5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,19 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-three-month-nitro-gifting",
-            "kind": "user",
-            "timestamp": "2026-10-05T16:16:32Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -52,9 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "eeJvfA": "This DM is empty 🦗"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T16:38:05.198414+00:00"
+    "timestamp": "2026-10-05T16:58:58.742884+00:00"
 }
