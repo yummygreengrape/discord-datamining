@@ -1,61 +1,8 @@
 {
-    "build_hash": "267f1b6ff97dd9bde5fd1395c12bc76e42385871",
+    "build_hash": "a3358ed752dd8b8db822520623c4c271fec7988b",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enableAltGateway"
-            ],
-            "default_config": {
-                "enableAltGateway": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-aws-gateway",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-05T22:19:38Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enableAltGateway": false
-                },
-                "2": {
-                    "enableAltGateway": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enableAltGateway"
-            ],
-            "default_config": {
-                "enableAltGateway": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-aws-gateway",
-            "kind": "user",
-            "timestamp": "2026-10-05T22:19:38Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enableAltGateway": false
-                },
-                "2": {
-                    "enableAltGateway": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -93,7 +40,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "uCXulJ": "Gifting {intervalCount, plural, one {# month} other {# months}} saves you {savingsPercent, number}%. Nice move!"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -103,5 +52,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T22:23:27.141468+00:00"
+    "timestamp": "2026-10-05T22:34:13.769263+00:00"
 }
