@@ -1,5 +1,5 @@
 {
-    "build_hash": "8edaa5464517bf7a377a3b6b314cd652396384c4",
+    "build_hash": "d86afb3bf782357b878e5691ee96552516c98bb0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,69 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "rtcConnectionJoinSounds",
-                "showSelfConnectingUI"
-            ],
-            "default_config": {
-                "rtcConnectionJoinSounds": false,
-                "showSelfConnectingUI": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-voice-connect-feedback",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-05T23:37:36Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "rtcConnectionJoinSounds": true,
-                    "showSelfConnectingUI": false
-                },
-                "2": {
-                    "rtcConnectionJoinSounds": true,
-                    "showSelfConnectingUI": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "rtcConnectionJoinSounds",
-                "showSelfConnectingUI"
-            ],
-            "default_config": {
-                "rtcConnectionJoinSounds": false,
-                "showSelfConnectingUI": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-voice-connect-feedback",
-            "kind": "user",
-            "timestamp": "2026-10-05T23:37:36Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "rtcConnectionJoinSounds": true,
-                    "showSelfConnectingUI": false
-                },
-                "2": {
-                    "rtcConnectionJoinSounds": true,
-                    "showSelfConnectingUI": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -101,9 +40,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "6mh541": "Discord is having trouble connecting to the call."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -113,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T23:39:01.010564+00:00"
+    "timestamp": "2026-10-05T23:49:50.170137+00:00"
 }
