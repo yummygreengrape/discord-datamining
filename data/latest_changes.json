@@ -1,5 +1,5 @@
 {
-    "build_hash": "26e0eb69d068cbf496192754b1c0e770193b6766",
+    "build_hash": "346a536a0c8ed8783f9d86f02ede3d20abe9b7bf",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,7 +41,13 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "EwU5zF": "View all",
+                "ZM/VB/": "Recent improvements to conjuring",
+                "bTBUeX": "What’s new",
+                "cW5XHD": "Desktop only",
+                "ybCVge": "Mobile only"
+            },
             "modified": {}
         },
         "ko": {
@@ -50,5 +56,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T20:35:37.254152+00:00"
+    "timestamp": "2026-10-05T20:46:21.658667+00:00"
 }
