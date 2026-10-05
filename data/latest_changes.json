@@ -1,5 +1,5 @@
 {
-    "build_hash": "4c812ce75b89e223ec3c5fb599f363fc8ac55241",
+    "build_hash": "543733701a2ab2d31b105aa33dd5766bc610543c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,31 +7,9 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "BILLING_HISTORY",
-            "status": "added",
-            "url": "/users/@me/billing/history"
-        },
-        {
-            "name": "ENDPOINT_USERS_BILLING_HISTORY",
-            "status": "added",
-            "url": "/users/@me/billing/history"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-purchase-history",
-            "kind": "user",
-            "timestamp": "2026-10-05T20:52:19Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "f295c0672413707ff0be2fedeffe118f",
@@ -62,7 +40,11 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "DMie/y": "Share Nitro Perks",
+                "H2NPrR": "Dismiss Share Nitro Perks",
+                "u0HAhn": "Share Nitro perks like bigger uploads and animated emojis."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -72,5 +54,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T20:57:09.535420+00:00"
+    "timestamp": "2026-10-05T21:07:54.464876+00:00"
 }
