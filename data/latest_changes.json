@@ -1,5 +1,5 @@
 {
-    "build_hash": "fd0c8dafd8f59f1e9db2c6f6d4cbc4bd7a19c402",
+    "build_hash": "154cbb32c66edc69c1eb165d65ac09fb848c9992",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,14 +40,11 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "4TphyY": "Special Nitro badge on their profile"
+            },
             "deleted": {},
-            "modified": {
-                "8qJtGr": {
-                    "new_value": "You need to accept the new permissions to message your project’s bot.",
-                    "old_value": "You need to accept the new permissions to open your project’s frame."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -55,5 +52,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T18:03:11.859623+00:00"
+    "timestamp": "2026-10-05T18:14:01.106221+00:00"
 }
