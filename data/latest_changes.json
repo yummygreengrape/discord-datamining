@@ -1,5 +1,5 @@
 {
-    "build_hash": "ba32ea29bdfdc19bf5e67f16736184bb01fa5357",
+    "build_hash": "613b746532144a1c43dddb2e899b96b763d0244c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,18 +41,18 @@
     "string_changes": {
         "en": {
             "added": {
-                "AdT7SZ": "Channel App",
-                "D+wwh8": "Close Channel App",
-                "ZtYyOx": "Channel App View",
-                "wKSjL/": "This app opens as part of the voice channel when people join."
+                "aotDee": "Add other files"
             },
             "deleted": {
-                "2hwpCp": "Select App",
-                "8FWvxm": "App View",
-                "lcgR82": "Couldn’t update this channel’s app. Try again.",
-                "yZQxdT": "Apps"
+                "49L+4L": "Photos",
+                "z61ajL": "Files"
             },
-            "modified": {}
+            "modified": {
+                "p/k5i7": {
+                    "new_value": "Import existing project",
+                    "old_value": "Import project"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -60,5 +60,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T04:15:30.176387+00:00"
+    "timestamp": "2026-10-05T05:28:10.281133+00:00"
 }
