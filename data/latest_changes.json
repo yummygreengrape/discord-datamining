@@ -1,125 +1,8 @@
 {
-    "build_hash": "c05a99d62194dfafc5c458d9c9a1506764c83933",
+    "build_hash": "1c7a77c36c72f349dd2bd276d4f58f12fa1d908b",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enableFastAdRecheck",
-                        "note": "꺼진 상태는 10분, 켜진 비교안은 30초 간격으로 퀘스트 바 후보를 재확인합니다."
-                    }
-                ],
-                "detailed_summary": "기본 상태에서는 퀘스트 바에 보여 줄 후원 퀘스트 후보를 10분 간격으로 다시 확인합니다. 빠른 비교안은 이 확인 주기를 30초로 줄입니다. Discord 창이 활성 상태이고, 저장된 후보의 유효 시간이 끝났으며, 다른 요청이 진행 중이지 않을 때만 새 후보를 요청하므로 30초마다 무조건 화면이 바뀌는 것은 아닙니다. 광고 내용이나 보상 자체를 바꾸는 실험이 아니라, 새로 자격이 생긴 퀘스트가 퀘스트 바에 반영되는 지연을 줄이는 실험으로 확인됩니다.",
-                "evidence": [
-                    "Current Canary useQuestForAdPlacement reads enableFastAdRecheck.",
-                    "The default interval is ten minutes and the fast interval is thirty seconds.",
-                    "Refresh remains gated by window focus, cached decision lifetime, and in-flight request state."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "퀘스트 바 후원 퀘스트 갱신",
-                "generated_at": "2026-07-18T04:06:34Z",
-                "importance": "medium",
-                "summary": "Discord 창이 활성 상태일 때 퀘스트 바의 후원 퀘스트 후보를 더 자주 다시 확인하는 실험입니다.",
-                "why_it_matters": "사용자가 새로 참여할 수 있게 된 후원 퀘스트를 더 빨리 볼 수 있어, 오래된 빈 상태나 만료된 후보가 남아 있는 시간을 줄일 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enableFastAdRecheck",
-                        "note": "The off state rechecks every ten minutes; enabled variants recheck every thirty seconds."
-                    }
-                ],
-                "detailed_summary": "The default state rechecks the sponsored Quest candidate for the Quest bar every ten minutes. Fast variants reduce that interval to thirty seconds. A refresh only runs while Discord is focused, after the cached candidate has expired, and when another request is not already in progress, so the visible card does not automatically change every thirty seconds. The experiment changes how quickly a newly eligible Quest can be reflected in the bar, not the ad creative or reward itself.",
-                "evidence": [
-                    "Current Canary useQuestForAdPlacement reads enableFastAdRecheck.",
-                    "The default interval is ten minutes and the fast interval is thirty seconds.",
-                    "Refresh remains gated by window focus, cached decision lifetime, and in-flight request state."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Sponsored Quest refresh in the Quest bar",
-                "generated_at": "2026-07-18T04:06:34Z",
-                "importance": "medium",
-                "summary": "Checks for an eligible sponsored Quest in the Quest bar more frequently while the Discord window is active.",
-                "why_it_matters": "Newly eligible sponsored Quests can appear sooner, reducing the time users spend seeing an empty or stale Quest-bar state."
-            },
-            "config_keys": [
-                "enableFastAdRecheck"
-            ],
-            "default_config": {
-                "enableFastAdRecheck": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-ad-recheck-interval-experiment",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-05T21:17:45Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5"
-            ],
-            "variations": {
-                "1": {
-                    "enableFastAdRecheck": false
-                },
-                "2": {
-                    "enableFastAdRecheck": true
-                },
-                "3": {
-                    "enableFastAdRecheck": true
-                },
-                "4": {
-                    "enableFastAdRecheck": true
-                },
-                "5": {
-                    "enableFastAdRecheck": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enableFastAdRecheck"
-            ],
-            "default_config": {
-                "enableFastAdRecheck": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-ad-recheck-interval-experiment",
-            "kind": "user",
-            "timestamp": "2026-10-05T21:17:45Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5"
-            ],
-            "variations": {
-                "1": {
-                    "enableFastAdRecheck": false
-                },
-                "2": {
-                    "enableFastAdRecheck": true
-                },
-                "3": {
-                    "enableFastAdRecheck": true
-                },
-                "4": {
-                    "enableFastAdRecheck": true
-                },
-                "5": {
-                    "enableFastAdRecheck": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -167,5 +50,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T21:18:40.055695+00:00"
+    "timestamp": "2026-10-05T21:29:27.836856+00:00"
 }
