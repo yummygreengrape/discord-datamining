@@ -1,5 +1,5 @@
 {
-    "build_hash": "a63cfc51b06b7aef8332ffad9d21f2974a75db22",
+    "build_hash": "77f5bf694d2a2da554a111a420849f3bce46eea6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,9 +40,37 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "DoNdjA": "Landscape",
+                "tunI2l": "Portrait"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "Mt5k9d": {
+                    "new_value": "Debug Panel",
+                    "old_value": "Debug panel"
+                },
+                "Sme0T0": {
+                    "new_value": "Select to Edit (Available Once Conjure Finishes)",
+                    "old_value": "Select to edit (available once Conjure finishes)"
+                },
+                "cl/Jyl": {
+                    "new_value": "Select to Edit",
+                    "old_value": "Select to edit"
+                },
+                "peqEOY": {
+                    "new_value": "Phone",
+                    "old_value": "Preview at phone size"
+                },
+                "tKGF0Q": {
+                    "new_value": "Desktop",
+                    "old_value": "Preview at full size"
+                },
+                "vn5Rzu": {
+                    "new_value": "Exit Select Mode",
+                    "old_value": "Exit select mode"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -50,5 +78,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T01:18:30.347795+00:00"
+    "timestamp": "2026-10-05T01:39:31.243783+00:00"
 }
