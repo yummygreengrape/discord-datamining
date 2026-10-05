@@ -1,5 +1,5 @@
 {
-    "build_hash": "6e8d9e29b393544144891f9653a06996860b7c6f",
+    "build_hash": "bc582cd695a8585488ae3c062c0ab4199a02c82e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,11 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "TwT+ht": "About this widget preview",
+                "XcIrHx": "Shown with example values. Your app fills in the real ones once it runs.",
+                "ove4zH": "Your profile widget"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +54,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T06:30:20.893243+00:00"
+    "timestamp": "2026-10-05T07:12:09.681208+00:00"
 }
