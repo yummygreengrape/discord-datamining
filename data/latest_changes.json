@@ -1,5 +1,5 @@
 {
-    "build_hash": "e626a81cb259e55fdb489bde7f9ffa8b6bf5d9c9",
+    "build_hash": "c224a9b79ab314e86866af98371654c5d16df71e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -41,7 +41,9 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "bHcJoe": "Conjuring"
+            },
             "modified": {}
         },
         "ko": {
@@ -50,5 +52,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T23:17:22.979398+00:00"
+    "timestamp": "2026-10-05T23:28:10.724133+00:00"
 }
