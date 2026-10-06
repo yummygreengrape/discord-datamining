@@ -1,5 +1,5 @@
 {
-    "build_hash": "8ebfd2ebc8b909e1fac936c2d0d0a5ca1d491457",
+    "build_hash": "e22a27a18bf19603caee7f64fc0e2b2214a29524",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,22 +54,11 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "0gqEHu": "Send 2 weeks of Server Boosts, custom profiles, and more.",
-                "2nw1yD": "They'll get 2 weeks of custom profiles, bigger file uploads, and more. [Learn more]({helpdeskArticle}).",
-                "DrjI2v": "More are coming soon. If you’re feeling generous, you could always gift Nitro. [Learn more]({helpdeskArticle})",
-                "GCMMir": "See a friend? Share Nitro",
-                "KXbhzo": "Treat them to Nitro",
-                "LVlgM4": "Share Nitro with {recipientName}",
-                "NkgMIP": "Share 2 weeks of Nitro for sharper, smoother streams, plus profile perks and more.",
-                "TyRCCM": "Hook your friends up and become the group chat MVP.",
-                "ZBuqcM": "You’ve shared all your trials",
-                "dzQxHq": "Send Trial",
-                "rdh1ou": "Help {recipientName} stream in HD",
-                "s8VHbZ": "{recipientName} has 10 days to accept the trial before it is returned to you. [Learn more]({helpdeskArticle}).",
-                "tJvaQ8": "Send {recipientName} 2 weeks of custom profiles, themes, and more."
+            "added": {},
+            "deleted": {
+                "mq+Pml": "Ship into Discord's own app channels instead of a Conjuring portal.",
+                "qfAk5B": "Use app channels"
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -78,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T20:07:49.775935+00:00"
+    "timestamp": "2026-10-06T20:18:38.738025+00:00"
 }
