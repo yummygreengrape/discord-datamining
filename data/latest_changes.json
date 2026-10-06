@@ -1,5 +1,5 @@
 {
-    "build_hash": "8e5fc5f08fa0c725cfef04517f281a2ddcae4f4d",
+    "build_hash": "8916fd297977ec426a90bc4e6efe0655fe78ef2f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -10,7 +10,48 @@
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
-    "rollout_changes": [],
+    "rollout_changes": [
+        {
+            "change_id": "e614297755df207db22271d5f239f55f",
+            "changed_at": "2026-10-06T18:20:23.782747+00:00",
+            "changes": [
+                {
+                    "after": 0,
+                    "before": 10.0,
+                    "bucket": 1,
+                    "population": 1,
+                    "type": "percent_changed"
+                },
+                {
+                    "after": 10.0,
+                    "before": 0,
+                    "bucket": 2,
+                    "population": 1,
+                    "type": "percent_changed"
+                },
+                {
+                    "after": 3,
+                    "before": 3,
+                    "type": "override_rules_changed"
+                }
+            ],
+            "id": "2026-04_server_theme",
+            "kind": "guild",
+            "labels": {
+                "0": "Control",
+                "1": "Treatment 1: Enable Server Theme",
+                "2": "Treatment 2: Rollback UI for Server Theme"
+            },
+            "limits": [
+                "guild_id_list"
+            ],
+            "revision": {
+                "after": 1,
+                "before": 1
+            },
+            "source": "discord"
+        }
+    ],
     "string_changes": {
         "en": {
             "added": {},
@@ -18,80 +59,10 @@
             "modified": {}
         },
         "ko": {
-            "added": {
-                "+5b01q": "{minutes}분",
-                "0ModIv": "0ModIv",
-                "2yTd7D": "서버에 참가할 수 없어요",
-                "3LJ1u9": "활동 공유",
-                "3xFZEo": "커뮤니티",
-                "5xxUI2": "인기 음악",
-                "65zBhE": "직접 만들기",
-                "95GB1V": "95GB1V",
-                "9P3PfN": "9P3PfN",
-                "9qJQtX": "9qJQtX",
-                "Bu6kWV": "Bu6kWV",
-                "D/HToK": "{hours}시간",
-                "Dt63vf": "Dt63vf",
-                "DwFqrb": "부스트 {count}번",
-                "FITyOf": "FITyOf",
-                "G08ClG": "{count}명 온라인",
-                "HKyk+i": "HKyk+i",
-                "HmFYc5": "변경 사항을 저장할 수 없습니다. 다시 시도해 주세요.",
-                "IuT87w": "위젯 추가",
-                "IzZ1pU": "IzZ1pU",
-                "J8r/7L": "종료함",
-                "JBLQh3": "JBLQh3",
-                "JiMMEd": "+{count}개",
-                "KADI1J": "KADI1J",
-                "KLmNgL": "KLmNgL",
-                "L8Xfoo": "위젯 추가",
-                "Lx0P8k": "무료",
-                "MwVmws": "MwVmws",
-                "NLadfA": "NLadfA",
-                "PqQIY2": "PqQIY2",
-                "QwkKWr": "QwkKWr",
-                "RZY2fr": "카테고리",
-                "Ro5Nmi": "Ro5Nmi",
-                "SWPwHW": "+{count}개",
-                "T7AWtb": "비공개 서버",
-                "Trf5X/": "Trf5X/",
-                "Xs8DA4": "Xs8DA4",
-                "YOE0u5": "YOE0u5",
-                "YUcvdQ": "추천",
-                "ZdPp2q": "Spotify",
-                "aY1ZL/": "aY1ZL/",
-                "alIotw": "alIotw",
-                "bFIg0R": "+{count}개",
-                "bP4GV1": "bP4GV1",
-                "bm8Dto": "bm8Dto",
-                "cCuf8g": "cCuf8g",
-                "fMbgeZ": "활동 공유하기",
-                "fppR0H": "fppR0H",
-                "gxpQzb": "gxpQzb",
-                "hAmdLZ": "hAmdLZ",
-                "hDS40L": "hDS40L",
-                "i4Slqv": "i4Slqv",
-                "i6R1ay": "i6R1ay",
-                "iXpQc+": "iXpQc+",
-                "jB1fWC": "계정 연결하기",
-                "jI9XE6": "jI9XE6",
-                "mZUpB8": "mZUpB8",
-                "ptXc9l": "ptXc9l",
-                "rWPrJC": "Discord 기본 설정",
-                "rgpc8E": "게임 {count} 개",
-                "rp7bx+": "멤버 {count}명",
-                "s1xGYd": "s1xGYd",
-                "tGQtlT": "tGQtlT",
-                "uG3Bwy": "확실한가요?",
-                "uqFXw/": "uqFXw/",
-                "wdNhTg": "wdNhTg",
-                "xcasYL": "xcasYL",
-                "znwvG4": "폴더",
-                "zvEYIq": "zvEYIq"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T18:09:52.887885+00:00"
+    "timestamp": "2026-10-06T18:20:38.933943+00:00"
 }
