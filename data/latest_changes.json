@@ -1,5 +1,5 @@
 {
-    "build_hash": "3464e72f4c99988a70485a7afcd1f42ad9c2dfec",
+    "build_hash": "927a832631e417492372d071540904c3a919f716",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,79 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "rtcLargerTarget"
+            ],
+            "default_config": {
+                "enabled": false,
+                "rtcLargerTarget": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-a11y-chassis-target-size",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-06T21:08:21Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "rtcLargerTarget": false
+                },
+                "1": {
+                    "enabled": true,
+                    "rtcLargerTarget": false
+                },
+                "2": {
+                    "enabled": true,
+                    "rtcLargerTarget": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "rtcLargerTarget"
+            ],
+            "default_config": {
+                "enabled": false,
+                "rtcLargerTarget": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-a11y-chassis-target-size",
+            "kind": "user",
+            "timestamp": "2026-10-06T21:08:21Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "rtcLargerTarget": false
+                },
+                "1": {
+                    "enabled": true,
+                    "rtcLargerTarget": false
+                },
+                "2": {
+                    "enabled": true,
+                    "rtcLargerTarget": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -54,7 +125,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Y6LdPr": "Verify your account to complete this payment. Log in to get started."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +137,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T21:02:05.597310+00:00"
+    "timestamp": "2026-10-06T21:12:52.326551+00:00"
 }
