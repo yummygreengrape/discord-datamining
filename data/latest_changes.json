@@ -1,158 +1,12 @@
 {
-    "build_hash": "1aaa533f221fb7e6fb2ad7d564cd8b2cde33e2f0",
+    "build_hash": "dcc920d27f4d9f580ff4d9cae51a25fb294fdbf3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "지원되는 기기에서 음성 출력 메뉴의 공간 음향 스위치를 노출합니다."
-                    }
-                ],
-                "detailed_summary": "기본 상태에서는 음성 통화의 출력 장치 메뉴에 공간 음향 스위치가 나타나지 않습니다. 비교안에서는 Discord가 현재 기기에서 공간 음향을 지원한다고 확인했을 때만 스위치를 표시합니다. 사용자가 스위치를 바꾸면 현재 음성 통화의 공간 음향 설정이 즉시 켜지거나 꺼집니다. 현재 Canary에서도 출력 장치 메뉴가 실험 설정과 기기 지원 여부를 함께 확인해 스위치를 렌더링하고, 음성 엔진은 같은 조건으로 공간 음향 처리를 적용합니다. 이번 두 수정 행은 설정의 켜짐·꺼짐 의미를 바꾸지 않았으며, 지원되지 않는 기기에는 비교안이어도 스위치가 표시되지 않습니다.",
-                "evidence": [
-                    "Current Canary AudioDeviceMenu reads the experiment together with SPATIAL_AUDIO hardware support before rendering the switch.",
-                    "The visible switch reads the current state and calls setSpatialAudio when toggled.",
-                    "MediaEngineStore also gates spatial audio mixer activation on the same experiment and capability check."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "음성 통화 공간 음향",
-                "generated_at": "2026-08-22T04:02:32Z",
-                "importance": "high",
-                "summary": "음성 통화의 출력 장치 메뉴에서 지원되는 기기에 공간 음향 스위치를 보여 주고, 참가자 소리를 입체적으로 배치할 수 있게 하는 실험입니다.",
-                "why_it_matters": "여러 사람이 참여한 음성 통화에서 상대의 소리를 공간적으로 구분하기 쉬워질 수 있습니다. 기기 지원 여부를 함께 확인하므로 사용할 수 없는 환경에는 불필요한 설정을 보여 주지 않습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "Shows a Spatial Audio switch in voice output controls on supported devices."
-                    }
-                ],
-                "detailed_summary": "By default, the voice output-device menu does not show a Spatial Audio switch. In the variant, Discord shows the switch only after confirming that the current device supports spatial audio. Toggling it immediately changes spatial audio for the active voice call. Current Canary still checks both the experiment and device capability in the output-device menu, while the voice engine uses the same conditions before applying spatial mixing. The two modified rows do not change the enabled-versus-disabled behavior, and unsupported devices still do not show the control.",
-                "evidence": [
-                    "Current Canary AudioDeviceMenu reads the experiment together with SPATIAL_AUDIO hardware support before rendering the switch.",
-                    "The visible switch reads the current state and calls setSpatialAudio when toggled.",
-                    "MediaEngineStore also gates spatial audio mixer activation on the same experiment and capability check."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Spatial audio for voice calls",
-                "generated_at": "2026-08-22T04:02:32Z",
-                "importance": "high",
-                "summary": "Adds a Spatial Audio switch to voice output controls on supported devices, letting users turn spatial voice positioning on or off.",
-                "why_it_matters": "Spatial positioning can make participants easier to distinguish in group voice calls. The support check also avoids showing a control that cannot work on the current device."
-            },
-            "config_keys": [
-                "defaultOn",
-                "enabled"
-            ],
-            "default_config": {
-                "defaultOn": false,
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-spatial-audio-for-voice",
-            "kind": "user",
-            "locations": [
-                "RTCConnection"
-            ],
-            "old_config_keys": [
-                "enabled"
-            ],
-            "old_default_config": {
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_locations": [
-                "RTCConnection"
-            ],
-            "old_signals": [
-                "MediaEngine.supports(SPATIAL_AUDIO)"
-            ],
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true
-                }
-            },
-            "signals": [
-                "MediaEngine.supports(SPATIAL_AUDIO)"
-            ],
-            "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "defaultOn": true,
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "defaultOn",
-                "enabled"
-            ],
-            "default_config": {
-                "defaultOn": false,
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-spatial-audio-for-voice",
-            "kind": "user",
-            "locations": [
-                "RTCConnection"
-            ],
-            "old_config_keys": [
-                "enabled"
-            ],
-            "old_default_config": {
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_locations": [
-                "RTCConnection"
-            ],
-            "old_signals": [
-                "MediaEngine.supports(SPATIAL_AUDIO)"
-            ],
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true
-                }
-            },
-            "signals": [
-                "MediaEngine.supports(SPATIAL_AUDIO)"
-            ],
-            "status": "modified",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "defaultOn": true,
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -200,7 +54,10 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "QcKHvf": "Expand {sectionName}",
+                "jsV9yS": "Collapse {sectionName}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -210,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T22:28:47.418479+00:00"
+    "timestamp": "2026-10-06T22:39:37.580812+00:00"
 }
