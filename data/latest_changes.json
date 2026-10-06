@@ -1,5 +1,5 @@
 {
-    "build_hash": "3ea723d608f1d664fed4ce14a9eb659dc55d294a",
+    "build_hash": "660f2f6a776a3254128eb1586cfe284c8ae30c55",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "cOmrX4": "To pay with another payment method, log in to your account."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T17:48:12.255214+00:00"
+    "timestamp": "2026-10-06T17:59:00.790693+00:00"
 }
