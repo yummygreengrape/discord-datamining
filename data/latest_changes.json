@@ -1,8 +1,19 @@
 {
-    "build_hash": "16233e8d7dd1130a5bab648213273c3805d324b0",
+    "build_hash": "72f78f3a6391019b5418690b3e5e54b2f6b608af",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-gummy-viewers",
+            "kind": "user",
+            "timestamp": "2026-10-06T15:42:31Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,7 +24,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "gOIq4P": "Join {channel}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T15:59:43.870160+00:00"
+    "timestamp": "2026-10-06T16:11:11.124848+00:00"
 }
