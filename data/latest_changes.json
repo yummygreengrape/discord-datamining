@@ -1,5 +1,5 @@
 {
-    "build_hash": "b9b9c59ec6c802a0e4056ccfdfc541326707aabb",
+    "build_hash": "ceaf95755ff31b35a34da417792056cd7842382c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,7 +54,22 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0gqEHu": "Send 2 weeks of Server Boosts, custom profiles, and more.",
+                "2nw1yD": "They'll get 2 weeks of custom profiles, bigger file uploads, and more. [Learn more]({helpdeskArticle}).",
+                "DrjI2v": "More are coming soon. If you’re feeling generous, you could always gift Nitro. [Learn more]({helpdeskArticle})",
+                "GCMMir": "See a friend? Share Nitro",
+                "KXbhzo": "Treat them to Nitro",
+                "LVlgM4": "Share Nitro with {recipientName}",
+                "NkgMIP": "Share 2 weeks of Nitro for sharper, smoother streams, plus profile perks and more.",
+                "QUEST_INSTRUCTIONS": "FriendsActivityFeed",
+                "TyRCCM": "Hook your friends up and become the group chat MVP.",
+                "ZBuqcM": "You’ve shared all your trials",
+                "dzQxHq": "Send Trial",
+                "rdh1ou": "Help {recipientName} stream in HD",
+                "s8VHbZ": "{recipientName} has 10 days to accept the trial before it is returned to you. [Learn more]({helpdeskArticle}).",
+                "tJvaQ8": "Send {recipientName} 2 weeks of custom profiles, themes, and more."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +79,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T19:46:12.892937+00:00"
+    "timestamp": "2026-10-06T19:57:01.050682+00:00"
 }
