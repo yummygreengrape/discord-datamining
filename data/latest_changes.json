@@ -1,5 +1,5 @@
 {
-    "build_hash": "20f116453736910357d5fba142d866095ef86df3",
+    "build_hash": "7d2075ae65cb67a4953ef5dd43701499478ce536",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -15,32 +15,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "G9HG5O": {
-                    "new_value": "You're using the legacy chat input",
-                    "old_value": "Upgrade your chat"
-                },
-                "LEGACY_CHAT_INPUT_SLASH_COMMAND_EXPLANATION_MODAL_BUTTON_CTA": {
-                    "new_value": "Turn It Off",
-                    "old_value": "Enable now"
-                },
-                "LEGACY_CHAT_INPUT_SLASH_COMMAND_EXPLANATION_MODAL_MESSAGE": {
-                    "new_value": "Application commands don't work with it. Turn it off to get them back. You can switch back anytime in $[User Settings > Accessibility](openSettingsHook).",
-                    "old_value": "Get access to slash commands and other great ways to chat by enabling our latest features.\n\nYou can always go back to legacy chat at any time by heading over to $[User Settings > Accessibility](openSettingsHook).\n\n"
-                },
-                "LEGACY_CHAT_INPUT_SLASH_COMMAND_EXPLANATION_MODAL_TITLE": {
-                    "new_value": "You're using the legacy chat input",
-                    "old_value": "Upgrade your chat"
-                },
-                "VdzwlA": {
-                    "new_value": "Turn It Off",
-                    "old_value": "Enable now"
-                },
-                "ZtUieE": {
-                    "new_value": "Application commands don't work with it. Turn it off to get them back. You can switch back anytime in openSettingsHookHookUser Settings > Accessibility.",
-                    "old_value": "pHookGet access to slash commands and other great ways to chat by enabling our latest features.pHookYou can always go back to legacy chat at any time by heading over to openSettingsHookHookUser Settings > Accessibility."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -48,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T16:22:01.207158+00:00"
+    "timestamp": "2026-10-06T16:32:54.065694+00:00"
 }
