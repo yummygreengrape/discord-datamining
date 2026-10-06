@@ -1,5 +1,5 @@
 {
-    "build_hash": "9bccb36183ee34f2f99f4e7866db9f400c173961",
+    "build_hash": "acdf5dc7e7f46ed9953ac2cbf887fa1a8ae30f0b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-gift-cards-in-app-marketing",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-06T22:11:13Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-gift-cards-in-app-marketing",
+            "kind": "user",
+            "timestamp": "2026-10-06T22:11:13Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -54,15 +99,174 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "j4n5/K": "Learn More",
+                "sJHQqC": "Give or get Nitro, Shop items, and more. Now available at select retailers online and in-stores.",
+                "tmst3F": "Gift Cards are here!"
+            },
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "1JZfaU": "Nitro로 {multiplier}배 Orbs 보너스를 잠금 해제하세요",
+                "1osZYy": "청구서를 로드할 수 없습니다. 다시 시도해 주세요.",
+                "2tcO02": "이 청구서는 더 이상 사용할 수 없습니다. 로그인하여 구독을 확인하세요.",
+                "34VJiG": "이 결제 수단을 저장할 수 없습니다. 세부 정보를 확인하고 다시 시도해 주세요.",
+                "4z9ZVX": "결제를 처리할 수 없습니다. 다시 시도해 주세요.",
+                "51/RO8": "첨부 파일",
+                "6w+Dyr": "이 오디오 파일을 읽을 수 없습니다. 파일이 손상되었거나 지원되지 않는 코덱을 사용할 수 있습니다.",
+                "7ACDrq": "이 룩으로 꾸며보기",
+                "7qUFc7": "스포일러 표시됨",
+                "AgMngw": "Orbs 잔액: {balance} Orbs, 신규 Orb 챌린지 업데이트",
+                "AzkvWe": "추천 타일",
+                "B5tZXw": "지금까지 교환한 Orbs 총 {orbAmount}개",
+                "CcNVYB": "{channelName} 채널, 상단에 고정됨",
+                "J0tNny": "온라인 보호 법령(Online Safety Act)에 따른 요청 포함",
+                "JO5lXN": "음성 및 영상 설정 열기",
+                "KIskmn": "스포일러 표시됨",
+                "M8sI9b": "카드 추가",
+                "PhnOeM": "업데이트 확인...",
+                "PuL/sT": "결제를 완료하세요",
+                "SPQn3O": "18세 미만인 당사자에 대한 성적인 이미지는 아동 성 착취물(CSAM)이며 불법입니다. CSAM은 National Center for Missing & Exploited Children으로 신고됩니다.",
+                "UqJCz6": "결제 금액이 변경되었습니다. 새로운 총액을 확인하고 다시 시도해 주세요.",
+                "VuK9sC": "{appName} 종료",
+                "XKj5L9": "Orbs 지갑",
+                "Zf0GQS": "이 카드는 추가 인증이 필요합니다. 결제를 완료하려면 로그인하세요.",
+                "ajHWbZ": "이제 마음에 드는 별명 스타일을 적용해 볼 수 있어요.",
+                "beHwVL": "이 링크는 유효하지 않거나 만료되었습니다.",
+                "bgfExW": "해시태그",
+                "bzNi8X": "로샨 킬",
+                "cpqhYg": "이 결제가 완료되었는지 확인할 수 없습니다. 로그인하여 구독을 확인한 다음 다시 시도하세요.",
+                "e62g5R": "리스트 항목 {index}/{size}",
+                "eJU906": "결제가 완료됐어요.",
+                "eMhkxR": "승인 대기 중",
+                "gBJwjU": "구매가 승인되면 자동으로 구매 품목을 계정에 추가해 드릴게요.",
+                "gOIq4P": "{channel} 참가하기",
+                "gYzaCr": "displayNameHookHook 님의 스타일이 잘 어울리네요!",
+                "he73FE": "{amount} 지불",
+                "hl0vjd": "결제 처리 시간이 평소보다 오래 걸리고 있습니다. 다시 시도하기 전에 잠시 기다려 주세요.",
+                "kHie4V": "앱 다시 불러오기",
+                "kocF+6": "게임 내 아이템",
+                "mpd5Bv": "안녕하세요! Discord는 친구들과 연락을 유지하기 위해 백그라운드에서 실행돼요. 종료하려면 여기를 마우스 오른쪽 버튼으로 클릭하세요.",
+                "nYb8xq": "여성 온라인 보호 법령(법령 번호 12,976/2026)에 따른 요청 포함",
+                "noGK/D": "{days}일 남았어요",
+                "oAYuZw": "이 이름 스타일 적용해 보기",
+                "p9PPYD": "Nitro로 {multiplier}배 Orbs 보너스",
+                "p9fIXw": "{amount} 저장 및 결제",
+                "pkXfdR": "결제 양식을 로드할 수 없습니다. 다시 시도해 주세요.",
+                "qvvMqu": "스포일러 보기",
+                "rtm4DR": "본인 또는 지인의 안전이 우려되는 경우, Call 180으로 여성 지원 센터에 연락하거나 [브라질 헬프라인 및 핫라인]({supportOrgURL})을 방문하세요. 더 많은 리소스는 당사의 [웰빙 허브]({wellbeingURL}) 및 [고객 지원 센터 문서]({helpCenterURL})에서 확인할 수 있습니다.",
+                "zSYTEX": "{channelName} 채널, 고정 해제됨",
+                "zdk9GB": "전체 청구지 주소를 입력해 주세요.",
+                "zjuWNH": "{appName} 열기"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "04j3XV": {
+                    "new_value": "{days}일 후 Orbs {orbAmount}개",
+                    "old_value": "{orbAmount} Orbs, {days}일 후 만료"
+                },
+                "EdXn1A": {
+                    "new_value": "연령 제한 서버는 App Store 가이드라인에 따라 iOS 플랫폼에서 차단됩니다. 성인인 경우 데스크톱에서 서버에 참가하고 설정을 업데이트하여 iOS에서 볼 수 있습니다. 자세한 내용은 고객 지원 센터를 방문하여 확인하세요.",
+                    "old_value": "iOS 플랫폼에서는 App Store 방침상 연령 제한 서버를 볼 수 없어요. 성인이라면 데스크톱에서 서버에 참여하고 설정을 업데이트하여 iOS에서도 확인할 수 있어요. 더 자세한 내용은 고객센터에서 확인해주세요."
+                },
+                "JzbSEY": {
+                    "new_value": "@Mentions + 읽지 않은 메시지",
+                    "old_value": "멘션 및 읽지 않은 메시지"
+                },
+                "NQuXf0": {
+                    "new_value": "연령 제한 서버는 App Store 가이드라인에 따라 iOS 플랫폼에서 차단됩니다. 성인인 경우 데스크톱에서 서버에 참가하고 설정을 업데이트하여 iOS에서 볼 수 있습니다. 자세한 내용은 [고객 지원 센터를 방문]({helpURL})하여 확인하세요.",
+                    "old_value": "iOS 플랫폼에서는 App Store 방침상 연령 제한 서버를 볼 수 없어요. 더 자세한 내용은 [고객센터]({helpURL})에서 확인해주세요."
+                },
+                "wi6hPV": {
+                    "new_value": "고객 지원 센터 방문",
+                    "old_value": "고객센터 방문하기"
+                }
+            }
         }
     },
-    "timestamp": "2026-10-06T22:07:10.947703+00:00"
+    "string_context": {
+        "ko": {
+            "EdXn1A": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "한국어 화면의 “iOS에서 연령 제한 서버 접근이 막힐 수 있다는 안내” 문구는 Discord의 연령 제한 서버의 iOS 접근 안내에서 이 상태나 동작을 가리킵니다. 같은 처리 창에 연령 제한 서버, 민감 미디어 필터링, 나이 인증 및 iOS 제한 문구가 함께 있습니다. 문구 자체로 확인되는 범위에서 의미를 읽어야 하며, 실제 노출 여부는 계정과 화면에 따라 다를 수 있습니다.",
+                    "generated_at": "2026-09-27T00:15:57Z",
+                    "intent_type": "account_or_safety_notice",
+                    "related_terms": [
+                        "연령 제한 서버",
+                        "민감 미디어",
+                        "나이 인증",
+                        "iOS",
+                        "고객센터"
+                    ],
+                    "search_intent": "Discord 한국어 화면의 iOS에서 연령 제한 서버 접근이 막힐 수 있다는 안내 문구를 보고 해당 상태나 버튼이 무엇을 뜻하는지 확인하려는 검색입니다.",
+                    "source_context": "같은 처리 창에 연령 제한 서버, 민감 미디어 필터링, 나이 인증 및 iOS 제한 문구가 함께 있습니다.",
+                    "summary": "한국어 화면의 “iOS에서 연령 제한 서버 접근이 막힐 수 있다는 안내” 문구는 Discord의 연령 제한 서버의 iOS 접근 안내에서 이 상태나 동작을 가리킵니다.",
+                    "what_it_means": "한국어 화면의 이 문구는 iOS에서 연령 제한 서버 접근이 막힐 수 있다는 안내이라는 의미입니다.",
+                    "what_to_do": "성인이라면 문구에 안내된 데스크톱 참여와 설정 변경, 고객센터 설명을 확인하세요.",
+                    "when_it_appears": "한국어 화면의 iOS에서 연령 제한 서버 접근이 막힐 수 있다는 안내 문구는 연령 제한 서버의 iOS 접근 안내와 관련된 문자열에서 확인되며, 해당 Discord 화면에 보일 가능성이 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "In the Korean UI, this Discord string refers to the notice about iOS access to age-restricted servers in iOS access notice for an age-restricted server. The same window includes age-restricted servers, sensitive-media filtering, age verification and iOS restrictions. The text supports this reading, but availability can vary by account and screen.",
+                    "generated_at": "2026-09-27T00:15:57Z",
+                    "intent_type": "account_or_safety_notice",
+                    "related_terms": [
+                        "age-restricted server",
+                        "sensitive media",
+                        "age verification",
+                        "iOS",
+                        "Help Center"
+                    ],
+                    "search_intent": "A search after seeing the notice about iOS access to age-restricted servers in the Korean UI on Discord to understand that status or action.",
+                    "source_context": "The same window includes age-restricted servers, sensitive-media filtering, age verification and iOS restrictions.",
+                    "summary": "In the Korean UI, this Discord string refers to the notice about iOS access to age-restricted servers in iOS access notice for an age-restricted server.",
+                    "what_it_means": "In the Korean UI, the phrase means the notice about iOS access to age-restricted servers.",
+                    "what_to_do": "If you are an adult, follow the stated desktop join and settings steps and consult the Help Center.",
+                    "when_it_appears": "The the notice about iOS access to age-restricted servers string appears in the iOS access notice for an age-restricted server group for the Korean UI and may be shown on the related Discord screen."
+                }
+            },
+            "wi6hPV": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "한국어 화면의 “관련 도움말을 여는 고객센터 버튼” 문구는 Discord의 연령 제한 안내의 도움말 링크에서 이 상태나 동작을 가리킵니다. 같은 처리 창에 연령 제한 서버, 민감 미디어 필터링, 나이 인증 및 iOS 제한 문구가 함께 있습니다. 문구 자체로 확인되는 범위에서 의미를 읽어야 하며, 실제 노출 여부는 계정과 화면에 따라 다를 수 있습니다.",
+                    "generated_at": "2026-09-27T00:15:57Z",
+                    "intent_type": "account_or_safety_notice",
+                    "related_terms": [
+                        "연령 제한 서버",
+                        "민감 미디어",
+                        "나이 인증",
+                        "iOS",
+                        "고객센터"
+                    ],
+                    "search_intent": "Discord 한국어 화면의 관련 도움말을 여는 고객센터 버튼 문구를 보고 해당 상태나 버튼이 무엇을 뜻하는지 확인하려는 검색입니다.",
+                    "source_context": "같은 처리 창에 연령 제한 서버, 민감 미디어 필터링, 나이 인증 및 iOS 제한 문구가 함께 있습니다.",
+                    "summary": "한국어 화면의 “관련 도움말을 여는 고객센터 버튼” 문구는 Discord의 연령 제한 안내의 도움말 링크에서 이 상태나 동작을 가리킵니다.",
+                    "what_it_means": "한국어 화면의 이 문구는 관련 도움말을 여는 고객센터 버튼이라는 의미입니다.",
+                    "when_it_appears": "한국어 화면의 관련 도움말을 여는 고객센터 버튼 문구는 연령 제한 안내의 도움말 링크와 관련된 문자열에서 확인되며, 해당 Discord 화면에 보일 가능성이 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "In the Korean UI, this Discord string refers to the button that opens the related Help Center article in Help Center link in an age restriction notice. The same window includes age-restricted servers, sensitive-media filtering, age verification and iOS restrictions. The text supports this reading, but availability can vary by account and screen.",
+                    "generated_at": "2026-09-27T00:15:57Z",
+                    "intent_type": "account_or_safety_notice",
+                    "related_terms": [
+                        "age-restricted server",
+                        "sensitive media",
+                        "age verification",
+                        "iOS",
+                        "Help Center"
+                    ],
+                    "search_intent": "A search after seeing the button that opens the related Help Center article in the Korean UI on Discord to understand that status or action.",
+                    "source_context": "The same window includes age-restricted servers, sensitive-media filtering, age verification and iOS restrictions.",
+                    "summary": "In the Korean UI, this Discord string refers to the button that opens the related Help Center article in Help Center link in an age restriction notice.",
+                    "what_it_means": "In the Korean UI, the phrase means the button that opens the related Help Center article.",
+                    "when_it_appears": "The the button that opens the related Help Center article string appears in the Help Center link in an age restriction notice group for the Korean UI and may be shown on the related Discord screen."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-10-06T22:17:58.042949+00:00"
 }
