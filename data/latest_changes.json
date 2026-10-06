@@ -1,234 +1,8 @@
 {
-    "build_hash": "87573ef9945d3493e7a83806d0b0685127465822",
+    "build_hash": "71b6685d39280179ee990b4cefc3cf4b8b24e61a",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "켜진 비교안은 HEIC·HEIF 사진을 JPEG로 변환합니다."
-                    },
-                    {
-                        "key": "quality",
-                        "note": "비교안은 JPEG 인코딩 품질 설정값 60과 80을 사용합니다."
-                    }
-                ],
-                "detailed_summary": "기본 상태에서는 웹 첨부 파일 업로드가 HEIC·HEIF 사진을 이 실험에 따라 JPEG로 미리 바꾸지 않습니다. 비교안에서는 20 MiB 이하 파일을 JPEG로 변환하며 인코딩 품질 설정값을 60 또는 80으로 나눕니다. 현재 Canary의 일반 웹 업로드와 사전 변환 경로가 모두 이 설정을 직접 읽고, 변환할 수 없으면 원본 파일로 계속 진행합니다. 따라서 사진 선택 화면은 같아도 서버로 보내기 전 파일 형식과 압축 품질이 달라질 수 있습니다.",
-                "evidence": [
-                    "Current Canary CloudUpload reads the exact experiment before converting web HEIC attachments.",
-                    "A pre-upload path also dynamically loads the experiment and applies quality and maxFileSizeBytes.",
-                    "Enabled variants set a 20 MiB maximum conversion size and quality values of 60 or 80."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "웹 HEIC·HEIF 사진 업로드",
-                "generated_at": "2026-08-26T04:06:44Z",
-                "importance": "high",
-                "summary": "웹에서 HEIC·HEIF 사진을 올릴 때 JPEG로 바꿔 전송하도록 하는 실험입니다.",
-                "why_it_matters": "브라우저나 수신 환경에서 HEIC 지원이 부족해도 사진을 더 안정적으로 열 수 있게 할 가능성이 큽니다. 대신 변환 품질과 파일 크기의 균형이 달라질 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "Enabled variants convert HEIC and HEIF photos to JPEG."
-                    },
-                    {
-                        "key": "quality",
-                        "note": "Variants use JPEG encoder quality settings of 60 or 80."
-                    }
-                ],
-                "detailed_summary": "By default, web attachment uploads do not pre-convert HEIC or HEIF photos under this experiment. Enabled variants convert files up to 20 MiB to JPEG and compare encoder quality settings of 60 and 80. Both the regular web upload and pre-conversion paths in current Canary read this experiment directly, and a failed conversion falls back to the original file. The file picker can therefore look unchanged while the format and compression used for upload differ.",
-                "evidence": [
-                    "Current Canary CloudUpload reads the exact experiment before converting web HEIC attachments.",
-                    "A pre-upload path also dynamically loads the experiment and applies quality and maxFileSizeBytes.",
-                    "Enabled variants set a 20 MiB maximum conversion size and quality values of 60 or 80."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Web HEIC and HEIF photo uploads",
-                "generated_at": "2026-08-26T04:06:44Z",
-                "importance": "high",
-                "summary": "Converts HEIC and HEIF photos to JPEG before uploading them from the web client.",
-                "why_it_matters": "This may make photos more reliable to open where HEIC support is limited, while comparing the balance between converted image quality and file size."
-            },
-            "config_keys": [
-                "enabled",
-                "quality"
-            ],
-            "default_config": {
-                "enabled": false,
-                "quality": 60
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-heic-upload-conversion",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-06T00:29:11Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "quality": 60
-                },
-                "1": {
-                    "enabled": true,
-                    "quality": 60
-                },
-                "2": {
-                    "enabled": true,
-                    "quality": 80
-                }
-            }
-        },
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "기본 상태는 변환하지 않고 비교안은 JXR 계열 파일을 JPEG로 변환합니다."
-                    },
-                    {
-                        "key": "quality",
-                        "note": "현재 비교안은 JPEG 품질 85를 사용합니다."
-                    }
-                ],
-                "detailed_summary": "기본 상태에서는 JXR 계열 파일을 변환하지 않습니다. 비교안에서는 현재 Canary의 공용 업로드 경로가 JXR, WDP, HDP 확장자와 대응 MIME 형식을 감지하고, 50MB 이하 파일을 품질 85의 JPEG로 바꾼 뒤 업로드합니다. 변환에 실패하면 원본 파일로 계속 진행합니다. 이번 수정 행은 켜짐 여부와 품질 85 설정을 다시 기록하며, 현재 소비 경로와 동작은 계속 확인됩니다.",
-                "evidence": [
-                    "Current Canary defines JxrUploadConversionExperiment with disabled control and an enabled quality-85 treatment capped at 50 MB.",
-                    "The shared upload path detects JXR, WDP, HDP, image/jxr, and image/vnd.ms-photo files and reads this experiment before upload.",
-                    "The converter falls back to the original file when conversion fails."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "JXR 계열 이미지 업로드",
-                "generated_at": "2026-09-16T04:05:00Z",
-                "importance": "medium",
-                "summary": "JXR·WDP·HDP 이미지를 올릴 때 JPEG로 변환해 전송하는 실험입니다.",
-                "why_it_matters": "Windows 계열 이미지 형식을 더 많은 기기와 브라우저에서 열 수 있는 JPEG로 바꿔 첨부 호환성을 높일 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "The default does not convert files; the treatment converts JXR-family files to JPEG."
-                    },
-                    {
-                        "key": "quality",
-                        "note": "The current treatment uses JPEG quality 85."
-                    }
-                ],
-                "detailed_summary": "The default state does not convert JXR-family files. In the treatment, the shared upload path in current Canary detects JXR, WDP, and HDP extensions and matching MIME types, then converts files up to 50 MB into quality-85 JPEGs before upload. If conversion fails, Discord continues with the original file. This modified row records the enabled state and quality setting again, while the current consumer path remains confirmed.",
-                "evidence": [
-                    "Current Canary defines JxrUploadConversionExperiment with disabled control and an enabled quality-85 treatment capped at 50 MB.",
-                    "The shared upload path detects JXR, WDP, HDP, image/jxr, and image/vnd.ms-photo files and reads this experiment before upload.",
-                    "The converter falls back to the original file when conversion fails."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "JXR-family image uploads",
-                "generated_at": "2026-09-16T04:05:00Z",
-                "importance": "medium",
-                "summary": "Converts JXR, WDP, and HDP images to JPEG before upload.",
-                "why_it_matters": "Converting Windows-oriented image formats into broadly supported JPEG files may make attachments easier to open across devices and browsers."
-            },
-            "config_keys": [
-                "enabled",
-                "quality"
-            ],
-            "default_config": {
-                "enabled": false,
-                "quality": 85
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-jxr-upload-conversion",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-06T00:29:11Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "quality": 85
-                },
-                "1": {
-                    "enabled": true,
-                    "quality": 85
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "quality"
-            ],
-            "default_config": {
-                "enabled": false,
-                "quality": 60
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-heic-upload-conversion",
-            "kind": "user",
-            "timestamp": "2026-10-06T00:29:11Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "quality": 60
-                },
-                "1": {
-                    "enabled": true,
-                    "quality": 60
-                },
-                "2": {
-                    "enabled": true,
-                    "quality": 80
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled",
-                "quality"
-            ],
-            "default_config": {
-                "enabled": false,
-                "quality": 85
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-jxr-upload-conversion",
-            "kind": "user",
-            "timestamp": "2026-10-06T00:29:11Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "quality": 85
-                },
-                "1": {
-                    "enabled": true,
-                    "quality": 85
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -236,37 +10,17 @@
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
-    "rollout_changes": [
-        {
-            "change_id": "f295c0672413707ff0be2fedeffe118f",
-            "changed_at": "2026-09-29T00:43:06.127140+00:00",
-            "changes": [
-                {
-                    "after": 3,
-                    "before": 2,
-                    "type": "override_rules_changed"
-                }
-            ],
-            "id": "2026-04_server_theme",
-            "kind": "guild",
-            "labels": {
-                "0": "Control",
-                "1": "Treatment 1: Enable Server Theme",
-                "2": "Treatment 2: Rollback UI for Server Theme"
-            },
-            "limits": [
-                "guild_id_list"
-            ],
-            "revision": {
-                "after": 1,
-                "before": 1
-            },
-            "source": "discord"
-        }
-    ],
+    "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "6Ej9W0": "External files",
+                "9paF2r": "Databases",
+                "GN6kqM": "Code cache",
+                "Y9/ijr": "Shared preferences",
+                "ZmaptE": "External caches",
+                "lZWCZ+": "Files excluded from backup"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -276,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T00:33:08.451804+00:00"
+    "timestamp": "2026-10-06T00:43:57.362091+00:00"
 }
