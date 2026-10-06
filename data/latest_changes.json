@@ -1,53 +1,8 @@
 {
-    "build_hash": "408ce6e180cf403031f5d71f28821997456e5fd1",
+    "build_hash": "16233e8d7dd1130a5bab648213273c3805d324b0",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-gummy-viewers",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-06T15:42:31Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-gummy-viewers",
-            "kind": "user",
-            "timestamp": "2026-10-06T15:42:31Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -68,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T15:48:26.364410+00:00"
+    "timestamp": "2026-10-06T15:59:43.870160+00:00"
 }
