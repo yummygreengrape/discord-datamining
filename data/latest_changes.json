@@ -1,5 +1,5 @@
 {
-    "build_hash": "f509868597d61c5ab7301071a301787a8a8cfdd1",
+    "build_hash": "99259a14ee4651ca0c8bdca0f2681822e3fcf434",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,66 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "1NAPyC": "Restore to preview",
+                "2KgEnm": "Restore {title} to preview",
+                "G9wD92": "Replace the live database?",
+                "GgleNC": "Show fewer",
+                "cjJdqL": "Preview database",
+                "h3WBgO": "Database",
+                "qCWKAE": "Show all",
+                "tmSDLN": "{database} options",
+                "vyxJO8": "Everyone using your app will get its data as it was at {time}. Anything saved after that will be lost for all users. We’ll save a backup first so you can undo this.",
+                "yLsAhA": "Live database"
+            },
+            "deleted": {
+                "ZoQDS5": "More options",
+                "k8NBLj": "Which data",
+                "nvLRYG": "No backups yet",
+                "vMfqqk": "This affects people using your app right now."
+            },
+            "modified": {
+                "KVnLPd": {
+                    "new_value": "Preview",
+                    "old_value": "Current Preview"
+                },
+                "L2iFYN": {
+                    "new_value": "Restore to a point in time",
+                    "old_value": "Rewind to a time"
+                },
+                "S65Rv3": {
+                    "new_value": "Live",
+                    "old_value": "Published"
+                },
+                "XfeFw5": {
+                    "new_value": "Restore",
+                    "old_value": "Rewind"
+                },
+                "Xi6pDt": {
+                    "new_value": "Restore to a point in time…",
+                    "old_value": "Rewind to a time…"
+                },
+                "qulPhb": {
+                    "new_value": "Live",
+                    "old_value": "Published"
+                },
+                "rR8rgj": {
+                    "new_value": "Restore your data?",
+                    "old_value": "Rewind your data?"
+                },
+                "uNd2Je": {
+                    "new_value": "Back up now",
+                    "old_value": "Save a backup now"
+                },
+                "yHchfE": {
+                    "new_value": "Your data is restored.",
+                    "old_value": "Your data is rewound."
+                },
+                "z2x5zj": {
+                    "new_value": "Your preview will go back to this version. Your live app and your data won’t change. The chat will rewind to this point.",
+                    "old_value": "Your preview will go back to this version. Your published app and your data won’t change. The chat will rewind to this point."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +80,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T04:04:47.975959+00:00"
+    "timestamp": "2026-10-06T04:15:39.260578+00:00"
 }
