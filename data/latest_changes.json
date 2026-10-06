@@ -1,5 +1,5 @@
 {
-    "build_hash": "71df6aac2165851c9fb6b96f8102a0cad960b45f",
+    "build_hash": "eba7ec738f2df9a1d9e8de68e87f0fdd171ac6c2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,7 +54,13 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "48pvCR": "Also change the live app’s name?",
+                "HSyPrY": "Not now",
+                "Xk+JsJ": "This will also publish any work-in-progress changes you have.",
+                "guoHDk": "Update live app",
+                "r6bvTh": "Browse Similar Communities"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +70,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T21:45:26.850619+00:00"
+    "timestamp": "2026-10-06T21:56:23.985757+00:00"
 }
