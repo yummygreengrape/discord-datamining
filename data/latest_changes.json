@@ -1,5 +1,5 @@
 {
-    "build_hash": "b659ca2c45471eb36504ce7b595bb1a5ce722085",
+    "build_hash": "b9b9c59ec6c802a0e4056ccfdfc541326707aabb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,90 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "questHomeRedirect"
-            ],
-            "default_config": {
-                "enabled": false,
-                "questHomeRedirect": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-hexagon-campaign-client",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-06T19:31:18Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "questHomeRedirect": false
-                },
-                "1": {
-                    "enabled": true,
-                    "questHomeRedirect": true
-                },
-                "2": {
-                    "enabled": true,
-                    "questHomeRedirect": false
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "questHomeRedirect"
-            ],
-            "default_config": {
-                "enabled": false,
-                "questHomeRedirect": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-hexagon-campaign-client",
-            "kind": "user",
-            "timestamp": "2026-10-06T19:31:18Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "questHomeRedirect": false
-                },
-                "1": {
-                    "enabled": true,
-                    "questHomeRedirect": true
-                },
-                "2": {
-                    "enabled": true,
-                    "questHomeRedirect": false
-                }
-            }
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-guild-sidebar-stream-preview",
-            "kind": "guild",
-            "timestamp": "2026-10-06T19:29:14Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -136,10 +54,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "+xs8ZP": "GTA VI",
-                "cxSpOM": "Stream Preview"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -149,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T19:35:20.185462+00:00"
+    "timestamp": "2026-10-06T19:46:12.892937+00:00"
 }
