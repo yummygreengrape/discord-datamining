@@ -1,8 +1,89 @@
 {
-    "build_hash": "0653b11b0fc72e392a07a0c2f2c54f37b2114d89",
+    "build_hash": "09ff24ebddf15b0393b12cbd598d15ff0d2e372b",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "useNtpClock",
+                        "note": "켜진 비교안은 연결 직후 데스크톱 앱의 네트워크 시간 동기화를 시작합니다."
+                    }
+                ],
+                "detailed_summary": "기본 상태에서는 Clips 연결 과정에서 별도의 네트워크 시간 동기화를 시작하지 않습니다. 비교안에서는 연결이 열린 뒤 Clips 관리 코드가 이 설정을 직접 읽고 데스크톱 앱의 시간 동기화 기능을 시작합니다. 사용자에게 새 버튼이나 설정이 생기는 변화는 아니며, 녹화 시점 계산을 더 일관되게 만들기 위한 내부 동작으로 확인됩니다. 실제 클립의 지연이나 싱크가 얼마나 달라지는지는 현재 근거로 측정되지 않았습니다.",
+                "evidence": [
+                    "Current Canary ClipsManager reads useNtpClock at ClipsManager#handlePostConnectionOpen.",
+                    "The enabled path calls the native ntpClock start method after connection open."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Clips 녹화 시간 동기화",
+                "generated_at": "2026-08-26T04:06:44Z",
+                "importance": "low",
+                "summary": "Clips 녹화가 로컬 시간만 쓰는 대신 Discord가 맞춘 네트워크 시간 기준을 시작하도록 바꾸는 실험입니다.",
+                "why_it_matters": "클립의 영상·음성·이벤트 시점을 같은 시간 기준에 맞추는 데 도움이 될 가능성이 있지만, 체감 개선 정도는 별도 측정이 필요합니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "useNtpClock",
+                        "note": "The enabled variant starts the desktop app’s network-synchronized clock after connection open."
+                    }
+                ],
+                "detailed_summary": "The default does not start a separate network time source during the Clips connection flow. In the enabled variant, the Clips manager reads this setting after the connection opens and starts the desktop app’s synchronized clock. This does not add a visible button or setting; it is an internal timing change for recording. The current evidence does not measure how much clip delay or synchronization changes in practice.",
+                "evidence": [
+                    "Current Canary ClipsManager reads useNtpClock at ClipsManager#handlePostConnectionOpen.",
+                    "The enabled path calls the native ntpClock start method after connection open."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Clips recording time synchronization",
+                "generated_at": "2026-08-26T04:06:44Z",
+                "importance": "low",
+                "summary": "Starts Discord’s network-synchronized clock for Clips recording instead of relying only on local timing.",
+                "why_it_matters": "A shared time reference may help keep video, audio, and clip events aligned, but the user-visible improvement still needs measurement."
+            },
+            "config_keys": [
+                "useNtpClock"
+            ],
+            "default_config": {
+                "useNtpClock": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-clips-ntp-clock",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "useNtpClock": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "useNtpClock"
+            ],
+            "default_config": {
+                "useNtpClock": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-clips-ntp-clock",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "useNtpClock": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -40,13 +121,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "FQwdYx": "Last chance! Join Nitro and get a $10 Riot Games reward.",
-                "WMK6Pg": "Unlock Offer",
-                "oXcPmE": "Last chance to join Nitro and get a $10 Riot Games reward. [Terms apply.]({termsUrl})",
-                "uytDvV": "One-time code reward. Expires {expirationDate, date, short}. [Terms apply.]({termsUrl})",
-                "vlafDc": "Unlock Reward"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -56,5 +131,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T00:00:38.301229+00:00"
+    "timestamp": "2026-10-06T00:11:26.274014+00:00"
 }
