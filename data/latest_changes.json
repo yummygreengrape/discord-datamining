@@ -1,5 +1,5 @@
 {
-    "build_hash": "6e1f90397e95b7df2624b89d3add8560a29d42fc",
+    "build_hash": "9685749a6a33a0e977b0c3f5bff9f7734ce95b21",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,14 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "VW2XVd": "userHookHookbHook{user} moved memberHookHookbHook{member} to channelHookHookbHook{channel} ({count})",
-                "hEqea3": "userHookHookbHook{user} moved {uniqueCount} to channelHookHookbHook{channel} ({count})",
-                "lODaeu": "userHookHookbHook{user} disconnected {uniqueCount} from voice ({count})",
-                "qXazAb": "userHookHookbHook{user} moved bHook{uniqueCount}+ users to channelHookHookbHook{channel} ({count})",
-                "tTwGD8": "userHookHookbHook{user} disconnected memberHookHookbHook{member} from voice ({count})",
-                "xuGjhY": "userHookHookbHook{user} disconnected bHook{uniqueCount}+ users from voice ({count})"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -30,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T12:08:02.266824+00:00"
+    "timestamp": "2026-10-06T12:39:24.096620+00:00"
 }
