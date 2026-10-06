@@ -1,5 +1,5 @@
 {
-    "build_hash": "71b6685d39280179ee990b4cefc3cf4b8b24e61a",
+    "build_hash": "0e1b4277be548475daaf9911194c3bc8bb84e2e6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,14 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "6Ej9W0": "External files",
-                "9paF2r": "Databases",
-                "GN6kqM": "Code cache",
-                "Y9/ijr": "Shared preferences",
-                "ZmaptE": "External caches",
-                "lZWCZ+": "Files excluded from backup"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -30,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T00:43:57.362091+00:00"
+    "timestamp": "2026-10-06T00:54:45.441349+00:00"
 }
