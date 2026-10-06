@@ -1,5 +1,5 @@
 {
-    "build_hash": "d86afb3bf782357b878e5691ee96552516c98bb0",
+    "build_hash": "0653b11b0fc72e392a07a0c2f2c54f37b2114d89",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -40,7 +40,13 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "FQwdYx": "Last chance! Join Nitro and get a $10 Riot Games reward.",
+                "WMK6Pg": "Unlock Offer",
+                "oXcPmE": "Last chance to join Nitro and get a $10 Riot Games reward. [Terms apply.]({termsUrl})",
+                "uytDvV": "One-time code reward. Expires {expirationDate, date, short}. [Terms apply.]({termsUrl})",
+                "vlafDc": "Unlock Reward"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -50,5 +56,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-05T23:49:50.170137+00:00"
+    "timestamp": "2026-10-06T00:00:38.301229+00:00"
 }
