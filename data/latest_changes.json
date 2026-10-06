@@ -1,5 +1,5 @@
 {
-    "build_hash": "ceaf95755ff31b35a34da417792056cd7842382c",
+    "build_hash": "8ebfd2ebc8b909e1fac936c2d0d0a5ca1d491457",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -62,7 +62,6 @@
                 "KXbhzo": "Treat them to Nitro",
                 "LVlgM4": "Share Nitro with {recipientName}",
                 "NkgMIP": "Share 2 weeks of Nitro for sharper, smoother streams, plus profile perks and more.",
-                "QUEST_INSTRUCTIONS": "FriendsActivityFeed",
                 "TyRCCM": "Hook your friends up and become the group chat MVP.",
                 "ZBuqcM": "You’ve shared all your trials",
                 "dzQxHq": "Send Trial",
@@ -79,5 +78,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T19:57:01.050682+00:00"
+    "timestamp": "2026-10-06T20:07:49.775935+00:00"
 }
