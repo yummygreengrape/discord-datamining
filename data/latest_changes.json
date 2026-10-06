@@ -1,8 +1,53 @@
 {
-    "build_hash": "5a94d669c7ddd26dc4bd93afb8c31c9df37d857c",
+    "build_hash": "408ce6e180cf403031f5d71f28821997456e5fd1",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-gummy-viewers",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-10-06T15:42:31Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-gummy-viewers",
+            "kind": "user",
+            "timestamp": "2026-10-06T15:42:31Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,9 +58,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "gOIq4P": "Join {channel}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-06T15:37:34.204346+00:00"
+    "timestamp": "2026-10-06T15:48:26.364410+00:00"
 }
