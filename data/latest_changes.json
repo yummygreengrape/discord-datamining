@@ -1,5 +1,5 @@
 {
-    "build_hash": "e293c53f47a121eb2f724a8d563e0d6e626ef51a",
+    "build_hash": "f82887611e1c47f94e10ec7473a2d671c79e8d7f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,71 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-default-emojis",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-07T17:35:49Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-default-emojis",
-            "kind": "user",
-            "timestamp": "2026-10-07T17:35:49Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-rive-web-perf",
-            "kind": "user",
-            "timestamp": "2026-10-07T15:48:49Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -117,9 +54,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "3D0GLv": "View Nitro Emojis"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -129,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-07T17:36:04.387781+00:00"
+    "timestamp": "2026-10-07T17:47:01.341928+00:00"
 }
