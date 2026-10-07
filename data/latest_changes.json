@@ -1,5 +1,5 @@
 {
-    "build_hash": "863bfb1989be734ecd07780a036e392bdae17322",
+    "build_hash": "0a4e93e3ebfc3b089aeac60b3aad7c4c8eeb7b69",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,51 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-windows-native-premap",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-windows-native-premap",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -54,19 +97,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "FoToeH": "No",
-                "I5UWh9": "Get Nitro, Shop items, Server Boosts, and more",
-                "Ja5Q8Z": "Give a Discord gift card today",
-                "UwYHGm": "Learn more on [our website]({websiteUrl})",
-                "ZuneBP": "Redeem in [Billing Settings]({onBillingSettingsClick})",
-                "j4n5/K": "Learn More",
-                "sJHQqC": "Give or get Nitro, Shop items, and more. Now available at select retailers online and in-stores.",
-                "tmst3F": "Gift Cards are here!",
-                "uij9Dy": "Was this answer helpful?",
-                "x/H32X": "Yes",
-                "ztNU94": "[Terms & eligibility rules apply.]({termsUrl})"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -76,85 +107,5 @@
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "sJHQqC": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "일부 온라인·오프라인 판매처라는 표현이 있어 판매 경로를 소개하는 문구예요. 문구에 든 사용처를 확인할 수 있지만 모든 국가나 모든 매장에서 판매된다는 뜻은 아니에요. 실제 판매 범위는 자세히 알아보기의 최신 안내와 대조해야 해요.",
-                    "generated_at": "2026-10-07T15:12:15.506385Z",
-                    "intent_type": "billing_or_subscription_issue",
-                    "related_terms": [
-                        "Discord Gift Cards",
-                        "Nitro",
-                        "상점",
-                        "Learn More"
-                    ],
-                    "search_intent": "Discord 기프트카드로 무엇을 살 수 있고 어디서 구할 수 있는지 알아보려는 검색이에요.",
-                    "source_context": "같은 시점에 Gift Cards are here!, Nitro·상점 구매 안내, Learn More와 기프트카드 안내 실험이 함께 확인돼요.",
-                    "summary": "이 설명은 기프트카드로 Nitro와 상점 아이템 등을 선물하거나 받을 수 있다고 안내해요.",
-                    "what_it_means": "기프트카드는 Nitro와 상점 구매 등에 쓸 수 있는 선물용 구매 수단이라는 설명이에요.",
-                    "what_to_do": "판매처를 고르기 전에 현재 기프트카드 안내의 지역·판매 경로를 확인하세요.",
-                    "when_it_appears": "Gift Cards are here! 제목 아래의 사용처와 판매처 설명에 보일 수 있어요."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "It describes selected retail channels, rather than promising that every store or country sells the cards. The named products explain the intended uses. Consult the current linked information for actual retail availability.",
-                    "generated_at": "2026-10-07T15:12:15.506385Z",
-                    "intent_type": "billing_or_subscription_issue",
-                    "related_terms": [
-                        "Discord Gift Cards",
-                        "Nitro",
-                        "Shop",
-                        "Learn More"
-                    ],
-                    "search_intent": "A reader may want to know what Discord gift cards buy and where they are sold.",
-                    "source_context": "Gift Cards are here!, the Nitro and Shop description, Learn More, and the gift-card marketing experiment occur together.",
-                    "summary": "This description presents gift cards as a way to give or receive Nitro, Shop items, and more.",
-                    "what_it_means": "It describes gift cards as a purchase option for Nitro and Shop products, among other uses.",
-                    "what_to_do": "Check the current gift-card information for supported retail channels before choosing a seller.",
-                    "when_it_appears": "It may appear below the gift-card promotion heading as its purchasing description."
-                }
-            },
-            "tmst3F": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "같이 나온 설명은 Nitro나 상점 아이템 등을 주고받는 구매 수단으로 기프트카드를 소개해요. 이 제목은 판매 안내이며 카드 잔액이 이미 지급됐다는 뜻은 아니에요. 실제 구매 가능 지역과 판매처는 현재 안내에서 확인해야 해요.",
-                    "generated_at": "2026-10-07T15:12:15.506385Z",
-                    "intent_type": "billing_or_subscription_issue",
-                    "related_terms": [
-                        "Discord Gift Cards",
-                        "Nitro",
-                        "상점",
-                        "Learn More"
-                    ],
-                    "search_intent": "Discord에 표시된 Gift Cards가 어떤 구매 수단인지 알아보려는 검색이에요.",
-                    "source_context": "같은 시점에 Gift Cards are here!, Nitro·상점 구매 안내, Learn More와 기프트카드 안내 실험이 함께 확인돼요.",
-                    "summary": "Gift Cards are here!는 Discord 기프트카드를 소개하는 안내 제목이에요.",
-                    "what_it_means": "Discord 구매에 사용할 기프트카드가 있다는 소개예요.",
-                    "what_to_do": "구매를 생각한다면 자세히 알아보기에서 지원 지역과 판매처를 확인하세요.",
-                    "when_it_appears": "기프트카드를 알리는 앱 내 홍보 안내의 제목으로 나타날 수 있어요."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "The accompanying copy connects the cards with Nitro, Shop items, and other purchases. The heading announces a product rather than credit already added to your account. Check current information for supported regions and retailers.",
-                    "generated_at": "2026-10-07T15:12:15.506385Z",
-                    "intent_type": "billing_or_subscription_issue",
-                    "related_terms": [
-                        "Discord Gift Cards",
-                        "Nitro",
-                        "Shop",
-                        "Learn More"
-                    ],
-                    "search_intent": "A visitor may search Gift Cards to understand this Discord purchase option.",
-                    "source_context": "Gift Cards are here!, the Nitro and Shop description, Learn More, and the gift-card marketing experiment occur together.",
-                    "summary": "Gift Cards are here! is a heading introducing Discord gift cards.",
-                    "what_it_means": "It introduces gift cards that can be used for Discord purchases.",
-                    "what_to_do": "If you intend to buy a card, use Learn More to check current regions and retailers.",
-                    "when_it_appears": "It can appear as the title of an in-app gift-card promotion."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-10-07T21:08:15.167895+00:00"
+    "timestamp": "2026-10-07T21:19:03.177583+00:00"
 }
