@@ -1,5 +1,5 @@
 {
-    "build_hash": "3630c7baf2339801d79560ca9be20735f9f52a04",
+    "build_hash": "5e49e6e79f9538db582b748d342e45b3d0b34cc9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -55,18 +55,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "A2XnI4": "{fontName} font, {effectName}, {colors}"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "A2XnI4": "{fontName} 글꼴, {effectName}, {colors}"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-07T00:48:53.216640+00:00"
+    "timestamp": "2026-10-07T00:59:45.393535+00:00"
 }
