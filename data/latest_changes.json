@@ -1,5 +1,5 @@
 {
-    "build_hash": "0a4e93e3ebfc3b089aeac60b3aad7c4c8eeb7b69",
+    "build_hash": "8a038eacb0e2211d7f0fabf84fff179c892c69f5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,51 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-windows-native-premap",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-windows-native-premap",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -107,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-07T21:19:03.177583+00:00"
+    "timestamp": "2026-10-07T21:29:50.606469+00:00"
 }
