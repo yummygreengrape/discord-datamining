@@ -1,5 +1,5 @@
 {
-    "build_hash": "a77e4cf344425bb5b1ec67d20f6139a01d2b7463",
+    "build_hash": "47adebe2b6cef604e0474aa6fa5c99e9b7cc46e6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,17 +54,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "4LVIeo": "{app}’s preview bot was removed from {server}.",
-                "4VQfid": "#{channel} was deleted from {server}.",
-                "Lwsrhg": "{app} was removed from {server}.",
-                "R1tPlP": "a server",
-                "RlMIJN": "#{channel} was deleted from {server} by $[{user}](userHook).",
-                "YJOV6D": "{app}’s preview bot was removed from {server} by $[{user}](userHook).",
-                "lA/crI": "{app}’s bot was removed from {server} by $[{user}](userHook).",
-                "mT7EQG": "{app}’s bot was removed from {server}.",
-                "qqePfT": "{app} was removed from {server} by $[{user}](userHook)."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -74,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-07T22:45:32.689638+00:00"
+    "timestamp": "2026-10-07T22:56:24.000428+00:00"
 }
