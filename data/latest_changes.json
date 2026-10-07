@@ -1,5 +1,5 @@
 {
-    "build_hash": "1453049201d250564c7c6e37bffb02beb1320f48",
+    "build_hash": "a77e4cf344425bb5b1ec67d20f6139a01d2b7463",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,14 +54,19 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "4LVIeo": "{app}’s preview bot was removed from {server}.",
+                "4VQfid": "#{channel} was deleted from {server}.",
+                "Lwsrhg": "{app} was removed from {server}.",
+                "R1tPlP": "a server",
+                "RlMIJN": "#{channel} was deleted from {server} by $[{user}](userHook).",
+                "YJOV6D": "{app}’s preview bot was removed from {server} by $[{user}](userHook).",
+                "lA/crI": "{app}’s bot was removed from {server} by $[{user}](userHook).",
+                "mT7EQG": "{app}’s bot was removed from {server}.",
+                "qqePfT": "{app} was removed from {server} by $[{user}](userHook)."
+            },
             "deleted": {},
-            "modified": {
-                "O6nNjP": {
-                    "new_value": "Agent Trace",
-                    "old_value": "Trace"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -69,5 +74,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-07T22:34:39.213782+00:00"
+    "timestamp": "2026-10-07T22:45:32.689638+00:00"
 }
