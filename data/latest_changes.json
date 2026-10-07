@@ -1,5 +1,5 @@
 {
-    "build_hash": "7d31f46d96417a5cb931b254c131e8efcd707c8b",
+    "build_hash": "745da07b45153bf5f3cf0465cb14d8f066a58afb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,7 +54,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "CJ0I6C": "{count, plural, one {# more participant} other {# more participants}}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +66,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-07T13:43:14.474973+00:00"
+    "timestamp": "2026-10-07T13:54:00.649916+00:00"
 }
