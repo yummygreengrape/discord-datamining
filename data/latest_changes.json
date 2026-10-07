@@ -1,5 +1,5 @@
 {
-    "build_hash": "0e801eb106f578ee9a6363ddc2ee8fa49499ed97",
+    "build_hash": "1f285b62379552cc19b42e35aa4c2294bfb667c3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,33 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-three-month-nitro-gifting",
+            "kind": "user",
+            "status": "added",
+            "treatments": [],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-three-month-nitro-gifting",
+            "kind": "user",
+            "treatments": [],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -54,7 +79,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "OleW32": "New Discord-powered social features are available in Call of Duty: MW4. Upgrade your connection to unlock a unified friends list and invites."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +91,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-07T20:03:08.899843+00:00"
+    "timestamp": "2026-10-07T20:13:57.175427+00:00"
 }
