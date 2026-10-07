@@ -1,5 +1,5 @@
 {
-    "build_hash": "a0143d376db5a696d67936d75ae28d414f85ad7f",
+    "build_hash": "7ea89a455c06a36d264d0de097efa89c3fb8b5a9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,59 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "nativeSystemCpuTimes"
+            ],
+            "default_config": {
+                "nativeSystemCpuTimes": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-desktop-game-perf",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "nativeSystemCpuTimes": false
+                },
+                "1": {
+                    "nativeSystemCpuTimes": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "nativeSystemCpuTimes"
+            ],
+            "default_config": {
+                "nativeSystemCpuTimes": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-desktop-game-perf",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "nativeSystemCpuTimes": false
+                },
+                "1": {
+                    "nativeSystemCpuTimes": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -64,5 +115,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-07T12:59:54.414888+00:00"
+    "timestamp": "2026-10-07T13:11:38.659974+00:00"
 }
