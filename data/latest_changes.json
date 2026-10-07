@@ -1,8 +1,85 @@
 {
-    "build_hash": "06fd3be90c340bbf58488717edd62d8e20f662ee",
+    "build_hash": "b6c78a49fa434fcb7947096f08d643e307eca2a4",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "treatment"
+            ],
+            "default_config": {
+                "treatment": "control"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-12-nitro-s-rewards",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-10-07T00:32:41Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "treatment": "control"
+                },
+                "1": {
+                    "treatment": "treatment_a"
+                },
+                "2": {
+                    "treatment": "treatment_b"
+                },
+                "3": {
+                    "treatment": "treatment_c"
+                },
+                "4": {
+                    "treatment": "treatment_d"
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "treatment"
+            ],
+            "default_config": {
+                "treatment": "control"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-12-nitro-s-rewards",
+            "kind": "user",
+            "timestamp": "2026-10-07T00:32:41Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "0": {
+                    "treatment": "control"
+                },
+                "1": {
+                    "treatment": "treatment_a"
+                },
+                "2": {
+                    "treatment": "treatment_b"
+                },
+                "3": {
+                    "treatment": "treatment_c"
+                },
+                "4": {
+                    "treatment": "treatment_d"
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -64,5 +141,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-07T00:27:13.899102+00:00"
+    "timestamp": "2026-10-07T00:38:03.348402+00:00"
 }
