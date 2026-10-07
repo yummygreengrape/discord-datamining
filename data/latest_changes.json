@@ -1,5 +1,5 @@
 {
-    "build_hash": "72b135d4e81869d8d822a1531aae9f3833cf0310",
+    "build_hash": "68f2840180f602311fd886bf0c2b13849a013367",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,36 +54,19 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "24Kzud": "FUNNY JOKE COMBO",
-                "5/WCf/": "1K SUPER COMBO",
-                "5ifydJ": "5K STILL GOING COMBO",
-                "6hvboB": "100K TOO MANY SOUNDS COMBO",
-                "BETi5Z": "Preview Server",
-                "Ec5lqb": "DISCORD BIRTHDAY COMBO",
-                "KiYrRC": "LEAP YEAR COMBO",
-                "LKiPeX": "200 HIT COMBO",
-                "N8tPFd": "10K WOW STILL GOING COMBO",
-                "QzKwEQ": "Previewing will take you out of the call screen.",
-                "ZctfZ/": "100 HIT COMBO"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "VqNHoS": {
-                    "new_value": "This sound combo is no longer active",
-                    "old_value": "This sound is no longer active"
-                },
-                "s5No7R": {
-                    "new_value": "This sound is from a discoverable server.",
-                    "old_value": "This sound is from a public server."
-                }
-            }
+            "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "E7QYGI": "{sender} 님이 {intervalCount}개월치 Nitro를 선물했어요!",
+                "G1Q40N": "Nitro {intervalCount}개월 이용권",
+                "boclBe": "시작"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-07T19:41:29.397103+00:00"
+    "timestamp": "2026-10-07T19:52:20.261311+00:00"
 }
