@@ -1,77 +1,8 @@
 {
-    "build_hash": "332f683af6eacf4b5496b18a678ff5b94b0ce036",
+    "build_hash": "e293c53f47a121eb2f724a8d563e0d6e626ef51a",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled",
-                "questHomeRedirect"
-            ],
-            "default_config": {
-                "enabled": false,
-                "questHomeRedirect": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-hexagon-campaign-client",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "questHomeRedirect": false
-                },
-                "1": {
-                    "enabled": true,
-                    "questHomeRedirect": true
-                },
-                "2": {
-                    "enabled": true,
-                    "questHomeRedirect": false
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "questHomeRedirect"
-            ],
-            "default_config": {
-                "enabled": false,
-                "questHomeRedirect": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-hexagon-campaign-client",
-            "kind": "user",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false,
-                    "questHomeRedirect": false
-                },
-                "1": {
-                    "enabled": true,
-                    "questHomeRedirect": true
-                },
-                "2": {
-                    "enabled": true,
-                    "questHomeRedirect": false
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -85,15 +16,20 @@
             "default_config": {
                 "enabled": false
             },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-08-rive-web-perf",
+            "id": "2026-09-default-emojis",
             "kind": "user",
             "status": "added",
+            "timestamp": "2026-10-07T17:35:49Z",
             "treatments": [
+                "Variant 0",
                 "Variant 1"
             ],
             "variations": {
+                "0": {
+                    "enabled": false
+                },
                 "1": {
                     "enabled": true
                 }
@@ -108,18 +44,33 @@
             "default_config": {
                 "enabled": false
             },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-08-rive-web-perf",
+            "id": "2026-09-default-emojis",
             "kind": "user",
+            "timestamp": "2026-10-07T17:35:49Z",
             "treatments": [
+                "Variant 0",
                 "Variant 1"
             ],
             "variations": {
+                "0": {
+                    "enabled": false
+                },
                 "1": {
                     "enabled": true
                 }
             }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-rive-web-perf",
+            "kind": "user",
+            "timestamp": "2026-10-07T15:48:49Z",
+            "treatments": [
+                "Variant 1"
+            ]
         }
     ],
     "rollout_changes": [
@@ -166,24 +117,17 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "+xs8ZP": "GTA VI",
-                "2UCcmW": "Limited Time",
-                "5Z2qmz": "EXTEND PERK",
-                "JC4Pii": "GTA VI",
-                "noGK/D": "{days}D LEFT",
-                "y2YmJv": "Promoted by Rockstar Games, available for {nonPremiumDays} days for non-subs and {premiumDays} days for Nitro subscribers starting {startDate}. learnMoreHookHookLearn more"
+            "added": {
+                "3D0GLv": "View Nitro Emojis"
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "noGK/D": "{days}일 남았어요"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-07T16:59:06.834388+00:00"
+    "timestamp": "2026-10-07T17:36:04.387781+00:00"
 }
