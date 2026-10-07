@@ -1,5 +1,5 @@
 {
-    "build_hash": "6134bd2e816ebc0ebcc41c67772ea34989a043bd",
+    "build_hash": "212e08d51d9ba2222d4eca9bb40f0f007a23eb78",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,61 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "legacyOverlayWorker"
+            ],
+            "default_config": {
+                "legacyOverlayWorker": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-desktop-tti-perf",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-07T02:01:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "legacyOverlayWorker": false
+                },
+                "1": {
+                    "legacyOverlayWorker": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "legacyOverlayWorker"
+            ],
+            "default_config": {
+                "legacyOverlayWorker": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-desktop-tti-perf",
+            "kind": "user",
+            "timestamp": "2026-10-07T02:01:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "legacyOverlayWorker": false
+                },
+                "1": {
+                    "legacyOverlayWorker": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -64,5 +117,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-07T01:42:58.127923+00:00"
+    "timestamp": "2026-10-07T02:04:06.480374+00:00"
 }
