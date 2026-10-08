@@ -1,8 +1,61 @@
 {
-    "build_hash": "4b8451bbcbc38b7e9556eef1b96dc535ccc98071",
+    "build_hash": "0e31394bd1ee39b9ebcec22bb5bfbc78c47891f2",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-badge-discovery-milestone-2",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-10-08T21:48:40Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-badge-discovery-milestone-2",
+            "kind": "user",
+            "timestamp": "2026-10-08T21:48:40Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -64,5 +117,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T21:46:09.414399+00:00"
+    "timestamp": "2026-10-08T21:56:58.035236+00:00"
 }
