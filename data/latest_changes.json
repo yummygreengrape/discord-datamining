@@ -1,5 +1,5 @@
 {
-    "build_hash": "e4f8b1ad73fd88bdb828e1b2d9eefe1b779a7f5f",
+    "build_hash": "75fdd19745dc10c2b4a06b3563d1ec1a805d3cc4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,22 +54,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "+E2PqP": "This will also remove:",
-                "08PzLy": "Not in a server",
-                "3gKG2j": "Remove from {server}",
-                "87CtcA": "Also remove {app}",
-                "8OKM1N": "This takes the app out of the server. Your project stays and you can publish it again any time.",
-                "9CvVB9": "This permanently deletes the project and removes {app} from {server}.",
-                "BGF8VT": "Remove",
-                "He+1tx": "SQLite total",
-                "PJ2Fkn": "Couldn’t remove the app. Try again.",
-                "SNFGxP": "{app} was removed from {server}.",
-                "UD3OKX": "SQLite free",
-                "aC42bN": "Delete project",
-                "pyh2pa": "{name}, not in a server",
-                "x6FvsZ": "Remove {app}?"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -79,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T01:27:19.403973+00:00"
+    "timestamp": "2026-10-08T01:48:26.793029+00:00"
 }
