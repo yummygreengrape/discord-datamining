@@ -1,5 +1,5 @@
 {
-    "build_hash": "e1c83ea5c1fb5cbfa10a665581ecb01eaa6e09ce",
+    "build_hash": "13b1dfbfd64570fe26dfdfc8cfb9abd2b2f32b80",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -56,7 +56,24 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "CONTACT_SYNC_FIND_FRIENDS": {
+                    "new_value": "Find Friends",
+                    "old_value": "Find friends"
+                },
+                "DISCOVERABILITY_ALLOW_FIND_ME": {
+                    "new_value": "Allow People to Find Me",
+                    "old_value": "Allow people to find me"
+                },
+                "QUXSpo": {
+                    "new_value": "Find Friends",
+                    "old_value": "Find friends"
+                },
+                "gHPk3I": {
+                    "new_value": "Allow People to Find Me",
+                    "old_value": "Allow people to find me"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -64,5 +81,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T23:23:36.949630+00:00"
+    "timestamp": "2026-10-08T23:34:26.251999+00:00"
 }
