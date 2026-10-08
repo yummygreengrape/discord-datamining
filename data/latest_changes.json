@@ -1,5 +1,5 @@
 {
-    "build_hash": "fc6e7bb4beda690c78c2ffcf86c4f3bbef7c09bc",
+    "build_hash": "003520b9de3be8a651731cb8eb6591dceb8b280a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,53 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-bounties-desktop-quest-bar",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-08T18:57:10Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-bounties-desktop-quest-bar",
-            "kind": "user",
-            "timestamp": "2026-10-08T18:57:10Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -109,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T19:02:56.863551+00:00"
+    "timestamp": "2026-10-08T19:13:44.263708+00:00"
 }
