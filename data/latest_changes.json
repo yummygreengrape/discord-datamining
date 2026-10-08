@@ -1,5 +1,5 @@
 {
-    "build_hash": "22eae7718ced11b980ebb6ef3fa74f4b0f38f45b",
+    "build_hash": "2d58cb3e5cac7fce6d8679d0898470d1e09ce4e4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,8 +54,14 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "eHYXFg": "Without the Manage Channels permission in {server}, publishing won’t add the app’s channel.",
+                "pE4Cec": "{channels} will stay in the server. Deleting channels takes Manage Channels."
+            },
+            "deleted": {
+                "4sqXfg": "You need the Manage Server and Manage Channels permissions in {server} to publish this app.",
+                "PxtHIV": "You need the Manage Channels permission in {server} to publish this app."
+            },
             "modified": {}
         },
         "ko": {
@@ -64,5 +70,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T22:18:38.028969+00:00"
+    "timestamp": "2026-10-08T22:29:24.254200+00:00"
 }
