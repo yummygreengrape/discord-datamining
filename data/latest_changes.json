@@ -1,5 +1,5 @@
 {
-    "build_hash": "57f8fc3897486168a5ae114beabc364e2f90b833",
+    "build_hash": "061471adf490872fdb0bb2b9f510fe16c44c2c99",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -55,9 +55,19 @@
     "string_changes": {
         "en": {
             "added": {
-                "PTDDhW": "Being invisible hides your gaming activity. Go Online to join the leaderboard.",
-                "cgRADC": "You're Online! We're counting your activity now and you'll show up on the leaderboard tomorrow.",
-                "dqYuni": "Activity Sharing is on. We're counting your activity now and you'll show up on the leaderboard tomorrow."
+                "7lQQJ5": "Hand Back",
+                "FkosiV": "{title}, live",
+                "G3a822": "Open {title} full screen",
+                "OO/He7": "{title}, closed",
+                "UjUsph": "Agent browser sessions",
+                "Uvkr1G": "Browsers the agent used",
+                "Wuww13": "You can’t take control right now: another builder’s turn is running.",
+                "d5Slrv": "Take Control",
+                "gHsgGe": "Agent browser",
+                "ocRH08": "The agent closed this browser.",
+                "rnwqXb": "Live view of the agent’s {name} browser",
+                "sGsShB": "Agent browsers",
+                "wuE3Ja": "Connecting to the browser…"
             },
             "deleted": {},
             "modified": {}
@@ -68,5 +78,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T00:22:23.313128+00:00"
+    "timestamp": "2026-10-08T00:33:13.528524+00:00"
 }
