@@ -1,31 +1,8 @@
 {
-    "build_hash": "b4fa76f4343248c382c6cb26d97e7a24e7e4408c",
+    "build_hash": "279fdff871f8b230d238fc8839b0abd1b3aa765f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-boosting-pre-checkout-modal-refresh-v2",
-            "kind": "user",
-            "timestamp": "2026-10-08T18:33:40Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-boosting-pre-checkout-modal-refresh-monthly-rate",
-            "kind": "user",
-            "timestamp": "2026-10-08T18:33:40Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -87,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T18:41:15.569875+00:00"
+    "timestamp": "2026-10-08T18:52:05.914066+00:00"
 }
