@@ -1,5 +1,5 @@
 {
-    "build_hash": "d450088176160a288ba91ae8dbb63215a57e6752",
+    "build_hash": "c99a91b5e779a2df715a62faa12ee1af3cb3421a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,20 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-try-display-name-style",
-            "kind": "user",
-            "timestamp": "2026-10-08T17:22:37Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -67,15 +54,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "6bWeWP": "Learn More",
-                "8rL1QB": "Join {guildName}",
-                "VGRZh7": "Grid",
-                "lQqwQi": "Joined {guildName}",
-                "qtKobx": "Get your hands on a gift card. Literally! Now available at select retailers online and in-stores.",
-                "w8gzZb": "The Perfect Gift For @everyone",
-                "xYa9Y8": "Where to Buy"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -85,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T17:57:46.568600+00:00"
+    "timestamp": "2026-10-08T18:08:43.439967+00:00"
 }
