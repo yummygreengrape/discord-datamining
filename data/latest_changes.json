@@ -1,8 +1,21 @@
 {
-    "build_hash": "e78da37684f1c8bc7249a1d3c064ea35cb67abf9",
+    "build_hash": "a8ac276d75d8d3eb4b898cbb89880363d92aa2a9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-boosting-refresh-modals",
+            "kind": "user",
+            "timestamp": "2026-10-08T18:21:27Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -54,12 +67,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "/qIck6": "$[{username}](usernameHook) has added $[{appName}](appNameHook) to the server.",
-                "EAkHd2": "[{appName}]({appNameOnClick}) was added to the server.",
-                "LlJum4": "$[{appName}](appNameHook) was added to the server.",
-                "x6G/Rr": "[{username}]({usernameOnClick}) has added [{appName}]({appNameOnClick}) to the server."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -69,5 +77,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T18:19:32.973143+00:00"
+    "timestamp": "2026-10-08T18:30:23.864069+00:00"
 }
