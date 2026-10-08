@@ -1,5 +1,5 @@
 {
-    "build_hash": "f9a2121dcaf7771676206c9a1049f8fd846f6070",
+    "build_hash": "23447e1b5a7088d2c556efa7fdc7a156764b9622",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,7 +54,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "n/a182": "Share HD"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +66,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T21:13:42.058847+00:00"
+    "timestamp": "2026-10-08T21:24:32.234141+00:00"
 }
