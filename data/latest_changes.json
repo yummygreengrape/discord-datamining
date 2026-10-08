@@ -1,5 +1,5 @@
 {
-    "build_hash": "99b8d7a7e220a73f9db5e9460b152d8f9b57e9a6",
+    "build_hash": "a8c924e3a750a3ef6b8ab5131bf05d3bf37e1856",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,18 +54,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "CXtLD2": "Steer",
-                "DOb1HM": "Fold Into The Current Work",
-                "urZwpN": "Remove From Queue"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "H8Jfhu": {
-                    "new_value": "Restore This Version",
-                    "old_value": "Restore this version"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -73,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T06:32:14.984829+00:00"
+    "timestamp": "2026-10-08T07:03:40.849446+00:00"
 }
