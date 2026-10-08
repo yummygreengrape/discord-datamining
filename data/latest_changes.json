@@ -1,5 +1,5 @@
 {
-    "build_hash": "fcfabfc1e6559cda1aac27b8e3b1779583ba36a6",
+    "build_hash": "29911f42e80dfb10572813b2062295831f24f8aa",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,7 +54,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "lLFi5U": "Collectible Options"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +66,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T19:57:35.115884+00:00"
+    "timestamp": "2026-10-08T20:08:48.315957+00:00"
 }
