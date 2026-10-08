@@ -1,5 +1,5 @@
 {
-    "build_hash": "061471adf490872fdb0bb2b9f510fe16c44c2c99",
+    "build_hash": "453e1a059eb759cd4e08553e9a468c69ceac0ea9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,21 +54,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "7lQQJ5": "Hand Back",
-                "FkosiV": "{title}, live",
-                "G3a822": "Open {title} full screen",
-                "OO/He7": "{title}, closed",
-                "UjUsph": "Agent browser sessions",
-                "Uvkr1G": "Browsers the agent used",
-                "Wuww13": "You can’t take control right now: another builder’s turn is running.",
-                "d5Slrv": "Take Control",
-                "gHsgGe": "Agent browser",
-                "ocRH08": "The agent closed this browser.",
-                "rnwqXb": "Live view of the agent’s {name} browser",
-                "sGsShB": "Agent browsers",
-                "wuE3Ja": "Connecting to the browser…"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -78,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T00:33:13.528524+00:00"
+    "timestamp": "2026-10-08T00:44:02.474533+00:00"
 }
