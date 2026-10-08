@@ -1,8 +1,99 @@
 {
-    "build_hash": "39e9fcb9cc25a286f3e753032118a79a9f4f3afc",
+    "build_hash": "5af356401412e724b9db41ab71907956e93ceeb1",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "useGuildMediaState에서 muted voice channel badge 계산을 조정합니다."
+                    }
+                ],
+                "detailed_summary": "서버 목록의 voice/video media state 계산에서 muted guild 상태를 함께 보는 실험입니다. Canary 청크에서 useGuildMediaState 위치가 dont-badge-muted-vcs 실험값을 읽고, isMuted와 guild voice/video 상태 계산 주변에서 사용되는 흐름이 확인됩니다.",
+                "evidence": [
+                    "canary/web.c0ac8579b6abf687.js: useGuildMediaState location에서 enabled 읽기",
+                    "동일 함수 주변에서 isMuted, guildHasVoice, guildHasVideo, selectedVoiceChannelHasVideo 계산 확인"
+                ],
+                "evidence_level": "current_canary_usage",
+                "focus_area": "음성 채널 알림",
+                "generated_at": "2026-06-06T05:06:17.601Z",
+                "importance": "medium",
+                "summary": "음소거된 음성 채널을 서버/폴더의 미디어 배지 계산에서 덜 강조하도록 조정하는 실험입니다.",
+                "why_it_matters": "사용자가 음소거한 음성 채널까지 계속 배지로 강조하면 서버 목록의 신호가 시끄러워지므로, 실제로 관심 있는 음성 활동만 남기는 UX 조정입니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "Adjusts muted voice channel badge behavior in useGuildMediaState."
+                    }
+                ],
+                "detailed_summary": "This experiment changes how muted guild voice activity contributes to server-list media state. The Canary chunk reads the experiment in useGuildMediaState, near isMuted and guild voice/video state calculations.",
+                "evidence": [
+                    "canary/web.c0ac8579b6abf687.js reads enabled at the useGuildMediaState location",
+                    "The same function computes isMuted, guildHasVoice, guildHasVideo, and selectedVoiceChannelHasVideo"
+                ],
+                "evidence_level": "current_canary_usage",
+                "focus_area": "Voice channel notifications",
+                "generated_at": "2026-06-06T05:06:17.601Z",
+                "importance": "medium",
+                "summary": "Reduces badge emphasis for muted voice channels in guild and folder media-state calculations.",
+                "why_it_matters": "If muted voice channels still drive badges, the server list becomes noisier; this narrows attention to voice activity the user has not muted."
+            },
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-dont-badge-muted-vcs",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-10-08T06:18:58Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-dont-badge-muted-vcs",
+            "kind": "user",
+            "timestamp": "2026-10-08T06:18:58Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -64,5 +155,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T05:49:47.904224+00:00"
+    "timestamp": "2026-10-08T06:21:24.164755+00:00"
 }
