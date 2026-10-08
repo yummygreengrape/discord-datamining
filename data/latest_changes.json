@@ -1,5 +1,5 @@
 {
-    "build_hash": "29911f42e80dfb10572813b2062295831f24f8aa",
+    "build_hash": "758fc1e2309796211a20dfadc248837bfeec7716",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,11 +54,14 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "lLFi5U": "Collectible Options"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "Fb6oNP": {
+                    "new_value": "{text} · {duration}",
+                    "old_value": "{text} • {duration}"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -66,5 +69,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T20:08:48.315957+00:00"
+    "timestamp": "2026-10-08T20:19:41.253968+00:00"
 }
