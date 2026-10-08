@@ -1,5 +1,5 @@
 {
-    "build_hash": "302330d641f99e33034c202b1cfc1ec1ec43b7a4",
+    "build_hash": "2c8799a3e228bb3a9a8bf9765417f0ff2173544a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,79 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "phase"
+            ],
+            "default_config": {
+                "enabled": false,
+                "phase": 0
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-macaron",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-08T14:31:35Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "phase": 0
+                },
+                "1": {
+                    "enabled": true,
+                    "phase": 1
+                },
+                "2": {
+                    "enabled": true,
+                    "phase": 2
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "phase"
+            ],
+            "default_config": {
+                "enabled": false,
+                "phase": 0
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-macaron",
+            "kind": "user",
+            "timestamp": "2026-10-08T14:31:35Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "phase": 0
+                },
+                "1": {
+                    "enabled": true,
+                    "phase": 1
+                },
+                "2": {
+                    "enabled": true,
+                    "phase": 2
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -64,5 +135,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T14:22:21.245340+00:00"
+    "timestamp": "2026-10-08T14:33:13.204039+00:00"
 }
