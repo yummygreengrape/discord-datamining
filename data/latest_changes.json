@@ -1,5 +1,5 @@
 {
-    "build_hash": "72be200b8e4f34c9df7ebc72e999e2b0a3d8bdd5",
+    "build_hash": "1ebef11b9c9505568a242eef4d74bff85b306cbe",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,7 +54,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "6bWeWP": "Learn More",
+                "8rL1QB": "Join {guildName}",
+                "VGRZh7": "Grid",
+                "lQqwQi": "Joined {guildName}",
+                "qtKobx": "Get your hands on a gift card. Literally! Now available at select retailers online and in-stores.",
+                "w8gzZb": "The Perfect Gift For @everyone",
+                "xYa9Y8": "Where to Buy"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +72,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-08T17:35:14.198054+00:00"
+    "timestamp": "2026-10-08T17:46:29.701892+00:00"
 }
