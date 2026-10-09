@@ -1,5 +1,5 @@
 {
-    "build_hash": "303a1a85289aea4246e757515d85671461392307",
+    "build_hash": "955dea46b005f3adc38692f027f0d997c3ec83d9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,15 +54,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "AO7zpk": "Pick a PNG, JPEG, GIF or WebP image.",
-                "AiAz8J": "Use default background",
-                "T8Spiu": "That image is too big. Pick one under 5 MB.",
-                "hyN+kc": "Blur background",
-                "jj3abP": "The background couldn’t be saved. Try again.",
-                "uQpDky": "Upload background image",
-                "xd/1IW": "Background settings"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -72,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T23:17:13.109545+00:00"
+    "timestamp": "2026-10-09T23:28:03.271844+00:00"
 }
