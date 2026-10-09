@@ -1,5 +1,5 @@
 {
-    "build_hash": "8e6e5d4653a6b6602fe6b0362bbbbbeb19169dba",
+    "build_hash": "0eb00898a52432617343eba7bee0c00081bf95e2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,8 +54,13 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "r5Ra0p": "Voice Channel",
+                "zrk93C": "App Channel"
+            },
+            "deleted": {
+                "5QSvrP": "Chat Bot"
+            },
             "modified": {}
         },
         "ko": {
@@ -64,5 +69,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T22:44:41.528788+00:00"
+    "timestamp": "2026-10-09T22:55:33.761508+00:00"
 }
