@@ -1,5 +1,5 @@
 {
-    "build_hash": "b13aae2cccc7b0588ec9b2058a88d31757dc1ce0",
+    "build_hash": "72c876e87a0a0e5c6c76dd9e61f45a987cf5b7a3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,15 +54,28 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "/Z2sDF": "Leaderboard Streak",
+                "HervnJ": "{username} is leading {statName} this week!",
+                "LEADER_BADGE": "leader_badge",
+                "ZCFDN+": "Won the last {streakCount, number} weeks of gaming leaderboard competitions.",
+                "ZaOAtm": "Current Leader ({statName})",
+                "jCZgxQ": "Current leader of this week's gaming leaderboard."
+            },
+            "deleted": {
+                "87CtcA": "Also remove {app}",
+                "BX+8uG": "Click to see more",
+                "ltaxJz": "{streakCount, number} wins in a row"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "ltaxJz": "{streakCount}연승"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T22:12:44.287116+00:00"
+    "timestamp": "2026-10-09T22:33:49.491368+00:00"
 }
