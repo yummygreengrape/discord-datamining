@@ -1,5 +1,5 @@
 {
-    "build_hash": "dfaefa15d0366b4e894a429821a3e870f8d8797d",
+    "build_hash": "4a3f8fb9203d4d11eda0168fa146d8c4b0757fbe",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,7 +54,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "N9U/9X": "Your password has been reset. Log in with your new password."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +66,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T16:57:26.703324+00:00"
+    "timestamp": "2026-10-09T17:08:43.081488+00:00"
 }
