@@ -1,5 +1,5 @@
 {
-    "build_hash": "db4fb2b2271bc69b2d22827ebaec70a4089043da",
+    "build_hash": "ef2e1936a5a06678ea37c99a975ea096015cbd0c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-server-tag-upsell-on-profile",
+            "kind": "user",
+            "timestamp": "2026-10-09T12:30:27Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -64,5 +76,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T09:45:18.329353+00:00"
+    "timestamp": "2026-10-09T12:31:40.417348+00:00"
 }
