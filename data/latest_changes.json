@@ -1,5 +1,5 @@
 {
-    "build_hash": "08c2f7b9671606247250009cf0f0008bc8013b94",
+    "build_hash": "10a58afb6d32653600dcca73497e9c4b99483520",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,42 +54,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "0RERAa": "My Best Buy Plus™ Nitro Reward",
-                "7TxNKE": "Days",
-                "7pATiR": "Hours",
-                "H6cz/6": "First year of My Best Buy Plus™ ($29.99 value), free with Nitro. Get {rewardPercentage}% back in rewards on select pre-orders of the season’s biggest games. Redeem by {date}.",
-                "K/UZHJ": "First year of My Best Buy Plus™ ($29.99 value), free with Nitro. Get {rewardPercentage}% back in rewards on select pre-orders of the season’s biggest games and more. Redeem by {date}. [Terms apply.]({termsUrl})",
-                "NzvIo/": "Power up your pre-orders",
-                "OejyCi": "Upcoming",
-                "Q86yGA": "Unlock Reward",
-                "TaUsG9": "In {days}",
-                "VeAbZT": "Claim a 1-year My Best Buy Plus membership. Expires {expirationDate}.",
-                "WMK6Pg": "Unlock Offer",
-                "b9LwCb": "Unlock your first year of My Best Buy Plus™ free and earn {rewardPercentage}% back in rewards on select pre-orders of the season’s biggest games.",
-                "dXR9qI": "Minutes",
-                "ecPCdG": "My Best Buy Plus™ membership",
-                "evF0PO": "Claim your first year of My Best Buy Plus™ membership free. $29.99 annually. Auto-renews. Cancel anytime.",
-                "lyE3Rw": "Unlock Offer",
-                "uytDvV": "One-time code reward. Expires {expirationDate}. [Terms apply.]({termsUrl})",
-                "vlafDc": "Unlock Reward",
-                "xL7Cfe": "Get your first year of My Best Buy Plus™ ($29.99) free. Earn {rewardPercentage}% back in rewards on select pre-orders of the season’s biggest games. [Terms apply.]({termsUrl})"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "7TxNKE": "일",
-                "7pATiR": "시간",
-                "TaUsG9": "{days}일 후",
-                "WMK6Pg": "혜택 잠금 해제",
-                "dXR9qI": "분",
-                "vlafDc": "보상 잠금 해제"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T20:24:09.594404+00:00"
+    "timestamp": "2026-10-09T20:35:01.880349+00:00"
 }
