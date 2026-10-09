@@ -1,5 +1,5 @@
 {
-    "build_hash": "4a3f8fb9203d4d11eda0168fa146d8c4b0757fbe",
+    "build_hash": "291cfac0c1d938be49f761041bfb3a61341d86f2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -55,7 +55,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "N9U/9X": "Your password has been reset. Log in with your new password."
+                "pKLV22": "You cannot launch activities in age-restricted channels."
             },
             "deleted": {},
             "modified": {}
@@ -66,5 +66,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T17:08:43.081488+00:00"
+    "timestamp": "2026-10-09T17:19:33.769235+00:00"
 }
