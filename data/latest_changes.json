@@ -1,5 +1,5 @@
 {
-    "build_hash": "0eb00898a52432617343eba7bee0c00081bf95e2",
+    "build_hash": "6e46528c7cdfc11f0f57d6525f57fe0e93504bb9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,20 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-desktop-conjure-title-bar",
+            "kind": "user",
+            "timestamp": "2026-10-09T23:03:58Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -54,13 +67,8 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "r5Ra0p": "Voice Channel",
-                "zrk93C": "App Channel"
-            },
-            "deleted": {
-                "5QSvrP": "Chat Bot"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -69,5 +77,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T22:55:33.761508+00:00"
+    "timestamp": "2026-10-09T23:06:25.692119+00:00"
 }
