@@ -1,5 +1,5 @@
 {
-    "build_hash": "e3e9a0d7b7e3a43798c5b86a3de57dbe554e4642",
+    "build_hash": "0e1e810f8b70285c7699a30c77e13c8d943c9f60",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,7 +54,11 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "1cm4fj": "This app is incomplete: its channel is missing. Someone with **Manage Channels** in {server} needs to publish again.",
+                "Lm7IRC": "This app is incomplete: its bot isn’t in {server}. Someone with **Manage Server** needs to publish again.",
+                "ev23Cw": "[{name}]({onOpen}) is live, but its channel wasn’t added."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T05:22:22.115920+00:00"
+    "timestamp": "2026-10-09T05:33:14.500439+00:00"
 }
