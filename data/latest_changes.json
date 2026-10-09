@@ -1,5 +1,5 @@
 {
-    "build_hash": "3809f86fd3e5a6513ad58ef183ca5ef2e73c6f1d",
+    "build_hash": "73fdd245ff296df247f717733ddbc6662726ad97",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,20 +7,54 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
+    "new_api_endpoints": [],
+    "new_experiment_details": [
         {
-            "name": "ENDPOINT_USERS_SAVED_MESSAGES_BOOKMARKS",
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-stage-unified-call",
+            "kind": "guild",
             "status": "added",
-            "url": "/users/@me/saved-messages/bookmarks"
-        },
-        {
-            "name": "GET_BOOKMARKS",
-            "status": "added",
-            "url": "/users/@me/saved-messages/bookmarks"
+            "timestamp": "2026-10-09T01:55:36Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
         }
     ],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-stage-unified-call",
+            "kind": "guild",
+            "timestamp": "2026-10-09T01:55:36Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -65,9 +99,33 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "0lYpuQ": "No audience members matching \"{query}\"",
+                "C6rvri": "Audience — {filteredSize} of {totalSize}",
+                "Ds8IST": "Show Audience",
+                "Hn6jKn": "Nobody found",
+                "IQmRBE": "Show Audience, {count, plural, one {# request} other {# requests}} to speak pending",
+                "P63Z/o": "No one is on stage yet",
+                "ZSmz+r": "Hide Audience",
+                "dVtQRH": "Publish anyway",
+                "eo2IxJ": "Audience members will show up here.",
+                "qpffbI": "Missing server permission",
+                "sFXd49": "Search audience"
+            },
+            "deleted": {
+                "Agqmbt": "Please accept permissions before publishing",
+                "wQ4UyJ": "Cannot publish without reviewing permissions"
+            },
+            "modified": {
+                "N4NkyR": {
+                    "new_value": "You need to have the **Manage Server** permission to publish this app in {server}.",
+                    "old_value": "You need the Manage Server permission in {server} to publish this app."
+                },
+                "eHYXFg": {
+                    "new_value": "This app adds a channel in {server}, and you don’t have the **Manage Channels** permission to do that.",
+                    "old_value": "Without the Manage Channels permission in {server}, publishing won’t add the app’s channel."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -75,5 +133,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T01:40:57.839035+00:00"
+    "timestamp": "2026-10-09T02:02:01.772806+00:00"
 }
