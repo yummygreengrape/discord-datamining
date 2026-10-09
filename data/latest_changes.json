@@ -1,128 +1,12 @@
 {
-    "build_hash": "ebc162b9ea4902e8e001451669604d516f9c2c44",
+    "build_hash": "5c8543b9e8fc4f5e8b0d375b7b463c684ea7ddef",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "variant"
-            ],
-            "default_config": {
-                "variant": 0
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-new-orb-reward-visuals",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled"
-            ],
-            "old_default_config": {
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "variant": 0
-                },
-                "1": {
-                    "variant": 1
-                },
-                "2": {
-                    "variant": 3
-                },
-                "3": {
-                    "variant": 4
-                },
-                "4": {
-                    "variant": 2
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "variant"
-            ],
-            "default_config": {
-                "variant": 0
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-new-orb-reward-visuals",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled"
-            ],
-            "old_default_config": {
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "0": {
-                    "variant": 0
-                },
-                "1": {
-                    "variant": 1
-                },
-                "2": {
-                    "variant": 3
-                },
-                "3": {
-                    "variant": 4
-                },
-                "4": {
-                    "variant": 2
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -180,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T17:30:24.556322+00:00"
+    "timestamp": "2026-10-09T17:41:17.524366+00:00"
 }
