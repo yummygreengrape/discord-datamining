@@ -1,5 +1,5 @@
 {
-    "build_hash": "46b517f6273e5bb9aa341b29389fc556028a52a9",
+    "build_hash": "3809f86fd3e5a6513ad58ef183ca5ef2e73c6f1d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,7 +7,18 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_USERS_SAVED_MESSAGES_BOOKMARKS",
+            "status": "added",
+            "url": "/users/@me/saved-messages/bookmarks"
+        },
+        {
+            "name": "GET_BOOKMARKS",
+            "status": "added",
+            "url": "/users/@me/saved-messages/bookmarks"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [
@@ -64,5 +75,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T01:09:36.360493+00:00"
+    "timestamp": "2026-10-09T01:40:57.839035+00:00"
 }
