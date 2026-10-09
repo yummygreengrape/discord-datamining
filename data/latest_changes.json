@@ -1,5 +1,5 @@
 {
-    "build_hash": "2c9c3b53f2e061ada20a1ad22ea5dcbe20a4c30d",
+    "build_hash": "c6faceaba0a9541f4f47ab29a8b2d85134d0090d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,53 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-stage-unified-call-user",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-09T18:53:50Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-stage-unified-call-user",
-            "kind": "user",
-            "timestamp": "2026-10-09T18:53:50Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -99,22 +54,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "HUcd3y": "Allow requests to speak from @everyone"
-            },
-            "deleted": {
-                "FAMILY_CENTER_REQUESTS_LINKING_BANNER_TEEN_ASSET_ALT": "Wizard standing on a floating island",
-                "r+PDmu": "Wizard standing on a floating island"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "r+PDmu": "떠다니는 섬에 서 있는 마법사"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T18:57:40.081708+00:00"
+    "timestamp": "2026-10-09T19:08:29.571440+00:00"
 }
