@@ -1,5 +1,5 @@
 {
-    "build_hash": "6e46528c7cdfc11f0f57d6525f57fe0e93504bb9",
+    "build_hash": "303a1a85289aea4246e757515d85671461392307",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,20 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-desktop-conjure-title-bar",
-            "kind": "user",
-            "timestamp": "2026-10-09T23:03:58Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -67,7 +54,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "AO7zpk": "Pick a PNG, JPEG, GIF or WebP image.",
+                "AiAz8J": "Use default background",
+                "T8Spiu": "That image is too big. Pick one under 5 MB.",
+                "hyN+kc": "Blur background",
+                "jj3abP": "The background couldn’t be saved. Try again.",
+                "uQpDky": "Upload background image",
+                "xd/1IW": "Background settings"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -77,5 +72,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T23:06:25.692119+00:00"
+    "timestamp": "2026-10-09T23:17:13.109545+00:00"
 }
