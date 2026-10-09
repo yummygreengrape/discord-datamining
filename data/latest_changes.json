@@ -1,5 +1,5 @@
 {
-    "build_hash": "ca92f43ff27d951d3554bb3e1b8e9cf95e81a435",
+    "build_hash": "1ce3e582ee8aa68089dc90478c49d8ee273d7466",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,21 +54,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "/npn7F": "[{name}]({onOpen}) published to {server}.",
-                "2VkCoD": "Pick a role",
-                "4bptbQ": "Pick members",
-                "9+dfPT": "Pick a channel",
-                "FH2Udn": "Add Preview Bot",
-                "GZIAxl": "Pick a member",
-                "HmNT/r": "Are you sure? This channel is powered by {app}.",
-                "SWXbpN": "To preview your app in this server, add the Preview Bot first.",
-                "c8YlX8": "Pick roles",
-                "gKA9tU": "Remove the rest of this app too",
-                "pGSJqE": "Pick channels",
-                "tw+iyx": "Are you sure? This app will stop working in the server.",
-                "wVNCN7": "Kick {app} from Server"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -78,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T00:16:03.920846+00:00"
+    "timestamp": "2026-10-09T00:26:55.032350+00:00"
 }
