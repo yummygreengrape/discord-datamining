@@ -1,5 +1,5 @@
 {
-    "build_hash": "10a58afb6d32653600dcca73497e9c4b99483520",
+    "build_hash": "3bf9b7d9d685db3f3b2cdc5eb34d72793d0eb432",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,7 +54,10 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "AEfs1D": "Go to {guildName}",
+                "TUZ50q": "Preview {guildName}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T20:35:01.880349+00:00"
+    "timestamp": "2026-10-09T20:45:51.130178+00:00"
 }
