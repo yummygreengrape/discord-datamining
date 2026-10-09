@@ -1,5 +1,5 @@
 {
-    "build_hash": "72b26d96d7a6c029216d70fdf410aa4323b56a40",
+    "build_hash": "84feab4d6feaddd5313de9f81e78e6aa96515bac",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,84 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "ttlMs"
+            ],
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-collectibles-marketing-client-cache",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-09T15:33:36Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "1": {
+                    "ttlMs": 3600000
+                },
+                "2": {
+                    "ttlMs": 10800000
+                },
+                "3": {
+                    "ttlMs": 21600000
+                },
+                "4": {
+                    "ttlMs": 86400000
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "ttlMs"
+            ],
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-collectibles-marketing-client-cache",
+            "kind": "user",
+            "timestamp": "2026-10-09T15:33:36Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "1": {
+                    "ttlMs": 3600000
+                },
+                "2": {
+                    "ttlMs": 10800000
+                },
+                "3": {
+                    "ttlMs": 21600000
+                },
+                "4": {
+                    "ttlMs": 86400000
+                }
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-server-tag-upsell-on-profile",
+            "kind": "user",
+            "timestamp": "2026-10-09T12:30:27Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -54,8 +130,21 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "3RgAlG": "Team Fight Won",
+                "HBJiRR": "Playing {name}",
+                "Jf0OOQ": "Other",
+                "Qm57HT": "Team Fight",
+                "h9gDdS": "Your team won a team fight {allyKills}-{enemyKills}!",
+                "no2oEG": "Your team fought {allyKills}-{enemyKills}."
+            },
+            "deleted": {
+                "3Dta8T": "user un-ignored",
+                "A11Y_ANNOUNCEMENT_USER_UNBLOCKED": "user unblocked",
+                "QlH5w6": "user unignored",
+                "Us93Ca": "user ignored",
+                "mU0Vrp": "user blocked"
+            },
             "modified": {}
         },
         "ko": {
@@ -64,5 +153,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T15:41:19.791749+00:00"
+    "timestamp": "2026-10-09T16:13:24.294935+00:00"
 }
