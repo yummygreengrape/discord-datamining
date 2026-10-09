@@ -1,5 +1,5 @@
 {
-    "build_hash": "d6a2630dd7816cfcd82a4497d71bd0487057e5f3",
+    "build_hash": "eddb7acf3c8839246dab87ce174704a16aa90795",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,8 +54,20 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "1ugSyK": "Restarting; waiting for the worker.",
+                "5qCjBu": "Restart Workspace",
+                "76mfqO": "Restarted · {time} {reason}",
+                "FiVRoT": "Failed: {reason} · {time}",
+                "MAIN_CTA": "main_cta",
+                "RATING_STAT": "rating_stat",
+                "SEE_MORE": "see_more",
+                "mlok8D": "Replaces the project’s container and checks the code out again from the last save."
+            },
+            "deleted": {
+                "AWITGU": "None",
+                "azjxC0": "Search"
+            },
             "modified": {}
         },
         "ko": {
@@ -64,5 +76,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T18:35:19.259222+00:00"
+    "timestamp": "2026-10-09T18:46:47.892937+00:00"
 }
