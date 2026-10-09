@@ -1,5 +1,5 @@
 {
-    "build_hash": "2c7337a99d866928e839203784924997dfec934e",
+    "build_hash": "ef32ee308ffe2d50f3000336a532f64d46f573c1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,53 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enforceFatigue"
-            ],
-            "default_config": {
-                "enforceFatigue": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-shop-marketing-fatigue",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-09T21:42:51Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enforceFatigue": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enforceFatigue"
-            ],
-            "default_config": {
-                "enforceFatigue": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-shop-marketing-fatigue",
-            "kind": "user",
-            "timestamp": "2026-10-09T21:42:51Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enforceFatigue": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -109,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T21:51:01.715982+00:00"
+    "timestamp": "2026-10-09T22:01:52.861946+00:00"
 }
