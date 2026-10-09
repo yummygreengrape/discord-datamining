@@ -1,5 +1,5 @@
 {
-    "build_hash": "b1729d3185754ae209bdc8f984e63b0a9aa0bffc",
+    "build_hash": "cdd39325d3b209f537a3fe99f9b41d510c42eda2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -56,7 +56,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "OleW32": {
+                    "new_value": "New Discord-powered social features are available in Call of Duty: Modern Warfare 4. Upgrade your connection to unlock a unified friends list and invites.",
+                    "old_value": "New Discord-powered social features are available in Call of Duty: MW4. Upgrade your connection to unlock a unified friends list and invites."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -64,5 +69,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T19:41:10.466942+00:00"
+    "timestamp": "2026-10-09T19:52:04.703875+00:00"
 }
