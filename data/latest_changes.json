@@ -1,5 +1,5 @@
 {
-    "build_hash": "c6faceaba0a9541f4f47ab29a8b2d85134d0090d",
+    "build_hash": "7877f455ff23d7613fc6ac38f440dea9886e4336",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -56,7 +56,40 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "+aHNgn": {
+                    "new_value": "$[{username}](usernameHook) took 1st Place from $[{previousUsername}](previousUsernameHook) on the leaderboard with {value, plural, one {# game day} other {# game days}} and {gameTime} of game time.",
+                    "old_value": "$[{username}](usernameHook) took 1st Place from $[{previousUsername}](previousUsernameHook) on the leaderboard with {value, plural, one {# game day} other {# game days}}."
+                },
+                "/JyaTi": {
+                    "new_value": "$[{username}](usernameHook) won this week’s competition with {value, plural, one {# game day} other {# game days}} and {gameTime} of game time.",
+                    "old_value": "$[{username}](usernameHook) won this week’s competition with {value, plural, one {# game day} other {# game days}}."
+                },
+                "5D7LjH": {
+                    "new_value": "$[{username}](usernameHook) won this week’s competition with {value, plural, one {# unique game} other {# unique games}} and {gameTime} of game time.",
+                    "old_value": "$[{username}](usernameHook) won this week’s competition with {value, plural, one {# unique game played} other {# unique games played}}."
+                },
+                "CHYFwK": {
+                    "new_value": "$[{username}](usernameHook) took 1st Place from $[{previousUsername}](previousUsernameHook) on the leaderboard with {value, plural, one {# unique game} other {# unique games}} and {gameTime} of game time.",
+                    "old_value": "$[{username}](usernameHook) took 1st Place from $[{previousUsername}](previousUsernameHook) on the leaderboard with {value, plural, one {# unique game played} other {# unique games played}}."
+                },
+                "dX9B32": {
+                    "new_value": "[{username}]({usernameOnClick}) took 1st Place from [{previousUsername}]({previousUsernameOnClick}) on the leaderboard with {value, plural, one {# unique game} other {# unique games}} and {gameTime} of game time.",
+                    "old_value": "[{username}]({usernameOnClick}) took 1st Place from [{previousUsername}]({previousUsernameOnClick}) on the leaderboard with {value, plural, one {# unique game played} other {# unique games played}}."
+                },
+                "exTWBN": {
+                    "new_value": "[{username}]({usernameOnClick}) took 1st Place from [{previousUsername}]({previousUsernameOnClick}) on the leaderboard with {value, plural, one {# game day} other {# game days}} and {gameTime} of game time.",
+                    "old_value": "[{username}]({usernameOnClick}) took 1st Place from [{previousUsername}]({previousUsernameOnClick}) on the leaderboard with {value, plural, one {# game day} other {# game days}}."
+                },
+                "f6TxHV": {
+                    "new_value": "[{username}]({usernameOnClick}) won this week’s competition with {value, plural, one {# game day} other {# game days}} and {gameTime} of game time.",
+                    "old_value": "[{username}]({usernameOnClick}) won this week’s competition with {value, plural, one {# game day} other {# game days}}."
+                },
+                "mhO0Bz": {
+                    "new_value": "[{username}]({usernameOnClick}) won this week’s competition with {value, plural, one {# unique game} other {# unique games}} and {gameTime} of game time.",
+                    "old_value": "[{username}]({usernameOnClick}) won this week’s competition with {value, plural, one {# unique game played} other {# unique games played}}."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -64,5 +97,161 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T19:08:29.571440+00:00"
+    "string_context": {
+        "en": {
+            "dX9B32": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "영어 화면의 “게임 수 리더보드에서 1위가 바뀌었다는 알림” 문구는 Discord의 주간 게임 활동 리더보드에서 이 상태나 동작을 가리킵니다. 같은 처리 창에 게임 종류, 게임 시간, 플레이 날짜별 시작·순위 변경·우승 문구가 함께 있습니다. 문구 자체로 확인되는 범위에서 의미를 읽어야 하며, 실제 노출 여부는 계정과 화면에 따라 다를 수 있습니다.",
+                    "generated_at": "2026-09-27T00:15:57Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "게임 리더보드",
+                        "게임 시간",
+                        "게임 종류",
+                        "플레이 날짜",
+                        "주간 우승"
+                    ],
+                    "search_intent": "Discord 영어 화면의 게임 수 리더보드에서 1위가 바뀌었다는 알림 문구를 보고 해당 상태나 버튼이 무엇을 뜻하는지 확인하려는 검색입니다.",
+                    "source_context": "같은 처리 창에 게임 종류, 게임 시간, 플레이 날짜별 시작·순위 변경·우승 문구가 함께 있습니다.",
+                    "summary": "영어 화면의 “게임 수 리더보드에서 1위가 바뀌었다는 알림” 문구는 Discord의 주간 게임 활동 리더보드에서 이 상태나 동작을 가리킵니다.",
+                    "what_it_means": "영어 화면의 이 문구는 게임 수 리더보드에서 1위가 바뀌었다는 알림이라는 의미입니다.",
+                    "when_it_appears": "영어 화면의 게임 수 리더보드에서 1위가 바뀌었다는 알림 문구는 주간 게임 활동 리더보드와 관련된 문자열에서 확인되며, 해당 Discord 화면에 보일 가능성이 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "In the English UI, this Discord string refers to the first-place change on the unique-games leaderboard in weekly gaming-activity leaderboard. The same window includes starts, lead changes and winners measured by games, game time and days played. The text supports this reading, but availability can vary by account and screen.",
+                    "generated_at": "2026-09-27T00:15:57Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "gaming leaderboard",
+                        "game time",
+                        "unique games",
+                        "days played",
+                        "weekly winner"
+                    ],
+                    "search_intent": "A search after seeing the first-place change on the unique-games leaderboard in the English UI on Discord to understand that status or action.",
+                    "source_context": "The same window includes starts, lead changes and winners measured by games, game time and days played.",
+                    "summary": "In the English UI, this Discord string refers to the first-place change on the unique-games leaderboard in weekly gaming-activity leaderboard.",
+                    "what_it_means": "In the English UI, the phrase means the first-place change on the unique-games leaderboard.",
+                    "when_it_appears": "The the first-place change on the unique-games leaderboard string appears in the weekly gaming-activity leaderboard group for the English UI and may be shown on the related Discord screen."
+                }
+            },
+            "exTWBN": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "영어 화면의 “플레이 날짜 리더보드에서 1위가 바뀌었다는 알림” 문구는 Discord의 주간 게임 활동 리더보드에서 이 상태나 동작을 가리킵니다. 같은 처리 창에 게임 종류, 게임 시간, 플레이 날짜별 시작·순위 변경·우승 문구가 함께 있습니다. 문구 자체로 확인되는 범위에서 의미를 읽어야 하며, 실제 노출 여부는 계정과 화면에 따라 다를 수 있습니다.",
+                    "generated_at": "2026-09-27T00:15:57Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "게임 리더보드",
+                        "게임 시간",
+                        "게임 종류",
+                        "플레이 날짜",
+                        "주간 우승"
+                    ],
+                    "search_intent": "Discord 영어 화면의 플레이 날짜 리더보드에서 1위가 바뀌었다는 알림 문구를 보고 해당 상태나 버튼이 무엇을 뜻하는지 확인하려는 검색입니다.",
+                    "source_context": "같은 처리 창에 게임 종류, 게임 시간, 플레이 날짜별 시작·순위 변경·우승 문구가 함께 있습니다.",
+                    "summary": "영어 화면의 “플레이 날짜 리더보드에서 1위가 바뀌었다는 알림” 문구는 Discord의 주간 게임 활동 리더보드에서 이 상태나 동작을 가리킵니다.",
+                    "what_it_means": "영어 화면의 이 문구는 플레이 날짜 리더보드에서 1위가 바뀌었다는 알림이라는 의미입니다.",
+                    "when_it_appears": "영어 화면의 플레이 날짜 리더보드에서 1위가 바뀌었다는 알림 문구는 주간 게임 활동 리더보드와 관련된 문자열에서 확인되며, 해당 Discord 화면에 보일 가능성이 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "In the English UI, this Discord string refers to the first-place change on the days-played leaderboard in weekly gaming-activity leaderboard. The same window includes starts, lead changes and winners measured by games, game time and days played. The text supports this reading, but availability can vary by account and screen.",
+                    "generated_at": "2026-09-27T00:15:57Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "gaming leaderboard",
+                        "game time",
+                        "unique games",
+                        "days played",
+                        "weekly winner"
+                    ],
+                    "search_intent": "A search after seeing the first-place change on the days-played leaderboard in the English UI on Discord to understand that status or action.",
+                    "source_context": "The same window includes starts, lead changes and winners measured by games, game time and days played.",
+                    "summary": "In the English UI, this Discord string refers to the first-place change on the days-played leaderboard in weekly gaming-activity leaderboard.",
+                    "what_it_means": "In the English UI, the phrase means the first-place change on the days-played leaderboard.",
+                    "when_it_appears": "The the first-place change on the days-played leaderboard string appears in the weekly gaming-activity leaderboard group for the English UI and may be shown on the related Discord screen."
+                }
+            },
+            "f6TxHV": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "영어 화면의 “게임 플레이 날짜 수로 이번 주 우승자가 정해졌다는 결과” 문구는 Discord의 주간 게임 활동 리더보드에서 이 상태나 동작을 가리킵니다. 같은 처리 창에 게임 종류, 게임 시간, 플레이 날짜별 시작·순위 변경·우승 문구가 함께 있습니다. 문구 자체로 확인되는 범위에서 의미를 읽어야 하며, 실제 노출 여부는 계정과 화면에 따라 다를 수 있습니다.",
+                    "generated_at": "2026-09-27T00:15:57Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "게임 리더보드",
+                        "게임 시간",
+                        "게임 종류",
+                        "플레이 날짜",
+                        "주간 우승"
+                    ],
+                    "search_intent": "Discord 영어 화면의 게임 플레이 날짜 수로 이번 주 우승자가 정해졌다는 결과 문구를 보고 해당 상태나 버튼이 무엇을 뜻하는지 확인하려는 검색입니다.",
+                    "source_context": "같은 처리 창에 게임 종류, 게임 시간, 플레이 날짜별 시작·순위 변경·우승 문구가 함께 있습니다.",
+                    "summary": "영어 화면의 “게임 플레이 날짜 수로 이번 주 우승자가 정해졌다는 결과” 문구는 Discord의 주간 게임 활동 리더보드에서 이 상태나 동작을 가리킵니다.",
+                    "what_it_means": "영어 화면의 이 문구는 게임 플레이 날짜 수로 이번 주 우승자가 정해졌다는 결과이라는 의미입니다.",
+                    "when_it_appears": "영어 화면의 게임 플레이 날짜 수로 이번 주 우승자가 정해졌다는 결과 문구는 주간 게임 활동 리더보드와 관련된 문자열에서 확인되며, 해당 Discord 화면에 보일 가능성이 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "In the English UI, this Discord string refers to the weekly winner result measured by days played in weekly gaming-activity leaderboard. The same window includes starts, lead changes and winners measured by games, game time and days played. The text supports this reading, but availability can vary by account and screen.",
+                    "generated_at": "2026-09-27T00:15:57Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "gaming leaderboard",
+                        "game time",
+                        "unique games",
+                        "days played",
+                        "weekly winner"
+                    ],
+                    "search_intent": "A search after seeing the weekly winner result measured by days played in the English UI on Discord to understand that status or action.",
+                    "source_context": "The same window includes starts, lead changes and winners measured by games, game time and days played.",
+                    "summary": "In the English UI, this Discord string refers to the weekly winner result measured by days played in weekly gaming-activity leaderboard.",
+                    "what_it_means": "In the English UI, the phrase means the weekly winner result measured by days played.",
+                    "when_it_appears": "The the weekly winner result measured by days played string appears in the weekly gaming-activity leaderboard group for the English UI and may be shown on the related Discord screen."
+                }
+            },
+            "mhO0Bz": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "영어 화면의 “서로 다른 게임 수로 이번 주 우승자가 정해졌다는 결과” 문구는 Discord의 주간 게임 활동 리더보드에서 이 상태나 동작을 가리킵니다. 같은 처리 창에 게임 종류, 게임 시간, 플레이 날짜별 시작·순위 변경·우승 문구가 함께 있습니다. 문구 자체로 확인되는 범위에서 의미를 읽어야 하며, 실제 노출 여부는 계정과 화면에 따라 다를 수 있습니다.",
+                    "generated_at": "2026-09-27T00:15:57Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "게임 리더보드",
+                        "게임 시간",
+                        "게임 종류",
+                        "플레이 날짜",
+                        "주간 우승"
+                    ],
+                    "search_intent": "Discord 영어 화면의 서로 다른 게임 수로 이번 주 우승자가 정해졌다는 결과 문구를 보고 해당 상태나 버튼이 무엇을 뜻하는지 확인하려는 검색입니다.",
+                    "source_context": "같은 처리 창에 게임 종류, 게임 시간, 플레이 날짜별 시작·순위 변경·우승 문구가 함께 있습니다.",
+                    "summary": "영어 화면의 “서로 다른 게임 수로 이번 주 우승자가 정해졌다는 결과” 문구는 Discord의 주간 게임 활동 리더보드에서 이 상태나 동작을 가리킵니다.",
+                    "what_it_means": "영어 화면의 이 문구는 서로 다른 게임 수로 이번 주 우승자가 정해졌다는 결과이라는 의미입니다.",
+                    "when_it_appears": "영어 화면의 서로 다른 게임 수로 이번 주 우승자가 정해졌다는 결과 문구는 주간 게임 활동 리더보드와 관련된 문자열에서 확인되며, 해당 Discord 화면에 보일 가능성이 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "In the English UI, this Discord string refers to the weekly winner result measured by distinct games in weekly gaming-activity leaderboard. The same window includes starts, lead changes and winners measured by games, game time and days played. The text supports this reading, but availability can vary by account and screen.",
+                    "generated_at": "2026-09-27T00:15:57Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "gaming leaderboard",
+                        "game time",
+                        "unique games",
+                        "days played",
+                        "weekly winner"
+                    ],
+                    "search_intent": "A search after seeing the weekly winner result measured by distinct games in the English UI on Discord to understand that status or action.",
+                    "source_context": "The same window includes starts, lead changes and winners measured by games, game time and days played.",
+                    "summary": "In the English UI, this Discord string refers to the weekly winner result measured by distinct games in weekly gaming-activity leaderboard.",
+                    "what_it_means": "In the English UI, the phrase means the weekly winner result measured by distinct games.",
+                    "when_it_appears": "The the weekly winner result measured by distinct games string appears in the weekly gaming-activity leaderboard group for the English UI and may be shown on the related Discord screen."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-10-09T19:19:28.459105+00:00"
 }
