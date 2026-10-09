@@ -1,5 +1,5 @@
 {
-    "build_hash": "bdefd6b6a540dccab3b4e12f7736163d918ef23c",
+    "build_hash": "72b26d96d7a6c029216d70fdf410aa4323b56a40",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,14 +54,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "3RgAlG": "Team Fight Won",
-                "HBJiRR": "Playing {name}",
-                "Jf0OOQ": "Other",
-                "Qm57HT": "Team Fight",
-                "h9gDdS": "Your team won a team fight {allyKills}-{enemyKills}!",
-                "no2oEG": "Your team fought {allyKills}-{enemyKills}."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -71,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-09T15:29:38.658459+00:00"
+    "timestamp": "2026-10-09T15:41:19.791749+00:00"
 }
