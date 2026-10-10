@@ -1,5 +1,5 @@
 {
-    "build_hash": "9249716d5941e954c6ffd1deebe799c6dfdb6cdd",
+    "build_hash": "141684c98b88eba4e53cc3ff2666295c26838b3a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,8 +54,29 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "75j6Qp": "Change app icon",
+                "F6L3s4": "Shows next to your app’s name everywhere",
+                "Fi7boI": "Couldn’t save your changes. Try again.",
+                "GWBCF9": "App name",
+                "Gzmlyg": "Set an icon and name",
+                "I+3UTL": "What does your app do?",
+                "KhR80V": "Preview",
+                "M3q9QZ": "App icon",
+                "OmOWDq": "Get your app ready to go live",
+                "TWrjpi": "Pick a PNG, JPG, GIF or WebP image.",
+                "WpXHIP": "Upload image",
+                "ZTAAMc": "Pick an image under 2 MB.",
+                "bz/M68": "Skip",
+                "dyIV6M": "Publish",
+                "gqtFOS": "Remove",
+                "iwCCor": "Change",
+                "yQ158z": "Your description shows here.",
+                "ynaGa1": "Description"
+            },
+            "deleted": {
+                "ncxNJT": "Project name"
+            },
             "modified": {}
         },
         "ko": {
@@ -64,5 +85,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-10T08:34:23.947199+00:00"
+    "timestamp": "2026-10-10T08:55:37.360600+00:00"
 }
