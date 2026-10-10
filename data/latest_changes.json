@@ -1,5 +1,5 @@
 {
-    "build_hash": "74477cdd3ef8add1c695dbfd4f9a24073e0c8d98",
+    "build_hash": "3628de43dfb9e71131503b999212d6aeffc1cb27",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,11 +54,16 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "SWXbpN": "To preview your app in this server, add the Preview Bot first."
+            "added": {
+                "rPpf5/": "A wireframe of the app as a desktop overlay widget on top of a game"
             },
-            "modified": {}
+            "deleted": {},
+            "modified": {
+                "nR4B8P": {
+                    "new_value": "This is just a directional wireframe; not an exact final design.",
+                    "old_value": "Conjuring will use this wireframe as a direction, not an exact final design."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -66,5 +71,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-10T20:29:55.117246+00:00"
+    "timestamp": "2026-10-10T21:11:31.721220+00:00"
 }
