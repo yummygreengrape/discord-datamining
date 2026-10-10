@@ -1,5 +1,5 @@
 {
-    "build_hash": "e74a1bf90aa9ec739f8a59c1307376fffba2a6d0",
+    "build_hash": "52d83d4904d0858abe064dfd5934361c3f4e5b32",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,8 +54,25 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "0Pe9uw": "Experimental",
+                "24OcbD": "Reverted to the previous context and the version from before it.",
+                "4liZ45": "Smart Context",
+                "7q2YyD": "Go back to previous context",
+                "9fvHNe": "Couldn’t go back to the previous context.",
+                "FzX9h8": "Revert to previous context",
+                "I5cl7p": "Automatically start a new conversation context when you move on to a new task, so I stay on task.",
+                "QoixaY": "Can’t go back while I’m working. Try again when I’m done.",
+                "fMBZmD": "This discards the work done in the new context and takes your preview back to the version from before it. The chat keeps a record of the revert.",
+                "i+xjZM": "Revert to previous context?",
+                "i5f3Uo": "Revert",
+                "iBrh0c": "New Context",
+                "sRY8wn": "Looks like this is a new task, starting a new conversation context to stay on task.",
+                "uQRAzS": "Previous Context"
+            },
+            "deleted": {
+                "LHrqVg": "Experimental"
+            },
             "modified": {}
         },
         "ko": {
@@ -64,5 +81,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-10T15:49:57.899930+00:00"
+    "timestamp": "2026-10-10T19:47:45.923890+00:00"
 }
