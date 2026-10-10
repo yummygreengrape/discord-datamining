@@ -1,5 +1,5 @@
 {
-    "build_hash": "0a78c2bce2c926321c987dddc83de8a845f1cb9c",
+    "build_hash": "5216b200ba92bf8c7e7b6a21c9dbd869500963c8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,94 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-02-capture-target-window",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "showReminderPanel"
-            ],
-            "default_config": {
-                "showReminderPanel": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-request-to-stream-new-entry-point",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-10T00:07:39Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "showReminderPanel": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-02-capture-target-window",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "showReminderPanel"
-            ],
-            "default_config": {
-                "showReminderPanel": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-request-to-stream-new-entry-point",
-            "kind": "user",
-            "timestamp": "2026-10-10T00:07:39Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "showReminderPanel": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -140,53 +54,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "43zohO": "Not running game",
-                "7pndSl": "You asked someone to stream {applicationName}",
-                "8B3U5O": "You asked someone to stream",
-                "8HU1M2": "Request sent",
-                "8qq+H7": "Ask to Stream {applicationName}",
-                "DKHhec": "Ask to Stream",
-                "EuarXc": "$[{username}](usernameHook) asked you to stream",
-                "P0wwmM": "Already streaming",
-                "TFn1fS": "Stream {gameName}",
-                "UGbmBp": "Stream",
-                "d/qbC0": "{username} asked you to stream",
-                "fac+eE": "No permission",
-                "jTbTAF": "bHook{username} asked for someone to stream bHook{game}.",
-                "mVFTUg": "Request sent too recently",
-                "nAyuPp": "Stream Request",
-                "o/An3l": "{username} asked you to stream {applicationName}",
-                "qRXats": "Not in voice channel",
-                "s7bMT0": "{username} is asking you to stream {applicationName}",
-                "u4QmWl": "Request expired"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "43zohO": "게임을 실행하고 있지 않아요",
-                "7pndSl": "{applicationName} 님에게 방송해 달라고 요청했어요",
-                "8B3U5O": "다른 사용자에게 스트리밍해 달라고 요청했어요",
-                "8HU1M2": "요청 제출하기",
-                "8qq+H7": "{applicationName} 스트리밍을 요청해요",
-                "DKHhec": "스트리밍 요청",
-                "P0wwmM": "이미 방송 중이에요",
-                "UGbmBp": "방송",
-                "d/qbC0": "{username} 님이 스트리밍을 요청했어요",
-                "fac+eE": "권한 없음",
-                "jTbTAF": "bHook{username} 님이 bHook{game} 게임플레이를 스트리밍으로 보고 싶어 해요.",
-                "mVFTUg": "너무 최근에 요청을 보냈습니다",
-                "nAyuPp": "스트리밍 요청",
-                "o/An3l": "{username} 님이 {applicationName} 방송을 요청했어요",
-                "qRXats": "음성 채널에 없어요",
-                "s7bMT0": "{username} 님이 {applicationName} 방송을 요청하고 있어요",
-                "u4QmWl": "요청이 만료되었어요"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-10T00:11:25.832411+00:00"
+    "timestamp": "2026-10-10T00:22:19.181614+00:00"
 }
