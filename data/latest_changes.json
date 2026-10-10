@@ -1,5 +1,5 @@
 {
-    "build_hash": "29c575470555f080280b3a1a3a38672e938c8019",
+    "build_hash": "74477cdd3ef8add1c695dbfd4f9a24073e0c8d98",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -55,7 +55,9 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "SWXbpN": "To preview your app in this server, add the Preview Bot first."
+            },
             "modified": {}
         },
         "ko": {
@@ -64,5 +66,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-10T19:58:35.477458+00:00"
+    "timestamp": "2026-10-10T20:29:55.117246+00:00"
 }
