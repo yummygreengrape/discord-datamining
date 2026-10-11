@@ -1,5 +1,5 @@
 {
-    "build_hash": "52e5a69216ff7bd8f420e9cb31524bef080c659d",
+    "build_hash": "ece6778d45c0966bba99440a57e3a1207cd98736",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,9 +54,60 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "D9erxW": "Last deployed {time} · v{version}",
+                "Rhx0rn": "Publishing…",
+                "S6Px3n": "Published",
+                "UXEDPw": "Publish failed: the app’s bot isn’t installed",
+                "ndkR+x": "{action} · {detail}",
+                "xCdlEF": "Publishing as soon as I get a moment…"
+            },
+            "deleted": {
+                "1NcO7H": "Open Published App",
+                "7ZsIF1": "Couldn’t ship it: {reason}",
+                "JpDnbE": "Update bot",
+                "KjbLum": "View AutoMod settings",
+                "LUi/55": "Update widget",
+                "NNIwRu": "Open DM",
+                "QesMDC": "Update app",
+                "TXUK1g": "View profile",
+                "X0kGp2": "Live · up to date",
+                "bwBMMn": "Update rule",
+                "fTgw6C": "Go to {server}",
+                "gR7PUV": "Open $[](channelIconHook){channel}",
+                "iyQTsb": "Launch",
+                "l9xGQD": "Open #{channel}"
+            },
+            "modified": {
+                "/npn7F": {
+                    "new_value": "{name} published to {server}.",
+                    "old_value": "[{name}]({onOpen}) published to {server}."
+                },
+                "8ytGC3": {
+                    "new_value": "I updated your live rule {name}.",
+                    "old_value": "I updated your live rule [{name}]({onOpen})."
+                },
+                "DxCfTh": {
+                    "new_value": "I updated your live widget {name}.",
+                    "old_value": "I updated your live widget [{name}]({onOpen})."
+                },
+                "MOrR29": {
+                    "new_value": "{name} is live.",
+                    "old_value": "[{name}]({onOpen}) is live."
+                },
+                "WSmpBT": {
+                    "new_value": "I updated your live app {name}.",
+                    "old_value": "I updated your live app [{name}]({onOpen})."
+                },
+                "ev23Cw": {
+                    "new_value": "{name} is live, but its channel wasn’t added.",
+                    "old_value": "[{name}]({onOpen}) is live, but its channel wasn’t added."
+                },
+                "zfpeIL": {
+                    "new_value": "I updated your live bot {name}.",
+                    "old_value": "I updated your live bot [{name}]({onOpen})."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -64,5 +115,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-10T23:27:10.505429+00:00"
+    "timestamp": "2026-10-11T00:50:05.809418+00:00"
 }
