@@ -1,5 +1,5 @@
 {
-    "build_hash": "d5c938ad52c67946387e7c354cbee1c0cfbb3b43",
+    "build_hash": "cb23d0042a9ea7d4f25508a6c84aae4c669c5939",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,7 +54,10 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "SI8PNw": "Create one",
+                "s76lNz": "Want your own Server Tag?"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-12T13:36:48.875085+00:00"
+    "timestamp": "2026-10-12T15:51:38.684350+00:00"
 }
