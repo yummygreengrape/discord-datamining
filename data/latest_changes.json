@@ -1,5 +1,5 @@
 {
-    "build_hash": "88c84b3bdaec1903d95d82537d5fde26043c180c",
+    "build_hash": "6b0679a5c9521f8700a0f822950278949b22ab07",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,14 +54,8 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "Up6Ssw": "Your remix didn’t finish setting up. {reason}",
-                "nNzdug": "Setting up your remix…",
-                "ywA+ET": "Try again"
-            },
-            "deleted": {
-                "kQerlZ": "This app is still being worked on. Let it finish, then remix it."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -70,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-12T06:31:55.280626+00:00"
+    "timestamp": "2026-10-12T07:23:57.914423+00:00"
 }
