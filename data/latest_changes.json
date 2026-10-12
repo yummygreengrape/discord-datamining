@@ -1,5 +1,5 @@
 {
-    "build_hash": "6b0679a5c9521f8700a0f822950278949b22ab07",
+    "build_hash": "829ae2f94f8405c17e54f3c0d21fd70151904fd8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,8 +54,12 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "j8tmjK": "Remixing…"
+            },
+            "deleted": {
+                "nNzdug": "Setting up your remix…"
+            },
             "modified": {}
         },
         "ko": {
@@ -64,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-12T07:23:57.914423+00:00"
+    "timestamp": "2026-10-12T08:05:40.598183+00:00"
 }
