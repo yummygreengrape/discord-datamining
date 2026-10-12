@@ -1,8 +1,53 @@
 {
-    "build_hash": "48d0a48a8c19d55cf6e87e2a037a1eed1afa3df8",
+    "build_hash": "1d0b866cbb8cd927f497cec3950a8709347a8966",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-cod-3pp",
+            "kind": "user",
+            "timestamp": "2026-10-12T16:55:43Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-call-of-duty-3pp-marketing",
+            "kind": "user",
+            "timestamp": "2026-10-12T16:55:43Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-call-of-duty-3pp-non-sub-marketing",
+            "kind": "user",
+            "timestamp": "2026-10-12T16:55:43Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-call-of-duty-3pp-nagbar",
+            "kind": "user",
+            "timestamp": "2026-10-12T16:55:43Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -54,8 +99,17 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "SI8PNw": "Create one",
+                "Up6Ssw": "Your remix didn’t finish setting up. {reason}",
+                "j8tmjK": "Remixing…",
+                "s76lNz": "Want your own Server Tag?",
+                "ywA+ET": "Try again"
+            },
+            "deleted": {
+                "kQerlZ": "This app is still being worked on. Let it finish, then remix it.",
+                "nNzdug": "Setting up your remix…"
+            },
             "modified": {}
         },
         "ko": {
@@ -64,5 +118,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-12T18:38:07.968850+00:00"
+    "timestamp": "2026-10-12T19:31:37.999860+00:00"
 }
