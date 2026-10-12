@@ -1,5 +1,5 @@
 {
-    "build_hash": "f28c3626f114f1ec685e17b32904ecc66403a9e3",
+    "build_hash": "158b3ce5ada2a2d70d0020bd968e1e33289683db",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,7 +54,10 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "KVBvVy": "The secret form expired before I saved it. Please ask for the keys again.",
+                "Ww9HFO": "Will only be sent to: {hosts}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +67,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-12T22:29:15.475303+00:00"
+    "timestamp": "2026-10-12T22:40:06.432541+00:00"
 }
