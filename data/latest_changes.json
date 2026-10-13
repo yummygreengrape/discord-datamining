@@ -1,5 +1,5 @@
 {
-    "build_hash": "36c7707361826fa1644b0a8604302c562941a1f0",
+    "build_hash": "20c8501c7562a405666653752d56b268f2daf2d3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,7 +54,13 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "AcH7R7": "Keyboard shortcuts are registered with your desktop. Changes may need your approval, and you can re-map them in your system settings.",
+                "J0m3aK": "Your desktop can't register this shortcut, so it may not work on Wayland. Record one key with optional modifiers (for example Ctrl+F9) instead.",
+                "PTCrUP": "Your desktop hasn't allowed this shortcut yet. Approve it in your system's global shortcuts settings.",
+                "ZPHaPE": "Change in system settings",
+                "wu2lqV": "Your desktop has this action bound to **{trigger}**."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -64,5 +70,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T00:25:56.136887+00:00"
+    "timestamp": "2026-10-13T00:36:47.289835+00:00"
 }
