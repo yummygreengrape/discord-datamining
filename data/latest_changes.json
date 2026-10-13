@@ -1,5 +1,5 @@
 {
-    "build_hash": "cce5653fbef8ffa6871572a2ad7b174fc4d0e56e",
+    "build_hash": "67d398772f5b5734056e63f002ca12b93f08a51d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -55,16 +55,7 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "75j6Qp": "Change app icon",
-                "F6L3s4": "Shows next to your app’s name everywhere",
-                "KhR80V": "Preview",
-                "M3q9QZ": "App icon",
-                "WpXHIP": "Upload image",
-                "gqtFOS": "Remove",
-                "iwCCor": "Change",
-                "yQ158z": "Your description shows here."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -73,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T07:26:10.782466+00:00"
+    "timestamp": "2026-10-13T07:37:05.499716+00:00"
 }
