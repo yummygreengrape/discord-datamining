@@ -1,5 +1,5 @@
 {
-    "build_hash": "82523031135dbdacdfda453313e00d98453b492c",
+    "build_hash": "dff67645e7210f3e7658f9f344bb1331b3bed402",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,12 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "FSFi1k": "Take 20% off your next 6 months of YouTube Premium. [Terms apply]({helpCenterUrl}).",
+                "GHtnoW": "Snag a sweet deal with Nitro",
+                "mwOvZQ": "New Nitro reward just landed",
+                "oMk0zq": "Take 20% off your next 6 months of YouTube Premium. [Terms apply]({helpCenterUrl})."
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T20:42:29.165288+00:00"
+    "timestamp": "2026-10-13T20:53:45.201048+00:00"
 }
