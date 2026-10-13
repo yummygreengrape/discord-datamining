@@ -1,5 +1,5 @@
 {
-    "build_hash": "29547211f8ed5d46225fe844c7cb1b9e96c17e83",
+    "build_hash": "5b4e72a4256de361de3142dd949fb6db42c288db",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,107 +8,17 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-macaron-non-sub-marketing",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-13T18:12:35Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-macaron-non-sub-marketing",
-            "kind": "user",
-            "timestamp": "2026-10-13T18:12:35Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "rollout_changes": [
-        {
-            "change_id": "e614297755df207db22271d5f239f55f",
-            "changed_at": "2026-10-06T18:20:23.782747+00:00",
-            "changes": [
-                {
-                    "after": 0,
-                    "before": 10.0,
-                    "bucket": 1,
-                    "population": 1,
-                    "type": "percent_changed"
-                },
-                {
-                    "after": 10.0,
-                    "before": 0,
-                    "bucket": 2,
-                    "population": 1,
-                    "type": "percent_changed"
-                },
-                {
-                    "after": 3,
-                    "before": 3,
-                    "type": "override_rules_changed"
-                }
-            ],
-            "id": "2026-04_server_theme",
-            "kind": "guild",
-            "labels": {
-                "0": "Control",
-                "1": "Treatment 1: Enable Server Theme",
-                "2": "Treatment 2: Rollback UI for Server Theme"
-            },
-            "limits": [
-                "guild_id_list"
-            ],
-            "revision": {
-                "after": 1,
-                "before": 1
-            },
-            "source": "discord"
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
+    "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "X8tdbS": "Your latest changes aren’t live yet · [{action}]({onUpdate})",
+                "lexcBN": "Updating",
+                "s96AWB": "Not sure what to do next? I can come up with a few things."
+            },
             "modified": {}
         },
         "ko": {
@@ -117,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T18:19:07.843404+00:00"
+    "timestamp": "2026-10-13T18:29:55.334625+00:00"
 }
