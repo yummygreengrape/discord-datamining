@@ -1,5 +1,5 @@
 {
-    "build_hash": "0534768fdbf6aa40ac2394db85eb6441557013cc",
+    "build_hash": "c1fa89750214769be230478389b817d16bb3366d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,11 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "93iWsv": "Nitro members: claim an exclusive Zombie Wumpus plush with Orbs!",
+                "TE+uDu": "Check it out",
+                "tR2B53": "Close Game Shop promotion"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T21:48:59.178340+00:00"
+    "timestamp": "2026-10-13T21:59:51.291196+00:00"
 }
