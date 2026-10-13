@@ -1,5 +1,5 @@
 {
-    "build_hash": "faaf919944444ca7893568b863dcf579134f6842",
+    "build_hash": "937cb47d7e0aeb732a1bf03f02e8212c564901c6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,30 +8,66 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [
+    "new_experiment_details": [
         {
+            "config_keys": [
+                "deadline_ms"
+            ],
+            "default_config": {
+                "deadline_ms": 0
+            },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-10-macaron-non-sub-marketing",
+            "id": "2026-09-desktop-tti-update-check-deadline",
             "kind": "user",
-            "timestamp": "2026-10-13T18:12:35Z",
+            "status": "added",
+            "timestamp": "2026-10-13T19:15:25Z",
             "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "deadline_ms": 15000
+                },
+                "2": {
+                    "deadline_ms": 30000
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "deadline_ms"
+            ],
+            "default_config": {
+                "deadline_ms": 0
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-desktop-tti-update-check-deadline",
+            "kind": "user",
+            "timestamp": "2026-10-13T19:15:25Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "deadline_ms": 15000
+                },
+                "2": {
+                    "deadline_ms": 30000
+                }
+            }
         }
     ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "WnnzG7": "Select number of gifts",
-                "X8tdbS": "Your latest changes aren’t live yet · [{action}]({onUpdate})",
-                "lexcBN": "Updating",
-                "s96AWB": "Not sure what to do next? I can come up with a few things."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -40,5 +76,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T19:14:24.195258+00:00"
+    "timestamp": "2026-10-13T19:25:18.267518+00:00"
 }
