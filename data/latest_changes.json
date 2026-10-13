@@ -1,5 +1,5 @@
 {
-    "build_hash": "12bc15f7895a0682987b7472bd1b2df88c40c8ee",
+    "build_hash": "0533a61984ce6c4b7e5a2219454b68e75da761bc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,15 +54,62 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "4y7mjC": "Unlock your first year of My Best Buy Plus™ free. Earn {rewardPercentage}% back in rewards on select pre-orders of the season’s biggest games.",
+                "AHwDIp": "Power up your pre-orders",
+                "MJep2r": "First year of My Best Buy Plus™ ($29.99 value), free with Nitro. Get {rewardPercentage}% back in rewards on select pre-orders of the season’s biggest games like Call of Duty: Modern Warfare 4 and more. Redeem by {date}. [Terms apply.]({termsUrl})",
+                "UzF3CN": "Power up your pre-orders",
+                "XuYNQR": "First year of My Best Buy Plus™ ($29.99 value), free with Nitro. Get {rewardPercentage}% back in rewards on select pre-orders of the season’s biggest games like Call of Duty: Modern Warfare 4 and more. Redeem by {date}.",
+                "ZZNyeP": "Get your first year of My Best Buy Plus™ ($29.99) free. Earn {rewardPercentage}% back in rewards on select pre-orders of the season’s biggest games. [Terms apply.]({termsUrl})",
+                "cfEYME": "Unlock Offer",
+                "l6SlkF": "First year of My Best Buy Plus™ ($29.99 value), free with Nitro. Get {rewardPercentage}% back in rewards on select pre-orders of the season’s biggest games. Redeem by {date}.",
+                "xV2y1G": "Best Buy Reward"
+            },
             "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "4y7mjC": {
+                    "new_value": "첫해 My Best Buy Plus™를 무료로 잠금 해제하세요. 이번 시즌 최고 기대작의 지정된 예약 구매 시 {rewardPercentage}% 보상 환급을 받으세요.",
+                    "old_value": "4y7mjC"
+                },
+                "AHwDIp": {
+                    "new_value": "예약 구매 보너스 강화",
+                    "old_value": "AHwDIp"
+                },
+                "MJep2r": {
+                    "new_value": "Nitro를 통해 첫해 My Best Buy Plus™(29.99달러 상당)를 무료로 이용하세요. Call of Duty: Modern Warfare 4 등 이번 시즌 최고 기대작의 지정된 예약 구매 시 {rewardPercentage}% 보상 환급을 받으세요. {date}까지 교환하세요. {date}약관이 적용됩니다.]({termsUrl})",
+                    "old_value": "MJep2r"
+                },
+                "UzF3CN": {
+                    "new_value": "예약 구매 보너스 강화",
+                    "old_value": "UzF3CN"
+                },
+                "XuYNQR": {
+                    "new_value": "Nitro를 통해 첫해 My Best Buy Plus™(29.99달러 상당)를 무료로 이용하세요. Call of Duty: Modern Warfare 4 등 이번 시즌 최고 기대작의 지정된 예약 구매 시 {rewardPercentage}% 보상 환급을 받으세요. {date}까지 교환하세요.",
+                    "old_value": "XuYNQR"
+                },
+                "ZZNyeP": {
+                    "new_value": "첫해 My Best Buy Plus™(29.99달러)를 무료로 이용하세요. 이번 시즌 최고 기대작의 지정된 예약 구매 시 {rewardPercentage}% 보상 환급을 받으세요. [약관이 적용됩니다.]({termsUrl})",
+                    "old_value": "ZZNyeP"
+                },
+                "cfEYME": {
+                    "new_value": "혜택 잠금 해제",
+                    "old_value": "cfEYME"
+                },
+                "l6SlkF": {
+                    "new_value": "Nitro를 통해 첫해 My Best Buy Plus™(29.99달러 상당)를 무료로 이용하세요. 이번 시즌 최고 기대작의 지정된 예약 구매 시 {rewardPercentage}% 보상 환급을 받으세요. {date}까지 받아 가세요.",
+                    "old_value": "l6SlkF"
+                },
+                "xV2y1G": {
+                    "new_value": "Best Buy 보상",
+                    "old_value": "xV2y1G"
+                }
+            }
         }
     },
-    "timestamp": "2026-10-13T15:27:47.803601+00:00"
+    "timestamp": "2026-10-13T16:09:33.012786+00:00"
 }
