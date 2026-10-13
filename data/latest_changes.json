@@ -1,5 +1,5 @@
 {
-    "build_hash": "dcecd15be802b227797c56c5a0bf3829f4d9dce5",
+    "build_hash": "3f12297c6798a7ffcb54363069715189cd2574a6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -56,32 +56,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "6anmu1": {
-                    "new_value": "Want Conjure in your own server? Request access in [#{channel}]({onNavigate})",
-                    "old_value": "Want Conjuring in your own server? Request access in [#{channel}]({onNavigate})"
-                },
-                "DJAPMO": {
-                    "new_value": "We couldn’t reach your conjured projects.",
-                    "old_value": "We couldn’t reach your conjurings."
-                },
-                "UN2H+/": {
-                    "new_value": "Conjure works in a server you’re in. Join one or create your own, then come back.",
-                    "old_value": "Conjuring happens in a server you’re in. Join one or create your own, then come back."
-                },
-                "XE+JXX": {
-                    "new_value": "Gathering your conjured projects…",
-                    "old_value": "Gathering your conjurings…"
-                },
-                "f5o5pk": {
-                    "new_value": "Start one just for you. To start one in a server, you need Manage Server and Manage Channels somewhere Conjure is switched on.",
-                    "old_value": "Start one just for you. To start one in a server, you need Manage Server and Manage Channels somewhere Conjuring is switched on."
-                },
-                "oWcemF": {
-                    "new_value": "Conjure is using this Frame right now, so your clicks are paused to keep them from colliding with its own.",
-                    "old_value": "Conjuring is using this Frame right now, so your clicks are paused to keep them from colliding with its own."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -89,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T16:41:33.431974+00:00"
+    "timestamp": "2026-10-13T16:52:24.111102+00:00"
 }
