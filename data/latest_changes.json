@@ -1,5 +1,5 @@
 {
-    "build_hash": "ff3daf6a84421468e1f2427b30d17863bb35f501",
+    "build_hash": "547cf5ff686b1a92e29a3a53f52c58ee6a03bf88",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,14 +14,24 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "FSFi1k": "Take 20% off your next 6 months of YouTube Premium. [Terms apply]({helpCenterUrl}).",
+                "GHtnoW": "Snag a sweet deal with Nitro",
+                "mwOvZQ": "New Nitro reward just landed",
+                "oMk0zq": "Take 20% off your next 6 months of YouTube Premium. [Terms apply]({helpCenterUrl})."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "FSFi1k": "향후 6개월 동안 YouTube Premium을 20% 할인받으세요. [약관이 적용됩니다]({helpCenterUrl}).",
+                "GHtnoW": "Nitro로 특별한 혜택을 잡으세요",
+                "mwOvZQ": "새로운 Nitro 보상이 도착했어요",
+                "oMk0zq": "향후 6개월 동안 YouTube Premium을 20% 할인받으세요. [약관이 적용됩니다]({helpCenterUrl})."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T19:47:02.099294+00:00"
+    "timestamp": "2026-10-13T19:57:52.095723+00:00"
 }
