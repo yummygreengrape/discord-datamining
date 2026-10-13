@@ -1,8 +1,69 @@
 {
-    "build_hash": "c1fa89750214769be230478389b817d16bb3366d",
+    "build_hash": "8cf47df3ddfe2bd94fbfad0b8597b46a437c1548",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "source"
+            ],
+            "default_config": {
+                "source": "hook"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-guilds-bar-media-state-store",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-10-13T22:09:08Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "source": "hook"
+                },
+                "1": {
+                    "source": "store"
+                },
+                "2": {
+                    "source": "shadow"
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "source"
+            ],
+            "default_config": {
+                "source": "hook"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-guilds-bar-media-state-store",
+            "kind": "user",
+            "timestamp": "2026-10-13T22:09:08Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "source": "hook"
+                },
+                "1": {
+                    "source": "store"
+                },
+                "2": {
+                    "source": "shadow"
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,11 +74,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "93iWsv": "Nitro members: claim an exclusive Zombie Wumpus plush with Orbs!",
-                "TE+uDu": "Check it out",
-                "tR2B53": "Close Game Shop promotion"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +84,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T21:59:51.291196+00:00"
+    "timestamp": "2026-10-13T22:10:43.717695+00:00"
 }
