@@ -1,21 +1,8 @@
 {
-    "build_hash": "7eabe07eafdfe2af9393a86e01ab892888b4feef",
+    "build_hash": "bcbb169ed52c6f8675249a3b6338b28f1157fdb4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-desktop-conjure-title-bar",
-            "kind": "user",
-            "timestamp": "2026-10-13T02:41:30Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -67,15 +54,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "NH6fYn": "Results",
-                "NzzWuT": "Active sessions from others",
-                "X37fkR": "Nothing matches that.",
-                "kG5Ayb": "Needs attention",
-                "mwlo1D": "{label}, {name} is working on this",
-                "u0kEN9": "Search projects",
-                "uj4icO": "Your projects"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -85,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T02:42:51.832142+00:00"
+    "timestamp": "2026-10-13T03:04:01.568491+00:00"
 }
