@@ -1,8 +1,21 @@
 {
-    "build_hash": "01c772913b4aa92c907a30efd438e51036212ae7",
+    "build_hash": "021efcafd3ee66474a68261de2edd580b5c78689",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-guilds-bar-media-state-store",
+            "kind": "user",
+            "timestamp": "2026-10-13T22:09:08Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,7 +26,13 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "2PKrQO": "Try This Look",
+                "93iWsv": "Nitro members: claim an exclusive Zombie Wumpus plush with Orbs!",
+                "NJLgMs": "Try This Name Style",
+                "TE+uDu": "Check it out",
+                "tR2B53": "Close Game Shop promotion"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +42,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T22:32:57.555145+00:00"
+    "timestamp": "2026-10-13T22:44:18.266967+00:00"
 }
