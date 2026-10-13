@@ -1,5 +1,5 @@
 {
-    "build_hash": "4b78c32c871c3ead58b9b1ec9e910ca28c8f4de8",
+    "build_hash": "9703ae449715c4839f6dde4affc8925e5005bbdd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,12 +54,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "3vJBni": "I can suggest a few things to try, based on what your app already does.",
-                "OJlbhX": "Want ideas for what to build next?",
-                "cjZvW9": "Not sure what to do next? [Inspire me.]({onInspire})",
-                "fWfeZ8": "[Click here]({onPublish}) to publish your latest changes."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -69,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T06:12:51.607201+00:00"
+    "timestamp": "2026-10-13T07:04:55.596789+00:00"
 }
