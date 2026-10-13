@@ -1,5 +1,5 @@
 {
-    "build_hash": "e127df15083e09f58d8d2560d6567e85d0201d31",
+    "build_hash": "82d07133afdbbc989d4acd98910d3e31715bbb41",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,11 +54,40 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "mPB3eo": "Your other tool is working here…"
+            "added": {
+                "75EkE8": "{count, plural, one {# App Channel} other {# App Channels}}",
+                "Crinff": "Replies and acts in your server.",
+                "M3ty0r": "Run from the message box or the Apps menu.",
+                "NBUCvF": "Its own channel in your server.",
+                "NZrNII": "Shows on profiles once added.",
+                "OMNwmi": "One app, with a channel for each part.",
+                "Xa5mPA": "{count, plural, one {Replies in chat and runs its # command.} other {Replies in chat and runs its # commands.}}",
+                "bu0/4I": "Checks messages as they’re sent.",
+                "mrMYrN": "What you’re making (a preview)",
+                "oMJF0T": "Launched from the App Launcher and in DMs.",
+                "u06zRd": "Sits over your game in the desktop overlay.",
+                "vrwvp8": "Runs inside a voice call for everyone in it."
             },
-            "modified": {}
+            "deleted": {
+                "KsqQJX": "About this conversation",
+                "NnmbJu": "A sample of what the bot will do.",
+                "TwT+ht": "About this widget preview",
+                "VPLNot": "About these examples",
+                "XcIrHx": "Shown with example values. Your app fills in the real ones once it runs.",
+                "bo4MOx": "Sample messages showing what the rule will do. Nothing here is posted.",
+                "nR4B8P": "This is just a directional wireframe; not an exact final design.",
+                "nc0SNY": "About this wireframe"
+            },
+            "modified": {
+                "EswAi+": {
+                    "new_value": "Profile Widget",
+                    "old_value": "Widget"
+                },
+                "liTNf3": {
+                    "new_value": "Overlay Widget",
+                    "old_value": "Overlay"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -66,5 +95,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T01:19:07.577740+00:00"
+    "timestamp": "2026-10-13T01:30:00.791223+00:00"
 }
