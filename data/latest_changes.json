@@ -1,5 +1,5 @@
 {
-    "build_hash": "9ac0ca406c3bf8974c4ff25742f9980056d0692e",
+    "build_hash": "a6523e769228f85d088c3dc3611bd196f44e7845",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,18 +54,8 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "35VEu5": "$[Patch notes sent.](sentHook)",
-                "6/zJpD": "[Send patch notes.]({onSend})",
-                "lsYQII": "Patch notes for {projectName}"
-            },
-            "deleted": {
-                "3F4azs": "Shipping {projectName}…",
-                "Enj2YA": "Published {projectName} to this server. Everyone can access it now!",
-                "N5NqKB": "Skip",
-                "NEPcoi": "Ship {projectName}",
-                "xnpBTy": "Status"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -74,5 +64,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T08:09:11.556379+00:00"
+    "timestamp": "2026-10-13T08:40:42.266360+00:00"
 }
