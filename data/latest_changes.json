@@ -1,5 +1,5 @@
 {
-    "build_hash": "efbfc2e73b00ddb78c8f87572080cbba83fef2ef",
+    "build_hash": "29547211f8ed5d46225fe844c7cb1b9e96c17e83",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,61 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-macaron-non-sub-marketing",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-13T18:12:35Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-macaron-non-sub-marketing",
+            "kind": "user",
+            "timestamp": "2026-10-13T18:12:35Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "e614297755df207db22271d5f239f55f",
@@ -64,5 +117,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T18:08:19.542916+00:00"
+    "timestamp": "2026-10-13T18:19:07.843404+00:00"
 }
