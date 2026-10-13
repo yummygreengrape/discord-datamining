@@ -1,5 +1,5 @@
 {
-    "build_hash": "937cb47d7e0aeb732a1bf03f02e8212c564901c6",
+    "build_hash": "dfc49387d63c4513e6e501303c056ebb46a94dd0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,65 +8,21 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "deadline_ms"
-            ],
-            "default_config": {
-                "deadline_ms": 0
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-desktop-tti-update-check-deadline",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-13T19:15:25Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "deadline_ms": 15000
-                },
-                "2": {
-                    "deadline_ms": 30000
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "deadline_ms"
-            ],
-            "default_config": {
-                "deadline_ms": 0
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-desktop-tti-update-check-deadline",
-            "kind": "user",
-            "timestamp": "2026-10-13T19:15:25Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "deadline_ms": 15000
-                },
-                "2": {
-                    "deadline_ms": 30000
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/wXIQV": "is thinking...",
+                "123+VB": "is keysmashing...",
+                "JPVvqj": "**{name}** is chirping...",
+                "JfieQ4": "**{name}** is keysmashing...",
+                "PXYYXj": "is purring...",
+                "kz3mf0": "**{name}** is thinking...",
+                "mnCAqf": "is chirping...",
+                "oK1MLW": "**{name}** is purring..."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -76,5 +32,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T19:25:18.267518+00:00"
+    "timestamp": "2026-10-13T19:36:09.119486+00:00"
 }
