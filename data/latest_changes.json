@@ -1,5 +1,5 @@
 {
-    "build_hash": "5b4e72a4256de361de3142dd949fb6db42c288db",
+    "build_hash": "ecbd1c0b8af801ba4a3928aa1394c3df4aaaae5e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,11 +14,7 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "X8tdbS": "Your latest changes aren’t live yet · [{action}]({onUpdate})",
-                "lexcBN": "Updating",
-                "s96AWB": "Not sure what to do next? I can come up with a few things."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -27,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T18:29:55.334625+00:00"
+    "timestamp": "2026-10-13T18:40:49.571676+00:00"
 }
