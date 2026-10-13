@@ -1,5 +1,5 @@
 {
-    "build_hash": "bcbb169ed52c6f8675249a3b6338b28f1157fdb4",
+    "build_hash": "a8a890afb5f1cffdb5dd37a58df4ccf420b15235",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -54,8 +54,28 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "/Q8h0W": "Who's talking in your call",
+                "3YHC/8": "Streams in your call",
+                "5rYO+E": "What friends are playing",
+                "77gmRL": "Quick Actions",
+                "Ce6Xe8": "Mute, deafen and more",
+                "Fgbxdv": "No widgets on screen",
+                "Flw3aW": "Open Widgets to choose what shows up.",
+                "GzNICm": "Find friends and chat",
+                "HUjIgu": "Choose what shows up in your overlay.",
+                "IkPPzO": "Messages, calls and invites",
+                "MpBSOt": "Hide All",
+                "P7TOO/": "Widget from an app you built",
+                "Qk/rJB": "Widgets",
+                "gMKjra": "Cameras in your call",
+                "odKfRO": "Chat without leaving your game",
+                "pbu+Yx": "Your Apps",
+                "uF5NtC": "Hide widget"
+            },
+            "deleted": {
+                "xdiRDZ": "Remove from overlay"
+            },
             "modified": {}
         },
         "ko": {
@@ -64,5 +84,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T03:04:01.568491+00:00"
+    "timestamp": "2026-10-13T03:25:09.944679+00:00"
 }
