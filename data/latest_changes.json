@@ -1,5 +1,5 @@
 {
-    "build_hash": "25947201ed9c47fc2ce100943db46e9457e00654",
+    "build_hash": "a7f776994cf45a617aba0d731d0c6d76dc90d9c9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -55,14 +55,18 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "WnnzG7": "Select number of gifts"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "WnnzG7": "선물 개수 선택"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-13T17:46:37.190400+00:00"
+    "timestamp": "2026-10-13T17:57:24.644678+00:00"
 }
