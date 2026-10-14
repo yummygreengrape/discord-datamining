@@ -1,5 +1,5 @@
 {
-    "build_hash": "fb0be6db662ca6fb096d8bcad507190fae787c83",
+    "build_hash": "1475e907217b00db7ba7b6dcaf57d99788d57bce",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,14 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "GqcQyH": "Unpublish",
+                "b8LN7N": "{app} was unpublished.",
+                "jYAR58": "Unpublish",
+                "m8KWic": "Unpublish {app}?",
+                "rE/0SD": "Couldn’t unpublish the app. Try again.",
+                "wve4kB": "This removes the widget from your profile. You can republish at any time."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T02:07:01.756776+00:00"
+    "timestamp": "2026-10-14T02:28:10.241335+00:00"
 }
