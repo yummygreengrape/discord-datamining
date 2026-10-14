@@ -1,5 +1,5 @@
 {
-    "build_hash": "64da7baa11023fb0ea40fbb93e6c7c7b900e9747",
+    "build_hash": "91213db5d6b4000bdfd49b6e42addb938c0cf2c2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,11 +9,33 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-gifted-subscriptions",
+            "kind": "user",
+            "timestamp": "2026-10-14T15:57:56Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "L5nipF": "{price}/month, cancel any time",
+                "PR7GrT": "{plan}, {option}",
+                "Rqr/Kg": "Renews yearly",
+                "S3pnck": "{price}/year, cancel any time",
+                "jkx9hR": "Just this once",
+                "nRS0N2": "{plan}: {price}",
+                "sYJogd": "Pay {price} one time",
+                "uDVG5O": "/ Month",
+                "yCHPPF": "Renews monthly"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +45,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T17:01:24.809468+00:00"
+    "timestamp": "2026-10-14T17:12:40.461165+00:00"
 }
