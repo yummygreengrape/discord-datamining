@@ -1,5 +1,5 @@
 {
-    "build_hash": "18d16469877a4e1657e0fb2d78a5fb01facaafba",
+    "build_hash": "fae124d8f0f46098ef63d20c5c28478258559a5e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -18,10 +18,29 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "0gqEHu": "서버 부스트 2주, 사용자 지정 프로필 등을 보내 보세요.",
+                "2nw1yD": "2주 동안 사용자 지정 프로필, 대용량 파일 업로드 등의 혜택을 누릴 수 있어요. [자세히 알아보기]({helpdeskArticle}).",
+                "DrjI2v": "곧 더 추가될 예정이에요. 넉넉한 마음을 나누고 싶다면 Nitro를 언제든지 선물할 수 있어요. [자세히 알아보기]({helpdeskArticle})",
+                "GCMMir": "친구가 있나요? Nitro를 공유해 보세요",
+                "KXbhzo": "Nitro 선물하기",
+                "LVlgM4": "{recipientName} 님과 Nitro 공유하기",
+                "NkgMIP": "더 선명하고 원활한 스트리밍, 프로필 특전 등을 누릴 수 있는 Nitro 2주를 공유해 보세요.",
+                "TyRCCM": "친구들을 챙겨주고 그룹 채팅에서 MVP가 되어 보세요.",
+                "Z2Ri4D": "언제든지 열어서 누가 온라인 상태인지, 무엇을 하고 있는지 확인하세요.",
+                "Z3LquY": "친구 활동 보기",
+                "ZBuqcM": "무료 체험 공유 한도에 도달했어요",
+                "dzQxHq": "무료 체험 보내기",
+                "n/a182": "HD 공유하기",
+                "rdh1ou": "{recipientName} 님이 HD로 스트리밍할 수 있도록 도와주세요",
+                "s8VHbZ": "친구들이 {recipientName}일 이내에 무료 체험권을 수락하지 않으면 원래대로 반환돼요. [자세히 알아보기]({helpdeskArticle}).",
+                "tJvaQ8": "{recipientName}님에게 사용자 지정 프로필, 테마 등을 2주 동안 보내보세요."
+            },
+            "deleted": {
+                "xczAcS": "xczAcS"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T19:45:31.867414+00:00"
+    "timestamp": "2026-10-14T19:56:25.738466+00:00"
 }
