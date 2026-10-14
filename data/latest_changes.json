@@ -1,5 +1,5 @@
 {
-    "build_hash": "8a798f6da448b19f61afe311873795f779f8adf2",
+    "build_hash": "406a5102b3ed11798b1b2b89802f3aa79ad6d694",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,15 +13,8 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "5smZHx": "Instead of a one-time gift, you can now send Nitro that auto-renews.",
-                "9XpK+g": "Gift Nitro",
-                "A4ZMJL": "Share My Activity",
-                "wyIs4o": "Share your gaming activity and turn on personalization to help unlock this leaderboard. It appears once {memberCount, number} members have both settings on."
-            },
-            "deleted": {
-                "ueza5l": "Turn on Activity Sharing to help unlock this leaderboard. There need to be at least {memberCount, number} server members sharing their gaming activity."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -30,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T20:30:09.280139+00:00"
+    "timestamp": "2026-10-14T20:41:00.793211+00:00"
 }
