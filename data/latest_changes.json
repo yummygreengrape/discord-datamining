@@ -1,5 +1,5 @@
 {
-    "build_hash": "e68ecf8abb42d62c783b730a4698dee26523eb58",
+    "build_hash": "d861f0ea505567de11cb73a2b9d93994e20b0bfb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-clickable-hero-banner",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-14T21:38:34Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-clickable-hero-banner",
+            "kind": "user",
+            "timestamp": "2026-10-14T21:38:34Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T21:35:16.681585+00:00"
+    "timestamp": "2026-10-14T21:46:07.147730+00:00"
 }
