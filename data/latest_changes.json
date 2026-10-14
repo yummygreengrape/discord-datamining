@@ -1,5 +1,5 @@
 {
-    "build_hash": "99c63701fe6bffbaaf10db3b6f861145dbea3188",
+    "build_hash": "9e9a25f23d1d08424b4f713b66df220b2eb7ed84",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Vb3sUg": "Collaborators"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T22:51:22.173836+00:00"
+    "timestamp": "2026-10-14T23:02:13.718469+00:00"
 }
