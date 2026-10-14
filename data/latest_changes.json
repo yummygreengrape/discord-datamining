@@ -1,38 +1,15 @@
 {
-    "build_hash": "740fb152f57eecbd6563a23d824e10e840e26f7e",
+    "build_hash": "ce35d89321742e9cd63904abe6be4dfdd5b5f528",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-bulk-nitro-gifting",
-            "kind": "user",
-            "timestamp": "2026-10-14T00:52:11Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 2"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-bulk-nitro-gifting-discounts",
-            "kind": "user",
-            "timestamp": "2026-10-14T00:52:11Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -46,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T00:54:20.656453+00:00"
+    "timestamp": "2026-10-14T01:15:32.000870+00:00"
 }
