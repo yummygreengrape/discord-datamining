@@ -1,5 +1,5 @@
 {
-    "build_hash": "4b94db6d1318e9e3c47e0f594611511f70fdce6d",
+    "build_hash": "4c372deddb1b1c670f248776f97e86d74395ba79",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,49 +13,15 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "15R0kd": "Elder Dragon Stolen",
-                "4//FvS": "Swish Goal",
-                "6DZISR": "Overtime Goal",
-                "AwjiED": "Aerial Goal",
-                "I5YSwS": "Extermination",
-                "Itns5V": "Elder Dragon Slain",
-                "Jmi8xl": "Backwards Goal",
-                "ShU4Bk": "Savior",
-                "VgkqMu": "Hat Trick",
-                "VskybO": "Long Goal",
-                "XWGgyF": "Bicycle Goal",
-                "j1BYbE": "Drake Slain",
-                "lr7Ki+": "Drake Stolen",
-                "tpVyW0": "Playmaker"
-            },
-            "deleted": {
-                "89CDAj": "Item Purchase",
-                "94Kji7": "Game Started",
-                "AjNN1/": "{drakeName} Drake Slain",
-                "DUQK8U": "{drakeName} Drake Stolen",
-                "QOC6N4": "Flip Reset",
-                "ebbBDl": "Respawn",
-                "hlOYoA": "Game Ended",
-                "saS9BW": "Defeat"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "89CDAj": "아이템 구매",
-                "94Kji7": "게임이 시작됐어요",
-                "AjNN1/": "{drakeName} 드레이크 처치",
-                "DUQK8U": "{drakeName} 드레이크 스틸당함",
-                "QOC6N4": "플립 리셋",
-                "cp+kpc": "레벨 업!",
-                "ebbBDl": "리스폰",
-                "hlOYoA": "게임 종료",
-                "saS9BW": "패배"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T18:28:05.931345+00:00"
+    "timestamp": "2026-10-14T18:38:56.970634+00:00"
 }
