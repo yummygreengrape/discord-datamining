@@ -1,5 +1,5 @@
 {
-    "build_hash": "96e4fffaea888137b5fd94c0d18c8bddfb9fad01",
+    "build_hash": "3fae27a04452da2a5f3fbaa4591651c4d678d43d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,13 +14,11 @@
     "string_changes": {
         "en": {
             "added": {
-                "gT8zk1": "Anyone can view this project’s info and remix it.",
-                "ujIxRm": "Public"
+                "Gl5dnA": "My Subscriptions",
+                "SUBSCRIPTIONS": "Subscriptions",
+                "XFZr3P": "Subscriptions"
             },
-            "deleted": {
-                "gchQFO": "Allow Remixing",
-                "mD4GBH": "Let anyone who can see this app make a copy of it."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -29,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T23:34:18.306953+00:00"
+    "timestamp": "2026-10-14T23:45:10.611631+00:00"
 }
