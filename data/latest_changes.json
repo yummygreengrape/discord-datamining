@@ -1,5 +1,5 @@
 {
-    "build_hash": "b92b7a277879df58c83aa7849442bc0fa043df8f",
+    "build_hash": "d4dd32f84534c3a64b97b98d0a6ace726d5612fc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -15,12 +15,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "PJn0ih": {
-                    "new_value": "Enable settings to contribute to the leaderboard. These can be changed at any time in Settings.",
-                    "old_value": "Enable each setting to contribute to the leaderboard. These can be changed at any time in Settings."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -28,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T01:36:45.445617+00:00"
+    "timestamp": "2026-10-14T01:47:38.526064+00:00"
 }
