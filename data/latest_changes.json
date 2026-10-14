@@ -1,129 +1,19 @@
 {
-    "build_hash": "9e562c796d69a7767fea563ccadc648ddf9a8370",
+    "build_hash": "825efd8549711a5d3c9a42dc2131373931b32c5a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "processPollingPerf",
-                "skipSilentDelayEstimatorFfts"
-            ],
-            "default_config": {
-                "processPollingPerf": false,
-                "skipSilentDelayEstimatorFfts": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-10-desktop-general-perf",
-            "kind": "user",
-            "old_config_keys": [
-                "basicProcessEnumeration",
-                "skipSilentDelayEstimatorFfts"
-            ],
-            "old_default_config": {
-                "basicProcessEnumeration": false,
-                "skipSilentDelayEstimatorFfts": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": {
-                    "basicProcessEnumeration": false,
-                    "skipSilentDelayEstimatorFfts": false
-                },
-                "1": {
-                    "basicProcessEnumeration": true,
-                    "skipSilentDelayEstimatorFfts": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "processPollingPerf": false,
-                    "skipSilentDelayEstimatorFfts": false
-                },
-                "1": {
-                    "processPollingPerf": true,
-                    "skipSilentDelayEstimatorFfts": true
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "processPollingPerf",
-                "skipSilentDelayEstimatorFfts"
-            ],
-            "default_config": {
-                "processPollingPerf": false,
-                "skipSilentDelayEstimatorFfts": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-10-desktop-general-perf",
-            "kind": "user",
-            "old_config_keys": [
-                "basicProcessEnumeration",
-                "skipSilentDelayEstimatorFfts"
-            ],
-            "old_default_config": {
-                "basicProcessEnumeration": false,
-                "skipSilentDelayEstimatorFfts": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": {
-                    "basicProcessEnumeration": false,
-                    "skipSilentDelayEstimatorFfts": false
-                },
-                "1": {
-                    "basicProcessEnumeration": true,
-                    "skipSilentDelayEstimatorFfts": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "processPollingPerf": false,
-                    "skipSilentDelayEstimatorFfts": false
-                },
-                "1": {
-                    "processPollingPerf": true,
-                    "skipSilentDelayEstimatorFfts": true
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "K0spYL": "Start a Stream"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -133,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T21:56:58.091844+00:00"
+    "timestamp": "2026-10-14T22:07:54.267010+00:00"
 }
