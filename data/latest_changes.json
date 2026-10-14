@@ -1,5 +1,5 @@
 {
-    "build_hash": "7ac983976a0111a0976d30ee8713f4953f159d58",
+    "build_hash": "2749da19bbe4967d39285b8383a21fe2a0fc1f3b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "twlOb6": "Pick an app"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T02:38:59.235117+00:00"
+    "timestamp": "2026-10-14T03:00:06.776706+00:00"
 }
