@@ -1,5 +1,5 @@
 {
-    "build_hash": "9a6b1e0e5d0613c88f0e4b23b3f6fdf74927e017",
+    "build_hash": "623f8d7ce56b253411e271cb76fa4f809511d7a0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "n9QpdG": "Own Goal"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T13:49:08.378205+00:00"
+    "timestamp": "2026-10-14T14:00:06.168161+00:00"
 }
