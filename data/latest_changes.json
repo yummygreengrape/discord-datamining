@@ -1,5 +1,5 @@
 {
-    "build_hash": "2f216e36b8dad18c1527c1117cd6e2ebd4d8ead3",
+    "build_hash": "068efbae21fb1be1485d30d59461dc85109f6ecf",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,61 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-build-a-bear-cards",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-14T14:31:03Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-build-a-bear-cards",
-            "kind": "user",
-            "timestamp": "2026-10-14T14:31:03Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -76,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T14:32:21.582517+00:00"
+    "timestamp": "2026-10-14T14:53:33.588462+00:00"
 }
