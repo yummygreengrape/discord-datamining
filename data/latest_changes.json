@@ -1,5 +1,5 @@
 {
-    "build_hash": "7a27c855e123cc880dbbcfea2ce77254e11aa6df",
+    "build_hash": "201e9e9f5b61d0dc10430d9da2c93d552a34f331",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,38 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0IAEFf": "Edit tools",
+                "1sOXwH": "White",
+                "3PeGo2": "Couldn't attach the sketch, so the message wasn't sent.",
+                "5W7SSZ": "Label text",
+                "8gX1lw": "Add a label",
+                "9y+Dae": "Attached when you send",
+                "AGb8aK": "Text (T)",
+                "ARNVr7": "Square (R)",
+                "AeHDE6": "Undo (Ctrl+Z)",
+                "C7jhpn": "Redo (⇧⌘Z)",
+                "FYuaJ1": "Yellow",
+                "J3ucEg": "Thick",
+                "N852dj": "Send without the sketch",
+                "VfYqDq": "Color",
+                "Vv+paS": "Green",
+                "YtyKcM": "Edit text and elements directly (P)",
+                "cTQdD0": "Medium",
+                "hUm825": "Marker (M)",
+                "j/XmBQ": "Undo (⌘Z)",
+                "jZtZUr": "Thin",
+                "k9b1QJ": "Blue",
+                "n5IA3a": "Eraser (E)",
+                "oIZQbm": "Circle (O)",
+                "pp16iB": "Redo (Ctrl+Shift+Z)",
+                "qTOXqb": "Move (V)",
+                "qlgN+X": "Drawing layer over your app. Press Escape to leave Edit and Draw.",
+                "r5dX6t": "Shape (O / R)",
+                "tuQ5f3": "Done (Esc)",
+                "tvXfjt": "Red",
+                "xhFsEP": "Sketch screenshot"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +54,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T05:26:46.490684+00:00"
+    "timestamp": "2026-10-14T05:47:54.619067+00:00"
 }
