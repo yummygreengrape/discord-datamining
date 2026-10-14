@@ -1,151 +1,15 @@
 {
-    "build_hash": "0ce2621b187e1a5b0879943ad1eb9d092d8a5831",
+    "build_hash": "6beb6998f34678de007fcf0dab0ce609783be31a",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "켜진 비교안은 대표 서버 태그에서 기존 스타일용 표시 규칙을 제외합니다."
-                    }
-                ],
-                "detailed_summary": "프로필이나 사용자 이름 옆에 대표 서버 태그가 표시될 때, 기본 상태는 기존 태그 스타일용 표시 규칙을 유지합니다. 비교안에서는 DiscordTag 화면이 이 실험을 직접 읽고 기존 스타일 규칙을 빼 새 표시 방식으로 전환합니다. 현재 코드에서 사용자 이름과 대표 서버 정보가 함께 그려지는 위치까지는 확인되지만, 색상·여백처럼 정확한 시각 차이는 번들만으로 확정하지 않았습니다.",
-                "evidence": [
-                    "Current Canary exports a useConfig helper for the exact experiment.",
-                    "DiscordTag calls that helper at location DiscordTag and changes the class applied to the primary-guild tag."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "사용자 이름 옆 대표 서버 태그",
-                "generated_at": "2026-08-26T04:06:44Z",
-                "importance": "medium",
-                "summary": "사용자 이름 옆 대표 서버 태그의 표시 스타일을 바꾸는 실험입니다.",
-                "why_it_matters": "대표 서버 태그가 이름과 더 자연스럽게 어울리는지 비교할 수 있습니다. 태그가 보여 주는 서버 정보 자체가 바뀐다는 근거는 없습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "The enabled variant removes the legacy style rule from the primary-server tag."
-                    }
-                ],
-                "detailed_summary": "When a primary-server tag appears beside a profile or username, the default keeps the existing tag-style rule. The enabled variant is read directly by the DiscordTag surface and removes that legacy style rule to use the updated presentation. The current code confirms the username and primary-server-tag surface, but it does not expose enough styling detail to state an exact color or spacing change.",
-                "evidence": [
-                    "Current Canary exports a useConfig helper for the exact experiment.",
-                    "DiscordTag calls that helper at location DiscordTag and changes the class applied to the primary-guild tag."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Primary-server tag beside usernames",
-                "generated_at": "2026-08-26T04:06:44Z",
-                "importance": "medium",
-                "summary": "Changes the presentation style of the primary-server tag shown beside a username.",
-                "why_it_matters": "This can compare whether a primary-server tag fits more naturally beside a name. There is no evidence that the underlying server identity shown by the tag changes."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-user-profile-server-tag-style",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-14T00:03:39Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-user-profile-server-tag-style",
-            "kind": "user",
-            "timestamp": "2026-10-14T00:03:39Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-desktop-conjure-native-preview-view",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-14T00:05:42Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-desktop-conjure-native-preview-view",
-            "kind": "user",
-            "timestamp": "2026-10-14T00:05:42Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -159,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T00:11:23.797021+00:00"
+    "timestamp": "2026-10-14T00:22:18.079484+00:00"
 }
