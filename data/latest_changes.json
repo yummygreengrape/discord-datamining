@@ -1,5 +1,5 @@
 {
-    "build_hash": "d0706babc2cda5c68aee202f7511f106b0087e0f",
+    "build_hash": "026f270cbac5f3932f5f61aad24fb55d406fd8d2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -18,13 +18,10 @@
             "modified": {}
         },
         "ko": {
-            "added": {
-                "SI8PNw": "만들기",
-                "TE+uDu": "확인하러 가기"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T06:09:07.836678+00:00"
+    "timestamp": "2026-10-14T07:01:16.721126+00:00"
 }
