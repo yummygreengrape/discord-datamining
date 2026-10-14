@@ -1,5 +1,5 @@
 {
-    "build_hash": "74b1c17a567253c231b70e7411c29410ef41df9f",
+    "build_hash": "8bda99a8da576a01c68a0522f164bae86ca03ed2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,11 +13,14 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "fJnl1h": "Don't see the payment window? $[Reopen](reopenHook)"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "6mcVBm": {
+                    "new_value": "Something for every reaction",
+                    "old_value": "New emoji packs with Nitro"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -25,5 +28,45 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T21:13:31.446543+00:00"
+    "string_context": {
+        "en": {
+            "6mcVBm": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "여러 팩 이름과 팩을 보는 버튼이 같은 시점에 추가됐어요. 새 팩 소개 문구이며, 개별 계정에서 사용할 수 있는지는 함께 표시되는 베타 대상 안내를 구분해 읽어야 해요.",
+                    "generated_at": "2026-10-04T05:39:42.503925Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Nitro Emoji Packs",
+                        "이모지 선택기",
+                        "베타",
+                        "팩 추가"
+                    ],
+                    "search_intent": "Nitro에 새 이모지 팩이 생겼다는 알림이 무엇을 소개하는지 찾는 검색이에요.",
+                    "source_context": "10월 2일 문자열 묶음에 Nitro Emoji Packs, 팩 이름, 선택기에 추가, 팩 추가·제거 완료, 일부 Nitro 회원 대상 베타 안내가 함께 등장합니다.",
+                    "summary": "New emoji packs with Nitro는 Nitro의 새 이모지 팩을 소개하는 안내 제목이에요.",
+                    "what_it_means": "Nitro와 연결된 새 이모지 묶음을 소개한다는 의미예요.",
+                    "when_it_appears": "Nitro 이모지 팩을 알리는 소개 카드나 홍보 영역에 쓰이는 것으로 보여요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "Pack names and a browsing action were added alongside this heading. It is an introduction to the packs; the separate beta notice qualifies who can access them.",
+                    "generated_at": "2026-10-04T05:39:42.503925Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Nitro Emoji Packs",
+                        "emoji picker",
+                        "Beta",
+                        "Add to picker"
+                    ],
+                    "search_intent": "Understand the announcement of new emoji packs with Nitro.",
+                    "source_context": "The October 2 group includes Nitro Emoji Packs, pack names, Add to picker, addition/removal confirmations, and a beta notice limited to selected Nitro members.",
+                    "summary": "New emoji packs with Nitro introduces a new set of Nitro emoji collections.",
+                    "what_it_means": "The heading announces new emoji collections associated with Nitro.",
+                    "when_it_appears": "Appears to be introductory copy for a Nitro emoji-pack announcement or promotion."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-10-14T21:24:25.448920+00:00"
 }
