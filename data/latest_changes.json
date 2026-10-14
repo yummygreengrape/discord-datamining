@@ -1,64 +1,129 @@
 {
-    "build_hash": "d861f0ea505567de11cb73a2b9d93994e20b0bfb",
+    "build_hash": "9e562c796d69a7767fea563ccadc648ddf9a8370",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "processPollingPerf",
+                "skipSilentDelayEstimatorFfts"
+            ],
+            "default_config": {
+                "processPollingPerf": false,
+                "skipSilentDelayEstimatorFfts": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-desktop-general-perf",
+            "kind": "user",
+            "old_config_keys": [
+                "basicProcessEnumeration",
+                "skipSilentDelayEstimatorFfts"
+            ],
+            "old_default_config": {
+                "basicProcessEnumeration": false,
+                "skipSilentDelayEstimatorFfts": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "basicProcessEnumeration": false,
+                    "skipSilentDelayEstimatorFfts": false
+                },
+                "1": {
+                    "basicProcessEnumeration": true,
+                    "skipSilentDelayEstimatorFfts": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "processPollingPerf": false,
+                    "skipSilentDelayEstimatorFfts": false
+                },
+                "1": {
+                    "processPollingPerf": true,
+                    "skipSilentDelayEstimatorFfts": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "processPollingPerf",
+                "skipSilentDelayEstimatorFfts"
+            ],
+            "default_config": {
+                "processPollingPerf": false,
+                "skipSilentDelayEstimatorFfts": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-desktop-general-perf",
+            "kind": "user",
+            "old_config_keys": [
+                "basicProcessEnumeration",
+                "skipSilentDelayEstimatorFfts"
+            ],
+            "old_default_config": {
+                "basicProcessEnumeration": false,
+                "skipSilentDelayEstimatorFfts": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "basicProcessEnumeration": false,
+                    "skipSilentDelayEstimatorFfts": false
+                },
+                "1": {
+                    "basicProcessEnumeration": true,
+                    "skipSilentDelayEstimatorFfts": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "processPollingPerf": false,
+                    "skipSilentDelayEstimatorFfts": false
+                },
+                "1": {
+                    "processPollingPerf": true,
+                    "skipSilentDelayEstimatorFfts": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-clickable-hero-banner",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-14T21:38:34Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-clickable-hero-banner",
-            "kind": "user",
-            "timestamp": "2026-10-14T21:38:34Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "K0spYL": "Start a Stream"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +133,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T21:46:07.147730+00:00"
+    "timestamp": "2026-10-14T21:56:58.091844+00:00"
 }
