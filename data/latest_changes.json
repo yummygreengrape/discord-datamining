@@ -1,5 +1,5 @@
 {
-    "build_hash": "56e3c6bace7d434cb5c7b44a768d2c99b0682716",
+    "build_hash": "60e6bed68670dd787f9d9d79ac26882d61e6ef41",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,15 +13,83 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "1hsDpi": "Set a system messages channel in Server Settings to enable leaderboard system messages.",
+                "4FcF2j": "Couldn't update leaderboard system messages. Try again.",
+                "88c7ds": "Sent when a competition ends, a new one begins, or someone new takes the lead. Limited to 1 system message per day.",
+                "ED2GDQ": "bHook{memberCount} played bHook{gameCount} in the past week.",
+                "G5PLYW": "+{count}",
+                "GZsvDx": "Popular Games",
+                "JDAHQV": "Turn on Activity Sharing to help unlock this panel. There need to be at least {memberCount} server members sharing their gaming activity.",
+                "KQUuAZ": "Close this request",
+                "LeSGal": "There need to be at least {memberCount} server members sharing their gaming activity to have popular games enabled.",
+                "TbbzW5": "You don’t have another app to ask yet.",
+                "XZNsDA": "What to ask it",
+                "XaT+x0": "{count} played {gameName}",
+                "e7pD5m": "Enable settings to contribute to Popular Games. These can be changed at any time in Settings.",
+                "gG4j6o": "Conjure it",
+                "jZlNst": "Sent to {name} (project {projectId}):",
+                "kMZz8G": "Couldn’t send it. Check that you can edit that app, then try again.",
+                "uQOR1j": "Turn on personalization to see your played games join the rankings.",
+                "v0iLIA": "Send system messages to server",
+                "wyK5KO": "Enable activity sharing to see your played games join the rankings."
+            },
+            "deleted": {
+                "rhDbuQ": "a game"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "rhDbuQ": "게임"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T19:23:45.849863+00:00"
+    "string_context": {
+        "en": {
+            "rhDbuQ": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 문자열 ‘a game’는 게임 수가 한 개인 경우 쓰이는 단수형 게임 단위을(를) 나타냅니다. 같은 시각에 순위, 상위 3명, 최근 플레이, 총 게임 시간, 고유 게임 수, 활동 공유 인원 조건과 기간제 경쟁 문구가 한 묶음으로 추가됐습니다. 이는 서버 구성원이 공유한 게임 활동을 집계하는 리더보드로 보이지만 실제 노출 범위는 확인되지 않습니다.",
+                    "generated_at": "2026-09-21T00:11:28Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "leaderboard",
+                        "gaming activity",
+                        "competition",
+                        "rank",
+                        "game time",
+                        "server members"
+                    ],
+                    "search_intent": "Discord에서 ‘a game’를 본 사용자가 이 문구가 게임 수가 한 개인 경우 쓰이는 단수형 게임 단위인지, 어느 화면에서 보이고 어떤 상태를 뜻하는지 확인하려는 검색입니다.",
+                    "source_context": "같은 시각에 순위, 상위 3명, 최근 플레이, 총 게임 시간, 고유 게임 수, 활동 공유 인원 조건과 기간제 경쟁 문구가 한 묶음으로 추가됐습니다. 이는 서버 구성원이 공유한 게임 활동을 집계하는 리더보드로 보이지만 실제 노출 범위는 확인되지 않습니다.",
+                    "summary": "‘a game’가 가리키는 것은 게임 수가 한 개인 경우 쓰이는 단수형 게임 단위입니다.",
+                    "what_it_means": "화면에 ‘a game’가 보이면 현재 단계가 게임 수가 한 개인 경우 쓰이는 단수형 게임 단위이라는 뜻입니다.",
+                    "when_it_appears": "‘a game’는 서버 구성원의 공유된 게임 활동을 순위와 기간별 경쟁으로 보여 주는 화면에서 게임 수가 한 개인 경우 쓰이는 단수형 게임 단위을(를) 표시할 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "Current copy “a game” represents the singular game unit used when the count is one. Rank, top-three, recent-play, total-time, unique-game, minimum-sharing-member, and timed-competition strings arrived together. They describe a leaderboard built from server members' shared gaming activity, while actual rollout remains unconfirmed.",
+                    "generated_at": "2026-09-21T00:11:28Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "leaderboard",
+                        "gaming activity",
+                        "competition",
+                        "rank",
+                        "game time",
+                        "server members"
+                    ],
+                    "search_intent": "A user who saw “a game” in Discord is likely searching to confirm that it means the singular game unit used when the count is one, where it appears, and which state it describes.",
+                    "source_context": "Rank, top-three, recent-play, total-time, unique-game, minimum-sharing-member, and timed-competition strings arrived together. They describe a leaderboard built from server members' shared gaming activity, while actual rollout remains unconfirmed.",
+                    "summary": "“a game” identifies the singular game unit used when the count is one.",
+                    "what_it_means": "When “a game” is shown, the current step is presenting the singular game unit used when the count is one.",
+                    "when_it_appears": "“a game” can appear on a server view that ranks shared gaming activity and shows a timed competition when Discord displays the singular game unit used when the count is one."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-10-14T19:34:37.990646+00:00"
 }
