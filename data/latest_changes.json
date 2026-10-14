@@ -1,5 +1,5 @@
 {
-    "build_hash": "8f59ee13ba8dcb9ef799351ad99a08428f372e20",
+    "build_hash": "5fb4baea4c45ea937086f7c2f7c842dc579a3781",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Nwj3fK": "Back to emoji picker"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T17:44:40.787541+00:00"
+    "timestamp": "2026-10-14T17:55:32.870114+00:00"
 }
