@@ -1,5 +1,5 @@
 {
-    "build_hash": "83d275d1ff76a9eb1b90e6eba8b0f94f1eab6531",
+    "build_hash": "74b1c17a567253c231b70e7411c29410ef41df9f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "fJnl1h": "Don't see the payment window? $[Reopen](reopenHook)"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T21:02:40.287701+00:00"
+    "timestamp": "2026-10-14T21:13:31.446543+00:00"
 }
