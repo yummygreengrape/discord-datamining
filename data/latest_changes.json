@@ -1,5 +1,5 @@
 {
-    "build_hash": "dde4dd3a3e2b7cb840bd0ccf2ba76b64343e9ddd",
+    "build_hash": "96e4fffaea888137b5fd94c0d18c8bddfb9fad01",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,66 +8,19 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-remove-quests-from-discovery",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-14T23:22:09Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-remove-quests-from-discovery",
-            "kind": "user",
-            "timestamp": "2026-10-14T23:22:09Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "gT8zk1": "Anyone can view this project’s info and remix it.",
+                "ujIxRm": "Public"
+            },
+            "deleted": {
+                "gchQFO": "Allow Remixing",
+                "mD4GBH": "Let anyone who can see this app make a copy of it."
+            },
             "modified": {}
         },
         "ko": {
@@ -76,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T23:23:28.239222+00:00"
+    "timestamp": "2026-10-14T23:34:18.306953+00:00"
 }
