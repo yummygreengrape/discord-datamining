@@ -1,5 +1,5 @@
 {
-    "build_hash": "9e9a25f23d1d08424b4f713b66df220b2eb7ed84",
+    "build_hash": "dde4dd3a3e2b7cb840bd0ccf2ba76b64343e9ddd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,14 +8,65 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-remove-quests-from-discovery",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-14T23:22:09Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-remove-quests-from-discovery",
+            "kind": "user",
+            "timestamp": "2026-10-14T23:22:09Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Vb3sUg": "Collaborators"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +76,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T23:02:13.718469+00:00"
+    "timestamp": "2026-10-14T23:23:28.239222+00:00"
 }
