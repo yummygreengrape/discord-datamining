@@ -1,5 +1,5 @@
 {
-    "build_hash": "2397689312ced142a00590c43c9f090216bbf66e",
+    "build_hash": "5025bed7a6f79259e083d542e9a16cb3aa8c5fad",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,27 +8,57 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-gifted-subscriptions",
+            "kind": "user",
+            "status": "added",
+            "treatments": [],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-gifted-subscriptions",
+            "kind": "user",
+            "treatments": [],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "A4ZMJL": "Share My Activity",
-                "wyIs4o": "Share your gaming activity and turn on personalization to help unlock this leaderboard. It appears once {memberCount, number} members have both settings on."
+                "5smZHx": "Instead of a one-time gift, you can now send Nitro that auto-renews.",
+                "9XpK+g": "Gift Nitro",
+                "L5nipF": "{price}/month, cancel any time",
+                "PR7GrT": "{plan}, {option}",
+                "Rqr/Kg": "Renews yearly",
+                "S3pnck": "{price}/year, cancel any time",
+                "jkx9hR": "Just this once",
+                "nRS0N2": "{plan}: {price}",
+                "sYJogd": "Pay {price} one time",
+                "uDVG5O": "/ Month",
+                "yCHPPF": "Renews monthly"
             },
-            "deleted": {
-                "ueza5l": "Turn on Activity Sharing to help unlock this leaderboard. There need to be at least {memberCount, number} server members sharing their gaming activity."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "ueza5l": "활동 공유를 켜서 이 리더보드를 잠금 해제해 보세요. 최소 {memberCount}명의 서버 멤버가 게임 활동을 공유해야 해요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T20:07:14.968749+00:00"
+    "timestamp": "2026-10-14T20:18:48.099677+00:00"
 }
