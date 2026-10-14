@@ -1,5 +1,5 @@
 {
-    "build_hash": "9713777c96fe3f5d7b1dfa391108957b64b0847a",
+    "build_hash": "8f59ee13ba8dcb9ef799351ad99a08428f372e20",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,83 +8,13 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "bottomSheetEnabled",
-                "enabled",
-                "notificationEnabled"
-            ],
-            "default_config": {
-                "bottomSheetEnabled": false,
-                "enabled": false,
-                "notificationEnabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-recurring-referral-reminder",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-14T17:16:54Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "bottomSheetEnabled": true,
-                    "enabled": true,
-                    "notificationEnabled": false
-                },
-                "2": {
-                    "bottomSheetEnabled": false,
-                    "enabled": true,
-                    "notificationEnabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "bottomSheetEnabled",
-                "enabled",
-                "notificationEnabled"
-            ],
-            "default_config": {
-                "bottomSheetEnabled": false,
-                "enabled": false,
-                "notificationEnabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-recurring-referral-reminder",
-            "kind": "user",
-            "timestamp": "2026-10-14T17:16:54Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "bottomSheetEnabled": true,
-                    "enabled": true,
-                    "notificationEnabled": false
-                },
-                "2": {
-                    "bottomSheetEnabled": false,
-                    "enabled": true,
-                    "notificationEnabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "Uhe1Ks": "Send one of your 2-week trials and become the group chat MVP.",
-                "riWixv": "Psst, share Nitro with a friend"
+                "Nwj3fK": "Back to emoji picker"
             },
             "deleted": {},
             "modified": {}
@@ -95,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-14T17:23:32.196778+00:00"
+    "timestamp": "2026-10-14T17:44:40.787541+00:00"
 }
