@@ -1,12 +1,128 @@
 {
-    "build_hash": "af882f9162f0587fa14d0da92ecc696460f1e79c",
+    "build_hash": "210dfcc874acfac42a2970152f87db970e378e4c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "keepRendererLogFileOpen",
+                "processPollingPerf",
+                "skipSilentDelayEstimatorFfts"
+            ],
+            "default_config": {
+                "keepRendererLogFileOpen": false,
+                "processPollingPerf": false,
+                "skipSilentDelayEstimatorFfts": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-desktop-general-perf",
+            "kind": "user",
+            "old_config_keys": [
+                "processPollingPerf",
+                "skipSilentDelayEstimatorFfts"
+            ],
+            "old_default_config": {
+                "processPollingPerf": false,
+                "skipSilentDelayEstimatorFfts": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "processPollingPerf": false,
+                    "skipSilentDelayEstimatorFfts": false
+                },
+                "1": {
+                    "processPollingPerf": true,
+                    "skipSilentDelayEstimatorFfts": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "keepRendererLogFileOpen": false,
+                    "processPollingPerf": false,
+                    "skipSilentDelayEstimatorFfts": false
+                },
+                "1": {
+                    "keepRendererLogFileOpen": true,
+                    "processPollingPerf": true,
+                    "skipSilentDelayEstimatorFfts": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "keepRendererLogFileOpen",
+                "processPollingPerf",
+                "skipSilentDelayEstimatorFfts"
+            ],
+            "default_config": {
+                "keepRendererLogFileOpen": false,
+                "processPollingPerf": false,
+                "skipSilentDelayEstimatorFfts": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-desktop-general-perf",
+            "kind": "user",
+            "old_config_keys": [
+                "processPollingPerf",
+                "skipSilentDelayEstimatorFfts"
+            ],
+            "old_default_config": {
+                "processPollingPerf": false,
+                "skipSilentDelayEstimatorFfts": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "processPollingPerf": false,
+                    "skipSilentDelayEstimatorFfts": false
+                },
+                "1": {
+                    "processPollingPerf": true,
+                    "skipSilentDelayEstimatorFfts": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "keepRendererLogFileOpen": false,
+                    "processPollingPerf": false,
+                    "skipSilentDelayEstimatorFfts": false
+                },
+                "1": {
+                    "keepRendererLogFileOpen": true,
+                    "processPollingPerf": true,
+                    "skipSilentDelayEstimatorFfts": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -15,12 +131,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "toxuHd": {
-                    "new_value": "Play some games to join the leaderboard! Progress will be shown starting tomorrow.",
-                    "old_value": "Play some games to join the leaderboard!"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -28,5 +139,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T01:01:07.797472+00:00"
+    "timestamp": "2026-10-15T01:12:02.767840+00:00"
 }
