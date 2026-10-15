@@ -1,8 +1,77 @@
 {
-    "build_hash": "51f90bc54a4e99152a6f27ee3a6fd43c67641257",
+    "build_hash": "c77f1a085570224771b4383e003a8e6135c27e1f",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "bottomSheetEnabled",
+                "enabled",
+                "notificationEnabled"
+            ],
+            "default_config": {
+                "bottomSheetEnabled": false,
+                "enabled": false,
+                "notificationEnabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-recurring-referral-reminder",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-10-15T02:35:27Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "bottomSheetEnabled": true,
+                    "enabled": true,
+                    "notificationEnabled": false
+                },
+                "2": {
+                    "bottomSheetEnabled": false,
+                    "enabled": true,
+                    "notificationEnabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "bottomSheetEnabled",
+                "enabled",
+                "notificationEnabled"
+            ],
+            "default_config": {
+                "bottomSheetEnabled": false,
+                "enabled": false,
+                "notificationEnabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-recurring-referral-reminder",
+            "kind": "user",
+            "timestamp": "2026-10-15T02:35:27Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "bottomSheetEnabled": true,
+                    "enabled": true,
+                    "notificationEnabled": false
+                },
+                "2": {
+                    "bottomSheetEnabled": false,
+                    "enabled": true,
+                    "notificationEnabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -18,18 +87,14 @@
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-10-code-blurple-teaser",
+            "id": "2026-10-referral-refresh-notification",
             "kind": "user",
             "status": "added",
-            "timestamp": "2026-10-15T01:46:00Z",
+            "timestamp": "2026-10-15T02:35:27Z",
             "treatments": [
-                "Variant 0",
                 "Variant 1"
             ],
             "variations": {
-                "0": {
-                    "enabled": false
-                },
                 "1": {
                     "enabled": true
                 }
@@ -46,17 +111,13 @@
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-10-code-blurple-teaser",
+            "id": "2026-10-referral-refresh-notification",
             "kind": "user",
-            "timestamp": "2026-10-15T01:46:00Z",
+            "timestamp": "2026-10-15T02:35:27Z",
             "treatments": [
-                "Variant 0",
                 "Variant 1"
             ],
             "variations": {
-                "0": {
-                    "enabled": false
-                },
                 "1": {
                     "enabled": true
                 }
@@ -67,13 +128,13 @@
     "string_changes": {
         "en": {
             "added": {
-                "D3CWUF": "Full reveal when Call of Duty: Modern Warfare 4 launches on {date}",
-                "UvhjEc": "It's almost here",
-                "Y/4agX": "Full reveal in MW4 on {date}",
-                "YEsjvt": "Get a Call of Duty: MW4 blueprint on {date}. Exclusive to Nitro.",
-                "ugfqKp": "Classified: Code Blurple"
+                "KHF45W": "Psst, share Nitro with a friend",
+                "WJDeur": "Send one of your 2-week trials and become the group chat MVP."
             },
-            "deleted": {},
+            "deleted": {
+                "Uhe1Ks": "Send one of your 2-week trials and become the group chat MVP.",
+                "riWixv": "Psst, share Nitro with a friend"
+            },
             "modified": {}
         },
         "ko": {
@@ -82,5 +143,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T01:53:46.053608+00:00"
+    "timestamp": "2026-10-15T02:35:35.805728+00:00"
 }
