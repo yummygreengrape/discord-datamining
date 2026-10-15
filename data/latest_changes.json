@@ -1,5 +1,5 @@
 {
-    "build_hash": "ac728039f99e1c126b2a567d4d372e091c4ac6a8",
+    "build_hash": "109032e06305123109e7a5ff583e16c62cbf5f00",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,74 +8,14 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-request-to-stream-non-games",
-            "kind": "guild",
-            "status": "added",
-            "timestamp": "2026-10-15T18:17:37Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-request-to-stream-non-games",
-            "kind": "guild",
-            "timestamp": "2026-10-15T18:17:37Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "BlHpAk": "[{username}]({usernameOnClick}) is the new top listener!",
-                "Cf11AE": "There’s a new top song in Popular Music.",
-                "FMGoDB": "Updates when there’s a new top song, top artist, or top listener",
-                "MUSIC_SYSTEM_MESSAGES": "music_system_messages",
-                "OlxQF3": "There’s a new top listener in Popular Music.",
-                "ZbrKrk": "{artistName} is the new top artist!",
-                "k41/aX": "$[{username}](usernameHook) is the new top listener!",
-                "vqPR3w": "{trackTitle} is the new top song!",
-                "ygm9YB": "There’s a new top artist in Popular Music."
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "d/qbC0": {
-                    "new_value": "**{username}** asked you to stream",
-                    "old_value": "{username} asked you to stream"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -83,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T18:21:20.442361+00:00"
+    "timestamp": "2026-10-15T18:32:13.894999+00:00"
 }
