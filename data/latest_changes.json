@@ -1,5 +1,5 @@
 {
-    "build_hash": "1827de472f13bb39d2f48aecda0f207342590632",
+    "build_hash": "5777f8cab5deb5591f9520ce6c0a1b72c0045b6f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,19 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-hd-streaming-contextual-referrals",
-            "kind": "user",
-            "timestamp": "2026-10-15T21:07:18Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -35,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T21:15:43.023326+00:00"
+    "timestamp": "2026-10-15T21:26:35.542591+00:00"
 }
