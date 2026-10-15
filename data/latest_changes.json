@@ -1,5 +1,5 @@
 {
-    "build_hash": "0bd3180f9fb99727d7579ebe3c455cd8ccc1205e",
+    "build_hash": "135d6db73d323da74c714d29de2092f9d3789061",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,14 +8,202 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-gdm-duration-timer",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-15T19:04:18Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-gdm-duration-timer",
+            "kind": "user",
+            "timestamp": "2026-10-15T19:04:18Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/Ld1Ju": "Jump in",
+                "FurWLH": "Currently live. Turn it off anytime in Server Settings.",
+                "GMgGSC": "Up and running",
+                "Hk5K1P": "Ready when you are",
+                "vloG7/": "Publish when it feels right, and turn it off anytime."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "2AoJt6": {
+                    "new_value": "Add, edit, and remove widgets to make it feel like home.",
+                    "old_value": "Add the widgets your server will actually use."
+                },
+                "3/aHX6": {
+                    "new_value": "A sketch of the app this plan would make",
+                    "old_value": "A wireframe of the app this plan would build"
+                },
+                "4kCM6H": {
+                    "new_value": "Changes to this show up in your app shortly after you save.",
+                    "old_value": "Changes to this land after a quick rebuild; saving starts one."
+                },
+                "5hvVF1": {
+                    "new_value": "Bringing back your project",
+                    "old_value": "Restoring project files"
+                },
+                "7k4GyN": {
+                    "new_value": "Nothing to show here",
+                    "old_value": "No frame to show"
+                },
+                "9YJAIN": {
+                    "new_value": "Live Reload is on, but it isn’t updating your app right now: {error}",
+                    "old_value": "Live Reload is on, but the live preview isn’t running: {error}"
+                },
+                "BNSdWl": {
+                    "new_value": "Uniquely yours",
+                    "old_value": "Customizable"
+                },
+                "D9erxW": {
+                    "new_value": "Last published {time} · v{version}",
+                    "old_value": "Last deployed {time} · v{version}"
+                },
+                "DKR23W": {
+                    "new_value": "Gathering what your app needs",
+                    "old_value": "Installing packages"
+                },
+                "E3ZRQo": {
+                    "new_value": "Saving your app as it is now",
+                    "old_value": "Building a snapshot"
+                },
+                "FKuG6X": {
+                    "new_value": "App",
+                    "old_value": "Frame"
+                },
+                "HXmZlY": {
+                    "new_value": "A shared place for @everyone to see what’s happening in your server and goof around.",
+                    "old_value": "You can customize the layout and content to create a unique Server Hub for your community."
+                },
+                "JUqlqE": {
+                    "new_value": "Live Reload is off, but your app couldn’t be saved as it is now: {error}",
+                    "old_value": "Live Reload is off, but the snapshot didn’t build: {error}"
+                },
+                "OTYC2K": {
+                    "new_value": "Always current",
+                    "old_value": "Always changing"
+                },
+                "TvAPIm": {
+                    "new_value": "Open the sketch at full size",
+                    "old_value": "Open the wireframe at full size"
+                },
+                "Ww9HFO": {
+                    "new_value": "Only these sites will get it: {hosts}",
+                    "old_value": "Will only be sent to: {hosts}"
+                },
+                "Wy5aK4": {
+                    "new_value": "{count, plural, one {You can make # more app} other {You can make # more apps}}",
+                    "old_value": "{count, plural, one {# app slot left} other {# app slots left}}"
+                },
+                "ZWcCXh": {
+                    "new_value": "Refreshing your app",
+                    "old_value": "Reloading the frame"
+                },
+                "ZcJIE6": {
+                    "new_value": "Putting your app together",
+                    "old_value": "Building the app"
+                },
+                "aQUPiQ": {
+                    "new_value": "Widgets refresh regularly with what’s new.",
+                    "old_value": "Widgets refresh automatically with the latest activity."
+                },
+                "dI8HGD": {
+                    "new_value": "Turning off Live Reload",
+                    "old_value": "Stopping the dev server"
+                },
+                "ffxKGK": {
+                    "new_value": "Describe your idea and try your app first",
+                    "old_value": "Describe your idea and open its frame first"
+                },
+                "gCey7s": {
+                    "new_value": "Paused",
+                    "old_value": "Snapshot"
+                },
+                "lTPbnG": {
+                    "new_value": "Your app wouldn’t load",
+                    "old_value": "The frame wouldn’t load"
+                },
+                "mAXkyS": {
+                    "new_value": "Starting Live Reload",
+                    "old_value": "Starting the dev server"
+                },
+                "oWcemF": {
+                    "new_value": "Conjure is using your app right now, so your clicks are paused to keep them from colliding with its own.",
+                    "old_value": "Conjure is using this Frame right now, so your clicks are paused to keep them from colliding with its own."
+                },
+                "okkgSB": {
+                    "new_value": "Your app is ready to try.",
+                    "old_value": "Your frame is ready."
+                },
+                "qc4VkW": {
+                    "new_value": "Warming up",
+                    "old_value": "Preparing the dev server"
+                },
+                "rPpf5/": {
+                    "new_value": "A sketch of the app in the game overlay, on top of a game",
+                    "old_value": "A wireframe of the app as a desktop overlay widget on top of a game"
+                },
+                "s28pGG": {
+                    "new_value": "You can’t make any more apps",
+                    "old_value": "No app slots left"
+                },
+                "wYBwzU": {
+                    "new_value": "Getting things ready",
+                    "old_value": "Starting the sandbox"
+                },
+                "xjblZt": {
+                    "new_value": "Your app updates the moment I change it.",
+                    "old_value": "Preview updates instantly when files change."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +211,199 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T18:54:25.811539+00:00"
+    "string_context": {
+        "en": {
+            "2AoJt6": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 문자열 ‘Add the panels your server will actually use.’는 서버에서 실제로 사용할 패널만 허브에 추가하라는 구성 안내을(를) 나타냅니다. 같은 시각에 Build your own Server Hub, 패널 추가, 자동 활동 갱신, 맞춤형 커뮤니티 공간 설명이 함께 추가됐습니다. 이는 서버에 필요한 패널을 조합하는 허브 소개 문구로 보이며 모든 서버의 현재 제공 여부는 확인되지 않습니다.",
+                    "generated_at": "2026-09-21T00:11:28Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Server Hub",
+                        "panels",
+                        "customizable",
+                        "latest activity",
+                        "community space"
+                    ],
+                    "search_intent": "Discord에서 ‘Add the panels your server will actually use.’를 본 사용자가 이 문구가 서버에서 실제로 사용할 패널만 허브에 추가하라는 구성 안내인지, 어느 화면에서 보이고 어떤 상태를 뜻하는지 확인하려는 검색입니다.",
+                    "source_context": "같은 시각에 Build your own Server Hub, 패널 추가, 자동 활동 갱신, 맞춤형 커뮤니티 공간 설명이 함께 추가됐습니다. 이는 서버에 필요한 패널을 조합하는 허브 소개 문구로 보이며 모든 서버의 현재 제공 여부는 확인되지 않습니다.",
+                    "summary": "‘Add the panels your server will actually use.’가 가리키는 것은 서버에서 실제로 사용할 패널만 허브에 추가하라는 구성 안내입니다.",
+                    "what_it_means": "화면에 ‘Add the panels your server will actually use.’가 보이면 현재 단계가 서버에서 실제로 사용할 패널만 허브에 추가하라는 구성 안내이라는 뜻입니다.",
+                    "when_it_appears": "‘Add the panels your server will actually use.’는 서버용 허브를 소개하거나 사용할 패널을 구성하는 화면에서 서버에서 실제로 사용할 패널만 허브에 추가하라는 구성 안내을(를) 표시할 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "Current copy “Add the panels your server will actually use.” represents the setup instruction to add only the panels a server will use. Build your own Server Hub, panel selection, automatic activity refresh, and customizable community-space copy were added together. They describe a configurable server hub, without proving current availability for every server.",
+                    "generated_at": "2026-09-21T00:11:28Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Server Hub",
+                        "panels",
+                        "customizable",
+                        "latest activity",
+                        "community space"
+                    ],
+                    "search_intent": "A user who saw “Add the panels your server will actually use.” in Discord is likely searching to confirm that it means the setup instruction to add only the panels a server will use, where it appears, and which state it describes.",
+                    "source_context": "Build your own Server Hub, panel selection, automatic activity refresh, and customizable community-space copy were added together. They describe a configurable server hub, without proving current availability for every server.",
+                    "summary": "“Add the panels your server will actually use.” identifies the setup instruction to add only the panels a server will use.",
+                    "what_it_means": "When “Add the panels your server will actually use.” is shown, the current step is presenting the setup instruction to add only the panels a server will use.",
+                    "when_it_appears": "“Add the panels your server will actually use.” can appear on a screen that introduces a server hub or configures the panels it uses when Discord displays the setup instruction to add only the panels a server will use."
+                }
+            },
+            "BNSdWl": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 문자열 ‘Customizable’는 Server Hub가 고정형이 아니라 편집 가능한 구성을 지원한다는 특징 라벨을(를) 나타냅니다. 같은 시각에 Build your own Server Hub, 패널 추가, 자동 활동 갱신, 맞춤형 커뮤니티 공간 설명이 함께 추가됐습니다. 이는 서버에 필요한 패널을 조합하는 허브 소개 문구로 보이며 모든 서버의 현재 제공 여부는 확인되지 않습니다.",
+                    "generated_at": "2026-09-21T00:11:28Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Server Hub",
+                        "panels",
+                        "customizable",
+                        "latest activity",
+                        "community space"
+                    ],
+                    "search_intent": "Discord에서 ‘Customizable’를 본 사용자가 이 문구가 Server Hub가 고정형이 아니라 편집 가능한 구성을 지원한다는 특징 라벨인지, 어느 화면에서 보이고 어떤 상태를 뜻하는지 확인하려는 검색입니다.",
+                    "source_context": "같은 시각에 Build your own Server Hub, 패널 추가, 자동 활동 갱신, 맞춤형 커뮤니티 공간 설명이 함께 추가됐습니다. 이는 서버에 필요한 패널을 조합하는 허브 소개 문구로 보이며 모든 서버의 현재 제공 여부는 확인되지 않습니다.",
+                    "summary": "‘Customizable’가 가리키는 것은 Server Hub가 고정형이 아니라 편집 가능한 구성을 지원한다는 특징 라벨입니다.",
+                    "what_it_means": "화면에 ‘Customizable’가 보이면 현재 단계가 Server Hub가 고정형이 아니라 편집 가능한 구성을 지원한다는 특징 라벨이라는 뜻입니다.",
+                    "when_it_appears": "‘Customizable’는 서버용 허브를 소개하거나 사용할 패널을 구성하는 화면에서 Server Hub가 고정형이 아니라 편집 가능한 구성을 지원한다는 특징 라벨을(를) 표시할 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "Current copy “Customizable” represents a feature label saying the Server Hub has an editable rather than fixed layout. Build your own Server Hub, panel selection, automatic activity refresh, and customizable community-space copy were added together. They describe a configurable server hub, without proving current availability for every server.",
+                    "generated_at": "2026-09-21T00:11:28Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Server Hub",
+                        "panels",
+                        "customizable",
+                        "latest activity",
+                        "community space"
+                    ],
+                    "search_intent": "A user who saw “Customizable” in Discord is likely searching to confirm that it means a feature label saying the Server Hub has an editable rather than fixed layout, where it appears, and which state it describes.",
+                    "source_context": "Build your own Server Hub, panel selection, automatic activity refresh, and customizable community-space copy were added together. They describe a configurable server hub, without proving current availability for every server.",
+                    "summary": "“Customizable” identifies a feature label saying the Server Hub has an editable rather than fixed layout.",
+                    "what_it_means": "When “Customizable” is shown, the current step is presenting a feature label saying the Server Hub has an editable rather than fixed layout.",
+                    "when_it_appears": "“Customizable” can appear on a screen that introduces a server hub or configures the panels it uses when Discord displays a feature label saying the Server Hub has an editable rather than fixed layout."
+                }
+            },
+            "HXmZlY": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 문자열 ‘You can customize the layout, and content to create a unique space for your community.’는 커뮤니티에 맞게 레이아웃과 내용을 바꿀 수 있다는 Server Hub 설명을(를) 나타냅니다. 같은 시각에 Build your own Server Hub, 패널 추가, 자동 활동 갱신, 맞춤형 커뮤니티 공간 설명이 함께 추가됐습니다. 이는 서버에 필요한 패널을 조합하는 허브 소개 문구로 보이며 모든 서버의 현재 제공 여부는 확인되지 않습니다.",
+                    "generated_at": "2026-09-21T00:11:28Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Server Hub",
+                        "panels",
+                        "customizable",
+                        "latest activity",
+                        "community space"
+                    ],
+                    "search_intent": "Discord에서 ‘You can customize the layout, and content to create a unique space for your community.’를 본 사용자가 이 문구가 커뮤니티에 맞게 레이아웃과 내용을 바꿀 수 있다는 Server Hub 설명인지, 어느 화면에서 보이고 어떤 상태를 뜻하는지 확인하려는 검색입니다.",
+                    "source_context": "같은 시각에 Build your own Server Hub, 패널 추가, 자동 활동 갱신, 맞춤형 커뮤니티 공간 설명이 함께 추가됐습니다. 이는 서버에 필요한 패널을 조합하는 허브 소개 문구로 보이며 모든 서버의 현재 제공 여부는 확인되지 않습니다.",
+                    "summary": "‘You can customize the layout, and content to create a unique space for your community.’가 가리키는 것은 커뮤니티에 맞게 레이아웃과 내용을 바꿀 수 있다는 Server Hub 설명입니다.",
+                    "what_it_means": "화면에 ‘You can customize the layout, and content to create a unique space for your community.’가 보이면 현재 단계가 커뮤니티에 맞게 레이아웃과 내용을 바꿀 수 있다는 Server Hub 설명이라는 뜻입니다.",
+                    "when_it_appears": "‘You can customize the layout, and content to create a unique space for your community.’는 서버용 허브를 소개하거나 사용할 패널을 구성하는 화면에서 커뮤니티에 맞게 레이아웃과 내용을 바꿀 수 있다는 Server Hub 설명을(를) 표시할 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "Current copy “You can customize the layout, and content to create a unique space for your community.” represents the Server Hub explanation that layout and content can be tailored to a community. Build your own Server Hub, panel selection, automatic activity refresh, and customizable community-space copy were added together. They describe a configurable server hub, without proving current availability for every server.",
+                    "generated_at": "2026-09-21T00:11:28Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Server Hub",
+                        "panels",
+                        "customizable",
+                        "latest activity",
+                        "community space"
+                    ],
+                    "search_intent": "A user who saw “You can customize the layout, and content to create a unique space for your community.” in Discord is likely searching to confirm that it means the Server Hub explanation that layout and content can be tailored to a community, where it appears, and which state it describes.",
+                    "source_context": "Build your own Server Hub, panel selection, automatic activity refresh, and customizable community-space copy were added together. They describe a configurable server hub, without proving current availability for every server.",
+                    "summary": "“You can customize the layout, and content to create a unique space for your community.” identifies the Server Hub explanation that layout and content can be tailored to a community.",
+                    "what_it_means": "When “You can customize the layout, and content to create a unique space for your community.” is shown, the current step is presenting the Server Hub explanation that layout and content can be tailored to a community.",
+                    "when_it_appears": "“You can customize the layout, and content to create a unique space for your community.” can appear on a screen that introduces a server hub or configures the panels it uses when Discord displays the Server Hub explanation that layout and content can be tailored to a community."
+                }
+            },
+            "OTYC2K": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 문자열 ‘Always changing’는 허브 내용이 지속적으로 갱신된다는 특징 제목을(를) 나타냅니다. 같은 시각에 Build your own Server Hub, 패널 추가, 자동 활동 갱신, 맞춤형 커뮤니티 공간 설명이 함께 추가됐습니다. 이는 서버에 필요한 패널을 조합하는 허브 소개 문구로 보이며 모든 서버의 현재 제공 여부는 확인되지 않습니다.",
+                    "generated_at": "2026-09-21T00:11:28Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Server Hub",
+                        "panels",
+                        "customizable",
+                        "latest activity",
+                        "community space"
+                    ],
+                    "search_intent": "Discord에서 ‘Always changing’를 본 사용자가 이 문구가 허브 내용이 지속적으로 갱신된다는 특징 제목인지, 어느 화면에서 보이고 어떤 상태를 뜻하는지 확인하려는 검색입니다.",
+                    "source_context": "같은 시각에 Build your own Server Hub, 패널 추가, 자동 활동 갱신, 맞춤형 커뮤니티 공간 설명이 함께 추가됐습니다. 이는 서버에 필요한 패널을 조합하는 허브 소개 문구로 보이며 모든 서버의 현재 제공 여부는 확인되지 않습니다.",
+                    "summary": "‘Always changing’가 가리키는 것은 허브 내용이 지속적으로 갱신된다는 특징 제목입니다.",
+                    "what_it_means": "화면에 ‘Always changing’가 보이면 현재 단계가 허브 내용이 지속적으로 갱신된다는 특징 제목이라는 뜻입니다.",
+                    "when_it_appears": "‘Always changing’는 서버용 허브를 소개하거나 사용할 패널을 구성하는 화면에서 허브 내용이 지속적으로 갱신된다는 특징 제목을(를) 표시할 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "Current copy “Always changing” represents the feature heading saying the hub keeps changing. Build your own Server Hub, panel selection, automatic activity refresh, and customizable community-space copy were added together. They describe a configurable server hub, without proving current availability for every server.",
+                    "generated_at": "2026-09-21T00:11:28Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Server Hub",
+                        "panels",
+                        "customizable",
+                        "latest activity",
+                        "community space"
+                    ],
+                    "search_intent": "A user who saw “Always changing” in Discord is likely searching to confirm that it means the feature heading saying the hub keeps changing, where it appears, and which state it describes.",
+                    "source_context": "Build your own Server Hub, panel selection, automatic activity refresh, and customizable community-space copy were added together. They describe a configurable server hub, without proving current availability for every server.",
+                    "summary": "“Always changing” identifies the feature heading saying the hub keeps changing.",
+                    "what_it_means": "When “Always changing” is shown, the current step is presenting the feature heading saying the hub keeps changing.",
+                    "when_it_appears": "“Always changing” can appear on a screen that introduces a server hub or configures the panels it uses when Discord displays the feature heading saying the hub keeps changing."
+                }
+            },
+            "aQUPiQ": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 문자열 ‘Panels refresh themselves with the latest activity.’는 패널이 최신 활동으로 자동 새로고침된다는 동작 설명을(를) 나타냅니다. 같은 시각에 Build your own Server Hub, 패널 추가, 자동 활동 갱신, 맞춤형 커뮤니티 공간 설명이 함께 추가됐습니다. 이는 서버에 필요한 패널을 조합하는 허브 소개 문구로 보이며 모든 서버의 현재 제공 여부는 확인되지 않습니다.",
+                    "generated_at": "2026-09-21T00:11:28Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Server Hub",
+                        "panels",
+                        "customizable",
+                        "latest activity",
+                        "community space"
+                    ],
+                    "search_intent": "Discord에서 ‘Panels refresh themselves with the latest activity.’를 본 사용자가 이 문구가 패널이 최신 활동으로 자동 새로고침된다는 동작 설명인지, 어느 화면에서 보이고 어떤 상태를 뜻하는지 확인하려는 검색입니다.",
+                    "source_context": "같은 시각에 Build your own Server Hub, 패널 추가, 자동 활동 갱신, 맞춤형 커뮤니티 공간 설명이 함께 추가됐습니다. 이는 서버에 필요한 패널을 조합하는 허브 소개 문구로 보이며 모든 서버의 현재 제공 여부는 확인되지 않습니다.",
+                    "summary": "‘Panels refresh themselves with the latest activity.’가 가리키는 것은 패널이 최신 활동으로 자동 새로고침된다는 동작 설명입니다.",
+                    "what_it_means": "화면에 ‘Panels refresh themselves with the latest activity.’가 보이면 현재 단계가 패널이 최신 활동으로 자동 새로고침된다는 동작 설명이라는 뜻입니다.",
+                    "when_it_appears": "‘Panels refresh themselves with the latest activity.’는 서버용 허브를 소개하거나 사용할 패널을 구성하는 화면에서 패널이 최신 활동으로 자동 새로고침된다는 동작 설명을(를) 표시할 때 나타날 수 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "Current copy “Panels refresh themselves with the latest activity.” represents the behavior description that panels refresh with the latest activity. Build your own Server Hub, panel selection, automatic activity refresh, and customizable community-space copy were added together. They describe a configurable server hub, without proving current availability for every server.",
+                    "generated_at": "2026-09-21T00:11:28Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Server Hub",
+                        "panels",
+                        "customizable",
+                        "latest activity",
+                        "community space"
+                    ],
+                    "search_intent": "A user who saw “Panels refresh themselves with the latest activity.” in Discord is likely searching to confirm that it means the behavior description that panels refresh with the latest activity, where it appears, and which state it describes.",
+                    "source_context": "Build your own Server Hub, panel selection, automatic activity refresh, and customizable community-space copy were added together. They describe a configurable server hub, without proving current availability for every server.",
+                    "summary": "“Panels refresh themselves with the latest activity.” identifies the behavior description that panels refresh with the latest activity.",
+                    "what_it_means": "When “Panels refresh themselves with the latest activity.” is shown, the current step is presenting the behavior description that panels refresh with the latest activity.",
+                    "when_it_appears": "“Panels refresh themselves with the latest activity.” can appear on a screen that introduces a server hub or configures the panels it uses when Discord displays the behavior description that panels refresh with the latest activity."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-10-15T19:05:52.216037+00:00"
 }
