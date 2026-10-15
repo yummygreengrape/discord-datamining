@@ -1,5 +1,5 @@
 {
-    "build_hash": "77ba7241d39b87476bfd1b9209aac34aa6c6ef63",
+    "build_hash": "97563c78298ad231ce3cc54d757e0a47d405a2ae",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,75 +8,12 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "configurationType",
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-express-checkout",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-15T15:37:37Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "configurationType": "review_footer",
-                    "enabled": true
-                },
-                "2": {
-                    "configurationType": "payment_selector",
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "configurationType",
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-express-checkout",
-            "kind": "user",
-            "timestamp": "2026-10-15T15:37:37Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "configurationType": "review_footer",
-                    "enabled": true
-                },
-                "2": {
-                    "configurationType": "payment_selector",
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "6zCzw1": "There was a problem adding this payment method. Try again or use a different payment method.",
-                "BLu9EI": "Add a different payment method",
-                "N2e4Tl": "Your amount has been updated"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -86,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T15:39:06.232454+00:00"
+    "timestamp": "2026-10-15T16:00:23.248340+00:00"
 }
