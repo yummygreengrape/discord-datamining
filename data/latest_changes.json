@@ -1,135 +1,78 @@
 {
-    "build_hash": "210dfcc874acfac42a2970152f87db970e378e4c",
+    "build_hash": "51f90bc54a4e99152a6f27ee3a6fd43c67641257",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "keepRendererLogFileOpen",
-                "processPollingPerf",
-                "skipSilentDelayEstimatorFfts"
-            ],
-            "default_config": {
-                "keepRendererLogFileOpen": false,
-                "processPollingPerf": false,
-                "skipSilentDelayEstimatorFfts": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-10-desktop-general-perf",
-            "kind": "user",
-            "old_config_keys": [
-                "processPollingPerf",
-                "skipSilentDelayEstimatorFfts"
-            ],
-            "old_default_config": {
-                "processPollingPerf": false,
-                "skipSilentDelayEstimatorFfts": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": {
-                    "processPollingPerf": false,
-                    "skipSilentDelayEstimatorFfts": false
-                },
-                "1": {
-                    "processPollingPerf": true,
-                    "skipSilentDelayEstimatorFfts": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "keepRendererLogFileOpen": false,
-                    "processPollingPerf": false,
-                    "skipSilentDelayEstimatorFfts": false
-                },
-                "1": {
-                    "keepRendererLogFileOpen": true,
-                    "processPollingPerf": true,
-                    "skipSilentDelayEstimatorFfts": true
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "keepRendererLogFileOpen",
-                "processPollingPerf",
-                "skipSilentDelayEstimatorFfts"
-            ],
-            "default_config": {
-                "keepRendererLogFileOpen": false,
-                "processPollingPerf": false,
-                "skipSilentDelayEstimatorFfts": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-10-desktop-general-perf",
-            "kind": "user",
-            "old_config_keys": [
-                "processPollingPerf",
-                "skipSilentDelayEstimatorFfts"
-            ],
-            "old_default_config": {
-                "processPollingPerf": false,
-                "skipSilentDelayEstimatorFfts": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": {
-                    "processPollingPerf": false,
-                    "skipSilentDelayEstimatorFfts": false
-                },
-                "1": {
-                    "processPollingPerf": true,
-                    "skipSilentDelayEstimatorFfts": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "keepRendererLogFileOpen": false,
-                    "processPollingPerf": false,
-                    "skipSilentDelayEstimatorFfts": false
-                },
-                "1": {
-                    "keepRendererLogFileOpen": true,
-                    "processPollingPerf": true,
-                    "skipSilentDelayEstimatorFfts": true
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-code-blurple-teaser",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-15T01:46:00Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-code-blurple-teaser",
+            "kind": "user",
+            "timestamp": "2026-10-15T01:46:00Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "D3CWUF": "Full reveal when Call of Duty: Modern Warfare 4 launches on {date}",
+                "UvhjEc": "It's almost here",
+                "Y/4agX": "Full reveal in MW4 on {date}",
+                "YEsjvt": "Get a Call of Duty: MW4 blueprint on {date}. Exclusive to Nitro.",
+                "ugfqKp": "Classified: Code Blurple"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -139,5 +82,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T01:12:02.767840+00:00"
+    "timestamp": "2026-10-15T01:53:46.053608+00:00"
 }
