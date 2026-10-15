@@ -1,5 +1,5 @@
 {
-    "build_hash": "2611e8ac1206cce809ddf3208aa1e556dc2d5af0",
+    "build_hash": "ac728039f99e1c126b2a567d4d372e091c4ac6a8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,118 +8,80 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-request-to-stream-non-games",
+            "kind": "guild",
+            "status": "added",
+            "timestamp": "2026-10-15T18:17:37Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-request-to-stream-non-games",
+            "kind": "guild",
+            "timestamp": "2026-10-15T18:17:37Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "5W7HIh": "Fill it with your server’s top games, music, and inside jokes.",
-                "EIuDzZ": "Meet your Server Hub",
-                "O2eErX": "Build your own Server Hub",
-                "PE4Cid": "Keep up with your crew",
-                "Uf5Ve7": "{serverName} has a Server Hub now. See what everyone’s been into lately.",
-                "ev0nwK": "Customize it with your server’s top games, music, and inside jokes. Now live for everyone."
+                "BlHpAk": "[{username}]({usernameOnClick}) is the new top listener!",
+                "Cf11AE": "There’s a new top song in Popular Music.",
+                "FMGoDB": "Updates when there’s a new top song, top artist, or top listener",
+                "MUSIC_SYSTEM_MESSAGES": "music_system_messages",
+                "OlxQF3": "There’s a new top listener in Popular Music.",
+                "ZbrKrk": "{artistName} is the new top artist!",
+                "k41/aX": "$[{username}](usernameHook) is the new top listener!",
+                "vqPR3w": "{trackTitle} is the new top song!",
+                "ygm9YB": "There’s a new top artist in Popular Music."
             },
-            "deleted": {
-                "+OEqVQ": "Build your own Server Hub",
-                "BP//Ot": "Create a Server Hub for you and all of your friends that’s uniquely yours."
-            },
+            "deleted": {},
             "modified": {
-                "ED2GDQ": {
-                    "new_value": "**{memberCount, plural, one {# member} other {# members}}** played **{gameCount, plural, one {# game} other {# games}}** in the past week",
-                    "old_value": "**{memberCount, plural, one {# member} other {# members}}** played **{gameCount, plural, one {# game} other {# games}}** in the past week."
+                "d/qbC0": {
+                    "new_value": "**{username}** asked you to stream",
+                    "old_value": "{username} asked you to stream"
                 }
             }
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "+OEqVQ": "나만의 서버 허브 만들기",
-                "BP//Ot": "친구들과 함께할 우리만의 특별한 서버 허브를 만들어 보세요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "+OEqVQ": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "현재 문자열 ‘Build your own Server Hub’는 서버별 허브를 직접 구성하는 기능의 주요 제목을(를) 나타냅니다. 같은 시각에 Build your own Server Hub, 패널 추가, 자동 활동 갱신, 맞춤형 커뮤니티 공간 설명이 함께 추가됐습니다. 이는 서버에 필요한 패널을 조합하는 허브 소개 문구로 보이며 모든 서버의 현재 제공 여부는 확인되지 않습니다.",
-                    "generated_at": "2026-09-21T00:11:28Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Server Hub",
-                        "panels",
-                        "customizable",
-                        "latest activity",
-                        "community space"
-                    ],
-                    "search_intent": "Discord에서 ‘Build your own Server Hub’를 본 사용자가 이 문구가 서버별 허브를 직접 구성하는 기능의 주요 제목인지, 어느 화면에서 보이고 어떤 상태를 뜻하는지 확인하려는 검색입니다.",
-                    "source_context": "같은 시각에 Build your own Server Hub, 패널 추가, 자동 활동 갱신, 맞춤형 커뮤니티 공간 설명이 함께 추가됐습니다. 이는 서버에 필요한 패널을 조합하는 허브 소개 문구로 보이며 모든 서버의 현재 제공 여부는 확인되지 않습니다.",
-                    "summary": "‘Build your own Server Hub’가 가리키는 것은 서버별 허브를 직접 구성하는 기능의 주요 제목입니다.",
-                    "what_it_means": "화면에 ‘Build your own Server Hub’가 보이면 현재 단계가 서버별 허브를 직접 구성하는 기능의 주요 제목이라는 뜻입니다.",
-                    "when_it_appears": "‘Build your own Server Hub’는 서버용 허브를 소개하거나 사용할 패널을 구성하는 화면에서 서버별 허브를 직접 구성하는 기능의 주요 제목을(를) 표시할 때 나타날 수 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "Current copy “Build your own Server Hub” represents the main heading for building a server-specific hub. Build your own Server Hub, panel selection, automatic activity refresh, and customizable community-space copy were added together. They describe a configurable server hub, without proving current availability for every server.",
-                    "generated_at": "2026-09-21T00:11:28Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Server Hub",
-                        "panels",
-                        "customizable",
-                        "latest activity",
-                        "community space"
-                    ],
-                    "search_intent": "A user who saw “Build your own Server Hub” in Discord is likely searching to confirm that it means the main heading for building a server-specific hub, where it appears, and which state it describes.",
-                    "source_context": "Build your own Server Hub, panel selection, automatic activity refresh, and customizable community-space copy were added together. They describe a configurable server hub, without proving current availability for every server.",
-                    "summary": "“Build your own Server Hub” identifies the main heading for building a server-specific hub.",
-                    "what_it_means": "When “Build your own Server Hub” is shown, the current step is presenting the main heading for building a server-specific hub.",
-                    "when_it_appears": "“Build your own Server Hub” can appear on a screen that introduces a server hub or configures the panels it uses when Discord displays the main heading for building a server-specific hub."
-                }
-            },
-            "BP//Ot": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "현재 문자열 ‘Create a space for you and all of your friends that’s uniquely yours.’는 친구와 커뮤니티에 맞는 고유한 공간을 만든다는 Server Hub 소개을(를) 나타냅니다. 같은 시각에 Build your own Server Hub, 패널 추가, 자동 활동 갱신, 맞춤형 커뮤니티 공간 설명이 함께 추가됐습니다. 이는 서버에 필요한 패널을 조합하는 허브 소개 문구로 보이며 모든 서버의 현재 제공 여부는 확인되지 않습니다.",
-                    "generated_at": "2026-09-21T00:11:28Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Server Hub",
-                        "panels",
-                        "customizable",
-                        "latest activity",
-                        "community space"
-                    ],
-                    "search_intent": "Discord에서 ‘Create a space for you and all of your friends that’s uniquely yours.’를 본 사용자가 이 문구가 친구와 커뮤니티에 맞는 고유한 공간을 만든다는 Server Hub 소개인지, 어느 화면에서 보이고 어떤 상태를 뜻하는지 확인하려는 검색입니다.",
-                    "source_context": "같은 시각에 Build your own Server Hub, 패널 추가, 자동 활동 갱신, 맞춤형 커뮤니티 공간 설명이 함께 추가됐습니다. 이는 서버에 필요한 패널을 조합하는 허브 소개 문구로 보이며 모든 서버의 현재 제공 여부는 확인되지 않습니다.",
-                    "summary": "‘Create a space for you and all of your friends that’s uniquely yours.’가 가리키는 것은 친구와 커뮤니티에 맞는 고유한 공간을 만든다는 Server Hub 소개입니다.",
-                    "what_it_means": "화면에 ‘Create a space for you and all of your friends that’s uniquely yours.’가 보이면 현재 단계가 친구와 커뮤니티에 맞는 고유한 공간을 만든다는 Server Hub 소개이라는 뜻입니다.",
-                    "when_it_appears": "‘Create a space for you and all of your friends that’s uniquely yours.’는 서버용 허브를 소개하거나 사용할 패널을 구성하는 화면에서 친구와 커뮤니티에 맞는 고유한 공간을 만든다는 Server Hub 소개을(를) 표시할 때 나타날 수 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "Current copy “Create a space for you and all of your friends that’s uniquely yours.” represents the Server Hub introduction about creating a distinct space for friends and community. Build your own Server Hub, panel selection, automatic activity refresh, and customizable community-space copy were added together. They describe a configurable server hub, without proving current availability for every server.",
-                    "generated_at": "2026-09-21T00:11:28Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Server Hub",
-                        "panels",
-                        "customizable",
-                        "latest activity",
-                        "community space"
-                    ],
-                    "search_intent": "A user who saw “Create a space for you and all of your friends that’s uniquely yours.” in Discord is likely searching to confirm that it means the Server Hub introduction about creating a distinct space for friends and community, where it appears, and which state it describes.",
-                    "source_context": "Build your own Server Hub, panel selection, automatic activity refresh, and customizable community-space copy were added together. They describe a configurable server hub, without proving current availability for every server.",
-                    "summary": "“Create a space for you and all of your friends that’s uniquely yours.” identifies the Server Hub introduction about creating a distinct space for friends and community.",
-                    "what_it_means": "When “Create a space for you and all of your friends that’s uniquely yours.” is shown, the current step is presenting the Server Hub introduction about creating a distinct space for friends and community.",
-                    "when_it_appears": "“Create a space for you and all of your friends that’s uniquely yours.” can appear on a screen that introduces a server hub or configures the panels it uses when Discord displays the Server Hub introduction about creating a distinct space for friends and community."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-10-15T18:10:25.785507+00:00"
+    "timestamp": "2026-10-15T18:21:20.442361+00:00"
 }
