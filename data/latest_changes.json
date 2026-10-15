@@ -1,5 +1,5 @@
 {
-    "build_hash": "cc83c080f46cc739ce9af89c4ea34febffb6920d",
+    "build_hash": "adcf9afe22009dd7f12454441094ddd29dce24d4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,69 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enableNVOverlay",
+                "enabled"
+            ],
+            "default_config": {
+                "enableNVOverlay": false,
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-overlay-native-window-rendering",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-15T17:01:31Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enableNVOverlay": false,
+                    "enabled": true
+                },
+                "2": {
+                    "enableNVOverlay": true,
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enableNVOverlay",
+                "enabled"
+            ],
+            "default_config": {
+                "enableNVOverlay": false,
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-overlay-native-window-rendering",
+            "kind": "user",
+            "timestamp": "2026-10-15T17:01:31Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enableNVOverlay": false,
+                    "enabled": true
+                },
+                "2": {
+                    "enableNVOverlay": true,
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +84,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T16:54:13.686015+00:00"
+    "timestamp": "2026-10-15T17:05:04.596830+00:00"
 }
