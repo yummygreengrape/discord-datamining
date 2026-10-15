@@ -1,5 +1,5 @@
 {
-    "build_hash": "0726822f96f7fce12836bd8f6a73195148388668",
+    "build_hash": "5d66b647cf2af36d8d1c8e54c06db9e7af2400de",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -17,12 +17,12 @@
             "deleted": {},
             "modified": {
                 "ED2GDQ": {
-                    "new_value": "bHook{memberCount} played bHook{gameCount} in the last 7 days",
-                    "old_value": "bHook{memberCount} played bHook{gameCount} in the past week"
+                    "new_value": "**{memberCount, plural, one {# member} other {# members}}** played **{gameCount, plural, one {# game} other {# games}}** in the last 7 days",
+                    "old_value": "**{memberCount, plural, one {# member} other {# members}}** played **{gameCount, plural, one {# game} other {# games}}** in the past week"
                 },
                 "JDAHQV": {
-                    "new_value": "Share your gaming activity and turn on personalization to help unlock this panel. It appears once {memberCount} members have both settings on.",
-                    "old_value": "Turn on Activity Sharing to help unlock this panel. There need to be at least {memberCount} server members sharing their gaming activity."
+                    "new_value": "Share your gaming activity and turn on personalization to help unlock this panel. It appears once {memberCount, number} members have both settings on.",
+                    "old_value": "Turn on Activity Sharing to help unlock this panel. There need to be at least {memberCount, number} server members sharing their gaming activity."
                 }
             }
         },
@@ -32,5 +32,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T22:32:58.003477+00:00"
+    "timestamp": "2026-10-15T22:43:55.949219+00:00"
 }
