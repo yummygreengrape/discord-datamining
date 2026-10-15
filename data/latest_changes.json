@@ -1,5 +1,5 @@
 {
-    "build_hash": "ff8cbb68cd1a918eaf8f3fa54c3bc82039260c94",
+    "build_hash": "cc83c080f46cc739ce9af89c4ea34febffb6920d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,29 +9,11 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-game-profile-mobile-reviews",
-            "kind": "user",
-            "timestamp": "2026-10-15T16:33:11Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "63jSRx": "Open {store} page, rated {rating} out of 5 stars ({rating_count, plural, one {# rating} other {# ratings}})",
-                "LVy7Ug": "App Store",
-                "V6rllO": "Play Store",
-                "u1m2hs": "({rating_count, number})",
-                "zdL4/T": "{rating} / 5"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -41,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T16:43:19.128106+00:00"
+    "timestamp": "2026-10-15T16:54:13.686015+00:00"
 }
