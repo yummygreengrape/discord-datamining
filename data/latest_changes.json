@@ -1,5 +1,5 @@
 {
-    "build_hash": "16ed19def130ef42ee960e12d405177ed61934df",
+    "build_hash": "014987a9ed5fd84da820a8b324c3e039b341e401",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,16 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "FDhlax": "League of Legends Kill Compilation",
+                "UTFgtm": "Dota 2 Game Highlights",
+                "WSShfj": "League of Legends Game Highlights",
+                "XdSaQW": "CS2 Highlight Reel",
+                "c52s8D": "CS2 Kill Compilation",
+                "kYrpvi": "Rocket League Goals & Saves",
+                "oPqa86": "CS2 Round Summary",
+                "zym7WV": "Dota 2 Kill Compilation"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +32,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T13:32:50.905452+00:00"
+    "timestamp": "2026-10-15T14:35:28.622178+00:00"
 }
