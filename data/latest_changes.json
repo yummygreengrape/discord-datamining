@@ -1,5 +1,5 @@
 {
-    "build_hash": "22346e40147b542601aeafd7e0e3c9da03733b9f",
+    "build_hash": "08c0d89fa96fc8c3902b215f6074a865cfebf482",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,11 +9,25 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-server-tag-upsell-on-guild-profile",
+            "kind": "user",
+            "timestamp": "2026-10-15T11:40:21Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "J0YWRq": "Create your own Server Tag"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T11:27:23.385581+00:00"
+    "timestamp": "2026-10-15T11:48:37.422133+00:00"
 }
