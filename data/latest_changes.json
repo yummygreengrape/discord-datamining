@@ -1,5 +1,5 @@
 {
-    "build_hash": "adcf9afe22009dd7f12454441094ddd29dce24d4",
+    "build_hash": "749aaf6d68fd747dceac78ff07bf991d8923d01f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -11,30 +11,26 @@
     "new_experiment_details": [
         {
             "config_keys": [
-                "enableNVOverlay",
                 "enabled"
             ],
             "default_config": {
-                "enableNVOverlay": false,
                 "enabled": false
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-10-overlay-native-window-rendering",
+            "id": "2026-10-code-blurple-teaser-marketing",
             "kind": "user",
             "status": "added",
-            "timestamp": "2026-10-15T17:01:31Z",
+            "timestamp": "2026-10-15T17:07:37Z",
             "treatments": [
-                "Variant 1",
-                "Variant 2"
+                "Variant 0",
+                "Variant 1"
             ],
             "variations": {
-                "1": {
-                    "enableNVOverlay": false,
-                    "enabled": true
+                "0": {
+                    "enabled": false
                 },
-                "2": {
-                    "enableNVOverlay": true,
+                "1": {
                     "enabled": true
                 }
             }
@@ -43,29 +39,25 @@
     "new_experiments": [
         {
             "config_keys": [
-                "enableNVOverlay",
                 "enabled"
             ],
             "default_config": {
-                "enableNVOverlay": false,
                 "enabled": false
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-10-overlay-native-window-rendering",
+            "id": "2026-10-code-blurple-teaser-marketing",
             "kind": "user",
-            "timestamp": "2026-10-15T17:01:31Z",
+            "timestamp": "2026-10-15T17:07:37Z",
             "treatments": [
-                "Variant 1",
-                "Variant 2"
+                "Variant 0",
+                "Variant 1"
             ],
             "variations": {
-                "1": {
-                    "enableNVOverlay": false,
-                    "enabled": true
+                "0": {
+                    "enabled": false
                 },
-                "2": {
-                    "enableNVOverlay": true,
+                "1": {
                     "enabled": true
                 }
             }
@@ -84,5 +76,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T17:05:04.596830+00:00"
+    "timestamp": "2026-10-15T17:16:03.917559+00:00"
 }
