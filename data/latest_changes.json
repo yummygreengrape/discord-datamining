@@ -1,5 +1,5 @@
 {
-    "build_hash": "5d66b647cf2af36d8d1c8e54c06db9e7af2400de",
+    "build_hash": "3a246fad100e57a8d6884831f5c3bbd0344de2f9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,22 +9,25 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-collectibles-interactive-jumble-bar",
+            "kind": "user",
+            "timestamp": "2026-10-15T22:46:26Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "ED2GDQ": {
-                    "new_value": "**{memberCount, plural, one {# member} other {# members}}** played **{gameCount, plural, one {# game} other {# games}}** in the last 7 days",
-                    "old_value": "**{memberCount, plural, one {# member} other {# members}}** played **{gameCount, plural, one {# game} other {# games}}** in the past week"
-                },
-                "JDAHQV": {
-                    "new_value": "Share your gaming activity and turn on personalization to help unlock this panel. It appears once {memberCount, number} members have both settings on.",
-                    "old_value": "Turn on Activity Sharing to help unlock this panel. There need to be at least {memberCount, number} server members sharing their gaming activity."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -32,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T22:43:55.949219+00:00"
+    "timestamp": "2026-10-15T22:54:48.700743+00:00"
 }
