@@ -1,180 +1,182 @@
 {
-    "build_hash": "90fead20b9c523fd7e47ac88fb03283249552dd6",
+    "build_hash": "416d7f95a5fbf0e9a23756d8a19a8e30bc2ba274",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "켜진 비교안은 서버별 인기 소리를 불러와 별도 영역으로 표시합니다."
-                    },
-                    {
-                        "key": "topSoundsFirst",
-                        "note": "인기 소리 영역을 다른 Soundboard 묶음보다 앞에 둘지 결정합니다. 숫자 비교안 매핑은 현재 근거가 충돌합니다."
-                    }
-                ],
-                "detailed_summary": "기본 상태에서는 서버별 인기 소리 묶음을 가져오거나 표시하지 않습니다. 비교안에서는 현재 음성 채널의 서버를 기준으로 인기 소리 목록을 받아 최대 3개를 “Top Sounds in 서버 이름” 영역에 보여 줍니다. 설정에 따라 이 영역을 즐겨찾기·자주 사용한 소리보다 먼저 배치하거나 뒤에 배치합니다. raw 기록과 현재 Canary가 숫자 비교안에 topSoundsFirst를 연결하는 순서는 서로 달라, 어느 번호가 앞 배치인지까지는 단정하지 않았습니다.",
-                "evidence": [
-                    "Current Canary useSoundGrid reads enabled and topSoundsFirst from the exact experiment.",
-                    "The enabled path calls /guilds/:param/top-soundboard-sounds and stores the returned ranked sound IDs.",
-                    "The picker creates a TOP_SOUNDS category and current strings label it “Top Sounds in {guildName}.”"
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "서버별 Soundboard 인기 소리",
-                "generated_at": "2026-08-26T04:06:44Z",
-                "importance": "high",
-                "summary": "음성 채널 Soundboard에 현재 서버에서 인기 있는 소리를 별도 묶음으로 보여 주는 실험입니다.",
-                "why_it_matters": "서버에서 자주 쓰는 소리를 검색 없이 빠르게 찾을 수 있고, 인기 묶음의 위치가 실제 사용성을 바꾸는지도 비교할 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "Enabled variants fetch and display a server-specific Top Sounds section."
-                    },
-                    {
-                        "key": "topSoundsFirst",
-                        "note": "Controls whether Top Sounds appears before other Soundboard sections; the numbered-variant mapping conflicts across current evidence."
-                    }
-                ],
-                "detailed_summary": "The default does not fetch or show a server-specific popular-sounds section. Enabled variants request the current voice channel server’s ranked sounds and show up to three under “Top Sounds in {guildName}.” The topSoundsFirst setting places this section either before favorites and frequently used sounds or later in the picker. The raw row and current Canary disagree about which numbered variant maps to topSoundsFirst, so this interpretation does not assign the placement to a variant number.",
-                "evidence": [
-                    "Current Canary useSoundGrid reads enabled and topSoundsFirst from the exact experiment.",
-                    "The enabled path calls /guilds/:param/top-soundboard-sounds and stores the returned ranked sound IDs.",
-                    "The picker creates a TOP_SOUNDS category and current strings label it “Top Sounds in {guildName}.”"
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Server-specific Soundboard Top Sounds",
-                "generated_at": "2026-08-26T04:06:44Z",
-                "importance": "high",
-                "summary": "Adds a server-specific Top Sounds section to the voice-channel Soundboard.",
-                "why_it_matters": "People can find sounds commonly used in their server without searching, while Discord can compare whether the section works better near the top or later in the picker."
-            },
-            "config_keys": [
-                "enabled",
-                "topSoundsFirst"
-            ],
-            "default_config": {
-                "enabled": false,
-                "topSoundsFirst": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-top-soundboard-sounds",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-15T17:30:55Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "topSoundsFirst": true
-                },
-                "2": {
-                    "enabled": true,
-                    "topSoundsFirst": false
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled",
-                "topSoundsFirst"
-            ],
-            "default_config": {
-                "enabled": false,
-                "topSoundsFirst": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-top-soundboard-sounds-mobile",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-15T17:30:55Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "topSoundsFirst": true
-                },
-                "2": {
-                    "enabled": true,
-                    "topSoundsFirst": false
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "topSoundsFirst"
-            ],
-            "default_config": {
-                "enabled": false,
-                "topSoundsFirst": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-top-soundboard-sounds",
-            "kind": "user",
-            "timestamp": "2026-10-15T17:30:55Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "topSoundsFirst": true
-                },
-                "2": {
-                    "enabled": true,
-                    "topSoundsFirst": false
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled",
-                "topSoundsFirst"
-            ],
-            "default_config": {
-                "enabled": false,
-                "topSoundsFirst": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-top-soundboard-sounds-mobile",
-            "kind": "user",
-            "timestamp": "2026-10-15T17:30:55Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "topSoundsFirst": true
-                },
-                "2": {
-                    "enabled": true,
-                    "topSoundsFirst": false
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "analysis": {
+                "detailed_summary": "기본 상태는 높은 실행 우선순위와 기본 작업 배분을 써요. 네 비교안은 일반 우선순위에 서로 다른 작업 배분 값을 조합해요. 이번 변경은 코드에서 사용하는 이름만 바뀌었고 이 조합이나 실제 연결 위치는 유지됐어요. 끊김이나 CPU 사용량이 개선됐다는 실측 결과는 없어요.",
+                "evidence": [
+                    "218907 reads processPriority/threadPriorityConfiguration at media_engine_connect and passes both to the native connection; HIGH/NORMAL semantics are unchanged."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "generated_at": "2026-10-10T00:38:37.504026+00:00",
+                "importance": "low",
+                "summary": "데스크톱 음성 통화에 연결할 때 Discord에 주는 실행 우선순위를 비교해요.",
+                "why_it_matters": "통화 처리와 다른 작업 사이의 자원 배분을 비교하는 변화로 이해할 수 있어요. 이번 수정 자체가 새로운 성능 개선을 뜻하지는 않아요."
+            },
+            "analysis_en": {
+                "detailed_summary": "The default uses high priority with the baseline thread configuration. Four variants use normal priority with different thread configurations. This modified row only changes a minified symbol name; the values and connection consumer remain the same. No measured reduction in dropouts or CPU usage is established.",
+                "evidence": [
+                    "218907 reads processPriority/threadPriorityConfiguration at media_engine_connect and passes both to the native connection; HIGH/NORMAL semantics are unchanged."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "generated_at": "2026-10-10T00:38:37.504026+00:00",
+                "importance": "low",
+                "summary": "Desktop voice connections compare how much execution priority Discord receives.",
+                "why_it_matters": "The experiment compares resource scheduling between voice processing and other work. This row itself does not demonstrate a new performance improvement."
+            },
+            "config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "default_config": {
+                "processPriority": "K.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-process-boost-on-voice",
+            "kind": "user",
+            "old_config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "old_default_config": {
+                "processPriority": "Y.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "1": {
+                    "processPriority": "Y.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "Y.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "Y.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "Y.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "1": {
+                    "processPriority": "K.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "K.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "K.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "K.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "default_config": {
+                "processPriority": "K.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-process-boost-on-voice",
+            "kind": "user",
+            "old_config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "old_default_config": {
+                "processPriority": "Y.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "1": {
+                    "processPriority": "Y.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "Y.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "Y.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "Y.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "1": {
+                    "processPriority": "K.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "K.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "K.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "K.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -191,5 +193,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T17:37:48.112289+00:00"
+    "timestamp": "2026-10-15T17:48:40.126691+00:00"
 }
