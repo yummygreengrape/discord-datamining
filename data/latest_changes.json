@@ -1,5 +1,5 @@
 {
-    "build_hash": "8f9e6003ccf79555a3758bfcc9d856677c9dfc53",
+    "build_hash": "af882f9162f0587fa14d0da92ecc696460f1e79c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -15,7 +15,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "toxuHd": {
+                    "new_value": "Play some games to join the leaderboard! Progress will be shown starting tomorrow.",
+                    "old_value": "Play some games to join the leaderboard!"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T00:49:59.235125+00:00"
+    "timestamp": "2026-10-15T01:01:07.797472+00:00"
 }
