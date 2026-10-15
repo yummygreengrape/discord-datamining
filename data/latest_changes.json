@@ -1,140 +1,20 @@
 {
-    "build_hash": "c77f1a085570224771b4383e003a8e6135c27e1f",
+    "build_hash": "4dbaaa654acfc38135ccf42b5fa41ae8fe8e13f8",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "bottomSheetEnabled",
-                "enabled",
-                "notificationEnabled"
-            ],
-            "default_config": {
-                "bottomSheetEnabled": false,
-                "enabled": false,
-                "notificationEnabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-recurring-referral-reminder",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-15T02:35:27Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "bottomSheetEnabled": true,
-                    "enabled": true,
-                    "notificationEnabled": false
-                },
-                "2": {
-                    "bottomSheetEnabled": false,
-                    "enabled": true,
-                    "notificationEnabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "bottomSheetEnabled",
-                "enabled",
-                "notificationEnabled"
-            ],
-            "default_config": {
-                "bottomSheetEnabled": false,
-                "enabled": false,
-                "notificationEnabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-recurring-referral-reminder",
-            "kind": "user",
-            "timestamp": "2026-10-15T02:35:27Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "bottomSheetEnabled": true,
-                    "enabled": true,
-                    "notificationEnabled": false
-                },
-                "2": {
-                    "bottomSheetEnabled": false,
-                    "enabled": true,
-                    "notificationEnabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-referral-refresh-notification",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-15T02:35:27Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-referral-refresh-notification",
-            "kind": "user",
-            "timestamp": "2026-10-15T02:35:27Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "KHF45W": "Psst, share Nitro with a friend",
-                "WJDeur": "Send one of your 2-week trials and become the group chat MVP."
-            },
-            "deleted": {
-                "Uhe1Ks": "Send one of your 2-week trials and become the group chat MVP.",
-                "riWixv": "Psst, share Nitro with a friend"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -143,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T02:35:35.805728+00:00"
+    "timestamp": "2026-10-15T03:07:05.134517+00:00"
 }
