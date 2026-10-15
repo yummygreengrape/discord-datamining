@@ -1,12 +1,122 @@
 {
-    "build_hash": "d62aca1bf629f668edb20fcdbe37c9e06d6ba52d",
+    "build_hash": "eaf330b6d03bb0ba1d6b7b5ecd38e0e4e6ebf0ec",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "analysis": {
+                "detailed_summary": "기본 상태에서는 게임 검색 행에 별도의 플랫폼 표시를 추가하지 않습니다. 비교안에서는 해당 게임의 데스크톱·모바일·콘솔 지원 정보를 아이콘과 읽을 수 있는 이름으로 함께 표시합니다. 현재 검색 결과 행의 하위 요소가 정확한 실험 설정을 읽고 플랫폼 목록을 그립니다. 검색 순서나 검색 대상이 달라진다는 근거는 없습니다.",
+                "evidence": [
+                    "The game search row reads extraChromeEnabled from the exact experiment.",
+                    "Its platform child renders desktop, mobile, and console labels and icons."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "게임 검색 플랫폼 표시",
+                "generated_at": "2026-09-26T04:08:03Z",
+                "importance": "medium",
+                "summary": "게임 검색 결과에 지원 플랫폼 표시를 덧붙일지 비교합니다.",
+                "why_it_matters": "게임을 찾는 사람이 자신의 기기에서 이용 가능한지 결과 목록에서 더 빨리 판단할 수 있습니다."
+            },
+            "analysis_en": {
+                "detailed_summary": "The default adds no separate platform display. The variant shows available desktop, mobile, or console platforms with icons and accessible names in the result row. The current search-row component reads the exact setting and renders the platform list. The evidence does not show a change to search ranking or coverage.",
+                "evidence": [
+                    "The game search row reads extraChromeEnabled from the exact experiment.",
+                    "Its platform child renders desktop, mobile, and console labels and icons."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Game search platform labels",
+                "generated_at": "2026-09-26T04:08:03Z",
+                "importance": "medium",
+                "summary": "Tests adding platform information to a game search result row.",
+                "why_it_matters": "People can judge device availability directly from search results."
+            },
+            "config_keys": [
+                "extraChromeEnabled"
+            ],
+            "default_config": {
+                "extraChromeEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-game-search-row",
+            "kind": "user",
+            "old_config_keys": [
+                "extraChromeEnabled"
+            ],
+            "old_default_config": {
+                "extraChromeEnabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "extraChromeEnabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "extraChromeEnabled": false
+                },
+                "1": {
+                    "extraChromeEnabled": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "extraChromeEnabled"
+            ],
+            "default_config": {
+                "extraChromeEnabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-game-search-row",
+            "kind": "user",
+            "old_config_keys": [
+                "extraChromeEnabled"
+            ],
+            "old_default_config": {
+                "extraChromeEnabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "extraChromeEnabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "extraChromeEnabled": false
+                },
+                "1": {
+                    "extraChromeEnabled": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -23,5 +133,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T21:37:25.339782+00:00"
+    "timestamp": "2026-10-15T21:48:16.512066+00:00"
 }
