@@ -1,8 +1,101 @@
 {
-    "build_hash": "8100dc6812d96db99cafae07d67f9cdb64b25422",
+    "build_hash": "b090711cc6006345c724fe61d311671453733400",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "켜지면 선물 coachmark 배지에 복잡한 정적 아트를 사용합니다."
+                    }
+                ],
+                "detailed_summary": "기본 상태에서는 선물 안내 배지가 단순 아이콘 URL을 사용합니다. 비교안에서는 현재 Canary의 gifting coachmark가 이 설정을 읽고 배지의 복잡한 정적 이미지 URL을 선택합니다. 선물 가격·상품·전달 방식은 바꾸지 않고, 선물 흐름을 알리는 시각 표현만 비교하는 실험으로 확인됩니다.",
+                "evidence": [
+                    "Current Canary module 38423 exposes the exact experiment as a gifting helper.",
+                    "The gifting coachmark reads the helper and selects complex_icon_static_url instead of simple_icon_url when enabled.",
+                    "No price, product, or delivery behavior is changed in the confirmed consumer."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Nitro 선물 안내 배지",
+                "generated_at": "2026-09-12T04:08:49Z",
+                "importance": "low",
+                "summary": "Nitro 선물 안내 배지에 단순 아이콘 대신 복잡한 아트를 표시하는 실험입니다.",
+                "why_it_matters": "더 눈에 띄는 배지 아트는 선물 기능의 발견 가능성을 높일 수 있지만, 구매 조건 자체는 달라지지 않습니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "When enabled, the gifting coachmark badge uses complex static artwork."
+                    }
+                ],
+                "detailed_summary": "The default gifting coachmark badge uses its simple icon URL. In the treatment, current Canary reads the experiment and selects the badge's complex static-art URL. The confirmed consumer changes presentation only; it does not change gift prices, products, or delivery behavior.",
+                "evidence": [
+                    "Current Canary module 38423 exposes the exact experiment as a gifting helper.",
+                    "The gifting coachmark reads the helper and selects complex_icon_static_url instead of simple_icon_url when enabled.",
+                    "No price, product, or delivery behavior is changed in the confirmed consumer."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Nitro gifting coachmark badge",
+                "generated_at": "2026-09-12T04:08:49Z",
+                "importance": "low",
+                "summary": "Uses complex artwork instead of a simple icon for a Nitro gifting coachmark badge.",
+                "why_it_matters": "A more prominent badge may make gifting easier to discover without changing the purchase terms themselves."
+            },
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-gifting-badge-complex-art",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-10-16T20:57:17Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-gifting-badge-complex-art",
+            "kind": "user",
+            "timestamp": "2026-10-16T20:57:17Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,10 +106,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "PPYvuv": "Launch App",
-                "VkMnR2": "Close App"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +116,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-16T20:49:39.380815+00:00"
+    "timestamp": "2026-10-16T21:00:31.431247+00:00"
 }
