@@ -1,5 +1,5 @@
 {
-    "build_hash": "2ac77949575849a7c358ff658d990a2ec11ad490",
+    "build_hash": "87d1ad8f8b50bc04998a85e1e6e162856828bded",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,7 +7,18 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ACCOUNT_NOTIFICATION_DECLARATIVE_SETTINGS",
+            "status": "added",
+            "url": "/users/@me/notification-settings/declarative"
+        },
+        {
+            "name": "ENDPOINT_USERS_NOTIFICATION_SETTINGS_DECLARATIVE",
+            "status": "added",
+            "url": "/users/@me/notification-settings/declarative"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
@@ -23,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-16T21:22:12.209151+00:00"
+    "timestamp": "2026-10-16T21:33:03.411959+00:00"
 }
