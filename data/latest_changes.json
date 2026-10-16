@@ -1,5 +1,5 @@
 {
-    "build_hash": "a5f929dabe777d558da05a685878070491d3ad7f",
+    "build_hash": "8d3dfffb8ec7960b7ee74f8e8875da78107684a0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -16,12 +16,11 @@
             "default_config": {
                 "enabled": false
             },
-            "experiment_source": "reference_comment",
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
-            "id": "2026-10-cod-relink",
+            "id": "2026-10-nitro-tab-remove-account-age-restriction",
             "kind": "user",
             "status": "added",
-            "timestamp": "2026-10-16T17:14:56Z",
             "treatments": [
                 "Variant 0",
                 "Variant 1"
@@ -44,11 +43,10 @@
             "default_config": {
                 "enabled": false
             },
-            "experiment_source": "reference_comment",
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
-            "id": "2026-10-cod-relink",
+            "id": "2026-10-nitro-tab-remove-account-age-restriction",
             "kind": "user",
-            "timestamp": "2026-10-16T17:14:56Z",
             "treatments": [
                 "Variant 0",
                 "Variant 1"
@@ -61,17 +59,6 @@
                     "enabled": true
                 }
             }
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-game-exit-promo-rust",
-            "kind": "user",
-            "timestamp": "2026-10-16T16:31:28Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
         }
     ],
     "rollout_changes": [],
@@ -87,5 +74,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-16T17:23:20.457201+00:00"
+    "timestamp": "2026-10-16T17:34:12.361030+00:00"
 }
