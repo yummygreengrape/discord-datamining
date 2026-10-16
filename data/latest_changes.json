@@ -1,5 +1,5 @@
 {
-    "build_hash": "dad7c41c7381598a9af61ada27b99ebe2c080b83",
+    "build_hash": "8100dc6812d96db99cafae07d67f9cdb64b25422",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "PPYvuv": "Launch App",
+                "VkMnR2": "Close App"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-16T20:38:49.546433+00:00"
+    "timestamp": "2026-10-16T20:49:39.380815+00:00"
 }
