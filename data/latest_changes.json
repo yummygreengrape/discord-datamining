@@ -1,5 +1,5 @@
 {
-    "build_hash": "4fb51852b238a185dd50a57eb47901c936c7ca6a",
+    "build_hash": "c06f695b42a4b971bdf1bd281c5269c80ce3a7b6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,11 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "G3eP3g": "When you publish your Server Hub it will become visible to all members.",
+                "Q7s/fc": "Do you want to publish?",
+                "bu69qM": "Save & Publish"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-16T19:44:32.917005+00:00"
+    "timestamp": "2026-10-16T19:55:24.638623+00:00"
 }
