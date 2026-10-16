@@ -1,5 +1,5 @@
 {
-    "build_hash": "694da78fb6706cb3ee75f9229a84016db1114709",
+    "build_hash": "5b25fef898091d9e8ae3d01b6ff6cdd0de8a879f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,35 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+y7hwg": "{count}",
+                "0ikIhz": "Last run: {time}, nothing new to publish",
+                "71yzD9": "Loading publishing schedule…",
+                "EXceox": "Could not turn on automatic publishing. Try again.",
+                "EuhBSG": "Turn on",
+                "HMNRj4": "Last run failed: {time}. {error}",
+                "J7ZMMf": "Delete schedule",
+                "T/dCkl": "Next scheduled publish: {time}",
+                "Tw/KaB": "Delete this publishing schedule?",
+                "ZtfX9V": "Automatic publishing",
+                "aewci7": "Cron schedule: {expression} (UTC)",
+                "cxNHma": "Replaces any current schedule. Publishes run as the project owner.",
+                "dRxtva": "Something went wrong.",
+                "i5Xp1l": "Could not delete the publishing schedule. Try again.",
+                "iLTcFU": "Try again",
+                "k4IRsm": "Automatic publishing is on.",
+                "lwN30C": "Publishing schedule deleted.",
+                "n25haz": "Could not load the publishing schedule. Try again.",
+                "orZDqY": "First publish: {time}",
+                "ptzKKH": "Publishing schedule",
+                "q4AgE/": "{count}",
+                "qCM+Fa": "{interval}, starting {time}",
+                "qr1iIe": "Future publishes from this schedule will stop. You can ask the agent to set another schedule.",
+                "sg8WIV": "Ask the agent to set a publish schedule.",
+                "ubcNP7": "Publishes run as the project owner. If the agent is working, publishing waits for it to finish. Runs with no new changes are skipped.",
+                "x/G8tD": "{count}",
+                "yMA4zs": "Last published: {time}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-16T21:54:44.721115+00:00"
+    "timestamp": "2026-10-16T22:05:36.142958+00:00"
 }
