@@ -1,6 +1,12 @@
 {
-    "build_hash": "1d454a4d8d8b2dbdf7c6195a6021719e7ddfae1b",
-    "deleted_api_endpoints": [],
+    "build_hash": "67c2bf5a8d00a97d19d3d8816c6b8c64b926d684",
+    "deleted_api_endpoints": [
+        {
+            "name": "GUILD_DISCOVERY_SLUG",
+            "status": "deleted",
+            "url": "/discovery/:param"
+        }
+    ],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
@@ -23,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-16T16:49:25.906688+00:00"
+    "timestamp": "2026-10-16T17:00:18.255799+00:00"
 }
