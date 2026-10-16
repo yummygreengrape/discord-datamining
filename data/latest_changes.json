@@ -1,5 +1,5 @@
 {
-    "build_hash": "982b8845148c23a7a4e7a765061425fabbcee9ed",
+    "build_hash": "572a8b5c860eacbe2443a7cd5afac38f0fcf4936",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,16 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0UoJ1x": "Yearly Discount ({percent, number}% off)",
-                "If4pX7": "Subtotal ({giftCount, plural, one {# gift} other {# gifts}} × {durationCount, plural, one {# year} other {# years}})",
-                "Q2nhAh": "Bulk Discount ({percent, number}% off {giftCount, plural, one {# Gift} other {# Gifts}})",
-                "W2caNQ": "Subtotal ({giftCount, plural, one {# gift} other {# gifts}} × {durationCount, plural, one {# month} other {# months}})",
-                "YnUnOT": "Gift cards can only be redeemed in the country they were purchased in. To redeem, your account's [Country/Region]({countryRegionLink}) setting must match the gift card's currency. Gift cards priced in euros will work across the European Union as well as those select countries that recognize euros as an official currency.",
-                "b1REi6": "{durationCount, number} Month Discount ({percent, number}% off)",
-                "hEjBdN": "You can buy Discord gift cards at select retailers depending on your country or region. If you're in the US, check our website [here]({usWebsiteLink}). If you're in the rest of the world, head to our [Help Center]({helpCenterLink}).",
-                "ydsUPu": "**Platform pro tip.** Just a heads up, you can only view and spend your balance on the desktop app or web browser. Items purchased show up wherever you use Discord."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -32,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-15T23:59:49.081435+00:00"
+    "timestamp": "2026-10-16T00:10:47.503561+00:00"
 }
