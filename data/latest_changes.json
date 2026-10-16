@@ -1,5 +1,5 @@
 {
-    "build_hash": "fdcd5d93da0f46bfe7eaff345a7f89394a460f63",
+    "build_hash": "d1b3558bca40792e8762921ccea37f2896ed9307",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,18 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0mGHfU": "Overlay",
-                "4oGg2h": "Voice channel",
-                "6/3tGY": "A dedicated channel to play in",
-                "BTGCfR": "Launchable",
-                "EbvC13": "Bot",
-                "Jipr29": "Profile widget",
-                "MY6UGJ": "Features",
-                "Z2bt4u": "Game",
-                "tiMvei": "AutoMod",
-                "w8F5sy": "{count, plural, one {# Channel} other {# Channels}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -34,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-16T01:15:36.255322+00:00"
+    "timestamp": "2026-10-16T01:57:25.515670+00:00"
 }
