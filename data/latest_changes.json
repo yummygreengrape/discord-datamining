@@ -1,5 +1,5 @@
 {
-    "build_hash": "d47f5fe9fa0f0b8cbaf0564fe3da2345e5bf9847",
+    "build_hash": "4c147f890da066ec068bed474d1d8ddbd7caa182",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "PHriyz": "It’s too late to request a review",
+                "YsxY1D": "This violation is no longer eligible for review because too much time has passed."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-16T20:06:17.713915+00:00"
+    "timestamp": "2026-10-16T20:17:07.804113+00:00"
 }
