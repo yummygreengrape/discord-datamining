@@ -1,41 +1,8 @@
 {
-    "build_hash": "31b05cdaed1d68c80cf386fc34a376e6827b4dc4",
+    "build_hash": "cddcd30c6437c8195bc7bd3bbba36485041ffd3a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-application-test-mode-quick-access",
-            "kind": "user",
-            "timestamp": "2026-10-16T22:15:13Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-multisku-embed-builder",
-            "kind": "user",
-            "timestamp": "2026-10-16T22:15:13Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-social-layer-storefront-game-shops-dropdown",
-            "kind": "user",
-            "timestamp": "2026-10-16T22:19:16Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -46,37 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+y7hwg": "{count, plural, one {Every # minute} other {Every # minutes}}",
-                "0ikIhz": "Last run: {time}, nothing new to publish",
-                "71yzD9": "Loading publishing schedule…",
-                "EXceox": "Could not turn on automatic publishing. Try again.",
-                "EuhBSG": "Turn on",
-                "HMNRj4": "Last run failed: {time}. {error}",
-                "J7ZMMf": "Delete schedule",
-                "Sn7icL": "You must be at least {minAge} years old to use Discord.",
-                "T/dCkl": "Next scheduled publish: {time}",
-                "Tw/KaB": "Delete this publishing schedule?",
-                "ZtfX9V": "Automatic publishing",
-                "aewci7": "Cron schedule: {expression} (UTC)",
-                "cxNHma": "Replaces any current schedule. Publishes run as the project owner.",
-                "dRxtva": "Something went wrong.",
-                "i5Xp1l": "Could not delete the publishing schedule. Try again.",
-                "iLTcFU": "Try again",
-                "k4IRsm": "Automatic publishing is on.",
-                "lwN30C": "Publishing schedule deleted.",
-                "n25haz": "Could not load the publishing schedule. Try again.",
-                "orZDqY": "First publish: {time}",
-                "ptzKKH": "Publishing schedule",
-                "q4AgE/": "{count, plural, one {Every # hour} other {Every # hours}}",
-                "qCM+Fa": "{interval}, starting {time}",
-                "qr1iIe": "Future publishes from this schedule will stop. You can ask the agent to set another schedule.",
-                "r2AEw1": "You must meet the minimum age requirement in your country to use Discord.",
-                "sg8WIV": "Ask the agent to set a publish schedule.",
-                "ubcNP7": "Publishes run as the project owner. If the agent is working, publishing waits for it to finish. Runs with no new changes are skipped.",
-                "x/G8tD": "{count, plural, one {Every # day} other {Every # days}}",
-                "yMA4zs": "Last published: {time}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -86,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-16T22:28:37.269582+00:00"
+    "timestamp": "2026-10-16T22:39:30.098017+00:00"
 }
