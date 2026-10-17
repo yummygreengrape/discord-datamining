@@ -1,5 +1,5 @@
 {
-    "build_hash": "dc591c0d90053f9e9523ea9cb22eeb1182a9f7f9",
+    "build_hash": "aae44bf76b971a02467d01b380e46f659133844b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,65 +8,26 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-video-player-playback-speed",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-17T07:24:13Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-video-player-playback-speed",
-            "kind": "user",
-            "timestamp": "2026-10-17T07:24:13Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "2PxChh": "On: your app can only reach sites you approve, and I ask before each new one. Off: it can reach any public site.",
+                "4r+tVj": "Remove",
+                "5poqiN": "Why: {reason}",
+                "AweHIi": "No allowed hosts yet.",
+                "B05C3K": "Allow Once",
+                "E4Gc7e": "I need to reach {host} for this reply. Your keys are never sent there.",
+                "Ufr2wk": "Allowed Hosts",
+                "W4DsVo": "Allow network access?",
+                "mocW6h": "Remove {host}",
+                "mpjaVm": "Require Host Approval",
+                "rGv+om": "Always Allow",
+                "vWkaSE": "Deny",
+                "wremls": "My sandbox can always reach these sites. Your keys are never sent to them."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -76,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-17T07:24:14.920096+00:00"
+    "timestamp": "2026-10-17T07:35:05.950318+00:00"
 }
