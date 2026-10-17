@@ -1,5 +1,5 @@
 {
-    "build_hash": "aae44bf76b971a02467d01b380e46f659133844b",
+    "build_hash": "3522ad43209f2ec1315c4e8b7701c3b6de247be4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,21 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "2PxChh": "On: your app can only reach sites you approve, and I ask before each new one. Off: it can reach any public site.",
-                "4r+tVj": "Remove",
-                "5poqiN": "Why: {reason}",
-                "AweHIi": "No allowed hosts yet.",
-                "B05C3K": "Allow Once",
-                "E4Gc7e": "I need to reach {host} for this reply. Your keys are never sent there.",
-                "Ufr2wk": "Allowed Hosts",
-                "W4DsVo": "Allow network access?",
-                "mocW6h": "Remove {host}",
-                "mpjaVm": "Require Host Approval",
-                "rGv+om": "Always Allow",
-                "vWkaSE": "Deny",
-                "wremls": "My sandbox can always reach these sites. Your keys are never sent to them."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -37,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-17T07:35:05.950318+00:00"
+    "timestamp": "2026-10-17T09:28:58.484836+00:00"
 }
