@@ -1,5 +1,5 @@
 {
-    "build_hash": "83827f25c5b9986f7c50aa3923e37862145e5c24",
+    "build_hash": "b2a118a1a9d6a8d364579fb373090e8ddfb92cf9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,11 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "LfEwvz": "Enabled",
-                "iNGJNe": "New Anchored Scroller",
-                "pe/6Ma": "Disabled"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-17T03:13:52.360160+00:00"
+    "timestamp": "2026-10-17T03:35:01.786561+00:00"
 }
