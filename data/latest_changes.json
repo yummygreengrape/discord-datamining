@@ -1,5 +1,5 @@
 {
-    "build_hash": "5c07877a4c3a6b966e992737deb0346e0d4f786c",
+    "build_hash": "97f3b79472f4385fc2a8e1ccf0b7dab3be38131d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,12 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "MMWEH2": "App preview is paused",
+                "VHxerm": "Pause App",
+                "ZKd2Cw": "Resume App",
+                "iKSu55": "Conjure can keep working. If it needs to check the preview, it'll auto resume."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-17T02:31:39.105084+00:00"
+    "timestamp": "2026-10-17T02:42:29.970429+00:00"
 }
