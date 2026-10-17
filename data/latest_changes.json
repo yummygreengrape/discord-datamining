@@ -1,5 +1,5 @@
 {
-    "build_hash": "bb8303ce2d5f0ccbdeeec1ae477b7826da4b0302",
+    "build_hash": "f1223f6a393e598424ccb13087924e626424257d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "vLgj1J": "Back to App"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-17T21:05:28.499689+00:00"
+    "timestamp": "2026-10-17T23:20:02.135463+00:00"
 }
