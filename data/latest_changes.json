@@ -1,53 +1,8 @@
 {
-    "build_hash": "2bbe6755a89f349453dafb10cb4371c604f8012f",
+    "build_hash": "9ab48c4c045d0ff59d6bc5b7d91c26dcd1dc4e28",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-compress-logs",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-18T18:49:36Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-compress-logs",
-            "kind": "user",
-            "timestamp": "2026-10-18T18:49:36Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -58,7 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "9ZqzLo": "It’s only in the preview so far. Publish it to open it in Discord.",
+                "yLN1x6": "Type your answer"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-18T18:53:15.294032+00:00"
+    "timestamp": "2026-10-18T20:26:29.429585+00:00"
 }
