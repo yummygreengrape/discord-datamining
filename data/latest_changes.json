@@ -1,5 +1,5 @@
 {
-    "build_hash": "9ab48c4c045d0ff59d6bc5b7d91c26dcd1dc4e28",
+    "build_hash": "73a57bcb6afd9b7c43bddd9f1906bc86ffb16f68",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,10 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "9ZqzLo": "It’s only in the preview so far. Publish it to open it in Discord.",
-                "yLN1x6": "Type your answer"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-18T20:26:29.429585+00:00"
+    "timestamp": "2026-10-18T20:37:21.315766+00:00"
 }
