@@ -1,8 +1,53 @@
 {
-    "build_hash": "9729260543f6f3789173b375ff185fe10567f6c0",
+    "build_hash": "2bbe6755a89f349453dafb10cb4371c604f8012f",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-compress-logs",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-10-18T18:49:36Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-compress-logs",
+            "kind": "user",
+            "timestamp": "2026-10-18T18:49:36Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -23,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-18T16:07:41.482411+00:00"
+    "timestamp": "2026-10-18T18:53:15.294032+00:00"
 }
