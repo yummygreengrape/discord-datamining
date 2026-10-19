@@ -1,8 +1,20 @@
 {
-    "build_hash": "46099f317985ff53328e93c22bc39e6aa9941837",
+    "build_hash": "3e1a79ea55c0988d621471b008cbf523e0f639f7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-plan-select-ui-redesign",
+            "kind": "user",
+            "timestamp": "2026-10-19T19:13:26Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -23,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-19T19:03:19.899182+00:00"
+    "timestamp": "2026-10-19T19:14:11.602913+00:00"
 }
