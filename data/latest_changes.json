@@ -1,5 +1,5 @@
 {
-    "build_hash": "7bd8cd7e7d9463defcfd4771230ad6639a867b7e",
+    "build_hash": "d7071d23bfb6aeef07f509dca6d689549646aca1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Sh2z9g": "App Info"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-19T21:23:51.223076+00:00"
+    "timestamp": "2026-10-19T21:34:41.529744+00:00"
 }
