@@ -1,5 +1,5 @@
 {
-    "build_hash": "c79358a976d3127da022c02e28e9b217c4cde8d1",
+    "build_hash": "dd85fee28aa98fb2a48d801f2b935047adc449c5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,27 +13,15 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "3bdWzt": "Explore Orbs Shop"
-            },
-            "deleted": {
-                "2+N6IR": "Orbs Exclusives Page",
-                "EBYkzk": "Orbs Exclusives",
-                "KsFBMs": "Orbs exclusive items cannot be added to Wishlists at this time",
-                "tN6Sgx": "Earn this badge by purchasing the Orb badge in the Orb shop."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "2+N6IR": "Orbs 전용 페이지",
-                "EBYkzk": "Orbs 전용",
-                "KsFBMs": "현재 Orbs 전용 아이템은 찜 목록에 추가할 수 없어요",
-                "tN6Sgx": "Orbs 상점에서 Orbs 배지를 구매하면 이 배지를 획득할 수 있어요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-19T23:13:39.753737+00:00"
+    "timestamp": "2026-10-19T23:24:32.800371+00:00"
 }
