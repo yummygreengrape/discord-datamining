@@ -1,84 +1,60 @@
 {
-    "build_hash": "a771b10c69aef66cc7b50718516bdd849bc5a0aa",
+    "build_hash": "24045fc6833d94255ea3c2e2f346ce88ed5d4553",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "altBody",
-                "altCta",
-                "altTitle"
-            ],
-            "default_config": {
-                "altBody": false,
-                "altCta": false,
-                "altTitle": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-11-rtc-panel-entry-point-new-copy",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-19T18:26:46Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "altBody": false,
-                    "altCta": false,
-                    "altTitle": false
-                },
-                "1": {
-                    "altBody": false,
-                    "altCta": true,
-                    "altTitle": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "altBody",
-                "altCta",
-                "altTitle"
-            ],
-            "default_config": {
-                "altBody": false,
-                "altCta": false,
-                "altTitle": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-11-rtc-panel-entry-point-new-copy",
-            "kind": "user",
-            "timestamp": "2026-10-19T18:26:46Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "altBody": false,
-                    "altCta": false,
-                    "altTitle": false
-                },
-                "1": {
-                    "altBody": false,
-                    "altCta": true,
-                    "altTitle": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-embedded-app-shim-v2",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-19T18:36:57Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-embedded-app-shim-v2",
+            "kind": "user",
+            "timestamp": "2026-10-19T18:36:57Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -97,5 +73,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-19T18:31:26.029080+00:00"
+    "timestamp": "2026-10-19T18:42:14.481946+00:00"
 }
