@@ -1,5 +1,5 @@
 {
-    "build_hash": "24045fc6833d94255ea3c2e2f346ce88ed5d4553",
+    "build_hash": "46099f317985ff53328e93c22bc39e6aa9941837",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,62 +8,12 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-embedded-app-shim-v2",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-19T18:36:57Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-embedded-app-shim-v2",
-            "kind": "user",
-            "timestamp": "2026-10-19T18:36:57Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/2nToO": "Preview {guildName}",
-                "3IpLLa": "Go to server, {guildName}",
-                "nosl52": "Actions for {guildName}",
-                "uyJSNf": "Join {guildName}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -73,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-19T18:42:14.481946+00:00"
+    "timestamp": "2026-10-19T19:03:19.899182+00:00"
 }
