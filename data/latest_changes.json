@@ -1,5 +1,5 @@
 {
-    "build_hash": "cb2bd981504490708e7d74aa75c993a33384acb5",
+    "build_hash": "c1ccc559fdc952a607083e10afe2ae239be8eb89",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,34 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0llBr2": "Recurring subscription, cancel any time",
-                "3NxgUL": "Gift Nitro that keeps going",
-                "3T+pGu": "Keep Gifting",
-                "HLHZSh": "Gifted Subscriptions",
-                "IMRvdN": "Send Nitro that auto-renews monthly or yearly. Cancel anytime.",
-                "JUUvJw": "/ Month",
-                "Ud0B7z": "This recurring subscription will begin when a user accepts it. If it is not accepted within 5 days of purchase, it will default to a one-time gift and will not renew.",
-                "VPktVS": "Cancellation will take effect at the end of your current billing period. On {endDate, date, long}, {username} will lose access to all of their Nitro perks.",
-                "Vb8FaC": "Recurs monthly",
-                "dL8One": "By clicking 'Subscribe', you are buying a Nitro gift and signing up for a recurring subscription. You'll be charged {totalDue} today. If the recipient accepts by {expirationDate, date, long}, their Nitro starts that day and your subscription renews at {renewalPrice} plus applicable taxes every {interval} from then, until you cancel. If they don't accept by then, today's charge stays a one-time gift with no subscription, and you keep it to send to someone else. Prices subject to change. You can cancel the recurring subscription anytime in your Settings. [Paid Services Terms]({paidServicesTermsUrl}) apply. Have questions? [Contact us]({contactUsUrl}) or see our [Subscriptions FAQ]({subscriptionsFaqUrl}).",
-                "hs/Nr+": "Just this once",
-                "kVUGot": "Claimed by {username}",
-                "mqaMxh": "/ Year",
-                "rstMwN": "Recurs yearly"
-            },
+            "added": {},
             "deleted": {
-                "5smZHx": "Instead of a one-time gift, you can now send Nitro that auto-renews.",
-                "9XpK+g": "Gift Nitro",
-                "L5nipF": "{price}/month, cancel any time",
-                "PR7GrT": "{plan}, {option}",
-                "Rqr/Kg": "Renews yearly",
-                "S3pnck": "{price}/year, cancel any time",
-                "jkx9hR": "Just this once",
-                "nRS0N2": "{plan}: {price}",
-                "sYJogd": "Pay {price} one time",
-                "uDVG5O": "/ Month",
-                "yCHPPF": "Renews monthly"
+                "erK1ks": "{label}, {count} New Error(s)",
+                "j5eD3i": "{count} New Error(s)"
             },
             "modified": {}
         },
@@ -50,123 +26,5 @@
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "5smZHx": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "기록된 선물 흐름에는 반복해서 갱신되는 Nitro 선택지가 포함돼요. 누가 어떤 금액을 내는지와 해지 조건은 이 한 문장에서 확정되지 않아요.",
-                    "generated_at": "2026-10-18T05:41:51.962275Z",
-                    "intent_type": "billing_or_subscription_issue",
-                    "related_terms": [
-                        "Gift Nitro",
-                        "Renews monthly",
-                        "Renews yearly",
-                        "Just this once"
-                    ],
-                    "search_intent": "Nitro 선물이 자동으로 재결제되는 선택인지 알아보려는 검색이에요.",
-                    "source_context": "자동 갱신 Nitro 선물 안내와 월간·연간·한 번만 결제 선택 문구가 같이 기록됐어요. 전 계정에 배포됐다고 단정하지 않아요.",
-                    "summary": "한 번만 주는 선물과 자동 갱신 Nitro 선물을 구분하는 안내예요.",
-                    "what_it_means": "기록된 선물 흐름에는 반복해서 갱신되는 Nitro 선택지가 포함돼요.",
-                    "what_to_do": "선물 확인 화면의 갱신 주기·청구 대상·가격과 취소 안내를 읽고 한 번 결제 옵션과 비교하세요.",
-                    "when_it_appears": "Nitro 선물 구매에서 결제 방식을 소개하는 부분으로 보여요."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The recorded gifting flow includes a Nitro option that renews repeatedly. This sentence alone does not establish the payer, charge amount, or cancellation terms.",
-                    "generated_at": "2026-10-18T05:41:51.962275Z",
-                    "intent_type": "billing_or_subscription_issue",
-                    "related_terms": [
-                        "Gift Nitro",
-                        "Renews monthly",
-                        "Renews yearly",
-                        "Just this once"
-                    ],
-                    "search_intent": "Someone may want to know whether a Nitro gift option charges again automatically.",
-                    "source_context": "Auto-renewing Nitro gift copy appears with monthly, yearly, and one-time options. These records do not establish rollout to every account.",
-                    "summary": "This distinguishes a one-time gift from an auto-renewing Nitro gift.",
-                    "what_it_means": "The recorded gifting flow includes a Nitro option that renews repeatedly.",
-                    "what_to_do": "Review renewal frequency, payer, price, and cancellation details at confirmation, and compare the one-time option.",
-                    "when_it_appears": "It likely appears where Nitro gifting introduces payment options."
-                }
-            },
-            "Rqr/Kg": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "선택한 선물 옵션이 해마다 갱신되는 방식임을 뜻해요. 1년 이용 기간과 매년 반복 결제는 별도 개념이라 확인 화면의 조건을 읽어야 해요.",
-                    "generated_at": "2026-10-18T05:41:51.962275Z",
-                    "intent_type": "billing_or_subscription_issue",
-                    "related_terms": [
-                        "Gift Nitro",
-                        "Renews monthly",
-                        "Renews yearly",
-                        "Just this once"
-                    ],
-                    "search_intent": "Renews yearly와 한 번만 주는 연간 선물의 차이를 찾는 검색이에요.",
-                    "source_context": "자동 갱신 Nitro 선물 안내와 월간·연간·한 번만 결제 선택 문구가 같이 기록됐어요. 전 계정에 배포됐다고 단정하지 않아요.",
-                    "summary": "Nitro 선물의 연간 갱신 주기를 나타내는 표시예요.",
-                    "what_it_means": "선택한 선물 옵션이 해마다 갱신되는 방식임을 뜻해요.",
-                    "what_to_do": "연간 청구 금액과 갱신·해지 조건을 확인한 뒤 해당 선물 옵션을 선택하세요.",
-                    "when_it_appears": "연간 Nitro 선물 플랜을 고르는 영역의 주기 라벨이에요."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The selected gifting option renews on a yearly basis. A year of access and a repeating annual charge are separate concepts, so confirmation terms matter.",
-                    "generated_at": "2026-10-18T05:41:51.962275Z",
-                    "intent_type": "billing_or_subscription_issue",
-                    "related_terms": [
-                        "Gift Nitro",
-                        "Renews monthly",
-                        "Renews yearly",
-                        "Just this once"
-                    ],
-                    "search_intent": "Someone may be distinguishing Renews yearly from a one-time annual gift.",
-                    "source_context": "Auto-renewing Nitro gift copy appears with monthly, yearly, and one-time options. These records do not establish rollout to every account.",
-                    "summary": "This marks the yearly renewal cycle of a Nitro gift.",
-                    "what_it_means": "The selected gifting option renews on a yearly basis.",
-                    "what_to_do": "Review the annual charge and renewal and cancellation terms before choosing this gift option.",
-                    "when_it_appears": "It belongs to the cycle label for an annual Nitro gifting plan."
-                }
-            },
-            "yCHPPF": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "이번 결제 한 번으로 끝나지 않고 월간 주기로 이어지는 옵션이에요. 한 달 가격 자체는 라벨에 없으므로 표시된 가격과 함께 읽어야 해요.",
-                    "generated_at": "2026-10-18T05:41:51.962275Z",
-                    "intent_type": "billing_or_subscription_issue",
-                    "related_terms": [
-                        "Gift Nitro",
-                        "Renews monthly",
-                        "Renews yearly",
-                        "Just this once"
-                    ],
-                    "search_intent": "Renews monthly가 매달 선물 결제를 뜻하는지 확인하려는 검색이에요.",
-                    "source_context": "자동 갱신 Nitro 선물 안내와 월간·연간·한 번만 결제 선택 문구가 같이 기록됐어요. 전 계정에 배포됐다고 단정하지 않아요.",
-                    "summary": "선택한 Nitro 선물이 월 단위로 갱신된다는 라벨이에요.",
-                    "what_it_means": "이번 결제 한 번으로 끝나지 않고 월간 주기로 이어지는 옵션이에요.",
-                    "what_to_do": "월간 가격과 다음 갱신 조건을 확인하고 반복 결제를 원치 않으면 제시된 다른 옵션을 비교하세요.",
-                    "when_it_appears": "Nitro 선물의 월간 자동 갱신 선택지에 붙는 표시로 보여요."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The option continues on a monthly cycle rather than ending after one payment. The label gives no monthly price and should be read with the displayed amount.",
-                    "generated_at": "2026-10-18T05:41:51.962275Z",
-                    "intent_type": "billing_or_subscription_issue",
-                    "related_terms": [
-                        "Gift Nitro",
-                        "Renews monthly",
-                        "Renews yearly",
-                        "Just this once"
-                    ],
-                    "search_intent": "A visitor may be checking whether Renews monthly means recurring gift payments.",
-                    "source_context": "Auto-renewing Nitro gift copy appears with monthly, yearly, and one-time options. These records do not establish rollout to every account.",
-                    "summary": "This label indicates monthly renewal for the selected Nitro gift.",
-                    "what_it_means": "The option continues on a monthly cycle rather than ending after one payment.",
-                    "what_to_do": "Check the monthly amount and next-renewal terms, and compare other displayed options if recurring payments are unwanted.",
-                    "when_it_appears": "It likely labels the monthly auto-renewal choice in Nitro gifting."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-10-19T19:58:20.977969+00:00"
+    "timestamp": "2026-10-19T20:19:24.862482+00:00"
 }
