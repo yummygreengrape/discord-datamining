@@ -1,5 +1,5 @@
 {
-    "build_hash": "f84ab3a57b808057a96b9cb39a58a29ea2c0cb96",
+    "build_hash": "ee05738bcbd5be2d18a561253663a9d15777f4f1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,9 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "f0Ezmv": "Try Soundmoji"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-19T22:51:19.653957+00:00"
+    "timestamp": "2026-10-19T23:02:47.333856+00:00"
 }
