@@ -1,5 +1,5 @@
 {
-    "build_hash": "b495a32edfa731a0e0f753259eb81ccb23cb32e8",
+    "build_hash": "0d452af57f5c8bb2f54d3beaefc60e2aa1aa9a4f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,57 +8,16 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-mana-badge-refresh",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-19T21:59:25Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-mana-badge-refresh",
-            "kind": "user",
-            "timestamp": "2026-10-19T21:59:25Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "2370GD": "Claim your free first year of My Best Buy Plus™ membership. $29.99 annually. Auto-renews. Cancel anytime.",
+                "JymAGu": "Unlock your free first year of My Best Buy Plus™ and earn {rewardPercentage}% back in rewards on select pre-orders of the season’s biggest games.",
+                "L0gVH/": "Get your free first year of My Best Buy Plus™ ($29.99). Earn {rewardPercentage}% back in rewards on select pre-orders of the season’s biggest games. [Terms apply.]({termsUrl})"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-19T22:07:08.277795+00:00"
+    "timestamp": "2026-10-19T22:17:58.584051+00:00"
 }
