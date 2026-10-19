@@ -1,5 +1,5 @@
 {
-    "build_hash": "0e6bfcdb8d1a940dc27a35b1c03523ece60fdceb",
+    "build_hash": "b6cebc1f403b264bb4311000bea20e34d351d0e0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,59 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "openGoLiveModal"
-            ],
-            "default_config": {
-                "openGoLiveModal": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-request-to-stream-go-live-modal",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "openGoLiveModal": false
-                },
-                "1": {
-                    "openGoLiveModal": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "openGoLiveModal"
-            ],
-            "default_config": {
-                "openGoLiveModal": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-request-to-stream-go-live-modal",
-            "kind": "user",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "openGoLiveModal": false
-                },
-                "1": {
-                    "openGoLiveModal": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -74,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-19T17:04:51.045541+00:00"
+    "timestamp": "2026-10-19T17:15:37.799496+00:00"
 }
