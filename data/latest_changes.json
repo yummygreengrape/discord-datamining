@@ -1,8 +1,77 @@
 {
-    "build_hash": "14a4c801790e258d144984b62e1921991a9ec366",
+    "build_hash": "a771b10c69aef66cc7b50718516bdd849bc5a0aa",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "altBody",
+                "altCta",
+                "altTitle"
+            ],
+            "default_config": {
+                "altBody": false,
+                "altCta": false,
+                "altTitle": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-11-rtc-panel-entry-point-new-copy",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-10-19T18:26:46Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "altBody": false,
+                    "altCta": false,
+                    "altTitle": false
+                },
+                "1": {
+                    "altBody": false,
+                    "altCta": true,
+                    "altTitle": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "altBody",
+                "altCta",
+                "altTitle"
+            ],
+            "default_config": {
+                "altBody": false,
+                "altCta": false,
+                "altTitle": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-11-rtc-panel-entry-point-new-copy",
+            "kind": "user",
+            "timestamp": "2026-10-19T18:26:46Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "altBody": false,
+                    "altCta": false,
+                    "altTitle": false
+                },
+                "1": {
+                    "altBody": false,
+                    "altCta": true,
+                    "altTitle": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,7 +82,12 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/2nToO": "Preview {guildName}",
+                "3IpLLa": "Go to server, {guildName}",
+                "nosl52": "Actions for {guildName}",
+                "uyJSNf": "Join {guildName}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +97,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-19T18:20:35.343083+00:00"
+    "timestamp": "2026-10-19T18:31:26.029080+00:00"
 }
