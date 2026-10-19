@@ -1,31 +1,8 @@
 {
-    "build_hash": "688461effffc3d5fb27fabfa61b9e6791cc7c380",
+    "build_hash": "d66bfd84c03708657f37fb2a18ae938c3f6bdcd3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-plan-select-ui-redesign",
-            "kind": "user",
-            "timestamp": "2026-10-19T19:13:26Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-content-classification-presence-filter",
-            "kind": "user",
-            "timestamp": "2026-10-19T19:15:29Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -46,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-19T19:36:45.520332+00:00"
+    "timestamp": "2026-10-19T19:47:32.888265+00:00"
 }
