@@ -1,57 +1,29 @@
 {
-    "build_hash": "ab693d21d29946a89f506bb36f333f2ef97a0dd9",
+    "build_hash": "688461effffc3d5fb27fabfa61b9e6791cc7c380",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-02-content-classification-presence-filter",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
     "deleted_experiments": [
         {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-02-content-classification-presence-filter",
+            "id": "2026-07-plan-select-ui-redesign",
             "kind": "user",
+            "timestamp": "2026-10-19T19:13:26Z",
             "treatments": [
                 "Variant 0",
                 "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-content-classification-presence-filter",
+            "kind": "user",
+            "timestamp": "2026-10-19T19:15:29Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
         }
     ],
     "extractor_version": 23,
@@ -74,5 +46,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-19T19:25:29.928221+00:00"
+    "timestamp": "2026-10-19T19:36:45.520332+00:00"
 }
