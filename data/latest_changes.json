@@ -1,5 +1,5 @@
 {
-    "build_hash": "c1ccc559fdc952a607083e10afe2ae239be8eb89",
+    "build_hash": "a96562a2b7b06246cc5b1509baa06b79980597db",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -15,8 +15,44 @@
         "en": {
             "added": {},
             "deleted": {
-                "erK1ks": "{label}, {count} New Error(s)",
-                "j5eD3i": "{count} New Error(s)"
+                "4A16ir": "Show what Conjure was told exactly",
+                "5MiYI4": "Hide what Conjure was told",
+                "7jBwad": "Note for the whole set",
+                "96AQfj": "Filter Logs by Severity",
+                "Bbj9WV": "Nothing at that level.",
+                "EnTNKg": "Overlay",
+                "GPJ4St": "{errors} error(s), {warnings} warning(s)",
+                "HZw/I/": "Called off",
+                "IR0HP0": "Edit {name}",
+                "M+sr5B": "Warning",
+                "MgSQy8": "Back to the previous question",
+                "NzufQC": "Chat",
+                "O/pHCb": "Preview your app",
+                "Peu2rp": "Info",
+                "PkM4lx": "Your project was published!",
+                "RoY/lg": "Didn’t come together",
+                "RxPIh3": "Problems",
+                "SGbiNE": "Trace",
+                "TNsFfY": "Add comment",
+                "WkUPKf": "Your answer",
+                "WuTaHN": "{view} Controls",
+                "cMMTcV": "Search Logs",
+                "ceLTqM": "Logs",
+                "eyJP1w": "Debug",
+                "gjg4qV": "Anything your app prints or throws while it runs shows up here, from the point this project started keeping them.",
+                "h+1Kqw": "{title}, {state}. Show what it did.",
+                "jTwZFY": "Still going",
+                "keYz9o": "Done",
+                "lsqDub": "Pick who this is for first.",
+                "mezche": "Design feedback comments",
+                "oOAVlP": "Widget",
+                "sf2UHL": "Never finished",
+                "uE5z15": "Bot",
+                "uFf1F2": "All",
+                "usM2Kc": "No logs yet",
+                "wCpK7k": "Answering right away",
+                "wTokgZ": "Skip to the next question",
+                "z2cAXa": "{completed}/{total}"
             },
             "modified": {}
         },
@@ -26,5 +62,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-19T20:19:24.862482+00:00"
+    "timestamp": "2026-10-19T20:30:14.991095+00:00"
 }
