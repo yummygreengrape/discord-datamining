@@ -1,5 +1,5 @@
 {
-    "build_hash": "9c7e616b06ce8eec333624fb29cb000872ca3bb6",
+    "build_hash": "ca8621bb34c9b298d3feee880aca94bcb493a88e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,76 +8,12 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-desktop-voice-message-recording",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-19T17:27:58Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-desktop-voice-message-recording",
-            "kind": "user",
-            "timestamp": "2026-10-19T17:27:58Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "8o9Emp": "Starting a new recording will discard your unsent voice message in your Group DM.",
-                "GjXjfk": "Couldn't send your voice message. Please try again.",
-                "IQrVoF": "Discard Unsent Voice Message",
-                "UM2R7g": "Voice message recording stopped.",
-                "UlsYSN": "Starting a new recording will discard your unsent voice message in your conversation with $[{recipientName}](recipientHook).",
-                "Wknt9M": "Record a voice message",
-                "YeUur2": "You have an unsent voice message",
-                "cmFRF+": "Stop Voice Message Recording",
-                "h7tN5I": "Return to Unsent Voice Message",
-                "hjBbhU": "Starting a new recording will discard your unsent voice message in $[{destinationName}](destinationHook)."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -87,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-19T17:37:17.947396+00:00"
+    "timestamp": "2026-10-19T17:48:09.948348+00:00"
 }
