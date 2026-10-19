@@ -1,5 +1,5 @@
 {
-    "build_hash": "752c74470bf23b68245547ef469bf17bd3a7f674",
+    "build_hash": "b495a32edfa731a0e0f753259eb81ccb23cb32e8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-mana-badge-refresh",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-19T21:59:25Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-mana-badge-refresh",
+            "kind": "user",
+            "timestamp": "2026-10-19T21:59:25Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-19T21:56:19.787968+00:00"
+    "timestamp": "2026-10-19T22:07:08.277795+00:00"
 }
