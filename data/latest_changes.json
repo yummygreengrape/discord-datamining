@@ -1,31 +1,123 @@
 {
-    "build_hash": "0d452af57f5c8bb2f54d3beaefc60e2aa1aa9a4f",
+    "build_hash": "5e00063666ee1ceddfc7cddceaef170cb9993f47",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-soundmoji-sending",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled",
+                "showSoundmojiInEmojiPicker"
+            ],
+            "old_default_config": {
+                "enabled": false,
+                "showSoundmojiInEmojiPicker": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true,
+                    "showSoundmojiInEmojiPicker": false
+                },
+                "2": {
+                    "enabled": true,
+                    "showSoundmojiInEmojiPicker": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-soundmoji-sending",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled",
+                "showSoundmojiInEmojiPicker"
+            ],
+            "old_default_config": {
+                "enabled": false,
+                "showSoundmojiInEmojiPicker": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "old_variations": {
+                "1": {
+                    "enabled": true,
+                    "showSoundmojiInEmojiPicker": false
+                },
+                "2": {
+                    "enabled": true,
+                    "showSoundmojiInEmojiPicker": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "2370GD": "Claim your free first year of My Best Buy Plus™ membership. $29.99 annually. Auto-renews. Cancel anytime.",
-                "JymAGu": "Unlock your free first year of My Best Buy Plus™ and earn {rewardPercentage}% back in rewards on select pre-orders of the season’s biggest games.",
-                "L0gVH/": "Get your free first year of My Best Buy Plus™ ($29.99). Earn {rewardPercentage}% back in rewards on select pre-orders of the season’s biggest games. [Terms apply.]({termsUrl})"
+            "added": {},
+            "deleted": {
+                "f0Ezmv": "Try Soundmoji"
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "f0Ezmv": "사운드모지를 사용해 보기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-19T22:17:58.584051+00:00"
+    "timestamp": "2026-10-19T22:28:51.932674+00:00"
 }
