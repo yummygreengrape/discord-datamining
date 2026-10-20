@@ -1,5 +1,5 @@
 {
-    "build_hash": "efccc9c12b20b15c8f63688665e034360aaef2ac",
+    "build_hash": "bb6d1c9353512943aaf40086609db31eedcdffdd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "lxXLho": "Conjure reacted with {emojiName}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T02:42:23.682796+00:00"
+    "timestamp": "2026-10-20T03:13:51.379621+00:00"
 }
