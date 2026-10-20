@@ -1,82 +1,8 @@
 {
-    "build_hash": "6d34f726ec5f18321529e31be6a51db9f1c27744",
-    "deleted_api_endpoints": [
-        {
-            "name": "COLLECTIBLES_SHOP_LAYOUT",
-            "status": "deleted",
-            "url": "/shop/layout/:param"
-        },
-        {
-            "name": "COLLECTIBLES_SHOP_TAB_LAYOUT",
-            "status": "deleted",
-            "url": "/collectibles-shop-tab-layouts/:param"
-        },
-        {
-            "name": "ENDPOINT_COLLECTIBLES_SHOP_TAB_LAYOUTS",
-            "status": "deleted",
-            "url": "/collectibles-shop-tab-layouts/:param"
-        },
-        {
-            "name": "ENDPOINT_SHOP_LAYOUT",
-            "status": "deleted",
-            "url": "/shop/layout/:param"
-        }
-    ],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-01-cms-layouts",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-20T17:13:14Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-01-cms-layouts",
-            "kind": "user",
-            "timestamp": "2026-10-20T17:13:14Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "build_hash": "b3585787e8f61cfd51ef7de0c61d5c068ec5687a",
+    "deleted_api_endpoints": [],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -88,22 +14,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "/xb5AU": "Spend Orbs on exclusives or grab your favorites from the shop",
-                "Wv7HLS": "Fresh drops, just for you",
-                "n6G8gI": "What can I get with orbs?"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "/xb5AU": "상점에서 Orbs를 사용해 한정 아이템을 얻거나 마음에 드는 아이템을 골라보세요.",
-                "Wv7HLS": "오직 당신만을 위한 신규 항목",
-                "n6G8gI": "어디에서 Orbs를 얻을 수 있나요?"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T17:13:58.776690+00:00"
+    "timestamp": "2026-10-20T17:24:49.982658+00:00"
 }
