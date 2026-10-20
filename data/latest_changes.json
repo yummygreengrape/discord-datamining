@@ -1,5 +1,5 @@
 {
-    "build_hash": "1b3bdaeb720c27ab31ec62955fceb2061592d2b9",
+    "build_hash": "d81d99478b7db3c547effe204ef6ba6fae1764cf",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,49 +13,22 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "GUb2zA": "Profile widgets",
-                "KBHZfO": "Bots",
-                "uVOH1p": "Overlay widgets"
-            },
-            "deleted": {
-                "1w6KRE": "AutoMod",
-                "6aNfPh": "Overlay Widgets",
-                "BiUcOj": "Games",
-                "NhivS+": "Apps",
-                "Vz5Wb+": "Profile widget",
-                "W9OYc6": "Chat bot",
-                "rSo/yG": "Bots",
-                "ukMCXh": "Profile Widgets"
-            },
-            "modified": {
-                "5W7HIh": {
-                    "new_value": "Fill it with your server’s top games, leaderboards and more.",
-                    "old_value": "Fill it with your server’s top games, music, and inside jokes."
-                },
-                "Sfa50+": {
-                    "new_value": "Make a Flappy Bird style game where you tap to flap a little dragon through gaps between floating clouds. Keep a score counter, show a high score board for everyone in the server, and end on a cute game over screen with a retry button.",
-                    "old_value": "Make a Flappy Bird style game where you tap to flap an anime-style hero through gaps between floating clouds. Keep a score counter, show a high score board for everyone in the server, and end on a cute game over screen with a retry button."
-                },
-                "Tbag5k": {
-                    "new_value": "Flappy Dragon",
-                    "old_value": "Flappy Waifus"
-                },
-                "ev0nwK": {
-                    "new_value": "Customize it with your server’s top games, leaderboards, and more! Now live for everyone.",
-                    "old_value": "Customize it with your server’s top games, music, and inside jokes. Now live for everyone."
-                },
-                "gtX7tS": {
-                    "new_value": "Make a Flappy Bird game but with a dragon instead of a bird",
-                    "old_value": "Make a Flappy Bird game but with waifus instead of birds"
-                }
-            }
+            "added": {},
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "/2nToO": "{guildName} 미리 보기",
+                "64uynN": "이게 전부 여러분 거예요!",
+                "K0spYL": "방송 시작",
+                "LfEwvz": "활성화됐어요",
+                "pe/6Ma": "비활성화됨",
+                "uyJSNf": "{guildName}에 참가하기"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T22:29:47.129761+00:00"
+    "timestamp": "2026-10-20T22:40:41.963107+00:00"
 }
