@@ -1,112 +1,12 @@
 {
-    "build_hash": "8ed0c6b2e5ffac72f1edb3a32b64c954242a197e",
+    "build_hash": "4fca4780ade277750f83263d6c469f7cb6cfba97",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "config_keys": [
-                "nativeSystemCpuTimes",
-                "overlayOnlyAnimatesItself"
-            ],
-            "default_config": {
-                "nativeSystemCpuTimes": false,
-                "overlayOnlyAnimatesItself": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-10-desktop-game-perf",
-            "kind": "user",
-            "old_config_keys": [
-                "nativeSystemCpuTimes"
-            ],
-            "old_default_config": {
-                "nativeSystemCpuTimes": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": {
-                    "nativeSystemCpuTimes": false
-                },
-                "1": {
-                    "nativeSystemCpuTimes": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "nativeSystemCpuTimes": false,
-                    "overlayOnlyAnimatesItself": false
-                },
-                "1": {
-                    "nativeSystemCpuTimes": true,
-                    "overlayOnlyAnimatesItself": true
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "nativeSystemCpuTimes",
-                "overlayOnlyAnimatesItself"
-            ],
-            "default_config": {
-                "nativeSystemCpuTimes": false,
-                "overlayOnlyAnimatesItself": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-10-desktop-game-perf",
-            "kind": "user",
-            "old_config_keys": [
-                "nativeSystemCpuTimes"
-            ],
-            "old_default_config": {
-                "nativeSystemCpuTimes": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": {
-                    "nativeSystemCpuTimes": false
-                },
-                "1": {
-                    "nativeSystemCpuTimes": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "nativeSystemCpuTimes": false,
-                    "overlayOnlyAnimatesItself": false
-                },
-                "1": {
-                    "nativeSystemCpuTimes": true,
-                    "overlayOnlyAnimatesItself": true
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -123,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T19:34:45.632230+00:00"
+    "timestamp": "2026-10-20T19:45:36.906877+00:00"
 }
