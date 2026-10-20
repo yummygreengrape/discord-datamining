@@ -1,5 +1,5 @@
 {
-    "build_hash": "eba073e824d3891a423d535b84d9e7af2e161d2b",
+    "build_hash": "9b2a46ece03e9f06a254190c90190a86acbe8bc1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "pIam91": "Spend your Orbs"
+                "MhoLHy": "Remove message",
+                "RoS6FI": "Attach a message"
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T20:39:59.506925+00:00"
+    "timestamp": "2026-10-20T20:50:57.379512+00:00"
 }
