@@ -1,5 +1,5 @@
 {
-    "build_hash": "f0ed05c02fc22c7d9ff92514a6de3821d496835d",
+    "build_hash": "2f8d5ad58ccbae5164e7bcf6d668d91a5b11552f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,14 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "2KIefJ": "Take a screenshot of a window you pick",
-                "6U+4pJ": "People using this app may be asked for:",
-                "X8wPIB": "Each person decides for themselves when the app asks.",
-                "rDyl56": "Don’t Allow",
-                "vBSfKU": "Allow {app} to access this device?",
-                "xbsXd9": "Allow"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -30,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T05:42:34.855719+00:00"
+    "timestamp": "2026-10-20T06:55:28.631580+00:00"
 }
