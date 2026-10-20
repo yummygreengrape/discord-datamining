@@ -1,5 +1,5 @@
 {
-    "build_hash": "b3585787e8f61cfd51ef7de0c61d5c068ec5687a",
+    "build_hash": "dd777c11fa13ddb90a50c1776061d510f782a465",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,14 +14,18 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "PJsjbP": "Added a new emoji, {emoji} in {guildName}"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "PJsjbP": "{guildName}에 신규 이모지({emoji})가 추가됐어요"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T17:24:49.982658+00:00"
+    "timestamp": "2026-10-20T17:45:54.451317+00:00"
 }
