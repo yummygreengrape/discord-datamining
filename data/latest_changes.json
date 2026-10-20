@@ -1,8 +1,51 @@
 {
-    "build_hash": "4958793521f096d219a49c7145faeaf9ee0b127a",
+    "build_hash": "ccddf9c5c0cb4bd6941f8dbf7ff89f6c70bb1ef5",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-age-restricted-application-commands",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-age-restricted-application-commands",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,9 +56,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "eKo6mw": "Age verification"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +66,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T17:56:46.326052+00:00"
+    "timestamp": "2026-10-20T18:07:41.318890+00:00"
 }
