@@ -1,61 +1,8 @@
 {
-    "build_hash": "2d2f14e2a7d7a5ee618d317e6efc183c0cb88575",
+    "build_hash": "1b3bdaeb720c27ab31ec62955fceb2061592d2b9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-desktop-tti-splash-asset",
-            "kind": "user",
-            "timestamp": "2026-10-20T21:40:51Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-desktop-tti-dnstcp-warmup",
-            "kind": "user",
-            "timestamp": "2026-10-20T21:40:51Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-desktop-tti-early-update-check",
-            "kind": "user",
-            "timestamp": "2026-10-20T21:40:51Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-desktop-tti-update-backoff-algo",
-            "kind": "user",
-            "timestamp": "2026-10-20T21:40:51Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-desktop-tti-update-backoff",
-            "kind": "user",
-            "timestamp": "2026-10-20T21:40:51Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -67,30 +14,42 @@
     "string_changes": {
         "en": {
             "added": {
-                "0F4Peo": "Orbs earned",
-                "45cddS": "{seconds, plural, one {# second} other {# seconds}} of watch time left to earn Orbs",
-                "4KOdCv": "No archived or inactive, read threads match these choices.",
-                "AX7Fmc": "Clear selection",
-                "DbeF7Y": "Archived threads are included regardless of age or unread status. Active threads are included after the days without activity you choose. Unread active threads are always kept. Removing a thread from Favorites won’t leave the thread.",
-                "Dr1FWM": "{activity} · Archived",
-                "IzxPdG": "{days, plural, =0 {Last active today} one {Last active # day ago} other {Last active # days ago}}",
-                "KIzpqi": "Favorites category",
-                "O2NG67": "Clean up inactive threads…",
-                "VheZQr": "Days without activity",
-                "ZuaHVJ": "Select all",
-                "b081B+": "Clean up inactive threads",
-                "gOUr+P": "All favorited threads",
-                "jiqJtj": "Remove {count, plural, one {# thread} other {# threads}}",
-                "kdvwuo": "{count, plural, one {# thread selected} other {# threads selected}}",
-                "rM/wWh": "{count, plural, one {# thread could not be loaded and will be kept.} other {# threads could not be loaded and will be kept.}}",
-                "rYws6y": "Last activity unknown",
-                "toOYQw": "We couldn’t update your Favorites. Please try again.",
-                "wPednI": "Threads to remove",
-                "wT+K51": "Enter a whole number from 1 to 36,500.",
-                "zAljrZ": "Find inactive threads"
+                "GUb2zA": "Profile widgets",
+                "KBHZfO": "Bots",
+                "uVOH1p": "Overlay widgets"
             },
-            "deleted": {},
-            "modified": {}
+            "deleted": {
+                "1w6KRE": "AutoMod",
+                "6aNfPh": "Overlay Widgets",
+                "BiUcOj": "Games",
+                "NhivS+": "Apps",
+                "Vz5Wb+": "Profile widget",
+                "W9OYc6": "Chat bot",
+                "rSo/yG": "Bots",
+                "ukMCXh": "Profile Widgets"
+            },
+            "modified": {
+                "5W7HIh": {
+                    "new_value": "Fill it with your server’s top games, leaderboards and more.",
+                    "old_value": "Fill it with your server’s top games, music, and inside jokes."
+                },
+                "Sfa50+": {
+                    "new_value": "Make a Flappy Bird style game where you tap to flap a little dragon through gaps between floating clouds. Keep a score counter, show a high score board for everyone in the server, and end on a cute game over screen with a retry button.",
+                    "old_value": "Make a Flappy Bird style game where you tap to flap an anime-style hero through gaps between floating clouds. Keep a score counter, show a high score board for everyone in the server, and end on a cute game over screen with a retry button."
+                },
+                "Tbag5k": {
+                    "new_value": "Flappy Dragon",
+                    "old_value": "Flappy Waifus"
+                },
+                "ev0nwK": {
+                    "new_value": "Customize it with your server’s top games, leaderboards, and more! Now live for everyone.",
+                    "old_value": "Customize it with your server’s top games, music, and inside jokes. Now live for everyone."
+                },
+                "gtX7tS": {
+                    "new_value": "Make a Flappy Bird game but with a dragon instead of a bird",
+                    "old_value": "Make a Flappy Bird game but with waifus instead of birds"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -98,5 +57,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T22:18:51.519788+00:00"
+    "timestamp": "2026-10-20T22:29:47.129761+00:00"
 }
