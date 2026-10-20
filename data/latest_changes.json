@@ -1,53 +1,121 @@
 {
-    "build_hash": "4f0263eeecb48e5f7238d60c2946a9d27eda0250",
+    "build_hash": "8ed0c6b2e5ffac72f1edb3a32b64c954242a197e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "nativeSystemCpuTimes",
+                "overlayOnlyAnimatesItself"
+            ],
+            "default_config": {
+                "nativeSystemCpuTimes": false,
+                "overlayOnlyAnimatesItself": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-desktop-game-perf",
+            "kind": "user",
+            "old_config_keys": [
+                "nativeSystemCpuTimes"
+            ],
+            "old_default_config": {
+                "nativeSystemCpuTimes": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "nativeSystemCpuTimes": false
+                },
+                "1": {
+                    "nativeSystemCpuTimes": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "nativeSystemCpuTimes": false,
+                    "overlayOnlyAnimatesItself": false
+                },
+                "1": {
+                    "nativeSystemCpuTimes": true,
+                    "overlayOnlyAnimatesItself": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "nativeSystemCpuTimes",
+                "overlayOnlyAnimatesItself"
+            ],
+            "default_config": {
+                "nativeSystemCpuTimes": false,
+                "overlayOnlyAnimatesItself": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-desktop-game-perf",
+            "kind": "user",
+            "old_config_keys": [
+                "nativeSystemCpuTimes"
+            ],
+            "old_default_config": {
+                "nativeSystemCpuTimes": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "nativeSystemCpuTimes": false
+                },
+                "1": {
+                    "nativeSystemCpuTimes": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "nativeSystemCpuTimes": false,
+                    "overlayOnlyAnimatesItself": false
+                },
+                "1": {
+                    "nativeSystemCpuTimes": true,
+                    "overlayOnlyAnimatesItself": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/spQzC": "Published {date}",
-                "0bDcBs": "No changes since the previous publish.",
-                "19L92G": "No publishes recorded yet. Your next publish will appear here.",
-                "4un98A": "Newer",
-                "54samz": "Page {page}",
-                "5HmLrK": "Send to other projects",
-                "656Avb": "Publish history",
-                "HqheLL": "Older",
-                "Kzt1rI": "Showing up to the last 100 publishes.",
-                "LmWLc+": "Generating release notes…",
-                "M9L+3I": "Release notes for {title}",
-                "Qro2x/": "Hide release notes",
-                "RZO35O": "Sent to {names}",
-                "ScoZLp": "Sent from my app {name} (project {projectId}).",
-                "TzCJWI": "Couldn’t load publish history. Try again.",
-                "cBIaeW": "Couldn’t generate release notes. Try again.",
-                "d/Wf8N": "Loading publish history…",
-                "hcrQOo": "Release notes aren’t available for this publish.",
-                "o2++BO": "Send this to your other apps",
-                "tcDZw9": "{name} (project {projectId})",
-                "uMdX5T": "Publish history pages",
-                "ufHcsq": "Show release notes"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "jZlNst": {
-                    "new_value": "Sent to {targets}:",
-                    "old_value": "Sent to {name} (project {projectId}):"
-                },
-                "kMZz8G": {
-                    "new_value": "Couldn’t send it to the apps still picked. Check that you can edit them, then try again.",
-                    "old_value": "Couldn’t send it. Check that you can edit that app, then try again."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -55,5 +123,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T19:23:53.339313+00:00"
+    "timestamp": "2026-10-20T19:34:45.632230+00:00"
 }
