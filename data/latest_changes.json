@@ -1,5 +1,5 @@
 {
-    "build_hash": "f7858f17b92cf9c7d4ed13b8331b94f6c9f28080",
+    "build_hash": "2b89e391801187b4af68eaa4176d128060439fca",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,14 +14,20 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "MyO0sh": "The strong silent type.",
+                "OBeYX/": "0 minutes in voice"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "MyO0sh": "과묵한 외유내강 성격이시군요.",
+                "OBeYX/": "음성 통화 0분"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T18:51:14.256879+00:00"
+    "timestamp": "2026-10-20T19:02:05.589843+00:00"
 }
