@@ -1,5 +1,5 @@
 {
-    "build_hash": "e47119f56635cc2648cb3860a297969f576aaf0b",
+    "build_hash": "efccc9c12b20b15c8f63688665e034360aaef2ac",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,27 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "64uynN": "It's all yours!",
-                "8yvdPi": "{collectibleTitle} has been added to your collection.",
-                "F2yVHg": "A remix doesn’t bring the original’s secrets or settings. Add yours to finish setting it up.",
-                "Jkxtln": "{current} of {target} collected!",
-                "OUIULI": "{collectibleTitle} has been added to your collection, and you've unlocked a free Avatar Decoration.",
-                "mHCXtm": "Remixed from **{source}**."
-            },
-            "deleted": {
-                "jviD6Y": "I just made this as a remix of another app. Look it over, tell me what it does, build my copy, and then suggest some ways to make it my own."
-            },
-            "modified": {
-                "vI+3Ok": {
-                    "new_value": "Bundle includes {itemCount} items that count towards promo progress.",
-                    "old_value": "Bundle includes {itemCount} items that count towards promo progress. Orbs eligible starting {endDate}."
-                },
-                "wBhFsO": {
-                    "new_value": "{itemDescription}.",
-                    "old_value": "{itemDescription}. Orbs eligible starting {endDate}."
-                }
-            }
+            "added": {},
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -41,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T01:08:48.435495+00:00"
+    "timestamp": "2026-10-20T02:42:23.682796+00:00"
 }
