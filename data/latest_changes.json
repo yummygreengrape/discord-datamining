@@ -1,5 +1,5 @@
 {
-    "build_hash": "ad7c285f23ec1518fe0755cabebe36099a1db2d5",
+    "build_hash": "a850b78e913799e678d79f5cf8028251e63b85ed",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,18 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-web-screen-share-audio",
+            "kind": "user",
+            "timestamp": "2026-10-20T12:36:49Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T15:26:57.786413+00:00"
+    "timestamp": "2026-10-20T15:38:29.489085+00:00"
 }
