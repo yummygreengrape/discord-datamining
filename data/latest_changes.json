@@ -1,93 +1,8 @@
 {
-    "build_hash": "538fef24da38d1b3ca64d167f3cf1b239ca9a578",
+    "build_hash": "2ea9955651659aed2a4e90aa2c6fca9dee03c4ba",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "켜지면 메시지 코드 블록과 텍스트 파일 미리보기에 새 문법 하이라이터를 사용합니다."
-                    }
-                ],
-                "detailed_summary": "기본 상태에서는 기존 코드 표시를 유지하고, 켜진 비교안에서는 언어에 맞는 문법 색상을 만드는 새 하이라이터를 불러옵니다. 현재 Canary에서는 메시지의 코드 블록과 첨부된 텍스트 파일 미리보기가 이 설정을 직접 읽습니다. 이전에는 데스크톱 앱의 네이티브 처리 방식을 우선하는 두 번째 비교안도 있었지만, 이번 변경에서 그 설정과 비교안이 제거돼 켜짐/꺼짐 한 가지 비교만 남았습니다. 따라서 어떤 네이티브 처리 방식을 고르는 실험이라는 이전 설명은 더 이상 현재 상태와 맞지 않습니다.",
-                "evidence": [
-                    "Current Canary module 157941 reads enabled before rendering SyntaxHighlight.",
-                    "MarkupReactRules and PlaintextFilePreview call the experiment-backed component.",
-                    "The current config removes preferNative and Variant 2, leaving only enabled=false versus enabled=true."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "코드 문법 하이라이트",
-                "generated_at": "2026-09-02T04:20:54.637953+00:00",
-                "importance": "medium",
-                "summary": "코드 블록과 텍스트 파일 미리보기를 새 문법 하이라이터로 전환하는 실험입니다.",
-                "why_it_matters": "긴 코드 블록과 첨부 파일을 읽을 때 문법 구분이 더 일관되게 보일 수 있으며, 이번 변경으로 비교 대상도 단순해졌습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "Uses the newer syntax highlighter for message code blocks and plaintext previews."
-                    }
-                ],
-                "detailed_summary": "The default keeps the existing code presentation, while the enabled comparison loads a newer language-aware syntax highlighter. Current Canary consumers read this setting for message code blocks and attached plaintext previews. A previous second comparison could prefer a native desktop path, but this update removes that setting and variant, leaving a single on/off comparison. The older explanation about choosing a native path no longer describes the current experiment.",
-                "evidence": [
-                    "Current Canary module 157941 reads enabled before rendering SyntaxHighlight.",
-                    "MarkupReactRules and PlaintextFilePreview call the experiment-backed component.",
-                    "The current config removes preferNative and Variant 2, leaving only enabled=false versus enabled=true."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Code syntax highlighting",
-                "generated_at": "2026-09-02T04:20:54.637953+00:00",
-                "importance": "medium",
-                "summary": "Moves code blocks and plaintext previews to a newer syntax highlighter.",
-                "why_it_matters": "This can make long code blocks and attached files easier to scan, and the test now compares a simpler pair of rendering paths."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-arborium-highlight",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-20T20:58:17Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-arborium-highlight",
-            "kind": "user",
-            "timestamp": "2026-10-20T20:58:17Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -108,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T21:01:57.445261+00:00"
+    "timestamp": "2026-10-20T21:12:50.700238+00:00"
 }
