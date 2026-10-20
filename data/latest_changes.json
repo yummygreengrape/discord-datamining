@@ -1,5 +1,5 @@
 {
-    "build_hash": "2b89e391801187b4af68eaa4176d128060439fca",
+    "build_hash": "3d084538e15a2f0c8223a0f8f608e5e19f9582ae",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,21 +13,33 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "MyO0sh": "The strong silent type.",
-                "OBeYX/": "0 minutes in voice"
+            "added": {
+                "/spQzC": "Published {date}",
+                "0bDcBs": "No changes since the previous publish.",
+                "19L92G": "No publishes recorded yet. Your next publish will appear here.",
+                "4un98A": "Newer",
+                "54samz": "Page {page}",
+                "656Avb": "Publish history",
+                "HqheLL": "Older",
+                "Kzt1rI": "Showing up to the last 100 publishes.",
+                "LmWLc+": "Generating release notes…",
+                "M9L+3I": "Release notes for {title}",
+                "Qro2x/": "Hide release notes",
+                "TzCJWI": "Couldn’t load publish history. Try again.",
+                "cBIaeW": "Couldn’t generate release notes. Try again.",
+                "d/Wf8N": "Loading publish history…",
+                "hcrQOo": "Release notes aren’t available for this publish.",
+                "uMdX5T": "Publish history pages",
+                "ufHcsq": "Show release notes"
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "MyO0sh": "과묵한 외유내강 성격이시군요.",
-                "OBeYX/": "음성 통화 0분"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T19:02:05.589843+00:00"
+    "timestamp": "2026-10-20T19:12:59.737002+00:00"
 }
