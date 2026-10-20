@@ -1,5 +1,5 @@
 {
-    "build_hash": "cea943a40fa54e9c6afdb84c0976b8270d9fbad3",
+    "build_hash": "b23d97c3e2fd38fdac2dce8cda62a1ce51321bad",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,21 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "5qiUbF": "Review this publish",
+                "8kdvyn": "The app owner must review this publish in a browser window. Publishing continues after approval.",
+                "TD/ze/": "This app is already being published. Try again when it finishes.",
+                "a1DdcF": "Link your {gameName} account to access {noun} features",
+                "aikK3o": "guild",
+                "lJrOGW": "Run this app on",
+                "qD9GKX": "Link Account",
+                "qru9M5": "Review publish",
+                "xXXGsq": "guild",
+                "xd+PSv": "Linking your account allows you to connect your {noun} and character to Discord",
+                "y83r6D": "Cancel",
+                "yoPvEj": "Account linking isn't available for {gameName} right now.",
+                "zh1Izp": "Continue"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-20T20:07:20.082510+00:00"
+    "timestamp": "2026-10-20T20:18:12.810283+00:00"
 }
