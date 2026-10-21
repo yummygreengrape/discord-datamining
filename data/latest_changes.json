@@ -1,5 +1,5 @@
 {
-    "build_hash": "70e2de6e1b0c56baa10260608cd269d661ac1fb2",
+    "build_hash": "5e9ebe33872a22d1125ad0c167cad04aab713251",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,25 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/6YRCf": "Last published {time}",
-                "37xgkF": "Only me",
-                "6E9W4F": "Your project is up to date.",
-                "8/7kE7": "Allow screenshots of your window",
-                "BqNMms": "Includes",
-                "Gdz7pg": "You have pending changes",
-                "I88/iG": "Activity",
-                "KHg4Dk": "Sync",
-                "LnqeFd": "Users will be asked",
-                "NUZBwo": "Not published yet",
-                "Q9ruoM": "AutoMod",
-                "RUhWLH": "Only you can use this app",
-                "UnoAgo": "Bot",
-                "ZpZxK9": "{count, plural, one {# member} other {# members}}",
-                "gXY1x1": "Profile Widget",
-                "knevPu": "Name",
-                "yCgX8i": "Sharing with"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -41,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-21T22:40:36.335613+00:00"
+    "timestamp": "2026-10-21T22:51:30.143418+00:00"
 }
