@@ -1,5 +1,5 @@
 {
-    "build_hash": "d3ebac8df074229851ef811c4f2a3724a9b8a432",
+    "build_hash": "575a14ea99c29413e36f5e2cfe3aae25cf7d6224",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "PrQg+B": "{name} is live, but its commands didn’t update. Publish again to retry."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-21T20:19:41.585331+00:00"
+    "timestamp": "2026-10-21T20:30:34.674329+00:00"
 }
