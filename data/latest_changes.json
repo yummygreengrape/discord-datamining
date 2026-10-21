@@ -1,5 +1,5 @@
 {
-    "build_hash": "f21096a3b9e4568f03d3215c28d46ae4f27d0ecf",
+    "build_hash": "e55f00752362609a934ea149ea32ae772f9bfa32",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,10 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "9ZqzLo": "It’s only in the preview so far. Publish it to open it in Discord.",
+                "SifbJM": "What you see is a preview. Publish it to let others see it."
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-21T09:00:24.738404+00:00"
+    "timestamp": "2026-10-21T09:11:17.111616+00:00"
 }
