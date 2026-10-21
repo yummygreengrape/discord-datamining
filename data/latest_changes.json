@@ -1,5 +1,5 @@
 {
-    "build_hash": "7700333b9faa98a2cedda35c4d074e481e695e01",
+    "build_hash": "af974d94ec10bc53a4b4798a6ff288f8378f4592",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "AKajgt": "Failed to leave the group",
+                "Gdj/qt": "You have left the group"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-21T08:28:25.141202+00:00"
+    "timestamp": "2026-10-21T08:49:32.245110+00:00"
 }
