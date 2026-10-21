@@ -1,5 +1,5 @@
 {
-    "build_hash": "08b9e7e2b6eababc0ebb8de085ad0489ac3e5c14",
+    "build_hash": "f82d18760781e8546141ac6f1fde0d454f5981b7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "qSViP4": "Choose a thinking level"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-21T17:26:16.542980+00:00"
+    "timestamp": "2026-10-21T17:37:10.106526+00:00"
 }
