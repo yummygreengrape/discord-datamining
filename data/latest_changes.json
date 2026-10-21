@@ -1,5 +1,5 @@
 {
-    "build_hash": "f5059e5145e5171b1b2f0fa4ede7523c7b3ced57",
+    "build_hash": "6a225bac98fc611e4ada5807210bb9c889685227",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "NJGZA3": "Import",
+                "soVyD1": "Import as"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-21T00:06:30.301570+00:00"
+    "timestamp": "2026-10-21T00:17:25.611952+00:00"
 }
