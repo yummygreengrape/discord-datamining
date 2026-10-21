@@ -1,5 +1,5 @@
 {
-    "build_hash": "ab4b6280f72f12c55d572f491dbca613d7355b7d",
+    "build_hash": "52016f6a22e24932111efef9b934fd69037b133a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,28 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "++O7TA": "Unlock Avatar Decoration",
+                "/AJCN+": "All Rewards Claimed!",
+                "2L068F": "Orbs Arcade",
+                "3AT3DL": "What is Orbs Arcade?",
+                "5Gt1dt": "Exclusive Avatar Decorations and more!",
+                "7/xnly": "Play",
+                "A7+nP8": "Claim Avatar Decoration",
+                "GSj8gp": "A game you can play again and again, so there's always a fun way to spend your Orbs. Clear score tiers as you play to unlock exclusive rewards, from avatar decos to more.",
+                "Q8Vv0m": "You scored {score, number} points!",
+                "R6Ksr9": "Claimed",
+                "XKyikw": "Score {score, number} Points",
+                "fkzORZ": "{duration} until rewards refresh.",
+                "kMY21I": "Play this game and earn rewards!",
+                "oSWYca": "Play for {count}",
+                "oeBTVF": "Reset Game (Staff)",
+                "onJEzB": "Play Free ({count, number} Left)",
+                "pxxI1f": "Claim Nitro Credit",
+                "reWgFH": "Game options",
+                "uz4M/z": "How to Play",
+                "vJFuxl": "Unlock Nitro Credit"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +44,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-21T21:24:31.283768+00:00"
+    "timestamp": "2026-10-21T21:35:23.194562+00:00"
 }
