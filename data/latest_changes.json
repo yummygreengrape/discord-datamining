@@ -1,5 +1,5 @@
 {
-    "build_hash": "c2fc7b812dcf5f27d857045f14a2100d04384e40",
+    "build_hash": "c29772f510f763897937c402874a5d6da8e3227e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,38 +9,27 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-user-profile-widget-suggestions",
+            "kind": "user",
+            "timestamp": "2026-10-21T19:01:16Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "hebdhA": "For the alpha, Discord may access your sessions to improve Conjure."
+            },
             "deleted": {},
-            "modified": {
-                "A5TC+K": {
-                    "new_value": "Those didn’t save properly. Try again.",
-                    "old_value": "Those didn’t save. Check the values and try again."
-                },
-                "avt0ax": {
-                    "new_value": "Something went wrong.",
-                    "old_value": "Something went sideways."
-                },
-                "dsHRPK": {
-                    "new_value": "Secrets are stored in a locked vault. I never see them.",
-                    "old_value": "Anything marked secret goes straight into a locked vault. It never appears in the chat, and I never see it."
-                },
-                "iwOTgo": {
-                    "new_value": "Hmm, something didn’t work right.",
-                    "old_value": "Something didn’t hold together."
-                },
-                "okkgSB": {
-                    "new_value": "It’s ready to try.",
-                    "old_value": "Your app is ready to try."
-                },
-                "t8skVB": {
-                    "new_value": "Working on it…",
-                    "old_value": "Tinkering…"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -48,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-21T18:52:33.257220+00:00"
+    "timestamp": "2026-10-21T19:03:28.486357+00:00"
 }
