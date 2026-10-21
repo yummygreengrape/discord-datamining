@@ -1,5 +1,5 @@
 {
-    "build_hash": "ecb44d5c7eb109538c4b44c7c20fcba77a1754d8",
+    "build_hash": "bfad6ced84c7d08aa5fefd869722d49f9eed18ad",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Q/RPC2": "In use by {appName}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-21T18:19:56.798821+00:00"
+    "timestamp": "2026-10-21T18:30:49.054218+00:00"
 }
