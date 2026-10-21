@@ -1,5 +1,5 @@
 {
-    "build_hash": "ca57d37414317610d1a0d9e2ce8fa65b577a866e",
+    "build_hash": "3bd8369e705394b0bc72dfef87bffec700b69ad4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -17,7 +17,12 @@
                 "xyVEtZ": "Translation pilot test message"
             },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "p7LH43": {
+                    "new_value": "Redeem the new Zombie Wumpus in Rust Shop with Orbs. Ends {endDate}. [Terms Apply]({termsUrl}).",
+                    "old_value": "Redeem the new Wumpus Zombie in Rust Shop with Orbs. Ends {endDate}. [Terms Apply]({termsUrl})."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -25,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-21T16:53:30.731655+00:00"
+    "timestamp": "2026-10-21T17:04:26.629433+00:00"
 }
