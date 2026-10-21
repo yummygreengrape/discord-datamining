@@ -1,5 +1,5 @@
 {
-    "build_hash": "cc8f78030b2f139303cc8c0cf276210e4879c307",
+    "build_hash": "7e82973f9672d71863e7267acbd9177291f291b3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,22 +8,145 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-code-blurple",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-21T20:44:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-code-blurple-marketing-holdout",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-21T20:44:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-code-blurple",
+            "kind": "user",
+            "timestamp": "2026-10-21T20:44:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-code-blurple-marketing-holdout",
+            "kind": "user",
+            "timestamp": "2026-10-21T20:44:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "6AbN1y": "Stand out from the crowd starting from your first match. Claim the exclusive Code Blurple blueprint.",
+                "E1sPHw": "Bring Nitro to your loadout",
+                "LUOF3v": "Claim a Nitro-exclusive Call of Duty: Modern Warfare 4 blueprint. Redeem by {date}.",
+                "PFtZV6": "Call of Duty: MW4 Reward",
+                "PrQg+B": "{name} is live, but its commands didn’t update. Publish again to retry.",
+                "py5vQi": "Get the exclusive blueprint for Call of Duty: Modern Warfare 4 made just for Nitro members.",
+                "tm4caj": "Claim a Nitro-exclusive Call of Duty: Modern Warfare 4 blueprint. Expires {expirationDate}.",
+                "xDMrVa": "Code Blurple",
+                "yTYUJw": "Get your exclusive MW4 blueprint, only with Nitro."
+            },
             "deleted": {
-                "wqHXNt": "Report User Profile"
+                "REPORTS_USER_MENU_OPTION_MOBILE": "Report User Profile"
             },
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "6AbN1y": "첫 매치부터 남다른 존재감을 뽐내세요. 한정판 코드 블러플 청사진을 받아 가세요.",
+                "E1sPHw": "장비에 Nitro 스타일을 더하세요",
+                "LUOF3v": "Nitro 한정 콜 오브 듀티: 모던 워페어 4 청사진을 받으세요. {date}까지 받아 가세요.",
+                "PFtZV6": "Call of Duty: MW4 보상",
+                "py5vQi": "오직 Nitro 멤버만을 위해 제작된 콜 오브 듀티: 모던 워페어 4 한정 청사진을 받으세요.",
+                "tm4caj": "Nitro 한정 콜 오브 듀티: 모던 워페어 4 청사진을 받으세요. {expirationDate}에 만료돼요.",
+                "xDMrVa": "코드 블러플",
+                "yTYUJw": "오직 Nitro에서만 제공되는 MW4 한정 청사진을 받으세요."
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-21T20:41:48.522293+00:00"
+    "timestamp": "2026-10-21T20:53:07.326223+00:00"
 }
