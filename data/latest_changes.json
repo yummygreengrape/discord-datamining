@@ -1,5 +1,5 @@
 {
-    "build_hash": "2d5d179ac99ffb941d762f71307b11479ec9ac9a",
+    "build_hash": "08b9e7e2b6eababc0ebb8de085ad0489ac3e5c14",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "qbJihM": "Edit the selected free reward, {rewardName}"
+                "qSViP4": "Choose a thinking level"
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-21T17:15:21.669225+00:00"
+    "timestamp": "2026-10-21T17:26:16.542980+00:00"
 }
