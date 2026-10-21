@@ -1,5 +1,5 @@
 {
-    "build_hash": "3ff0fa914c0939c07040f1b386d0e6346615fb1a",
+    "build_hash": "808cfecad9225dbb593ea2790798cb53ae0a2396",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,15 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "+HGTlC": "to",
+                "6U+4pJ": "People using this app may be asked for:",
+                "Gzmlyg": "Set an icon and name",
+                "OmOWDq": "Get your app ready to go live",
+                "X8wPIB": "Each person decides for themselves when the app asks.",
+                "bz/M68": "Skip",
+                "dyIV6M": "Publish"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +31,47 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-21T23:45:11.236291+00:00"
+    "string_context": {
+        "en": {
+            "X8wPIB": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "같은 묶음에는 기기 접근 확인과 창 스크린샷 설명이 있어요. 앱 제작자의 선택 하나가 모든 이용자의 기기 권한을 대신 승인한다는 의미는 아니에요.",
+                    "generated_at": "2026-10-21T15:15:54.069519Z",
+                    "intent_type": "account_or_safety_notice",
+                    "related_terms": [
+                        "device access",
+                        "Allow",
+                        "Don’t Allow",
+                        "window screenshot"
+                    ],
+                    "search_intent": "앱이 요구하는 권한을 제작자와 이용자 중 누가 승인하는지 찾는 검색이에요.",
+                    "source_context": "2026-10-20T05:34:01Z의 기기 접근 질문은 각 이용자의 선택과 창 스크린샷 안내와 함께 있어요. 현재 번들에서도 기기 접근 제목 사용을 확인했어요.",
+                    "summary": "Each person decides for themselves when the app asks.는 앱 접근 요청을 각 이용자가 직접 결정한다는 안내예요.",
+                    "what_it_means": "권한 요청이 오면 각 사람이 자기 기기에 대한 허용 여부를 결정해요.",
+                    "what_to_do": "실제 요청이 표시되면 그 기능이 필요한지 보고 허용 여부를 결정하세요.",
+                    "when_it_appears": "앱 사용자가 요청받을 수 있는 접근 항목을 설명하는 부분에 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The same group includes a device-access prompt and window-screenshot copy. A builder’s choice does not represent approval of device access for every user.",
+                    "generated_at": "2026-10-21T15:15:54.069519Z",
+                    "intent_type": "account_or_safety_notice",
+                    "related_terms": [
+                        "device access",
+                        "Allow",
+                        "Don’t Allow",
+                        "window screenshot"
+                    ],
+                    "search_intent": "To find whether app permissions are approved by the builder or each person using it.",
+                    "source_context": "The device-access question at 2026-10-20T05:34:01Z accompanies individual consent and window-screenshot copy; the current bundle uses it as a device-access title.",
+                    "summary": "Each person decides for themselves when the app asks explains individual consent to app requests.",
+                    "what_it_means": "Each person chooses whether to allow a request on their own device.",
+                    "what_to_do": "Decide whether to grant access when the actual capability request appears.",
+                    "when_it_appears": "It may appear in the explanation of access requests that app users could receive."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-10-21T23:56:02.286283+00:00"
 }
