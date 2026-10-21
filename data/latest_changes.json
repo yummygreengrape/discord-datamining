@@ -1,5 +1,5 @@
 {
-    "build_hash": "c29772f510f763897937c402874a5d6da8e3227e",
+    "build_hash": "ff175e2b4658ecad4183451f4391fc995142ea4e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,25 +9,11 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-user-profile-widget-suggestions",
-            "kind": "user",
-            "timestamp": "2026-10-21T19:01:16Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "hebdhA": "For the alpha, Discord may access your sessions to improve Conjure."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -37,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-21T19:03:28.486357+00:00"
+    "timestamp": "2026-10-21T19:14:23.184333+00:00"
 }
