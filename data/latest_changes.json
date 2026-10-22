@@ -1,5 +1,5 @@
 {
-    "build_hash": "f9f1eccf6fe216eca443d2e3ee02b2977cc6f914",
+    "build_hash": "ee7d88b09c3bf16d91968c06f10deafb20c488ff",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,14 +14,18 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "uyJSNf": "Join {guildName}"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "uyJSNf": "{guildName}에 참가하기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-22T17:01:25.318521+00:00"
+    "timestamp": "2026-10-22T17:12:19.569308+00:00"
 }
