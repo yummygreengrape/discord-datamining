@@ -1,19 +1,8 @@
 {
-    "build_hash": "2d83f213a0f25eacc8235bd7b05d495e377a6858",
+    "build_hash": "c468f74f85ad49cc2af3924a7dcc3e827ff76002",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2025-01-allow-nonstaff-to-preview-app-collections",
-            "kind": "user",
-            "timestamp": "2026-10-22T19:44:02Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -34,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-22T19:45:36.648243+00:00"
+    "timestamp": "2026-10-22T19:56:27.650750+00:00"
 }
