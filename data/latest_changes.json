@@ -1,5 +1,5 @@
 {
-    "build_hash": "c6e70e53e3296aa03b62efa7018d5a559c2b2634",
+    "build_hash": "7654739b41111503c4fb24d6a98a8399a90a70b6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,32 +13,21 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "OIhEjF": "{truncatedText}…",
-                "Tl/1iM": "Stop {appName} from seeing your game",
-                "VIjH42": "Stop"
-            },
+            "added": {},
             "deleted": {
-                "E+mIJ+": "{label}: {value}",
-                "FquTfm": "Theme Primary Color: {colorLabel}",
-                "xOnm4z": "Theme Accent Color: {colorLabel}"
+                "lo6H6+": "Connect with {gameName}",
+                "qYAzOp": "Unlock social features like synced friends, messages, and even more!"
             },
-            "modified": {
-                "2KIefJ": {
-                    "new_value": "See screenshots of the game you are playing",
-                    "old_value": "Take a screenshot of a window you pick"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
             "deleted": {
-                "E+mIJ+": "{label}: {value}",
-                "FquTfm": "테마 기본 색상: {colorLabel}",
-                "xOnm4z": "테마 강조 색상: {colorLabel}"
+                "lo6H6+": "{gameName}에 연결",
+                "qYAzOp": "동기화된 친구, 메시지 등 더 많은 소셜 기능을 잠금 해제하세요!"
             },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-22T01:01:37.015454+00:00"
+    "timestamp": "2026-10-22T01:12:34.262719+00:00"
 }
