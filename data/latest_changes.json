@@ -1,5 +1,5 @@
 {
-    "build_hash": "e78cf08f621d99f8dcac0c11e5d257c525260bd9",
+    "build_hash": "3f036bcec9423edbac12d882f22f5dabb07742c3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,11 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "FQb5Z3": "Show background overlay",
+                "dPf03z": "Open {appName}",
+                "tfKtLw": "Hide overlay"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-22T06:49:28.957853+00:00"
+    "timestamp": "2026-10-22T07:31:25.456451+00:00"
 }
