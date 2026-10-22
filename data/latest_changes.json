@@ -1,5 +1,5 @@
 {
-    "build_hash": "5c91caf7e893d8bff88fb06eabc181597e8f5fc1",
+    "build_hash": "5c34891a8e510696449964fc100cde401eed5b7d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -18,10 +18,30 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "0F4Peo": "획득한 Orbs",
+                "7/xnly": "게임 시작",
+                "J0YWRq": "나만의 서버 태그 만들기",
+                "R6Ksr9": "받기 완료",
+                "qbJihM": "선택한 무료 보상 편집, {rewardName}",
+                "xyVEtZ": "번역 파일럿 테스트 메시지"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "BeCUHZ": {
+                    "new_value": "각 설정을 활성화하여 {widgetName}에 기여하세요. 언제든지 설정에서 변경할 수 있어요.",
+                    "old_value": "각 설정을 활성화하여 {widgetName}에 참여하세요. 언제든지 설정에서 변경할 수 있어요."
+                },
+                "PJn0ih": {
+                    "new_value": "각 설정을 활성화하여 리더보드에 기여하세요. 언제든지 설정에서 변경할 수 있어요.",
+                    "old_value": "설정을 활성화하여 순위표에 참여하세요. 언제든지 설정에서 변경할 수 있어요."
+                },
+                "YuNVPY": {
+                    "new_value": "최근 플레이한 게임: {gameName}",
+                    "old_value": "마지막 플레이 시간: {gameName}"
+                }
+            }
         }
     },
-    "timestamp": "2026-10-22T00:17:50.424399+00:00"
+    "timestamp": "2026-10-22T00:28:47.805880+00:00"
 }
