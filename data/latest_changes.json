@@ -1,5 +1,5 @@
 {
-    "build_hash": "3d68d527f3ceef95b3ce7c89703a7b360bcc9590",
+    "build_hash": "c6e70e53e3296aa03b62efa7018d5a559c2b2634",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,29 +14,31 @@
     "string_changes": {
         "en": {
             "added": {
-                "+uXDk+": "Replaced by a newer request",
-                "0vfaMW": "Off",
-                "1w0jMk": "You can also fill this in later from the chat.",
-                "9J3OG8": "Close",
-                "AxBLLy": "Saved",
-                "CJq1rY": "connected",
-                "Fw9G9A": "chosen",
-                "Z+FC3j": "{label}: {value}",
-                "nXtpn3": "On"
+                "OIhEjF": "{truncatedText}…",
+                "Tl/1iM": "Stop {appName} from seeing your game",
+                "VIjH42": "Stop"
             },
-            "deleted": {},
+            "deleted": {
+                "E+mIJ+": "{label}: {value}",
+                "FquTfm": "Theme Primary Color: {colorLabel}",
+                "xOnm4z": "Theme Accent Color: {colorLabel}"
+            },
             "modified": {
-                "CTxtdV": {
-                    "new_value": "Replaced by a newer request",
-                    "old_value": "Keys requested again below"
+                "2KIefJ": {
+                    "new_value": "See screenshots of the game you are playing",
+                    "old_value": "Take a screenshot of a window you pick"
                 }
             }
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "E+mIJ+": "{label}: {value}",
+                "FquTfm": "테마 기본 색상: {colorLabel}",
+                "xOnm4z": "테마 강조 색상: {colorLabel}"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-22T00:50:39.411710+00:00"
+    "timestamp": "2026-10-22T01:01:37.015454+00:00"
 }
