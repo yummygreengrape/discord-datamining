@@ -1,5 +1,5 @@
 {
-    "build_hash": "13b789cfbf6df5164500aa440977841878f9af4c",
+    "build_hash": "67f6eb8fffcbd9c9cd1039ae7c701971056f7725",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,17 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "5Hp3Nx": "Connect you to voice channels",
+                "uvDWXa": "Allow connecting you to voice channels"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "vBSfKU": {
+                    "new_value": "Allow {app} to:",
+                    "old_value": "Allow {app} to access this device?"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +31,47 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-22T09:16:02.847551+00:00"
+    "string_context": {
+        "en": {
+            "vBSfKU": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 번들은 이 제목을 기기 권한 확인에 사용하고 주변 문자열은 허용·거부와 창 스크린샷을 언급해요. 요청되는 접근 종류는 실제 화면에 표시된 내용을 읽어야 해요.",
+                    "generated_at": "2026-10-21T15:15:54.069519Z",
+                    "intent_type": "account_or_safety_notice",
+                    "related_terms": [
+                        "device access",
+                        "Allow",
+                        "Don’t Allow",
+                        "window screenshot"
+                    ],
+                    "search_intent": "Discord 안의 앱이 기기 접근 권한을 요청하는 이유를 찾는 검색이에요.",
+                    "source_context": "2026-10-20T05:34:01Z의 기기 접근 질문은 각 이용자의 선택과 창 스크린샷 안내와 함께 있어요. 현재 번들에서도 기기 접근 제목 사용을 확인했어요.",
+                    "summary": "Allow {app} to access this device?는 해당 앱의 기기 접근을 허용할지 묻는 확인이에요.",
+                    "what_it_means": "표시된 앱에 요청한 기기 접근을 허용할지 직접 결정하는 단계예요.",
+                    "what_to_do": "앱 이름과 요청 기능을 확인한 뒤 필요한 경우에만 허용하세요.",
+                    "when_it_appears": "앱이 기기 기능 사용 권한을 요청하는 확인 화면에서 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The current bundle uses this title for device permission prompts, and nearby copy mentions allow, deny, and a window screenshot. The actual requested capability must be read on the prompt.",
+                    "generated_at": "2026-10-21T15:15:54.069519Z",
+                    "intent_type": "account_or_safety_notice",
+                    "related_terms": [
+                        "device access",
+                        "Allow",
+                        "Don’t Allow",
+                        "window screenshot"
+                    ],
+                    "search_intent": "To understand a device-access request from an app inside Discord.",
+                    "source_context": "The device-access question at 2026-10-20T05:34:01Z accompanies individual consent and window-screenshot copy; the current bundle uses it as a device-access title.",
+                    "summary": "Allow {app} to access this device? asks whether to grant the named app device access.",
+                    "what_it_means": "You decide whether the named app may use the access described in the prompt.",
+                    "what_to_do": "Review the app name and requested capability, and allow it only if intended.",
+                    "when_it_appears": "It may appear in the permission prompt for an app requesting a device capability."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-10-22T09:37:43.430459+00:00"
 }
