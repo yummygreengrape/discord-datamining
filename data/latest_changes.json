@@ -1,5 +1,5 @@
 {
-    "build_hash": "7654739b41111503c4fb24d6a98a8399a90a70b6",
+    "build_hash": "777873e254faa4b4cd7f97a6a76c63d367855215",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,20 +14,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "lo6H6+": "Connect with {gameName}",
-                "qYAzOp": "Unlock social features like synced friends, messages, and even more!"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "lo6H6+": "{gameName}에 연결",
-                "qYAzOp": "동기화된 친구, 메시지 등 더 많은 소셜 기능을 잠금 해제하세요!"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-22T01:12:34.262719+00:00"
+    "timestamp": "2026-10-22T01:23:28.361543+00:00"
 }
