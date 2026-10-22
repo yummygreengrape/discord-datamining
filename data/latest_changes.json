@@ -1,15 +1,240 @@
 {
-    "build_hash": "6b14046eddf33e7977acfaaade85f69c77a7e76d",
+    "build_hash": "1a31a0639f176841ef442218411b966dba3280e2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "analysis": {
+                "detailed_summary": "기본 상태는 높은 실행 우선순위와 기본 작업 배분을 사용해요. 네 비교안은 일반 우선순위에 서로 다른 작업 배분 값을 조합해요. 이번 수정은 코드 안의 참조 이름이 바뀐 것이고, 기본값과 네 조합은 그대로예요. 현재 통화 연결을 시작할 때도 두 값을 읽어 전달하는 흐름을 다시 확인했어요. 끊김이나 CPU 사용량이 개선됐다는 측정 결과는 없어요.",
+                "evidence": [
+                    "400434 reads processPriority and threadPriorityConfiguration at media_engine_connect and passes both into connect.",
+                    "The modified history changes enum alias K to $; HIGH/NORMAL and thread configuration values 0 through 3 are unchanged."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "generated_at": "2026-10-21T00:41:35.932191+00:00",
+                "importance": "low",
+                "summary": "데스크톱 음성 통화에서 Discord에 주는 실행 우선순위를 비교해요.",
+                "why_it_matters": "화면 기능이 새로 생긴 변경으로 보기보다 통화 처리에 컴퓨터 자원을 배분하는 기존 비교의 유지로 이해할 수 있어요."
+            },
+            "analysis_en": {
+                "detailed_summary": "The default uses high process priority and the default thread configuration. Four comparisons combine normal process priority with different thread configurations. This modification changes a code reference alias while preserving the default and all four combinations. The current call connection still reads and passes both values. No measured reduction in stuttering or CPU use is established.",
+                "evidence": [
+                    "400434 reads processPriority and threadPriorityConfiguration at media_engine_connect and passes both into connect.",
+                    "The modified history changes enum alias K to $; HIGH/NORMAL and thread configuration values 0 through 3 are unchanged."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "generated_at": "2026-10-21T00:41:35.932191+00:00",
+                "importance": "low",
+                "summary": "Desktop voice calls continue comparing process and thread priorities.",
+                "why_it_matters": "The change maintains an existing comparison of resource allocation during calls rather than introducing a new screen feature."
+            },
+            "config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "default_config": {
+                "processPriority": "X.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-process-boost-on-voice",
+            "kind": "user",
+            "old_config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "old_default_config": {
+                "processPriority": "$.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "1": {
+                    "processPriority": "$.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "$.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "$.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "$.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "1": {
+                    "processPriority": "X.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "X.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "X.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "X.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "default_config": {
+                "processPriority": "X.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-02-process-boost-on-voice",
+            "kind": "user",
+            "old_config_keys": [
+                "processPriority",
+                "threadPriorityConfiguration"
+            ],
+            "old_default_config": {
+                "processPriority": "$.E6.HIGH",
+                "threadPriorityConfiguration": 0
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "old_variations": {
+                "1": {
+                    "processPriority": "$.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "$.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "$.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "$.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4"
+            ],
+            "variations": {
+                "1": {
+                    "processPriority": "X.E6.NORMAL",
+                    "threadPriorityConfiguration": 0
+                },
+                "2": {
+                    "processPriority": "X.E6.NORMAL",
+                    "threadPriorityConfiguration": 1
+                },
+                "3": {
+                    "processPriority": "X.E6.NORMAL",
+                    "threadPriorityConfiguration": 2
+                },
+                "4": {
+                    "processPriority": "X.E6.NORMAL",
+                    "threadPriorityConfiguration": 3
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-avx512-entropy-histogram",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-22T02:08:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-avx512-entropy-histogram",
+            "kind": "user",
+            "timestamp": "2026-10-22T02:08:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +248,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-22T02:06:29.054709+00:00"
+    "timestamp": "2026-10-22T02:17:23.548228+00:00"
 }
