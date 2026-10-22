@@ -1,5 +1,5 @@
 {
-    "build_hash": "611a5a09f9fc969070171daf027374598ea33745",
+    "build_hash": "b450f90cc536393b67ba277d4f350c8b6de66282",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "itMa3c": "Back to Shop"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-22T15:14:52.148481+00:00"
+    "timestamp": "2026-10-22T15:25:45.607929+00:00"
 }
