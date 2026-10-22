@@ -1,5 +1,5 @@
 {
-    "build_hash": "99bc303eee10e8fcb0a0708cedf8758d00ecfc7c",
+    "build_hash": "034f7e67d4eb7249a729bb37849719871dfb2d63",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,19 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "1HXutk": "Unlock a {discountPercent, number}% discount",
+                "EpCeMs": "{discountPercent, number}% discount applied",
+                "dWuM4X": "Nitro Exclusive: Unlock a {discountPercent, number}% discount with Orbs",
+                "lTwxHh": "{orbAmount, plural, one {# Orb} other {# Orbs}}",
+                "siNyGT": "Get {discountPercent, number}% off your next purchase.",
+                "tm2lfr": "Explore the {applicationName} Shop and treat yourself.",
+                "uBLTPw": "Spend Orbs to unlock {discountPercent, number}% off your next {applicationName} item. Nitro Only",
+                "vyOvli": "Unlock a {discountPercent, number}% discount with Orbs."
+            },
+            "deleted": {
+                "uyJSNf": "Join {guildName}"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-22T17:44:55.744771+00:00"
+    "timestamp": "2026-10-22T17:56:14.451339+00:00"
 }
