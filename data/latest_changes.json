@@ -1,12 +1,184 @@
 {
-    "build_hash": "44620fa2b263e1336dbe58218a901f2990e16dba",
+    "build_hash": "470abd40debde5216f0e5b11f7f451954fc34ac2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "analysis": {
+                "detailed_summary": "기본 상태는 세 조절 옵션을 모두 끄고, 비교안은 함께 켜요. 현재 코드는 Windows 데스크톱에서 게임 위 통화 창의 표시 여부를 확인해 영상 처리를 판단하고, Discord 창 밖의 말하기 테두리 애니메이션도 구분해요. 게임 성능을 재는 방식도 함께 바뀌어요. 이번 두 수정 행에는 애니메이션 범위와 전체 화면 창 가림 여부를 다루는 설정이 늘어났어요. 실제 게임 프레임이나 통화 품질이 개선됐다는 측정 결과는 없어요.",
+                "evidence": [
+                    "384077 restricts the three helpers to Windows desktop; 189577 and 276208 consume G$ for incoming video visibility.",
+                    "556525 consumes z1 for speaking-ring animation; 599812 consumes native CPU sampling. The native fullscreen setting is synchronized by 421052."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "generated_at": "2026-10-21T00:41:35.932191+00:00",
+                "importance": "medium",
+                "summary": "Windows에서 게임 중 Discord가 보이지 않을 때 통화 영상과 말하기 표시의 처리를 조절해요.",
+                "why_it_matters": "게임에 집중할 때 보이지 않는 Discord 화면의 처리를 줄이려는 방향으로 볼 수 있어요. 화면을 다시 열었을 때 영상이 정상적으로 돌아오는지도 함께 살펴야 해요."
+            },
+            "analysis_en": {
+                "detailed_summary": "The default disables all three options; the comparison enables them together. Windows desktop consumers check the game call window when deciding whether to process incoming video, and distinguish speaking animations outside the overlay. Game performance sampling changes as well. The two modified rows expand the options for animation scope and fullscreen popup visibility. No measured improvement in game frame rate or call quality is established.",
+                "evidence": [
+                    "384077 restricts the three helpers to Windows desktop; 189577 and 276208 consume G$ for incoming video visibility.",
+                    "556525 consumes z1 for speaking-ring animation; 599812 consumes native CPU sampling. The native fullscreen setting is synchronized by 421052."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "generated_at": "2026-10-21T00:41:35.932191+00:00",
+                "importance": "medium",
+                "summary": "On Windows, Discord adjusts call video and speaking indicators when its windows are hidden during a game.",
+                "why_it_matters": "The changes aim to avoid work for Discord surfaces that are not visible while gaming. Restoring video when a window becomes visible remains part of the behavior to examine."
+            },
+            "config_keys": [
+                "fullscreenPopupOcclusion",
+                "nativeSystemCpuTimes",
+                "overlayHiddenWavePaused",
+                "overlayOnlyAnimatesItself",
+                "renderOverlayWhileMinimized"
+            ],
+            "default_config": {
+                "fullscreenPopupOcclusion": false,
+                "nativeSystemCpuTimes": false,
+                "overlayHiddenWavePaused": false,
+                "overlayOnlyAnimatesItself": false,
+                "renderOverlayWhileMinimized": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-desktop-game-perf",
+            "kind": "user",
+            "old_config_keys": [
+                "fullscreenPopupOcclusion",
+                "nativeSystemCpuTimes",
+                "overlayHiddenWavePaused",
+                "overlayOnlyAnimatesItself"
+            ],
+            "old_default_config": {
+                "fullscreenPopupOcclusion": false,
+                "nativeSystemCpuTimes": false,
+                "overlayHiddenWavePaused": false,
+                "overlayOnlyAnimatesItself": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "fullscreenPopupOcclusion": false,
+                    "nativeSystemCpuTimes": false,
+                    "overlayHiddenWavePaused": false,
+                    "overlayOnlyAnimatesItself": false
+                },
+                "1": {
+                    "fullscreenPopupOcclusion": true,
+                    "nativeSystemCpuTimes": true,
+                    "overlayHiddenWavePaused": true,
+                    "overlayOnlyAnimatesItself": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "fullscreenPopupOcclusion": false,
+                    "nativeSystemCpuTimes": false,
+                    "overlayHiddenWavePaused": false,
+                    "overlayOnlyAnimatesItself": false,
+                    "renderOverlayWhileMinimized": false
+                },
+                "1": {
+                    "fullscreenPopupOcclusion": true,
+                    "nativeSystemCpuTimes": true,
+                    "overlayHiddenWavePaused": true,
+                    "overlayOnlyAnimatesItself": true,
+                    "renderOverlayWhileMinimized": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "fullscreenPopupOcclusion",
+                "nativeSystemCpuTimes",
+                "overlayHiddenWavePaused",
+                "overlayOnlyAnimatesItself",
+                "renderOverlayWhileMinimized"
+            ],
+            "default_config": {
+                "fullscreenPopupOcclusion": false,
+                "nativeSystemCpuTimes": false,
+                "overlayHiddenWavePaused": false,
+                "overlayOnlyAnimatesItself": false,
+                "renderOverlayWhileMinimized": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-desktop-game-perf",
+            "kind": "user",
+            "old_config_keys": [
+                "fullscreenPopupOcclusion",
+                "nativeSystemCpuTimes",
+                "overlayHiddenWavePaused",
+                "overlayOnlyAnimatesItself"
+            ],
+            "old_default_config": {
+                "fullscreenPopupOcclusion": false,
+                "nativeSystemCpuTimes": false,
+                "overlayHiddenWavePaused": false,
+                "overlayOnlyAnimatesItself": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "fullscreenPopupOcclusion": false,
+                    "nativeSystemCpuTimes": false,
+                    "overlayHiddenWavePaused": false,
+                    "overlayOnlyAnimatesItself": false
+                },
+                "1": {
+                    "fullscreenPopupOcclusion": true,
+                    "nativeSystemCpuTimes": true,
+                    "overlayHiddenWavePaused": true,
+                    "overlayOnlyAnimatesItself": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "fullscreenPopupOcclusion": false,
+                    "nativeSystemCpuTimes": false,
+                    "overlayHiddenWavePaused": false,
+                    "overlayOnlyAnimatesItself": false,
+                    "renderOverlayWhileMinimized": false
+                },
+                "1": {
+                    "fullscreenPopupOcclusion": true,
+                    "nativeSystemCpuTimes": true,
+                    "overlayHiddenWavePaused": true,
+                    "overlayOnlyAnimatesItself": true,
+                    "renderOverlayWhileMinimized": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -23,5 +195,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-23T00:50:39.215896+00:00"
+    "timestamp": "2026-10-23T01:01:32.900733+00:00"
 }
