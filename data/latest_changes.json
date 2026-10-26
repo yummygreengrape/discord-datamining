@@ -1,5 +1,5 @@
 {
-    "build_hash": "6082c04b9d8dc0ed98885af44ca3c2bc08c5650c",
+    "build_hash": "2b473fbc9811f41c1f264c044c07a8b71900341f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "GX91jv": "Too fast! Wait a bit and try again."
+                "hYjG3N": "Turn on activity sharing and personalization to join the rankings."
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T18:10:27.841590+00:00"
+    "timestamp": "2026-10-26T18:31:42.429251+00:00"
 }
