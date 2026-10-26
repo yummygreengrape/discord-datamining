@@ -1,5 +1,5 @@
 {
-    "build_hash": "5bf9463c90914e4b4b8191dd26c4bc351201de83",
+    "build_hash": "02aa4df3d4d131e49b89d26a8eed3f076f26fdb1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,15 +13,22 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "KXodvL": "Invalid payment source billing address. Please update your payment source or billing address and try again. [Learn More]({helpdeskArticle})"
+            },
+            "deleted": {
+                "BILLING_ERROR_INVALID_BILLING_ADDRESS": "Invalid payment source billing address. Please update your payment source or billing address and try again.",
+                "yVIm/G": "Invalid payment source billing address. Please update your payment source or billing address and try again."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "yVIm/G": "유효하지 않은 결제 수단 청구 주소입니다. 결제 수단이나 청구 주소를 업데이트한 뒤 다시 시도하세요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T09:28:58.120900+00:00"
+    "timestamp": "2026-10-26T09:39:58.158403+00:00"
 }
