@@ -1,20 +1,8 @@
 {
-    "build_hash": "54666ca751c56351bd56b76c1ba1592bb57d3d97",
+    "build_hash": "4481c4eeed71e6ec42ba3b8819f9a444c414fb9b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-game-profile-mobile-reviews",
-            "kind": "user",
-            "timestamp": "2026-10-26T23:05:50Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -35,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T23:13:59.480870+00:00"
+    "timestamp": "2026-10-26T23:24:51.952057+00:00"
 }
