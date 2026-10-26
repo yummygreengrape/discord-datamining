@@ -1,61 +1,19 @@
 {
-    "build_hash": "3ca3f58827a5b14fee2d3ee879571828a4de0974",
-    "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
+    "build_hash": "b060001305b25df14b22c691674458b706e4b22a",
+    "deleted_api_endpoints": [
         {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-timestamp-autocomplete-mobile",
-            "kind": "user",
+            "name": "AGE_ASSURANCE_TEST",
             "status": "deleted",
-            "timestamp": "2026-10-26T16:14:11Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
+            "url": "/age-verification/test"
+        },
         {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-timestamp-autocomplete-mobile",
-            "kind": "user",
-            "timestamp": "2026-10-26T16:14:11Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
+            "name": "ENDPOINT_AGE_VERIFICATION_TEST",
+            "status": "deleted",
+            "url": "/age-verification/test"
         }
     ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -76,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T16:22:42.435737+00:00"
+    "timestamp": "2026-10-26T16:43:55.077945+00:00"
 }
