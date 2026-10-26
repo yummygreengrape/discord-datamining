@@ -1,8 +1,155 @@
 {
-    "build_hash": "a2136437332a3e03da693a7e6d59b57f60ffbe5b",
+    "build_hash": "b4c54ab0b6d5f037a6853a668d35c27cc8d99aaf",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "분석 인터페이스 사용 여부를 켭니다."
+                    },
+                    {
+                        "key": "maxStep",
+                        "note": "로드, 내부 클릭, 외부 클릭, 비노출 조회, 노출 조회 단계 중 어디까지 활성화할지 정합니다."
+                    }
+                ],
+                "detailed_summary": "스폰서드 콘텐츠와 광고 CTA의 분석 이벤트를 단계별로 켜는 실험입니다. Canary 청크에서 STEP_1_LOADED부터 STEP_5_VIEWED_IMPRESSION까지의 단계 enum과 maxStep 값이 함께 확인되어, 사용자 화면 자체보다 광고/퀘스트 카드의 노출 및 클릭 측정 범위를 조절하는 변경으로 해석됩니다.",
+                "evidence": [
+                    "canary/web.c0ac8579b6abf687.js: STEP_1_LOADED~STEP_5_VIEWED_IMPRESSION enum 주변에서 실험 등록 확인",
+                    "maxStep variation이 -1, 0, 1, 2, 3, 4로 단계별 측정 범위를 나눔"
+                ],
+                "evidence_level": "current_canary_usage",
+                "focus_area": "광고/퀘스트 분석",
+                "generated_at": "2026-06-06T05:06:17.601Z",
+                "importance": "medium",
+                "summary": "스폰서드 콘텐츠나 광고 CTA가 로드부터 외부 클릭, 노출 판정까지 어느 단계로 측정되는지 나누는 실험입니다.",
+                "why_it_matters": "maxStep이 -1부터 4까지 나뉘어 있어 Discord가 CTA 퍼널의 어느 지점까지 측정할지 점진적으로 검증할 수 있습니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "Enables the analytics interface."
+                    },
+                    {
+                        "key": "maxStep",
+                        "note": "Selects the deepest load, click, or impression step to activate."
+                    }
+                ],
+                "detailed_summary": "This experiment gates a staged analytics interface for sponsored content and ad CTAs. The Canary chunk registers STEP_1_LOADED through STEP_5_VIEWED_IMPRESSION next to maxStep, so the change is about how far the ad/Quest CTA measurement funnel is enabled rather than a direct visual redesign.",
+                "evidence": [
+                    "canary/web.c0ac8579b6abf687.js registers the experiment beside STEP_1_LOADED through STEP_5_VIEWED_IMPRESSION",
+                    "maxStep variations split the rollout across -1, 0, 1, 2, 3, and 4"
+                ],
+                "evidence_level": "current_canary_usage",
+                "focus_area": "Ads/Quest analytics",
+                "generated_at": "2026-06-06T05:06:17.601Z",
+                "importance": "medium",
+                "summary": "Tests how sponsored content or ad CTAs are measured from load through external click and impression states.",
+                "why_it_matters": "maxStep ranges from -1 to 4, letting Discord roll out and validate deeper CTA funnel measurement in controlled steps."
+            },
+            "config_keys": [
+                "enabled",
+                "maxStep"
+            ],
+            "default_config": {
+                "enabled": false,
+                "maxStep": -1
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-use-ad-analytics-interface",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-10-26T14:59:22Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "maxStep": -1
+                },
+                "1": {
+                    "enabled": true,
+                    "maxStep": 0
+                },
+                "2": {
+                    "enabled": true,
+                    "maxStep": 1
+                },
+                "3": {
+                    "enabled": true,
+                    "maxStep": 2
+                },
+                "4": {
+                    "enabled": true,
+                    "maxStep": 3
+                },
+                "5": {
+                    "enabled": true,
+                    "maxStep": 4
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "maxStep"
+            ],
+            "default_config": {
+                "enabled": false,
+                "maxStep": -1
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-05-use-ad-analytics-interface",
+            "kind": "user",
+            "timestamp": "2026-10-26T14:59:22Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "maxStep": -1
+                },
+                "1": {
+                    "enabled": true,
+                    "maxStep": 0
+                },
+                "2": {
+                    "enabled": true,
+                    "maxStep": 1
+                },
+                "3": {
+                    "enabled": true,
+                    "maxStep": 2
+                },
+                "4": {
+                    "enabled": true,
+                    "maxStep": 3
+                },
+                "5": {
+                    "enabled": true,
+                    "maxStep": 4
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -23,5 +170,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T14:57:28.998580+00:00"
+    "timestamp": "2026-10-26T15:08:23.059312+00:00"
 }
