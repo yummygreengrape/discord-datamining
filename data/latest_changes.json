@@ -1,5 +1,5 @@
 {
-    "build_hash": "d5247ece810794adf5069995257a6b19fb12c7d1",
+    "build_hash": "e4f427a9b73a714cebbc292057b6a7236d6b47d6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,16 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "/6YRCf": "Last published {time}",
-                "6E9W4F": "Your project is up to date.",
-                "D9erxW": "Last published {time} · v{version}",
-                "Gdz7pg": "You have pending changes",
-                "KHg4Dk": "Sync",
-                "NUZBwo": "Not published yet",
-                "yCgX8i": "Sharing with"
+            "added": {
+                "YMk5qU": "Clip from {time}"
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -31,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T17:37:44.862319+00:00"
+    "timestamp": "2026-10-26T17:48:39.743643+00:00"
 }
