@@ -1,42 +1,38 @@
 {
-    "build_hash": "05183933ccebb7cd5dc6fd1ad67ccf151715d6f7",
+    "build_hash": "b893b976da339f7fdae9b3bf1ccdbf36798bc97b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-update-email-settings-copy-subtext",
-            "kind": "user",
-            "timestamp": "2026-10-26T21:40:49Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_STORE_SKUS_PUBLIC",
+            "status": "added",
+            "url": "/store/skus/:param/public"
+        },
+        {
+            "name": "STORE_SKU_PUBLIC",
+            "status": "added",
+            "url": "/store/skus/:param/public"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "WViBDk": "We track email opens and clicks to see what’s useful and improve the emails we send."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "WViBDk": "발송하는 이메일을 개선하고 유용한 정보를 파악하기 위해 이메일 열림 및 클릭 횟수를 추적합니다."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T21:47:08.473466+00:00"
+    "timestamp": "2026-10-26T21:57:59.966275+00:00"
 }
