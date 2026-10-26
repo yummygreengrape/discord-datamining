@@ -1,5 +1,5 @@
 {
-    "build_hash": "2b473fbc9811f41c1f264c044c07a8b71900341f",
+    "build_hash": "32e87f5c7af530a94311ab41ba5b6b528dede572",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "hYjG3N": "Turn on activity sharing and personalization to join the rankings."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T18:31:42.429251+00:00"
+    "timestamp": "2026-10-26T18:42:34.570226+00:00"
 }
