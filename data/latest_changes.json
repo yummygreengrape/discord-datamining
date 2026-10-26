@@ -1,53 +1,8 @@
 {
-    "build_hash": "000ea0b7fecd499ae38fb90d20940d4be76e734c",
+    "build_hash": "4813881f0aeed947ee2f54e9c9efa3b4e5645da1",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-wetf-parser",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-26T20:21:37Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-wetf-parser",
-            "kind": "user",
-            "timestamp": "2026-10-26T20:21:37Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -68,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T20:31:08.597108+00:00"
+    "timestamp": "2026-10-26T20:41:58.254374+00:00"
 }
