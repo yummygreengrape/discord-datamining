@@ -1,61 +1,19 @@
 {
-    "build_hash": "c05d1ab6224b7ff886a692b8258b1b58672362b4",
+    "build_hash": "dc11e732f21a46d7db02dc8d985e689241756195",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-10-fix-soundboard-muting-iconography",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": true
-            },
-            "status": "modified",
-            "treatments": [],
-            "variations": {
-                "1": true
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-10-fix-soundboard-muting-iconography",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": true
-            },
-            "status": "modified",
-            "treatments": [],
-            "variations": {
-                "1": true
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "D1BwNC": "{count, plural, one {Couldn’t message your guardian. Please try again later.} other {Couldn’t message your guardians. Please try again later.}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -65,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T19:36:53.541271+00:00"
+    "timestamp": "2026-10-26T19:47:43.728385+00:00"
 }
