@@ -1,8 +1,53 @@
 {
-    "build_hash": "e4f427a9b73a714cebbc292057b6a7236d6b47d6",
+    "build_hash": "626d0f192c784fe5c9f9d8622ab7b1c4bdffd573",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-conversation-topic-header",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-10-26T17:52:35Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-conversation-topic-header",
+            "kind": "user",
+            "timestamp": "2026-10-26T17:52:35Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -14,7 +59,20 @@
     "string_changes": {
         "en": {
             "added": {
-                "YMk5qU": "Clip from {time}"
+                "+v889h": "{timeLeft} LEFT",
+                "16+Zv5": "It’s {name}’s Discord Anniversary!",
+                "7nFo+/": "{name}’s celebrating {years, plural, one {# year} other {# years}} on Discord! Send them a gift to celebrate!",
+                "8YMgb/": "Happy Discord Anniversary!",
+                "D1CSNP": "Your friend’s made it another year on Discord! Send them a gift or GIF to help them celebrate!",
+                "R852HS": "New Discord Anniversary!",
+                "RVYbK6": "Hide Icon",
+                "TSuiJ/": "Discord Anniversary Icon",
+                "UB8tME": "Flex an icon next to your name for the day to celebrate!",
+                "XkE3ZV": "Check It Out",
+                "Xz3o7I": "Discord Anniversary",
+                "rZ36t1": "{years, plural, one {# year} other {# years}} on Discord! Send them the gift of Nitro or a GIF to celebrate!",
+                "tdF5fb": "{years, plural, one {# year} other {# years}} and counting! Rock an icon next to your name for the day. Edit this anytime in your profile.",
+                "v7QDUk": "{years, plural, one {# year} other {# years}} on Discord"
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +83,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T17:48:39.743643+00:00"
+    "timestamp": "2026-10-26T17:59:34.962321+00:00"
 }
