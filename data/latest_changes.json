@@ -1,5 +1,5 @@
 {
-    "build_hash": "1a3a15e37d708be06af50cfa2c7319936ecf3371",
+    "build_hash": "47edae814afddaa3299d8bc8732c69be3536a97f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "8OFeFD": "Go to {applicationName} Shop"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T19:04:18.202002+00:00"
+    "timestamp": "2026-10-26T19:15:09.715439+00:00"
 }
