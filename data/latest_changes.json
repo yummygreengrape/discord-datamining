@@ -1,17 +1,6 @@
 {
-    "build_hash": "b060001305b25df14b22c691674458b706e4b22a",
-    "deleted_api_endpoints": [
-        {
-            "name": "AGE_ASSURANCE_TEST",
-            "status": "deleted",
-            "url": "/age-verification/test"
-        },
-        {
-            "name": "ENDPOINT_AGE_VERIFICATION_TEST",
-            "status": "deleted",
-            "url": "/age-verification/test"
-        }
-    ],
+    "build_hash": "ed223b70de09cfe6c8e4b9a5a53c5fd8fed0d97d",
+    "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
@@ -34,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T16:43:55.077945+00:00"
+    "timestamp": "2026-10-26T16:54:56.754703+00:00"
 }
