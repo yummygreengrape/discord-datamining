@@ -1,5 +1,5 @@
 {
-    "build_hash": "cb7ded39afc2dad6851db50166bf3edc27d1a8f5",
+    "build_hash": "a286841e8b2d39568d27463d9cf6371852130deb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,12 +8,69 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-add-server-join-first",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-26T21:22:30Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-add-server-join-first",
+            "kind": "user",
+            "timestamp": "2026-10-26T21:22:30Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "9BRB6M": "Want to start your own? $[Create a server](createServerHook)",
+                "EHWhyt": "Browse Discovery",
+                "kOiiUl": "e.g. {inviteCode}, discord.gg/{inviteCode}, discord.gg/{vanityCode}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +80,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T21:14:31.853037+00:00"
+    "timestamp": "2026-10-26T21:25:22.083358+00:00"
 }
