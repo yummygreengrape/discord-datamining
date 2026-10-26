@@ -1,5 +1,5 @@
 {
-    "build_hash": "47edae814afddaa3299d8bc8732c69be3536a97f",
+    "build_hash": "ad108fa1c19d9d15abb9d1ad2ede7206cb65145a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,22 +8,58 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-fix-soundboard-muting-iconography",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-26T19:20:51Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": true
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-fix-soundboard-muting-iconography",
+            "kind": "user",
+            "timestamp": "2026-10-26T19:20:51Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": true
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "8OFeFD": "Go to {applicationName} Shop"
+                "8OFeFD": "Go to {applicationName} Shop",
+                "wQKOBb": "Incoming Soundboard Volume"
             },
-            "deleted": {},
+            "deleted": {
+                "qGDEON": "Be the first to Boost this server 🥇",
+                "s+HTdX": "Boosting helps unlock perks for everyone! You’ll also get a special role color and badge for being a Booster. $[View all perks](viewAllPerks)"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "qGDEON": "이 서버를 부스트하는 첫 번째 사람이 되세요 🥇",
+                "s+HTdX": "부스트를 하면 모두가 사용할 수 있는 특전을 잠금 해제할 수 있어요! 부스트를 하는 동안에는 특별한 역할 색상과 배지도 받을 수 있답니다. viewAllPerksHook모든특전 보기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T19:15:09.715439+00:00"
+    "timestamp": "2026-10-26T19:26:00.396012+00:00"
 }
