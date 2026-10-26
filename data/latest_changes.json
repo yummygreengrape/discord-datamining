@@ -1,5 +1,5 @@
 {
-    "build_hash": "13578ea9df779bc01d7dc5b2465dd34aba31882b",
+    "build_hash": "b2117d8d1b5352dd16e7d929c68544882a71b932",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,11 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "2DP8cR": "Your browser blocked the pop-out window. Allow pop-ups for Discord and try again.",
-                "7Q/ajl": "Defaulting to your main profile, {value}",
-                "DHr5On": "Painting"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T22:41:22.121542+00:00"
+    "timestamp": "2026-10-26T22:52:15.519320+00:00"
 }
