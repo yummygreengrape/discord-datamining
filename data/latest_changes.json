@@ -1,5 +1,5 @@
 {
-    "build_hash": "8e556a097f562e256d79445e7e06016198e43b21",
+    "build_hash": "05183933ccebb7cd5dc6fd1ad67ccf151715d6f7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [
@@ -8,7 +8,7 @@
             "experiment_type": "apex",
             "id": "2026-09-update-email-settings-copy-subtext",
             "kind": "user",
-            "timestamp": "2026-10-26T21:31:40Z",
+            "timestamp": "2026-10-26T21:40:49Z",
             "treatments": [
                 "Variant 1"
             ]
@@ -20,25 +20,12 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-conjure-mcp-ui",
-            "kind": "user",
-            "timestamp": "2026-10-26T21:27:34Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {},
             "deleted": {
-                "LSoXK5": "(Optional) Send me emails with Discord updates, tips, and special offers. We track opens and clicks to learn what’s useful.",
                 "WViBDk": "We track email opens and clicks to see what’s useful and improve the emails we send."
             },
             "modified": {}
@@ -46,10 +33,10 @@
         "ko": {
             "added": {},
             "deleted": {
-                "LSoXK5": "(선택 사항) Discord 업데이트, 팁 및 특별 혜택이 포함된 이메일을 받겠습니다. Discord는 유용한 정보를 파악하기 위해 이메일 열림 및 클릭 횟수를 추적합니다."
+                "WViBDk": "발송하는 이메일을 개선하고 유용한 정보를 파악하기 위해 이메일 열림 및 클릭 횟수를 추적합니다."
             },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T21:36:13.894511+00:00"
+    "timestamp": "2026-10-26T21:47:08.473466+00:00"
 }
