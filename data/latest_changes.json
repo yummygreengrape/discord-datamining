@@ -1,79 +1,8 @@
 {
-    "build_hash": "4d0c32836856a845ce69d7e888ed6d704d684c44",
+    "build_hash": "2dcf3f12089029a0651bbea1a811b43513a76f5e",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "detailed_summary": "현재 클라이언트는 화면 전체의 표시 설정을 만들 때 이 실험값을 읽고, 켜진 경우 알림용 새 구성 요소를 활성화하는 표시 조건을 추가합니다. 같은 시점에는 경고·성공·정보·오류 알림 아이콘의 접근성 문구와 닫기 버튼 문구도 추가됐습니다. 기본 상태에서는 해당 표시 조건을 추가하지 않습니다. 어떤 알림이 어떻게 달라지는지까지는 현재 근거로 특정할 수 없습니다.",
-                "evidence": [
-                    "The root display provider reads the exact flag and adds mana-notification-components to enabledExperiments.",
-                    "Same-window strings add notification icon accessibility labels and Dismiss."
-                ],
-                "evidence_level": "current_canary_flag_and_strings",
-                "focus_area": "알림 표시와 접근성",
-                "generated_at": "2026-09-30T04:08:56Z",
-                "importance": "low",
-                "summary": "알림 화면의 새 표시 구성 요소를 켜는 조건을 비교합니다.",
-                "why_it_matters": "알림의 표시 방식과 보조 기술에서 읽히는 이름에 영향을 줄 수 있으므로 실제 화면 비교가 다음 확인 포인트입니다."
-            },
-            "analysis_en": {
-                "detailed_summary": "The current client reads this experiment while building its screen-wide display settings and adds a notification-component flag when enabled. The same period also adds accessibility labels for warning, success, information, and error icons and a dismiss label. The default experiment setting leaves this flag off. The evidence does not identify the exact visual difference for each notification.",
-                "evidence": [
-                    "The root display provider reads the exact flag and adds mana-notification-components to enabledExperiments.",
-                    "Same-window strings add notification icon accessibility labels and Dismiss."
-                ],
-                "evidence_level": "current_canary_flag_and_strings",
-                "focus_area": "Notification display and accessibility",
-                "generated_at": "2026-09-30T04:08:56Z",
-                "importance": "low",
-                "summary": "Tests a new set of components used to display notifications.",
-                "why_it_matters": "This may affect how notices appear and how assistive technology names them; a screen comparison is still needed."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-design-systems-notification-components",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-26T15:12:32Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-design-systems-notification-components",
-            "kind": "user",
-            "timestamp": "2026-10-26T15:12:32Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -94,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T15:19:14.629564+00:00"
+    "timestamp": "2026-10-26T16:01:01.892965+00:00"
 }
