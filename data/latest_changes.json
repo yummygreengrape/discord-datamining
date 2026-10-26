@@ -1,65 +1,69 @@
 {
-    "build_hash": "ad108fa1c19d9d15abb9d1ad2ede7206cb65145a",
+    "build_hash": "c05d1ab6224b7ff886a692b8258b1b58672362b4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-fix-soundboard-muting-iconography",
+            "kind": "user",
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": true
+            },
+            "status": "modified",
+            "treatments": [],
+            "variations": {
+                "1": true
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-fix-soundboard-muting-iconography",
+            "kind": "user",
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": true
+            },
+            "status": "modified",
+            "treatments": [],
+            "variations": {
+                "1": true
+            }
+        }
+    ],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-fix-soundboard-muting-iconography",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-26T19:20:51Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": true
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-fix-soundboard-muting-iconography",
-            "kind": "user",
-            "timestamp": "2026-10-26T19:20:51Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": true
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "8OFeFD": "Go to {applicationName} Shop",
-                "wQKOBb": "Incoming Soundboard Volume"
+                "D1BwNC": "{count, plural, one {Couldn’t message your guardian. Please try again later.} other {Couldn’t message your guardians. Please try again later.}}"
             },
-            "deleted": {
-                "qGDEON": "Be the first to Boost this server 🥇",
-                "s+HTdX": "Boosting helps unlock perks for everyone! You’ll also get a special role color and badge for being a Booster. $[View all perks](viewAllPerks)"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "qGDEON": "이 서버를 부스트하는 첫 번째 사람이 되세요 🥇",
-                "s+HTdX": "부스트를 하면 모두가 사용할 수 있는 특전을 잠금 해제할 수 있어요! 부스트를 하는 동안에는 특별한 역할 색상과 배지도 받을 수 있답니다. viewAllPerksHook모든특전 보기"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T19:26:00.396012+00:00"
+    "timestamp": "2026-10-26T19:36:53.541271+00:00"
 }
