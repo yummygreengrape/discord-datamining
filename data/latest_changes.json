@@ -1,5 +1,5 @@
 {
-    "build_hash": "4813881f0aeed947ee2f54e9c9efa3b4e5645da1",
+    "build_hash": "b2ea01910ba183f5a20861e7ad0d9fa6fd5b415c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,16 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "3eTjcV": "Widget",
+                "AV87WX": "Its own style",
+                "EH36X6": "Overlay sketch views",
+                "d9bW4W": "Looks like Discord",
+                "l3j5nS": "Over a game",
+                "mjryK4": "A sketch of the overlay widget",
+                "ubBJcy": "Your references",
+                "xFgQ8L": "Reference image {number}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +32,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-26T20:41:58.254374+00:00"
+    "timestamp": "2026-10-26T20:52:49.530846+00:00"
 }
