@@ -1,5 +1,5 @@
 {
-    "build_hash": "eea57029a28e1bbce3188ee5ba23ff7558e8669f",
+    "build_hash": "1ff3d5014c03606b4486095e66bb02e4cc700d16",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "tm1WHd": "Reorder widgets"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T18:26:43.077175+00:00"
+    "timestamp": "2026-10-27T18:37:31.254077+00:00"
 }
