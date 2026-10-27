@@ -1,19 +1,200 @@
 {
-    "build_hash": "06fcef805b874f8231783dd90920cc7d3d65c513",
+    "build_hash": "41507a4282159bf61afc9e10c255da17ba96ec8e",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "켜지면 음성·화면 공유 서버 업데이트 이벤트를 즉시 처리합니다."
+                    }
+                ],
+                "detailed_summary": "기본 상태에서는 대부분의 서버 이벤트가 짧은 작업 대기열을 거쳐 묶음으로 처리됩니다. 비교안은 음성 통화 서버 변경과 화면 공유 서버 변경 이벤트가 들어오면 예약된 대기를 취소하고 즉시 처리합니다. 화면이나 버튼을 새로 추가하는 실험은 아니며, 통화 연결·재연결 또는 화면 공유 전환이 서버 정보를 기다리는 시간을 줄이려는 변화로 보입니다. 실제 지연 감소 폭은 네트워크와 서버 상태에 따라 달라집니다.",
+                "evidence": [
+                    "Current Canary module 303414 reads the experiment in GatewaySocketDispatcher.",
+                    "When enabled, VOICE_SERVER_UPDATE and STREAM_SERVER_UPDATE join the immediate-flush event set and cancel scheduled queue work before dispatch."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "음성·영상 통화 서버 업데이트 처리",
+                "generated_at": "2026-08-29T04:15:57Z",
+                "importance": "medium",
+                "summary": "음성·영상 통화 연결 관련 서버 업데이트를 일반 대기열보다 먼저 처리하는 실험입니다.",
+                "why_it_matters": "통화나 화면 공유가 서버 전환 정보를 기다릴 때 생기는 짧은 멈춤을 줄일 가능성이 있지만, 체감 효과는 연결 환경에 따라 다릅니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "When enabled, voice and stream server update events flush immediately."
+                    }
+                ],
+                "detailed_summary": "By default, most gateway events pass through a short work queue so they can be processed in batches. The comparison cancels the scheduled wait and flushes immediately for voice-server and stream-server update events. It does not add a new screen or control; it is intended to reduce time spent waiting for server information during call connection, reconnection, or stream transitions. The actual latency change still depends on network and server conditions.",
+                "evidence": [
+                    "Current Canary module 303414 reads the experiment in GatewaySocketDispatcher.",
+                    "When enabled, VOICE_SERVER_UPDATE and STREAM_SERVER_UPDATE join the immediate-flush event set and cancel scheduled queue work before dispatch."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Voice and stream server update handling",
+                "generated_at": "2026-08-29T04:15:57Z",
+                "importance": "medium",
+                "summary": "Processes voice and stream server updates immediately instead of waiting for the normal dispatch queue.",
+                "why_it_matters": "This may reduce short stalls while calls or streams wait for updated server details, although the visible effect varies by connection conditions."
+            },
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-voice-server-update-immediate",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-10-27T22:28:18Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-voice-server-update-immediate",
+            "kind": "user",
+            "timestamp": "2026-10-27T22:28:18Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "enabled",
+                "variation"
+            ],
+            "default_config": {
+                "enabled": false,
+                "variation": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-express-checkout",
+            "kind": "user",
+            "old_config_keys": [
+                "configurationType",
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "old_variations": {
+                "1": {
+                    "configurationType": "review_footer",
+                    "enabled": true
+                },
+                "2": {
+                    "configurationType": "payment_selector",
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "variation": 1
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "variation"
+            ],
+            "default_config": {
+                "enabled": false,
+                "variation": 0
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-express-checkout",
+            "kind": "user",
+            "old_config_keys": [
+                "configurationType",
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "old_variations": {
+                "1": {
+                    "configurationType": "review_footer",
+                    "enabled": true
+                },
+                "2": {
+                    "configurationType": "payment_selector",
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true,
+                    "variation": 1
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "N4EAHm": "or"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +204,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T22:25:03.515524+00:00"
+    "timestamp": "2026-10-27T22:35:55.129233+00:00"
 }
