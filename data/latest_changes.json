@@ -1,5 +1,5 @@
 {
-    "build_hash": "e2b004f7e8635c83fbdbe9828a56603c454f5b3d",
+    "build_hash": "fcb4ee04e41e1ba75bc3480ca082273c42e14e18",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,12 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+pSIev": "Done",
-                "7a+RNP": "Device Permissions",
-                "IJY15p": "What {app} can do on this device. Changes apply right away.",
-                "wyav+H": "Not asked yet"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -28,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T08:34:00.448538+00:00"
+    "timestamp": "2026-10-27T10:28:47.208967+00:00"
 }
