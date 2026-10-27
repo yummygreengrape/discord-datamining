@@ -1,5 +1,5 @@
 {
-    "build_hash": "96f5567048438a5118c241d84ef15d785bb6347f",
+    "build_hash": "7e095c4e275584c37a2a5a9cd7856442df872ed3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,15 +9,25 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-sfp-bloons-orb-split-tender",
+            "kind": "user",
+            "timestamp": "2026-10-27T18:14:27Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "bd0Ufh": "Turn on sound",
-                "dxBzpe": "Turn off sound",
-                "jmMirO": "Closed {appName} to make room. Up to 2 apps can float at once."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T18:05:01.838420+00:00"
+    "timestamp": "2026-10-27T18:15:54.331049+00:00"
 }
