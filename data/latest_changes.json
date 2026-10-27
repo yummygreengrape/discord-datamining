@@ -1,5 +1,5 @@
 {
-    "build_hash": "a3a5cda8b1d107a5ae4f77621aea5fa3c86e65a6",
+    "build_hash": "91b513d44a6eaf1119ca73fe6de1fa562a6d3a35",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,12 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0GsO43": "<1 month",
+                "X3Qd8c": "{years, plural, one {# year} other {# years}}, {months, plural, one {# month} other {# months}}",
+                "lapk3f": "Reminder updated.",
+                "v01Jn+": "{count, plural, one {# gift} other {# gifts}}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T23:47:37.046861+00:00"
+    "timestamp": "2026-10-27T23:58:36.105840+00:00"
 }
