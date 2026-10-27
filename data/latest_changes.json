@@ -1,27 +1,60 @@
 {
-    "build_hash": "317ae71bd43c14ff204040f48b287c874247742a",
+    "build_hash": "af638d5342f871586584a7d3b4996f86d617c3bd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-soundboard-favorites",
+            "kind": "user",
+            "timestamp": "2026-10-27T16:33:14Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-native-markdown-setting",
+            "kind": "user",
+            "timestamp": "2026-10-27T16:30:10Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "5CIvT4": "Use new message formatting",
+                "GwQs0C": "New Markdown Parser",
+                "LSoXK5": "(Optional) Send me emails with Discord updates, tips, and special offers. We track opens and clicks to learn what’s useful."
+            },
+            "deleted": {
+                "KFcQy8": "Reorder your favorite sounds!",
+                "P/1x7s": "Drag and drop your favorite sounds in any order you like."
+            },
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "LSoXK5": "(선택 사항) Discord 업데이트, 팁 및 특별 혜택이 포함된 이메일을 받겠습니다. Discord는 유용한 정보를 파악하기 위해 이메일 열림 및 클릭 횟수를 추적합니다."
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T17:20:58.235439+00:00"
+    "timestamp": "2026-10-27T17:32:28.072196+00:00"
 }
