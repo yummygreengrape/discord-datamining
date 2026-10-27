@@ -1,5 +1,5 @@
 {
-    "build_hash": "7e095c4e275584c37a2a5a9cd7856442df872ed3",
+    "build_hash": "eea57029a28e1bbce3188ee5ba23ff7558e8669f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,21 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-sfp-bloons-orb-split-tender",
-            "kind": "user",
-            "timestamp": "2026-10-27T18:14:27Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -37,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T18:15:54.331049+00:00"
+    "timestamp": "2026-10-27T18:26:43.077175+00:00"
 }
