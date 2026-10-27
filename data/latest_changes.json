@@ -1,5 +1,5 @@
 {
-    "build_hash": "ac140c168b336fdd92d0210ce71b375916f8800c",
+    "build_hash": "d94f7e0a5c099e82159c417643b6974c3c39d9ff",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,12 +14,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "2IkgzL": "Choose at least {min, select, 1 {one} 2 {two} 3 {three} 4 {four} 5 {five} other {{min}}} {min, select, 1 {game} other {games}} to get started.",
-                "8Xenq+": "Search games",
-                "Khsqzs": "Try a different search.",
-                "mq1uuT": "What brings you here?",
-                "v9v0uY": "{count} of {max} selected",
-                "w5cRz0": "No games found"
+                "OkMPbI": "Awaiting response"
             },
             "deleted": {},
             "modified": {}
@@ -30,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T03:19:09.496366+00:00"
+    "timestamp": "2026-10-27T03:40:19.339400+00:00"
 }
