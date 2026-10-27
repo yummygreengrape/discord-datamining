@@ -1,5 +1,5 @@
 {
-    "build_hash": "b9e082e200cc1e6ce418039c056cb8f0c571b58b",
+    "build_hash": "bf8d8194388e0712ca583ef6eba09f9b685c7288",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,17 +14,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "34+ZcS": "New project",
-                "5LSwvg": "Hide Chat",
-                "6GOFLB": "Annotate",
-                "BGh3xB": "Conjure isn’t available in any of your servers yet.",
-                "DE7U+m": "Pin to server list",
-                "OsD9T0": "Close More Options",
-                "dFMslg": "Unpin from server list",
-                "koUZKY": "Home",
-                "lqroiy": "Your projects",
-                "qbUdLZ": "Published",
-                "tx8Azx": "Import a project"
+                "Bakb3u": "bHookYou asked someone to stream"
             },
             "deleted": {},
             "modified": {}
@@ -35,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T21:07:34.044291+00:00"
+    "timestamp": "2026-10-27T21:18:24.012851+00:00"
 }
