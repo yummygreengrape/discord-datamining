@@ -1,20 +1,8 @@
 {
-    "build_hash": "aa328b59b7da72e75f3b61fd7f813936f973032d",
+    "build_hash": "2fb975aa63b7a9f67af541bdabaf7e857684448e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-powerups-coachmark-scroll-close",
-            "kind": "user",
-            "timestamp": "2026-10-27T18:53:53Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -35,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T18:58:38.097264+00:00"
+    "timestamp": "2026-10-27T19:09:25.983807+00:00"
 }
