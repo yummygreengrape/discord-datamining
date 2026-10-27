@@ -1,5 +1,5 @@
 {
-    "build_hash": "799491a73a97d244f41a5236a8a7c2b348d1ef2e",
+    "build_hash": "e133bbf28369d208534900c615d6cbb43ce465b5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,28 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "34+ZcS": "New project",
+                "5LSwvg": "Hide Chat",
+                "6GOFLB": "Annotate",
+                "BGh3xB": "Conjure isn’t available in any of your servers yet.",
+                "Bakb3u": "**You** asked someone to stream",
+                "DE7U+m": "Pin to server list",
+                "GHgG2B": "This project has used {percent}% of its {limit} AI budget.",
+                "GYqJXH": "This project has used its {limit} AI budget, so AI features are paused. [Contact Discord support]({helpdeskURL}) to request a higher limit.",
+                "OsD9T0": "Close More Options",
+                "Z0hyNL": "AI features are paused for this project",
+                "bw/n4C": "This project has used its AI budget, so AI features are paused. [Contact Discord support]({helpdeskURL}) to request a higher limit.",
+                "dFMslg": "Unpin from server list",
+                "koUZKY": "Home",
+                "lqroiy": "Your projects",
+                "qbUdLZ": "Published",
+                "tx8Azx": "Import a project"
+            },
+            "deleted": {
+                "PTYULU": "Unmute App",
+                "R/F7xs": "Mute App"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +43,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T21:29:57.311102+00:00"
+    "timestamp": "2026-10-27T21:41:43.942270+00:00"
 }
