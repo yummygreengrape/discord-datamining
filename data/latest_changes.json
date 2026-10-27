@@ -1,5 +1,5 @@
 {
-    "build_hash": "8bad1253080cb08fc27466576f6a936666237004",
+    "build_hash": "664a1b7a01a395f7eca9c44de6a9d1cdeeb18368",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,17 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0EEfRN": "Conjure is back on your profile",
+                "7FCFOy": "Unpin",
+                "D9HywZ": "Unpin Conjure from your You bar?",
+                "I9ZELO": "Pin",
+                "M0Nuhc": "Pin Conjure to your You bar?",
+                "VM+k4c": "Conjure is pinned to your You bar",
+                "f0k4Er": "You’ll find Conjure on your profile again.",
+                "nLv5dy": "Keep Conjure one tap away at the bottom of your screen. To unpin it, press and hold the wand.",
+                "qCBh6V": "Pin to You bar"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T00:18:40.798426+00:00"
+    "timestamp": "2026-10-27T00:29:32.386212+00:00"
 }
