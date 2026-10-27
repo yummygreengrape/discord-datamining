@@ -1,5 +1,5 @@
 {
-    "build_hash": "c1a64f977da2252a820f305482d5311c46451c30",
+    "build_hash": "6b504b3e9192a1b17c8730c1dd28cdb4e8653b18",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,20 +14,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "PTYULU": "Unmute App",
-                "R/F7xs": "Mute App"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "PTYULU": "앱 음소거 해제하기",
-                "R/F7xs": "앱 음소거하기"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T20:03:39.747905+00:00"
+    "timestamp": "2026-10-27T20:24:52.039536+00:00"
 }
