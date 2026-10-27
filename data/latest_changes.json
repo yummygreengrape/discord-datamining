@@ -1,5 +1,5 @@
 {
-    "build_hash": "a7fcda53283bc71ea22426f7532bc4c79837bc86",
+    "build_hash": "8eb643e30ac9bcce36b17d5ad1b3b24da76be01a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,34 +9,23 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-update-email-settings-copy-subtext",
-            "kind": "user",
-            "timestamp": "2026-10-27T17:33:55Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "WViBDk": "We track email opens and clicks to see what’s useful and improve the emails we send."
+                "bd0Ufh": "Turn on sound",
+                "dxBzpe": "Turn off sound",
+                "jmMirO": "Closed {appName} to make room. Up to 2 apps can float at once."
             },
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "WViBDk": "발송하는 이메일을 개선하고 유용한 정보를 파악하기 위해 이메일 열림 및 클릭 횟수를 추적합니다."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T17:43:17.432514+00:00"
+    "timestamp": "2026-10-27T17:54:08.043162+00:00"
 }
