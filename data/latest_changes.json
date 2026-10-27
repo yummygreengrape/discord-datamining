@@ -1,5 +1,5 @@
 {
-    "build_hash": "c6264fba9b92fddb297eb14512e01f4bac0de9ed",
+    "build_hash": "f099f99e9cb4fef60e3c5f684b63f03c4ea28ad1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,66 +9,11 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-pinot-admin",
-            "kind": "guild",
-            "timestamp": "2026-10-27T15:09:15Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-pinot-member",
-            "kind": "user",
-            "timestamp": "2026-10-27T15:09:15Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-pinot-member-notice",
-            "kind": "guild",
-            "timestamp": "2026-10-27T15:09:15Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+ELXr0": "Channel Summaries",
-                "7iIGZ2": "{featureTitle}, Selected Channels: {count, plural, =0 {None} one {# channel} other {# channels}}",
-                "AMw39B": "Manage Web Presence",
-                "BpbdcS": "Reach new members on the web",
-                "HvBP0Z": "Channel Messages",
-                "KaAdWl": "{count} Selected",
-                "M33rl6": "Show my message content from Discoverable channels on web pages",
-                "MECJZo": "Deselect All",
-                "MFxb27": "Channels that show messages",
-                "OLNu03": "Discoverable Content on the Web",
-                "PY2mND": "Choose channels and content that can appear on the web.",
-                "V0EPTo": "Allow message content that you send in Discoverable channels to appear on web pages. Admins of Discoverable servers control which channels are Discoverable. These messages will appear as you wrote them, but won’t show your username. [Learn more]({learnMoreURL})",
-                "Z9bKIJ": "Showing message content can only be turned on if you’re in the adult age group. [Learn more]({learnMoreURL})",
-                "ZS+NM3": "Selected Channels",
-                "nHVK4t": "Message content from these channels may be shown on the web so that visitors can get a feel for your community. [Learn more]({learnMoreURL})",
-                "pOYEzT": "Help people find and understand your community on the web.",
-                "tdhddn": "Web Presence",
-                "uImIFo": "Summaries from channels you select may be shown on the web so users there can get a feel for your community and what they talk about. [Learn more]({learnMoreURL})",
-                "vgmc/d": "Channels that show summaries",
-                "yTP3YK": "Help visitors on the web see what your community is talking about. Share recent topics, active conversations, and community answers. They can see if it’s a fit before they join."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -78,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T15:12:13.666195+00:00"
+    "timestamp": "2026-10-27T15:33:20.989697+00:00"
 }
