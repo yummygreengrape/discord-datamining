@@ -1,198 +1,27 @@
 {
-    "build_hash": "a94deffd20b8b8938355ca68802e13803cda4b1f",
+    "build_hash": "62b1aab4b6505616b6764965601f045bfc6fd7a8",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "sortOrder",
-                        "note": "기본 상태는 생성 시각, 두 비교안은 즐겨찾기 추가 시각 기준입니다."
-                    },
-                    {
-                        "key": "allowReordering",
-                        "note": "두 번째 비교안에서만 직접 순서 변경을 허용합니다."
-                    }
-                ],
-                "detailed_summary": "기본 상태에서는 즐겨찾기 사운드를 생성 시각 기준으로 보여 주고 순서를 바꿀 수 없습니다. 첫 번째 비교안은 즐겨찾기에 추가한 시각 기준으로 정렬하지만 직접 재배치는 허용하지 않습니다. 두 번째 비교안은 같은 정렬을 사용하면서 사운드를 끌어 놓아 원하는 순서로 저장할 수 있게 합니다. 현재 Canary는 즐겨찾기 목록, 사운드보드 그리드와 새 안내 말풍선에서 이 설정을 직접 읽으며, 같은 시점에 ‘즐겨찾기 사운드 순서를 바꿔 보세요’ 안내 문구도 추가됐습니다.",
-                "evidence": [
-                    "The Soundboard store switches to ordered favorite IDs when allowReordering is enabled.",
-                    "The picker reads sortOrder for favorite ordering and allowReordering for drag-and-drop plus a coachmark.",
-                    "Same-timestamp strings say ‘Reorder your favorite sounds!’ and explain drag and drop."
-                ],
-                "evidence_level": "current_canary_consumers_and_strings",
-                "focus_area": "사운드보드 즐겨찾기 정렬과 재배치",
-                "generated_at": "2026-09-23T04:24:24Z",
-                "importance": "medium",
-                "summary": "사운드보드 즐겨찾기를 최근 추가 순으로 정렬하고, 일부 비교안에서는 끌어서 원하는 순서로 바꿀 수 있게 하는 실험입니다.",
-                "why_it_matters": "자주 쓰는 사운드를 최근 취향이나 개인 우선순위에 맞춰 더 빨리 찾을 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "sortOrder",
-                        "note": "The default uses creation date; both variants use favorite date."
-                    },
-                    {
-                        "key": "allowReordering",
-                        "note": "Only Variant 2 enables manual ordering."
-                    }
-                ],
-                "detailed_summary": "The default sorts favorite sounds by creation date and does not allow manual ordering. Variant 1 sorts them by favorite date without enabling manual rearrangement. Variant 2 uses favorite-date sorting and lets users drag sounds into a saved order. Current Canary reads these settings in the favorites list, Soundboard grid, and a new coachmark, while strings added at the same timestamp explain that favorite sounds can be reordered by drag and drop.",
-                "evidence": [
-                    "The Soundboard store switches to ordered favorite IDs when allowReordering is enabled.",
-                    "The picker reads sortOrder for favorite ordering and allowReordering for drag-and-drop plus a coachmark.",
-                    "Same-timestamp strings say ‘Reorder your favorite sounds!’ and explain drag and drop."
-                ],
-                "evidence_level": "current_canary_consumers_and_strings",
-                "focus_area": "Soundboard favorite sorting and reordering",
-                "generated_at": "2026-09-23T04:24:24Z",
-                "importance": "medium",
-                "summary": "Tests sorting Soundboard favorites by when they were favorited and, in one variant, letting users drag them into a custom order.",
-                "why_it_matters": "Frequently used sounds can be easier to reach when the list reflects recent favorites or a personal priority order."
-            },
-            "config_keys": [
-                "allowReordering",
-                "sortOrder"
-            ],
-            "default_config": {
-                "allowReordering": false,
-                "sortOrder": "creation-date"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-soundboard-favorites",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-27T16:33:14Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "allowReordering": false,
-                    "sortOrder": "favorite-date"
-                },
-                "2": {
-                    "allowReordering": true,
-                    "sortOrder": "favorite-date"
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "allowReordering",
-                "sortOrder"
-            ],
-            "default_config": {
-                "allowReordering": false,
-                "sortOrder": "creation-date"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-soundboard-favorites",
-            "kind": "user",
-            "timestamp": "2026-10-27T16:33:14Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "allowReordering": false,
-                    "sortOrder": "favorite-date"
-                },
-                "2": {
-                    "allowReordering": true,
-                    "sortOrder": "favorite-date"
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-native-markdown-setting",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-27T16:30:10Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-native-markdown-setting",
-            "kind": "user",
-            "timestamp": "2026-10-27T16:30:10Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "5CIvT4": "Use new message formatting",
-                "GwQs0C": "New Markdown Parser"
-            },
-            "deleted": {
-                "KFcQy8": "Reorder your favorite sounds!",
-                "P/1x7s": "Drag and drop your favorite sounds in any order you like."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "KFcQy8": "즐겨찾는 사운드의 순서를 변경하세요!",
-                "P/1x7s": "즐겨찾는 사운드를 원하는 순서대로 드래그 앤 드롭하세요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T16:37:51.012432+00:00"
+    "timestamp": "2026-10-27T16:58:58.188212+00:00"
 }
