@@ -1,8 +1,20 @@
 {
-    "build_hash": "1ff3d5014c03606b4486095e66bb02e4cc700d16",
+    "build_hash": "aa328b59b7da72e75f3b61fd7f813936f973032d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-powerups-coachmark-scroll-close",
+            "kind": "user",
+            "timestamp": "2026-10-27T18:53:53Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,9 +25,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "tm1WHd": "Reorder widgets"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T18:37:31.254077+00:00"
+    "timestamp": "2026-10-27T18:58:38.097264+00:00"
 }
