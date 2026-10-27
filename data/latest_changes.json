@@ -1,5 +1,5 @@
 {
-    "build_hash": "43bbe2cdbcd4cb3b86bd275194112aecd3a0ab99",
+    "build_hash": "c0475bd0194122ec00f7553cc9d266bf9be609de",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,20 +13,8 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "302Ck/": "Your payment method has been saved",
-                "4EZ0L7": "By clicking a purchase option below, you agree to the [Paid Services Terms]({paidServicesTermsUrl}). Buying an item from the Shop means you're buying a limited license to use this item on Discord. Learn more in the 'Virtual Goods' section [here]({virtualGoodsTermsUrl}). This purchase is non-refundable. Item will be available immediately in User Profile settings.",
-                "BMVyQO": "Pay the remaining {amount} in one step. We'll save your payment method for next time.",
-                "FqlTCu": "By clicking a purchase option below, you are signing up for a recurring subscription. You'll be charged {totalDue} today, then {renewalPrice} plus applicable taxes every {interval} starting {startDate, date, long} until you cancel. Prices subject to change. Cancel anytime in your Settings. [Paid Services Terms]({paidServicesTermsUrl}) apply. Have questions? [Contact us]({contactUsUrl}) or see our [Subscriptions FAQ]({subscriptionsFaqUrl}).",
-                "NUNycr": "a purchase option below",
-                "R85gcN": "By clicking a purchase option below, you are signing up for a recurring subscription. You'll be charged {totalDue} today, and {trialOrDiscountPrice} for {trialDuration}. When your trial ends on {trialOrDiscountEndDate, date, long}, you'll be charged {fullRenewalPrice} plus applicable taxes every {interval} until you cancel. Prices subject to change. We'll send you a reminder before your trial ends. Cancel anytime in your Settings. [Paid Services Terms]({paidServicesTermsUrl}) apply. Have questions? [Contact us]({contactUsUrl}) or see our [Subscriptions FAQ]({subscriptionsFaqUrl}).",
-                "cxwOJN": "Your total has been updated",
-                "gVM8va": "Pay in one step. We'll save it for next time.",
-                "ztU/1y": "By clicking a purchase option below, you agree to the [Paid Services Terms]({paidServicesTermsUrl}). Buying an item from the Shop means you're buying a limited license to use this item on Discord, learn more [here]({virtualGoodsTermsUrl}). This purchase is non-refundable. Item will be available immediately in User Profile settings."
-            },
-            "deleted": {
-                "I6TESb": "Your total amount has been updated"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -35,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-27T01:01:44.819589+00:00"
+    "timestamp": "2026-10-27T01:12:37.031930+00:00"
 }
