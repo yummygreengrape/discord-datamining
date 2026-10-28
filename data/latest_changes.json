@@ -1,10 +1,39 @@
 {
-    "build_hash": "a7856b143f585724ec61e81539c4debd108e0d58",
-    "deleted_api_endpoints": [],
+    "build_hash": "a69de9746be847f207aa9e3a486b32c052c1df98",
+    "deleted_api_endpoints": [
+        {
+            "name": "BILLING_PAYMENTS",
+            "status": "deleted",
+            "url": "/billing/payments"
+        },
+        {
+            "name": "ENDPOINT_BILLING_PAYMENTS",
+            "status": "deleted",
+            "url": "/billing/payments"
+        }
+    ],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-purchase-history",
+            "kind": "user",
+            "timestamp": "2026-10-28T18:10:57Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
-    "modified_api_endpoints": [],
+    "modified_api_endpoints": [
+        {
+            "name": "ENDPOINT_USERS_BILLING_PAYMENTS",
+            "old_url": "/users/@me/billing/payments",
+            "status": "modified",
+            "url": "/users/@me/billing/payments/:param"
+        }
+    ],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
@@ -14,14 +43,19 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "BILLING_STANDALONE_PAYMENT_HISTORY_TITLE": "View Payment History",
+                "kTAoEr": "View Payment History"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "kTAoEr": "결제 기록 보기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-28T18:06:11.122976+00:00"
+    "timestamp": "2026-10-28T18:17:02.129564+00:00"
 }
