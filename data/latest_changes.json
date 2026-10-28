@@ -1,5 +1,5 @@
 {
-    "build_hash": "e1db7f49821bc0dc0e0e326af702493b5d276537",
+    "build_hash": "32167652e23d45e26f89d9e8c44f3d6256b63d2f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,18 +13,24 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "5MUKTF": "What brings you here?",
-                "z/57xV": "Choose at least one game to get started."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "+AbHxM": "다시 시도하기",
+                "X3Qd8c": "{years} 년, {months} 개월",
+                "v01Jn+": "{count}개 선물"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "8N0BHR": {
+                    "new_value": "{timeAgo} 활동",
+                    "old_value": "{timeAgo} 전 활동"
+                }
+            }
         }
     },
-    "timestamp": "2026-10-28T01:26:14.834853+00:00"
+    "timestamp": "2026-10-28T01:37:06.936574+00:00"
 }
