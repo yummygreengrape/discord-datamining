@@ -1,5 +1,5 @@
 {
-    "build_hash": "64596616bccf18010e4995208d79158ec0121f2c",
+    "build_hash": "de58603f2fa2d8063e5c8577dbb70dff6f9a9529",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,35 +13,15 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "3TZUIw": "{underageMessage} You have **{days, plural, one {# day} other {# days}}** to verify your age before your account will be deleted.",
-                "W8Q9fy": "Your device is on silent, so app sound is off",
-                "fjqIZp": "You have **{days, plural, one {# day} other {# days}}** to verify your age before your account will be deleted."
-            },
-            "deleted": {
-                "3axQdB": "You have bHook{days} to verify your age before your account will be deleted. Check your email for instructions on verifying your age.",
-                "AGE_GATE_UNDERAGE_EXISTING_BODY_DELETION": "You have **14 days** to verify your age before your account will be deleted. Check your email for instructions on verifying your age.",
-                "AGE_GATE_UNDERAGE_EXISTING_BODY_DELETION_WITH_DAYS": "You have **{days, plural, one {# day} other {# days}}** to verify your age before your account will be deleted. Check your email for instructions on verifying your age.",
-                "D+rEw6": "You have bHook14 days to verify your age before your account will be deleted. Check your email for instructions on verifying your age.",
-                "aGpJPX": "Gift cards can only be redeemed in the country they were purchased in. To redeem, your account's Country/Region setting must match the gift card's currency.",
-                "dhj1ZQ": "**Platform pro tip.** Just a heads up, you can only view and spend your balance on the desktop app or web browser.",
-                "hanRXM": "Digital gift cards are available in the US at select retailers. Physical cards are coming soon, check out our [Help Center]({helpCenterLink}) for the latest on where to buy.",
-                "ukclM1": "{underageMessage} You have **{days, plural, one {# day} other {# days}}** to verify your age before your account will be deleted. Check your email for instructions on verifying your age."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "3axQdB": "bHook{days}일 안에 나이를 인증하지 않으면 계정이 삭제될 거에요. 나이 인증 절차에 관해 이메일을 보내드렸으니 확인해주세요.",
-                "D+rEw6": "bHook14일 안에 나이를 인증하지 않으면 계정이 삭제될 거에요. 나이 인증 절차에 관해 이메일을 보내드렸으니 확인해 주세요.",
-                "aGpJPX": "기프트 카드는 구매한 국가에서만 교환할 수 있습니다. 교환하려면 계정의 국가/지역 설정이 기프트 카드의 통화와 일치해야 합니다.",
-                "dhj1ZQ": "bHook플랫폼 관련 꿀팁. 참고로, 잔액 확인 및 사용은 PC 앱이나 웹 브라우저에서만 가능합니다.",
-                "hanRXM": "디지털 기프트 카드는 미국의 일부 제휴 판매처에서 구매할 수 있습니다. 실물 카드는 곧 출시될 예정입니다. 구매처에 대한 최신 정보는 [지원 센터]({helpCenterLink})를 확인해 주세요.",
-                "ukclM1": "{underageMessage}bHook{days}일 이내에 나이를 인증하지 않으면 계정이 삭제될 거예요. 나이 인증 절차에 관해 이메일을 보내드렸으니 확인해 주세요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-28T21:56:36.327284+00:00"
+    "timestamp": "2026-10-28T22:07:29.540669+00:00"
 }
