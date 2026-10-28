@@ -1,5 +1,5 @@
 {
-    "build_hash": "9609ed12472e4d2f081b47294b4edb92c4439412",
+    "build_hash": "29fd9007b8499b6e73e89479dcba385c23d3f82f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,10 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "AV87WX": "Its own style",
+                "d9bW4W": "Looks like Discord"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-28T03:55:37.159662+00:00"
+    "timestamp": "2026-10-28T04:16:46.564219+00:00"
 }
