@@ -1,5 +1,5 @@
 {
-    "build_hash": "967b99396cacb91a9b6b19cc14476e065e9c0bd1",
+    "build_hash": "76e1a324e483b340a13911c83c8572f083c38d99",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "s7VnVF": "Only the project owner can change these settings."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-28T05:20:25.962907+00:00"
+    "timestamp": "2026-10-28T06:33:19.668063+00:00"
 }
