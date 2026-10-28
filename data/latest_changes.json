@@ -1,8 +1,53 @@
 {
-    "build_hash": "cc29f8e42dc917d428a911ac96d1467e305cc4e7",
+    "build_hash": "17076fbdcd9813a7d87a28289e9a8e50cbb16cf9",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-mobile-server-tag",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-10-28T01:07:15Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-mobile-server-tag",
+            "kind": "user",
+            "timestamp": "2026-10-28T01:07:15Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,8 +58,17 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "+np3yH": "We couldn't load games",
+                "CjS26n": "Try again or skip for now.",
+                "V7UsE0": "No games available right now",
+                "qx4Gb6": "You can skip this step for now.",
+                "uGhymA": "Retry"
+            },
+            "deleted": {
+                "2IkgzL": "Choose at least {min, select, 1 {one} 2 {two} 3 {three} 4 {four} 5 {five} other {{min}}} {min, select, 1 {game} other {games}} to get started.",
+                "mq1uuT": "What brings you here?"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +77,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-28T01:04:12.837752+00:00"
+    "timestamp": "2026-10-28T01:15:19.738951+00:00"
 }
