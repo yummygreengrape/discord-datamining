@@ -1,5 +1,5 @@
 {
-    "build_hash": "642e8148342dbc28f812f1d6966520dae835170b",
+    "build_hash": "2aafd1f15282a541b53a0314efcff704038b0b44",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,20 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "427UqW": "Select a piece of text to make it **bold**, *italic*, or $[underlined](underlineHook).",
-                "4BoMhv": "Unable to request notification permission.",
-                "4a9Wgk": "Unable to open link.",
-                "Hy0OLY": "What do you want to conjure?",
-                "Lyx6pW": "Who is this for? {name}",
-                "d6U01J": "Unable to open this server.",
-                "grYfmA": "Unable to join this server.",
-                "s7VnVF": "Only the project owner can change these settings.",
-                "yYAD/t": "Give your message some style"
-            },
+            "added": {},
             "deleted": {
-                "AV87WX": "Its own style",
-                "d9bW4W": "Looks like Discord"
+                "+VqXVO": "Anyone you share with can use this app once published."
             },
             "modified": {}
         },
@@ -36,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-28T07:27:04.816351+00:00"
+    "timestamp": "2026-10-28T07:37:59.529020+00:00"
 }
