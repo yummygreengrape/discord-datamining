@@ -1,5 +1,5 @@
 {
-    "build_hash": "23230a823ddaa7b6efe7f649c2c9f1fd75b66f07",
+    "build_hash": "cc29f8e42dc917d428a911ac96d1467e305cc4e7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,68 +8,14 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "disableIdleDisconnect"
-            ],
-            "default_config": {
-                "disableIdleDisconnect": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-camp-in-dm",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-28T00:48:00Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "disableIdleDisconnect": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "disableIdleDisconnect"
-            ],
-            "default_config": {
-                "disableIdleDisconnect": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-camp-in-dm",
-            "kind": "user",
-            "timestamp": "2026-10-28T00:48:00Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "disableIdleDisconnect": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "ABMKx3": {
-                    "new_value": "{members}",
-                    "old_value": "{members} Members"
-                },
-                "GROUP_DM_MEMBER_COUNT": {
-                    "new_value": "{members, plural, one {# Member} other {# Members}}",
-                    "old_value": "{members, number} Members"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -77,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-28T00:53:14.323600+00:00"
+    "timestamp": "2026-10-28T01:04:12.837752+00:00"
 }
