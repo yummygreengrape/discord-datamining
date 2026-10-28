@@ -1,8 +1,19 @@
 {
-    "build_hash": "5b40c140ac9ff2213d050b372b194f3a0777637e",
+    "build_hash": "9b8bdb7ff6a1d3a1a709827bd9b8217e7fbc50d7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-purchase-history",
+            "kind": "user",
+            "timestamp": "2026-10-28T18:10:57Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -14,7 +25,9 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "BILLING_STANDALONE_PAYMENT_HISTORY_TITLE": "View Payment History"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-28T19:01:12.128667+00:00"
+    "timestamp": "2026-10-28T19:12:32.051204+00:00"
 }
