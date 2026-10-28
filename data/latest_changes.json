@@ -1,5 +1,5 @@
 {
-    "build_hash": "7dca01788cdc60c2cec1c35a79e1d9451ec94edb",
+    "build_hash": "5e372af5b828e06d7afc7bde7dcca76e3f23c1f9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [
@@ -8,7 +8,7 @@
             "experiment_type": "apex",
             "id": "2026-09-server-onboarding-setup-progress",
             "kind": "user",
-            "timestamp": "2026-10-28T22:36:51Z",
+            "timestamp": "2026-10-28T22:57:04Z",
             "treatments": [
                 "Variant 1",
                 "Variant 2"
@@ -21,39 +21,25 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-server-onboarding-setup-progress",
+            "kind": "user",
+            "timestamp": "2026-10-28T22:52:00Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "3TZUIw": "{underageMessage} You have **{days, plural, one {# day} other {# days}}** to verify your age before your account will be deleted.",
-                "OyM4SV": "Choose a server to build this app for. The app won’t be shared until you publish.",
-                "PTIP7V": "Get started",
-                "W8Q9fy": "Your device is on silent, so app sound is off",
-                "fjqIZp": "You have **{days, plural, one {# day} other {# days}}** to verify your age before your account will be deleted."
-            },
-            "deleted": {
-                "AGE_GATE_UNDERAGE_EXISTING_BODY_DELETION": "You have **14 days** to verify your age before your account will be deleted. Check your email for instructions on verifying your age.",
-                "AGE_GATE_UNDERAGE_EXISTING_BODY_DELETION_WITH_DAYS": "You have **{days, plural, one {# day} other {# days}}** to verify your age before your account will be deleted. Check your email for instructions on verifying your age.",
-                "aGpJPX": "Gift cards can only be redeemed in the country they were purchased in. To redeem, your account's Country/Region setting must match the gift card's currency.",
-                "dhj1ZQ": "**Platform pro tip.** Just a heads up, you can only view and spend your balance on the desktop app or web browser.",
-                "hanRXM": "Digital gift cards are available in the US at select retailers. Physical cards are coming soon, check out our [Help Center]({helpCenterLink}) for the latest on where to buy.",
-                "ukclM1": "{underageMessage} You have **{days, plural, one {# day} other {# days}}** to verify your age before your account will be deleted. Check your email for instructions on verifying your age."
-            },
-            "modified": {
-                "CLIPS_IN_CALL_WARNING": {
-                    "new_value": "Someone has Clips turned on. Your voice may be recorded.",
-                    "old_value": "A participant in the call you joined has clipping enabled, your voice may be recorded."
-                },
-                "SU9K9U": {
-                    "new_value": "Don’t see a server you want? You might not have the right permissions.",
-                    "old_value": "Don’t see the server you want? You might not have the right permissions."
-                },
-                "d+41qJ": {
-                    "new_value": "Someone has Clips turned on. Your voice may be recorded.",
-                    "old_value": "A participant in the call you joined has clipping enabled, your voice may be recorded."
-                }
-            }
+            "added": {},
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -61,5 +47,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-28T22:40:24.910887+00:00"
+    "timestamp": "2026-10-28T23:01:34.615987+00:00"
 }
