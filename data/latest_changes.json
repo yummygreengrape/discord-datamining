@@ -1,5 +1,5 @@
 {
-    "build_hash": "2aafd1f15282a541b53a0314efcff704038b0b44",
+    "build_hash": "c71836de231ff01e391eea306fe145c5dd5bf588",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,9 +14,7 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "+VqXVO": "Anyone you share with can use this app once published."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -25,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-28T07:37:59.529020+00:00"
+    "timestamp": "2026-10-28T09:01:22.086126+00:00"
 }
