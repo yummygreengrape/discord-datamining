@@ -1,5 +1,5 @@
 {
-    "build_hash": "3da092ec2672bd9c8968f5b46e6f1cb36f2ed9fb",
+    "build_hash": "6cf328f9158d1b8486feca39f66f8a8bee0e703e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,15 +14,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "+kpQ3v": "Skipped. You can pin it later from a voice channel's settings.",
-                "1vVBAw": "This app will become the landing experience when people join the channel.",
-                "FYI3qr": "Pin",
-                "Iw0l8o": "Not now",
-                "JVUsIY": "There's no voice channel here you can manage. You can pin it later from a channel's settings.",
-                "UGAfl9": "Pin to a voice channel?",
-                "d7EeAm": "Couldn't pin your app to that voice channel. Try again, or do it from the channel's settings.",
-                "gKe6Lw": "Pinned to {channelName}",
-                "peOi1H": "Voice channel"
+                "Td1mlg": "{count, plural, one {Make channel private} other {Make channels private}}"
             },
             "deleted": {},
             "modified": {}
@@ -33,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-28T02:20:10.716573+00:00"
+    "timestamp": "2026-10-28T02:31:06.842078+00:00"
 }
