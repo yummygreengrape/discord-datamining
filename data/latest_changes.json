@@ -1,8 +1,53 @@
 {
-    "build_hash": "db2d17b4fccb39f66a8e8ebc52a7adee3de5eb49",
+    "build_hash": "cc46439ecb330fb6868abf18ba4ad64143278a49",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-friend-request-message",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-10-28T16:23:47Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-friend-request-message",
+            "kind": "user",
+            "timestamp": "2026-10-28T16:23:47Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -23,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-28T16:04:06.808215+00:00"
+    "timestamp": "2026-10-28T16:25:18.529547+00:00"
 }
