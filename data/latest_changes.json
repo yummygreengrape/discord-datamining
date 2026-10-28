@@ -1,8 +1,19 @@
 {
-    "build_hash": "42e8fb76b9f02dd606b2072103768840d9c4f30c",
+    "build_hash": "6596e90167cd6b3faf3b3975ea58326465509daf",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-03-friend-request-message",
+            "kind": "user",
+            "timestamp": "2026-10-28T16:23:47Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -23,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-28T17:00:35.211160+00:00"
+    "timestamp": "2026-10-28T17:11:59.065381+00:00"
 }
