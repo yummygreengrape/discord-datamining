@@ -1,5 +1,5 @@
 {
-    "build_hash": "c7bda6cbe4436acd2f6486789dbc4c97e7629941",
+    "build_hash": "e2f083568445c9e15865da9725672f388b8b7bac",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,16 +14,14 @@
     "string_changes": {
         "en": {
             "added": {
-                "uneDIi": "Discoverable"
-            },
-            "deleted": {
                 "OyM4SV": "Choose a server to build this app for. The app won’t be shared until you publish.",
                 "PTIP7V": "Get started"
             },
+            "deleted": {},
             "modified": {
                 "SU9K9U": {
-                    "new_value": "Don’t see the server you want? You might not have the right permissions.",
-                    "old_value": "Don’t see a server you want? You might not have the right permissions."
+                    "new_value": "Don’t see a server you want? You might not have the right permissions.",
+                    "old_value": "Don’t see the server you want? You might not have the right permissions."
                 }
             }
         },
@@ -33,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-28T21:34:49.679535+00:00"
+    "timestamp": "2026-10-28T21:45:39.647842+00:00"
 }
