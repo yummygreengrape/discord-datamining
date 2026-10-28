@@ -1,5 +1,5 @@
 {
-    "build_hash": "32167652e23d45e26f89d9e8c44f3d6256b63d2f",
+    "build_hash": "4b223b4fa794d64ea1013358e235646ddcc9ad23",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -18,19 +18,10 @@
             "modified": {}
         },
         "ko": {
-            "added": {
-                "+AbHxM": "다시 시도하기",
-                "X3Qd8c": "{years} 년, {months} 개월",
-                "v01Jn+": "{count}개 선물"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "8N0BHR": {
-                    "new_value": "{timeAgo} 활동",
-                    "old_value": "{timeAgo} 전 활동"
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-10-28T01:37:06.936574+00:00"
+    "timestamp": "2026-10-28T01:48:00.914239+00:00"
 }
