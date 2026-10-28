@@ -1,5 +1,5 @@
 {
-    "build_hash": "b610693c2991162bd0e4097098c8bd2b5c65d3fe",
+    "build_hash": "f6dddd3499a1c7b3419697928c1f97a821a32770",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,23 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "L/fHgw": "Ask the {noun} manager for a new invite.",
-                "rMimTG": "{noun} is Full"
-            },
-            "deleted": {
-                "GLe98U": "Invalid Invite"
-            },
-            "modified": {
-                "2/aTr2": {
-                    "new_value": "Invite is invalid",
-                    "old_value": "This invite is invalid or has expired."
-                },
-                "H1wMHV": {
-                    "new_value": "Go to Server",
-                    "old_value": "Go to server"
-                }
-            }
+            "added": {},
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -37,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-28T00:31:12.983294+00:00"
+    "timestamp": "2026-10-28T00:42:18.202705+00:00"
 }
