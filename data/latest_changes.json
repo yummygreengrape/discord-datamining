@@ -1,5 +1,5 @@
 {
-    "build_hash": "77006643b9f61ceca75e8288c9dfb4c800681472",
+    "build_hash": "94641046d548fd83d0d8298cd2b0e19293600f29",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,29 +13,15 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "3eYXNh": "Dragon",
-                "8tJXmQ": "Fire",
-                "Bkkno0": "Valorant",
-                "L1TjUO": "Flowers",
-                "L8hb2E": "Goth",
-                "ZHHx6R": "Cats",
-                "bRwRwX": "Shop for {option}",
-                "eYMbUC": "Popular Searches",
-                "jcB6Kg": "Anime"
-            },
-            "deleted": {
-                "hIt/Nm": "Search the shop"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "hIt/Nm": "상점 검색"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T03:24:00.662953+00:00"
+    "timestamp": "2026-10-29T03:34:55.135653+00:00"
 }
