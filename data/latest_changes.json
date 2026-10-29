@@ -1,5 +1,5 @@
 {
-    "build_hash": "94641046d548fd83d0d8298cd2b0e19293600f29",
+    "build_hash": "85ebfd7458c2427314d6f5956ebc5b585024365b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "DVCXzm": "Confirm New Price",
+                "GiTC5a": "Unlimited"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T03:34:55.135653+00:00"
+    "timestamp": "2026-10-29T03:45:50.833625+00:00"
 }
