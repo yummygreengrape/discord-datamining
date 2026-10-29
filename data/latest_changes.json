@@ -1,5 +1,5 @@
 {
-    "build_hash": "b7495ba30f91cee4c9f0f402b7c53656026626ef",
+    "build_hash": "77006643b9f61ceca75e8288c9dfb4c800681472",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,32 +9,33 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-fractional-nitro-pricing",
-            "kind": "user",
-            "timestamp": "2026-10-29T03:07:13Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "3eYXNh": "Dragon",
+                "8tJXmQ": "Fire",
+                "Bkkno0": "Valorant",
+                "L1TjUO": "Flowers",
+                "L8hb2E": "Goth",
+                "ZHHx6R": "Cats",
+                "bRwRwX": "Shop for {option}",
+                "eYMbUC": "Popular Searches",
+                "jcB6Kg": "Anime"
+            },
+            "deleted": {
+                "hIt/Nm": "Search the shop"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "hIt/Nm": "상점 검색"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T03:13:07.312371+00:00"
+    "timestamp": "2026-10-29T03:24:00.662953+00:00"
 }
