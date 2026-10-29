@@ -1,5 +1,5 @@
 {
-    "build_hash": "b20b4f6c678a3d9f428aca22253f033acbe2a47e",
+    "build_hash": "81d721dc746a2091863c6a162e19daf1dd8b77b0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,11 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "tHMW7U": "{count, plural, one {# unread project} other {# unread projects}}"
-            },
+            "added": {},
             "deleted": {
-                "5LSwvg": "Hide Chat"
+                "qbUdLZ": "Published"
             },
             "modified": {}
         },
@@ -27,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T05:12:31.432061+00:00"
+    "timestamp": "2026-10-29T05:23:25.577121+00:00"
 }
