@@ -1,5 +1,5 @@
 {
-    "build_hash": "2237fcafb9d1511536874bec47b5f4ceb4541b0d",
+    "build_hash": "6c309437eb9bcdde650ab4f86be6ba7fd20d96d1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,24 +9,11 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-soundboard-new-sounds-badge",
-            "kind": "user",
-            "timestamp": "2026-10-29T14:30:05Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "D923q4": "Open Soundboard, new sounds available"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -36,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T15:14:22.161732+00:00"
+    "timestamp": "2026-10-29T15:25:28.076741+00:00"
 }
