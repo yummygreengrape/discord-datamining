@@ -1,5 +1,5 @@
 {
-    "build_hash": "6282ba4578d5499745088462a55c5d9b65665995",
+    "build_hash": "20831e84c9b29b9d70e1468383e2c192f5eb9008",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "JZycSO": "Unlock more Orbs with Nitro",
+                "SM0hiz": "Earning {orbAmount} Orbs in {days, plural, one {# day} other {# days}}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T17:36:35.805366+00:00"
+    "timestamp": "2026-10-29T17:47:28.583793+00:00"
 }
