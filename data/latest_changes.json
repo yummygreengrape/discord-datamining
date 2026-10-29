@@ -1,5 +1,5 @@
 {
-    "build_hash": "70fc9f1b4e80c77ea830405b3cda74d125473db3",
+    "build_hash": "771274e75c1d2a25668804c2483388ea7bae6eb5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,13 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "F3GyfJ": "Collect 4 items and unlock an exclusive Avatar Decoration before it's gone.",
-                "J0YWRq": "Create your own Server Tag",
-                "KXodvL": "Invalid payment source billing address. Please update your payment source or billing address and try again. [Learn More]({helpdeskArticle})",
-                "ZYdpp7": "Deadpool/Wolverine",
-                "xyVEtZ": "Translation pilot test message"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -29,47 +23,5 @@
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "KXodvL": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "문구가 지목하는 대상은 결제 수단의 청구 주소예요. 결제 수단 또는 주소를 업데이트한 뒤 다시 시도하라고 적혀 있고, 자세히 알아보기 링크도 포함돼요. 이 안내만으로 잔액 부족이나 계정 제재를 원인으로 판단할 수는 없어요.",
-                    "generated_at": "2026-10-27T15:04:10.944531Z",
-                    "intent_type": "billing_or_subscription_issue",
-                    "related_terms": [
-                        "billing address",
-                        "payment method",
-                        "Learn More",
-                        "payment total"
-                    ],
-                    "search_intent": "Discord 결제에서 Invalid payment source billing address가 뜬 이유와 수정할 정보를 찾는 검색이에요.",
-                    "source_context": "2026-10-26 한영 문자열에 잘못된 청구 주소 오류와 결제 수단·주소를 수정한 뒤 재시도하라는 안내가 함께 있어요. 다음 날에는 결제 수단 저장과 결제 합계 안내가 추가됐어요.",
-                    "summary": "이 오류는 결제 수단에 등록된 청구 주소를 사용할 수 없다고 알려요.",
-                    "what_it_means": "현재 결제에 쓰는 청구 주소 정보가 받아들여지지 않았다는 뜻이에요.",
-                    "what_to_do": "결제 수단의 청구 주소를 확인하고 문구가 안내하는 결제 수단 또는 주소를 수정한 뒤 다시 시도해 주세요. 추가 설명은 화면의 Learn More 링크에서 확인해 주세요.",
-                    "when_it_appears": "결제 흐름에서 결제 수단의 청구 주소가 유효하지 않다는 응답을 표시할 때 보일 수 있어요."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The message identifies the payment method’s billing address as the problem. It explicitly asks for an updated payment method or address before retrying and includes a Learn More link. It does not identify insufficient funds or an account penalty as the cause.",
-                    "generated_at": "2026-10-27T15:04:10.944531Z",
-                    "intent_type": "billing_or_subscription_issue",
-                    "related_terms": [
-                        "billing address",
-                        "payment method",
-                        "Learn More",
-                        "payment total"
-                    ],
-                    "search_intent": "To find which information to correct after Discord displays Invalid payment source billing address.",
-                    "source_context": "Korean and English strings on October 26 include an invalid billing-address error and instructions to update the payment method or address. Payment-method-saved and updated-total messages follow on October 27.",
-                    "summary": "This error says the billing address on the payment method is invalid.",
-                    "what_it_means": "The billing-address details supplied for this payment were not accepted.",
-                    "what_to_do": "Check the payment method’s billing address, update the method or address as instructed, and retry. Use the displayed Learn More link for the accompanying guidance.",
-                    "when_it_appears": "It may appear when a payment flow receives an invalid billing-address response for the selected payment method."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-10-29T23:46:49.622734+00:00"
+    "timestamp": "2026-10-29T23:57:42.194766+00:00"
 }
