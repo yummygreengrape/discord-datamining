@@ -1,64 +1,8 @@
 {
-    "build_hash": "122bff1d01b788823492a2708ae5c9e1ac5bc385",
-    "deleted_api_endpoints": [
-        {
-            "name": "COLLECTIBLES_SHOP_PRODUCT_DETAIL",
-            "status": "deleted",
-            "url": "/shop/product/:param"
-        },
-        {
-            "name": "ENDPOINT_SHOP_PRODUCT",
-            "status": "deleted",
-            "url": "/shop/product/:param"
-        }
-    ],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-gummy-bears",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-29T22:36:38Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-gummy-bears",
-            "kind": "user",
-            "timestamp": "2026-10-29T22:36:38Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "build_hash": "b2101dc2bf810e32bf87bf197010b57fea5e29ec",
+    "deleted_api_endpoints": [],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -69,7 +13,13 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "07XimM": "Attachments only",
+                "REnNUn": "{count} queued",
+                "W+la29": "Show more",
+                "hzgPbZ": "Queued messages",
+                "nEMoeN": "Show less"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -79,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T22:41:33.896094+00:00"
+    "timestamp": "2026-10-29T22:52:27.301438+00:00"
 }
