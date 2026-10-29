@@ -1,5 +1,5 @@
 {
-    "build_hash": "f4b7e89805cac26bb9f154c374d09288c0271663",
+    "build_hash": "b208d3a8094e860948bd91a0586710e95e9202b3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,15 +13,29 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "SCAPTL": "Mentions + Unreads",
+                "VGLEq/": "@mentions + Unreads for {channelName}"
+            },
+            "deleted": {
+                "IngcUv": "Muting prevents unread badges and notifications from appearing unless you are mentioned.",
+                "JrySi3": "Channel Notification Overrides"
+            },
+            "modified": {
+                "JzbSEY": {
+                    "new_value": "@mentions + Unreads",
+                    "old_value": "@Mentions + Unreads"
+                }
+            }
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "IngcUv": "음소거는 자신이 멘션된 경우 외에는 읽지 않음 배지와 알림을 숨겨요.",
+                "JrySi3": "채널 알림 설정 덮어쓰기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T02:18:12.502051+00:00"
+    "timestamp": "2026-10-29T02:29:11.934130+00:00"
 }
