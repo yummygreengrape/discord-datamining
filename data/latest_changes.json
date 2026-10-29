@@ -1,62 +1,32 @@
 {
-    "build_hash": "9df242e49fba0bf4e86e319af57d17236f43c1e7",
+    "build_hash": "a81f88469b1dfef9ddd2cb0adc149dbca0ef2024",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-improved-shop-loading",
-            "kind": "user",
-            "timestamp": "2026-10-29T02:06:25Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-improved-shop-loading",
-            "kind": "user",
-            "timestamp": "2026-10-29T02:05:24Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "SCAPTL": "Mentions + Unreads",
-                "VGLEq/": "@mentions + Unreads for {channelName}"
-            },
-            "deleted": {
-                "CHANNEL_NOTIFICATION_OVERRIDES": "Channel Notification Overrides",
-                "FOR_LABEL_MUTE_SEVER_DESCRIPTION_V2": "Muting prevents unread badges and notifications from appearing unless you are mentioned."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {
+                "+Af+Vw": {
+                    "new_value": "Optionally select a channel for your server rules or guidelines, or choose None.",
+                    "old_value": "Community Servers must have clearly posted server rules and/or guidelines for members. Please select the channel that hosts this."
+                },
                 "CwC/ll": {
-                    "new_value": "Community Servers are larger spaces built around shared interests. Enabling Community requires setting up safety settings, Rules and Updates channels, and moderation settings.",
-                    "old_value": "Community Servers are larger spaces built around shared interests. Enabling Community requires setting up safety settings, an Updates channel, and moderation settings."
+                    "new_value": "Community Servers are larger spaces built around shared interests. Enabling Community requires setting up safety settings, an Updates channel, and moderation settings.",
+                    "old_value": "Community Servers are larger spaces built around shared interests. Enabling Community requires setting up safety settings, Rules and Updates channels, and moderation settings."
                 },
                 "ENABLE_PUBLIC_MODAL_RULES_CHANNEL_HELP": {
-                    "new_value": "Community Servers must have clearly posted server rules and/or guidelines for members. Please select the channel that hosts this.",
-                    "old_value": "Optionally select a channel for your server rules or guidelines, or choose None."
-                },
-                "JzbSEY": {
-                    "new_value": "@mentions + Unreads",
-                    "old_value": "@Mentions + Unreads"
+                    "new_value": "Optionally select a channel for your server rules or guidelines, or choose None.",
+                    "old_value": "Community Servers must have clearly posted server rules and/or guidelines for members. Please select the channel that hosts this."
                 }
             }
         },
@@ -66,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T02:40:16.429906+00:00"
+    "timestamp": "2026-10-29T02:51:17.352904+00:00"
 }
