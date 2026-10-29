@@ -1,5 +1,5 @@
 {
-    "build_hash": "fc29201081be5b0802db4723bac75637cc743f62",
+    "build_hash": "8ec2ea97740f47a082b813bc83e090bb65b11322",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,16 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "9+kNt8": "Approved by your standing publish approval"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "lgwX26": {
-                    "new_value": "Take Discord into VR. Get it on Meta Quest.",
-                    "old_value": "Discord is available on the Quest. Download now and get a month of Nitro free."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -30,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T18:53:57.279128+00:00"
+    "timestamp": "2026-10-29T19:04:51.383356+00:00"
 }
