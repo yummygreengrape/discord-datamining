@@ -1,5 +1,5 @@
 {
-    "build_hash": "e3393514fa0e8b8bd6a93a37bb738db0582af3ae",
+    "build_hash": "72be0c01520f36226ca2d1100e11273fe33ea2d1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,12 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "MrT2mn": "These channels are Discoverable",
+                "U/irIt": "Who took my jet ski?",
+                "eJZ8MS": "Manage Settings",
+                "x9NGts": "Message content sent here can be shown on web pages. Look for the label to spot them."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T01:34:39.100679+00:00"
+    "timestamp": "2026-10-29T01:45:32.852119+00:00"
 }
