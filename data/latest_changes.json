@@ -1,5 +1,5 @@
 {
-    "build_hash": "30857190c06c22be971bb0bdbbd34276b1006533",
+    "build_hash": "728f75ceaa35fe41c4a1b887682d79ddae08a63a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,30 +8,67 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-profile-nitro-upsell-refresh",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-29T21:02:33Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-profile-nitro-upsell-refresh",
+            "kind": "user",
+            "timestamp": "2026-10-29T21:02:33Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "BRjBVV": "Show fewer servers",
-                "JKN64Y": "Remixing makes your own copy of {name} that you can change however you like. The original stays just as it is.",
-                "MEMaup": "Show {count} more {count, plural, one {server} other {servers}}",
-                "R2uxWO": "Pick the server where you’ll build and try out your copy.",
-                "cI3aQA": "{count, plural, one {# member} other {# members}}",
-                "fT4+km": "Your copy starts from the original as it is now, without its chat history, secrets, or settings. It’s yours: only you can work on it unless you share it."
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "89YBr5": {
-                    "new_value": "Activity Joining",
-                    "old_value": "Who Can Join My Games"
-                },
-                "8EWsJ8": {
-                    "new_value": "Allows friends to join without sending a request.",
-                    "old_value": "Allow friends to join my game without sending a request."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -39,5 +76,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T20:42:51.214469+00:00"
+    "timestamp": "2026-10-29T21:03:58.485452+00:00"
 }
