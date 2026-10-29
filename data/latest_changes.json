@@ -1,5 +1,5 @@
 {
-    "build_hash": "fd715ed4b240d54f386cfdfcb7bbb61afd6011b4",
+    "build_hash": "b611571b16a9f0155aaa3c5bcdd596212613e3ff",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,8 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
+            "added": {},
+            "deleted": {
                 "Iqr6uY": "Your Marvel Strike Force account is now connected. Open the game to instantly redeem your power cores.",
                 "Iw0mSJ": "Shop Now",
                 "W6zWaK": "Get {powerCoreQuantity} power cores and {orbQuantity} Orbs when you link your Marvel Strike Force account",
@@ -24,7 +25,6 @@
                 "rUQUKX": "You claimed {powerCoreQuantity} power cores!",
                 "yl/vO0": "You claimed {powerCoreQuantity} power cores and {orbQuantity} Orbs!"
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -33,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T00:28:51.649253+00:00"
+    "timestamp": "2026-10-29T00:39:50.426485+00:00"
 }
