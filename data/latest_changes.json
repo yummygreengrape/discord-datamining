@@ -1,5 +1,5 @@
 {
-    "build_hash": "fc14c5dc3ad1528e750279ef16599fa850c940ea",
+    "build_hash": "2dae48a50deac47140f46cf774fc00f6f91fe7df",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,26 +8,61 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-soundboard-new-sounds-badge",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-29T14:30:05Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-soundboard-new-sounds-badge",
+            "kind": "user",
+            "timestamp": "2026-10-29T14:30:05Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "8LfMqp": "My projects",
-                "BMn2lY": "Server Projects",
-                "KxFFKT": "Personal",
-                "MmWif0": "Other projects",
-                "g6TP7T": "Remix {name}",
-                "veX7G1": "{weeks, number}w"
+                "D923q4": "Open Soundboard, new sounds available"
             },
             "deleted": {},
-            "modified": {
-                "IJY15p": {
-                    "new_value": "What {app} can do on this device.",
-                    "old_value": "What {app} can do on this device. Changes apply right away."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -35,49 +70,5 @@
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "IJY15p": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "{app}에는 해당 앱 이름이 들어가요. Device Permissions와 Not asked yet가 같은 시각에 추가돼 권한 상태를 보는 화면의 보조 설명으로 보여요. 새 설정은 나중에 재시작할 때만 적용된다는 안내와는 달라요.",
-                    "generated_at": "2026-10-27T15:04:10.944531Z",
-                    "intent_type": "account_or_safety_notice",
-                    "related_terms": [
-                        "Device Permissions",
-                        "Not asked yet",
-                        "voice channels",
-                        "screenshots",
-                        "Changes apply right away"
-                    ],
-                    "search_intent": "Discord 앱 권한을 바꾸면 언제 적용되는지 확인하려는 검색이에요.",
-                    "source_context": "2026-10-27 같은 시각에 Device Permissions, Not asked yet, 변경 즉시 적용 안내가 추가됐어요. 기존 기기 권한 묶음에는 음성 연결과 게임 스크린샷 항목이 있어요.",
-                    "summary": "이 설명은 앱의 기기 권한 변경이 즉시 적용된다고 알려요.",
-                    "what_it_means": "이 화면에서 조정하는 앱의 기기 접근 설정이 바로 효력을 갖는다는 뜻이에요.",
-                    "what_to_do": "대상 앱을 확인하고 각 접근 항목을 검토한 뒤 변경해 주세요. 문구가 즉시 적용을 안내하므로 현재 사용 중인 기능에 필요한 권한인지 살펴봐 주세요.",
-                    "when_it_appears": "기기 권한 설정에서 대상 앱과 변경 적용 시점을 설명하는 줄에 보일 수 있어요."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The app placeholder is replaced with the app name. Device Permissions and Not asked yet arrived at the same time, supporting a permission-status settings view. The text describes immediate effect rather than waiting for a later restart.",
-                    "generated_at": "2026-10-27T15:04:10.944531Z",
-                    "intent_type": "account_or_safety_notice",
-                    "related_terms": [
-                        "Device Permissions",
-                        "Not asked yet",
-                        "voice channels",
-                        "screenshots",
-                        "Changes apply right away"
-                    ],
-                    "search_intent": "To check when a Discord app permission change takes effect.",
-                    "source_context": "The October 27 group adds Device Permissions, Not asked yet, and a notice that changes apply immediately. Earlier device-permission strings cover voice connection and game screenshots.",
-                    "summary": "This description says changes to the app’s device capabilities apply right away.",
-                    "what_it_means": "Adjustments to the device access managed here take effect immediately.",
-                    "what_to_do": "Verify the app and review each capability before changing it. Since the notice says changes apply immediately, consider whether a capability is needed by the feature currently in use.",
-                    "when_it_appears": "It may explain the target app and timing of changes in a device-permission view."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-10-29T13:27:55.727435+00:00"
+    "timestamp": "2026-10-29T14:30:10.325512+00:00"
 }
