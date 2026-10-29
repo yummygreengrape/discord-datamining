@@ -1,65 +1,29 @@
 {
-    "build_hash": "4f36a6bc6d2b693c131b8ebcd4d5ee2ca8fa9cac",
+    "build_hash": "fd715ed4b240d54f386cfdfcb7bbb61afd6011b4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-server-onboarding-setup-progress",
-            "kind": "user",
-            "timestamp": "2026-10-28T22:36:51Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-server-onboarding-setup-progress",
-            "kind": "user",
-            "timestamp": "2026-10-28T22:52:00Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-slayer-storefront-single-sku-wide-header",
-            "kind": "user",
-            "timestamp": "2026-10-29T00:13:51Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-shop-sku-nitro-upsell-refresh",
-            "kind": "user",
-            "timestamp": "2026-10-29T00:13:51Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Iqr6uY": "Your Marvel Strike Force account is now connected. Open the game to instantly redeem your power cores.",
+                "Iw0mSJ": "Shop Now",
+                "W6zWaK": "Get {powerCoreQuantity} power cores and {orbQuantity} Orbs when you link your Marvel Strike Force account",
+                "fVtsJF": "Get {powerCoreQuantity} power cores when you link your Marvel Strike Force account",
+                "fmT3tT": "Open Game",
+                "kU4Y9v": "Your Marvel Strike Force account is now connected. Head to the Shop, or open the game to instantly redeem your power cores.",
+                "n2+e09": "Unlock social features like linked channels and sharing your gameplay with friends.",
+                "rUQUKX": "You claimed {powerCoreQuantity} power cores!",
+                "yl/vO0": "You claimed {powerCoreQuantity} power cores and {orbQuantity} Orbs!"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -69,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T00:17:51.362076+00:00"
+    "timestamp": "2026-10-29T00:28:51.649253+00:00"
 }
