@@ -1,5 +1,5 @@
 {
-    "build_hash": "3d316c243a68c1c15f8729fd6b7dc50ee56371a8",
+    "build_hash": "45c5b7aa06c8a895cec0f0162cd232d4a475f4be",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,19 +9,81 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-slayer-storefront-single-sku-wide-header",
+            "kind": "user",
+            "timestamp": "2026-10-29T00:13:51Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-shop-sku-nitro-upsell-refresh",
+            "kind": "user",
+            "timestamp": "2026-10-29T00:13:51Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-nitro-home-badge-directory",
+            "kind": "user",
+            "timestamp": "2026-10-29T00:25:59Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-animated-shop-bundle-previews",
+            "kind": "user",
+            "timestamp": "2026-10-29T00:46:27Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "Iqr6uY": "Your Marvel Strike Force account is now connected. Open the game to instantly redeem your power cores.",
+                "Iw0mSJ": "Shop Now",
+                "TMNpew": "Welcome to {guildName}!",
+                "W6zWaK": "Get {powerCoreQuantity} power cores and {orbQuantity} Orbs when you link your Marvel Strike Force account",
+                "cLuoAc": "You're all set. Jump in and say hi.",
+                "fVtsJF": "Get {powerCoreQuantity} power cores when you link your Marvel Strike Force account",
+                "fmT3tT": "Open Game",
+                "kU4Y9v": "Your Marvel Strike Force account is now connected. Head to the Shop, or open the game to instantly redeem your power cores.",
+                "n2+e09": "Unlock social features like linked channels and sharing your gameplay with friends.",
+                "rUQUKX": "You claimed {powerCoreQuantity} power cores!",
+                "yl/vO0": "You claimed {powerCoreQuantity} power cores and {orbQuantity} Orbs!"
+            },
+            "deleted": {
+                "MEMBER_VERIFICATION_APPROVED_APPLICATION_MODAL_TITLE": "You are now a member of\n\n{guildName}!\n\n",
+                "z9qozJ": "pHookYou are now a member ofpHook{guildName}!"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "z9qozJ": "{guildName}의 멤버가 되셨습니다!"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T01:12:45.071769+00:00"
+    "timestamp": "2026-10-29T01:23:43.964488+00:00"
 }
