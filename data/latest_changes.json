@@ -1,5 +1,5 @@
 {
-    "build_hash": "54610e6639e1546ce530955313b38fbb93045e24",
+    "build_hash": "2e7ecacb08c303181ea4e82caa25d5a973c46acf",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "j3/Aai": "You haven't conjured anything yet. Your first conjuring is waiting!"
+                "yPlyEn": "Mute DMs"
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T17:04:23.392653+00:00"
+    "timestamp": "2026-10-29T17:15:19.176144+00:00"
 }
