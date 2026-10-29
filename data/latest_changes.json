@@ -1,5 +1,5 @@
 {
-    "build_hash": "7bd9f280235125b95b8f08d2d68cd7e6cae61a99",
+    "build_hash": "34a64312171860aa1e94f89f31d9fb4c4d4c4ec8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,23 +13,8 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "IMKkcn": "Heads up, removing your Passkey means your account will no longer require Multi-Factor Authentication to sign in. If you have not reached out to Discord support for help with removing your Passkey and someone reached out to you instead, back out and report them. Discord support will never contact you first in a direct message.",
-                "J/x6ns": "This is your last Passkey",
-                "xlA7Tl": "Heads up, removing your Authenticator App means your account will no longer require Multi-Factor Authentication to sign in. If you have not reached out to Discord support for help with removing your Authenticator App and someone reached out to you instead, back out and report them. Discord support will never contact you first in a direct message."
-            },
-            "deleted": {
-                "CHANNEL_CHAT_NOTIFICATION_SETTINGS_NOTICE_MUTED": "You will not be notified of new messages because **{name}** is muted.",
-                "CHANNEL_CHAT_NOTIFICATION_SETTINGS_NOTICE_ONLY_MENTIONS": "You will only be notified when you are mentioned because **{name}** is set to **Only @mentions**.",
-                "FORM_LABEL_CHANNEL_NOTIFCATION_SETTINGS": "Channel Notification Settings",
-                "FORM_LABEL_UNREAD_SETTINGS_OPT_IN": "Configure Unread Settings",
-                "FORM_LABEL_UNREAD_SETTINGS_OPT_IN_NOTE": "More granular settings to control when channels should appear as unread.",
-                "RESET_NOTIFICATION_SETTINGS": "Reset Notification Settings",
-                "UNREAD_NOTIFICATION_SETTING_NOTICE_ALL_MESSAGES": "Change to all messages",
-                "UNREAD_NOTIFICATION_SETTING_NOTICE_MENTION_ONLY": "Change to mention only",
-                "UNREAD_NOTIFICATION_SETTING_NOTICE_TITLE": "Mark unread for every message?",
-                "UNREAD_SETTINGS": "Unread Settings"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -38,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T19:48:31.899022+00:00"
+    "timestamp": "2026-10-29T19:59:24.156961+00:00"
 }
