@@ -1,5 +1,5 @@
 {
-    "build_hash": "c9e7ae72a22289e3dfc718b15237bf064de07be5",
+    "build_hash": "54610e6639e1546ce530955313b38fbb93045e24",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "j3/Aai": "You haven't conjured anything yet. Your first conjuring is waiting!"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T16:53:30.292699+00:00"
+    "timestamp": "2026-10-29T17:04:23.392653+00:00"
 }
