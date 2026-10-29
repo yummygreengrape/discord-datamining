@@ -1,5 +1,5 @@
 {
-    "build_hash": "8ec2ea97740f47a082b813bc83e090bb65b11322",
+    "build_hash": "3b771fb49fab0a4a1e7613514e66e813732693fa",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,14 +14,44 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "4MMKh2": "Change to mention only",
+                "CHANNEL_CHAT_NOTIFICATION_SETTINGS_NOTICE_MUTED": "You will not be notified of new messages because **{name}** is muted.",
+                "CHANNEL_CHAT_NOTIFICATION_SETTINGS_NOTICE_ONLY_MENTIONS": "You will only be notified when you are mentioned because **{name}** is set to **Only @mentions**.",
+                "ECu0mR": "Unread Settings",
+                "FORM_LABEL_CHANNEL_NOTIFCATION_SETTINGS": "Channel Notification Settings",
+                "FORM_LABEL_UNREAD_SETTINGS_OPT_IN": "Configure Unread Settings",
+                "FORM_LABEL_UNREAD_SETTINGS_OPT_IN_NOTE": "More granular settings to control when channels should appear as unread.",
+                "Le8wd+": "You will not be notified of new messages because bHook{name} is muted.",
+                "M0zWnl": "Mark unread for every message?",
+                "OvBpRa": "Reset Notification Settings",
+                "RESET_NOTIFICATION_SETTINGS": "Reset Notification Settings",
+                "UNREAD_NOTIFICATION_SETTING_NOTICE_ALL_MESSAGES": "Change to all messages",
+                "UNREAD_NOTIFICATION_SETTING_NOTICE_MENTION_ONLY": "Change to mention only",
+                "UNREAD_NOTIFICATION_SETTING_NOTICE_TITLE": "Mark unread for every message?",
+                "UNREAD_SETTINGS": "Unread Settings",
+                "XfuFiu": "Channel Notification Settings",
+                "aaRse8": "Configure Unread Settings",
+                "fwsgJp": "You will only be notified when you are mentioned because bHook{name} is set to bHookOnly @mentions.",
+                "o7FM1M": "Change to all messages",
+                "tfU9Y9": "More granular settings to control when channels should appear as unread."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "4MMKh2": "멘션만으로 변경",
+                "ECu0mR": "읽지 않음 설정",
+                "M0zWnl": "모든 메시지에 대해 읽지 않음으로 표시할까요?",
+                "OvBpRa": "알림 설정 재설정하기",
+                "XfuFiu": "채널 알림 설정",
+                "aaRse8": "읽지 않음 설정 구성",
+                "o7FM1M": "모든 메시지로 변경",
+                "tfU9Y9": "언제 채널을 읽지 않음으로 표시할지 세부적으로 설정할 수 있어요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T19:04:51.383356+00:00"
+    "timestamp": "2026-10-29T19:15:45.344920+00:00"
 }
