@@ -1,39 +1,15 @@
 {
-    "build_hash": "4b197a9dd7d4d3a7ee59e1250bdd21c699f8126c",
+    "build_hash": "f4b7e89805cac26bb9f154c374d09288c0271663",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-improved-shop-loading",
-            "kind": "user",
-            "timestamp": "2026-10-29T02:06:25Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-improved-shop-loading",
-            "kind": "user",
-            "timestamp": "2026-10-29T02:05:24Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -47,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T02:07:21.753769+00:00"
+    "timestamp": "2026-10-29T02:18:12.502051+00:00"
 }
