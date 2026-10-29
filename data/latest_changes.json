@@ -1,71 +1,8 @@
 {
-    "build_hash": "861727691f206717139e95f83f4892e3b9676173",
+    "build_hash": "5f2bca6aebac8a4633f94428eb4a2c67a335a07f",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "켜지면 친구 추천 체험 제안에 요금제별 전용 CTA 문구를 사용합니다."
-                    }
-                ],
-                "detailed_summary": "기본 상태에서는 추천 체험도 일반 체험용 구독 버튼 문구를 사용합니다. 비교안에서는 현재 제안이 친구 추천으로 받은 체험이고 대상 Nitro 요금제가 확인될 때 전용 문구 생성 경로를 사용합니다. 현재 Canary의 구독 CTA가 이 결과를 직접 읽고, 조건을 만족하지 않으면 기존 체험 문구로 돌아갑니다. 체험 기간이나 자격 조건 자체를 바꾼다는 근거는 없습니다.",
-                "evidence": [
-                    "Current Canary module 241422 reads the exact experiment at referral_trial_cta.",
-                    "The subscription CTA calls the helper only for referral-trial offers and falls back to the existing trial copy otherwise."
-                ],
-                "evidence_level": "current_canary_cta_consumer",
-                "focus_area": "친구 추천 Nitro 체험 CTA",
-                "generated_at": "2026-09-19T04:05:42Z",
-                "importance": "medium",
-                "summary": "친구 추천으로 받은 Nitro 체험 제안에 요금제에 맞춘 구독 버튼 문구를 보여 주는 실험입니다.",
-                "why_it_matters": "추천으로 들어온 사용자는 자신이 받는 체험과 대상 요금제를 더 분명하게 이해할 수 있으며, 제안 맥락에 맞는 버튼은 구독 단계의 혼란을 줄일 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "Uses dedicated plan-aware CTA copy for eligible referral trials."
-                    }
-                ],
-                "detailed_summary": "The default state uses the ordinary trial subscription copy for referral trials. In the comparison, the CTA takes a dedicated copy path when the current offer is a referral trial and its target Nitro plan is known. Current Canary's subscription CTA reads this result directly and falls back to the existing trial copy when those conditions are not met. There is no evidence that the experiment changes trial duration or eligibility.",
-                "evidence": [
-                    "Current Canary module 241422 reads the exact experiment at referral_trial_cta.",
-                    "The subscription CTA calls the helper only for referral-trial offers and falls back to the existing trial copy otherwise."
-                ],
-                "evidence_level": "current_canary_cta_consumer",
-                "focus_area": "Friend-referral Nitro trial CTA",
-                "generated_at": "2026-09-19T04:05:42Z",
-                "importance": "medium",
-                "summary": "Uses plan-specific subscription CTA copy for Nitro trials received through a friend referral.",
-                "why_it_matters": "Referral recipients can get clearer context about the trial and target plan, which may reduce uncertainty at the subscription step."
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-referral-trial-cta",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-09-referral-trial-cta",
-            "kind": "user",
-            "treatments": [],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -86,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T21:14:47.364232+00:00"
+    "timestamp": "2026-10-29T21:25:39.974196+00:00"
 }
