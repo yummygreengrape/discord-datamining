@@ -1,5 +1,5 @@
 {
-    "build_hash": "4c7a35d5ff5695eb829fefc718cb1212df8d4f5f",
+    "build_hash": "426cf6a1b2afce2ab70bdfb991b20c8b1db01b43",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,12 +13,19 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "PLA9Om": "You’ve successfully joined the {orgName} {noun} as {characterName}. Head to the server to start chatting.",
+                "Rx9AlK": "We couldn’t load your characters. Try again later.",
+                "VNY3C1": "Doesn’t meet {noun} criteria",
+                "Xm+emB": "Join the {noun} as:",
+                "cIerRX": "You don’t have any characters that can join this {noun}.",
+                "ybJIQJ": "Not meeting {noun} criteria can be due to factors like insufficient ranking or leveling, or already being in another {noun}. Check with the {noun} admin to learn more."
+            },
             "deleted": {},
             "modified": {
-                "ujIxRm": {
-                    "new_value": "Allow Remixing",
-                    "old_value": "Public"
+                "WF9Qgb": {
+                    "new_value": "You’ve successfully joined the {orgName} {noun}. Head to the server to start chatting.",
+                    "old_value": "You’ve successfully joined the {orgName} {noun} as {accountName}. Head to the server to start chatting."
                 }
             }
         },
@@ -28,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T04:18:35.895054+00:00"
+    "timestamp": "2026-10-29T04:29:33.429399+00:00"
 }
