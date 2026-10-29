@@ -1,15 +1,61 @@
 {
-    "build_hash": "df6323ee5fd88042fc779d7e75e45c7d5c8731c3",
+    "build_hash": "4f36a6bc6d2b693c131b8ebcd4d5ee2ca8fa9cac",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-server-onboarding-setup-progress",
+            "kind": "user",
+            "timestamp": "2026-10-28T22:36:51Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-server-onboarding-setup-progress",
+            "kind": "user",
+            "timestamp": "2026-10-28T22:52:00Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-slayer-storefront-single-sku-wide-header",
+            "kind": "user",
+            "timestamp": "2026-10-29T00:13:51Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-shop-sku-nitro-upsell-refresh",
+            "kind": "user",
+            "timestamp": "2026-10-29T00:13:51Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +69,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T00:06:51.815287+00:00"
+    "timestamp": "2026-10-29T00:17:51.362076+00:00"
 }
