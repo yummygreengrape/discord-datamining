@@ -1,5 +1,5 @@
 {
-    "build_hash": "9bc2f93794b0b256c79a62af910eb4387bcbf220",
+    "build_hash": "30857190c06c22be971bb0bdbbd34276b1006533",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,12 +14,24 @@
     "string_changes": {
         "en": {
             "added": {
-                "gmsmxI": "{label}, {status}",
-                "paONe3": "{label}, {count}, {status}",
-                "qbmavE": "{label}, {count}"
+                "BRjBVV": "Show fewer servers",
+                "JKN64Y": "Remixing makes your own copy of {name} that you can change however you like. The original stays just as it is.",
+                "MEMaup": "Show {count} more {count, plural, one {server} other {servers}}",
+                "R2uxWO": "Pick the server where you’ll build and try out your copy.",
+                "cI3aQA": "{count, plural, one {# member} other {# members}}",
+                "fT4+km": "Your copy starts from the original as it is now, without its chat history, secrets, or settings. It’s yours: only you can work on it unless you share it."
             },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "89YBr5": {
+                    "new_value": "Activity Joining",
+                    "old_value": "Who Can Join My Games"
+                },
+                "8EWsJ8": {
+                    "new_value": "Allows friends to join without sending a request.",
+                    "old_value": "Allow friends to join my game without sending a request."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -27,5 +39,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T20:31:58.910966+00:00"
+    "timestamp": "2026-10-29T20:42:51.214469+00:00"
 }
