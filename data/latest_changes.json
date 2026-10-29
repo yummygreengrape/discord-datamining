@@ -1,5 +1,5 @@
 {
-    "build_hash": "b2101dc2bf810e32bf87bf197010b57fea5e29ec",
+    "build_hash": "8012b4d872ac5c25c0292891d6a32f9a69339251",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,13 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "07XimM": "Attachments only",
-                "REnNUn": "{count} queued",
-                "W+la29": "Show more",
-                "hzgPbZ": "Queued messages",
-                "nEMoeN": "Show less"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -29,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T22:52:27.301438+00:00"
+    "timestamp": "2026-10-29T23:03:20.511240+00:00"
 }
