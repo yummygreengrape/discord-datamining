@@ -1,98 +1,28 @@
 {
-    "build_hash": "1cedb1d9feca3aba9ae7ddfcaba2c14f10ebb578",
+    "build_hash": "b7495ba30f91cee4c9f0f402b7c53656026626ef",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "echoReferenceMode",
-                        "note": "Windows 음성 통화에서 반향 제거 방식을 mix 또는 auto로 선택합니다."
-                    }
-                ],
-                "detailed_summary": "헤드폰을 쓰지 않고 스피커로 통화할 때 스피커 소리가 마이크로 다시 들어가는 문제를 줄이기 위한 실험입니다. 기본 상태에서는 반향 제거 방식이 mix로 설정되고, 비교안 1에서는 auto로 바뀝니다. Discord가 Windows 음성 통화에서 더 자연스럽게 울림을 줄이는 방식을 비교하는 변경입니다.",
-                "evidence": [
-                    "canary/web.c0ac8579b6abf687.js: echoReferenceMode 값이 Windows 음성 처리 설정으로 전달되는 흐름 확인",
-                    "기본값은 mix이고 비교안 1은 auto로 설정되어 반향 제거 방식을 비교함"
-                ],
-                "evidence_level": "current_canary_usage",
-                "focus_area": "음성 통화",
-                "generated_at": "2026-06-07T06:23:23.938Z",
-                "importance": "high",
-                "summary": "Windows 음성 통화에서 스피커 사용 시 생기는 울림을 줄이는 방식을 비교하는 실험입니다.",
-                "why_it_matters": "스피커로 통화하면 상대 목소리가 내 마이크로 다시 들어가 울림이 생길 수 있습니다. mix와 auto를 나누면 Discord가 목소리를 덜 망가뜨리면서 울림을 줄이는 방식을 찾을 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "echoReferenceMode",
-                        "note": "Chooses the echo handling mode for Windows voice calls."
-                    }
-                ],
-                "detailed_summary": "This experiment changes how Windows voice calls handle speaker audio that can leak back into the microphone. The default uses mix, while variant 1 switches the echo handling mode to auto. It helps Discord compare which setting reduces echo without making voices sound worse.",
-                "evidence": [
-                    "canary/web.c0ac8579b6abf687.js passes echoReferenceMode into Windows voice processing settings",
-                    "The default is mix and variant 1 uses auto, splitting the echo handling mode for comparison"
-                ],
-                "evidence_level": "current_canary_usage",
-                "focus_area": "Voice calls",
-                "generated_at": "2026-06-07T06:23:23.938Z",
-                "importance": "high",
-                "summary": "Tests a Windows voice-call setting that reduces echo when speakers are used instead of headphones.",
-                "why_it_matters": "Speaker calls can create echo when the other person’s audio is picked up by the mic. Splitting mix and auto lets Discord tune echo reduction with less impact on voice quality."
-            },
-            "config_keys": [
-                "echoReferenceMode"
-            ],
-            "default_config": {
-                "echoReferenceMode": "mix"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-systemwide-echo-cancellation-for-people-who-refuse-to-wear-headphones",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-10-29T03:00:07Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "echoReferenceMode": "auto"
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "echoReferenceMode"
-            ],
-            "default_config": {
-                "echoReferenceMode": "mix"
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-systemwide-echo-cancellation-for-people-who-refuse-to-wear-headphones",
-            "kind": "user",
-            "timestamp": "2026-10-29T03:00:07Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "echoReferenceMode": "auto"
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-fractional-nitro-pricing",
+            "kind": "user",
+            "timestamp": "2026-10-29T03:07:13Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -106,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T03:02:12.860646+00:00"
+    "timestamp": "2026-10-29T03:13:07.312371+00:00"
 }
