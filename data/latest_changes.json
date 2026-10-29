@@ -1,5 +1,5 @@
 {
-    "build_hash": "fd4eb9ac4c52131c834521f66db47c114989f89a",
+    "build_hash": "cb3e652064656fcaa8cd1635a2e4b0748cb367e3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "nOrtg9": "Itch",
+                "xDtQAQ": "Fandom"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-29T23:25:05.807878+00:00"
+    "timestamp": "2026-10-29T23:35:55.062724+00:00"
 }
