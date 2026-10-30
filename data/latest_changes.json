@@ -1,5 +1,5 @@
 {
-    "build_hash": "e758a0cfbf6c9ae8926b7bd63a7f73522caa9b89",
+    "build_hash": "146c8e224789752888a58e584f1c6fcbe9c36084",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,12 +13,14 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0H6Cdy": "Without a moderator channel, raid alerts and lockdown notices won't be delivered.",
-                "lXJ+cv": "Select a channel to turn on Activity Alerts."
-            },
+            "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "/npn7F": {
+                    "new_value": "{name} published to [{server}]({onOpenServer}).",
+                    "old_value": "{name} published to {server}."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -26,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T04:05:00.355443+00:00"
+    "timestamp": "2026-10-30T04:26:10.130306+00:00"
 }
