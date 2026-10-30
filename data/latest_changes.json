@@ -1,5 +1,5 @@
 {
-    "build_hash": "ba3eca99a3b5a02b89b4b86974e0bdee61231e3b",
+    "build_hash": "392edcac9a0fd4275cdebdb856f9e4a7ad95621b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,7 +7,18 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "APP_STORE_CONSENT_REINSTATE",
+            "status": "added",
+            "url": "/users/@me/app-store-consent/reinstate"
+        },
+        {
+            "name": "ENDPOINT_USERS_APP_STORE_CONSENT_REINSTATE",
+            "status": "added",
+            "url": "/users/@me/app-store-consent/reinstate"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
@@ -15,12 +26,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "XRu92R": {
-                    "new_value": "Message content in this channel can be shown on web pages. [Learn more]({learnMoreURL})",
-                    "old_value": "Message content here can be shown on web pages. [Learn more]({learnMoreURL})"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -28,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T19:51:21.908840+00:00"
+    "timestamp": "2026-10-30T20:02:17.081885+00:00"
 }
