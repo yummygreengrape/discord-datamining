@@ -1,5 +1,5 @@
 {
-    "build_hash": "89af0cd8a1b4108bc853f2ebca9ba28e56fa99f2",
+    "build_hash": "323f98eadcca677e9d00e9439f0849695ad2ff3f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,11 +9,28 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-nitro-upload-badge",
+            "kind": "user",
+            "timestamp": "2026-10-30T22:23:16Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "2op/Su": "Discord Nitro lets you share files up to {maxSize}. Upgrade to share videos like this one.",
+                "BokMhV": "Nitro",
+                "TaT999": "Your plan lets you share files up to {currentMaxSize}. Nitro raises that to {maxSize}, enough for videos like this one.",
+                "lCx19K": "Shared with Nitro"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +40,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T22:14:17.296678+00:00"
+    "timestamp": "2026-10-30T22:25:11.420202+00:00"
 }
