@@ -1,5 +1,5 @@
 {
-    "build_hash": "5d0c8f85b712a4dfd263ba3d5064d2258c7fc09b",
+    "build_hash": "ae03b7da01f7ce91a5a0509f3179330348d71b34",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,15 +14,14 @@
     "string_changes": {
         "en": {
             "added": {
-                "mUYiYm": "Create an editable copy of this app to use as-is or customize."
+                "Im1k9X": "Show more…",
+                "YHDMK6": "Shared projects"
             },
-            "deleted": {},
-            "modified": {
-                "maL0+X": {
-                    "new_value": "Where do you want to put it?",
-                    "old_value": "Where should your remix live?"
-                }
-            }
+            "deleted": {
+                "MmWif0": "Other projects",
+                "g6TP7T": "Remix {name}"
+            },
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -30,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T06:45:13.369992+00:00"
+    "timestamp": "2026-10-30T07:06:23.823528+00:00"
 }
