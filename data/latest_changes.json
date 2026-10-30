@@ -1,5 +1,5 @@
 {
-    "build_hash": "392edcac9a0fd4275cdebdb856f9e4a7ad95621b",
+    "build_hash": "e1585dd1d610a8998049b9bf0d57a2c640fb37be",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,18 +7,7 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "APP_STORE_CONSENT_REINSTATE",
-            "status": "added",
-            "url": "/users/@me/app-store-consent/reinstate"
-        },
-        {
-            "name": "ENDPOINT_USERS_APP_STORE_CONSENT_REINSTATE",
-            "status": "added",
-            "url": "/users/@me/app-store-consent/reinstate"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
@@ -34,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T20:02:17.081885+00:00"
+    "timestamp": "2026-10-30T20:13:11.422966+00:00"
 }
