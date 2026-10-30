@@ -1,8 +1,466 @@
 {
-    "build_hash": "9e01f262da5bfd7740ae0229f290ac81bb1ff80d",
+    "build_hash": "f50eb63b4360049ff34ffad578e87a4aef134bee",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enableClips",
+                "ignorePlatformRestriction"
+            ],
+            "default_config": {
+                "enableClips": false,
+                "ignorePlatformRestriction": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-clips-experiment",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enableClips": true,
+                    "ignorePlatformRestriction": false
+                },
+                "2": {
+                    "enableClips": true,
+                    "ignorePlatformRestriction": true
+                }
+            }
+        },
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enableClipsV3ML",
+                        "note": "비교안 2만 새 기기 내 게임·오디오 분석 실행 방식을 켭니다."
+                    }
+                ],
+                "detailed_summary": "기본 상태와 비교안 1에서는 새 기기 내 분석 기능을 사용하지 않습니다. 비교안 2는 필요한 분석 파일을 내려받아 준비하고, Clips가 켜져 있을 때 게임·오디오 분류 결과를 처리하는 동작을 등록합니다. 현재 Canary의 자동 Clips 사용 가능 여부, 분석 파일 준비, 오디오 분류 처리와 Clips 팝아웃이 이 설정을 직접 읽는 것이 확인됩니다. 무엇을 녹화하고 보관할지는 기존 Clips 설정과 권한 조건이 계속 적용되며, 이 실험만으로 서버 전송이 추가된다는 근거는 없습니다.",
+                "evidence": [
+                    "Current Canary module 974293 reads enableClipsV3ML from auto-Clips availability and runtime helpers.",
+                    "Variant 2 enables Clips ML asset preparation and audio classification handler registration; default and Variant 1 remain false.",
+                    "The same helper is used by the Clips popout and native runtime setup."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Clips 기기 내 자동 장면 분석",
+                "generated_at": "2026-09-05T04:19:24Z",
+                "importance": "high",
+                "summary": "Clips가 게임·음성 신호를 기기에서 분석해 자동으로 장면을 잡는 새 실행 방식을 시험합니다.",
+                "why_it_matters": "자동으로 유용한 장면을 찾는 정확도와 지원 게임 범위를 넓힐 수 있지만, 기기에서 추가 분석 작업과 파일 다운로드가 발생할 수 있습니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enableClipsV3ML",
+                        "note": "Only Variant 2 enables the new on-device game and audio analysis runtime."
+                    }
+                ],
+                "detailed_summary": "The default state and Variant 1 leave the new on-device analysis disabled. Variant 2 prepares the required analysis assets and registers game and audio classification handling when Clips is available. Current Canary's auto-Clips availability checks, asset preparation, audio classification handling, and Clips popout all read the experiment-backed setting. Existing Clips permissions and capture settings still decide what can be recorded and retained, and this experiment does not by itself establish any new server upload.",
+                "evidence": [
+                    "Current Canary module 974293 reads enableClipsV3ML from auto-Clips availability and runtime helpers.",
+                    "Variant 2 enables Clips ML asset preparation and audio classification handler registration; default and Variant 1 remain false.",
+                    "The same helper is used by the Clips popout and native runtime setup."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "On-device automatic Clips analysis",
+                "generated_at": "2026-09-05T04:19:24Z",
+                "importance": "high",
+                "summary": "Tests a new Clips runtime that analyzes game and audio signals on the device to identify automatic moments.",
+                "why_it_matters": "It may improve automatic moment detection and game coverage, while requiring additional on-device processing and asset downloads."
+            },
+            "config_keys": [
+                "enableClipsV3ML"
+            ],
+            "default_config": {
+                "enableClipsV3ML": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-04-clips-v3-runtime",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enableClipsV3ML": false
+                },
+                "2": {
+                    "enableClipsV3ML": true
+                }
+            }
+        },
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enableLeagueEvents",
+                        "note": "자동 Clips가 켜진 상태에서 League 전용 이벤트 감지기를 활성화합니다."
+                    }
+                ],
+                "detailed_summary": "League of Legends를 실행하고 Discord의 자동 클립 기능을 켠 상태에서, 활성화되면 게임 전용 이벤트 감지기가 시작됩니다. 이 감지기는 경기 중 발생한 이벤트를 클립 생성 판단에 사용할 수 있도록 전달합니다.",
+                "evidence": [
+                    "Canary module 966532 registers a league-of-legends application clip handler.",
+                    "The handler is enabled only when auto-clipping and enableLeagueEvents are both true.",
+                    "The handler is dynamically loaded for the League of Legends application id."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "League of Legends 자동 Clips",
+                "generated_at": "2026-06-21T00:03:25Z",
+                "importance": "medium",
+                "summary": "Clips가 켜진 PC에서 League of Legends 경기 이벤트를 자동 클립 신호로 사용하는 실험입니다.",
+                "why_it_matters": "음성이나 화면 변화만으로 잡기 어려운 경기 순간을 게임 이벤트에 맞춰 더 정확히 저장할 수 있습니다. League를 하지 않거나 자동 클립을 끈 사용자에게는 적용되지 않습니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enableLeagueEvents",
+                        "note": "Enables the League-specific event handler when auto-clipping is on."
+                    }
+                ],
+                "detailed_summary": "When League of Legends is running and Discord auto-clipping is enabled, the experiment starts a game-specific event handler. That handler can feed match events into the decision process for creating clips.",
+                "evidence": [
+                    "Canary module 966532 registers a league-of-legends application clip handler.",
+                    "The handler is enabled only when auto-clipping and enableLeagueEvents are both true.",
+                    "The handler is dynamically loaded for the League of Legends application id."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "League of Legends auto-clipping",
+                "generated_at": "2026-06-21T00:03:25Z",
+                "importance": "medium",
+                "summary": "Uses League of Legends match events as auto-clipping signals on supported PCs.",
+                "why_it_matters": "Game events can identify important match moments more accurately than audio or screen changes alone. It does not apply when League is not running or auto-clipping is off."
+            },
+            "config_keys": [
+                "enableLeagueEvents"
+            ],
+            "default_config": {
+                "enableLeagueEvents": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-clips-league-events",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableLeagueEvents": true
+                }
+            }
+        },
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enableCs2Gsi",
+                        "note": "켜지면 Windows의 Counter-Strike 2 경기 상태 연동을 자동 클립 처리기에 연결합니다."
+                    }
+                ],
+                "detailed_summary": "기본 상태에서는 Counter-Strike 2 전용 경기 상태 연동이 켜지지 않습니다. 비교안에서는 자동 클립이 활성화된 Windows 환경에서 Discord가 컴퓨터 안의 로컬 연결을 위한 게임 설정을 설치하고, Counter-Strike 2의 경기 이벤트를 클립 신호로 받을 수 있습니다. 현재 사용처는 이 연동을 자동 클립의 게임별 처리기로 등록하며, 설정을 끄면 설치된 연동 설정을 제거하는 흐름도 포함합니다. 어떤 이벤트가 실제 클립 생성으로 이어지는지는 다른 자동 클립 설정과 경기 이벤트 판정에 따라 달라집니다.",
+                "evidence": [
+                    "Current Canary module 240899 defines enableCs2Gsi and module 773870 reads it before registering the CS2 game-event handler.",
+                    "Module 324029 reads the same config before installing or removing the local CS2 game-state configuration.",
+                    "The handler is conditional on Auto Clips being enabled and the Counter-Strike 2 application being active."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Counter-Strike 2 자동 클립",
+                "generated_at": "2026-08-01T04:17:31Z",
+                "importance": "medium",
+                "summary": "Windows에서 Counter-Strike 2를 플레이하며 자동 클립을 사용할 때, 경기 이벤트를 Discord Clips가 감지할 수 있게 하는 실험입니다.",
+                "why_it_matters": "Counter-Strike 2에서도 처치 같은 순간을 수동으로 저장하지 않고 자동 클립 후보로 잡을 수 있는 기반입니다. 다만 이 실험 하나만으로 모든 경기 이벤트가 자동 저장된다고 단정할 수는 없습니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enableCs2Gsi",
+                        "note": "Enables the Windows Counter-Strike 2 game-state integration used by the Auto Clips handler."
+                    }
+                ],
+                "detailed_summary": "The default path does not enable the Counter-Strike 2 game-state integration. In the treatment, Discord can install a local game configuration on Windows and receive Counter-Strike 2 match events when Auto Clips is enabled. The current consumer registers this integration as a game-specific Auto Clips handler and removes the installed configuration when it is turned off. Which events actually create clips still depends on the other Auto Clips and event-selection settings.",
+                "evidence": [
+                    "Current Canary module 240899 defines enableCs2Gsi and module 773870 reads it before registering the CS2 game-event handler.",
+                    "Module 324029 reads the same config before installing or removing the local CS2 game-state configuration.",
+                    "The handler is conditional on Auto Clips being enabled and the Counter-Strike 2 application being active."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Counter-Strike 2 Auto Clips",
+                "generated_at": "2026-08-01T04:17:31Z",
+                "importance": "medium",
+                "summary": "Lets Discord Clips detect Counter-Strike 2 match events when Auto Clips is enabled on Windows.",
+                "why_it_matters": "This provides the path for Counter-Strike 2 moments such as match events to become automatic clip candidates instead of relying only on manual saves. The experiment alone does not show that every event will be saved."
+            },
+            "config_keys": [
+                "enableCs2Gsi"
+            ],
+            "default_config": {
+                "enableCs2Gsi": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-gsimagic",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableCs2Gsi": true
+                }
+            }
+        },
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enableRocketLeagueEvents",
+                        "note": "켜지면 Rocket League 전용 자동 Clips 이벤트 처리기를 등록합니다."
+                    }
+                ],
+                "detailed_summary": "자동 Clips가 켜져 있고 Rocket League를 실행 중인 경우, 비교안은 이 게임 전용 이벤트 처리기를 등록합니다. 같은 시점의 문자열에는 승리·패배·골·선방·어시스트·폭파·플립 리셋 같은 경기 사건 이름이 추가됐습니다. 이 근거는 해당 사건을 Clip 후보나 타임라인 표식으로 활용하는 흐름을 뒷받침하지만, 모든 사건이 반드시 별도 Clip으로 저장된다는 뜻은 아닙니다.",
+                "evidence": [
+                    "Current Canary module 353582 reads enableRocketLeagueEvents when registering the Rocket League Auto Clips handler.",
+                    "The handler is conditional on Clips being enabled and the Rocket League application being active.",
+                    "The same window adds twelve Rocket League event labels including Goal, Save, Assist, Victory, and Defeat."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Rocket League 자동 Clips 이벤트",
+                "generated_at": "2026-08-29T04:15:57Z",
+                "importance": "high",
+                "summary": "Rocket League 경기 이벤트를 자동 Clips 처리에 사용할 수 있게 하는 실험입니다.",
+                "why_it_matters": "게임의 중요한 순간을 사용자가 수동으로 기억하거나 찾지 않아도 Discord가 Clip 후보로 식별할 수 있어, 경기 하이라이트를 남기는 흐름이 쉬워질 수 있습니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enableRocketLeagueEvents",
+                        "note": "When enabled, registers the Rocket League-specific Auto Clips event handler."
+                    }
+                ],
+                "detailed_summary": "When Auto Clips is enabled and Rocket League is running, the comparison registers a game-specific event handler. Strings added in the same change name events such as victory, defeat, goal, save, assist, demolition, and flip reset. This supports using those events as Clip candidates or timeline markers, but it does not prove that every event always creates a separate saved Clip.",
+                "evidence": [
+                    "Current Canary module 353582 reads enableRocketLeagueEvents when registering the Rocket League Auto Clips handler.",
+                    "The handler is conditional on Clips being enabled and the Rocket League application being active.",
+                    "The same window adds twelve Rocket League event labels including Goal, Save, Assist, Victory, and Defeat."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Rocket League Auto Clips events",
+                "generated_at": "2026-08-29T04:15:57Z",
+                "importance": "high",
+                "summary": "Lets Rocket League match events feed Discord's Auto Clips processing.",
+                "why_it_matters": "Discord can identify meaningful match moments as Clip candidates without relying entirely on manual capture, making highlights easier to preserve."
+            },
+            "config_keys": [
+                "enableRocketLeagueEvents"
+            ],
+            "default_config": {
+                "enableRocketLeagueEvents": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-08-rocketleague-events",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableRocketLeagueEvents": true
+                }
+            }
+        },
+        {
+            "analysis": {
+                "detailed_summary": "기본 상태에서는 이 실험이 Dota 게임 신호 연결을 켜지 않습니다. 비교안에서는 데스크톱 앱이 Dota 게임 신호 설정을 설치할 수 있고, 자동 Clips 사용 가능 여부를 확인할 때 이 신호를 포함합니다. 현재 클라이언트가 두 경로에서 정확한 설정값을 읽는 것이 확인됩니다. 실제로 어떤 장면이 자동으로 기록되는지와 녹화 품질의 차이는 아직 확인되지 않았습니다.",
+                "evidence": [
+                    "The Dota signal installer reads enableDotaGsi before installing its config.",
+                    "Auto Clips availability reads the same flag alongside other game-signal sources."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Dota 자동 Clips 신호",
+                "generated_at": "2026-09-26T04:08:03Z",
+                "importance": "medium",
+                "summary": "Dota 게임 활동을 자동 Clips 가능 여부 판단에 사용할지 비교합니다.",
+                "why_it_matters": "Dota 플레이 중 자동 Clips 기능이 제공되는 조건에 영향을 줄 수 있습니다."
+            },
+            "analysis_en": {
+                "detailed_summary": "By default this experiment does not enable the Dota signal connection. In the variant, the desktop app may install the Dota game-signal configuration and includes that signal when checking whether automatic Clips is available. Current client code reads the exact setting in both paths. It does not establish which moments are recorded or any quality improvement.",
+                "evidence": [
+                    "The Dota signal installer reads enableDotaGsi before installing its config.",
+                    "Auto Clips availability reads the same flag alongside other game-signal sources."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Dota automatic Clips signals",
+                "generated_at": "2026-09-26T04:08:03Z",
+                "importance": "medium",
+                "summary": "Tests whether Dota game signals can enable automatic Clips availability.",
+                "why_it_matters": "It may affect whether automatic Clips is available during Dota play."
+            },
+            "config_keys": [
+                "enableDotaGsi"
+            ],
+            "default_config": {
+                "enableDotaGsi": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-gsimagic2",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableDotaGsi": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enableClips",
+                "ignorePlatformRestriction"
+            ],
+            "default_config": {
+                "enableClips": false,
+                "ignorePlatformRestriction": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-clips-experiment",
+            "kind": "user",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enableClips": true,
+                    "ignorePlatformRestriction": false
+                },
+                "2": {
+                    "enableClips": true,
+                    "ignorePlatformRestriction": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enableClipsV3ML"
+            ],
+            "default_config": {
+                "enableClipsV3ML": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-04-clips-v3-runtime",
+            "kind": "user",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enableClipsV3ML": false
+                },
+                "2": {
+                    "enableClipsV3ML": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enableLeagueEvents"
+            ],
+            "default_config": {
+                "enableLeagueEvents": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-clips-league-events",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableLeagueEvents": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enableCs2Gsi"
+            ],
+            "default_config": {
+                "enableCs2Gsi": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-gsimagic",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableCs2Gsi": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enableRocketLeagueEvents"
+            ],
+            "default_config": {
+                "enableRocketLeagueEvents": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-08-rocketleague-events",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableRocketLeagueEvents": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enableDotaGsi"
+            ],
+            "default_config": {
+                "enableDotaGsi": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-gsimagic2",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableDotaGsi": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -16,21 +474,20 @@
             "default_config": {
                 "enabled": false
             },
-            "experiment_source": "reference_comment",
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
-            "id": "2026-10-build-a-bear-qa",
+            "id": "2026-09-autoclips",
             "kind": "user",
             "status": "added",
-            "timestamp": "2026-10-30T17:01:12Z",
             "treatments": [
-                "Variant 0",
-                "Variant 1"
+                "Variant 1",
+                "Variant 2"
             ],
             "variations": {
-                "0": {
-                    "enabled": false
-                },
                 "1": {
+                    "enabled": true
+                },
+                "2": {
                     "enabled": true
                 }
             }
@@ -44,20 +501,19 @@
             "default_config": {
                 "enabled": false
             },
-            "experiment_source": "reference_comment",
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
-            "id": "2026-10-build-a-bear-qa",
+            "id": "2026-09-autoclips",
             "kind": "user",
-            "timestamp": "2026-10-30T17:01:12Z",
             "treatments": [
-                "Variant 0",
-                "Variant 1"
+                "Variant 1",
+                "Variant 2"
             ],
             "variations": {
-                "0": {
-                    "enabled": false
-                },
                 "1": {
+                    "enabled": true
+                },
+                "2": {
                     "enabled": true
                 }
             }
@@ -68,16 +524,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "Jry6Gr": {
-                    "new_value": "Message content in this channel can be shown on web pages. $[Learn more](learnMoreHook)",
-                    "old_value": "Message content here can be shown on web pages. $[Learn more](learnMoreHook)"
-                },
-                "x9NGts": {
-                    "new_value": "Message content sent here can be shown on web pages. Look for the Discoverable label.",
-                    "old_value": "Message content sent here can be shown on web pages. Look for the label to spot them."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -85,5 +532,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T17:06:37.567040+00:00"
+    "timestamp": "2026-10-30T17:17:56.499254+00:00"
 }
