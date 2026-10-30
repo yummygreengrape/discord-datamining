@@ -1,5 +1,5 @@
 {
-    "build_hash": "d94bb8bb30f2b0209ce172e85f7eaa75b8d4bfe1",
+    "build_hash": "406a4080f10905e28c4ab811146da300246f1a56",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,43 +7,91 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [
+    "new_api_endpoints": [
         {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-linked-guilds",
-            "kind": "guild",
-            "timestamp": "2026-10-30T20:44:02Z",
-            "treatments": [
-                "Variant 1"
-            ]
+            "name": "ENDPOINT_DISCOVERY_GAMES",
+            "status": "added",
+            "url": "/discovery/games"
         },
         {
+            "name": "GLOBAL_DISCOVERY_GAMES",
+            "status": "added",
+            "url": "/discovery/games"
+        }
+    ],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-10-clips-default-on-geo",
+            "id": "2026-10-game-discovery",
             "kind": "user",
-            "timestamp": "2026-10-30T20:46:06Z",
+            "status": "added",
+            "timestamp": "2026-10-30T21:22:33Z",
             "treatments": [
+                "Variant 0",
                 "Variant 1"
-            ]
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-game-discovery",
+            "kind": "user",
+            "timestamp": "2026-10-30T21:22:33Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
         }
     ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "SwOlOR": "Linked Guild"
+                "7ff2Gs": "Top trending games",
+                "9BIezJ": "Plays",
+                "E5vkHs": "Because you played {gameName}",
+                "JMTGC3": "Games your friends are into",
+                "NTv8WZ": "Games",
+                "Pc6FRV": "Jump back in",
+                "Rism7w": "Featured",
+                "SVexhg": "Game",
+                "fBsbex": "Official server",
+                "qpGTIa": "Play with your friends",
+                "raRLQb": "Trending games"
             },
             "deleted": {},
-            "modified": {
-                "XRu92R": {
-                    "new_value": "Message content in this channel can be shown on web pages. $[Learn more](learnMoreHook)",
-                    "old_value": "Message content in this channel can be shown on web pages. [Learn more]({learnMoreURL})"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -51,5 +99,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T21:19:43.339540+00:00"
+    "timestamp": "2026-10-30T21:30:39.810670+00:00"
 }
