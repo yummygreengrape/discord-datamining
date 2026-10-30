@@ -1,5 +1,5 @@
 {
-    "build_hash": "cf067145b6b7b4bece032b8dde541e6494033d1a",
+    "build_hash": "a5600707ae25e01b4813dffab3bfd44f0c0bc04e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,11 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "81y3Y1": "Link guild",
-                "FzPkj2": "Select game",
-                "gR14cL": "Link an in-game guild to your server. You must be an admin of the guild to link it."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T21:41:32.830902+00:00"
+    "timestamp": "2026-10-30T21:52:28.967306+00:00"
 }
