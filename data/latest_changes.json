@@ -1,5 +1,5 @@
 {
-    "build_hash": "9f4c411e1fe11bb33959dde1448ddfe2de7dc883",
+    "build_hash": "a460637591ae8bf883c8a9b5d55096c98ce81f4e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,19 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-shop-twelve-days-promo",
-            "kind": "user",
-            "timestamp": "2026-10-30T18:26:56Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -35,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T18:35:04.680311+00:00"
+    "timestamp": "2026-10-30T18:45:57.487654+00:00"
 }
