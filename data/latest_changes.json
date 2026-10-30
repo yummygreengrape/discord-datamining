@@ -1,5 +1,5 @@
 {
-    "build_hash": "af5f614048f1aeaf78c018856b92b81128a88848",
+    "build_hash": "9e01f262da5bfd7740ae0229f290ac81bb1ff80d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,14 +8,76 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-build-a-bear-qa",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-30T17:01:12Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-build-a-bear-qa",
+            "kind": "user",
+            "timestamp": "2026-10-30T17:01:12Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "Jry6Gr": {
+                    "new_value": "Message content in this channel can be shown on web pages. $[Learn more](learnMoreHook)",
+                    "old_value": "Message content here can be shown on web pages. $[Learn more](learnMoreHook)"
+                },
+                "x9NGts": {
+                    "new_value": "Message content sent here can be shown on web pages. Look for the Discoverable label.",
+                    "old_value": "Message content sent here can be shown on web pages. Look for the label to spot them."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +85,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T16:55:46.655472+00:00"
+    "timestamp": "2026-10-30T17:06:37.567040+00:00"
 }
