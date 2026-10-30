@@ -1,5 +1,5 @@
 {
-    "build_hash": "2cc5d56f33dd35204f1a74db87b1f58f23202c99",
+    "build_hash": "bb94639f0ace11e3f5d3c07fb6e6b4cab1bcf099",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,43 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "+Bo7fD": "Flower",
+                "+EMTB/": "Moon",
+                "7DZ2Fj": "Water",
+                "H0zY/q": "Sakura",
+                "Ib3xUj": "Fire",
+                "KqfZhk": "Wolf",
+                "M6igKM": "Valorant",
+                "MzFZoP": "Bundle",
+                "NKZY+Z": "Fall",
+                "S+ZC67": "Nitro",
+                "SM4C+M": "Autumn",
+                "SxlobC": "Dark",
+                "U+7iha": "Dragon",
+                "Z4b7dI": "Venom",
+                "amuakh": "Bunny",
+                "bKvkzB": "Cat",
+                "bnJVgJ": "Angel",
+                "cChmCO": "Space",
+                "fwKulM": "Spider",
+                "kmA+p3": "Spooky",
+                "o/+isu": "Roses",
+                "qozQ5X": "Star Wars",
+                "rsvVIs": "Goth",
+                "tu6vgS": "Marvel",
+                "w/OnRT": "Star"
+            },
+            "deleted": {
+                "3eYXNh": "Dragon",
+                "8tJXmQ": "Fire",
+                "Bkkno0": "Valorant",
+                "L1TjUO": "Flowers",
+                "L8hb2E": "Goth",
+                "ZHHx6R": "Cats",
+                "bRwRwX": "Shop for {option}",
+                "jcB6Kg": "Anime"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +58,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T00:41:11.339192+00:00"
+    "timestamp": "2026-10-30T00:52:05.224051+00:00"
 }
