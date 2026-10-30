@@ -1,5 +1,5 @@
 {
-    "build_hash": "a460637591ae8bf883c8a9b5d55096c98ce81f4e",
+    "build_hash": "1e418ccc937ab2db34f46c571e5f86a24e79cc02",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-orbchievements-mobile",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-30T18:56:20Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-orbchievements-mobile",
+            "kind": "user",
+            "timestamp": "2026-10-30T18:56:20Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T18:45:57.487654+00:00"
+    "timestamp": "2026-10-30T18:56:51.490876+00:00"
 }
