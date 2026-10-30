@@ -1,5 +1,5 @@
 {
-    "build_hash": "e48a60e26976c2c104ec8b971b8e7b01bd44ee17",
+    "build_hash": "c099813c9ca423010a36de3cadf46a2cc7bba69f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,15 +13,65 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "YVFKfP": "Approve permissions",
+                "e8XOnl": "For this app to function, you need to approve some permissions first."
+            },
+            "deleted": {
+                "FH2Udn": "Add Preview Bot",
+                "vPwmA0": "You must have {numChattableChannels, plural, one {# channel} other {# channels}} new members can talk in"
+            },
+            "modified": {
+                "/lWYYS": {
+                    "new_value": "Optionally add up to 5 tasks for your new members to do. Get them to bHooktalk and engage in your channels.",
+                    "old_value": "Set 3-5 tasks for your new members to do. Get them to bHooktalk and engage in your channels."
+                },
+                "GUILD_SETTINGS_ONBOARDING_HOME_REVIEW_INVALID_DESCRIPTION": {
+                    "new_value": "You must have a welcome message and valid channels for any To Do tasks.",
+                    "old_value": "You must have a welcome message and at least 3 To Do tasks."
+                },
+                "GUILD_SETTINGS_ONBOARDING_HOME_SAVE_FAILED_REASON": {
+                    "new_value": "You must have a welcome message and valid channels for any To Do tasks.",
+                    "old_value": "You must have a welcome message and at least 3 To Do tasks."
+                },
+                "GUILD_SETTINGS_ONBOARDING_HOME_SETTINGS_TODOS_DESCRIPTION": {
+                    "new_value": "Optionally add up to 5 tasks for your new members to do. Get them to **talk and engage in your channels.**",
+                    "old_value": "Set 3-5 tasks for your new members to do. Get them to **talk and engage in your channels.**"
+                },
+                "JuhUTS": {
+                    "new_value": "You must have a welcome message and valid channels for any To Do tasks.",
+                    "old_value": "You must have a welcome message and at least 3 To Do tasks."
+                },
+                "wXFbgZ": {
+                    "new_value": "You must have a welcome message and valid channels for any To Do tasks.",
+                    "old_value": "You must have a welcome message and at least 3 To Do tasks."
+                }
+            }
         },
         "ko": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "3/T12E": "3/T12E",
+                "8hclXY": "8hclXY",
+                "F3GyfJ": "사라지기 전에 아이템 4개를 수집해 한정 아바타 장식을 잠금 해제하세요.",
+                "GiTC5a": "무제한",
+                "Iw0mSJ": "지금 구매하기",
+                "JZycSO": "Nitro로 더 많은 Orbs 잠금 해제",
+                "TMNpew": "{guildName}에 오신 걸 환영합니다!",
+                "Utl/4Q": "켜기",
+                "ZYdpp7": "데드풀/울버린",
+                "gmsmxI": "{label}, {status}",
+                "xDtQAQ": "팬덤"
+            },
+            "deleted": {
+                "vPwmA0": "신규 멤버가 대화할 수 있는 채널이 {numChattableChannels}개 있어야 해요"
+            },
+            "modified": {
+                "89YBr5": {
+                    "new_value": "활동 참가",
+                    "old_value": "게임에 참가할 수 있는 사람"
+                }
+            }
         }
     },
-    "timestamp": "2026-10-30T02:08:20.932725+00:00"
+    "timestamp": "2026-10-30T02:19:14.942632+00:00"
 }
