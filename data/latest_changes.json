@@ -1,5 +1,5 @@
 {
-    "build_hash": "228471dd60d4a8c29b8e32debcf8e726036df80f",
+    "build_hash": "10c1e84d22219b7d941b8b95988b70738ee72b0c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,106 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "4pASEG": "Make a voice channel app where we are in a library sitting in different places. If we talk too loud, a librarian glares at us. It should use proximity chat too, with a button to disable it.",
-                "5XJ55E": "No Yelling",
-                "7KvZ91": "What Should We Play?",
-                "H8fuGK": "Add an AutoMod rule that blocks people from yelling.",
-                "Hddwvt": "Make a cowboy chatbot that can create events, polls, and answer questions from the internet for my server.",
-                "XuiHpi": "Add an AutoMod rule that blocks people from yelling (all caps).",
-                "Zx7B6B": "Server Calendar",
-                "dLyihE": "Cowboy Chat Bot",
-                "e8Jbz3": "Library Voice Channel",
-                "i0y7Ld": "Make a cowboy chatbot that wrangles my server.",
-                "qbaf5O": "Make a raid calendar for my World of Warcraft server.",
-                "qd87yI": "Make an app that helps my server decide what new games to play. It should show upcoming releases and let us search through Steam to recommend and vote on games.",
-                "tZv5cM": "Make an app that helps my server decide what new games to play.",
-                "tqEROk": "Make an overlay that tracks my K/D in Valorant.",
-                "vRpB6m": "K/D Tracker",
-                "vYjIS6": "Make my voice channel into a library environment.",
-                "vo1ZBs": "Make a raid calendar for my World of Warcraft server. Show a month view where members sign up for each raid as a tank, healer, or DPS, list who is coming each night, and send a reminder an hour before the raid starts.",
-                "y6T1Nu": "Closed Alpha",
-                "yym7Yj": "Make an in-game overlay that reads my Valorant match and shows my kills, deaths, and K/D live. When the match ends, post a recap to my server with my best game of the night."
-            },
-            "deleted": {
-                "3deXbx": "Welcome Wagon",
-                "6DCVy3": "Build a profile widget that shows my ARAM stats…",
-                "DQQdZL": "Movie Night",
-                "GNGB59": "Make a raid calendar for my World of Warcraft guild",
-                "Gw756q": "Make automod that hides spoilers for the newest episode",
-                "J2o8Ae": "Create a raid calendar for my World of Warcraft guild…",
-                "RYGHMF": "ARAM Stats",
-                "RzNoHJ": "Make a profile widget that shows my ARAM stats in the last 30 days",
-                "T3+H3J": "Make a chat bot that welcomes new members with a joke",
-                "TGN39X": "Make a trivia game my friends can play together in voice",
-                "VfUFEt": "Make a profile widget that shows my League of Legends ARAM stats from the last 30 days: games played, win rate, my three most played champions, and my best game, with a small chart of wins and losses by week.",
-                "d/WMHR": "Make an automod rule for my server that catches messages mentioning plot details from the newest episode of our show during its first week, hides them behind a spoiler tag, and lets the author know why.",
-                "gilNLG": "Make a trivia game we can play together during a voice call. Ask ten rapid-fire questions about video games, give everyone fifteen seconds to answer, award more points for faster answers, and show a live leaderboard between rounds.",
-                "iRbnRD": "Set up automod that hides spoilers for the new episode…",
-                "lxwxNm": "Make a raid calendar for my World of Warcraft guild. Show a month view where members sign up for each raid as a tank, healer, or DPS, list who is coming each night, and send a reminder an hour before the raid starts.",
-                "ofBNNy": "Make a movie night planner for my server. Let everyone suggest up to three movies, run a vote that closes an hour before showtime, announce the winner in chat, and keep a history of every movie we have watched together.",
-                "p/zqml": "Make a chat bot that welcomes new members with a joke…",
-                "ryeSuC": "Make a chat bot that welcomes every new member in our welcome channel by name, tells them a short gaming pun, points them to the rules channel, and answers simple questions about the server when someone mentions it.",
-                "rzB/bE": "Raid Calendar",
-                "u4UWGH": "Make a movie night planner where everyone votes on what to watch",
-                "v9+fAY": "Spoiler Guard",
-                "vvwBlz": "Trivia Blitz",
-                "wn+Bzd": "Make a trivia game my friends can play in voice…"
-            },
-            "modified": {
-                "ArcJqa": {
-                    "new_value": "Polls, calendars, forms, planners, and tools that open right inside your server.",
-                    "old_value": "Polls, calendars, and planners that open right inside your server."
-                },
-                "BH58fD": {
-                    "new_value": "Extend Discord for whatever you and your friends want. Create your own apps, chatbots, games, AutoMod rules, profile and overlay widgets, and more.",
-                    "old_value": "Create your own apps, games, profile widgets, and more. Share what you made with your friends so you can use them together."
-                },
-                "FXwLsv": {
-                    "new_value": "Interactive games your friends can play together, with built-in voice and video.",
-                    "old_value": "Arcade games and party trivia your friends can play together in a voice call."
-                },
-                "GUb2zA": {
-                    "new_value": "Profile Widgets",
-                    "old_value": "Profile widgets"
-                },
-                "IiQEVd": {
-                    "new_value": "A taste of what you can make",
-                    "old_value": "What you can conjure"
-                },
-                "KBHZfO": {
-                    "new_value": "Chat Bots",
-                    "old_value": "Bots"
-                },
-                "Sfa50+": {
-                    "new_value": "Make a Flappy Bird game except it’s our avatar flapping in our server. When people fail, their body is left behind at their highest score point, so as you flap, you’ll see where everyone else’s high score is. Also make a bot that posts personal bests and new high scores.",
-                    "old_value": "Make a Flappy Bird style game where you tap to flap a little dragon through gaps between floating clouds. Keep a score counter, show a high score board for everyone in the server, and end on a cute game over screen with a retry button."
-                },
-                "Tbag5k": {
-                    "new_value": "Flappy Discord",
-                    "old_value": "Flappy Dragon"
-                },
-                "gtX7tS": {
-                    "new_value": "Make a Flappy Bird game except it’s our avatar flapping bro.",
-                    "old_value": "Make a Flappy Bird game but with a dragon instead of a bird"
-                },
-                "qNmKhG": {
-                    "new_value": "Chatbots with personalities that can talk, greet new members, and help manage the server.",
-                    "old_value": "Bots that greet new members, answer questions, and run your commands."
-                },
-                "uVOH1p": {
-                    "new_value": "Overlay Widgets",
-                    "old_value": "Overlay widgets"
-                },
-                "v+F6qW": {
-                    "new_value": "Show off your stats, mains, and favorite games right on your profile.",
-                    "old_value": "Show off your stats, mains, and best games right on your profile."
-                },
-                "zm7y9u": {
-                    "new_value": "In-game overlays that read your game to track live stats, or pin useful tools on top of your screen while you play.",
-                    "old_value": "Timers, counters, and live stats on top of the game you are playing."
-                }
-            }
+            "added": {},
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -120,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T23:08:51.204003+00:00"
+    "timestamp": "2026-10-30T23:19:45.833675+00:00"
 }
