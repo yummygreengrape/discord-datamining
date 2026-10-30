@@ -1,5 +1,5 @@
 {
-    "build_hash": "9b33ac351b2b3ba631188f5cd95db8120e180b41",
+    "build_hash": "d94bb8bb30f2b0209ce172e85f7eaa75b8d4bfe1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,13 +9,41 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-linked-guilds",
+            "kind": "guild",
+            "timestamp": "2026-10-30T20:44:02Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-clips-default-on-geo",
+            "kind": "user",
+            "timestamp": "2026-10-30T20:46:06Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "SwOlOR": "Linked Guild"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "XRu92R": {
+                    "new_value": "Message content in this channel can be shown on web pages. $[Learn more](learnMoreHook)",
+                    "old_value": "Message content in this channel can be shown on web pages. [Learn more]({learnMoreURL})"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +51,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T21:08:16.508990+00:00"
+    "timestamp": "2026-10-30T21:19:43.339540+00:00"
 }
