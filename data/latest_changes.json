@@ -1,5 +1,5 @@
 {
-    "build_hash": "e1585dd1d610a8998049b9bf0d57a2c640fb37be",
+    "build_hash": "00598deaa58f2930badbc5c348ea149c1c8bfd40",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-nitro-settings-marketing-page-refresh",
+            "kind": "user",
+            "timestamp": "2026-10-30T20:22:46Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T20:13:11.422966+00:00"
+    "timestamp": "2026-10-30T20:24:02.675368+00:00"
 }
