@@ -1,5 +1,5 @@
 {
-    "build_hash": "56efaf955e6ec1d259855d37febe04364f5c72ee",
+    "build_hash": "a8b8de98da954b8f2f12d21eddfdcb18b36e0a5b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,10 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "MLgoex": "In use by {appName}",
-                "SY6j5V": "In use by {appName} and {count, plural, one {# other app} other {# other apps}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T06:02:11.633554+00:00"
+    "timestamp": "2026-10-30T06:23:25.441721+00:00"
 }
