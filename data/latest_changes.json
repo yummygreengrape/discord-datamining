@@ -1,20 +1,8 @@
 {
-    "build_hash": "5651f00a6dcaf30d92f51e17311ca6c40d031112",
+    "build_hash": "0b6f2b1f7b775194b4ef2d37869379739cd98c2a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-new-horizontal-scroll-shared",
-            "kind": "user",
-            "timestamp": "2026-10-30T17:49:58Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -25,29 +13,15 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0y44+Q": "These are accounts from other platforms. Connecting them here can unlock new features on Discord."
-            },
-            "deleted": {
-                "APPLICATIONS_AND_CONNECTIONS": "Applications",
-                "APPLICATIONS_AND_CONNECTIONS_BODY": "Here's all the apps that are doing super cool things to make your Discord experience super cooler. If it gets too chilly, you can remove them at any time.",
-                "HU3RFw": "Applications",
-                "JlrHXb": "No connections",
-                "Nu5Yi0": "Here's all the apps that are doing super cool things to make your Discord experience super cooler. If it gets too chilly, you can remove them at any time.",
-                "XijaQP": "Connect your accounts to access Discord integrations"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "HU3RFw": "애플리케이션",
-                "JlrHXb": "연동된 계정 없음",
-                "Nu5Yi0": "Discord를 더 멋지게 만들어주는 모든 앱의 목록이에요. 너무 멋져서 부담된다면 언제든 삭제할 수 있어요.",
-                "XijaQP": "계정을 연동하여 Discord 연동에 접근하세요"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T17:51:12.355640+00:00"
+    "timestamp": "2026-10-30T18:02:08.314060+00:00"
 }
