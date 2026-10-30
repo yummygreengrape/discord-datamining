@@ -1,5 +1,5 @@
 {
-    "build_hash": "d36299bf208ea97ae08d6a8750b043a79cfcb97a",
+    "build_hash": "de68b01c74a7dcda36e3d243b8977b8810f27ef3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,26 +9,14 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-pinot-channel-discoverable",
-            "kind": "guild",
-            "timestamp": "2026-10-30T19:13:46Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "ByhEOe": "Fresh picks like \"{preset}\" just joined the list.",
-                "LGMA0i": "New typing indicators just dropped",
-                "uL4ClK": "{count, number} new"
+                "ESu5eZ": "{name} is live in [{server}]({onOpenServer}), but its commands didn’t update. Publish again to retry.",
+                "LuS8a/": "Your changes are live in [{server}]({onOpenServer}).",
+                "ZnQW4S": "{name} is live in [{server}]({onOpenServer}), but its channel wasn’t added."
             },
             "deleted": {},
             "modified": {}
@@ -39,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T19:18:39.871613+00:00"
+    "timestamp": "2026-10-30T19:29:36.220001+00:00"
 }
