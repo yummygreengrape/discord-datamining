@@ -1,5 +1,5 @@
 {
-    "build_hash": "06cc41fa392314f4afea83611a92d53ea4ca300f",
+    "build_hash": "d36299bf208ea97ae08d6a8750b043a79cfcb97a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,36 +9,35 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-pinot-channel-discoverable",
+            "kind": "guild",
+            "timestamp": "2026-10-30T19:13:46Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "01KOls": "Message content in this channel can be shown on web pages."
+                "ByhEOe": "Fresh picks like \"{preset}\" just joined the list.",
+                "LGMA0i": "New typing indicators just dropped",
+                "uL4ClK": "{count, number} new"
             },
-            "deleted": {
-                "4b2ByP": "Then {regularPrice}/month",
-                "7j70dP": "Save {percent, number}% on {premiumGroupProductName}",
-                "GEwdVw": "{percent, number}% Off",
-                "rCpGVA": "{discountedPrice}/month for {discountInterval, plural, one {# month} other {# months}}"
-            },
-            "modified": {
-                "x9NGts": {
-                    "new_value": "Message content in this channel can be shown on web pages. Look for the Discoverable label.",
-                    "old_value": "Message content sent here can be shown on web pages. Look for the Discoverable label."
-                }
-            }
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "4b2ByP": "이후에는 월 {regularPrice}",
-                "7j70dP": "{premiumGroupProductName} {percent}% 할인",
-                "GEwdVw": "{discountOfferAmount}% 할인",
-                "rCpGVA": "{discountInterval}개월 동안 월 {discountedPrice}의 가격"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T19:07:46.851059+00:00"
+    "timestamp": "2026-10-30T19:18:39.871613+00:00"
 }
