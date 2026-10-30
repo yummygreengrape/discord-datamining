@@ -1,5 +1,5 @@
 {
-    "build_hash": "406a4080f10905e28c4ab811146da300246f1a56",
+    "build_hash": "cf067145b6b7b4bece032b8dde541e6494033d1a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,88 +7,16 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_DISCOVERY_GAMES",
-            "status": "added",
-            "url": "/discovery/games"
-        },
-        {
-            "name": "GLOBAL_DISCOVERY_GAMES",
-            "status": "added",
-            "url": "/discovery/games"
-        }
-    ],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-game-discovery",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-30T21:22:33Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-game-discovery",
-            "kind": "user",
-            "timestamp": "2026-10-30T21:22:33Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_api_endpoints": [],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "7ff2Gs": "Top trending games",
-                "9BIezJ": "Plays",
-                "E5vkHs": "Because you played {gameName}",
-                "JMTGC3": "Games your friends are into",
-                "NTv8WZ": "Games",
-                "Pc6FRV": "Jump back in",
-                "Rism7w": "Featured",
-                "SVexhg": "Game",
-                "fBsbex": "Official server",
-                "qpGTIa": "Play with your friends",
-                "raRLQb": "Trending games"
+                "81y3Y1": "Link guild",
+                "FzPkj2": "Select game",
+                "gR14cL": "Link an in-game guild to your server. You must be an admin of the guild to link it."
             },
             "deleted": {},
             "modified": {}
@@ -99,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T21:30:39.810670+00:00"
+    "timestamp": "2026-10-30T21:41:32.830902+00:00"
 }
