@@ -1,5 +1,5 @@
 {
-    "build_hash": "9e7fbd86240d8a1680c74534e356dccf2408d34d",
+    "build_hash": "6f437a8b747efcb39add3cbd0ef5b4b4f862575f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,67 +8,12 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "allowDefaultOn"
-            ],
-            "default_config": {
-                "allowDefaultOn": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-10-clips-default-on-geo",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "allowDefaultOn": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "allowDefaultOn"
-            ],
-            "default_config": {
-                "allowDefaultOn": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-10-clips-default-on-geo",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "allowDefaultOn": true
-                }
-            }
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-linked-guilds",
-            "kind": "guild",
-            "timestamp": "2026-10-30T20:44:02Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "SwOlOR": "Linked Guild"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -78,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T20:45:47.891636+00:00"
+    "timestamp": "2026-10-30T20:56:40.781334+00:00"
 }
