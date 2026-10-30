@@ -1,8 +1,20 @@
 {
-    "build_hash": "ae9415b4d371af8ea4edd0544157bf7fd4b5753f",
+    "build_hash": "5651f00a6dcaf30d92f51e17311ca6c40d031112",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-new-horizontal-scroll-shared",
+            "kind": "user",
+            "timestamp": "2026-10-30T17:49:58Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,15 +25,29 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "0y44+Q": "These are accounts from other platforms. Connecting them here can unlock new features on Discord."
+            },
+            "deleted": {
+                "APPLICATIONS_AND_CONNECTIONS": "Applications",
+                "APPLICATIONS_AND_CONNECTIONS_BODY": "Here's all the apps that are doing super cool things to make your Discord experience super cooler. If it gets too chilly, you can remove them at any time.",
+                "HU3RFw": "Applications",
+                "JlrHXb": "No connections",
+                "Nu5Yi0": "Here's all the apps that are doing super cool things to make your Discord experience super cooler. If it gets too chilly, you can remove them at any time.",
+                "XijaQP": "Connect your accounts to access Discord integrations"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "HU3RFw": "애플리케이션",
+                "JlrHXb": "연동된 계정 없음",
+                "Nu5Yi0": "Discord를 더 멋지게 만들어주는 모든 앱의 목록이에요. 너무 멋져서 부담된다면 언제든 삭제할 수 있어요.",
+                "XijaQP": "계정을 연동하여 Discord 연동에 접근하세요"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T17:40:20.568274+00:00"
+    "timestamp": "2026-10-30T17:51:12.355640+00:00"
 }
