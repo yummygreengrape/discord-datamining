@@ -1,5 +1,5 @@
 {
-    "build_hash": "de68b01c74a7dcda36e3d243b8977b8810f27ef3",
+    "build_hash": "2606ce75fc443ce6a9bff46880efdada6ad2fd14",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,11 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "ESu5eZ": "{name} is live in [{server}]({onOpenServer}), but its commands didn’t update. Publish again to retry.",
-                "LuS8a/": "Your changes are live in [{server}]({onOpenServer}).",
-                "ZnQW4S": "{name} is live in [{server}]({onOpenServer}), but its channel wasn’t added."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T19:29:36.220001+00:00"
+    "timestamp": "2026-10-30T19:40:30.590821+00:00"
 }
