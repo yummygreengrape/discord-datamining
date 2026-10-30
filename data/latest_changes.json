@@ -1,5 +1,5 @@
 {
-    "build_hash": "2606ce75fc443ce6a9bff46880efdada6ad2fd14",
+    "build_hash": "ba3eca99a3b5a02b89b4b86974e0bdee61231e3b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -15,7 +15,12 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "XRu92R": {
+                    "new_value": "Message content in this channel can be shown on web pages. [Learn more]({learnMoreURL})",
+                    "old_value": "Message content here can be shown on web pages. [Learn more]({learnMoreURL})"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T19:40:30.590821+00:00"
+    "timestamp": "2026-10-30T19:51:21.908840+00:00"
 }
