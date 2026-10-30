@@ -1,5 +1,5 @@
 {
-    "build_hash": "69dc87a1358b9f3274a3d2916ef1dcc7d45833b4",
+    "build_hash": "52e7da1e732005e22cf1d2079234d98712a64481",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,9 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "tHMW7U": "{count, plural, one {# unread project} other {# unread projects}}"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T07:48:46.179085+00:00"
+    "timestamp": "2026-10-30T08:20:23.845357+00:00"
 }
