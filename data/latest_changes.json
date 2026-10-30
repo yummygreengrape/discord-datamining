@@ -1,5 +1,5 @@
 {
-    "build_hash": "0b6f2b1f7b775194b4ef2d37869379739cd98c2a",
+    "build_hash": "583e9f2b1c75448b3e18ed48724aa765c059d023",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,20 +8,87 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-collectibles-storefront-pricing-integration",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-10-30T18:10:19Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-collectibles-storefront-pricing-integration",
+            "kind": "user",
+            "timestamp": "2026-10-30T18:10:19Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "Vfebhe": "Show Only",
+                "YieJl5": "Theme",
+                "aDZysP": "Item Type"
+            },
+            "deleted": {
+                "Qk6r1a": "Show only",
+                "jK2oto": "Scroll left or right to view other badges",
+                "q7PYXq": "{badgeName}, badge {position, number} of {total, number}",
+                "t1Ztrp": "Themes"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "Qk6r1a": "다음 항목만 표시",
+                "jK2oto": "좌우로 스크롤하여 다른 배지 보기",
+                "q7PYXq": "{badgeName}, 배지 {position}/{total}",
+                "t1Ztrp": "테마"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T18:02:08.314060+00:00"
+    "timestamp": "2026-10-30T18:13:02.132337+00:00"
 }
