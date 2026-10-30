@@ -1,5 +1,5 @@
 {
-    "build_hash": "1e418ccc937ab2db34f46c571e5f86a24e79cc02",
+    "build_hash": "06cc41fa392314f4afea83611a92d53ea4ca300f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,65 +8,37 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-orbchievements-mobile",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-10-30T18:56:20Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-orbchievements-mobile",
-            "kind": "user",
-            "timestamp": "2026-10-30T18:56:20Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "01KOls": "Message content in this channel can be shown on web pages."
+            },
+            "deleted": {
+                "4b2ByP": "Then {regularPrice}/month",
+                "7j70dP": "Save {percent, number}% on {premiumGroupProductName}",
+                "GEwdVw": "{percent, number}% Off",
+                "rCpGVA": "{discountedPrice}/month for {discountInterval, plural, one {# month} other {# months}}"
+            },
+            "modified": {
+                "x9NGts": {
+                    "new_value": "Message content in this channel can be shown on web pages. Look for the Discoverable label.",
+                    "old_value": "Message content sent here can be shown on web pages. Look for the Discoverable label."
+                }
+            }
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "4b2ByP": "이후에는 월 {regularPrice}",
+                "7j70dP": "{premiumGroupProductName} {percent}% 할인",
+                "GEwdVw": "{discountOfferAmount}% 할인",
+                "rCpGVA": "{discountInterval}개월 동안 월 {discountedPrice}의 가격"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T18:56:51.490876+00:00"
+    "timestamp": "2026-10-30T19:07:46.851059+00:00"
 }
