@@ -1,5 +1,5 @@
 {
-    "build_hash": "171074e9d0140a926abcdcdc5b6e033dac85157f",
+    "build_hash": "1a2518a4965dc39b247395e741f812a67904e4ca",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "SiZQ0N": "Discoverable Server"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T15:07:13.833764+00:00"
+    "timestamp": "2026-10-30T15:18:06.454091+00:00"
 }
