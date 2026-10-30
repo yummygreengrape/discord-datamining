@@ -1,126 +1,21 @@
 {
-    "build_hash": "47d8d9a38143d3f34b5544746b1c767758ae152e",
+    "build_hash": "ae9415b4d371af8ea4edd0544157bf7fd4b5753f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-03-clips-experiment",
-            "kind": "user",
-            "timestamp": "2026-10-30T17:14:22Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-clips-v3-runtime",
-            "kind": "user",
-            "timestamp": "2026-10-30T17:14:22Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-07-gsimagic",
-            "kind": "user",
-            "timestamp": "2026-10-30T17:14:22Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-gsimagic2",
-            "kind": "user",
-            "timestamp": "2026-10-30T17:14:22Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-clips-league-events",
-            "kind": "user",
-            "timestamp": "2026-10-30T17:14:22Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-rocketleague-events",
-            "kind": "user",
-            "timestamp": "2026-10-30T17:14:22Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-auto-clips-review",
-            "kind": "user",
-            "timestamp": "2026-10-30T17:14:22Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-build-a-bear-qa",
-            "kind": "user",
-            "timestamp": "2026-10-30T17:01:12Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-autoclips",
-            "kind": "user",
-            "timestamp": "2026-10-30T17:14:22Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "Jry6Gr": {
-                    "new_value": "Message content in this channel can be shown on web pages. $[Learn more](learnMoreHook)",
-                    "old_value": "Message content here can be shown on web pages. $[Learn more](learnMoreHook)"
-                },
-                "x9NGts": {
-                    "new_value": "Message content sent here can be shown on web pages. Look for the Discoverable label.",
-                    "old_value": "Message content sent here can be shown on web pages. Look for the label to spot them."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -128,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T17:29:24.667254+00:00"
+    "timestamp": "2026-10-30T17:40:20.568274+00:00"
 }
