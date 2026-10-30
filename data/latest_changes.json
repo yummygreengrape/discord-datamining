@@ -1,5 +1,5 @@
 {
-    "build_hash": "146c8e224789752888a58e584f1c6fcbe9c36084",
+    "build_hash": "8a1c1a8e0371e668efd3646022c17252b21205ca",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -15,12 +15,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "/npn7F": {
-                    "new_value": "{name} published to [{server}]({onOpenServer}).",
-                    "old_value": "{name} published to {server}."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -28,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T04:26:10.130306+00:00"
+    "timestamp": "2026-10-30T04:47:24.067760+00:00"
 }
