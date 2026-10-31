@@ -1,5 +1,5 @@
 {
-    "build_hash": "93636f38337981c3659df656b778045f9c764f2f",
+    "build_hash": "73297a1a90d3a1cf2bcbf21a35bbccd4d71f2125",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,30 +9,12 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-safety-warning-age-text",
-            "kind": "user",
-            "timestamp": "2026-10-31T01:00:12Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "8qYr4l": ">30 days ago"
-            },
-            "deleted": {
-                "OZ2saP": "Get the Season 11 Luxury Battle Pass free with Nitro",
-                "oqbqjr": "Subscribe to Nitro and claim it free in the Marvel Rivals Shop. Ends {endDate}. [Terms apply]({termsUrl}).",
-                "rDljSd": "Subscribe to Nitro and claim the Luxury Battle Pass for free in the Marvel Rivals Shop. Ends {endDate}."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -41,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-31T01:08:03.361467+00:00"
+    "timestamp": "2026-10-31T01:29:12.082843+00:00"
 }
