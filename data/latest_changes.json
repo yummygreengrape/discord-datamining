@@ -1,5 +1,5 @@
 {
-    "build_hash": "fd28c5b47e046d00218fa8d0e477e3a3e11175e3",
+    "build_hash": "568ca5eaabe2eab66fc1e1ff13e85e1945dd1461",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,22 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "18ToNc": "{count, plural, one {Claim Reward to Play} other {Claim Rewards to Play}}",
+                "L1yi/U": "Play for {count, plural, one {# Orb} other {# Orbs}}",
+                "T1eNyO": "Earn Orbs to Play",
+                "Uk+BE3": "Next Round in {duration}",
+                "iJjbMd": "Game Ending Soon",
+                "vZv6MO": "You've collected the {itemName} Avatar Decoration!",
+                "xdWlbE": "Won in a previous cycle."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "oSWYca": {
+                    "new_value": "Play for $[orbIcon](orbIconHook) {count, number}",
+                    "old_value": "Play for {count}"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +36,49 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-31T00:03:19.251401+00:00"
+    "string_context": {
+        "en": {
+            "oSWYca": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "Orbs를 사용하는 게임 설명과 무료 플레이 잔여 횟수 버튼 옆에서 발견됐어요. {count}는 고정된 가격이 아니라 화면이 채우는 값이에요. 이 문자열만으로 모든 게임의 비용을 정할 수는 없어요.",
+                    "generated_at": "2026-10-27T15:04:10.944531Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "Orbs Arcade",
+                        "score tiers",
+                        "Play Free",
+                        "Nitro Credit",
+                        "Avatar Decoration",
+                        "rewards refresh"
+                    ],
+                    "search_intent": "Orbs Arcade의 Play for 버튼에서 표시한 수량이 무엇을 뜻하는지 확인하려는 검색이에요.",
+                    "source_context": "2026-10-21~22 영어 문자열에 Orbs Arcade, 무료 플레이 잔여 횟수, 점수 단계, Nitro Credit과 아바타 장식 수령 문구가 함께 있어요. 정식 공개 범위는 확인되지 않아요.",
+                    "summary": "Play for {count}는 플레이에 필요한 비용을 표시하는 버튼 문구예요.",
+                    "what_it_means": "버튼에 표시한 수량을 비용으로 사용하는 플레이 선택지로 보여요.",
+                    "when_it_appears": "횟수 제한이 있는 무료 선택지와 구별되는 게임 시작 동작에 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "It was found beside the free-attempt button and an explanation of spending Orbs. The count is filled in by the interface rather than fixed in this text. It cannot establish the cost of every game.",
+                    "generated_at": "2026-10-27T15:04:10.944531Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "Orbs Arcade",
+                        "score tiers",
+                        "Play Free",
+                        "Nitro Credit",
+                        "Avatar Decoration",
+                        "rewards refresh"
+                    ],
+                    "search_intent": "To understand the amount displayed on the Arcade Play for button.",
+                    "source_context": "English strings observed on October 21–22 include Orbs Arcade, remaining free plays, score tiers, Nitro Credit, and avatar decoration claims. General availability is unconfirmed.",
+                    "summary": "Play for {count} shows a cost attached to starting a game.",
+                    "what_it_means": "This appears to be the play option that uses the displayed amount as its cost.",
+                    "when_it_appears": "It may label a game-start action distinct from the limited free-play option."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-10-31T00:14:12.011753+00:00"
 }
