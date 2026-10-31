@@ -1,5 +1,5 @@
 {
-    "build_hash": "ed4f240b82684b000fd69252d3928c9041e34d40",
+    "build_hash": "4a500bf80887a4215b06fd42ad0f91d22e66e561",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,18 +13,8 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "4ByPbd": "Your bot needs to be in a server with you before it can reply.",
-                "RGeB11": "Add Bot",
-                "xlEjZ8": "Add your bot to chat with it"
-            },
-            "deleted": {
-                "2pDCXO": "You need to approve new server permissions for your project for it to function properly.",
-                "FExK4w": "Review Permissions",
-                "Nub/J6": "Review permissions",
-                "YVFKfP": "Approve permissions",
-                "e8XOnl": "For this app to function, you need to approve some permissions first."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -33,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-31T07:31:06.680645+00:00"
+    "timestamp": "2026-10-31T08:23:03.470501+00:00"
 }
