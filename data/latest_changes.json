@@ -1,5 +1,5 @@
 {
-    "build_hash": "67d159e2e18a658faf45f076de4cb24bb852acd3",
+    "build_hash": "caa19ee771988f8804bf05e30d025bab12075d18",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,21 +14,8 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "JKN64Y": "Remixing makes your own copy of {name} that you can change however you like. The original stays just as it is.",
-                "R2uxWO": "Pick the server where you’ll build and try out your copy.",
-                "fT4+km": "Your copy starts from the original as it is now, without its chat history, secrets, or settings. It’s yours: only you can work on it unless you share it."
-            },
-            "modified": {
-                "mUYiYm": {
-                    "new_value": "Make your own copy of this app to use right away or customize it with Conjure.",
-                    "old_value": "Create an editable copy of this app to use as-is or customize."
-                },
-                "maL0+X": {
-                    "new_value": "Add to server",
-                    "old_value": "Where do you want to put it?"
-                }
-            }
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -36,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-31T06:48:52.142624+00:00"
+    "timestamp": "2026-10-31T07:09:59.563904+00:00"
 }
