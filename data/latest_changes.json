@@ -1,5 +1,5 @@
 {
-    "build_hash": "7e7526dda1f7f6a192ff0f248fd64b828aad4240",
+    "build_hash": "fd28c5b47e046d00218fa8d0e477e3a3e11175e3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,11 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "OZ2saP": "Get the Season 11 Luxury Battle Pass free with Nitro",
-                "oqbqjr": "Subscribe to Nitro and claim it free in the Marvel Rivals Shop. Ends {endDate}. [Terms apply]({termsUrl}).",
-                "rDljSd": "Subscribe to Nitro and claim the Luxury Battle Pass for free in the Marvel Rivals Shop. Ends {endDate}."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-30T23:52:25.699084+00:00"
+    "timestamp": "2026-10-31T00:03:19.251401+00:00"
 }
