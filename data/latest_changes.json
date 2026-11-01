@@ -1,5 +1,5 @@
 {
-    "build_hash": "62889646b2bc1d8720060029f83b791802216e0e",
+    "build_hash": "6e721ae5b06e244b6be62dc7e37039ea3ef0238d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,17 +13,8 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/I2lbz": "No projects in this server yet",
-                "2XiyUP": "{guildName} Projects",
-                "vnoMFE": "See all projects ({count})"
-            },
-            "deleted": {
-                "JQpNkh": "Projects are private until you publish them",
-                "dQ3U1J": "Projects shared with you in this server",
-                "dWgSAa": "Projects",
-                "wFi8+o": "Your shared projects"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -32,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-10-31T22:33:45.604424+00:00"
+    "timestamp": "2026-11-01T03:02:37.474819+00:00"
 }
