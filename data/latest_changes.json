@@ -1,5 +1,5 @@
 {
-    "build_hash": "ff9c5ff770186ad0d4facfcc102adbe9f63788b1",
+    "build_hash": "bf19cfc28a4e417b4539df527d8ddb3b488c7baf",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,16 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "IF7qLs": "Projects",
+                "QOFD3F": "Other servers",
+                "dxv7PD": "In {guildName}",
+                "poYQxw": "No server",
+                "ygVWuJ": "Shared with me"
+            },
+            "deleted": {
+                "2XiyUP": "{guildName} Projects"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-01T21:08:27.558584+00:00"
+    "timestamp": "2026-11-01T21:29:35.557365+00:00"
 }
