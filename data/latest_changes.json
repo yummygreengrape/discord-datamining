@@ -1,5 +1,5 @@
 {
-    "build_hash": "4835ba568fa5f25c74ee03d79b7d5207306d34cb",
+    "build_hash": "7ca79c8281208192b1eb3c30fdc35c0032914678",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,25 +9,11 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-waterwheels-discover",
-            "kind": "user",
-            "timestamp": "2026-11-02T23:25:38Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "zFl2A4": "Discover"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -37,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-02T23:29:35.612153+00:00"
+    "timestamp": "2026-11-02T23:40:35.378987+00:00"
 }
