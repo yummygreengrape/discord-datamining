@@ -1,5 +1,5 @@
 {
-    "build_hash": "afa1e9c9db441aa96d1259067223b7cf48256d4b",
+    "build_hash": "146a9692cb7b1f983bddce07ef18dcb33d610000",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,11 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "FVEaqm": "Manage My Plan",
+                "rVjt5j": "View all my perks",
+                "uXsbSw": "{count, plural, one {# new sound} other {# new sounds}}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-02T21:08:04.779515+00:00"
+    "timestamp": "2026-11-02T21:18:59.828965+00:00"
 }
