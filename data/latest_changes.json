@@ -1,5 +1,5 @@
 {
-    "build_hash": "7ca79c8281208192b1eb3c30fdc35c0032914678",
+    "build_hash": "9d681e95836cb990afc8989920f57b9408f57e3e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,11 +9,31 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-waterwheels-discover",
+            "kind": "user",
+            "timestamp": "2026-11-02T23:25:38Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "4oIsxf": "New badge unlocked!",
+                "K3TdAp": "New level unlocked!",
+                "QMt1Qx": "New badge unlocked",
+                "aFr+i6": "We couldn't redeem this gift card. Please try again later.",
+                "s0Zos2": "New level unlocked",
+                "v9Dvub": "{count, plural, one {# new badge} other {# new badges}}",
+                "zFl2A4": "Discover"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +43,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-02T23:40:35.378987+00:00"
+    "timestamp": "2026-11-02T23:51:46.152911+00:00"
 }
