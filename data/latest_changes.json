@@ -1,5 +1,5 @@
 {
-    "build_hash": "29b50bba12133eca50cdc21c1919c8219b33b03a",
+    "build_hash": "aa85f0aafbb5385544548e0b60df08b7f8aa6b16",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,18 +14,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "1Wm127": "Explore Orbs Exclusives"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "1Wm127": "Orbs 전용 아이템 둘러보기"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-02T19:40:43.678048+00:00"
+    "timestamp": "2026-11-02T19:51:37.231785+00:00"
 }
