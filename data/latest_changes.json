@@ -1,31 +1,8 @@
 {
-    "build_hash": "2c72be1e95addd86c9a195b922aef1c362252c99",
+    "build_hash": "29b50bba12133eca50cdc21c1919c8219b33b03a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-nitro-tenure-badge-withheld-state",
-            "kind": "user",
-            "timestamp": "2026-11-02T17:52:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-nitro-tenure-badge-total-progress",
-            "kind": "user",
-            "timestamp": "2026-11-02T17:52:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -36,21 +13,19 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/Tl7an": "Back to Conjure",
-                "Bp6rtc": "This app’s server is out of reach",
-                "c/2uZ9": "It lives in a server you’re no longer in, or one where Conjure is off.",
-                "ceMCll": "New content",
-                "e81UDK": "Conjure apps needing attention"
+            "added": {},
+            "deleted": {
+                "1Wm127": "Explore Orbs Exclusives"
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "1Wm127": "Orbs 전용 아이템 둘러보기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-11-02T19:29:51.658680+00:00"
+    "timestamp": "2026-11-02T19:40:43.678048+00:00"
 }
