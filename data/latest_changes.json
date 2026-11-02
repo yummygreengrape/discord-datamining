@@ -1,5 +1,5 @@
 {
-    "build_hash": "e485b2105418cf8bbd26b11f8f72396519f55522",
+    "build_hash": "adc35937519f1242f96aa01683f3c4e66dc0442e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,12 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/Tl7an": "Back to Conjure",
+                "Bp6rtc": "This app’s server is out of reach",
+                "c/2uZ9": "It lives in a server you’re no longer in, or one where Conjure is off.",
+                "e81UDK": "Conjure apps needing attention"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-02T18:34:15.346461+00:00"
+    "timestamp": "2026-11-02T18:45:09.955200+00:00"
 }
