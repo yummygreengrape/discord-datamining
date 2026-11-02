@@ -1,5 +1,5 @@
 {
-    "build_hash": "c5049fe95951ed314e13af1f97816b24910a5295",
+    "build_hash": "4939da64f0e3152309e05aad92b1e6d369b46d65",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,13 @@
     "string_changes": {
         "en": {
             "added": {
-                "skjf5I": "Voice Channel"
+                "140n5k": "{name} ({index} of {count})",
+                "3FvcrY": "Next game capture",
+                "Gl3XtE": "Previous game capture",
+                "ZZ641e": "Upload a screenshot of it.",
+                "dkzChE": "Here’s what I found. Is one of these right? If not, upload your own.",
+                "wVJL0P": "Background image",
+                "zxSq2q": "I don’t have one"
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-02T06:49:29.400766+00:00"
+    "timestamp": "2026-11-02T07:31:11.824109+00:00"
 }
