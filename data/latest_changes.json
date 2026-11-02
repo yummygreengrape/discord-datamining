@@ -1,5 +1,5 @@
 {
-    "build_hash": "d93a06d7b3d4f25c5b1e20e807b68a1d77895138",
+    "build_hash": "6bb8dc07ff4fcc11d0f58fc40e051932f1397b17",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,13 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "4oIsxf": "New badge unlocked!",
-                "K3TdAp": "New level unlocked!",
-                "QMt1Qx": "New badge unlocked",
-                "s0Zos2": "New level unlocked",
-                "v9Dvub": "{count, plural, one {# new badge} other {# new badges}}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -29,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-02T22:56:55.346234+00:00"
+    "timestamp": "2026-11-02T23:07:48.318276+00:00"
 }
