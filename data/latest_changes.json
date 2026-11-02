@@ -1,31 +1,8 @@
 {
-    "build_hash": "d719b4b40e0f1858b7ca9635d3a4ca419e94ec23",
+    "build_hash": "032afdd82f86848c25a4178a3b0ed77c3e8b31f7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-nitro-tenure-badge-withheld-state",
-            "kind": "user",
-            "timestamp": "2026-11-02T17:52:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-nitro-tenure-badge-total-progress",
-            "kind": "user",
-            "timestamp": "2026-11-02T17:52:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -36,16 +13,8 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/Tl7an": "Back to Conjure",
-                "Bp6rtc": "This app’s server is out of reach",
-                "c/2uZ9": "It lives in a server you’re no longer in, or one where Conjure is off.",
-                "ceMCll": "New content",
-                "e81UDK": "Conjure apps needing attention"
-            },
-            "deleted": {
-                "1Wm127": "Explore Orbs Exclusives"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -54,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-02T20:13:33.892104+00:00"
+    "timestamp": "2026-11-02T20:24:24.977507+00:00"
 }
