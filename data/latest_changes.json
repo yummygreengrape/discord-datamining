@@ -1,5 +1,5 @@
 {
-    "build_hash": "1d539a2d503f6910efb9a9ac8471b90b20374cc9",
+    "build_hash": "91439b9ad0b6371b929045b35ff95a628a8466af",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,20 +13,8 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "PuVQeX": "Name",
-                "QN8T+C": "Create a new project based on {projectName}. This does not affect the original.",
-                "cIWtCk": "Which server?",
-                "cvvDlE": "Remix it to make it your own",
-                "u3W0k0": "Leave blank to leave as is or say what you want changed"
-            },
-            "deleted": {
-                "9wQTdG": "Remix App",
-                "KMwCb7": "Remix this",
-                "XWgAfc": "Remix",
-                "mUYiYm": "Make your own copy of this app to use right away or customize it with Conjure.",
-                "maL0+X": "Add to server"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -35,45 +23,5 @@
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "mUYiYm": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "원본 앱을 나만의 복사본으로 만드는 흐름을 설명해요. 복사본 사용과 Conjure를 통한 사용자 지정을 선택지로 구분해요.",
-                    "generated_at": "2026-10-31T15:12:45.439607Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Conjure",
-                        "Personal Project",
-                        "Server Project",
-                        "Add Bot"
-                    ],
-                    "search_intent": "Discord 앱 복사와 Conjure 사용자 지정의 관계를 알아보려는 검색이에요.",
-                    "source_context": "10월 31일 봇의 서버 참가 조건, 개인·서버 프로젝트 구분, 앱 복사와 Conjure 문구가 함께 기록됐어요.",
-                    "summary": "앱을 복사해 바로 쓰거나 Conjure로 수정할 수 있다는 안내예요.",
-                    "what_it_means": "복사한 앱을 바로 사용하거나 원하는 형태로 바꿀 수 있다는 뜻이에요.",
-                    "when_it_appears": "기존 앱을 내 복사본으로 가져오는 안내에서 보일 수 있어요."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The flow creates your own copy of an existing app. Using that copy and modifying it with Conjure are presented as alternatives.",
-                    "generated_at": "2026-10-31T15:12:45.439607Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Conjure",
-                        "Personal Project",
-                        "Server Project",
-                        "Add Bot"
-                    ],
-                    "search_intent": "To understand how copying a Discord app relates to customizing it with Conjure.",
-                    "source_context": "October 31 records bot server-membership requirements, personal and server projects, and app copying with Conjure.",
-                    "summary": "This copy offers an app copy for immediate use or customization with Conjure.",
-                    "what_it_means": "The copied app can be used immediately or customized further.",
-                    "when_it_appears": "When an existing app is offered as a starting point for your own copy."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-11-01T22:01:00.457852+00:00"
+    "timestamp": "2026-11-02T00:36:12.233669+00:00"
 }
