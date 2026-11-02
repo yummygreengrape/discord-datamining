@@ -1,5 +1,5 @@
 {
-    "build_hash": "93fdd6102598f3f53d9f32f632b459389149f0ea",
+    "build_hash": "c5049fe95951ed314e13af1f97816b24910a5295",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "skjf5I": "Voice Channel"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-02T02:41:16.413612+00:00"
+    "timestamp": "2026-11-02T06:49:29.400766+00:00"
 }
