@@ -1,72 +1,8 @@
 {
-    "build_hash": "e9cdfe3bea44e4c2f6e3a923bb9cfba62e2854d7",
+    "build_hash": "e485b2105418cf8bbd26b11f8f72396519f55522",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "showWithheldBadge"
-            ],
-            "default_config": {
-                "showWithheldBadge": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-nitro-tenure-badge-withheld-state",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-11-02T17:52:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "showWithheldBadge": false
-                },
-                "1": {
-                    "showWithheldBadge": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "showWithheldBadge"
-            ],
-            "default_config": {
-                "showWithheldBadge": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-nitro-tenure-badge-withheld-state",
-            "kind": "user",
-            "timestamp": "2026-11-02T17:52:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "showWithheldBadge": false
-                },
-                "1": {
-                    "showWithheldBadge": true
-                }
-            }
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-nitro-tenure-badge-total-progress",
-            "kind": "user",
-            "timestamp": "2026-11-02T17:52:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -77,9 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "ceMCll": "New content"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -89,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-02T17:52:24.617066+00:00"
+    "timestamp": "2026-11-02T18:34:15.346461+00:00"
 }
