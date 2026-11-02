@@ -1,5 +1,5 @@
 {
-    "build_hash": "4b010cf16bdd6da3eff487fd3683528c8f58d1c3",
+    "build_hash": "3458ce83e26ae9a4d65c5fd1760ebe7cf76b5a6d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,10 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "ZRLAIy": "Your Nitro badge is visible",
-                "sEGQaJ": "Hiding the Nitro badge was something we tested in beta. We decided to keep it visible now, since it shows others which profile perks come from Nitro."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-02T22:35:12.453995+00:00"
+    "timestamp": "2026-11-02T22:46:02.801066+00:00"
 }
