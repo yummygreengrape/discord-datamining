@@ -1,5 +1,5 @@
 {
-    "build_hash": "1af69b7062cd12fef1694b06d2deb56bf4a9810e",
+    "build_hash": "4b010cf16bdd6da3eff487fd3683528c8f58d1c3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,81 +13,18 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "ZRLAIy": "Your Nitro badge is visible",
+                "sEGQaJ": "Hiding the Nitro badge was something we tested in beta. We decided to keep it visible now, since it shows others which profile perks come from Nitro."
+            },
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "BokMhV": "Nitro",
-                "CQfBsB": "CQfBsB",
-                "NTv8WZ": "게임",
-                "Pc6FRV": "다시 이동하기",
-                "Rism7w": "추천",
-                "SVexhg": "게임",
-                "SiZQ0N": "찾기 가능 서버",
-                "Vfebhe": "다음 항목만 표시",
-                "XwYNi1": "발톱을 세워!",
-                "YieJl5": "테마",
-                "aDZysP": "아이템 유형",
-                "cQXIkj": "cQXIkj",
-                "uL4ClK": "새 항목 {count}개",
-                "x7PkHm": "x7PkHm",
-                "xh0OD6": "데드풀과 울버린이 프로필을 멋지게 꾸며주러 왔어요. 지금 구매하기.",
-                "yRfTht": "yRfTht"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "kimsIr": {
-                    "new_value": "Checkpoint를 이용 불가",
-                    "old_value": "Checkpoint 이용 불가"
-                }
-            }
+            "modified": {}
         }
     },
-    "string_context": {
-        "ko": {
-            "kimsIr": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "한국어 화면의 “체크포인트 이용 불가” 문구는 개인별 활동 요약을 현재 표시할 수 없는 상태를 뜻합니다. 같은 시기에 Checkpoint 2025, 개인 활동 요약, 퀘스트, Orbs, 공유와 공개 범위 문구가 함께 추가되었습니다.",
-                    "generated_at": "2026-09-24T00:12:12Z",
-                    "intent_type": "error_or_blocked_action",
-                    "related_terms": [
-                        "Checkpoint 2025",
-                        "활동 요약",
-                        "퀘스트",
-                        "Orbs",
-                        "공유"
-                    ],
-                    "search_intent": "Discord에서 “체크포인트 이용 불가”를 보고 체크포인트가 보이지 않는 이유를 찾으려는 경우 확인하려는 검색입니다.",
-                    "source_context": "같은 시기에 Checkpoint 2025, 개인 활동 요약, 퀘스트, Orbs, 공유와 공개 범위 문구가 함께 추가되었습니다.",
-                    "summary": "한국어 화면의 “체크포인트 이용 불가” 문구는 개인별 활동 요약을 현재 표시할 수 없는 상태를 뜻합니다.",
-                    "what_it_means": "“체크포인트 이용 불가” 문구는 개인별 활동 요약을 현재 표시할 수 없는 상태를 뜻합니다.",
-                    "what_to_do": "신규 사용자 또는 개인화 제한 안내가 함께 있는지 확인하세요.",
-                    "when_it_appears": "한국어 화면에서 “체크포인트 이용 불가”와 관련된 상태를 확인할 때 보일 가능성이 있습니다. Checkpoint 2025 개인 활동 요약 화면에서 보일 가능성이 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "In the Korean UI, “Checkpoint Unavailable” means the personal recap cannot currently be shown. The same group adds Checkpoint 2025, personal activity figures, Quests, Orbs, sharing, and visibility text.",
-                    "generated_at": "2026-09-24T00:12:12Z",
-                    "intent_type": "error_or_blocked_action",
-                    "related_terms": [
-                        "Checkpoint 2025",
-                        "activity recap",
-                        "Quests",
-                        "Orbs",
-                        "sharing"
-                    ],
-                    "search_intent": "A search after seeing “Checkpoint Unavailable” in the Korean UI on Discord to learn why the recap is unavailable.",
-                    "source_context": "The same group adds Checkpoint 2025, personal activity figures, Quests, Orbs, sharing, and visibility text.",
-                    "summary": "In the Korean UI, “Checkpoint Unavailable” means the personal recap cannot currently be shown.",
-                    "what_it_means": "In the Korean UI, “Checkpoint Unavailable” means the personal recap cannot currently be shown.",
-                    "what_to_do": "Check whether the new-user or personalization notice appears.",
-                    "when_it_appears": "“Checkpoint Unavailable” may appear in the Korean UI. It may appear in the Checkpoint 2025 activity recap."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-11-02T22:24:18.776569+00:00"
+    "timestamp": "2026-11-02T22:35:12.453995+00:00"
 }
