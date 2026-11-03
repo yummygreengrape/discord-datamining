@@ -1,5 +1,5 @@
 {
-    "build_hash": "3eff4f8c14ea20fbeee799516f43e749af5e8009",
+    "build_hash": "85e0657b812bdabe44495278935f9bbf4c9b3d32",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,18 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "FxilA2": "The review couldn’t run right now. Try again in a bit.",
+                "HsOGKK": "Reviewing your app. This can take a minute.",
+                "TtE+rz": "This app has used all of today’s reviews. Try again tomorrow.",
+                "UOr0cK": "It breaks Discord’s rules, so it can’t be published, previewed or remixed. Remove what breaks the rules, then request a review.",
+                "ebqlWe": "This app can’t be published",
+                "ikIoxj": "A review just ran. Wait a couple of minutes before requesting another.",
+                "nmwy0/": "Request review",
+                "qY/RLI": "It’s no longer on hold, so you can publish it again.",
+                "t8GlRz": "Your app is still on hold: {reason}",
+                "vVnbEq": "Your app passed review"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T23:26:42.460403+00:00"
+    "timestamp": "2026-11-03T23:37:33.861933+00:00"
 }
