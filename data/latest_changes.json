@@ -1,5 +1,5 @@
 {
-    "build_hash": "a2c8a17260ddc2611a6efe38c26c7484fb0ecebc",
+    "build_hash": "f95804ada07e4ec2d5c2212612f29974fd034010",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -15,40 +15,13 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "CHANNEL_SETTINGS_SUMMARIES_TOGGLE": {
-                    "new_value": "Enable In-Channel Conversation Summaries",
-                    "old_value": "Enable Channel Summaries"
-                },
-                "FOYxgr": {
-                    "new_value": "In-Channel Conversation Summaries",
-                    "old_value": "Channel Summaries"
-                },
-                "GUILD_SETTINGS_SUMMARIES_TOGGLE": {
-                    "new_value": "Enable In-Channel Conversation Summaries",
-                    "old_value": "Enable Channel Summaries"
-                },
-                "GUILD_SETTINGS_SUMMARIES_TOGGLE_DESCRIPTION": {
-                    "new_value": "Enable In-Channel Conversation Summaries for this server to help your members catch up and dive into discussions. In text channels, members will be able to see a list of topics being discussed and which members are involved. [Learn More]({helpdeskArticle})",
-                    "old_value": "Enable Channel Summaries for this server to help your members catch up and dive into discussions. In text channels, members will be able to see a list of topics being discussed and which members are involved. [Learn More]({helpdeskArticle})"
-                },
-                "c6Cy/h": {
-                    "new_value": "Enable In-Channel Conversation Summaries for this server to help your members catch up and dive into discussions. In text channels, members will be able to see a list of topics being discussed and which members are involved. [Learn More]({helpdeskArticle})",
-                    "old_value": "Enable Channel Summaries for this server to help your members catch up and dive into discussions. In text channels, members will be able to see a list of topics being discussed and which members are involved. [Learn More]({helpdeskArticle})"
-                },
-                "vmEDQs": {
-                    "new_value": "Enable In-Channel Conversation Summaries",
-                    "old_value": "Enable Channel Summaries"
-                }
-            }
+            "modified": {}
         },
         "ko": {
-            "added": {
-                "pC8Q1+": "기프트 카드는 구매한 국가에서만 사용할 수 있습니다. 기프트 카드를 사용하려면 계정의 [국가/지역]({countryRegionLink}) 설정이 기프트 카드 통화와 일치해야 합니다. 한 가지 예외가 있습니다. 유로화로 가격이 책정된 기프트 카드는 유로화를 사용하는 모든 국가에서 사용할 수 있습니다. 구매하기 전에 Discord 기프트 카드를 구매할 수 있는 국가를 [확인]({giftCardAvailabilityLink})하세요."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T03:41:08.488991+00:00"
+    "timestamp": "2026-11-03T03:52:02.797537+00:00"
 }
