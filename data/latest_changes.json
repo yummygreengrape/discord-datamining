@@ -1,5 +1,5 @@
 {
-    "build_hash": "fc62570526487de4dd237eb1803bbff12e9f07a1",
+    "build_hash": "23d4cdf2a987fc7a35a21481d97cef06d754666a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,12 +8,68 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-voice-quality-scoring",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-11-03T23:56:27Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-voice-quality-scoring",
+            "kind": "user",
+            "timestamp": "2026-11-03T23:56:27Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "FxilA2": "The review couldn’t run right now. Try again in a bit.",
+                "HsOGKK": "Reviewing your app. This can take a minute.",
+                "TtE+rz": "This app has used all of today’s reviews. Try again tomorrow.",
+                "UOr0cK": "It breaks Discord’s rules, so it can’t be published, previewed or remixed. Remove what breaks the rules, then request a review.",
+                "ebqlWe": "This app can’t be published",
+                "ikIoxj": "A review just ran. Wait a couple of minutes before requesting another.",
+                "nmwy0/": "Request review",
+                "qY/RLI": "It’s no longer on hold, so you can publish it again.",
+                "t8GlRz": "Your app is still on hold: {reason}",
+                "vVnbEq": "Your app passed review"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +79,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T23:48:35.624261+00:00"
+    "timestamp": "2026-11-03T23:59:37.492282+00:00"
 }
