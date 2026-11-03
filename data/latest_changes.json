@@ -1,5 +1,5 @@
 {
-    "build_hash": "84c3a90cdaf580f55e98246b58f62792be426857",
+    "build_hash": "48cd098388515637437eb81d103f508e7ae6a281",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,36 +7,21 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_GUILDS_GAME_ORGANIZATIONS",
-            "status": "added",
-            "url": "/guilds/:param/game-organizations"
-        },
-        {
-            "name": "GAME_ORGANIZATION",
-            "status": "added",
-            "url": "/guilds/:param/game-organizations"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "iYjQ8X": "This includes any emails about product updates, new features, tips on using Discord, and recommendations on new servers, events or stage channels."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "iYjQ8X": "제품 업데이트, 새 기능, Discord 이용 팁, 새로운 서버, 이벤트, 스테이지 채널에 대한 추천에 관한 모든 이메일이 구독 취소돼요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T01:51:45.231719+00:00"
+    "timestamp": "2026-11-03T02:02:44.077806+00:00"
 }
