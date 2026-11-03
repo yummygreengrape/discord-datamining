@@ -1,93 +1,8 @@
 {
-    "build_hash": "1460b13e4a54d97b738e7d6b1efd4bd8fae8eb99",
+    "build_hash": "e4e2dab460d6bd7f70a91f44e347a6a7539e1f8e",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "켜지면 공통 글자 스타일 매핑에 새 디자인 기준을 적용합니다."
-                    }
-                ],
-                "detailed_summary": "앱 루트에서 이 설정이 켜지면 디자인 시스템에 “mana-type-consolidation” 상태가 전달되고, 여러 기존 글자 스타일이 새 글자 스타일 이름으로 매핑됩니다. 버튼, 라벨, 작은 제목처럼 공통 컴포넌트의 글자 굵기와 크기가 달라질 수 있습니다.",
-                "evidence": [
-                    "canary/web.b267176293a4bbfc.js module 258599 reads the experiment at RootThemeContextProvider.",
-                    "The root provider adds mana-type-consolidation to enabledExperiments when enabled.",
-                    "A shared typography mapper remaps legacy text variants when that enabled experiment is present."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "공통 글자 스타일 정리",
-                "generated_at": "2026-07-02T11:12:13Z",
-                "importance": "low",
-                "summary": "앱 전반의 글자 스타일을 새 디자인 기준에 맞춰 바꾸는 실험입니다.",
-                "why_it_matters": "특정 화면 하나의 기능 추가는 아니지만, 여러 화면의 글자 밀도와 읽기 느낌을 동시에 바꿀 수 있는 기반 디자인 변경입니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "When enabled, shared text-style mapping uses the newer design-system variants."
-                    }
-                ],
-                "detailed_summary": "When the app root reads this setting, it passes a “mana-type-consolidation” state into the design system. Shared typography mapping can then replace several older text styles with newer ones for buttons, labels, and compact headings.",
-                "evidence": [
-                    "canary/web.b267176293a4bbfc.js module 258599 reads the experiment at RootThemeContextProvider.",
-                    "The root provider adds mana-type-consolidation to enabledExperiments when enabled.",
-                    "A shared typography mapper remaps legacy text variants when that enabled experiment is present."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Shared typography style consolidation",
-                "generated_at": "2026-07-02T11:12:13Z",
-                "importance": "low",
-                "summary": "Applies newer shared typography mappings across the app.",
-                "why_it_matters": "This is not one screen-specific feature, but it can change text density and visual hierarchy across many common components."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-mana-type-consolidation",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-11-03T07:07:57Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-mana-type-consolidation",
-            "kind": "user",
-            "timestamp": "2026-11-03T07:07:57Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -108,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T07:11:24.963329+00:00"
+    "timestamp": "2026-11-03T07:22:16.176790+00:00"
 }
