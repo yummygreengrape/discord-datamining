@@ -1,5 +1,5 @@
 {
-    "build_hash": "baa0f6c594c70bf5f36d5a1befa584ececa71310",
+    "build_hash": "e56a4726cd78ad8a9b8af06e971a77432928ff44",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,17 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "KILp6/": "Manage subscriptions",
+                "LO0a0F": "One-time gifts",
+                "P9ZU7b": "Expires in {hours, plural, one {# hour} other {# hours}}. If it’s not accepted, it will return to your gift inventory as a one-time gift.",
+                "PR7GrT": "{plan}, {option}",
+                "RdrnRc": "This gift renews every year until it is canceled.",
+                "fdrOGN": "Thanks to another generous human, you now have access to enhanced chat perks, Server Boosts, and more!",
+                "lhj054": "{name} has gifted you Nitro! This is a recurring gift.",
+                "nRS0N2": "{plan}: {price}",
+                "p3wUY4": "This gift renews every month until it is canceled."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +33,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T02:24:43.972609+00:00"
+    "timestamp": "2026-11-03T02:35:47.706182+00:00"
 }
