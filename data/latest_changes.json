@@ -1,5 +1,5 @@
 {
-    "build_hash": "992be34d5b1f4c6a3cdb7d54d993309c6756f4d7",
+    "build_hash": "cdf0a218dd7995a515c107e8dde5eee3abd3cd4a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,18 +7,7 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_USERS_BADGES_ACK",
-            "status": "added",
-            "url": "/users/@me/badges/:param/ack"
-        },
-        {
-            "name": "USER_BADGE_ACK",
-            "status": "added",
-            "url": "/users/@me/badges/:param/ack"
-        }
-    ],
+    "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
@@ -34,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T19:15:45.706942+00:00"
+    "timestamp": "2026-11-03T19:26:48.919402+00:00"
 }
