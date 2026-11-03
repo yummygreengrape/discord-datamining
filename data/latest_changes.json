@@ -1,5 +1,5 @@
 {
-    "build_hash": "d05b0c1825175e3c25ba01f03a5c499e01956782",
+    "build_hash": "7a463aa9d03ef5350392ec87cda0ad78428c8a46",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -18,16 +18,10 @@
             "modified": {}
         },
         "ko": {
-            "added": {
-                "4oIsxf": "새 배지가 잠금 해제되었어요!",
-                "K3TdAp": "새 레벨이 잠금 해제되었어요!",
-                "QMt1Qx": "새 배지가 잠금 해제되었어요",
-                "s0Zos2": "새 배지 레벨이 잠금 해제되었어요",
-                "v9Dvub": "새 배지 {count}개"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T00:13:32.542471+00:00"
+    "timestamp": "2026-11-03T00:24:31.914228+00:00"
 }
