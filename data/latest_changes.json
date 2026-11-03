@@ -1,5 +1,5 @@
 {
-    "build_hash": "0808e3e00264a89f55a8156d083f01c6928ea117",
+    "build_hash": "a484ff201f40b0f060d3dc4ee12909af24e2f701",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,17 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "5GoOlx": "Shop the Sale",
+                "97Qza2": "Get {percent, number}% off {collectionName} items!"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "sEGQaJ": {
+                    "new_value": "Your Nitro badge will always show on your profile, but you can move it anywhere. Other badges can still be hidden or reordered.",
+                    "old_value": "Hiding the Nitro badge was something we tested in beta. We decided to keep it visible now, since it shows others which profile perks come from Nitro."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T01:08:08.253603+00:00"
+    "timestamp": "2026-11-03T01:19:02.586156+00:00"
 }
