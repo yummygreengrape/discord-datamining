@@ -1,5 +1,5 @@
 {
-    "build_hash": "90ad37bb4a709bff4d6e451b91cde934258c4e25",
+    "build_hash": "dcbb0ab3fb0f8c723a54e9b9e1969435f4ce0d2e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,15 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "4OJ/F8": "Expired {time}",
+                "6rXxwa": "Tell Conjure what to change",
+                "BKITAL": "Expires {time}",
+                "WjdaFw": "Close Edit and Draw first",
+                "XWU+XF": "Edit and Draw",
+                "agwlrD": "Edit and Draw (Available Once Conjure Finishes)",
+                "l9qBG8": "Open Ads Manager to check this link."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T01:29:54.947352+00:00"
+    "timestamp": "2026-11-03T01:40:49.998395+00:00"
 }
