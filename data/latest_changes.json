@@ -1,5 +1,5 @@
 {
-    "build_hash": "0913acac8349887be2f297dec19877d26aabc43c",
+    "build_hash": "fdc7e152270829dfe35be68c16c63f03feef5453",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,19 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "7b+4f6": "Eligible users get {discountPercentage}% off YouTube Premium for {months} months. New to YouTube Premium? Your first month’s on us.",
-                "9gMXJv": "First year free with Nitro",
-                "Cei1w4": "Eligible users get {discountPercentage}% off their next {months} months of YouTube Premium. New to Premium? Your first month’s on us. [Terms apply]({helpCenterUrl}).",
-                "DZRLe2": "First year of My Best Buy Plus™ ($29.99 value), free with Nitro. Get double rewards on select games and gear, 2-day shipping, and extended returns at Best Buy. Redeem by {date, date, short}. [Terms apply.]({termsUrl})",
-                "GPbgSS": "Get your first year of My Best Buy Plus™ ($29.99) for free with Nitro. Enjoy double rewards on select games and gear, 2-day shipping, and extended returns at Best Buy. [Terms apply.]({termsUrl})",
-                "IoM52w": "First year free with Nitro",
-                "RAQCKQ": "First year of My Best Buy Plus™ ($29.99 value), free with Nitro. Get double rewards on select games and gear, 2-day shipping, and extended returns at Best Buy. Redeem by {date, date, short}.",
-                "cCl3+a": "Eligible users get {discountPercentage}% off {months} months of YouTube Premium with Nitro. New to Premium? Your first month’s on us. Watch without ads, offline, and in the background. [Terms apply]({helpCenterUrl}).",
-                "dueYf1": "Offers vary by eligibility. Redeem with a single-use code. [Terms apply]({helpCenterUrl}).",
-                "iIK+QI": "Unlock your first year of My Best Buy Plus™ for free and get double rewards on select games and gear, 2-day shipping, and extended returns at Best Buy.",
-                "nzOEzW": "Eligible users get {discountPercentage}% off their next {months} months of YouTube Premium. New to Premium? Your first month’s on us. [Terms apply]({helpCenterUrl})."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -35,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T03:08:30.851191+00:00"
+    "timestamp": "2026-11-03T03:19:25.449813+00:00"
 }
