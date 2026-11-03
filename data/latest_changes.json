@@ -1,5 +1,5 @@
 {
-    "build_hash": "514522b4bf502ed93e6499019601865e31726fd2",
+    "build_hash": "d5546120666952e5cb76cf0be0d6482d5462f0dd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,21 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "6TwVYM": "Close {widgetName} options",
+                "LbaJ5u": "Are you sure you want to remove the {widgetName} widget? All data from this widget will be permanently deleted."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "ROLE_ID_COPIED": {
+                    "new_value": "Copied ID for role: {role}",
+                    "old_value": "Copied id for role: {role}"
+                },
+                "iOWpeB": {
+                    "new_value": "Copied ID for role: {role}",
+                    "old_value": "Copied id for role: {role}"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T22:32:17.336047+00:00"
+    "timestamp": "2026-11-03T22:43:10.727715+00:00"
 }
