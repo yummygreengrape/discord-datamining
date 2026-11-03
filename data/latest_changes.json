@@ -1,8 +1,91 @@
 {
-    "build_hash": "6b2bb718931bab53cff389dc566b8d435ed1a43d",
+    "build_hash": "c6f5ef7e6bc46c88b0767d2dbdd1468dbee9a94c",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "켜지면 Orbs 교환이 주문 생성·확정·지급 확인 순서로 처리됩니다."
+                    }
+                ],
+                "detailed_summary": "Orbs 결제 창에서 아이템을 고르면 주문을 먼저 만든 뒤 서명하고, 지급된 아이템 권한이 확인될 때까지 짧게 다시 조회합니다. 기본 상태에서는 기존의 즉시 교환 경로를 사용합니다.",
+                "evidence": [
+                    "Canary modules 99029 and 715054 read the experiment in the payment and Orbs checkout modals.",
+                    "The enabled path creates an order, signs it, and polls order entitlements.",
+                    "The disabled path calls the legacy direct virtual-currency redemption flow."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Orbs 아이템 교환",
+                "generated_at": "2026-09-05T04:19:24Z",
+                "importance": "medium",
+                "summary": "Shop에서 Orbs로 아이템을 교환할 때 주문을 먼저 만들고 확정하는 흐름을 시험합니다.",
+                "why_it_matters": "교환 처리와 아이템 지급을 하나의 주문으로 묶으면 실패 원인을 더 분명히 처리할 수 있습니다. 사용자는 교환 중 로딩이나 오류 표시 방식, 지급 확인 속도의 차이를 체감할 수 있습니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "When enabled, Orbs redemption uses order creation, signing, and entitlement confirmation."
+                    }
+                ],
+                "detailed_summary": "After a user chooses an item in the Orbs checkout, the enabled path creates and signs an order, then briefly polls until the granted entitlements appear. The default path continues to use the older direct redemption request.",
+                "evidence": [
+                    "Canary modules 99029 and 715054 read the experiment in the payment and Orbs checkout modals.",
+                    "The enabled path creates an order, signs it, and polls order entitlements.",
+                    "The disabled path calls the legacy direct virtual-currency redemption flow."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Orbs item redemption",
+                "generated_at": "2026-09-05T04:19:24Z",
+                "importance": "medium",
+                "summary": "Tests an order-first flow when redeeming Shop items with Orbs.",
+                "why_it_matters": "Keeping redemption and item delivery on one order can make failures easier to recover and explain. Users may notice different loading, error handling, or confirmation timing during redemption."
+            },
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2025-12-orb-redemption-thru-orders",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2025-12-orb-redemption-thru-orders",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,9 +96,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "ZcrbKz": "Skip"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +106,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T20:10:40.812142+00:00"
+    "timestamp": "2026-11-03T20:21:33.288068+00:00"
 }
