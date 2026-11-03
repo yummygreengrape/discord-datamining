@@ -1,5 +1,5 @@
 {
-    "build_hash": "93555af6e40e52ac9c05150f5f30576b9fa52550",
+    "build_hash": "1e3fe85ea94aa75b438f22293f317477c2c8b77a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "5h07Mp": "Opens a list of profiles to edit",
+                "MRnpah": "Choose a Profile"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T16:40:38.847818+00:00"
+    "timestamp": "2026-11-03T16:51:30.605963+00:00"
 }
