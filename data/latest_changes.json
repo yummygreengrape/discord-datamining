@@ -1,5 +1,5 @@
 {
-    "build_hash": "402eedd77a4147a50f8dc4f940ff5e7e41163d2b",
+    "build_hash": "c6a949007cbf6a532ea4c882ced822792f1febf4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,26 +13,15 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "8uEuEe": "A refund can be requested if this purchase was made in the last {dateLimit, number} days. [Our friendly help desk will help you get your coins back.]({supportURL})",
-                "dt2jVC": "We're sorry, this purchase is not eligible for refunds. A refund can be requested if this purchase was made in the last {dateLimit, number} days."
-            },
-            "deleted": {
-                "1LDI4J": "A refund can be requested if this purchase was made in the last {dateLimit} days and the game has been played for less than {playtimeLimit} hours. [Our friendly help desk will help you get your coins back.]({supportURL})",
-                "BILLING_APPLICATION_REFUND_TEXT": "A refund can be requested if this purchase was made in the last {dateLimit, number} days and the game has been played for less than {playtimeLimit, number} hours. [Our friendly help desk will help you get your coins back.]({supportURL})",
-                "BILLING_APPLICATION_REFUND_TEXT_UNABLE": "We're sorry, this purchase is not eligible for refunds. A refund can be requested if this purchase was made in the last {dateLimit, number} days and the game has been played for less than {playtimeLimit, number} hours.",
-                "s4Kk0C": "We're sorry, this purchase is not eligible for refunds. A refund can be requested if this purchase was made in the last {dateLimit} days and the game has been played for less than {playtimeLimit} hours."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "1LDI4J": "최근 {dateLimit}일 내에 구매하고, 게임 플레이 시간이 {playtimeLimit}시간 미만인 구매 내역에 대한 환불을 요청할 수 있어요. [친절한 지원 센터에서 여러분의 돈을 되찾을 수 있도록 도와드릴게요.]({supportURL})",
-                "s4Kk0C": "죄송하지만, 이 구매 내역은 환불할 수 없어요. 최근 {dateLimit}일 내에 구매하고, 게임 플레이 시간이 {playtimeLimit}시간 미만이면 구매 내역에 대한 환불을 요청할 수 있어요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T20:32:36.393361+00:00"
+    "timestamp": "2026-11-03T20:43:32.058752+00:00"
 }
