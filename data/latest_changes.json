@@ -1,25 +1,24 @@
 {
-    "build_hash": "9fe17aa7af3e82c99bf58c26f5d4a8825a6c0fb5",
+    "build_hash": "992be34d5b1f4c6a3cdb7d54d993309c6756f4d7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-guild-sidebar-stream-preview",
-            "kind": "guild",
-            "timestamp": "2026-11-03T18:12:58Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_USERS_BADGES_ACK",
+            "status": "added",
+            "url": "/users/@me/badges/:param/ack"
+        },
+        {
+            "name": "USER_BADGE_ACK",
+            "status": "added",
+            "url": "/users/@me/badges/:param/ack"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
@@ -35,5 +34,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T19:04:51.870491+00:00"
+    "timestamp": "2026-11-03T19:15:45.706942+00:00"
 }
