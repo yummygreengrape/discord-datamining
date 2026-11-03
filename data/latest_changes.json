@@ -1,5 +1,5 @@
 {
-    "build_hash": "317c9aa185c6bb649f98f6a11d1c6843d2dba51e",
+    "build_hash": "98e755bb2019c4fcff7d778cdb1612067a26772b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -21,9 +21,7 @@
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "h+Imbu": "예약된 메시지 열기"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
@@ -69,5 +67,5 @@
             }
         }
     },
-    "timestamp": "2026-11-03T19:37:47.751949+00:00"
+    "timestamp": "2026-11-03T19:48:51.479596+00:00"
 }
