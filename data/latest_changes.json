@@ -1,5 +1,5 @@
 {
-    "build_hash": "cdf0a218dd7995a515c107e8dde5eee3abd3cd4a",
+    "build_hash": "317c9aa185c6bb649f98f6a11d1c6843d2dba51e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,14 +14,60 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "h+Imbu": "Open scheduled messages"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "h+Imbu": "예약된 메시지 열기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T19:26:48.919402+00:00"
+    "string_context": {
+        "en": {
+            "h+Imbu": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "문자열 묶음은 메시지를 먼저 작성한 뒤 입력창의 더하기 버튼에서 Schedule Message를 고르고 전송 시각을 지정하는 흐름을 설명합니다. 예약 메시지 목록 열기, 메시지 편집, 예약 중 상태와 시각 표시도 함께 확인됩니다. 실제 전송 가능 여부는 해당 채널의 메시지 전송 권한과 기능 제공 상태에 따라 달라질 수 있습니다.",
+                    "generated_at": "2026-08-13T09:11:50.762Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "예약 메시지",
+                        "Schedule Message",
+                        "전송 시각",
+                        "메시지 편집",
+                        "예약 목록"
+                    ],
+                    "search_intent": "Discord에서 메시지를 나중에 보내도록 예약하는 방법이나 예약한 메시지를 어디서 확인하는지 찾는 검색입니다.",
+                    "source_context": "같은 시점의 문자열이 작성, 더하기 버튼, 예약 동작, 목록 열기, 편집과 시각 상태를 한 흐름으로 설명합니다.",
+                    "summary": "메시지를 지금 보내지 않고 지정한 시각에 전송하도록 예약하고, 예약 목록을 여는 기능의 안내입니다.",
+                    "what_it_means": "작성한 메시지를 지정된 시각까지 보관했다가 해당 채널로 보내는 예약 전송 흐름을 뜻합니다.",
+                    "when_it_appears": "메시지 작성창에서 예약 전송을 선택하거나 예약 메시지 목록과 전송 시각을 확인할 때 나타납니다."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The string group describes drafting a message, choosing Schedule Message from the plus-button menu, and selecting when it should be sent. It also includes opening the scheduled-message list, editing the message, and displaying scheduling status and time. Availability can still depend on the feature surface and permission to send in the destination channel.",
+                    "generated_at": "2026-08-13T09:11:50.762Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "scheduled messages",
+                        "Schedule Message",
+                        "send time",
+                        "edit message",
+                        "message composer"
+                    ],
+                    "search_intent": "A search for how to schedule a Discord message or where to review messages that are waiting to send.",
+                    "source_context": "The same timestamp links composing, the plus-button action, delayed send, list access, editing, and time status.",
+                    "summary": "Guidance for scheduling a message for a chosen time and opening the list of scheduled messages.",
+                    "what_it_means": "The drafted message is kept for delivery to the channel at the selected time.",
+                    "when_it_appears": "Appears while choosing delayed send from the composer or reviewing a scheduled message and its send time."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-11-03T19:37:47.751949+00:00"
 }
