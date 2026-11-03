@@ -1,5 +1,5 @@
 {
-    "build_hash": "5a8755fb1dadde9d1f6fcc4bcca46acf14339272",
+    "build_hash": "55670df287650d69161a24381bedee1232edb7ee",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,16 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "bWzWw9": "Dismiss"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "e81UDK": {
-                    "new_value": "Recent Conjure apps",
-                    "old_value": "Conjure apps needing attention"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -30,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T04:03:02.023129+00:00"
+    "timestamp": "2026-11-03T04:13:58.394570+00:00"
 }
