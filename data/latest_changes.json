@@ -1,5 +1,5 @@
 {
-    "build_hash": "9d681e95836cb990afc8989920f57b9408f57e3e",
+    "build_hash": "e4e9ffc69b631a5338c8a79d66a209ed55d9a680",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,32 +8,63 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [
+    "new_experiment_details": [
         {
-            "experiment_source": "reference_comment",
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
             "experiment_type": "apex",
             "id": "2026-11-waterwheels-discover",
             "kind": "user",
-            "timestamp": "2026-11-02T23:25:38Z",
+            "status": "added",
             "treatments": [
                 "Variant 0",
                 "Variant 1"
-            ]
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-11-waterwheels-discover",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
         }
     ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "4oIsxf": "New badge unlocked!",
-                "K3TdAp": "New level unlocked!",
-                "QMt1Qx": "New badge unlocked",
-                "aFr+i6": "We couldn't redeem this gift card. Please try again later.",
-                "s0Zos2": "New level unlocked",
-                "v9Dvub": "{count, plural, one {# new badge} other {# new badges}}",
-                "zFl2A4": "Discover"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -43,5 +74,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-02T23:51:46.152911+00:00"
+    "timestamp": "2026-11-03T00:02:43.040845+00:00"
 }
