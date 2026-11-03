@@ -1,5 +1,5 @@
 {
-    "build_hash": "9f3293d88d5ebc29a72f0c42ed3b22f71c36c2fd",
+    "build_hash": "e8204fa877f15e962087b1fa2b745c469b192d83",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "16PQ3M": "Receive marketing emails from Discord"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T22:54:06.678531+00:00"
+    "timestamp": "2026-11-03T23:04:57.051782+00:00"
 }
