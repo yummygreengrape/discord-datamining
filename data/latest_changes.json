@@ -1,53 +1,8 @@
 {
-    "build_hash": "a294822c3292752148bc21c34239cb9a98aa8401",
+    "build_hash": "0913acac8349887be2f297dec19877d26aabc43c",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-composed-quest-player",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-11-03T02:51:10Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-composed-quest-player",
-            "kind": "user",
-            "timestamp": "2026-11-03T02:51:10Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -58,7 +13,19 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "7b+4f6": "Eligible users get {discountPercentage}% off YouTube Premium for {months} months. New to YouTube Premium? Your first month’s on us.",
+                "9gMXJv": "First year free with Nitro",
+                "Cei1w4": "Eligible users get {discountPercentage}% off their next {months} months of YouTube Premium. New to Premium? Your first month’s on us. [Terms apply]({helpCenterUrl}).",
+                "DZRLe2": "First year of My Best Buy Plus™ ($29.99 value), free with Nitro. Get double rewards on select games and gear, 2-day shipping, and extended returns at Best Buy. Redeem by {date, date, short}. [Terms apply.]({termsUrl})",
+                "GPbgSS": "Get your first year of My Best Buy Plus™ ($29.99) for free with Nitro. Enjoy double rewards on select games and gear, 2-day shipping, and extended returns at Best Buy. [Terms apply.]({termsUrl})",
+                "IoM52w": "First year free with Nitro",
+                "RAQCKQ": "First year of My Best Buy Plus™ ($29.99 value), free with Nitro. Get double rewards on select games and gear, 2-day shipping, and extended returns at Best Buy. Redeem by {date, date, short}.",
+                "cCl3+a": "Eligible users get {discountPercentage}% off {months} months of YouTube Premium with Nitro. New to Premium? Your first month’s on us. Watch without ads, offline, and in the background. [Terms apply]({helpCenterUrl}).",
+                "dueYf1": "Offers vary by eligibility. Redeem with a single-use code. [Terms apply]({helpCenterUrl}).",
+                "iIK+QI": "Unlock your first year of My Best Buy Plus™ for free and get double rewards on select games and gear, 2-day shipping, and extended returns at Best Buy.",
+                "nzOEzW": "Eligible users get {discountPercentage}% off their next {months} months of YouTube Premium. New to Premium? Your first month’s on us. [Terms apply]({helpCenterUrl})."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T02:57:36.229881+00:00"
+    "timestamp": "2026-11-03T03:08:30.851191+00:00"
 }
