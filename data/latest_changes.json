@@ -1,5 +1,5 @@
 {
-    "build_hash": "5b58131426f69f886db2038c395cc94bae2a6065",
+    "build_hash": "d760ad9d01745cc8bb32b4edb99d66aeec5fe57b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,19 +13,32 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
+            "added": {
+                "+Nspne": "Going away soon!",
                 "MEaSRh": "in 1 hour",
                 "cYg9Kf": "in 30 minutes",
+                "fvGAJa": "We're retiring Nitro custom widgets, so this one will be removed soon. Other widgets will remain!",
                 "uxZblT": "in 4 hours"
+            },
+            "deleted": {
+                "0qJYHK": "Subscribe to lift off with bHookDiscord Nitro to use custom stickers on any server.",
+                "8C+FZk": "Subscribe to lift off with bHook{planName} to use custom stickers on any server.",
+                "PREMIUM_UPSELL_GLOBAL_STICKERS_DESCRIPTION_MOBILE": "Subscribe to lift off with **Discord Nitro** to use custom stickers on any server.",
+                "PREMIUM_UPSELL_GLOBAL_STICKERS_DESCRIPTION_MOBILE_GENERIC": "Subscribe to lift off with **{planName}** to use custom stickers on any server.",
+                "PREMIUM_UPSELL_GLOBAL_STICKERS_TITLE_MOBILE": "You can't use this sticker right now",
+                "jn2mBl": "You can't use this sticker right now"
             },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "0qJYHK": "구독하면 bHookDiscord Nitro로 사용자 지정 스티커를 아무 서버에서나 이용할 수 있어요.",
+                "8C+FZk": "bHook{planName}을(를) 구독하면 모든 서버에서 사용자 지정 스티커를 사용할 수 있어요.",
+                "jn2mBl": "지금은 이 스티커를 사용할 수 없어요"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T00:35:22.767473+00:00"
+    "timestamp": "2026-11-03T00:46:16.328778+00:00"
 }
