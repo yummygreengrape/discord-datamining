@@ -1,5 +1,5 @@
 {
-    "build_hash": "75c489d6166ac2a18f94dc239e11194989a09047",
+    "build_hash": "ff25354e33e976188e85d7d43166dd01ce8e22e6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,20 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "A3YsGV": "Suggestions are unavailable right now. You can keep going and explore later.",
-                "G++b7J": "Explore official servers for your games and smaller communities to hang out and play with.",
-                "NOfX8z": "Join {guild}",
-                "TQdfcH": "Join a few servers",
-                "Vw1YJS": "Add Tag",
-                "X4zfDg": "Joined",
-                "mdhU/Q": "Join servers",
-                "nkweXX": "Opens server details",
-                "rtXXRe": "You can find servers later",
-                "t1du0D": "Joined {guild}",
-                "uLUHj4": "Add tags to {gameName}",
-                "z5uqej": "Selected games: {games}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -36,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T21:48:49.901446+00:00"
+    "timestamp": "2026-11-03T21:59:43.501743+00:00"
 }
