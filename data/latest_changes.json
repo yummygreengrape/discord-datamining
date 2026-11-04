@@ -1,8 +1,91 @@
 {
-    "build_hash": "9a13085519b97b78341c26b77e09512016cc61e6",
+    "build_hash": "2890ac2719926911f6f8a25899a6cdca232190f5",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "켜지면 화면 공유 오디오의 감지 선행 값을 5에서 0으로 바꿉니다."
+                    }
+                ],
+                "detailed_summary": "기본 상태에서는 음성 감지가 시작되는 순간 앞쪽 소리를 짧게 포함하도록 5의 선행 값을 사용합니다. 비교안은 화면 공유 오디오에서만 이 값을 0으로 바꾸고, 일반 음성 통화 설정은 그대로 둡니다. 현재 Canary의 화면 공유 입력 설정이 이 실험을 직접 읽어 음성 감지 옵션에 전달하는 것이 확인됩니다. 실제로 소리가 더 빠르게 끊기거나 또렷해지는지는 오디오 측정 없이 확정할 수 없습니다.",
+                "evidence": [
+                    "Current Canary MediaEngineStore.getSettings reads the experiment only for the STREAM context.",
+                    "The enabled path sets vadLeading to 0 instead of the default value of 5 before applying input-mode options."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "화면 공유 오디오 감지",
+                "generated_at": "2026-09-05T04:19:24Z",
+                "importance": "low",
+                "summary": "화면 공유의 음성 감지가 시작될 때 직전 소리를 덧붙이지 않는 방식을 시험합니다.",
+                "why_it_matters": "화면 공유 오디오의 시작 구간과 불필요한 배경음 포함 방식이 달라질 수 있지만, 체감 품질은 환경에 따라 달라집니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "When enabled, the stream-context VAD leading value changes from 5 to 0."
+                    }
+                ],
+                "detailed_summary": "The default screen-share input uses a leading value of 5 to include a short amount of audio from immediately before voice activity starts. The variant changes that value to 0 only for the stream context and leaves normal voice-call settings unchanged. Current Canary reads the experiment while constructing screen-share input settings and passes the result into voice activity detection. Whether this sounds cleaner or clips the start of audio cannot be established without audio measurements.",
+                "evidence": [
+                    "Current Canary MediaEngineStore.getSettings reads the experiment only for the STREAM context.",
+                    "The enabled path sets vadLeading to 0 instead of the default value of 5 before applying input-mode options."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Screen-share audio detection",
+                "generated_at": "2026-09-05T04:19:24Z",
+                "importance": "low",
+                "summary": "Tests screen-share voice activity detection without prepending audio from just before activation.",
+                "why_it_matters": "It can change how the beginning of screen-share audio is captured and how much preceding background sound is included, but the audible result will vary by environment."
+            },
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-stream-zero-vad-leading",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-11-04T01:19:46Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-stream-zero-vad-leading",
+            "kind": "user",
+            "timestamp": "2026-11-04T01:19:46Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,17 +96,33 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "2g3gk9": "Here’s what I found. Is this right? If not, upload your own."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "82AJHx": "클립 해상도",
+                "8uEuEe": "최근 {dateLimit}일 내에 구매한 내역에 대한 환불을 요청할 수 있어요. [친절한 지원 센터에서 여러분의 돈을 되찾을 수 있도록 도와드릴게요.]({supportURL})",
+                "CnXTMY": "클립 길이",
+                "DonDIR": "저장 위치",
+                "Vw1YJS": "태그 추가하기",
+                "dt2jVC": "죄송하지만, 이 구매 내역은 환불할 수 없어요. 최근 {dateLimit}일 내에 구매한 내역만 환불을 요청할 수 있어요.",
+                "i2xEfm": "클립 품질",
+                "juVL76": "클립 프레임 속도"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "8o9Emp": {
+                    "new_value": "새로운 녹음을 시작하면 그룹 메시지에서 보내지 않은 음성 메시지가 삭제돼요.",
+                    "old_value": "새로운 녹음을 시작하면 그룹 다이렉트 메시지에서 보내지 않은 음성 메시지가 삭제돼요."
+                },
+                "pwbAIk": {
+                    "new_value": "Mainframe",
+                    "old_value": "메인프레임"
+                }
+            }
         }
     },
-    "timestamp": "2026-11-04T01:16:03.153088+00:00"
+    "timestamp": "2026-11-04T01:26:56.548415+00:00"
 }
