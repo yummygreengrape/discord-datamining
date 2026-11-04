@@ -1,5 +1,5 @@
 {
-    "build_hash": "d9f77111cb61b2a3918e78d003125d78966bb3a3",
+    "build_hash": "f9e77bff0f4239f8ce66e2a789ff7bdbca9b885d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "yizhZK": "Your gift is on its way to"
+                "GDbtb6": "Reload widget",
+                "Hvyhm9": "New version available. Reload widget"
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-04T03:33:22.115771+00:00"
+    "timestamp": "2026-11-04T03:44:15.918080+00:00"
 }
