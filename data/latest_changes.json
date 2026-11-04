@@ -1,5 +1,5 @@
 {
-    "build_hash": "32cde0dd886e8a9fe3033a831caecd3be5e5bea1",
+    "build_hash": "2c33fca3628b6ec4866299f5dbdaff504737f41f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,116 +8,18 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-social-layer-storefront-mobile-embed",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-11-04T00:01:31Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-social-layer-storefront-mobile-multi-sku-embed",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-11-04T00:01:31Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-social-layer-storefront-mobile-embed",
-            "kind": "user",
-            "timestamp": "2026-11-04T00:01:31Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-social-layer-storefront-mobile-multi-sku-embed",
-            "kind": "user",
-            "timestamp": "2026-11-04T00:01:31Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
+                "MJ/VsO": "Detects moments worth clipping during your session. Runs entirely on your device.",
+                "UCzGcQ": "Detects moments worth clipping during your session. Runs entirely on your device. [Learn more]({learnMoreLink})",
+                "j29uJx": "Enable Autoclipping",
+                "wUpqua": "Requires Clipping enabled."
+            },
+            "deleted": {
                 "0Y9r0P": "This is the maximum resolution your Clips will be captured at.",
                 "1C6Gea": "Higher Clip quality may result in larger Clip files. While streaming, Clips will be captured at the same quality as your stream settings.",
                 "2Uh8Zr": "Manual Clips Only",
@@ -134,7 +36,6 @@
                 "IxZyA+": "Use my voice in others’ Clips",
                 "MRWtw9": "Saves your best moments using in-game events and voice activity. You can also use your keybind.",
                 "Oh9NEy": "Show Clips debug tooltips",
-                "PERMISSION_LOST": "permission_lost",
                 "Pm/g4t": "Show POV Clips in Library",
                 "VfTZ7q": "Set a keybind to save a Clip. Keybind can be customized anytime.",
                 "XoptI1": "Show overlay tooltips for the Clips engine starting, enabled features, Auto-Clip signals, and save errors. Intended for development and testing.",
@@ -152,12 +53,6 @@
                 "uEs0uv": "Auto & Manual",
                 "uO/2T5": "Clips Off"
             },
-            "deleted": {
-                "MJ/VsO": "Detects moments worth clipping during your session. Runs entirely on your device.",
-                "UCzGcQ": "Detects moments worth clipping during your session. Runs entirely on your device. [Learn more]({learnMoreLink})",
-                "j29uJx": "Enable Autoclipping",
-                "wUpqua": "Requires Clipping enabled."
-            },
             "modified": {}
         },
         "ko": {
@@ -166,5 +61,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-04T00:10:31.622950+00:00"
+    "timestamp": "2026-11-04T00:21:28.741754+00:00"
 }
