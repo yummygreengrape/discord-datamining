@@ -1,5 +1,5 @@
 {
-    "build_hash": "72a7166c2c1a1644bf4a86bc9de6a9d675a5dc2e",
+    "build_hash": "e88d10e02d3e859b13d5fcdef5ab5319f326a0f3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,34 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "EIVQqq": "When archived",
+                "RRsgY0": "Removes threads that are no longer active",
+                "THUVKS": "Remove read threads",
+                "bI/czq": "Prune inactive threads",
+                "d15FpO": "Joined threads go to their own category",
+                "eic1d0": "{days, plural, one {After # day without activity} other {After # days without activity}}",
+                "hklnjs": "Thread Settings"
+            },
+            "deleted": {
+                "4KOdCv": "No archived or inactive, read threads match these choices.",
+                "AX7Fmc": "Clear selection",
+                "DbeF7Y": "Archived threads are included regardless of age or unread status. Active threads are included after the days without activity you choose. Unread active threads are always kept. Removing a thread from Favorites won’t leave the thread.",
+                "Dr1FWM": "{activity} · Archived",
+                "IzxPdG": "{days, plural, =0 {Last active today} one {Last active # day ago} other {Last active # days ago}}",
+                "O2NG67": "Clean up inactive threads…",
+                "VheZQr": "Days without activity",
+                "ZuaHVJ": "Select all",
+                "b081B+": "Clean up inactive threads",
+                "g2vHYJ": "Threads you join go to an \"Auto-Added Threads\" category.",
+                "jiqJtj": "Remove {count, plural, one {# thread} other {# threads}}",
+                "kdvwuo": "{count, plural, one {# thread selected} other {# threads selected}}",
+                "rM/wWh": "{count, plural, one {# thread could not be loaded and will be kept.} other {# threads could not be loaded and will be kept.}}",
+                "rYws6y": "Last activity unknown",
+                "wPednI": "Threads to remove",
+                "wT+K51": "Enter a whole number from 1 to 36,500.",
+                "zAljrZ": "Find inactive threads"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +49,229 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-04T00:32:22.738370+00:00"
+    "string_context": {
+        "en": {
+            "DbeF7Y": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "보관된 스레드는 기간·읽음 상태와 무관하게 포함되고, 활성 스레드는 선택한 비활동 일수를 적용해요. 읽지 않은 활성 스레드는 남기며 즐겨찾기 제거는 스레드 나가기가 아니라고 명시해요.",
+                    "generated_at": "2026-10-21T15:15:54.069519Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Favorites",
+                        "inactive threads",
+                        "archived threads",
+                        "Days without activity"
+                    ],
+                    "search_intent": "즐겨찾기 정리가 읽지 않은 스레드나 참가 상태에 미치는 영향을 확인하려는 검색이에요.",
+                    "source_context": "즐겨찾기 한도 이력과 2026-10-20T22:13:35Z의 비활성 스레드 정리 문구를 함께 확인했어요. 정리 설명은 즐겨찾기 제거와 스레드 나가기를 구분해요.",
+                    "summary": "이 설명은 보관된 스레드와 비활성 스레드를 즐겨찾기에서 정리하는 기준을 알려줘요.",
+                    "what_it_means": "보관 상태와 읽음 여부에 따라 정리 기준이 달라지고 제거는 즐겨찾기 목록에 적용돼요.",
+                    "when_it_appears": "비활성 스레드 정리 화면의 대상 선택 설명에 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "Archived threads are included regardless of age or unread status, while active threads use the selected inactivity period. Unread active threads are kept, and removing a favorite does not leave the thread.",
+                    "generated_at": "2026-10-21T15:15:54.069519Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Favorites",
+                        "inactive threads",
+                        "archived threads",
+                        "Days without activity"
+                    ],
+                    "search_intent": "To check how Favorites cleanup affects unread threads and thread membership.",
+                    "source_context": "Recorded Favorites capacity copy and cleanup strings at 2026-10-20T22:13:35Z distinguish removing a favorite from leaving a thread.",
+                    "summary": "This explanation defines which archived and inactive threads Favorites cleanup includes.",
+                    "what_it_means": "Cleanup uses archive and read status, and removal affects the Favorites list.",
+                    "when_it_appears": "It may appear in the cleanup screen’s explanation of eligible threads."
+                }
+            },
+            "O2NG67": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "관련 문구는 후보 찾기, 일수 선택, 선택한 항목 제거를 구분해요. 이 메뉴 이름만으로 서버의 스레드 메시지를 삭제하는 기능이라고 해석하면 안 돼요.",
+                    "generated_at": "2026-10-21T15:15:54.069519Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Favorites",
+                        "inactive threads",
+                        "archived threads",
+                        "Days without activity"
+                    ],
+                    "search_intent": "Discord의 비활성 스레드 정리 메뉴가 무엇을 제거하는지 찾는 검색이에요.",
+                    "source_context": "즐겨찾기 한도 이력과 2026-10-20T22:13:35Z의 비활성 스레드 정리 문구를 함께 확인했어요. 정리 설명은 즐겨찾기 제거와 스레드 나가기를 구분해요.",
+                    "summary": "Clean up inactive threads…는 비활성 스레드를 즐겨찾기에서 정리하는 메뉴예요.",
+                    "what_it_means": "즐겨찾기에 남은 스레드 항목을 정리하는 흐름을 열어요.",
+                    "when_it_appears": "Favorites의 스레드 정리 메뉴에서 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "Related copy separates finding candidates, choosing days, and removing selected entries. The menu does not describe deleting server thread messages.",
+                    "generated_at": "2026-10-21T15:15:54.069519Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Favorites",
+                        "inactive threads",
+                        "archived threads",
+                        "Days without activity"
+                    ],
+                    "search_intent": "To identify what Clean up inactive threads removes in Discord.",
+                    "source_context": "Recorded Favorites capacity copy and cleanup strings at 2026-10-20T22:13:35Z distinguish removing a favorite from leaving a thread.",
+                    "summary": "Clean up inactive threads… opens a cleanup flow for favorited threads.",
+                    "what_it_means": "It opens a workflow for cleaning thread entries from Favorites.",
+                    "when_it_appears": "It may appear in the Favorites thread-management menu."
+                }
+            },
+            "VheZQr": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "같은 화면 설명은 활성 스레드에 이 기준을 적용하고 읽지 않은 활성 항목은 남긴다고 말해요. 서버 전체 메시지를 그 날짜에 삭제하는 설정은 아니에요.",
+                    "generated_at": "2026-10-21T15:15:54.069519Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Favorites",
+                        "inactive threads",
+                        "archived threads",
+                        "Days without activity"
+                    ],
+                    "search_intent": "즐겨찾기 정리의 Days without activity가 어떤 기간인지 찾는 검색이에요.",
+                    "source_context": "즐겨찾기 한도 이력과 2026-10-20T22:13:35Z의 비활성 스레드 정리 문구를 함께 확인했어요. 정리 설명은 즐겨찾기 제거와 스레드 나가기를 구분해요.",
+                    "summary": "Days without activity는 비활성 스레드를 고를 때 쓰는 일수 기준이에요.",
+                    "what_it_means": "스레드가 활동 없이 지난 일수를 정리 조건으로 사용해요.",
+                    "when_it_appears": "비활성 스레드 찾기의 기간 입력란 제목에 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The accompanying explanation applies it to active threads and keeps unread active entries. It is not a setting to delete all server messages after that many days.",
+                    "generated_at": "2026-10-21T15:15:54.069519Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Favorites",
+                        "inactive threads",
+                        "archived threads",
+                        "Days without activity"
+                    ],
+                    "search_intent": "To understand the inactivity period used by Favorites cleanup.",
+                    "source_context": "Recorded Favorites capacity copy and cleanup strings at 2026-10-20T22:13:35Z distinguish removing a favorite from leaving a thread.",
+                    "summary": "Days without activity names the time threshold for finding inactive threads.",
+                    "what_it_means": "It uses elapsed inactive days as a thread-selection criterion.",
+                    "when_it_appears": "It may label the day-threshold input for finding inactive threads."
+                }
+            },
+            "g2vHYJ": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "참여한 스레드를 Auto-Added Threads라는 구역에 모으는 동작을 뜻해요. 기록된 설정 동작을 설명하며 모든 클라이언트에 현재 적용된다는 뜻은 아니에요.",
+                    "generated_at": "2026-10-18T05:41:51.962275Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Favorites",
+                        "channels",
+                        "DMs",
+                        "Manage Favorites"
+                    ],
+                    "search_intent": "내 스레드가 자동 추가된 스레드에 나타난 이유를 찾는 검색이에요.",
+                    "source_context": "같이 기록된 즐겨찾기 추가·관리·표시·한도 문구를 함께 검토했어요. 삭제 이력도 보존하며 이 기록만으로 현재 제공 여부를 판단하지 않아요.",
+                    "summary": "참여한 스레드가 자동 추가 카테고리에 들어간다는 설명이에요.",
+                    "what_it_means": "참여한 스레드를 Auto-Added Threads라는 구역에 모으는 동작을 뜻해요.",
+                    "when_it_appears": "스레드 자동 추가 설정을 설명하는 보조 문구에 해당해요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "Joined threads are grouped under an Auto-Added Threads category. It describes the recorded setting, without establishing that every current client offers it.",
+                    "generated_at": "2026-10-18T05:41:51.962275Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Favorites",
+                        "channels",
+                        "DMs",
+                        "Manage Favorites"
+                    ],
+                    "search_intent": "Someone may be checking why a thread appeared in Auto-Added Threads.",
+                    "source_context": "Companion Favorites copy covers adding, managing, visibility, and limits. Deleted events are archived observations and do not establish current availability.",
+                    "summary": "This explains where automatically added joined threads are placed.",
+                    "what_it_means": "Joined threads are grouped under an Auto-Added Threads category.",
+                    "when_it_appears": "It serves as supporting text for the thread auto-add setting."
+                }
+            },
+            "rM/wWh": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "개수에 따라 한 개 또는 여러 개의 스레드를 표시해요. 정보를 확인하지 못한 항목을 지우지 않는다는 뜻이며 스레드 자체가 삭제됐다는 오류는 아니에요.",
+                    "generated_at": "2026-10-21T15:15:54.069519Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Favorites",
+                        "inactive threads",
+                        "archived threads",
+                        "Days without activity"
+                    ],
+                    "search_intent": "즐겨찾기 정리에서 일부 스레드가 제거되지 않는 이유를 찾는 검색이에요.",
+                    "source_context": "즐겨찾기 한도 이력과 2026-10-20T22:13:35Z의 비활성 스레드 정리 문구를 함께 확인했어요. 정리 설명은 즐겨찾기 제거와 스레드 나가기를 구분해요.",
+                    "summary": "이 안내는 불러오지 못한 스레드를 즐겨찾기 정리에서 남겨 둔다고 설명해요.",
+                    "what_it_means": "불러오기 실패 항목은 이번 정리에서 보존돼요.",
+                    "what_to_do": "남겨진 항목은 그대로 두고 필요한 스레드를 개별 확인하세요.",
+                    "when_it_appears": "정리 후보의 스레드 정보를 가져오지 못했을 때 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The count selects singular or plural wording. Unverified entries are retained; the notice does not say the underlying threads were deleted.",
+                    "generated_at": "2026-10-21T15:15:54.069519Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Favorites",
+                        "inactive threads",
+                        "archived threads",
+                        "Days without activity"
+                    ],
+                    "search_intent": "To find why some threads remain after Favorites cleanup.",
+                    "source_context": "Recorded Favorites capacity copy and cleanup strings at 2026-10-20T22:13:35Z distinguish removing a favorite from leaving a thread.",
+                    "summary": "This notice says threads that could not be loaded will be kept during Favorites cleanup.",
+                    "what_it_means": "Entries that failed to load are preserved in this cleanup.",
+                    "what_to_do": "Leave the retained entries in place and review any needed threads individually.",
+                    "when_it_appears": "It may appear when the cleanup flow cannot retrieve information for candidate threads."
+                }
+            },
+            "wT+K51": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "같은 묶음에는 Days without activity와 비활성 스레드 찾기가 있어요. 여기서 숫자는 스레드 개수나 서버 인원 제한이 아니라 일수 조건으로 보여요.",
+                    "generated_at": "2026-10-21T15:15:54.069519Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Favorites",
+                        "inactive threads",
+                        "archived threads",
+                        "Days without activity"
+                    ],
+                    "search_intent": "즐겨찾기 정리에서 1부터 36,500까지 입력하라는 이유를 찾는 검색이에요.",
+                    "source_context": "즐겨찾기 한도 이력과 2026-10-20T22:13:35Z의 비활성 스레드 정리 문구를 함께 확인했어요. 정리 설명은 즐겨찾기 제거와 스레드 나가기를 구분해요.",
+                    "summary": "Enter a whole number from 1 to 36,500.은 비활동 일수 입력 범위를 안내하는 오류예요.",
+                    "what_it_means": "정리 기준 일수는 1 이상 36,500 이하의 정수여야 해요.",
+                    "what_to_do": "비활동 일수에 허용 범위 안의 정수를 입력하세요.",
+                    "when_it_appears": "스레드의 비활동 일수에 허용 범위 밖 값이나 소수를 입력하면 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The group includes Days without activity and finding inactive threads. The number refers to a time filter rather than a thread-count or member limit.",
+                    "generated_at": "2026-10-21T15:15:54.069519Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Favorites",
+                        "inactive threads",
+                        "archived threads",
+                        "Days without activity"
+                    ],
+                    "search_intent": "To understand the 1–36,500 validation message in Favorites cleanup.",
+                    "source_context": "Recorded Favorites capacity copy and cleanup strings at 2026-10-20T22:13:35Z distinguish removing a favorite from leaving a thread.",
+                    "summary": "Enter a whole number from 1 to 36,500 validates the inactivity-day input.",
+                    "what_it_means": "The day threshold requires an integer between 1 and 36,500.",
+                    "what_to_do": "Enter a whole-number inactivity threshold within the displayed range.",
+                    "when_it_appears": "It may appear for a fractional or out-of-range inactivity-day value."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-11-04T00:43:15.908777+00:00"
 }
