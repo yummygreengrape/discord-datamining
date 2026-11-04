@@ -1,5 +1,5 @@
 {
-    "build_hash": "2c33fca3628b6ec4866299f5dbdaff504737f41f",
+    "build_hash": "72a7166c2c1a1644bf4a86bc9de6a9d675a5dc2e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,46 +13,8 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "MJ/VsO": "Detects moments worth clipping during your session. Runs entirely on your device.",
-                "UCzGcQ": "Detects moments worth clipping during your session. Runs entirely on your device. [Learn more]({learnMoreLink})",
-                "j29uJx": "Enable Autoclipping",
-                "wUpqua": "Requires Clipping enabled."
-            },
-            "deleted": {
-                "0Y9r0P": "This is the maximum resolution your Clips will be captured at.",
-                "1C6Gea": "Higher Clip quality may result in larger Clip files. While streaming, Clips will be captured at the same quality as your stream settings.",
-                "2Uh8Zr": "Manual Clips Only",
-                "5pE8FG": "Clips Library",
-                "6C94PY": "Capture your top gaming moments, directly on Discord. All Clips are locally stored on your device until you share them. [Learn more]({learnMoreLink})",
-                "82AJHx": "Clip Resolution",
-                "8Cx5u+": "Manual Clips Keybind",
-                "ArBuEu": "Control how your voice is used in others’ Clips",
-                "CnXTMY": "Clip Length",
-                "DonDIR": "Storage Location",
-                "E6QvLy": "Quality",
-                "GjNXmw": "When someone in your voice channel captures a Clip, your voice is included and analyzed on their device for highlights.",
-                "HzqWWF": "Receive a reminder after a Clip is captured.",
-                "IxZyA+": "Use my voice in others’ Clips",
-                "MRWtw9": "Saves your best moments using in-game events and voice activity. You can also use your keybind.",
-                "Oh9NEy": "Show Clips debug tooltips",
-                "Pm/g4t": "Show POV Clips in Library",
-                "VfTZ7q": "Set a keybind to save a Clip. Keybind can be customized anytime.",
-                "XoptI1": "Show overlay tooltips for the Clips engine starting, enabled features, Auto-Clip signals, and save errors. Intended for development and testing.",
-                "aSPNgv": "Show Clips automatically captured from your point of view when a teammate Clips a shared moment. Dev-only for now.",
-                "i2xEfm": "Clip Quality",
-                "juVL76": "Clip Frame Rate",
-                "l/u5Cq": "No Clips get saved.",
-                "n+Htm0": "Clips Capture Mode",
-                "n6Ts7o": "This is the maximum FPS your Clips will be captured at.",
-                "nvHjmr": "Clipped Reminders",
-                "qYS+JH": "Press {keybind} to save a Clip. Keybind can be customized anytime.",
-                "qiqPrh": "Choose where your Clips are stored locally.",
-                "sY70pa": "Higher quality results in larger file sizes. 75% is recommended.",
-                "sved3b": "Press this keybind anytime to capture a Clip.",
-                "uEs0uv": "Auto & Manual",
-                "uO/2T5": "Clips Off"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -61,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-04T00:21:28.741754+00:00"
+    "timestamp": "2026-11-04T00:32:22.738370+00:00"
 }
