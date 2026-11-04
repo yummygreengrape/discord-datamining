@@ -1,5 +1,5 @@
 {
-    "build_hash": "6428a2c13b069f2da2df2ca166945ff10983e014",
+    "build_hash": "4bb5851adecbbf935ea6b96babc90c08c4b96efc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,12 +8,69 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-declarative-notification-settings-redesign",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-11-04T15:18:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-declarative-notification-settings-redesign",
+            "kind": "user",
+            "timestamp": "2026-11-04T15:18:20Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "1S8d9h": "Additional notification settings",
+                "Ns127F": "Loading notification preferences…",
+                "Nu2TMI": "Notification preferences are unavailable. Please try again."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +80,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-04T15:11:30.955506+00:00"
+    "timestamp": "2026-11-04T15:22:52.006205+00:00"
 }
