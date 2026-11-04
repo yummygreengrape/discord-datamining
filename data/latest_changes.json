@@ -1,5 +1,5 @@
 {
-    "build_hash": "23d4cdf2a987fc7a35a21481d97cef06d754666a",
+    "build_hash": "32cde0dd886e8a9fe3033a831caecd3be5e5bea1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -18,14 +18,44 @@
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-10-voice-quality-scoring",
+            "id": "2026-08-social-layer-storefront-mobile-embed",
             "kind": "user",
             "status": "added",
-            "timestamp": "2026-11-03T23:56:27Z",
+            "timestamp": "2026-11-04T00:01:31Z",
             "treatments": [
+                "Variant 0",
                 "Variant 1"
             ],
             "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-social-layer-storefront-mobile-multi-sku-embed",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-11-04T00:01:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
                 "1": {
                     "enabled": true
                 }
@@ -42,13 +72,42 @@
             },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-10-voice-quality-scoring",
+            "id": "2026-08-social-layer-storefront-mobile-embed",
             "kind": "user",
-            "timestamp": "2026-11-03T23:56:27Z",
+            "timestamp": "2026-11-04T00:01:31Z",
             "treatments": [
+                "Variant 0",
                 "Variant 1"
             ],
             "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-social-layer-storefront-mobile-multi-sku-embed",
+            "kind": "user",
+            "timestamp": "2026-11-04T00:01:31Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
                 "1": {
                     "enabled": true
                 }
@@ -59,18 +118,46 @@
     "string_changes": {
         "en": {
             "added": {
-                "FxilA2": "The review couldn’t run right now. Try again in a bit.",
-                "HsOGKK": "Reviewing your app. This can take a minute.",
-                "TtE+rz": "This app has used all of today’s reviews. Try again tomorrow.",
-                "UOr0cK": "It breaks Discord’s rules, so it can’t be published, previewed or remixed. Remove what breaks the rules, then request a review.",
-                "ebqlWe": "This app can’t be published",
-                "ikIoxj": "A review just ran. Wait a couple of minutes before requesting another.",
-                "nmwy0/": "Request review",
-                "qY/RLI": "It’s no longer on hold, so you can publish it again.",
-                "t8GlRz": "Your app is still on hold: {reason}",
-                "vVnbEq": "Your app passed review"
+                "0Y9r0P": "This is the maximum resolution your Clips will be captured at.",
+                "1C6Gea": "Higher Clip quality may result in larger Clip files. While streaming, Clips will be captured at the same quality as your stream settings.",
+                "2Uh8Zr": "Manual Clips Only",
+                "5pE8FG": "Clips Library",
+                "6C94PY": "Capture your top gaming moments, directly on Discord. All Clips are locally stored on your device until you share them. [Learn more]({learnMoreLink})",
+                "82AJHx": "Clip Resolution",
+                "8Cx5u+": "Manual Clips Keybind",
+                "ArBuEu": "Control how your voice is used in others’ Clips",
+                "CnXTMY": "Clip Length",
+                "DonDIR": "Storage Location",
+                "E6QvLy": "Quality",
+                "GjNXmw": "When someone in your voice channel captures a Clip, your voice is included and analyzed on their device for highlights.",
+                "HzqWWF": "Receive a reminder after a Clip is captured.",
+                "IxZyA+": "Use my voice in others’ Clips",
+                "MRWtw9": "Saves your best moments using in-game events and voice activity. You can also use your keybind.",
+                "Oh9NEy": "Show Clips debug tooltips",
+                "PERMISSION_LOST": "permission_lost",
+                "Pm/g4t": "Show POV Clips in Library",
+                "VfTZ7q": "Set a keybind to save a Clip. Keybind can be customized anytime.",
+                "XoptI1": "Show overlay tooltips for the Clips engine starting, enabled features, Auto-Clip signals, and save errors. Intended for development and testing.",
+                "aSPNgv": "Show Clips automatically captured from your point of view when a teammate Clips a shared moment. Dev-only for now.",
+                "i2xEfm": "Clip Quality",
+                "juVL76": "Clip Frame Rate",
+                "l/u5Cq": "No Clips get saved.",
+                "n+Htm0": "Clips Capture Mode",
+                "n6Ts7o": "This is the maximum FPS your Clips will be captured at.",
+                "nvHjmr": "Clipped Reminders",
+                "qYS+JH": "Press {keybind} to save a Clip. Keybind can be customized anytime.",
+                "qiqPrh": "Choose where your Clips are stored locally.",
+                "sY70pa": "Higher quality results in larger file sizes. 75% is recommended.",
+                "sved3b": "Press this keybind anytime to capture a Clip.",
+                "uEs0uv": "Auto & Manual",
+                "uO/2T5": "Clips Off"
             },
-            "deleted": {},
+            "deleted": {
+                "MJ/VsO": "Detects moments worth clipping during your session. Runs entirely on your device.",
+                "UCzGcQ": "Detects moments worth clipping during your session. Runs entirely on your device. [Learn more]({learnMoreLink})",
+                "j29uJx": "Enable Autoclipping",
+                "wUpqua": "Requires Clipping enabled."
+            },
             "modified": {}
         },
         "ko": {
@@ -79,5 +166,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-03T23:59:37.492282+00:00"
+    "timestamp": "2026-11-04T00:10:31.622950+00:00"
 }
