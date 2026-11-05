@@ -1,5 +1,5 @@
 {
-    "build_hash": "eca0621b3ef876c050d5ea4ea5e809a94286662f",
+    "build_hash": "57eefca21f5260d2123b6a29f41fd9a444383e55",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,8 +14,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "DV2hcV": "Separate Test App",
-                "yjWIzb": "Try changes in a separate app before they go live. Without one, every change goes live right away."
+                "CHANNEL_LIST": "channel_list"
             },
             "deleted": {},
             "modified": {}
@@ -26,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-05T01:22:56.969504+00:00"
+    "timestamp": "2026-11-05T01:33:51.527856+00:00"
 }
