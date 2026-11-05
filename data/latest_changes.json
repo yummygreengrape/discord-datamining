@@ -1,5 +1,5 @@
 {
-    "build_hash": "9a34730d9e1bf21714ffb984373c843395516d1d",
+    "build_hash": "f19920ac4d42a234eeadcb612d821d18c1c31ab9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,14 +13,8 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "17yEQw": "Not available",
-                "YLHRzA": "Staff options"
-            },
-            "deleted": {
-                "eGqPbV": "Choose a model and thinking level",
-                "qSViP4": "Choose a thinking level"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -29,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-05T02:28:05.016239+00:00"
+    "timestamp": "2026-11-05T02:38:59.903901+00:00"
 }
