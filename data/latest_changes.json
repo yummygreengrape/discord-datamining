@@ -1,5 +1,5 @@
 {
-    "build_hash": "886a837a67d7dda4a0ec784f308600c89989ab2c",
+    "build_hash": "635cc423597ec2e24da0223baaedfff8d3b671b9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,10 +14,14 @@
     "string_changes": {
         "en": {
             "added": {
-                "HyvucT": "**{name}** is squeaking...",
-                "khnYc8": "is squeaking..."
+                "DinVUQ": "You can’t join this {noun}",
+                "IIR/NZ": "Unfortunately something went wrong. Check out the server linked to this {noun}, {guildName}, instead.",
+                "lXyJMS": "You don’t have any eligible characters to join this {noun}. Check out the server linked to this {noun}, {guildName}, instead."
             },
-            "deleted": {},
+            "deleted": {
+                "Rx9AlK": "We couldn’t load your characters. Try again later.",
+                "cIerRX": "You don’t have any characters that can join this {noun}."
+            },
             "modified": {}
         },
         "ko": {
@@ -26,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-05T01:01:17.377957+00:00"
+    "timestamp": "2026-11-05T01:12:09.113519+00:00"
 }
