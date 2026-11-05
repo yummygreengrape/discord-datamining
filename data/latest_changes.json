@@ -1,8 +1,20 @@
 {
-    "build_hash": "57eefca21f5260d2123b6a29f41fd9a444383e55",
+    "build_hash": "78539baa359af4b07e32c625b1a0f7fc8b002ba9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "id": "2025-11_tida_webform",
+            "kind": "user",
+            "timestamp": "2026-11-05T01:35:30Z",
+            "title": "Tida Webform",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enabled"
+            ]
+        }
+    ],
     "extractor_version": 23,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -14,9 +26,34 @@
     "string_changes": {
         "en": {
             "added": {
-                "CHANNEL_LIST": "channel_list"
+                "03CMAJ": "Clips runs on your device to help you capture your gaming moments. They stay on your computer until you share them.",
+                "22Z9fP": "Auto Clips is already on for you. You can change it to Keybind Only, or turn it off in Clips settings.",
+                "4Ta12C": "Auto Clips run on your PC, using in-game events and voice activity to save your best moments.",
+                "7kGdh5": "Clips Settings",
+                "BtyRCT": "Save the clutch plays and the chaos while you game with friends. As a Nitro member, you get Auto Clips first.",
+                "DV2hcV": "Separate Test App",
+                "DinVUQ": "You can’t join this {noun}",
+                "Ggh4C0": "When your squad loses it, Clips saves it.",
+                "IIR/NZ": "Unfortunately something went wrong. Check out the server linked to this {noun}, {guildName}, instead.",
+                "L0RzNn": "Works on thousands of PC games",
+                "M8rOjI": "You're in early: Auto Clips are on for you with Nitro. We'll clip the clutch plays and the chaos while you game with friends, no keybinds required.",
+                "O9OeEg": "When your squad loses it, Auto Clips saves it.",
+                "YXeYlM": "We couldn’t save your capture mode. Please try again.",
+                "kWigdu": "Get early access to Clips & Auto Clips with Nitro. Save the clutch plays and the chaos while you game with friends, no extra software needed.",
+                "lXyJMS": "You don’t have any eligible characters to join this {noun}. Check out the server linked to this {noun}, {guildName}, instead.",
+                "liWTC0": "Done",
+                "n9r54F": "Check It Out",
+                "pGoNG5": "Clips now clip themselves",
+                "pMWdGA": "Once you join Nitro, you can choose your capture mode in Clips settings.",
+                "q8YDuR": "Choose Clips capture mode",
+                "utyPWV": "You can change this anytime in",
+                "vngMNi": "Jump into your favorite multiplayer games and let Auto Clips handle the rest.",
+                "yjWIzb": "Try changes in a separate app before they go live. Without one, every change goes live right away."
             },
-            "deleted": {},
+            "deleted": {
+                "Rx9AlK": "We couldn’t load your characters. Try again later.",
+                "cIerRX": "You don’t have any characters that can join this {noun}."
+            },
             "modified": {}
         },
         "ko": {
@@ -25,5 +62,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-05T01:33:51.527856+00:00"
+    "timestamp": "2026-11-05T01:44:50.151564+00:00"
 }
