@@ -1,5 +1,5 @@
 {
-    "build_hash": "2cabbc340fe73821227f3c27b8bfa0cc861514da",
+    "build_hash": "886a837a67d7dda4a0ec784f308600c89989ab2c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,47 +14,11 @@
     "string_changes": {
         "en": {
             "added": {
-                "0kSKEH": "Cannot link this {noun}",
-                "2OdXdn": "Keys pasted into the chat aren’t private.",
-                "3qrm/9": "No friends to invite yet",
-                "GdDUCS": "Choose a {noun}",
-                "Hl7rif": "Hide the keys card",
-                "NyR+6P": "Add some friends so that you can invite them to this {noun}!",
-                "VxH5vv": "Add your key in the card above",
-                "fZG8IY": "Couldn't save your teen's settings. Please try again later.",
-                "fxZSL6": "Already linked to another server",
-                "kIqT8Y": "Not a {noun} admin",
-                "kdLF2T": "Add friends"
+                "HyvucT": "**{name}** is squeaking...",
+                "khnYc8": "is squeaking..."
             },
-            "deleted": {
-                "1dqa3c": "Wanna level up? Enabling tracking helps us make your experiences as rewarding and relevant as possible! You can opt out anytime in your iOS settings.",
-                "1xzDmz": "Allowing tracking means:",
-                "2xEEtm": "Quests will be personalized to offer you the rewards you want",
-                "Cq8QKd": "Player checkpoint - Allowing tracking personalizes your experience and ensures you have a rewarding experience. You can opt out anytime in your iOS settings.",
-                "GTJQCI": "You’re on iOS {version}",
-                "P9bOBY": "If you allow tracking:",
-                "QNWJsx": "Back businesses and game studios who rely on ads for discovery",
-                "TSMwsv": "You’ll back game studios who rely on ads for discovery",
-                "UBpcNy": "Support businesses and game studios that rely on ads for discovery",
-                "YW0z00": "You’ll help support Discord to be your cozy home on the internet",
-                "ZxkYWd": "We’ll personalize Quests to reflect your relevant interests",
-                "acNnrW": "Just a quick ping - Allowing tracking helps us show you Quests that you’re actually into! You can opt out anytime in your iOS settings",
-                "b0WurL": "Allowing tracking means you will:",
-                "fpfPTl": "Receive personalized Quests that are crafted to your relevant interests",
-                "mE2qtB": "Businesses and game studios you love can be discovered",
-                "mH8BIZ": "You can always update your choice for this device in your iOS settings at any time. If you allow tracking, you can:",
-                "nvVy3+": "Receive Quests that match your interests",
-                "oD52Ef": "Ensure Discord continues to be your cozy home on the internet",
-                "vlj5uF": "Heads up — allowing tracking lets us personalize the content you see in your Quests & Rewards and keeps your experience as relevant as possible!",
-                "xaXauC": "Discord continues to be your cozy home on the internet",
-                "y4HOMj": "Help support Discord to be your cozy home on the internet"
-            },
-            "modified": {
-                "gR14cL": {
-                    "new_value": "Link an in-game {noun} to your server. You must be an admin of the {noun} to link it.",
-                    "old_value": "Link an in-game guild to your server. You must be an admin of the guild to link it."
-                }
-            }
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -62,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-05T00:49:54.665080+00:00"
+    "timestamp": "2026-11-05T01:01:17.377957+00:00"
 }
