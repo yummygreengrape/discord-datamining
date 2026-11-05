@@ -1,5 +1,5 @@
 {
-    "build_hash": "635cc423597ec2e24da0223baaedfff8d3b671b9",
+    "build_hash": "eca0621b3ef876c050d5ea4ea5e809a94286662f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,14 +14,10 @@
     "string_changes": {
         "en": {
             "added": {
-                "DinVUQ": "You can’t join this {noun}",
-                "IIR/NZ": "Unfortunately something went wrong. Check out the server linked to this {noun}, {guildName}, instead.",
-                "lXyJMS": "You don’t have any eligible characters to join this {noun}. Check out the server linked to this {noun}, {guildName}, instead."
+                "DV2hcV": "Separate Test App",
+                "yjWIzb": "Try changes in a separate app before they go live. Without one, every change goes live right away."
             },
-            "deleted": {
-                "Rx9AlK": "We couldn’t load your characters. Try again later.",
-                "cIerRX": "You don’t have any characters that can join this {noun}."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -30,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-05T01:12:09.113519+00:00"
+    "timestamp": "2026-11-05T01:22:56.969504+00:00"
 }
