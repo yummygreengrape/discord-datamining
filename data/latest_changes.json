@@ -1,5 +1,5 @@
 {
-    "build_hash": "f19920ac4d42a234eeadcb612d821d18c1c31ab9",
+    "build_hash": "c9e6e0dcd1445352c9f43b97ce3f59c07e713abe",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,20 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "00+8Q2": "You're so generous! You've given recurring Nitro that renews yearly. We hope they enjoy!",
+                "0OiA1g": "Nitro Members can buy select items with Orbs",
+                "17yEQw": "Not available",
+                "IXKfvy": "More Black Friday deals",
+                "YLHRzA": "Staff options",
+                "esVpAG": "Get Orbs back on Rust & TD6 in-game purchases",
+                "hPbnzP": "You're so generous! You've given recurring Nitro that renews monthly. We hope they enjoy!",
+                "snV+8b": "Gift Nitro, get an exclusive deco"
+            },
+            "deleted": {
+                "eGqPbV": "Choose a model and thinking level",
+                "qSViP4": "Choose a thinking level"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-05T02:38:59.903901+00:00"
+    "timestamp": "2026-11-05T02:49:56.038599+00:00"
 }
