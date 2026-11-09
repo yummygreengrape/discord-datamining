@@ -1,60 +1,58 @@
 {
-    "build_hash": "1e80d8f713958cb2e53bd65e00176d1289f0ed12",
+    "build_hash": "6a313269a0edada4884fe439ad1c1bc8a5d33635",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "navigateOnly"
-            ],
-            "default_config": {
-                "navigateOnly": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-voice-channel-link-click",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-11-09T17:53:32Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "navigateOnly": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "navigateOnly"
-            ],
-            "default_config": {
-                "navigateOnly": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-02-voice-channel-link-click",
-            "kind": "user",
-            "timestamp": "2026-11-09T17:53:32Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "navigateOnly": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-11-autoclips-ea-upsell",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-11-autoclips-ea-upsell",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -113,5 +111,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-09T17:55:42.051382+00:00"
+    "timestamp": "2026-11-09T18:16:53.225707+00:00"
 }
