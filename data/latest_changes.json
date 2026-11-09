@@ -1,5 +1,5 @@
 {
-    "build_hash": "6a313269a0edada4884fe439ad1c1bc8a5d33635",
+    "build_hash": "4f60df641bd9477ab81f29a1bb6533796319bc73",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,51 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-11-autoclips-ea-upsell",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-11-autoclips-ea-upsell",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -101,15 +58,33 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "5KHq55": "You’re in the teen age group, so Message Requests can’t be turned off. [Learn more]({handleOnAgeGatedContentHook})",
+                "Bk5IR+": "Allow",
+                "ElHi4v": "Turn Clips off",
+                "HBnyJM": "You’re in the teen age group, so some settings can’t be changed. [Learn more]({handleOnAgeGatedContentHook})",
+                "QoCXBT": "Clip manually with {keybind}.",
+                "UBihuW": "Turn on Clips anytime to capture your top gaming moments.",
+                "YlBcu8": "Set a keybind to clip manually.",
+                "bF6l+Y": "Use Auto Clips to automatically save Clips using in-game events and voice activity. You can also use your keybind.",
+                "beB8BG": "Don’t Allow",
+                "m7PBif": "Your voice isn’t included in others’ Clips right now. Allow your voice to be included? Change this in [Data & Privacy]({onDataPrivacyClick}) anytime.",
+                "yriD3v": "Clips are off for you"
+            },
+            "deleted": {
+                "l+jt8J": "You’re in the teen age group, so Message Requests can’t be turned off. If this doesn’t seem right, you can [confirm you’re an adult]({handleOnConfirmAgeHook}).",
+                "qbBkFI": "You’re in the teen age group, so some settings can’t be changed. If this doesn’t seem right, you can [confirm you’re an adult]({handleOnConfirmAgeHook})."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "l+jt8J": "회원님은 청소년 연령대에 속하므로 메시지 요청을 끌 수 없습니다. 이 정보가 올바르지 않다고 생각하신다면 [성인 인증을 진행해 주세요]({handleOnConfirmAgeHook}).",
+                "qbBkFI": "회원님은 청소년 연령대에 속하므로 일부 설정을 변경할 수 없습니다. 이 정보가 올바르지 않다고 생각하신다면 [성인 인증을 진행해 주세요]({handleOnConfirmAgeHook})."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-11-09T18:16:53.225707+00:00"
+    "timestamp": "2026-11-09T18:27:54.002339+00:00"
 }
