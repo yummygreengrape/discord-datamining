@@ -1,5 +1,5 @@
 {
-    "build_hash": "b42c9b61688eb59e28ae3d9d762b16e124b95069",
+    "build_hash": "1ee2d5a013291b7322baebf2107efeb28d6805c5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,7 +58,13 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Awp28f": "Capture your best plays without lifting a finger.",
+                "Iifq8e": "Clips Early Access",
+                "MtIbFp": "Clip that? Already did.",
+                "hXM4Ae": "Nitro members get early access to Clips and Auto Clips. Available on PC.",
+                "wNHvBT": "Watch how it works"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +74,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-09T18:38:46.578488+00:00"
+    "timestamp": "2026-11-09T18:49:37.763322+00:00"
 }
