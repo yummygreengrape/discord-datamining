@@ -1,5 +1,5 @@
 {
-    "build_hash": "74a4d0e7164474169f8aff263bc72c90c9090f79",
+    "build_hash": "693168c01686720d0022636770d3e09839caad20",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -63,12 +63,10 @@
             "modified": {}
         },
         "ko": {
-            "added": {
-                "Bk5IR+": "허용"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-09T22:17:25.159113+00:00"
+    "timestamp": "2026-11-09T22:28:20.796535+00:00"
 }
