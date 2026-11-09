@@ -1,5 +1,5 @@
 {
-    "build_hash": "1ee2d5a013291b7322baebf2107efeb28d6805c5",
+    "build_hash": "ebe45ea23a05fd3c7f05818c12cbcf6b94bf6717",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,18 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-gsh-change-payment-method",
+            "kind": "user",
+            "timestamp": "2026-11-09T18:52:55Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -58,13 +69,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "Awp28f": "Capture your best plays without lifting a finger.",
-                "Iifq8e": "Clips Early Access",
-                "MtIbFp": "Clip that? Already did.",
-                "hXM4Ae": "Nitro members get early access to Clips and Auto Clips. Available on PC.",
-                "wNHvBT": "Watch how it works"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -74,5 +79,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-09T18:49:37.763322+00:00"
+    "timestamp": "2026-11-09T19:00:31.142741+00:00"
 }
