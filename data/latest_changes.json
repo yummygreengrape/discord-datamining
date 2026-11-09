@@ -1,5 +1,5 @@
 {
-    "build_hash": "75e6467066fdd622ac286467e3184c70e4b544ee",
+    "build_hash": "65c82179059632e072a8007279092bf341563dd8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,15 +58,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "5VA1HL": "First look: Auto Clips",
-                "AUTOCLIPS_CARD_ID": "autoclips",
-                "HfvOSC": "Auto Clips can automatically save your best {gameName} moments. As a Nitro member, you get them first.",
-                "IvZiNg": "Don’t miss out on your next {gameName} highlights with friends.",
-                "TvE3md": "Stay locked in, we’ve got the Clip. No keybinds or extra software required.",
-                "rc1kmR": "Your next session could clip itself",
-                "ycsC9o": "Nitro members get Auto Clips first. Just play with friends and Auto Clips does the rest."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -76,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-09T19:11:29.613722+00:00"
+    "timestamp": "2026-11-09T19:22:23.184397+00:00"
 }
