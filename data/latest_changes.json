@@ -1,8 +1,20 @@
 {
-    "build_hash": "80ed283abb9136f7d4404383624d9b7278ac4e01",
+    "build_hash": "65e55e98fec315da9b464994f07799d1bf20e0bf",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-08-game-profiles-vc",
+            "kind": "user",
+            "timestamp": "2026-11-09T19:46:59Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -68,5 +80,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-09T19:44:12.730694+00:00"
+    "timestamp": "2026-11-09T19:55:06.108385+00:00"
 }
