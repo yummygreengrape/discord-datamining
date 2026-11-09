@@ -1,8 +1,91 @@
 {
-    "build_hash": "65c82179059632e072a8007279092bf341563dd8",
+    "build_hash": "e1d74a215095290d10fe8626f25008a26af77ff6",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "preload",
+                        "note": "기본 상태는 auto, 비교안은 none입니다."
+                    }
+                ],
+                "detailed_summary": "기본 상태에서는 동영상 이름표가 브라우저의 자동 미리 불러오기 방식을 사용합니다. 비교안은 미리 불러오기를 끄고 재생이 필요할 때 파일을 받도록 합니다. 현재 Canary의 이름표 동영상 요소가 이 설정을 직접 읽습니다. 비교안은 초기 데이터 사용과 로딩 부담을 줄일 수 있지만, 처음 애니메이션이 시작될 때 지연이 생기는지는 실제 측정이 필요합니다.",
+                "evidence": [
+                    "The current Nameplate component reads the exact experiment at the Nameplate Asset location.",
+                    "Its video element receives preload=auto by default and preload=none in Variant 1."
+                ],
+                "evidence_level": "current_canary_component_consumer",
+                "focus_area": "동영상 이름표 미리 불러오기",
+                "generated_at": "2026-09-23T04:24:24Z",
+                "importance": "low",
+                "summary": "프로필 이름표의 동영상 장식을 미리 불러올지, 실제 재생 시점까지 다운로드를 미룰지 비교하는 실험입니다.",
+                "why_it_matters": "채팅 목록처럼 이름표가 많이 보이는 화면에서 불필요한 동영상 다운로드를 줄일 가능성이 있습니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "preload",
+                        "note": "The default is auto and Variant 1 is none."
+                    }
+                ],
+                "detailed_summary": "The default lets video nameplates use automatic preloading. The variant disables preloading so the asset waits until playback is needed. Current Canary's nameplate video element reads this setting directly. The variant may reduce initial data and loading work, but real measurements are needed to determine whether the first animation becomes slower to start.",
+                "evidence": [
+                    "The current Nameplate component reads the exact experiment at the Nameplate Asset location.",
+                    "Its video element receives preload=auto by default and preload=none in Variant 1."
+                ],
+                "evidence_level": "current_canary_component_consumer",
+                "focus_area": "Video nameplate preloading",
+                "generated_at": "2026-09-23T04:24:24Z",
+                "importance": "low",
+                "summary": "Tests whether video nameplate decorations preload automatically or wait to download until playback is needed.",
+                "why_it_matters": "This may avoid unnecessary video downloads on screens that show many decorated nameplates at once."
+            },
+            "config_keys": [
+                "preload"
+            ],
+            "default_config": {
+                "preload": "auto"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-nameplate-video-preload-none",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-11-09T19:23:23Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "preload": "none"
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "preload"
+            ],
+            "default_config": {
+                "preload": "auto"
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-nameplate-video-preload-none",
+            "kind": "user",
+            "timestamp": "2026-11-09T19:23:23Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "preload": "none"
+                }
+            }
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -68,5 +151,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-09T19:22:23.184397+00:00"
+    "timestamp": "2026-11-09T19:33:18.083798+00:00"
 }
