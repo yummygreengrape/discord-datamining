@@ -1,20 +1,8 @@
 {
-    "build_hash": "65e55e98fec315da9b464994f07799d1bf20e0bf",
+    "build_hash": "a9d1e5c0f315f1d0c5f5695555446fa43282c0c7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-08-game-profiles-vc",
-            "kind": "user",
-            "timestamp": "2026-11-09T19:46:59Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -70,7 +58,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "G+P4p/": "Save your best gaming moments with Clips."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -80,5 +70,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-09T19:55:06.108385+00:00"
+    "timestamp": "2026-11-09T20:06:01.906766+00:00"
 }
