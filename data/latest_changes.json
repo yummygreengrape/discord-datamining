@@ -1,5 +1,5 @@
 {
-    "build_hash": "f626307df15c7f0c0fd5668e541c35bcab9fe26a",
+    "build_hash": "1b07bc6a6fe0ac12ffb487551a3c8d6973e85937",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,9 +58,30 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "+a1lOS": "Stop others from collaborating on the project",
+                "4WtS+v": "Added {app} to {server}.",
+                "DbZ8af": "Delete its app channels: {channels}",
+                "PDLHwR": "Leave its bots in {server} for someone with Manage Server to remove",
+                "TWYUzf": "{app} is personal again.",
+                "TrTx1Z": "Make it work only for you",
+                "VAb6aE": "Make Personal",
+                "cAxBIL": "Make {app} personal?",
+                "cU/7df": "Remove its bots from {server}",
+                "d+wTRF": "Couldn't make this app personal. Try again.",
+                "jKXaUH": "Delete its 'test' version and its test data",
+                "jNGawP": "Make Personal",
+                "tOu7uv": "{app} is personal again. Publish to use it."
+            },
+            "deleted": {
+                "6y2j3H": "You can't make it personal again (for now)."
+            },
+            "modified": {
+                "oOmBdX": {
+                    "new_value": "Interrupted. Changes made so far are kept",
+                    "old_value": "Interrupted"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -68,5 +89,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-09T21:55:31.911016+00:00"
+    "timestamp": "2026-11-09T22:06:26.077679+00:00"
 }
