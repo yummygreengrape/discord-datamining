@@ -1,5 +1,5 @@
 {
-    "build_hash": "3a11301506f28e5d1cc2ae56092e99888ce0f474",
+    "build_hash": "8a60496963301e9a95550888f4d090ac541e7e14",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,9 +58,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "CHkd3/": "Something went wrong with your purchase. Please try again. Reference: {reference}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -70,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-09T23:12:43.943127+00:00"
+    "timestamp": "2026-11-09T23:23:42.339446+00:00"
 }
