@@ -1,5 +1,5 @@
 {
-    "build_hash": "ebe45ea23a05fd3c7f05818c12cbcf6b94bf6717",
+    "build_hash": "75e6467066fdd622ac286467e3184c70e4b544ee",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,18 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-gsh-change-payment-method",
-            "kind": "user",
-            "timestamp": "2026-11-09T18:52:55Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -69,7 +58,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "5VA1HL": "First look: Auto Clips",
+                "AUTOCLIPS_CARD_ID": "autoclips",
+                "HfvOSC": "Auto Clips can automatically save your best {gameName} moments. As a Nitro member, you get them first.",
+                "IvZiNg": "Don’t miss out on your next {gameName} highlights with friends.",
+                "TvE3md": "Stay locked in, we’ve got the Clip. No keybinds or extra software required.",
+                "rc1kmR": "Your next session could clip itself",
+                "ycsC9o": "Nitro members get Auto Clips first. Just play with friends and Auto Clips does the rest."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -79,5 +76,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-09T19:00:31.142741+00:00"
+    "timestamp": "2026-11-09T19:11:29.613722+00:00"
 }
