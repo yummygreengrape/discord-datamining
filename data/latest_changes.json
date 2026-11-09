@@ -1,8 +1,53 @@
 {
-    "build_hash": "a9495c3d66b08e0130aab431d6d17ff27b98fd15",
+    "build_hash": "1e80d8f713958cb2e53bd65e00176d1289f0ed12",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "navigateOnly"
+            ],
+            "default_config": {
+                "navigateOnly": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-voice-channel-link-click",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-11-09T17:53:32Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "navigateOnly": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "navigateOnly"
+            ],
+            "default_config": {
+                "navigateOnly": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-voice-channel-link-click",
+            "kind": "user",
+            "timestamp": "2026-11-09T17:53:32Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "navigateOnly": true
+                }
+            }
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -68,5 +113,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-09T17:44:46.779827+00:00"
+    "timestamp": "2026-11-09T17:55:42.051382+00:00"
 }
