@@ -1,5 +1,5 @@
 {
-    "build_hash": "2f76be607ab0c79684c302b51966d9b1c98e8111",
+    "build_hash": "00147bf297138c8d8d3e73475cb1e91680af9b8f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,7 +58,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "DESIGN_SYSTEM_NAVIGATOR": "Design System (Navigator)"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +70,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-09T16:28:07.979131+00:00"
+    "timestamp": "2026-11-09T16:39:00.317896+00:00"
 }
