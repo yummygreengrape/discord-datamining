@@ -1,5 +1,5 @@
 {
-    "build_hash": "368743df1a0fa5a5ec715e0ff40140cb22a86941",
+    "build_hash": "95a88369ca26f36f6981c6e68f5aa0c39c7548ee",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,15 +58,25 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "EWenaG": "Limited Time App Icon",
+                "vRWrrr": "Learn more about Student Hubs"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "6kzaqs": {
+                    "new_value": "Meet classmates from your school, discover communities, and share your servers, all in one place. learnMoreHookHookLearn more.",
+                    "old_value": "Meet classmates from your school, discover communities, and share your servers, all in one place. [Learn more.]({onClick})"
+                }
+            }
         },
         "ko": {
-            "added": {},
+            "added": {
+                "EWenaG": "기간 한정 앱 아이콘"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T23:36:11.598863+00:00"
+    "timestamp": "2026-11-10T23:47:31.939154+00:00"
 }
