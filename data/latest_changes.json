@@ -1,5 +1,5 @@
 {
-    "build_hash": "22a904708efe170e6353893fdc99986c8ffcb8cd",
+    "build_hash": "eaacd8419df45ffbd054b7f66c8b65034c108162",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,7 +58,10 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "OxxTjh": "{stat}, {percentile}",
+                "z72P4t": "Games played: {count, number}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +71,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T17:56:16.589508+00:00"
+    "timestamp": "2026-11-10T18:07:10.287507+00:00"
 }
