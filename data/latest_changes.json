@@ -1,5 +1,5 @@
 {
-    "build_hash": "4f1aa2f8794807d0e17952ced4740909ad532bd6",
+    "build_hash": "c9b172abd8791c1796b2e8e24edb25d591f7d632",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,15 +58,45 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "2tBPVn": "Not earned this year. For everyone who played at least one game.",
+                "5+8d3J": "Not earned this year. For everyone who hit up their top server.",
+                "5Mc39J": "Not earned this year. For the top {percent}% of days played.",
+                "E6AfCb": "Reserved for $[Nitro](subscribeHook) members.",
+                "HPCBcH": "Not earned this year. For the top {percent}% of unique games played.",
+                "Wpd6ol": "Not earned this year. For everyone who popped off a message.",
+                "X9NBcv": "Not earned this year. For the top {percent}% of server visitors across Discord.",
+                "Yi9yiQ": "Not earned this year. For everyone who hopped in voice.",
+                "Yjz+5u": "Not earned this year. For the top {percent}% of emoji droppers.",
+                "ZHmprE": "Not earned this year. For the top {percent}% of yappers.",
+                "anAI9+": "{hours, number}h left",
+                "cWdGf9": "Replay Checkpoint",
+                "cyJktg": "Not earned this year. For everyone that dropped an emoji this year.",
+                "f+TDEF": "{percentage, number}% off - {hours, number}h left",
+                "nH5DSU": "{percentage, number}% off",
+                "nebE6s": "{promotionName}: {percentage, number}% off",
+                "tU2fxW": "Not earned this year. For the top {percent}% of chatters.",
+                "uT5tyB": "Not earned this year. For everyone who played at least one day.",
+                "vic5bB": "Reserved for Nitro members.",
+                "xJBDt2": "{percentage, number}% off - {days, number}d left"
+            },
+            "deleted": {
+                "3Wq/bk": "Reserved for $[Nitro](subscribeHook) members."
+            },
+            "modified": {
+                "bhnqop": {
+                    "new_value": "A few standouts across Discord.",
+                    "old_value": "Just a few of this year’s standouts:"
+                }
+            }
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "3Wq/bk": "Nitro subscribeHookHook멤버 전용."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T00:51:14.439311+00:00"
+    "timestamp": "2026-11-10T01:02:07.319128+00:00"
 }
