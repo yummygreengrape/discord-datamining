@@ -1,5 +1,5 @@
 {
-    "build_hash": "ae444ea1c8e3ca969d8ec5dd0c688fd67dc19530",
+    "build_hash": "35555e66bbdc4f1ca8ef24804ddf79a42550ba1a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-wishlist-countdown",
+            "kind": "user",
+            "timestamp": "2026-11-10T18:47:42Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -68,5 +80,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T18:39:52.261929+00:00"
+    "timestamp": "2026-11-10T18:50:47.383188+00:00"
 }
