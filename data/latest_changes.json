@@ -1,5 +1,5 @@
 {
-    "build_hash": "768fac864170c57bc87b82bb7b971fe29e8bb99e",
+    "build_hash": "4f1aa2f8794807d0e17952ced4740909ad532bd6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,17 +58,8 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "Dd1dUI": "Clip with $[{shortcut}](shortcutHook)",
-                "HHZxrL": "Hide its profile widget on members' profiles",
-                "Hxldbz": "Change Clips capture mode",
-                "UZHlmt": "Let members turn on its game overlay widget",
-                "rVTFDs": "Turn off its game overlay widget for members",
-                "u6ckHo": "Let members add its profile widget to their own profiles"
-            },
-            "deleted": {
-                "/Ow58q": "Profile widgets and the game overlay only work on personal apps. Ask Conjure to remove them, then add it to a server."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -77,49 +68,5 @@
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "/Ow58q": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "문구는 해당 기능이 개인 앱에서 동작한다고 설명해요. 이 버전의 서버 추가 화면은 그 구성 요소를 제거한 뒤 다시 추가하라고 안내해요.",
-                    "generated_at": "2026-11-09T15:10:09.650845Z",
-                    "intent_type": "server_or_permission_notice",
-                    "related_terms": [
-                        "Conjure",
-                        "Add to Server",
-                        "Add and Publish",
-                        "Test version",
-                        "Personal apps"
-                    ],
-                    "search_intent": "개인 앱을 서버에 추가할 때 위젯 때문에 막힌 이유를 찾는 검색이에요.",
-                    "source_context": "서버 추가 및 게시 안내에는 테스트 버전과 개인 앱 구성 요소 제한이 함께 나와요. 관련 프로젝트 문구에는 접근 권한과 설치 안내가 있어요.",
-                    "summary": "프로필 위젯이나 게임 오버레이가 들어 있는 Conjure 앱을 서버에 추가할 때 나오는 제한 안내예요.",
-                    "what_it_means": "이 앱을 현재 구성 그대로는 서버에 추가할 수 없다는 뜻이에요.",
-                    "what_to_do": "서버에 추가할 앱이라면 안내에 따라 Conjure에서 해당 프로필 위젯이나 오버레이를 제거한 뒤 다시 시도하세요.",
-                    "when_it_appears": "Conjure 앱에 서버 추가와 호환되지 않는 구성 요소가 있을 때 표시될 수 있어요."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The copy describes those components as working on personal apps. The add-to-server prompt asks you to remove them before trying again.",
-                    "generated_at": "2026-11-09T15:10:09.650845Z",
-                    "intent_type": "server_or_permission_notice",
-                    "related_terms": [
-                        "Conjure",
-                        "Add to Server",
-                        "Add and Publish",
-                        "Test version",
-                        "Personal apps"
-                    ],
-                    "search_intent": "You may be looking up why a widget blocks adding your app to a server.",
-                    "source_context": "The add-to-server and publish copy mentions test versions and personal app component restrictions. Related project strings cover access and installation.",
-                    "summary": "This notice explains why a Conjure app with profile widgets or a game overlay cannot be added to a server in this flow.",
-                    "what_it_means": "The app’s current configuration is blocking this server action.",
-                    "what_to_do": "If you want to add the app to a server, follow the prompt to remove the profile widgets or overlay in Conjure, then try again.",
-                    "when_it_appears": "It can appear when the app you want to add contains a component the server flow does not accept."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-11-10T00:40:15.963065+00:00"
+    "timestamp": "2026-11-10T00:51:14.439311+00:00"
 }
