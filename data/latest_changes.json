@@ -1,5 +1,5 @@
 {
-    "build_hash": "82ccc96ded105c7fe17b2523c9c5322f525969b6",
+    "build_hash": "bd24862f426297e7b87a613275d55b7a42939b7f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,10 +58,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "QX1VPx": "{category}, more categories",
-                "jepsQ6": "More categories"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -71,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T15:08:35.006421+00:00"
+    "timestamp": "2026-11-10T15:29:44.871600+00:00"
 }
