@@ -1,5 +1,5 @@
 {
-    "build_hash": "d325af0923810cad35eb331fa8b7c42d57a72925",
+    "build_hash": "af8b99b283a5ac9119009d108f4acb4ec6ba8641",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -60,7 +60,28 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "/L1Zem": {
+                    "new_value": "Enter a valid summary ID and select its channel, or paste a topic URL.",
+                    "old_value": "Enter a valid conversation ID and select its channel, or paste a topic URL."
+                },
+                "Huen+/": {
+                    "new_value": "Summary ID or topic URL",
+                    "old_value": "Conversation ID or topic URL"
+                },
+                "PlmztH": {
+                    "new_value": "This summary is not available to preview.",
+                    "old_value": "This conversation has no summary available to preview."
+                },
+                "QYyKH7": {
+                    "new_value": "Channel (required for a summary ID)",
+                    "old_value": "Channel (required for a conversation ID)"
+                },
+                "rMTw10": {
+                    "new_value": "No summary found in this server and channel. Check the ID and channel.",
+                    "old_value": "No conversation found in this server and channel. Check the ID and channel."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -68,5 +89,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T00:07:30.236679+00:00"
+    "timestamp": "2026-11-10T00:18:25.385120+00:00"
 }
