@@ -1,5 +1,5 @@
 {
-    "build_hash": "95a88369ca26f36f6981c6e68f5aa0c39c7548ee",
+    "build_hash": "455c2fb89ba389e673ea8a867204098860dd3226",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,221 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "badge",
+                "compactReward",
+                "gameIconReward",
+                "iconOnlyCTA",
+                "newLayoutWithSearch",
+                "shorterHeight",
+                "showGameLogo",
+                "showQuestTitle"
+            ],
+            "default_config": {
+                "badge": {
+                    "countdown": false,
+                    "duration": false,
+                    "new": false
+                },
+                "compactReward": false,
+                "gameIconReward": false,
+                "iconOnlyCTA": false,
+                "newLayoutWithSearch": false,
+                "shorterHeight": false,
+                "showGameLogo": true,
+                "showQuestTitle": true
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-quest-home-tile-single-elements",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-11-10T23:42:58Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7",
+                "Variant 8",
+                "Variant 9",
+                "Variant 10",
+                "Variant 11"
+            ],
+            "variations": {
+                "1": {
+                    "newLayoutWithSearch": true
+                },
+                "10": {
+                    "gameIconReward": true,
+                    "newLayoutWithSearch": true
+                },
+                "11": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": true,
+                        "new": true
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "2": {
+                    "iconOnlyCTA": true,
+                    "newLayoutWithSearch": true
+                },
+                "3": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": true,
+                        "new": false
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "4": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": false,
+                        "new": true
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "5": {
+                    "badge": {
+                        "countdown": true,
+                        "duration": false,
+                        "new": false
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "6": {
+                    "newLayoutWithSearch": true,
+                    "showGameLogo": false
+                },
+                "7": {
+                    "newLayoutWithSearch": true,
+                    "showQuestTitle": false
+                },
+                "8": {
+                    "compactReward": true,
+                    "newLayoutWithSearch": true
+                },
+                "9": {
+                    "newLayoutWithSearch": true,
+                    "shorterHeight": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "badge",
+                "compactReward",
+                "gameIconReward",
+                "iconOnlyCTA",
+                "newLayoutWithSearch",
+                "shorterHeight",
+                "showGameLogo",
+                "showQuestTitle"
+            ],
+            "default_config": {
+                "badge": {
+                    "countdown": false,
+                    "duration": false,
+                    "new": false
+                },
+                "compactReward": false,
+                "gameIconReward": false,
+                "iconOnlyCTA": false,
+                "newLayoutWithSearch": false,
+                "shorterHeight": false,
+                "showGameLogo": true,
+                "showQuestTitle": true
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-quest-home-tile-single-elements",
+            "kind": "user",
+            "timestamp": "2026-11-10T23:42:58Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7",
+                "Variant 8",
+                "Variant 9",
+                "Variant 10",
+                "Variant 11"
+            ],
+            "variations": {
+                "1": {
+                    "newLayoutWithSearch": true
+                },
+                "10": {
+                    "gameIconReward": true,
+                    "newLayoutWithSearch": true
+                },
+                "11": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": true,
+                        "new": true
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "2": {
+                    "iconOnlyCTA": true,
+                    "newLayoutWithSearch": true
+                },
+                "3": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": true,
+                        "new": false
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "4": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": false,
+                        "new": true
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "5": {
+                    "badge": {
+                        "countdown": true,
+                        "duration": false,
+                        "new": false
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "6": {
+                    "newLayoutWithSearch": true,
+                    "showGameLogo": false
+                },
+                "7": {
+                    "newLayoutWithSearch": true,
+                    "showQuestTitle": false
+                },
+                "8": {
+                    "compactReward": true,
+                    "newLayoutWithSearch": true
+                },
+                "9": {
+                    "newLayoutWithSearch": true,
+                    "shorterHeight": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -60,23 +273,30 @@
         "en": {
             "added": {
                 "EWenaG": "Limited Time App Icon",
+                "EzL9ih": "Pin Tab to DMs",
+                "HPMTD3": "{channelName} in {guildName}",
+                "I8l3Z+": "You can have up to {count, number} tabs open. Close one to open another.",
+                "PcA03u": "Unpinned this tab because you have the maximum of {count, number} tabs open.",
+                "WTK5lb": "Pin Tab to {guildName}",
                 "vRWrrr": "Learn more about Student Hubs"
             },
-            "deleted": {},
+            "deleted": {
+                "0OiA1g": "Nitro Members can buy select items with Orbs",
+                "esVpAG": "Get Orbs back on Rust & TD6 in-game purchases",
+                "snV+8b": "Gift Nitro, get an exclusive deco"
+            },
             "modified": {
-                "6kzaqs": {
-                    "new_value": "Meet classmates from your school, discover communities, and share your servers, all in one place. learnMoreHookHookLearn more.",
+                "MOBILE_HUB_EMAIL_CONNECTION_CONTENT_DESCRIPTION": {
+                    "new_value": "Meet classmates from your school, discover communities, and share your servers, all in one place. $[Learn more.](learnMoreHook)",
                     "old_value": "Meet classmates from your school, discover communities, and share your servers, all in one place. [Learn more.]({onClick})"
                 }
             }
         },
         "ko": {
-            "added": {
-                "EWenaG": "기간 한정 앱 아이콘"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T23:47:31.939154+00:00"
+    "timestamp": "2026-11-10T23:59:00.060964+00:00"
 }
