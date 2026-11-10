@@ -1,5 +1,5 @@
 {
-    "build_hash": "4fc34f5a84104a73f721c848d86e7a3116964188",
+    "build_hash": "cbb979efb9d18caa7aaa5b2f684b4968e5e8339c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,53 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-profile-embed-rendering-mobile",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-11-10T20:49:02Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-profile-embed-rendering-mobile",
-            "kind": "user",
-            "timestamp": "2026-11-10T20:49:02Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -113,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T20:50:52.407686+00:00"
+    "timestamp": "2026-11-10T21:01:46.225717+00:00"
 }
