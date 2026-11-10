@@ -1,5 +1,5 @@
 {
-    "build_hash": "7e478dfa41275c35838b38dc0c37254ee9bf2f6d",
+    "build_hash": "8dfd42bcf1d6148ca752527452b3f40503935ab5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,18 +58,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "FLSQ8z": "Never",
-                "jUZVYn": "All Messages",
-                "qggLZW": "Only Direct Messages"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "MjXONr": {
-                    "new_value": "Calls, requests, missed messages & reactions",
-                    "old_value": "Calls, requests & missed messages"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -77,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T16:55:45.371729+00:00"
+    "timestamp": "2026-11-10T17:06:46.134200+00:00"
 }
