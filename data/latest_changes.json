@@ -1,5 +1,5 @@
 {
-    "build_hash": "9fcdb6098e5dcd019b110f25f115a3f47cd1184c",
+    "build_hash": "5adc238428d3faa92f8a90927c0076c28065b6d3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,7 +58,16 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "4R5duO": "Ways to improve your page",
+                "50SeME": "Tell people about your server. Aim for at least {minLength} characters, up to {maxLength}. Shorter text is welcome too.",
+                "5fvKvC": "When your server meets these requirements, make it Discoverable in [Access]({onClickAccess}) to publish this page. You can edit the page now.",
+                "U/Zo5A": "Add up to four reasons to join. Aim for at least two, with an emoji and {minLength} characters each. Each reason can have up to {maxLength} characters.",
+                "Xz29we": "Your server is not Discoverable, so it has no page yet",
+                "ZGu232": "When your server is Discoverable, it gets a page on [discord.com]({discordURL}) that people can find through web search. You can edit the page here now.",
+                "s9ClDJ": "Because your server is Discoverable, it has a page on [discord.com]({discordURL}) that people can find through web search. Edit it here. To take the page down, make the server not Discoverable in [Access]({onClickAccess}).",
+                "vm3i+i": "To take this page down, change your join rule in [Access]({onClickAccess})."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +77,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T13:01:43.660361+00:00"
+    "timestamp": "2026-11-10T14:15:21.694010+00:00"
 }
