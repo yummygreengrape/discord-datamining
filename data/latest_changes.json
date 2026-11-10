@@ -1,5 +1,5 @@
 {
-    "build_hash": "213fc1706dee35bb4ae2cabdf4f77e71f70b420b",
+    "build_hash": "886f5287a5dfc5dafb0e86e3c2af7d5fd4d47d4d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -59,7 +59,33 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "15Y/Yz": "Personal Project",
+                "4WnIqd": "Keep Personal Project",
+                "8+EcCu": "Make it a server project instead.",
+                "GcFRaY": "Answer the question above",
+                "IZMyda": "Available only to you.",
+                "OyM4SV": "Choose a server to build this app for. The app won’t be shared until you publish.",
+                "PTIP7V": "Get started",
+                "QSKvUE": "I’m making something for personal use.",
+                "QV5C7b": "For a server",
+                "SU9K9U": "Don’t see a server you want? You might not have the right permissions.",
+                "TVRkVh": "Switch to Personal Project",
+                "U7+Yeh": "Make it a personal project instead.",
+                "Ua7yKM": "Switch to Server Project",
+                "XXKd+7": "You can’t build in that server anymore. Pick another one, or go back.",
+                "ZKPaWY": "Only the owner can choose who this app is for.",
+                "ZzHR4/": "This is for a server I’m in. Other people should be able to use it too.",
+                "cAExE8": "Server Project",
+                "d7jxeT": "{feature} is only supported in a Personal project.",
+                "ickKBI": "Who is this for?",
+                "irUT0N": "This app already has saved work, so its type can’t change now.",
+                "jNVZ3e": "That didn’t save. Try again.",
+                "jh/iy+": "{feature} is only supported in a Server project.",
+                "qLYOpH": "Just for me",
+                "r8rVq1": "Made to be used in a server and can be shared with others.",
+                "u5+Qhu": "You don’t have a server you can build in yet, so this can only be a personal app for now."
+            },
             "modified": {}
         },
         "ko": {
@@ -68,5 +94,153 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T19:45:21.591816+00:00"
+    "string_context": {
+        "en": {
+            "15Y/Yz": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "같이 기록된 설명은 나에게만 제공된다고 안내해요. 서버에서 쓰고 다른 사람과 공유하는 Server Project와 구분되는 선택지예요.",
+                    "generated_at": "2026-10-31T15:12:45.439607Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjure",
+                        "Personal Project",
+                        "Server Project",
+                        "Add Bot"
+                    ],
+                    "search_intent": "Discord에서 Personal Project가 무엇인지 알아보려는 검색이에요.",
+                    "source_context": "10월 31일 봇의 서버 참가 조건, 개인·서버 프로젝트 구분, 앱 복사와 Conjure 문구가 함께 기록됐어요.",
+                    "summary": "Personal Project는 개인용 프로젝트 유형 이름이에요.",
+                    "what_it_means": "개인이 사용할 프로젝트 유형을 가리켜요.",
+                    "when_it_appears": "앱을 만들 때 프로젝트 유형을 고르는 화면에서 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "Its companion description says it is available only to you. It is contrasted with a server project that can be shared with others.",
+                    "generated_at": "2026-10-31T15:12:45.439607Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjure",
+                        "Personal Project",
+                        "Server Project",
+                        "Add Bot"
+                    ],
+                    "search_intent": "To learn what Personal Project means when creating a Discord app.",
+                    "source_context": "October 31 records bot server-membership requirements, personal and server projects, and app copying with Conjure.",
+                    "summary": "Personal Project names the personal-use project type.",
+                    "what_it_means": "This is the project option intended for individual use.",
+                    "when_it_appears": "In the project-type choices for app creation."
+                }
+            },
+            "IZMyda": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "같은 묶음의 Personal Project와 대비되는 Server Project 설명을 함께 보면 개인용 범위를 가리켜요. 이 문구가 프로젝트 데이터 전체의 보안 보장을 뜻하지는 않아요.",
+                    "generated_at": "2026-10-31T15:12:45.439607Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjure",
+                        "Personal Project",
+                        "Server Project",
+                        "Add Bot"
+                    ],
+                    "search_intent": "Available only to you가 Discord 프로젝트의 어떤 범위를 말하는지 확인하려는 검색이에요.",
+                    "source_context": "10월 31일 봇의 서버 참가 조건, 개인·서버 프로젝트 구분, 앱 복사와 Conjure 문구가 함께 기록됐어요.",
+                    "summary": "나에게만 제공되는 프로젝트 범위를 설명하는 문구예요.",
+                    "what_it_means": "해당 프로젝트는 개인 사용을 위한 유형이라는 뜻으로 보여요.",
+                    "when_it_appears": "개인 프로젝트 유형을 선택하거나 설명하는 화면에 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The accompanying Personal Project and Server Project descriptions distinguish intended use. This line does not establish a security guarantee for all project data.",
+                    "generated_at": "2026-10-31T15:12:45.439607Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjure",
+                        "Personal Project",
+                        "Server Project",
+                        "Add Bot"
+                    ],
+                    "search_intent": "To understand the scope of Available only to you in project selection.",
+                    "source_context": "October 31 records bot server-membership requirements, personal and server projects, and app copying with Conjure.",
+                    "summary": "Available only to you describes a personal-use scope.",
+                    "what_it_means": "The project is presented as intended for your own use.",
+                    "when_it_appears": "Alongside a description of the personal project type."
+                }
+            },
+            "cAExE8": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "설명에는 서버 사용과 다른 사람과의 공유가 함께 나와요. 개인용 Personal Project와 다른 용도를 선택하는 이름이에요.",
+                    "generated_at": "2026-10-31T15:12:45.439607Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjure",
+                        "Personal Project",
+                        "Server Project",
+                        "Add Bot"
+                    ],
+                    "search_intent": "Discord의 Server Project가 개인 프로젝트와 어떻게 다른지 알아보려는 검색이에요.",
+                    "source_context": "10월 31일 봇의 서버 참가 조건, 개인·서버 프로젝트 구분, 앱 복사와 Conjure 문구가 함께 기록됐어요.",
+                    "summary": "Server Project는 서버에서 사용할 프로젝트 유형 이름이에요.",
+                    "what_it_means": "서버 구성원과 함께 사용할 수 있는 프로젝트 유형으로 보여요.",
+                    "when_it_appears": "개인용과 서버용 프로젝트 중 하나를 고를 때 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The associated description mentions server use and sharing with others. It provides a choice distinct from Personal Project.",
+                    "generated_at": "2026-10-31T15:12:45.439607Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjure",
+                        "Personal Project",
+                        "Server Project",
+                        "Add Bot"
+                    ],
+                    "search_intent": "To compare Server Project with the personal project option in Discord.",
+                    "source_context": "October 31 records bot server-membership requirements, personal and server projects, and app copying with Conjure.",
+                    "summary": "Server Project names the server-oriented project type.",
+                    "what_it_means": "This type is intended for use in a server and possible sharing.",
+                    "when_it_appears": "When choosing between personal and server-oriented projects."
+                }
+            },
+            "r8rVq1": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "서버용 프로젝트가 개인용 프로젝트와 어떻게 다른지 알려요. 누구에게나 자동 공개된다는 뜻이나 구체적인 공유 권한은 이 문장에 없어요.",
+                    "generated_at": "2026-10-31T15:12:45.439607Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjure",
+                        "Personal Project",
+                        "Server Project",
+                        "Add Bot"
+                    ],
+                    "search_intent": "서버 프로젝트를 다른 사람과 공유할 수 있다는 설명의 뜻을 알아보려는 검색이에요.",
+                    "source_context": "10월 31일 봇의 서버 참가 조건, 개인·서버 프로젝트 구분, 앱 복사와 Conjure 문구가 함께 기록됐어요.",
+                    "summary": "서버에서 쓰고 다른 사람과 공유하는 프로젝트의 설명이에요.",
+                    "what_it_means": "서버 사용과 다른 사람과의 공유를 염두에 둔 유형이에요.",
+                    "when_it_appears": "Server Project 선택지의 사용 범위를 설명할 때 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "It explains how the server-oriented type differs from a personal project. It does not say the project is automatically public or specify sharing permissions.",
+                    "generated_at": "2026-10-31T15:12:45.439607Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjure",
+                        "Personal Project",
+                        "Server Project",
+                        "Add Bot"
+                    ],
+                    "search_intent": "To understand the sharing scope described for a server project.",
+                    "source_context": "October 31 records bot server-membership requirements, personal and server projects, and app copying with Conjure.",
+                    "summary": "This description presents a project for server use and sharing.",
+                    "what_it_means": "The project type is designed for a server and can be shared with others.",
+                    "when_it_appears": "Under the Server Project option in project selection."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-11-10T19:56:18.424408+00:00"
 }
