@@ -1,5 +1,5 @@
 {
-    "build_hash": "34f50da7fc5e23505e68ad38a6c50421c9bd45ce",
+    "build_hash": "f2f208f8767d944d2e990dde7476fc9427cab78b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,45 +58,17 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "LyorKl": "Vice City Theme Display Name Style",
-                "TdMGe4": "{speakerCount, plural, one {# speaker} other {# speakers}}, {audienceCount, plural, one {# audience member} other {# audience members}}",
-                "nFKiXA": "Limited Time Font"
-            },
+            "added": {},
             "deleted": {
-                "QYyKH7": "Channel (required for a summary ID)"
+                "qB8pEe": "Use Auto Clips"
             },
-            "modified": {
-                "/L1Zem": {
-                    "new_value": "Enter a valid topic URL.",
-                    "old_value": "Enter a valid summary ID and select its channel, or paste a topic URL."
-                },
-                "Ai3shX": {
-                    "new_value": "Paste a topic URL to find a summary from this server, including summaries outside this list.",
-                    "old_value": "Find a summary from this server, including summaries outside this list."
-                },
-                "Huen+/": {
-                    "new_value": "Topic URL",
-                    "old_value": "Summary ID or topic URL"
-                },
-                "pvuST8": {
-                    "new_value": "Remove by topic URL",
-                    "old_value": "Remove by link or ID"
-                },
-                "rMTw10": {
-                    "new_value": "No summary found in this server. Check the topic URL.",
-                    "old_value": "No summary found in this server and channel. Check the ID and channel."
-                }
-            }
+            "modified": {}
         },
         "ko": {
-            "added": {
-                "LyorKl": "Vice City 테마 별명 스타일",
-                "nFKiXA": "기간 한정 폰트"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T22:52:34.382844+00:00"
+    "timestamp": "2026-11-10T23:03:32.090191+00:00"
 }
