@@ -1,5 +1,5 @@
 {
-    "build_hash": "d4cdecf24bd6d5596d0d9673fe5095af7be0528f",
+    "build_hash": "dd475b3e7c115a2155733944c9f6f3edd81aa5a6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,19 +58,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "SOxhth": "Limited Time Color Theme"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "SOxhth": "기간 한정 색상 테마"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T22:30:44.033113+00:00"
+    "timestamp": "2026-11-10T22:41:40.165837+00:00"
 }
