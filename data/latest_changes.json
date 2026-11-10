@@ -1,5 +1,5 @@
 {
-    "build_hash": "c2b0fef991affecb5acbec69b192e29b9f5b9e83",
+    "build_hash": "d4592353b7284fc74edea6d89b643be975478300",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,29 +8,59 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-badges-unread-state",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-11-10T02:13:23Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "new_experiments": [
         {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-10-bloons-bf-deal",
+            "id": "2026-10-badges-unread-state",
             "kind": "user",
-            "timestamp": "2026-11-10T02:01:10Z",
+            "timestamp": "2026-11-10T02:13:23Z",
             "treatments": [
                 "Variant 0",
                 "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-rust-bf-deal",
-            "kind": "user",
-            "timestamp": "2026-11-10T02:01:10Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
         }
     ],
     "rollout_changes": [
@@ -81,17 +111,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "/3OubH": "Limited Time",
-                "BLOONS_BF_DEAL_CARD_ID": "bloonsBfDeal",
-                "LlyBqh": "Rust Shop",
-                "NF9Ryp": "Pop your Orbs on Bloons TD 6 items",
-                "RUST_BF_DEAL_CARD_ID": "rustBfDeal",
-                "h+Us1O": "Use your Orbs to claim select in-game items on the Bloons TD 6 Shop. Ends {endDate}.",
-                "rEq6H1": "Use your Orbs to claim select in-game items on the Rust Shop. Ends {endDate}.",
-                "ywzvyl": "Bloons TD 6 Shop",
-                "zrFadr": "Spend your Orbs on Rust items"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -101,5 +121,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T02:07:42.706867+00:00"
+    "timestamp": "2026-11-10T02:18:40.177278+00:00"
 }
