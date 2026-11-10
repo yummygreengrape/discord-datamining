@@ -1,5 +1,5 @@
 {
-    "build_hash": "55c21558fabf63618d894002651f328e29584c1c",
+    "build_hash": "bfe59a43d6c6d3defdd135cab9e522fcaf5315ad",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -59,8 +59,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "bY80Jh": "Eligible guilds are full",
-                "xuM052": "{orgName} {noun} is full"
+                "Ln7OND": "Open in Server Settings"
             },
             "deleted": {},
             "modified": {}
@@ -71,5 +70,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T17:34:24.933572+00:00"
+    "timestamp": "2026-11-10T17:45:22.038374+00:00"
 }
