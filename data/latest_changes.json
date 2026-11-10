@@ -1,5 +1,5 @@
 {
-    "build_hash": "14e1c890936378a2a98c5bbb74a86ba02284f476",
+    "build_hash": "55c21558fabf63618d894002651f328e29584c1c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -59,7 +59,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "Oxqca4": "Claim Item"
+                "bY80Jh": "Eligible guilds are full",
+                "xuM052": "{orgName} {noun} is full"
             },
             "deleted": {},
             "modified": {}
@@ -70,5 +71,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T17:17:42.224147+00:00"
+    "timestamp": "2026-11-10T17:34:24.933572+00:00"
 }
