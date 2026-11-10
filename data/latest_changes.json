@@ -1,5 +1,5 @@
 {
-    "build_hash": "68ee1451dfb4bcda9d2e16afee4e92040519369c",
+    "build_hash": "8d0d841999a8880b940502cebc881b75f4027184",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,18 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-profile-embed-rendering-mobile",
-            "kind": "user",
-            "timestamp": "2026-11-10T20:49:02Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -79,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T21:46:19.476907+00:00"
+    "timestamp": "2026-11-10T21:57:34.070809+00:00"
 }
