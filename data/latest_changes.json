@@ -1,5 +1,5 @@
 {
-    "build_hash": "d4592353b7284fc74edea6d89b643be975478300",
+    "build_hash": "b9c59820027c2ba5f6d214928c1fcf601ea42c33",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,61 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-badges-unread-state",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-11-10T02:13:23Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-badges-unread-state",
-            "kind": "user",
-            "timestamp": "2026-11-10T02:13:23Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -121,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T02:18:40.177278+00:00"
+    "timestamp": "2026-11-10T02:29:33.948941+00:00"
 }
