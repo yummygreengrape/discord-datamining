@@ -1,5 +1,5 @@
 {
-    "build_hash": "bb47b9d8ee28884eab212daaf360781c7001c9b5",
+    "build_hash": "c2b0fef991affecb5acbec69b192e29b9f5b9e83",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,30 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-bloons-bf-deal",
+            "kind": "user",
+            "timestamp": "2026-11-10T02:01:10Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-rust-bf-deal",
+            "kind": "user",
+            "timestamp": "2026-11-10T02:01:10Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -58,7 +81,17 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/3OubH": "Limited Time",
+                "BLOONS_BF_DEAL_CARD_ID": "bloonsBfDeal",
+                "LlyBqh": "Rust Shop",
+                "NF9Ryp": "Pop your Orbs on Bloons TD 6 items",
+                "RUST_BF_DEAL_CARD_ID": "rustBfDeal",
+                "h+Us1O": "Use your Orbs to claim select in-game items on the Bloons TD 6 Shop. Ends {endDate}.",
+                "rEq6H1": "Use your Orbs to claim select in-game items on the Rust Shop. Ends {endDate}.",
+                "ywzvyl": "Bloons TD 6 Shop",
+                "zrFadr": "Spend your Orbs on Rust items"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +101,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T01:56:48.078015+00:00"
+    "timestamp": "2026-11-10T02:07:42.706867+00:00"
 }
