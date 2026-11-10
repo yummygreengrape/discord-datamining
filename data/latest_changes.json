@@ -1,161 +1,15 @@
 {
-    "build_hash": "2fabf81e07f6700912744f8bccda5e194fda9dcb",
+    "build_hash": "d325af0923810cad35eb331fa8b7c42d57a72925",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "행사 기간에 데스크톱 Halloween 사운드팩과 로딩 팁을 켭니다."
-                    }
-                ],
-                "detailed_summary": "기본 상태에서는 Halloween 테마를 사용하지 않습니다. 비교안은 정해진 행사 기간의 데스크톱 클라이언트에서 Halloween 사운드팩과 로딩 팁을 활성화합니다. 현재 Canary의 holiday 상태 관리가 이 설정을 읽어 알림음·벨소리 구성을 갱신하며, 같은 시점에 ‘으스스한 사운드 개인화’와 설정에서 계절 알림음을 건너뛰는 안내가 추가됐습니다. 사용자가 계절 사운드를 끌 수 있는 기존 선택은 유지됩니다.",
-                "evidence": [
-                    "Current Canary module 771527 defines the exact desktop-only holiday experiment.",
-                    "Holiday state updates the HALLOWEEN sound pack, ringtone, and loading tips from the enabled configuration during the event window.",
-                    "Same-window strings mention spooky sounds and an option to skip haunted notification sounds in User Settings."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "데스크톱 Halloween 테마",
-                "generated_at": "2026-09-12T04:08:49Z",
-                "importance": "medium",
-                "summary": "데스크톱 Discord에 Halloween 알림음과 계절 로딩 문구를 적용하는 실험입니다.",
-                "why_it_matters": "Discord의 기본 알림음과 로딩 화면 분위기가 한시적으로 바뀔 수 있지만, 원하지 않는 사용자는 계절 사운드를 피할 수 있습니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "Enables the desktop Halloween sound pack and loading tips during the event window."
-                    }
-                ],
-                "detailed_summary": "The default does not use the Halloween theme. During the configured event window, the treatment enables a Halloween sound pack and seasonal loading tips on desktop. Current Canary holiday state reads this setting when updating notification and ringtone behavior, and copy added in the same window mentions personalizing spooky sounds and skipping haunted notification sounds in User Settings. The existing user choice to avoid seasonal sounds remains available.",
-                "evidence": [
-                    "Current Canary module 771527 defines the exact desktop-only holiday experiment.",
-                    "Holiday state updates the HALLOWEEN sound pack, ringtone, and loading tips from the enabled configuration during the event window.",
-                    "Same-window strings mention spooky sounds and an option to skip haunted notification sounds in User Settings."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "focus_area": "Desktop Halloween theme",
-                "generated_at": "2026-09-12T04:08:49Z",
-                "importance": "medium",
-                "summary": "Applies Halloween notification sounds and seasonal loading tips in the desktop client.",
-                "why_it_matters": "Discord's normal notification sounds and loading-screen tone may change temporarily, while users who do not want the theme can avoid the seasonal audio."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-halloween-holiday",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-11-09T23:55:18Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-halloween-holiday",
-            "kind": "user",
-            "timestamp": "2026-11-09T23:55:18Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-cross-platform-game-bar",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-11-09T23:49:11Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-cross-platform-game-bar",
-            "kind": "user",
-            "timestamp": "2026-11-09T23:49:11Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -204,10 +58,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "2JQX8q": "Join a voice channel to start streaming",
-                "4cB+rA": "{title} friends"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -217,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-09T23:56:32.720944+00:00"
+    "timestamp": "2026-11-10T00:07:30.236679+00:00"
 }
