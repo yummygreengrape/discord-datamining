@@ -1,5 +1,5 @@
 {
-    "build_hash": "67565857243f2b7c7fa6fbda1ecc5727ebe11435",
+    "build_hash": "727bf562be67f48ac8974d1b28e2314627a321a5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,7 +58,34 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/EED9C": "Week of {week}",
+                "3CQ9xv": "Sci-Fi",
+                "3lGUb7": "Strategy",
+                "9MM6LP": "Survival",
+                "C/c3om": "Fantasy",
+                "DnEG4n": "Tactical",
+                "EdG6vh": "#{rank}, {gameName}, view game profile",
+                "GrAPLS": "Indie",
+                "HhlHYu": "Sandbox",
+                "HxbFsz": "No trending games available right now.",
+                "JnJaJN": "RPG",
+                "LhKG5r": "Simulation",
+                "OwI6rQ": "Sports",
+                "Tf238f": "Open World",
+                "aZbg3l": "Go to server",
+                "d52k7Y": "Head to Discover to see what’s trending and what your friends are playing in the new Games tab.",
+                "eCCPlU": "MMO",
+                "fr7A8J": "Find your next game",
+                "iscHqp": "Adventure",
+                "k5Z9iC": "FPS",
+                "kPg4Tj": "Horror",
+                "lKH6Ua": "Story Rich",
+                "oLMJSu": "New",
+                "wFZTLt": "Shooter",
+                "xuDHiG": "Unable to load trending games.",
+                "xwhzzz": "Crafting"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +95,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T19:01:39.660152+00:00"
+    "timestamp": "2026-11-10T19:12:33.290934+00:00"
 }
