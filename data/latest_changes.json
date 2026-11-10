@@ -1,5 +1,5 @@
 {
-    "build_hash": "8dfd42bcf1d6148ca752527452b3f40503935ab5",
+    "build_hash": "14e1c890936378a2a98c5bbb74a86ba02284f476",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,7 +58,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Oxqca4": "Claim Item"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +70,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T17:06:46.134200+00:00"
+    "timestamp": "2026-11-10T17:17:42.224147+00:00"
 }
