@@ -1,5 +1,5 @@
 {
-    "build_hash": "c117165cc916dfb359ec56269b053e05080cd721",
+    "build_hash": "402359f6500fd9fb3578331bda422514e6fb359b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -63,10 +63,441 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "+Nspne": "곧 사라집니다!",
+                "/t3aRl": "패스",
+                "0GsO43": "<1달",
+                "0H6Cdy": "운영자 채널이 없으면 레이드 알림과 잠금 알림이 전달되지 않아요.",
+                "136Fdw": "게임 내 SKU 교환을 위한 계정 연동 흐름을 검증하세요.",
+                "18ToNc": "플레이하려면 보상 받기",
+                "2GRr6H": "기존 개인정보 보호 설정 때문에 맞춤화된 통계를 볼 수 없어요.",
+                "2Uh8Zr": "수동",
+                "2op/Su": "Discord Nitro가 있으면 최대 {maxSize}의 파일을 공유할 수 있어요. 업그레이드해서 이런 영상도 공유해 보세요.",
+                "3TZUIw": "{underageMessage} bHook{days}일 안에 나이를 인증하지 않으면 계정이 삭제될 거예요.",
+                "3horqQ": "Safari가 팝업 창을 차단 목록에 추가했어요. Discord의 팝업을 허용한 다음 다시 시도해 주세요.",
+                "427UqW": "텍스트 일부를 선택해 bHook볼드, iHook이탤릭, 또는 underlineHookHook밑줄을 적용해 보세요.",
+                "4OJ/F8": "만료까지 {time}",
+                "4we2oA": "팝업 창 다시 표시하기",
+                "5vpcvA": "상위 {percent}%에 드는 수다쟁이시네요. 회원님은 그 시간 중 얼마나 오래 음소거 상태였을까요?",
+                "7YmUVu": "Checkpoint 랩을 구경하세요. 나만의 통계를 찾아보고, 특성을 잠금 해제하고, 나만의 한 해에 딱 어울리는 캐릭터를 만들어 보세요.",
+                "7b+4f6": "자격을 갖춘 사용자는 YouTube Premium을 {months}개월 동안 {discountPercentage}% 할인받을 수 있어요. YouTube Premium이 처음이신가요? 첫 달은 저희가 쏠 게요.",
+                "7ff2Gs": "인기 급상승 게임",
+                "8cYGJR": "앱 내 게임 상점의 초안과 예정 버전을 미리 볼 수 있어요.",
+                "8qYr4l": ">30일 전",
+                "9BIezJ": "플레이",
+                "9gMXJv": "Nitro 구독 시 첫해 무료",
+                "A8YTO5": "실패",
+                "BFc4lY": "내 통계를 찾아보고, 나만의 한 해에 딱 어울리는 캐릭터를 만들어 보세요.",
+                "BKITAL": "만료까지 {time}",
+                "BRQODX": "최애 서버에 {numDays}일 동안 방문하셨어요. Discord 전체 서버 방문자 중 상위 {percent}%에 속해요. 꾸준히 와 주셔서 감사해요 :')",
+                "BRjBVV": "서버 더 적게 보기",
+                "Bakb3u": "다른 사용자에게 스트리밍해 달라고 bHook요청했어요",
+                "Cei1w4": "자격을 갖춘 사용자는 YouTube Premium을 다음 {months}개월 동안 {discountPercentage}% 할인받을 수 있어요. Premium이 처음이신가요? 첫 달은 저희가 쏠 게요. [이용약관이 적용돼요]({helpCenterUrl}).",
+                "D923q4": "사운드보드를 여세요. 신규 음향을 사용할 수 있어요.",
+                "DVCXzm": "신규 가격 확인",
+                "DZRLe2": "Nitro를 통해 첫해 My Best Buy Plus™(29.99달러 상당)를 무료로 이용하세요! 일부 게임 및 장비 한정 보상 2배 혜택, 2일 배송, 반품 기한 연장 혜택을 Best Buy로 누려 보세요. {date}까지 교환 가능해요. [이용약관이 적용됩니다.]({termsUrl})",
+                "E5vkHs": "{gameName} 게임이 취향에 맞다면",
+                "FCbNa3": "계속 버튼을 누르기 전에 팝업 창이 닫혔어요.",
+                "FVEaqm": "플랜 관리하기",
+                "GPbgSS": "Nitro를 통해 첫해 My Best By Plus™(29.99달러 상당)를 무료로 이용하세요! 일부 게임 및 장비 한정 보상 2배 혜택, 2일 배송,  반품 기한 연장 혜택을 Best Buy로 누려 보세요. [이용약관이 적용됩니다.]({termsUrl})",
+                "HJCvbw": "애플리케이션 테스트 모드를 켜면 게임 상점의 초안과 예정 버전을 미리 볼 수 있어요.",
+                "HQciZk": "팝업 창에서 계속 버튼을 누르실 때까지 기다리는 중이에요.",
+                "I1qKWG": "회원님은 이모지 공유자 상위 {percent}%에 속해요. 여기 회원님의 최애 중 몇 가지를 모아봤어요.",
+                "IMKkcn": "참고로, 패스키를 제거하면 로그인할 때 계정에 더 이상 다단계 인증이 필요하지 않아요. 만약 패스키 제거 관련 도움을 받으려고 Discord 지원팀에 문의한 적이 없는데 누군가가 먼저 연락해왔다면, 뒤로 가기를 누르고 신고해주세요. Discord 지원팀은 DM으로 먼저 문의하는 일이 절대 없어요.",
+                "IoM52w": "Nitro 구독 시 첫해 무료",
+                "Iqr6uY": "Marvel 스트라이크 포스 계정이 연결됐어요. 게임을 열면 파워 코어를 바로 받을 수 있어요.",
+                "J/x6ns": "이게 마지막 패스키예요",
+                "JMTGC3": "친구들이 즐기는 게임",
+                "JR4xVI": "팝업 창 열기",
+                "Jecn0l": "Safari는 여러분이 허용하기 전까지 활동이 로그인 상태를 유지하지 못하게 해요. 팝업 창을 열고 계속 버튼을 누르세요. Safari를 종료할 때까지는 이 작업을 다시 할 필요가 없어요.",
+                "KILp6/": "구독 관리",
+                "L1yi/U": "Orbs {count}개로 플레이",
+                "LO0a0F": "일회성 선물",
+                "MEMaup": "서버 {count}개 더 보기",
+                "MEaSRh": "1시간 뒤",
+                "Oyal/m": "계정이 연동되지 않음",
+                "P9ZU7b": "{hours}시간 후에 만료돼요. 수락하지 않으면 일회성 선물로 선물 인벤토리에 다시 돌아가요.",
+                "PR7GrT": "{plan}, {option}",
+                "QaMS5w": "초안 미리 보기",
+                "RAQCKQ": "Nitro를 통해 첫해 My Best Buy Plus™(29.99달러 상당)를 무료로 이용하세요! 일부 게임 및 장비 한정 보상 2배 혜택, 2일 배송,  반품 기한 연장 혜택을 Best Buy로 누려 보세요. {date}까지 교환 가능해요.",
+                "RdrnRc": "이 선물은 취소될 때까지 매년 갱신돼요.",
+                "SCAPTL": "멘션 및 읽지 않은 메시지",
+                "SM0hiz": "{days}일 후 Orbs {orbAmount}개 획득",
+                "T1eNyO": "Orbs를 획득해 플레이하세요",
+                "TaT999": "회원님 플랜으로는 최대 {currentMaxSize}의 파일을 공유할 수 있어요. Nitro를 사용하면 용량 제한이 {maxSize}까지 늘어나서 이런 영상도 충분히 공유할 수 있어요.",
+                "UEBUZF": "게시되지 않은 SKU가 표시되며 실제 요금은 청구되지 않아요.",
+                "Uk+BE3": "다음 라운드까지 {duration}",
+                "VGLEq/": "@mentions + {channelName} 읽지 않은 메시지",
+                "VjXwW9": "플레이한 고유 게임 수 기준 상위 {percent}%에 해당해요. 충돌 수가 아닌 세션 수를 기준으로 순위를 매겼어요.",
+                "W6zWaK": "Marvel 스트라이크 포스 계정을 연동하면 파워 코어 {powerCoreQuantity}개와 Orbs {orbQuantity}개를 받을 수 있어요",
+                "Wt4R/w": "주의가 필요해요",
+                "WtSSb8": "Safari에서 한 단계가 더 남았어요",
+                "ZRLAIy": "내 Nitro 배지가 보여요",
+                "aFr+i6": "이 기프트 카드를 사용할 수 없어요. 나중에 다시 시도해주세요.",
+                "anAI9+": "{hours}시간 남음",
+                "bBlUzK": "수동",
+                "brw6oR": "상호작용 정보",
+                "cCl3+a": "자격을 갖춘 사용자는 Nitro 구독으로 YouTube Premium을 {months}개월 동안 {discountPercentage}% 할인받을 수 있어요. Premium이 처음이신가요? 첫 달은 저희가 쏠 게요. 광고 없이, 오프라인으로도, 백그라운드에서도 YouTube를 즐기세요. [이용약관이 적용돼요]({helpCenterUrl}).",
+                "cI3aQA": "멤버 {count}명",
+                "cLuoAc": "준비가 끝났어요. 들어가서 인사해 보세요.",
+                "cXDBee": "Nitro 구독하기",
+                "cYg9Kf": "30분 뒤",
+                "caOprb": "운영 방식",
+                "ceMCll": "신규 콘텐츠",
+                "dueYf1": "자격에 따라 혜택이 달라지며, 일회성 코드로 교환할 수 있어요. [이용약관이 적용돼요]({helpCenterUrl}).",
+                "fBsbex": "공식 서버",
+                "fVtsJF": "Marvel 스트라이크 포스 계정을 연동하면 파워 코어 {powerCoreQuantity}개를 받을 수 있어요",
+                "fdrOGN": "어느 마음씨 좋으신 분 덕분에 이제 향상된 채팅 특전, 서버 부스트 등을 이용할 수 있어요!",
+                "fjqIZp": "bHook{days}일 안에 나이를 인증하지 않으면 계정이 삭제될 거예요.",
+                "fmT3tT": "게임 열기",
+                "fvGAJa": "Nitro 사용자 지정 위젯 기능이 종료될 예정이라, 이 위젯도 곧 제거될 거예요. 다른 위젯들은 그대로 유지돼요!",
+                "hQvsoB": "사용 중",
+                "hc0/yJ": "플레이한 고유 게임 수 기준 percentHookHook상위 {percent}%에 해당해요. 충돌 수가 아닌 세션 수를 기준으로 순위를 매겼어요.",
+                "hhh11L": "보낸 메시지",
+                "iIK+QI": "My Best Buy Plus™ 첫해 무료 이용권을 잠금 해제하고, 일부 게임 및 장비 한정 보상 2배 혜택, 2일 배송, 그리고 연장된 반품 혜택을 Best Buy로 누려 보세요.",
+                "iJjbMd": "게임이 곧 종료돼요",
+                "kU4Y9v": "Marvel 스트라이크 포스 계정이 연결됐어요. 상점으로 이동하거나 게임을 열어서 파워 코어를 바로 받으세요.",
+                "l9qBG8": "이 링크를 확인하려면 광고 관리자를 열어주세요.",
+                "lCx19K": "Nitro로 공유됨",
+                "lXJ+cv": "활동 알림을 켤 채널을 선택하세요.",
+                "lapk3f": "알림이 갱신되었어요.",
+                "lhj054": "{name} 님이 Nitro를 선물했어요! 이건 반복 선물이랍니다.",
+                "n2+e09": "연동된 채널, 친구와의 게임플레이 공유 등의 소셜 기능을 잠금 해제할 수 있어요.",
+                "nOrtg9": "Itch",
+                "nRS0N2": "{plan}: {price}",
+                "nzOEzW": "자격을 갖춘 사용자는 YouTube Premium을 다음 {months}개월 동안 {discountPercentage}% 할인받을 수 있어요. Premium이 처음이신가요? 첫 달은 저희가 쏠 게요. [이용약관이 적용돼요]({helpCenterUrl}).",
+                "o7vDrk": "회원님은 이모지 공유자 percentHookHook상위 {percent}%에 속해요. 여기 회원님의 최애 중 몇 가지를 모아봤어요.",
+                "oaE9Uk": "이 게임 상점의 초안과 예정 버전을 불러올 수 없어요.",
+                "p3wUY4": "이 선물은 취소될 때까지 매월 갱신돼요.",
+                "pIam91": "Orbs 사용하기",
+                "paONe3": "{label}, {count}, {status}",
+                "pss/wa": "계정 연동됨",
+                "qbmavE": "{label}, {count}",
+                "qpGTIa": "친구들과 즐기기 좋은 게임",
+                "rUQUKX": "파워 코어 {powerCoreQuantity}개를 수령했어요!",
+                "rVjt5j": "내 모든 특전 모두 보기",
+                "raRLQb": "인기 상승 게임",
+                "sEGQaJ": "Nitro 배지는 항상 프로필에 표시되지만, 원하는 곳으로 옮길 수 있어요. 다른 배지는 여전히 숨기거나 순서를 바꿀 수 있어요.",
+                "tm1WHd": "위젯 재배치",
+                "uKOgr9": "상위 {percent}%의 플레이어에 속하셨어요. 축하? 아니, 위로 드립니다.",
+                "uXsbSw": "신규 음향 {count}개",
+                "uxZblT": "4시간 뒤",
+                "vZv6MO": "{itemName} 아바타 장식을 획득했어요!",
+                "veX7G1": "{weeks}주",
+                "wHn2YM": "상위 {percent}%의 수다쟁이시네요. 답장받지 못한 메시지 수는 집계에 포함하지 않았어요.",
+                "xdWlbE": "이전 주기에서 승리했어요.",
+                "xlA7Tl": "참고로, 인증 앱을 제거하면 로그인 시 더 이상 다단계 인증이 필요하지 않게 돼요. 인증 앱 제거와 관련해 Discord 지원팀에 문의한 적이 없는데 누군가 먼저 연락해왔다면, 뒤로 가기를 누르고 신고해 주세요. Discord 지원팀은 DM으로 먼저 연락하는 일이 절대 없어요.",
+                "yYAD/t": "메시지에 스타일을 더하세요",
+                "yl/vO0": "파워 코어 {powerCoreQuantity}개와 Orbs {orbQuantity}개를 수령했어요!"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "+AbHxM": {
+                    "new_value": "다시 시도",
+                    "old_value": "다시 시도하기"
+                },
+                "+Af+Vw": {
+                    "new_value": "선택 사항으로 서버 규칙이나 지침을 위한 채널을 설정할 수 있어요. 아니면 없음을 선택하세요.",
+                    "old_value": "커뮤니티 서버는 멤버가 볼 수 있도록 명확한 서버 규칙과 지침을 게재해야 해요. 이를 게시할 채널을 선택해주세요."
+                },
+                "/ctmGw": {
+                    "new_value": "두 절친이 무르익은 우정을 즐기고 있어요.",
+                    "old_value": "올해 회원님의 원픽."
+                },
+                "/lWYYS": {
+                    "new_value": "선택적으로 새 멤버가 할 일을 5개까지 설정해서 bHook채널에서 대화하고 어울릴 환경을 만들어주세요.",
+                    "old_value": "새 멤버가 할 일을 3-5개 설정해서 bHook채널에서 대화하고 어울릴 환경을 만들어주세요."
+                },
+                "0oDeiM": {
+                    "new_value": "수많은 게임 중에서 검증된 히트작 몇 가지를 소개할 게요.",
+                    "old_value": "Discord 사용자들이 올해엔 게임을 정말 많이 플레이했어요. 여기에 히트작 몇 가지를 소개할게요."
+                },
+                "2UDofx": {
+                    "new_value": "Discord 전체 상위 {percent}% 서버 방문자 기준이에요.",
+                    "old_value": "서버 방문 수 기준 상위 {percent}%를 위하여."
+                },
+                "4FXB/m": {
+                    "new_value": "percentHookHook상위 {percent}%의 플레이어에 속하셨어요. 축하? 아니, 위로 드립니다.",
+                    "old_value": "올해 {numDays}일 동안 게임을 플레이하셨어요. 전 세계 게이머 중 percentHookHook상위 {percent}%에 해당하는 기록이에요!"
+                },
+                "4aaADG": {
+                    "new_value": "스타터 키트에 포함되어 있어요.",
+                    "old_value": "스타터 키트에 있어요."
+                },
+                "4oIsxf": {
+                    "new_value": "신규 배지 잠금 해제됨!",
+                    "old_value": "새 배지가 잠금 해제되었어요!"
+                },
+                "660/Rr": {
+                    "new_value": "올해만 이모지 {numEmojis}개가 새로 나왔어요. 가장 인기가 많았던 이모지는 다음과 같았어요.",
+                    "old_value": "올해 Discord에서는 총 {numEmojis}개의 이모지가 전송되었어요. 다음은 가장 자주 사용된 이모지예요."
+                },
+                "6RSp5q": {
+                    "new_value": "회원님의 친구도 잊어선 안 되겠죠. 회원님에게, 그리고 회원님이 힘이 되어준 준 친구들 말이에요.",
+                    "old_value": "하지만 한 해를 혼자 보내지는 않으셨죠. 친구들이 없었다면 2026년이 어땠을까요?"
+                },
+                "8EWsJ8": {
+                    "new_value": "요청을 보내지 않아도 친구가 참가할 수 있게 해줘요.",
+                    "old_value": "설정하면 친구들이 요청을 보내지 않아도 게임에 참여할 수 있어요."
+                },
+                "CwC/ll": {
+                    "new_value": "커뮤니티 서버는 공통 관심사를 중심으로 만들어진 더 큰 공간이에요. 커뮤니티를 활성화하려면 안전 설정, 업데이트 채널, 그리고 관리 설정을 설정해야 해요.",
+                    "old_value": "커뮤니티 서버는 공통 관심사를 중심으로 만들어진 더 큰 공간이에요. 커뮤니티를 활성화하려면 안전 설정, 규칙 및 업데이트 채널, 그리고 관리 설정을 설정해야 해요."
+                },
+                "EqdLDd": {
+                    "new_value": "아껴주세요. 놀려주세요. 예고 없이 전화를 걸어 보세요.",
+                    "old_value": "올해 가장 많은 시간을 함께 보낸 Discord 친구들이에요."
+                },
+                "FOYxgr": {
+                    "new_value": "채널 내 대화 요약",
+                    "old_value": "채널 요약"
+                },
+                "Fyr+NW": {
+                    "new_value": "Checkpoint 랩에서 글로벌 트렌드를 확인하고 나만의 캐릭터를 뚝딱 만들어 보세요.",
+                    "old_value": "글로벌 트렌드를 찾아보고 체크포인트 랩에서 캐릭터를 만들어보세요. 기존 개인정보 보호 설정 때문에 맞춤 설정된 통계는 보이지 않아요."
+                },
+                "IN1DaS": {
+                    "new_value": "제2의 고향 같은 나만의 아지트:",
+                    "old_value": "2026년에 Discord에서 내 집처럼 드나들던 곳들이에요."
+                },
+                "JuhUTS": {
+                    "new_value": "환영 메시지와 할 일 목록을 위한 유효한 채널이 있어야 해요.",
+                    "old_value": "환영 메시지와 함께 해야 할 일이 최소 3가지 뜰 거예요."
+                },
+                "JzbSEY": {
+                    "new_value": "@mentions + 읽지 않은 메시지",
+                    "old_value": "@Mentions + 읽지 않은 메시지"
+                },
+                "K3ObrU": {
+                    "new_value": "웹 흐름",
+                    "old_value": "웹 흐름:"
+                },
+                "K3TdAp": {
+                    "new_value": "신규 레벨 잠금 해제됨!",
+                    "old_value": "새 레벨이 잠금 해제되었어요!"
+                },
+                "LQiFqJ": {
+                    "new_value": "회원님은 점수 신경 안 썼는데, 다른 플레이어들은 완전 몰입해 있더라고요...",
+                    "old_value": "올해는 회원님의 게임 활동이 레이더에 잡히지 않았어요. 다른 사람들은 이런 게임을 플레이했답니다…"
+                },
+                "N32w+2": {
+                    "new_value": "{numUsers}명의 플레이어는 게임을 하루도 거른 적이 없어요. 올해엔 게임에 좀 소홀하셨다고요? 내년도 있으니 괜찮답니다.",
+                    "old_value": "올해 {numUsers}명 이상의 Discord 사용자가 매일 게임을 플레이했어요."
+                },
+                "NFptic": {
+                    "new_value": "여기 회원님의 최애 중 몇 가지를 모아봤어요.",
+                    "old_value": "이모지 {numEmojis}개를 사용하셨어요. 가장 자주 사용한 이모지는 다음과 같습니다."
+                },
+                "PFxxJa": {
+                    "new_value": "게임이 실행 중인데 Discord에 연결할 수 없다면 게임 로그를 확인하여 디버깅해 보세요.",
+                    "old_value": "게임이 실행 중인데 Discord에 연결할 수 없다면 게임 로그를 확인하여 디버깅해 보세요"
+                },
+                "Pc6FRV": {
+                    "new_value": "다시 플레이하기",
+                    "old_value": "다시 이동하기"
+                },
+                "QMt1Qx": {
+                    "new_value": "신규 배지 잠금 해제됨",
+                    "old_value": "새 배지가 잠금 해제되었어요"
+                },
+                "RqXsIs": {
+                    "new_value": "percentHookHook상위 {percent}%에 드는 수다쟁이시네요. 회원님은 그 시간 중 얼마나 오래 음소거 상태였을까요?",
+                    "old_value": "올해 음성 채널에서 {numMinutes} {numMinutes}분을 보내셨어요. 투머치토커 상위 percentHookHook{percent}%에 들어가셨어요."
+                },
+                "TOMBAW": {
+                    "new_value": "percentHookHook상위 {percent}%의 수다쟁이시네요. 답장받지 못한 메시지 수는 집계에 포함하지 않았어요.",
+                    "old_value": "올해 {numMessages}개의 메시지를 보내셨어요. percentHookHook상위 {percent}%의 수다쟁이에 해당하는 기록이에요."
+                },
+                "X8/G/o": {
+                    "new_value": "회원님의 마이크가 연결이 끊긴 동안, Discord의 다른 사람들은 이렇게 지내고 있었어요...",
+                    "old_value": "회원님의 마이크는 올해 조용했어요. 다른 Discord에서는 무슨 일이 있었는지 보여드릴게요…"
+                },
+                "Xg82Gy": {
+                    "new_value": "서버는 사실 회원님 취향은 아니었지만, 몇몇꽤 인기가 많았어요...",
+                    "old_value": "올해는 서버가 취향이 아니었나 봐요. 다른 사람들은 이런 곳에서 모여 놀았어요..."
+                },
+                "Y3poDW": {
+                    "new_value": "회원님은 그 시간 중 얼마나 오래 음소거 상태였을까요?",
+                    "old_value": "올해 음성 채널에서 {numMinutes} {numMinutes}분을 보내셨어요."
+                },
+                "Yzaoit": {
+                    "new_value": "컬러웨이",
+                    "old_value": "의상 색상"
+                },
+                "ZHs2bR": {
+                    "new_value": "게임을 하나라도 플레이하신 모든 분 기준이에요.",
+                    "old_value": "타이틀을 최소 한 개 이상 플레이한 모든 분들을 위하여."
+                },
+                "aJMJ6b": {
+                    "new_value": "충돌 수가 아닌 세션 수를 기준으로 순위를 매겼어요.",
+                    "old_value": "올해 게임 {numGames}개를 플레이하셨어요. 세션 수 순으로 매긴 가장 좋아한 게임은 다음과 같습니다."
+                },
+                "bAxEs2": {
+                    "new_value": "단어 {numWords}개라고요? 원본 그리스어판 오디세이 {numCopies}권과 맞먹는 분량이에요. 이 정도는 식은 죽 먹기죠.",
+                    "old_value": "지난 1년 동안 Discord에서 {numWords}개의 단어가 전송됐어요. 그 중 몇 개가 lol이었을 것 같나요?"
+                },
+                "c6Cy/h": {
+                    "new_value": "이 서버에 채널 내 대화 요약을 활성화하세요. 멤버들이 대화의 내용을 파악하고 참여하는 데 도움이 돼요. 멤버들은 채팅 채널에서 논의되는 주제의 목록과 함께 논의에 참여 중인 멤버를 확인할 수 있어요. [자세히 알아보기]({helpdeskArticle})",
+                    "old_value": "이 서버의 채널 요약을 활성화하면 멤버들이 대화의 내용을 파악하고 참여하는 데 도움이 돼요. 멤버들은 채팅 채널에서 논의되는 주제의 목록과 함께 참여 중인 멤버를 확인할 수 있어요. [자세히 알아보기]({helpdeskArticle})"
+                },
+                "cYCqz8": {
+                    "new_value": "답장받지 못한 메시지 수는 집계에 포함하지 않았어요.",
+                    "old_value": "올해 {numMessages}개의 메시지를 보내셨어요."
+                },
+                "d+41qJ": {
+                    "new_value": "누군가 클립 기능을 켜 놓았어요. 음성이 녹음될 수 있어요.",
+                    "old_value": "회원님이 참여 중인 통화의 참여자가 클립을 활성화해서 목소리가 녹음될 수 있어요."
+                },
+                "dx4+NI": {
+                    "new_value": "하루도 게임을 거른 적이 없는 플레이어",
+                    "old_value": "매일 게임한 사람들"
+                },
+                "huiTne": {
+                    "new_value": "수다는 하루 종일이라도 떨 수 있죠.",
+                    "old_value": "주절거리기는 하루 종일 할 수 있는 활동이죠."
+                },
+                "iCKjh6": {
+                    "new_value": "올해 {numDays}일 동안 게임을 플레이하셨어요. 축하를 드릴 일인지, 위로를 드릴 일인지 헷갈리네요.",
+                    "old_value": "올해 {numDays}일 동안 게임을 플레이하셨어요."
+                },
+                "kF+Y3a": {
+                    "new_value": "회원님은 눈팅하느라 바빴지만, 다른 분들은 할 말이 많았나 봐요…",
+                    "old_value": "올해는 채팅창에서 조용히 지내셨네요. 다른 분들은 이런 말씀을 하셨어요.."
+                },
+                "lgwX26": {
+                    "new_value": "VR에서도 Discord를 사용하세요. Meta Quest에서 만나보세요.",
+                    "old_value": "Discord를 퀘스트에서 이용할 수 있어요. 지금 다운로드하고 Nitro 1개월 무료 혜택을 받아보세요."
+                },
+                "nLCUQ4": {
+                    "new_value": "올해 최애 서버에 {numDays}일 동안 방문하셨어요. 꾸준히 와 주셔서 감사해요 :')",
+                    "old_value": "올해 최애 서버에 {numDays}일 동안 방문하셨어요."
+                },
+                "no+FQS": {
+                    "new_value": "맨 위에서부터 사용 가능한 첫 번째 연결 흐름이 사용돼요.",
+                    "old_value": "맨 위에서부터 사용 가능한 첫 번째 연결 흐름이 사용돼요"
+                },
+                "oSWYca": {
+                    "new_value": "orbIconHookHookorbIcon {count}개로 플레이",
+                    "old_value": "{count}개로 플레이하기"
+                },
+                "pC8Q1+": {
+                    "new_value": "기프트 카드는 구매한 국가에서만 사용할 수 있어요. 교환하려면 계정의 [국가/지역]({countryRegionLink}) 설정이 기프트 카드의 화폐와 일치해야 해요. 한 가지 예외로, 유로화로 가격이 책정된 기프트 카드는 유로를 사용하는 모든 국가에서 사용할 수 있어요. 구매하기 전에 Discord 기프트 카드를 사용할 수 있는 국가를 꼭 [체크]({giftCardAvailabilityLink})하세요.",
+                    "old_value": "기프트 카드는 구매한 국가에서만 사용할 수 있습니다. 기프트 카드를 사용하려면 계정의 [국가/지역]({countryRegionLink}) 설정이 기프트 카드 통화와 일치해야 합니다. 한 가지 예외가 있습니다. 유로화로 가격이 책정된 기프트 카드는 유로화를 사용하는 모든 국가에서 사용할 수 있습니다. 구매하기 전에 Discord 기프트 카드를 구매할 수 있는 국가를 [확인]({giftCardAvailabilityLink})하세요."
+                },
+                "q2nj/Z": {
+                    "new_value": "나만의 캐릭터에 푹 빠지세요.",
+                    "old_value": "캐릭터를 마무리해주세요."
+                },
+                "s0Zos2": {
+                    "new_value": "신규 레벨 잠금 해제됨",
+                    "old_value": "새 배지 레벨이 잠금 해제되었어요"
+                },
+                "sIDTV1": {
+                    "new_value": "최애 서버에 {numDays}일 동안 방문하셨어요. Discord 전체 서버 방문자 중 percentHookHook상위 {percent}%에 속해요. 꾸준히 와 주셔서 감사해요 :')",
+                    "old_value": "올해 최애 서버에 {numDays}일 동안 방문하셨어요. 서버 방문 횟수 percentHookHook상위 {percent}%에 해당해요."
+                },
+                "v9Dvub": {
+                    "new_value": "신규 배지 {count}개",
+                    "old_value": "새 배지 {count}개"
+                },
+                "vmEDQs": {
+                    "new_value": "채널 내 대화 요약 활성화하기",
+                    "old_value": "채널 요약 활성화"
+                },
+                "wXFbgZ": {
+                    "new_value": "환영 메시지와 할 일 목록을 위한 유효한 채널이 있어야 해요.",
+                    "old_value": "환영 메시지와 함께 해야 할 일이 최소 3가지 뜰 거예요."
+                },
+                "xDtQAQ": {
+                    "new_value": "Fandom",
+                    "old_value": "팬덤"
+                },
+                "y8Sr8J": {
+                    "new_value": "다른 사람들이 채팅창을 휩쓰는 동안 회원님은 혼자 조용히 반응했어요...",
+                    "old_value": "올해는 회원님의 이모지 선택기가 좀 쉬었어요. Discord의 나머지는 이렇게 이모지를 사용했답니다…"
+                },
+                "yoZxcn": {
+                    "new_value": "상위 {percent}%의 고유 게임 플레이 기준이에요.",
+                    "old_value": "플레이한 고유 타이틀 기준 상위 {percent}%를 위하여."
+                }
+            }
         }
     },
-    "timestamp": "2026-11-10T09:42:01.660345+00:00"
+    "string_context": {
+        "ko": {
+            "4oIsxf": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "같은 시점에는 새 배지 개수와 새 레벨 잠금 해제 문구가 함께 있어요. 이 문장은 배지 하나의 획득을 알리지만 어떤 활동 조건을 채웠는지나 Nitro가 필요한지는 표시하지 않아요.",
+                    "generated_at": "2026-11-06T15:06:01.567003Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "New badge unlocked",
+                        "New level unlocked",
+                        "Profile badges",
+                        "Badge level"
+                    ],
+                    "search_intent": "Discord에서 새 배지 잠금 해제 알림이 뜬 이유와 뜻을 확인하려는 검색이에요.",
+                    "source_context": "11월 2~3일 한영 문자열에는 새 배지, 새 레벨과 새 배지 개수 알림이 함께 추가됐어요.",
+                    "summary": "새 배지가 잠금 해제됐다고 알리는 획득 메시지예요.",
+                    "what_it_means": "새로운 배지를 사용할 수 있는 상태가 됐다는 뜻이에요.",
+                    "when_it_appears": "배지 획득 결과를 보여 주는 화면에서 나타나는 알림으로 보여요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The same update includes a new-badge count and a separate new-level unlock notice. This string reports a badge unlock without naming the qualifying activity or stating a Nitro requirement.",
+                    "generated_at": "2026-11-06T15:06:01.567003Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "New badge unlocked",
+                        "New level unlocked",
+                        "Profile badges",
+                        "Badge level"
+                    ],
+                    "search_intent": "The reader wants to understand a new-badge unlock notice encountered in Discord.",
+                    "source_context": "The November 2–3 English and Korean strings add notices for new badges, new levels and new-badge counts.",
+                    "summary": "This achievement message announces that a new badge has been unlocked.",
+                    "what_it_means": "A new badge has become available.",
+                    "when_it_appears": "It appears to be an announcement on a badge-unlock result screen."
+                }
+            },
+            "K3TdAp": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "새 배지와 새 배지 레벨 안내가 같은 시점에 등장해 배지 진행 화면과 관련된 문구로 보여요. 이 라벨만으로 계정 전체의 레벨이 올랐다거나 특정 보상이 자동 지급됐다고 단정할 수는 없어요.",
+                    "generated_at": "2026-11-06T15:06:01.567003Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "New badge unlocked",
+                        "New level unlocked",
+                        "Profile badges",
+                        "Badge level"
+                    ],
+                    "search_intent": "Discord의 새 레벨 잠금 해제 문구가 어떤 진행을 뜻하는지 알아보려는 검색이에요.",
+                    "source_context": "11월 2~3일 한영 문자열에는 새 배지, 새 레벨과 새 배지 개수 알림이 함께 추가됐어요.",
+                    "summary": "새 레벨이 잠금 해제됐다는 진행 상태 알림이에요.",
+                    "what_it_means": "관련 진행 흐름에서 다음 레벨을 사용할 수 있게 됐다는 안내예요.",
+                    "when_it_appears": "배지 관련 진행 결과에서 레벨 잠금 해제를 알릴 때 보일 가능성이 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "New-badge and badge-level notices appeared in the same update, suggesting a badge-progression surface. The label alone does not establish an account-wide level increase or automatic delivery of a particular reward.",
+                    "generated_at": "2026-11-06T15:06:01.567003Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "New badge unlocked",
+                        "New level unlocked",
+                        "Profile badges",
+                        "Badge level"
+                    ],
+                    "search_intent": "The reader is checking what progression a new-level unlock notice refers to in Discord.",
+                    "source_context": "The November 2–3 English and Korean strings add notices for new badges, new levels and new-badge counts.",
+                    "summary": "This progress notice announces that a new level has been unlocked.",
+                    "what_it_means": "Another level has become available within the associated progression flow.",
+                    "when_it_appears": "It may appear when a level unlock is announced in a badge-related progress view."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-11-10T10:24:16.330409+00:00"
 }
