@@ -1,5 +1,5 @@
 {
-    "build_hash": "ed85b309c535211085a48dc6b86387fde75c7c78",
+    "build_hash": "08bdfc168971b3215b9e333a453b1fef701833d1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -59,7 +59,11 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "0OiA1g": "Nitro Members can buy select items with Orbs",
+                "esVpAG": "Get Orbs back on Rust & TD6 in-game purchases",
+                "snV+8b": "Gift Nitro, get an exclusive deco"
+            },
             "modified": {}
         },
         "ko": {
@@ -68,5 +72,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T23:14:24.559840+00:00"
+    "timestamp": "2026-11-10T23:25:18.225042+00:00"
 }
