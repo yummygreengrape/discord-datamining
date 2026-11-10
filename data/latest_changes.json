@@ -1,5 +1,5 @@
 {
-    "build_hash": "98117c1da312198395f4da79e0c25564facd02fe",
+    "build_hash": "f4a8c1632ed2e72c12804c04c91354c4ab2aa170",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,41 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-bloons-bf-deal",
-            "kind": "user",
-            "timestamp": "2026-11-10T02:01:10Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-rust-bf-deal",
-            "kind": "user",
-            "timestamp": "2026-11-10T02:01:10Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-badges-unread-state",
-            "kind": "user",
-            "timestamp": "2026-11-10T02:13:23Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -92,15 +58,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "/3OubH": "Limited Time",
-                "LlyBqh": "Rust Shop",
-                "NF9Ryp": "Pop your Orbs on Bloons TD 6 items",
-                "h+Us1O": "Use your Orbs to claim select in-game items on the Bloons TD 6 Shop. Ends {endDate}.",
-                "rEq6H1": "Use your Orbs to claim select in-game items on the Rust Shop. Ends {endDate}.",
-                "ywzvyl": "Bloons TD 6 Shop",
-                "zrFadr": "Spend your Orbs on Rust items"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -110,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T02:52:28.872219+00:00"
+    "timestamp": "2026-11-10T03:13:38.723933+00:00"
 }
