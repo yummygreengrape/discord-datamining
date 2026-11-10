@@ -1,5 +1,5 @@
 {
-    "build_hash": "cbeeb4a94a7f9040b591d3e0a690c42b503bf8de",
+    "build_hash": "56a2de062906b1ed778dd1217c95f9c89b0d7f0b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,9 +58,153 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "+ASaTr": "You play, we’ll clip",
+                "/LtA+z": "Your friends are using Clips",
+                "0+BIHX": "Clips now clip themselves",
+                "1PDyrY": "People in this call are using Clips. Your voice is not included in their Clips.",
+                "282duf": "You played, we clipped. {count, plural, one {# Clip is} other {# Clips are}} waiting for you.",
+                "33gqTk": "Your auto clips show up here",
+                "3I65bs": "Never miss a clutch moment with Nitro",
+                "3RPyLm": "Capture your top moments while you game with friends. Clips stay on your PC until you share them.",
+                "B2F9tM": "Include My Voice",
+                "D4abD6": "Jump into your favorite multiplayer games and Auto Clips does the rest.",
+                "EA8ENs": "You’re in control",
+                "I0bdwM": "Your best moments will be captured automatically. Adjust your $[Clips Settings](settingsHook) anytime.",
+                "JMVuvY": "Your voice in others’ Clips",
+                "JngYFd": "Your first Auto Clips are ready!",
+                "Lym9gZ": "You play, we’ll clip.",
+                "OyFpJy": "Auto Clips are on",
+                "PaU7x6": "Clips in use · Not included",
+                "Pottsi": "Your clips will show up here",
+                "PvfGzE": "Clips stay on your PC, and you can change [Clips Settings]({onClipsSettingsClick}) anytime.",
+                "Q0dnKS": "Clips in use",
+                "Q5BSVD": "Press {keybind} to save a Clip of your choosing.",
+                "RfYFQu": "Use Clips",
+                "TVOU0A": "Capture your top gaming moments with Auto Clips. Get early access with Nitro.",
+                "U5V4YO": "Your latest auto clips",
+                "V472rn": "View Your Latest Clips",
+                "VJdv2W": "Easily save the clutch plays and the chaos while you game with friends.",
+                "W1qdic": "Notify me when others in my voice channel use Clips",
+                "YzvFKW": "Join them in saving your best gaming moments.",
+                "aTozcJ": "Auto Clips capture your best moments while you game with friends. Clips stay on your PC until you share them. [Learn more.]({helpArticleUrl})",
+                "cXDBee": "Get Nitro",
+                "caOprb": "How It Works",
+                "faNCGg": "Shows a temporary tooltip when you and others using Clips are in the same voice channel.",
+                "gq07bs": "Get early access to Clips & Auto Clips to capture your best gaming moments without lifting a finger.",
+                "i1g0Xm": "Clips are saved on your PC, and only shared when you choose. [Learn more.]({helpArticleUrl})",
+                "iHA2eT": "Use Auto Clips",
+                "j56Eyx": "People in this call are using Clips. Your voice can be included and analyzed for highlights.",
+                "lAMNaO": "Try Clips",
+                "ms4ibY": "Manual Clips",
+                "oguG2t": "You can adjust your $[Clips Settings](settingsHook) anytime.",
+                "qB8pEe": "Use Auto Clips",
+                "s1pHZy": "Save your best gaming moments using in-game events and voice activity.",
+                "tCTA+W": "Stay locked in while Auto Clips capture your best moments.",
+                "x/w6AN": "Works on thousands of PC games",
+                "y080Rd": "Your voice isn’t included in others’ Clips."
+            },
+            "deleted": {
+                "22Z9fP": "Auto Clips is already on for you. You can change it to Keybind Only, or turn it off in Clips settings."
+            },
+            "modified": {
+                "03CMAJ": {
+                    "new_value": "Clips run on your device and stay there until you share them.",
+                    "old_value": "Clips runs on your device to help you capture your gaming moments. They stay on your computer until you share them."
+                },
+                "2Uh8Zr": {
+                    "new_value": "Manual",
+                    "old_value": "Manual Clips Only"
+                },
+                "2rwMjL": {
+                    "new_value": "{count, plural, one {# New Clip} other {# New Clips}}",
+                    "old_value": "{count, plural, one {# new clip} other {# new clips}}"
+                },
+                "4Ta12C": {
+                    "new_value": "Auto Clips use in-game events and voice activity to capture your best moments.",
+                    "old_value": "Auto Clips run on your PC, using in-game events and voice activity to save your best moments."
+                },
+                "4gzBi+": {
+                    "new_value": "Auto & Manual",
+                    "old_value": "Manual + Auto Clips"
+                },
+                "6C94PY": {
+                    "new_value": "Capture your top gaming moments, directly on Discord. All Clips are saved on your PC and only shared when you choose. [Learn more]({learnMoreLink})",
+                    "old_value": "Capture your top gaming moments, directly on Discord. All Clips are locally stored on your device until you share them. [Learn more]({learnMoreLink})"
+                },
+                "Awp28f": {
+                    "new_value": "Your top gaming moments, saved for you.",
+                    "old_value": "Capture your best plays without lifting a finger."
+                },
+                "BtyRCT": {
+                    "new_value": "Automatically save the clutch plays and the chaos while you game with friends. As a Nitro member, you get access to Auto Clips first.",
+                    "old_value": "Save the clutch plays and the chaos while you game with friends. As a Nitro member, you get Auto Clips first."
+                },
+                "G+P4p/": {
+                    "new_value": "Easily save your top gaming moments.",
+                    "old_value": "Save your best gaming moments with Clips."
+                },
+                "Ggh4C0": {
+                    "new_value": "Auto Clips: You play, we’ll clip.",
+                    "old_value": "When your squad loses it, Clips saves it."
+                },
+                "GjNXmw": {
+                    "new_value": "Your voice can be included in others’ Clips. It’s also analyzed on their device so voice activity can help decide which moments get clipped.",
+                    "old_value": "When someone in your voice channel captures a Clip, your voice is included and analyzed on their device for highlights."
+                },
+                "Iifq8e": {
+                    "new_value": "You’re in early: Auto Clips",
+                    "old_value": "Clips Early Access"
+                },
+                "M8rOjI": {
+                    "new_value": "You’re in early: Auto Clips are on for you with Nitro.",
+                    "old_value": "You're in early: Auto Clips are on for you with Nitro. We'll clip the clutch plays and the chaos while you game with friends, no keybinds required."
+                },
+                "MtIbFp": {
+                    "new_value": "You play, we’ll clip.",
+                    "old_value": "Clip that? Already did."
+                },
+                "O9OeEg": {
+                    "new_value": "Auto Clips: You play, we’ll clip.",
+                    "old_value": "When your squad loses it, Auto Clips saves it."
+                },
+                "UBihuW": {
+                    "new_value": "Turn on Clips to easily capture your top gaming moments.",
+                    "old_value": "Turn on Clips anytime to capture your top gaming moments."
+                },
+                "bBlUzK": {
+                    "new_value": "Manual",
+                    "old_value": "Manual Clips"
+                },
+                "bF6l+Y": {
+                    "new_value": "Use Auto Clips to automatically save your top moments using in-game events and voice activity. You can also use your keybind.",
+                    "old_value": "Use Auto Clips to automatically save Clips using in-game events and voice activity. You can also use your keybind."
+                },
+                "hXM4Ae": {
+                    "new_value": "Capture your top gaming moments with early access to Clips and Auto Clips. No extra software required.",
+                    "old_value": "Nitro members get early access to Clips and Auto Clips. Available on PC."
+                },
+                "kWigdu": {
+                    "new_value": "Get early access to Auto Clips with Nitro. Automatically save the clutch plays and the chaos while you game with friends, no extra software needed.",
+                    "old_value": "Get early access to Clips & Auto Clips with Nitro. Save the clutch plays and the chaos while you game with friends, no extra software needed."
+                },
+                "m7PBif": {
+                    "new_value": "Your voice is excluded from others’ Clips right now. Want your voice to be included? Change this in [Data & Privacy]({onDataPrivacyClick}) anytime.",
+                    "old_value": "Your voice isn’t included in others’ Clips right now. Allow your voice to be included? Change this in [Data & Privacy]({onDataPrivacyClick}) anytime."
+                },
+                "pGoNG5": {
+                    "new_value": "Runs on your device",
+                    "old_value": "Clips now clip themselves"
+                },
+                "pMWdGA": {
+                    "new_value": "Once you join Nitro, Auto Clips are on by default. You can change this anytime in Clips Settings.",
+                    "old_value": "Once you join Nitro, you can choose your capture mode in Clips settings."
+                },
+                "ycsC9o": {
+                    "new_value": "Just play with friends and Auto Clips does the rest. Nitro members get access to Auto Clips first.",
+                    "old_value": "Nitro members get Auto Clips first. Just play with friends and Auto Clips does the rest."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -68,5 +212,165 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T01:23:59.822984+00:00"
+    "string_context": {
+        "en": {
+            "2Uh8Zr": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "같은 설정에는 Auto & Manual과 Clips Off가 나란히 있어요. 수동 저장 키 설정 설명도 함께 확인되므로, 자동 캡처와 구분해 직접 동작할 때 클립을 남기는 선택으로 볼 수 있어요.",
+                    "generated_at": "2026-11-06T15:06:01.567003Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Clips",
+                        "Auto Clips",
+                        "Manual Clips Only",
+                        "Clips Settings",
+                        "Clip Quality",
+                        "Storage Location"
+                    ],
+                    "search_intent": "Discord에서 Manual Clips Only를 선택하면 어떻게 저장되는지 알아보려는 검색이에요.",
+                    "source_context": "11월 4~5일 Clips 문자열에는 캡처 모드, 해상도·프레임 속도·품질, 로컬 저장과 다른 참가자의 음성 사용 설명이 함께 있어요.",
+                    "summary": "Manual Clips Only는 사용자가 직접 저장하는 방식만 쓰는 Clips 캡처 모드예요.",
+                    "what_it_means": "자동 캡처 대신 사용자가 실행하는 클립 저장 방식을 선택해요.",
+                    "when_it_appears": "Clips capture mode 선택 화면에서 수동 전용 모드 이름으로 나타날 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The neighboring choices are Auto & Manual and Clips Off. The same group describes a manual capture keybind, supporting the distinction between user-triggered saves and automatic capture.",
+                    "generated_at": "2026-11-06T15:06:01.567003Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Clips",
+                        "Auto Clips",
+                        "Manual Clips Only",
+                        "Clips Settings",
+                        "Clip Quality",
+                        "Storage Location"
+                    ],
+                    "search_intent": "The reader wants to understand how Manual Clips Only saves recordings in Discord.",
+                    "source_context": "The November 4–5 Clips strings group capture modes, resolution, frame rate, quality, local storage and voice use in other participants’ captures.",
+                    "summary": "Manual Clips Only is the capture mode for saving Clips through a manual action.",
+                    "what_it_means": "It selects user-triggered Clip saves rather than automatic capture.",
+                    "when_it_appears": "It can appear as the manual-only choice in the Clips capture-mode selector."
+                }
+            },
+            "4gzBi+": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "같이 추가된 설명은 게임 내 이벤트와 음성 활동을 자동 저장의 단서로 들어요. 단축키로 직접 저장하는 기능도 이 모드에서 사용할 수 있다고 안내해요.",
+                    "generated_at": "2026-11-09T15:10:09.650845Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Clips capture mode",
+                        "Manual Clips",
+                        "Manual + Auto Clips",
+                        "Auto Clips On",
+                        "Edit Keybind"
+                    ],
+                    "search_intent": "Manual + Auto Clips가 수동 클립과 어떻게 다른지 확인하려는 검색이에요.",
+                    "source_context": "같은 변경분에 수동 및 자동 클립, 캡처 모드, 단축키, 음성 활동 문구가 있어요. Discord 고객센터는 기본 클립 저장과 단축키를 설명해요.",
+                    "summary": "수동 저장과 자동 저장을 함께 사용하는 클립 모드예요.",
+                    "what_it_means": "이 모드에서는 자동 캡처를 쓰면서 필요한 순간에 직접 클립을 남길 수 있어요.",
+                    "when_it_appears": "클립 캡처 방식을 선택하는 메뉴에서 옵션으로 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "Companion copy mentions game events and voice activity as signals for automatic capture. It also says the clipping shortcut remains available.",
+                    "generated_at": "2026-11-09T15:10:09.650845Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Clips capture mode",
+                        "Manual Clips",
+                        "Manual + Auto Clips",
+                        "Auto Clips On",
+                        "Edit Keybind"
+                    ],
+                    "search_intent": "You may be comparing this option with Manual Clips.",
+                    "source_context": "The same update includes manual and automatic capture modes, keybinds, and voice activity copy. Discord’s Clips help article documents manual saves and keybinds.",
+                    "summary": "“Manual + Auto Clips” combines manual saves with automatic clip capture.",
+                    "what_it_means": "Discord can select and save moments automatically, and you can still save one yourself.",
+                    "when_it_appears": "It can appear as one of the choices in Clips capture mode."
+                }
+            },
+            "GjNXmw": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "문구는 분석이 캡처한 참가자의 기기에서 이뤄진다고 명시해요. 같은 묶음의 음성 사용 토글이 이 설명과 연결되지만, 이미 공유된 영상의 삭제나 별도 보존 기간까지 알려 주지는 않아요.",
+                    "generated_at": "2026-11-06T15:06:01.567003Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Clips",
+                        "Auto Clips",
+                        "Manual Clips Only",
+                        "Clips Settings",
+                        "Clip Quality",
+                        "Storage Location"
+                    ],
+                    "search_intent": "Discord Clips에서 내 음성이 녹음되거나 하이라이트 분석에 쓰이는 이유를 확인하려는 검색이에요.",
+                    "source_context": "11월 4~5일 Clips 문자열에는 캡처 모드, 해상도·프레임 속도·품질, 로컬 저장과 다른 참가자의 음성 사용 설명이 함께 있어요.",
+                    "summary": "음성 채널의 다른 사람이 클립을 캡처하면 내 음성이 포함되고 그 사람의 기기에서 하이라이트 분석에 쓰인다는 설명이에요.",
+                    "what_it_means": "다른 사람이 저장한 클립에 내 음성이 들어가며 하이라이트 탐지 처리가 그 참가자의 기기에서 진행된다는 뜻이에요.",
+                    "when_it_appears": "음성 채널 참가자의 Clips 캡처와 음성 사용을 설명하는 설정 안내에 나타날 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The text explicitly places the analysis on the capturing participant’s device. It sits beside a voice-use control, but does not describe deletion of already shared videos or a separate retention period.",
+                    "generated_at": "2026-11-06T15:06:01.567003Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Clips",
+                        "Auto Clips",
+                        "Manual Clips Only",
+                        "Clips Settings",
+                        "Clip Quality",
+                        "Storage Location"
+                    ],
+                    "search_intent": "The reader is checking why Discord Clips may record and analyze their voice for highlights.",
+                    "source_context": "The November 4–5 Clips strings group capture modes, resolution, frame rate, quality, local storage and voice use in other participants’ captures.",
+                    "summary": "This notice says your voice is included when another voice-channel participant captures a Clip and is analyzed on their device for highlights.",
+                    "what_it_means": "Another participant’s Clip can contain your voice, with highlight detection performed on that participant’s device.",
+                    "when_it_appears": "It can appear as explanatory text for voice use when someone in the channel captures a Clip."
+                }
+            },
+            "bBlUzK": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "같이 추가된 캡처 모드에는 수동과 자동을 함께 쓰는 옵션이 있어요. 수동 모드에서는 단축키 같은 직접 조작으로 저장할 장면을 선택해요.",
+                    "generated_at": "2026-11-09T15:10:09.650845Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Clips capture mode",
+                        "Manual Clips",
+                        "Manual + Auto Clips",
+                        "Auto Clips On",
+                        "Edit Keybind"
+                    ],
+                    "search_intent": "Manual Clips를 선택하면 무엇이 달라지는지 확인하려는 검색이에요.",
+                    "source_context": "같은 변경분에 수동 및 자동 클립, 캡처 모드, 단축키, 음성 활동 문구가 있어요. Discord 고객센터는 기본 클립 저장과 단축키를 설명해요.",
+                    "summary": "직접 저장 동작을 실행할 때 클립을 만드는 모드예요.",
+                    "what_it_means": "클립을 남길 순간을 사용자가 직접 정하는 방식이에요.",
+                    "when_it_appears": "클립 캡처 모드에서 자동 캡처를 함께 쓰는 옵션 옆에 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The capture mode list also includes a combined manual and automatic option. In manual mode, you choose when to save using a control such as the clipping shortcut.",
+                    "generated_at": "2026-11-09T15:10:09.650845Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Clips capture mode",
+                        "Manual Clips",
+                        "Manual + Auto Clips",
+                        "Auto Clips On",
+                        "Edit Keybind"
+                    ],
+                    "search_intent": "You may want to know what changes when you select Manual Clips.",
+                    "source_context": "The same update includes manual and automatic capture modes, keybinds, and voice activity copy. Discord’s Clips help article documents manual saves and keybinds.",
+                    "summary": "“Manual Clips” is the capture mode for saving a clip yourself.",
+                    "what_it_means": "You decide when to save a moment.",
+                    "when_it_appears": "It can appear beside the combined capture option in the Clips settings."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-11-10T01:34:52.348022+00:00"
 }
