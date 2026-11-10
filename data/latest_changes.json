@@ -1,166 +1,12 @@
 {
-    "build_hash": "a51a067befafb343494098cb1ca6a25cf0c55e5d",
+    "build_hash": "768fac864170c57bc87b82bb7b971fe29e8bb99e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "analysis": {
-                "detailed_summary": "기본 상태에서는 공간 음향의 노출과 기본 켜짐이 모두 꺼져 있어요. 비교안은 공간 음향을 제공하면서, 사용자가 별도로 선택한 값이 없으면 처음부터 켜진 상태를 사용해요. 이번 수정에서 추가된 기본 켜짐 설정을 현재 음성 설정 코드가 직접 읽고, 저장된 선택이 있으면 그 값을 먼저 적용하는 것을 확인했어요. 지원되는 기기인지 확인하는 조건도 유지돼요. 음성 출력 메뉴의 공간 음향 스위치로 직접 선택을 바꿀 수 있어요. 이 변경은 기존의 스위치 노출만 설명하던 해석에 초기 상태의 차이를 더하며, 모든 계정에 적용됐다는 뜻은 아니에요.",
-                "evidence": [
-                    "Module 738566 adds defaultOn:false to the default and defaultOn:true to variant 1. SpatialAudioStore (201242) assigns T=g().defaultOn and returns h.enabled ?? T.",
-                    "The same store gates spatial mixing on enabled and SPATIAL_AUDIO support; module 844981 retains availability and failure-status checks."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "generated_at": "2026-10-07T00:42:42.579535+00:00",
-                "importance": "high",
-                "summary": "지원되는 기기에서 공간 음향을 처음부터 켜 둘 수 있게 하는 변경이에요. 사용자가 전에 직접 켜거나 끈 선택은 그대로 우선해요.",
-                "why_it_matters": "처음 공간 음향을 접하는 이용자는 직접 켜기 전에 입체적인 음성 배치를 경험할 수 있어요. 이전에 꺼 둔 선택을 무시하고 자동으로 켜는 동작은 확인되지 않았어요."
-            },
-            "analysis_en": {
-                "detailed_summary": "The default disables both spatial-audio availability and its default-on setting. The variant makes spatial audio available and turns it on initially when the user has no explicit saved choice. This modified row adds defaultOn, and the current voice-settings consumer reads it while applying a saved choice first. Device support is still required. Users can change the choice with the Spatial Audio switch in voice output controls. This strengthens the older explanation, which described switch availability but did not cover the initial state; it does not establish exposure for every account.",
-                "evidence": [
-                    "Module 738566 adds defaultOn:false to the default and defaultOn:true to variant 1. SpatialAudioStore (201242) assigns T=g().defaultOn and returns h.enabled ?? T.",
-                    "The same store gates spatial mixing on enabled and SPATIAL_AUDIO support; module 844981 retains availability and failure-status checks."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "generated_at": "2026-10-07T00:42:42.579535+00:00",
-                "importance": "high",
-                "summary": "Can turn spatial audio on by default on supported devices. A previously saved on or off choice still takes priority.",
-                "why_it_matters": "Users without a saved preference may experience spatial voice positioning before manually enabling it. The inspected logic does not override a previously saved off choice."
-            },
-            "config_keys": [
-                "defaultOn",
-                "enabled",
-                "positioningModel"
-            ],
-            "default_config": {
-                "defaultOn": false,
-                "enabled": false,
-                "positioningModel": ""
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-spatial-audio-for-voice",
-            "kind": "user",
-            "locations": [
-                "RTCConnection"
-            ],
-            "old_config_keys": [
-                "defaultOn",
-                "enabled"
-            ],
-            "old_default_config": {
-                "defaultOn": false,
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_locations": [
-                "RTCConnection"
-            ],
-            "old_signals": [
-                "MediaEngine.supports(SPATIAL_AUDIO)"
-            ],
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "defaultOn": true,
-                    "enabled": true
-                }
-            },
-            "signals": [
-                "MediaEngine.supports(SPATIAL_AUDIO)"
-            ],
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "defaultOn": true,
-                    "enabled": true,
-                    "positioningModel": ""
-                },
-                "2": {
-                    "defaultOn": true,
-                    "enabled": true,
-                    "positioningModel": "conversation"
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "defaultOn",
-                "enabled",
-                "positioningModel"
-            ],
-            "default_config": {
-                "defaultOn": false,
-                "enabled": false,
-                "positioningModel": ""
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-05-spatial-audio-for-voice",
-            "kind": "user",
-            "locations": [
-                "RTCConnection"
-            ],
-            "old_config_keys": [
-                "defaultOn",
-                "enabled"
-            ],
-            "old_default_config": {
-                "defaultOn": false,
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_locations": [
-                "RTCConnection"
-            ],
-            "old_signals": [
-                "MediaEngine.supports(SPATIAL_AUDIO)"
-            ],
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "defaultOn": true,
-                    "enabled": true
-                }
-            },
-            "signals": [
-                "MediaEngine.supports(SPATIAL_AUDIO)"
-            ],
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "defaultOn": true,
-                    "enabled": true,
-                    "positioningModel": ""
-                },
-                "2": {
-                    "defaultOn": true,
-                    "enabled": true,
-                    "positioningModel": "conversation"
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -212,8 +58,17 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "Dd1dUI": "Clip with $[{shortcut}](shortcutHook)",
+                "HHZxrL": "Hide its profile widget on members' profiles",
+                "Hxldbz": "Change Clips capture mode",
+                "UZHlmt": "Let members turn on its game overlay widget",
+                "rVTFDs": "Turn off its game overlay widget for members",
+                "u6ckHo": "Let members add its profile widget to their own profiles"
+            },
+            "deleted": {
+                "/Ow58q": "Profile widgets and the game overlay only work on personal apps. Ask Conjure to remove them, then add it to a server."
+            },
             "modified": {}
         },
         "ko": {
@@ -222,5 +77,49 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-10T00:29:21.903377+00:00"
+    "string_context": {
+        "en": {
+            "/Ow58q": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "문구는 해당 기능이 개인 앱에서 동작한다고 설명해요. 이 버전의 서버 추가 화면은 그 구성 요소를 제거한 뒤 다시 추가하라고 안내해요.",
+                    "generated_at": "2026-11-09T15:10:09.650845Z",
+                    "intent_type": "server_or_permission_notice",
+                    "related_terms": [
+                        "Conjure",
+                        "Add to Server",
+                        "Add and Publish",
+                        "Test version",
+                        "Personal apps"
+                    ],
+                    "search_intent": "개인 앱을 서버에 추가할 때 위젯 때문에 막힌 이유를 찾는 검색이에요.",
+                    "source_context": "서버 추가 및 게시 안내에는 테스트 버전과 개인 앱 구성 요소 제한이 함께 나와요. 관련 프로젝트 문구에는 접근 권한과 설치 안내가 있어요.",
+                    "summary": "프로필 위젯이나 게임 오버레이가 들어 있는 Conjure 앱을 서버에 추가할 때 나오는 제한 안내예요.",
+                    "what_it_means": "이 앱을 현재 구성 그대로는 서버에 추가할 수 없다는 뜻이에요.",
+                    "what_to_do": "서버에 추가할 앱이라면 안내에 따라 Conjure에서 해당 프로필 위젯이나 오버레이를 제거한 뒤 다시 시도하세요.",
+                    "when_it_appears": "Conjure 앱에 서버 추가와 호환되지 않는 구성 요소가 있을 때 표시될 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The copy describes those components as working on personal apps. The add-to-server prompt asks you to remove them before trying again.",
+                    "generated_at": "2026-11-09T15:10:09.650845Z",
+                    "intent_type": "server_or_permission_notice",
+                    "related_terms": [
+                        "Conjure",
+                        "Add to Server",
+                        "Add and Publish",
+                        "Test version",
+                        "Personal apps"
+                    ],
+                    "search_intent": "You may be looking up why a widget blocks adding your app to a server.",
+                    "source_context": "The add-to-server and publish copy mentions test versions and personal app component restrictions. Related project strings cover access and installation.",
+                    "summary": "This notice explains why a Conjure app with profile widgets or a game overlay cannot be added to a server in this flow.",
+                    "what_it_means": "The app’s current configuration is blocking this server action.",
+                    "what_to_do": "If you want to add the app to a server, follow the prompt to remove the profile widgets or overlay in Conjure, then try again.",
+                    "when_it_appears": "It can appear when the app you want to add contains a component the server flow does not accept."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-11-10T00:40:15.963065+00:00"
 }
