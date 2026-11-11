@@ -1,5 +1,5 @@
 {
-    "build_hash": "44dcb7daff7a05b8aed64867174805afd43ab7b6",
+    "build_hash": "4b8d956e73b2e4f108a08288ccfc13122d633cf2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -59,14 +59,34 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "CmLD50": "Stream like you’re in the room",
+                "DHLE0q": "Chat with the whole community",
+                "FlY+Rz": "What’s Discord?",
+                "YCIfhC": "Discord is a free app to chat, stream, and chill",
+                "Z70vcv": "Drop in and out of voice or text channels",
+                "fAU31r": "For gaming, hanging out, or idk, homework.",
+                "lgHr73": "Chat, stream, and chill",
+                "pqph/A": "Whenever you’re free, no calls or invites.",
+                "putVLl": "Using custom reactions, embeds, and bots."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "CmLD50": "한 방에 있는 것처럼 스트리밍하기",
+                "DHLE0q": "전체 커뮤니티와 채팅하기",
+                "FlY+Rz": "Discord란 무엇인가요?",
+                "YCIfhC": "무료 앱 Discord는 채팅과 스트리밍을 즐기며 편하게 여유를 보낼 수 있는 공간이에요",
+                "Z70vcv": "음성 또는 채팅 채널에 자유롭게 드나들 수 있어요",
+                "fAU31r": "게임, 친목 도모, 아니면 뭐, 숙제를 위해서요.",
+                "lgHr73": "채팅, 스트리밍, 그리고 휴식",
+                "pqph/A": "전화나 초대 없이 시간이 날 때 언제든지.",
+                "putVLl": "사용자 지정 반응, 임베드 및 봇을 사용해 보세요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-11-11T00:20:53.890534+00:00"
+    "timestamp": "2026-11-11T00:31:50.826633+00:00"
 }
