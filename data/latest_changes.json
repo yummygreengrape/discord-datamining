@@ -1,5 +1,5 @@
 {
-    "build_hash": "62224fc09ee85cf291ceddb6c27198313c15f1e8",
+    "build_hash": "c0fdec033a0f0ca5fb5c88aead2cb00447189d49",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,23 +58,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "4O8kV0": "Couldn't refresh Discover.",
-                "71GnER": "Loading Discover…",
-                "9KIqrW": "Try again to check for something new.",
-                "DClDU4": "Try again",
-                "EZRv/H": "Discover feed",
-                "JOIN_GUILD": "join_guild",
-                "OPEN_CONNECTION": "open_connection",
-                "OPEN_GAME": "open_game",
-                "OPEN_GUILD": "open_guild",
-                "OPEN_NUDGE": "open_nudge",
-                "OPEN_URI": "open_uri",
-                "gv4HTM": "Nothing to discover yet.",
-                "mnK52O": "Rank {rank}",
-                "v010oN": "Discover",
-                "vtx6nV": "Discover couldn't load."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -84,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-11T02:21:11.913429+00:00"
+    "timestamp": "2026-11-11T02:32:09.009432+00:00"
 }
