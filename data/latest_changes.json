@@ -1,5 +1,5 @@
 {
-    "build_hash": "14d0e593a6f7a827e784199715efdc1f9c7bd185",
+    "build_hash": "74c22c2b58754c0fbaa5ed69d23f4d8ab691d258",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,9 +58,18 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "IaTl5H": "The Checkpoint Lab is closed for maintenance. Please try again later.",
+                "s4qVni": "Your 2026",
+                "vcRnnQ": "Discover your yearly stats or check out global trends while the Checkpoint Lab is closed for maintenance."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "xdWlbE": {
+                    "new_value": "Earned in a previous round",
+                    "old_value": "Won in a previous cycle."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -68,5 +77,45 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-11T01:15:38.125446+00:00"
+    "string_context": {
+        "en": {
+            "xdWlbE": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 회차 당첨 결과와 구분하기 위해 과거 회차를 명시해요. 같은 묶음에는 다음 라운드와 보상 수령 문구가 있지만 재참여 규칙은 여기서 정해지지 않아요.",
+                    "generated_at": "2026-10-31T15:12:45.439607Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "Orbs",
+                        "Next Round",
+                        "Claim Rewards to Play",
+                        "Avatar Decoration"
+                    ],
+                    "search_intent": "Won in a previous cycle이 현재 Discord 보상 상태에 무엇을 뜻하는지 알아보려는 검색이에요.",
+                    "source_context": "10월 31일 Orbs 플레이 비용·다음 라운드·이전 회차 당첨·아바타 장식 수령 문구가 함께 추가됐어요. 게임 이름이나 당첨 확률은 이 묶음에 명시되지 않아요.",
+                    "summary": "이전 회차에서 이미 당첨된 상태를 표시하는 문구예요.",
+                    "what_it_means": "표시된 당첨은 현재가 아니라 이전 회차에 속해요.",
+                    "when_it_appears": "라운드형 보상 화면에서 이전 당첨 상태를 구분할 때 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "It distinguishes that result from the current round. The group includes next-round and reward-claiming copy but does not establish repeat-entry rules here.",
+                    "generated_at": "2026-10-31T15:12:45.439607Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "Orbs",
+                        "Next Round",
+                        "Claim Rewards to Play",
+                        "Avatar Decoration"
+                    ],
+                    "search_intent": "To understand how a previous-cycle win relates to the current Discord reward state.",
+                    "source_context": "October 31 adds Orbs play costs, the next round, previous-cycle wins, and avatar-decoration collection. The group does not specify a game name or winning odds.",
+                    "summary": "Won in a previous cycle identifies a win from an earlier cycle.",
+                    "what_it_means": "The indicated win belongs to a previous cycle.",
+                    "when_it_appears": "When a round-based reward screen distinguishes an earlier win."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-11-11T01:26:32.272504+00:00"
 }
