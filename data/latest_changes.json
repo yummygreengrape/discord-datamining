@@ -1,5 +1,5 @@
 {
-    "build_hash": "c0fdec033a0f0ca5fb5c88aead2cb00447189d49",
+    "build_hash": "4af162f08ecaaf7fa47c517353a997a779abb8b1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,69 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "allowWrestling",
+                "enabled"
+            ],
+            "default_config": {
+                "allowWrestling": false,
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-pass-the-controller",
+            "kind": "guild",
+            "status": "added",
+            "timestamp": "2026-11-11T02:35:48Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "allowWrestling": false,
+                    "enabled": true
+                },
+                "2": {
+                    "allowWrestling": true,
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "allowWrestling",
+                "enabled"
+            ],
+            "default_config": {
+                "allowWrestling": false,
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-pass-the-controller",
+            "kind": "guild",
+            "timestamp": "2026-11-11T02:35:48Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "allowWrestling": false,
+                    "enabled": true
+                },
+                "2": {
+                    "allowWrestling": true,
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -68,5 +129,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-11T02:32:09.009432+00:00"
+    "timestamp": "2026-11-11T02:43:04.936371+00:00"
 }
