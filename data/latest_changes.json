@@ -1,5 +1,5 @@
 {
-    "build_hash": "671614d928917e1440f5cda63bbaf643d2b7b5e5",
+    "build_hash": "ab9e89dfb1260ce076a9cf884a0fa074b5b0135e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,9 +58,20 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "0a7JdI": "You can’t remove its bot from {server}, so the bot stays there until someone who can kick it does.",
+                "f22PGK": "This removes the test bot from {server}. The app itself stays."
+            },
+            "deleted": {
+                "tw+iyx": "Are you sure? This app will stop working in the server.",
+                "wVNCN7": "Kick {app} from Server"
+            },
+            "modified": {
+                "8OKM1N": {
+                    "new_value": "This takes the app out of {server}. It stays out until its owner adds it again.",
+                    "old_value": "This takes the app out of the server. Your project stays and you can publish it again any time."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -68,5 +79,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-11T04:09:53.998911+00:00"
+    "timestamp": "2026-11-11T05:12:12.498732+00:00"
 }
