@@ -1,5 +1,5 @@
 {
-    "build_hash": "fbe4258c79d28991b1b3b6cf8feb41c3c08ad9a5",
+    "build_hash": "2a3e503590ef80572cf3cd2dfd1cae5a0b58720c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,17 +58,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "OwxXLG": "Reminders before server events start",
-                "jML1TL": "Summaries of recent conversations"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "nuXMqX": {
-                    "new_value": "When server events go live",
-                    "old_value": "Live & upcoming events"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -76,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-11T14:14:00.770278+00:00"
+    "timestamp": "2026-11-11T14:24:52.697693+00:00"
 }
