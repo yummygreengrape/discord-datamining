@@ -1,5 +1,5 @@
 {
-    "build_hash": "95871cb178aaaf55357cfc913a0e6c58a356c9e8",
+    "build_hash": "917e99d30519420a87703b5c0744cad003706010",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,22 +58,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "lCtBoO": "Make Discord feel like Vice City. Active during the Grand Theft Auto VI event. Remove anytime. Theme lasts until {nonPremiumEndDate, date, ::yMd} for non-Nitro and Nitro Basic members and until {premiumEndDate, date, ::yMd} for Nitro members."
-            },
-            "deleted": {
-                "DTv8Yq": "App Icon",
-                "fobter": "Display Name Style"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "lCtBoO": "Discord를 Vice City처럼 꾸며 보세요. Grand Theft Auto VI 이벤트 기간 동안 적용되며, 언제든지 제거할 수 있어요. 테마는 Nitro를 사용하지 않는 이용자 및 Nitro Basic 멤버의 경우 {nonPremiumEndDate}까지, Nitro 멤버의 경우 {premiumEndDate}까지 유지됩니다."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-11T00:42:47.878277+00:00"
+    "timestamp": "2026-11-11T00:53:44.932214+00:00"
 }
