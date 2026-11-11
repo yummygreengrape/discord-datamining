@@ -1,5 +1,5 @@
 {
-    "build_hash": "ffa3d344f87aab61f8e34549ad0b33b44f58c41f",
+    "build_hash": "1d4586a90a0e5d40553319856158b90417207e05",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,22 +58,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "8yWAvp": "Nitro members get to keep the Vice City Theme for longer.",
-                "HEXAGON_CAMPAIGN_CARD_ID": "hexagonCampaign",
-                "MDycja": "Try the Vice City Theme: custom theme, app icon and font!"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "8yWAvp": "Discord Nitro 멤버는 Vice City 테마를 더 오래 유지할 수 있어요.",
-                "MDycja": "사용자 지정 테마, 앱 아이콘, 폰트를 사용할 수 있는 Vice City 테마를 사용해보세요!"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-11T01:37:29.678130+00:00"
+    "timestamp": "2026-11-11T01:48:30.006465+00:00"
 }
