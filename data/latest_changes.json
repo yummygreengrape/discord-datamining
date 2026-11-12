@@ -1,5 +1,5 @@
 {
-    "build_hash": "0320eeb10e0c1f960ea31b5d0b91812c66d1edb2",
+    "build_hash": "e4b4fabeb006a679f1fa82e26611df29e1b827bd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,8 +58,14 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "0Cbkgq": "{roleName} countHookHook({held}/{total})accessibleCountHookHook, {held} of {total} have it",
+                "2mZpw5": "{name} ({count})",
+                "LpAJ4R": "Search results for \"{query}\""
+            },
+            "deleted": {
+                "Pb7gE6": "{held} of {total} have it"
+            },
             "modified": {}
         },
         "ko": {
@@ -68,5 +74,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-12T22:46:47.423935+00:00"
+    "timestamp": "2026-11-12T22:57:45.822406+00:00"
 }
