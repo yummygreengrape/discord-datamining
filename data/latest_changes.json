@@ -1,5 +1,5 @@
 {
-    "build_hash": "455eff5f11f0666b07df640bc4a5a8465dd03829",
+    "build_hash": "fbf3823f08ad6c7c697126e035d3e91a080b4589",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,15 +58,23 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "8WoUjt": "Extend with Nitro and use the Vice City Theme until {premiumEndDate, date, ::MMMMd}. $[Learn more.](learnMoreHook)",
+                "bZTNDw": "Your Vice City Theme has ended",
+                "sL4EQm": "Vice City Theme expires soon"
+            },
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "8WoUjt": "Nitro로 이용 기간을 연장하고 Vice City 테마를 {premiumEndDate}까지 사용하세요. learnMoreHookHook자세히 알아보기.",
+                "bZTNDw": "Vice City 테마 이용 기간이 종료되었어요",
+                "sL4EQm": "Vice City 테마가 곧 만료돼요"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-12T22:13:46.175412+00:00"
+    "timestamp": "2026-11-12T22:24:44.067141+00:00"
 }
