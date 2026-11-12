@@ -1,5 +1,5 @@
 {
-    "build_hash": "31d02951490c41f70a4938dfe1bdb32c1193d180",
+    "build_hash": "3dd03199f4d6099001eec388478ec8ffd0a58598",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -59,20 +59,16 @@
     "string_changes": {
         "en": {
             "added": {
-                "a+dpJ3": "The Vice City Theme lasts until {premiumEndDate, date, ::MMMMd}. $[Learn more.](learnMoreHook)",
-                "gMC/rV": "Edit Display Name Style"
+                "SntY/v": "Music by Exyl. Only you can see your Checkpoint (unless you choose to share it). $[Learn More](learnMoreHook)"
             },
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "a+dpJ3": "Vice City 테마는 {premiumEndDate}까지 유지됩니다. learnMoreHookHook자세히 알아보기.",
-                "gMC/rV": "별명 스타일 편집"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-12T23:19:42.106744+00:00"
+    "timestamp": "2026-11-12T23:30:43.491753+00:00"
 }
