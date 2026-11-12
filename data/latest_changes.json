@@ -1,5 +1,5 @@
 {
-    "build_hash": "9521ec521b5591db43a422417edbffa6d64645be",
+    "build_hash": "0607604f3890caad443dd2042949246a3d6beee8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -59,14 +59,19 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "CALL_MOBILE_TAP_TO_RETURN": "{callState} — Tap to return to call",
+                "aUT3+M": "{callState} — Tap to return to call"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "aUT3+M": "{callState} — 탭하여 통화로 돌아가기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-11-12T20:01:37.224513+00:00"
+    "timestamp": "2026-11-12T20:12:29.550612+00:00"
 }
