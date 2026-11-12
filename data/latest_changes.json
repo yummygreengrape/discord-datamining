@@ -1,5 +1,5 @@
 {
-    "build_hash": "1ea93ebb829623cad848a9b8500883b8cb486ce2",
+    "build_hash": "cc050d602bbc4ef1267be04d1cbc3b41ca4bca06",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,9 +58,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "v//dvn": "Video progress"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -70,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-12T15:04:16.043169+00:00"
+    "timestamp": "2026-11-12T15:15:12.981165+00:00"
 }
