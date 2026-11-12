@@ -1,8 +1,59 @@
 {
-    "build_hash": "cc050d602bbc4ef1267be04d1cbc3b41ca4bca06",
+    "build_hash": "faf9a6a088bc83a8323d9c94236e7bf6bfc35135",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-bounty-stale-refresh-quest-home",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-05-bounty-stale-refresh-quest-home",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -68,5 +119,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-12T15:15:12.981165+00:00"
+    "timestamp": "2026-11-12T15:36:38.717294+00:00"
 }
