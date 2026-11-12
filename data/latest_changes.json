@@ -1,5 +1,5 @@
 {
-    "build_hash": "3dd03199f4d6099001eec388478ec8ffd0a58598",
+    "build_hash": "938fd2bef365bcb0493921042863569d0dd61b2c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -59,10 +59,53 @@
     "string_changes": {
         "en": {
             "added": {
-                "SntY/v": "Music by Exyl. Only you can see your Checkpoint (unless you choose to share it). $[Learn More](learnMoreHook)"
+                "/d6saK": "Saved",
+                "9iFuxr": "In Preview, uses {target}’s live data",
+                "DfBXSF": "Change in {target}",
+                "FKHnHv": "In Preview, uses {target}’s preview data",
+                "GNcOoY": "Publish {target} first",
+                "Gtd/KL": "preview data",
+                "I5F6YX": "Change",
+                "L3Bf1s": "Apps {name} talks to",
+                "MLa86y": "Live data",
+                "MZuPO3": "Preview {caller} uses {preview}. Live {caller} uses {live}.",
+                "PeX+1n": "live data",
+                "Q0D9Ie": "Always uses {target}’s preview data. Change it in {target}’s settings.",
+                "QEIP5j": "{caller} and {target} send each other data",
+                "QhPlAe": "Uses {target}’s live data",
+                "Tt5ih9": "{caller} uses {live}.",
+                "U+jxta": "People using {caller} will see preview data.",
+                "YbEDjJ": "{caller} uses {target}’s",
+                "aiHmSc": "{caller} gets data from {target}",
+                "bSQXpN": "Not available on Vibeyard",
+                "dpSkBA": "Preview {caller} uses {target}’s",
+                "i1D8eM": "{caller} sends data to {target}",
+                "rCqv8t": "Which {target} data {caller} uses in Preview",
+                "tkCyiM": "{caller} talks to {target}",
+                "uLPdNT": "Apps that talk to {name}",
+                "zxQdoh": "Live {caller} uses {target}’s"
             },
-            "deleted": {},
-            "modified": {}
+            "deleted": {
+                "1ck6o0": "Preview talks to preview. Live talks to live.",
+                "2TTprm": "Auto",
+                "6c2rjv": "These apps can talk to this one.",
+                "DP2NVW": "Even the live app talks to the preview.",
+                "Odrcmq": "Version to talk to",
+                "YY+UD8": "Even the preview talks to the live app.",
+                "bUZ6jT": "Always preview",
+                "eCzCxC": "Configure link",
+                "yXd0cc": "Always live"
+            },
+            "modified": {
+                "7TX+mR": {
+                    "new_value": "{name} won’t be able to use this app’s data anymore. You can link it again later.",
+                    "old_value": "{name} won’t be able to talk to this app anymore. You can link it again later."
+                },
+                "HHCa93": {
+                    "new_value": "Another app (ID {projectId})",
+                    "old_value": "Another app (project {projectId})"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -70,5 +113,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-12T23:30:43.491753+00:00"
+    "timestamp": "2026-11-12T23:41:40.921060+00:00"
 }
