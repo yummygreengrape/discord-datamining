@@ -1,5 +1,5 @@
 {
-    "build_hash": "0607604f3890caad443dd2042949246a3d6beee8",
+    "build_hash": "b69c94491d13bc45a5cdd72aa0fff5ac5374b006",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,9 +7,73 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_api_endpoints": [
+        {
+            "name": "BULK_GUILD_ROLE",
+            "status": "added",
+            "url": "/guilds/:param/bulk/role"
+        },
+        {
+            "name": "ENDPOINT_GUILDS_BULK_ROLE",
+            "status": "added",
+            "url": "/guilds/:param/bulk/role"
+        }
+    ],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-guild-bulk-role-actions",
+            "kind": "guild",
+            "status": "added",
+            "timestamp": "2026-11-12T20:20:24Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-guild-bulk-role-actions",
+            "kind": "guild",
+            "timestamp": "2026-11-12T20:20:24Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -58,20 +122,49 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "CALL_MOBILE_TAP_TO_RETURN": "{callState} — Tap to return to call",
-                "aUT3+M": "{callState} — Tap to return to call"
+            "added": {
+                "/LCz1j": "Roles to add",
+                "2U13qa": "None of the selected members have a role you can remove.",
+                "4v3Uck": "{count, plural, one {Found # member} other {Found # members}}. Not matched: {unmatched}",
+                "57SgYx": "Select Members by List",
+                "8B1n+M": "Enter {max, number} entries or fewer",
+                "AKXptd": "{count, plural, one {Found # member} other {Found # members}}",
+                "BGdrAB": "Enter at least one user ID or username",
+                "FbJEFq": "Select {max, number} or fewer members",
+                "HLUgs8": "Role action",
+                "J63jJO": "{entry} (not a member of this server)",
+                "JZ0+/0": "Updating roles…",
+                "K3ZhuJ": "Remove {count, plural, =0 {roles} one {# role} other {# roles}}",
+                "M5fcYt": "Edit Roles",
+                "MWvxdK": "Roles updated for {count, plural, one {# member} other {# members}}",
+                "Pb7gE6": "{held, number} of {total, number} have it",
+                "X7ClgM": "Paste up to {max, number} user IDs or usernames, separated by commas, spaces, or new lines.",
+                "XGfY0Z": "Roles updated for {succeeded, plural, one {# member} other {# members}}, {failed, number} failed",
+                "Xj4dhN": "{first}, {second}, [+{count, number} more]({onOpen})",
+                "aYi2eS": "Role update failed",
+                "b6K+9r": "Select {count, plural, one {# Member} other {# Members}}",
+                "hPpw6H": "Find Members",
+                "maeAjm": "Edit roles for {count, plural, one {# member} other {# members}}",
+                "nHzh/X": "Add {count, plural, =0 {roles} one {# role} other {# roles}}",
+                "oQQn8z": "Couldn’t look up members. Try again.",
+                "qQBqNv": "User IDs or usernames",
+                "s5752J": "{entry} (no member found)",
+                "sqCqvs": "Editing roles for:",
+                "t6QKaP": "Selected members",
+                "v65TBm": "There are no roles you can add.",
+                "w6lmZW": "Select by List",
+                "wCQ7ar": "{entry} (matches more than one member)",
+                "xdpeXG": "Roles to remove",
+                "ydcz2f": "You can pick up to {max, number} roles at a time"
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "aUT3+M": "{callState} — 탭하여 통화로 돌아가기"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-12T20:12:29.550612+00:00"
+    "timestamp": "2026-11-12T20:23:22.218702+00:00"
 }
