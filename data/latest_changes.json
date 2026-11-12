@@ -1,5 +1,5 @@
 {
-    "build_hash": "adaeeb4841cb47b46f1b36f3b5408a988c399b0e",
+    "build_hash": "c2ee374919ac0a700e5b8ae478410f22f4fc6ca9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -59,19 +59,12 @@
     "string_changes": {
         "en": {
             "added": {
-                "7OWBef": "Found a summary on the web?"
+                "NOTHING_STREAMING": "Start streaming to Pass the Controller",
+                "PRESS_ESC_TO_EXIT": "Press 'Esc' to exit",
+                "TAKE_BACK": "Take back controller"
             },
             "deleted": {},
-            "modified": {
-                "DEN16e": {
-                    "new_value": "This only removes it from your server’s web pages. The channel isn’t changed.",
-                    "old_value": "Only this summary is removed from your server’s web pages. Your messages and channel stay untouched."
-                },
-                "SncNRE": {
-                    "new_value": "Remove by Link or ID",
-                    "old_value": "Find a summary"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -79,47 +72,5 @@
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "DEN16e": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "같은 묶음에는 웹에 표시할 내용을 검토하고 요약을 제거하는 화면 문구가 있어요. 삭제 범위가 요약의 웹 노출에 한정된다고 명시하므로 서버 대화나 채널 자체의 삭제와 구별할 수 있어요.",
-                    "generated_at": "2026-11-06T15:06:01.567003Z",
-                    "intent_type": "server_or_permission_notice",
-                    "related_terms": [
-                        "Channel Summaries",
-                        "Server web page",
-                        "Review content",
-                        "Remove summary",
-                        "Retry"
-                    ],
-                    "search_intent": "Discord 웹페이지에서 요약을 지우면 원래 메시지도 지워지는지 확인하려는 검색이에요.",
-                    "source_context": "11월 4일 서버 웹페이지 문자열에는 요약 검토·제거, 공개 전 상태와 목록 재시도 안내가 함께 있어요.",
-                    "summary": "이 삭제는 서버 웹페이지의 해당 요약만 내리고 메시지와 채널은 그대로 둔다는 설명이에요.",
-                    "what_it_means": "선택한 요약의 웹 표시만 제거하며 원본 메시지와 채널은 유지해요.",
-                    "when_it_appears": "서버 웹페이지에서 요약 제거를 확인하는 대화상자에 나타날 수 있어요."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The same group contains web-content review and summary-removal controls. It explicitly scopes the action to a summary’s web appearance, allowing the reader to distinguish it from deleting the underlying server conversation.",
-                    "generated_at": "2026-11-06T15:06:01.567003Z",
-                    "intent_type": "server_or_permission_notice",
-                    "related_terms": [
-                        "Channel Summaries",
-                        "Server web page",
-                        "Review content",
-                        "Remove summary",
-                        "Retry"
-                    ],
-                    "search_intent": "The reader is checking whether removing a Discord web summary also deletes the original messages.",
-                    "source_context": "The November 4 server web-page strings group summary review and removal, pre-live states and list-retry messages.",
-                    "summary": "This explanation limits removal to the selected summary on the server’s web pages and leaves messages and the channel intact.",
-                    "what_it_means": "Only the chosen summary’s web display is removed; the source messages and channel remain.",
-                    "when_it_appears": "It may appear in the confirmation dialog for removing a summary from server web pages."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-11-12T19:27:52.753117+00:00"
+    "timestamp": "2026-11-12T19:39:18.104689+00:00"
 }
