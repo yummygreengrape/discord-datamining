@@ -1,5 +1,5 @@
 {
-    "build_hash": "cf6e4d835ba6db874e52b61298edf47dd326f84d",
+    "build_hash": "612e2fc3640e1bda6e9a7a8313f008ed684b6361",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,7 +58,18 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "4QQ7/n": "Notifications are disabled",
+                "FyqnR3": "Open system settings",
+                "HszTZQ": "You won't receive Call and Message notifications until you turn them back on in your system settings.",
+                "Jweb0a": "You won't receive Server notifications until you turn them back on in your system settings.",
+                "NQH8GA": "You won't receive Discovery and Highlights notifications until you turn them back on in your system settings.",
+                "QhXeCd": "You won't receive push notifications until you allow them in your phone settings.",
+                "UbGSlJ": "You won't receive Friend and Activity notifications until you turn them back on in your system settings.",
+                "dF4FmA": "Call and message notifications are off in system settings",
+                "rwJXCw": "Server notifications are off in system settings",
+                "tgF0IR": "Friend and activity notifications are off in system settings"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +79,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-12T16:43:08.659541+00:00"
+    "timestamp": "2026-11-12T16:54:30.951375+00:00"
 }
