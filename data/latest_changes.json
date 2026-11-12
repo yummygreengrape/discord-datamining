@@ -1,5 +1,5 @@
 {
-    "build_hash": "c90093085309282fb963f55dc53f447c9d2855c7",
+    "build_hash": "89da7415d23a5639a87ce142e4d3a4809af3219c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,13 +58,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "58TARv": "Open Checkpoint (Unavailable)",
-                "FbmMyu": "No Character",
-                "j5X4PU": "Compact Assets",
-                "kXGgZf": "Settings",
-                "r0B3ck": "Options"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -74,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-12T14:21:48.052296+00:00"
+    "timestamp": "2026-11-12T14:53:18.066683+00:00"
 }
