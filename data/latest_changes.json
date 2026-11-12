@@ -1,5 +1,5 @@
 {
-    "build_hash": "e4b4fabeb006a679f1fa82e26611df29e1b827bd",
+    "build_hash": "ecc66feda37adf995935260323ac2a676f57ca70",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -59,14 +59,23 @@
     "string_changes": {
         "en": {
             "added": {
-                "0Cbkgq": "{roleName} countHookHook({held}/{total})accessibleCountHookHook, {held} of {total} have it",
-                "2mZpw5": "{name} ({count})",
+                "0Cbkgq": "{roleName} $[({held, number}/{total, number})](countHook)$[, {held, number} of {total, number} have it](accessibleCountHook)",
+                "2mZpw5": "{name} ({count, number})",
                 "LpAJ4R": "Search results for \"{query}\""
             },
             "deleted": {
-                "Pb7gE6": "{held} of {total} have it"
+                "Pb7gE6": "{held, number} of {total, number} have it"
             },
-            "modified": {}
+            "modified": {
+                "K3ZhuJ": {
+                    "new_value": "Remove {count, plural, =0 {Roles} one {# Role} other {# Roles}}",
+                    "old_value": "Remove {count, plural, =0 {roles} one {# role} other {# roles}}"
+                },
+                "nHzh/X": {
+                    "new_value": "Add {count, plural, =0 {Roles} one {# Role} other {# Roles}}",
+                    "old_value": "Add {count, plural, =0 {roles} one {# role} other {# roles}}"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -74,5 +83,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-12T22:57:45.822406+00:00"
+    "timestamp": "2026-11-12T23:08:47.684790+00:00"
 }
