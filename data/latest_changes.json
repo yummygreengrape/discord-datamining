@@ -1,5 +1,5 @@
 {
-    "build_hash": "abf712b94cbf207e31f0d2e7d1a97500338a0fbc",
+    "build_hash": "2535e3c70f30eb9ea0cf4fc3f3eaa6cbd52bd0a6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,19 +9,7 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-guild-bulk-role-actions",
-            "kind": "guild",
-            "timestamp": "2026-11-12T20:20:24Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -70,42 +58,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "/LCz1j": "Roles to add",
-                "2U13qa": "None of the selected members have a role you can remove.",
-                "4v3Uck": "{count, plural, one {Found # member} other {Found # members}}. Not matched: {unmatched}",
-                "57SgYx": "Select Members by List",
-                "8B1n+M": "Enter {max, number} entries or fewer",
-                "AKXptd": "{count, plural, one {Found # member} other {Found # members}}",
-                "BGdrAB": "Enter at least one user ID or username",
-                "FbJEFq": "Select {max, number} or fewer members",
-                "GL+yOs": "Your stats are hidden due to your privacy settings, but you can still show off your character.",
-                "HLUgs8": "Role action",
-                "J63jJO": "{entry} (not a member of this server)",
-                "JZ0+/0": "Updating roles…",
-                "K3ZhuJ": "Remove {count, plural, =0 {roles} one {# role} other {# roles}}",
-                "M5fcYt": "Edit Roles",
-                "MWvxdK": "Roles updated for {count, plural, one {# member} other {# members}}",
-                "Pb7gE6": "{held, number} of {total, number} have it",
-                "X7ClgM": "Paste up to {max, number} user IDs or usernames, separated by commas, spaces, or new lines.",
-                "XGfY0Z": "Roles updated for {succeeded, plural, one {# member} other {# members}}, {failed, number} failed",
-                "Xj4dhN": "{first}, {second}, [+{count, number} more]({onOpen})",
-                "aYi2eS": "Role update failed",
-                "b6K+9r": "Select {count, plural, one {# Member} other {# Members}}",
-                "hPpw6H": "Find Members",
-                "maeAjm": "Edit roles for {count, plural, one {# member} other {# members}}",
-                "nHzh/X": "Add {count, plural, =0 {roles} one {# role} other {# roles}}",
-                "oQQn8z": "Couldn’t look up members. Try again.",
-                "qQBqNv": "User IDs or usernames",
-                "s5752J": "{entry} (no member found)",
-                "sqCqvs": "Editing roles for:",
-                "t6QKaP": "Selected members",
-                "v65TBm": "There are no roles you can add.",
-                "w6lmZW": "Select by List",
-                "wCQ7ar": "{entry} (matches more than one member)",
-                "xdpeXG": "Roles to remove",
-                "ydcz2f": "You can pick up to {max, number} roles at a time"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -115,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-12T21:08:08.502485+00:00"
+    "timestamp": "2026-11-12T21:19:02.425673+00:00"
 }
