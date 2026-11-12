@@ -1,5 +1,5 @@
 {
-    "build_hash": "c2ee374919ac0a700e5b8ae478410f22f4fc6ca9",
+    "build_hash": "97e23663c75935336e8aab79f919b1e15a6ebd8d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,18 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-payment-element-accordion-layout",
+            "kind": "user",
+            "timestamp": "2026-11-12T19:15:16Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -59,12 +70,70 @@
     "string_changes": {
         "en": {
             "added": {
-                "NOTHING_STREAMING": "Start streaming to Pass the Controller",
-                "PRESS_ESC_TO_EXIT": "Press 'Esc' to exit",
-                "TAKE_BACK": "Take back controller"
+                "+WjZ1W": "Choices",
+                "1vr4Lp": "Select an option",
+                "2Nmx89": "Choice {current, number} of {total, number}",
+                "3XYsdu": "All of them",
+                "3ncMZW": "Rank {count, number} choices.",
+                "4VVMQ4": "Drag choices here, or add them from the list below.",
+                "69lK34": "Remove {choice} from ranking",
+                "6vETgO": "Check this answer and try again.",
+                "7OWBef": "Found a summary on the web?",
+                "9bYdRi": "Required",
+                "BE1zNg": "Select at least {count, number}.",
+                "BrvdvV": "Choose an option for every comparison.",
+                "C2Yx8b": "Select {min, number} to {max, number}",
+                "CYgHSQ": "Select up to {count, number}",
+                "EcbOOg": "None of them",
+                "FvDAI+": "Reveal the deal!",
+                "GDQLtv": "Select one option.",
+                "GyKIes": "Submit",
+                "HwqwCr": "{count, plural, one {One answer needs your attention.} other {# answers need your attention.}}",
+                "IPBwbI": "Reveal the deal for day {day}",
+                "LH/X6e": "Next",
+                "LRkHAo": "Some of them",
+                "LkpNt8": "Answer this row.",
+                "NcfvIH": "Set {current, number} of {total, number}",
+                "PmTEw/": "Rank every choice, starting with your favorite",
+                "Q2yZXD": "Tell us more about “{choice}”",
+                "S0yew2": "This question is required.",
+                "ShDjDb": "Add",
+                "TCLow1": "Your answers are too long. Shorten them and try again.",
+                "UvbGfF": "This answer is too long.",
+                "WapWNF": "Select at most {count, number}.",
+                "WwU3lH": "None of these",
+                "ZEO+L0": "Drag {choice}",
+                "ZlHvgh": "Your ranking is full. Remove a choice before adding another.",
+                "b0ayfY": "Day {day}, locked",
+                "e1yaew": "This page changed while you had it open. Check your answers and try again.",
+                "fD9jT0": "Drop here to remove it from your ranking.",
+                "fwbD3G": "{row}: {column}",
+                "h9Bg0P": "Rank your top {count, number}",
+                "hARiEJ": "Drag to reorder. With a keyboard, press Control+D or Command+D to pick it up, the arrow keys to move, and Enter to drop.",
+                "hTrL89": "Move {choice} up",
+                "i+lSRa": "Select at least {count, number}",
+                "jruV65": "drag handle",
+                "kS/htE": "Your ranking",
+                "mDRZoH": "Add {choice} to your ranking",
+                "mRwiYF": "Choose {label}",
+                "onSd4S": "Page {current, number} of {total, number}",
+                "soVhAf": "Pick a most and a least option in every set, and answer the last question.",
+                "uai7DF": "This option can’t be combined with others.",
+                "udbN7p": "{side}: {item}",
+                "vYs6bp": "Tell us a bit more to choose this option.",
+                "y6C60S": "Move {choice} down"
             },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "DEN16e": {
+                    "new_value": "This only removes it from your server’s web pages. The channel isn’t changed.",
+                    "old_value": "Only this summary is removed from your server’s web pages. Your messages and channel stay untouched."
+                },
+                "SncNRE": {
+                    "new_value": "Remove by Link or ID",
+                    "old_value": "Find a summary"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -72,5 +141,47 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-12T19:39:18.104689+00:00"
+    "string_context": {
+        "en": {
+            "DEN16e": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "같은 묶음에는 웹에 표시할 내용을 검토하고 요약을 제거하는 화면 문구가 있어요. 삭제 범위가 요약의 웹 노출에 한정된다고 명시하므로 서버 대화나 채널 자체의 삭제와 구별할 수 있어요.",
+                    "generated_at": "2026-11-06T15:06:01.567003Z",
+                    "intent_type": "server_or_permission_notice",
+                    "related_terms": [
+                        "Channel Summaries",
+                        "Server web page",
+                        "Review content",
+                        "Remove summary",
+                        "Retry"
+                    ],
+                    "search_intent": "Discord 웹페이지에서 요약을 지우면 원래 메시지도 지워지는지 확인하려는 검색이에요.",
+                    "source_context": "11월 4일 서버 웹페이지 문자열에는 요약 검토·제거, 공개 전 상태와 목록 재시도 안내가 함께 있어요.",
+                    "summary": "이 삭제는 서버 웹페이지의 해당 요약만 내리고 메시지와 채널은 그대로 둔다는 설명이에요.",
+                    "what_it_means": "선택한 요약의 웹 표시만 제거하며 원본 메시지와 채널은 유지해요.",
+                    "when_it_appears": "서버 웹페이지에서 요약 제거를 확인하는 대화상자에 나타날 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The same group contains web-content review and summary-removal controls. It explicitly scopes the action to a summary’s web appearance, allowing the reader to distinguish it from deleting the underlying server conversation.",
+                    "generated_at": "2026-11-06T15:06:01.567003Z",
+                    "intent_type": "server_or_permission_notice",
+                    "related_terms": [
+                        "Channel Summaries",
+                        "Server web page",
+                        "Review content",
+                        "Remove summary",
+                        "Retry"
+                    ],
+                    "search_intent": "The reader is checking whether removing a Discord web summary also deletes the original messages.",
+                    "source_context": "The November 4 server web-page strings group summary review and removal, pre-live states and list-retry messages.",
+                    "summary": "This explanation limits removal to the selected summary on the server’s web pages and leaves messages and the channel intact.",
+                    "what_it_means": "Only the chosen summary’s web display is removed; the source messages and channel remain.",
+                    "when_it_appears": "It may appear in the confirmation dialog for removing a summary from server web pages."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-11-12T19:50:40.514424+00:00"
 }
