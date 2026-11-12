@@ -1,5 +1,5 @@
 {
-    "build_hash": "ecc66feda37adf995935260323ac2a676f57ca70",
+    "build_hash": "31d02951490c41f70a4938dfe1bdb32c1193d180",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -59,29 +59,20 @@
     "string_changes": {
         "en": {
             "added": {
-                "0Cbkgq": "{roleName} $[({held, number}/{total, number})](countHook)$[, {held, number} of {total, number} have it](accessibleCountHook)",
-                "2mZpw5": "{name} ({count, number})",
-                "LpAJ4R": "Search results for \"{query}\""
+                "a+dpJ3": "The Vice City Theme lasts until {premiumEndDate, date, ::MMMMd}. $[Learn more.](learnMoreHook)",
+                "gMC/rV": "Edit Display Name Style"
             },
-            "deleted": {
-                "Pb7gE6": "{held, number} of {total, number} have it"
-            },
-            "modified": {
-                "K3ZhuJ": {
-                    "new_value": "Remove {count, plural, =0 {Roles} one {# Role} other {# Roles}}",
-                    "old_value": "Remove {count, plural, =0 {roles} one {# role} other {# roles}}"
-                },
-                "nHzh/X": {
-                    "new_value": "Add {count, plural, =0 {Roles} one {# Role} other {# Roles}}",
-                    "old_value": "Add {count, plural, =0 {roles} one {# role} other {# roles}}"
-                }
-            }
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "a+dpJ3": "Vice City 테마는 {premiumEndDate}까지 유지됩니다. learnMoreHookHook자세히 알아보기.",
+                "gMC/rV": "별명 스타일 편집"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-12T23:08:47.684790+00:00"
+    "timestamp": "2026-11-12T23:19:42.106744+00:00"
 }
