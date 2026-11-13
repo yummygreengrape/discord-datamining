@@ -1,5 +1,5 @@
 {
-    "build_hash": "41db1361babfb33aa4faeda20cc27073956f1c47",
+    "build_hash": "2607cb24035c60a52426f2380f6abfc567cbff06",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,8 +58,24 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "0B5BDf": "We couldn’t load this survey. Check your connection and try again.",
+                "1PdKvg": "Reveal the deal!",
+                "2HrkOr": "Share your feedback",
+                "3XUf3j": "Loading survey",
+                "4LP8Gn": "Close",
+                "EeYnVZ": "Day {day}, locked",
+                "OslXYm": "You’re going a little fast. Please try again later.",
+                "TJmuBy": "Try again",
+                "XQNwbP": "We couldn’t send your answers. Check your connection and try again.",
+                "webc9u": "This survey isn’t available right now.",
+                "zzDQv3": "Reveal the deal for day {day}"
+            },
+            "deleted": {
+                "FvDAI+": "Reveal the deal!",
+                "IPBwbI": "Reveal the deal for day {day}",
+                "b0ayfY": "Day {day}, locked"
+            },
             "modified": {}
         },
         "ko": {
@@ -68,5 +84,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T23:06:30.424292+00:00"
+    "timestamp": "2026-11-13T23:17:22.875217+00:00"
 }
