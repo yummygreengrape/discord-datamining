@@ -1,5 +1,5 @@
 {
-    "build_hash": "daa9388af3fbfc8a2b73e0d3e1612da3ed574847",
+    "build_hash": "1fb22b4c66ea5cf29e553dadd87e6ee0c2006f98",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-notify-friends-on-custom-status-update",
+            "kind": "user",
+            "timestamp": "2026-11-13T21:41:27Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -58,7 +70,10 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "AOUyrx": "Share when I update my custom status",
+                "bZ094C": "Allow friends to receive a push notification when you update your custom status."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +83,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T21:50:27.238132+00:00"
+    "timestamp": "2026-11-13T22:01:46.366604+00:00"
 }
