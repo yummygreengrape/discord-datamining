@@ -1,5 +1,5 @@
 {
-    "build_hash": "7effc04130a596258d76da3bf85df09e424771dc",
+    "build_hash": "b7af3bd1b4a023d6d8085935606a0b258c4f2919",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,7 +58,11 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "YiNO8W": "Members can send one message every {hours, plural, one {# hour} other {# hours}} {minutes, plural, =0 {} one {# minute} other {# minutes}} {seconds, plural, =0 {} one {# second} other {# seconds}}",
+                "oSzkf2": "Members can send one message every {minutes, plural, one {# minute} other {# minutes}} {seconds, plural, =0 {} one {# second} other {# seconds}}",
+                "uaRDmS": "Members can send one message every {seconds, plural, one {# second} other {# seconds}}."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +72,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T18:57:05.145922+00:00"
+    "timestamp": "2026-11-13T19:18:13.907653+00:00"
 }
