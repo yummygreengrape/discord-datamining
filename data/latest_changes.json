@@ -1,5 +1,5 @@
 {
-    "build_hash": "8bbd4039b7b128dd7c38b27ec91c8508004e8c75",
+    "build_hash": "461abc718c00cc2d28a175aaa6c8c5c1c7a96791",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-cti-desktop-viewer",
+            "kind": "user",
+            "timestamp": "2026-11-13T19:56:58Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -58,7 +70,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "7nfXWu": "Some players never skipped a game day. If you slacked off, there’s always next year."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +82,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T19:50:20.858894+00:00"
+    "timestamp": "2026-11-13T20:01:13.464168+00:00"
 }
