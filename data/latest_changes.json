@@ -1,5 +1,5 @@
 {
-    "build_hash": "6abdae215d5ffd268c414d6ce0f640f982c86271",
+    "build_hash": "791462a0fc55ed0127443fbb1d66aed0a4410971",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -59,16 +59,21 @@
     "string_changes": {
         "en": {
             "added": {
-                "FM8pY7": "Share activity information from games and connected apps you use, including when and how you engage."
+                "S7X7/T": "Hold and drag to reorder",
+                "X5Fk6g": "Dismiss {widgetName} options"
             },
-            "deleted": {},
+            "deleted": {
+                "6TwVYM": "Close {widgetName} options"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "6TwVYM": "{widgetName} 옵션 닫기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T04:44:10.084813+00:00"
+    "timestamp": "2026-11-13T05:05:23.217929+00:00"
 }
