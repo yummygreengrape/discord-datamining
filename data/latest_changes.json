@@ -1,5 +1,5 @@
 {
-    "build_hash": "e445a3df9f746b591f9419ec6459ecf9cf1e0ef9",
+    "build_hash": "d09d80c4ec56fa21d67a89fda1e1d7c1bd992901",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -59,7 +59,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "7GnQoE": "Members with appropriate perms can send guild invites from Discord."
+                "AOUyrx": "Share when I update my custom status",
+                "bZ094C": "Allow friends to receive a push notification when you update your custom status."
             },
             "deleted": {},
             "modified": {}
@@ -70,5 +71,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T21:17:19.241818+00:00"
+    "timestamp": "2026-11-13T21:28:12.632388+00:00"
 }
