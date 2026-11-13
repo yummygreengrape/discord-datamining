@@ -1,5 +1,5 @@
 {
-    "build_hash": "95513fa1c1a54ba014e4f836a82ee6105a01f17a",
+    "build_hash": "e445a3df9f746b591f9419ec6459ecf9cf1e0ef9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,19 +58,17 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "7GnQoE": "Members with appropriate perms can send guild invites from Discord."
+            },
             "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {
-                "Mh/Ooc": "잠금 해제한 모든 새로운 기능을 확인해 보세요.",
-                "QrkiD2": "계정 연결하기",
-                "SXPtrb": "{count}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T21:06:23.951911+00:00"
+    "timestamp": "2026-11-13T21:17:19.241818+00:00"
 }
