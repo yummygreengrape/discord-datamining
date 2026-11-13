@@ -1,5 +1,5 @@
 {
-    "build_hash": "2f3f58a1a899df803e725a84e52230a217b8c0bd",
+    "build_hash": "2c8d0723cbb57678b26348ca5b3c2979ef485b73",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,7 +58,14 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Mh/Ooc": "Check out all the new features you've unlocked.",
+                "QrkiD2": "Link Account",
+                "SRetJj": "Link your account to unlock in-game social features and get $[orbs](orbsIconHook) {orbCount} Discord Orbs!",
+                "UV9ikL": "Link your {applicationName} account",
+                "g56Cg0": "Account Connected and {orbCount} Orbs claimed!",
+                "jX/Uhq": "Link your account to unlock in-game social features."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +75,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T04:12:05.997665+00:00"
+    "timestamp": "2026-11-13T04:22:59.596036+00:00"
 }
