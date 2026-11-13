@@ -1,5 +1,5 @@
 {
-    "build_hash": "ebd3bf57911952c1c69c8fda2c708083f3fde140",
+    "build_hash": "95513fa1c1a54ba014e4f836a82ee6105a01f17a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -63,10 +63,14 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "Mh/Ooc": "잠금 해제한 모든 새로운 기능을 확인해 보세요.",
+                "QrkiD2": "계정 연결하기",
+                "SXPtrb": "{count}"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T20:55:33.196447+00:00"
+    "timestamp": "2026-11-13T21:06:23.951911+00:00"
 }
