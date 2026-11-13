@@ -1,5 +1,5 @@
 {
-    "build_hash": "df4622e77b1e72bdf47789129069efc9666565ef",
+    "build_hash": "f62cd74aa7badc4615725cf06f149c444aaf516c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -60,7 +60,28 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "MEQJ1m": {
+                    "new_value": "Linked channels that connect chat across the game and Discord.",
+                    "old_value": "Linked channels that connect group chat across the game and Discord"
+                },
+                "WUVzdk": {
+                    "new_value": "Discord roles that sync automatically with game rank.",
+                    "old_value": "Auto-synced roles mapped to your in-game rank"
+                },
+                "WmxMAI": {
+                    "new_value": "You’ll automatically be added to the {displayNoun, select, GUILD {guild’s linked server, and can unlock special guild features} other {linked server, and can unlock special features}}",
+                    "old_value": "You’ll also become a member of the {displayNoun, select, GUILD {guild’s linked server to unlock special guild features} other {linked server to unlock special features}}"
+                },
+                "bfJ/sO": {
+                    "new_value": "Join the {orgName} {noun} in {gameName}.",
+                    "old_value": "You’ve been invited to join {orgName}, an in-game {noun} in {gameName}."
+                },
+                "gptW7Y": {
+                    "new_value": "Join the {orgName} {noun} in {gameName}.",
+                    "old_value": "You’ve been invited to join the in-game {noun}: {orgName}"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -68,5 +89,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T18:24:26.208983+00:00"
+    "timestamp": "2026-11-13T18:35:20.324516+00:00"
 }
