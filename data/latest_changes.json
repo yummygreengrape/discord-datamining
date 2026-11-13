@@ -1,5 +1,5 @@
 {
-    "build_hash": "e40640ad50a49705097944dcba192d6437ddbbf1",
+    "build_hash": "1f53c897ad7db486d0262d321567d7300c045f68",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,11 +58,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "6FmRyw": "Server",
-                "IT21e4": "Some settings are set for each server. They show up once your app is in one.",
-                "NVQu+I": "These settings have their own value in each server."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -72,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T03:08:24.354884+00:00"
+    "timestamp": "2026-11-13T03:19:24.604134+00:00"
 }
