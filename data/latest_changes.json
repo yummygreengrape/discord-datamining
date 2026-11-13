@@ -1,5 +1,5 @@
 {
-    "build_hash": "df6aa221c4ce748c9b16f3f70ded11ee6fd8ade1",
+    "build_hash": "50173e9826e204d7e9c40ed6b9810bcf5ef1cebf",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,72 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "showCoachmark"
-            ],
-            "default_config": {
-                "showCoachmark": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-meta-quest-app-upsell-coachmark",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-11-13T01:54:25Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "showCoachmark": false
-                },
-                "1": {
-                    "showCoachmark": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "showCoachmark"
-            ],
-            "default_config": {
-                "showCoachmark": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-meta-quest-app-upsell-coachmark",
-            "kind": "user",
-            "timestamp": "2026-11-13T01:54:25Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "showCoachmark": false
-                },
-                "1": {
-                    "showCoachmark": true
-                }
-            }
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-shop-this-look-full-profile-button",
-            "kind": "user",
-            "timestamp": "2026-11-13T01:59:31Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -123,10 +59,7 @@
     "string_changes": {
         "en": {
             "added": {
-                "2dsPje": "Get the full Discord experience, optimized for VR. Join voice, chat with friends, and start video calls as your Meta avatar, all without leaving your headset.",
-                "BzzCNE": "Subscribe to grow your stash with {multiplier}x rewards.",
-                "QvXYv2": "Get it on Horizon Store",
-                "zrko2m": "Download the new Discord app for Meta Quest!"
+                "xH6QTw": "View game"
             },
             "deleted": {},
             "modified": {}
@@ -137,5 +70,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T02:03:35.183880+00:00"
+    "timestamp": "2026-11-13T02:14:29.933792+00:00"
 }
