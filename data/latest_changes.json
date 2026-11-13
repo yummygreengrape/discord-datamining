@@ -1,5 +1,5 @@
 {
-    "build_hash": "cd5f9c6631cb5bc1369f9ca56755de11b5516ea5",
+    "build_hash": "668e6d0570bdec09e63b3c6edc7555c186da2e27",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -59,58 +59,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "JMVuvY": "Your voice in others’ Clips"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "JMVuvY": "다른 사람의 클립에 내 음성 포함"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "JMVuvY": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "같은 통화의 다른 사람이 클립을 만들 때 내 목소리를 포함할 수 있는지에 관한 항목이에요. 통화에서 실제로 어느 상태인지 보여주는 별도 표시도 있어요.",
-                    "generated_at": "2026-11-12T15:08:00Z",
-                    "intent_type": "account_or_safety_notice",
-                    "related_terms": [
-                        "내 목소리 포함",
-                        "통화 상태",
-                        "데이터 및 개인정보 보호",
-                        "클립"
-                    ],
-                    "search_intent": "데이터 및 개인정보 보호에서 이 설정이 무엇을 제어하는지 찾는 검색이에요.",
-                    "source_context": "11월 10일 클립 문구에 음성 포함·제외 표시와 선택 버튼, 통화 중 안내가 같이 나왔어요. 클립에 내 목소리를 넣을지 묻는 문구는 데이터 및 개인정보 보호 항목을 가리켜요.",
-                    "summary": "‘Your voice in others’ Clips’는 다른 사람의 클립에 내 음성을 넣는 설정 이름이에요.",
-                    "what_it_means": "내가 직접 만드는 클립 설정과 별개로, 다른 사람의 클립에 들어가는 내 음성에 관한 선택이에요.",
-                    "when_it_appears": "클립에 내 음성을 포함할 수 있는지 설명하는 개인정보 보호 화면에서 볼 수 있어요."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "It covers audio from you when another person in the same voice session uses Clips. Discord also has separate notices that show the inclusion state during the call.",
-                    "generated_at": "2026-11-12T15:08:00Z",
-                    "intent_type": "account_or_safety_notice",
-                    "related_terms": [
-                        "Include My Voice",
-                        "Clips in use",
-                        "voice channel",
-                        "Data & Privacy"
-                    ],
-                    "search_intent": "Someone wants to identify the setting that controls whether their audio can appear in another person's clip.",
-                    "source_context": "The Nov 10 Clips group includes included and excluded call states, a voice inclusion control, and a call tooltip. The voice inclusion prompt points to Data & Privacy.",
-                    "summary": "“Your voice in others’ Clips” names the privacy control for including your voice in clips other people make.",
-                    "what_it_means": "The choice applies to your voice in other people’s Discord Clips.",
-                    "when_it_appears": "It appears in privacy copy about voice inclusion in Clips."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-11-13T22:23:34.708575+00:00"
+    "timestamp": "2026-11-13T22:44:44.984786+00:00"
 }
