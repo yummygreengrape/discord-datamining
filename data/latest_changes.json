@@ -1,5 +1,5 @@
 {
-    "build_hash": "53f1df8e679f987e5b0d7bc6791725872f59eab7",
+    "build_hash": "3c911dd1ab3feda431d05d9dd581ceb1c7b25cec",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,18 +58,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "9b3KdT": "People from {server} who collaborate on this app will lose access to it.",
-                "Aet9+Z": "Add {app} to another server",
-                "D8IMa/": "Create its app channels there",
-                "Ewprwt": "It is the same app in every server, and publishing updates all of them.",
-                "HlSg2P": "Your app is in these servers. Publishing updates all of them.",
-                "QyYJ4O": "Test server",
-                "RBPj0b": "Add to Another Server",
-                "kCC2X2": "#{channel} in {server}",
-                "oQ3WRg": "You can’t remove its bot from {server}, so the bot stays there until the app is next published.",
-                "yAZWTm": "Servers"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -79,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T01:19:52.295903+00:00"
+    "timestamp": "2026-11-13T01:30:50.589902+00:00"
 }
