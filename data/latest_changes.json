@@ -1,5 +1,5 @@
 {
-    "build_hash": "2193459c0661a3b9da6532d2442a17702936b250",
+    "build_hash": "971a642b4ac6dbe7e6250f8bded2bccfeeea7cba",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -59,12 +59,7 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "GDQLtv": "Select one option.",
-                "TCLow1": "Your answers are too long. Shorten them and try again.",
-                "e1yaew": "This page changed while you had it open. Check your answers and try again.",
-                "uai7DF": "This option can’t be combined with others."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -73,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-12T23:52:37.350825+00:00"
+    "timestamp": "2026-11-13T00:03:33.158757+00:00"
 }
