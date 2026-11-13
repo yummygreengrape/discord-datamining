@@ -1,12 +1,82 @@
 {
-    "build_hash": "14c9265c61235a6b7f86542ce8b968689278b3b7",
+    "build_hash": "b6930ae52c47536ab3b3ed7c60df9c58ea1cadf6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "probeAudioEffects"
+            ],
+            "default_config": {
+                "probeAudioEffects": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-audio-effects-probe",
+            "kind": "user",
+            "old_config_keys": [
+                "probeAudioEffects"
+            ],
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "probeAudioEffects": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "probeAudioEffects": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "probeAudioEffects"
+            ],
+            "default_config": {
+                "probeAudioEffects": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-audio-effects-probe",
+            "kind": "user",
+            "old_config_keys": [
+                "probeAudioEffects"
+            ],
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "probeAudioEffects": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "probeAudioEffects": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -58,7 +128,13 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/fNrht": "Stream volume lives here now",
+                "49qRvZ": "Stream volume has moved",
+                "6nKlgr": "Long press the stream",
+                "WQF2/t": "Adjust the stream volume using this slider",
+                "YuNoIm": "Show me"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +144,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T23:28:47.641235+00:00"
+    "timestamp": "2026-11-13T23:40:27.614661+00:00"
 }
