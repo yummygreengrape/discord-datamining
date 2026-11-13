@@ -1,5 +1,5 @@
 {
-    "build_hash": "791462a0fc55ed0127443fbb1d66aed0a4410971",
+    "build_hash": "d35cdeb1e91e2f5f1d2d64d6780acca0b7492d10",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,22 +58,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "S7X7/T": "Hold and drag to reorder",
-                "X5Fk6g": "Dismiss {widgetName} options"
-            },
-            "deleted": {
-                "6TwVYM": "Close {widgetName} options"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "6TwVYM": "{widgetName} 옵션 닫기"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T05:05:23.217929+00:00"
+    "timestamp": "2026-11-13T05:16:17.466763+00:00"
 }
