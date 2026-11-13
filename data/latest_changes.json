@@ -1,5 +1,5 @@
 {
-    "build_hash": "f62cd74aa7badc4615725cf06f149c444aaf516c",
+    "build_hash": "e19a9e53202eadb90b5780788c193dc6cf636d26",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,7 +7,18 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "BILLING_PAST_DUE_PAYMENT_PAYMENT_INTENT",
+            "status": "added",
+            "url": "/billing/past-due-payment/payment-intent"
+        },
+        {
+            "name": "ENDPOINT_BILLING_PAST_DUE_PAYMENT_PAYMENT_INTENT",
+            "status": "added",
+            "url": "/billing/past-due-payment/payment-intent"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [
@@ -60,28 +71,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "MEQJ1m": {
-                    "new_value": "Linked channels that connect chat across the game and Discord.",
-                    "old_value": "Linked channels that connect group chat across the game and Discord"
-                },
-                "WUVzdk": {
-                    "new_value": "Discord roles that sync automatically with game rank.",
-                    "old_value": "Auto-synced roles mapped to your in-game rank"
-                },
-                "WmxMAI": {
-                    "new_value": "You’ll automatically be added to the {displayNoun, select, GUILD {guild’s linked server, and can unlock special guild features} other {linked server, and can unlock special features}}",
-                    "old_value": "You’ll also become a member of the {displayNoun, select, GUILD {guild’s linked server to unlock special guild features} other {linked server to unlock special features}}"
-                },
-                "bfJ/sO": {
-                    "new_value": "Join the {orgName} {noun} in {gameName}.",
-                    "old_value": "You’ve been invited to join {orgName}, an in-game {noun} in {gameName}."
-                },
-                "gptW7Y": {
-                    "new_value": "Join the {orgName} {noun} in {gameName}.",
-                    "old_value": "You’ve been invited to join the in-game {noun}: {orgName}"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -89,5 +79,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T18:35:20.324516+00:00"
+    "timestamp": "2026-11-13T18:46:12.188922+00:00"
 }
