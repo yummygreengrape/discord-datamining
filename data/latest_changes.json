@@ -1,5 +1,5 @@
 {
-    "build_hash": "4ff44adf9eca8ebdbdc497bea78876cd711cc2de",
+    "build_hash": "1d4b298c2c7f58342d68831c218e6dcdc078aa3e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,99 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "exposures",
+                "reads",
+                "suppressions",
+                "writer"
+            ],
+            "default_config": {
+                "exposures": false,
+                "reads": false,
+                "suppressions": false,
+                "writer": true
+            },
+            "experiment_source": "self_extraction",
+            "id": "2026-11-apex-launch-latch",
+            "kind": "installation",
+            "status": "added",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5"
+            ],
+            "variations": {
+                "1": {
+                    "writer": false
+                },
+                "2": {
+                    "reads": true
+                },
+                "3": {
+                    "exposures": true,
+                    "reads": true
+                },
+                "4": {
+                    "exposures": true,
+                    "reads": true,
+                    "suppressions": true
+                },
+                "5": {
+                    "suppressions": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "exposures",
+                "reads",
+                "suppressions",
+                "writer"
+            ],
+            "default_config": {
+                "exposures": false,
+                "reads": false,
+                "suppressions": false,
+                "writer": true
+            },
+            "experiment_source": "self_extraction",
+            "id": "2026-11-apex-launch-latch",
+            "kind": "installation",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5"
+            ],
+            "variations": {
+                "1": {
+                    "writer": false
+                },
+                "2": {
+                    "reads": true
+                },
+                "3": {
+                    "exposures": true,
+                    "reads": true
+                },
+                "4": {
+                    "exposures": true,
+                    "reads": true,
+                    "suppressions": true
+                },
+                "5": {
+                    "suppressions": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [
         {
             "change_id": "0785f7f64cb1662dc08c73bb8280200c",
@@ -68,5 +159,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T16:04:18.170733+00:00"
+    "timestamp": "2026-11-13T16:15:12.856182+00:00"
 }
