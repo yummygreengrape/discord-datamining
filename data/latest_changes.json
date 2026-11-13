@@ -1,5 +1,5 @@
 {
-    "build_hash": "6d8ef750f58698a6a6429f5edcf99690c5abd77f",
+    "build_hash": "15b8ddc5cd4e2de06ae17e823ad41c8f006aeb4e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,7 +58,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "crKDpM": "Check out global trends while the Checkpoint Lab is closed for maintenance."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +70,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T13:46:24.597789+00:00"
+    "timestamp": "2026-11-13T14:28:08.755576+00:00"
 }
