@@ -1,5 +1,5 @@
 {
-    "build_hash": "d09d80c4ec56fa21d67a89fda1e1d7c1bd992901",
+    "build_hash": "17945ec29c64f2ef68428a6a1333ce70f8735288",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,10 +58,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "AOUyrx": "Share when I update my custom status",
-                "bZ094C": "Allow friends to receive a push notification when you update your custom status."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -71,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T21:28:12.632388+00:00"
+    "timestamp": "2026-11-13T21:39:07.824570+00:00"
 }
