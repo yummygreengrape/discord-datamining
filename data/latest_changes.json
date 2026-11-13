@@ -1,5 +1,5 @@
 {
-    "build_hash": "b7af3bd1b4a023d6d8085935606a0b258c4f2919",
+    "build_hash": "156ca921cef281aea87e4b32c7ce531ad48f21d3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,13 +58,14 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "YiNO8W": "Members can send one message every {hours, plural, one {# hour} other {# hours}} {minutes, plural, =0 {} one {# minute} other {# minutes}} {seconds, plural, =0 {} one {# second} other {# seconds}}",
-                "oSzkf2": "Members can send one message every {minutes, plural, one {# minute} other {# minutes}} {seconds, plural, =0 {} one {# second} other {# seconds}}",
-                "uaRDmS": "Members can send one message every {seconds, plural, one {# second} other {# seconds}}."
-            },
+            "added": {},
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "VGOQ4v": {
+                    "new_value": "Upon joining the {orgName} {noun}, they will automatically get added to this linked server if not already a member.",
+                    "old_value": "Upon joining the {orgName} in-game {noun}, they will automatically get added to this linked server if not already a member."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -72,5 +73,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T19:18:13.907653+00:00"
+    "timestamp": "2026-11-13T19:29:09.027905+00:00"
 }
