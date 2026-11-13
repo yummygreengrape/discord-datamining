@@ -1,5 +1,5 @@
 {
-    "build_hash": "661fc2a22078de34e4c615844496307992ace804",
+    "build_hash": "ebd3bf57911952c1c69c8fda2c708083f3fde140",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,30 +58,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "BvaFUc": "1 is poor, 5 is great.",
-                "CYQood": "Submit",
-                "EBB7lL": "Optional",
-                "GVLtfq": "Rate this build",
-                "J/xftE": "Speed",
-                "N94/JU": "Quality",
-                "Nu6mEB": "Couldn't send your rating. Try again.",
-                "PyD/rD": "Rate this build before you leave.",
-                "Zj4E+A": "Your app is live. Rate this build before you head anywhere else.",
-                "d28g0o": "What could have gone better?",
-                "fML8aJ": "{dimension}: {score} out of 5"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "TOMBAW": {
-                    "new_value": "You’re in the $[top {percent, number}%](percentHook) of chatters. Not counted: number of messages that were ghosted.",
-                    "old_value": "You’re in the $[top {percent, number}%](percentHook) of chatters. Not counted: number of  messages that were ghosted."
-                },
-                "wHn2YM": {
-                    "new_value": "You’re in the top {percent, number}% of chatters. Not counted: number of messages that were ghosted.",
-                    "old_value": "You’re in the top {percent, number}% of chatters. Not counted: number of  messages that were ghosted."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -89,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T20:44:41.368261+00:00"
+    "timestamp": "2026-11-13T20:55:33.196447+00:00"
 }
