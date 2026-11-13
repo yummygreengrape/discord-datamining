@@ -1,5 +1,5 @@
 {
-    "build_hash": "5864a3c2e1dc5676208a9ec89890494a65f1eaa9",
+    "build_hash": "eb5d1bb98956cf83039e120a26cd468ceae49ef9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,25 +58,15 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "0AhA1F": "Capture your top gaming moments with Auto Clips. Get early access with $[Nitro](nitroHook).",
-                "JCzxmU": "When your gift ends, bHookyou will lose:",
-                "SD+D4u": "Your Nitro gift ends {daysLeft}. Subscribe to keep your perks.",
-                "WjvJ4R": "Your gifted Nitro ends {daysLeft}.",
-                "j5nCPU": "Choose a Nitro plan to keep your perks. You can review the price and payment details before subscribing."
-            },
-            "deleted": {
-                "TVOU0A": "Capture your top gaming moments with Auto Clips. Get early access with Nitro."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "TVOU0A": "자동 클립으로 최고의 게임 순간을 캡처하세요. Nitro와 함께 얼리 액세스로 이용해 보세요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T02:25:25.191216+00:00"
+    "timestamp": "2026-11-13T02:36:18.952040+00:00"
 }
