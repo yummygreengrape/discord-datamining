@@ -1,5 +1,5 @@
 {
-    "build_hash": "156ca921cef281aea87e4b32c7ce531ad48f21d3",
+    "build_hash": "8bbd4039b7b128dd7c38b27ec91c8508004e8c75",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -60,12 +60,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "VGOQ4v": {
-                    "new_value": "Upon joining the {orgName} {noun}, they will automatically get added to this linked server if not already a member.",
-                    "old_value": "Upon joining the {orgName} in-game {noun}, they will automatically get added to this linked server if not already a member."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -73,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T19:29:09.027905+00:00"
+    "timestamp": "2026-11-13T19:50:20.858894+00:00"
 }
