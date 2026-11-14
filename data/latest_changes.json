@@ -1,5 +1,5 @@
 {
-    "build_hash": "7dbec88849b4dbbbd3e1b37133eff85cf2db0d83",
+    "build_hash": "6fe1dec82260aff2f1c8b4837e847872ce947bf0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,29 +58,8 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "/fNrht": "Stream volume lives here now",
-                "0B5BDf": "We couldn’t load this survey. Check your connection and try again.",
-                "1PdKvg": "Reveal the deal!",
-                "2HrkOr": "Share your feedback",
-                "3XUf3j": "Loading survey",
-                "49qRvZ": "Stream volume has moved",
-                "4LP8Gn": "Close",
-                "6nKlgr": "Long press the stream",
-                "EeYnVZ": "Day {day}, locked",
-                "OslXYm": "You’re going a little fast. Please try again later.",
-                "TJmuBy": "Try again",
-                "WQF2/t": "Adjust the stream volume using this slider",
-                "XQNwbP": "We couldn’t send your answers. Check your connection and try again.",
-                "YuNoIm": "Show me",
-                "webc9u": "This survey isn’t available right now.",
-                "zzDQv3": "Reveal the deal for day {day}"
-            },
-            "deleted": {
-                "FvDAI+": "Reveal the deal!",
-                "IPBwbI": "Reveal the deal for day {day}",
-                "b0ayfY": "Day {day}, locked"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -89,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-13T23:51:41.727370+00:00"
+    "timestamp": "2026-11-14T00:02:33.258628+00:00"
 }
