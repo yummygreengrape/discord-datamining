@@ -1,12 +1,438 @@
 {
-    "build_hash": "6fe1dec82260aff2f1c8b4837e847872ce947bf0",
+    "build_hash": "403b815460f2edac7bb13e9d2796436be087856f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "badge",
+                "compactReward",
+                "gameIconReward",
+                "iconOnlyCTA",
+                "newLayoutWithSearch",
+                "shorterHeight",
+                "showGameLogo",
+                "showQuestTitle",
+                "underlinedMultiplier"
+            ],
+            "default_config": {
+                "badge": {
+                    "countdown": false,
+                    "duration": false,
+                    "new": false
+                },
+                "compactReward": false,
+                "gameIconReward": false,
+                "iconOnlyCTA": false,
+                "newLayoutWithSearch": false,
+                "shorterHeight": false,
+                "showGameLogo": true,
+                "showQuestTitle": true,
+                "underlinedMultiplier": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-11-quest-home-tile-single-elements",
+            "kind": "user",
+            "old_config_keys": [
+                "badge",
+                "compactReward",
+                "gameIconReward",
+                "iconOnlyCTA",
+                "newLayoutWithSearch",
+                "shorterHeight",
+                "showGameLogo",
+                "showQuestTitle"
+            ],
+            "old_default_config": {
+                "badge": {
+                    "countdown": false,
+                    "duration": false,
+                    "new": false
+                },
+                "compactReward": false,
+                "gameIconReward": false,
+                "iconOnlyCTA": false,
+                "newLayoutWithSearch": false,
+                "shorterHeight": false,
+                "showGameLogo": true,
+                "showQuestTitle": true
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7",
+                "Variant 8",
+                "Variant 9",
+                "Variant 10",
+                "Variant 11"
+            ],
+            "old_variations": {
+                "1": {
+                    "newLayoutWithSearch": true
+                },
+                "10": {
+                    "gameIconReward": true,
+                    "newLayoutWithSearch": true
+                },
+                "11": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": true,
+                        "new": true
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "2": {
+                    "iconOnlyCTA": true,
+                    "newLayoutWithSearch": true
+                },
+                "3": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": true,
+                        "new": false
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "4": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": false,
+                        "new": true
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "5": {
+                    "badge": {
+                        "countdown": true,
+                        "duration": false,
+                        "new": false
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "6": {
+                    "newLayoutWithSearch": true,
+                    "showGameLogo": false
+                },
+                "7": {
+                    "newLayoutWithSearch": true,
+                    "showQuestTitle": false
+                },
+                "8": {
+                    "compactReward": true,
+                    "newLayoutWithSearch": true
+                },
+                "9": {
+                    "newLayoutWithSearch": true,
+                    "shorterHeight": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7",
+                "Variant 8",
+                "Variant 9",
+                "Variant 10",
+                "Variant 11",
+                "Variant 12"
+            ],
+            "variations": {
+                "1": {
+                    "newLayoutWithSearch": true
+                },
+                "10": {
+                    "gameIconReward": true,
+                    "newLayoutWithSearch": true
+                },
+                "11": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": true,
+                        "new": true
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "12": {
+                    "newLayoutWithSearch": true,
+                    "underlinedMultiplier": true
+                },
+                "2": {
+                    "iconOnlyCTA": true,
+                    "newLayoutWithSearch": true
+                },
+                "3": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": true,
+                        "new": false
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "4": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": false,
+                        "new": true
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "5": {
+                    "badge": {
+                        "countdown": true,
+                        "duration": false,
+                        "new": false
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "6": {
+                    "newLayoutWithSearch": true,
+                    "showGameLogo": false
+                },
+                "7": {
+                    "newLayoutWithSearch": true,
+                    "showQuestTitle": false
+                },
+                "8": {
+                    "compactReward": true,
+                    "newLayoutWithSearch": true
+                },
+                "9": {
+                    "newLayoutWithSearch": true,
+                    "shorterHeight": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "badge",
+                "compactReward",
+                "gameIconReward",
+                "iconOnlyCTA",
+                "newLayoutWithSearch",
+                "shorterHeight",
+                "showGameLogo",
+                "showQuestTitle",
+                "underlinedMultiplier"
+            ],
+            "default_config": {
+                "badge": {
+                    "countdown": false,
+                    "duration": false,
+                    "new": false
+                },
+                "compactReward": false,
+                "gameIconReward": false,
+                "iconOnlyCTA": false,
+                "newLayoutWithSearch": false,
+                "shorterHeight": false,
+                "showGameLogo": true,
+                "showQuestTitle": true,
+                "underlinedMultiplier": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-11-quest-home-tile-single-elements",
+            "kind": "user",
+            "old_config_keys": [
+                "badge",
+                "compactReward",
+                "gameIconReward",
+                "iconOnlyCTA",
+                "newLayoutWithSearch",
+                "shorterHeight",
+                "showGameLogo",
+                "showQuestTitle"
+            ],
+            "old_default_config": {
+                "badge": {
+                    "countdown": false,
+                    "duration": false,
+                    "new": false
+                },
+                "compactReward": false,
+                "gameIconReward": false,
+                "iconOnlyCTA": false,
+                "newLayoutWithSearch": false,
+                "shorterHeight": false,
+                "showGameLogo": true,
+                "showQuestTitle": true
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7",
+                "Variant 8",
+                "Variant 9",
+                "Variant 10",
+                "Variant 11"
+            ],
+            "old_variations": {
+                "1": {
+                    "newLayoutWithSearch": true
+                },
+                "10": {
+                    "gameIconReward": true,
+                    "newLayoutWithSearch": true
+                },
+                "11": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": true,
+                        "new": true
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "2": {
+                    "iconOnlyCTA": true,
+                    "newLayoutWithSearch": true
+                },
+                "3": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": true,
+                        "new": false
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "4": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": false,
+                        "new": true
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "5": {
+                    "badge": {
+                        "countdown": true,
+                        "duration": false,
+                        "new": false
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "6": {
+                    "newLayoutWithSearch": true,
+                    "showGameLogo": false
+                },
+                "7": {
+                    "newLayoutWithSearch": true,
+                    "showQuestTitle": false
+                },
+                "8": {
+                    "compactReward": true,
+                    "newLayoutWithSearch": true
+                },
+                "9": {
+                    "newLayoutWithSearch": true,
+                    "shorterHeight": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3",
+                "Variant 4",
+                "Variant 5",
+                "Variant 6",
+                "Variant 7",
+                "Variant 8",
+                "Variant 9",
+                "Variant 10",
+                "Variant 11",
+                "Variant 12"
+            ],
+            "variations": {
+                "1": {
+                    "newLayoutWithSearch": true
+                },
+                "10": {
+                    "gameIconReward": true,
+                    "newLayoutWithSearch": true
+                },
+                "11": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": true,
+                        "new": true
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "12": {
+                    "newLayoutWithSearch": true,
+                    "underlinedMultiplier": true
+                },
+                "2": {
+                    "iconOnlyCTA": true,
+                    "newLayoutWithSearch": true
+                },
+                "3": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": true,
+                        "new": false
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "4": {
+                    "badge": {
+                        "countdown": false,
+                        "duration": false,
+                        "new": true
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "5": {
+                    "badge": {
+                        "countdown": true,
+                        "duration": false,
+                        "new": false
+                    },
+                    "newLayoutWithSearch": true
+                },
+                "6": {
+                    "newLayoutWithSearch": true,
+                    "showGameLogo": false
+                },
+                "7": {
+                    "newLayoutWithSearch": true,
+                    "showQuestTitle": false
+                },
+                "8": {
+                    "compactReward": true,
+                    "newLayoutWithSearch": true
+                },
+                "9": {
+                    "newLayoutWithSearch": true,
+                    "shorterHeight": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -68,5 +494,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-14T00:02:33.258628+00:00"
+    "timestamp": "2026-11-14T00:13:26.623129+00:00"
 }
