@@ -1,5 +1,5 @@
 {
-    "build_hash": "5f9f4f5ca76cad6976dc6a6e9dbe1efd0cd4e29d",
+    "build_hash": "adacedb92bc31ff16aa4cafa963873e69b31e899",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,7 +58,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "qGeMEE": "View {guild}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +70,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-14T01:29:41.103489+00:00"
+    "timestamp": "2026-11-14T01:40:31.862126+00:00"
 }
