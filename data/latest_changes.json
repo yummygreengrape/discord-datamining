@@ -1,5 +1,5 @@
 {
-    "build_hash": "19cf266242fce8ec8a829bd7fd0fac6f83b6c8ba",
+    "build_hash": "12a83f2b6983c8346248d75f8e88be395b4e8bad",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,10 +58,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "LoVrW5": "Day {day}: Collected!",
-                "st59ZX": "{collectibleTitle} has been added to your collection. Come back for tomorrow's deal!"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -71,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-14T01:07:55.753706+00:00"
+    "timestamp": "2026-11-14T01:18:48.005033+00:00"
 }
