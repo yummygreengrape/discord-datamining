@@ -1,5 +1,5 @@
 {
-    "build_hash": "4bdfeb529b13a8d95f5e015b22734c92e4be4a8c",
+    "build_hash": "d7f55ca3dc913ee6bfd89df7e52c3af8ba8f8943",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,7 +58,9 @@
     ],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "pk9XKF": "Resume"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -68,5 +70,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-14T00:24:19.103791+00:00"
+    "timestamp": "2026-11-14T00:35:12.136108+00:00"
 }
