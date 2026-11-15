@@ -1,5 +1,5 @@
 {
-    "build_hash": "4cd032a7423317f7ec517096610b7b655970f2bb",
+    "build_hash": "5fc754199e6571542d9a86e701df6415c8a609b6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -58,10 +58,7 @@
     ],
     "string_changes": {
         "en": {
-            "added": {
-                "XB99KC": "Squad: {names}",
-                "xRtlbW": "Sidekick: {name}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -71,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-15T16:53:54.872072+00:00"
+    "timestamp": "2026-11-15T23:27:06.810142+00:00"
 }
