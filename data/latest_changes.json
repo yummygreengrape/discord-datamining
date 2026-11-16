@@ -1,5 +1,5 @@
 {
-    "build_hash": "40ce8ee09b82c22fc861741f647b5374c6aaf54c",
+    "build_hash": "36a0644e92359e3c928db06035612a3b1a59bfea",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,14 +14,7 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "CjS26n": "Try again or skip for now.",
-                "X4zfDg": "Joined",
-                "fVWYWS": "Pending",
-                "qx4Gb6": "You can skip this step for now.",
-                "rtXXRe": "You can find servers later",
-                "uGhymA": "Retry"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -30,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-16T22:25:06.186237+00:00"
+    "timestamp": "2026-11-16T22:35:59.229688+00:00"
 }
