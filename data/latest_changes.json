@@ -1,5 +1,5 @@
 {
-    "build_hash": "cc42a4769f8c4840e175e389eabe0bf94249ae7e",
+    "build_hash": "2d60602e95c7abeb9d5a0ddbe3bc01dc98222ad6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,10 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "4CTm1R": "You earned {orbCount, plural, one {# Orb} other {# Orbs}} back",
-                "ti90Eh": "+{orbCount, number} Orbs"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-16T23:19:37.415268+00:00"
+    "timestamp": "2026-11-16T23:30:34.374032+00:00"
 }
