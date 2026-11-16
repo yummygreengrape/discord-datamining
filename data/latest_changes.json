@@ -1,5 +1,5 @@
 {
-    "build_hash": "1caba8e7cfb270759ef475a4761bb1ccb6ff85ae",
+    "build_hash": "3c8538e5dc160fd3bd0ad515dfdc0f97d96684a8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,10 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "4AE45b": "Claim today’s deal while you can!",
-                "vEZeL1": "Shop the Deal"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-16T23:41:30.027051+00:00"
+    "timestamp": "2026-11-16T23:52:23.307437+00:00"
 }
