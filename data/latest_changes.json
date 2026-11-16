@@ -1,5 +1,5 @@
 {
-    "build_hash": "3bc00508fc65fb2482bb8b5c4228e0d616dddfc0",
+    "build_hash": "17e9d143ec3b193011f1e71698565a626a8ed91f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "ody6zm": "{time} left"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-16T16:46:18.122157+00:00"
+    "timestamp": "2026-11-16T16:57:15.681225+00:00"
 }
