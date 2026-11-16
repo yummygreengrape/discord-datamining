@@ -1,5 +1,5 @@
 {
-    "build_hash": "4d73505d8eb54043ce8ab5696090bf473e1ffd51",
+    "build_hash": "b205f700c2d64dbdc0955448485d8fc2f9af6de8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,11 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0Rlazk": "Original",
+                "BkuqWx": "Pick an outfit to choose its colorway.",
+                "zsYYN1": "No Outfit Selected"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-16T13:28:01.149141+00:00"
+    "timestamp": "2026-11-16T13:38:57.008303+00:00"
 }
