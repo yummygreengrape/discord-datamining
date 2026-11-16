@@ -1,5 +1,5 @@
 {
-    "build_hash": "82a88032c1bc13eb3280b666e042718d47a9d54e",
+    "build_hash": "ce58bf78b5735c72fea59ea472a24048f0751a1d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,125 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-ad-refresh-immediate-on-focus",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-11-16T20:48:38Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5",
-                "Variant 6",
-                "Variant 7",
-                "Variant 8",
-                "Variant 9"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": false
-                },
-                "2": {
-                    "enabled": true
-                },
-                "3": {
-                    "enabled": true
-                },
-                "4": {
-                    "enabled": true
-                },
-                "5": {
-                    "enabled": true
-                },
-                "6": {
-                    "enabled": true
-                },
-                "7": {
-                    "enabled": true
-                },
-                "8": {
-                    "enabled": true
-                },
-                "9": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-ad-refresh-immediate-on-focus",
-            "kind": "user",
-            "timestamp": "2026-11-16T20:48:38Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5",
-                "Variant 6",
-                "Variant 7",
-                "Variant 8",
-                "Variant 9"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": false
-                },
-                "2": {
-                    "enabled": true
-                },
-                "3": {
-                    "enabled": true
-                },
-                "4": {
-                    "enabled": true
-                },
-                "5": {
-                    "enabled": true
-                },
-                "6": {
-                    "enabled": true
-                },
-                "7": {
-                    "enabled": true
-                },
-                "8": {
-                    "enabled": true
-                },
-                "9": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -140,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-16T20:56:59.111959+00:00"
+    "timestamp": "2026-11-16T21:07:53.979545+00:00"
 }
