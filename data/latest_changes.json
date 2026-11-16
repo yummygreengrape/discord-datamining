@@ -1,5 +1,5 @@
 {
-    "build_hash": "273ef3c92dfb7110bdd4fe4c88da812c299df1cb",
+    "build_hash": "e1e27c03b259ae4a92da2d0d108ac7f13b5c5ebe",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,11 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "EyuFlE": "Open in media viewer",
+                "GwQvTT": "Reveal on {date}",
+                "jz3aVY": "Day {day}, locked. Reveal on {date}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-16T22:46:55.002776+00:00"
+    "timestamp": "2026-11-16T22:57:46.861809+00:00"
 }
