@@ -1,5 +1,5 @@
 {
-    "build_hash": "afc1d0dff21c68fb3be78edb6acfa5cf1089ceca",
+    "build_hash": "40ce8ee09b82c22fc861741f647b5374c6aaf54c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,47 +13,16 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "1T/Qjw": "Cancellation will take effect at the end of your current billing period. No more gifts will be sent from this subscription after that.",
-                "316Vsz": "The server linked to this {noun}",
-                "4ABTfP": "Make game night more immersive and fun. Access the Nitro Voice Pack for 40 different voices, with monthly exclusives for Nitro. [Terms apply.]({termsUrl})",
-                "4XMetY": "Failed to join {guildName} server",
-                "AX5oOl": "Voicemod Nitro Voice Pack",
-                "B1kOFr": "One code per calendar month. [Terms apply]({termsUrl})",
-                "DLvbaf": "Nitro ({intervalCount, plural, one {# month} other {# months}})",
-                "FQoZBu": "An error occurred, and we couldn’t add you to {guildName}. Try again.",
-                "Gspm9q": "Make game night more immersive and fun. Claim this month’s code for 40 Voicemod voices, one new exclusive every month.",
-                "MgcCQT": "Head to the server and agree to the rules to get access.",
-                "Y2DU/l": "Added to {guildName} server",
-                "YoJwLe": "Pending {guildName} server access",
-                "bWW0Gp": "Pending cancellation",
-                "eLmWe/": "Access 40 different voices, with monthly exclusives only for Nitro.",
-                "eXhipA": "Nitro ({intervalCount, plural, one {# year} other {# years}})",
-                "fqtaGq": "One code per month. [Terms apply]({termsUrl})",
-                "hHQjT+": "Exclusive voices on Voicemod, only with Nitro. [Terms apply.]({termsUrl})",
-                "i3axsB": "You’re in!",
-                "mZ/VKS": "Awaiting server admin approval. We’ll notify you when you’re approved.",
-                "mvLVyz": "as {characterName}",
-                "pkGxhZ": "Transform your voice in any call",
-                "qJafqt": "Joined the {orgName} {noun}",
-                "qyXYB/": "Access to Voicemod Nitro Voice Pack",
-                "tvS3wV": "Redeem your code to access 40 different voices, with monthly exclusives for Nitro.",
-                "ydxNPG": "Nitro Credit (Subscription)"
-            },
+            "added": {},
             "deleted": {
-                "9K7Jdt": "You’ve joined the {orgName} {noun}. Complete verification in the linked server to start chatting.",
-                "ODHuua": "You’ve joined the {orgName} {noun}. Your application to the linked server is pending review.",
-                "PLA9Om": "You’ve successfully joined the {orgName} {noun} as {characterName}. Head to the server to start chatting.",
-                "Qo94hd": "You’ve joined the {orgName} {noun}, but we couldn’t add you to the linked server.",
-                "WF9Qgb": "You’ve successfully joined the {orgName} {noun}. Head to the server to start chatting.",
-                "w/spGp": "You successfully joined the {noun}!"
+                "CjS26n": "Try again or skip for now.",
+                "X4zfDg": "Joined",
+                "fVWYWS": "Pending",
+                "qx4Gb6": "You can skip this step for now.",
+                "rtXXRe": "You can find servers later",
+                "uGhymA": "Retry"
             },
-            "modified": {
-                "VPktVS": {
-                    "new_value": "Cancellation will take effect at the end of your current billing period. On {endDate, date, long}, {username} will stop receiving gifts from this subscription.",
-                    "old_value": "Cancellation will take effect at the end of your current billing period. On {endDate, date, long}, {username} will lose access to all of their Nitro perks."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -61,49 +30,5 @@
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "VPktVS": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "종료 날짜와 수신자 이름이 화면 값으로 채워져요. 취소 버튼을 누르는 순간 특전이 사라진다고 설명하는 문구는 아니에요.",
-                    "generated_at": "2026-10-21T15:15:54.069519Z",
-                    "intent_type": "billing_or_subscription_issue",
-                    "related_terms": [
-                        "Nitro gift",
-                        "recurring subscription",
-                        "acceptance",
-                        "monthly",
-                        "yearly"
-                    ],
-                    "search_intent": "반복 선물 취소 뒤 친구의 Nitro가 언제 끝나는지 확인하려는 검색이에요.",
-                    "source_context": "2026-10-19T19:50:54Z 문자열은 반복 Nitro 선물의 주기·수신 조건·취소 시점을 함께 설명해요.",
-                    "summary": "이 취소 안내는 현재 결제 기간이 끝날 때 수신자의 Nitro 특전이 종료된다고 알려줘요.",
-                    "what_it_means": "현재 기간의 종료일까지 특전이 이어지고 표시된 날짜에 종료돼요.",
-                    "what_to_do": "수신자와 종료 날짜가 맞는지 확인한 뒤 취소 결정을 진행하세요.",
-                    "when_it_appears": "선물 구독 취소의 효력 발생일을 확인하는 화면에서 보일 수 있어요."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The screen supplies the end date and recipient name. It does not describe access disappearing immediately when cancellation is selected.",
-                    "generated_at": "2026-10-21T15:15:54.069519Z",
-                    "intent_type": "billing_or_subscription_issue",
-                    "related_terms": [
-                        "Nitro gift",
-                        "recurring subscription",
-                        "acceptance",
-                        "monthly",
-                        "yearly"
-                    ],
-                    "search_intent": "To check when a friend loses Nitro after a gifted subscription is cancelled.",
-                    "source_context": "Strings at 2026-10-19T19:50:54Z describe recurring Nitro gift intervals, acceptance conditions, and cancellation timing.",
-                    "summary": "This cancellation notice says the recipient’s Nitro perks end at the close of the current billing period.",
-                    "what_it_means": "Perks continue for the current period and end on the displayed date.",
-                    "what_to_do": "Verify the recipient and end date before proceeding with cancellation.",
-                    "when_it_appears": "It may appear while confirming the effective date of a gift cancellation."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-11-16T22:14:12.534809+00:00"
+    "timestamp": "2026-11-16T22:25:06.186237+00:00"
 }
