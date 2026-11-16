@@ -1,5 +1,5 @@
 {
-    "build_hash": "5a2013c590b7118fd3c47ba25dcde7e09c1a33a6",
+    "build_hash": "1de2fe08605a98078a8edf00f180691852ee3179",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,11 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "18HDKV": "Allows people 18+ to join and access age-restricted servers on iOS devices",
+                "24d90k": "Age-restricted servers are blocked on iOS per App Store guidelines. If you're an adult, you can turn on access in your settings on desktop or web, then join and view from your iOS device.",
+                "YHWOSK": "Age-restricted servers are blocked on iOS per App Store guidelines. Adults can turn on access in settings on desktop or web. [Visit our Help Center]({helpURL}) to learn more."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-16T12:25:08.792401+00:00"
+    "timestamp": "2026-11-16T12:36:01.631728+00:00"
 }
