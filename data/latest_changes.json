@@ -1,5 +1,5 @@
 {
-    "build_hash": "e1e27c03b259ae4a92da2d0d108ac7f13b5c5ebe",
+    "build_hash": "8ec3005f7dcf469990fe5f2586b2c121740e94ea",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,15 +8,122 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-bloons-bf-deal",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-rust-bf-deal",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-bloons-bf-deal",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-rust-bf-deal",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "EyuFlE": "Open in media viewer",
-                "GwQvTT": "Reveal on {date}",
-                "jz3aVY": "Day {day}, locked. Reveal on {date}"
+                "+uBSeT": "Dismiss widget reordering",
+                "72cAX3": "Bloons TD 6 Shop",
+                "UEMMJO": "Black Friday: Spend Orbs on Bloons TD 6 in-game items",
+                "XgfZ0E": "Black Friday: Spend Orbs on Rust in-game items",
+                "Y3l0TS": "With Nitro, spend Orbs to unlock a Bloons TD 6 Shop discount. Ends Nov 30. termsHookHookTerms apply.",
+                "a05zGh": "Daily deals",
+                "dnqFO2": "Rust Shop",
+                "kJSKt+": "View all days",
+                "mPf8Wg": "With Nitro, spend Orbs on select items. Every purchase earns Orbs back. Ends Nov 30. termsHookHookTerms apply.",
+                "vaqebJ": "Learn more about daily deals"
             },
             "deleted": {},
             "modified": {}
@@ -27,5 +134,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-16T22:57:46.861809+00:00"
+    "timestamp": "2026-11-16T23:08:42.960442+00:00"
 }
