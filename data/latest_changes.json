@@ -1,5 +1,5 @@
 {
-    "build_hash": "3f2ca12580dfd55b9dc55f5a80a5bdced623b4a1",
+    "build_hash": "03a62caf3a20030b116fe70fd823c9903544fcf3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -15,12 +15,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "O9OeEg": {
-                    "new_value": "Auto Clips:\nYou play, we’ll clip.",
-                    "old_value": "Auto Clips: You play, we’ll clip."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -28,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-16T18:47:09.267834+00:00"
+    "timestamp": "2026-11-16T18:58:04.829939+00:00"
 }
