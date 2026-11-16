@@ -1,5 +1,5 @@
 {
-    "build_hash": "8ec3005f7dcf469990fe5f2586b2c121740e94ea",
+    "build_hash": "cc42a4769f8c4840e175e389eabe0bf94249ae7e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,122 +8,14 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-10-bloons-bf-deal",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-10-rust-bf-deal",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-10-bloons-bf-deal",
-            "kind": "user",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-10-rust-bf-deal",
-            "kind": "user",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "+uBSeT": "Dismiss widget reordering",
-                "72cAX3": "Bloons TD 6 Shop",
-                "UEMMJO": "Black Friday: Spend Orbs on Bloons TD 6 in-game items",
-                "XgfZ0E": "Black Friday: Spend Orbs on Rust in-game items",
-                "Y3l0TS": "With Nitro, spend Orbs to unlock a Bloons TD 6 Shop discount. Ends Nov 30. termsHookHookTerms apply.",
-                "a05zGh": "Daily deals",
-                "dnqFO2": "Rust Shop",
-                "kJSKt+": "View all days",
-                "mPf8Wg": "With Nitro, spend Orbs on select items. Every purchase earns Orbs back. Ends Nov 30. termsHookHookTerms apply.",
-                "vaqebJ": "Learn more about daily deals"
+                "4CTm1R": "You earned {orbCount, plural, one {# Orb} other {# Orbs}} back",
+                "ti90Eh": "+{orbCount, number} Orbs"
             },
             "deleted": {},
             "modified": {}
@@ -134,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-16T23:08:42.960442+00:00"
+    "timestamp": "2026-11-16T23:19:37.415268+00:00"
 }
