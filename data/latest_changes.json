@@ -1,5 +1,5 @@
 {
-    "build_hash": "6e9fc96b51544b2b6e5f7cf766ffa48c90a2156b",
+    "build_hash": "9238ac38ea60bcccb722695ea8ae360b7cfbda19",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "B1kOFr": "One code per calendar month. [Terms apply]({termsUrl})",
+                "fqtaGq": "One code per month. [Terms apply]({termsUrl})"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-16T21:51:30.635869+00:00"
+    "timestamp": "2026-11-16T22:02:50.332576+00:00"
 }
