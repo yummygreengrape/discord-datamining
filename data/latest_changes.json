@@ -1,19 +1,8 @@
 {
-    "build_hash": "ec659e4d12c0717e01fd0bbd129e2c81cdb68af1",
+    "build_hash": "d83fa35f09b856861e91a5afc967589cc96a21d9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-04-hide-view-full-profile-button",
-            "kind": "user",
-            "timestamp": "2026-11-16T20:19:06Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -34,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-16T20:35:12.646805+00:00"
+    "timestamp": "2026-11-16T20:46:07.339684+00:00"
 }
