@@ -1,5 +1,5 @@
 {
-    "build_hash": "376a128566e2122ef3dd8f28b410fb49548735a0",
+    "build_hash": "134c6f2bac7dece2419a830446cd9e4f4fed1e61",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -10,52 +10,7 @@
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
-    "rollout_changes": [
-        {
-            "change_id": "0785f7f64cb1662dc08c73bb8280200c",
-            "changed_at": "2026-11-09T06:10:14.472079+00:00",
-            "changes": [
-                {
-                    "after": 100.0,
-                    "before": 80.0,
-                    "bucket": -1,
-                    "population": 1,
-                    "type": "percent_changed"
-                },
-                {
-                    "after": 0,
-                    "before": 10.0,
-                    "bucket": 2,
-                    "population": 1,
-                    "type": "percent_changed"
-                },
-                {
-                    "after": 0,
-                    "before": 10.0,
-                    "bucket": 0,
-                    "population": 1,
-                    "type": "percent_changed"
-                },
-                {
-                    "after": 0,
-                    "before": 3,
-                    "type": "override_rules_changed"
-                }
-            ],
-            "id": "2026-04_server_theme",
-            "kind": "guild",
-            "labels": {
-                "0": "Control",
-                "2": "Treatment 2: Rollback UI for Server Theme"
-            },
-            "limits": [],
-            "revision": {
-                "after": 2,
-                "before": 1
-            },
-            "source": "discord"
-        }
-    ],
+    "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {},
@@ -68,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-16T04:40:28.602771+00:00"
+    "timestamp": "2026-11-16T09:58:07.186536+00:00"
 }
