@@ -1,21 +1,172 @@
 {
-    "build_hash": "c9ee6f18ba13b6bb01539a6496813850e02466dc",
+    "build_hash": "1fdc3c29ddb2972a9206d95739581bbd15684bec",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "켜진 비교안에서는 Linux 음성/영상 통화 연결에서 AV1 영상 전송 플래그를 켭니다."
+                    }
+                ],
+                "detailed_summary": "Linux 환경의 음성/영상 통화 연결에서 실험값이 켜지면 AV1 영상 전송 플래그를 켭니다. 같은 위치에서 영상 수신 관련 플래그도 함께 설정되어, Linux 사용자의 영상 통화 품질과 호환성을 비교할 수 있습니다.",
+                "evidence": [
+                    "Canary module 472444 defines 2026-06-av1-encode-linux.",
+                    "MediaEngineStore reads the config only on Linux before setting SIGNAL_AV1_ENCODE.",
+                    "The same branch sets video receive flags for the Linux media path."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Linux 영상 전송",
+                "generated_at": "2026-06-28T00:13:23Z",
+                "importance": "medium",
+                "summary": "Linux에서 화면 공유나 영상 전송에 새 영상 압축 방식을 켜는 실험입니다.",
+                "why_it_matters": "Linux에서 화면 공유나 영상 통화를 쓰는 사용자는 품질, CPU 사용량, 호환성이 달라질 수 있습니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "The enabled treatment turns on AV1 video send behavior for Linux voice/video connections."
+                    }
+                ],
+                "detailed_summary": "On Linux voice/video connections, the enabled treatment turns on the AV1 video send flag. The same media path also sets receive-related video flags, allowing Discord to compare quality and compatibility for Linux calls.",
+                "evidence": [
+                    "Canary module 472444 defines 2026-06-av1-encode-linux.",
+                    "MediaEngineStore reads the config only on Linux before setting SIGNAL_AV1_ENCODE.",
+                    "The same branch sets video receive flags for the Linux media path."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Linux video transmission",
+                "generated_at": "2026-06-28T00:13:23Z",
+                "importance": "medium",
+                "summary": "Enables a newer video encoding path for screen share or video on Linux.",
+                "why_it_matters": "Linux users may see changes in video quality, CPU usage, or compatibility during screen sharing and video calls."
+            },
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-av1-encode-linux",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-06-av1-encode-linux",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "config_keys": [
+                "probeAudioEffects"
+            ],
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-audio-effects-probe",
+            "kind": "user",
+            "old_config_keys": [
+                "probeAudioEffects"
+            ],
+            "old_default_config": {
+                "probeAudioEffects": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "probeAudioEffects": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "probeAudioEffects": true
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "probeAudioEffects"
+            ],
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-03-audio-effects-probe",
+            "kind": "user",
+            "old_config_keys": [
+                "probeAudioEffects"
+            ],
+            "old_default_config": {
+                "probeAudioEffects": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 1"
+            ],
+            "old_variations": {
+                "1": {
+                    "probeAudioEffects": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "probeAudioEffects": true
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "ody6zm": "{time} left"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +176,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-16T17:30:49.841777+00:00"
+    "timestamp": "2026-11-16T17:41:44.132061+00:00"
 }
