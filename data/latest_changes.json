@@ -1,5 +1,5 @@
 {
-    "build_hash": "4a7f420b29052fadd3fc2f8dcfeeea205cdbabe1",
+    "build_hash": "65e81bb28199744a8dcf1d6df64563274a81ec84",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,21 +13,12 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "hn+Lsg": "Invite players to your guild directly on Discord",
-                "ngZimk": "Purchases are currently unavailable for your account due to regional age requirements."
-            },
-            "deleted": {
-                "7GnQoE": "Members with appropriate perms can send guild invites from Discord."
-            },
+            "added": {},
+            "deleted": {},
             "modified": {
-                "MEQJ1m": {
-                    "new_value": "Linked channels that connect group chat across the game and Discord",
-                    "old_value": "Linked channels that connect chat across the game and Discord."
-                },
-                "WUVzdk": {
-                    "new_value": "Auto-synced roles mapped to your in-game rank",
-                    "old_value": "Discord roles that sync automatically with game rank."
+                "Ba/7wO": {
+                    "new_value": "Subscribe to grow your stash with {multiplier}x rewards.",
+                    "old_value": "Subscribe to grow your stash with monthly Orbs and {multiplier}x rewards."
                 }
             }
         },
@@ -39,43 +30,47 @@
     },
     "string_context": {
         "en": {
-            "WUVzdk": {
+            "Ba/7wO": {
                 "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "함께 확인된 문구는 게임 그룹에 가입할 때 연결된 Discord 서버를 설명해요. 역할 동기화는 그 연결에서 게임 랭크와 서버 역할을 맞추는 기능으로 보여요.",
-                    "generated_at": "2026-11-15T15:09:44Z",
-                    "intent_type": "server_or_permission_notice",
+                    "confidence": "high",
+                    "detailed_summary": "Active Challenges, Earn Orbs faster, Nitro members earn {multiplier}x on everything, Claim {orbAmount} Orbs가 한 묶음으로 추가됐습니다. 공개 실험 데이터에도 quests premium Orbs multiplier marketing과 orbchievements가 있어 Nitro가 Orbs 도전·보상 진행에 배수를 적용하는 화면이라는 해석을 뒷받침합니다.",
+                    "generated_at": "2026-08-31T00:15:44.939956Z",
+                    "intent_type": "quest_or_reward_status",
                     "related_terms": [
-                        "계정 연결",
-                        "Discord Orbs",
-                        "게임 소셜 기능",
-                        "연결된 서버"
+                        "Nitro Orbs",
+                        "Earn Orbs faster",
+                        "Active Challenges",
+                        "Claim",
+                        "multiplier",
+                        "next reward"
                     ],
-                    "search_intent": "게임 랭크가 연결된 Discord 서버의 역할에 어떻게 반영되는지 알아보려는 검색이에요.",
-                    "source_context": "게임 계정을 연결하는 안내, Orbs 수령 확인, 연결된 서버와 게임 랭크 관련 설명이 이 기간에 관측됐어요.",
-                    "summary": "게임에서의 랭크에 맞춰 Discord 역할을 자동으로 반영하는 기능을 소개해요.",
-                    "what_it_means": "게임의 랭크가 서버에서 받는 역할을 정하는 기준이 될 수 있어요.",
-                    "when_it_appears": "게임 그룹과 연결된 Discord 서버에서 제공되는 기능을 소개할 때 보일 수 있어요."
+                    "search_intent": "Discord Nitro Orbs가 무엇인지, {multiplier}x가 어디에 적용되고 보상을 언제 받을 수 있는지 확인하려는 검색입니다.",
+                    "source_context": "같은 문자열 묶음에 Nitro 배수, 활성 도전, Orbs 수령, 다음 보상 진행이 있으며 공개 실험 데이터에 premium Orbs multiplier와 orbchievements가 확인됩니다.",
+                    "summary": "Nitro 회원의 Orbs 획득 배수, 다음 보상까지의 진행, 받을 수 있는 Orbs를 보여 주는 보상 화면 문구입니다.",
+                    "what_it_means": "Nitro 회원에게 표시된 배수가 Orbs 획득 진행에 적용되며, 현재 받을 수 있는 보상과 다음 보상 상태를 구분해 보여 줍니다.",
+                    "when_it_appears": "Orbs 도전 목록이나 보상 진행 화면에서 Nitro 배수, 다음 보상까지 남은 기간, 수령 가능한 Orbs를 볼 때 나타납니다."
                 },
                 "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The same copy describes a Discord server linked to a game group. In that context, rank syncing appears to map a rank in the game to a role in the server.",
-                    "generated_at": "2026-11-15T15:09:44Z",
-                    "intent_type": "server_or_permission_notice",
+                    "confidence": "high",
+                    "detailed_summary": "Active Challenges, Earn Orbs faster, Nitro members earn {multiplier}x on everything, and Claim {orbAmount} Orbs appear together. Public experiment data also includes quests premium Orbs multiplier marketing and orbchievements, supporting a screen where Nitro applies a multiplier to Orbs challenge and reward progress.",
+                    "generated_at": "2026-08-31T00:15:44.939956Z",
+                    "intent_type": "quest_or_reward_status",
                     "related_terms": [
-                        "Account linking",
-                        "Discord Orbs",
-                        "In-game social features",
-                        "Linked server"
+                        "Nitro Orbs",
+                        "Earn Orbs faster",
+                        "Active Challenges",
+                        "Claim",
+                        "multiplier",
+                        "next reward"
                     ],
-                    "search_intent": "Someone wants to understand how the rank they hold in a game can show up as a Discord role.",
-                    "source_context": "The window includes account linking prompts, an Orbs claim confirmation, and separate copy for linked servers and game rank.",
-                    "summary": "Discord is describing server roles that update automatically to reflect your in-game rank.",
-                    "what_it_means": "Your game rank can determine which role you receive in the linked server.",
-                    "when_it_appears": "It may appear in a list of features for a game group and its linked Discord server."
+                    "search_intent": "The searcher likely wants to know what Discord Nitro Orbs are, where the {multiplier}x applies, and when a reward can be claimed.",
+                    "source_context": "The same string group covers Nitro multipliers, active challenges, Orbs claims, and next-reward progress; public experiments include premium Orbs multiplier and orbchievements entries.",
+                    "summary": "These reward-screen strings show Nitro Orbs multipliers, progress toward the next reward, and claimable Orbs.",
+                    "what_it_means": "The displayed Nitro multiplier applies to Orbs earning progress and the screen distinguishes a claimable reward from progress toward the next one.",
+                    "when_it_appears": "It appears on an Orbs challenge or reward-progress screen showing a Nitro multiplier, time to the next reward, or claimable Orbs."
                 }
             }
         }
     },
-    "timestamp": "2026-11-16T18:14:27.861824+00:00"
+    "timestamp": "2026-11-16T18:25:23.738931+00:00"
 }
