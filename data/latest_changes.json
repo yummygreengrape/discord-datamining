@@ -1,5 +1,5 @@
 {
-    "build_hash": "2343832f87e3ee73553443a6f270dd952c880af4",
+    "build_hash": "f5dd2396f4321d127ee58b50c8c114ea67d2b8ed",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,8 +14,15 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
-            "modified": {}
+            "deleted": {
+                "bfJ/sO": "Join the {orgName} {noun} in {gameName}."
+            },
+            "modified": {
+                "gptW7Y": {
+                    "new_value": "Join the $[{orgName} {noun}](orgNameHook) in {gameName}.",
+                    "old_value": "Join the {orgName} {noun} in {gameName}."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T01:30:52.874232+00:00"
+    "timestamp": "2026-11-17T01:41:54.742485+00:00"
 }
