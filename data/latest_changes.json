@@ -1,30 +1,54 @@
 {
-    "build_hash": "dcaa0931b5253175e9b6f2cea18e13f0cc3edbe1",
+    "build_hash": "ec5de67d820909fb4a150ad946978b02e338a7f0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-user-profile-sidebar-redesign",
-            "kind": "user",
-            "timestamp": "2026-11-17T19:08:30Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "BULK_GUILD_KICK",
+            "status": "added",
+            "url": "/guilds/:param/bulk/kick"
+        },
+        {
+            "name": "BULK_GUILD_TIMEOUT",
+            "status": "added",
+            "url": "/guilds/:param/bulk/timeout"
+        },
+        {
+            "name": "ENDPOINT_GUILDS_BULK_KICK",
+            "status": "added",
+            "url": "/guilds/:param/bulk/kick"
+        },
+        {
+            "name": "ENDPOINT_GUILDS_BULK_TIMEOUT",
+            "status": "added",
+            "url": "/guilds/:param/bulk/timeout"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "ATW4Iz": "Remove timeout from {count}?",
+                "MioRI/": "Timed out {succeeded}, {failed} failed",
+                "SxnIX5": "Timed out {count}",
+                "Zq4ctl": "Kick failed",
+                "em58zY": "Removed timeout for {succeeded}, {failed} failed",
+                "gUlqcY": "Kicked {count}",
+                "kcBqzH": "They can rejoin with a new invite. Each kick is recorded in the audit log, and members you can’t kick are skipped.",
+                "opkFpf": "Kicked {succeeded}, {failed} failed",
+                "rE7o7Q": "Couldn’t remove timeouts",
+                "s/+WDQ": "Kick {count}?",
+                "sKXOvv": "Timeout failed",
+                "tU/Qsl": "Removed timeout for {count}",
+                "zofkaV": "Timeout {count}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -34,5 +58,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T19:10:18.486450+00:00"
+    "timestamp": "2026-11-17T19:21:32.089487+00:00"
 }
