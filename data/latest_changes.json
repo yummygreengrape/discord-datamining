@@ -1,5 +1,5 @@
 {
-    "build_hash": "8980bc5af4e8706a053cf7c8070c44efd0cc269d",
+    "build_hash": "6776ae4488f17a4d3ae90ed63c5d5cc3b36a20bb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -15,12 +15,7 @@
         "en": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "hn+Lsg": {
-                    "new_value": "Invite players to your {noun} directly on Discord",
-                    "old_value": "Invite players to your guild directly on Discord"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -28,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T00:36:00.588951+00:00"
+    "timestamp": "2026-11-17T00:47:05.230198+00:00"
 }
