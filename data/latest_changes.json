@@ -1,5 +1,5 @@
 {
-    "build_hash": "862e38de4e8cdff3306d5325d54ded4ddd16a136",
+    "build_hash": "0461fce00bd472e4cbaf53e1b8019e41a9f63f43",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -18,10 +18,16 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "0Rlazk": "오리지널",
+                "YiNO8W": "멤버는 {hours}시간 {minutes} {seconds}마다 메시지를 하나 보낼 수 있어요.",
+                "oSzkf2": "멤버는 {minutes}분 {seconds}마다 메시지를 하나 보낼 수 있어요.",
+                "pk9XKF": "이어 하기",
+                "uaRDmS": "멤버는 {seconds}초마다 메시지를 하나 보낼 수 있어요."
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T23:12:55.523310+00:00"
+    "timestamp": "2026-11-17T23:23:53.653825+00:00"
 }
