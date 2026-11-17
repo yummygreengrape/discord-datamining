@@ -1,15 +1,39 @@
 {
-    "build_hash": "7e9855b1246a2bb6f2598cdbbdd91bb3f17d1d0d",
+    "build_hash": "fdd78e5836a62561def1fa47814ed860e6304ac8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-wishlist-countdown-mobile",
+            "kind": "user",
+            "timestamp": "2026-11-17T18:45:12Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ]
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-premium-group-continuation-40",
+            "kind": "user",
+            "timestamp": "2026-11-17T18:38:04Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +47,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T18:48:10.556216+00:00"
+    "timestamp": "2026-11-17T18:59:27.045012+00:00"
 }
