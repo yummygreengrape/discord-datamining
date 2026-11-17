@@ -1,5 +1,5 @@
 {
-    "build_hash": "376afef9b74084087299f0f78e75a2da54e4a3b3",
+    "build_hash": "df5ef2a4db4f4126e3a90ab0a59250345f701895",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Fm9prG": "Ending soon!",
+                "GcjBzS": "Collect 4 items by {end_date} to unlock an exclusive free Deadpool/Wolverine reward."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T17:09:46.135023+00:00"
+    "timestamp": "2026-11-17T17:20:38.172313+00:00"
 }
