@@ -1,5 +1,5 @@
 {
-    "build_hash": "1577b5f0eedffd0bc37b6e7b93ce869d9aa02768",
+    "build_hash": "cd8923afc023e8842c71f23051da676bd2521879",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,12 +8,67 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-checkpoint-intro",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-11-17T06:19:47Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-checkpoint-intro",
+            "kind": "user",
+            "timestamp": "2026-11-17T06:19:47Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "tgYaeZ": "Checkpoint 2026 is live!"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +78,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T06:17:26.684938+00:00"
+    "timestamp": "2026-11-17T06:28:18.095816+00:00"
 }
