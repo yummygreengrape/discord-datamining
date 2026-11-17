@@ -1,5 +1,5 @@
 {
-    "build_hash": "7f85f5c4d771aa28a28dee0a9ae9d5c84ae21bc4",
+    "build_hash": "fe583a07583c90875a6b1d3b7210ebc46d37d7fd",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,13 +7,28 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_GAMES_ANNOUNCEMENTS_LATEST",
+            "status": "added",
+            "url": "/games/announcements/latest"
+        },
+        {
+            "name": "GAME_ANNOUNCEMENTS_LATEST",
+            "status": "added",
+            "url": "/games/announcements/latest"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "2trLAT": "Playing now",
+                "509stF": "Latest update",
+                "cFBsWj": "Last played {when}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +38,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T17:31:33.200185+00:00"
+    "timestamp": "2026-11-17T17:42:28.359815+00:00"
 }
