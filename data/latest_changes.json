@@ -1,5 +1,5 @@
 {
-    "build_hash": "b7877e65a664ee8497420a7c76c2f6516159465d",
+    "build_hash": "77ab88a1159a853619449eaa1c2ac37b61e03aa3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -20,53 +20,8 @@
         "ko": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "9IpDKy": {
-                    "new_value": "{premiumGroupProductName} 플랜이 종료된 후 첫 달 Nitro 요금은 {discountedPrice}입니다. 그 이후에는 매월 {regularPrice}의 금액이 청구됩니다.",
-                    "old_value": "9IpDKy"
-                },
-                "JsnZTi": {
-                    "new_value": "취소하고 {percent}% 할인받기",
-                    "old_value": "JsnZTi"
-                },
-                "bu24P7": {
-                    "new_value": "{percent}% 할인된 가격으로 Nitro 가입하기",
-                    "old_value": "bu24P7"
-                },
-                "eZa6K/": {
-                    "new_value": "Nitro {percent}% 할인받기",
-                    "old_value": "eZa6K/"
-                },
-                "hoCbfL": {
-                    "new_value": "플랜 소유자가 이 플랜을 취소했습니다. {endDate}까지 특전에 액세스할 수 있습니다. 플랜을 해지하면 {percent}% 할인된 금액에 Nitro를 1개월 이용할 수 있습니다. [자세히 알아보기]({helpCenterLink}).",
-                    "old_value": "hoCbfL"
-                },
-                "iWZqyl": {
-                    "new_value": "{premiumGroupProductName}의 일원이 되어 주셔서 감사합니다. 1개월 동안 월 {discountedPrice}의 가격으로 Nitro를 이용하세요. 그 이후에는 매월 {regularPrice}의 금액이 청구됩니다.",
-                    "old_value": "iWZqyl"
-                },
-                "j1KrK1": {
-                    "new_value": "{premiumGroupProductName}의 일원이 되어 주셔서 감사합니다. 혜택은 {endDate}에 종료됩니다.",
-                    "old_value": "j1KrK1"
-                },
-                "rblVTR": {
-                    "new_value": "모든 준비가 완료되었습니다",
-                    "old_value": "rblVTR"
-                },
-                "sv43VQ": {
-                    "new_value": "{premiumGroupProductName} 베타가 마무리되어 회원님의 플랜이 취소되었어요. 모든 멤버는 {endDate}에 {premiumGroupProductName} 특전에 대한 액세스 권한을 잃게 돼요.",
-                    "old_value": "sv43VQ"
-                },
-                "zFqLyY": {
-                    "new_value": "Nitro 1개월 {percent}% 할인받기",
-                    "old_value": "zFqLyY"
-                },
-                "zgcnBs": {
-                    "new_value": "{premiumGroupProductName} 플랜이 종료된 후 첫 달 Nitro 요금의 {percent}%를 할인받습니다. 그 이후에는 매월 {regularPrice}의 금액이 청구됩니다.",
-                    "old_value": "zgcnBs"
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-11-17T21:23:53.115306+00:00"
+    "timestamp": "2026-11-17T21:34:51.455999+00:00"
 }
