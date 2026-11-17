@@ -1,8 +1,75 @@
 {
-    "build_hash": "6776ae4488f17a4d3ae90ed63c5d5cc3b36a20bb",
+    "build_hash": "f67464d10c1e14a3233716656d00093a90b7ba43",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "detailed_summary": "기본 상태에서는 이 기프트카드 안내가 나타나지 않아요. 비교안에서는 계정이 만들어진 지 90일 이상 됐고, 미국으로 분류되며, 저장된 결제 수단이 없는 계정에 안내를 제안해요. 계정 설정과 결제 수단을 불러온 뒤 판단하고, 이미 닫은 안내나 결제 수단 확인에 실패한 계정은 제외해요. 같은 시점의 문구에는 온라인·오프라인의 일부 판매처에서 Nitro와 상점 아이템 등을 선물하거나 받을 수 있다고 적혀 있어요. 자세히 알아보기 버튼은 기프트카드 소개 페이지를 열어요. 안내를 보는 것만으로 구매가 이뤄지지는 않으며 실제 판매처와 계정별 노출은 확인하지 않았어요.",
+                "evidence": [
+                    "canary/web.1904223b96a523d0.js: AccountCoachmark reads the exact experiment, checks US, account age >= 3 DAYS_30, loaded settings, dismissal and fetched paymentSourceIds.length === 0.",
+                    "The same consumer queues GIFT_CARDS_MARKETING_COACHMARK; its renderer uses tmst3F, sJHQqC and j4n5/K and opens the marketing /gift-cards page."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "generated_at": "2026-10-07T00:42:42.579535+00:00",
+                "importance": "medium",
+                "summary": "내 계정의 설정 버튼 근처에 기프트카드 구매처 안내를 보여 주는 실험이에요. 조건을 충족한 미국 이용자에게 Nitro나 상점 아이템을 선물하거나 받는 방법을 소개해요.",
+                "why_it_matters": "결제 수단을 저장하지 않은 오래된 계정에 다른 구매 경로를 알리는 안내로 볼 수 있어요. 현재 코드의 대상 국가는 미국으로 제한돼 있어요."
+            },
+            "analysis_en": {
+                "detailed_summary": "The default does not show this prompt. The enabled variant considers accounts at least 90 days old, classified as US-based, and without a saved payment method. It waits for account settings and payment methods to load, excludes dismissed prompts, and suppresses the prompt if the payment-method check fails. New copy describes giving or receiving Nitro, Shop items, and more through selected online and physical retailers. Learn More opens the gift-card marketing page. Seeing the prompt does not make a purchase; retailer availability and individual account exposure were not tested.",
+                "evidence": [
+                    "canary/web.1904223b96a523d0.js: AccountCoachmark reads the exact experiment, checks US, account age >= 3 DAYS_30, loaded settings, dismissal and fetched paymentSourceIds.length === 0.",
+                    "The same consumer queues GIFT_CARDS_MARKETING_COACHMARK; its renderer uses tmst3F, sJHQqC and j4n5/K and opens the marketing /gift-cards page."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "generated_at": "2026-10-07T00:42:42.579535+00:00",
+                "importance": "medium",
+                "summary": "Shows a gift-card information prompt near the account settings control. Eligible US users see information about giving or receiving Nitro and Shop items.",
+                "why_it_matters": "The prompt presents another purchase route to established accounts without a saved payment method. The inspected country allowlist contains only the US."
+            },
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-gift-cards-in-app-marketing",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-gift-cards-in-app-marketing",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -14,14 +81,471 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
-            "modified": {}
+            "deleted": {
+                "6bWeWP": "Learn More",
+                "I5UWh9": "Get Nitro, Shop items, Server Boosts, and more",
+                "Ja5Q8Z": "Grab a Discord gift card",
+                "UwYHGm": "Learn more on [our website]({websiteUrl})",
+                "ZuneBP": "Redeem in [Billing Settings]({onBillingSettingsClick})",
+                "j4n5/K": "Learn More",
+                "qtKobx": "Get your hands on a gift card. Literally! Now available at select retailers online and in-stores.",
+                "sJHQqC": "Spend it on Nitro, Shop items, and more. Now available at select retailers online and in-stores.",
+                "tmst3F": "The perfect gift for @everyone",
+                "w8gzZb": "The Perfect Gift For @everyone",
+                "xYa9Y8": "Where to Buy"
+            },
+            "modified": {
+                "660/Rr": {
+                    "new_value": "{numEmojis} emoji dropped across Discord this year. Here were the collective faves:",
+                    "old_value": "{numEmojis} emoji dropped this year. Here were the collective faves:"
+                },
+                "bAxEs2": {
+                    "new_value": "{numWords} words were sent across Discord this year? That’s like {numCopies} copies of The Odyssey in its original Greek.",
+                    "old_value": "{numWords} words? That’s equivalent to {numCopies} copies of The Odyssey in its original Greek. Light work."
+                },
+                "huiTne": {
+                    "new_value": "Yapping is a round-the-clock activity for players worldwide.",
+                    "old_value": "Yapping is a round-the-clock activity."
+                }
+            }
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "6bWeWP": "자세히 알아보기",
+                "I5UWh9": "Nitro, 상점 아이템, 서버 부스트 등 구매",
+                "Ja5Q8Z": "Discord 기프트 카드를 구매하세요",
+                "UwYHGm": "[웹사이트]({websiteUrl})에서 자세히 알아보기",
+                "ZuneBP": "[청구 설정]({onBillingSettingsClick})에서 사용하기",
+                "j4n5/K": "자세히 알아보기",
+                "qtKobx": "기프트 카드를 직접 손에 거머쥐세요. 문자 그대로요! 이제 일부 온라인 및 오프라인 매장에서 구매하실 수 있어요.",
+                "sJHQqC": "Nitro, 상점 아이템 등에 사용해 보세요. 이제 일부 온라인 및 오프라인 매장에서 구매하실 수 있어요.",
+                "tmst3F": "@everyone를 위한 완벽한 선물",
+                "w8gzZb": "@everyone를 위한 완벽한 선물",
+                "xYa9Y8": "구매처"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T00:47:05.230198+00:00"
+    "string_context": {
+        "en": {
+            "I5UWh9": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "Nitro와 상점 아이템, 서버 부스트를 함께 열거해 카드의 사용처를 설명해요. 이 문구는 항목을 무료로 전부 받는다는 보상 목록이 아니에요.",
+                    "generated_at": "2026-10-10T15:14:05.482352Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord Gift Cards",
+                        "Nitro",
+                        "Shop",
+                        "Server Boosts",
+                        "Billing Settings"
+                    ],
+                    "search_intent": "Discord 기프트 카드로 Nitro나 서버 부스트를 살 수 있는지 확인하려는 검색이에요.",
+                    "source_context": "같은 문자열 묶음에 기프트 카드 소개, 구매처, Nitro·상점·서버 부스트 사용처, 결제 설정에서 교환하는 문구가 있어요. 공식 Discord Gift Cards 안내도 잔액 교환을 설명해요.",
+                    "summary": "기프트 카드로 구매할 수 있는 Discord 상품을 소개하는 문구예요.",
+                    "what_it_means": "카드와 관련된 구매 가능 상품의 예시를 안내해요.",
+                    "when_it_appears": "기프트 카드의 상품 사용처를 소개하는 자리에서 나타날 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The list names Nitro, Shop items and Server Boosts as uses. It is a purchasing description rather than a promise to receive all of them for free.",
+                    "generated_at": "2026-10-10T15:14:05.482352Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord Gift Cards",
+                        "Nitro",
+                        "Shop",
+                        "Server Boosts",
+                        "Billing Settings"
+                    ],
+                    "search_intent": "A search about using a Discord gift card for Nitro or Server Boosts.",
+                    "source_context": "The string group contains gift-card introductions, retailer information, Nitro, Shop and Server Boost uses, and Billing redemption. Discord's official Gift Cards guide also describes balance redemption.",
+                    "summary": "This copy names Discord purchases associated with gift cards.",
+                    "what_it_means": "It gives examples of purchases the card is intended for.",
+                    "when_it_appears": "It may appear in a gift-card product-use description."
+                }
+            },
+            "Ja5Q8Z": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "Discord에서 쓸 선불 잔액을 선물하거나 구매하는 카드 제안을 뜻해요. 특정 기간의 Nitro 이용권이 아니라 여러 사용처가 있는 잔액 카드라는 점이 차이예요.",
+                    "generated_at": "2026-10-18T05:41:51.962275Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Discord gift card",
+                        "Gift Card Balance",
+                        "Country/Region",
+                        "Nitro"
+                    ],
+                    "search_intent": "Discord gift card가 Nitro 선물과 어떻게 다른지 알아보려는 검색이에요.",
+                    "source_context": "같은 창의 기프트카드 구매·사용처·국가와 통화 조건 문구를 확인했어요. 공식 Gift Cards 안내는 계정 잔액 사용과 국가 조건을 설명해요.",
+                    "summary": "Discord 기프트카드를 구매하도록 소개하는 짧은 제목이에요.",
+                    "what_it_means": "Discord에서 쓸 선불 잔액을 선물하거나 구매하는 카드 제안을 뜻해요.",
+                    "when_it_appears": "기프트카드 구매를 소개하는 홍보 제목으로 기록됐어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "It refers to an offer to buy or give prepaid balance for Discord purchases. Unlike a fixed-duration Nitro gift, the card provides balance with several spending options.",
+                    "generated_at": "2026-10-18T05:41:51.962275Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Discord gift card",
+                        "Gift Card Balance",
+                        "Country/Region",
+                        "Nitro"
+                    ],
+                    "search_intent": "Someone may want to distinguish a Discord gift card from a Nitro gift.",
+                    "source_context": "Gift-card purchase, spending, and country/currency conditions appear in this window. The official Gift Cards guide describes account balance and regional requirements.",
+                    "summary": "This short heading invites buying a Discord gift card.",
+                    "what_it_means": "It refers to an offer to buy or give prepaid balance for Discord purchases.",
+                    "when_it_appears": "It is recorded as a promotional heading for buying gift cards."
+                }
+            },
+            "ZuneBP": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "교환은 받은 카드를 계정 잔액으로 등록하는 단계예요. 결제 설정 링크가 제공되며 공식 안내에서도 Billing에서 교환하는 흐름을 확인할 수 있어요.",
+                    "generated_at": "2026-10-10T15:14:05.482352Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord Gift Cards",
+                        "Nitro",
+                        "Shop",
+                        "Server Boosts",
+                        "Billing Settings"
+                    ],
+                    "search_intent": "Discord 기프트 카드를 어디서 등록하는지 찾는 검색이에요.",
+                    "source_context": "같은 문자열 묶음에 기프트 카드 소개, 구매처, Nitro·상점·서버 부스트 사용처, 결제 설정에서 교환하는 문구가 있어요. 공식 Discord Gift Cards 안내도 잔액 교환을 설명해요.",
+                    "summary": "기프트 카드를 결제 설정에서 교환하라는 안내예요.",
+                    "what_it_means": "카드를 사용하려면 연결된 결제 설정에서 교환 절차를 진행하라는 뜻이에요.",
+                    "what_to_do": "잔액이 들어갈 계정이 맞는지 확인하고 결제 설정의 교환 안내를 따라 주세요.",
+                    "when_it_appears": "기프트 카드 소개 화면에서 교환 경로를 알려줄 때 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "Redemption adds a received card to an account balance. The Billing link corresponds to the redemption route described in the official guide.",
+                    "generated_at": "2026-10-10T15:14:05.482352Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord Gift Cards",
+                        "Nitro",
+                        "Shop",
+                        "Server Boosts",
+                        "Billing Settings"
+                    ],
+                    "search_intent": "A search for where to redeem a Discord gift card.",
+                    "source_context": "The string group contains gift-card introductions, retailer information, Nitro, Shop and Server Boost uses, and Billing redemption. Discord's official Gift Cards guide also describes balance redemption.",
+                    "summary": "This instruction directs gift-card redemption to Billing Settings.",
+                    "what_it_means": "It directs you to redeem the card through the linked Billing view.",
+                    "what_to_do": "Confirm you are using the intended account and follow the Billing redemption prompts.",
+                    "when_it_appears": "It may appear where gift-card information points to the redemption route."
+                }
+            },
+            "qtKobx": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "실물 카드를 손에 쥔다는 표현과 판매 경로가 함께 적혀 있어요. 데이터마이닝 문구와 공식 구매 안내의 판매 범위가 다를 수 있어 현재 판매 여부는 공식 안내를 확인해야 해요.",
+                    "generated_at": "2026-10-10T15:14:05.482352Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord Gift Cards",
+                        "Nitro",
+                        "Shop",
+                        "Server Boosts",
+                        "Billing Settings"
+                    ],
+                    "search_intent": "실물 Discord 기프트 카드가 어디서 판매되는지 알아보려는 검색이에요.",
+                    "source_context": "같은 문자열 묶음에 기프트 카드 소개, 구매처, Nitro·상점·서버 부스트 사용처, 결제 설정에서 교환하는 문구가 있어요. 공식 Discord Gift Cards 안내도 잔액 교환을 설명해요.",
+                    "summary": "실물 기프트 카드와 일부 온라인·매장 판매처를 소개하는 홍보 문구예요.",
+                    "what_it_means": "일부 판매처의 실물 카드 유통을 소개하는 문구이며 모든 지역의 판매를 보장하지 않아요.",
+                    "when_it_appears": "실물 카드 구매를 소개하는 홍보 설명에서 나타날 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The text explicitly describes holding a physical card and names retail channels. Datamined copy can differ from the published buying guide, so current availability needs checking there.",
+                    "generated_at": "2026-10-10T15:14:05.482352Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord Gift Cards",
+                        "Nitro",
+                        "Shop",
+                        "Server Boosts",
+                        "Billing Settings"
+                    ],
+                    "search_intent": "A search about where physical Discord gift cards are sold.",
+                    "source_context": "The string group contains gift-card introductions, retailer information, Nitro, Shop and Server Boost uses, and Billing redemption. Discord's official Gift Cards guide also describes balance redemption.",
+                    "summary": "This promotional copy introduces physical gift cards and selected online or in-store retailers.",
+                    "what_it_means": "It promotes physical-card retail availability without guaranteeing sales in every region.",
+                    "when_it_appears": "It may appear in promotional information about buying physical cards."
+                }
+            },
+            "sJHQqC": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "카드 잔액을 Discord 구매에 사용하는 여러 용도를 제안해요. 온라인·오프라인 판매 문구는 기록된 제안이며 현재 재고와 국가별 판매처는 별도로 확인해야 해요.",
+                    "generated_at": "2026-10-18T05:41:51.962275Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Discord gift card",
+                        "Gift Card Balance",
+                        "Country/Region",
+                        "Nitro"
+                    ],
+                    "search_intent": "Discord 기프트카드로 상점 아이템도 살 수 있는지 알아보려는 검색이에요.",
+                    "source_context": "같은 창의 기프트카드 구매·사용처·국가와 통화 조건 문구를 확인했어요. 공식 Gift Cards 안내는 계정 잔액 사용과 국가 조건을 설명해요.",
+                    "summary": "기프트카드를 Nitro와 상점 아이템 등에 쓸 수 있다는 소개예요.",
+                    "what_it_means": "카드 잔액을 Discord 구매에 사용하는 여러 용도를 제안해요.",
+                    "when_it_appears": "기프트카드 홍보에서 사용처와 판매처를 함께 소개하는 부분이에요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "It presents several Discord purchase uses for gift-card balance. The recorded offer mentions online and in-store retail; current stock and regional retailers still require checking.",
+                    "generated_at": "2026-10-18T05:41:51.962275Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Discord gift card",
+                        "Gift Card Balance",
+                        "Country/Region",
+                        "Nitro"
+                    ],
+                    "search_intent": "A visitor may want to know whether a Discord gift card can pay for Shop items.",
+                    "source_context": "Gift-card purchase, spending, and country/currency conditions appear in this window. The official Gift Cards guide describes account balance and regional requirements.",
+                    "summary": "This introduces spending gift-card balance on Nitro and Shop items.",
+                    "what_it_means": "It presents several Discord purchase uses for gift-card balance.",
+                    "when_it_appears": "It appears in promotion copy combining spending options and retailer availability."
+                }
+            },
+            "tmst3F": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "같이 나온 설명은 Nitro나 상점 아이템 등을 주고받는 구매 수단으로 기프트카드를 소개해요. 이 제목은 판매 안내이며 카드 잔액이 이미 지급됐다는 뜻은 아니에요. 실제 구매 가능 지역과 판매처는 현재 안내에서 확인해야 해요.",
+                    "generated_at": "2026-10-07T15:12:15.506385Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord Gift Cards",
+                        "Nitro",
+                        "상점",
+                        "Learn More"
+                    ],
+                    "search_intent": "Discord에 표시된 Gift Cards가 어떤 구매 수단인지 알아보려는 검색이에요.",
+                    "source_context": "같은 시점에 Gift Cards are here!, Nitro·상점 구매 안내, Learn More와 기프트카드 안내 실험이 함께 확인돼요.",
+                    "summary": "Gift Cards are here!는 Discord 기프트카드를 소개하는 안내 제목이에요.",
+                    "what_it_means": "Discord 구매에 사용할 기프트카드가 있다는 소개예요.",
+                    "what_to_do": "구매를 생각한다면 자세히 알아보기에서 지원 지역과 판매처를 확인하세요.",
+                    "when_it_appears": "기프트카드를 알리는 앱 내 홍보 안내의 제목으로 나타날 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The accompanying copy connects the cards with Nitro, Shop items, and other purchases. The heading announces a product rather than credit already added to your account. Check current information for supported regions and retailers.",
+                    "generated_at": "2026-10-07T15:12:15.506385Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord Gift Cards",
+                        "Nitro",
+                        "Shop",
+                        "Learn More"
+                    ],
+                    "search_intent": "A visitor may search Gift Cards to understand this Discord purchase option.",
+                    "source_context": "Gift Cards are here!, the Nitro and Shop description, Learn More, and the gift-card marketing experiment occur together.",
+                    "summary": "Gift Cards are here! is a heading introducing Discord gift cards.",
+                    "what_it_means": "It introduces gift cards that can be used for Discord purchases.",
+                    "what_to_do": "If you intend to buy a card, use Learn More to check current regions and retailers.",
+                    "when_it_appears": "It can appear as the title of an in-app gift-card promotion."
+                }
+            },
+            "xYa9Y8": {
+                "analysis": {
+                    "confidence": "high",
+                    "detailed_summary": "짧은 라벨이지만 같은 묶음에 실물 카드와 선택된 판매처 안내가 있어 기프트 카드 구매 경로로 읽혀요. 판매 지역과 매장 종류는 이 버튼명만으로 확인되지 않아요.",
+                    "generated_at": "2026-10-10T15:14:05.482352Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord Gift Cards",
+                        "Nitro",
+                        "Shop",
+                        "Server Boosts",
+                        "Billing Settings"
+                    ],
+                    "search_intent": "Discord 기프트 카드를 파는 곳을 찾는 검색이에요.",
+                    "source_context": "같은 문자열 묶음에 기프트 카드 소개, 구매처, Nitro·상점·서버 부스트 사용처, 결제 설정에서 교환하는 문구가 있어요. 공식 Discord Gift Cards 안내도 잔액 교환을 설명해요.",
+                    "summary": "Discord 기프트 카드 판매처 정보를 여는 메뉴 이름이에요.",
+                    "what_it_means": "판매처 안내로 이동하는 항목이에요.",
+                    "when_it_appears": "기프트 카드 홍보 영역에서 구매처 링크를 고를 때 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "high",
+                    "detailed_summary": "The short label sits with physical-card and selected-retailer copy, supporting a gift-card buying entry. The button alone does not establish a region or store type.",
+                    "generated_at": "2026-10-10T15:14:05.482352Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord Gift Cards",
+                        "Nitro",
+                        "Shop",
+                        "Server Boosts",
+                        "Billing Settings"
+                    ],
+                    "search_intent": "A search for retailers selling Discord gift cards.",
+                    "source_context": "The string group contains gift-card introductions, retailer information, Nitro, Shop and Server Boost uses, and Billing redemption. Discord's official Gift Cards guide also describes balance redemption.",
+                    "summary": "Where to Buy names the entry to Discord gift-card retailer information.",
+                    "what_it_means": "It leads to retailer information.",
+                    "when_it_appears": "It may appear as the retailer link in a gift-card promotion."
+                }
+            }
+        },
+        "ko": {
+            "I5UWh9": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "기프트카드 잔액을 쓸 수 있는 Discord 상품 범주를 보여줘요. 이 라벨에는 상품별 가격이나 자동 갱신 조건이 없어요.",
+                    "generated_at": "2026-10-18T05:41:51.962275Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Discord gift card",
+                        "Gift Card Balance",
+                        "Country/Region",
+                        "Nitro"
+                    ],
+                    "search_intent": "기프트카드로 서버 부스트도 구매 가능한지 확인하려는 검색이에요.",
+                    "source_context": "같은 창의 기프트카드 구매·사용처·국가와 통화 조건 문구를 확인했어요. 공식 Gift Cards 안내는 계정 잔액 사용과 국가 조건을 설명해요.",
+                    "summary": "Nitro·상점 아이템·서버 부스트를 구매하는 사용처 라벨이에요.",
+                    "what_it_means": "기프트카드 잔액을 쓸 수 있는 Discord 상품 범주를 보여줘요.",
+                    "when_it_appears": "한국어 기프트카드 안내의 사용처 요약으로 보여요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "It identifies categories of Discord products that gift-card balance can buy. The label does not supply product prices or renewal terms.",
+                    "generated_at": "2026-10-18T05:41:51.962275Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Discord gift card",
+                        "Gift Card Balance",
+                        "Country/Region",
+                        "Nitro"
+                    ],
+                    "search_intent": "Someone may be checking whether gift-card balance also supports Server Boosts.",
+                    "source_context": "Gift-card purchase, spending, and country/currency conditions appear in this window. The official Gift Cards guide describes account balance and regional requirements.",
+                    "summary": "This label lists Nitro, Shop items, and Server Boosts as purchase uses.",
+                    "what_it_means": "It identifies categories of Discord products that gift-card balance can buy.",
+                    "when_it_appears": "It likely summarizes spending options in Korean gift-card guidance."
+                }
+            },
+            "Ja5Q8Z": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "같은 시점에는 카드 사용처와 일부 판매처 설명이 함께 있어요. 구매 권유는 카드가 이미 계정에 등록됐다는 확인이 아니에요.",
+                    "generated_at": "2026-10-18T15:18:00.972138Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord gift card",
+                        "Nitro",
+                        "Shop",
+                        "selected retailers"
+                    ],
+                    "search_intent": "Discord 기프트 카드를 어디서 구매하는지 찾는 검색이에요.",
+                    "source_context": "같은 시점의 기프트 카드 문구는 Nitro·상점 사용처, 실물 카드, 일부 온라인·오프라인 판매처, 구매 동작을 함께 소개해요.",
+                    "summary": "Discord 기프트 카드를 구매하는 경로로 안내하는 문구예요.",
+                    "what_it_means": "카드 구매 안내나 판매 경로를 여는 동작을 가리켜요.",
+                    "what_to_do": "이동한 구매처와 카드 사용 조건을 확인한 뒤 구매 여부를 결정하세요.",
+                    "when_it_appears": "기프트 카드 소개 화면의 구매 이동 문구에서 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The same period includes uses for the card and selected-retailer descriptions. A purchase prompt does not confirm a card has been redeemed to the account.",
+                    "generated_at": "2026-10-18T15:18:00.972138Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord gift card",
+                        "Nitro",
+                        "Shop",
+                        "selected retailers"
+                    ],
+                    "search_intent": "To find the purchase route for a Discord gift card.",
+                    "source_context": "Same-period gift-card copy covers Nitro and Shop uses, physical cards, selected online and in-store retailers, and purchase actions.",
+                    "summary": "This line directs users toward purchasing a Discord gift card.",
+                    "what_it_means": "The action leads toward gift-card purchase information or a sales route.",
+                    "what_to_do": "Review the destination retailer and card terms before deciding to purchase.",
+                    "when_it_appears": "It may appear as a purchase prompt in the gift-card introduction."
+                }
+            },
+            "qtKobx": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "직접 손에 쥔다는 표현은 물리적인 카드 소개에 쓰여요. 어떤 매장과 지역에서 판매하는지는 이 문구에 나와 있지 않아요.",
+                    "generated_at": "2026-10-18T15:18:00.972138Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord gift card",
+                        "Nitro",
+                        "Shop",
+                        "selected retailers"
+                    ],
+                    "search_intent": "Discord 기프트 카드가 실물로 판매되는지와 구매처를 찾는 검색이에요.",
+                    "source_context": "같은 시점의 기프트 카드 문구는 Nitro·상점 사용처, 실물 카드, 일부 온라인·오프라인 판매처, 구매 동작을 함께 소개해요.",
+                    "summary": "실물 Discord 기프트 카드를 일부 온라인·오프라인 매장에서 구매할 수 있다는 안내예요.",
+                    "what_it_means": "일부 판매 경로에서 실물 카드를 구매하는 선택지를 소개해요.",
+                    "what_to_do": "구매하려는 판매처의 카드 조건과 적용 지역을 확인하세요.",
+                    "when_it_appears": "실물 기프트 카드 판매를 소개하는 홍보 화면에서 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The phrase about holding a card points to a physical product. The line does not list supported stores or regions.",
+                    "generated_at": "2026-10-18T15:18:00.972138Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord gift card",
+                        "Nitro",
+                        "Shop",
+                        "selected retailers"
+                    ],
+                    "search_intent": "To find whether physical Discord gift cards are sold and where to look.",
+                    "source_context": "Same-period gift-card copy covers Nitro and Shop uses, physical cards, selected online and in-store retailers, and purchase actions.",
+                    "summary": "This copy introduces physical Discord gift cards at selected online and in-store retailers.",
+                    "what_it_means": "The offer presents physical cards through selected retail channels.",
+                    "what_to_do": "Check the retailer’s card conditions and supported region before purchasing.",
+                    "when_it_appears": "It may appear in promotional copy introducing physical gift-card sales."
+                }
+            },
+            "sJHQqC": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "같은 시점에 기프트 카드 구매와 일부 판매처 안내도 추가됐어요. 이 문장만으로 모든 매장에서 판매하거나 모든 결제에 사용할 수 있다고 볼 수는 없어요.",
+                    "generated_at": "2026-10-18T15:18:00.972138Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord gift card",
+                        "Nitro",
+                        "Shop",
+                        "selected retailers"
+                    ],
+                    "search_intent": "Discord 기프트 카드로 무엇을 살 수 있는지 확인하려는 검색이에요.",
+                    "source_context": "같은 시점의 기프트 카드 문구는 Nitro·상점 사용처, 실물 카드, 일부 온라인·오프라인 판매처, 구매 동작을 함께 소개해요.",
+                    "summary": "Discord 기프트 카드를 Nitro와 상점 아이템 등에 쓸 수 있다는 사용처 안내예요.",
+                    "what_it_means": "카드의 사용 대상으로 Nitro와 상점 아이템 등이 제시돼요.",
+                    "what_to_do": "구매·사용 전에 카드의 사용 조건과 판매처 안내를 확인하세요.",
+                    "when_it_appears": "Discord 기프트 카드의 사용처와 판매 경로를 소개하는 화면에서 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The same change set includes gift-card purchase and selected-retailer messages. It does not establish sales at every retailer or use for every payment.",
+                    "generated_at": "2026-10-18T15:18:00.972138Z",
+                    "intent_type": "billing_or_subscription_issue",
+                    "related_terms": [
+                        "Discord gift card",
+                        "Nitro",
+                        "Shop",
+                        "selected retailers"
+                    ],
+                    "search_intent": "To check what a Discord gift card can be used to buy.",
+                    "source_context": "Same-period gift-card copy covers Nitro and Shop uses, physical cards, selected online and in-store retailers, and purchase actions.",
+                    "summary": "This gift-card copy lists Nitro and Shop items among its uses.",
+                    "what_it_means": "Nitro and Shop items are among the spending uses presented for the card.",
+                    "what_to_do": "Check the card’s redemption conditions and listed retailers before purchase or use.",
+                    "when_it_appears": "It may appear where Discord introduces gift-card uses and sales channels."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-11-17T00:57:58.418782+00:00"
 }
