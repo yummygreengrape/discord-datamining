@@ -1,8 +1,200 @@
 {
-    "build_hash": "77ab88a1159a853619449eaa1c2ac37b61e03aa3",
+    "build_hash": "67d94c7d62526a5ca9e8e92eff92efbfe4d8ccd9",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enableGamePanelEntrypoint",
+                        "note": "비교안은 게임 활동 패널에 클립 저장 버튼을 표시합니다."
+                    },
+                    {
+                        "key": "enableOverlayEntrypoint",
+                        "note": "설정에는 포함되지만 현재 웹 Canary에서 직접 소비하는 오버레이 화면은 확인되지 않았습니다."
+                    }
+                ],
+                "detailed_summary": "기본 상태에서는 게임 활동 패널에 별도의 클립 저장 버튼이 나타나지 않습니다. 비교안에서는 Clips를 사용할 수 있고 게임 영상 소스가 연결된 동안 패널에 클립 버튼을 표시하며, 버튼을 누르면 현재 장면을 저장하는 동작을 시작합니다. 이미 다른 클립을 저장 중이거나 영상 소스가 연결되지 않은 경우에는 버튼을 사용할 수 없고 그 이유를 안내합니다. 같은 시점의 문자열에는 ‘Clips Actions’, ‘Initializing Clips Engine’, ‘Clipping is disabled’가 추가되어 Clips 상태를 사용자에게 설명하는 흐름도 확인됩니다. 원시 설정에는 오버레이 진입점도 포함되지만, 현재 Canary에서 직접 확인된 화면은 게임 활동 패널입니다.",
+                "evidence": [
+                    "Current Canary ClipsPanelButton reads enableGamePanelEntrypoint from the experiment.",
+                    "The button appears only while Clips is available and a game source is attached, and its click handler starts a clip save.",
+                    "Current strings add Clips Actions, Initializing Clips Engine, and Clipping is disabled state copy."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "게임 활동 패널의 Clips 진입점",
+                "generated_at": "2026-07-18T04:06:34Z",
+                "importance": "high",
+                "summary": "게임 활동 패널에 클립 저장 버튼을 추가해, 플레이 중인 장면을 그 자리에서 클립으로 남길 수 있게 하는 실험입니다.",
+                "why_it_matters": "클립 기능을 설정 화면에서 찾아 들어가지 않아도 게임을 보는 자리에서 바로 사용할 수 있어, 중요한 장면을 놓치지 않고 저장하기 쉬워집니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enableGamePanelEntrypoint",
+                        "note": "The variant shows a save-clip button in the game activity panel."
+                    },
+                    {
+                        "key": "enableOverlayEntrypoint",
+                        "note": "The setting exists, but no direct overlay consumer was confirmed in the current web Canary client."
+                    }
+                ],
+                "detailed_summary": "The default state does not add a separate clip button to the game activity panel. In the variant, the button appears while Clips is available and a game video source is attached, and pressing it starts saving the current moment. The button is unavailable while another clip save is at capacity or when the source is not attached, with a tooltip explaining the state. Strings added at the same time include ‘Clips Actions,’ ‘Initializing Clips Engine,’ and ‘Clipping is disabled,’ confirming user-facing Clips status messaging. The raw settings also mention an overlay entry point, but the game activity panel is the surface directly confirmed in the current Canary client.",
+                "evidence": [
+                    "Current Canary ClipsPanelButton reads enableGamePanelEntrypoint from the experiment.",
+                    "The button appears only while Clips is available and a game source is attached, and its click handler starts a clip save.",
+                    "Current strings add Clips Actions, Initializing Clips Engine, and Clipping is disabled state copy."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Clips entry point in the game activity panel",
+                "generated_at": "2026-07-18T04:06:34Z",
+                "importance": "high",
+                "summary": "Adds a save-clip button to the game activity panel so players can capture the current moment without leaving that surface.",
+                "why_it_matters": "Players can capture an important moment directly from where they are watching the game instead of first navigating to Clips settings."
+            },
+            "config_keys": [
+                "enableGamePanelEntrypoint",
+                "enableOverlayEntrypoint"
+            ],
+            "default_config": {
+                "enableGamePanelEntrypoint": false,
+                "enableOverlayEntrypoint": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-clips-secondary-entrypoints",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-11-17T21:45:45Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableGamePanelEntrypoint": true,
+                    "enableOverlayEntrypoint": true
+                }
+            }
+        },
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enableGameEventsOnPlayer",
+                        "note": "켜진 비교안은 클립 재생 막대에 게임 이벤트 표시와 설명을 추가합니다."
+                    }
+                ],
+                "detailed_summary": "기본 상태에서는 클립에 게임 이벤트가 기록되어 있어도 재생 막대에 별도 표시가 나타나지 않습니다. 비교안에서는 클립의 게임 이벤트를 재생 시간에 맞춘 작은 표시로 바꾸고, 사용자가 표시 위에 마우스를 올리면 ‘Kill’, ‘Multikill’, ‘Death’ 중 해당 설명을 보여 줍니다. 같은 설정이 클립을 업로드할 때 처치와 연속 처치 시점을 재생용 타임라인 정보에 포함하는 흐름에도 사용됩니다. 같은 시점에 세 이벤트 문자열이 추가되어 실제 재생 화면의 표시 의미를 뒷받침합니다.",
+                "evidence": [
+                    "Current Canary useClipTimelineIndicators reads enableGameEventsOnPlayer and renders game-event markers.",
+                    "The clip upload payload includes event timeline data when the same setting is enabled.",
+                    "Current strings add Kill, Multikill, and Death labels at the experiment timestamp."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Clips 재생 타임라인 게임 이벤트",
+                "generated_at": "2026-07-18T04:06:34Z",
+                "importance": "high",
+                "summary": "저장된 클립의 재생 막대에 처치·연속 처치·사망 시점을 표시하는 실험입니다.",
+                "why_it_matters": "긴 클립에서도 핵심 전투 장면을 재생 막대에서 바로 찾아 이동할 수 있어, 하이라이트를 다시 보거나 공유하기 쉬워집니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enableGameEventsOnPlayer",
+                        "note": "The enabled variant adds game-event markers and labels to the Clip playback bar."
+                    }
+                ],
+                "detailed_summary": "In the default state, game events recorded with a Clip do not add separate markers to its playback bar. The variant turns those events into small indicators at their playback times, with hover labels for ‘Kill,’ ‘Multikill,’ or ‘Death.’ The same setting is also used when preparing a Clip upload to include kill and multikill moments in its playback timeline data. The three event labels were added as strings at the experiment timestamp, supporting the visible player behavior.",
+                "evidence": [
+                    "Current Canary useClipTimelineIndicators reads enableGameEventsOnPlayer and renders game-event markers.",
+                    "The clip upload payload includes event timeline data when the same setting is enabled.",
+                    "Current strings add Kill, Multikill, and Death labels at the experiment timestamp."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Game events on the Clips playback timeline",
+                "generated_at": "2026-07-18T04:06:34Z",
+                "importance": "high",
+                "summary": "Marks kill, multikill, and death moments on the playback bar of a saved Clip.",
+                "why_it_matters": "Viewers can jump directly to important combat moments in a longer Clip, making highlights easier to revisit and share."
+            },
+            "config_keys": [
+                "enableGameEventsOnPlayer"
+            ],
+            "default_config": {
+                "enableGameEventsOnPlayer": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-clips-game-events-on-player",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-11-17T21:45:45Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableGameEventsOnPlayer": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enableGamePanelEntrypoint",
+                "enableOverlayEntrypoint"
+            ],
+            "default_config": {
+                "enableGamePanelEntrypoint": false,
+                "enableOverlayEntrypoint": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-06-clips-secondary-entrypoints",
+            "kind": "user",
+            "timestamp": "2026-11-17T21:45:45Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableGamePanelEntrypoint": true,
+                    "enableOverlayEntrypoint": true
+                }
+            }
+        },
+        {
+            "config_keys": [
+                "enableGameEventsOnPlayer"
+            ],
+            "default_config": {
+                "enableGameEventsOnPlayer": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-clips-game-events-on-player",
+            "kind": "user",
+            "timestamp": "2026-11-17T21:45:45Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enableGameEventsOnPlayer": true
+                }
+            }
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-clips-editor-image-track",
+            "kind": "user",
+            "timestamp": "2026-11-17T21:45:45Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -23,5 +215,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T21:34:51.455999+00:00"
+    "timestamp": "2026-11-17T21:45:45.634978+00:00"
 }
