@@ -1,53 +1,8 @@
 {
-    "build_hash": "a35436413eea33cb9acebd7047714c656e3c1e8d",
+    "build_hash": "862e38de4e8cdff3306d5325d54ded4ddd16a136",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-server-theme-user",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-11-17T22:56:58Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-05-server-theme-user",
-            "kind": "user",
-            "timestamp": "2026-11-17T22:56:58Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -58,118 +13,15 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "QGuKKF": "clan",
-                "Y84911": "alliance",
-                "qw4LoI": "Alliance"
-            },
-            "deleted": {
-                "RK6NbY": "This server could have its own look",
-                "hrS/Pc": "Use the server's theme",
-                "mlvXIq": "Use my theme",
-                "xlAqGk": "Admins can now use Boosts to give this server a custom theme."
-            },
-            "modified": {
-                "WmxMAI": {
-                    "new_value": "You’ll automatically be added to the {displayNoun, select, ALLIANCE {alliance’s linked server, and can unlock special alliance features} CLAN {clan’s linked server, and can unlock special clan features} other {guild’s linked server, and can unlock special guild features}}",
-                    "old_value": "You’ll automatically be added to the {displayNoun, select, GUILD {guild’s linked server, and can unlock special guild features} other {linked server, and can unlock special features}}"
-                }
-            }
+            "added": {},
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "RK6NbY": "이 서버만의 고유한 모습을 가질 수 있어요",
-                "hrS/Pc": "서버의 테마 사용",
-                "mlvXIq": "내 테마 사용",
-                "xlAqGk": "이제 관리자는 부스트를 사용하여 이 서버에 사용자 지정 테마를 설정할 수 있어요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "WmxMAI": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "안내에서 말하는 서버는 게임 그룹과 연결된 특정 Discord 서버예요. 함께 나온 문구에는 아직 서버 멤버가 아닌 경우에 추가된다고 적혀 있어요.",
-                    "generated_at": "2026-11-15T15:09:44Z",
-                    "intent_type": "server_or_permission_notice",
-                    "related_terms": [
-                        "계정 연결",
-                        "Discord Orbs",
-                        "게임 소셜 기능",
-                        "연결된 서버"
-                    ],
-                    "search_intent": "게임 길드에 가입했는데 연결된 Discord 서버에도 가입되는 이유를 확인하는 상황이에요.",
-                    "source_context": "게임 계정을 연결하는 안내, Orbs 수령 확인, 연결된 서버와 게임 랭크 관련 설명이 이 기간에 관측됐어요.",
-                    "summary": "게임 그룹에 가입하면 연결된 Discord 서버에도 자동으로 들어갈 수 있다는 안내예요.",
-                    "what_it_means": "해당 게임 그룹에 가입하는 과정에 연결된 서버의 멤버가 되는 단계가 포함될 수 있어요.",
-                    "when_it_appears": "게임 그룹에 가입하기 전에 연결된 서버와 추가 기능을 보여 줄 때 나타날 수 있어요."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The text refers to the particular Discord server associated with that group. Companion wording describes adding people who are not already members.",
-                    "generated_at": "2026-11-15T15:09:44Z",
-                    "intent_type": "server_or_permission_notice",
-                    "related_terms": [
-                        "Account linking",
-                        "Discord Orbs",
-                        "In-game social features",
-                        "Linked server"
-                    ],
-                    "search_intent": "Someone wants to know why joining an in-game guild would also add a Discord server.",
-                    "source_context": "The window includes account linking prompts, an Orbs claim confirmation, and separate copy for linked servers and game rank.",
-                    "summary": "This notice says that joining a game group can also add you to its linked Discord server.",
-                    "what_it_means": "Joining the game group can include becoming a member of the connected server.",
-                    "when_it_appears": "It can appear when Discord explains group membership and its linked-server features before you join."
-                }
-            }
-        },
-        "ko": {
-            "xlAqGk": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "서버 태그 문구는 멤버가 Discord 어디에서나 서버를 대표하는 태그를 표시할 수 있고, 외부 사용자가 해당 태그를 통해 서버 프로필을 볼 수 있음을 설명합니다. 애플리케이션이 활성화된 서버에서는 태그를 통해 가입 신청 흐름으로 이어질 수 있다는 문구도 포함됩니다. 별도의 부스트 문구는 관리자가 부스트를 사용해 서버 사용자 지정 테마를 설정할 수 있음을 나타냅니다.",
-                    "generated_at": "2026-07-03T09:07:14Z",
-                    "intent_type": "server_or_permission_notice",
-                    "related_terms": [
-                        "Server Tag",
-                        "custom tag",
-                        "server profile",
-                        "Boosts",
-                        "custom theme",
-                        "applications"
-                    ],
-                    "search_intent": "사용자는 “서버 태그가 외부에 보이나”, “서버 태그 설정 방법”, “부스트 테마가 왜 안 보이나”를 확인하려고 검색했을 가능성이 큽니다.",
-                    "source_context": "같은 문자열 창에는 서버 태그 설명, 태그 사용자 지정, 서버 외부 프로필 노출, 부스트로 서버 사용자 지정 테마를 설정할 수 있다는 문구가 함께 있습니다. 과거 API 변화에는 GUILD_THEME endpoint가 추가된 기록도 있습니다.",
-                    "summary": "이 문구들은 서버 멤버 이름 옆에 표시되는 서버 태그와, 부스트를 통해 열리는 서버 테마 사용자 지정 기능을 설명합니다.",
-                    "what_it_means": "서버 태그는 단순 내부 라벨이 아니라 서버 외부에서도 보일 수 있는 프로필 진입점이 될 수 있으며, 테마 설정은 관리자와 부스트 조건에 연결될 수 있습니다.",
-                    "what_to_do": "태그나 테마 설정이 보이지 않으면 서버 관리자 권한, 서버 기능 활성화 상태, 부스트 조건을 확인해야 할 가능성이 큽니다.",
-                    "when_it_appears": "서버 프로필, 서버 태그 설정, 가입 신청이 켜진 서버, 서버 부스트 또는 테마 설정 화면에서 보일 가능성이 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "Server Tag copy says members can display a tag representing the server across Discord, and that people outside the server can view the Server Profile through that tag. It also mentions applications when enabled. Separate Boost copy says admins can use Boosts to set a custom server theme.",
-                    "generated_at": "2026-07-03T09:07:14Z",
-                    "intent_type": "server_or_permission_notice",
-                    "related_terms": [
-                        "Server Tag",
-                        "custom tag",
-                        "server profile",
-                        "Boosts",
-                        "custom theme",
-                        "applications"
-                    ],
-                    "search_intent": "Searchers are likely trying to understand whether Server Tags are public, how to customize them, or why a Boost theme option is unavailable.",
-                    "source_context": "The same string window includes Server Tag explanation, tag customization, server profile visibility outside the server, and Boost-enabled custom server theme copy. Earlier API history also added a GUILD_THEME endpoint.",
-                    "summary": "These strings describe server tags shown next to member names and server theme customization unlocked through Boosts.",
-                    "what_it_means": "A Server Tag may act as an externally visible entry point to a Server Profile, while custom themes may depend on admin access and Boost-related conditions.",
-                    "what_to_do": "If tag or theme controls are not visible, check server admin permissions, whether the server feature is enabled, and any Boost requirement.",
-                    "when_it_appears": "Likely appears in Server Profile, Server Tag settings, servers with applications enabled, and server Boost or theme settings."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-11-17T23:01:57.474527+00:00"
+    "timestamp": "2026-11-17T23:12:55.523310+00:00"
 }
