@@ -1,5 +1,5 @@
 {
-    "build_hash": "adc112e56fe1e140d33acd1dabfd9bfe68378c61",
+    "build_hash": "bfed739d57f3f3d441462b99194adc828b65a022",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "ibsiKg": "Get {percent}% off {collectionName} items, applied at checkout"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T22:40:08.025615+00:00"
+    "timestamp": "2026-11-17T22:51:00.106595+00:00"
 }
