@@ -1,8 +1,99 @@
 {
-    "build_hash": "bcdac63fcc37b1dbbc4853ba56bffcba5f25a2ab",
+    "build_hash": "ccdc154df24bc76a9f0dfdbeded299b539a11360",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "두 비교안 모두 일반 연령 확인 시작 경로에서 새 모달을 선택합니다."
+                    }
+                ],
+                "detailed_summary": "연령 제한 콘텐츠나 기능 때문에 확인을 시작하면, 기본 상태에서는 기존 안내 화면을 유지합니다. 현재 두 비교안은 모두 새 연령 확인 시작 모달을 선택합니다. Google Wallet 또는 Incode처럼 별도 확인 방식이 적용되는 경우에는 해당 전용 흐름이 먼저 사용됩니다. 두 비교안의 설정값이 모두 enabled뿐이어서 서로 다른 사용자 경험은 현재 코드에서 확인되지 않았습니다.",
+                "evidence": [
+                    "Current Canary module 31720 reads the experiment at the age-verification entry point.",
+                    "The enabled branch opens the new age-verification modal while dedicated Incode and Google Wallet paths remain separate.",
+                    "Both current variants carry the same enabled value."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "연령 확인 시작 화면",
+                "generated_at": "2026-08-15T04:03:35Z",
+                "importance": "high",
+                "summary": "연령 확인을 시작할 때 기존 안내 대신 새 표현형 모달을 보여 주는 실험입니다.",
+                "why_it_matters": "나이 확인이 필요한 이유와 다음 단계를 더 분명한 화면으로 안내할 수 있어 제한된 콘텐츠에 접근하는 과정의 혼란을 줄일 수 있습니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "Both comparison variants select the new modal for the general age-verification start path."
+                    }
+                ],
+                "detailed_summary": "When age-gated content or actions begin verification, the default state keeps the existing introduction. Both current comparison variants select the newer age-verification modal. Dedicated methods such as Google Wallet or Incode still take precedence when their conditions apply. Because both variants expose only the same enabled value, their user-facing difference is not visible in the current client.",
+                "evidence": [
+                    "Current Canary module 31720 reads the experiment at the age-verification entry point.",
+                    "The enabled branch opens the new age-verification modal while dedicated Incode and Google Wallet paths remain separate.",
+                    "Both current variants carry the same enabled value."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Age-verification introduction",
+                "generated_at": "2026-08-15T04:03:35Z",
+                "importance": "high",
+                "summary": "Shows a new expressive introduction instead of the existing screen when age verification begins.",
+                "why_it_matters": "A clearer explanation of why verification is needed and what comes next can reduce confusion when people try to access age-restricted content."
+            },
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-expressive-modal-v2",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-07-expressive-modal-v2",
+            "kind": "user",
+            "treatments": [
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                },
+                "2": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -23,5 +114,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T09:37:32.192977+00:00"
+    "timestamp": "2026-11-17T09:48:23.931670+00:00"
 }
