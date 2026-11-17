@@ -1,5 +1,5 @@
 {
-    "build_hash": "966ce2199eecc6c45940647444d0a08e94e52bd5",
+    "build_hash": "77a59f591224eb9de8ece0deebf4a4376b9acb03",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,13 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Dvld9i": "Sent by {username}",
+                "JxM9jQ": "Profile",
+                "SDm5sW": "Sent by {username} · {detail}",
+                "e8TotY": "On some versions of KDE Plasma, push to talk can turn off early when you press another key. [Learn more]({kdeFixUrl})",
+                "lD2bO/": "{username} · {pronouns}"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T20:05:56.851196+00:00"
+    "timestamp": "2026-11-17T20:17:16.354382+00:00"
 }
