@@ -1,5 +1,5 @@
 {
-    "build_hash": "dceeb218d06fc4367e3fdba22e9ece752e617bb8",
+    "build_hash": "df27e6cb6db91fa5b908eb40909cb3b9fa7d86c4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,62 +14,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "B2F9tM": "Include My Voice",
-                "y080Rd": "Your voice isn’t included in others’ Clips."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "B2F9tM": "내 음성 포함",
-                "y080Rd": "다른 사람의 클립에 회원님의 음성이 포함되지 않습니다."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "B2F9tM": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "내 음성이 현재 제외된 상태에서 Discord가 선택을 묻는 안내에 나와요. 버튼을 누르면 다른 사람의 클립에 내 음성이 들어갈 수 있어요.",
-                    "generated_at": "2026-11-12T15:08:00Z",
-                    "intent_type": "account_or_safety_notice",
-                    "related_terms": [
-                        "내 목소리 포함",
-                        "통화 상태",
-                        "데이터 및 개인정보 보호",
-                        "클립"
-                    ],
-                    "search_intent": "누르면 누구의 영상에 내 목소리가 들어가는지 확인하려는 검색이에요.",
-                    "source_context": "11월 10일 클립 문구에 음성 포함·제외 표시와 선택 버튼, 통화 중 안내가 같이 나왔어요. 클립에 내 목소리를 넣을지 묻는 문구는 데이터 및 개인정보 보호 항목을 가리켜요.",
-                    "summary": "‘Include My Voice’는 다른 사람이 만드는 클립에 내 목소리를 넣도록 허용하는 버튼이에요.",
-                    "what_it_means": "다른 참가자가 Discord Clips를 만들 때 내 음성도 포함할 수 있게 허용하는 동작이에요.",
-                    "what_to_do": "목소리가 들어가도 괜찮을 때 선택하세요. 나중에는 데이터 및 개인정보 보호에서 설정을 확인할 수 있어요.",
-                    "when_it_appears": "음성 채널에서 다른 사람의 클립에 내 음성을 포함할지 묻는 화면에서 볼 수 있어요."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "Discord offers this choice when your voice is currently excluded. Accepting means clips made by other participants may contain your audio.",
-                    "generated_at": "2026-11-12T15:08:00Z",
-                    "intent_type": "account_or_safety_notice",
-                    "related_terms": [
-                        "Include My Voice",
-                        "Clips in use",
-                        "voice channel",
-                        "Data & Privacy"
-                    ],
-                    "search_intent": "Someone wants to understand what they’re agreeing to before pressing the button.",
-                    "source_context": "The Nov 10 Clips group includes included and excluded call states, a voice inclusion control, and a call tooltip. The voice inclusion prompt points to Data & Privacy.",
-                    "summary": "“Include My Voice” gives permission for your voice to be included in other people’s Clips.",
-                    "what_it_means": "The action allows other participants’ Discord Clips to include your voice.",
-                    "what_to_do": "Choose it if you’re comfortable with that use of your voice. You can review the choice later in Data & Privacy.",
-                    "when_it_appears": "It can appear when Discord asks about voice inclusion during a voice-channel session."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-11-17T02:03:06.622051+00:00"
+    "timestamp": "2026-11-17T02:14:03.128337+00:00"
 }
