@@ -1,19 +1,78 @@
 {
-    "build_hash": "7f424f142fec7158e3ac9107ca53469fc6f79cfe",
+    "build_hash": "19a89b83524464ee95039597e83e89bd92c138d4",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-gifting-badge",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-11-17T22:09:12Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-gifting-badge",
+            "kind": "user",
+            "timestamp": "2026-11-17T22:09:12Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-04-gifting-badge",
+            "kind": "user",
+            "timestamp": "2026-11-17T22:11:15Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "dPT1o7": "Play for {seconds}s",
+                "vGP84Q": "Play now to earn orbs!"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +82,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T22:07:29.523096+00:00"
+    "timestamp": "2026-11-17T22:18:22.974018+00:00"
 }
