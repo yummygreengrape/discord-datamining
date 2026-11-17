@@ -1,204 +1,21 @@
 {
-    "build_hash": "49eb540e553d734c4db51fb858b33ca0148d33df",
+    "build_hash": "9c8007e690488c8c760c8a15d40b505e03cc8734",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-wishlist-countdown-mobile",
-            "kind": "user",
-            "timestamp": "2026-11-17T18:45:12Z",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ]
-        },
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-06-user-profile-sidebar-redesign",
-            "kind": "user",
-            "timestamp": "2026-11-17T19:08:30Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "analysis": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "켜지면 데스크톱 채널 탭 저장소와 탭 바 동작을 활성화합니다."
-                    }
-                ],
-                "detailed_summary": "기본 상태에서는 새 채널 탭 기능이 꺼져 있습니다. 비교안에서는 채널이나 일부 화면을 현재 탭에서 이동하거나 새 탭으로 열 수 있고, 탭 고정·고정 해제·닫기 동작이 활성화됩니다. 현재 Canary는 탭별 이동 기록과 활성 탭을 저장하며, 고정된 탭에서 다른 곳으로 이동하면 새 탭을 만들도록 처리합니다. 같은 시점의 문자열에는 ‘Open in New Tab’, ‘Pin Tab’, ‘Unpin Tab’, ‘Close Tab’이 함께 추가되어 실제 데스크톱 탭 UI를 뒷받침합니다.",
-                "evidence": [
-                    "Current Canary ChannelTabsStore reads the experiment before enabling tab behavior.",
-                    "The store persists tabs and the active tab, supports per-tab back and forward entries, and creates a new tab when navigating away from a pinned tab.",
-                    "Same-window strings add New Tab, Open in New Tab, Pin Tab, Unpin Tab, Close Tab, and tab actions."
-                ],
-                "evidence_level": "current_canary_store_ui_and_strings",
-                "focus_area": "데스크톱 채널 탭",
-                "generated_at": "2026-08-19T04:08:23Z",
-                "importance": "high",
-                "summary": "데스크톱에서 여러 채널과 화면을 탭으로 열고 고정하거나 닫을 수 있게 하는 실험입니다.",
-                "why_it_matters": "여러 대화나 서버 화면을 오갈 때 현재 위치를 잃지 않고 작업 맥락을 유지하기 쉬워집니다. 탭 고정과 새 탭 열기는 Discord 안의 탐색 방식을 브라우저와 더 비슷하게 바꿉니다."
-            },
-            "analysis_en": {
-                "config_notes": [
-                    {
-                        "key": "enabled",
-                        "note": "Enables the desktop channel-tab store and visible tab-bar behavior."
-                    }
-                ],
-                "detailed_summary": "The default keeps the new channel-tab feature disabled. In the comparison, channels and some routes can replace the current tab or open in a new one, with pin, unpin, and close actions enabled. Current Canary stores per-tab navigation history and the active tab, and opening a different destination from a pinned tab creates another tab. Strings added at the same time include Open in New Tab, Pin Tab, Unpin Tab, and Close Tab, supporting a real desktop tab interface.",
-                "evidence": [
-                    "Current Canary ChannelTabsStore reads the experiment before enabling tab behavior.",
-                    "The store persists tabs and the active tab, supports per-tab back and forward entries, and creates a new tab when navigating away from a pinned tab.",
-                    "Same-window strings add New Tab, Open in New Tab, Pin Tab, Unpin Tab, Close Tab, and tab actions."
-                ],
-                "evidence_level": "current_canary_store_ui_and_strings",
-                "focus_area": "Desktop channel tabs",
-                "generated_at": "2026-08-19T04:08:23Z",
-                "importance": "high",
-                "summary": "Lets desktop users open channels and routes in multiple tabs, then pin or close those tabs.",
-                "why_it_matters": "People can move among conversations or server views without losing their previous location. Pinning and opening new tabs makes navigation inside Discord behave more like a browser workspace."
-            },
-            "config_keys": [
-                "enabled",
-                "newTabExperience"
-            ],
-            "default_config": {
-                "enabled": false,
-                "newTabExperience": "popout"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-desktop-channel-tabs",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled"
-            ],
-            "old_default_config": {
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "newTabExperience": "popout"
-                },
-                "2": {
-                    "enabled": true,
-                    "newTabExperience": "friends"
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "newTabExperience"
-            ],
-            "default_config": {
-                "enabled": false,
-                "newTabExperience": "popout"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-desktop-channel-tabs",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled"
-            ],
-            "old_default_config": {
-                "enabled": false
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "newTabExperience": "popout"
-                },
-                "2": {
-                    "enabled": true,
-                    "newTabExperience": "friends"
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-premium-group-continuation-40",
-            "kind": "user",
-            "timestamp": "2026-11-17T18:38:04Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "++zIVN": "Open in a new tab…",
-                "6HQ6PJ": "Search for a channel, DM or server to open it in a new tab.",
-                "94yiQK": "Recently Closed",
-                "ATW4Iz": "Remove timeout from {count, plural, one {# member} other {# members}}?",
-                "AqkHKJ": "No results for “{query}”",
-                "EuJQg8": "Frequently Opened",
-                "KsjOJI": "Places to open in a new tab",
-                "MioRI/": "Timed out {succeeded, plural, one {# member} other {# members}}, {failed, number} failed",
-                "SxnIX5": "Timed out {count, plural, one {# member} other {# members}}",
-                "Zq4ctl": "Kick failed",
-                "em58zY": "Removed timeout for {succeeded, plural, one {# member} other {# members}}, {failed, number} failed",
-                "gUlqcY": "Kicked {count, plural, one {# member} other {# members}}",
-                "kcBqzH": "They can rejoin with a new invite. Each kick is recorded in the audit log, and members you can’t kick are skipped.",
-                "opkFpf": "Kicked {succeeded, plural, one {# member} other {# members}}, {failed, number} failed",
-                "rE7o7Q": "Couldn’t remove timeouts",
-                "s/+WDQ": "Kick {count, plural, one {# member} other {# members}}?",
-                "sKXOvv": "Timeout failed",
-                "tU/Qsl": "Removed timeout for {count, plural, one {# member} other {# members}}",
-                "zofkaV": "Timeout {count, plural, one {# member} other {# members}}"
+                "Dvld9i": "Sent by {username}",
+                "SDm5sW": "Sent by {username} · {detail}"
             },
             "deleted": {},
             "modified": {}
@@ -209,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T19:32:52.575140+00:00"
+    "timestamp": "2026-11-17T19:43:46.926581+00:00"
 }
