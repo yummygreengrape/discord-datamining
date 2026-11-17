@@ -1,5 +1,5 @@
 {
-    "build_hash": "d676cfdbf4896aaa5efd97da3f648193f1da8acc",
+    "build_hash": "1577b5f0eedffd0bc37b6e7b93ce869d9aa02768",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,14 +13,8 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "1CIzQl": "Open the call with {thing} focused"
-            },
-            "deleted": {
-                "5fzIJz": "Hide Stream Volume",
-                "IJMHj5": "Shows stream controls",
-                "qlWFBD": "Shows video controls"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -29,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T06:06:29.723360+00:00"
+    "timestamp": "2026-11-17T06:17:26.684938+00:00"
 }
