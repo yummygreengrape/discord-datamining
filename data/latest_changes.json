@@ -1,5 +1,5 @@
 {
-    "build_hash": "f2596a9be79de1b70f212afbeeee577d43b4f517",
+    "build_hash": "e93b4e6454725c1e827587f87f3c10af74ebdc9e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,10 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Ap5au4": "Closed the QR code? $[Reopen QR code](reopenHook)",
-                "dw0taq": "This QR code expired before we received your payment. Please try again."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-18T21:45:24.922351+00:00"
+    "timestamp": "2026-11-18T21:56:18.967747+00:00"
 }
