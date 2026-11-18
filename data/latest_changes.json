@@ -1,5 +1,5 @@
 {
-    "build_hash": "9ddc25e68b8dea022ae16c5a4ffb961b4e031589",
+    "build_hash": "7bba103f993b00ac4375525f589a076d916d28b8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,11 +13,11 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Wq++Jf": "Your order changed. Review it and try again.",
-                "vfMgld": "The price changed. Review the new total and try again."
+            "added": {},
+            "deleted": {
+                "BLOONS_BF_DEAL_CARD_ID": "bloonsBfDeal",
+                "RUST_BF_DEAL_CARD_ID": "rustBfDeal"
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -26,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-18T00:07:29.075633+00:00"
+    "timestamp": "2026-11-18T00:18:23.018229+00:00"
 }
