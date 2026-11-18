@@ -1,75 +1,8 @@
 {
-    "build_hash": "a8d9a596f91fd8148e6f68f6b614e342ae865d54",
+    "build_hash": "82f04fc05620b499a8d6a085a1818c1fa849646a",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "detailed_summary": "Nitro 공유 안내를 띄울 수 있는 상태에서 비교안이 켜져 있고 반복 알림 기록이 없으면 새 제목과 본문을 골라요. 새 문구는 친구에게 2주 체험을 보내 보라고 권해요. 버튼은 Nitro 공유 창을 열고 안내 상태를 처리하는 기존 흐름과 연결돼요. 이름에 알림이 들어가지만 확인된 위치는 Nitro 탭의 팝오버이며 운영체제 푸시 알림은 확인하지 못했어요.",
-                "evidence": [
-                    "LA reads LE at HOME_PAGE_PREMIUM_TAB, checks recurringReminderStateId and selects KHF45W/WJDeur; CTA opens the sharing modal."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "generated_at": "2026-10-18T05:44:25.340695+00:00",
-                "importance": "medium",
-                "summary": "Nitro 무료 체험을 다시 나눌 수 있을 때 표시하는 탭 안내 문구를 비교해요.",
-                "why_it_matters": "다시 공유할 수 있는 체험권을 놓치지 않도록 안내하는 문구 변화예요."
-            },
-            "analysis_en": {
-                "detailed_summary": "When the sharing prompt is eligible, the enabled variant selects new copy if the recurring reminder state is absent. The text encourages sending a two-week trial to a friend. Its button opens the existing Nitro sharing modal and updates reminder state. The confirmed surface is a Nitro-tab popover, not an operating-system push notification.",
-                "evidence": [
-                    "LA reads LE at HOME_PAGE_PREMIUM_TAB, checks recurringReminderStateId and selects KHF45W/WJDeur; CTA opens the sharing modal."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "generated_at": "2026-10-18T05:44:25.340695+00:00",
-                "importance": "medium",
-                "summary": "A Nitro-tab prompt can use refreshed copy when trial sharing is available again.",
-                "why_it_matters": "The reminder can help members notice available trials to share."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-referral-refresh-notification",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-11-18T23:22:42Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-referral-refresh-notification",
-            "kind": "user",
-            "timestamp": "2026-11-18T23:22:42Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -90,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-18T23:23:31.071929+00:00"
+    "timestamp": "2026-11-18T23:34:27.942047+00:00"
 }
