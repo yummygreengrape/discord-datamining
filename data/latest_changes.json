@@ -1,49 +1,17 @@
 {
-    "build_hash": "bf33518966b2dba5177dd9f7103736ddaf99c73a",
+    "build_hash": "6cb3dda86b6548ac35a89d6b6f99216ae6c0ef01",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-01-ios-push-notif-json-fix",
-            "kind": "user",
-            "status": "deleted",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
     "deleted_experiments": [
         {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
             "id": "2026-01-ios-push-notif-json-fix",
             "kind": "user",
+            "timestamp": "2026-11-18T21:18:12Z",
             "treatments": [
                 "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
+            ]
         }
     ],
     "extractor_version": 24,
@@ -56,72 +24,19 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "8nBLa0": "+{orbCount} Orbs"
+            },
+            "deleted": {
+                "Y3l0TS": "With Nitro, spend Orbs to unlock a Bloons TD 6 Shop discount. Ends Nov 30. $[Terms apply.](termsHook)"
+            },
             "modified": {}
         },
         "ko": {
-            "added": {
-                "0AhA1F": "자동 클립으로 최고의 게임 순간을 캡처하세요. nitroHookHookNitro로 먼저 이용해 보세요.",
-                "7qFphk": "이 게임에서 숨기기",
-                "BzzCNE": "구독하고 {multiplier}배 보상으로 보유량을 늘리세요.",
-                "IsWCZP": "Nitro로 아바타를 움직여 보세요",
-                "OFNrmu": "Nitro로 배너를 꾸며보세요",
-                "ibsiKg": "결제 시 {collectionName} 아이템 {percent}% 할인 적용",
-                "tLLYUw": "배너"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "Ba/7wO": {
-                    "new_value": "구독하고 {multiplier}배 보상으로 보유량을 늘리세요.",
-                    "old_value": "구독하고 매달 Orbs와 {multiplier}배 보상으로 보관함을 가득 채우세요."
-                },
-                "O9OeEg": {
-                    "new_value": "자동 클립:\n플레이만 하세요, 클립은 저희가 캡처할게요.",
-                    "old_value": "자동 클립: 플레이만 하세요, 클립은 저희가 캡처할게요."
-                }
-            }
+            "modified": {}
         }
     },
-    "string_context": {
-        "ko": {
-            "Ba/7wO": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "한국어 화면의 “구독 시 매달 Orbs와 보상 배수를 받는다는 안내” 문구는 Discord의 Nitro·Quest·Orbs 보상 안내에서 이 상태나 동작을 가리킵니다. 같은 처리 창에 Nitro 구독, 퀘스트 완료 보상과 Orbs 배수 문구가 함께 있습니다. 문구 자체로 확인되는 범위에서 의미를 읽어야 하며, 실제 노출 여부는 계정과 화면에 따라 다를 수 있습니다.",
-                    "generated_at": "2026-09-27T00:15:57Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "Nitro",
-                        "Orbs",
-                        "퀘스트 보상",
-                        "보상 배수"
-                    ],
-                    "search_intent": "Discord 한국어 화면의 구독 시 매달 Orbs와 보상 배수를 받는다는 안내 문구를 보고 해당 상태나 버튼이 무엇을 뜻하는지 확인하려는 검색입니다.",
-                    "source_context": "같은 처리 창에 Nitro 구독, 퀘스트 완료 보상과 Orbs 배수 문구가 함께 있습니다.",
-                    "summary": "한국어 화면의 “구독 시 매달 Orbs와 보상 배수를 받는다는 안내” 문구는 Discord의 Nitro·Quest·Orbs 보상 안내에서 이 상태나 동작을 가리킵니다.",
-                    "what_it_means": "한국어 화면의 이 문구는 구독 시 매달 Orbs와 보상 배수를 받는다는 안내이라는 의미입니다.",
-                    "when_it_appears": "한국어 화면의 구독 시 매달 Orbs와 보상 배수를 받는다는 안내 문구는 Nitro·Quest·Orbs 보상 안내와 관련된 문자열에서 확인되며, 해당 Discord 화면에 보일 가능성이 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "In the Korean UI, this Discord string refers to the subscription notice about monthly Orbs and a reward multiplier in Nitro, Quest and Orbs reward notices. The same window includes Nitro subscriptions, Quest rewards and Orbs multipliers. The text supports this reading, but availability can vary by account and screen.",
-                    "generated_at": "2026-09-27T00:15:57Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "Nitro",
-                        "Orbs",
-                        "Quest rewards",
-                        "reward multiplier"
-                    ],
-                    "search_intent": "A search after seeing the subscription notice about monthly Orbs and a reward multiplier in the Korean UI on Discord to understand that status or action.",
-                    "source_context": "The same window includes Nitro subscriptions, Quest rewards and Orbs multipliers.",
-                    "summary": "In the Korean UI, this Discord string refers to the subscription notice about monthly Orbs and a reward multiplier in Nitro, Quest and Orbs reward notices.",
-                    "what_it_means": "In the Korean UI, the phrase means the subscription notice about monthly Orbs and a reward multiplier.",
-                    "when_it_appears": "The the subscription notice about monthly Orbs and a reward multiplier string appears in the Nitro, Quest and Orbs reward notices group for the Korean UI and may be shown on the related Discord screen."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-11-18T21:23:02.186222+00:00"
+    "timestamp": "2026-11-18T21:34:31.031993+00:00"
 }
