@@ -1,5 +1,5 @@
 {
-    "build_hash": "694e7ef74f19972213c74819595f3964c7239438",
+    "build_hash": "9aa219e051c060a1ce5d9b59a75d0b0b38a58184",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,9 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "RUST_3PP_CARD_ID": "rust3PP"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-18T22:07:11.013054+00:00"
+    "timestamp": "2026-11-18T22:18:02.736650+00:00"
 }
