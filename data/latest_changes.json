@@ -1,5 +1,5 @@
 {
-    "build_hash": "7e444789051751c9b6c88cf79bdeab9cfe65cf2b",
+    "build_hash": "46ef4f5251ef5fb4aa5be2e2d24e221408ead74d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,184 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "+aodaP": "Making an app in this server takes Manage Server and Manage Channels. You can still make a personal app.",
+                "/hlliy": "{app} was moved from {server} to {newServer} by userHookHook{user}.",
+                "1E5/ay": "Change Server",
+                "B+Xtjy": "{app} moved to {server}.",
+                "F058cu": "Clear its settings that pick a channel, role or member",
+                "JQ/7HT": "This app is personal, so only you can use it. Put it in a server for everyone there to use it.",
+                "KWBh/Q": "This app lives in {server}. Everyone there can use it once it is synced.",
+                "M4jq44": "Move {app} to another server",
+                "MHSKBb": "Move",
+                "NVM0sD": "{app} was moved from {server} to {newServer}.",
+                "NXvmoQ": "Putting an app in a server takes Manage Server and Manage Channels there, in a server with Conjure.",
+                "PE4egI": "Add {app} to a server",
+                "SDpkkt": "Clear its collaborator roles, which belong to the server it leaves",
+                "YFZDXO": "Move this app to {server}",
+                "gT4jAr": "{channelName} in {guildName}",
+                "j1NMdG": "Remove from Server",
+                "mdrXGt": "Couldn't move this app. Try again.",
+                "n431L5": "Server",
+                "q5uYqG": "Make a Personal App",
+                "yHhjsi": "{app} is now in {server}. Sync to make it live there."
+            },
+            "deleted": {
+                "HPMTD3": "{channelName} in {guildName}",
+                "HlSg2P": "Your app is in these servers. Syncing updates all of them.",
+                "LlLIJw": "A server",
+                "QGuKKF": "clan",
+                "QyYJ4O": "Test server",
+                "Y84911": "alliance",
+                "aikK3o": "guild",
+                "nVMqjA": "Guild",
+                "qw4LoI": "Alliance",
+                "s1TsXl": "Just me",
+                "xXXGsq": "guild",
+                "yAZWTm": "Servers"
+            },
+            "modified": {
+                "/7Gy4g": {
+                    "new_value": "{displayNoun, select, ALLIANCE {This alliance is full} CLAN {This clan is full} other {This guild is full}}",
+                    "old_value": "This {noun} is full"
+                },
+                "0kSKEH": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Cannot link this alliance} CLAN {Cannot link this clan} other {Cannot link this guild}}",
+                    "old_value": "Cannot link this {noun}"
+                },
+                "1PMPYk": {
+                    "new_value": "{displayNoun, select, ALLIANCE {You’re already in this alliance} CLAN {You’re already in this clan} other {You’re already in this guild}}",
+                    "old_value": "You’re already in this {noun}"
+                },
+                "316Vsz": {
+                    "new_value": "{displayNoun, select, ALLIANCE {The server linked to this alliance} CLAN {The server linked to this clan} other {The server linked to this guild}}",
+                    "old_value": "The server linked to this {noun}"
+                },
+                "BBk7Qw": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Upon joining the alliance, they will automatically get added to this linked server if not already a member.} CLAN {Upon joining the clan, they will automatically get added to this linked server if not already a member.} other {Upon joining the guild, they will automatically get added to this linked server if not already a member.}}",
+                    "old_value": "Upon joining the {noun}, they will automatically get added to this linked server if not already a member."
+                },
+                "Cz/ZUM": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Join Alliance} CLAN {Join Clan} other {Join Guild}}",
+                    "old_value": "Join {noun}"
+                },
+                "DinVUQ": {
+                    "new_value": "{displayNoun, select, ALLIANCE {You can’t join this alliance} CLAN {You can’t join this clan} other {You can’t join this guild}}",
+                    "old_value": "You can’t join this {noun}"
+                },
+                "EnTIIr": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Invite to Linked Alliance} CLAN {Invite to Linked Clan} other {Invite to Linked Guild}}",
+                    "old_value": "Invite to Linked {noun}"
+                },
+                "GdDUCS": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Choose an alliance} CLAN {Choose a clan} other {Choose a guild}}",
+                    "old_value": "Choose a {noun}"
+                },
+                "IIR/NZ": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Unfortunately something went wrong. Check out the server linked to this alliance, {guildName}, instead.} CLAN {Unfortunately something went wrong. Check out the server linked to this clan, {guildName}, instead.} other {Unfortunately something went wrong. Check out the server linked to this guild, {guildName}, instead.}}",
+                    "old_value": "Unfortunately something went wrong. Check out the server linked to this {noun}, {guildName}, instead."
+                },
+                "L/fHgw": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Ask the alliance manager for a new invite.} CLAN {Ask the clan manager for a new invite.} other {Ask the guild manager for a new invite.}}",
+                    "old_value": "Ask the {noun} manager for a new invite."
+                },
+                "NyR+6P": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Add some friends so that you can invite them to this alliance!} CLAN {Add some friends so that you can invite them to this clan!} other {Add some friends so that you can invite them to this guild!}}",
+                    "old_value": "Add some friends so that you can invite them to this {noun}!"
+                },
+                "TrTx1Z": {
+                    "new_value": "Make it personal, so it works only for you",
+                    "old_value": "Make it work only for you"
+                },
+                "VAb6aE": {
+                    "new_value": "Remove",
+                    "old_value": "Make Personal"
+                },
+                "VGOQ4v": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Upon joining the {orgName} alliance, they will automatically get added to this linked server if not already a member.} CLAN {Upon joining the {orgName} clan, they will automatically get added to this linked server if not already a member.} other {Upon joining the {orgName} guild, they will automatically get added to this linked server if not already a member.}}",
+                    "old_value": "Upon joining the {orgName} {noun}, they will automatically get added to this linked server if not already a member."
+                },
+                "VNY3C1": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Doesn’t meet alliance criteria} CLAN {Doesn’t meet clan criteria} other {Doesn’t meet guild criteria}}",
+                    "old_value": "Doesn’t meet {noun} criteria"
+                },
+                "WmxMAI": {
+                    "new_value": "{displayNoun, select, ALLIANCE {You’ll automatically be added to the alliance’s linked server, and can unlock special alliance features} CLAN {You’ll automatically be added to the clan’s linked server, and can unlock special clan features} other {You’ll automatically be added to the guild’s linked server, and can unlock special guild features}}",
+                    "old_value": "You’ll automatically be added to the {displayNoun, select, ALLIANCE {alliance’s linked server, and can unlock special alliance features} CLAN {clan’s linked server, and can unlock special clan features} other {guild’s linked server, and can unlock special guild features}}"
+                },
+                "Xm+emB": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Join the alliance as:} CLAN {Join the clan as:} other {Join the guild as:}}",
+                    "old_value": "Join the {noun} as:"
+                },
+                "a1DdcF": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Link your {gameName} account to access alliance features} CLAN {Link your {gameName} account to access clan features} other {Link your {gameName} account to access guild features}}",
+                    "old_value": "Link your {gameName} account to access {noun} features"
+                },
+                "cAxBIL": {
+                    "new_value": "Remove {app} from its server?",
+                    "old_value": "Make {app} personal?"
+                },
+                "cRK6SQ": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Invite friends to your alliance} CLAN {Invite friends to your clan} other {Invite friends to your guild}}",
+                    "old_value": "Invite friends to your {noun}"
+                },
+                "d+wTRF": {
+                    "new_value": "Couldn't remove this app from its server. Try again.",
+                    "old_value": "Couldn't make this app personal. Try again."
+                },
+                "gR14cL": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Link an in-game alliance to your server. You must be an admin of the alliance to link it.} CLAN {Link an in-game clan to your server. You must be an admin of the clan to link it.} other {Link an in-game guild to your server. You must be an admin of the guild to link it.}}",
+                    "old_value": "Link an in-game {noun} to your server. You must be an admin of the {noun} to link it."
+                },
+                "gptW7Y": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Join the $[{orgName} alliance](orgNameHook) in {gameName}.} CLAN {Join the $[{orgName} clan](orgNameHook) in {gameName}.} other {Join the $[{orgName} guild](orgNameHook) in {gameName}.}}",
+                    "old_value": "Join the $[{orgName} {noun}](orgNameHook) in {gameName}."
+                },
+                "hn+Lsg": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Invite players to your alliance directly on Discord} CLAN {Invite players to your clan directly on Discord} other {Invite players to your guild directly on Discord}}",
+                    "old_value": "Invite players to your {noun} directly on Discord"
+                },
+                "jKi+kc": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Alliance Invite} CLAN {Clan Invite} other {Guild Invite}}",
+                    "old_value": "{noun} Invite"
+                },
+                "kIqT8Y": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Not an alliance admin} CLAN {Not a clan admin} other {Not a guild admin}}",
+                    "old_value": "Not a {noun} admin"
+                },
+                "kvDHqp": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Leave your current alliance to join this one.} CLAN {Leave your current clan to join this one.} other {Leave your current guild to join this one.}}",
+                    "old_value": "Leave your current {noun} to join this one."
+                },
+                "lXyJMS": {
+                    "new_value": "{displayNoun, select, ALLIANCE {You don’t have any eligible characters to join this alliance. Check out the server linked to this alliance, {guildName}, instead.} CLAN {You don’t have any eligible characters to join this clan. Check out the server linked to this clan, {guildName}, instead.} other {You don’t have any eligible characters to join this guild. Check out the server linked to this guild, {guildName}, instead.}}",
+                    "old_value": "You don’t have any eligible characters to join this {noun}. Check out the server linked to this {noun}, {guildName}, instead."
+                },
+                "qJafqt": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Joined the {orgName} alliance} CLAN {Joined the {orgName} clan} other {Joined the {orgName} guild}}",
+                    "old_value": "Joined the {orgName} {noun}"
+                },
+                "rMimTG": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Alliance is Full} CLAN {Clan is Full} other {Guild is Full}}",
+                    "old_value": "{noun} is Full"
+                },
+                "vSlR1j": {
+                    "new_value": "{displayNoun, select, ALLIANCE {You’re already in another alliance} CLAN {You’re already in another clan} other {You’re already in another guild}}",
+                    "old_value": "You’re already in another {noun}"
+                },
+                "xd+PSv": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Linking your account allows you to connect your alliance and character to Discord} CLAN {Linking your account allows you to connect your clan and character to Discord} other {Linking your account allows you to connect your guild and character to Discord}}",
+                    "old_value": "Linking your account allows you to connect your {noun} and character to Discord"
+                },
+                "xuM052": {
+                    "new_value": "{displayNoun, select, ALLIANCE {{orgName} alliance is full} CLAN {{orgName} clan is full} other {{orgName} guild is full}}",
+                    "old_value": "{orgName} {noun} is full"
+                },
+                "ybJIQJ": {
+                    "new_value": "{displayNoun, select, ALLIANCE {Not meeting alliance criteria can be due to factors like insufficient ranking or leveling, or already being in another alliance. Check with the alliance admin to learn more.} CLAN {Not meeting clan criteria can be due to factors like insufficient ranking or leveling, or already being in another clan. Check with the clan admin to learn more.} other {Not meeting guild criteria can be due to factors like insufficient ranking or leveling, or already being in another guild. Check with the guild admin to learn more.}}",
+                    "old_value": "Not meeting {noun} criteria can be due to factors like insufficient ranking or leveling, or already being in another {noun}. Check with the {noun} admin to learn more."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +198,47 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-18T22:39:49.985988+00:00"
+    "string_context": {
+        "en": {
+            "WmxMAI": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "서버가 연결된 그룹은 가입 흐름에 Discord 서버 참여도 포함할 수 있어요. 문구는 그룹에 맞는 전용 기능이 열릴 수 있다고 설명해요.",
+                    "generated_at": "2026-11-18T15:18:50Z",
+                    "intent_type": "server_or_permission_notice",
+                    "related_terms": [
+                        "연결된 서버",
+                        "클랜",
+                        "동맹",
+                        "게임 랭크",
+                        "그룹 채팅"
+                    ],
+                    "search_intent": "게임 그룹 가입과 Discord 서버 멤버십이 함께 처리될 수 있는지 확인하려는 검색이에요.",
+                    "source_context": "게임 그룹 문구에서 연결된 서버, 역할 자동 동기화, Discord를 통한 가입 초대가 함께 확인돼요.",
+                    "summary": "게임에서 동맹이나 클랜에 가입할 때 연결된 Discord 서버에도 자동으로 추가될 수 있다는 안내예요.",
+                    "what_it_means": "게임의 동맹·클랜 가입과 Discord 서버 참여가 어떻게 연결되는지 알려 주는 안내예요.",
+                    "when_it_appears": "게임 그룹 가입 화면에 동맹과 클랜을 각각 표시하는 문구가 확인돼요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "When a group has a linked server, joining can include Discord membership. The notice also says that group-specific features may become available.",
+                    "generated_at": "2026-11-18T15:18:50Z",
+                    "intent_type": "server_or_permission_notice",
+                    "related_terms": [
+                        "Linked server",
+                        "Clan",
+                        "Alliance",
+                        "In-game rank",
+                        "Group chat"
+                    ],
+                    "search_intent": "Someone looking this up wants to know whether joining a game group also joins a Discord server.",
+                    "source_context": "Game-group copy mentions linked servers, automatically synced roles, and invitations through Discord.",
+                    "summary": "Joining an alliance or clan in a game can also add you to its linked Discord server.",
+                    "what_it_means": "The notice explains how joining a game group can lead to Discord server access.",
+                    "when_it_appears": "It can appear during a group join flow that names the alliance or clan and mentions Discord access."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-11-18T22:50:46.074799+00:00"
 }
