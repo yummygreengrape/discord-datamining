@@ -1,19 +1,8 @@
 {
-    "build_hash": "6cb3dda86b6548ac35a89d6b6f99216ae6c0ef01",
+    "build_hash": "f2596a9be79de1b70f212afbeeee577d43b4f517",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-01-ios-push-notif-json-fix",
-            "kind": "user",
-            "timestamp": "2026-11-18T21:18:12Z",
-            "treatments": [
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -25,11 +14,10 @@
     "string_changes": {
         "en": {
             "added": {
-                "8nBLa0": "+{orbCount} Orbs"
+                "Ap5au4": "Closed the QR code? $[Reopen QR code](reopenHook)",
+                "dw0taq": "This QR code expired before we received your payment. Please try again."
             },
-            "deleted": {
-                "Y3l0TS": "With Nitro, spend Orbs to unlock a Bloons TD 6 Shop discount. Ends Nov 30. $[Terms apply.](termsHook)"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -38,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-18T21:34:31.031993+00:00"
+    "timestamp": "2026-11-18T21:45:24.922351+00:00"
 }
