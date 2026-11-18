@@ -1,5 +1,5 @@
 {
-    "build_hash": "7bba103f993b00ac4375525f589a076d916d28b8",
+    "build_hash": "2d491959435d19483a4b32fafef1cf281299f4d1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,17 +14,23 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "BLOONS_BF_DEAL_CARD_ID": "bloonsBfDeal",
-                "RUST_BF_DEAL_CARD_ID": "rustBfDeal"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "72cAX3": "Bloons TD 6 상점",
+                "Fm9prG": "곧 종료돼요!",
+                "GcjBzS": "{end_date}까지 아이템 4개를 수집해 한정 무료 데드풀/울버린 보상을 잠금 해제하세요.",
+                "IXKfvy": "더 많은 블랙 프라이데이 할인 혜택",
+                "JxM9jQ": "프로필",
+                "dnqFO2": "Rust 상점",
+                "lD2bO/": "{username} · {pronouns}",
+                "nH5DSU": "{percentage}% 할인"
+            },
             "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-18T00:18:23.018229+00:00"
+    "timestamp": "2026-11-18T00:29:16.889105+00:00"
 }
