@@ -1,5 +1,5 @@
 {
-    "build_hash": "d63be67dd599e3245cd969cd9151c2659f8bcf05",
+    "build_hash": "69e4c66c79f7e680ddfa91fc4221691d442a5f66",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,11 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "IsWCZP": "Animate your avatar with Nitro",
+                "OFNrmu": "Customize your banner with Nitro",
+                "tLLYUw": "Banner"
+            },
             "deleted": {
                 "UeZJlg": "Some developer options have moved into devtools. If you have feedback or want to see a complete list of changes, visit [{link}]({link})."
             },
@@ -25,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-18T19:02:38.614102+00:00"
+    "timestamp": "2026-11-18T19:13:33.190269+00:00"
 }
