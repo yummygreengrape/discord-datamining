@@ -1,8 +1,89 @@
 {
-    "build_hash": "52c96926985130f41bf767d710ba08edddc69c62",
+    "build_hash": "371d81b7894e055c1ccdf35544c17ec46dca8534",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "켜지면 전체 프로필 조회 실패 뒤 기본 사용자 정보를 추가로 요청합니다."
+                    }
+                ],
+                "detailed_summary": "사용자 프로필 창을 열기 전에 전체 프로필을 불러오는 요청이 실패하면, 비교안은 기본 사용자 정보를 한 번 더 가져온 뒤 창을 엽니다. 기본 상태에서는 이 보완 요청을 하지 않으며, 전체 프로필 요청이 성공한 경우 두 흐름은 같습니다. 현재 Canary의 프로필 열기 동작이 실패 처리 안에서 이 설정을 직접 읽고 기본 사용자 조회를 기다리는 것이 확인됩니다. 기본 정보만으로 어느 항목까지 표시되는지는 현재 코드만으로 확인되지 않습니다.",
+                "evidence": [
+                    "Current Canary module 402860 reads the experiment inside openUserProfileModal failure handling.",
+                    "The enabled failure path awaits a basic getUser request before dispatching the profile modal open action."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "프로필 열기 실패 복구",
+                "generated_at": "2026-09-05T04:19:24Z",
+                "importance": "medium",
+                "summary": "프로필을 열 때 전체 프로필 요청이 실패해도 기본 사용자 정보를 한 번 더 받아 창을 여는 보완 흐름을 시험합니다.",
+                "why_it_matters": "일시적인 전체 프로필 조회 실패가 빈 화면이나 열리지 않는 프로필로 이어지는 경우를 줄일 수 있습니다."
+            },
+            "analysis_en": {
+                "config_notes": [
+                    {
+                        "key": "enabled",
+                        "note": "When enabled, a failed full-profile request triggers an additional basic-user fetch."
+                    }
+                ],
+                "detailed_summary": "When the full profile request fails before a user profile modal opens, the variant makes one additional basic-user request and waits for it before opening the modal. The default path does not make that fallback request, while successful full-profile loads behave the same in both paths. The current Canary profile-opening flow directly reads this setting inside its failure handling. The available code does not establish exactly which profile fields remain visible with only the basic response.",
+                "evidence": [
+                    "Current Canary module 402860 reads the experiment inside openUserProfileModal failure handling.",
+                    "The enabled failure path awaits a basic getUser request before dispatching the profile modal open action."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Profile-open failure recovery",
+                "generated_at": "2026-09-05T04:19:24Z",
+                "importance": "medium",
+                "summary": "Tests a fallback that fetches basic user data before opening a profile when the full profile request fails.",
+                "why_it_matters": "This may reduce cases where a temporary full-profile failure leaves a profile empty or prevents it from opening cleanly."
+            },
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-profile-link-fetch",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-09-profile-link-fetch",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,7 +94,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "7qFphk": "Hide for this game"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +106,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-18T18:40:35.931236+00:00"
+    "timestamp": "2026-11-18T18:51:43.080102+00:00"
 }
