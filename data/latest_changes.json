@@ -1,5 +1,5 @@
 {
-    "build_hash": "91882248f88dc53a204d5bafd4b106f70b9186e7",
+    "build_hash": "f7c67eb936b778dc92585bef0fc30469d23599b8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,28 +13,11 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "3gKG2j": "Remove from {server}",
-                "4WtS+v": "Added {app} to {server}.",
-                "Aet9+Z": "Add {app} to another server",
-                "BPxXfh": "Who has access",
-                "D8IMa/": "Create its app channels there",
-                "Ewprwt": "It is the same app in every server, and syncing updates all of them.",
-                "I7yXEy": "Select a server…",
-                "RBPj0b": "Add to Another Server",
-                "RSyIc9": "Private",
-                "Td1mlg": "Make channels private",
-                "bRGLUO": "Install on",
-                "jNGawP": "Make Personal",
-                "o2xHEb": "Added to {server}. Sync once its test version is ready."
+            "added": {
+                "/VJ/Sp": "Record a Sound"
             },
-            "modified": {
-                "mbybxl": {
-                    "new_value": "Choose who can install or remix this app.",
-                    "old_value": "Choose who you want to use this app with. You can install it in your server or just for yourself."
-                }
-            }
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -42,45 +25,5 @@
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "o2xHEb": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "서버를 추가하는 단계가 끝난 상태예요. 테스트 버전에서 만든 변경을 서버로 가져오는 동작은 이후 동기화 단계에서 이뤄져요.",
-                    "generated_at": "2026-11-18T15:18:50Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "테스트 버전",
-                        "서버 관리",
-                        "동기화 검토",
-                        "명령어 갱신"
-                    ],
-                    "search_intent": "서버에 이미 추가됐는데 동기화가 왜 필요한지 확인하려는 검색이에요.",
-                    "source_context": "Conjure 앱 문구에는 테스트 버전, 서버 관리 권한, 동기화 결과, 검토 요청이 함께 나와요.",
-                    "summary": "Conjure 앱을 선택한 서버에 추가했고, 테스트 버전이 준비되면 동기화하라는 안내예요.",
-                    "what_it_means": "앱 설치 대상이 등록된 상태에서 테스트 작업을 이어갈 수 있다는 뜻이에요.",
-                    "when_it_appears": "앱을 서버에 추가한 직후에 표시될 수 있어요."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The server has been added as a destination. Sync is the later step that sends test-version changes there.",
-                    "generated_at": "2026-11-18T15:18:50Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Test version",
-                        "Manage Server",
-                        "Review sync",
-                        "Command update"
-                    ],
-                    "search_intent": "A creator might look this up after adding an app and wonder what Sync still needs to do.",
-                    "source_context": "Conjure app copy includes a test version, Manage Server, sync results, and a review option.",
-                    "summary": "The Conjure app has been added to the selected server. The notice tells you to sync when its test version is ready.",
-                    "what_it_means": "The installation target is in place and you can continue working in the test version.",
-                    "when_it_appears": "It can follow the step that adds the app to a server."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-11-18T23:01:41.847233+00:00"
+    "timestamp": "2026-11-18T23:12:36.788998+00:00"
 }
