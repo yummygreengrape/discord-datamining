@@ -1,188 +1,55 @@
 {
-    "build_hash": "7a8bf8c95461cb6c3f3527fa59ff1ee478746486",
+    "build_hash": "bf33518966b2dba5177dd9f7103736ddaf99c73a",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-01-ios-push-notif-json-fix",
+            "kind": "user",
+            "status": "deleted",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-01-ios-push-notif-json-fix",
+            "kind": "user",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "analysis": {
-                "detailed_summary": "기본 상태는 높은 실행 우선순위와 기본 작업 배분을 사용해요. 네 비교안은 일반 실행 우선순위에 서로 다른 작업 배분 값을 조합해요. 이번 수정은 우선순위를 참조하는 코드 이름이 바뀐 기록이며, 높은 우선순위·일반 우선순위와 네 조합은 유지돼요. 통화 연결을 시작할 때 이 두 값을 읽어 전달하는 흐름도 다시 확인했어요. 통화 끊김이나 자원 사용량이 개선됐다는 측정 결과는 없어요.",
-                "evidence": [
-                    "The current connection module reads q.getConfig at media_engine_connect and forwards processPriority/threadPriorityConfiguration into connect.",
-                    "History changes priority aliases from z to X while retaining HIGH/NORMAL and threadPriorityConfiguration values 0 through 3."
-                ],
-                "evidence_build_hash": "487041097df065ff730b8edd9f45081614158662",
-                "evidence_level": "current_canary_consumer",
-                "evidence_url": "https://canary.discord.com/assets/web.47594f3880dbf68b.js",
-                "generated_at": "2026-11-07T00:36:13.377225+00:00",
-                "importance": "low",
-                "summary": "데스크톱 음성 통화에서 Discord에 주는 실행 우선순위를 계속 비교해요.",
-                "why_it_matters": "통화 중 컴퓨터 자원을 나누는 기존 비교가 유지되는 변경이에요. 새 통화 기능이나 설정 화면이 추가됐다고 볼 근거는 없어요."
-            },
-            "analysis_en": {
-                "detailed_summary": "The default uses high process priority with the default thread configuration. Four comparisons use normal priority with different thread configurations. This history modification changes a code reference name while preserving the priorities and four combinations. The current connection path still reads and passes both settings when starting a call. No measured improvement in stuttering or resource use is established.",
-                "evidence": [
-                    "The current connection module reads q.getConfig at media_engine_connect and forwards processPriority/threadPriorityConfiguration into connect.",
-                    "History changes priority aliases from z to X while retaining HIGH/NORMAL and threadPriorityConfiguration values 0 through 3."
-                ],
-                "evidence_build_hash": "487041097df065ff730b8edd9f45081614158662",
-                "evidence_level": "current_canary_consumer",
-                "evidence_url": "https://canary.discord.com/assets/web.47594f3880dbf68b.js",
-                "generated_at": "2026-11-07T00:36:13.377225+00:00",
-                "importance": "low",
-                "summary": "Desktop voice calls continue comparing Discord process and thread priorities.",
-                "why_it_matters": "The record maintains an existing resource-allocation comparison during calls. It does not establish a new calling feature or settings screen."
-            },
-            "config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "default_config": {
-                "processPriority": "q.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-02-process-boost-on-voice",
-            "kind": "user",
-            "old_config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "old_default_config": {
-                "processPriority": "z.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "1": {
-                    "processPriority": "z.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "z.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "z.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "z.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "1": {
-                    "processPriority": "q.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "q.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "q.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "q.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "default_config": {
-                "processPriority": "q.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-02-process-boost-on-voice",
-            "kind": "user",
-            "old_config_keys": [
-                "processPriority",
-                "threadPriorityConfiguration"
-            ],
-            "old_default_config": {
-                "processPriority": "z.E6.HIGH",
-                "threadPriorityConfiguration": 0
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "old_variations": {
-                "1": {
-                    "processPriority": "z.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "z.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "z.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "z.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4"
-            ],
-            "variations": {
-                "1": {
-                    "processPriority": "q.E6.NORMAL",
-                    "threadPriorityConfiguration": 0
-                },
-                "2": {
-                    "processPriority": "q.E6.NORMAL",
-                    "threadPriorityConfiguration": 1
-                },
-                "3": {
-                    "processPriority": "q.E6.NORMAL",
-                    "threadPriorityConfiguration": 2
-                },
-                "4": {
-                    "processPriority": "q.E6.NORMAL",
-                    "threadPriorityConfiguration": 3
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -190,16 +57,71 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "Y3l0TS": "With Nitro, spend Orbs to unlock a Bloons TD 6 Shop discount. Ends Nov 30. termsHookHookTerms apply."
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "0AhA1F": "자동 클립으로 최고의 게임 순간을 캡처하세요. nitroHookHookNitro로 먼저 이용해 보세요.",
+                "7qFphk": "이 게임에서 숨기기",
+                "BzzCNE": "구독하고 {multiplier}배 보상으로 보유량을 늘리세요.",
+                "IsWCZP": "Nitro로 아바타를 움직여 보세요",
+                "OFNrmu": "Nitro로 배너를 꾸며보세요",
+                "ibsiKg": "결제 시 {collectionName} 아이템 {percent}% 할인 적용",
+                "tLLYUw": "배너"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "Ba/7wO": {
+                    "new_value": "구독하고 {multiplier}배 보상으로 보유량을 늘리세요.",
+                    "old_value": "구독하고 매달 Orbs와 {multiplier}배 보상으로 보관함을 가득 채우세요."
+                },
+                "O9OeEg": {
+                    "new_value": "자동 클립:\n플레이만 하세요, 클립은 저희가 캡처할게요.",
+                    "old_value": "자동 클립: 플레이만 하세요, 클립은 저희가 캡처할게요."
+                }
+            }
         }
     },
-    "timestamp": "2026-11-18T21:11:36.839194+00:00"
+    "string_context": {
+        "ko": {
+            "Ba/7wO": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "한국어 화면의 “구독 시 매달 Orbs와 보상 배수를 받는다는 안내” 문구는 Discord의 Nitro·Quest·Orbs 보상 안내에서 이 상태나 동작을 가리킵니다. 같은 처리 창에 Nitro 구독, 퀘스트 완료 보상과 Orbs 배수 문구가 함께 있습니다. 문구 자체로 확인되는 범위에서 의미를 읽어야 하며, 실제 노출 여부는 계정과 화면에 따라 다를 수 있습니다.",
+                    "generated_at": "2026-09-27T00:15:57Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "Nitro",
+                        "Orbs",
+                        "퀘스트 보상",
+                        "보상 배수"
+                    ],
+                    "search_intent": "Discord 한국어 화면의 구독 시 매달 Orbs와 보상 배수를 받는다는 안내 문구를 보고 해당 상태나 버튼이 무엇을 뜻하는지 확인하려는 검색입니다.",
+                    "source_context": "같은 처리 창에 Nitro 구독, 퀘스트 완료 보상과 Orbs 배수 문구가 함께 있습니다.",
+                    "summary": "한국어 화면의 “구독 시 매달 Orbs와 보상 배수를 받는다는 안내” 문구는 Discord의 Nitro·Quest·Orbs 보상 안내에서 이 상태나 동작을 가리킵니다.",
+                    "what_it_means": "한국어 화면의 이 문구는 구독 시 매달 Orbs와 보상 배수를 받는다는 안내이라는 의미입니다.",
+                    "when_it_appears": "한국어 화면의 구독 시 매달 Orbs와 보상 배수를 받는다는 안내 문구는 Nitro·Quest·Orbs 보상 안내와 관련된 문자열에서 확인되며, 해당 Discord 화면에 보일 가능성이 있습니다."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "In the Korean UI, this Discord string refers to the subscription notice about monthly Orbs and a reward multiplier in Nitro, Quest and Orbs reward notices. The same window includes Nitro subscriptions, Quest rewards and Orbs multipliers. The text supports this reading, but availability can vary by account and screen.",
+                    "generated_at": "2026-09-27T00:15:57Z",
+                    "intent_type": "quest_or_reward_status",
+                    "related_terms": [
+                        "Nitro",
+                        "Orbs",
+                        "Quest rewards",
+                        "reward multiplier"
+                    ],
+                    "search_intent": "A search after seeing the subscription notice about monthly Orbs and a reward multiplier in the Korean UI on Discord to understand that status or action.",
+                    "source_context": "The same window includes Nitro subscriptions, Quest rewards and Orbs multipliers.",
+                    "summary": "In the Korean UI, this Discord string refers to the subscription notice about monthly Orbs and a reward multiplier in Nitro, Quest and Orbs reward notices.",
+                    "what_it_means": "In the Korean UI, the phrase means the subscription notice about monthly Orbs and a reward multiplier.",
+                    "when_it_appears": "The the subscription notice about monthly Orbs and a reward multiplier string appears in the Nitro, Quest and Orbs reward notices group for the Korean UI and may be shown on the related Discord screen."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-11-18T21:23:02.186222+00:00"
 }
