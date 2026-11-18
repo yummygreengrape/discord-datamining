@@ -1,5 +1,5 @@
 {
-    "build_hash": "82f04fc05620b499a8d6a085a1818c1fa849646a",
+    "build_hash": "ffc3fae09e7d3d704f3dd0b7e57d74154d25a1fb",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,8 +14,21 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
-            "modified": {}
+            "deleted": {
+                "PTo2Qf": "This is a managed copy. It updates automatically. To change how it works, Remix the original.",
+                "Zlbwxc": "Remix the original",
+                "dDDSuF": "Ask about setup"
+            },
+            "modified": {
+                "qpGg7d": {
+                    "new_value": "Copied from {name}. Updates automatically until you change it.",
+                    "old_value": "Copied from {name}. Updates automatically."
+                },
+                "rxvuqx": {
+                    "new_value": "Copied from another app. Updates automatically until you change it.",
+                    "old_value": "Copied from another app. Updates automatically."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-18T23:34:27.942047+00:00"
+    "timestamp": "2026-11-18T23:45:20.337016+00:00"
 }
