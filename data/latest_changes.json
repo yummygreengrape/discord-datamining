@@ -1,77 +1,8 @@
 {
-    "build_hash": "ee6a74bf2027f530a4f43ae105e03095a1983d3d",
+    "build_hash": "9ddc25e68b8dea022ae16c5a4ffb961b4e031589",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "detailed_summary": "기본 상태에서는 Activity 전용 방송 경로를 열지 않아요. 비교안은 앱이 Activity 화면을 캡처할 수 있는 데스크톱 환경에서 Activity 카드의 방송 가능 여부를 바꿔요. 현재 실행 중인 Activity 화면을 방송 대상으로 만들고 소리와 프레임 설정을 함께 넘기는 흐름도 확인돼요. 모든 Activity나 모든 플랫폼에서 사용할 수 있다는 뜻은 아니에요.",
-                "evidence": [
-                    "463481 reads the experiment in useCanGoLiveActivityFromActivityCard and combines it with native Activity capture support.",
-                    "260643 reads enabled, constructs activity-frame sources, and invokes activityCapture.captureStream with audio/maxFrameRate."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "generated_at": "2026-10-10T00:38:37.504026+00:00",
-                "importance": "medium",
-                "summary": "Discord 안에서 실행 중인 Activity를 방송 대상으로 고를 수 있게 하는 비교예요.",
-                "why_it_matters": "게임 창만이 아니라 Discord 안의 Activity도 다른 사람에게 보여 줄 수 있어요. 앱의 화면 캡처 지원과 실행 상태가 필요해요."
-            },
-            "analysis_en": {
-                "detailed_summary": "The default keeps the Activity-specific streaming path off. The variant changes the Activity card eligibility when the desktop app supports capturing Activity frames. The source flow captures an active Activity frame and passes audio and frame-rate options to the stream. Availability for every Activity or platform is not established.",
-                "evidence": [
-                    "463481 reads the experiment in useCanGoLiveActivityFromActivityCard and combines it with native Activity capture support.",
-                    "260643 reads enabled, constructs activity-frame sources, and invokes activityCapture.captureStream with audio/maxFrameRate."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "generated_at": "2026-10-10T00:38:37.504026+00:00",
-                "importance": "medium",
-                "summary": "An Activity running inside Discord can become a streaming source.",
-                "why_it_matters": "People can potentially share an in-Discord Activity as well as an external game window. Native capture support and an active Activity are required."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-activity-go-live",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-11-17T23:49:51Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-activity-go-live",
-            "kind": "user",
-            "timestamp": "2026-11-17T23:49:51Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -82,7 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Wq++Jf": "Your order changed. Review it and try again.",
+                "vfMgld": "The price changed. Review the new total and try again."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -92,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-17T23:56:36.881743+00:00"
+    "timestamp": "2026-11-18T00:07:29.075633+00:00"
 }
