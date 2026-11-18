@@ -1,5 +1,5 @@
 {
-    "build_hash": "011837562467306ab8ad2eefc90a3cf3e138b70f",
+    "build_hash": "49a9568772305d16917dad606a5375804e05f076",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,17 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "ThorDA": "Conjured by {name}",
+                "dMdop9": "Conjured by [{name}]({nameOnClick})"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "Jipr29": {
+                    "new_value": "Profile Widget",
+                    "old_value": "Profile widget"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-18T06:02:47.933612+00:00"
+    "timestamp": "2026-11-18T06:23:58.967857+00:00"
 }
