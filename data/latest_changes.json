@@ -1,5 +1,5 @@
 {
-    "build_hash": "a1eb898065785b014a0562af29cd559ca56b4919",
+    "build_hash": "2586f89deb52aadda64bed39d457de4f8715a1dc",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,49 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "6upWvS": "This takes the live app out of its server, with its bot and app channels. The project stays there as a draft, and you can publish it again at any time.",
+                "ErhKil": "Make Personal",
+                "U+whJj": "Save Card Image",
+                "YuQRm5": "Save Card",
+                "mS61Dm": "Unpublish from Server",
+                "vUWHZe": "Made personal, so it left {server}."
+            },
+            "deleted": {
+                "DKlgF7": "Nailed it",
+                "GhbsGA": "Missed the mark",
+                "HMGKAV": "Tell me what missed",
+                "HilSjw": "Thanks! Glad it landed.",
+                "IqkF07": "What could I have done better?",
+                "NU7Dex": "{rating} out of 5, {label}",
+                "ausj8U": "Thanks for the feedback!",
+                "cm0nwU": "Needs work",
+                "dVBSUg": "Great",
+                "j1NMdG": "Remove from Server",
+                "kGvlh2": "Pretty good",
+                "mTV326": "How well did I do?",
+                "nIc9/M": "Thanks for being honest. It helps.",
+                "sr+mUC": "Send",
+                "wBUA8n": "Removed from {server}."
+            },
+            "modified": {
+                "8OKM1N": {
+                    "new_value": "This takes the live app out of {server}, with its bot and app channels. The project stays there as a draft until its owner publishes it again.",
+                    "old_value": "This takes the app out of {server}. It stays out until its owner adds it again."
+                },
+                "SNFGxP": {
+                    "new_value": "{app} was unpublished in {server}.",
+                    "old_value": "{app} was removed from {server}."
+                },
+                "cAxBIL": {
+                    "new_value": "Make {app} personal?",
+                    "old_value": "Remove {app} from its server?"
+                },
+                "d+wTRF": {
+                    "new_value": "Couldn't make this app personal. Try again.",
+                    "old_value": "Couldn't remove this app from its server. Try again."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +63,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T23:28:26.158459+00:00"
+    "timestamp": "2026-11-19T23:39:29.788495+00:00"
 }
