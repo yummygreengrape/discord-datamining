@@ -1,27 +1,126 @@
 {
-    "build_hash": "7e6b5293f8c7e32e822b8ad0037bfb6f9c849cbd",
+    "build_hash": "c195f2ad66db1d336334679383b8a5b53f8da84a",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "detailed_summary": "기본 상태의 해당 Nitro 선물 기간 목록은 1년과 1개월이에요. 비교안이 켜진 선물 구매에서는 그 사이에 3개월 선택지를 추가해요. 본인 구독 구매나 Nitro Basic의 기간 목록을 같은 방식으로 바꾸지는 않아요. 같은 기간 한영 문자열도 선물의 이용 기간을 전달받아 표시하도록 추가됐지만 가격이나 할인율은 이 실험만으로 확정되지 않아요. 이번 수정은 비교안 목록 추출 형태가 바뀐 것으로 실제 켜짐 값은 유지돼요.",
+                "evidence": [
+                    "642639 reads 529412 dW only when isGift; 158045 Tm adds PREMIUM_3_MONTH_TIER_2 between yearly and monthly options only for TIER_2."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "generated_at": "2026-10-10T00:38:37.504026+00:00",
+                "importance": "medium",
+                "summary": "Nitro를 선물할 때 1개월과 1년 사이에 3개월 이용권을 선택할 수 있는 비교예요.",
+                "why_it_matters": "한 달보다 길고 1년보다 짧은 선물을 고를 수 있어요. 이전에는 문구만 확인됐지만 이번에는 선물 결제의 기간 선택과 직접 연결됐어요."
+            },
+            "analysis_en": {
+                "detailed_summary": "The default list for this Nitro gift purchase includes yearly and monthly plans. When enabled for a gift checkout, the variant inserts the three-month plan. It does not apply the same change to self-subscriptions or Nitro Basic. Same-window English and Korean strings add variable gift durations, but this gate does not establish prices or discounts. The modified row changes how variant labels were extracted while preserving the enabled values.",
+                "evidence": [
+                    "642639 reads 529412 dW only when isGift; 158045 Tm adds PREMIUM_3_MONTH_TIER_2 between yearly and monthly options only for TIER_2."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "generated_at": "2026-10-10T00:38:37.504026+00:00",
+                "importance": "medium",
+                "summary": "Nitro gifting can offer a three-month option between one month and one year.",
+                "why_it_matters": "People can choose a gift longer than one month without committing to a year. The previously unresolved copy now has a direct link to gift checkout plan selection."
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-three-month-nitro-gifting",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-11-19T22:37:36Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-three-month-nitro-gifting",
+            "kind": "user",
+            "timestamp": "2026-11-19T22:37:36Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-three-month-nitro-gifting-no-copy-change",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-11-19T22:37:36Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-three-month-nitro-gifting-no-copy-change",
+            "kind": "user",
+            "timestamp": "2026-11-19T22:37:36Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "1dGMQP": "Enjoy Nitro for **{price} for {months, plural, one {# month} other {# months}}**. After that you’ll be charged **{fullPrice}**.",
+                "4DlMr1": "Enjoy your Nitro trial!",
+                "4HF/pb": "Your {percent, number}% discount will end {months, plural, one {# month} other {# months}} after purchase. After that you'll be charged **{fullPrice}** + applicable taxes.",
+                "NDI1Xx": "Trial ends {date, date, medium}",
+                "iNCopK": "Your {percent, number}% discount will end {months, plural, one {# month} other {# months}} after purchase. After that you'll be charged **{fullPrice}**.",
+                "x0akIq": "Multiple Nitro Subscriptions"
+            },
+            "deleted": {
+                "boclBe": "Starting at"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "boclBe": "시작"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T22:33:25.034739+00:00"
+    "timestamp": "2026-11-19T22:44:21.183198+00:00"
 }
