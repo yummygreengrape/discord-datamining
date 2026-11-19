@@ -1,5 +1,5 @@
 {
-    "build_hash": "bc8fe8c4be70da5a8d0886564e4528ce9d631d5a",
+    "build_hash": "8faf8601c8028ede24d5bae728611f166055e009",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "nZIlOV": "Past due"
+                "THPdcL": "Challenges cleared for now",
+                "lRO18o": "New ones land soon. Until then, you can still earn Orbs with Quests"
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T17:13:23.457435+00:00"
+    "timestamp": "2026-11-19T17:34:31.690937+00:00"
 }
