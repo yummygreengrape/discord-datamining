@@ -1,5 +1,5 @@
 {
-    "build_hash": "2586f89deb52aadda64bed39d457de4f8715a1dc",
+    "build_hash": "b5d961b919d0d53e0f977982ec08a37bc58a2713",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,48 +14,32 @@
     "string_changes": {
         "en": {
             "added": {
-                "6upWvS": "This takes the live app out of its server, with its bot and app channels. The project stays there as a draft, and you can publish it again at any time.",
-                "ErhKil": "Make Personal",
-                "U+whJj": "Save Card Image",
-                "YuQRm5": "Save Card",
-                "mS61Dm": "Unpublish from Server",
-                "vUWHZe": "Made personal, so it left {server}."
+                "7gI+sw": "Name",
+                "EIh4da": "Make any changes you want, but you won’t get updates anymore.",
+                "O25g5n": "Adding {projectName} to {server}. This can take a minute.",
+                "PrV2rD": "Make a copy of this app and share with other people.",
+                "S+Fcvd": "You’ll keep receiving updates from the original.",
+                "XWgAfc": "Remix",
+                "ZdvGpk": "Customize",
+                "i7PaZ5": "This project has moved",
+                "maL0+X": "Add to…",
+                "o3qloc": "Server projects live in their server. Click to open it.",
+                "ophl3S": "{project} has moved",
+                "pgbZu+": "How should we remix?",
+                "sx5jYE": "Just a copy",
+                "vU1gB6": "Remix {projectName}",
+                "xohQBW": "Personal projects live here. Click to open it.",
+                "yWuYoL": "{project} moved to {server}"
             },
             "deleted": {
-                "DKlgF7": "Nailed it",
-                "GhbsGA": "Missed the mark",
-                "HMGKAV": "Tell me what missed",
-                "HilSjw": "Thanks! Glad it landed.",
-                "IqkF07": "What could I have done better?",
-                "NU7Dex": "{rating} out of 5, {label}",
-                "ausj8U": "Thanks for the feedback!",
-                "cm0nwU": "Needs work",
-                "dVBSUg": "Great",
-                "j1NMdG": "Remove from Server",
-                "kGvlh2": "Pretty good",
-                "mTV326": "How well did I do?",
-                "nIc9/M": "Thanks for being honest. It helps.",
-                "sr+mUC": "Send",
-                "wBUA8n": "Removed from {server}."
+                "GzGb2w": "Pick the server to install {projectName} in.",
+                "PuVQeX": "Name",
+                "QN8T+C": "Create a new project based on {projectName}. This does not affect the original.",
+                "cIWtCk": "Which server?",
+                "cvvDlE": "Remix it to make it your own",
+                "u3W0k0": "Leave blank to leave as is or say what you want changed"
             },
-            "modified": {
-                "8OKM1N": {
-                    "new_value": "This takes the live app out of {server}, with its bot and app channels. The project stays there as a draft until its owner publishes it again.",
-                    "old_value": "This takes the app out of {server}. It stays out until its owner adds it again."
-                },
-                "SNFGxP": {
-                    "new_value": "{app} was unpublished in {server}.",
-                    "old_value": "{app} was removed from {server}."
-                },
-                "cAxBIL": {
-                    "new_value": "Make {app} personal?",
-                    "old_value": "Remove {app} from its server?"
-                },
-                "d+wTRF": {
-                    "new_value": "Couldn't make this app personal. Try again.",
-                    "old_value": "Couldn't remove this app from its server. Try again."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -63,5 +47,47 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T23:39:29.788495+00:00"
+    "string_context": {
+        "en": {
+            "GzGb2w": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "화면에는 프로젝트 이름이 들어가요. 설치 대상으로 어느 서버를 고를지 묻는 단계이며 서버별 설치 가능 조건은 이 문구에 나오지 않아요.",
+                    "generated_at": "2026-11-09T15:10:09.650845Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjure",
+                        "Add to Server",
+                        "Add and Publish",
+                        "Test version",
+                        "Personal apps"
+                    ],
+                    "search_intent": "Conjure 프로젝트를 설치할 서버를 어디서 선택하는지 찾는 검색이에요.",
+                    "source_context": "서버 추가 및 게시 안내에는 테스트 버전과 개인 앱 구성 요소 제한이 함께 나와요. 관련 프로젝트 문구에는 접근 권한과 설치 안내가 있어요.",
+                    "summary": "Conjure 프로젝트를 설치할 서버를 선택하라는 안내예요.",
+                    "what_it_means": "설치를 진행할 서버를 지정해야 해요.",
+                    "when_it_appears": "프로젝트에서 설치를 누른 뒤 대상 서버 선택 화면에 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The prompt includes the project name. It identifies the destination choice and leaves any server-specific installation requirements to the rest of the screen.",
+                    "generated_at": "2026-11-09T15:10:09.650845Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjure",
+                        "Add to Server",
+                        "Add and Publish",
+                        "Test version",
+                        "Personal apps"
+                    ],
+                    "search_intent": "You may be looking for where to choose a server during project installation.",
+                    "source_context": "The add-to-server and publish copy mentions test versions and personal app component restrictions. Related project strings cover access and installation.",
+                    "summary": "Discord is asking which server should receive the Conjure project you’re installing.",
+                    "what_it_means": "The selected server is the destination for this project.",
+                    "when_it_appears": "It can appear in the server picker after you start an installation."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-11-19T23:50:32.147461+00:00"
 }
