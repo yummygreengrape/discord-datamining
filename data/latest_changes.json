@@ -1,5 +1,5 @@
 {
-    "build_hash": "5a3828f01b813d5e9d744c17711ebf971a37fd2d",
+    "build_hash": "ecd5e02274343785a8b9e33961cbfda6458ccfa3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,13 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "GC/COK": "Find it in Conjure Home, not in the server",
+                "c3xGbr": "Find it in {server}"
+            },
+            "deleted": {
+                "VAb6aE": "Remove"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T01:54:47.318767+00:00"
+    "timestamp": "2026-11-19T02:05:44.216871+00:00"
 }
