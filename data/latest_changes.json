@@ -1,5 +1,5 @@
 {
-    "build_hash": "85d3e1176fde16136f40c286a0becd00aca68256",
+    "build_hash": "4ca5928c2b601dce3bb8573073c8cff69b4c941a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,46 +14,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "47kRjL": "You're Early!",
-                "GcXi4M": "You're among the first to see this. Grab yours before the rest of Discord does.",
-                "Ky01Mq": "Gift and Wishlist",
-                "NZe65e": "Available now for Nitro subscribers. Get Nitro. Get Frames. Never look mid again.",
-                "RlBdFl": "Frames are decorative borders that wrap around your profile and make the whole look pop.",
-                "VgVDbe": "Gift and Wishlisting is now available!",
-                "W3MtdV": "New in the Shop:\nProfile Frames",
-                "azn85l": "Turn heads whenever someone sees your profile. Your profile deserves nice things.",
-                "c7U9yf": "Browse Frames",
-                "in6xhQ": "Nitro subs get them first. No pressure. (Some pressure.)",
-                "oSP2mU": "You're in!",
-                "v72/pr": "Frames are decorative borders that wrap around your profile and make the whole look pop.",
-                "wEIT/w": "Nitro members get early access and save up to 20% on every Frame. Perks, right?",
-                "y/uSeV": "Nitro Early Access",
-                "zOtryQ": "Complete Your Look"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "47kRjL": "일찍 오셨네요!",
-                "GcXi4M": "가장 먼저 확인할 기회예요. 다른 Discord 사용자보다 먼저 받아 보세요.",
-                "Ky01Mq": "선물 및 찜 목록",
-                "NZe65e": "Nitro 구독자는 지금 이용할 수 있습니다. Nitro를 구독하고, 테두리를 이용하세요. 평범한 프로필은 이제 끝이에요.",
-                "RlBdFl": "테두리는 프로필 주변을 감싸며 전체적인 스타일을 더욱 돋보이게 만들어주는 장식입니다.",
-                "VgVDbe": "지금 선물과 찜 목록을 이용해 보세요!",
-                "W3MtdV": "상점의 신규 품목:\n프로필 테두리",
-                "azn85l": "시선을 사로잡는 나만의 프로필을 만들어보세요. 내 프로필은 소중하니까요.",
-                "c7U9yf": "테두리 찾아보기",
-                "in6xhQ": "Nitro 구독자는 먼저 이용할 수 있습니다. 부담 주려는 건 아니에요. (어쩌면 약간 부담을 드리려는 걸지도요?)",
-                "oSP2mU": "로그인 성공!",
-                "v72/pr": "테두리는 프로필 주변을 감싸며 전체적인 스타일을 더욱 돋보이게 만들어주는 장식입니다.",
-                "wEIT/w": "Nitro 멤버는 테두리를 얼리 액세스로 이용하실 수 있으며 최대 20% 할인을 받으실 수 있습니다. 훌륭한 특전이죠, 그렇죠?",
-                "y/uSeV": "Nitro 얼리 액세스",
-                "zOtryQ": "스타일의 완성"
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T00:18:08.962832+00:00"
+    "timestamp": "2026-11-19T00:29:06.970429+00:00"
 }
