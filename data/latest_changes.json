@@ -1,5 +1,5 @@
 {
-    "build_hash": "a67332cae3571060fc741064b4cd54254dbb1ef1",
+    "build_hash": "348aa4e5b36f20792857da6832e36a18769ccb08",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,16 +14,12 @@
     "string_changes": {
         "en": {
             "added": {
-                "RDpKqP": "Personal Overlay Widget",
-                "UXJCSG": "Available to all server members to enable.",
-                "VlI3et": "Server Profile Widget",
-                "nUcjJ1": "Server Overlay Widget",
-                "njJ4YL": "Personal Profile Widget",
-                "vLoFRs": "Chat"
+                "CgfUAd": "Open {name}, new message",
+                "G6HoRB": "Open {name}",
+                "PsTKx+": "Open {name}, working",
+                "gThNz6": "Bot"
             },
-            "deleted": {
-                "/Tl7an": "Back to Conjure"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -32,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T10:13:16.618838+00:00"
+    "timestamp": "2026-11-19T12:28:42.186556+00:00"
 }
