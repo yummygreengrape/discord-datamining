@@ -1,75 +1,8 @@
 {
-    "build_hash": "b197d77b8f9a2af5e3d8c8ae7d07c49a5f650b8f",
+    "build_hash": "fab3e4a751921989f55034e17e1c033762e422fe",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "detailed_summary": "기본 상태에서는 이 실험의 조기 이용 안내가 꺼져 있어요. 비교안에서는 초기 클립 설정이 끝나면 안내를 띄울 수 있어요. Nitro 가입 여부와 자동 캡처 설정에 따라 안내 내용이 달라지고, 자동 캡처를 사용하는 통화에서는 클립 설정으로 연결되는 도움말도 표시할 수 있어요.",
-                "evidence": [
-                    "Canary 671039 modules 898105, 958800 and 387861 link the enabled setting to the launch announcement and first-call education. Copy keys OyFpJy and I0bdwM describe the active capture state and link to settings."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "generated_at": "2026-11-11T00:45:55.038403+00:00",
-                "importance": "high",
-                "summary": "Discord가 클립 초기 설정을 마친 뒤 Auto Clips 조기 이용 안내를 보여주는 흐름을 시험해요.",
-                "why_it_matters": "자동 캡처가 켜진 상태인지 확인하고, 원할 때 클립 설정으로 이동해 캡처 방식을 바꿀 수 있어요."
-            },
-            "analysis_en": {
-                "detailed_summary": "The default leaves the experiment's early-access announcement off. In the enabled variant, Discord can open the announcement after applying the initial Clips settings. Its contents depend on Nitro membership and whether automatic capture is on. Calls with automatic capture can also show a tip linking to Clips settings.",
-                "evidence": [
-                    "Canary 671039 modules 898105, 958800 and 387861 link the enabled setting to the launch announcement and first-call education. Copy keys OyFpJy and I0bdwM describe the active capture state and link to settings."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "generated_at": "2026-11-11T00:45:55.038403+00:00",
-                "importance": "high",
-                "summary": "Tests Auto Clips early-access guidance after Discord finishes setting up Clips.",
-                "why_it_matters": "The prompt tells you whether automatic capture is on and gives you a way to change how Clips are captured."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-autoclips-ea-upsell",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-11-19T01:29:58Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-autoclips-ea-upsell",
-            "kind": "user",
-            "timestamp": "2026-11-19T01:29:58Z",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -90,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T01:32:57.367816+00:00"
+    "timestamp": "2026-11-19T01:43:51.083494+00:00"
 }
