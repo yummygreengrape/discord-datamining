@@ -1,5 +1,5 @@
 {
-    "build_hash": "78b7fc6131739733b648280d6e478f395d46fc08",
+    "build_hash": "c8ec27b6e2be710ffedf497aa0dc7829334c06a8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,35 +9,11 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-stream-drawing",
-            "kind": "user",
-            "timestamp": "2026-11-19T21:02:59Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "3Kpyww": "Done",
-                "7haKYj": "Stamp",
-                "98MNI1": "Stream drawing isn't available while zoomed",
-                "EqYF6z": "Exit stream drawing",
-                "Fr1ZLG": "Use avatar color",
-                "InWDv7": "Stream drawing tools",
-                "SdXXOA": "Stream Drawing",
-                "maGwHF": "Pencil",
-                "nDG2bK": "Stream drawing disconnected. Try again.",
-                "qMPZVd": "Couldn't start stream drawing. Try again.",
-                "vql1fM": "Release the controller to use Stream Drawing"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -47,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T21:16:08.478325+00:00"
+    "timestamp": "2026-11-19T21:27:04.528120+00:00"
 }
