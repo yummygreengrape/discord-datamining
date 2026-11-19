@@ -1,8 +1,20 @@
 {
-    "build_hash": "8faf8601c8028ede24d5bae728611f166055e009",
+    "build_hash": "560f28fdccc3f2cb764d1951504e2f224bcbba61",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-07-call-of-duty-3pp-expired",
+            "kind": "user",
+            "timestamp": "2026-11-19T17:42:24Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -13,11 +25,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "THPdcL": "Challenges cleared for now",
-                "lRO18o": "New ones land soon. Until then, you can still earn Orbs with Quests"
+            "added": {},
+            "deleted": {
+                "CALL_OF_DUTY_3PP_EXPIRED_CARD_ID": "callOfDuty3PPExpired"
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -26,5 +37,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T17:34:31.690937+00:00"
+    "timestamp": "2026-11-19T17:45:27.333304+00:00"
 }
