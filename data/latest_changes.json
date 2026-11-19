@@ -1,5 +1,5 @@
 {
-    "build_hash": "4ca5928c2b601dce3bb8573073c8cff69b4c941a",
+    "build_hash": "5bdc21e2be5c4329bb991e4692135256b157cc39",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "aUT3+M": "{callState} — Tap to return to call"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T00:29:06.970429+00:00"
+    "timestamp": "2026-11-19T00:50:29.937525+00:00"
 }
