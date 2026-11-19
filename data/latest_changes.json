@@ -1,261 +1,54 @@
 {
-    "build_hash": "93147eeb79b3755cab7a9e09237a8f998aac9b7d",
+    "build_hash": "59499ef6cd3028b837f161b9fbabb05158434916",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-11-three-month-nitro-gifting-no-copy-change",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": false,
-                "1": true
-            },
-            "status": "modified",
-            "treatments": [],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-11-three-month-nitro-gifting-no-copy-change",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": false,
-                "1": true
-            },
-            "status": "modified",
-            "treatments": [],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-11-norbs",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-11-norbs-2",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-11-norbs",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        },
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-11-norbs-2",
-            "kind": "user",
-            "treatments": [
-                "Variant 1"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
+            "added": {
+                "6upWvS": "This takes the live app out of its server, with its bot and app channels. The project stays there as a draft, and you can publish it again at any time.",
+                "ErhKil": "Make Personal",
+                "U+whJj": "Save Card Image",
+                "YuQRm5": "Save Card",
+                "mS61Dm": "Unpublish from Server",
+                "vUWHZe": "Made personal, so it left {server}."
+            },
+            "deleted": {
+                "j1NMdG": "Remove from Server",
+                "wBUA8n": "Removed from {server}."
+            },
+            "modified": {
+                "8OKM1N": {
+                    "new_value": "This takes the live app out of {server}, with its bot and app channels. The project stays there as a draft until its owner publishes it again.",
+                    "old_value": "This takes the app out of {server}. It stays out until its owner adds it again."
+                },
+                "SNFGxP": {
+                    "new_value": "{app} was unpublished in {server}.",
+                    "old_value": "{app} was removed from {server}."
+                },
+                "cAxBIL": {
+                    "new_value": "Make {app} personal?",
+                    "old_value": "Remove {app} from its server?"
+                },
+                "d+wTRF": {
+                    "new_value": "Couldn't make this app personal. Try again.",
+                    "old_value": "Couldn't remove this app from its server. Try again."
+                }
+            }
+        },
+        "ko": {
             "added": {},
             "deleted": {},
             "modified": {}
-        },
-        "ko": {
-            "added": {
-                "+O9Asn": "결제 오류",
-                "/1mWUn": "획득한 총 Nitro Orbs 개수:",
-                "20tmSN": "월간 Orbs 드롭",
-                "2KoHRF": "Discord Nitro 멤버가 되면 엄청난 보상이 따라와요.",
-                "3BI7j6": "Discord Nitro로 추가 Orbs를 받으세요!",
-                "53tWRt": "매달 추가 Orbs를 받아 상점에서 사용해 보세요. [자세히 알아보기]({helpdeskArticle})",
-                "5tzNTa": "Discord Nitro Orbs 실험 기능이 다음 달에 종료될 예정이에요. 기능을 테스트하는 데 도움을 주셔서 감사합니다! [자세히 알아보기]({helpdeskArticle})",
-                "69NJ0X": "69NJ0X",
-                "6c9xlp": "Nitro를 사용하기만 하면 매월 {orbsCount}개의 Orbs가 지급돼요. PC를 통해 구독하면 이용할 수 있어요. [자세히 알아보기]({helpdeskArticle})",
-                "78+gLr": "Orbs를 받았어요!",
-                "AvL/At": "{days}일 후 다음 [Nitro Orbs]({deepLinkToNitroOrbs}) 지급 예정",
-                "BxLJQL": "{days}일 후에 {orbsCount}개의 Orbs가 함께할 거예요!",
-                "BxjHiu": "Orbs 사용",
-                "EdGvBM": "매달 Nitro 보상 받기",
-                "F7Bhsg": "획득한 월간 Orbs",
-                "FGYM4u": "Discord Nitro 멤버십을 유지하면 매달 {orbsCount}개의 추가 Orbs가 지급돼요!",
-                "FToh6D": "재구독",
-                "H2M13c": "다음 월간 Orbs 지급",
-                "ISnOet": "Orbs를 끊기지 않게 계속 받으세요!",
-                "JCLEQp": "매달 {orbsCount}개의 추가 Orbs를 받아 상점에서 사용해 보세요. [자세히 알아보기]({helpdeskArticle})",
-                "KVCfnE": "결제 세부 정보 확인",
-                "KclK9z": "총 잔액",
-                "LG4Fft": "LG4Fft",
-                "NNop36": "NNop36",
-                "OYakRP": "OYakRP",
-                "Pz+6Ix": "Nitro를 사용하기만 하면 매월 {orbsCount}개의 Orbs를 사용할 수 있어요.",
-                "Q7A9RM": "Discord Nitro의 새로운 혜택! 매월 {orbsCount}개의 Orbs를 추가로 받아 상점에서 사용해 보세요.",
-                "RQcfIe": "[확인하기]({deepLinkToNitroOrbs})",
-                "Ry1TXC": "기대하세요! 회원님 이름이 적힌 {orbsCount}개의 새로운 Orbs가 기다리고 있어요.",
-                "UDwsvL": "Orbs {orbsCount}개",
-                "UPOlxO": "Orbs가 곧 도착할 거예요!",
-                "VuvFfT": "매월 {orbsCount}개의 추가 Orbs를 받아 상점에서 사용해 보세요! Orbs는 구독 후 며칠 뒤에 잠금 해제돼요.",
-                "XNHr3C": "Nitro 멤버십을 유지하는 달마다 Orbs를 받으세요.",
-                "ZFJ/NU": "Orbs 계속 받기",
-                "abzHgN": "[자세히 알아보기]({helpdeskArticle})",
-                "agletO": "매월 {orbsCount} Orbs를 계속 받으려면 재구독하세요. [자세히 알아보기]({helpdeskArticle})",
-                "bXY3mf": "퀘스트 홈페이지",
-                "bkU5si": "bkU5si",
-                "cfE8Oh": "{days}일 후에 더 많은 Orbs가 찾아올 거예요!",
-                "cjEl8a": "[Nitro]({deepLinkToNitroOrbs})로 매달 Orbs 받기",
-                "dkeEV7": "Orbs가 오는 중에 길이 좀 막히나 봐요. 결제 정보를 처리해야 해요. 결제 정보를 처리하는 중이니 곧 다시 확인해 주세요. [자세히 알아보기]({helpdeskArticle})",
-                "e6r8OX": "Discord Nitro의 새로운 혜택! 매월 개의 Orbs를 추가로 받아 상점에서 사용해 보세요.",
-                "fhAVek": "도움이 필요하신가요? [자세히 알아보기]({helpdeskArticle})",
-                "hx5AFp": "Orbs 연속 획득",
-                "juvXqj": "Discord Nitro로 매달 Orbs를 받아보세요. [자세히 알아보기]({deepLinkToNitroOrbs})",
-                "kf0eFd": "Nitro로 더 많은 Orbs 받기",
-                "nWKEBZ": "당황하지 마세요. 결제가 완료되지 않았어요. 결제 정보가 올바른지 확인해 주세요. [자세히 알아보기]({helpdeskArticle})",
-                "otQEii": "Nitro 구독을 유지하기만 하면 매월 {orbsCount}개의 Orbs가 잠금 해제돼요.",
-                "tUV1vV": "Discord Nitro 멤버로서 매월 추가 Orbs를 사용해 보세요. [자세히 알아보기]({helpdeskArticle})",
-                "uuZJXR": "더 많은 Orbs가 곧 찾아올 거예요!",
-                "vjaRZ/": "재구독해서 매달 추가 Orbs를 계속 받아보세요. [자세히 알아보기]({helpdeskArticle})",
-                "wLAd/+": "Orbs 사용",
-                "wMi514": "매월 추가 Orbs를 받아 상점에서 사용해 보세요! Orbs는 구독 후 며칠 뒤에 잠금 해제돼요.",
-                "wq3CF2": "Nitro를 이용하기만 하면 매월 {orbsCount}개의 Orbs가 제공돼요.",
-                "xedPIb": "{days}일 후",
-                "z/l/bz": "Discord Nitro [베타]로 매달 Orbs를 받으세요. [자세히 알아보기]({helpdeskArticle})",
-                "zF0HnJ": "Discord Nitro Orbs를 받을 수 있는 마지막 달이에요."
-            },
-            "deleted": {},
-            "modified": {}
         }
     },
-    "string_context": {
-        "ko": {
-            "cfE8Oh": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "한국어 Orbs 문구는 “{days}일 후에 더 많은 Orbs”처럼 다음 지급 또는 재확인 시점을 더 자연스럽게 바꿨습니다. 같은 창에는 “Cannot unlock”, “Cannot progress”도 추가되어 보상이나 Quest 진행 상태에서 조건 미충족을 표시하는 라벨일 가능성이 있습니다. 다만 이 두 영어 라벨의 정확한 화면 consumer는 확인되지 않았으므로 특정 보상 종류를 단정하지 않습니다.",
-                    "generated_at": "2026-07-12T09:08:55.364783Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "Orbs",
-                        "Quest",
-                        "Cannot unlock",
-                        "Cannot progress",
-                        "Quest bar",
-                        "reward"
-                    ],
-                    "search_intent": "사용자는 “Cannot progress”나 “Cannot unlock”이 떠서 Quest가 왜 진행되지 않는지, Orbs를 언제 더 받을 수 있는지 확인하려고 검색했을 가능성이 있습니다.",
-                    "source_context": "The same window contains an Orbs cooldown wording update plus Cannot unlock and Cannot progress labels. Public experiment data also added 2026-07-quest-bar-secondary-cta shortly after, but the exact consumer for the blocked labels is not confirmed.",
-                    "summary": "이 문구들은 Quest/Orbs 보상에서 다음 지급 시점이나 진행·잠금 해제 불가 상태를 나타내는 라벨로 보입니다.",
-                    "what_it_means": "아직 필요한 조건을 충족하지 않았거나 다음 Orbs 지급/보상 가능 시점까지 기다려야 한다는 상태 표시로 이해할 수 있습니다.",
-                    "what_to_do": "현재 표시된 조건, 남은 시간, Quest 요구사항을 확인해야 합니다. 이 문자열만으로는 계정 문제, 버그, 특정 보상 제한 중 하나를 확정할 수 없습니다.",
-                    "when_it_appears": "Quest Home, Quest bar, Orbs 보상 영역, 보상 잠금 해제 조건 안내에서 보일 가능성이 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The Korean Orbs copy now reads more naturally as “more Orbs in {days} days,” which points to a reward timing or cooldown message. The same window added Cannot unlock and Cannot progress, likely for a reward or Quest state where requirements are not met. The exact UI consumer for those two English labels is not confirmed, so the specific reward type should not be assumed.",
-                    "generated_at": "2026-07-12T09:08:55.364783Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "Orbs",
-                        "Quest",
-                        "Cannot unlock",
-                        "Cannot progress",
-                        "Quest bar",
-                        "reward"
-                    ],
-                    "search_intent": "Searchers likely saw Cannot progress or Cannot unlock and want to know why a Quest or reward cannot advance, or when more Orbs become available.",
-                    "source_context": "The same window contains an Orbs cooldown wording update plus Cannot unlock and Cannot progress labels. Public experiment data also added 2026-07-quest-bar-secondary-cta shortly after, but the exact consumer for the blocked labels is not confirmed.",
-                    "summary": "These strings appear to label Quest or Orbs reward timing and blocked progress or unlock states.",
-                    "what_it_means": "It means a requirement may not be met yet, or the user may need to wait until the next Orbs or reward availability window.",
-                    "what_to_do": "Check the displayed requirement, remaining time, or Quest objective. This string alone does not prove whether the cause is an account issue, a bug, or a specific reward restriction.",
-                    "when_it_appears": "Likely appears in Quest Home, the Quest bar, Orbs reward surfaces, or reward eligibility messages."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-11-19T22:55:16.267252+00:00"
+    "timestamp": "2026-11-19T23:06:12.179010+00:00"
 }
