@@ -1,5 +1,5 @@
 {
-    "build_hash": "4b064c53d0b7630bad8d47efd9920c09d2785057",
+    "build_hash": "ba368215b45615358c65127b39f2539ce9d622c6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,9 +14,7 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "soVyD1": "Import as"
-            },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -25,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T02:16:37.619354+00:00"
+    "timestamp": "2026-11-19T02:27:34.588733+00:00"
 }
