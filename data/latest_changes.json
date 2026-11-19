@@ -1,5 +1,5 @@
 {
-    "build_hash": "aebbf0cd8d85be51e0c780365aebc67d5bf67fc0",
+    "build_hash": "2dd340d50a36d175e12b286bff51bb44e7efcea1",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,10 +13,11 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "8LfMqp": "My projects"
+            "added": {
+                "DskVcU": "Extend Discord for what your server needs.",
+                "gE0Peh": "What does your\nserver need?"
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -25,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T08:27:58.699112+00:00"
+    "timestamp": "2026-11-19T08:49:13.555081+00:00"
 }
