@@ -1,5 +1,5 @@
 {
-    "build_hash": "f1c5a40ed7e5e659cd628c24cd27c23d6d2dab90",
+    "build_hash": "407510e8478cce5d04745c8a9871e007fd3c80da",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -7,104 +7,13 @@
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [
-        {
-            "name": "ENDPOINT_USERS_VIRTUAL_CURRENCY_ORB_VOID",
-            "status": "added",
-            "url": "/users/@me/virtual-currency/orb-void"
-        },
-        {
-            "name": "VOID",
-            "status": "added",
-            "url": "/users/@me/virtual-currency/orb-void"
-        }
-    ],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-orb-void",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-11-19T05:01:33Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-orb-void",
-            "kind": "user",
-            "timestamp": "2026-11-19T05:01:33Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_api_endpoints": [],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "+5QXTB": "Progress to next badge level",
-                "0VlVju": "Next Badge Tier:",
-                "0h5Qiv": "View Quests",
-                "4HBu2F": "Cancel",
-                "9QAJ8n": "Orb Balance",
-                "CrvXky": "Throw an orb into the void",
-                "E6Rlal": "Orbs have no sensory experience and will not experience pain.",
-                "EUxqRb": "Casting them into The Void does not hurt them. It does, however, make them stop existing.",
-                "I8csLM": "I have read the above, and I choose oblivion anyway",
-                "IKc5D7": "Enter The Void",
-                "JxuATR": "Orbs Voided",
-                "KnrYP/": "Leave the Void",
-                "OivnRZ": "Enter The Void",
-                "S2I8X+": "The Void will not reward you.",
-                "WRZREO": "Destruction is permanent.",
-                "a0/9Sv": "Terms of The Void",
-                "cR0S28": "It looks like you don’t have any orbs left. Complete some quests to earn more.",
-                "e0rggb": "{count, number} {count, plural, one {orb} other {orbs}} thrown into the void",
-                "hUfeUJ": "The Void",
-                "hasoQT": "You’re out of orbs",
-                "orr21w": "The Void confers no rights, rewards, or benefits, and cannot be redeemed for anything, anywhere.",
-                "qf3+h9": "The void is closed right now. Come back later.",
-                "rfBNN3": "Maxed out. Enjoy the view from the bottom.",
-                "sIkt+O": "Orbs cast into the Void are destroyed. Not held, not escrowed, not recycled.",
-                "sVAKxG": "The void is still hungry. You are out of orbs.",
-                "v/5AWU": "Before you can throw anything into The Void, The Void requires your informed consent."
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -114,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T05:08:51.565812+00:00"
+    "timestamp": "2026-11-19T05:50:41.504520+00:00"
 }
