@@ -1,5 +1,5 @@
 {
-    "build_hash": "cc3ef4cf168ade58d9929518e314000c83c0160c",
+    "build_hash": "78b7fc6131739733b648280d6e478f395d46fc08",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,57 +8,18 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-11-stream-drawing",
-            "kind": "user",
-            "status": "added",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
     "new_experiments": [
         {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "self_apex_extraction",
+            "experiment_source": "reference_comment",
             "experiment_type": "apex",
             "id": "2026-11-stream-drawing",
             "kind": "user",
+            "timestamp": "2026-11-19T21:02:59Z",
             "treatments": [
                 "Variant 0",
                 "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
+            ]
         }
     ],
     "rollout_changes": [],
@@ -86,5 +47,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T21:04:35.956730+00:00"
+    "timestamp": "2026-11-19T21:16:08.478325+00:00"
 }
