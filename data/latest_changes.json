@@ -1,5 +1,5 @@
 {
-    "build_hash": "72fc9c5944306c1e184edfd249fc34702b223bcc",
+    "build_hash": "c8f6b2d9ee9a4860a1ef8a76b2329effd5b292c6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,12 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Kt9exT": "Only the app’s owner can change its server.",
+                "MfnSEe": "Moved to {server}.",
+                "Wy+mGW": "Added to {server}.",
+                "wBUA8n": "Removed from {server}."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T04:36:40.596295+00:00"
+    "timestamp": "2026-11-19T04:47:34.658182+00:00"
 }
