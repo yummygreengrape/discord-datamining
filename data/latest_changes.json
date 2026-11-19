@@ -1,5 +1,5 @@
 {
-    "build_hash": "763aed98ff5b3d7c90a9d09c29a822775df25955",
+    "build_hash": "c93808b6549a99b1bcc0b8ff27f58ab0aee6a42e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,31 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/RoAr5": "An exclusive character built to reflect their year on Discord.",
+                "3Qt5Wq": "Remove from Profile",
+                "43M941": "Top Server",
+                "5eWcYC": "Added to your profile",
+                "8Pp2yv": "Share Character",
+                "8YDoeU": "Removed from your profile",
+                "B7BFo5": "Show on Profile",
+                "CYcfZo": "Save Character Image",
+                "DqUBGM": "Share Character Image",
+                "HBM8cD": "Shown on Profile",
+                "J0fVII": "Messages",
+                "KlujoK": "Top Game",
+                "OnjUWW": "Remains on profile until {endDate, date, ::MMMMd}",
+                "XwoZNp": "Checkpoint 2026",
+                "bKYFke": "{username}’s 2026",
+                "d9mYtC": "Uploading attributes",
+                "ef+B+T": "Emoji",
+                "jEBIJ2": "Top Emoji",
+                "mkwFiV": "Generating character",
+                "pngUtZ": "Save Character",
+                "r0E/m9": "You can have up to {maxWidgets, plural, one {# widget} other {# widgets}} on your profile. Remove one to add Checkpoint.",
+                "vh/Cc/": "Compiling data",
+                "yjuOIv": "Recap of the past year on Discord"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +47,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T03:11:15.534704+00:00"
+    "timestamp": "2026-11-19T03:22:11.080907+00:00"
 }
