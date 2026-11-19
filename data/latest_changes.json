@@ -1,5 +1,5 @@
 {
-    "build_hash": "bc133a3cd4f10278afabdd0ccf71482aafd03ae2",
+    "build_hash": "0743c6fd12d25b41b76066090ecc3dc0538d5e77",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,15 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0A3t4U": "Day 12 floated in. Visit the Shop to see all 12 winter items.",
-                "ekou3v": "Day 4 is super cute! Say hello to our newest winter bundle.",
-                "kNHne1": "Something crawled out of the dark, and it’s feeling festive.",
-                "mwhftr": "Day 6 came tapping. Hurry, before this item is nevermore!",
-                "oK6K30": "Day {day}",
-                "sO76+d": "We’re adding new winter items each day to the Shop. Don’t miss out."
+            "added": {},
+            "deleted": {
+                "PyD/rD": "Rate this build before you leave."
             },
-            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -30,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T18:18:23.685939+00:00"
+    "timestamp": "2026-11-19T18:29:21.038938+00:00"
 }
