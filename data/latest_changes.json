@@ -1,5 +1,5 @@
 {
-    "build_hash": "7073cdc9b7e49c2227e4bc4e9ba83f61088d680c",
+    "build_hash": "cc3ef4cf168ade58d9929518e314000c83c0160c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,12 +8,75 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-11-stream-drawing",
+            "kind": "user",
+            "status": "added",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-11-stream-drawing",
+            "kind": "user",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "3Kpyww": "Done",
+                "7haKYj": "Stamp",
+                "98MNI1": "Stream drawing isn't available while zoomed",
+                "EqYF6z": "Exit stream drawing",
+                "Fr1ZLG": "Use avatar color",
+                "InWDv7": "Stream drawing tools",
+                "SdXXOA": "Stream Drawing",
+                "maGwHF": "Pencil",
+                "nDG2bK": "Stream drawing disconnected. Try again.",
+                "qMPZVd": "Couldn't start stream drawing. Try again.",
+                "vql1fM": "Release the controller to use Stream Drawing"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +86,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T20:53:05.907170+00:00"
+    "timestamp": "2026-11-19T21:04:35.956730+00:00"
 }
