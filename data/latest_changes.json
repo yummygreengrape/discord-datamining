@@ -1,5 +1,5 @@
 {
-    "build_hash": "9cd5db72ffc87cedda7cf7796041dd7708d72a77",
+    "build_hash": "aebbf0cd8d85be51e0c780365aebc67d5bf67fc0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,9 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "8LfMqp": "My projects"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T08:17:00.369160+00:00"
+    "timestamp": "2026-11-19T08:27:58.699112+00:00"
 }
