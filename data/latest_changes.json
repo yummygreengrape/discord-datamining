@@ -1,5 +1,5 @@
 {
-    "build_hash": "4a5c87c4874d48b943a78869e834cdd36dbf1295",
+    "build_hash": "bc133a3cd4f10278afabdd0ccf71482aafd03ae2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,12 @@
     "string_changes": {
         "en": {
             "added": {
-                "M4C8At": "Checkpoint 2026"
+                "0A3t4U": "Day 12 floated in. Visit the Shop to see all 12 winter items.",
+                "ekou3v": "Day 4 is super cute! Say hello to our newest winter bundle.",
+                "kNHne1": "Something crawled out of the dark, and it’s feeling festive.",
+                "mwhftr": "Day 6 came tapping. Hurry, before this item is nevermore!",
+                "oK6K30": "Day {day}",
+                "sO76+d": "We’re adding new winter items each day to the Shop. Don’t miss out."
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T18:07:29.349195+00:00"
+    "timestamp": "2026-11-19T18:18:23.685939+00:00"
 }
