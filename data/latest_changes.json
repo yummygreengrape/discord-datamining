@@ -1,5 +1,5 @@
 {
-    "build_hash": "e2a4001f2921ddb74bffbd97b19056f0e0b0969b",
+    "build_hash": "d8f8d958373f86abdb574b383d825452deef8051",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Ek6GZO": "Voice event"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T15:04:57.085159+00:00"
+    "timestamp": "2026-11-19T15:36:26.514435+00:00"
 }
