@@ -1,15 +1,158 @@
 {
-    "build_hash": "99aa720e51889f84769a37fdc5b02de4b4c08601",
+    "build_hash": "839b124ab1552933234046adec9b76779fdbb75a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "analysis": {
+                "detailed_summary": "기본 상태에서는 이 실험이 연결 직후 수집품 가격 조회를 시작하지 않아요. 비교안에서는 연결이 열린 뒤 수집품 상점의 가격 정보를 가져와, 상품별 가격·혜택을 보관하는 공통 경로에 넣어요. 가격을 읽는 쪽은 일반 구매와 선물, Orbs 가격을 구분해요. 조회 시 국가 코드도 전달하지만, 이 실험 자체가 가격이나 할인율을 바꾼다는 근거는 없어요.",
+                "evidence": [
+                    "85623 checks the exact enabled gate at collectibles_pricing_manager and calls 828596.l9; 828596 fetches STOREFRONT_PRICES; 561573 handles SKUS_PRICING_FETCH_SUCCESS; 993046 reads getPricesForSkuId for purchase type and Orbs prices."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "generated_at": "2026-10-31T00:30:45.669822+00:00",
+                "importance": "medium",
+                "summary": "상점에 들어가기 전에 수집품의 가격 정보를 준비하는 방식을 비교해요.",
+                "why_it_matters": "수집품 상점에서도 다른 상점과 같은 가격 정보를 준비하고 읽는 흐름을 사용하려는 변경으로 보여요. 실제 로딩 시간 차이는 측정하지 않았어요."
+            },
+            "analysis_en": {
+                "detailed_summary": "The default does not start a connection-time collectible price fetch through this experiment. The variant fetches prices for the collectibles application after the connection opens and stores them in the shared product-pricing path. The price reader distinguishes normal purchases, gifts and Orbs prices. The request includes a country code, but the experiment itself does not establish a price or discount change.",
+                "evidence": [
+                    "85623 checks the exact enabled gate at collectibles_pricing_manager and calls 828596.l9; 828596 fetches STOREFRONT_PRICES; 561573 handles SKUS_PRICING_FETCH_SUCCESS; 993046 reads getPricesForSkuId for purchase type and Orbs prices."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "generated_at": "2026-10-31T00:30:45.669822+00:00",
+                "importance": "medium",
+                "summary": "This experiment compares how collectible prices are prepared before opening the Shop.",
+                "why_it_matters": "It appears to bring collectible price preparation onto the common storefront-pricing path. Loading-time improvements have not been measured."
+            },
+            "config_keys": [
+                "enabled",
+                "fetchOnShopButtonPrefetch"
+            ],
+            "default_config": {
+                "enabled": false,
+                "fetchOnShopButtonPrefetch": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-collectibles-storefront-pricing-integration",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "fetchOnShopButtonPrefetch": false
+                },
+                "1": {
+                    "enabled": true,
+                    "fetchOnShopButtonPrefetch": true
+                },
+                "2": {
+                    "enabled": true,
+                    "fetchOnShopButtonPrefetch": false
+                }
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "config_keys": [
+                "enabled",
+                "fetchOnShopButtonPrefetch"
+            ],
+            "default_config": {
+                "enabled": false,
+                "fetchOnShopButtonPrefetch": false
+            },
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-10-collectibles-storefront-pricing-integration",
+            "kind": "user",
+            "old_config_keys": [
+                "enabled"
+            ],
+            "old_default_config": {
+                "enabled": false
+            },
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            },
+            "status": "modified",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false,
+                    "fetchOnShopButtonPrefetch": false
+                },
+                "1": {
+                    "enabled": true,
+                    "fetchOnShopButtonPrefetch": true
+                },
+                "2": {
+                    "enabled": true,
+                    "fetchOnShopButtonPrefetch": false
+                }
+            }
+        }
+    ],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-multiquest-client",
+            "kind": "user",
+            "timestamp": "2026-11-19T22:00:52Z",
+            "treatments": [
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +166,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T22:11:13.622691+00:00"
+    "timestamp": "2026-11-19T22:22:31.026627+00:00"
 }
