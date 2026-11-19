@@ -1,5 +1,5 @@
 {
-    "build_hash": "d8f8d958373f86abdb574b383d825452deef8051",
+    "build_hash": "e8782ec77ba509d6ee59254cb38a107a7bef106f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,8 @@
     "string_changes": {
         "en": {
             "added": {
-                "Ek6GZO": "Voice event"
+                "GhFTS3": "This Clip is already being prepared. Please wait a moment.",
+                "V9LZxW": "Processing ({prepared}/{total})..."
             },
             "deleted": {},
             "modified": {}
@@ -25,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T15:36:26.514435+00:00"
+    "timestamp": "2026-11-19T15:47:20.950491+00:00"
 }
