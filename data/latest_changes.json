@@ -1,8 +1,67 @@
 {
-    "build_hash": "4e69f01c3b5cbe43765323827ff02b5335de895f",
+    "build_hash": "e5491e52cb2c5b48d12f873bdbd66314943b3f42",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "analysis": {
+                "detailed_summary": "기본 상태에서는 기존 스티커 목록과 Nitro 안내 모양을 유지합니다. 비교안에서는 보낼 수 없는 프리미엄 스티커가 모인 서버 범주를 더 명확히 표시하고, 스티커 선택기 아래쪽 안내도 다른 구성으로 보여 줍니다. 현재 웹 스티커 선택기와 목록이 같은 실험의 참·거짓 값을 직접 읽습니다. 결제 조건이나 실제 스티커 전송 권한이 바뀐다는 근거는 없습니다.",
+                "evidence": [
+                    "The sticker picker reads the exact boolean at web.StickerPicker and web.StickerPickerList.",
+                    "The variant changes locked-category presentation and the bottom upsell branch."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "웹 스티커 선택기와 Nitro 안내",
+                "generated_at": "2026-09-26T04:08:03Z",
+                "importance": "medium",
+                "summary": "웹 스티커 선택기에서 Nitro 안내와 잠긴 스티커 표시 방식을 비교합니다.",
+                "why_it_matters": "유료 스티커가 왜 잠겨 있는지와 Nitro 혜택을 발견하는 방식이 달라질 수 있습니다."
+            },
+            "analysis_en": {
+                "detailed_summary": "The default keeps the existing sticker-list and Nitro prompt presentation. The variant marks guild categories whose stickers all require Premium more clearly and changes the upsell shown beneath the picker. The current web picker and list both read the exact boolean experiment. The evidence does not show a change to purchase eligibility or sticker sending permissions.",
+                "evidence": [
+                    "The sticker picker reads the exact boolean at web.StickerPicker and web.StickerPickerList.",
+                    "The variant changes locked-category presentation and the bottom upsell branch."
+                ],
+                "evidence_level": "current_canary_consumer",
+                "focus_area": "Web sticker picker and Nitro upsell",
+                "generated_at": "2026-09-26T04:08:03Z",
+                "importance": "medium",
+                "summary": "Tests a revised Nitro upsell presentation inside the web sticker picker.",
+                "why_it_matters": "It may make locked stickers and the Nitro benefit easier to understand."
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-web-sticker-picker-upsell-restyle",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-11-19T20:14:16Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-web-sticker-picker-upsell-restyle",
+            "kind": "user",
+            "timestamp": "2026-11-19T20:14:16Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -14,14 +73,37 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "2HoFKF": "Lift off with {planName} to use custom stickers on any server. [Learn more.]({onClick})",
+                "MAGagw": "Lift off with bHook{planName} to use custom stickers on any server. [Learn more.]({onClick})",
+                "STICKER_PICKER_PREMIUM_TIER_UPSELL_DESCRIPTION": "Lift off with **{planName}** to use custom stickers on any server. [Learn more.]({onClick})",
+                "STICKER_PICKER_PREMIUM_UPSELL_ALT": "A wumpus sticker surrounded by sparkles.",
+                "STICKER_PICKER_PREMIUM_UPSELL_DESCRIPTION": "Lift off with **Discord Nitro** to use custom stickers on any server. [Learn more.]({onClick})",
+                "STICKER_PICKER_PREMIUM_UPSELL_DESCRIPTION_NO_BOLD": "Lift off with Discord Nitro to use custom stickers on any server. [Learn more.]({onClick})",
+                "STICKER_PICKER_PREMIUM_UPSELL_DESCRIPTION_NO_BOLD_V2": "Lift off with {planName} to use custom stickers on any server. [Learn more.]({onClick})",
+                "STICKER_PICKER_PREMIUM_UPSELL_TITLE": "You can't use this sticker right now",
+                "STICKER_PREMIUM_TIER_2_UPSELL_PERK_GUILD_SUBSCRIPTION": "Get {numGuildSubscriptions, number} free boosts and {discountPercent} off on Boost purchases",
+                "Vk8QFR": "Lift off with Discord Nitro to use custom stickers on any server. [Learn more.]({onClick})",
+                "do7AoM": "A wumpus sticker surrounded by sparkles.",
+                "jJG1pl": "You can't use this sticker right now",
+                "jt7JX6": "Lift off with bHookDiscord Nitro to use custom stickers on any server. [Learn more.]({onClick})",
+                "sWnv5M": "Get {numGuildSubscriptions} free boosts and {discountPercent} off on Boost purchases"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "2HoFKF": "{planName}(으)로 사용자 지정 스티커를 아무 서버에서나 이용하세요. [자세히 알아보기]({onClick})",
+                "MAGagw": "bHook{planName}(으)로 사용자 지정 스티커를 아무 서버에서나 이용하세요. [자세히 알아보기]({onClick})",
+                "Vk8QFR": "Discord Nitro로 사용자 지정 스티커를 아무 서버에서나 이용하세요. [자세히 알아보기]({onClick})",
+                "do7AoM": "반짝이에 둘러싸인 Wumpus 스티커예요.",
+                "jJG1pl": "지금은 이 스티커를 사용할 수 없어요",
+                "jt7JX6": "bHookDiscord Nitro로 사용자 지정 스티커를 아무 서버에서나 이용하세요. [자세히 알아보기]({onClick})",
+                "sWnv5M": "무료 부스트 {numGuildSubscriptions}개와 부스트 구입 {discountPercent} 할인 혜택을 받으세요"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-11-19T20:09:03.510811+00:00"
+    "timestamp": "2026-11-19T20:20:25.011669+00:00"
 }
