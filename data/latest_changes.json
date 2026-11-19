@@ -1,5 +1,5 @@
 {
-    "build_hash": "db5484bc57cc53a31f05caca9f545b594ae42a0b",
+    "build_hash": "4a5c87c4874d48b943a78869e834cdd36dbf1295",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,31 +9,12 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-voicemod-3p",
-            "kind": "user",
-            "timestamp": "2026-11-19T17:48:30Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "4ABTfP": "Make game night more immersive and fun. Access the Nitro Voice Pack for 40 different voices, with monthly exclusives for Nitro. [Terms apply.]({termsUrl})",
-                "AX5oOl": "Voicemod Nitro Voice Pack",
-                "Gspm9q": "Make game night more immersive and fun. Claim this month’s code for 40 Voicemod voices, one new exclusive every month.",
-                "eLmWe/": "Access 40 different voices, with monthly exclusives only for Nitro.",
-                "hHQjT+": "Exclusive voices on Voicemod, only with Nitro. [Terms apply.]({termsUrl})",
-                "pkGxhZ": "Transform your voice in any call",
-                "qyXYB/": "Access to Voicemod Nitro Voice Pack",
-                "tvS3wV": "Redeem your code to access 40 different voices, with monthly exclusives for Nitro."
+                "M4C8At": "Checkpoint 2026"
             },
             "deleted": {},
             "modified": {}
@@ -44,47 +25,5 @@
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "AX5oOl": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "같이 확인된 설명은 Voicemod에서 코드를 사용해 음성 효과에 접근하는 방식이라고 안내해요. 문구에는 40가지 음성과 Nitro 전용 월간 음성이 언급돼요.",
-                    "generated_at": "2026-11-18T15:18:50Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Voicemod",
-                        "Nitro 혜택",
-                        "Voice Pack",
-                        "월별 코드",
-                        "음성 효과"
-                    ],
-                    "search_intent": "Nitro Voice Pack이 무엇이고 음성 효과를 어디에서 쓰는지 알아보려는 검색이에요.",
-                    "source_context": "같은 시점의 문구에 Voicemod 음성 묶음, 코드 사용, 월별 코드 제공 조건이 함께 확인됐어요.",
-                    "summary": "Voicemod Nitro Voice Pack은 Discord Nitro 혜택에서 소개하는 Voicemod 음성 효과 묶음이에요.",
-                    "what_it_means": "Discord에서 혜택을 안내하고 음성 효과 묶음은 Voicemod에서 이용하는 형태예요.",
-                    "when_it_appears": "Nitro 혜택 안내에서 코드 사용이나 제공되는 음성 수를 설명하는 문구와 같이 표시될 수 있어요."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "Companion text describes redeeming a code for access in Voicemod. It mentions 40 voices and monthly Nitro-exclusive voices.",
-                    "generated_at": "2026-11-18T15:18:50Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Voicemod",
-                        "Nitro perk",
-                        "Voice Pack",
-                        "Monthly code",
-                        "Voice effects"
-                    ],
-                    "search_intent": "Someone might search it to find out what the pack is and where to use the effects.",
-                    "source_context": "The same group of strings describes the Voicemod pack, code redemption, and a monthly code limit.",
-                    "summary": "Voicemod Nitro Voice Pack names a set of Voicemod voice effects advertised as a Discord Nitro perk.",
-                    "what_it_means": "Discord presents the perk and the voice pack is used in Voicemod.",
-                    "when_it_appears": "It can appear in a Nitro offer near copy about redeeming a code and the number of voices included."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-11-19T17:56:23.340163+00:00"
+    "timestamp": "2026-11-19T18:07:29.349195+00:00"
 }
