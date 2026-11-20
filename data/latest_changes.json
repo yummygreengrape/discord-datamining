@@ -1,5 +1,5 @@
 {
-    "build_hash": "81f9472752a439598bd85931a644e91bda833e23",
+    "build_hash": "ca3a168d10041fdf3ef0eb11cb7424bfb46162a4",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,13 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "HYMZmZ": "Reset Progress",
+                "Q9JHSs": "Reset Character"
+            },
+            "deleted": {
+                "2DL3aX": "Reset Checkpoint"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-20T22:20:43.890787+00:00"
+    "timestamp": "2026-11-20T23:12:32.116140+00:00"
 }
