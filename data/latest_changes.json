@@ -1,8 +1,79 @@
 {
-    "build_hash": "b5d961b919d0d53e0f977982ec08a37bc58a2713",
+    "build_hash": "16d8ab04d1108e22581f707ac161384918c0fe04",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enableIntegrityCheck",
+                "enableObfuscation"
+            ],
+            "default_config": {
+                "enableIntegrityCheck": false,
+                "enableObfuscation": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-private-channel-hiding",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-11-19T23:55:47Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "1": {
+                    "enableIntegrityCheck": false,
+                    "enableObfuscation": true
+                },
+                "2": {
+                    "enableIntegrityCheck": true,
+                    "enableObfuscation": true
+                },
+                "3": {
+                    "enableIntegrityCheck": false,
+                    "enableObfuscation": false
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enableIntegrityCheck",
+                "enableObfuscation"
+            ],
+            "default_config": {
+                "enableIntegrityCheck": false,
+                "enableObfuscation": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-02-private-channel-hiding",
+            "kind": "user",
+            "timestamp": "2026-11-19T23:55:47Z",
+            "treatments": [
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ],
+            "variations": {
+                "1": {
+                    "enableIntegrityCheck": false,
+                    "enableObfuscation": true
+                },
+                "2": {
+                    "enableIntegrityCheck": true,
+                    "enableObfuscation": true
+                },
+                "3": {
+                    "enableIntegrityCheck": false,
+                    "enableObfuscation": false
+                }
+            }
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -14,32 +85,259 @@
     "string_changes": {
         "en": {
             "added": {
-                "7gI+sw": "Name",
-                "EIh4da": "Make any changes you want, but you won’t get updates anymore.",
-                "O25g5n": "Adding {projectName} to {server}. This can take a minute.",
-                "PrV2rD": "Make a copy of this app and share with other people.",
-                "S+Fcvd": "You’ll keep receiving updates from the original.",
-                "XWgAfc": "Remix",
-                "ZdvGpk": "Customize",
-                "i7PaZ5": "This project has moved",
-                "maL0+X": "Add to…",
-                "o3qloc": "Server projects live in their server. Click to open it.",
-                "ophl3S": "{project} has moved",
-                "pgbZu+": "How should we remix?",
-                "sx5jYE": "Just a copy",
-                "vU1gB6": "Remix {projectName}",
-                "xohQBW": "Personal projects live here. Click to open it.",
-                "yWuYoL": "{project} moved to {server}"
+                "11Xr/r": "Your account",
+                "NEPcoi": "Publish your app",
+                "PuID+v": "A remix is someone’s own copy of your app that they can change.",
+                "RSyIc9": "Private",
+                "Td1mlg": "Make channels private",
+                "XHjO6t": "Publish to",
+                "Z/NFcQ": "Who can remix?",
+                "wnZ4yU": "Publish your changes"
             },
             "deleted": {
-                "GzGb2w": "Pick the server to install {projectName} in.",
-                "PuVQeX": "Name",
-                "QN8T+C": "Create a new project based on {projectName}. This does not affect the original.",
-                "cIWtCk": "Which server?",
-                "cvvDlE": "Remix it to make it your own",
-                "u3W0k0": "Leave blank to leave as is or say what you want changed"
+                "EwO6z5": "Step {step} of {count}",
+                "IN5vt4": "Share what you made with others",
+                "N2HM8/": "Before we share, review details of your app, like the name, description and icon.",
+                "Vay+ld": "Let’s take your project live!"
             },
-            "modified": {}
+            "modified": {
+                "/npn7F": {
+                    "new_value": "{name} published to [{server}]({onOpenServer}).",
+                    "old_value": "{name} synced to [{server}]({onOpenServer})."
+                },
+                "/spQzC": {
+                    "new_value": "Published {date}",
+                    "old_value": "Synced {date}"
+                },
+                "0bDcBs": {
+                    "new_value": "No changes since the previous publish.",
+                    "old_value": "No changes since the previous sync."
+                },
+                "0ikIhz": {
+                    "new_value": "Last run: {time}, nothing new to publish",
+                    "old_value": "Last run: {time}, nothing new to sync"
+                },
+                "120EFN": {
+                    "new_value": "Publish",
+                    "old_value": "Sync"
+                },
+                "19L92G": {
+                    "new_value": "No publishes recorded yet. Your next publish will appear here.",
+                    "old_value": "No syncs recorded yet. Your next sync will appear here."
+                },
+                "1cm4fj": {
+                    "new_value": "This app is incomplete: its channel is missing. Someone with **Manage Channels** in {server} needs to publish again.",
+                    "old_value": "This app is incomplete: its channel is missing. Someone with **Manage Channels** in {server} needs to sync again."
+                },
+                "4TpI2y": {
+                    "new_value": "Automatic backup before publishing",
+                    "old_value": "Automatic backup before syncing"
+                },
+                "5qiUbF": {
+                    "new_value": "Review this publish",
+                    "old_value": "Review this sync"
+                },
+                "656Avb": {
+                    "new_value": "Publish history",
+                    "old_value": "Sync history"
+                },
+                "71yzD9": {
+                    "new_value": "Loading publishing schedule…",
+                    "old_value": "Loading sync schedule…"
+                },
+                "8kdvyn": {
+                    "new_value": "The app owner must review this publish in a browser window. Publishing continues after approval.",
+                    "old_value": "The app owner must review this sync in a browser window. Syncing continues after approval."
+                },
+                "9+kNt8": {
+                    "new_value": "Approved by your standing publish approval",
+                    "old_value": "Approved by your standing sync approval"
+                },
+                "ESu5eZ": {
+                    "new_value": "{name} is live in [{server}]({onOpenServer}), but its commands didn’t update. Publish again to retry.",
+                    "old_value": "{name} is live in [{server}]({onOpenServer}), but its commands didn’t update. Sync again to retry."
+                },
+                "EXceox": {
+                    "new_value": "Could not turn on automatic publishing. Try again.",
+                    "old_value": "Could not turn on automatic syncing. Try again."
+                },
+                "G2DTWl": {
+                    "new_value": "A backup is saved automatically before every preview update and every publish. You can also save one yourself.",
+                    "old_value": "A backup is saved automatically before every preview update and every sync. You can also save one yourself."
+                },
+                "GNcOoY": {
+                    "new_value": "Publish {target} first",
+                    "old_value": "Sync {target} first"
+                },
+                "KWBh/Q": {
+                    "new_value": "This app lives in {server}. Everyone there can use it once it is published.",
+                    "old_value": "This app lives in {server}. Everyone there can use it once it is synced."
+                },
+                "Kzt1rI": {
+                    "new_value": "Showing up to the last 100 publishes.",
+                    "old_value": "Showing up to the last 100 syncs."
+                },
+                "Lm7IRC": {
+                    "new_value": "This app is incomplete: its bot isn’t in {server}. Someone with **Manage Server** needs to publish again.",
+                    "old_value": "This app is incomplete: its bot isn’t in {server}. Someone with **Manage Server** needs to sync again."
+                },
+                "N4NkyR": {
+                    "new_value": "You need to have the **Manage Server** permission to publish this app in {server}.",
+                    "old_value": "You need to have the **Manage Server** permission to sync this app in {server}."
+                },
+                "PrQg+B": {
+                    "new_value": "{name} is live, but its commands didn’t update. Publish again to retry.",
+                    "old_value": "{name} is live, but its commands didn’t update. Sync again to retry."
+                },
+                "Rhx0rn": {
+                    "new_value": "Publishing…",
+                    "old_value": "Syncing…"
+                },
+                "S6Px3n": {
+                    "new_value": "Published",
+                    "old_value": "Synced"
+                },
+                "T/dCkl": {
+                    "new_value": "Next scheduled publish: {time}",
+                    "old_value": "Next scheduled sync: {time}"
+                },
+                "TD/ze/": {
+                    "new_value": "This app is already being published. Try again when it finishes.",
+                    "old_value": "This app is already syncing. Try again when it finishes."
+                },
+                "Tw/KaB": {
+                    "new_value": "Delete this publishing schedule?",
+                    "old_value": "Delete this sync schedule?"
+                },
+                "TzCJWI": {
+                    "new_value": "Couldn’t load publish history. Try again.",
+                    "old_value": "Couldn’t load sync history. Try again."
+                },
+                "UOr0cK": {
+                    "new_value": "It breaks Discord’s rules, so it can’t be published, previewed or remixed. Remove what breaks the rules, then request a review.",
+                    "old_value": "It breaks Discord’s rules, so it can’t be synced, previewed or remixed. Remove what breaks the rules, then request a review."
+                },
+                "UXEDPw": {
+                    "new_value": "Publish failed: the app’s bot isn’t installed",
+                    "old_value": "Sync failed: the app’s bot isn’t installed"
+                },
+                "Xk+JsJ": {
+                    "new_value": "This will also publish any work-in-progress changes you have.",
+                    "old_value": "This will also sync any work-in-progress changes you have."
+                },
+                "ZNGLFE": {
+                    "new_value": "Nothing to publish yet",
+                    "old_value": "Nothing to sync yet"
+                },
+                "ZtfX9V": {
+                    "new_value": "Automatic publishing",
+                    "old_value": "Automatic syncing"
+                },
+                "cxNHma": {
+                    "new_value": "Replaces any current schedule. Publishes run as the project owner.",
+                    "old_value": "Replaces any current schedule. Syncs run as the project owner."
+                },
+                "d/Wf8N": {
+                    "new_value": "Loading publish history…",
+                    "old_value": "Loading sync history…"
+                },
+                "dVtQRH": {
+                    "new_value": "Publish anyway",
+                    "old_value": "Sync anyway"
+                },
+                "ebqlWe": {
+                    "new_value": "This app can’t be published",
+                    "old_value": "This app can’t be synced"
+                },
+                "fWfeZ8": {
+                    "new_value": "[Click here]({onPublish}) to publish your latest changes.",
+                    "old_value": "[Click here]({onPublish}) to sync your latest changes."
+                },
+                "gMWZeG": {
+                    "new_value": "Couldn’t publish. Try again.",
+                    "old_value": "Couldn’t sync. Try again."
+                },
+                "guoHDk": {
+                    "new_value": "Publish",
+                    "old_value": "Sync"
+                },
+                "hcrQOo": {
+                    "new_value": "Release notes aren’t available for this publish.",
+                    "old_value": "Release notes aren’t available for this sync."
+                },
+                "heoCNf": {
+                    "new_value": "Copies take each version you publish automatically, and remixes can pull in your changes. Only this switch stops updates; changing who can install or remix doesn’t.",
+                    "old_value": "Copies take each version you sync automatically, and remixes can pull in your changes. Only this switch stops updates; changing who can install or remix doesn’t."
+                },
+                "i5Xp1l": {
+                    "new_value": "Could not delete the publishing schedule. Try again.",
+                    "old_value": "Could not delete the sync schedule. Try again."
+                },
+                "k4IRsm": {
+                    "new_value": "Automatic publishing is on.",
+                    "old_value": "Automatic syncing is on."
+                },
+                "kAfbEN": {
+                    "new_value": "Published",
+                    "old_value": "Synced"
+                },
+                "lwN30C": {
+                    "new_value": "Publishing schedule deleted.",
+                    "old_value": "Sync schedule deleted."
+                },
+                "n25haz": {
+                    "new_value": "Could not load the publishing schedule. Try again.",
+                    "old_value": "Could not load the sync schedule. Try again."
+                },
+                "oQ3WRg": {
+                    "new_value": "You can’t remove its bot from {server}, so the bot stays there until the app is next published.",
+                    "old_value": "You can’t remove its bot from {server}, so the bot stays there until the app is next synced."
+                },
+                "orZDqY": {
+                    "new_value": "First publish: {time}",
+                    "old_value": "First sync: {time}"
+                },
+                "ptzKKH": {
+                    "new_value": "Publishing schedule",
+                    "old_value": "Sync schedule"
+                },
+                "qY/RLI": {
+                    "new_value": "It’s no longer on hold, so you can publish it again.",
+                    "old_value": "It’s no longer on hold, so you can sync it again."
+                },
+                "qr1iIe": {
+                    "new_value": "Future publishes from this schedule will stop. You can ask the agent to set another schedule.",
+                    "old_value": "Future syncs from this schedule will stop. You can ask the agent to set another schedule."
+                },
+                "qru9M5": {
+                    "new_value": "Review publish",
+                    "old_value": "Review sync"
+                },
+                "tOu7uv": {
+                    "new_value": "{app} is personal again. Publish to use it.",
+                    "old_value": "{app} is personal again. Sync to use it."
+                },
+                "uMdX5T": {
+                    "new_value": "Publish history pages",
+                    "old_value": "Sync history pages"
+                },
+                "ubcNP7": {
+                    "new_value": "Publishes run as the project owner. If the agent is working, publishing waits for it to finish. Runs with no new changes are skipped.",
+                    "old_value": "Syncs run as the project owner. If the agent is working, syncing waits for it to finish. Runs with no new changes are skipped."
+                },
+                "xCdlEF": {
+                    "new_value": "Publishing as soon as I get a moment…",
+                    "old_value": "Syncing as soon as I get a moment…"
+                },
+                "yHhjsi": {
+                    "new_value": "{app} is now in {server}. Publish to make it live there.",
+                    "old_value": "{app} is now in {server}. Sync to make it live there."
+                },
+                "yMA4zs": {
+                    "new_value": "Last published: {time}",
+                    "old_value": "Last synced: {time}"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -49,45 +347,121 @@
     },
     "string_context": {
         "en": {
-            "GzGb2w": {
+            "N4NkyR": {
                 "analysis": {
                     "confidence": "medium",
-                    "detailed_summary": "화면에는 프로젝트 이름이 들어가요. 설치 대상으로 어느 서버를 고를지 묻는 단계이며 서버별 설치 가능 조건은 이 문구에 나오지 않아요.",
-                    "generated_at": "2026-11-09T15:10:09.650845Z",
-                    "intent_type": "feature_or_setting_explanation",
+                    "detailed_summary": "권한은 문구에 나온 서버에서 확인돼요. 다른 서버의 권한이나 앱 소유권만으로 현재 서버의 요건을 충족할 수는 없어요.",
+                    "generated_at": "2026-11-18T15:18:50Z",
+                    "intent_type": "server_or_permission_notice",
                     "related_terms": [
-                        "Conjure",
-                        "Add to Server",
-                        "Add and Publish",
-                        "Test version",
-                        "Personal apps"
+                        "테스트 버전",
+                        "서버 관리",
+                        "동기화 검토",
+                        "명령어 갱신"
                     ],
-                    "search_intent": "Conjure 프로젝트를 설치할 서버를 어디서 선택하는지 찾는 검색이에요.",
-                    "source_context": "서버 추가 및 게시 안내에는 테스트 버전과 개인 앱 구성 요소 제한이 함께 나와요. 관련 프로젝트 문구에는 접근 권한과 설치 안내가 있어요.",
-                    "summary": "Conjure 프로젝트를 설치할 서버를 선택하라는 안내예요.",
-                    "what_it_means": "설치를 진행할 서버를 지정해야 해요.",
-                    "when_it_appears": "프로젝트에서 설치를 누른 뒤 대상 서버 선택 화면에 보일 수 있어요."
+                    "search_intent": "앱을 만들 수 있는데 특정 서버에서는 왜 동기화가 막히는지 확인하려는 검색이에요.",
+                    "source_context": "Conjure 앱 문구에는 테스트 버전, 서버 관리 권한, 동기화 결과, 검토 요청이 함께 나와요.",
+                    "summary": "선택한 서버에서 Conjure 앱을 동기화하려면 서버 관리 권한이 필요하다는 안내예요.",
+                    "what_it_means": "동기화 대상 서버에서 서버 관리 권한이 필요한 단계예요.",
+                    "what_to_do": "해당 서버의 관리자에게 권한을 확인하거나, 서버 관리 권한이 있는 사람에게 동기화를 요청하세요.",
+                    "when_it_appears": "앱의 변경 사항을 서버에 보내려는데 현재 계정의 권한이 부족할 때 표시될 수 있어요."
                 },
                 "analysis_en": {
                     "confidence": "medium",
-                    "detailed_summary": "The prompt includes the project name. It identifies the destination choice and leaves any server-specific installation requirements to the rest of the screen.",
-                    "generated_at": "2026-11-09T15:10:09.650845Z",
-                    "intent_type": "feature_or_setting_explanation",
+                    "detailed_summary": "Discord checks the permission in the server shown in the message. App ownership and permissions in other servers do not satisfy that server's check.",
+                    "generated_at": "2026-11-18T15:18:50Z",
+                    "intent_type": "server_or_permission_notice",
                     "related_terms": [
-                        "Conjure",
-                        "Add to Server",
-                        "Add and Publish",
                         "Test version",
-                        "Personal apps"
+                        "Manage Server",
+                        "Review sync",
+                        "Command update"
                     ],
-                    "search_intent": "You may be looking for where to choose a server during project installation.",
-                    "source_context": "The add-to-server and publish copy mentions test versions and personal app component restrictions. Related project strings cover access and installation.",
-                    "summary": "Discord is asking which server should receive the Conjure project you’re installing.",
-                    "what_it_means": "The selected server is the destination for this project.",
-                    "when_it_appears": "It can appear in the server picker after you start an installation."
+                    "search_intent": "Someone might search it after finding they can edit an app but cannot sync to a particular server.",
+                    "source_context": "Conjure app copy includes a test version, Manage Server, sync results, and a review option.",
+                    "summary": "Syncing the Conjure app to the named server requires Manage Server.",
+                    "what_it_means": "The sync action requires Manage Server in its destination server.",
+                    "what_to_do": "Check the permission with that server's administrators or ask someone with Manage Server to handle the sync.",
+                    "when_it_appears": "It can appear when the account attempting a server sync lacks the required permission."
+                }
+            },
+            "PrQg+B": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "앱이 라이브 상태라는 결과와 명령어 갱신 실패가 한 메시지에 표시돼요. 기존 상태와 새 명령어가 일부 다를 수 있어요.",
+                    "generated_at": "2026-11-18T15:18:50Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "테스트 버전",
+                        "서버 관리",
+                        "동기화 검토",
+                        "명령어 갱신"
+                    ],
+                    "search_intent": "앱은 열리는데 추가하거나 바꾼 명령어가 보이지 않는 이유를 찾는 검색이에요.",
+                    "source_context": "Conjure 앱 문구에는 테스트 버전, 서버 관리 권한, 동기화 결과, 검토 요청이 함께 나와요.",
+                    "summary": "Conjure 앱은 사용 가능한 상태가 됐지만 명령어 갱신이 끝나지 않았다는 메시지예요.",
+                    "what_it_means": "동기화가 일부 완료되어 앱은 열리고 명령어 변경은 덜 반영된 상태예요.",
+                    "what_to_do": "화면 안내에 따라 동기화를 다시 실행해 명령어 갱신을 재시도하세요.",
+                    "when_it_appears": "동기화 결과 화면에서 앱과 명령어의 처리 결과가 다를 때 표시될 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The result reports separately that the app is live and that the command update failed. The commands you see may still reflect an earlier version.",
+                    "generated_at": "2026-11-18T15:18:50Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Test version",
+                        "Manage Server",
+                        "Review sync",
+                        "Command update"
+                    ],
+                    "search_intent": "A creator might search it when the app opens but new or changed commands are missing.",
+                    "source_context": "Conjure app copy includes a test version, Manage Server, sync results, and a review option.",
+                    "summary": "The Conjure app is live, but its commands did not update.",
+                    "what_it_means": "The sync partially completed and the command update needs another attempt.",
+                    "what_to_do": "Use Sync again as the message suggests to retry the command update.",
+                    "when_it_appears": "It can appear in the sync result when the app and its commands have different outcomes."
+                }
+            },
+            "UOr0cK": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "현재 제한은 세 동작에 걸쳐 있어요. 화면은 위반하는 내용을 제거하고 검토를 요청하라고 안내해요.",
+                    "generated_at": "2026-11-18T15:18:50Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "테스트 버전",
+                        "서버 관리",
+                        "동기화 검토",
+                        "명령어 갱신"
+                    ],
+                    "search_intent": "앱 제작자가 동기화 버튼의 차단 원인과 검토를 요청할 수 있는지 확인하려는 검색이에요.",
+                    "source_context": "Conjure 앱 문구에는 테스트 버전, 서버 관리 권한, 동기화 결과, 검토 요청이 함께 나와요.",
+                    "summary": "Discord가 규칙 위반을 이유로 Conjure 앱의 동기화, 미리 보기, 리믹스를 제한했다는 안내예요.",
+                    "what_it_means": "앱 상태에 적용된 제한이라 같은 상태로 동기화를 다시 시도해도 검토 단계가 필요해요.",
+                    "what_to_do": "화면이 지목하는 규칙 위반 내용을 제거한 뒤 제공되는 검토 요청을 이용하세요.",
+                    "when_it_appears": "앱 동기화가 차단된 상황에서 검토 관련 문구와 함께 표시될 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The restriction covers all three actions listed on screen. The message gives a review path after the offending material has been removed.",
+                    "generated_at": "2026-11-18T15:18:50Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Test version",
+                        "Manage Server",
+                        "Review sync",
+                        "Command update"
+                    ],
+                    "search_intent": "An app creator might search the notice to understand the restriction and how to ask for review.",
+                    "source_context": "Conjure app copy includes a test version, Manage Server, sync results, and a review option.",
+                    "summary": "Discord says a rule violation is blocking this Conjure app from syncing, previewing, or being remixed.",
+                    "what_it_means": "The app is restricted pending the changes and review described in the notice.",
+                    "what_to_do": "Remove the material that breaks Discord's rules, then use the review option shown.",
+                    "when_it_appears": "It can appear alongside review copy when a sync is blocked."
                 }
             }
         }
     },
-    "timestamp": "2026-11-19T23:50:32.147461+00:00"
+    "timestamp": "2026-11-20T00:01:31.127449+00:00"
 }
