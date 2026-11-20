@@ -1,5 +1,5 @@
 {
-    "build_hash": "4c111c04e369cb0fc150d6baac7bd1f2084b1c36",
+    "build_hash": "609d8b285a2c232a212f9be1e6716807a5a99da2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,74 +8,19 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-cuj-survey-card",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-11-20T00:50:16Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-cuj-survey-card",
-            "kind": "user",
-            "timestamp": "2026-11-20T00:50:16Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "74//2L": "Couldn’t send. Your answers are still here. Please try again.",
-                "BgGN7g": "Discord Survey",
-                "F7VzXA": "{number}, {label}",
-                "GidZkq": "Optional Discord survey. Two quick questions. You can close it at any time.",
-                "ZQGwuV": "Your feedback helps us make Discord better.",
-                "pAMKaO": "We couldn’t confirm your feedback was saved. Your answers are still here. Please close this card when you’re ready.",
-                "zt+NnY": "Optional. Please don’t include personal information."
+                "+g5NWE": "Search servers"
             },
-            "deleted": {},
+            "deleted": {
+                "6RGR3m": "Remix",
+                "UsUa/c": "Install",
+                "gnsPOt": "Search servers"
+            },
             "modified": {}
         },
         "ko": {
@@ -84,5 +29,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-20T00:56:08.225998+00:00"
+    "timestamp": "2026-11-20T01:07:07.449020+00:00"
 }
