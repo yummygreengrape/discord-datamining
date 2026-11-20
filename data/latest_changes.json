@@ -1,5 +1,5 @@
 {
-    "build_hash": "27a144880d0fcbf8cf4563e7002812ecb6e0983e",
+    "build_hash": "b0e88ec0263e22b464bae731fd18dbf4d1907715",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,10 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "OYaecm": "I just switched this from a server project to a personal project. Please make sure everything still works, and feel free to ask me if there are any decisions we need to make.",
+                "YXmrDJ": "I just switched this from a personal project to a server project. Please make sure everything still works, and feel free to ask me if there are any decisions we need to make."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +26,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-20T00:34:13.327737+00:00"
+    "timestamp": "2026-11-20T00:45:09.274583+00:00"
 }
