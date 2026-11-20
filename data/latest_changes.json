@@ -1,5 +1,5 @@
 {
-    "build_hash": "1df39fc7f957eb25551c8f6c6080f799da1aee35",
+    "build_hash": "58d413533f0cf60b98d99bbfd500568cea129856",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,11 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "Vmb0K4": "Skip for Now",
-                "cbU1iq": "Your app needs its bot in the server to {reason}.",
-                "sRzJdk": "Add your bot to the server"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-20T23:34:15.571676+00:00"
+    "timestamp": "2026-11-20T23:45:08.740875+00:00"
 }
