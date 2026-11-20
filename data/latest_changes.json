@@ -1,5 +1,5 @@
 {
-    "build_hash": "29892b4935a097aea1af078e50b5a67f8db27e83",
+    "build_hash": "a16b6cab641f5290eb0783f4544a08399df1c4b8",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,11 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "DXxeZL": "Restart the app to apply. The switch takes effect on the next hard launch.",
+                "H8h6wu": "Phoenix",
+                "paDGCW": "Launch Phoenix on next start"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-20T01:51:05.317356+00:00"
+    "timestamp": "2026-11-20T02:02:01.372444+00:00"
 }
