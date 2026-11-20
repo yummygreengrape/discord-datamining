@@ -1,5 +1,5 @@
 {
-    "build_hash": "b0e88ec0263e22b464bae731fd18dbf4d1907715",
+    "build_hash": "4c111c04e369cb0fc150d6baac7bd1f2084b1c36",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,14 +8,72 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-cuj-survey-card",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-11-20T00:50:16Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-cuj-survey-card",
+            "kind": "user",
+            "timestamp": "2026-11-20T00:50:16Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {
-                "OYaecm": "I just switched this from a server project to a personal project. Please make sure everything still works, and feel free to ask me if there are any decisions we need to make.",
-                "YXmrDJ": "I just switched this from a personal project to a server project. Please make sure everything still works, and feel free to ask me if there are any decisions we need to make."
+                "74//2L": "Couldn’t send. Your answers are still here. Please try again.",
+                "BgGN7g": "Discord Survey",
+                "F7VzXA": "{number}, {label}",
+                "GidZkq": "Optional Discord survey. Two quick questions. You can close it at any time.",
+                "ZQGwuV": "Your feedback helps us make Discord better.",
+                "pAMKaO": "We couldn’t confirm your feedback was saved. Your answers are still here. Please close this card when you’re ready.",
+                "zt+NnY": "Optional. Please don’t include personal information."
             },
             "deleted": {},
             "modified": {}
@@ -26,5 +84,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-20T00:45:09.274583+00:00"
+    "timestamp": "2026-11-20T00:56:08.225998+00:00"
 }
