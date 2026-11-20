@@ -1,5 +1,5 @@
 {
-    "build_hash": "070d25f3ffcfc2184402f3e26e1574c6ba3e5f82",
+    "build_hash": "7c5f791a2efd9c5220911bbe4cd76a88fe3a9291",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -18,149 +18,10 @@
             "modified": {}
         },
         "ko": {
-            "added": {
-                "+uBSeT": "위젯 순서 변경 닫기",
-                "/fNrht": "스트림 볼륨이 여기로 이동했어요",
-                "0A3t4U": "12일 차가 둥실 떠올랐어요. 상점에서 겨울 아이템 12종을 모두 확인해 보세요.",
-                "18HDKV": "iOS 기기에서 18세 이상 사용자가 연령 제한 서버에 가입하고 액세스할 수 있도록 허용합니다",
-                "1PdKvg": "혜택 공개!",
-                "1T/Qjw": "취소는 현재 청구 기간이 끝날 때 적용됩니다. 그 이후에는 이 구독으로 더 이상 선물을 보내지 않습니다.",
-                "24d90k": "App Store 가이드라인에 따라 iOS에서는 연령 제한 서버가 차단됩니다. 성인인 경우 데스크톱 또는 웹의 설정에서 액세스를 켠 다음 iOS 기기에서 가입하고 볼 수 있습니다.",
-                "43M941": "상위 서버",
-                "49qRvZ": "스트림 볼륨이 이동했어요",
-                "4ABTfP": "게임의 밤을 더욱 몰입감 있고 재미있게 만들어 보세요. Nitro를 위한 매월 한정판과 함께 40가지 다양한 목소리의 Nitro 보이스 팩에 액세스하세요. [약관이 적용됩니다.]({termsUrl})",
-                "6nKlgr": "스트림 길게 누르기",
-                "7nfXWu": "게임을 하루도 거른 적이 없는 플레이어도 있다고 하네요. 올해엔 게임에 좀 소홀하셨다고요? 내년에 다시 열심히 하시면 되니 괜찮습니다.",
-                "AOUyrx": "내 사용자 지정 상태 업데이트 시 공유",
-                "AX5oOl": "Voicemod Nitro 음성 팩",
-                "AshjCb": "클립 보기",
-                "B1kOFr": "역월 기준 매월 코드 1개가 지급됩니다. [약관이 적용됩니다]({termsUrl})",
-                "BkuqWx": "의상을 골라 색상을 선택하세요.",
-                "DLvbaf": "Nitro({intervalCount}개월)",
-                "EeYnVZ": "{day}일 차, 잠김",
-                "Ek6GZO": "음성 이벤트",
-                "EyuFlE": "미디어 뷰어에서 열기",
-                "FM8pY7": "게임이나 연결된 앱에서의 활동 내역(언제, 어떻게 사용하는지 포함)을 공유해요.",
-                "GL+yOs": "개인정보 보호 설정으로 통계가 숨겨져 있지만, 캐릭터는 여전히 멋지게 보여줄 수 있어요.",
-                "GhFTS3": "이 클립은 이미 준비 중이에요. 잠시만 기다려 주세요.",
-                "Gspm9q": "게임의 밤을 더욱 몰입감 있고 재미있게 만들어 보세요. 40가지 Voicemod 목소리에 더해 매월 한 가지 새로운 한정판이 제공되는 이번 달 코드를 수령하세요.",
-                "GwQvTT": "{date}에 공개 예정",
-                "I8l3Z+": "탭은 최대 {count}개까지 열 수 있습니다. 다른 탭을 열려면 열려 있는 탭 중 하나를 닫으세요.",
-                "IaTl5H": "Checkpoint 랩은 점검 중이라 이용할 수 없어요. 나중에 다시 시도해 주세요.",
-                "J0fVII": "메시지",
-                "JCzxmU": "선물 기간이 종료되면 bHook다음 혜택을 잃게 됩니다.",
-                "Ln7OND": "서버 설정에서 열기",
-                "LoVrW5": "{day}일 차: 수집 완료!",
-                "M4C8At": "Checkpoint 2026",
-                "Oxqca4": "아이템 받기",
-                "OxxTjh": "{stat}, {percentile}",
-                "PcA03u": "열 수 있는 최대 탭 수인 {count}개에 도달하여 이 탭의 고정을 해제했습니다.",
-                "QVBTlz": "{orbCount}개의 Orbs를 받게 돼요!",
-                "QX1VPx": "{category}, 더 많은 카테고리",
-                "S7X7/T": "길게 눌러 드래그하여 순서 변경",
-                "SD+D4u": "회원님의 Nitro 선물이{daysLeft}. 구독하여 혜택을 유지하세요.",
-                "SRetJj": "계정을 연결하여 게임 내 소셜 기능을 잠금 해제하고 orbsIconHookHookorbs {orbCount} 오브를 받으세요!",
-                "SntY/v": "음악: Exyl. Checkpoint는 본인만 볼 수 있어요(공유하기로 선택한 경우 제외). learnMoreHookHook자세히 알아보기",
-                "UEMMJO": "블랙 프라이데이: Orbs로 Bloons TD 6 게임 내 아이템을 구매하세요",
-                "UV9ikL": "{applicationName} 계정 연결",
-                "WQF2/t": "이 슬라이더를 사용하여 스트림 볼륨을 조정하세요",
-                "WjvJ4R": "선물 받은 Nitro가 {daysLeft}.",
-                "X5Fk6g": "{widgetName} 옵션 닫기",
-                "XB99KC": "스쿼드: {names}",
-                "XgfZ0E": "블랙 프라이데이: Rust 인게임 아이템에 Orbs를 사용하세요",
-                "XwoZNp": "Checkpoint 2026",
-                "YHWOSK": "iOS 플랫폼에서는 App Store 방침상 연령 제한 서버를 볼 수 없습니다. 자세한 내용은 [고객 지원 센터]({helpURL})에서 확인하세요.",
-                "YuNoIm": "확인하기",
-                "ZzNZM2": "{count} Orbs 던짐",
-                "a05zGh": "일일 혜택",
-                "bWW0Gp": "취소 대기 중",
-                "bZ094C": "사용자 지정 상태를 업데이트할 때 친구가 푸시 알림을 받을 수 있도록 허용해요.",
-                "crKDpM": "Checkpoint 랩을 유지보수하는 동안 글로벌 트렌드를 살펴보세요.",
-                "eLmWe/": "매월 Nitro 한정판과 함께 40가지의 다양한 목소리에 액세스하세요.",
-                "eXhipA": "Nitro({intervalCount}년)",
-                "ef+B+T": "이모지",
-                "ekou3v": "4일 차는 정말 귀여워요! 새로 나온 겨울 번들을 만나 보세요.",
-                "eztvbI": "{fps}FPS",
-                "fqtaGq": "매월 코드 1개가 지급됩니다. [약관이 적용됩니다]({termsUrl})",
-                "g56Cg0": "계정이 연결되었으며 {orbCount} Orbs를 받으셨어요!",
-                "gt4IWi": "블랙 프라이데이: Nitro 혜택으로 Orbs를 환급받고 인게임 아이템에 사용하세요!",
-                "hHQjT+": "Voicemod의 한정판 음성, 오직 Nitro에서만. [약관이 적용됩니다.]({termsUrl})",
-                "j5nCPU": "특전을 유지하려면 Nitro 플랜을 선택해 주세요. 구독하기 전에 가격과 결제 정보를 확인할 수 있습니다.",
-                "jX/Uhq": "계정을 연결하여 게임 내 소셜 기능을 잠금 해제하세요.",
-                "jepsQ6": "더 많은 카테고리",
-                "jz3aVY": "{day}일 차, 잠김. {date}에 공개 예정",
-                "kJSKt+": "모든 일차 보기",
-                "kNHne1": "어둠 속에서 무언가 기어 나왔어요. 그리고 축제 분위기에 들떠 있네요.",
-                "mPf8Wg": "Nitro 혜택으로 선별된 아이템에 Orbs를 사용해 보세요. 구매할 때마다 Orbs가 환급돼요. 11월 30일에 종료돼요. termsHookHook약관이 적용됩니다.",
-                "mwhftr": "6일 차가 똑똑, 문을 두드려요. 이 아이템이 영영 사라지기 전에 서두르세요!",
-                "oK6K30": "{day}일 차",
-                "ody6zm": "남은 시간: {time}",
-                "pkGxhZ": "통화할 때 내 목소리 변조하기",
-                "qyXYB/": "Voicemod Nitro 음성 팩 액세스",
-                "s4qVni": "나의 2026년",
-                "sO76+d": "매일 상점에 새로운 겨울 아이템이 추가돼요. 놓치지 마세요.",
-                "st59ZX": "{collectibleTitle} 아이템이 컬렉션에 추가됐어요. 내일 특가 혜택도 놓치지 마세요!",
-                "tvS3wV": "코드를 교환하여 매월 지급되는 Nitro 한정판과 함께 40가지 다양한 목소리에 액세스하세요.",
-                "u9XiCz": "{profileName} 님, 프로필을 선택하세요",
-                "v//dvn": "동영상 진행 상황",
-                "vRWrrr": "학생 허브에 대해 자세히 알아보기",
-                "vaqebJ": "일일 혜택 자세히 알아보기",
-                "vcRnnQ": "Checkpoint 랩을 유지보수하는 동안 연간 통계를 확인하거나 글로벌 트렌드를 살펴보세요.",
-                "xRtlbW": "사이드킥: {name}",
-                "ydxNPG": "Nitro 크레딧(구독)",
-                "z72P4t": "플레이한 게임: {count}개",
-                "zi2Lmo": "블랙 프라이데이: 인게임 아이템에 Orbs를 사용하고 구매를 통해 Orbs를 획득하세요!",
-                "zsYYN1": "선택한 의상이 없어요",
-                "zzDQv3": "{day}일 차 혜택 공개"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "0AhA1F": {
-                    "new_value": "자동 클립으로 최고의 게임 순간을 캡처하세요. nitroHookHookNitro와 함께 얼리 액세스로 이용해 보세요.",
-                    "old_value": "자동 클립으로 최고의 게임 순간을 캡처하세요. nitroHookHookNitro로 먼저 이용해 보세요."
-                },
-                "660/Rr": {
-                    "new_value": "올해 Discord에서는 {numEmojis}가지 이모지를 선보였어요. 다음 이모지들이 가장 많은 사랑을 받았어요.",
-                    "old_value": "올해만 이모지 {numEmojis}개가 새로 나왔어요. 가장 인기가 많았던 이모지는 다음과 같았어요."
-                },
-                "6kzaqs": {
-                    "new_value": "한 곳에서 학교 친구들을 찾고, 커뮤니티를 발견하고, 서버를 공유해 보세요. learnMoreHookHook자세히 알아보기.",
-                    "old_value": "한 곳에서 학교 친구들을 찾고, 커뮤니티를 발견하고, 서버를 공유해보세요. [자세히 알아보기.]({onClick})"
-                },
-                "ElYQFS": {
-                    "new_value": "Orbs",
-                    "old_value": "구체"
-                },
-                "VPktVS": {
-                    "new_value": "취소는 현재 청구 기간이 끝날 때 적용됩니다. {endDate}부터 {username} 님은 이 구독에서 더 이상 선물을 받지 않게 됩니다.",
-                    "old_value": "취소는 현재 청구 기간이 끝날 때 적용됩니다. {endDate}에 {username} 님은 모든 Nitro 혜택에 대한 액세스 권한을 잃게 됩니다."
-                },
-                "YiNO8W": {
-                    "new_value": "멤버는 {hours}시간 {minutes}분 {seconds}초마다 메시지를 하나씩 보낼 수 있어요",
-                    "old_value": "멤버는 {hours}시간 {minutes} {seconds}마다 메시지를 하나 보낼 수 있어요."
-                },
-                "bAxEs2": {
-                    "new_value": "올해 Discord에서 쓰신 단어가 {numWords}개나 된다고요? 그리스어 원문으로 된 오디세이 {numCopies}권 분량은 되겠네요.",
-                    "old_value": "단어 {numWords}개라고요? 원본 그리스어판 오디세이 {numCopies}권과 맞먹는 분량이에요. 이 정도는 식은 죽 먹기죠."
-                },
-                "huiTne": {
-                    "new_value": "수다는 전 세계 플레이어들이 밤낮으로 즐기는 레저 활동화도 같죠.",
-                    "old_value": "수다는 하루 종일이라도 떨 수 있죠."
-                },
-                "oSzkf2": {
-                    "new_value": "멤버는 {minutes}분 {seconds}초마다 메시지를 하나씩 보낼 수 있어요",
-                    "old_value": "멤버는 {minutes}분 {seconds}마다 메시지를 하나 보낼 수 있어요."
-                },
-                "uaRDmS": {
-                    "new_value": "멤버는 {seconds}초마다 메시지를 하나씩 보낼 수 있어요.",
-                    "old_value": "멤버는 {seconds}초마다 메시지를 하나 보낼 수 있어요."
-                },
-                "xdWlbE": {
-                    "new_value": "이전 라운드에서 획득함",
-                    "old_value": "이전 주기에서 승리했어요."
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-11-20T18:01:54.598586+00:00"
+    "timestamp": "2026-11-20T19:03:56.668563+00:00"
 }
