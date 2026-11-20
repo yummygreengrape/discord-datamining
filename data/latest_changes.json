@@ -1,5 +1,5 @@
 {
-    "build_hash": "7954e7f8adba6ee5c3e315cd9f515fc025bcff72",
+    "build_hash": "625a61d7e982bb6e194d03402b18aa15acdfc631",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,13 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "JmRY4R": "Removed from category **{oldValue}**",
-                "NeUd53": "Was in channel **{oldValue}**",
-                "UzQe83": "Moved from category **{oldValue}** to **{newValue}**",
-                "XbS++5": "Added to category **{newValue}**",
-                "p/Rd4u": "In channel **{newValue}**"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -29,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-20T02:24:01.516615+00:00"
+    "timestamp": "2026-11-20T02:34:58.761655+00:00"
 }
