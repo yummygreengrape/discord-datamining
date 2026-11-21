@@ -1,5 +1,5 @@
 {
-    "build_hash": "332d32709fa395a8e7ae240a906776516320065c",
+    "build_hash": "9a4134e4350b52aa0920965c0d4aab4a0b94365d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,12 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "ILk9eQ": "Share Checkpoint Card",
-                "osZcXT": "Share Checkpoint Character",
-                "tmomRC": "Share Card",
-                "uTmQnE": "Share Card Image"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -28,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-21T00:06:12.632924+00:00"
+    "timestamp": "2026-11-21T00:37:33.686046+00:00"
 }
