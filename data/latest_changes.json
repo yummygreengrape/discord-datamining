@@ -1,5 +1,5 @@
 {
-    "build_hash": "88509f43147b26aa44213cabe2700f1548a19684",
+    "build_hash": "9ba42d3113310cc243d664b165f293e8de9bebd0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,42 +13,15 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "69NJ0X": "Monthly Orb drops end on {date}. Any Orbs you've already earned are yours to keep.",
-                "LG4Fft": "One last Orb drop",
-                "NNop36": "Enjoy {orbAmount} Orbs every month.",
-                "OYakRP": "Monthly Orbs will no longer be included with Nitro starting {date}. Any Orbs already earned are yours to keep.",
-                "bkU5si": "Final {orbAmount} Nitro Orbs in {days}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
             "deleted": {},
-            "modified": {
-                "69NJ0X": {
-                    "new_value": "매달 Orbs 지급이 {date}에 종료돼요. 이미 받으신 Orbs는 계속 보유할 수 있어요.",
-                    "old_value": "69NJ0X"
-                },
-                "LG4Fft": {
-                    "new_value": "마지막 Orbs 지급",
-                    "old_value": "LG4Fft"
-                },
-                "NNop36": {
-                    "new_value": "매달 {orbAmount} Orbs를 받아 가세요.",
-                    "old_value": "NNop36"
-                },
-                "OYakRP": {
-                    "new_value": "{date}부터 Nitro 구독 혜택으로 매달 지급되던 Orbs가 더 이상 지급되지 않아요. 이미 받으신 Orbs는 그대로 보유할 수 있어요.",
-                    "old_value": "OYakRP"
-                },
-                "bkU5si": {
-                    "new_value": "{days}일 후 {orbAmount} Nitro Orbs 지급",
-                    "old_value": "bkU5si"
-                }
-            }
+            "modified": {}
         }
     },
-    "timestamp": "2026-11-23T07:11:51.984041+00:00"
+    "timestamp": "2026-11-23T07:33:03.038759+00:00"
 }
