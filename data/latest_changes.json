@@ -1,5 +1,5 @@
 {
-    "build_hash": "96bb913d1fd163f93ff8d594e6c44dbb3f988d51",
+    "build_hash": "f2a2ba9a82db3caeeaa83db498f34ba89a38dc79",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,125 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-quest-home-hero-shared-ad-refresh",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-11-23T20:59:59Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5",
-                "Variant 6",
-                "Variant 7",
-                "Variant 8",
-                "Variant 9"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": false
-                },
-                "2": {
-                    "enabled": true
-                },
-                "3": {
-                    "enabled": true
-                },
-                "4": {
-                    "enabled": true
-                },
-                "5": {
-                    "enabled": true
-                },
-                "6": {
-                    "enabled": true
-                },
-                "7": {
-                    "enabled": true
-                },
-                "8": {
-                    "enabled": true
-                },
-                "9": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-quest-home-hero-shared-ad-refresh",
-            "kind": "user",
-            "timestamp": "2026-11-23T20:59:59Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1",
-                "Variant 2",
-                "Variant 3",
-                "Variant 4",
-                "Variant 5",
-                "Variant 6",
-                "Variant 7",
-                "Variant 8",
-                "Variant 9"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": false
-                },
-                "2": {
-                    "enabled": true
-                },
-                "3": {
-                    "enabled": true
-                },
-                "4": {
-                    "enabled": true
-                },
-                "5": {
-                    "enabled": true
-                },
-                "6": {
-                    "enabled": true
-                },
-                "7": {
-                    "enabled": true
-                },
-                "8": {
-                    "enabled": true
-                },
-                "9": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -140,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-23T21:06:09.432263+00:00"
+    "timestamp": "2026-11-23T21:17:02.939308+00:00"
 }
