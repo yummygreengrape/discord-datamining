@@ -1,5 +1,5 @@
 {
-    "build_hash": "65c1762c4063b959b02e7aabc28dd0d4feab923c",
+    "build_hash": "1b547ad647fa3fbfc778d6b92b728d2a2d1e966a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,61 +8,8 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-stream-drawing-guild",
-            "kind": "guild",
-            "status": "added",
-            "timestamp": "2026-11-23T21:32:26Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-stream-drawing-guild",
-            "kind": "guild",
-            "timestamp": "2026-11-23T21:32:26Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -76,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-23T21:38:11.521529+00:00"
+    "timestamp": "2026-11-23T21:49:01.625897+00:00"
 }
