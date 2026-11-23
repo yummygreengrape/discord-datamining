@@ -1,5 +1,5 @@
 {
-    "build_hash": "57664942255bc65090dfb33a934430310156df12",
+    "build_hash": "0391821e4f8c10872bca92519c6862cbebb3c390",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,22 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "SrY+jH": "Log In",
+                "Ukbq9W": "Anyone with Manage Server",
+                "rL1kLX": "Your session has expired. Log in again to continue."
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "9MdtK9": {
+                    "new_value": "By default, anyone with Manage Server can collaborate when Co-development is on. Selecting roles limits it to only people with those roles.",
+                    "old_value": "People with any selected role can collaborate when Co-development is on."
+                },
+                "SQZGoV": {
+                    "new_value": "Let anyone with Manage Server open and work on this project. Select collaborator roles to limit it to only those roles.",
+                    "old_value": "Let server managers and people with selected roles open and work on this project."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +36,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-23T18:11:19.628961+00:00"
+    "timestamp": "2026-11-23T18:22:35.225952+00:00"
 }
