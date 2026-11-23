@@ -1,8 +1,53 @@
 {
-    "build_hash": "3e6bf51a01e165c5e278d250dd982dd0a8d439c0",
+    "build_hash": "a4b0df8485e2e77ef0bd44d3ebd27cb90e2581f3",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-05-search-results-feedback",
+            "kind": "user",
+            "status": "deleted",
+            "timestamp": "2026-11-23T23:23:32Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "deleted_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2025-05-search-results-feedback",
+            "kind": "user",
+            "timestamp": "2026-11-23T23:23:32Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -14,14 +59,54 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "4DEniX": "The search did not return the result I was looking for",
+                "6wKpiV": "Trying to navigate to a specific Channel or Server",
+                "DYLXHx": "Searching for images/files",
+                "DePZNY": "Looking for a specific message that I didn't know the exact wording of",
+                "ECI0Of": "It was hard to quickly scan and find the right result",
+                "EIHXbc": "Browsing messages about a topic",
+                "I+4OJC": "Were these search results helpful?",
+                "LRGdVy": "Feedback on Search",
+                "LhMLCk": "Which best describes the search you just completed?",
+                "RBmOLj": "Something else (tell us more below)",
+                "Str6/o": "Looking for a specific message that I knew the exact wording of",
+                "TpGBIB": "I had to revise my search terms / run the search more than once to find what I was looking for",
+                "UyBQF7": "Why were you not satisfied with the search results?",
+                "WCiDBF": "There were too many irrelevant results",
+                "Zh6bNN": "The right result wasn't near the top",
+                "a1ZtE8": "Searching for a link",
+                "oV10fv": "Is there anything else you’d like to add?",
+                "oxbtmN": "Something else (tell us more below)",
+                "sGKG/Y": "Looking for messages from someone specific"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "4DEniX": "검색 기능이 제가 찾고 있던 결과를 찾지 못했어요",
+                "6wKpiV": "특정 채널 또는 서버 검색 중",
+                "DYLXHx": "이미지/파일 찾는 중...",
+                "DePZNY": "정확한 단어가 생각나지 않지만, 특정 메시지를 찾고 있어요",
+                "ECI0Of": "빠르게 스캔하고 정확한 결과를 찾기가 어려웠어요",
+                "EIHXbc": "특정 주제에 관한 메시지 검색하기",
+                "I+4OJC": "이 검색 결과가 도움이 되었나요?",
+                "LRGdVy": "검색에 대한 피드백",
+                "LhMLCk": "방금 완료한 검색을 가장 잘 설명하는 지문은 무엇인가요?",
+                "RBmOLj": "기타 다른 것(아래에 자세히 설명해 주세요)",
+                "Str6/o": "정확한 단어를 알고 있는 특정 메시지를 찾고 있어요",
+                "TpGBIB": "검색 조건을 수정해야 했어요/원하는 결과를 찾기 위해 한 번 이상 검색해야 했어요",
+                "UyBQF7": "왜 검색 결과에 만족하지 않으셨나요?",
+                "WCiDBF": "관련 없는 결과가 너무 많아요",
+                "Zh6bNN": "가장 정확한 결과가 맨 위에 있지 않았어요",
+                "a1ZtE8": "링크 찾는 중...",
+                "oV10fv": "더 추가하고 싶으신 게 있나요?",
+                "oxbtmN": "기타 다른 것(아래에 자세히 설명해 주세요)",
+                "sGKG/Y": "특정 사람의 메시지를 찾고 있어요"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-11-23T23:14:18.093602+00:00"
+    "timestamp": "2026-11-23T23:25:12.457813+00:00"
 }
