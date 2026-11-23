@@ -1,5 +1,5 @@
 {
-    "build_hash": "e225f30fc40a4d630f4372a8172b35aa50800af7",
+    "build_hash": "43cb136746ce26097ab7e5c8579d60e1b737f4d5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,12 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "0rIskX": "Close Tabs to the Right",
-                "MNzZ94": "{username} has disabled stream drawing",
-                "rvEHMm": "Enable stream drawing",
-                "zYSR6A": "Close Other Tabs"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -28,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-23T19:06:40.839568+00:00"
+    "timestamp": "2026-11-23T19:17:32.841998+00:00"
 }
