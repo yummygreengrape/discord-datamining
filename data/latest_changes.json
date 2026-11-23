@@ -1,5 +1,5 @@
 {
-    "build_hash": "622821a725e43b58f5bae2bbd73488b24a9934fd",
+    "build_hash": "11ae17ed971621a052f8a0ca7fb62c6d1d6cf000",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,20 @@
         {
             "experiment_source": "reference_comment",
             "experiment_type": "apex",
-            "id": "2026-11-game-stats-widget-skip-connect-modal",
+            "id": "2026-09-mobile-nlp-search-user-flag",
             "kind": "user",
-            "timestamp": "2026-11-23T18:20:29Z",
+            "timestamp": "2026-11-23T18:36:46Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        },
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-mobile-nlp-search-guild-experiment",
+            "kind": "guild",
+            "timestamp": "2026-11-23T18:36:46Z",
             "treatments": [
                 "Variant 0",
                 "Variant 1"
@@ -25,22 +36,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "SrY+jH": "Log In",
-                "Ukbq9W": "Anyone with Manage Server",
-                "rL1kLX": "Your session has expired. Log in again to continue."
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "9MdtK9": {
-                    "new_value": "By default, anyone with Manage Server can collaborate when Co-development is on. Selecting roles limits it to only people with those roles.",
-                    "old_value": "People with any selected role can collaborate when Co-development is on."
-                },
-                "SQZGoV": {
-                    "new_value": "Let anyone with Manage Server open and work on this project. Select collaborator roles to limit it to only those roles.",
-                    "old_value": "Let server managers and people with selected roles open and work on this project."
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -48,5 +46,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-23T18:34:03.085990+00:00"
+    "timestamp": "2026-11-23T18:44:57.740394+00:00"
 }
