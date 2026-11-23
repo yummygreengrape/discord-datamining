@@ -1,13 +1,35 @@
 {
-    "build_hash": "7038a400d1be24fbd8c7cfc412b8b53544197446",
-    "deleted_api_endpoints": [],
+    "build_hash": "92325d45dbe4fb19703d51f9587e6ec12baa471d",
+    "deleted_api_endpoints": [
+        {
+            "name": "ENDPOINT_SOUNDBOARD_DEFAULT_SOUNDS",
+            "status": "deleted",
+            "url": "/soundboard-default-sounds"
+        },
+        {
+            "name": "SOUNDBOARD_DEFAULT_SOUNDS",
+            "status": "deleted",
+            "url": "/soundboard-default-sounds"
+        }
+    ],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
-    "new_api_endpoints": [],
+    "new_api_endpoints": [
+        {
+            "name": "ENDPOINT_SOUNDBOARD_SOUNDS_CATALOG",
+            "status": "added",
+            "url": "/soundboard-sounds/catalog"
+        },
+        {
+            "name": "SOUNDBOARD_SOUNDS_CATALOG",
+            "status": "added",
+            "url": "/soundboard-sounds/catalog"
+        }
+    ],
     "new_experiment_details": [],
     "new_experiments": [],
     "rollout_changes": [],
@@ -23,5 +45,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-23T20:33:32.206393+00:00"
+    "timestamp": "2026-11-23T20:44:25.723946+00:00"
 }
