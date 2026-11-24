@@ -1,5 +1,5 @@
 {
-    "build_hash": "dc7f52323323acbd35c27666ddc677a14ae93876",
+    "build_hash": "de7ac5185da7def45bcaa76f80271fb5cc81c9f0",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,14 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "0QAXTx": "{count} New Nitro Sounds",
+                "DNhduu": "{count} new sounds, take your pick",
+                "LC5GUk": "Bonk, Knock, Oof, and more new sounds to react with. Only with Nitro.",
+                "XtNqyy": "Get Nitro",
+                "sScunQ": "{count} new Nitro Sounds",
+                "zzXrvT": "Nitro Sounds"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T00:43:07.118921+00:00"
+    "timestamp": "2026-11-24T00:54:04.399291+00:00"
 }
