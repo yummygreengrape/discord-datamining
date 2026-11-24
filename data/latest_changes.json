@@ -1,24 +1,43 @@
 {
-    "build_hash": "2b7cab97bd68a49c926ae20c1c9c6cd2ae4104d3",
+    "build_hash": "914daa33901a66f7f7a2d619a0077e3076844a0b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-badge-social-comparison",
+            "kind": "user",
+            "timestamp": "2026-11-24T18:03:42Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-badge-social-comparison",
+            "kind": "user",
+            "timestamp": "2026-11-24T18:08:49Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "4UNoeD": "Purchase {planName}",
-                "HdDf7r": "Switch to Nitro to unlock profile perks like display name styles, profile themes, and more.",
-                "INiT2j": "Nitro Basic doesn’t include custom profiles",
-                "NQWezR": "Switch to Nitro"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -28,5 +47,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T18:01:23.379429+00:00"
+    "timestamp": "2026-11-24T18:12:18.970309+00:00"
 }
