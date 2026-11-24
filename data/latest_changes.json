@@ -1,70 +1,12 @@
 {
-    "build_hash": "d634672ecae2e255ca776fafe9be0fc342e89c5a",
+    "build_hash": "2c8d372d15b8716414188d3df2b6704638c1768e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-09-edit-profile-collectibles-ordering",
-            "kind": "user",
-            "timestamp": "2026-11-24T19:28:46Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-11-nitro-trials-brand-refresh",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": false,
-                "1": true
-            },
-            "status": "modified",
-            "treatments": [],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-11-nitro-trials-brand-refresh",
-            "kind": "user",
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "old_variations": {
-                "0": false,
-                "1": true
-            },
-            "status": "modified",
-            "treatments": [],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -81,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T19:29:22.178022+00:00"
+    "timestamp": "2026-11-24T19:40:15.294396+00:00"
 }
