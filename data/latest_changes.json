@@ -1,5 +1,5 @@
 {
-    "build_hash": "a5493074c46cdc628e7b1c1ea9353c834794e10c",
+    "build_hash": "45277a8101b6ae8c95bdead78729f075b174d5c5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,11 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "DvApnG": "Keep Playing",
-                "N9rsFG": "Once you leave, it disappears and you won't be able to play it again. You'll keep the Orbs you earned.",
-                "sfp1IW": "Leave this game?"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -27,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T20:12:53.534728+00:00"
+    "timestamp": "2026-11-24T20:23:47.655232+00:00"
 }
