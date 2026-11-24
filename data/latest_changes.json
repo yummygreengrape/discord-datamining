@@ -1,5 +1,5 @@
 {
-    "build_hash": "e63da47226a86e31ad7763164d83a3feb61ad6e6",
+    "build_hash": "b3ac95ad1c21ba8aad29207702676745e69d8490",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,81 +14,14 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {
-                "2+/rrF": "Get discounts on profile items, plus custom emoji, HD streaming, and more with Nitro.",
-                "GZWBoL": "Save up to 20% in the Shop",
-                "WjOclf": "Save up to 20% off on everything in the Shop, plus get exclusive items. Only with Nitro."
-            },
-            "modified": {
-                "CrvXky": {
-                    "new_value": "Throw an orb into the void. Hold to keep throwing.",
-                    "old_value": "Throw an orb into the void"
-                },
-                "I8csLM": {
-                    "new_value": "I have read the above, and I choose The Void anyway",
-                    "old_value": "I have read the above, and I choose oblivion anyway"
-                },
-                "orr21w": {
-                    "new_value": "The Void confers no rights, rewards, or compliments. It does not think your profile decoration is cool.",
-                    "old_value": "The Void confers no rights, rewards, or benefits, and cannot be redeemed for anything, anywhere."
-                },
-                "sIkt+O": {
-                    "new_value": "Orbs cast into the Void are destroyed.",
-                    "old_value": "Orbs cast into the Void are destroyed. Not held, not escrowed, not recycled."
-                }
-            }
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "2+/rrF": "Nitro로 프로필 아이템 할인, 사용자 지정 이모지, HD 스트리밍 등 다양한 혜택을 누리세요.",
-                "GZWBoL": "상점에서 최대 20% 할인받기",
-                "WjOclf": "상점의 모든 품목을 최대 20%까지 할인받고, 전용 아이템까지 손에 넣으세요. Nitro 구독 시에만 가능해요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "CrvXky": {
-                "analysis": {
-                    "confidence": "high",
-                    "detailed_summary": "같은 화면의 ‘Orbs Voided’는 지금까지 던진 수량을 따로 보여줘요. 동작 이름은 한 개를 대상으로 하고, 안내문은 던진 Orbs가 소멸한다고 설명해요.",
-                    "generated_at": "2026-11-21T15:08:26Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "The Void",
-                        "Orbs",
-                        "Orbs Voided",
-                        "Orb Balance",
-                        "Next Badge Tier"
-                    ],
-                    "search_intent": "이 버튼이 Orbs 한 개를 실제로 없애는지 확인하려는 검색이에요.",
-                    "source_context": "같은 시점에 The Void의 동의, Orbs 소멸, 잔액, 배지 진행 문구와 관련 실험 및 Orbs 동작이 관측됐어요.",
-                    "summary": "‘Throw an orb into the void’는 The Void에 Orbs 한 개를 던지는 동작이에요.",
-                    "what_it_means": "동작 이름은 한 개를 대상으로 하고, 안내문은 던진 Orbs가 소멸한다고 설명해요.",
-                    "when_it_appears": "The Void 화면에서 보유한 Orbs를 사용할 때 보여요."
-                },
-                "analysis_en": {
-                    "confidence": "high",
-                    "detailed_summary": "The “Orbs Voided” readout tracks how many have already been discarded. The action names a single Orb, and the accompanying notice says thrown Orbs are destroyed.",
-                    "generated_at": "2026-11-21T15:08:26Z",
-                    "intent_type": "quest_or_reward_status",
-                    "related_terms": [
-                        "The Void",
-                        "Orbs",
-                        "Orbs Voided",
-                        "Orb Balance",
-                        "Next Badge Tier"
-                    ],
-                    "search_intent": "Does the throw button remove one Orb from my balance?",
-                    "source_context": "The same window contained consent, Orb disposal, balance and badge progress copy, alongside the corresponding experiment and Orb action.",
-                    "summary": "“Throw an orb into the void” is the action for discarding one Orb.",
-                    "what_it_means": "The action names a single Orb, and the accompanying notice says thrown Orbs are destroyed.",
-                    "when_it_appears": "It belongs to the part of The Void where you can act on your Orb balance."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-11-24T23:26:24.218011+00:00"
+    "timestamp": "2026-11-24T23:37:16.857729+00:00"
 }
