@@ -1,8 +1,20 @@
 {
-    "build_hash": "5116c0dd3610bc75b064ee871ae651200f5fcdf5",
+    "build_hash": "8659d550217450da311fcbf42649d19791a61cd7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "id": "2026-05_voice_channel_list_invite_embed",
+            "kind": "guild",
+            "timestamp": "2026-11-24T17:45:17Z",
+            "title": "Voice Channel List Invite Embed",
+            "treatments": [
+                "Control",
+                "Treatment 1: Enable channel-list-style voice invite embed"
+            ]
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -14,14 +26,18 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "SXkUiv": "Fit up to {number} people in this GDM with Nitro."
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "SXkUiv": "Nitro를 사용하여 이 그룹 다이렉트 메시지에 최대 {number}명까지 참여할 수 있어요."
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T17:39:36.962368+00:00"
+    "timestamp": "2026-11-24T17:50:28.060018+00:00"
 }
