@@ -1,5 +1,5 @@
 {
-    "build_hash": "b3ac95ad1c21ba8aad29207702676745e69d8490",
+    "build_hash": "7d4a49d5345fa0ce81f5d05fa30d980f8b49998d",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,13 +9,38 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-shop-promotion-expiry-refetch",
+            "kind": "user",
+            "timestamp": "2026-11-24T23:46:03Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
-            "modified": {}
+            "deleted": {
+                "vE5daK": "This toggle only applies to this device. You can switch back anytime."
+            },
+            "modified": {
+                "IJohaD": {
+                    "new_value": "Discord will restart. This toggle only applies to this device, and you can switch back anytime.",
+                    "old_value": "Discord will restart."
+                },
+                "sDKQNC": {
+                    "new_value": "This toggle only applies to this device, and you can switch back anytime.",
+                    "old_value": "You will need to close and reopen Discord afterwards to finish switching."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +48,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T23:37:16.857729+00:00"
+    "timestamp": "2026-11-24T23:48:07.948726+00:00"
 }
