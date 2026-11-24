@@ -1,5 +1,5 @@
 {
-    "build_hash": "fbe3af2014533675892ddaa74e64fc5964533f19",
+    "build_hash": "b523c5e7373a79c86997ef4b2bbfd9a9dd3db869",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Y2sGrh": "You don’t have access to this project."
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T02:41:08.061163+00:00"
+    "timestamp": "2026-11-24T03:12:33.734972+00:00"
 }
