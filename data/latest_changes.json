@@ -1,5 +1,5 @@
 {
-    "build_hash": "2c8d372d15b8716414188d3df2b6704638c1768e",
+    "build_hash": "7b00693069ab7ea150a1eea727c9cddf65900244",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,14 +14,19 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "COLLECTIBLES_NON_PREMIUM_PRICE_SUBSCRIBE_NOW_MOBILE": "{price} with Nitro $[subscribe now](subscribeNowHook)",
+                "Kxw2LT": "{price} with Nitro subscribeNowHookHooksubscribe now"
+            },
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "Kxw2LT": "Nitro 구독 시 {price} subscribeNowHookHook지금 구독하기"
+            },
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T19:40:15.294396+00:00"
+    "timestamp": "2026-11-24T19:51:06.044035+00:00"
 }
