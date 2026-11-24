@@ -1,5 +1,5 @@
 {
-    "build_hash": "d528fa8a369e37fa666e9932fe6b9e84212fdc1a",
+    "build_hash": "80e2ec265289d28ad2fd9890fde842422041e33b",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,21 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "/60ZFP": "Enter an invite below to join an existing server",
-                "5hrFyt": "Join a Server",
-                "c846NN": "Browse",
-                "s1kEub": "Join"
-            },
-            "deleted": {
-                "EHWhyt": "Browse Discovery"
-            },
-            "modified": {
-                "kOiiUl": {
-                    "new_value": "Invites look like {inviteCode} or discord.gg/{inviteCode}",
-                    "old_value": "e.g. {inviteCode}, discord.gg/{inviteCode}, discord.gg/{vanityCode}"
-                }
-            }
+            "added": {},
+            "deleted": {},
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -35,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T16:56:42.148439+00:00"
+    "timestamp": "2026-11-24T17:17:50.946537+00:00"
 }
