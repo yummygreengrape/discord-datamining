@@ -1,5 +1,5 @@
 {
-    "build_hash": "4738fac96c4574a6b25d640b5c61e035e63d2b67",
+    "build_hash": "dc7f52323323acbd35c27666ddc677a14ae93876",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "WM19oT": "Reset Character + Progress"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T00:32:11.125593+00:00"
+    "timestamp": "2026-11-24T00:43:07.118921+00:00"
 }
