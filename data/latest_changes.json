@@ -1,5 +1,5 @@
 {
-    "build_hash": "05fbfc46afed8a294f1d593516ad0dbb9eb993f5",
+    "build_hash": "34870c0eb4a1c6a6fdf318189c440d0dba67cf02",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,7 +9,19 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-badge-social-comparison",
+            "kind": "user",
+            "timestamp": "2026-11-24T18:08:49Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -27,5 +39,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T18:56:12.574939+00:00"
+    "timestamp": "2026-11-24T19:07:33.497679+00:00"
 }
