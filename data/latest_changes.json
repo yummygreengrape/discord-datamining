@@ -1,74 +1,78 @@
 {
-    "build_hash": "59a9e60770ef9aa0f25f65507fc3d00ff17b8118",
+    "build_hash": "d634672ecae2e255ca776fafe9be0fc342e89c5a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-09-edit-profile-collectibles-ordering",
+            "kind": "user",
+            "timestamp": "2026-11-24T19:28:46Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ]
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [],
-    "modified_experiments": [],
+    "modified_experiment_details": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-11-nitro-trials-brand-refresh",
+            "kind": "user",
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": false,
+                "1": true
+            },
+            "status": "modified",
+            "treatments": [],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
+    "modified_experiments": [
+        {
+            "experiment_source": "self_apex_extraction",
+            "experiment_type": "apex",
+            "id": "2026-11-nitro-trials-brand-refresh",
+            "kind": "user",
+            "old_experiment_type": "apex",
+            "old_kind": "user",
+            "old_treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "old_variations": {
+                "0": false,
+                "1": true
+            },
+            "status": "modified",
+            "treatments": [],
+            "variations": {
+                "0": false,
+                "1": true
+            }
+        }
+    ],
     "new_api_endpoints": [],
-    "new_experiment_details": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-nitro-trials-brand-refresh",
-            "kind": "user",
-            "status": "added",
-            "timestamp": "2026-11-24T19:13:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-nitro-trials-brand-refresh",
-            "kind": "user",
-            "timestamp": "2026-11-24T19:13:20Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": false,
-                "1": true
-            }
-        }
-    ],
+    "new_experiment_details": [],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "2QbaDb": "Thanks for trying it early. We’re still smoothing out rough edges before it comes to everyone.",
-                "3uRAgZ": "Phoenix",
-                "4AA4MK": "Phoenix is coming to everyone for free once it’s ready. Nitro members can test it early on desktop and mobile, and switch back anytime.",
-                "55ZUo0": "Switch Back",
-                "GvgJlW": "You’re using Phoenix",
-                "IJohaD": "Discord will restart.",
-                "JwDlGy": "Allows others to draw and stamp on your streams.",
-                "SdwcaZ": "Get Nitro",
-                "a606CH": "Reopen Discord",
-                "o26UKJ": "Close Discord and open it again to finish switching.",
-                "sDKQNC": "You will need to close and reopen Discord afterwards to finish switching.",
-                "vE5daK": "This toggle only applies to this device. You can switch back anytime.",
-                "vVxb4Y": "Switch to Phoenix",
-                "y9iUhJ": "Try Phoenix early with Nitro",
-                "yfoIbN": "Phoenix is the Discord app rebuilt in Rust. It opens faster and uses fewer resources, so it runs well even on older phones. It’s still early, so expect a few rough edges.",
-                "zq7l/x": "Phoenix is ready to try"
-            },
-            "deleted": {
-                "DXxeZL": "Restart the app to apply. The switch takes effect on the next hard launch.",
-                "H8h6wu": "Phoenix",
-                "paDGCW": "Launch Phoenix on next start"
-            },
+            "added": {},
+            "deleted": {},
             "modified": {}
         },
         "ko": {
@@ -77,5 +81,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T19:18:25.005320+00:00"
+    "timestamp": "2026-11-24T19:29:22.178022+00:00"
 }
