@@ -1,39 +1,15 @@
 {
-    "build_hash": "914daa33901a66f7f7a2d619a0077e3076844a0b",
+    "build_hash": "133902a1d8241128838fdd1279dbc08b67d200ac",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-badge-social-comparison",
-            "kind": "user",
-            "timestamp": "2026-11-24T18:03:42Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-11-badge-social-comparison",
-            "kind": "user",
-            "timestamp": "2026-11-24T18:08:49Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ]
-        }
-    ],
+    "new_experiments": [],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -47,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T18:12:18.970309+00:00"
+    "timestamp": "2026-11-24T18:23:10.144347+00:00"
 }
