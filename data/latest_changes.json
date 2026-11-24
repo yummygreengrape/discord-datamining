@@ -1,5 +1,5 @@
 {
-    "build_hash": "3ea3a4c6885853a168ec148a1e0066144b6d34b7",
+    "build_hash": "60d8b547f7d393a048de9f13514c813339cfead3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,17 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "B0OBFd": "Notify me about friends when…",
+                "wB1ASV": "Notify me about activity when…"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "OkMPbI": {
+                    "new_value": "Awaiting Response",
+                    "old_value": "Awaiting response"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +31,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-23T23:59:15.511716+00:00"
+    "timestamp": "2026-11-24T00:10:19.331641+00:00"
 }
