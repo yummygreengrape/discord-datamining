@@ -1,5 +1,5 @@
 {
-    "build_hash": "bdc3aa603306bbb018646742a58b621610b7bf55",
+    "build_hash": "1226fc69201e022260930b69fcc99ad784ef8436",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-reaction-menu-redesign",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-11-24T22:01:22Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-reaction-menu-redesign",
+            "kind": "user",
+            "timestamp": "2026-11-24T22:01:22Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T22:00:35.167882+00:00"
+    "timestamp": "2026-11-24T22:11:30.040938+00:00"
 }
