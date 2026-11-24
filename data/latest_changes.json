@@ -1,20 +1,8 @@
 {
-    "build_hash": "8659d550217450da311fcbf42649d19791a61cd7",
+    "build_hash": "2b7cab97bd68a49c926ae20c1c9c6cd2ae4104d3",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [
-        {
-            "experiment_source": "reference_comment",
-            "id": "2026-05_voice_channel_list_invite_embed",
-            "kind": "guild",
-            "timestamp": "2026-11-24T17:45:17Z",
-            "title": "Voice Channel List Invite Embed",
-            "treatments": [
-                "Control",
-                "Treatment 1: Enable channel-list-style voice invite embed"
-            ]
-        }
-    ],
+    "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -25,19 +13,20 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {
-                "SXkUiv": "Fit up to {number} people in this GDM with Nitro."
+            "added": {
+                "4UNoeD": "Purchase {planName}",
+                "HdDf7r": "Switch to Nitro to unlock profile perks like display name styles, profile themes, and more.",
+                "INiT2j": "Nitro Basic doesn’t include custom profiles",
+                "NQWezR": "Switch to Nitro"
             },
+            "deleted": {},
             "modified": {}
         },
         "ko": {
             "added": {},
-            "deleted": {
-                "SXkUiv": "Nitro를 사용하여 이 그룹 다이렉트 메시지에 최대 {number}명까지 참여할 수 있어요."
-            },
+            "deleted": {},
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T17:50:28.060018+00:00"
+    "timestamp": "2026-11-24T18:01:23.379429+00:00"
 }
