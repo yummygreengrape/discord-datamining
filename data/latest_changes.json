@@ -1,5 +1,5 @@
 {
-    "build_hash": "84e687db17a901e1b4c25f9e110651199f16e4cd",
+    "build_hash": "05fbfc46afed8a294f1d593516ad0dbb9eb993f5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,11 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "Vlu+rH": "Revisit your stats and character. Only you can see this.",
+                "e3fPDg": "Relaunch Checkpoint",
+                "gY1STb": "Find Checkpoint from your profile"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-24T18:44:53.887478+00:00"
+    "timestamp": "2026-11-24T18:56:12.574939+00:00"
 }
