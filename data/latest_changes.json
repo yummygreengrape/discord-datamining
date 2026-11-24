@@ -1,5 +1,5 @@
 {
-    "build_hash": "12e1c14e805a8adde7aa8574ef44b57198f779ba",
+    "build_hash": "283c6d1544a729b98e179af26e7506226de2455a",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -18,10 +18,57 @@
             "modified": {}
         },
         "ko": {
-            "added": {},
+            "added": {
+                "SrY+jH": "로그인"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "4OJ/F8": {
+                    "new_value": "만료됨 {time}",
+                    "old_value": "만료까지 {time}"
+                },
+                "6RSp5q": {
+                    "new_value": "회원님의 친구도 잊어선 안 되겠죠. 회원님에게, 그리고 회원님이 힘이 되어준 친구들 말이에요.",
+                    "old_value": "회원님의 친구도 잊어선 안 되겠죠. 회원님에게, 그리고 회원님이 힘이 되어준 준 친구들 말이에요."
+                },
+                "ArBuEu": {
+                    "new_value": "다른 사람의 클립에 내 음성을 포함할지 선택하세요.",
+                    "old_value": "다른 사람의 클립에 내 음성이 사용되는 방식 제어"
+                },
+                "GjNXmw": {
+                    "new_value": "다른 사람의 클립에 내 음성이 포함될 수 있어요. 내 음성은 다른 사람의 기기에서 자동 클립이 저장할 최고의 순간을 찾는 데도 사용될 수 있어요.",
+                    "old_value": "다른 사람의 클립에 회원님의 음성이 포함될 수 있어요. 이 음성은 해당 기기에서 분석되어 어떤 순간을 클립으로 생성할지 결정하는 데 도움이 돼요."
+                },
+                "I0bdwM": {
+                    "new_value": "세션의 최고의 순간이 자동으로 저장돼요. 언제든지 settingsHookHook설정을 조정할 수 있어요.",
+                    "old_value": "최고의 순간이 자동으로 캡처돼요. settingsHookHook클립 설정에서 언제든지 조정하세요."
+                },
+                "SMXZXX": {
+                    "new_value": "획득한 베이스 countHookHook{earnedCount}/{totalCount}개:",
+                    "old_value": "획득한 기지 countHookHook{earnedCount}/{totalCount}개:"
+                },
+                "Xg82Gy": {
+                    "new_value": "서버는 사실 회원님 취향은 아니었지만, 몇몇은 꽤 인기가 많았어요...",
+                    "old_value": "서버는 사실 회원님 취향은 아니었지만, 몇몇꽤 인기가 많았어요..."
+                },
+                "bu24P7": {
+                    "new_value": "{percent}% 할인된 가격으로 Nitro 구독하기",
+                    "old_value": "{percent}% 할인된 가격으로 Nitro 가입하기"
+                },
+                "j56Eyx": {
+                    "new_value": "내 음성이 다른 사람의 클립에 포함될 수 있고, 하이라이트 저장에도 사용될 수 있어요.",
+                    "old_value": "이 통화에 참여 중인 사람들이 클립을 사용하고 있어요. 하이라이트를 위해 회원님의 음성이 포함 및 분석될 수 있어요."
+                },
+                "rc1kmR": {
+                    "new_value": "즉석 하이라이트 모음",
+                    "old_value": "다음 세션은 자동으로 클립이 생성될 수 있습니다"
+                },
+                "ycsC9o": {
+                    "new_value": "자동 클립 얼리 액세스를 이용해 보세요. 다음에 친구들과 플레이하면 하이라이트가 자동으로 저장돼요. Nitro에서만 이용할 수 있어요.",
+                    "old_value": "친구들과 게임만 즐기세요. 나머지는 자동 클립이 알아서 처리합니다. Nitro 멤버는 자동 클립 기능을 먼저 이용할 수 있습니다."
+                }
+            }
         }
     },
-    "timestamp": "2026-11-24T20:56:32.646307+00:00"
+    "timestamp": "2026-11-24T21:07:25.734001+00:00"
 }
