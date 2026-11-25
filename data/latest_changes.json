@@ -1,5 +1,5 @@
 {
-    "build_hash": "669bbd016cf21e019b981f0315e25a1e51fa21cf",
+    "build_hash": "23411d5df5d0e22addd83c2acee434741979e128",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -14,7 +14,9 @@
     "string_changes": {
         "en": {
             "added": {},
-            "deleted": {},
+            "deleted": {
+                "tUeY/h": "Review permissions"
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-25T03:22:38.274109+00:00"
+    "timestamp": "2026-11-25T03:34:15.726153+00:00"
 }
