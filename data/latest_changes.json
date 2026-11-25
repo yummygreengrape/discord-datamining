@@ -1,5 +1,5 @@
 {
-    "build_hash": "3eafe46517b22841341d779e77572e48ff0b9e1f",
+    "build_hash": "f3f23084d5dee362f4fbc6e0845bd644148dc0b7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "V/fzLc": "Selected games: {games}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-25T20:26:15.296297+00:00"
+    "timestamp": "2026-11-25T20:37:09.563272+00:00"
 }
