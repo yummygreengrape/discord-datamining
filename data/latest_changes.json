@@ -1,154 +1,12 @@
 {
-    "build_hash": "af455966e29898df96b6dd9ebe5f5f6005bc8597",
+    "build_hash": "0410ee9e190dec8a6a61d06712fd2aba82f3f1ae",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
-    "modified_experiment_details": [
-        {
-            "analysis": {
-                "detailed_summary": "기본 상태에서는 채널 탭 기능이 꺼져 있어요. 1번 비교안은 탭을 켜고 새 탭 선택 팝업을 열며, 2번 비교안은 탭을 켠 뒤 친구 화면을 새 탭으로 여는 경로를 선택해요. 같은 시점에 최근 닫은 화면, 자주 연 화면, 채널·DM·서버 검색 안내가 추가됐어요. 이미 선택 팝업이 열려 있거나 다른 화면이 덮고 있는 경우, 최대 탭 수에 도달한 경우에는 별도 처리가 있어요. 이전 해석의 탭 열기·고정·닫기 기능에 더해, 이번에는 새 탭을 처음 여는 화면의 차이가 확인됐어요.",
-                "evidence": [
-                    "web.59185b82576cdae9.js:858760 defines popout/friends; 716099 reads newTabExperience at showNewTabSwitcher and calls 793322.N2 or 114129.l7.",
-                    "931519 reads enabled for tab availability. Window strings 94yiQK, KsjOJI, 6HQ6PJ and EuJQg8 cover the picker."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "generated_at": "2026-11-18T00:47:57.377546+00:00",
-                "importance": "high",
-                "summary": "데스크톱에서 새 탭을 열 때, 검색 팝업을 띄울지 친구 화면부터 열지 비교해요.",
-                "why_it_matters": "여러 대화를 오갈 때 새 탭을 빈 탐색 화면처럼 쓸지, 친구 화면에서 시작할지가 달라져요."
-            },
-            "analysis_en": {
-                "detailed_summary": "The default keeps channel tabs disabled. Variant 1 enables tabs and opens the new-tab picker, while variant 2 enables tabs and opens Friends in a new tab. New copy covers recently closed destinations, frequently opened places, and searching channels, DMs and servers. Existing picker state, covering layers and the tab limit receive separate handling. This extends the earlier evidence for opening, pinning and closing tabs with a confirmed difference in the first screen of a new tab.",
-                "evidence": [
-                    "web.59185b82576cdae9.js:858760 defines popout/friends; 716099 reads newTabExperience at showNewTabSwitcher and calls 793322.N2 or 114129.l7.",
-                    "931519 reads enabled for tab availability. Window strings 94yiQK, KsjOJI, 6HQ6PJ and EuJQg8 cover the picker."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "generated_at": "2026-11-18T00:47:57.377546+00:00",
-                "importance": "high",
-                "summary": "Opening a new desktop tab can show a destination picker or start on Friends.",
-                "why_it_matters": "It changes whether a new tab begins as a navigation picker or a Friends destination."
-            },
-            "config_keys": [
-                "enabled",
-                "newTabExperience"
-            ],
-            "default_config": {
-                "enabled": false,
-                "newTabExperience": "popout"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-desktop-channel-tabs",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled",
-                "newTabExperience"
-            ],
-            "old_default_config": {
-                "enabled": false,
-                "newTabExperience": "popout"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true,
-                    "newTabExperience": "popout"
-                },
-                "2": {
-                    "enabled": true,
-                    "newTabExperience": "friends"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "newTabExperience": "popout"
-                },
-                "2": {
-                    "enabled": true,
-                    "newTabExperience": "friends"
-                },
-                "3": {
-                    "enabled": true,
-                    "newTabExperience": "quickswitcher"
-                }
-            }
-        }
-    ],
-    "modified_experiments": [
-        {
-            "config_keys": [
-                "enabled",
-                "newTabExperience"
-            ],
-            "default_config": {
-                "enabled": false,
-                "newTabExperience": "popout"
-            },
-            "experiment_source": "self_apex_extraction",
-            "experiment_type": "apex",
-            "id": "2026-07-desktop-channel-tabs",
-            "kind": "user",
-            "old_config_keys": [
-                "enabled",
-                "newTabExperience"
-            ],
-            "old_default_config": {
-                "enabled": false,
-                "newTabExperience": "popout"
-            },
-            "old_experiment_type": "apex",
-            "old_kind": "user",
-            "old_treatments": [
-                "Variant 1",
-                "Variant 2"
-            ],
-            "old_variations": {
-                "1": {
-                    "enabled": true,
-                    "newTabExperience": "popout"
-                },
-                "2": {
-                    "enabled": true,
-                    "newTabExperience": "friends"
-                }
-            },
-            "status": "modified",
-            "treatments": [
-                "Variant 1",
-                "Variant 2",
-                "Variant 3"
-            ],
-            "variations": {
-                "1": {
-                    "enabled": true,
-                    "newTabExperience": "popout"
-                },
-                "2": {
-                    "enabled": true,
-                    "newTabExperience": "friends"
-                },
-                "3": {
-                    "enabled": true,
-                    "newTabExperience": "quickswitcher"
-                }
-            }
-        }
-    ],
+    "modified_experiment_details": [],
+    "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
     "new_experiments": [],
@@ -165,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-25T00:31:47.173360+00:00"
+    "timestamp": "2026-11-25T01:03:31.507636+00:00"
 }
