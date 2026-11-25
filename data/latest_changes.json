@@ -1,5 +1,5 @@
 {
-    "build_hash": "61902228e1c5e25f00999d2b8264131caed33cec",
+    "build_hash": "fdebe78bdce5eede1f99a48ec0e08740e8d378ef",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,10 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "lJzCAB": "Use tabs to switch between chats",
-                "wSX6N3": "Keep servers, DMs, and channels open without losing your place"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -26,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-25T02:18:33.388570+00:00"
+    "timestamp": "2026-11-25T02:29:28.028475+00:00"
 }
