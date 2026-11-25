@@ -1,5 +1,5 @@
 {
-    "build_hash": "3161aa7fbb3bbf8c1c264400ebce4df262b88ad6",
+    "build_hash": "a3faa654f0b5638481de09044a719b30826153d6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,11 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "5ruW0c": "Celebrate the 12 Days of Discord with her brand-new winter bundle.",
+                "7p5Zyy": "Hello Kitty® is here!",
+                "MR5eVK": "Shop Now"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +27,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-25T08:39:13.856896+00:00"
+    "timestamp": "2026-11-25T09:00:24.839626+00:00"
 }
