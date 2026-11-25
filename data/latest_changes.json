@@ -1,83 +1,8 @@
 {
-    "build_hash": "01524e9ffb63f87af2514c8588e043a8cb540f52",
+    "build_hash": "bb85ab7eaa8681ca82b77b5eb74a81ef7af0a1de",
     "deleted_api_endpoints": [],
-    "deleted_experiment_details": [
-        {
-            "analysis": {
-                "detailed_summary": "기본 상태에서는 둘러보기의 탭 목록을 그대로 사용해요. 비교안에서는 그 목록에서 퀘스트 항목만 걸러 낸 뒤 탐색 메뉴를 그려요. 서버와 앱 항목은 이 필터의 제거 대상이 아니에요. 퀘스트 기능 전체를 끄거나 별도 퀘스트 홈을 제거한다는 근거는 없어요.",
-                "evidence": [
-                    "GlobalDiscoverySidebar reads the exact enabled flag and filters GlobalDiscoveryTab.QUESTS from GLOBAL_DISCOVERY_TABS."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "generated_at": "2026-10-18T05:44:25.340695+00:00",
-                "importance": "medium",
-                "summary": "둘러보기의 왼쪽 목록에서 퀘스트 탭을 숨기는 구성을 비교해요.",
-                "why_it_matters": "둘러보기에서 퀘스트로 이동하던 진입점이 달라질 수 있어요."
-            },
-            "analysis_en": {
-                "detailed_summary": "The default uses the full Discovery tab list. The enabled variant filters out only the Quests item before rendering navigation. Servers and Apps are not removed by this filter. This does not establish that Quests itself or a separate Quest home is disabled.",
-                "evidence": [
-                    "GlobalDiscoverySidebar reads the exact enabled flag and filters GlobalDiscoveryTab.QUESTS from GLOBAL_DISCOVERY_TABS."
-                ],
-                "evidence_level": "current_canary_consumer",
-                "generated_at": "2026-10-18T05:44:25.340695+00:00",
-                "importance": "medium",
-                "summary": "Discovery can hide the Quests tab from its sidebar.",
-                "why_it_matters": "The entry point used to reach Quests from Discovery can change."
-            },
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-remove-quests-from-discovery",
-            "kind": "user",
-            "status": "deleted",
-            "timestamp": "2026-11-25T19:51:43Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
-    "deleted_experiments": [
-        {
-            "config_keys": [
-                "enabled"
-            ],
-            "default_config": {
-                "enabled": false
-            },
-            "experiment_source": "reference_comment",
-            "experiment_type": "apex",
-            "id": "2026-10-remove-quests-from-discovery",
-            "kind": "user",
-            "timestamp": "2026-11-25T19:51:43Z",
-            "treatments": [
-                "Variant 0",
-                "Variant 1"
-            ],
-            "variations": {
-                "0": {
-                    "enabled": false
-                },
-                "1": {
-                    "enabled": true
-                }
-            }
-        }
-    ],
+    "deleted_experiment_details": [],
+    "deleted_experiments": [],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -98,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-25T19:53:22.537250+00:00"
+    "timestamp": "2026-11-25T20:04:16.968132+00:00"
 }
