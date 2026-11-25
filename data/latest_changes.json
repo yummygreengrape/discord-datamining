@@ -1,5 +1,5 @@
 {
-    "build_hash": "0410ee9e190dec8a6a61d06712fd2aba82f3f1ae",
+    "build_hash": "05a7d6e756a52e774f936c019c52c060a0c5e4d6",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -9,13 +9,124 @@
     "modified_experiments": [],
     "new_api_endpoints": [],
     "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-shop-promotion-expiry-refetch",
+            "kind": "user",
+            "timestamp": "2026-11-24T23:46:03Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1",
+                "Variant 2",
+                "Variant 3"
+            ]
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "/8n8hE": "Trending servers, invites, and offers",
+                "058DO3": "A reminder to say hi, about a day later",
+                "0r15Ud": "New activity at the top of my screen",
+                "16rS15": "Allow push notifications in your phone settings to receive them.",
+                "2IvWoE": "I have pending friend requests",
+                "3aMhP8": "People I talk to join voice",
+                "41yM9h": "Server events",
+                "49F8Gz": "Forum posts",
+                "4qUGgX": "A friend updates their profile",
+                "4z4Nwr": "I miss messages",
+                "5g09KR": "Alerts when DMs or joins exceed my server’s usual numbers",
+                "7m/dE/": "Notify me when…",
+                "8klfHo": "Disable sounds",
+                "9JqFYO": "Suggestions",
+                "AmcFNU": "Suggested servers and events",
+                "CPpRtR": "Turn on call and message notifications in your phone settings to receive them.",
+                "CdsMVG": "Server updates",
+                "EDuIWR": "Calls, requests, missed messages, and reactions",
+                "EIpgpf": "Recaps and messages I missed",
+                "F8hJUK": "Friends, activity, games, and voice",
+                "GI8o2C": "Community activity alerts",
+                "H7a8cl": "Turn On Push Notifications",
+                "HS0Ss8": "My polls end",
+                "Hqhepa": "My recent chats have a summary",
+                "IQVCvz": "Teens cannot change this setting",
+                "KBUNsG": "Ringtone for voice and video calls",
+                "KEDd8y": "I have a friendship anniversary",
+                "KHzigZ": "Disable notification vibration",
+                "KcqVQg": "Missed calls and messages",
+                "KniwB2": "Tips",
+                "KpbEAR": "Advice and lesser-known features",
+                "KqazEl": "Referrals, trials, and promotions",
+                "LbsHO0": "I have friend suggestions",
+                "Lq41PP": "All messages",
+                "MKPw1A": "Reminders",
+                "MrF66q": "Someone in my server goes live",
+                "PKfGnH": "Reminders about requests I haven’t answered",
+                "PYWa6a": "Pending invites, friend summons, and reminders to return",
+                "Pe0mBc": "Sound and vibration for each, not just the first",
+                "RoC4aT": "DMs only",
+                "Rx1V00": "A friend updates their custom status",
+                "Sq+zmG": "Highlights",
+                "VKva4A": "New features, improvements, and bug fixes",
+                "Va86jv": "Avatar, banner, and bio updates",
+                "WEPL42": "Recommendations",
+                "XDPHgU": "When an event goes live",
+                "XIPvOz": "Reactions",
+                "XJ1gEw": "Turn on discovery and highlights notifications in your phone settings to receive them.",
+                "XPZ3MF": "Someone sends me a friend request",
+                "YO9vGc": "I haven’t messaged a new friend",
+                "ZbuMjU": "What you’re notified about",
+                "Zt0MV8": "Disabled by Focus Mode",
+                "ZtaadX": "Friend and server activity",
+                "aPtRHt": "Discord tracks email opens and clicks to see what’s useful and improve the emails Discord sends.",
+                "dpeWco": "Email me about…",
+                "dreUaR": "Reminders before events start",
+                "eled/j": "Integrate calls with Phone app",
+                "fEt8MH": "Forums, events, and safety",
+                "gFDQiO": "Live stages",
+                "gsNOLn": "Product updates",
+                "iRfEpH": "Offers",
+                "kKc6Gs": "Never",
+                "kfH3uY": "People I may know",
+                "lFEv+c": "Trending servers and recommendations",
+                "mQ1mtE": "New posts and threads",
+                "ndEta2": "Disable notification light",
+                "oBkSU3": "Requests, friend suggestions, and events",
+                "omDugL": "A friend comes online",
+                "omHz4g": "A friend starts playing a game",
+                "pM2Bdy": "Admin notices, joins, and prompts",
+                "q9AfQQ": "Open System Settings",
+                "quwpKF": "Unusual activity",
+                "rjpJyr": "Includes message digests",
+                "sMUINc": "I get reactions",
+                "tNdxQ1": "Unsubscribe From All Marketing Emails",
+                "tzgzDS": "Push notifications are off",
+                "vKk8Pc": "Someone calls me",
+                "yHrluZ": "Highlighted friend activity in busy servers",
+                "yVZ6qx": "Notify me about…",
+                "yuHcW/": "My games update or finish installing",
+                "zKIYjm": "Raids and mention spikes"
+            },
+            "deleted": {
+                "vE5daK": "This toggle only applies to this device. You can switch back anytime."
+            },
+            "modified": {
+                "IJohaD": {
+                    "new_value": "Discord will restart. This toggle only applies to this device, and you can switch back anytime.",
+                    "old_value": "Discord will restart."
+                },
+                "nvBHcD": {
+                    "new_value": "How you’re notified",
+                    "old_value": "How you're notified"
+                },
+                "sDKQNC": {
+                    "new_value": "This toggle only applies to this device, and you can switch back anytime.",
+                    "old_value": "You will need to close and reopen Discord afterwards to finish switching."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +134,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-25T01:03:31.507636+00:00"
+    "timestamp": "2026-11-25T01:14:49.867543+00:00"
 }
