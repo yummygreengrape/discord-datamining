@@ -1,5 +1,5 @@
 {
-    "build_hash": "87d9da2bb6928319ea04ef3d2177d598492ff149",
+    "build_hash": "16d8a9749087db923421b29cccce0a140932e6b9",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,14 +8,65 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-mana-global-banner",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-11-25T22:00:18Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-11-mana-global-banner",
+            "kind": "user",
+            "timestamp": "2026-11-25T22:00:18Z",
+            "treatments": [
+                "Variant 0",
+                "Variant 1"
+            ],
+            "variations": {
+                "0": {
+                    "enabled": false
+                },
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "DESIGN_SYSTEM_ANIMATED_ASSET": "Design Systems (Animated Asset)"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +76,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-25T21:51:31.101667+00:00"
+    "timestamp": "2026-11-25T22:02:27.025227+00:00"
 }
