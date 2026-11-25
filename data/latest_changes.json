@@ -1,8 +1,20 @@
 {
-    "build_hash": "9daef36985a92ae31812526cbe539e388eb80b63",
+    "build_hash": "fda01b9965fb2fed78c2e275f4daa4a69fbf9835",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
-    "deleted_experiments": [],
+    "deleted_experiments": [
+        {
+            "experiment_source": "reference_comment",
+            "id": "2026-04_voice_user_duration",
+            "kind": "guild",
+            "timestamp": "2026-11-25T18:12:20Z",
+            "title": "Voice User Duration",
+            "treatments": [
+                "Control",
+                "Treatment 1: Allow guild members to see each others duration in the channel list"
+            ]
+        }
+    ],
     "extractor_version": 24,
     "modified_api_endpoints": [],
     "modified_experiment_details": [],
@@ -23,5 +35,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-25T18:04:13.590812+00:00"
+    "timestamp": "2026-11-25T18:15:09.749970+00:00"
 }
