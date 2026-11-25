@@ -1,5 +1,5 @@
 {
-    "build_hash": "23411d5df5d0e22addd83c2acee434741979e128",
+    "build_hash": "7113650897d09078d3312cb8da547de6a380232c",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,45 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "/WOdZY": "Add an avatar and a bio so others recognize you.",
+                "0613RM": "{count, plural, one {# reply} other {# replies}}",
+                "0W4YlP": "Deck out your profile",
+                "2ChYpV": "Check It Out",
+                "4+9DTQ": "Add games",
+                "4EgXea": "Sync your contacts to find or invite friends that you know offline.",
+                "4N+QTM": "{game} added to interests",
+                "59Sv5p": "{count, plural, one {# reaction} other {# reactions}}",
+                "5b7I4g": "Sync Contacts",
+                "8mRFUA": "Show what you’re playing",
+                "COA17L": "Give Discord a Vice City Makeover",
+                "FMkmoG": "Review games",
+                "JeEvFm": "Check It out",
+                "Lbv/tp": "Quest details",
+                "M+GlVV": "Connect your games",
+                "MRyzn/": "{count, plural, one {# share} other {# shares}}",
+                "MT5edJ": "Try the Vice City Theme: custom theme, app icon, and font.",
+                "Nws1CD": "Nitro Exclusive",
+                "OiGO6k": "Review selected games",
+                "OiOilX": "New in Shop",
+                "Rv8xIR": "Share what you play",
+                "UIjdhg": "Connect accounts",
+                "VAepc6": "Games for you",
+                "W+vK3H": "Show your in-game stats and send game invites",
+                "Yon2eI": "Add to My Games",
+                "asPo8x": "Additional Actions",
+                "buaJ7E": "Set up your profile and find your friends",
+                "codVim": "Bonk, Oof, and {count} more new sounds to react with.",
+                "ida6Xd": "Suggested games",
+                "kLY+0J": "Find your next favorite",
+                "kdR/I+": "Complete Profile",
+                "lJzCAB": "Use tabs to switch between chats",
+                "nPkih+": "View announcement",
+                "qw4r6u": "Show friends when you play.",
+                "vht9OV": "Suggested quest",
+                "wSX6N3": "Keep servers, DMs, and channels open without losing your place",
+                "zNyrm8": "Add {game} to interests"
+            },
             "deleted": {
                 "tUeY/h": "Review permissions"
             },
@@ -25,5 +63,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-25T03:34:15.726153+00:00"
+    "timestamp": "2026-11-25T03:45:57.986287+00:00"
 }
