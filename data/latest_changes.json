@@ -1,5 +1,5 @@
 {
-    "build_hash": "2633fccaed8707eff6f3991eb6a5b462d39492d7",
+    "build_hash": "52e0fd1eac253777625d5347a512922f85f6a53e",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,14 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "+ARzoH": "Recently used",
+                "BYt55g": "Sounds",
+                "L7XfA6": "Newest",
+                "LzorWu": "Alphabetical",
+                "Qaxl2i": "Skin tone",
+                "rt73eS": "Frequently used"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +30,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-25T22:33:52.427574+00:00"
+    "timestamp": "2026-11-25T22:55:01.034053+00:00"
 }
