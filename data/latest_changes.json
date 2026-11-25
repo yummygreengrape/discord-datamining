@@ -1,5 +1,5 @@
 {
-    "build_hash": "f06e863ec614abde5081dc03e93f97bb86cc777d",
+    "build_hash": "f04097c07e8863940f9d5c259c6f663bf26c57c7",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,7 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "ndXhdC": "Game moved, from position {from} to position {to}"
-            },
+            "added": {},
             "deleted": {},
             "modified": {}
         },
@@ -25,5 +23,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-25T17:42:26.668645+00:00"
+    "timestamp": "2026-11-25T17:53:18.539089+00:00"
 }
