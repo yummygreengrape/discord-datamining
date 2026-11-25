@@ -1,5 +1,5 @@
 {
-    "build_hash": "e36b9f53d358131bf2ae7e51c0af3d5952d217bd",
+    "build_hash": "af9ba9b04807475796be78fe9dae71ed14d7c872",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "IQVCvz": "Teens cannot change this setting"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +25,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-25T00:09:56.028029+00:00"
+    "timestamp": "2026-11-25T00:20:50.578079+00:00"
 }
