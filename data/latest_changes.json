@@ -1,5 +1,5 @@
 {
-    "build_hash": "77f8d926371f13999a114c65f031b314c38ea123",
+    "build_hash": "acb045a01ab209f1636b7e9116445690390ce239",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,20 +13,9 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {
-                "CBCjab": "{name} voice",
-                "NyYbcx": "Loading commands…",
-                "WABWEC": "{count, plural, one {# permission} other {# permissions}} granted",
-                "cb30Fe": "Speaker list ({count})",
-                "lBmQau": "{name} volume"
-            },
+            "added": {},
             "deleted": {},
-            "modified": {
-                "ai9fWO": {
-                    "new_value": "Speakers",
-                    "old_value": "Speaker"
-                }
-            }
+            "modified": {}
         },
         "ko": {
             "added": {},
@@ -34,51 +23,5 @@
             "modified": {}
         }
     },
-    "string_context": {
-        "en": {
-            "ai9fWO": {
-                "analysis": {
-                    "confidence": "medium",
-                    "detailed_summary": "현재 Clips 문자열 묶음에는 Edit Clip, Clip Info, Add text, Remove Text, Audio, Speaker, Soundboard, Stroke color와 width가 함께 있습니다. 별도의 Clips Settings 묶음에는 Clip Quality와 화질이 높을수록 파일 크기가 커진다는 안내가 확인됩니다. `Soundboard`는 이 묶음에서는 클립 오디오 소스를 가리키며, 서버 Soundboard 전체 설정이라는 뜻은 아닙니다.",
-                    "generated_at": "2026-07-30T09:14:41.320Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Edit Clip",
-                        "Clip Info",
-                        "Add text",
-                        "Soundboard",
-                        "Speaker",
-                        "Stroke color",
-                        "Clip Quality"
-                    ],
-                    "search_intent": "Discord에서 `Speaker` 문구가 왜 보였는지, 어떤 기능·상태를 뜻하는지, 필요한 대응이 있는지 확인하려는 검색입니다.",
-                    "source_context": "현재 Canary localization이 편집 라벨을 한 Clips 묶음에 두고, Clip Quality 설명과 Clips 관련 실험들이 같은 제품 표면을 뒷받침합니다.",
-                    "summary": "Discord Clips에서 텍스트·오디오 요소를 편집하거나 녹화 화질을 정하는 화면의 라벨입니다.",
-                    "what_it_means": "표시된 라벨에 따라 클립 정보, 텍스트 스타일, 오디오 출처 또는 향후 녹화에 적용할 화질 옵션을 뜻합니다.",
-                    "when_it_appears": "캡처한 클립을 편집하면서 텍스트나 오디오 요소를 추가·제거하거나, Clips Settings에서 녹화 화질을 선택할 때 나타날 수 있습니다."
-                },
-                "analysis_en": {
-                    "confidence": "medium",
-                    "detailed_summary": "The current Clips string group places Edit Clip, Clip Info, Add text, Remove Text, Audio, Speaker, Soundboard, Stroke color, and width together. A Clips Settings group separately pairs Clip Quality with the warning that higher quality creates larger files. In this group, `Soundboard` refers to a clip audio source rather than the server-wide Soundboard settings surface.",
-                    "generated_at": "2026-07-30T09:14:41.320Z",
-                    "intent_type": "feature_or_setting_explanation",
-                    "related_terms": [
-                        "Edit Clip",
-                        "Clip Info",
-                        "Add text",
-                        "Soundboard",
-                        "Speaker",
-                        "Stroke color",
-                        "Clip Quality"
-                    ],
-                    "search_intent": "A search to understand why Discord shows `Speaker`, what feature or state it represents, and whether any action is needed.",
-                    "source_context": "Current Canary localization groups the editing labels under Clips, while the Clip Quality description and existing Clips experiments support the same product surface.",
-                    "summary": "Labels for editing text and audio elements in Discord Clips or choosing recording quality.",
-                    "what_it_means": "Depending on the label, it identifies clip information, text styling, an audio source, or the quality used for future recordings.",
-                    "when_it_appears": "It can appear while editing a captured clip, adding or removing text or audio elements, or selecting recording quality in Clips Settings."
-                }
-            }
-        }
-    },
-    "timestamp": "2026-11-26T11:49:34.787974+00:00"
+    "timestamp": "2026-11-26T12:31:29.748781+00:00"
 }
