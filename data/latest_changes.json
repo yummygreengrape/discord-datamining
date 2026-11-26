@@ -1,5 +1,5 @@
 {
-    "build_hash": "540a416e1f9e378d88ac727b42e0269f8c583a76",
+    "build_hash": "558174d8847c5b071eeb77b7c615d3a41258be63",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,68 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
-            "modified": {}
+            "added": {
+                "0A2STI": "Enter a number.",
+                "3q5CYS": "Optional",
+                "5ft/Ii": "Enter {max} or less.",
+                "6KzZZY": "Saved",
+                "6sN6pA": "Step 1: Copy these links",
+                "7dCuuy": "All set.",
+                "AP0svk": "Set up your app",
+                "DLw3tf": "Setup needed",
+                "GCBZ4y": "{count}",
+                "I+6HlE": "App settings",
+                "LqdG9C": "Still needed: {items}",
+                "OCzOAI": "Open",
+                "ZyFI3A": "You can change these any time.",
+                "du47JY": "Replace",
+                "ekefN9": "Step 2: Paste your keys",
+                "fsStRX": "{label}: {error}",
+                "hoevP8": "{filled} of {total} filled in",
+                "hqR5SF": "Replace {label}",
+                "kDApFd": "Enter {min} or more.",
+                "kRqAlZ": "You're already connected!",
+                "t5po6q": "Save what you have. You can add the rest later.",
+                "u0vpJw": "Add them on the site that gives you the keys.",
+                "w0Pnu+": "saved",
+                "x1ppJb": "Set up {name}",
+                "xEfQj/": "Secret keys",
+                "xfz7+k": "Saved. Still needed: {items}",
+                "xnLm1j": "You're already connected to this teen. You can see their activity in Family Center."
+            },
+            "deleted": {
+                "1w0jMk": "You can also fill this in later from the chat.",
+                "2OdXdn": "Keys pasted into the chat aren’t private.",
+                "9J3OG8": "Close",
+                "CJq1rY": "connected",
+                "CTxtdV": "Replaced by a newer request",
+                "EK8tKY": "Press here to add securely",
+                "HCQvpO": "Keys needed",
+                "Hl7rif": "Hide the keys card",
+                "La+pe4": "Only have some of these? Save what you have; you can add the rest later.",
+                "O0QIqj": "Keys needed from you",
+                "dsHRPK": "Secrets are stored in a locked vault. I never see them.",
+                "iq+Pte": "Hide the settings form",
+                "sfp7Up": "Keys received"
+            },
+            "modified": {
+                "A7dQd9": {
+                    "new_value": "Save",
+                    "old_value": "Save settings"
+                },
+                "XuOf5s": {
+                    "new_value": "I need you to fill out some things.",
+                    "old_value": "This needs you to pick a few settings before it can do its thing."
+                },
+                "d49riY": {
+                    "new_value": "Open setup",
+                    "old_value": "Open settings"
+                },
+                "jZjP+I": {
+                    "new_value": "Setup needed",
+                    "old_value": "Settings needed"
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +82,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-26T04:13:43.670395+00:00"
+    "timestamp": "2026-11-26T08:32:34.495948+00:00"
 }
