@@ -1,5 +1,5 @@
 {
-    "build_hash": "acb045a01ab209f1636b7e9116445690390ce239",
+    "build_hash": "8d2d4b727a4fb0261ac0306d98bc7d960773f3f2",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -8,8 +8,53 @@
     "modified_experiment_details": [],
     "modified_experiments": [],
     "new_api_endpoints": [],
-    "new_experiment_details": [],
-    "new_experiments": [],
+    "new_experiment_details": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-clips-drag-and-drop",
+            "kind": "user",
+            "status": "added",
+            "timestamp": "2026-11-26T12:58:38Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
+    "new_experiments": [
+        {
+            "config_keys": [
+                "enabled"
+            ],
+            "default_config": {
+                "enabled": false
+            },
+            "experiment_source": "reference_comment",
+            "experiment_type": "apex",
+            "id": "2026-10-clips-drag-and-drop",
+            "kind": "user",
+            "timestamp": "2026-11-26T12:58:38Z",
+            "treatments": [
+                "Variant 1"
+            ],
+            "variations": {
+                "1": {
+                    "enabled": true
+                }
+            }
+        }
+    ],
     "rollout_changes": [],
     "string_changes": {
         "en": {
@@ -23,5 +68,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-26T12:31:29.748781+00:00"
+    "timestamp": "2026-11-26T13:03:15.737761+00:00"
 }
