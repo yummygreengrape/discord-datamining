@@ -1,5 +1,5 @@
 {
-    "build_hash": "53925e6d177a5fab53054a5fb04aab61a873aaad",
+    "build_hash": "9af4c41ebcd0bc5db9a7cf40dd01aaac8b913af5",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,7 +13,12 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "1xXyBR": "Enjoy {duration} of Nitro on us. No payment method required.",
+                "O66l5m": "You have custom emoji, bigger uploads, and more for **{price}** + applicable taxes.",
+                "eT7Nh3": "You have custom emoji, bigger uploads, and more for **{price}**.",
+                "lD21Ob": "$[](notice)"
+            },
             "deleted": {},
             "modified": {}
         },
@@ -23,5 +28,5 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-25T23:49:31.308011+00:00"
+    "timestamp": "2026-11-26T00:10:42.046662+00:00"
 }
