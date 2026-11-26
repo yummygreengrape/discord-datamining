@@ -1,5 +1,5 @@
 {
-    "build_hash": "8b454b4847c5542542db484e886763421332df48",
+    "build_hash": "2fb8119a419f980f4f2c463c0b4f705564ae7c37",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,9 +13,106 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
+            "added": {
+                "6qjRAz": "Your copy gets new versions of the original automatically. Updates stop if you make changes.",
+                "Bz4S5B": "For Personal",
+                "F6fHag": "{projectName} (copy)",
+                "LhVLqL": "Auto-receive updates",
+                "Olyu9M": "$[{projectName} is built for personal use. It will be converted to a server project for you.](warningHook)",
+                "R2uxWO": "Is this project for just yourself or for a server?",
+                "Uugfhl": "For a Server",
+                "aR/jb7": "Create a new project based on $[{projectName}](projectHook). This does not affect the original.",
+                "deAv/Y": "What do you want to change? (Optional)",
+                "e4/NHU": "$[{projectName} is built for a server. It will be converted to a personal project for you.](warningHook)",
+                "vhUp/8": "Leave blank to keep it as-is"
+            },
             "deleted": {},
-            "modified": {}
+            "modified": {
+                "0Vceid": {
+                    "new_value": "Personal Projects",
+                    "old_value": "Your Library"
+                },
+                "Cn8H0Y": {
+                    "new_value": "I couldn’t make a copy of this app. Try again?",
+                    "old_value": "I couldn’t remix this app. Try again?"
+                },
+                "F2yVHg": {
+                    "new_value": "A copy doesn’t bring the original’s secrets or settings. Add yours to finish setting it up.",
+                    "old_value": "A remix doesn’t bring the original’s secrets or settings. Add yours to finish setting it up."
+                },
+                "PrV2rD": {
+                    "new_value": "You will be able to use this in the location you selected. Make changes to make it your own, or use it as-is.",
+                    "old_value": "Make a copy of this app and share with other people."
+                },
+                "PuID+v": {
+                    "new_value": "A copy is someone’s own version of your app that they can change.",
+                    "old_value": "A remix is someone’s own copy of your app that they can change."
+                },
+                "UOr0cK": {
+                    "new_value": "It breaks Discord’s rules, so it can’t be published, previewed or copied. Remove what breaks the rules, then request a review.",
+                    "old_value": "It breaks Discord’s rules, so it can’t be published, previewed or remixed. Remove what breaks the rules, then request a review."
+                },
+                "Up6Ssw": {
+                    "new_value": "Your copy didn’t finish setting up. {reason}",
+                    "old_value": "Your remix didn’t finish setting up. {reason}"
+                },
+                "WLBlI4": {
+                    "new_value": "Only the owner can change who can make a copy.",
+                    "old_value": "Only the owner can change who can install or remix."
+                },
+                "XWgAfc": {
+                    "new_value": "Make a copy",
+                    "old_value": "Remix"
+                },
+                "Z/NFcQ": {
+                    "new_value": "Who can make a copy?",
+                    "old_value": "Who can remix?"
+                },
+                "heoCNf": {
+                    "new_value": "Copies with auto-updates on take each version you publish automatically, and copies with auto-updates off can pull in your changes. Only this switch stops updates; changing who can make a copy doesn’t.",
+                    "old_value": "Copies take each version you publish automatically, and remixes can pull in your changes. Only this switch stops updates; changing who can install or remix doesn’t."
+                },
+                "j8tmjK": {
+                    "new_value": "Making a copy…",
+                    "old_value": "Remixing…"
+                },
+                "jDBYrs": {
+                    "new_value": "Who can make a copy?",
+                    "old_value": "Who can install or remix?"
+                },
+                "mHCXtm": {
+                    "new_value": "Copied from **{source}**.",
+                    "old_value": "Remixed from **{source}**."
+                },
+                "maL0+X": {
+                    "new_value": "Location",
+                    "old_value": "Add to…"
+                },
+                "mbybxl": {
+                    "new_value": "Choose who can make a copy of this app.",
+                    "old_value": "Choose who can install or remix this app."
+                },
+                "pgbZu+": {
+                    "new_value": "How do you want your copy?",
+                    "old_value": "How should we remix?"
+                },
+                "sx5jYE": {
+                    "new_value": "Use as-is",
+                    "old_value": "Just a copy"
+                },
+                "vU1gB6": {
+                    "new_value": "Make a copy of {projectName}",
+                    "old_value": "Remix {projectName}"
+                },
+                "wzqQPR": {
+                    "new_value": "Couldn’t update who can make a copy. Try again.",
+                    "old_value": "Couldn’t update who can install or remix. Try again."
+                },
+                "xBBqXx": {
+                    "new_value": "Every link you’ve sent stops working. Copies people already made stay.",
+                    "old_value": "Every link you’ve sent stops working. Copies and remixes stay."
+                }
+            }
         },
         "ko": {
             "added": {},
@@ -23,5 +120,125 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-26T18:19:58.872452+00:00"
+    "string_context": {
+        "en": {
+            "UOr0cK": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "같은 묶음에는 앱 검토 요청과 검토 통과 상태가 있어요. 이 문구는 막힌 동작 세 가지를 직접 나열하고, 위반 내용을 제거한 뒤 검토를 요청하라고 안내해요.",
+                    "generated_at": "2026-11-06T15:06:01.567003Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Request review",
+                        "App review",
+                        "Publish",
+                        "Preview",
+                        "Remix"
+                    ],
+                    "search_intent": "Discord 앱을 게시하거나 미리보기·리믹스할 수 없는 이유와 검토 재요청 방법을 찾으려는 검색이에요.",
+                    "source_context": "11월 3~5일 앱 문자열에는 검토 요청·진행·통과, 게시 보류와 하루 검토 한도 안내가 함께 있어요.",
+                    "summary": "Discord 규칙 위반으로 앱의 게시·미리보기·리믹스가 막혔다는 안내예요.",
+                    "what_it_means": "현재 앱은 규칙 위반 판정 때문에 게시와 미리보기 및 리믹스를 사용할 수 없어요.",
+                    "what_to_do": "안내된 위반 내용을 제거한 뒤 화면의 검토 요청 기능으로 다시 검토를 요청해 주세요.",
+                    "when_it_appears": "앱의 규칙 검토 결과로 게시 관련 동작이 제한된 상태에서 나타날 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The same group includes review requests and a passed-review state. This sentence names the three blocked actions and explicitly asks the creator to remove the violating content before requesting review.",
+                    "generated_at": "2026-11-06T15:06:01.567003Z",
+                    "intent_type": "error_or_blocked_action",
+                    "related_terms": [
+                        "Request review",
+                        "App review",
+                        "Publish",
+                        "Preview",
+                        "Remix"
+                    ],
+                    "search_intent": "The reader wants to know why an app cannot be published, previewed or remixed and how to request review again.",
+                    "source_context": "The November 3–5 app strings include review requests, review progress and pass states, publication holds and a daily review limit.",
+                    "summary": "This notice blocks publishing, previewing and remixing an app because it breaks Discord’s rules.",
+                    "what_it_means": "The app is currently barred from publishing, previewing and remixing due to a rules violation.",
+                    "what_to_do": "Remove the content identified as breaking the rules, then use the displayed request-review action.",
+                    "when_it_appears": "It may appear when an app’s rule-review outcome restricts publication-related actions."
+                }
+            },
+            "vU1gB6": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "같은 화면에서는 원본 업데이트를 계속 받는 사본과 직접 바꾸는 선택지를 보여줘요. 이 동작은 원본에서 출발한 내 앱을 만드는 방식이에요.",
+                    "generated_at": "2026-11-21T15:08:26Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjure",
+                        "Remix",
+                        "Customize",
+                        "Just a copy",
+                        "automatic updates"
+                    ],
+                    "search_intent": "Discord에서 Conjure 앱을 리믹스하면 원본 앱에 어떤 영향이 있는지 확인하려는 검색이에요.",
+                    "source_context": "리믹스 화면에서 Customize와 Just a copy, 그리고 사본의 업데이트 조건이 함께 관측됐어요.",
+                    "summary": "‘Remix’ 버튼은 Conjure 앱을 바탕으로 내 사본을 만드는 흐름을 열어요.",
+                    "what_it_means": "이 동작은 원본에서 출발한 내 앱을 만드는 방식이에요.",
+                    "when_it_appears": "다른 사람이 만든 앱을 보고 리믹스할 수 있을 때 표시돼요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The flow offers a copy that follows updates and a separate choice for customizing. The action starts your own project based on the original.",
+                    "generated_at": "2026-11-21T15:08:26Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjure",
+                        "Remix",
+                        "Customize",
+                        "Just a copy",
+                        "automatic updates"
+                    ],
+                    "search_intent": "What happens to the original Conjure app if I remix it?",
+                    "source_context": "Customize and Just a copy appeared together with descriptions of how a copy receives updates.",
+                    "summary": "The “Remix” action opens the flow for making your own version of a Conjure app.",
+                    "what_it_means": "The action starts your own project based on the original.",
+                    "when_it_appears": "It appears when viewing an app that offers remixing."
+                }
+            },
+            "xBBqXx": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "초기화는 프로젝트 링크를 통한 접근에 영향을 줘요. 상대방이 이미 만든 복사본이나 리믹스는 초기화 후에도 유지된다고 문구에 나와요.",
+                    "generated_at": "2026-11-09T15:10:09.650845Z",
+                    "intent_type": "server_or_permission_notice",
+                    "related_terms": [
+                        "Sharing",
+                        "Private link",
+                        "Create link",
+                        "Expire after",
+                        "Reset private links"
+                    ],
+                    "search_intent": "비공개 링크를 초기화하면 리믹스도 사라지는지 확인하려는 검색이에요.",
+                    "source_context": "같은 변경분에 비공개 링크 만들기, 만료 기간 선택, 기존 링크 초기화 문구가 있어요.",
+                    "summary": "비공개 링크를 초기화하면 이전에 보낸 링크는 끊기고 복사본과 리믹스는 남는다는 설명이에요.",
+                    "what_it_means": "초기화는 기존 링크를 무효화해요. 이미 만들어진 복사본과 리믹스는 그대로 유지돼요.",
+                    "when_it_appears": "Conjure 프로젝트에서 링크 초기화의 영향을 알려주는 본문에 보일 수 있어요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The reset affects access through the project links. The warning separately describes what happens to work people have already copied or remixed.",
+                    "generated_at": "2026-11-09T15:10:09.650845Z",
+                    "intent_type": "server_or_permission_notice",
+                    "related_terms": [
+                        "Sharing",
+                        "Private link",
+                        "Create link",
+                        "Expire after",
+                        "Reset private links"
+                    ],
+                    "search_intent": "You may be checking whether a private link reset removes someone’s remix.",
+                    "source_context": "The same update includes private link creation, link expiry, and private link reset copy.",
+                    "summary": "Conjure explains that a private link reset invalidates sent links and leaves existing copies and remixes in place.",
+                    "what_it_means": "Previously sent links stop working, and existing copies and remixes remain.",
+                    "when_it_appears": "It can appear in the explanation of what happens before you reset private links."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-11-26T21:15:46.387879+00:00"
 }
