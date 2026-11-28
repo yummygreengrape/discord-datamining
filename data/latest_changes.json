@@ -1,5 +1,5 @@
 {
-    "build_hash": "e9dd3566bbb544cf3a9936cdd6b45aad50ad941e",
+    "build_hash": "1ec52e026c78cb4761d437d05c3e2102d4485d9f",
     "deleted_api_endpoints": [],
     "deleted_experiment_details": [],
     "deleted_experiments": [],
@@ -13,8 +13,25 @@
     "rollout_changes": [],
     "string_changes": {
         "en": {
-            "added": {},
-            "deleted": {},
+            "added": {
+                "+1Em5x": "Conjure is getting your app ready for its new home.",
+                "+4A5Lz": "If it’s already published, it’ll be live in the new server right away.",
+                "4GZfkV": "Personal",
+                "5SqC1n": "This project can’t be moved to that server. Try a different one.",
+                "A8U0kI": "Something went wrong moving your project. Try again.",
+                "BNILnT": "Your project has now moved to Personal. Publish to use it.",
+                "CYYB01": "Move this project to another server or make it personal. Want to keep it in this server too? [Make a Copy]({onMakeCopy}) instead.",
+                "IO+at5": "After the move, I will help you make sure everything still works.",
+                "J/WRVu": "Your project has now moved to {server}.",
+                "J9OF2X": "Move Project",
+                "Tm08Vx": "Choose a server for this project. To keep a personal version too, [Make a Copy]({onMakeCopy}) instead.",
+                "UMvU+1": "Select an audience",
+                "fMcCGp": "Your project has now moved to Personal.",
+                "wcTYHC": "Move to…"
+            },
+            "deleted": {
+                "JQ/7HT": "This app is personal, so only you can use it. Put it in a server for everyone there to use it."
+            },
             "modified": {}
         },
         "ko": {
@@ -23,5 +40,47 @@
             "modified": {}
         }
     },
-    "timestamp": "2026-11-28T06:45:42.115556+00:00"
+    "string_context": {
+        "en": {
+            "JQ/7HT": {
+                "analysis": {
+                    "confidence": "medium",
+                    "detailed_summary": "서버 멤버와 함께 쓰려면 앱을 서버에 두는 방식이 별도로 소개돼요. 현재 상태는 개인용으로 안내돼요.",
+                    "generated_at": "2026-11-21T15:08:26Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjure",
+                        "personal app",
+                        "Change Server",
+                        "Manage Server",
+                        "Manage Channels"
+                    ],
+                    "search_intent": "내 Conjure 앱을 다른 서버 멤버와 함께 쓸 수 있는지 확인하려는 검색이에요.",
+                    "source_context": "Conjure 문구에는 개인 앱 만들기, 서버 이동, 협업자 역할 정리와 필요한 권한이 함께 나와요.",
+                    "summary": "이 문구는 개인 Conjure 앱을 만든 사람만 쓸 수 있다고 설명해요.",
+                    "what_it_means": "현재 상태는 개인용으로 안내돼요.",
+                    "when_it_appears": "개인 앱이 어디에 속하는지 보여주는 Conjure 화면에서 확인돼요."
+                },
+                "analysis_en": {
+                    "confidence": "medium",
+                    "detailed_summary": "The screen points to placing it in a server to make it available to members there. The current project is configured for individual use.",
+                    "generated_at": "2026-11-21T15:08:26Z",
+                    "intent_type": "feature_or_setting_explanation",
+                    "related_terms": [
+                        "Conjure",
+                        "personal app",
+                        "Change Server",
+                        "Manage Server",
+                        "Manage Channels"
+                    ],
+                    "search_intent": "Can other people in my Discord server use this personal Conjure app?",
+                    "source_context": "Conjure copy groups personal app creation, moving servers, clearing collaborator roles and permission requirements.",
+                    "summary": "This description says only you can use the current personal Conjure app.",
+                    "what_it_means": "The current project is configured for individual use.",
+                    "when_it_appears": "It appears where Conjure explains whether a project is personal or in a server."
+                }
+            }
+        }
+    },
+    "timestamp": "2026-11-28T09:52:11.956646+00:00"
 }
